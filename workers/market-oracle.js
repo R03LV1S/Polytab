@@ -44,7 +44,7 @@ function jsonResponse(obj, status) {
 
 async function listMarkets(env) {
   // Fetch docs/data/markets.json from the published Pages site (read-only, free).
-  // Returns open markets with volume/odds EXACTLY as verified on-chain (no fabrication).
+  // Returns open markets with funded totals EXACTLY as verified on-chain (no fabrication).
   try {
     const res = await fetch("https://r03lv1s.github.io/Polytab/data/markets.json");
     if (!res.ok) return [];
@@ -53,7 +53,8 @@ async function listMarkets(env) {
       id: m.id,
       status: m.status,
       totalVolumeUSD: m.totalVolumeUSD || 0,
-      currentOdds: m.currentOdds || null,
+      forecastSplit: m.forecastSplit || null,
+      fundingPolicy: data.fundingPolicy || { projectEscrowPct: 100, protocolFeePct: 0, stakerPayoutPct: 0 },
       resolutionDeadline: m.oracle && m.oracle.resolutionDeadline,
       disputeWindowHours: (m.oracle && m.oracle.disputeWindowHours) || 48,
       method: m.oracle && m.oracle.method

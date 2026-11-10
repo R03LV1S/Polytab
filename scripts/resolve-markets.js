@@ -16,6 +16,7 @@ const MARKETS_PATH = path.join(__dirname, "..", "docs", "data", "markets.json");
 async function main() {
   const data = JSON.parse(fs.readFileSync(MARKETS_PATH, "utf8"));
   const markets = data.markets || [];
+  const marketsFile = data;
 
   for (const m of markets) {
     const deadline = m.oracle && m.oracle.resolutionDeadline;
@@ -36,9 +37,14 @@ async function main() {
         console.log("  -> dispute-window issue creation integration pending");
       }
     }
-    // Honest-zero guard: never write nonzero volume/odds unless verified on-chain
-    if (m.totalVolumeUSD !== 0 || m.currentOdds !== null) {
-      throw new Error(`${m.id} has fabricated metrics (volume/odds must be zero until on-chain verification)`);
+    // Honest-zero guard: never write nonzero totals/splits unless verified on-chain
+    if (m.totalVolumeUSD !== 0 || m.forecastSplit !== null) {
+      throw new Error(`${m.id} has fabricated metrics (funded total / forecast split must stay zero until on-chain verification)`);
+    }
+    // Funding policy guard: 100% must reach the project. No fee, no staker payout.
+    const policy = marketsFile.fundingPolicy;
+    if (!policy || policy.projectEscrowPct !== 100 || policy.protocolFeePct !== 0 || policy.stakerPayoutPct !== 0) {
+      throw new Error(`${m.id} funding policy must be 100% project escrow, 0% protocol fee, 0% staker payout`);
     }
   }
   console.log(`Checked ${markets.length} markets. All metrics honest-zero.`);

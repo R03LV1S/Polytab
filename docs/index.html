@@ -328,18 +328,31 @@
       <div class="bg-zinc-900/50 border border-zinc-800 p-5 rounded-2xl space-y-3 hc-card">
         <div class="flex flex-wrap items-center justify-between gap-3">
           <h2 class="text-lg font-bold text-white">Futarchy Policy Markets &mdash; Pilot</h2>
-          <span class="px-2.5 py-1 rounded bg-zinc-800 text-zinc-300 border border-zinc-700 text-[11px] font-mono">Vote on values. Bet on beliefs.</span>
+          <span class="px-2.5 py-1 rounded bg-zinc-800 text-zinc-300 border border-zinc-700 text-[11px] font-mono">Vote on values. Forecast with pennies.</span>
         </div>
         <p class="text-xs text-zinc-400 max-w-3xl leading-relaxed">
-          Each market asks which verified intervention works better for a specific community. Stake on the outcome you believe in &mdash;
-          <strong class="text-yellow-300 hc-accent">the losing side&rsquo;s stakes fund the winning intervention</strong>, so no predictor profits and every dollar funds the remedy.
-          Settlement uses public data plus a community dispute window, never a house or a bookie.
+          Each market asks which verified intervention works better for a specific community. Backing an outcome is a donation, not a wager &mdash;
+          <strong class="text-yellow-300 hc-accent">100% of every stake funds the project you chose</strong>. No protocol slice, no pooled pot, no redistribution between outcomes, and no money back to anyone.
+          Settlement decides which intervention earns the documented-improvement credit, and which forecasters earn non-monetary accuracy credit.
+        </p>
+        <p class="text-xs text-zinc-400 max-w-3xl leading-relaxed">
+          The incentive is reputation, never money: a public accuracy rate, a win/loss record, and badges. Reputation cannot be redeemed, transferred, or cashed out.
         </p>
         <p class="text-[11px] text-amber-300/90 bg-amber-500/5 border border-amber-500/20 rounded-xl px-3 py-2 font-mono">
-          Honest-zero launch: volume is $0.00 and odds are unset until the first verified on-chain stake. No fabricated numbers, ever.
+          Honest-zero launch: total funded is $0.00 and the forecast split is unset until the first verified on-chain stake. No fabricated numbers, ever.
         </p>
       </div>
       <div id="marketsGrid" class="grid grid-cols-1 lg:grid-cols-2 gap-6" aria-live="polite"></div>
+      <div class="bg-zinc-900/50 border border-zinc-800 p-5 rounded-2xl space-y-3 hc-card">
+        <div class="flex flex-wrap items-center justify-between gap-3">
+          <h2 class="text-lg font-bold text-white">Forecast Reputation &mdash; Non-Monetary</h2>
+          <span class="px-2.5 py-1 rounded bg-zinc-800 text-zinc-300 border border-zinc-700 text-[11px] font-mono">Accuracy, not payouts</span>
+        </div>
+        <p class="text-xs text-zinc-400 max-w-3xl leading-relaxed">
+          Correct forecasts earn a public accuracy rate, a win/loss record, and badges. Entries appear only after a market resolves and a forecast is verified &mdash; never before. Reputation is never paid in money.
+        </p>
+        <div id="forecastBoard" class="space-y-2" aria-live="polite"></div>
+      </div>
     </section>
 
     <section id="tab-global" class="tab-panel hidden space-y-8">
@@ -434,9 +447,9 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       </div>
       <div class="bg-zinc-900/30 border border-zinc-800 p-6 rounded-2xl space-y-3 hc-card">
         <span class="text-xs font-mono uppercase text-purple-400 font-bold">Futarchy &amp; Adversarial Outcome Markets</span>
-        <h3 class="text-lg font-bold text-white">Vote on Values, Bet on Beliefs</h3>
+        <h3 class="text-lg font-bold text-white">Vote on Values, Forecast with Pennies</h3>
         <p class="text-xs text-zinc-300 leading-relaxed">
-          Futarchy policy markets let small-dollar stakes reveal which verified intervention a community believes works better — then route <strong class="text-yellow-300">100% of losing-side stakes plus a 10% protocol slice into the winning intervention&rsquo;s escrow</strong>. No predictor receives principal plus yield: this is not a betting product, so there are no losers. Markets launch at $0 volume with unset odds; numbers appear only after verified on-chain stakes.
+          Futarchy policy markets let small-dollar donations reveal which verified intervention a community believes works better. Every stake is a direct donation: <strong class="text-yellow-300">100% goes to the escrow of the intervention the staker chose</strong> &mdash; no protocol slice, no shared pot, no redistribution between outcomes, and no payout to anyone. Correct forecasts earn non-monetary reputation (a public accuracy rate, win/loss record, and badges), never money. Markets launch at $0 funded with an unset forecast split; numbers appear only after verified on-chain stakes.
         </p>
         <ol class="text-xs text-zinc-300 space-y-2 list-decimal list-inside">
           <li><strong>Tier 1 &mdash; Deterministic:</strong> A GitHub Action cron-fetches public data feeds (legislative dockets, agency APIs, school-district reports), SHA-256-verifies the body, and auto-settles hard metrics after the resolution deadline.</li>
@@ -633,12 +646,13 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
             })) : [],
             stakePriceUSD: Number(m.stakePriceUSD) || 0.50,
             totalVolumeUSD: Number(m.totalVolumeUSD) || 0,
-            currentOdds: m.currentOdds || null,
+            forecastSplit: m.forecastSplit || null,
             resolutionRule: String(m.resolutionRule || ""),
             oracleSource: String((m.oracle && m.oracle.source) || ""),
             resolutionDeadline: String((m.oracle && m.oracle.resolutionDeadline) || ""),
             disputeWindowHours: Number(m.oracle && m.oracle.disputeWindowHours) || 48,
-            civicPivot: String(m.civicPivot || ""),
+            fundingRule: String(m.fundingRule || ""),
+            reputationRule: String(m.reputationRule || ""),
             plainSummary: String(m.plainSummary || "")
           })) : FALLBACK_MARKETS;
         } catch (_) { state.markets = FALLBACK_MARKETS; }
@@ -673,10 +687,10 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           titleH3.textContent = m.title;
           const descP = document.createElement("p");
           descP.className = "text-xs text-zinc-300 leading-relaxed whitespace-pre-line";
-          descP.textContent = state.plainLanguageMode ? m.plainSummary : m.civicPivot;
+          descP.textContent = state.plainLanguageMode ? m.plainSummary : [m.fundingRule, m.reputationRule].filter(Boolean).join("\n\n");
           const volumeP = document.createElement("p");
           volumeP.className = "text-[11px] text-zinc-400 font-mono";
-          volumeP.textContent = "Volume: $" + m.totalVolumeUSD.toFixed(2) + (m.currentOdds ? "" : " — Odds: unset (no verified stakes yet)");
+          volumeP.textContent = "Funded: $" + m.totalVolumeUSD.toFixed(2) + (m.forecastSplit ? " — Forecast split: " + m.forecastSplit : " — Forecast split: unset (no verified stakes yet)");
           const outcomesDiv = document.createElement("div");
           outcomesDiv.className = "space-y-2 pt-2 border-t border-zinc-800/80";
           const outcomesLabel = document.createElement("p");
@@ -689,7 +703,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
             const btn = document.createElement("button");
             btn.type = "button";
             btn.className = "w-full py-2.5 px-4 bg-zinc-800 hover:bg-zinc-700 text-white font-bold rounded-xl text-xs transition hc-btn";
-            btn.textContent = "Stake $" + m.stakePriceUSD.toFixed(2) + " — " + o.label + " (" + o.organization + ")";
+            btn.textContent = "Fund $" + m.stakePriceUSD.toFixed(2) + " — " + o.label + " (" + o.organization + ")";
             const panel = document.createElement("div");
             panel.className = "hidden bg-black/40 border border-zinc-800 rounded-xl p-3 space-y-2";
             const approxWei = String(Math.round((m.stakePriceUSD / 2800) * 1e18));
@@ -704,16 +718,20 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
             const uriP = document.createElement("p");
             uriP.className = "text-[10px] text-zinc-400 font-mono break-all";
             uriP.textContent = eip681;
+            const fundingNote = document.createElement("p");
+            fundingNote.className = "text-[10px] text-emerald-300/90 leading-relaxed";
+            fundingNote.textContent = "100% of this amount goes to " + o.organization + " (bounty #" + o.beneficiaryBountyId + "). No protocol fee and no payout to you.";
             const recordBtn = document.createElement("button");
             recordBtn.type = "button";
             recordBtn.className = "w-full py-2 bg-purple-700 hover:bg-purple-600 text-white font-semibold rounded-xl text-[11px] transition hc-btn";
-            recordBtn.textContent = "Record Stake via GitHub Issue";
+            recordBtn.textContent = "Record Funding via GitHub Issue";
             recordBtn.addEventListener("click", () => {
-              const params = new URLSearchParams({ title: "[Market Stake]: " + m.id + " Outcome " + o.key, labels: "market-stake,pending-rpc-check", body: ["### Futarchy Market Stake Submission", "- **Market:** " + m.id + " — " + m.title, "- **Outcome:** " + o.key + " — " + o.label + " (" + o.organization + ", bounty #" + o.beneficiaryBountyId + ")", "- **Escrow Wallet:** `" + o.escrowWallet + "`", "- **Stake Amount (USD):** " + m.stakePriceUSD, "- **TX Hash:** `0x...`"].join("\n") });
+              const params = new URLSearchParams({ title: "[Outcome Funding]: " + m.id + " Outcome " + o.key, labels: "outcome-funding,pending-rpc-check", body: ["### Futarchy Outcome Funding Submission", "- **Market:** " + m.id + " — " + m.title, "- **Outcome:** " + o.key + " — " + o.label + " (" + o.organization + ", bounty #" + o.beneficiaryBountyId + ")", "- **Escrow Wallet:** `" + o.escrowWallet + "`", "- **Amount (USD):** " + m.stakePriceUSD, "- **TX Hash:** `0x...`", "", "100% of this amount funds the chosen project. No protocol fee, no redistribution, no payout."].join("\n") });
               window.open("https://github.com/" + GITHUB_OWNER + "/" + GITHUB_REPO + "/issues/new?" + params.toString(), "_blank", "noopener");
             });
             panel.appendChild(qrBox);
             panel.appendChild(uriP);
+            panel.appendChild(fundingNote);
             panel.appendChild(recordBtn);
             btn.addEventListener("click", () => { panel.classList.toggle("hidden"); });
             row.appendChild(btn);
@@ -748,6 +766,53 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           card.appendChild(oracleP);
           grid.appendChild(card);
         });
+      }
+      // Non-monetary forecast reputation board. Empty until the first market
+      // resolves and a forecast is verified — no invented leaderboard rows.
+      async function loadForecastBoard() {
+        const board = document.getElementById("forecastBoard");
+        const render = (ledger) => {
+          board.replaceChildren();
+          const forecasters = Array.isArray(ledger && ledger.forecasters) ? ledger.forecasters : [];
+          if (forecasters.length === 0) {
+            const empty = document.createElement("p");
+            empty.className = "text-[11px] text-zinc-500 font-mono";
+            empty.textContent = "Ledger empty — 0 resolved forecasts. Reputation starts at zero, like every other number on this site.";
+            board.appendChild(empty);
+          } else {
+            forecasters.forEach((f) => {
+              const row = document.createElement("div");
+              row.className = "flex items-center justify-between gap-3 text-[11px] font-mono text-zinc-300 border-b border-zinc-800/60 pb-1";
+              const name = document.createElement("span");
+              name.textContent = String(f.handle || "anonymous");
+              const score = document.createElement("span");
+              const correct = Number(f.correct) || 0;
+              const total = Number(f.total) || 0;
+              const rate = total > 0 ? Math.round((correct / total) * 100) : 0;
+              score.textContent = rate + "% (" + correct + "/" + total + ")";
+              row.appendChild(name);
+              row.appendChild(score);
+              board.appendChild(row);
+            });
+          }
+          const badges = Array.isArray(ledger && ledger.badges) ? ledger.badges : [];
+          if (badges.length > 0) {
+            const legend = document.createElement("p");
+            legend.className = "text-[10px] text-zinc-500 pt-1";
+            legend.textContent = "Badges: " + badges.map((b) => b.label).join(" · ");
+            board.appendChild(legend);
+          }
+        };
+        const controller = new AbortController();
+        const timeout = setTimeout(() => controller.abort(), 2500);
+        try {
+          const res = await fetch("./data/forecasters.json", { signal: controller.signal });
+          clearTimeout(timeout);
+          if (!res.ok) throw new Error("Forecast ledger status not 200");
+          render(await res.json());
+        } catch (_) {
+          render(null);
+        }
       }
       function updateTelemetry() {
         const totalProjects = state.proposals.length;
@@ -1083,6 +1148,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       if (state.socialHandle) { document.getElementById("socialIdentityBtn").textContent = state.socialHandle; }
       loadFeedState();
       loadMarkets();
+      loadForecastBoard();
     })();
   </script>
 </body>
