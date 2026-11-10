@@ -60,40 +60,53 @@ All organizations are independently audited (IRS Form 990, Charity Navigator, Ch
 
 ## Feeds (Decentralized Data Bus)
 
-- Global: `/feeds/global.xml` and `/feed.json`
-- By category: `/feeds/categories/<slug>.xml`
-- By location (GeoRSS): `/feeds/geo/<slug>.xml`
-- Per user: `/users/<handle>/activity.xml`
-- WebSub hub linked in feed headers for instant syndication.
+All feeds are static files generated from `docs/feed.json` by `scripts/generate-feeds.js` during the Pages deploy — no backend, no database.
+
+- `https://polytab.store/feed.xml` — RSS 2.0 mirror of the Action Shelf (100 verified organizations).
+- `https://polytab.store/feed.json` — JSON Feed 1.1 (canonical machine-readable data).
+- `https://polytab.store/feeds/global.xml` — geoRSS mirror; coordinates rounded to 2 decimal places (~1 km) to prevent PII/doxing.
+- `https://polytab.store/feeds/audio.xml` — plain-language text feed for screen readers. Audio enclosures are only published when a real recording exists; no placeholder audio.
+- `https://polytab.store/data/event-queue.json` — Event Radar queue (proposed blocks, not yet on the shelf).
+
+Every feed states funding and vote counts exactly as stored. At launch those are **honest-zero** (`fundedUSD: 0`, `votesCount: 0`); nothing is estimated or invented.
+
+## Automation (GitHub Actions)
+
+| Workflow | Schedule | Purpose |
+|---|---|---|
+| `pages.yml` | on push to `main` | Runs offline tests, regenerates RSS/geoRSS, deploys `docs/` to Pages |
+| `discover-orgs.yml` | weekly | Discovers candidate organizations; emits verified-block format for human review |
+| `discover-events.yml` | every 6 hours | Event Radar: scans GDELT, CDC Newsroom, GDACS, USGS for current events; writes Proposed blocks to `docs/data/event-queue.json` |
+| `resolve-markets.yml` | weekly (Mon 06:00 UTC) | Futarchy market oracle: deterministic public-data check + SHA-256, dispute window, multi-sig final call |
+
+Radar survivors are **never auto-promoted**. A queue item becomes a shelf action only after a verified 501(c)(3) pairing and governance sign-off.
 
 ## Governance
 
-See `docs/governance.md` — 2-of-3 multi-sig cold-storage payout with a 48-hour dispute window.
+2-of-3 multi-sig escrow payouts with a 48-hour public dispute window. Details are published in the Governance tab of `docs/index.html`; live policy markets are in `docs/data/markets.json`.
 
-## Zero-Cost Architecture (10 maneuvers)
+## Zero-Cost Architecture
 
-1. Cloudflare Worker RSS-to-JSON dynamic query engine (`workers/filter.js`)
-2. R2 proof-of-work media delivery (zero egress)
-3. Git-commit-as-state immutable accounting
-4. WebSub real-time push (hub pinged in Action)
-5. Optional Cloudflare D1 SQL cache for leaderboards
-6. Giscus forum via GitHub Discussions
-7. RSS as failover/mirror directory (IPFS mirrors in feed.json)
-8. Cloudflare Edge dynamic OpenGraph tags (`workers/og-rewriter.js`)
-9. Edge WAF rate-limiting
-10. Automated Cloudflare cache purge in verify-vote Action
+1. GitHub Pages serves the static frontend and generated feeds.
+2. GitHub Actions is the entire backend (scanning, verification, feed generation, market resolution).
+3. Git-commit-as-state: every change is an append-only, auditable commit.
+4. Cloudflare Workers (`workers/event-radar.js`, `workers/org-discovery.js`, `workers/market-oracle.js`) expose read-only JSON endpoints on the free tier.
+5. RSS + JSON Feed act as the data bus; no server or database is required.
+6. EIP-681 QR codes let voters fund escrow wallets directly from any EVM wallet.
+7. No paid infrastructure: no R2, no D1, no paid DNS, no paid API keys.
 
 ## Free Tools Used
 
 | Tool | Free Tier | Role |
 |---|---|---|
-| GitHub Actions | Unlimited (public repos) | Backend verification, RSS builder |
+| GitHub Actions | Unlimited (public repos) | Scanning, verification, feed generation |
 | GitHub Pages | Unlimited static hosting | Frontend + feeds |
-| GitHub Discussions | Unlimited | Forum via Giscus |
-| Cloudflare Workers | 100k req/day | Dynamic filtering, OG tags |
-| Cloudflare R2 | 10 GB + zero egress | Proof media |
-| Cloudflare D1 | 5M reads/day | Optional SQL cache |
-| WebSub (Google) | Free public hub | Real-time push |
+| GitHub Issues | Unlimited | Vote/proof submission + 48h dispute trail |
+| GDELT DOC API | Free, no key | Global news scan (Event Radar) |
+| CDC Newsroom RSS | Free, public domain | Public-health scan (Event Radar) |
+| GDACS RSS (EU JRC) | Free, public domain | Disaster alerts (Event Radar) |
+| USGS GeoJSON | Free, public domain | Significant earthquakes (Event Radar) |
+| Cloudflare Workers | 100k req/day | Read-only JSON endpoints |
 
 ## Tech
 
