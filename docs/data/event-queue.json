@@ -1,7 +1,65 @@
 {
   "version": 1,
   "description": "Polytab Event Radar queue. Current events (last 21 days) surfaced from free public feeds (GDELT, CDC Newsroom, GDACS, USGS) as candidate civic-action blocks in the exact Polytab block format. All metrics are honest-zero (fundedUSD=0, votesCount=0). Items are PROPOSED — promotion to the Action Shelf (feed.json) requires a verified organization pairing and governance sign-off, never automatic. Wallet series: 0x71E + ID (601+). No coordinates are stored (lat/lng null); locations are public place-name strings only.",
-  "items": [],
-  "processedHashes": [],
-  "nextId": 601
+  "items": [
+    {
+      "id": "601",
+      "title": "Hurricane — HURRICANE ISAIAS — (DR)",
+      "category": "Environmental",
+      "organization": "Verification Pending",
+      "location": "FL — Bay (County)",
+      "summary": "Community Radar current event: \"Hurricane — HURRICANE ISAIAS — (DR)\" (FEMA OpenFEMA (public domain), 2026-10-27). Awaiting a verified 501(c)(3) partner pairing before Action Shelf listing.",
+      "plainSummary": "• What is broken: Hurricane — HURRICANE ISAIAS — (DR)\n• What will be done: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://www.fema.gov/disaster/4955 (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x71E0000000000000000000000000000000000601",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "FEMA OpenFEMA (public domain)",
+        "sourceUrl": "https://www.fema.gov/disaster/4955",
+        "publishedAt": "2026-10-27T00:00:00.000Z",
+        "discoveredAt": "2026-11-10T03:58:48.160Z",
+        "proposedPairing": null,
+        "dedupeHash": "b925120c60ad1cef1a3111324996cbf742b7d17ad6b47db91e4479d2207e9a3e"
+      }
+    },
+    {
+      "id": "602",
+      "title": "Flood — SEVERE STORMS AND FLOODING — (DR)",
+      "category": "Environmental",
+      "organization": "World Central Kitchen",
+      "location": "NM — Jicarilla Apache Indian Reservation",
+      "summary": "Community Radar current event: \"Flood — SEVERE STORMS AND FLOODING — (DR)\" (FEMA OpenFEMA (public domain), 2026-10-26). Proposed pairing with verified organization World Central Kitchen (Action Shelf bounty #4) — pending governance verification.",
+      "plainSummary": "• What is broken: Flood — SEVERE STORMS AND FLOODING — (DR)\n• What will be done: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://www.fema.gov/disaster/3660 (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x71E0000000000000000000000000000000000602",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "FEMA OpenFEMA (public domain)",
+        "sourceUrl": "https://www.fema.gov/disaster/3660",
+        "publishedAt": "2026-10-26T00:00:00.000Z",
+        "discoveredAt": "2026-11-10T03:58:48.161Z",
+        "proposedPairing": {
+          "bountyId": "4",
+          "organization": "World Central Kitchen",
+          "keywordMatches": 2
+        },
+        "dedupeHash": "fc56d86f304ca0c2bacb2e8cb1417bd34ddc00309cda91ed61d6b84b3000e470"
+      }
+    }
+  ],
+  "processedHashes": [
+    "b925120c60ad1cef1a3111324996cbf742b7d17ad6b47db91e4479d2207e9a3e",
+    "fc56d86f304ca0c2bacb2e8cb1417bd34ddc00309cda91ed61d6b84b3000e470"
+  ],
+  "nextId": 603
 }
