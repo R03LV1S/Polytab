@@ -6,13 +6,13 @@ A decentralized micro-voting marketplace where communities fund real-world actio
 
 Polytab adapts prediction-market mechanics to civic bounties instead of speculative betting — and unlike Polymarket, **there are no losers**.
 
-1. **Vote:** Community members cast micro-fee votes on proposals (e.g., cleaning the school bleachers).
+1. **Vote:** Community members cast micro-fee votes on proposals (e.g., Will Richmond's corrupt Mayor be charged for child SA after the recent allegations?).
 2. **Pool:** Vote funds accumulate in an on-chain escrow contract.
-3. **Execute & Disburse:** Once a vote passes and proof of work is provided, the pooled funds are released to pay the people who completed the job.
+3. **Execute & Disburse:** Once a vote passes and proof of work is provided, the pooled funds are released to fund the project/legal costs/pay the people who completed the job/etc.
 
 ### What happens to denied votes?
 
-If a proposal is **denied**, the pooled funds are not lost. They are held in escrow and the voter is **credited** their vote value, which can be reused on any other active vote or a future proposal. No participant ever loses their stake — funds only move when a community-approved action is actually completed.
+If a proposal **loses**, the pooled funds are not lost. They are held in escrow and the voter is **credited** their vote value, which can be reused on any other active vote or a future proposal. No participant ever loses their stake — funds only move when a community-approved action is actually completed.
 
 ## Origin: The Ancient Assembly & The Name "Polytab"
 
