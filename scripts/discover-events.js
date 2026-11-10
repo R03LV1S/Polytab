@@ -521,5 +521,5 @@ module.exports = {
   proposePairing, truncate, toQueueBlock, sha256,
   FOCUS_KEYWORDS, MISSION_FOCUS, HAZARD_FOCUS, CATEGORY_RULES, GDELT_QUERIES,
   MAX_EVENT_AGE_DAYS, MAX_NEW_PER_RUN, GDELT_QUERIES_PER_RUN, gdeltQueriesForRun,
-  femaRowsToEvents, collectFema,
+  femaRowsToEvents, collectFema, collectGdelt, collectGdacs, collectUsgs,
 };
