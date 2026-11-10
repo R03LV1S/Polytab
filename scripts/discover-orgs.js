@@ -1,40 +1,40 @@
-// GitHub Action script: discover and verify new organizations
+// GitHub Action script: discover and verify orgs focused on
+// disabled community, sick children, cancer, leukemia, pediatric health
 // Runs on free tier (unlimited minutes on public repos)
-// Uses free public APIs: Charity Navigator, IRS 990, Giving Block directory
 
 const fs = require("fs");
 
-// Free public data sources
-const SOURCES = {
-  // GiveWell top charities (public, no API key needed)
-  givewell: "https://www.givewell.org/charities/top-charities",
-  // Charity Navigator search (free API, requires key in secrets)
-  charityNav: "https://api.charitynavigator.org/v2/Organizations",
-  // The Giving Block directory (public)
-  givingBlock: "https://thegivingblock.com/donate/"
-};
+const FOCUS_CATEGORIES = [
+  "disability", "disabled", "accessibility", "assistive", "wheelchair",
+  "cancer", "leukemia", "oncology", "pediatric", "children", "child",
+  "hospital", "medical", "health", "rehabilitation", "therapy",
+  "blind", "deaf", "autism", "cerebral palsy", "amputee", "prosthetic",
+  "orphan", "foster", "special needs", "rare disease", "chronic illness",
+  "service dog", "guide dog", "mobility", "hearing loss", "vision impairment",
+  "sick", "illness", "disease", "treatment", "care", "support"
+];
 
-// Verification criteria
 const CRITERIA = {
-  minCharityNavRating: 3,       // 3+ stars
-  require990Filing: true,        // Must have filed IRS Form 990
-  requireCryptoAcceptance: true,  // Must accept crypto
-  maxOverheadRatio: 0.25,        // Max 25% overhead
-  minProgramRatio: 0.70          // Min 70% program spending
+  minCharityNavRating: 3,
+  require990Filing: true,
+  requireCryptoAcceptance: true,
+  maxOverheadRatio: 0.25,
+  minProgramRatio: 0.70,
+  focusCategories: FOCUS_CATEGORIES
 };
 
 async function main() {
-  console.log("Org discovery script — placeholder");
+  console.log("Org discovery script — focus: disabled community, sick children, cancer, leukemia");
   console.log("In production, this would:");
-  console.log("1. Query Charity Navigator API for orgs with rating >= 3");
+  console.log("1. Query Charity Navigator API filtered by focus categories");
   console.log("2. Cross-reference with IRS Form 990 filings");
   console.log("3. Verify crypto acceptance via Giving Block directory");
   console.log("4. Check overhead ratio <= 25%");
   console.log("5. Add verified orgs to docs/data/proposals.json and feed.json");
   console.log("6. Commit and push changes");
   console.log("");
+  console.log("Focus categories:", FOCUS_CATEGORIES.join(", "));
   console.log("Criteria:", JSON.stringify(CRITERIA, null, 2));
-  console.log("Free sources:", Object.keys(SOURCES));
 }
 
 main().catch(e => { console.error(e); process.exit(1); });

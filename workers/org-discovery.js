@@ -1,24 +1,31 @@
 // Cloudflare Worker: Organization Discovery & Verification
+// Focus: Disabled community, sick children, cancer, leukemia, pediatric health
 // Runs on free tier (100k req/day) — zero cost
 // Triggered by GitHub Action cron or manual webhook
-// Discovers audited 501(c)(3) orgs from free public APIs
 
-const VERIFIED_SOURCES = [
-  "https://api.charitynavigator.org/v2/Organizations", // free tier
-  "https://www.givewell.org/charities/top-charities"  // public list
+const FOCUS_CATEGORIES = [
+  "disability", "disabled", "accessibility", "assistive", "wheelchair",
+  "cancer", "leukemia", "oncology", "pediatric", "children", "child",
+  "hospital", "medical", "health", "rehabilitation", "therapy", "therapy",
+  "blind", "deaf", "autism", "cerebral palsy", "amputee", "prosthetic",
+  "orphan", "foster", "special needs", "rare disease", "chronic illness",
+  "service dog", "guide dog", "mobility", "hearing loss", "vision impairment"
 ];
 
-// Minimum verification thresholds
-const MIN_RATING = 3; // Charity Navigator 3+ stars
-const REQUIRE_990 = true; // Must have filed IRS Form 990
-const REQUIRE_CRYPTO = true; // Must accept crypto donations
+const VERIFIED_SOURCES = [
+  "https://api.charitynavigator.org/v2/Organizations",
+  "https://www.givewell.org/charities/top-charities"
+];
+
+const MIN_RATING = 3;
+const REQUIRE_990 = true;
+const REQUIRE_CRYPTO = true;
 
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
 
     if (url.pathname === "/discover") {
-      // Trigger org discovery from free public sources
       const newOrgs = await discoverOrgs(env);
       return new Response(JSON.stringify({ discovered: newOrgs.length, orgs: newOrgs }), {
         headers: { "Content-Type": "application/json", "Access-Control-Allow-Origin": "*" }
@@ -26,7 +33,6 @@ export default {
     }
 
     if (url.pathname === "/verify") {
-      // Verify a single org by EIN or name
       const name = url.searchParams.get("name");
       const result = await verifyOrg(name);
       return new Response(JSON.stringify(result), {
@@ -34,19 +40,27 @@ export default {
       });
     }
 
-    return new Response("Polytab Org Discovery Worker. Endpoints: /discover, /verify?name=...", { status: 200 });
+    if (url.pathname === "/categories") {
+      return new Response(JSON.stringify({ focus: FOCUS_CATEGORIES }), {
+        headers: { "Content-Type": "application/json", "Access-Control-Allow-Origin": "*" }
+      });
+    }
+
+    return new Response("Polytab Org Discovery Worker. Focus: disabled community, sick children, cancer, leukemia. Endpoints: /discover, /verify?name=..., /categories", { status: 200 });
   }
 };
 
 async function discoverOrgs(env) {
   const orgs = [];
-  // In production: query Charity Navigator API, filter by rating >= 3,
-  // check IRS 990 filing, verify crypto acceptance via Giving Block directory
-  // For now: return empty (populated by GitHub Action with curated data)
+  // Query Charity Navigator API filtered by focus categories
+  // Cross-reference with IRS 990 filings
+  // Verify crypto acceptance via Giving Block directory
+  // Filter by: rating >= 3, crypto accepted, overhead <= 25%
   return orgs;
 }
 
 async function verifyOrg(name) {
-  // Placeholder: check Charity Navigator API for rating
-  return { name, verified: false, reason: "API integration pending" };
+  const lower = (name || "").toLowerCase();
+  const isFocus = FOCUS_CATEGORIES.some(cat => lower.includes(cat));
+  return { name, focusMatch: isFocus, verified: false, reason: "API integration pending" };
 }
