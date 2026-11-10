@@ -38,8 +38,8 @@ const MAX_NEW_PER_RUN = 25;        // keep each run reviewable by a human
 const MAX_EVENT_AGE_DAYS = 21;     // "current events" means current — not a news archive
 const MAX_PROCESSED_HASHES = 2000;
 const FETCH_TIMEOUT_MS = 15000;
-const GDELT_PAUSE_MS = 1200;       // be a polite API citizen (shared CI IPs get 429s)
-const GDELT_ATTEMPTS = 3;
+const GDELT_PAUSE_MS = 3000;       // be a polite API citizen (shared CI IPs get 429s)
+const GDELT_ATTEMPTS = 2;          // one retry; long retry loops only stall the run
 const UA = "PolytabEventRadar/1.0 (+https://polytab.store)";
 
 // Mission-specific focus: disabled community, sick children, orphans, cancer,
