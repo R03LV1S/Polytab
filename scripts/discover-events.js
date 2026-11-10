@@ -38,8 +38,9 @@ const MAX_NEW_PER_RUN = 25;        // keep each run reviewable by a human
 const MAX_EVENT_AGE_DAYS = 21;     // "current events" means current — not a news archive
 const MAX_PROCESSED_HASHES = 2000;
 const FETCH_TIMEOUT_MS = 15000;
-const GDELT_PAUSE_MS = 3000;       // be a polite API citizen (shared CI IPs get 429s)
+const GDELT_PAUSE_MS = 4000;       // be a polite API citizen (shared CI IPs get 429s)
 const GDELT_ATTEMPTS = 2;          // one retry; long retry loops only stall the run
+const GDELT_QUERIES_PER_RUN = 2;   // rotate so each run hits few queries per IP budget
 const UA = "PolytabEventRadar/1.0 (+https://polytab.store)";
 
 // Mission-specific focus: disabled community, sick children, orphans, cancer,
@@ -61,7 +62,8 @@ const HAZARD_FOCUS = [
   "earthquake", "flood", "flooding", "hurricane", "wildfire", "typhoon", "cyclone",
   "drought", "landslide", "volcano", "tsunami", "storm", "famine", "disaster",
   "outbreak", "epidemic", "pandemic", "measles", "polio", "malaria", "cholera",
-  "ebola", "dengue", "vaccination", "clinic"
+  "ebola", "dengue", "vaccination", "clinic", "fire", "tornado", "chemical", "biological",
+  "emergency", "aid", "relief"
 ];
 
 // Union kept for the offline tests / downstream consumers
@@ -288,9 +290,23 @@ function toQueueBlock(ev, id) {
 
 // ---------- source adapters ----------
 
+// GDELT throttles shared CI egress IPs hard with 429s, so each run only samples
+// a rotating subset of queries; over three runs (18h window) every query gets
+// its own budget without tripping the shared-IP throttle.
+function gdeltQueriesForRun(nowMs, perRun) {
+  const per = perRun === undefined ? GDELT_QUERIES_PER_RUN : perRun;
+  const n = GDELT_QUERIES.length;
+  const count = Math.min(Math.max(1, per), n);
+  const t = nowMs === undefined ? Date.now() : nowMs;
+  const startIdx = Math.floor(t / (6 * 3600 * 1000)) * count;
+  const picked = [];
+  for (let i = 0; i < count; i++) picked.push(GDELT_QUERIES[(startIdx + i) % n]);
+  return picked;
+}
+
 async function collectGdelt() {
   const events = [];
-  for (const q of GDELT_QUERIES) {
+  for (const q of gdeltQueriesForRun(Date.now())) {
     const url = "https://api.gdeltproject.org/api/v2/doc/doc?query=" + encodeURIComponent(q + " sourcelang:eng")
       + "&mode=artlist&maxrecords=15&format=json&sort=datedesc";
     try {
@@ -363,6 +379,38 @@ async function collectUsgs() {
   return events;
 }
 
+// FEMA OpenFEMA (public domain, US gov, no key) — current federal disaster
+// declarations. Rows repeat per designated county, so dedupe by disasterNumber.
+const FEMA_API = "https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries?$top=100&$orderby=declarationDate%20desc&$select=disasterNumber,declarationType,declarationDate,state,incidentType,declarationTitle,designatedArea";
+
+function femaRowsToEvents(rows) {
+  const events = [];
+  const seen = new Set();
+  for (const r of rows || []) {
+    const key = String(r.disasterNumber || r.femaDeclarationString || r.id || "");
+    if (!key || seen.has(key)) continue;
+    seen.add(key);
+    const headline = [String(r.incidentType || "").replace(/\s+/g, " ").trim(), String(r.declarationTitle || "").trim(), "(" + String(r.femaDeclarationString || "DR") + ")"]
+      .filter(Boolean).join(" — ");
+    events.push({
+      headline: truncate(headline, 140),
+      sourceName: "FEMA OpenFEMA (public domain)",
+      url: "https://www.fema.gov/disaster/" + String(r.disasterNumber || ""),
+      date: r.declarationDate || null,
+      location: (r.state || "") + (r.designatedArea ? " — " + r.designatedArea : "") || null,
+      hazardType: String(r.incidentType || "")
+    });
+  }
+  return events;
+}
+
+async function collectFema() {
+  const since = new Date(Date.now() - MAX_EVENT_AGE_DAYS * 86400000).toISOString().replace(/\.\d{3}Z$/, ".000Z");
+  const url = FEMA_API + "&$filter=" + encodeURIComponent("declarationDate ge '" + since + "'");
+  const data = await fetchJsonWithRetry(url, "application/json", 2);
+  return femaRowsToEvents(data.DisasterDeclarationsSummaries);
+}
+
 // ---------- main ----------
 
 async function main() {
@@ -384,12 +432,13 @@ async function main() {
   const queuedHashes = new Set(queue.items.map(i => i.radar && i.radar.dedupeHash).filter(Boolean));
   const feedIds = feed ? new Set(feed.items.map(i => String(i.id))) : new Set();
 
-  console.log("Scanning free public feeds (GDELT, CDC Newsroom, GDACS, USGS)…");
+  console.log("Scanning free public feeds (GDELT, CDC Newsroom, GDACS, USGS, FEMA OpenFEMA)…");
   const collectors = [
     ["GDELT", collectGdelt],
     ["CDC Newsroom", () => collectCdc()],
     ["GDACS", () => collectGdacs()],
-    ["USGS", () => collectUsgs()]
+    ["USGS", () => collectUsgs()],
+    ["FEMA OpenFEMA", collectFema]
   ];
   const allEvents = [];
   for (const [name, fn] of collectors) {
@@ -471,5 +520,6 @@ module.exports = {
   keywordMatch, categoryFor, isFocus, isRecent, gdacsLocation, walletFor,
   proposePairing, truncate, toQueueBlock, sha256,
   FOCUS_KEYWORDS, MISSION_FOCUS, HAZARD_FOCUS, CATEGORY_RULES, GDELT_QUERIES,
-  MAX_EVENT_AGE_DAYS, MAX_NEW_PER_RUN
+  MAX_EVENT_AGE_DAYS, MAX_NEW_PER_RUN, GDELT_QUERIES_PER_RUN, gdeltQueriesForRun,
+  femaRowsToEvents, collectFema,
 };

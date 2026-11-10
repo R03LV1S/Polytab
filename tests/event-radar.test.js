@@ -8,7 +8,8 @@ const path = require("path");
 const {
   stripTags, parseRssItems, parseGdeltDate, categoryFor, walletFor,
   proposePairing, toQueueBlock, normalizeTitle,
-  isFocus, isRecent, gdacsLocation, MAX_EVENT_AGE_DAYS
+  isFocus, isRecent, gdacsLocation, MAX_EVENT_AGE_DAYS, GDELT_QUERIES,
+  GDELT_QUERIES_PER_RUN, gdeltQueriesForRun, femaRowsToEvents
 } = require(path.join(__dirname, "..", "scripts", "discover-events.js"));
 
 let passed = 0, failed = 0;
@@ -229,6 +230,32 @@ test("toQueueBlock: derives a valid category when the event has none", () => {
   assert.strictEqual(b.status, "Proposed");
   assert.strictEqual(b.fundedUSD, 0);
   assert.strictEqual(b.votesCount, 0);
+});
+
+// --- GDELT query rotation: small per-run subsets cover all queries over time ---
+test("gdeltQueriesForRun: rotates subsets of 2, full coverage across buckets", () => {
+  const q = GDELT_QUERIES;
+  assert.strictEqual(GDELT_QUERIES_PER_RUN, 2);
+  const picks = [];
+  for (let b = 0; b < 3; b++) picks.push(gdeltQueriesForRun(b * 6 * 3600 * 1000, 2));
+  const flat = picks.flat();
+  assert.strictEqual(flat.length, 6);
+  assert.strictEqual(new Set(flat).size, 6, "rotation must cover every query exactly once per day window");
+  assert.deepStrictEqual(gdeltQueriesForRun(0, 1), [q[0]]);
+});
+
+// --- FEMA OpenFEMA fixture: dedupe by disasterNumber, headline shape ---
+const FEMF_ROWS = [
+  { disasterNumber: 4955, femaDeclarationString: "DR-4955-FL", declarationType: "DR", declarationDate: "2026-10-27T00:00:00.000Z", state: "Florida", incidentType: "Hurricane", declarationTitle: "HURRICANE ISAIAS", designatedArea: "Bay (County)" },
+  { disasterNumber: 4955, femaDeclarationString: "DR-4955-FL", declarationType: "DR", declarationDate: "2026-10-27T00:00:00.000Z", state: "Florida", incidentType: "Hurricane", declarationTitle: "HURRICANE ISAIAS", designatedArea: "Franklin (County)" }
+];
+test("FEMA: dedupes per county rows by disaster number, builds a mission-relevant headline", () => {
+  const evs = femaRowsToEvents(FEMF_ROWS);
+  assert.strictEqual(evs.length, 1, "county rows must dedupe to one disaster");
+  assert.ok(/hurricane/i.test(evs[0].headline), "headline must be hazard-relevant: " + evs[0].headline);
+  assert.ok(/DR-4955-FL/.test(evs[0].headline));
+  assert.ok(evs[0].date === "2026-10-27T00:00:00.000Z");
+  assert.ok(/Florida/.test(String(evs[0].location || "")));
 });
 
 console.log("\n" + passed + " passed, " + failed + " failed");
