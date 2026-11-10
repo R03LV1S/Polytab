@@ -22,6 +22,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Offline tests
+        run: |
+          node tests/event-radar.test.js
+          node tests/feeds.test.js
       - name: Scan free public feeds for voting potentials
         run: node scripts/discover-events.js
       - name: Commit radar queue

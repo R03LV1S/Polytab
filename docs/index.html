@@ -6,15 +6,15 @@
   <title>Polytab.store | The Decentralized Civic Action Marketplace</title>
   <meta name="description" content="The store where you buy civic outcomes, not junk. Immutable on-chain ballot ledger and escrow system enabling low-cost community voting and milestone payouts via EVM micro-transactions." />
   
-  <link rel="alternate" type="application/rss+xml" title="Polytab Global RSS Feed" href="/feed.xml" />
-  <link rel="alternate" type="application/feed+json" title="Polytab Global JSON Feed" href="/feed.json" />
-  <link rel="alternate" type="application/rss+xml" title="Polytab Audio Accessibility Feed" href="/feeds/audio.xml" />
+  <link rel="alternate" type="application/rss+xml" title="Polytab Civic Action Shelf (RSS)" href="./feed.xml" />
+  <link rel="alternate" type="application/feed+json" title="Polytab Global JSON Feed" href="./feed.json" />
+  <link rel="alternate" type="application/rss+xml" title="Polytab Plain-Language Action Feed" href="./feeds/audio.xml" />
   <link rel="hub" href="https://pubsubhubbub.appspot.com/" />
-  <link rel="manifest" href="/manifest.json" />
+  <link rel="manifest" href="./manifest.json" />
   <meta name="theme-color" content="#000000" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <link rel="icon" type="image/jpeg" href="/favicon.jpg" />
-  <link rel="apple-touch-icon" href="/favicon.jpg" />
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <link rel="icon" type="image/jpeg" href="./favicon.jpg" />
+  <link rel="apple-touch-icon" href="./favicon.jpg" />
 
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.css" />
@@ -121,7 +121,7 @@
     <div class="max-w-7xl mx-auto px-4 py-4 flex flex-wrap items-center justify-between gap-4">
       <div class="flex items-center space-x-3">
         <a href="#" class="flex items-center space-x-2 group">
-          <img src="/logo.svg" alt="Polytab" class="w-9 h-9 rounded-xl shadow-lg shadow-purple-700/30" onerror="this.src='/logo.jpg'" />
+          <img src="./logo.svg" alt="Polytab" class="w-9 h-9 rounded-xl shadow-lg shadow-purple-700/30" onerror="this.src='./logo.jpg'" />
           <div>
             <div class="flex items-center space-x-1.5">
               <span class="text-xl font-black tracking-tight text-white">POLY<span class="text-yellow-400 hc-accent">TAB</span></span>
@@ -230,7 +230,7 @@
       <div class="bg-zinc-900/50 border border-zinc-800 p-5 rounded-2xl flex flex-wrap items-center justify-between gap-4 hc-card">
         <div>
           <h2 class="text-lg font-bold text-white">Global GeoRSS Bounty Map</h2>
-          <p class="text-xs text-zinc-400">Reads <code class="text-yellow-400">&lt;georss:point&gt;</code> coordinates from <code class="text-yellow-400">/feeds/global.xml</code> and plots civic action items worldwide. Coordinates are rounded to neighborhood-level precision to prevent PII/doxing.</p>
+          <p class="text-xs text-zinc-400">Plots verified organization locations from <code class="text-yellow-400">./feed.json</code>. The public geoRSS mirror at <code class="text-yellow-400">./feeds/global.xml</code> rounds coordinates to two decimal places (~1 km, neighborhood-level) to prevent PII/doxing.</p>
         </div>
         <div class="flex items-center space-x-2 text-xs font-mono">
           <span class="px-2.5 py-1 rounded bg-zinc-800 text-zinc-300 border border-zinc-700">W3C GeoRSS Standard</span>
@@ -417,7 +417,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           </p>
           <ol class="text-xs text-zinc-300 space-y-2 list-decimal list-inside">
             <li><strong>Proof Enclosure:</strong> Worker submits before/after geo-tagged photo, TikTok proof (<code class="text-yellow-400">#PolytabProof</code>), or Git commit hash.</li>
-            <li><strong>48-Hour RSS Broadcast:</strong> GitHub Actions publishes the proof in <code class="text-yellow-400">/feed.xml</code> under an <code class="text-yellow-400">&lt;enclosure&gt;</code> tag, starting a 48-hour public dispute window.</li>
+            <li><strong>48-Hour RSS Broadcast:</strong> GitHub Actions publishes the proof in <code class="text-yellow-400">./feed.xml</code> under an <code class="text-yellow-400">&lt;enclosure&gt;</code> tag, starting a 48-hour public dispute window.</li>
             <li><strong>2-of-3 Sign-Off:</strong> Funds release only when 2 of 3 keyholders (Project Champion, Task Worker, Community/Accessibility Arbiter) co-sign the cold-storage transaction.</li>
           </ol>
         </div>
@@ -565,12 +565,12 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       const BASE_CHAIN_ID = 8453;
       const CATEGORIES = ["ALL", "Accessibility & Universal Design", "Campus Grounds", "Athletics", "Classrooms", "Civic Tech", "Environmental"];
       const FALLBACK_PROPOSALS = [
-        { id: "1", title: "Science Lab Wheelchair-Accessible Station & Lowered Bench", category: "Accessibility & Universal Design", location: "Science Wing / Room 204", summary: "Retrofit Station #1 in Chemistry Lab B with an adjustable-height ADA workbench, accessible sink controls, and clear knee clearance.", plainSummary: "What is broken: Chemistry lab tables are too high for wheelchair users.\nWhat will be done: Install a height-adjustable lab desk.\nProof: Photo of installed desk co-signed by student accessibility council.", votePriceUSD: 0.50, targetUSD: 65.00, fundedUSD: 48.50, votesCount: 97, wallet: "0x71C0000000000000000000000000000000000101", status: "Active", lat: null, lng: null },
-        { id: "2", title: "North Stadium Bleacher Power-Wash & Handrail Repaint", category: "Athletics", location: "North Field / Bleachers", summary: "Clear debris under visitor bleachers, pressure-wash aluminum benches, and apply rust-oleate safety yellow paint to stair handrails.", plainSummary: "What is broken: Stadium bleachers are dirty and handrails are rusty.\nWhat will be done: Power-wash seats and paint stair rails bright yellow.\nProof: Before and after photos posted to RSS feed.", votePriceUSD: 0.50, targetUSD: 45.00, fundedUSD: 45.00, votesCount: 90, wallet: "0x71C0000000000000000000000000000000000102", status: "In Review (48h Lock)", lat: null, lng: null },
-        { id: "3", title: "East Entrance Tactile Paving & Curb-Cut Repair", category: "Accessibility & Universal Design", location: "East Sidewalk / Bus Drop-off", summary: "Patch cracked concrete lip on the East sidewalk ramp and install high-visibility truncated dome tactile mats for blind and low-vision navigation.", plainSummary: "What is broken: Cracked sidewalk ramp blocks wheelchairs and lacks textured bumps for cane users.\nWhat will be done: Smooth concrete lip and bolt down yellow tactile dome mat.\nProof: Geo-tagged video test.", votePriceUSD: 0.25, targetUSD: 50.00, fundedUSD: 31.25, votesCount: 125, wallet: "0x71C0000000000000000000000000000000000103", status: "Active", lat: null, lng: null },
-        { id: "4", title: "Art Studio Sink Trap Cleanout & Brush Restock", category: "Classrooms", location: "North Wing / Art Room 108", summary: "Clear clay sediment from dual sink traps and purchase 24 synthetic acrylic brushes for shared student use.", plainSummary: "What is broken: Art room sink drains slowly and shared brushes are worn out.\nWhat will be done: Clean drain trap and buy 24 new brushes.\nProof: Receipt + photo of clean working sink.", votePriceUSD: 0.25, targetUSD: 25.00, fundedUSD: 25.00, votesCount: 100, wallet: "0x71C0000000000000000000000000000000000104", status: "Funded", lat: null, lng: null },
-        { id: "5", title: "Solar Pollinator Waystation & Native Milkweed Bed", category: "Environmental", location: "South Courtyard", summary: "Convert 40 sq ft of neglected gravel beds into native milkweed and wildflower pollinator habitats with solar drip irrigation.", plainSummary: "What is broken: South courtyard bed is weeds and gravel.\nWhat will be done: Plant native flowers for bees and butterflies.\nProof: Time-lapse video of planting.", votePriceUSD: 0.50, targetUSD: 40.00, fundedUSD: 19.00, votesCount: 38, wallet: "0x71C0000000000000000000000000000000000105", status: "Active", lat: null, lng: null },
-        { id: "6", title: "Open-Source Municipal & School Budget Visualizer", category: "Civic Tech", location: "Global / Digital Commons", summary: "Convert annual PDF line-item expenditure tables into an open-source, screen-reader-accessible CSV and interactive chart repository.", plainSummary: "What is broken: Budget reports are locked in hard-to-read PDF files.\nWhat will be done: Build a free searchable web chart.\nProof: Public GitHub repository release.", votePriceUSD: 0.50, targetUSD: 60.00, fundedUSD: 42.00, votesCount: 84, wallet: "0x71C0000000000000000000000000000000000106", status: "Active", lat: null, lng: null }
+        { id: "1", title: "Science Lab Wheelchair-Accessible Station & Lowered Bench", category: "Accessibility & Universal Design", location: "Science Wing / Room 204", summary: "Retrofit Station #1 in Chemistry Lab B with an adjustable-height ADA workbench, accessible sink controls, and clear knee clearance.", plainSummary: "What is broken: Chemistry lab tables are too high for wheelchair users.\nWhat will be done: Install a height-adjustable lab desk.\nProof: Photo of installed desk co-signed by student accessibility council.", votePriceUSD: 0.50, targetUSD: 65.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000101", status: "Active", lat: null, lng: null },
+        { id: "2", title: "North Stadium Bleacher Power-Wash & Handrail Repaint", category: "Athletics", location: "North Field / Bleachers", summary: "Clear debris under visitor bleachers, pressure-wash aluminum benches, and apply rust-oleate safety yellow paint to stair handrails.", plainSummary: "What is broken: Stadium bleachers are dirty and handrails are rusty.\nWhat will be done: Power-wash seats and paint stair rails bright yellow.\nProof: Before and after photos posted to RSS feed.", votePriceUSD: 0.50, targetUSD: 45.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000102", status: "Active", lat: null, lng: null },
+        { id: "3", title: "East Entrance Tactile Paving & Curb-Cut Repair", category: "Accessibility & Universal Design", location: "East Sidewalk / Bus Drop-off", summary: "Patch cracked concrete lip on the East sidewalk ramp and install high-visibility truncated dome tactile mats for blind and low-vision navigation.", plainSummary: "What is broken: Cracked sidewalk ramp blocks wheelchairs and lacks textured bumps for cane users.\nWhat will be done: Smooth concrete lip and bolt down yellow tactile dome mat.\nProof: Geo-tagged video test.", votePriceUSD: 0.25, targetUSD: 50.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000103", status: "Active", lat: null, lng: null },
+        { id: "4", title: "Art Studio Sink Trap Cleanout & Brush Restock", category: "Classrooms", location: "North Wing / Art Room 108", summary: "Clear clay sediment from dual sink traps and purchase 24 synthetic acrylic brushes for shared student use.", plainSummary: "What is broken: Art room sink drains slowly and shared brushes are worn out.\nWhat will be done: Clean drain trap and buy 24 new brushes.\nProof: Receipt + photo of clean working sink.", votePriceUSD: 0.25, targetUSD: 25.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000104", status: "Active", lat: null, lng: null },
+        { id: "5", title: "Solar Pollinator Waystation & Native Milkweed Bed", category: "Environmental", location: "South Courtyard", summary: "Convert 40 sq ft of neglected gravel beds into native milkweed and wildflower pollinator habitats with solar drip irrigation.", plainSummary: "What is broken: South courtyard bed is weeds and gravel.\nWhat will be done: Plant native flowers for bees and butterflies.\nProof: Time-lapse video of planting.", votePriceUSD: 0.50, targetUSD: 40.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000105", status: "Active", lat: null, lng: null },
+        { id: "6", title: "Open-Source Municipal & School Budget Visualizer", category: "Civic Tech", location: "Global / Digital Commons", summary: "Convert annual PDF line-item expenditure tables into an open-source, screen-reader-accessible CSV and interactive chart repository.", plainSummary: "What is broken: Budget reports are locked in hard-to-read PDF files.\nWhat will be done: Build a free searchable web chart.\nProof: Public GitHub repository release.", votePriceUSD: 0.50, targetUSD: 60.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000106", status: "Active", lat: null, lng: null }
       ];
       let state = { proposals: [], markets: [], selectedCategory: "ALL", selectedStatus: "ALL", searchQuery: "", plainLanguageMode: false, highContrastMode: false, liteMode: false, connectedAddress: null, socialHandle: localStorage.getItem("polytab_handle") || "", activeModalProposal: null, mapInstance: null };
       function isValidAddress(addr) { return /^0x[a-fA-F0-9]{40}$/.test(String(addr || "").trim()); }

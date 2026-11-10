@@ -9,8 +9,12 @@
 // VERIFIED FREE SOURCES (no API keys, no accounts, no cost):
 //   1. GDELT DOC 2.0 API   — global news, programmatic use allowed
 //   2. CDC Newsroom RSS    — US public-health announcements (public domain)
-//   3. USGS GeoJSON        — significant earthquakes (public domain)
-//   (WHO RSS feed is dead 404; ReliefWeb v1 API retired 410 — both dropped)
+//   3. GDACS RSS           — global disaster alerts (EU JRC, public domain)
+//   4. USGS GeoJSON        — significant earthquakes (public domain)
+//   (WHO RSS feed moved 404; ReliefWeb v1 API retired 410 — both dropped)
+//
+// CURRENT-EVENTS ONLY: items older than MAX_EVENT_AGE_DAYS are discarded, so
+// archival feeds (CDC keeps years of releases) cannot flood the queue.
 //
 // HONEST-ZERO RULES (never fabricated, ever):
 //   fundedUSD: 0, votesCount: 0, status: "Proposed", lat/lng: null.
@@ -30,21 +34,38 @@ const FEED_PATH = path.join(__dirname, "..", "docs", "feed.json");
 
 const ID_START = 601;              // event-radar blocks use 601+ (501+ = org-discovery, 1-420 curated)
 const MAX_QUEUE_ITEMS = 60;
+const MAX_NEW_PER_RUN = 25;        // keep each run reviewable by a human
+const MAX_EVENT_AGE_DAYS = 21;     // "current events" means current — not a news archive
 const MAX_PROCESSED_HASHES = 2000;
 const FETCH_TIMEOUT_MS = 15000;
-const GDELT_PAUSE_MS = 500;        // be a polite API citizen (avoids 429s)
+const GDELT_PAUSE_MS = 1200;       // be a polite API citizen (shared CI IPs get 429s)
+const GDELT_ATTEMPTS = 3;
 const UA = "PolytabEventRadar/1.0 (+https://polytab.store)";
 
-const FOCUS_KEYWORDS = [
+// Mission-specific focus: disabled community, sick children, orphans, cancer,
+// leukemia, pediatric health, rare disease, hospice care.
+// NOTE: broad words like "care"/"support" are deliberately excluded — they
+// match almost any article and flood the queue with irrelevant noise.
+const MISSION_FOCUS = [
   "disability", "disabled", "accessibility", "assistive", "wheelchair",
   "cancer", "leukemia", "oncology", "pediatric", "children", "child",
-  "hospital", "medical", "health", "rehabilitation", "therapy",
+  "hospital", "rehabilitation", "therapy",
   "blind", "deaf", "autism", "autistic", "cerebral palsy", "amputee", "prosthetic",
-  "orphan", "foster", "special needs", "rare disease", "chronic illness",
+  "orphan", "orphanage", "foster", "special needs", "rare disease", "chronic illness",
   "service dog", "guide dog", "mobility", "hearing loss", "vision impairment",
-  "sick", "illness", "disease", "treatment", "care", "support", "hospice",
-  "outbreak", "infant", "toddler", "youth"
+  "sick", "illness", "hospice", "palliative", "neonatal", "infant"
 ];
+
+// Disaster / public-health emergencies that can become civic actions
+const HAZARD_FOCUS = [
+  "earthquake", "flood", "flooding", "hurricane", "wildfire", "typhoon", "cyclone",
+  "drought", "landslide", "volcano", "tsunami", "storm", "famine", "disaster",
+  "outbreak", "epidemic", "pandemic", "measles", "polio", "malaria", "cholera",
+  "ebola", "dengue", "vaccination", "clinic"
+];
+
+// Union kept for the offline tests / downstream consumers
+const FOCUS_KEYWORDS = MISSION_FOCUS.concat(HAZARD_FOCUS);
 
 const CATEGORY_RULES = [
   {
@@ -81,6 +102,7 @@ const GDELT_QUERIES = [
 ];
 
 const CDC_RSS = "https://tools.cdc.gov/api/v2/resources/media/132608.rss";
+const GDACS_RSS = "https://www.gdacs.org/xml/rss.xml";
 const USGS_GEOJSON = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_day.geojson";
 
 // ---------- helpers ----------
@@ -114,8 +136,15 @@ function parseRssItems(xml) {
       || (b.match(/<published>([\s\S]*?)<\/published>/i) || [])[1]
       || (b.match(/<updated>([\s\S]*?)<\/updated>/i) || [])[1];
     const d = pubRaw ? new Date(decodeEntities(pubRaw)) : null;
+    // GDACS carries an explicit alert level (Green/Orange/Red)
+    const alertLevel = stripTags((b.match(/<gdacs:alertlevel>([\s\S]*?)<\/gdacs:alertlevel>/i) || [])[1]);
     if (title && link) {
-      items.push({ title, link, date: d && !isNaN(d.getTime()) ? d.toISOString() : null });
+      items.push({
+        title,
+        link,
+        date: d && !isNaN(d.getTime()) ? d.toISOString() : null,
+        alertLevel: alertLevel || null
+      });
     }
   }
   return items;
@@ -141,6 +170,22 @@ async function fetchWithTimeout(url, accept, timeoutMs) {
   } finally { clearTimeout(t); }
 }
 
+// GDELT throttles shared CI egress IPs with 429s; retry with backoff.
+async function fetchJsonWithRetry(url, accept, attempts) {
+  const max = attempts || GDELT_ATTEMPTS;
+  let lastError = null;
+  for (let i = 0; i < max; i++) {
+    try {
+      const txt = await fetchWithTimeout(url, accept);
+      return JSON.parse(txt);
+    } catch (e) {
+      lastError = e;
+      if (i < max - 1) await sleep(1500 * (i + 1));
+    }
+  }
+  throw lastError;
+}
+
 function sha256(s) { return crypto.createHash("sha256").update(String(s)).digest("hex"); }
 
 function normalizeTitle(s) {
@@ -153,6 +198,22 @@ function categoryFor(text) {
     if (rule.keywords.some(k => keywordMatch(hay, k))) return rule.category;
   }
   return "Accessibility & Universal Design"; // mission default
+}
+
+// Mission or hazard relevance, using whole-word matching.
+function isFocus(text) {
+  return FOCUS_KEYWORDS.some(k => keywordMatch(text, k));
+}
+
+// "Current events" guard: strict feeds keep years of archives (CDC), so an
+// item with no date, or a date older than MAX_EVENT_AGE_DAYS, is not news.
+function isRecent(dateIso, nowMs, maxAgeDays) {
+  if (!dateIso) return false;
+  const t = Date.parse(dateIso);
+  if (Number.isNaN(t)) return false;
+  const days = maxAgeDays === undefined ? MAX_EVENT_AGE_DAYS : maxAgeDays;
+  const ageMs = (nowMs === undefined ? Date.now() : nowMs) - t;
+  return ageMs >= -86400000 && ageMs <= days * 86400000; // allow 1 day clock skew
 }
 
 // Wallet series for event-radar blocks: 0x71E + zero padding + ID (40 hex chars)
@@ -191,7 +252,7 @@ function toQueueBlock(ev, id) {
   return {
     id: String(id),
     title: truncate(ev.headline, 120),
-    category: ev.category,
+    category: ev.category || categoryFor(ev.headline + " " + (ev.location || "")),
     organization: pairing ? pairing.organization : "Verification Pending",
     location: ev.location || "Global",
     summary: truncate(
@@ -231,10 +292,9 @@ async function collectGdelt() {
   const events = [];
   for (const q of GDELT_QUERIES) {
     const url = "https://api.gdeltproject.org/api/v2/doc/doc?query=" + encodeURIComponent(q + " sourcelang:eng")
-      + "&mode=artlist&maxrecords=20&format=json&sort=datedesc";
+      + "&mode=artlist&maxrecords=15&format=json&sort=datedesc";
     try {
-      const txt = await fetchWithTimeout(url);
-      const data = JSON.parse(txt);
+      const data = await fetchJsonWithRetry(url);
       for (const a of (data.articles || [])) {
         if (!a.title || !a.url) continue;
         events.push({
@@ -260,6 +320,29 @@ async function collectCdc() {
     date: it.date,
     location: "United States"
   }));
+}
+
+// GDACS titles embed the place: "… in Japan 09/11/2026 …" or "… in South Sudan".
+function gdacsLocation(title) {
+  const s = String(title || "");
+  const withDate = /\bin\s+([A-Z][^,]{2,60}?)\s+\d{1,2}\/\d{1,2}\/\d{4}/.exec(s);
+  if (withDate) return withDate[1].trim();
+  const atEnd = /\bin\s+([A-Z][A-Za-z .'()\-]{2,60})\s*$/.exec(s);
+  return atEnd ? atEnd[1].trim() : null;
+}
+
+async function collectGdacs() {
+  const xml = await fetchWithTimeout(GDACS_RSS);
+  return parseRssItems(xml)
+    // Green = minor; Orange/Red carry real humanitarian potential
+    .filter(it => !it.alertLevel || /orange|red/i.test(it.alertLevel))
+    .map(it => ({
+      headline: it.title,
+      sourceName: "GDACS (EU JRC)",
+      url: it.link,
+      date: it.date,
+      location: gdacsLocation(it.title)
+    }));
 }
 
 async function collectUsgs() {
@@ -288,7 +371,7 @@ async function main() {
   try {
     queue = JSON.parse(fs.readFileSync(QUEUE_PATH, "utf8"));
   } catch (_) {
-    queue = { version: 1, description: "", items: [], processedHashes: [] };
+    queue = { version: 1, description: "", items: [], processedHashes: [], nextId: ID_START };
   }
   if (!Array.isArray(queue.items)) queue.items = [];
   if (!Array.isArray(queue.processedHashes)) queue.processedHashes = [];
@@ -301,10 +384,11 @@ async function main() {
   const queuedHashes = new Set(queue.items.map(i => i.radar && i.radar.dedupeHash).filter(Boolean));
   const feedIds = feed ? new Set(feed.items.map(i => String(i.id))) : new Set();
 
-  console.log("Scanning free public feeds (GDELT, CDC Newsroom, USGS)…");
+  console.log("Scanning free public feeds (GDELT, CDC Newsroom, GDACS, USGS)…");
   const collectors = [
     ["GDELT", collectGdelt],
     ["CDC Newsroom", () => collectCdc()],
+    ["GDACS", () => collectGdacs()],
     ["USGS", () => collectUsgs()]
   ];
   const allEvents = [];
@@ -316,23 +400,35 @@ async function main() {
     } catch (e) { console.log("  " + name + " failed: " + e.message); }
   }
 
-  // Filter: focus keywords, real headlines, dedupe
+  // Filter: focus keywords, current-events recency, real headlines, dedupe
   const candidates = [];
   const seenNow = new Set();
+  const now = Date.now();
   for (const ev of allEvents) {
-    const text = (ev.headline + " " + (ev.location || "")).toLowerCase();
-    if (!FOCUS_KEYWORDS.some(k => text.includes(k))) continue;
-    if (String(ev.headline).length < 25) continue;
-    const hash = sha256(normalizeTitle(ev.headline) + "|" + normalizeTitle(ev.location || ""));
+    const headline = String(ev.headline || "").trim();
+    if (headline.length < 25) continue;
+    const focusText = headline + " " + (ev.location || "");
+    if (!isFocus(focusText)) continue;
+    if (!isRecent(ev.date, now)) continue; // drop undated + archival items
+    const hash = sha256(normalizeTitle(headline) + "|" + normalizeTitle(ev.location || ""));
     if (processed.has(hash) || queuedHashes.has(hash) || seenNow.has(hash)) continue;
     seenNow.add(hash);
-    candidates.push({ ...ev, hash });
+    candidates.push({ ...ev, headline, category: categoryFor(focusText), hash });
   }
-  console.log("Focus-matched new events: " + candidates.length);
+  // Newest first, then cap so each run stays human-reviewable.
+  candidates.sort((a, b) => (Date.parse(b.date) || 0) - (Date.parse(a.date) || 0));
+  const accepted = candidates.slice(0, MAX_NEW_PER_RUN);
+  console.log("Focus-matched new current events: " + candidates.length + " (queueing " + accepted.length + ")");
 
-  // Next ID from the 601+ series (never collides with curated 1-420 / org-discovery 501+)
-  let nextId = Math.max(ID_START - 1, ...queue.items.map(i => parseInt(i.id) || 0)) + 1;
-  const newBlocks = candidates.map(ev => {
+  // Next ID from the 601+ series (never collides with curated 1-420 / org-discovery 501+).
+  // queue.nextId is monotonic so a trimmed-off ID is never reused by a different event
+  // (escrow wallet addresses must not be recycled).
+  let nextId = Math.max(
+    ID_START,
+    Number(queue.nextId) || 0,
+    ...queue.items.map(i => (parseInt(i.id) || 0) + 1)
+  );
+  const newBlocks = accepted.map(ev => {
     const pairing = feed ? proposePairing(ev.headline + " " + (ev.location || ""), feed) : null;
     if (pairing && !feedIds.has(pairing.bountyId)) return null; // only pair with orgs actually in the feed
     return toQueueBlock({ ...ev, pairing }, nextId++);
@@ -340,13 +436,14 @@ async function main() {
 
   // Prepend newest first, cap the queue
   queue.items = newBlocks.concat(queue.items).slice(0, MAX_QUEUE_ITEMS);
+  queue.nextId = nextId; // monotonic; survives trimming
 
   // Persist dedupe hashes (rotating cap)
   for (const b of newBlocks) processed.add(b.radar.dedupeHash);
   queue.processedHashes = [...processed].slice(-MAX_PROCESSED_HASHES);
 
   queue.version = 1;
-  queue.description = "Polytab Event Radar queue. Current events surfaced from free public feeds (GDELT, CDC Newsroom, USGS) as candidate civic-action blocks in the exact Polytab block format. All metrics are honest-zero (fundedUSD=0, votesCount=0). Items are PROPOSED — promotion to the Action Shelf (feed.json) requires a verified organization pairing and governance sign-off, never automatic. Wallet series: 0x71E + ID (601+). No coordinates are stored (lat/lng null); locations are public place-name strings only.";
+  queue.description = "Polytab Event Radar queue. Current events (last 21 days) surfaced from free public feeds (GDELT, CDC Newsroom, GDACS, USGS) as candidate civic-action blocks in the exact Polytab block format. All metrics are honest-zero (fundedUSD=0, votesCount=0). Items are PROPOSED — promotion to the Action Shelf (feed.json) requires a verified organization pairing and governance sign-off, never automatic. Wallet series: 0x71E + ID (601+). No coordinates are stored (lat/lng null); locations are public place-name strings only.";
 
   // HONEST-ZERO GUARD: hard fail if any fabricated metric sneaks in
   const validCategories = CATEGORY_RULES.map(r => r.category);
@@ -371,6 +468,8 @@ if (require.main === module) {
 // Exported for offline fixture tests (tests/event-radar.test.js)
 module.exports = {
   decodeEntities, stripTags, parseRssItems, parseGdeltDate, normalizeTitle,
-  keywordMatch, categoryFor, walletFor, proposePairing, truncate, toQueueBlock, sha256,
-  FOCUS_KEYWORDS, CATEGORY_RULES, GDELT_QUERIES
+  keywordMatch, categoryFor, isFocus, isRecent, gdacsLocation, walletFor,
+  proposePairing, truncate, toQueueBlock, sha256,
+  FOCUS_KEYWORDS, MISSION_FOCUS, HAZARD_FOCUS, CATEGORY_RULES, GDELT_QUERIES,
+  MAX_EVENT_AGE_DAYS, MAX_NEW_PER_RUN
 };

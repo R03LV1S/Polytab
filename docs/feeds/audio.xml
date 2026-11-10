@@ -1,0 +1,1812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Polytab — Plain-Language Action Feed</title>
+    <link>https://polytab.store/#shelf</link>
+    <description>Plain-language descriptions of every civic action, written for screen readers and low-bandwidth readers. No audio enclosures are attached: recordings are published only when a real recording exists. Funding and vote counts are honest-zero until real on-chain votes are recorded.</description>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 Nov 2026 03:33:33 GMT</lastBuildDate>
+    <ttl>60</ttl>
+    <atom:link href="https://polytab.store/feeds/audio.xml" rel="self" type="application/rss+xml" />
+  <item>
+    <title>Universal Braille &amp; Tactile STEM Learning Kits</title>
+    <link>https://polytab.store/#1</link>
+    <guid isPermaLink="false">polytab:shelf:1</guid>
+    <description>What is broken: Blind students lack touchable math and science models.
+What will be done: 3D-print and ship tactile learning tools.
+Proof: Open hardware files and school delivery receipts.
+
+Category: Accessibility &amp; Universal Design
+Organization: Perkins School for the Blind
+Location: Watertown, MA (Global Distribution)
+Vote price: $0.50 · Target: $250.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000101</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Direct Mobile Cash Transfers to Rural Households</title>
+    <link>https://polytab.store/#2</link>
+    <guid isPermaLink="false">polytab:shelf:2</guid>
+    <description>What is broken: Extreme poverty with zero access to traditional banks.
+What will be done: Send digital cash directly to phone SIM cards.
+Proof: Public transaction batch dashboard.
+
+Category: Civic Tech
+Organization: GiveDirectly
+Location: Siaya County, Kenya
+Vote price: $0.25 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000102</description>
+    <category>Civic Tech</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Solar Borehole Well &amp; Real-Time Flow Telemetry</title>
+    <link>https://polytab.store/#3</link>
+    <guid isPermaLink="false">polytab:shelf:3</guid>
+    <description>What is broken: Contaminated open surface water causes illness.
+What will be done: Drill clean well powered by solar pump.
+Proof: Live flow-rate sensor connected to project page.
+
+Category: Environmental
+Organization: The Water Project
+Location: Western Region, Kenya
+Vote price: $0.50 · Target: $600.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000103</description>
+    <category>Environmental</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Frontline Disaster Meal Logistics &amp; Emergency Staging</title>
+    <link>https://polytab.store/#4</link>
+    <guid isPermaLink="false">polytab:shelf:4</guid>
+    <description>What is broken: Power and kitchens knocked out by severe weather.
+What will be done: Cook and serve fresh hot meals immediately.
+Proof: Daily field meal counts and geo-tagged video updates.
+
+Category: Classrooms
+Organization: World Central Kitchen
+Location: Global Rapid Deployment Fleet
+Vote price: $1.00 · Target: $1000.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000104</description>
+    <category>Classrooms</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Anti-Surveillance Privacy Bridges &amp; Onion Routing</title>
+    <link>https://polytab.store/#5</link>
+    <guid isPermaLink="false">polytab:shelf:5</guid>
+    <description>What is broken: State censors block access to the open web.
+What will be done: Build new stealth encrypted internet bridges.
+Proof: Public network consensus metrics and code commits.
+
+Category: Civic Tech
+Organization: The Tor Project
+Location: Global / Decentralized Commons
+Vote price: $0.50 · Target: $400.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000105</description>
+    <category>Civic Tech</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Monthly Imagination Library Early Book Delivery Cohort</title>
+    <link>https://polytab.store/#101</link>
+    <guid isPermaLink="false">polytab:shelf:101</guid>
+    <description>What is broken: Kids in low-income homes grow up without physical books.
+What will be done: Mail one book every month directly to their door.
+Proof: Postmaster bulk delivery manifest.
+
+Category: Classrooms
+Organization: The Dollywood Foundation
+Location: Sevier County, TN (National Model)
+Vote price: $0.50 · Target: $300.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000201</description>
+    <category>Classrooms</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Sensory Calming Corner &amp; Audio-Visual Books for Title I Class</title>
+    <link>https://polytab.store/#102</link>
+    <guid isPermaLink="false">polytab:shelf:102</guid>
+    <description>What is broken: Sensory overload distracts neurodivergent students.
+What will be done: Provide noise-canceling headphones and audiobooks.
+Proof: Classroom thank-you photos and shipping receipt.
+
+Category: Accessibility &amp; Universal Design
+Organization: DonorsChoose
+Location: Brooklyn, NY / Public School 147
+Vote price: $0.25 · Target: $175.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000202</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Title I Elementary School Free Book Fair &amp; Reading Rally</title>
+    <link>https://polytab.store/#103</link>
+    <guid isPermaLink="false">polytab:shelf:103</guid>
+    <description>What is broken: Students cannot afford books at school book fairs.
+What will be done: Give each child 3 free books to keep forever.
+Proof: Principal sign-off and student book-distribution tally.
+
+Category: Classrooms
+Organization: Reading Is Fundamental (RIF)
+Location: Washington, DC / Ward 8
+Vote price: $0.50 · Target: $450.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000203</description>
+    <category>Classrooms</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Pediatric Hygiene &amp; Literacy Starter Kits for Rural Classrooms</title>
+    <link>https://polytab.store/#104</link>
+    <guid isPermaLink="false">polytab:shelf:104</guid>
+    <description>What is broken: Basic hygiene and supply shortages prevent students from attending school.
+What will be done: Send winter coats, soap, and reading books to teachers.
+Proof: Warehouse shipping manifest and school delivery receipt.
+
+Category: Classrooms
+Organization: First Book
+Location: Appalachian Corridor, WV
+Vote price: $0.50 · Target: $350.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000204</description>
+    <category>Classrooms</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Primary School Community Library Shelf &amp; Local-Language Batch</title>
+    <link>https://polytab.store/#105</link>
+    <guid isPermaLink="false">polytab:shelf:105</guid>
+    <description>What is broken: Rural schools have empty classrooms with zero children&apos;s books in their native language.
+What will be done: Build a bookshelf and stock 200 illustrated local books.
+Proof: Geo-tagged video walkthrough of completed shelf.
+
+Category: Classrooms
+Organization: Room to Read
+Location: Battambang Province, Cambodia
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000205</description>
+    <category>Classrooms</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Ocean-Freight Educational Book Container Shipping &amp; Clearance</title>
+    <link>https://polytab.store/#106</link>
+    <guid isPermaLink="false">polytab:shelf:106</guid>
+    <description>What is broken: Thousands of donated school textbooks are held up at shipping ports due to customs fees.
+What will be done: Pay clearance fees and truck the books to community centers.
+Proof: Customs clearance stamps and receiving bill of lading.
+
+Category: Civic Tech
+Organization: Books for Africa
+Location: Tema Seaport, Ghana
+Vote price: $1.00 · Target: $1200.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000206</description>
+    <category>Civic Tech</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Barrier-Free Ramps &amp; Roll-In Shower Framing for Family Build</title>
+    <link>https://polytab.store/#107</link>
+    <guid isPermaLink="false">polytab:shelf:107</guid>
+    <description>What is broken: High doorstep prevents wheelchair entry.
+What will be done: Build a non-slip concrete wheelchair ramp.
+Proof: City building inspector occupancy sign-off.
+
+Category: Campus Grounds
+Organization: Habitat for Humanity
+Location: Atlanta, GA / Thomasville Heights
+Vote price: $1.00 · Target: $850.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000207</description>
+    <category>Campus Grounds</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Hospital-Adjacent Family Suite Nights &amp; ADA Shuttles</title>
+    <link>https://polytab.store/#108</link>
+    <guid isPermaLink="false">polytab:shelf:108</guid>
+    <description>What is broken: Families face expensive hotels while injured service members are hospitalized.
+What will be done: Provide free lodging and accessible shuttles.
+Proof: Facility occupancy log verified by manager.
+
+Category: Classrooms
+Organization: Fisher House Foundation
+Location: Bethesda, MD (Military Medical Center)
+Vote price: $0.50 · Target: $400.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000208</description>
+    <category>Classrooms</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Voice-Activated Smart Automation for Quadriplegic Veteran Home</title>
+    <link>https://polytab.store/#109</link>
+    <guid isPermaLink="false">polytab:shelf:109</guid>
+    <description>What is broken: Standard doors and high cabinets trap quadriplegic individuals without full-time helpers.
+What will be done: Install automated doors and voice-controlled cabinets.
+Proof: Subcontractor completion invoice and signed acceptance sign-off.
+
+Category: Accessibility &amp; Universal Design
+Organization: Gary Sinise Foundation (R.I.S.E.)
+Location: San Antonio, TX
+Vote price: $1.00 · Target: $1500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000209</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Wheelchair-Accessible Neighborhood Book Box Installation</title>
+    <link>https://polytab.store/#110</link>
+    <guid isPermaLink="false">polytab:shelf:110</guid>
+    <description>What is broken: Most book-sharing boxes are installed too high or on muddy grass, blocking wheelchair access.
+What will be done: Install a ground-level concrete pad and lower the book box.
+Proof: Photo showing tape-measure height and charter placard.
+
+Category: Campus Grounds
+Organization: Little Free Library
+Location: Detroit, MI / North End
+Vote price: $0.25 · Target: $200.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000210</description>
+    <category>Campus Grounds</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Adaptive Ropes Course &amp; Medically Supervised Cabin Week</title>
+    <link>https://polytab.store/#111</link>
+    <guid isPermaLink="false">polytab:shelf:111</guid>
+    <description>What is broken: Chronically ill children are barred from ordinary summer camps due to strict medical needs.
+What will be done: Provide specialized wheelchair climbing harnesses and nursing supplies.
+Proof: Camp session certificate signed by medical director.
+
+Category: Accessibility &amp; Universal Design
+Organization: The Hole in the Wall Gang Camp
+Location: Ashford, CT
+Vote price: $0.50 · Target: $600.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000211</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Inclusive Playground Pour-in-Place Rubber Surfacing</title>
+    <link>https://polytab.store/#112</link>
+    <guid isPermaLink="false">polytab:shelf:112</guid>
+    <description>What is broken: Wood-chip ground covers trap wheelchair wheels and tip strollers.
+What will be done: Pour smooth shock-absorbing rubber surfacing.
+Proof: ASTM safety inspector certificate and surface photos.
+
+Category: Campus Grounds
+Organization: KABOOM!
+Location: Cleveland, OH / Clark-Fulton
+Vote price: $1.00 · Target: $1000.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000212</description>
+    <category>Campus Grounds</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Rural County Inclusive Toy &amp; Sensory Board Game Distribution</title>
+    <link>https://polytab.store/#113</link>
+    <guid isPermaLink="false">polytab:shelf:113</guid>
+    <description>What is broken: Standard holiday toy drives exclude children requiring adaptive or sensory-friendly toys.
+What will be done: Buy and deliver adaptive-switch and tactile board games.
+Proof: Marine Reserve coordinator agency distribution receipt.
+
+Category: Classrooms
+Organization: Marine Toys for Tots Foundation
+Location: Pike County, KY
+Vote price: $0.25 · Target: $300.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000213</description>
+    <category>Classrooms</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Pediatric Corrective Cleft Surgery &amp; Nutritional Nursing</title>
+    <link>https://polytab.store/#114</link>
+    <guid isPermaLink="false">polytab:shelf:114</guid>
+    <description>What is broken: Babies born with cleft palates cannot nurse and suffer severe malnutrition.
+What will be done: Sponsor 100% free corrective surgery and nursing bottles.
+Proof: De-identified clinical ledger and surgeon verification.
+
+Category: Classrooms
+Organization: Smile Train
+Location: Guadalajara, Mexico
+Vote price: $1.00 · Target: $450.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000214</description>
+    <category>Classrooms</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Weekly Route Hot Meal Delivery &amp; Wellness Checks for Rural Seniors</title>
+    <link>https://polytab.store/#115</link>
+    <guid isPermaLink="false">polytab:shelf:115</guid>
+    <description>What is broken: Homebound seniors unable to drive or walk face malnutrition and winter isolation.
+What will be done: Deliver fresh hot meals weekly and verify home safety.
+Proof: Route manifest signed by local volunteer coordinator.
+
+Category: Civic Tech
+Organization: Meals on Wheels America
+Location: Aroostook County, ME
+Vote price: $0.50 · Target: $400.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000215</description>
+    <category>Civic Tech</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Single-Parent Car Transmission Repair to Prevent Job Loss</title>
+    <link>https://polytab.store/#116</link>
+    <guid isPermaLink="false">polytab:shelf:116</guid>
+    <description>What is broken: A sudden car breakdown will cause an hourly worker to lose her job and income.
+What will be done: Pay the mechanic shop directly for the repair.
+Proof: Paid repair shop invoice and vehicle release sign-off.
+
+Category: Civic Tech
+Organization: Modest Needs
+Location: Youngstown, OH
+Vote price: $0.50 · Target: $650.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000216</description>
+    <category>Civic Tech</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Zero-Interest Micro-Loan for Accessible Sewing Machinery</title>
+    <link>https://polytab.store/#117</link>
+    <guid isPermaLink="false">polytab:shelf:117</guid>
+    <description>What is broken: Disabled artisans are shut out of traditional high-interest commercial bank loans.
+What will be done: Issue a zero-interest community loan for electric sewing machines.
+Proof: Digital loan disbursement ledger and workshop verification.
+
+Category: Civic Tech
+Organization: Kiva
+Location: Cusco, Peru
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000217</description>
+    <category>Civic Tech</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Special-Needs Pet Wheelchair Mobility Cart &amp; Foster Placement</title>
+    <link>https://polytab.store/#118</link>
+    <guid isPermaLink="false">polytab:shelf:118</guid>
+    <description>What is broken: Rescued pets with spinal injuries are euthanized without mobility equipment.
+What will be done: Fit custom dog wheelchair wheels and arrange foster care.
+Proof: Veterinary rehabilitation report and pet foster placement agreement.
+
+Category: Environmental
+Organization: Best Friends Animal Society
+Location: Kanab, UT
+Vote price: $0.50 · Target: $350.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000218</description>
+    <category>Environmental</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Guide Dog Mobility Harness Fitting &amp; Urban Navigation Training</title>
+    <link>https://polytab.store/#119</link>
+    <guid isPermaLink="false">polytab:shelf:119</guid>
+    <description>What is broken: Blind handlers need specialized matching and intensive street crossing training with their guide dogs.
+What will be done: Custom-fit harness and complete urban navigation courses.
+Proof: Certified guide dog mobility instructor sign-off.
+
+Category: Accessibility &amp; Universal Design
+Organization: Guiding Eyes for the Blind
+Location: White Plains, NY
+Vote price: $0.50 · Target: $600.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000219</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Accessible Park Trail Tactile Placards &amp; Curb-Free Boardwalk</title>
+    <link>https://polytab.store/#120</link>
+    <guid isPermaLink="false">polytab:shelf:120</guid>
+    <description>What is broken: Rocky dirt trails exclude wheelchair and cane users from public parks.
+What will be done: Lay a flat boardwalk with braille interpretive signs.
+Proof: Park Service ranger trail sign-off report.
+
+Category: Environmental
+Organization: National Park Foundation
+Location: Great Smoky Mountains, TN
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000220</description>
+    <category>Environmental</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Pediatric Power-Wheelchair &amp; Home Access Ramp Installation</title>
+    <link>https://polytab.store/#201</link>
+    <guid isPermaLink="false">polytab:shelf:201</guid>
+    <description>What is broken: A child outgrew their manual chair and is homebound by front porch steps.
+What will be done: Deliver a motorized chair and bolt down an aluminum ramp.
+Proof: PT equipment serial verification and ramp inspection photo.
+
+Category: Accessibility &amp; Universal Design
+Organization: Wheelchairs 4 Kids
+Location: Tampa, FL / Hillsborough County
+Vote price: $1.00 · Target: $1200.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000201</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Pediatric Adaptive Stroller &amp; Walker Refurbishment Grant</title>
+    <link>https://polytab.store/#202</link>
+    <guid isPermaLink="false">polytab:shelf:202</guid>
+    <description>What is broken: Medicaid takes 12+ months to approve pediatric mobility strollers.
+What will be done: Safety-rebuild and fit 10 refurbished adaptive strollers.
+Proof: Quality assurance safety check certifications.
+
+Category: Accessibility &amp; Universal Design
+Organization: Friends of Disabled Adults and Children (FODAC)
+Location: Stone Mountain, GA
+Vote price: $0.50 · Target: $400.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000202</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Pediatric Carbon-Fiber Running Blade &amp; Athletic Socket</title>
+    <link>https://polytab.store/#203</link>
+    <guid isPermaLink="false">polytab:shelf:203</guid>
+    <description>What is broken: Insurance classifies athletic running blades as &apos;not medically necessary&apos;.
+What will be done: Custom-mold an athletic socket and fit running blade.
+Proof: Certified prosthetist delivery invoice and fitting sign-off.
+
+Category: Athletics
+Organization: Challenged Athletes Foundation (CAF)
+Location: San Diego, CA
+Vote price: $1.00 · Target: $1000.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000203</description>
+    <category>Athletics</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Adaptive Therapeutic Tricycle &amp; Eye-Gaze Speech Tablet</title>
+    <link>https://polytab.store/#204</link>
+    <guid isPermaLink="false">polytab:shelf:204</guid>
+    <description>What is broken: A non-verbal child with cerebral palsy cannot ride regular bikes or speak verbally.
+What will be done: Deliver a custom adaptive tricycle and speech-generating tablet.
+Proof: Speech-language pathologist device fitting report.
+
+Category: Accessibility &amp; Universal Design
+Organization: Variety – the Children&apos;s Charity
+Location: Pittsburgh, PA
+Vote price: $0.50 · Target: $750.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000204</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Pediatric Assistance Dog Training &amp; Handler Matching</title>
+    <link>https://polytab.store/#205</link>
+    <guid isPermaLink="false">polytab:shelf:205</guid>
+    <description>What is broken: High training costs keep service dogs out of reach for disabled children.
+What will be done: Complete professional training for an assistance dog.
+Proof: Service dog graduation credential and team certification.
+
+Category: Accessibility &amp; Universal Design
+Organization: Canine Companions
+Location: Santa Rosa, CA
+Vote price: $0.50 · Target: $800.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000205</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Youth White-Cane Navigation &amp; Orientation Cohort</title>
+    <link>https://polytab.store/#206</link>
+    <guid isPermaLink="false">polytab:shelf:206</guid>
+    <description>What is broken: Visually impaired teenagers lack confidence to navigate public buses and city crosswalks.
+What will be done: Provide professional white-cane orientation lessons.
+Proof: Certified Orientation and Mobility Specialist completion log.
+
+Category: Accessibility &amp; Universal Design
+Organization: Guide Dogs for the Blind (GDB)
+Location: San Rafael, CA
+Vote price: $0.50 · Target: $450.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000206</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Pediatric Early Childhood Sensory &amp; Motor Therapy Sessions</title>
+    <link>https://polytab.store/#207</link>
+    <guid isPermaLink="false">polytab:shelf:207</guid>
+    <description>What is broken: Low-income infants with developmental delays miss critical early therapy windows.
+What will be done: Provide early intervention physical and occupational therapy.
+Proof: Clinical therapy attendance verification ledger.
+
+Category: Classrooms
+Organization: Easterseals
+Location: Chicago, IL
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000207</description>
+    <category>Classrooms</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Early Assistive Communication Board &amp; High-Tone Therapy</title>
+    <link>https://polytab.store/#208</link>
+    <guid isPermaLink="false">polytab:shelf:208</guid>
+    <description>What is broken: Toddlers with cerebral palsy cannot stand without specialized support frames.
+What will be done: Deliver a pediatric stander and picture communication board.
+Proof: Clinic equipment delivery receipt and PT sign-off.
+
+Category: Accessibility &amp; Universal Design
+Organization: United Cerebral Palsy (UCP)
+Location: Bakersfield, CA
+Vote price: $0.50 · Target: $600.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000208</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Accessible Digital Learning Curricula for Neurodivergent Class</title>
+    <link>https://polytab.store/#209</link>
+    <guid isPermaLink="false">polytab:shelf:209</guid>
+    <description>What is broken: Standard math worksheets confuse students with dyslexia and ADHD.
+What will be done: Build open-source, color-coded digital learning worksheets.
+Proof: Public GitHub curriculum repo release.
+
+Category: Civic Tech
+Organization: National Center for Learning Disabilities
+Location: Washington, DC
+Vote price: $0.25 · Target: $300.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000209</description>
+    <category>Civic Tech</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>School Neurodevelopmental Screening &amp; Classroom Support Toolkits</title>
+    <link>https://polytab.store/#210</link>
+    <guid isPermaLink="false">polytab:shelf:210</guid>
+    <description>What is broken: Learning disabilities go undiagnosed for years in overburdened schools.
+What will be done: Provide professional learning evaluations and classroom tools.
+Proof: School partner deployment report with clinician verification.
+
+Category: Classrooms
+Organization: Child Mind Institute
+Location: New York, NY / South Bronx
+Vote price: $0.50 · Target: $600.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000210</description>
+    <category>Classrooms</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Inclusive High School Friendship Chapter &amp; Leadership Summit</title>
+    <link>https://polytab.store/#211</link>
+    <guid isPermaLink="false">polytab:shelf:211</guid>
+    <description>What is broken: High school students with intellectual disabilities face extreme social isolation.
+What will be done: Launch school buddy chapters and leadership workshops.
+Proof: School chapter charter agreement and assembly roster.
+
+Category: Classrooms
+Organization: Best Buddies International
+Location: Miami, FL
+Vote price: $0.25 · Target: $250.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000211</description>
+    <category>Classrooms</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Unified Youth Track Uniforms &amp; Free Pediatric Eye Screenings</title>
+    <link>https://polytab.store/#212</link>
+    <guid isPermaLink="false">polytab:shelf:212</guid>
+    <description>What is broken: Athletes with disabilities often play with ill-fitting footwear and uncorrected eyesight.
+What will be done: Supply running uniforms and custom prescription sports goggles.
+Proof: Screening clinician report and athletic uniform roster.
+
+Category: Athletics
+Organization: Special Olympics
+Location: Denver, CO
+Vote price: $0.50 · Target: $400.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000212</description>
+    <category>Athletics</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Pediatric Scoliosis Bracing &amp; Custom Orthopedic Fittings</title>
+    <link>https://polytab.store/#213</link>
+    <guid isPermaLink="false">polytab:shelf:213</guid>
+    <description>What is broken: Pediatric back braces require costly regular replacements as children grow.
+What will be done: Custom-mold and fit a supportive corrective back brace.
+Proof: Hospital orthotics department build sheet.
+
+Category: Classrooms
+Organization: Shriners Children&apos;s
+Location: Philadelphia, PA
+Vote price: $1.00 · Target: $800.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000213</description>
+    <category>Classrooms</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Accessible Family Van Transit &amp; Pediatric Hospital Lodging</title>
+    <link>https://polytab.store/#214</link>
+    <guid isPermaLink="false">polytab:shelf:214</guid>
+    <description>What is broken: Out-of-town families lack accessible transportation between hotels and pediatric clinics.
+What will be done: Provide wheelchair van shuttles and free adjacent lodging.
+Proof: House guest ledger signed by facility director.
+
+Category: Accessibility &amp; Universal Design
+Organization: Ronald McDonald House Charities
+Location: Memphis, TN
+Vote price: $0.50 · Target: $350.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000214</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Pediatric Neuro-Oncology Physical Rehabilitation Regimen</title>
+    <link>https://polytab.store/#215</link>
+    <guid isPermaLink="false">polytab:shelf:215</guid>
+    <description>What is broken: Brain surgery often impairs fine-motor skills and balance in children.
+What will be done: Sponsor physical balance therapy and coordination rehab.
+Proof: Clinical physical therapy milestone verification log.
+
+Category: Classrooms
+Organization: St. Jude Children&apos;s Research Hospital
+Location: Memphis, TN
+Vote price: $1.00 · Target: $900.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000215</description>
+    <category>Classrooms</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Travel For Care Medical Transit Grant for Clinical Trial</title>
+    <link>https://polytab.store/#216</link>
+    <guid isPermaLink="false">polytab:shelf:216</guid>
+    <description>What is broken: Families cannot afford emergency travel to reach life-saving medical trials.
+What will be done: Pay for flights and accessible lodging directly.
+Proof: Direct travel booking confirmation and clinic intake letter.
+
+Category: Civic Tech
+Organization: Alex&apos;s Lemonade Stand Foundation
+Location: Bala Cynwyd, PA (National Program)
+Vote price: $0.50 · Target: $600.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000216</description>
+    <category>Civic Tech</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Barrier-Free Medically Supervised Summer Camp Sponsorship</title>
+    <link>https://polytab.store/#217</link>
+    <guid isPermaLink="false">polytab:shelf:217</guid>
+    <description>What is broken: Kids on ventilators or wheelchairs cannot participate in traditional youth camps.
+What will be done: Provide pool lifts and specialized camp nurses.
+Proof: Camp session enrollment confirmation and medical sign-off.
+
+Category: Accessibility &amp; Universal Design
+Organization: SeriousFun Children&apos;s Network
+Location: Lake Luzerne, NY (Double H Ranch)
+Vote price: $1.00 · Target: $1000.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000217</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Wheelchair-Accessible Family Villa Stay &amp; Adaptive Ride Access</title>
+    <link>https://polytab.store/#218</link>
+    <guid isPermaLink="false">polytab:shelf:218</guid>
+    <description>What is broken: Standard hotel rooms lack roll-in showers and hoyer lift clearance.
+What will be done: Maintain fully accessible villas and wheelchair carousels.
+Proof: Facility stay fulfillment sign-off report.
+
+Category: Accessibility &amp; Universal Design
+Organization: Give Kids The World Village
+Location: Kissimmee, FL
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000218</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Pediatric Limb Loss Youth Camp Sponsorship &amp; Peer Toolkit</title>
+    <link>https://polytab.store/#219</link>
+    <guid isPermaLink="false">polytab:shelf:219</guid>
+    <description>What is broken: Children with amputations often never meet another peer with limb difference.
+What will be done: Sponsor camp tuition and deliver peer-mentorship toolkits.
+Proof: Camp session attendance confirmation record.
+
+Category: Accessibility &amp; Universal Design
+Organization: Amputee Coalition
+Location: Clarksville, TN (Paddy Run)
+Vote price: $0.50 · Target: $450.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000219</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Adaptive Backyard Sensory Play Structure Wish Fulfillment</title>
+    <link>https://polytab.store/#220</link>
+    <guid isPermaLink="false">polytab:shelf:220</guid>
+    <description>What is broken: Immunocompromised children cannot safely visit crowded public parks.
+What will be done: Build a private wheelchair-accessible sensory playground in their backyard.
+Proof: Signed contractor completion certificate and family photo.
+
+Category: Campus Grounds
+Organization: Make-A-Wish Foundation
+Location: Phoenix, AZ
+Vote price: $1.00 · Target: $1100.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000220</description>
+    <category>Campus Grounds</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Two-Generation Higher Education &amp; Childcare Grant for Single Mothers</title>
+    <link>https://polytab.store/#301</link>
+    <guid isPermaLink="false">polytab:shelf:301</guid>
+    <description>What is broken: Single mothers drop out of college due to unaffordable childcare.
+What will be done: Provide free daycare and campus housing.
+Proof: College semester enrollment verification and childcare attendance ledger.
+
+Category: Classrooms
+Organization: Jeremiah Program
+Location: Minneapolis, MN
+Vote price: $0.50 · Target: $600.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000301</description>
+    <category>Classrooms</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>In-Home Nurse Visits &amp; Infant Health Monitoring for First-Time Moms</title>
+    <link>https://polytab.store/#302</link>
+    <guid isPermaLink="false">polytab:shelf:302</guid>
+    <description>What is broken: High infant mortality and maternal isolation in low-income homes.
+What will be done: Send a registered nurse to visit the home weekly.
+Proof: Clinical nurse visit verification log and developmental milestone chart.
+
+Category: Civic Tech
+Organization: Nurse-Family Partnership
+Location: Denver, CO
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000302</description>
+    <category>Civic Tech</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Bulk Infant Diaper &amp; Hygiene Supply Kits for Single-Mother Pantries</title>
+    <link>https://polytab.store/#303</link>
+    <guid isPermaLink="false">polytab:shelf:303</guid>
+    <description>What is broken: 1 in 3 families cannot afford clean diapers, barring infants from daycare.
+What will be done: Buy bulk diaper pallets and deliver to local pantries.
+Proof: Warehouse shipping bill of lading and pantry receiving stamps.
+
+Category: Civic Tech
+Organization: National Diaper Bank Network
+Location: New Haven, CT
+Vote price: $0.25 · Target: $350.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000303</description>
+    <category>Civic Tech</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Emergency Relocation &amp; Safe Haven Micro-Grants for Single Mothers</title>
+    <link>https://polytab.store/#304</link>
+    <guid isPermaLink="false">polytab:shelf:304</guid>
+    <description>What is broken: Mothers stay in dangerous situations because they have no money to relocate.
+What will be done: Pay for emergency moving vans and secure hotel vouchers.
+Proof: Direct vendor receipts and case manager intake certification.
+
+Category: Civic Tech
+Organization: Safe Horizon
+Location: New York, NY
+Vote price: $1.00 · Target: $800.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000304</description>
+    <category>Civic Tech</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Temporary Pet Safe-Housing for Single Mothers Escaping Abuse</title>
+    <link>https://polytab.store/#305</link>
+    <guid isPermaLink="false">polytab:shelf:305</guid>
+    <description>What is broken: Domestic violence shelters rarely allow pets, forcing mothers to stay behind.
+What will be done: Sponsor emergency pet boarding until the family is housed.
+Proof: Licensed kennel boarding invoice and veterinary health sign-off.
+
+Category: Environmental
+Organization: RedRover
+Location: Sacramento, CA
+Vote price: $0.50 · Target: $450.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000305</description>
+    <category>Environmental</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Shelter Dog Custom Training as Autism &amp; Mobility Service Companion</title>
+    <link>https://polytab.store/#306</link>
+    <guid isPermaLink="false">polytab:shelf:306</guid>
+    <description>What is broken: Shelter dogs face euthanasia while disabled children wait years for service dogs.
+What will be done: Rescue a dog and train it to open doors and provide calming pressure.
+Proof: Service dog certification and handler team graduation report.
+
+Category: Accessibility &amp; Universal Design
+Organization: Freedom Service Dogs of America
+Location: Englewood, CO
+Vote price: $1.00 · Target: $1000.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000306</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Therapeutic Equine-Assisted Physical Therapy for Disabled Children</title>
+    <link>https://polytab.store/#307</link>
+    <guid isPermaLink="false">polytab:shelf:307</guid>
+    <description>What is broken: Traditional clinic physical therapy can feel exhausting and painful for children.
+What will be done: Use horse riding motions to strengthen core muscles.
+Proof: Certified therapeutic riding instructor sign-off and PT assessment.
+
+Category: Accessibility &amp; Universal Design
+Organization: PATH International
+Location: Denver, CO
+Vote price: $0.50 · Target: $550.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000307</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Restorative Animal Therapy Visits for Traumatized &amp; Foster Youth</title>
+    <link>https://polytab.store/#308</link>
+    <guid isPermaLink="false">polytab:shelf:308</guid>
+    <description>What is broken: Children who experience trauma struggle to trust adults and express emotions.
+What will be done: Pair children with rescued cows, horses, and sheep for calming therapy.
+Proof: Session attendance verification signed by licensed youth counselor.
+
+Category: Environmental
+Organization: The Gentle Barn
+Location: Santa Clarita, CA
+Vote price: $0.50 · Target: $400.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000308</description>
+    <category>Environmental</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Community Spay, Neuter &amp; Rabies Clinic for Underserved Neighborhoods</title>
+    <link>https://polytab.store/#309</link>
+    <guid isPermaLink="false">polytab:shelf:309</guid>
+    <description>What is broken: Overpopulated outdoor cat colonies spread disease in low-income neighborhoods.
+What will be done: Spay, neuter, vaccinate, and ear-tip 50 neighborhood cats.
+Proof: Veterinary surgical clinic ledger and vaccination certificates.
+
+Category: Environmental
+Organization: Alley Cat Allies
+Location: Bethesda, MD
+Vote price: $0.25 · Target: $300.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000309</description>
+    <category>Environmental</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Shelter Rescue Transport &amp; Pediatric Humane Education Workshops</title>
+    <link>https://polytab.store/#310</link>
+    <guid isPermaLink="false">polytab:shelf:310</guid>
+    <description>What is broken: Rural municipal shelters face high euthanasia rates due to lack of local adopters.
+What will be done: Drive rescue vans to bring animals to no-kill adoption centers.
+Proof: Transport vehicle intake manifest and shelter intake logs.
+
+Category: Environmental
+Organization: North Shore Animal League America
+Location: Port Washington, NY
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000310</description>
+    <category>Environmental</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Emergency Veterinary Surgical Grant for Low-Income Single Mother&apos;s Pet</title>
+    <link>https://polytab.store/#311</link>
+    <guid isPermaLink="false">polytab:shelf:311</guid>
+    <description>What is broken: Families are forced into economic euthanasia when unexpected vet bills arrive.
+What will be done: Pay the veterinary hospital directly for life-saving surgery.
+Proof: Itemized veterinary surgical invoice and discharge summary.
+
+Category: Environmental
+Organization: Frankie&apos;s Friends
+Location: Tampa, FL
+Vote price: $0.50 · Target: $600.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000311</description>
+    <category>Environmental</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Hospital-Grade Mobile Gaming Stations &amp; Adaptive Gowns for Pediatric Wards</title>
+    <link>https://polytab.store/#312</link>
+    <guid isPermaLink="false">polytab:shelf:312</guid>
+    <description>What is broken: Extended hospital bed-rest leaves sick children isolated and anxious.
+What will be done: Deliver mobile video game stations and comfortable gowns.
+Proof: Hospital pediatric ward delivery manifest signed by child-life specialist.
+
+Category: Classrooms
+Organization: Starlight Children&apos;s Foundation
+Location: Los Angeles, CA
+Vote price: $0.50 · Target: $750.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000312</description>
+    <category>Classrooms</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Adaptive Video Game Controllers &amp; Therapeutic Tech for Children&apos;s Clinics</title>
+    <link>https://polytab.store/#313</link>
+    <guid isPermaLink="false">polytab:shelf:313</guid>
+    <description>What is broken: Children with limited hand mobility cannot play standard video games.
+What will be done: Supply adaptive switches and eye-tracking game controllers.
+Proof: Clinic technology installation report and therapist sign-off.
+
+Category: Accessibility &amp; Universal Design
+Organization: Child&apos;s Play Charity
+Location: Redmond, WA
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000313</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Ultra-Accessible Water Park Splash-Pad Wheelchair Warmers</title>
+    <link>https://polytab.store/#314</link>
+    <guid isPermaLink="false">polytab:shelf:314</guid>
+    <description>What is broken: Standard battery power-wheelchairs cannot go into water and rust easily.
+What will be done: Maintain waterproof air-powered wheelchairs for disabled children.
+Proof: Water park mechanical inspection and safety compliance certificate.
+
+Category: Accessibility &amp; Universal Design
+Organization: Morgan&apos;s Wonderland Inclusion Foundation
+Location: San Antonio, TX
+Vote price: $1.00 · Target: $800.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000314</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Accessible Summer Camp &amp; Pediatric Power-Wheelchair Diagnostic Clinics</title>
+    <link>https://polytab.store/#315</link>
+    <guid isPermaLink="false">polytab:shelf:315</guid>
+    <description>What is broken: Power chairs breakdown frequently, trapping disabled youth at home.
+What will be done: Run free chair maintenance clinics and fund accessible summer camp.
+Proof: Equipment technician service ledger and camp enrollment roster.
+
+Category: Accessibility &amp; Universal Design
+Organization: Muscular Dystrophy Association (MDA)
+Location: Chicago, IL
+Vote price: $0.50 · Target: $600.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000315</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Brand-New Athletic Sneakers for Underserved Elementary Students</title>
+    <link>https://polytab.store/#316</link>
+    <guid isPermaLink="false">polytab:shelf:316</guid>
+    <description>What is broken: Kids wear worn-out, too-small shoes that cause blisters and prevent gym play.
+What will be done: Measure each child and buy them brand-new running shoes.
+Proof: School educator distribution log and shoe purchase invoice.
+
+Category: Athletics
+Organization: Shoes That Fit
+Location: Claremont, CA
+Vote price: $0.25 · Target: $250.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000316</description>
+    <category>Athletics</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Volunteer Aviation Fuel &amp; Medical Flights for Rural Pediatric Patients</title>
+    <link>https://polytab.store/#317</link>
+    <guid isPermaLink="false">polytab:shelf:317</guid>
+    <description>What is broken: Rural families cannot afford 10-hour drives or commercial flights for weekly surgery.
+What will be done: Volunteer pilots fly the child directly to specialized hospitals for free.
+Proof: Flight mission flight plan and hospital receiving check-in log.
+
+Category: Civic Tech
+Organization: Angel Flight West
+Location: Santa Monica, CA
+Vote price: $1.00 · Target: $900.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000317</description>
+    <category>Civic Tech</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Cost-Free Peer Camp for Children Coping with a Parent&apos;s Cancer</title>
+    <link>https://polytab.store/#318</link>
+    <guid isPermaLink="false">polytab:shelf:318</guid>
+    <description>What is broken: Children with a parent fighting cancer carry severe emotional stress and isolation.
+What will be done: Provide a free summer camp with peers experiencing the same challenge.
+Proof: Camp director attendance verification and session report.
+
+Category: Classrooms
+Organization: Camp Kesem
+Location: Durham, NC
+Vote price: $0.50 · Target: $450.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000318</description>
+    <category>Classrooms</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Specialized Service Dog Matching for Non-Verbal Autistic Youth</title>
+    <link>https://polytab.store/#319</link>
+    <guid isPermaLink="false">polytab:shelf:319</guid>
+    <description>What is broken: Autistic children often bolt into dangerous traffic without warning.
+What will be done: Train a service dog that gently halts wandering and calms sensory meltdowns.
+Proof: Handler team graduation certification signed by head trainer.
+
+Category: Accessibility &amp; Universal Design
+Organization: Paws With A Cause
+Location: Wayland, MI
+Vote price: $0.50 · Target: $700.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000319</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Rapid-Rehousing &amp; Emergency Rental Assistance for Single-Mother Families</title>
+    <link>https://polytab.store/#320</link>
+    <guid isPermaLink="false">polytab:shelf:320</guid>
+    <description>What is broken: An unexpected bill causes immediate eviction and shelter stays for mothers.
+What will be done: Pay security deposits and first month&apos;s rent directly to landlords.
+Proof: Direct landlord lease agreement and rent disbursement voucher.
+
+Category: Campus Grounds
+Organization: Family Promise
+Location: Summit, NJ
+Vote price: $1.00 · Target: $950.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000320</description>
+    <category>Campus Grounds</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Clean Water Sand Dam Construction &amp; Rain Catchment</title>
+    <link>https://polytab.store/#6</link>
+    <guid isPermaLink="false">polytab:shelf:6</guid>
+    <description>What is broken: Seasonal riverbeds dry up, forcing long daily treks for contaminated ditch water.
+What will be done: Build a concrete sand dam to trap clean underground water.
+Proof: Construction photos, geo-coordinates, and automated flow-meter sensor readings.
+
+Category: Environmental
+Organization: The Water Project
+Location: Makueni County, Kenya
+Vote price: $0.50 · Target: $750.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000006</description>
+    <category>Environmental</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Cold-Storage Food Rescuing &amp; Regional Pantry Logistics</title>
+    <link>https://polytab.store/#7</link>
+    <guid isPermaLink="false">polytab:shelf:7</guid>
+    <description>What is broken: Fresh surplus food rots in transit while low-income families face severe hunger.
+What will be done: Pay for refrigerated freight trucks to move food into community pantries.
+Proof: Certified freight bills of lading and receiving pantry poundage manifests.
+
+Category: Campus Grounds
+Organization: Feeding America
+Location: Chicago, IL
+Vote price: $0.50 · Target: $600.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000007</description>
+    <category>Campus Grounds</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Long-Lasting Insecticidal Net Distribution in High-Risk District</title>
+    <link>https://polytab.store/#8</link>
+    <guid isPermaLink="false">polytab:shelf:8</guid>
+    <description>What is broken: Mosquito bites cause deadly malaria epidemics among children and infants.
+What will be done: Hang insect-repelling bed nets above sleeping mats in every home.
+Proof: Unredacted household delivery survey and geo-tagged distribution logs.
+
+Category: Civic Tech
+Organization: Against Malaria Foundation (AMF)
+Location: Kasungu District, Malawi
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000008</description>
+    <category>Civic Tech</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Pro-Bono Legal Defense for Open-Source Devs &amp; Privacy Auditing</title>
+    <link>https://polytab.store/#9</link>
+    <guid isPermaLink="false">polytab:shelf:9</guid>
+    <description>What is broken: Government subpoenas and gag orders intimidate coders building private tools.
+What will be done: Provide pro-bono constitutional lawyers to defend open-source engineers.
+Proof: Public court docket filings and published amicus briefs.
+
+Category: Civic Tech
+Organization: Electronic Frontier Foundation (EFF)
+Location: San Francisco, CA
+Vote price: $0.50 · Target: $800.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000009</description>
+    <category>Civic Tech</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Low-Bandwidth Mobile Wikipedia &amp; Universal Offline Kiosk Mirroring</title>
+    <link>https://polytab.store/#10</link>
+    <guid isPermaLink="false">polytab:shelf:10</guid>
+    <description>What is broken: Rural schools lack internet connections and cannot load online encyclopedias.
+What will be done: Install offline USB and Wi-Fi mirrors of Wikipedia on local mini-servers.
+Proof: Open Kiwix deployment commits and classroom installation reports.
+
+Category: Classrooms
+Organization: Wikimedia Foundation
+Location: Nairobi, Kenya
+Vote price: $0.25 · Target: $400.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000010</description>
+    <category>Classrooms</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Mass Public Domain Legal Document &amp; Historic Audio Feeds Archiving</title>
+    <link>https://polytab.store/#11</link>
+    <guid isPermaLink="false">polytab:shelf:11</guid>
+    <description>What is broken: Public civic records are locked behind court paywalls or lost to digital link rot.
+What will be done: Scan, transcribe, and host public court records and audio files for free.
+Proof: Immutable IPFS collection hashes and Wayback Machine crawl logs.
+
+Category: Civic Tech
+Organization: Internet Archive
+Location: San Francisco, CA
+Vote price: $0.50 · Target: $600.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000011</description>
+    <category>Civic Tech</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Emergency Surgical Equipment &amp; Mobile Field Clinic Kits</title>
+    <link>https://polytab.store/#12</link>
+    <guid isPermaLink="false">polytab:shelf:12</guid>
+    <description>What is broken: Frontline medics running emergency clinics lack sterile surgical equipment.
+What will be done: Pack and air-drop durable, sterile surgical kits and mobile autoclaves.
+Proof: International logistics shipping receipt and field coordinator dispatch log.
+
+Category: Civic Tech
+Organization: Doctors Without Borders / MSF
+Location: Geneva, Switzerland (Global Deployment)
+Vote price: $1.00 · Target: $1200.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000012</description>
+    <category>Civic Tech</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Emergency Health Centers &amp; Insulin Cold-Chain Distribution</title>
+    <link>https://polytab.store/#13</link>
+    <guid isPermaLink="false">polytab:shelf:13</guid>
+    <description>What is broken: Grid power failures destroy refrigerated insulin, threatening diabetic patients.
+What will be done: Ship medical supplies in insulated active cold-chain containers.
+Proof: Real-time temperature logger charts and receiving hospital manifests.
+
+Category: Civic Tech
+Organization: Direct Relief
+Location: Santa Barbara, CA
+Vote price: $0.50 · Target: $850.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000013</description>
+    <category>Civic Tech</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Heavy-Equipment Storm Route Clearance &amp; Emergency Roof Tarping</title>
+    <link>https://polytab.store/#14</link>
+    <guid isPermaLink="false">polytab:shelf:14</guid>
+    <description>What is broken: Fallen trees block ambulances and storm debris leaves damaged roofs exposed.
+What will be done: Veteran crews clear roads with chainsaws and tarp damaged roofs.
+Proof: Geo-tagged before/after drone imagery and incident commander work orders.
+
+Category: Campus Grounds
+Organization: Team Rubicon
+Location: Gulf Coast Region, LA
+Vote price: $1.00 · Target: $900.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000014</description>
+    <category>Campus Grounds</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Equitable Low-Cost Open-Source Educational Tool Development</title>
+    <link>https://polytab.store/#15</link>
+    <guid isPermaLink="false">polytab:shelf:15</guid>
+    <description>What is broken: Developing schools cannot afford high software licensing fees for learning tools.
+What will be done: Pay programmers to release free, open-source educational software.
+Proof: Public GitHub commit hashes and smart contract transaction records.
+
+Category: Civic Tech
+Organization: UNICEF (CryptoFund)
+Location: New York, NY
+Vote price: $0.50 · Target: $1000.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000015</description>
+    <category>Civic Tech</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Mobile School Classrooms &amp; Emergency Child Sanitation Kits</title>
+    <link>https://polytab.store/#16</link>
+    <guid isPermaLink="false">polytab:shelf:16</guid>
+    <description>What is broken: Earthquakes and floods demolish schools, leaving children out of class for months.
+What will be done: Erect heavy-duty temporary classroom tents and hand-washing stations.
+Proof: Third-party site inspection certification and classroom attendance records.
+
+Category: Classrooms
+Organization: Save the Children
+Location: London, UK (Global Operations)
+Vote price: $0.50 · Target: $650.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000016</description>
+    <category>Classrooms</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Localized STEM Curriculum &amp; Universal Offline Translation</title>
+    <link>https://polytab.store/#17</link>
+    <guid isPermaLink="false">polytab:shelf:17</guid>
+    <description>What is broken: High-quality math and science lessons are mostly recorded only in English.
+What will be done: Translate, subtitle, and distribute lessons in indigenous languages.
+Proof: Public open-access content repository release and subtitle track files.
+
+Category: Classrooms
+Organization: Khan Academy
+Location: Mountain View, CA
+Vote price: $0.25 · Target: $350.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000017</description>
+    <category>Classrooms</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Indigenous Forest Patroller Satellite GPS Monitoring Hardware</title>
+    <link>https://polytab.store/#18</link>
+    <guid isPermaLink="false">polytab:shelf:18</guid>
+    <description>What is broken: Illegal loggers destroy protected rainforest tracts in remote areas undetected.
+What will be done: Give Indigenous forest rangers GPS beacons and satellite units.
+Proof: Uploaded patrol GPS track logs and geo-located boundary monitoring maps.
+
+Category: Environmental
+Organization: Rainforest Foundation US
+Location: Loreto Region, Peru
+Vote price: $0.50 · Target: $700.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000018</description>
+    <category>Environmental</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Civic Hearing-Loop Infrastructure &amp; Public Live-Caption Audits</title>
+    <link>https://polytab.store/#19</link>
+    <guid isPermaLink="false">polytab:shelf:19</guid>
+    <description>What is broken: Hard-of-hearing citizens cannot hear public town hall debates through standard speakers.
+What will be done: Install telecoil loops that stream audio directly into hearing aids.
+Proof: Public acoustic telecoil certification report and engineer test sheet.
+
+Category: Accessibility &amp; Universal Design
+Organization: Hearing Loss Association of America (HLAA)
+Location: Rockville, MD
+Vote price: $0.50 · Target: $550.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000019</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Adaptive Home Wheelchair Ramp &amp; Door Automation Retrofits</title>
+    <link>https://polytab.store/#20</link>
+    <guid isPermaLink="false">polytab:shelf:20</guid>
+    <description>What is broken: Narrow doorways and exterior front steps trap paralyzed veterans inside their homes.
+What will be done: Widen door thresholds and install automatic door push-buttons.
+Proof: Contractor building permits and completed architectural inspection photos.
+
+Category: Accessibility &amp; Universal Design
+Organization: Wounded Warrior Project
+Location: Jacksonville, FL
+Vote price: $1.00 · Target: $1100.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000020</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Pediatric Cataract Surgeries &amp; Trachoma Antibiotic Rounds</title>
+    <link>https://polytab.store/#401</link>
+    <guid isPermaLink="false">polytab:shelf:401</guid>
+    <description>What is broken: Avoidable eye infections cause permanent blindness in remote villages.
+What will be done: Deploy mobile eye doctors to perform free pediatric surgeries.
+Proof: Surgical clinical log and post-operative vision assessment records.
+
+Category: Accessibility &amp; Universal Design
+Organization: Sightsavers
+Location: Kaduna State, Nigeria
+Vote price: $0.50 · Target: $600.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000401</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Post-Conflict Landmine Survivor Prosthetics &amp; Physical Rehabilitation</title>
+    <link>https://polytab.store/#402</link>
+    <guid isPermaLink="false">polytab:shelf:402</guid>
+    <description>What is broken: Landmine explosions leave children without limbs and unable to walk to school.
+What will be done: Build custom artificial legs and provide physical therapy.
+Proof: Orthotic fitting sign-off and clinical mobility milestone ledger.
+
+Category: Accessibility &amp; Universal Design
+Organization: Humanity &amp; Inclusion (Handicap International)
+Location: Siem Reap, Cambodia
+Vote price: $1.00 · Target: $950.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000402</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Hospital Ship Pediatric Maxillofacial &amp; Orthopedic Surgeries</title>
+    <link>https://polytab.store/#403</link>
+    <guid isPermaLink="false">polytab:shelf:403</guid>
+    <description>What is broken: Severe bone deformities go untreated due to lack of local surgical specialists.
+What will be done: Provide free orthopedic corrective surgery aboard a hospital ship.
+Proof: Hospital ship surgical registry and patient discharge certification.
+
+Category: Classrooms
+Organization: Mercy Ships
+Location: Port of Freetown, Sierra Leone
+Vote price: $1.00 · Target: $1200.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000403</description>
+    <category>Classrooms</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Community-Based Inclusive Education &amp; Hearing Screenings for Rural Youth</title>
+    <link>https://polytab.store/#404</link>
+    <guid isPermaLink="false">polytab:shelf:404</guid>
+    <description>What is broken: Deaf children are excluded from public classrooms and isolated at home.
+What will be done: Fit hearing aids and train village teachers in sign language.
+Proof: Ministry of Education inclusive enrollment rosters and audiologist logs.
+
+Category: Accessibility &amp; Universal Design
+Organization: CBM (Christian Blind Mission)
+Location: Addis Ababa, Ethiopia
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000404</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Remote Mobile Eye Clinic &amp; Intraocular Lens Transplants</title>
+    <link>https://polytab.store/#405</link>
+    <guid isPermaLink="false">polytab:shelf:405</guid>
+    <description>What is broken: Remote outback communities lack access to basic eye clinics and glasses.
+What will be done: Send mobile surgical vans to restore sight and hand out prescription lenses.
+Proof: Mobile clinic patient ledger and post-operative sight scorecards.
+
+Category: Accessibility &amp; Universal Design
+Organization: The Fred Hollows Foundation
+Location: Alice Springs, Northern Territory, Australia
+Vote price: $0.50 · Target: $450.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000405</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Ultra-Poor Graduation Livelihood Asset Grants for Single Mothers</title>
+    <link>https://polytab.store/#406</link>
+    <guid isPermaLink="false">polytab:shelf:406</guid>
+    <description>What is broken: Single mothers without assets or savings remain trapped in extreme poverty.
+What will be done: Deliver livestock, veterinary care, and weekly business training.
+Proof: Livestock asset transfer documentation and biometric graduation sign-offs.
+
+Category: Civic Tech
+Organization: BRAC
+Location: Rangpur District, Bangladesh
+Vote price: $1.00 · Target: $1000.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000406</description>
+    <category>Civic Tech</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Primary School Accessible Latrines &amp; Rainwater Gravity Wells</title>
+    <link>https://polytab.store/#407</link>
+    <guid isPermaLink="false">polytab:shelf:407</guid>
+    <description>What is broken: Inaccessible pit latrines cause infections and keep disabled girls out of school.
+What will be done: Build wheelchair-accessible toilets and clean handwashing sinks.
+Proof: Municipal building inspection certificate and water purity test results.
+
+Category: Campus Grounds
+Organization: WaterAid
+Location: Kigali, Rwanda
+Vote price: $0.50 · Target: $700.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000407</description>
+    <category>Campus Grounds</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Daily School Nutritional Porridge Program for Primary Pupils</title>
+    <link>https://polytab.store/#408</link>
+    <guid isPermaLink="false">polytab:shelf:408</guid>
+    <description>What is broken: Chronic classroom hunger causes developmental stunting and high dropout rates.
+What will be done: Cook and serve a hot vitamin-rich meal at school every single day.
+Proof: Daily school kitchen attendance rolls and local grain purchase vouchers.
+
+Category: Classrooms
+Organization: Mary&apos;s Meals
+Location: Blantyre, Malawi
+Vote price: $0.25 · Target: $300.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000408</description>
+    <category>Classrooms</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Rural Girls Secondary School Tuition, Uniforms &amp; Mentorship</title>
+    <link>https://polytab.store/#409</link>
+    <guid isPermaLink="false">polytab:shelf:409</guid>
+    <description>What is broken: Families unable to pay school fees marry off teenage daughters early.
+What will be done: Pay full tuition, buy books and uniforms, and provide female mentors.
+Proof: School term enrollment registration and headmaster fee receipts.
+
+Category: Classrooms
+Organization: CAMFED (Campaign for Female Education)
+Location: Chinsali District, Zambia
+Vote price: $0.50 · Target: $550.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000409</description>
+    <category>Classrooms</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Teaching at the Right Level Remedial Literacy &amp; Math Camps</title>
+    <link>https://polytab.store/#410</link>
+    <guid isPermaLink="false">polytab:shelf:410</guid>
+    <description>What is broken: Millions of 5th-grade students attend school but cannot read 2nd-grade sentences.
+What will be done: Group children by learning ability and run 30-day catch-up reading camps.
+Proof: Baseline and endline ASER reading assessment scorecards.
+
+Category: Classrooms
+Organization: Pratham
+Location: Lucknow, Uttar Pradesh, India
+Vote price: $0.25 · Target: $350.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000410</description>
+    <category>Classrooms</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Chlorine Dispensers for Safe Water &amp; Community Maintenance</title>
+    <link>https://polytab.store/#411</link>
+    <guid isPermaLink="false">polytab:shelf:411</guid>
+    <description>What is broken: Unchlorinated drinking springs cause fatal waterborne diseases in infants.
+What will be done: Install free chlorine dispensers directly beside village water taps.
+Proof: Point-of-collection water chlorine residue tests and maintenance audit logs.
+
+Category: Environmental
+Organization: Evidence Action
+Location: Kakamega County, Kenya
+Vote price: $0.50 · Target: $400.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000411</description>
+    <category>Environmental</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Conditional Cash Transfers for Routine Childhood Vaccinations</title>
+    <link>https://polytab.store/#412</link>
+    <guid isPermaLink="false">polytab:shelf:412</guid>
+    <description>What is broken: Poverty and transit costs prevent mothers from getting their infants vaccinated.
+What will be done: Give mothers a small cash bonus each time their baby receives essential shots.
+Proof: Biometric clinic vaccination records and mobile money transfer receipts.
+
+Category: Civic Tech
+Organization: New Incentives
+Location: Sokoto State, Nigeria
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000412</description>
+    <category>Civic Tech</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Ready-to-Use Therapeutic Food (RUTF) for Severe Child Malnutrition</title>
+    <link>https://polytab.store/#413</link>
+    <guid isPermaLink="false">polytab:shelf:413</guid>
+    <description>What is broken: Severe wasting and famine claim the lives of infants before emergency food arrives.
+What will be done: Distribute high-calorie fortified peanut paste packs to restore health.
+Proof: Clinical weight recovery charts and clinic discharge certificates.
+
+Category: Classrooms
+Organization: Action Against Hunger
+Location: Diffa Region, Niger
+Vote price: $0.50 · Target: $650.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000413</description>
+    <category>Classrooms</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>High-Dose Vitamin A Supplementation &amp; Deworming Rounds</title>
+    <link>https://polytab.store/#414</link>
+    <guid isPermaLink="false">polytab:shelf:414</guid>
+    <description>What is broken: Vitamin A deficiency weakens immune systems and leads to preventable blindness.
+What will be done: Provide vitamin drops and chewable deworming pills to toddlers.
+Proof: Regional health directorate delivery logs and community tally sheets.
+
+Category: Classrooms
+Organization: Helen Keller International
+Location: Kindia Region, Guinea
+Vote price: $0.25 · Target: $300.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000414</description>
+    <category>Classrooms</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Seasonal Malaria Chemoprevention (SMC) Pediatric Blister Packs</title>
+    <link>https://polytab.store/#415</link>
+    <guid isPermaLink="false">polytab:shelf:415</guid>
+    <description>What is broken: Rains cause massive mosquito blooms, sickening thousands of toddlers with malaria.
+What will be done: Go door-to-door giving monthly preventive medicine tablets during rainy months.
+Proof: GPS-tracked distributor route logs and independent cluster survey results.
+
+Category: Civic Tech
+Organization: Malaria Consortium
+Location: Kano State, Nigeria
+Vote price: $0.50 · Target: $600.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000415</description>
+    <category>Civic Tech</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Family Strengthening &amp; Child Abandonment Prevention for Single Mothers</title>
+    <link>https://polytab.store/#416</link>
+    <guid isPermaLink="false">polytab:shelf:416</guid>
+    <description>What is broken: Extreme poverty forces impoverished mothers to place children into orphanages.
+What will be done: Provide free daycare, food boxes, and job training so families stay together.
+Proof: Social worker family stability assessments and vocational completion certificates.
+
+Category: Campus Grounds
+Organization: SOS Children&apos;s Villages
+Location: San Jose, Costa Rica
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000416</description>
+    <category>Campus Grounds</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Indigenous Community Land Title Deeds &amp; Acreage Protection</title>
+    <link>https://polytab.store/#417</link>
+    <guid isPermaLink="false">polytab:shelf:417</guid>
+    <description>What is broken: Unregistered rainforest territories are plundered by illegal gold miners.
+What will be done: Fund GPS surveys and legal paperwork to grant Indigenous communities legal deeds.
+Proof: Registered government land registry title deeds and boundary satellite maps.
+
+Category: Environmental
+Organization: Rainforest Trust
+Location: Madre de Dios, Peru
+Vote price: $1.00 · Target: $850.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000417</description>
+    <category>Environmental</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Emergency Psychosocial Care &amp; Safe Learning Spaces for War-Affected Youth</title>
+    <link>https://polytab.store/#418</link>
+    <guid isPermaLink="false">polytab:shelf:418</guid>
+    <description>What is broken: Artillery shelling and blackouts traumatize children and shut down regular schools.
+What will be done: Build safe, heated underground classrooms and provide child psychologists.
+Proof: Local municipal education permit and clinical session logs.
+
+Category: Classrooms
+Organization: War Child
+Location: Kharkiv, Ukraine
+Vote price: $0.50 · Target: $750.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000418</description>
+    <category>Classrooms</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Pediatric Cleft Palate Surgery Missions &amp; Speech Pathology</title>
+    <link>https://polytab.store/#419</link>
+    <guid isPermaLink="false">polytab:shelf:419</guid>
+    <description>What is broken: Children born with untreated cleft lips face speech barriers and severe social stigma.
+What will be done: Provide free corrective surgery and speech lessons.
+Proof: De-identified surgical program ledger and anesthesiologist sign-offs.
+
+Category: Accessibility &amp; Universal Design
+Organization: Operation Smile
+Location: Antananarivo, Madagascar
+Vote price: $1.00 · Target: $900.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000419</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>Digital Literacy &amp; Girls&apos; Rights Community Learning Hubs</title>
+    <link>https://polytab.store/#420</link>
+    <guid isPermaLink="false">polytab:shelf:420</guid>
+    <description>What is broken: Rural young women are completely excluded from digital skills and internet tools.
+What will be done: Install solar panels and computers in a community center for free classes.
+Proof: Solar installation inspection sign-off and student course graduation logs.
+
+Category: Civic Tech
+Organization: Plan International
+Location: Dakar, Senegal
+Vote price: $0.50 · Target: $600.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000420</description>
+    <category>Civic Tech</category>
+    <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
+  </item>
+  </channel>
+</rss>

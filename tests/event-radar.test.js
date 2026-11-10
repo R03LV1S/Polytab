@@ -4,10 +4,12 @@
 
 const assert = require("assert");
 const fs = require("fs");
+const path = require("path");
 const {
   stripTags, parseRssItems, parseGdeltDate, categoryFor, walletFor,
-  proposePairing, toQueueBlock, normalizeTitle
-} = require("X:\\PolyTab\\discover-events.js");
+  proposePairing, toQueueBlock, normalizeTitle,
+  isFocus, isRecent, gdacsLocation, MAX_EVENT_AGE_DAYS
+} = require(path.join(__dirname, "..", "scripts", "discover-events.js"));
 
 let passed = 0, failed = 0;
 function test(name, fn) {
@@ -89,8 +91,9 @@ test("categoryFor: school/orphan -> Classrooms", () => {
   assert.strictEqual(categoryFor("Rural orphanage school repaired for foster children"), "Classrooms");
 });
 test("keywordMatch: 'sick' must not match 'sickens'", () => {
-  assert.strictEqual(require("X:\\PolyTab\\discover-events.js").keywordMatch("Salmonella sickens children", "sick"), false);
-  assert.strictEqual(require("X:\\PolyTab\\discover-events.js").keywordMatch("Sick children need care", "sick"), true);
+  const { keywordMatch } = require(path.join(__dirname, "..", "scripts", "discover-events.js"));
+  assert.strictEqual(keywordMatch("Salmonella sickens children", "sick"), false);
+  assert.strictEqual(keywordMatch("Sick children need care", "sick"), true);
 });
 
 // --- Wallet series ---
@@ -107,7 +110,7 @@ test("walletFor(999) stays 42 chars", () => {
 });
 
 // --- Pairing against the REAL feed.json (100 verified orgs) ---
-const feed = JSON.parse(fs.readFileSync("X:\\PolyTabRepo\\docs\\feed.json", "utf8"));
+const feed = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "docs", "feed.json"), "utf8"));
 test("proposePairing: leukemia/cancer event pairs with a real cancer org", () => {
   const p = proposePairing("childhood leukemia cancer treatment hospital patients", feed);
   assert.ok(p, "expected a pairing");
@@ -160,6 +163,72 @@ test("focus keywords catch the real CDC headline", () => {
   const FOCUS = ["disability","disabled","children","child","hospital","cancer","leukemia","outbreak","infant","toddler","sick","disease"];
   const headline = "Ongoing Salmonella outbreaks linked to backyard poultry sickens 150 more people with over a quarter of cases in children under 5 years old";
   assert.ok(FOCUS.some(k => headline.toLowerCase().includes(k)));
+});
+
+// --- Focus relevance: broad filler words must not qualify ---
+test("isFocus: mission and hazard headlines qualify", () => {
+  assert.strictEqual(isFocus("Childhood leukemia trial expands to three hospitals"), true);
+  assert.strictEqual(isFocus("Magnitude 6.4 earthquake strikes Solomon Islands"), true);
+  assert.strictEqual(isFocus("Wheelchair ramp funding approved for rural school"), true);
+});
+test("isFocus: generic news does not qualify", () => {
+  assert.strictEqual(isFocus("Quarterly earnings beat analyst expectations"), false);
+  assert.strictEqual(isFocus("We support and care about local business"), false);
+});
+
+// --- Recency guard: archives must not flood the queue ---
+test("isRecent: keeps current events, drops archives and undated items", () => {
+  const now = Date.parse("2026-11-10T00:00:00Z");
+  assert.strictEqual(isRecent("2026-11-05T00:00:00Z", now), true);
+  assert.strictEqual(isRecent("2026-08-01T00:00:00Z", now), false);
+  assert.strictEqual(isRecent(null, now), false);
+  assert.strictEqual(isRecent("not-a-date", now), false);
+  assert.strictEqual(isRecent("2026-11-11T00:00:00Z", now), true); // small clock skew allowed
+  assert.strictEqual(isRecent("2026-12-01T00:00:00Z", now), false);
+  assert.strictEqual(MAX_EVENT_AGE_DAYS, 21);
+});
+
+// --- GDACS fixture (real structure: alert level + place-name extraction) ---
+const GDACS_XML = `<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:gdacs="http://www.gdacs.org"><channel><title>GDACS RSS information</title>
+<item>
+<title>Orange earthquake (Magnitude 6.1M, Depth:10km) in Chile 09/11/2026 04:52 UTC, 230 thousand in MMI IV.</title>
+<link>http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1576372</link>
+<pubDate>Mon, 09 Nov 2026 05:03:32 GMT</pubDate>
+<gdacs:alertlevel>Orange</gdacs:alertlevel>
+</item>
+<item>
+<title>Green forest fire notification in South Sudan</title>
+<link>http://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1033673</link>
+<pubDate>Tue, 10 Nov 2026 00:01:09 GMT</pubDate>
+<gdacs:alertlevel>Green</gdacs:alertlevel>
+</item>
+</channel></rss>`;
+test("GDACS: alert level parsed, places extracted, Orange kept / Green dropped", () => {
+  const items = parseRssItems(GDACS_XML);
+  assert.strictEqual(items.length, 2);
+  assert.strictEqual(items[0].alertLevel, "Orange");
+  assert.strictEqual(gdacsLocation(items[0].title), "Chile");
+  assert.strictEqual(gdacsLocation(items[1].title), "South Sudan");
+  const kept = items.filter(it => /orange|red/i.test(it.alertLevel || ""));
+  assert.strictEqual(kept.length, 1);
+});
+
+// --- Regression: category must never be missing (CI crash "Invalid category in 601") ---
+test("toQueueBlock: derives a valid category when the event has none", () => {
+  const b = toQueueBlock({
+    headline: "Magnitude 6.4 earthquake strikes near Solomon Islands",
+    sourceName: "GDACS (EU JRC)",
+    url: "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1",
+    date: "2026-11-09T03:34:59.000Z",
+    location: "Solomon Islands",
+    hash: "def456"
+  }, 601);
+  assert.strictEqual(b.category, "Environmental");
+  assert.ok(["Accessibility & Universal Design","Environmental","Classrooms","Civic Tech"].includes(b.category));
+  assert.strictEqual(b.status, "Proposed");
+  assert.strictEqual(b.fundedUSD, 0);
+  assert.strictEqual(b.votesCount, 0);
 });
 
 console.log("\n" + passed + " passed, " + failed + " failed");
