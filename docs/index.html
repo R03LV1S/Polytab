@@ -141,6 +141,9 @@
         <button type="button" data-tab="create" class="nav-tab-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold text-zinc-300 hover:text-white transition">
           + List Action
         </button>
+        <button type="button" data-tab="markets" class="nav-tab-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold text-zinc-300 hover:text-white transition">
+          Futarchy Lab
+        </button>
         <button type="button" data-tab="global" class="nav-tab-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold text-zinc-300 hover:text-white transition">
           SMS / Email / Global
         </button>
@@ -321,6 +324,24 @@
       </div>
     </section>
 
+    <section id="tab-markets" class="tab-panel hidden space-y-6">
+      <div class="bg-zinc-900/50 border border-zinc-800 p-5 rounded-2xl space-y-3 hc-card">
+        <div class="flex flex-wrap items-center justify-between gap-3">
+          <h2 class="text-lg font-bold text-white">Futarchy Policy Markets &mdash; Pilot</h2>
+          <span class="px-2.5 py-1 rounded bg-zinc-800 text-zinc-300 border border-zinc-700 text-[11px] font-mono">Vote on values. Bet on beliefs.</span>
+        </div>
+        <p class="text-xs text-zinc-400 max-w-3xl leading-relaxed">
+          Each market asks which verified intervention works better for a specific community. Stake on the outcome you believe in &mdash;
+          <strong class="text-yellow-300 hc-accent">the losing side&rsquo;s stakes fund the winning intervention</strong>, so no predictor profits and every dollar funds the remedy.
+          Settlement uses public data plus a community dispute window, never a house or a bookie.
+        </p>
+        <p class="text-[11px] text-amber-300/90 bg-amber-500/5 border border-amber-500/20 rounded-xl px-3 py-2 font-mono">
+          Honest-zero launch: volume is $0.00 and odds are unset until the first verified on-chain stake. No fabricated numbers, ever.
+        </p>
+      </div>
+      <div id="marketsGrid" class="grid grid-cols-1 lg:grid-cols-2 gap-6" aria-live="polite"></div>
+    </section>
+
     <section id="tab-global" class="tab-panel hidden space-y-8">
       <div class="bg-zinc-900/50 border border-zinc-800 p-6 rounded-2xl space-y-2 hc-card">
         <h2 class="text-2xl font-extrabold text-white">Universal Access: Zero-Smartphone &amp; Offline Onboarding</h2>
@@ -410,6 +431,21 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
             <li>&bull; <strong>DOM Sanitization:</strong> Zero <code class="text-emerald-400">innerHTML</code> rendering of user strings; strict regex guards on all EVM addresses and hashes.</li>
           </ul>
         </div>
+      </div>
+      <div class="bg-zinc-900/30 border border-zinc-800 p-6 rounded-2xl space-y-3 hc-card">
+        <span class="text-xs font-mono uppercase text-purple-400 font-bold">Futarchy &amp; Adversarial Outcome Markets</span>
+        <h3 class="text-lg font-bold text-white">Vote on Values, Bet on Beliefs</h3>
+        <p class="text-xs text-zinc-300 leading-relaxed">
+          Futarchy policy markets let small-dollar stakes reveal which verified intervention a community believes works better — then route <strong class="text-yellow-300">100% of losing-side stakes plus a 10% protocol slice into the winning intervention&rsquo;s escrow</strong>. No predictor receives principal plus yield: this is not a betting product, so there are no losers. Markets launch at $0 volume with unset odds; numbers appear only after verified on-chain stakes.
+        </p>
+        <ol class="text-xs text-zinc-300 space-y-2 list-decimal list-inside">
+          <li><strong>Tier 1 &mdash; Deterministic:</strong> A GitHub Action cron-fetches public data feeds (legislative dockets, agency APIs, school-district reports), SHA-256-verifies the body, and auto-settles hard metrics after the resolution deadline.</li>
+          <li><strong>Tier 2 &mdash; Community Dispute Window:</strong> Ambiguous resolutions post as public GitHub Issues with attached evidence; any staker may challenge within the 48&ndash;72 hour window by posting a dispute bond.</li>
+          <li><strong>Tier 3 &mdash; 2-of-3 Multi-Sig:</strong> Final call by the Project Champion, Task Worker, and Community/Accessibility Arbiter council — Accessibility markets always include a directly impacted stakeholder (<em>Nothing About Us Without Us</em>).</li>
+        </ol>
+        <p class="text-[11px] text-amber-300/90 bg-amber-500/5 border border-amber-500/20 rounded-xl px-3 py-2 font-mono leading-relaxed">
+          SHELVED PENDING LEGAL REVIEW: Adversarial accountability markets (&ldquo;The Civic Short&rdquo;) on named officials, corporations, or investigations present event-contract/gambling-law exposure and defamation risk. Only futarchy markets between verified 501(c)(3) interventions ship until counsel clears the adversarial tier.
+        </p>
       </div>
       <div class="bg-zinc-900/30 border border-zinc-800 p-6 rounded-2xl space-y-2 hc-card">
         <span class="text-xs font-mono uppercase text-amber-400 font-bold">Historical &amp; Academic Foundation (2600 BCE &rarr; Web3)</span>
@@ -536,7 +572,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         { id: "5", title: "Solar Pollinator Waystation & Native Milkweed Bed", category: "Environmental", location: "South Courtyard", summary: "Convert 40 sq ft of neglected gravel beds into native milkweed and wildflower pollinator habitats with solar drip irrigation.", plainSummary: "What is broken: South courtyard bed is weeds and gravel.\nWhat will be done: Plant native flowers for bees and butterflies.\nProof: Time-lapse video of planting.", votePriceUSD: 0.50, targetUSD: 40.00, fundedUSD: 19.00, votesCount: 38, wallet: "0x71C0000000000000000000000000000000000105", status: "Active", lat: null, lng: null },
         { id: "6", title: "Open-Source Municipal & School Budget Visualizer", category: "Civic Tech", location: "Global / Digital Commons", summary: "Convert annual PDF line-item expenditure tables into an open-source, screen-reader-accessible CSV and interactive chart repository.", plainSummary: "What is broken: Budget reports are locked in hard-to-read PDF files.\nWhat will be done: Build a free searchable web chart.\nProof: Public GitHub repository release.", votePriceUSD: 0.50, targetUSD: 60.00, fundedUSD: 42.00, votesCount: 84, wallet: "0x71C0000000000000000000000000000000000106", status: "Active", lat: null, lng: null }
       ];
-      let state = { proposals: [], selectedCategory: "ALL", selectedStatus: "ALL", searchQuery: "", plainLanguageMode: false, highContrastMode: false, liteMode: false, connectedAddress: null, socialHandle: localStorage.getItem("polytab_handle") || "", activeModalProposal: null, mapInstance: null };
+      let state = { proposals: [], markets: [], selectedCategory: "ALL", selectedStatus: "ALL", searchQuery: "", plainLanguageMode: false, highContrastMode: false, liteMode: false, connectedAddress: null, socialHandle: localStorage.getItem("polytab_handle") || "", activeModalProposal: null, mapInstance: null };
       function isValidAddress(addr) { return /^0x[a-fA-F0-9]{40}$/.test(String(addr || "").trim()); }
       function isValidTxHash(hash) { return /^0x[a-fA-F0-9]{64}$/.test(String(hash || "").trim()); }
       async function loadFeedState() {
@@ -573,6 +609,145 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         renderCategoryPills();
         renderProposalsGrid();
         startRssTicker();
+      }
+      const FALLBACK_MARKETS = [];
+      async function loadMarkets() {
+        const controller = new AbortController();
+        const timeout = setTimeout(() => controller.abort(), 2500);
+        try {
+          const res = await fetch("./data/markets.json", { signal: controller.signal });
+          clearTimeout(timeout);
+          if (!res.ok) throw new Error("Markets status not 200");
+          const data = await res.json();
+          state.markets = Array.isArray(data.markets) ? data.markets.map((m) => ({
+            id: String(m.id || ""),
+            title: String(m.title || "Untitled Market"),
+            category: String(m.category || "Civic Tech"),
+            status: String(m.status || "Open"),
+            outcomes: Array.isArray(m.outcomes) ? m.outcomes.map((o) => ({
+              key: String(o.key || "A"),
+              label: String(o.label || "Outcome"),
+              organization: String(o.organization || ""),
+              beneficiaryBountyId: String(o.beneficiaryBountyId || ""),
+              escrowWallet: isValidAddress(o.escrowWallet) ? o.escrowWallet : ""
+            })) : [],
+            stakePriceUSD: Number(m.stakePriceUSD) || 0.50,
+            totalVolumeUSD: Number(m.totalVolumeUSD) || 0,
+            currentOdds: m.currentOdds || null,
+            resolutionRule: String(m.resolutionRule || ""),
+            oracleSource: String((m.oracle && m.oracle.source) || ""),
+            resolutionDeadline: String((m.oracle && m.oracle.resolutionDeadline) || ""),
+            disputeWindowHours: Number(m.oracle && m.oracle.disputeWindowHours) || 48,
+            civicPivot: String(m.civicPivot || ""),
+            plainSummary: String(m.plainSummary || "")
+          })) : FALLBACK_MARKETS;
+        } catch (_) { state.markets = FALLBACK_MARKETS; }
+        renderMarketsGrid();
+      }
+      function renderMarketsGrid() {
+        const grid = document.getElementById("marketsGrid");
+        grid.replaceChildren();
+        if (state.markets.length === 0) {
+          const emptyBox = document.createElement("div");
+          emptyBox.className = "col-span-full bg-zinc-900/40 border border-zinc-800 rounded-2xl p-8 text-center text-zinc-400 text-sm";
+          emptyBox.textContent = "No open futarchy markets. Markets are listed by the governance council from verified organizations on the Action Shelf.";
+          grid.appendChild(emptyBox);
+          return;
+        }
+        state.markets.forEach((m) => {
+          const card = document.createElement("article");
+          card.className = "bg-zinc-900/60 border border-zinc-800 hover:border-zinc-700 rounded-2xl p-5 space-y-4 transition shadow-lg hc-card";
+          const badgeRow = document.createElement("div");
+          badgeRow.className = "flex items-center justify-between gap-2 flex-wrap";
+          const catBadge = document.createElement("span");
+          const isAccess = m.category.includes("Accessibility");
+          catBadge.className = isAccess ? "text-[11px] font-mono font-semibold px-2.5 py-0.5 rounded-md bg-amber-500/10 text-amber-300 border border-amber-500/30 hc-accent" : "text-[11px] font-mono font-semibold px-2.5 py-0.5 rounded-md bg-purple-500/10 text-yellow-300 border border-yellow-500/20";
+          catBadge.textContent = m.category;
+          const statusBadge = document.createElement("span");
+          statusBadge.className = "text-[11px] font-mono px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20";
+          statusBadge.textContent = m.status;
+          badgeRow.appendChild(catBadge);
+          badgeRow.appendChild(statusBadge);
+          const titleH3 = document.createElement("h3");
+          titleH3.className = "text-base font-bold text-white leading-snug";
+          titleH3.textContent = m.title;
+          const descP = document.createElement("p");
+          descP.className = "text-xs text-zinc-300 leading-relaxed whitespace-pre-line";
+          descP.textContent = state.plainLanguageMode ? m.plainSummary : m.civicPivot;
+          const volumeP = document.createElement("p");
+          volumeP.className = "text-[11px] text-zinc-400 font-mono";
+          volumeP.textContent = "Volume: $" + m.totalVolumeUSD.toFixed(2) + (m.currentOdds ? "" : " — Odds: unset (no verified stakes yet)");
+          const outcomesDiv = document.createElement("div");
+          outcomesDiv.className = "space-y-2 pt-2 border-t border-zinc-800/80";
+          const outcomesLabel = document.createElement("p");
+          outcomesLabel.className = "text-[11px] text-zinc-500 font-mono uppercase tracking-wider";
+          outcomesLabel.textContent = "Stake an outcome";
+          outcomesDiv.appendChild(outcomesLabel);
+          m.outcomes.forEach((o) => {
+            const row = document.createElement("div");
+            row.className = "space-y-2";
+            const btn = document.createElement("button");
+            btn.type = "button";
+            btn.className = "w-full py-2.5 px-4 bg-zinc-800 hover:bg-zinc-700 text-white font-bold rounded-xl text-xs transition hc-btn";
+            btn.textContent = "Stake $" + m.stakePriceUSD.toFixed(2) + " — " + o.label + " (" + o.organization + ")";
+            const panel = document.createElement("div");
+            panel.className = "hidden bg-black/40 border border-zinc-800 rounded-xl p-3 space-y-2";
+            const approxWei = String(Math.round((m.stakePriceUSD / 2800) * 1e18));
+            const eip681 = "ethereum:" + o.escrowWallet + "@" + BASE_CHAIN_ID + "?value=" + approxWei;
+            const qrBox = document.createElement("div");
+            qrBox.className = "p-2 bg-white rounded-xl mx-auto";
+            qrBox.setAttribute("role", "img");
+            qrBox.setAttribute("aria-label", "EIP-681 stake QR code for outcome " + o.label);
+            if (typeof QRCode !== "undefined") {
+              new QRCode(qrBox, { text: eip681, width: 110, height: 110, colorDark: "#000000", colorLight: "#ffffff", correctLevel: QRCode.CorrectLevel.M });
+            }
+            const uriP = document.createElement("p");
+            uriP.className = "text-[10px] text-zinc-400 font-mono break-all";
+            uriP.textContent = eip681;
+            const recordBtn = document.createElement("button");
+            recordBtn.type = "button";
+            recordBtn.className = "w-full py-2 bg-purple-700 hover:bg-purple-600 text-white font-semibold rounded-xl text-[11px] transition hc-btn";
+            recordBtn.textContent = "Record Stake via GitHub Issue";
+            recordBtn.addEventListener("click", () => {
+              const params = new URLSearchParams({ title: "[Market Stake]: " + m.id + " Outcome " + o.key, labels: "market-stake,pending-rpc-check", body: ["### Futarchy Market Stake Submission", "- **Market:** " + m.id + " — " + m.title, "- **Outcome:** " + o.key + " — " + o.label + " (" + o.organization + ", bounty #" + o.beneficiaryBountyId + ")", "- **Escrow Wallet:** `" + o.escrowWallet + "`", "- **Stake Amount (USD):** " + m.stakePriceUSD, "- **TX Hash:** `0x...`"].join("\n") });
+              window.open("https://github.com/" + GITHUB_OWNER + "/" + GITHUB_REPO + "/issues/new?" + params.toString(), "_blank", "noopener");
+            });
+            panel.appendChild(qrBox);
+            panel.appendChild(uriP);
+            panel.appendChild(recordBtn);
+            btn.addEventListener("click", () => { panel.classList.toggle("hidden"); });
+            row.appendChild(btn);
+            row.appendChild(panel);
+            outcomesDiv.appendChild(row);
+          });
+          const details = document.createElement("details");
+          const summary = document.createElement("summary");
+          summary.className = "text-[11px] text-zinc-400 cursor-pointer";
+          summary.textContent = "How this market settles";
+          const ruleP = document.createElement("p");
+          ruleP.className = "text-[11px] text-zinc-400 leading-relaxed mt-1";
+          ruleP.textContent = m.resolutionRule;
+          details.appendChild(summary);
+          details.appendChild(ruleP);
+          const oracleP = document.createElement("p");
+          oracleP.className = "text-[11px] text-zinc-500 font-mono";
+          oracleP.appendChild(document.createTextNode("Settles by " + (m.resolutionDeadline ? m.resolutionDeadline.slice(0, 10) : "TBD") + " • " + m.disputeWindowHours + "h dispute window • "));
+          const oracleA = document.createElement("a");
+          oracleA.href = m.oracleSource || "#";
+          oracleA.target = "_blank";
+          oracleA.rel = "noopener";
+          oracleA.className = "text-yellow-400 hover:text-yellow-300 underline";
+          oracleA.textContent = "Public data source";
+          oracleP.appendChild(oracleA);
+          card.appendChild(badgeRow);
+          card.appendChild(titleH3);
+          card.appendChild(descP);
+          card.appendChild(volumeP);
+          card.appendChild(outcomesDiv);
+          card.appendChild(details);
+          card.appendChild(oracleP);
+          grid.appendChild(card);
+        });
       }
       function updateTelemetry() {
         const totalProjects = state.proposals.length;
@@ -907,6 +1082,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       });
       if (state.socialHandle) { document.getElementById("socialIdentityBtn").textContent = state.socialHandle; }
       loadFeedState();
+      loadMarkets();
     })();
   </script>
 </body>

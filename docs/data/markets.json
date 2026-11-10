@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "description": "Polytab Futarchy Policy Markets (Pilot). Vote on values, bet on beliefs. All markets launch at $0 volume with no odds — odds exist only after verified on-chain stakes. Losing stakes route to the winning intervention, so no predictor profits: every dollar funds the remedy.",
+  "markets": [
+    {
+      "id": "M-801",
+      "slug": "chicago-disability-futarchy-2026-27",
+      "title": "Futarchy Pilot: Which does more for Chicago children with disabilities by the end of the 2026-27 school year — early sensory/motor therapy, or accessible summer camp + power-wheelchair diagnostics?",
+      "category": "Accessibility & Universal Design",
+      "status": "Open",
+      "outcomes": [
+        {
+          "key": "A",
+          "label": "Early Childhood Sensory & Motor Therapy",
+          "beneficiaryBountyId": "207",
+          "organization": "Easterseals",
+          "escrowWallet": "0x71D0000000000000000000000000000000008011"
+        },
+        {
+          "key": "B",
+          "label": "Accessible Summer Camp + Power-Wheelchair Diagnostics",
+          "beneficiaryBountyId": "315",
+          "organization": "Muscular Dystrophy Association (MDA)",
+          "escrowWallet": "0x71D0000000000000000000000000000000008012"
+        }
+      ],
+      "stakePriceUSD": 0.50,
+      "totalVolumeUSD": 0,
+      "currentOdds": null,
+      "resolutionRule": "Council compares verified program outcome evidence (clinical milestone logs, camp participation records, power-wheelchair fitting counts) plus Chicago Public Schools Office of Diverse Learners Supports published data. The outcome with the larger documented improvement in school participation and mobility independence for children with disabilities wins.",
+      "oracle": {
+        "method": "community-dispute-window",
+        "source": "https://www.cps.edu/about/district-at-a-glance/",
+        "resolutionDeadline": "2027-06-15T23:59:59Z",
+        "disputeWindowHours": 72,
+        "settlement": "Resolution posted as a public GitHub Issue with attached evidence. Any staker may challenge during the dispute window by posting a dispute bond. Final call by 2-of-3 multi-sig council including at least one directly impacted stakeholder (Nothing About Us Without Us)."
+      },
+      "civicPivot": "100% of losing-side stakes plus a 10% protocol slice of winning-side stakes route into the winning intervention's escrow wallet (#207 or #315 on the Action Shelf). No predictor receives principal back plus yield — this is not a betting product.",
+      "plainSummary": "• What is broken: Chicago families of children with disabilities must choose between therapy programs without real evidence about which one works better.\n• What will be done: Two verified programs compete for the same funding pool. Small-dollar stakes reveal which one the community believes works better, and all stake money funds the winner.\n• Proof: The market settles on published school-participation data and each program's audited clinical logs, posted to a public GitHub Issue with a 72-hour challenge window."
+    },
+    {
+      "id": "M-802",
+      "slug": "denver-child-health-futarchy-2027",
+      "title": "Futarchy Pilot: Which improves measurable health outcomes more for Denver's low-income children by Q4 2027 — in-home nurse visits for first-time mothers, or therapeutic equine-assisted physical therapy for disabled children?",
+      "category": "Civic Tech",
+      "status": "Open",
+      "outcomes": [
+        {
+          "key": "A",
+          "label": "In-Home Nurse Visits for First-Time Mothers",
+          "beneficiaryBountyId": "302",
+          "organization": "Nurse-Family Partnership",
+          "escrowWallet": "0x71D0000000000000000000000000000000008021"
+        },
+        {
+          "key": "B",
+          "label": "Therapeutic Equine-Assisted Physical Therapy",
+          "beneficiaryBountyId": "307",
+          "organization": "PATH International",
+          "escrowWallet": "0x71D0000000000000000000000000000000008022"
+        }
+      ],
+      "stakePriceUSD": 0.50,
+      "totalVolumeUSD": 0,
+      "currentOdds": null,
+      "resolutionRule": "Council compares verified program outcome evidence (NFP home-visit completion and maternal/infant health indicators; PATH therapy goal-attainment scores and mobility milestones) plus Denver public health community reports. The outcome with the larger documented health improvement per program dollar wins.",
+      "oracle": {
+        "method": "community-dispute-window",
+        "source": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Public-Health-Environment",
+        "resolutionDeadline": "2027-12-31T23:59:59Z",
+        "disputeWindowHours": 48,
+        "settlement": "Resolution posted as a public GitHub Issue with attached evidence. Any staker may challenge during the dispute window by posting a dispute bond. Final call by 2-of-3 multi-sig council."
+      },
+      "civicPivot": "100% of losing-side stakes plus a 10% protocol slice of winning-side stakes route into the winning intervention's escrow wallet (#302 or #307 on the Action Shelf). No predictor receives principal back plus yield — this is not a betting product.",
+      "plainSummary": "• What is broken: Denver's health budgets must guess whether nurse home visits or equine-assisted therapy does more good per dollar, and guesses waste money.\n• What will be done: Two verified programs compete for the same funding pool. Small-dollar stakes reveal which one the community believes works better, and all stake money funds the winner.\n• Proof: The market settles on each program's audited outcome logs and Denver public health data, posted to a public GitHub Issue with a 48-hour challenge window."
+    }
+  ]
+}
