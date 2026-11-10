@@ -65,7 +65,7 @@
         "fundedUSD": 0,
         "votesCount": 0,
         "contract": "0x71C0000000000000000000000000000000000103",
-        "status": "In Review (48h Lock)",
+        "status": "Active",
         "lat": 0.3263,
         "lng": 34.7519
       }
@@ -109,7 +109,7 @@
         "fundedUSD": 0,
         "votesCount": 0,
         "contract": "0x71C0000000000000000000000000000000000105",
-        "status": "Funded",
+        "status": "Active",
         "lat": 52.52,
         "lng": 13.405
       }
@@ -153,7 +153,7 @@
         "fundedUSD": 0,
         "votesCount": 0,
         "contract": "0x71C0000000000000000000000000000000000202",
-        "status": "Funded",
+        "status": "Active",
         "lat": 40.7061,
         "lng": -73.9405
       }
@@ -197,7 +197,7 @@
         "fundedUSD": 0,
         "votesCount": 0,
         "contract": "0x71C0000000000000000000000000000000000204",
-        "status": "In Review (48h Lock)",
+        "status": "Active",
         "lat": 38.3498,
         "lng": -81.6326
       }
@@ -285,7 +285,7 @@
         "fundedUSD": 0,
         "votesCount": 0,
         "contract": "0x71C0000000000000000000000000000000000208",
-        "status": "In Review (48h Lock)",
+        "status": "Active",
         "lat": 38.9984,
         "lng": -77.0947
       }
@@ -329,7 +329,7 @@
         "fundedUSD": 0,
         "votesCount": 0,
         "contract": "0x71C0000000000000000000000000000000000210",
-        "status": "Funded",
+        "status": "Active",
         "lat": 42.3789,
         "lng": -83.0722
       }
@@ -373,7 +373,7 @@
         "fundedUSD": 0,
         "votesCount": 0,
         "contract": "0x71C0000000000000000000000000000000000212",
-        "status": "Funded",
+        "status": "Active",
         "lat": 41.4682,
         "lng": -81.7051
       }
@@ -417,7 +417,7 @@
         "fundedUSD": 0,
         "votesCount": 0,
         "contract": "0x71C0000000000000000000000000000000000214",
-        "status": "In Review (48h Lock)",
+        "status": "Active",
         "lat": 20.6597,
         "lng": -103.3496
       }
@@ -461,7 +461,7 @@
         "fundedUSD": 0,
         "votesCount": 0,
         "contract": "0x71C0000000000000000000000000000000000216",
-        "status": "Funded",
+        "status": "Active",
         "lat": 41.0998,
         "lng": -80.6495
       }
@@ -505,7 +505,7 @@
         "fundedUSD": 0,
         "votesCount": 0,
         "contract": "0x71C0000000000000000000000000000000000218",
-        "status": "Funded",
+        "status": "Active",
         "lat": 37.0475,
         "lng": -112.5263
       }
@@ -593,7 +593,7 @@
         "fundedUSD": 0,
         "votesCount": 0,
         "contract": "0x71C0000000000000000000000000000000000202",
-        "status": "Funded",
+        "status": "Active",
         "lat": 33.8082,
         "lng": -84.1702
       }
@@ -637,7 +637,7 @@
         "fundedUSD": 0,
         "votesCount": 0,
         "contract": "0x71C0000000000000000000000000000000000204",
-        "status": "In Review (48h Lock)",
+        "status": "Active",
         "lat": 40.4406,
         "lng": -79.9959
       }
@@ -681,7 +681,7 @@
         "fundedUSD": 0,
         "votesCount": 0,
         "contract": "0x71C0000000000000000000000000000000000206",
-        "status": "Funded",
+        "status": "Active",
         "lat": 37.9735,
         "lng": -122.5311
       }
@@ -747,7 +747,7 @@
         "fundedUSD": 0,
         "votesCount": 0,
         "contract": "0x71C0000000000000000000000000000000000209",
-        "status": "Funded",
+        "status": "Active",
         "lat": 38.9072,
         "lng": -77.0369
       }
@@ -791,7 +791,7 @@
         "fundedUSD": 0,
         "votesCount": 0,
         "contract": "0x71C0000000000000000000000000000000000211",
-        "status": "Funded",
+        "status": "Active",
         "lat": 25.7617,
         "lng": -80.1918
       }
@@ -857,7 +857,7 @@
         "fundedUSD": 0,
         "votesCount": 0,
         "contract": "0x71C0000000000000000000000000000000000214",
-        "status": "Funded",
+        "status": "Active",
         "lat": 35.1495,
         "lng": -90.049
       }
@@ -901,7 +901,7 @@
         "fundedUSD": 0,
         "votesCount": 0,
         "contract": "0x71C0000000000000000000000000000000000216",
-        "status": "In Review (48h Lock)",
+        "status": "Active",
         "lat": 40.0076,
         "lng": -75.2343
       }
@@ -967,7 +967,7 @@
         "fundedUSD": 0,
         "votesCount": 0,
         "contract": "0x71C0000000000000000000000000000000000219",
-        "status": "Funded",
+        "status": "Active",
         "lat": 36.5298,
         "lng": -87.3595
       }
@@ -1055,7 +1055,7 @@
         "fundedUSD": 0,
         "votesCount": 0,
         "contract": "0x71C0000000000000000000000000000000000303",
-        "status": "Funded",
+        "status": "Active",
         "lat": 41.3083,
         "lng": -72.9279
       }
@@ -1099,7 +1099,7 @@
         "fundedUSD": 0,
         "votesCount": 0,
         "contract": "0x71C0000000000000000000000000000000000305",
-        "status": "In Review (48h Lock)",
+        "status": "Active",
         "lat": 38.5816,
         "lng": -121.4944
       }
@@ -1143,7 +1143,7 @@
         "fundedUSD": 0,
         "votesCount": 0,
         "contract": "0x71C0000000000000000000000000000000000307",
-        "status": "Funded",
+        "status": "Active",
         "lat": 39.7392,
         "lng": -104.9903
       }
@@ -1187,7 +1187,7 @@
         "fundedUSD": 0,
         "votesCount": 0,
         "contract": "0x71C0000000000000000000000000000000000309",
-        "status": "Funded",
+        "status": "Active",
         "lat": 38.9847,
         "lng": -77.0947
       }
@@ -1231,7 +1231,7 @@
         "fundedUSD": 0,
         "votesCount": 0,
         "contract": "0x71C0000000000000000000000000000000000311",
-        "status": "In Review (48h Lock)",
+        "status": "Active",
         "lat": 27.9506,
         "lng": -82.4572
       }
@@ -1275,7 +1275,7 @@
         "fundedUSD": 0,
         "votesCount": 0,
         "contract": "0x71C0000000000000000000000000000000000313",
-        "status": "Funded",
+        "status": "Active",
         "lat": 47.674,
         "lng": -122.1215
       }
@@ -1341,7 +1341,7 @@
         "fundedUSD": 0,
         "votesCount": 0,
         "contract": "0x71C0000000000000000000000000000000000316",
-        "status": "Funded",
+        "status": "Active",
         "lat": 34.0967,
         "lng": -117.7198
       }
@@ -1407,7 +1407,7 @@
         "fundedUSD": 0,
         "votesCount": 0,
         "contract": "0x71C0000000000000000000000000000000000319",
-        "status": "Funded",
+        "status": "Active",
         "lat": 42.6739,
         "lng": -85.6436
       }
