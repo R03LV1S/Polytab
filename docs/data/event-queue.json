@@ -3,6 +3,118 @@
   "description": "Polytab Event Radar queue. Current events (last 21 days) surfaced from free public feeds (GDELT, CDC Newsroom, GDACS, USGS) as candidate civic-action blocks in the exact Polytab block format. All metrics are honest-zero (fundedUSD=0, votesCount=0). Items are PROPOSED — promotion to the Action Shelf (feed.json) requires a verified organization pairing and governance sign-off, never automatic. Wallet series: 0x71E + ID (601+). No coordinates are stored (lat/lng null); locations are public place-name strings only.",
   "items": [
     {
+      "id": "603",
+      "title": "Hardwick Child Haven presents Indian Dinner",
+      "category": "Accessibility & Universal Design",
+      "organization": "Verification Pending",
+      "location": "Global",
+      "summary": "Community Radar current event: \"Hardwick Child Haven presents Indian Dinner\" (GDELT (vtcng.com), 2026-11-06). Awaiting a verified 501(c)(3) partner pairing before Action Shelf listing.",
+      "plainSummary": "• What is broken: Hardwick Child Haven presents Indian Dinner\n• What will be done: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://www.vtcng.com/stowetoday/stowetoday/food_and_drink/hardwick-child-haven-presents-indian-dinner/article_3872f536-c28d-461a-a3b0-ffd0f6345ad2.html (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x71E0000000000000000000000000000000000603",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "GDELT (vtcng.com)",
+        "sourceUrl": "https://www.vtcng.com/stowetoday/stowetoday/food_and_drink/hardwick-child-haven-presents-indian-dinner/article_3872f536-c28d-461a-a3b0-ffd0f6345ad2.html",
+        "publishedAt": "2026-11-06T03:00:00.000Z",
+        "discoveredAt": "2026-11-11T02:48:44.700Z",
+        "proposedPairing": null,
+        "dedupeHash": "65b8dfa20a692d87ddf3b9c9aef5d6fd3c6dd44b70c2225448d0a5690d19e229"
+      }
+    },
+    {
+      "id": "604",
+      "title": "FIRST - PERSON : The government must let the Church fulfill its responsibility to the orphan • Biblical Recorder",
+      "category": "Classrooms",
+      "organization": "Fisher House Foundation",
+      "location": "United States",
+      "summary": "Community Radar current event: \"FIRST - PERSON : The government must let the Church fulfill its responsibility to the orphan • Biblical Recorder\" (GDELT (brnow.org), 2026-11-05). Proposed pairing with verified organization Fisher House Foundation (Action Shelf bounty #501) — pending governance verification.",
+      "plainSummary": "• What is broken: FIRST - PERSON : The government must let the Church fulfill its responsibility to the orphan • Biblical Recorder\n• What will be done: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://www.brnow.org/opinions/voices-opinion/first-person-the-government-must-let-the-church-fulfill-its-responsibility-to-the-orphan/ (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x71E0000000000000000000000000000000000604",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "GDELT (brnow.org)",
+        "sourceUrl": "https://www.brnow.org/opinions/voices-opinion/first-person-the-government-must-let-the-church-fulfill-its-responsibility-to-the-orphan/",
+        "publishedAt": "2026-11-05T22:00:00.000Z",
+        "discoveredAt": "2026-11-11T02:48:44.701Z",
+        "proposedPairing": {
+          "bountyId": "501",
+          "organization": "Fisher House Foundation",
+          "keywordMatches": 2
+        },
+        "dedupeHash": "f58510df800d78550aa68677002dff345e91db240d69ee6f65810df85996b49b"
+      }
+    },
+    {
+      "id": "605",
+      "title": "State - Level Children Festival MAHAK - 2026 Kicks Off at Kalinga Stadium - Pragativadi I Latest Odisha News in English…",
+      "category": "Accessibility & Universal Design",
+      "organization": "Pratham",
+      "location": "India",
+      "summary": "Community Radar current event: \"State - Level Children Festival MAHAK - 2026 Kicks Off at Kalinga Stadium - Pragativadi I Latest Odisha News in English I Breaking News\" (GDELT (pragativadi.com), 2026-11-03). Proposed pairing with verified organization Pratham (Action Shelf bounty #410) — pending governance verification.",
+      "plainSummary": "• What is broken: State - Level Children Festival MAHAK - 2026 Kicks Off at Kalinga Stadium - Pragativadi I Latest Odisha News in English I Breaking News\n• What will be done: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://pragativadi.com/state-level-childrens-festival-mahak-2026-kicks-off-at-kalinga-stadium/ (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x71E0000000000000000000000000000000000605",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "GDELT (pragativadi.com)",
+        "sourceUrl": "https://pragativadi.com/state-level-childrens-festival-mahak-2026-kicks-off-at-kalinga-stadium/",
+        "publishedAt": "2026-11-03T11:15:00.000Z",
+        "discoveredAt": "2026-11-11T02:48:44.703Z",
+        "proposedPairing": {
+          "bountyId": "410",
+          "organization": "Pratham",
+          "keywordMatches": 3
+        },
+        "dedupeHash": "cda40fd34dd2672056ab1e05917e500207bbe2126c10be40bfc1bd4edfab9dee"
+      }
+    },
+    {
+      "id": "606",
+      "title": "Unregistered shelter homes leave children beyond effective oversight",
+      "category": "Accessibility & Universal Design",
+      "organization": "RedRover",
+      "location": "Pakistan",
+      "summary": "Community Radar current event: \"Unregistered shelter homes leave children beyond effective oversight\" (GDELT (tribune.com.pk), 2026-10-27). Proposed pairing with verified organization RedRover (Action Shelf bounty #305) — pending governance verification.",
+      "plainSummary": "• What is broken: Unregistered shelter homes leave children beyond effective oversight\n• What will be done: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://tribune.com.pk/story/2637138/unregistered-shelter-homes-leave-children-beyond-effective-oversight-1 (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x71E0000000000000000000000000000000000606",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "GDELT (tribune.com.pk)",
+        "sourceUrl": "https://tribune.com.pk/story/2637138/unregistered-shelter-homes-leave-children-beyond-effective-oversight-1",
+        "publishedAt": "2026-10-27T05:15:00.000Z",
+        "discoveredAt": "2026-11-11T02:48:44.704Z",
+        "proposedPairing": {
+          "bountyId": "305",
+          "organization": "RedRover",
+          "keywordMatches": 3
+        },
+        "dedupeHash": "79fbef738083bdae5a9f1d72627029690dcc7ea69801eb7e732c4b8561d757ad"
+      }
+    },
+    {
       "id": "601",
       "title": "Hurricane — HURRICANE ISAIAS — (DR)",
       "category": "Environmental",
@@ -59,7 +171,11 @@
   ],
   "processedHashes": [
     "b925120c60ad1cef1a3111324996cbf742b7d17ad6b47db91e4479d2207e9a3e",
-    "fc56d86f304ca0c2bacb2e8cb1417bd34ddc00309cda91ed61d6b84b3000e470"
+    "fc56d86f304ca0c2bacb2e8cb1417bd34ddc00309cda91ed61d6b84b3000e470",
+    "65b8dfa20a692d87ddf3b9c9aef5d6fd3c6dd44b70c2225448d0a5690d19e229",
+    "f58510df800d78550aa68677002dff345e91db240d69ee6f65810df85996b49b",
+    "cda40fd34dd2672056ab1e05917e500207bbe2126c10be40bfc1bd4edfab9dee",
+    "79fbef738083bdae5a9f1d72627029690dcc7ea69801eb7e732c4b8561d757ad"
   ],
-  "nextId": 603
+  "nextId": 607
 }
