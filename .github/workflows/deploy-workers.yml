@@ -1,0 +1,54 @@
+name: Deploy Cloudflare Workers
+
+# Self-serve, zero-cost worker deploys.
+# GUARDED: this workflow no-ops until CLOUDFLARE_API_TOKEN + CLOUDFLARE_ACCOUNT_ID
+# are configured as repository secrets. No secrets => a single informational step.
+#
+# Verify the `name` in each workers/wrangler.*.toml matches your existing worker
+# before relying on this — otherwise update the config, not the worker count.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "workers/**"
+      - ".github/workflows/deploy-workers.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-workers
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Secrets not configured — skipping (no-op)
+        if: env.CLOUDFLARE_API_TOKEN == ''
+        run: echo "CLOUDFLARE_API_TOKEN is not set. Add it (Workers Scripts:Edit) plus CLOUDFLARE_ACCOUNT_ID to enable automatic worker deploys."
+
+      - name: Deploy event-radar
+        if: env.CLOUDFLARE_API_TOKEN != ''
+        working-directory: workers
+        run: npx --yes wrangler@3 deploy --config wrangler.event-radar.toml
+
+      - name: Deploy org-discovery
+        if: env.CLOUDFLARE_API_TOKEN != ''
+        working-directory: workers
+        run: npx --yes wrangler@3 deploy --config wrangler.org-discovery.toml
+
+      - name: Deploy market-oracle
+        if: env.CLOUDFLARE_API_TOKEN != ''
+        working-directory: workers
+        run: npx --yes wrangler@3 deploy --config wrangler.market-oracle.toml

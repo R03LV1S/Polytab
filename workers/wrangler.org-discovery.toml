@@ -1,0 +1,11 @@
+# Polytab Organization Discovery Worker — /discover, /verify, /categories.
+# AGENT: verify `name` matches the existing Cloudflare Worker before deploying.
+# Optional: bind CURATED_ORGS_JSON as a plain-text variable (a feed.json snapshot)
+# so /discover can pair discovered events to verified orgs.
+
+name = "polytab-org-discovery"
+main = "org-discovery.js"
+compatibility_date = "2026-11-01"
+
+[vars]
+# CURATED_ORGS_JSON = "..."   # optional curated feed snapshot; leave unset if unused

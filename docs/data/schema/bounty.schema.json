@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://polytab.store/schema/bounty.schema.json",
+  "title": "BountyItem",
+  "description": "Polytab bounty record. Honest-zero rule: reward.amount is 0 until real on-chain funding is verified — never estimated or invented.",
+  "type": "object",
+  "required": ["id", "source", "status", "reward", "created_at", "updated_at"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^bty_(prod|dev|stg)_[a-z0-9-]+_[a-z0-9-]+_[a-z0-9-]+_\\d+_[a-z0-9]{4,}$",
+      "description": "Deterministic, hierarchical bounty identifier (see scripts/bounty-id.js)"
+    },
+    "source": {
+      "type": "object",
+      "required": ["platform", "org", "repo", "issue_number", "url"],
+      "additionalProperties": false,
+      "properties": {
+        "platform": { "type": "string", "enum": ["github", "gitlab", "custom"] },
+        "org": { "type": "string" },
+        "repo": { "type": "string" },
+        "issue_number": { "type": "integer", "minimum": 0 },
+        "url": { "type": "string", "format": "uri" }
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": ["open", "assigned", "under_review", "completed", "cancelled"]
+    },
+    "reward": {
+      "type": "object",
+      "required": ["amount", "currency"],
+      "additionalProperties": false,
+      "properties": {
+        "amount": { "type": "number", "minimum": 0, "description": "0 until verified on-chain funding exists (honest-zero)" },
+        "currency": { "type": "string", "pattern": "^[A-Z]{3,5}$" }
+      }
+    },
+    "assignee": {
+      "type": ["string", "null"]
+    },
+    "created_at": { "type": "string", "format": "date-time" },
+    "updated_at": { "type": "string", "format": "date-time" }
+  }
+}

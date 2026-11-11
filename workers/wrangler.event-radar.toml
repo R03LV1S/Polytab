@@ -1,0 +1,8 @@
+# Polytab Event Radar Worker — read-only queue/config API.
+# AGENT: verify `name` matches the existing Cloudflare Worker before deploying.
+
+name = "polytab-event-radar"
+main = "event-radar.js"
+compatibility_date = "2026-11-01"
+
+# No bindings: reads docs/data/event-queue.json over HTTPS. Free tier only.

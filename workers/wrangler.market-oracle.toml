@@ -1,0 +1,8 @@
+# Polytab Market Oracle Worker — read-only /markets and /resolve-check endpoints.
+# AGENT: verify `name` matches the existing Cloudflare Worker before deploying.
+
+name = "polytab-market-oracle"
+main = "market-oracle.js"
+compatibility_date = "2026-11-01"
+
+# No bindings. Reads docs/data/markets.json over HTTPS. Free tier only.

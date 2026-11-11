@@ -30,6 +30,7 @@ jobs:
           node tests/event-radar.test.js
           node tests/feeds.test.js
           node tests/markets.test.js
+          node tests/bounty-id.test.js
       - name: Generate RSS / geoRSS feeds from feed.json
         run: node scripts/generate-feeds.js
       - uses: actions/configure-pages@v5
