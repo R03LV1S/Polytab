@@ -3,9 +3,9 @@
   <channel>
     <title>Polytab — Global Civic Action Map (geoRSS)</title>
     <link>https://polytab.store/#map</link>
-    <description>geoRSS mirror of the Polytab Action Shelf. 100 of 100 actions publish organization coordinates, rounded to two decimal places (~1 km, neighborhood-level) to prevent PII/doxing. Organizations without a public location are listed in feed.xml only.</description>
+    <description>geoRSS mirror of the Polytab Action Shelf. 150 of 150 actions publish organization coordinates, rounded to two decimal places (~1 km, neighborhood-level) to prevent PII/doxing. Organizations without a public location are listed in feed.xml only.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Nov 2026 03:33:33 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 23:27:44 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://polytab.store/feeds/global.xml" rel="self" type="application/rss+xml" />
   <item>
@@ -22,7 +22,8 @@ Location: Watertown, MA (Global Distribution)
 Vote price: $0.50 · Target: $250.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000101</description>
+Escrow: 0x71C0000000000000000000000000000000000101
+Website: https://www.perkins.org</description>
     <category>Accessibility &amp; Universal Design</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>42.37 -71.17</georss:point>
@@ -41,7 +42,8 @@ Location: Siaya County, Kenya
 Vote price: $0.25 · Target: $500.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000102</description>
+Escrow: 0x71C0000000000000000000000000000000000102
+Website: https://www.givedirectly.org</description>
     <category>Civic Tech</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>0.06 34.29</georss:point>
@@ -60,7 +62,8 @@ Location: Western Region, Kenya
 Vote price: $0.50 · Target: $600.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000103</description>
+Escrow: 0x71C0000000000000000000000000000000000103
+Website: https://thewaterproject.org</description>
     <category>Environmental</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>0.33 34.75</georss:point>
@@ -79,7 +82,8 @@ Location: Global Rapid Deployment Fleet
 Vote price: $1.00 · Target: $1000.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000104</description>
+Escrow: 0x71C0000000000000000000000000000000000104
+Website: https://wck.org</description>
     <category>Classrooms</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>38.91 -77.04</georss:point>
@@ -98,7 +102,8 @@ Location: Global / Decentralized Commons
 Vote price: $0.50 · Target: $400.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000105</description>
+Escrow: 0x71C0000000000000000000000000000000000105
+Website: https://www.torproject.org</description>
     <category>Civic Tech</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>52.52 13.40</georss:point>
@@ -117,7 +122,8 @@ Location: Sevier County, TN (National Model)
 Vote price: $0.50 · Target: $300.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000201</description>
+Escrow: 0x71C0000000000000000000000000000000000201
+Website: https://imaginationlibrary.com</description>
     <category>Classrooms</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>35.87 -83.56</georss:point>
@@ -136,7 +142,8 @@ Location: Brooklyn, NY / Public School 147
 Vote price: $0.25 · Target: $175.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000202</description>
+Escrow: 0x71C0000000000000000000000000000000000202
+Website: https://www.donorschoose.org</description>
     <category>Accessibility &amp; Universal Design</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>40.71 -73.94</georss:point>
@@ -155,7 +162,8 @@ Location: Washington, DC / Ward 8
 Vote price: $0.50 · Target: $450.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000203</description>
+Escrow: 0x71C0000000000000000000000000000000000203
+Website: https://www.rif.org</description>
     <category>Classrooms</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>38.85 -76.98</georss:point>
@@ -174,7 +182,8 @@ Location: Appalachian Corridor, WV
 Vote price: $0.50 · Target: $350.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000204</description>
+Escrow: 0x71C0000000000000000000000000000000000204
+Website: https://firstbook.org</description>
     <category>Classrooms</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>38.35 -81.63</georss:point>
@@ -193,7 +202,8 @@ Location: Battambang Province, Cambodia
 Vote price: $0.50 · Target: $500.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000205</description>
+Escrow: 0x71C0000000000000000000000000000000000205
+Website: https://www.roomtoread.org</description>
     <category>Classrooms</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>13.10 103.20</georss:point>
@@ -212,7 +222,8 @@ Location: Tema Seaport, Ghana
 Vote price: $1.00 · Target: $1200.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000206</description>
+Escrow: 0x71C0000000000000000000000000000000000206
+Website: https://www.booksforafrica.org</description>
     <category>Civic Tech</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>5.67 -0.02</georss:point>
@@ -231,7 +242,8 @@ Location: Atlanta, GA / Thomasville Heights
 Vote price: $1.00 · Target: $850.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000207</description>
+Escrow: 0x71C0000000000000000000000000000000000207
+Website: https://www.habitat.org</description>
     <category>Campus Grounds</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>33.71 -84.36</georss:point>
@@ -250,7 +262,8 @@ Location: Bethesda, MD (Military Medical Center)
 Vote price: $0.50 · Target: $400.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000208</description>
+Escrow: 0x71C0000000000000000000000000000000000208
+Website: https://fisherhouse.org</description>
     <category>Classrooms</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>39.00 -77.09</georss:point>
@@ -269,7 +282,8 @@ Location: San Antonio, TX
 Vote price: $1.00 · Target: $1500.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000209</description>
+Escrow: 0x71C0000000000000000000000000000000000209
+Website: https://www.garysinisefoundation.org</description>
     <category>Accessibility &amp; Universal Design</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>29.42 -98.49</georss:point>
@@ -288,7 +302,8 @@ Location: Detroit, MI / North End
 Vote price: $0.25 · Target: $200.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000210</description>
+Escrow: 0x71C0000000000000000000000000000000000210
+Website: https://littlefreelibrary.org</description>
     <category>Campus Grounds</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>42.38 -83.07</georss:point>
@@ -307,7 +322,8 @@ Location: Ashford, CT
 Vote price: $0.50 · Target: $600.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000211</description>
+Escrow: 0x71C0000000000000000000000000000000000211
+Website: https://www.holeinthewallgang.org</description>
     <category>Accessibility &amp; Universal Design</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>41.87 -72.15</georss:point>
@@ -326,7 +342,8 @@ Location: Cleveland, OH / Clark-Fulton
 Vote price: $1.00 · Target: $1000.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000212</description>
+Escrow: 0x71C0000000000000000000000000000000000212
+Website: https://kaboom.org</description>
     <category>Campus Grounds</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>41.47 -81.71</georss:point>
@@ -345,7 +362,8 @@ Location: Pike County, KY
 Vote price: $0.25 · Target: $300.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000213</description>
+Escrow: 0x71C0000000000000000000000000000000000213
+Website: https://www.toysfortots.org</description>
     <category>Classrooms</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>37.48 -82.52</georss:point>
@@ -364,7 +382,8 @@ Location: Guadalajara, Mexico
 Vote price: $1.00 · Target: $450.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000214</description>
+Escrow: 0x71C0000000000000000000000000000000000214
+Website: https://www.smiletrain.org</description>
     <category>Classrooms</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>20.66 -103.35</georss:point>
@@ -383,7 +402,8 @@ Location: Aroostook County, ME
 Vote price: $0.50 · Target: $400.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000215</description>
+Escrow: 0x71C0000000000000000000000000000000000215
+Website: https://www.mealsonwheelsamerica.org</description>
     <category>Civic Tech</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>46.66 -68.01</georss:point>
@@ -402,7 +422,8 @@ Location: Youngstown, OH
 Vote price: $0.50 · Target: $650.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000216</description>
+Escrow: 0x71C0000000000000000000000000000000000216
+Website: https://www.modestneeds.org</description>
     <category>Civic Tech</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>41.10 -80.65</georss:point>
@@ -421,7 +442,8 @@ Location: Cusco, Peru
 Vote price: $0.50 · Target: $500.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000217</description>
+Escrow: 0x71C0000000000000000000000000000000000217
+Website: https://www.kiva.org</description>
     <category>Civic Tech</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>-13.53 -71.97</georss:point>
@@ -440,7 +462,8 @@ Location: Kanab, UT
 Vote price: $0.50 · Target: $350.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000218</description>
+Escrow: 0x71C0000000000000000000000000000000000218
+Website: https://bestfriends.org</description>
     <category>Environmental</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>37.05 -112.53</georss:point>
@@ -459,7 +482,8 @@ Location: White Plains, NY
 Vote price: $0.50 · Target: $600.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000219</description>
+Escrow: 0x71C0000000000000000000000000000000000219
+Website: https://www.guidingeyes.org</description>
     <category>Accessibility &amp; Universal Design</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>41.03 -73.76</georss:point>
@@ -478,7 +502,8 @@ Location: Great Smoky Mountains, TN
 Vote price: $0.50 · Target: $500.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000220</description>
+Escrow: 0x71C0000000000000000000000000000000000220
+Website: https://www.nationalparks.org</description>
     <category>Environmental</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>35.69 -83.54</georss:point>
@@ -497,7 +522,8 @@ Location: Tampa, FL / Hillsborough County
 Vote price: $1.00 · Target: $1200.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000201</description>
+Escrow: 0x71C0000000000000000000000000000000000201
+Website: https://wheelchairs4kids.org</description>
     <category>Accessibility &amp; Universal Design</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>27.95 -82.46</georss:point>
@@ -516,7 +542,8 @@ Location: Stone Mountain, GA
 Vote price: $0.50 · Target: $400.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000202</description>
+Escrow: 0x71C0000000000000000000000000000000000202
+Website: https://fodac.org</description>
     <category>Accessibility &amp; Universal Design</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>33.81 -84.17</georss:point>
@@ -535,7 +562,8 @@ Location: San Diego, CA
 Vote price: $1.00 · Target: $1000.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000203</description>
+Escrow: 0x71C0000000000000000000000000000000000203
+Website: https://www.challengedathletes.org</description>
     <category>Athletics</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>32.72 -117.16</georss:point>
@@ -554,7 +582,8 @@ Location: Pittsburgh, PA
 Vote price: $0.50 · Target: $750.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000204</description>
+Escrow: 0x71C0000000000000000000000000000000000204
+Website: https://variety.org</description>
     <category>Accessibility &amp; Universal Design</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>40.44 -80.00</georss:point>
@@ -573,7 +602,8 @@ Location: Santa Rosa, CA
 Vote price: $0.50 · Target: $800.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000205</description>
+Escrow: 0x71C0000000000000000000000000000000000205
+Website: https://canine.org</description>
     <category>Accessibility &amp; Universal Design</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>38.44 -122.71</georss:point>
@@ -592,7 +622,8 @@ Location: San Rafael, CA
 Vote price: $0.50 · Target: $450.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000206</description>
+Escrow: 0x71C0000000000000000000000000000000000206
+Website: https://www.guidedogs.com</description>
     <category>Accessibility &amp; Universal Design</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>37.97 -122.53</georss:point>
@@ -611,7 +642,8 @@ Location: Chicago, IL
 Vote price: $0.50 · Target: $500.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000207</description>
+Escrow: 0x71C0000000000000000000000000000000000207
+Website: https://www.easterseals.com</description>
     <category>Classrooms</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>41.88 -87.63</georss:point>
@@ -630,7 +662,8 @@ Location: Bakersfield, CA
 Vote price: $0.50 · Target: $600.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000208</description>
+Escrow: 0x71C0000000000000000000000000000000000208
+Website: https://ucp.org</description>
     <category>Accessibility &amp; Universal Design</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>35.37 -119.02</georss:point>
@@ -649,7 +682,8 @@ Location: Washington, DC
 Vote price: $0.25 · Target: $300.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000209</description>
+Escrow: 0x71C0000000000000000000000000000000000209
+Website: https://www.ncld.org</description>
     <category>Civic Tech</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>38.91 -77.04</georss:point>
@@ -668,7 +702,8 @@ Location: New York, NY / South Bronx
 Vote price: $0.50 · Target: $600.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000210</description>
+Escrow: 0x71C0000000000000000000000000000000000210
+Website: https://childmind.org</description>
     <category>Classrooms</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>40.82 -73.92</georss:point>
@@ -687,7 +722,8 @@ Location: Miami, FL
 Vote price: $0.25 · Target: $250.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000211</description>
+Escrow: 0x71C0000000000000000000000000000000000211
+Website: https://www.bestbuddies.org</description>
     <category>Classrooms</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>25.76 -80.19</georss:point>
@@ -706,7 +742,8 @@ Location: Denver, CO
 Vote price: $0.50 · Target: $400.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000212</description>
+Escrow: 0x71C0000000000000000000000000000000000212
+Website: https://www.specialolympics.org</description>
     <category>Athletics</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>39.74 -104.99</georss:point>
@@ -725,7 +762,8 @@ Location: Philadelphia, PA
 Vote price: $1.00 · Target: $800.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000213</description>
+Escrow: 0x71C0000000000000000000000000000000000213
+Website: https://www.shrinerschildrens.org</description>
     <category>Classrooms</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>39.95 -75.17</georss:point>
@@ -744,7 +782,8 @@ Location: Memphis, TN
 Vote price: $0.50 · Target: $350.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000214</description>
+Escrow: 0x71C0000000000000000000000000000000000214
+Website: https://rmhc.org</description>
     <category>Accessibility &amp; Universal Design</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>35.15 -90.05</georss:point>
@@ -763,7 +802,8 @@ Location: Memphis, TN
 Vote price: $1.00 · Target: $900.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000215</description>
+Escrow: 0x71C0000000000000000000000000000000000215
+Website: https://www.stjude.org</description>
     <category>Classrooms</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>35.15 -90.04</georss:point>
@@ -1257,7 +1297,8 @@ Location: Makueni County, Kenya
 Vote price: $0.50 · Target: $750.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Escrow: 0x71C0000000000000000000000000000000000006</description>
+Escrow: 0x71C0000000000000000000000000000000000006
+Website: https://thewaterproject.org</description>
     <category>Environmental</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>-1.80 37.63</georss:point>
@@ -1907,6 +1948,1005 @@ Escrow: 0x71C0000000000000000000000000000000000420</description>
     <category>Civic Tech</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>14.72 -17.47</georss:point>
+  </item>
+  <item>
+    <title>Sports For Kids Foundation fundraiser helps children and families</title>
+    <link>https://polytab.store/#501</link>
+    <guid isPermaLink="false">polytab:shelf:501</guid>
+    <description>• What is broken: Community action needed around: Sports For Kids Foundation fundraiser helps children and families
+• What will be done: Verified partner organization Fisher House Foundation converts the event into a fundable civic outcome.
+• Proof: https://www.ketv.com/article/la-vista-garage-sale-raises-money/74370382
+
+Category: Accessibility &amp; Universal Design
+Organization: Fisher House Foundation
+Location: United States
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000501
+Website: https://fisherhouse.org</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Tue, 10 Nov 2026 12:57:58 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Flu shots to children under anesthesia raises questions about parental consent</title>
+    <link>https://polytab.store/#502</link>
+    <guid isPermaLink="false">polytab:shelf:502</guid>
+    <description>• What is broken: Community action needed around: Flu shots to children under anesthesia raises questions about parental consent
+• What will be done: Verified partner organization Canine Companions converts the event into a fundable civic outcome.
+• Proof: https://www.cities929.com/2026/11/08/flu-shots-to-children-under-anesthesia-raises-questions-about-parental-consent/
+
+Category: Accessibility &amp; Universal Design
+Organization: Canine Companions
+Location: United States
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000502
+Website: https://canine.org</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Tue, 10 Nov 2026 12:57:58 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>DISABILITY INCLUSION : Persons with disabilities demand action beyond policies</title>
+    <link>https://polytab.store/#503</link>
+    <guid isPermaLink="false">polytab:shelf:503</guid>
+    <description>• What is broken: Community action needed around: DISABILITY INCLUSION : Persons with disabilities demand action beyond policies
+• What will be done: Verified partner organization Best Buddies International converts the event into a fundable civic outcome.
+• Proof: https://ntv.co.ug/news/disability-inclusion-persons-with-disabilities-demand-action-beyond-policies
+
+Category: Accessibility &amp; Universal Design
+Organization: Best Buddies International
+Location: Uganda
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000503
+Website: https://www.bestbuddies.org</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Tue, 10 Nov 2026 12:57:58 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Wrong to undo protections for Maine children with disabilities</title>
+    <link>https://polytab.store/#504</link>
+    <guid isPermaLink="false">polytab:shelf:504</guid>
+    <description>• What is broken: Community action needed around: Wrong to undo protections for Maine children with disabilities
+• What will be done: Verified partner organization Morgan&apos;s Wonderland Inclusion Foundation converts the event into a fundable civic outcome.
+• Proof: https://www.pressherald.com/2026/11/08/wrong-to-undo-protections-for-maine-children-with-disabilities-opinion/
+
+Category: Accessibility &amp; Universal Design
+Organization: Morgan&apos;s Wonderland Inclusion Foundation
+Location: United States
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000504</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Tue, 10 Nov 2026 12:57:58 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Flood — SEVERE STORMS AND FLOODING — (DR)</title>
+    <link>https://polytab.store/#505</link>
+    <guid isPermaLink="false">polytab:shelf:505</guid>
+    <description>• What is broken: Community action needed around: Flood — SEVERE STORMS AND FLOODING — (DR)
+• What will be done: Verified partner organization World Central Kitchen converts the event into a fundable civic outcome.
+• Proof: https://www.fema.gov/disaster/3660
+
+Category: Accessibility &amp; Universal Design
+Organization: World Central Kitchen
+Location: NM — Jicarilla Apache Indian Reservation
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000000505
+Website: https://wck.org</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Tue, 10 Nov 2026 12:57:58 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Support Global Assistive Technology Access</title>
+    <link>https://polytab.store/#10001</link>
+    <guid isPermaLink="false">polytab:shelf:10001</guid>
+    <description>What is broken: Over 2.5 billion people need assistive products but many lack access.
+What will be done: Fund procurement and delivery partnerships for assistive technology.
+Proof: WHO program reports and delivery documentation.
+
+Category: Accessibility &amp; Universal Design
+Organization: World Health Organization (WHO)
+Location: Geneva, Switzerland
+Vote price: $0.50 · Target: $750.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000010001
+Website: https://www.who.int</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>46.23 6.13</georss:point>
+  </item>
+  <item>
+    <title>Advance Disability Rights &amp; Inclusive Policy</title>
+    <link>https://polytab.store/#10002</link>
+    <guid isPermaLink="false">polytab:shelf:10002</guid>
+    <description>What is broken: Persons with disabilities face systemic barriers to participation.
+What will be done: Support rights-based advocacy and inclusion initiatives.
+Proof: Published advocacy outcomes and partner reports.
+
+Category: Accessibility &amp; Universal Design
+Organization: International Disability Alliance
+Location: Geneva, Switzerland
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000010002
+Website: https://www.internationaldisabilityalliance.org</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>46.20 6.14</georss:point>
+  </item>
+  <item>
+    <title>Inclusive Health &amp; Rehabilitation Support</title>
+    <link>https://polytab.store/#10003</link>
+    <guid isPermaLink="false">polytab:shelf:10003</guid>
+    <description>What is broken: Preventable blindness and lack of rehab services limit independence.
+What will be done: Fund inclusive health and rehabilitation programs.
+Proof: Program delivery and clinical outcome reports.
+
+Category: Accessibility &amp; Universal Design
+Organization: CBM Global Disability Inclusion
+Location: Laudenbach, Germany
+Vote price: $0.50 · Target: $600.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000010003
+Website: https://cbm-global.org</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>49.61 8.65</georss:point>
+  </item>
+  <item>
+    <title>Assistive Mobility &amp; Rehabilitation Aid</title>
+    <link>https://polytab.store/#10004</link>
+    <guid isPermaLink="false">polytab:shelf:10004</guid>
+    <description>What is broken: Conflict and poverty leave people without mobility and rehab.
+What will be done: Supply assistive devices and rehabilitation services.
+Proof: Distribution records and field program reports.
+
+Category: Accessibility &amp; Universal Design
+Organization: Humanity &amp; Inclusion (HI)
+Location: Lyon, France
+Vote price: $0.50 · Target: $600.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000010004
+Website: https://www.hi-us.org</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>45.76 4.84</georss:point>
+  </item>
+  <item>
+    <title>Prevent Blindness &amp; Restore Sight</title>
+    <link>https://polytab.store/#10005</link>
+    <guid isPermaLink="false">polytab:shelf:10005</guid>
+    <description>What is broken: Millions lose sight to preventable or treatable conditions.
+What will be done: Support screenings, surgeries, and treatments.
+Proof: Treatment counts and program audits.
+
+Category: Accessibility &amp; Universal Design
+Organization: Sightsavers
+Location: Haywards Heath, United Kingdom
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000010005
+Website: https://www.sightsavers.org</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>51.00 -0.11</georss:point>
+  </item>
+  <item>
+    <title>Inclusive Eye Health &amp; Disability Rights</title>
+    <link>https://polytab.store/#10006</link>
+    <guid isPermaLink="false">polytab:shelf:10006</guid>
+    <description>What is broken: Avoidable blindness and exclusion persist without access to care.
+What will be done: Fund inclusive eye health and advocacy programs.
+Proof: Clinical and program outcome reports.
+
+Category: Accessibility &amp; Universal Design
+Organization: Light for the World
+Location: Vienna, Austria
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000010006
+Website: https://www.light-for-the-world.org</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>48.21 16.37</georss:point>
+  </item>
+  <item>
+    <title>End Avoidable Blindness</title>
+    <link>https://polytab.store/#10007</link>
+    <guid isPermaLink="false">polytab:shelf:10007</guid>
+    <description>What is broken: Cataract and treatable eye disease cause needless blindness.
+What will be done: Fund surgeries, equipment, and local training.
+Proof: Surgery and training records.
+
+Category: Accessibility &amp; Universal Design
+Organization: The Fred Hollows Foundation
+Location: Sydney, Australia
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000010007
+Website: https://www.hollows.org</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>-33.87 151.21</georss:point>
+  </item>
+  <item>
+    <title>Protect Wildlife &amp; Restore Ecosystems</title>
+    <link>https://polytab.store/#20001</link>
+    <guid isPermaLink="false">polytab:shelf:20001</guid>
+    <description>What is broken: Habitat loss and climate pressure threaten biodiversity.
+What will be done: Fund habitat protection and restoration projects.
+Proof: Conservation monitoring and field reports.
+
+Category: Environmental
+Organization: World Wide Fund for Nature (WWF)
+Location: Gland, Switzerland
+Vote price: $0.50 · Target: $750.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000020001
+Website: https://www.worldwildlife.org</description>
+    <category>Environmental</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>46.42 6.27</georss:point>
+  </item>
+  <item>
+    <title>Conserve Lands &amp; Waters</title>
+    <link>https://polytab.store/#20002</link>
+    <guid isPermaLink="false">polytab:shelf:20002</guid>
+    <description>What is broken: Ecosystems face degradation and climate stress.
+What will be done: Fund land and water conservation initiatives.
+Proof: Protected-area and restoration reporting.
+
+Category: Environmental
+Organization: The Nature Conservancy
+Location: Arlington, VA, USA
+Vote price: $0.50 · Target: $750.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000020002
+Website: https://www.nature.org</description>
+    <category>Environmental</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>38.88 -77.10</georss:point>
+  </item>
+  <item>
+    <title>Safeguard Nature for People</title>
+    <link>https://polytab.store/#20003</link>
+    <guid isPermaLink="false">polytab:shelf:20003</guid>
+    <description>What is broken: Nature loss undermines climate and livelihoods.
+What will be done: Fund conservation and community resilience programs.
+Proof: Conservation outcome reports.
+
+Category: Environmental
+Organization: Conservation International
+Location: Arlington, VA, USA
+Vote price: $0.50 · Target: $600.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000020003
+Website: https://www.conservation.org</description>
+    <category>Environmental</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>38.89 -77.08</georss:point>
+  </item>
+  <item>
+    <title>Protect Oceans from Pollution</title>
+    <link>https://polytab.store/#20004</link>
+    <guid isPermaLink="false">polytab:shelf:20004</guid>
+    <description>What is broken: Plastic and pollution harm marine life and coasts.
+What will be done: Fund cleanup, prevention, and advocacy programs.
+Proof: Cleanup data and program reports.
+
+Category: Environmental
+Organization: Ocean Conservancy
+Location: Washington, DC, USA
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000020004
+Website: https://oceanconservancy.org</description>
+    <category>Environmental</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>38.90 -77.03</georss:point>
+  </item>
+  <item>
+    <title>Clean Water, Sanitation &amp; Hygiene</title>
+    <link>https://polytab.store/#20005</link>
+    <guid isPermaLink="false">polytab:shelf:20005</guid>
+    <description>What is broken: Millions lack safe water and sanitation.
+What will be done: Fund water points, sanitation, and hygiene education.
+Proof: Infrastructure delivery and impact reports.
+
+Category: Environmental
+Organization: WaterAid
+Location: London, United Kingdom
+Vote price: $0.50 · Target: $600.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000020005
+Website: https://www.wateraid.org</description>
+    <category>Environmental</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>51.51 -0.13</georss:point>
+  </item>
+  <item>
+    <title>Bring Clean Drinking Water</title>
+    <link>https://polytab.store/#20006</link>
+    <guid isPermaLink="false">polytab:shelf:20006</guid>
+    <description>What is broken: Communities lack safe, reliable drinking water.
+What will be done: Fund wells and water systems.
+Proof: Project completion and GPS-tagged reporting.
+
+Category: Environmental
+Organization: charity: water
+Location: New York, NY, USA
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000020006
+Website: https://www.charitywater.org</description>
+    <category>Environmental</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>40.71 -74.01</georss:point>
+  </item>
+  <item>
+    <title>Keep Free Knowledge Open</title>
+    <link>https://polytab.store/#30001</link>
+    <guid isPermaLink="false">polytab:shelf:30001</guid>
+    <description>What is broken: Reliable knowledge access is uneven and costly.
+What will be done: Support open knowledge platforms and tools.
+Proof: Public infrastructure and transparency reports.
+
+Category: Civic Tech
+Organization: Wikimedia Foundation
+Location: San Francisco, CA, USA
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030001
+Website: https://wikimediafoundation.org</description>
+    <category>Civic Tech</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>37.79 -122.40</georss:point>
+  </item>
+  <item>
+    <title>Defend Digital Rights &amp; Privacy</title>
+    <link>https://polytab.store/#30002</link>
+    <guid isPermaLink="false">polytab:shelf:30002</guid>
+    <description>What is broken: Surveillance and censorship threaten digital rights.
+What will be done: Fund legal defense, tools, and advocacy.
+Proof: Case filings and public advocacy reports.
+
+Category: Civic Tech
+Organization: Electronic Frontier Foundation (EFF)
+Location: San Francisco, CA, USA
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030002
+Website: https://www.eff.org</description>
+    <category>Civic Tech</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>37.78 -122.41</georss:point>
+  </item>
+  <item>
+    <title>Open Licensing for Shared Knowledge</title>
+    <link>https://polytab.store/#30003</link>
+    <guid isPermaLink="false">polytab:shelf:30003</guid>
+    <description>What is broken: Restrictive licensing limits access to knowledge.
+What will be done: Support open licensing infrastructure and education.
+Proof: License adoption and program reporting.
+
+Category: Civic Tech
+Organization: Creative Commons
+Location: Mountain View, CA, USA
+Vote price: $0.50 · Target: $400.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030003
+Website: https://creativecommons.org</description>
+    <category>Civic Tech</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>37.39 -122.08</georss:point>
+  </item>
+  <item>
+    <title>Healthy, Open Internet for All</title>
+    <link>https://polytab.store/#30004</link>
+    <guid isPermaLink="false">polytab:shelf:30004</guid>
+    <description>What is broken: Centralized platforms threaten openness and privacy.
+What will be done: Fund open internet initiatives and research.
+Proof: Public reports and program outcomes.
+
+Category: Civic Tech
+Organization: Mozilla Foundation
+Location: San Francisco, CA, USA
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030004
+Website: https://foundation.mozilla.org</description>
+    <category>Civic Tech</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>37.39 -122.06</georss:point>
+  </item>
+  <item>
+    <title>Universal Access to Knowledge</title>
+    <link>https://polytab.store/#30005</link>
+    <guid isPermaLink="false">polytab:shelf:30005</guid>
+    <description>What is broken: Digital history and resources disappear without preservation.
+What will be done: Fund archiving and open access services.
+Proof: Collection growth and access metrics.
+
+Category: Civic Tech
+Organization: Internet Archive
+Location: San Francisco, CA, USA
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030005
+Website: https://archive.org</description>
+    <category>Civic Tech</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>37.78 -122.47</georss:point>
+  </item>
+  <item>
+    <title>Protect &amp; Educate Children Worldwide</title>
+    <link>https://polytab.store/#40001</link>
+    <guid isPermaLink="false">polytab:shelf:40001</guid>
+    <description>What is broken: Children face preventable disease, malnutrition, and lost schooling.
+What will be done: Fund child health, education, and protection programs.
+Proof: UNICEF program and results reporting.
+
+Category: Classrooms
+Organization: UNICEF
+Location: New York, NY, USA
+Vote price: $0.50 · Target: $750.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000040001
+Website: https://www.unicef.org</description>
+    <category>Classrooms</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>40.75 -73.97</georss:point>
+  </item>
+  <item>
+    <title>Children’s Health, Education &amp; Safety</title>
+    <link>https://polytab.store/#40002</link>
+    <guid isPermaLink="false">polytab:shelf:40002</guid>
+    <description>What is broken: Poverty and crisis disrupt children’s health and learning.
+What will be done: Fund education, health, and protection programs.
+Proof: Program outcome reports.
+
+Category: Classrooms
+Organization: Save the Children
+Location: Fairfield, CT, USA
+Vote price: $0.50 · Target: $600.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000040002
+Website: https://www.savethechildren.org</description>
+    <category>Classrooms</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>41.14 -73.26</georss:point>
+  </item>
+  <item>
+    <title>Advance Children’s Rights &amp; Equality</title>
+    <link>https://polytab.store/#40003</link>
+    <guid isPermaLink="false">polytab:shelf:40003</guid>
+    <description>What is broken: Inequality blocks education and safety for children.
+What will be done: Fund education and protection initiatives.
+Proof: Program monitoring and reports.
+
+Category: Classrooms
+Organization: Plan International
+Location: Woking, United Kingdom
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000040003
+Website: https://plan-international.org</description>
+    <category>Classrooms</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>51.32 -0.56</georss:point>
+  </item>
+  <item>
+    <title>Education in Emergencies for Children</title>
+    <link>https://polytab.store/#40004</link>
+    <guid isPermaLink="false">polytab:shelf:40004</guid>
+    <description>What is broken: Emergencies disrupt schooling for millions of children.
+What will be done: Fund rapid and sustained education responses.
+Proof: Response reports and learning outcomes.
+
+Category: Classrooms
+Organization: Education Cannot Wait
+Location: New York, NY, USA
+Vote price: $0.50 · Target: $600.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000040004
+Website: https://www.educationcannotwait.org</description>
+    <category>Classrooms</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>40.75 -73.97</georss:point>
+  </item>
+  <item>
+    <title>Improve Foundational Learning</title>
+    <link>https://polytab.store/#40005</link>
+    <guid isPermaLink="false">polytab:shelf:40005</guid>
+    <description>What is broken: Many children lack basic reading and math skills.
+What will be done: Fund evidence-based learning programs.
+Proof: Learning assessment and program data.
+
+Category: Classrooms
+Organization: Pratham
+Location: Mumbai, India
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000040005
+Website: https://www.pratham.org</description>
+    <category>Classrooms</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>19.08 72.88</georss:point>
+  </item>
+  <item>
+    <title>Family Care for Children Without Parental Care</title>
+    <link>https://polytab.store/#40006</link>
+    <guid isPermaLink="false">polytab:shelf:40006</guid>
+    <description>What is broken: Children without care lack stability and support.
+What will be done: Fund family-based care and youth support.
+Proof: Care and program reports.
+
+Category: Classrooms
+Organization: SOS Children’s Villages
+Location: Innsbruck, Austria
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000040006
+Website: https://www.sos-childrensvillages.org</description>
+    <category>Classrooms</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>47.27 11.40</georss:point>
+  </item>
+  <item>
+    <title>Emergency Medical Care Where Needed Most</title>
+    <link>https://polytab.store/#10008</link>
+    <guid isPermaLink="false">polytab:shelf:10008</guid>
+    <description>What is broken: Conflict and disaster leave people without medical care.
+What will be done: Fund emergency medical teams and supplies.
+Proof: Field activity and medical reporting.
+
+Category: Accessibility &amp; Universal Design
+Organization: Médecins Sans Frontières (MSF)
+Location: Geneva, Switzerland
+Vote price: $0.50 · Target: $750.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000010008
+Website: https://www.msf.org</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>46.22 6.14</georss:point>
+  </item>
+  <item>
+    <title>Protect &amp; Assist Victims of Conflict</title>
+    <link>https://polytab.store/#30006</link>
+    <guid isPermaLink="false">polytab:shelf:30006</guid>
+    <description>What is broken: Conflict harms civilians and disrupts essential services.
+What will be done: Fund protection, health, and relief operations.
+Proof: Operational and accountability reports.
+
+Category: Civic Tech
+Organization: International Committee of the Red Cross (ICRC)
+Location: Geneva, Switzerland
+Vote price: $0.50 · Target: $750.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030006
+Website: https://www.icrc.org</description>
+    <category>Civic Tech</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>46.23 6.14</georss:point>
+  </item>
+  <item>
+    <title>High-Quality Care for the Poor</title>
+    <link>https://polytab.store/#10009</link>
+    <guid isPermaLink="false">polytab:shelf:10009</guid>
+    <description>What is broken: Poverty blocks access to quality healthcare.
+What will be done: Fund clinics, staff, and community health programs.
+Proof: Clinical and program reports.
+
+Category: Accessibility &amp; Universal Design
+Organization: Partners In Health
+Location: Boston, MA, USA
+Vote price: $0.50 · Target: $600.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000010009
+Website: https://www.pih.org</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>42.36 -71.06</georss:point>
+  </item>
+  <item>
+    <title>Expand Equitable Immunization for Children</title>
+    <link>https://polytab.store/#40007</link>
+    <guid isPermaLink="false">polytab:shelf:40007</guid>
+    <description>What is broken: Vaccine gaps leave children vulnerable to preventable disease.
+What will be done: Fund immunization programs and supply chains.
+Proof: Coverage data and program reports.
+
+Category: Classrooms
+Organization: Gavi, the Vaccine Alliance
+Location: Geneva, Switzerland
+Vote price: $0.50 · Target: $700.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000040007
+Website: https://www.gavi.org</description>
+    <category>Classrooms</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>46.22 6.14</georss:point>
+  </item>
+  <item>
+    <title>Fight AIDS, Tuberculosis &amp; Malaria</title>
+    <link>https://polytab.store/#10010</link>
+    <guid isPermaLink="false">polytab:shelf:10010</guid>
+    <description>What is broken: Infectious diseases continue to cause preventable deaths.
+What will be done: Fund prevention, testing, and treatment programs.
+Proof: Results and audit reporting.
+
+Category: Accessibility &amp; Universal Design
+Organization: The Global Fund
+Location: Geneva, Switzerland
+Vote price: $0.50 · Target: $700.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000010010
+Website: https://www.theglobalfund.org</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>46.23 6.12</georss:point>
+  </item>
+  <item>
+    <title>Provide Long-Lasting Insecticidal Nets</title>
+    <link>https://polytab.store/#10011</link>
+    <guid isPermaLink="false">polytab:shelf:10011</guid>
+    <description>What is broken: Malaria remains deadly without effective prevention.
+What will be done: Purchase and distribute protective bed nets.
+Proof: Distribution and monitoring reports.
+
+Category: Accessibility &amp; Universal Design
+Organization: Against Malaria Foundation
+Location: London, United Kingdom
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000010011
+Website: https://www.againstmalaria.com</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>51.52 -0.14</georss:point>
+  </item>
+  <item>
+    <title>Deliver Medical Aid to People in Need</title>
+    <link>https://polytab.store/#10012</link>
+    <guid isPermaLink="false">polytab:shelf:10012</guid>
+    <description>What is broken: Clinics and patients lack essential medicines and supplies.
+What will be done: Fund procurement and delivery of medical aid.
+Proof: Shipment and partner reports.
+
+Category: Accessibility &amp; Universal Design
+Organization: Direct Relief
+Location: Santa Barbara, CA, USA
+Vote price: $0.50 · Target: $600.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000010012
+Website: https://www.directrelief.org</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>34.42 -119.70</georss:point>
+  </item>
+  <item>
+    <title>Protect the Planet &amp; Climate</title>
+    <link>https://polytab.store/#20007</link>
+    <guid isPermaLink="false">polytab:shelf:20007</guid>
+    <description>What is broken: Climate and pollution threaten ecosystems and communities.
+What will be done: Fund environmental protection campaigns and research.
+Proof: Campaign and impact reports.
+
+Category: Environmental
+Organization: Greenpeace International
+Location: Amsterdam, Netherlands
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000020007
+Website: https://www.greenpeace.org/international/</description>
+    <category>Environmental</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>52.37 4.90</georss:point>
+  </item>
+  <item>
+    <title>Protect Forests &amp; Sustainable Livelihoods</title>
+    <link>https://polytab.store/#20008</link>
+    <guid isPermaLink="false">polytab:shelf:20008</guid>
+    <description>What is broken: Deforestation harms climate and communities.
+What will be done: Fund forest conservation and sustainable farming programs.
+Proof: Certification and field reports.
+
+Category: Environmental
+Organization: Rainforest Alliance
+Location: New York, NY, USA
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000020008
+Website: https://www.rainforest-alliance.org</description>
+    <category>Environmental</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>40.75 -73.99</georss:point>
+  </item>
+  <item>
+    <title>Save Wildlife &amp; Wild Places</title>
+    <link>https://polytab.store/#20009</link>
+    <guid isPermaLink="false">polytab:shelf:20009</guid>
+    <description>What is broken: Species and habitats face escalating threats.
+What will be done: Fund conservation programs in critical landscapes.
+Proof: Conservation monitoring reports.
+
+Category: Environmental
+Organization: Wildlife Conservation Society
+Location: Bronx, NY, USA
+Vote price: $0.50 · Target: $600.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000020009
+Website: https://www.wcs.org</description>
+    <category>Environmental</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>40.85 -73.88</georss:point>
+  </item>
+  <item>
+    <title>Defend Human Rights Worldwide</title>
+    <link>https://polytab.store/#30007</link>
+    <guid isPermaLink="false">polytab:shelf:30007</guid>
+    <description>What is broken: Rights violations occur without accountability.
+What will be done: Fund research, advocacy, and support for rights defenders.
+Proof: Research publications and campaign reports.
+
+Category: Civic Tech
+Organization: Amnesty International
+Location: London, United Kingdom
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030007
+Website: https://www.amnesty.org</description>
+    <category>Civic Tech</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>51.49 -0.13</georss:point>
+  </item>
+  <item>
+    <title>Investigate &amp; Report on Rights Abuses</title>
+    <link>https://polytab.store/#30008</link>
+    <guid isPermaLink="false">polytab:shelf:30008</guid>
+    <description>What is broken: Abuses persist when hidden or ignored.
+What will be done: Fund investigations and advocacy.
+Proof: Published investigations and advocacy outcomes.
+
+Category: Civic Tech
+Organization: Human Rights Watch
+Location: New York, NY, USA
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030008
+Website: https://www.hrw.org</description>
+    <category>Civic Tech</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>40.75 -73.98</georss:point>
+  </item>
+  <item>
+    <title>Fight Corruption Globally</title>
+    <link>https://polytab.store/#30009</link>
+    <guid isPermaLink="false">polytab:shelf:30009</guid>
+    <description>What is broken: Corruption diverts resources from public good.
+What will be done: Fund anti-corruption research and advocacy.
+Proof: Indexes, reports, and program outcomes.
+
+Category: Civic Tech
+Organization: Transparency International
+Location: Berlin, Germany
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030009
+Website: https://www.transparency.org</description>
+    <category>Civic Tech</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>52.52 13.40</georss:point>
+  </item>
+  <item>
+    <title>Empower People &amp; Communities Out of Poverty</title>
+    <link>https://polytab.store/#40008</link>
+    <guid isPermaLink="false">polytab:shelf:40008</guid>
+    <description>What is broken: Poverty limits education and opportunity.
+What will be done: Fund integrated development and education programs.
+Proof: Program evaluations and reports.
+
+Category: Classrooms
+Organization: BRAC
+Location: Dhaka, Bangladesh
+Vote price: $0.50 · Target: $600.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000040008
+Website: https://www.brac.net</description>
+    <category>Classrooms</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>23.78 90.41</georss:point>
+  </item>
+  <item>
+    <title>Fight Global Poverty &amp; Support Women and Girls</title>
+    <link>https://polytab.store/#40009</link>
+    <guid isPermaLink="false">polytab:shelf:40009</guid>
+    <description>What is broken: Inequality and crisis limit safety and opportunity.
+What will be done: Fund humanitarian and development programs.
+Proof: Program and impact reports.
+
+Category: Classrooms
+Organization: CARE International
+Location: Geneva, Switzerland
+Vote price: $0.50 · Target: $600.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000040009
+Website: https://www.care-international.org</description>
+    <category>Classrooms</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>46.22 6.15</georss:point>
+  </item>
+  <item>
+    <title>End the Injustice of Poverty</title>
+    <link>https://polytab.store/#40010</link>
+    <guid isPermaLink="false">polytab:shelf:40010</guid>
+    <description>What is broken: Inequality and crisis drive poverty.
+What will be done: Fund relief, development, and advocacy programs.
+Proof: Program and accountability reports.
+
+Category: Classrooms
+Organization: Oxfam International
+Location: Nairobi, Kenya
+Vote price: $0.50 · Target: $600.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000040010
+Website: https://www.oxfam.org</description>
+    <category>Classrooms</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>-1.29 36.82</georss:point>
+  </item>
+  <item>
+    <title>Help People Survive Conflict &amp; Disaster</title>
+    <link>https://polytab.store/#10013</link>
+    <guid isPermaLink="false">polytab:shelf:10013</guid>
+    <description>What is broken: Displacement strips families of safety and services.
+What will be done: Fund health, education, and resettlement support.
+Proof: Program delivery and outcome reports.
+
+Category: Accessibility &amp; Universal Design
+Organization: International Rescue Committee (IRC)
+Location: New York, NY, USA
+Vote price: $0.50 · Target: $700.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000010013
+Website: https://www.rescue.org</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>40.75 -73.99</georss:point>
+  </item>
+  <item>
+    <title>Free Cleft Surgery &amp; Comprehensive Care</title>
+    <link>https://polytab.store/#10014</link>
+    <guid isPermaLink="false">polytab:shelf:10014</guid>
+    <description>What is broken: Children lack access to safe cleft surgery.
+What will be done: Fund surgical missions and comprehensive care.
+Proof: Surgical and patient outcome records.
+
+Category: Accessibility &amp; Universal Design
+Organization: Operation Smile
+Location: Virginia Beach, VA, USA
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000010014
+Website: https://www.operationsmile.org</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>36.85 -75.98</georss:point>
+  </item>
+  <item>
+    <title>Solutions for Climate &amp; Environment</title>
+    <link>https://polytab.store/#20010</link>
+    <guid isPermaLink="false">polytab:shelf:20010</guid>
+    <description>What is broken: Climate change and pollution threaten communities.
+What will be done: Fund science-based environmental solutions.
+Proof: Program and impact reports.
+
+Category: Environmental
+Organization: Environmental Defense Fund (EDF)
+Location: New York, NY, USA
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000020010
+Website: https://www.edf.org</description>
+    <category>Environmental</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>40.71 -74.01</georss:point>
+  </item>
+  <item>
+    <title>Expand Educational Opportunity</title>
+    <link>https://polytab.store/#40011</link>
+    <guid isPermaLink="false">polytab:shelf:40011</guid>
+    <description>What is broken: Educational inequity limits children’s futures.
+What will be done: Support teacher leadership and learning initiatives.
+Proof: Network and program reports.
+
+Category: Classrooms
+Organization: Teach For All
+Location: New York, NY, USA
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000040011
+Website: https://teachforall.org</description>
+    <category>Classrooms</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>40.74 -73.99</georss:point>
+  </item>
+  <item>
+    <title>Vision, Youth, Disaster Relief &amp; Humanitarian Aid</title>
+    <link>https://polytab.store/#10015</link>
+    <guid isPermaLink="false">polytab:shelf:10015</guid>
+    <description>What is broken: Communities lack resources for vision care and disaster response.
+What will be done: Fund vision, relief, and community service grants.
+Proof: Grant and program reporting.
+
+Category: Accessibility &amp; Universal Design
+Organization: Lions Clubs International Foundation
+Location: Oak Brook, IL, USA
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000010015
+Website: https://www.lionsclubs.org/en/lcif</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>41.84 -87.95</georss:point>
   </item>
   </channel>
 </rss>

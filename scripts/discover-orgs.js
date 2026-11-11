@@ -67,7 +67,9 @@ function toBlock(org, id) {
     wallet: walletFor(id),
     status: "Active",
     lat: org.lat,
-    lng: org.lng
+    lng: org.lng,
+    website: org.website || null,
+    socials: org.socials || {}
   };
 }
 
@@ -92,7 +94,9 @@ function toFeedItem(block) {
       contract: block.wallet,
       status: "Active",
       lat: block.lat,
-      lng: block.lng
+      lng: block.lng,
+      website: block.website || null,
+      socials: block.socials || {}
     }
   };
 }

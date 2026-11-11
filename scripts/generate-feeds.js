@@ -76,6 +76,7 @@ function itemDescription(item) {
     lines.push("Honest-zero: no on-chain votes have been recorded for this action yet.");
   }
   if (m.contract || m.wallet) lines.push("Escrow: " + (m.contract || m.wallet));
+  if (m.website) lines.push("Website: " + m.website);
   return lines.join("\n");
 }
 

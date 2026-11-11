@@ -1,0 +1,1309 @@
+{
+  "version": 1,
+  "updated_at": "2026-11-11T23:27:06.493Z",
+  "description": "Polytab global charity master list (curated). Public organizations with public HQ locations, official websites, and social links. All entries honest-zero (fundedUSD=0, votesCount=0). No coordinates near private residences; HQ/public locations only.",
+  "id_compartmentalization": {
+    "note": "Numeric IDs are compartmentalized by site-valid category blocks for structure and wallet compatibility.",
+    "blocks": {
+      "Accessibility & Universal Design": "10001-19999",
+      "Environmental": "20001-29999",
+      "Civic Tech": "30001-39999",
+      "Classrooms": "40001-49999",
+      "Arts & Clubs": "45001-49999",
+      "Campus Grounds": "60001-69999",
+      "Athletics": "70001-79999"
+    }
+  },
+  "items": [
+    {
+      "id": "10001",
+      "title": "Support Global Assistive Technology Access",
+      "content_html": "<p>Support equitable access to assistive products (wheelchairs, hearing aids, vision aids) for people with disabilities worldwide.</p>",
+      "url": "https://polytab.store/#10001",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Accessibility & Universal Design",
+        "organization": "World Health Organization (WHO)",
+        "location": "Geneva, Switzerland",
+        "summary": "Support equitable access to assistive products (wheelchairs, hearing aids, vision aids) for people with disabilities worldwide.",
+        "plainSummary": "What is broken: Over 2.5 billion people need assistive products but many lack access.\nWhat will be done: Fund procurement and delivery partnerships for assistive technology.\nProof: WHO program reports and delivery documentation.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 750,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000010001",
+        "status": "Active",
+        "lat": 46.2327,
+        "lng": 6.134,
+        "website": "https://www.who.int",
+        "socials": {
+          "x": "https://x.com/WHO",
+          "facebook": "https://www.facebook.com/WHO",
+          "instagram": "https://www.instagram.com/who",
+          "linkedin": "https://www.linkedin.com/company/world-health-organization",
+          "youtube": "https://www.youtube.com/user/who"
+        }
+      }
+    },
+    {
+      "id": "10002",
+      "title": "Advance Disability Rights & Inclusive Policy",
+      "content_html": "<p>Strengthen global advocacy so persons with disabilities can participate fully in civic and community life.</p>",
+      "url": "https://polytab.store/#10002",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Accessibility & Universal Design",
+        "organization": "International Disability Alliance",
+        "location": "Geneva, Switzerland",
+        "summary": "Strengthen global advocacy so persons with disabilities can participate fully in civic and community life.",
+        "plainSummary": "What is broken: Persons with disabilities face systemic barriers to participation.\nWhat will be done: Support rights-based advocacy and inclusion initiatives.\nProof: Published advocacy outcomes and partner reports.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 500,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000010002",
+        "status": "Active",
+        "lat": 46.2044,
+        "lng": 6.1432,
+        "website": "https://www.internationaldisabilityalliance.org",
+        "socials": {
+          "x": "https://x.com/IDA_CRPD_Forum",
+          "facebook": "https://www.facebook.com/InternationalDisabilityAlliance"
+        }
+      }
+    },
+    {
+      "id": "10003",
+      "title": "Inclusive Health & Rehabilitation Support",
+      "content_html": "<p>Deliver inclusive eye health, rehabilitation, and community-based support for people with disabilities in low-income regions.</p>",
+      "url": "https://polytab.store/#10003",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Accessibility & Universal Design",
+        "organization": "CBM Global Disability Inclusion",
+        "location": "Laudenbach, Germany",
+        "summary": "Deliver inclusive eye health, rehabilitation, and community-based support for people with disabilities in low-income regions.",
+        "plainSummary": "What is broken: Preventable blindness and lack of rehab services limit independence.\nWhat will be done: Fund inclusive health and rehabilitation programs.\nProof: Program delivery and clinical outcome reports.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 600,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000010003",
+        "status": "Active",
+        "lat": 49.6114,
+        "lng": 8.6533,
+        "website": "https://cbm-global.org",
+        "socials": {
+          "x": "https://x.com/CBMGlobal",
+          "facebook": "https://www.facebook.com/CBMGlobal",
+          "linkedin": "https://www.linkedin.com/company/cbm-global-disability-inclusion"
+        }
+      }
+    },
+    {
+      "id": "10004",
+      "title": "Assistive Mobility & Rehabilitation Aid",
+      "content_html": "<p>Provide mobility devices, rehabilitation, and inclusion support for people with disabilities in crisis and development settings.</p>",
+      "url": "https://polytab.store/#10004",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Accessibility & Universal Design",
+        "organization": "Humanity & Inclusion (HI)",
+        "location": "Lyon, France",
+        "summary": "Provide mobility devices, rehabilitation, and inclusion support for people with disabilities in crisis and development settings.",
+        "plainSummary": "What is broken: Conflict and poverty leave people without mobility and rehab.\nWhat will be done: Supply assistive devices and rehabilitation services.\nProof: Distribution records and field program reports.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 600,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000010004",
+        "status": "Active",
+        "lat": 45.764,
+        "lng": 4.8357,
+        "website": "https://www.hi-us.org",
+        "socials": {
+          "x": "https://x.com/HI_UnitedStates",
+          "facebook": "https://www.facebook.com/HIunitedstates",
+          "instagram": "https://www.instagram.com/humanity_and_inclusion",
+          "linkedin": "https://www.linkedin.com/company/humanity-&-inclusion"
+        }
+      }
+    },
+    {
+      "id": "10005",
+      "title": "Prevent Blindness & Restore Sight",
+      "content_html": "<p>Fund sight-saving treatments and inclusive eye health services to prevent avoidable blindness.</p>",
+      "url": "https://polytab.store/#10005",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Accessibility & Universal Design",
+        "organization": "Sightsavers",
+        "location": "Haywards Heath, United Kingdom",
+        "summary": "Fund sight-saving treatments and inclusive eye health services to prevent avoidable blindness.",
+        "plainSummary": "What is broken: Millions lose sight to preventable or treatable conditions.\nWhat will be done: Support screenings, surgeries, and treatments.\nProof: Treatment counts and program audits.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 500,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000010005",
+        "status": "Active",
+        "lat": 50.999,
+        "lng": -0.1062,
+        "website": "https://www.sightsavers.org",
+        "socials": {
+          "x": "https://x.com/Sightsavers",
+          "facebook": "https://www.facebook.com/Sightsavers",
+          "instagram": "https://www.instagram.com/sightsavers",
+          "linkedin": "https://www.linkedin.com/company/sightsavers",
+          "youtube": "https://www.youtube.com/user/sightsaversTV"
+        }
+      }
+    },
+    {
+      "id": "10006",
+      "title": "Inclusive Eye Health & Disability Rights",
+      "content_html": "<p>Improve eye health and promote the rights of people with disabilities in underserved communities.</p>",
+      "url": "https://polytab.store/#10006",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Accessibility & Universal Design",
+        "organization": "Light for the World",
+        "location": "Vienna, Austria",
+        "summary": "Improve eye health and promote the rights of people with disabilities in underserved communities.",
+        "plainSummary": "What is broken: Avoidable blindness and exclusion persist without access to care.\nWhat will be done: Fund inclusive eye health and advocacy programs.\nProof: Clinical and program outcome reports.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 500,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000010006",
+        "status": "Active",
+        "lat": 48.2082,
+        "lng": 16.3738,
+        "website": "https://www.light-for-the-world.org",
+        "socials": {
+          "x": "https://x.com/lftwworldwide",
+          "facebook": "https://www.facebook.com/lightfortheworldint",
+          "linkedin": "https://www.linkedin.com/company/light-for-the-world"
+        }
+      }
+    },
+    {
+      "id": "10007",
+      "title": "End Avoidable Blindness",
+      "content_html": "<p>Restore sight through cataract surgeries, training, and affordable eye care.</p>",
+      "url": "https://polytab.store/#10007",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Accessibility & Universal Design",
+        "organization": "The Fred Hollows Foundation",
+        "location": "Sydney, Australia",
+        "summary": "Restore sight through cataract surgeries, training, and affordable eye care.",
+        "plainSummary": "What is broken: Cataract and treatable eye disease cause needless blindness.\nWhat will be done: Fund surgeries, equipment, and local training.\nProof: Surgery and training records.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 500,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000010007",
+        "status": "Active",
+        "lat": -33.8688,
+        "lng": 151.2093,
+        "website": "https://www.hollows.org",
+        "socials": {
+          "x": "https://x.com/FredHollows",
+          "facebook": "https://www.facebook.com/FredHollows",
+          "instagram": "https://www.instagram.com/fredhollows",
+          "youtube": "https://www.youtube.com/user/FredHollows"
+        }
+      }
+    },
+    {
+      "id": "20001",
+      "title": "Protect Wildlife & Restore Ecosystems",
+      "content_html": "<p>Conserve critical habitats and species through science-based protection and restoration.</p>",
+      "url": "https://polytab.store/#20001",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Environmental",
+        "organization": "World Wide Fund for Nature (WWF)",
+        "location": "Gland, Switzerland",
+        "summary": "Conserve critical habitats and species through science-based protection and restoration.",
+        "plainSummary": "What is broken: Habitat loss and climate pressure threaten biodiversity.\nWhat will be done: Fund habitat protection and restoration projects.\nProof: Conservation monitoring and field reports.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 750,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000020001",
+        "status": "Active",
+        "lat": 46.4203,
+        "lng": 6.2701,
+        "website": "https://www.worldwildlife.org",
+        "socials": {
+          "x": "https://x.com/World_Wildlife",
+          "facebook": "https://www.facebook.com/worldwildlifefund",
+          "instagram": "https://www.instagram.com/world_wildlife",
+          "youtube": "https://www.youtube.com/user/worldwildlifefund"
+        }
+      }
+    },
+    {
+      "id": "20002",
+      "title": "Conserve Lands & Waters",
+      "content_html": "<p>Protect and restore lands and waters to sustain biodiversity and climate resilience.</p>",
+      "url": "https://polytab.store/#20002",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Environmental",
+        "organization": "The Nature Conservancy",
+        "location": "Arlington, VA, USA",
+        "summary": "Protect and restore lands and waters to sustain biodiversity and climate resilience.",
+        "plainSummary": "What is broken: Ecosystems face degradation and climate stress.\nWhat will be done: Fund land and water conservation initiatives.\nProof: Protected-area and restoration reporting.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 750,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000020002",
+        "status": "Active",
+        "lat": 38.8816,
+        "lng": -77.1043,
+        "website": "https://www.nature.org",
+        "socials": {
+          "x": "https://x.com/nature_org",
+          "facebook": "https://www.facebook.com/thenatureconservancy",
+          "instagram": "https://www.instagram.com/nature_org",
+          "linkedin": "https://www.linkedin.com/company/the-nature-conservancy"
+        }
+      }
+    },
+    {
+      "id": "20003",
+      "title": "Safeguard Nature for People",
+      "content_html": "<p>Protect forests, oceans, and biodiversity that communities rely on.</p>",
+      "url": "https://polytab.store/#20003",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Environmental",
+        "organization": "Conservation International",
+        "location": "Arlington, VA, USA",
+        "summary": "Protect forests, oceans, and biodiversity that communities rely on.",
+        "plainSummary": "What is broken: Nature loss undermines climate and livelihoods.\nWhat will be done: Fund conservation and community resilience programs.\nProof: Conservation outcome reports.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 600,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000020003",
+        "status": "Active",
+        "lat": 38.8904,
+        "lng": -77.084,
+        "website": "https://www.conservation.org",
+        "socials": {
+          "x": "https://x.com/ConservationOrg",
+          "facebook": "https://www.facebook.com/conservation.intl",
+          "instagram": "https://www.instagram.com/conservationorg",
+          "linkedin": "https://www.linkedin.com/company/conservation-international"
+        }
+      }
+    },
+    {
+      "id": "20004",
+      "title": "Protect Oceans from Pollution",
+      "content_html": "<p>Reduce ocean plastic and protect marine ecosystems through cleanup and policy action.</p>",
+      "url": "https://polytab.store/#20004",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Environmental",
+        "organization": "Ocean Conservancy",
+        "location": "Washington, DC, USA",
+        "summary": "Reduce ocean plastic and protect marine ecosystems through cleanup and policy action.",
+        "plainSummary": "What is broken: Plastic and pollution harm marine life and coasts.\nWhat will be done: Fund cleanup, prevention, and advocacy programs.\nProof: Cleanup data and program reports.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 500,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000020004",
+        "status": "Active",
+        "lat": 38.9029,
+        "lng": -77.031,
+        "website": "https://oceanconservancy.org",
+        "socials": {
+          "x": "https://x.com/OurOcean",
+          "facebook": "https://www.facebook.com/oceanconservancy",
+          "instagram": "https://www.instagram.com/oceanconservancy"
+        }
+      }
+    },
+    {
+      "id": "20005",
+      "title": "Clean Water, Sanitation & Hygiene",
+      "content_html": "<p>Deliver clean water, toilets, and hygiene to communities lacking basic services.</p>",
+      "url": "https://polytab.store/#20005",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Environmental",
+        "organization": "WaterAid",
+        "location": "London, United Kingdom",
+        "summary": "Deliver clean water, toilets, and hygiene to communities lacking basic services.",
+        "plainSummary": "What is broken: Millions lack safe water and sanitation.\nWhat will be done: Fund water points, sanitation, and hygiene education.\nProof: Infrastructure delivery and impact reports.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 600,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000020005",
+        "status": "Active",
+        "lat": 51.5074,
+        "lng": -0.1278,
+        "website": "https://www.wateraid.org",
+        "socials": {
+          "x": "https://x.com/wateraid",
+          "facebook": "https://www.facebook.com/wateraid",
+          "instagram": "https://www.instagram.com/wateraid",
+          "youtube": "https://www.youtube.com/user/WaterAid"
+        }
+      }
+    },
+    {
+      "id": "20006",
+      "title": "Bring Clean Drinking Water",
+      "content_html": "<p>Fund sustainable clean water projects for communities without reliable access.</p>",
+      "url": "https://polytab.store/#20006",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Environmental",
+        "organization": "charity: water",
+        "location": "New York, NY, USA",
+        "summary": "Fund sustainable clean water projects for communities without reliable access.",
+        "plainSummary": "What is broken: Communities lack safe, reliable drinking water.\nWhat will be done: Fund wells and water systems.\nProof: Project completion and GPS-tagged reporting.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 500,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000020006",
+        "status": "Active",
+        "lat": 40.7128,
+        "lng": -74.006,
+        "website": "https://www.charitywater.org",
+        "socials": {
+          "x": "https://x.com/charitywater",
+          "facebook": "https://www.facebook.com/charitywater",
+          "instagram": "https://www.instagram.com/charitywater",
+          "youtube": "https://www.youtube.com/user/charitywater"
+        }
+      }
+    },
+    {
+      "id": "30001",
+      "title": "Keep Free Knowledge Open",
+      "content_html": "<p>Sustain open, freely accessible knowledge infrastructure for everyone.</p>",
+      "url": "https://polytab.store/#30001",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Civic Tech",
+        "organization": "Wikimedia Foundation",
+        "location": "San Francisco, CA, USA",
+        "summary": "Sustain open, freely accessible knowledge infrastructure for everyone.",
+        "plainSummary": "What is broken: Reliable knowledge access is uneven and costly.\nWhat will be done: Support open knowledge platforms and tools.\nProof: Public infrastructure and transparency reports.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 500,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000030001",
+        "status": "Active",
+        "lat": 37.7869,
+        "lng": -122.3997,
+        "website": "https://wikimediafoundation.org",
+        "socials": {
+          "x": "https://x.com/Wikimedia",
+          "facebook": "https://www.facebook.com/wikimediafoundation",
+          "instagram": "https://www.instagram.com/wikimediafoundation",
+          "linkedin": "https://www.linkedin.com/company/wikimedia-foundation"
+        }
+      }
+    },
+    {
+      "id": "30002",
+      "title": "Defend Digital Rights & Privacy",
+      "content_html": "<p>Protect civil liberties, privacy, and free expression in the digital world.</p>",
+      "url": "https://polytab.store/#30002",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Civic Tech",
+        "organization": "Electronic Frontier Foundation (EFF)",
+        "location": "San Francisco, CA, USA",
+        "summary": "Protect civil liberties, privacy, and free expression in the digital world.",
+        "plainSummary": "What is broken: Surveillance and censorship threaten digital rights.\nWhat will be done: Fund legal defense, tools, and advocacy.\nProof: Case filings and public advocacy reports.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 500,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000030002",
+        "status": "Active",
+        "lat": 37.7753,
+        "lng": -122.4129,
+        "website": "https://www.eff.org",
+        "socials": {
+          "x": "https://x.com/EFF",
+          "facebook": "https://www.facebook.com/eff",
+          "instagram": "https://www.instagram.com/efforg",
+          "youtube": "https://www.youtube.com/user/eff"
+        }
+      }
+    },
+    {
+      "id": "30003",
+      "title": "Open Licensing for Shared Knowledge",
+      "content_html": "<p>Enable sharing of knowledge and culture through open licenses and tools.</p>",
+      "url": "https://polytab.store/#30003",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Civic Tech",
+        "organization": "Creative Commons",
+        "location": "Mountain View, CA, USA",
+        "summary": "Enable sharing of knowledge and culture through open licenses and tools.",
+        "plainSummary": "What is broken: Restrictive licensing limits access to knowledge.\nWhat will be done: Support open licensing infrastructure and education.\nProof: License adoption and program reporting.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 400,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000030003",
+        "status": "Active",
+        "lat": 37.3861,
+        "lng": -122.0839,
+        "website": "https://creativecommons.org",
+        "socials": {
+          "x": "https://x.com/creativecommons",
+          "facebook": "https://www.facebook.com/creativecommons",
+          "linkedin": "https://www.linkedin.com/company/creative-commons"
+        }
+      }
+    },
+    {
+      "id": "30004",
+      "title": "Healthy, Open Internet for All",
+      "content_html": "<p>Advance a healthier internet through open technology and public-interest advocacy.</p>",
+      "url": "https://polytab.store/#30004",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Civic Tech",
+        "organization": "Mozilla Foundation",
+        "location": "San Francisco, CA, USA",
+        "summary": "Advance a healthier internet through open technology and public-interest advocacy.",
+        "plainSummary": "What is broken: Centralized platforms threaten openness and privacy.\nWhat will be done: Fund open internet initiatives and research.\nProof: Public reports and program outcomes.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 500,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000030004",
+        "status": "Active",
+        "lat": 37.3875,
+        "lng": -122.0575,
+        "website": "https://foundation.mozilla.org",
+        "socials": {
+          "x": "https://x.com/mozilla",
+          "facebook": "https://www.facebook.com/mozilla",
+          "instagram": "https://www.instagram.com/mozilla"
+        }
+      }
+    },
+    {
+      "id": "30005",
+      "title": "Universal Access to Knowledge",
+      "content_html": "<p>Preserve digital culture and provide universal access to knowledge.</p>",
+      "url": "https://polytab.store/#30005",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Civic Tech",
+        "organization": "Internet Archive",
+        "location": "San Francisco, CA, USA",
+        "summary": "Preserve digital culture and provide universal access to knowledge.",
+        "plainSummary": "What is broken: Digital history and resources disappear without preservation.\nWhat will be done: Fund archiving and open access services.\nProof: Collection growth and access metrics.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 500,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000030005",
+        "status": "Active",
+        "lat": 37.7823,
+        "lng": -122.4716,
+        "website": "https://archive.org",
+        "socials": {
+          "x": "https://x.com/internetarchive",
+          "facebook": "https://www.facebook.com/internetnetarchive"
+        }
+      }
+    },
+    {
+      "id": "40001",
+      "title": "Protect & Educate Children Worldwide",
+      "content_html": "<p>Deliver health, nutrition, education, and protection services for children.</p>",
+      "url": "https://polytab.store/#40001",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Classrooms",
+        "organization": "UNICEF",
+        "location": "New York, NY, USA",
+        "summary": "Deliver health, nutrition, education, and protection services for children.",
+        "plainSummary": "What is broken: Children face preventable disease, malnutrition, and lost schooling.\nWhat will be done: Fund child health, education, and protection programs.\nProof: UNICEF program and results reporting.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 750,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000040001",
+        "status": "Active",
+        "lat": 40.7503,
+        "lng": -73.969,
+        "website": "https://www.unicef.org",
+        "socials": {
+          "x": "https://x.com/UNICEF",
+          "facebook": "https://www.facebook.com/unicef",
+          "instagram": "https://www.instagram.com/unicef",
+          "youtube": "https://www.youtube.com/user/unicef"
+        }
+      }
+    },
+    {
+      "id": "40002",
+      "title": "Children’s Health, Education & Safety",
+      "content_html": "<p>Give children a healthy start, the opportunity to learn, and protection from harm.</p>",
+      "url": "https://polytab.store/#40002",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Classrooms",
+        "organization": "Save the Children",
+        "location": "Fairfield, CT, USA",
+        "summary": "Give children a healthy start, the opportunity to learn, and protection from harm.",
+        "plainSummary": "What is broken: Poverty and crisis disrupt children’s health and learning.\nWhat will be done: Fund education, health, and protection programs.\nProof: Program outcome reports.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 600,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000040002",
+        "status": "Active",
+        "lat": 41.1415,
+        "lng": -73.2637,
+        "website": "https://www.savethechildren.org",
+        "socials": {
+          "x": "https://x.com/SavetheChildren",
+          "facebook": "https://www.facebook.com/savethechildren",
+          "instagram": "https://www.instagram.com/savethechildren",
+          "youtube": "https://www.youtube.com/user/savethechildren"
+        }
+      }
+    },
+    {
+      "id": "40003",
+      "title": "Advance Children’s Rights & Equality",
+      "content_html": "<p>Support girls’ education and children’s rights in vulnerable communities.</p>",
+      "url": "https://polytab.store/#40003",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Classrooms",
+        "organization": "Plan International",
+        "location": "Woking, United Kingdom",
+        "summary": "Support girls’ education and children’s rights in vulnerable communities.",
+        "plainSummary": "What is broken: Inequality blocks education and safety for children.\nWhat will be done: Fund education and protection initiatives.\nProof: Program monitoring and reports.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 500,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000040003",
+        "status": "Active",
+        "lat": 51.3168,
+        "lng": -0.56,
+        "website": "https://plan-international.org",
+        "socials": {
+          "x": "https://x.com/PlanGlobal",
+          "facebook": "https://www.facebook.com/planinternational",
+          "instagram": "https://www.instagram.com/planinternational",
+          "linkedin": "https://www.linkedin.com/company/plan-international"
+        }
+      }
+    },
+    {
+      "id": "40004",
+      "title": "Education in Emergencies for Children",
+      "content_html": "<p>Deliver safe, quality education to children affected by crises.</p>",
+      "url": "https://polytab.store/#40004",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Classrooms",
+        "organization": "Education Cannot Wait",
+        "location": "New York, NY, USA",
+        "summary": "Deliver safe, quality education to children affected by crises.",
+        "plainSummary": "What is broken: Emergencies disrupt schooling for millions of children.\nWhat will be done: Fund rapid and sustained education responses.\nProof: Response reports and learning outcomes.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 600,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000040004",
+        "status": "Active",
+        "lat": 40.7489,
+        "lng": -73.968,
+        "website": "https://www.educationcannotwait.org",
+        "socials": {
+          "x": "https://x.com/EduCannotWait",
+          "facebook": "https://www.facebook.com/EducationCannotWait",
+          "linkedin": "https://www.linkedin.com/company/education-cannot-wait"
+        }
+      }
+    },
+    {
+      "id": "40005",
+      "title": "Improve Foundational Learning",
+      "content_html": "<p>Strengthen foundational literacy and numeracy for children at scale.</p>",
+      "url": "https://polytab.store/#40005",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Classrooms",
+        "organization": "Pratham",
+        "location": "Mumbai, India",
+        "summary": "Strengthen foundational literacy and numeracy for children at scale.",
+        "plainSummary": "What is broken: Many children lack basic reading and math skills.\nWhat will be done: Fund evidence-based learning programs.\nProof: Learning assessment and program data.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 500,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000040005",
+        "status": "Active",
+        "lat": 19.076,
+        "lng": 72.8777,
+        "website": "https://www.pratham.org",
+        "socials": {
+          "x": "https://x.com/Pratham_India",
+          "facebook": "https://www.facebook.com/PrathamEducationFoundation",
+          "instagram": "https://www.instagram.com/pratham_education",
+          "linkedin": "https://www.linkedin.com/company/pratham-education-foundation"
+        }
+      }
+    },
+    {
+      "id": "40006",
+      "title": "Family Care for Children Without Parental Care",
+      "content_html": "<p>Provide stable family-like care and support for children without adequate parental care.</p>",
+      "url": "https://polytab.store/#40006",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Classrooms",
+        "organization": "SOS Children’s Villages",
+        "location": "Innsbruck, Austria",
+        "summary": "Provide stable family-like care and support for children without adequate parental care.",
+        "plainSummary": "What is broken: Children without care lack stability and support.\nWhat will be done: Fund family-based care and youth support.\nProof: Care and program reports.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 500,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000040006",
+        "status": "Active",
+        "lat": 47.2692,
+        "lng": 11.4041,
+        "website": "https://www.sos-childrensvillages.org",
+        "socials": {
+          "x": "https://x.com/sos_children",
+          "facebook": "https://www.facebook.com/soschildrensvillages",
+          "instagram": "https://www.instagram.com/sos_childrens_villages",
+          "linkedin": "https://www.linkedin.com/company/sos-children-s-villages-international"
+        }
+      }
+    },
+    {
+      "id": "10008",
+      "title": "Emergency Medical Care Where Needed Most",
+      "content_html": "<p>Deliver independent emergency medical care in crises and underserved areas.</p>",
+      "url": "https://polytab.store/#10008",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Accessibility & Universal Design",
+        "organization": "Médecins Sans Frontières (MSF)",
+        "location": "Geneva, Switzerland",
+        "summary": "Deliver independent emergency medical care in crises and underserved areas.",
+        "plainSummary": "What is broken: Conflict and disaster leave people without medical care.\nWhat will be done: Fund emergency medical teams and supplies.\nProof: Field activity and medical reporting.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 750,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000010008",
+        "status": "Active",
+        "lat": 46.2208,
+        "lng": 6.1431,
+        "website": "https://www.msf.org",
+        "socials": {
+          "x": "https://x.com/MSF",
+          "facebook": "https://www.facebook.com/msf.english",
+          "instagram": "https://www.instagram.com/doctorswithoutborders",
+          "youtube": "https://www.youtube.com/user/msf"
+        }
+      }
+    },
+    {
+      "id": "30006",
+      "title": "Protect & Assist Victims of Conflict",
+      "content_html": "<p>Provide humanitarian protection and assistance for people affected by armed conflict.</p>",
+      "url": "https://polytab.store/#30006",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Civic Tech",
+        "organization": "International Committee of the Red Cross (ICRC)",
+        "location": "Geneva, Switzerland",
+        "summary": "Provide humanitarian protection and assistance for people affected by armed conflict.",
+        "plainSummary": "What is broken: Conflict harms civilians and disrupts essential services.\nWhat will be done: Fund protection, health, and relief operations.\nProof: Operational and accountability reports.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 750,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000030006",
+        "status": "Active",
+        "lat": 46.2276,
+        "lng": 6.137,
+        "website": "https://www.icrc.org",
+        "socials": {
+          "x": "https://x.com/ICRC",
+          "facebook": "https://www.facebook.com/icrc",
+          "instagram": "https://www.instagram.com/icrc",
+          "linkedin": "https://www.linkedin.com/company/icrc"
+        }
+      }
+    },
+    {
+      "id": "10009",
+      "title": "High-Quality Care for the Poor",
+      "content_html": "<p>Strengthen health systems and deliver care in impoverished communities.</p>",
+      "url": "https://polytab.store/#10009",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Accessibility & Universal Design",
+        "organization": "Partners In Health",
+        "location": "Boston, MA, USA",
+        "summary": "Strengthen health systems and deliver care in impoverished communities.",
+        "plainSummary": "What is broken: Poverty blocks access to quality healthcare.\nWhat will be done: Fund clinics, staff, and community health programs.\nProof: Clinical and program reports.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 600,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000010009",
+        "status": "Active",
+        "lat": 42.3601,
+        "lng": -71.0589,
+        "website": "https://www.pih.org",
+        "socials": {
+          "x": "https://x.com/PIH",
+          "facebook": "https://www.facebook.com/partnersinhealth",
+          "instagram": "https://www.instagram.com/partnersinhealth",
+          "youtube": "https://www.youtube.com/user/partnersinhealth"
+        }
+      }
+    },
+    {
+      "id": "40007",
+      "title": "Expand Equitable Immunization for Children",
+      "content_html": "<p>Increase access to lifesaving vaccines for children in lower-income countries.</p>",
+      "url": "https://polytab.store/#40007",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Classrooms",
+        "organization": "Gavi, the Vaccine Alliance",
+        "location": "Geneva, Switzerland",
+        "summary": "Increase access to lifesaving vaccines for children in lower-income countries.",
+        "plainSummary": "What is broken: Vaccine gaps leave children vulnerable to preventable disease.\nWhat will be done: Fund immunization programs and supply chains.\nProof: Coverage data and program reports.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 700,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000040007",
+        "status": "Active",
+        "lat": 46.2205,
+        "lng": 6.139,
+        "website": "https://www.gavi.org",
+        "socials": {
+          "x": "https://x.com/gavi",
+          "facebook": "https://www.facebook.com/gavi",
+          "linkedin": "https://www.linkedin.com/company/gavi"
+        }
+      }
+    },
+    {
+      "id": "10010",
+      "title": "Fight AIDS, Tuberculosis & Malaria",
+      "content_html": "<p>Invest in programs to end AIDS, tuberculosis, and malaria as public health threats.</p>",
+      "url": "https://polytab.store/#10010",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Accessibility & Universal Design",
+        "organization": "The Global Fund",
+        "location": "Geneva, Switzerland",
+        "summary": "Invest in programs to end AIDS, tuberculosis, and malaria as public health threats.",
+        "plainSummary": "What is broken: Infectious diseases continue to cause preventable deaths.\nWhat will be done: Fund prevention, testing, and treatment programs.\nProof: Results and audit reporting.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 700,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000010010",
+        "status": "Active",
+        "lat": 46.2296,
+        "lng": 6.1187,
+        "website": "https://www.theglobalfund.org",
+        "socials": {
+          "x": "https://x.com/globalfund",
+          "facebook": "https://www.facebook.com/theglobalfund",
+          "instagram": "https://www.instagram.com/globalfund",
+          "linkedin": "https://www.linkedin.com/company/the-global-fund"
+        }
+      }
+    },
+    {
+      "id": "10011",
+      "title": "Provide Long-Lasting Insecticidal Nets",
+      "content_html": "<p>Fund and distribute bed nets to prevent malaria in high-burden regions.</p>",
+      "url": "https://polytab.store/#10011",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Accessibility & Universal Design",
+        "organization": "Against Malaria Foundation",
+        "location": "London, United Kingdom",
+        "summary": "Fund and distribute bed nets to prevent malaria in high-burden regions.",
+        "plainSummary": "What is broken: Malaria remains deadly without effective prevention.\nWhat will be done: Purchase and distribute protective bed nets.\nProof: Distribution and monitoring reports.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 500,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000010011",
+        "status": "Active",
+        "lat": 51.5155,
+        "lng": -0.141,
+        "website": "https://www.againstmalaria.com",
+        "socials": {
+          "x": "https://x.com/AgainstMalaria",
+          "facebook": "https://www.facebook.com/AgainstMalaria"
+        }
+      }
+    },
+    {
+      "id": "10012",
+      "title": "Deliver Medical Aid to People in Need",
+      "content_html": "<p>Provide medicines and medical supplies to communities affected by poverty and emergencies.</p>",
+      "url": "https://polytab.store/#10012",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Accessibility & Universal Design",
+        "organization": "Direct Relief",
+        "location": "Santa Barbara, CA, USA",
+        "summary": "Provide medicines and medical supplies to communities affected by poverty and emergencies.",
+        "plainSummary": "What is broken: Clinics and patients lack essential medicines and supplies.\nWhat will be done: Fund procurement and delivery of medical aid.\nProof: Shipment and partner reports.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 600,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000010012",
+        "status": "Active",
+        "lat": 34.4208,
+        "lng": -119.6982,
+        "website": "https://www.directrelief.org",
+        "socials": {
+          "x": "https://x.com/DirectRelief",
+          "facebook": "https://www.facebook.com/directrelief",
+          "instagram": "https://www.instagram.com/directrelief",
+          "linkedin": "https://www.linkedin.com/company/direct-relief"
+        }
+      }
+    },
+    {
+      "id": "20007",
+      "title": "Protect the Planet & Climate",
+      "content_html": "<p>Campaign for climate action, ocean protection, and a healthy environment.</p>",
+      "url": "https://polytab.store/#20007",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Environmental",
+        "organization": "Greenpeace International",
+        "location": "Amsterdam, Netherlands",
+        "summary": "Campaign for climate action, ocean protection, and a healthy environment.",
+        "plainSummary": "What is broken: Climate and pollution threaten ecosystems and communities.\nWhat will be done: Fund environmental protection campaigns and research.\nProof: Campaign and impact reports.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 500,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000020007",
+        "status": "Active",
+        "lat": 52.3676,
+        "lng": 4.9041,
+        "website": "https://www.greenpeace.org/international/",
+        "socials": {
+          "x": "https://x.com/Greenpeace",
+          "facebook": "https://www.facebook.com/greenpeace.international",
+          "instagram": "https://www.instagram.com/greenpeace",
+          "youtube": "https://www.youtube.com/user/GreenpeaceVideo"
+        }
+      }
+    },
+    {
+      "id": "20008",
+      "title": "Protect Forests & Sustainable Livelihoods",
+      "content_html": "<p>Conserve biodiversity and ensure sustainable livelihoods by transforming land-use practices.</p>",
+      "url": "https://polytab.store/#20008",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Environmental",
+        "organization": "Rainforest Alliance",
+        "location": "New York, NY, USA",
+        "summary": "Conserve biodiversity and ensure sustainable livelihoods by transforming land-use practices.",
+        "plainSummary": "What is broken: Deforestation harms climate and communities.\nWhat will be done: Fund forest conservation and sustainable farming programs.\nProof: Certification and field reports.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 500,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000020008",
+        "status": "Active",
+        "lat": 40.7506,
+        "lng": -73.9935,
+        "website": "https://www.rainforest-alliance.org",
+        "socials": {
+          "x": "https://x.com/RnfrstAlliance",
+          "facebook": "https://www.facebook.com/RainforestAlliance",
+          "instagram": "https://www.instagram.com/rainforestalliance",
+          "linkedin": "https://www.linkedin.com/company/rainforest-alliance"
+        }
+      }
+    },
+    {
+      "id": "20009",
+      "title": "Save Wildlife & Wild Places",
+      "content_html": "<p>Protect wildlife and wild places through science, conservation action, and education.</p>",
+      "url": "https://polytab.store/#20009",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Environmental",
+        "organization": "Wildlife Conservation Society",
+        "location": "Bronx, NY, USA",
+        "summary": "Protect wildlife and wild places through science, conservation action, and education.",
+        "plainSummary": "What is broken: Species and habitats face escalating threats.\nWhat will be done: Fund conservation programs in critical landscapes.\nProof: Conservation monitoring reports.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 600,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000020009",
+        "status": "Active",
+        "lat": 40.8506,
+        "lng": -73.8769,
+        "website": "https://www.wcs.org",
+        "socials": {
+          "x": "https://x.com/TheWCS",
+          "facebook": "https://www.facebook.com/TheWCS",
+          "instagram": "https://www.instagram.com/thewcs",
+          "youtube": "https://www.youtube.com/user/WCSMedia"
+        }
+      }
+    },
+    {
+      "id": "30007",
+      "title": "Defend Human Rights Worldwide",
+      "content_html": "<p>Campaign to protect human rights and hold abusers accountable.</p>",
+      "url": "https://polytab.store/#30007",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Civic Tech",
+        "organization": "Amnesty International",
+        "location": "London, United Kingdom",
+        "summary": "Campaign to protect human rights and hold abusers accountable.",
+        "plainSummary": "What is broken: Rights violations occur without accountability.\nWhat will be done: Fund research, advocacy, and support for rights defenders.\nProof: Research publications and campaign reports.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 500,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000030007",
+        "status": "Active",
+        "lat": 51.4945,
+        "lng": -0.1257,
+        "website": "https://www.amnesty.org",
+        "socials": {
+          "x": "https://x.com/amnesty",
+          "facebook": "https://www.facebook.com/amnesty",
+          "instagram": "https://www.instagram.com/amnesty",
+          "youtube": "https://www.youtube.com/user/AmnestyInternational"
+        }
+      }
+    },
+    {
+      "id": "30008",
+      "title": "Investigate & Report on Rights Abuses",
+      "content_html": "<p>Investigate abuses and advocate for policies that protect human dignity.</p>",
+      "url": "https://polytab.store/#30008",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Civic Tech",
+        "organization": "Human Rights Watch",
+        "location": "New York, NY, USA",
+        "summary": "Investigate abuses and advocate for policies that protect human dignity.",
+        "plainSummary": "What is broken: Abuses persist when hidden or ignored.\nWhat will be done: Fund investigations and advocacy.\nProof: Published investigations and advocacy outcomes.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 500,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000030008",
+        "status": "Active",
+        "lat": 40.7532,
+        "lng": -73.9822,
+        "website": "https://www.hrw.org",
+        "socials": {
+          "x": "https://x.com/hrw",
+          "facebook": "https://www.facebook.com/HumanRightsWatch",
+          "instagram": "https://www.instagram.com/humanrightswatch",
+          "youtube": "https://www.youtube.com/user/HumanRightsWatch"
+        }
+      }
+    },
+    {
+      "id": "30009",
+      "title": "Fight Corruption Globally",
+      "content_html": "<p>Promote transparency, accountability, and integrity in public life.</p>",
+      "url": "https://polytab.store/#30009",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Civic Tech",
+        "organization": "Transparency International",
+        "location": "Berlin, Germany",
+        "summary": "Promote transparency, accountability, and integrity in public life.",
+        "plainSummary": "What is broken: Corruption diverts resources from public good.\nWhat will be done: Fund anti-corruption research and advocacy.\nProof: Indexes, reports, and program outcomes.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 500,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000030009",
+        "status": "Active",
+        "lat": 52.52,
+        "lng": 13.405,
+        "website": "https://www.transparency.org",
+        "socials": {
+          "x": "https://x.com/anticorruption",
+          "facebook": "https://www.facebook.com/TransparencyInternational",
+          "linkedin": "https://www.linkedin.com/company/transparency-international"
+        }
+      }
+    },
+    {
+      "id": "40008",
+      "title": "Empower People & Communities Out of Poverty",
+      "content_html": "<p>Deliver education, health, and livelihoods programs to lift families out of poverty.</p>",
+      "url": "https://polytab.store/#40008",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Classrooms",
+        "organization": "BRAC",
+        "location": "Dhaka, Bangladesh",
+        "summary": "Deliver education, health, and livelihoods programs to lift families out of poverty.",
+        "plainSummary": "What is broken: Poverty limits education and opportunity.\nWhat will be done: Fund integrated development and education programs.\nProof: Program evaluations and reports.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 600,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000040008",
+        "status": "Active",
+        "lat": 23.7806,
+        "lng": 90.407,
+        "website": "https://www.brac.net",
+        "socials": {
+          "x": "https://x.com/BRACWorld",
+          "facebook": "https://www.facebook.com/BRACWorld",
+          "linkedin": "https://www.linkedin.com/company/brac"
+        }
+      }
+    },
+    {
+      "id": "40009",
+      "title": "Fight Global Poverty & Support Women and Girls",
+      "content_html": "<p>Save lives, defeat poverty, and achieve social justice with a focus on women and girls.</p>",
+      "url": "https://polytab.store/#40009",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Classrooms",
+        "organization": "CARE International",
+        "location": "Geneva, Switzerland",
+        "summary": "Save lives, defeat poverty, and achieve social justice with a focus on women and girls.",
+        "plainSummary": "What is broken: Inequality and crisis limit safety and opportunity.\nWhat will be done: Fund humanitarian and development programs.\nProof: Program and impact reports.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 600,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000040009",
+        "status": "Active",
+        "lat": 46.223,
+        "lng": 6.147,
+        "website": "https://www.care-international.org",
+        "socials": {
+          "x": "https://x.com/CAREGlobal",
+          "facebook": "https://www.facebook.com/CARE",
+          "instagram": "https://www.instagram.com/careorg",
+          "linkedin": "https://www.linkedin.com/company/care"
+        }
+      }
+    },
+    {
+      "id": "40010",
+      "title": "End the Injustice of Poverty",
+      "content_html": "<p>Tackle the root causes of poverty and injustice worldwide.</p>",
+      "url": "https://polytab.store/#40010",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Classrooms",
+        "organization": "Oxfam International",
+        "location": "Nairobi, Kenya",
+        "summary": "Tackle the root causes of poverty and injustice worldwide.",
+        "plainSummary": "What is broken: Inequality and crisis drive poverty.\nWhat will be done: Fund relief, development, and advocacy programs.\nProof: Program and accountability reports.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 600,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000040010",
+        "status": "Active",
+        "lat": -1.2921,
+        "lng": 36.8219,
+        "website": "https://www.oxfam.org",
+        "socials": {
+          "x": "https://x.com/Oxfam",
+          "facebook": "https://www.facebook.com/oxfam",
+          "instagram": "https://www.instagram.com/oxfaminternational",
+          "youtube": "https://www.youtube.com/user/oxfam"
+        }
+      }
+    },
+    {
+      "id": "10013",
+      "title": "Help People Survive Conflict & Disaster",
+      "content_html": "<p>Provide emergency aid and long-term support to refugees and displaced families.</p>",
+      "url": "https://polytab.store/#10013",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Accessibility & Universal Design",
+        "organization": "International Rescue Committee (IRC)",
+        "location": "New York, NY, USA",
+        "summary": "Provide emergency aid and long-term support to refugees and displaced families.",
+        "plainSummary": "What is broken: Displacement strips families of safety and services.\nWhat will be done: Fund health, education, and resettlement support.\nProof: Program delivery and outcome reports.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 700,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000010013",
+        "status": "Active",
+        "lat": 40.7484,
+        "lng": -73.9857,
+        "website": "https://www.rescue.org",
+        "socials": {
+          "x": "https://x.com/RESCUEorg",
+          "facebook": "https://www.facebook.com/InternationalRescueCommittee",
+          "instagram": "https://www.instagram.com/rescueorg",
+          "youtube": "https://www.youtube.com/user/InternationalRescue"
+        }
+      }
+    },
+    {
+      "id": "10014",
+      "title": "Free Cleft Surgery & Comprehensive Care",
+      "content_html": "<p>Provide free cleft lip and palate surgeries and follow-up care for children.</p>",
+      "url": "https://polytab.store/#10014",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Accessibility & Universal Design",
+        "organization": "Operation Smile",
+        "location": "Virginia Beach, VA, USA",
+        "summary": "Provide free cleft lip and palate surgeries and follow-up care for children.",
+        "plainSummary": "What is broken: Children lack access to safe cleft surgery.\nWhat will be done: Fund surgical missions and comprehensive care.\nProof: Surgical and patient outcome records.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 500,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000010014",
+        "status": "Active",
+        "lat": 36.8529,
+        "lng": -75.978,
+        "website": "https://www.operationsmile.org",
+        "socials": {
+          "x": "https://x.com/operationsmile",
+          "facebook": "https://www.facebook.com/operationsmile",
+          "instagram": "https://www.instagram.com/operationsmile",
+          "youtube": "https://www.youtube.com/user/operationsmile"
+        }
+      }
+    },
+    {
+      "id": "20010",
+      "title": "Solutions for Climate & Environment",
+      "content_html": "<p>Create practical solutions to stabilize the climate and protect nature.</p>",
+      "url": "https://polytab.store/#20010",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Environmental",
+        "organization": "Environmental Defense Fund (EDF)",
+        "location": "New York, NY, USA",
+        "summary": "Create practical solutions to stabilize the climate and protect nature.",
+        "plainSummary": "What is broken: Climate change and pollution threaten communities.\nWhat will be done: Fund science-based environmental solutions.\nProof: Program and impact reports.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 500,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000020010",
+        "status": "Active",
+        "lat": 40.7069,
+        "lng": -74.0113,
+        "website": "https://www.edf.org",
+        "socials": {
+          "x": "https://x.com/EnvDefenseFund",
+          "facebook": "https://www.facebook.com/EnvDefenseFund",
+          "instagram": "https://www.instagram.com/environmental_defense_fund",
+          "linkedin": "https://www.linkedin.com/company/environmental-defense-fund"
+        }
+      }
+    },
+    {
+      "id": "40011",
+      "title": "Expand Educational Opportunity",
+      "content_html": "<p>Develop collective leadership to ensure all children can fulfill their potential.</p>",
+      "url": "https://polytab.store/#40011",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Classrooms",
+        "organization": "Teach For All",
+        "location": "New York, NY, USA",
+        "summary": "Develop collective leadership to ensure all children can fulfill their potential.",
+        "plainSummary": "What is broken: Educational inequity limits children’s futures.\nWhat will be done: Support teacher leadership and learning initiatives.\nProof: Network and program reports.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 500,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000040011",
+        "status": "Active",
+        "lat": 40.7411,
+        "lng": -73.9897,
+        "website": "https://teachforall.org",
+        "socials": {
+          "x": "https://x.com/TeachForAll",
+          "facebook": "https://www.facebook.com/TeachForAll",
+          "linkedin": "https://www.linkedin.com/company/teach-for-all"
+        }
+      }
+    },
+    {
+      "id": "10015",
+      "title": "Vision, Youth, Disaster Relief & Humanitarian Aid",
+      "content_html": "<p>Support sight programs, disaster relief, and community humanitarian projects worldwide.</p>",
+      "url": "https://polytab.store/#10015",
+      "date_published": "2026-11-10T00:00:00Z",
+      "_polytab": {
+        "category": "Accessibility & Universal Design",
+        "organization": "Lions Clubs International Foundation",
+        "location": "Oak Brook, IL, USA",
+        "summary": "Support sight programs, disaster relief, and community humanitarian projects worldwide.",
+        "plainSummary": "What is broken: Communities lack resources for vision care and disaster response.\nWhat will be done: Fund vision, relief, and community service grants.\nProof: Grant and program reporting.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 500,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x71C0000000000000000000000000000000010015",
+        "status": "Active",
+        "lat": 41.839,
+        "lng": -87.9536,
+        "website": "https://www.lionsclubs.org/en/lcif",
+        "socials": {
+          "x": "https://x.com/lionsclubs",
+          "facebook": "https://www.facebook.com/lionsclubs",
+          "instagram": "https://www.instagram.com/lionsclubs"
+        }
+      }
+    }
+  ]
+}

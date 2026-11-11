@@ -612,8 +612,10 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
                 votesCount: Number(meta.votesCount) || 0,
                 wallet: isValidAddress(meta.contract || meta.wallet) ? meta.contract || meta.wallet : "0x71C0000000000000000000000000000000000101",
                 status: String(meta.status || "Active"),
-                lat: Number(meta.lat) || null,
-                lng: Number(meta.lng) || null
+                lat: (meta.lat === null || meta.lat === undefined || meta.lat === "") ? null : Number(meta.lat),
+                lng: (meta.lng === null || meta.lng === undefined || meta.lng === "") ? null : Number(meta.lng),
+                website: (typeof meta.website === "string" && /^https?:\/\//i.test(meta.website)) ? meta.website.trim() : null,
+                socials: (meta.socials && typeof meta.socials === "object" && !Array.isArray(meta.socials)) ? meta.socials : {}
               };
             });
           } else { state.proposals = FALLBACK_PROPOSALS; }
@@ -893,6 +895,41 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           descP.textContent = state.plainLanguageMode ? item.plainSummary : item.summary;
           topDiv.appendChild(badgeRow);
           topDiv.appendChild(locP);
+          const linksRow = document.createElement("div");
+          linksRow.className = "flex items-center flex-wrap gap-2 text-[11px]";
+          const safeLink = (u) => (typeof u === "string" && /^https?:\/\//i.test(u.trim())) ? u.trim() : null;
+          const siteUrl = safeLink(item.website);
+          if (siteUrl) {
+            const a = document.createElement("a");
+            a.href = siteUrl;
+            a.target = "_blank";
+            a.rel = "noopener noreferrer";
+            a.className = "inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-zinc-800/80 border border-zinc-700 text-yellow-300 hover:text-yellow-200 hover:border-yellow-500/40 transition";
+            a.textContent = "Website ↗";
+            a.setAttribute("aria-label", "Open charity website for " + item.title);
+            linksRow.appendChild(a);
+          }
+          const socialDefs = [
+            ["x", "X"], ["twitter", "X"], ["facebook", "f"], ["instagram", "ig"], ["linkedin", "in"], ["youtube", "yt"], ["github", "gh"], ["tiktok", "tt"]
+          ];
+          const seenSocial = new Set();
+          socialDefs.forEach(([key, label]) => {
+            const url = safeLink(item.socials && item.socials[key]);
+            if (!url) return;
+            const norm = label.toLowerCase();
+            if (seenSocial.has(norm)) return;
+            seenSocial.add(norm);
+            const a = document.createElement("a");
+            a.href = url;
+            a.target = "_blank";
+            a.rel = "noopener noreferrer";
+            a.className = "inline-flex items-center justify-center w-6 h-6 rounded-md bg-zinc-800 border border-zinc-700 text-zinc-300 hover:text-white hover:border-purple-500/50 transition font-bold";
+            a.textContent = label;
+            a.title = key.charAt(0).toUpperCase() + key.slice(1);
+            a.setAttribute("aria-label", "Open " + key + " profile for " + item.title);
+            linksRow.appendChild(a);
+          });
+          if (linksRow.childNodes.length > 0) topDiv.appendChild(linksRow);
           topDiv.appendChild(titleH3);
           topDiv.appendChild(descP);
           const bottomDiv = document.createElement("div");
