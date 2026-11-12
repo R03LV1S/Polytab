@@ -3,9 +3,9 @@
   <channel>
     <title>Polytab — Global Civic Action Map (geoRSS)</title>
     <link>https://polytab.store/#map</link>
-    <description>geoRSS mirror of the Polytab Action Shelf. 749 of 749 actions publish organization coordinates, rounded to two decimal places (~1 km, neighborhood-level) to prevent PII/doxing. Organizations without a public location are listed in feed.xml only.</description>
+    <description>geoRSS mirror of the Polytab Action Shelf. 867 of 867 actions publish organization coordinates, rounded to two decimal places (~1 km, neighborhood-level) to prevent PII/doxing. Organizations without a public location are listed in feed.xml only.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Nov 2026 03:43:31 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 08:16:06 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://polytab.store/feeds/global.xml" rel="self" type="application/rss+xml" />
   <item>
@@ -14427,6 +14427,2248 @@ Honest-zero: no on-chain votes have been recorded for this action yet.
 Escrow: 0x71C0000000000000000000000000000000020061</description>
     <category>Environmental</category>
     <pubDate>Thu, 12 Nov 2026 03:43:31 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>American Conservation</title>
+    <link>https://polytab.store/#20062</link>
+    <guid isPermaLink="false">polytab:shelf:20062</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: IRS Form 990-series filing (tax year 2023) (ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF), tier: official_government_register).
+
+Category: Environmental
+Organization: American Conservation
+Location: Flagstaff, AZ, US
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000020062</description>
+    <category>Environmental</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Association CHS Alliance</title>
+    <link>https://polytab.store/#30387</link>
+    <guid isPermaLink="false">polytab:shelf:30387</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Association CHS Alliance
+Location: CH, CH
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030387</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Cambridge Institute for Sustainability Leadership</title>
+    <link>https://polytab.store/#30388</link>
+    <guid isPermaLink="false">polytab:shelf:30388</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Cambridge Institute for Sustainability Leadership
+Location: ZA, ZA
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030388</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>CARE International Afghanistan</title>
+    <link>https://polytab.store/#30389</link>
+    <guid isPermaLink="false">polytab:shelf:30389</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: CARE International Afghanistan
+Location: AF, AF
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030389</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>CARE international foundation Switzerland in Sudan</title>
+    <link>https://polytab.store/#30390</link>
+    <guid isPermaLink="false">polytab:shelf:30390</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: CARE international foundation Switzerland in Sudan
+Location: SD, SD
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030390</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>CARE International in Zimbabwe</title>
+    <link>https://polytab.store/#30391</link>
+    <guid isPermaLink="false">polytab:shelf:30391</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: CARE International in Zimbabwe
+Location: ZW, ZW
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030391</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>CARE International UK</title>
+    <link>https://polytab.store/#30392</link>
+    <guid isPermaLink="false">polytab:shelf:30392</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: CARE International UK
+Location: GB, GB
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030392</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>CARE Nepal</title>
+    <link>https://polytab.store/#30393</link>
+    <guid isPermaLink="false">polytab:shelf:30393</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: CARE Nepal
+Location: NP, NP
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030393</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Caritas International (Belgium)</title>
+    <link>https://polytab.store/#30394</link>
+    <guid isPermaLink="false">polytab:shelf:30394</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Caritas International (Belgium)
+Location: BE, BE
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030394</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Catholic Relief Services</title>
+    <link>https://polytab.store/#30395</link>
+    <guid isPermaLink="false">polytab:shelf:30395</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Catholic Relief Services
+Location: US, US
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030395</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Caucus of Development NGO Networks Inc.</title>
+    <link>https://polytab.store/#30396</link>
+    <guid isPermaLink="false">polytab:shelf:30396</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Caucus of Development NGO Networks Inc.
+Location: PH, PH
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030396</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Center for Church-Based Development</title>
+    <link>https://polytab.store/#30397</link>
+    <guid isPermaLink="false">polytab:shelf:30397</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Center for Church-Based Development
+Location: DK, DK
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030397</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Center for Civilians in Conflict</title>
+    <link>https://polytab.store/#30398</link>
+    <guid isPermaLink="false">polytab:shelf:30398</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Center for Civilians in Conflict
+Location: US, US
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030398</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Center for International Legal Cooperation (CILC)</title>
+    <link>https://polytab.store/#30399</link>
+    <guid isPermaLink="false">polytab:shelf:30399</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Center for International Legal Cooperation (CILC)
+Location: NL, NL
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030399</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Center for International Private Enterprise</title>
+    <link>https://polytab.store/#30400</link>
+    <guid isPermaLink="false">polytab:shelf:30400</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Center for International Private Enterprise
+Location: US, US
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030400</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Center for Natural Resource Studies (CNRS)</title>
+    <link>https://polytab.store/#30401</link>
+    <guid isPermaLink="false">polytab:shelf:30401</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Center for Natural Resource Studies (CNRS)
+Location: BD, BD
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030401</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Center for Participation and Development</title>
+    <link>https://polytab.store/#30402</link>
+    <guid isPermaLink="false">polytab:shelf:30402</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Center for Participation and Development
+Location: GE, GE
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030402</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Center for Research on Environment Health and Population Activities (CREHPA)</title>
+    <link>https://polytab.store/#10092</link>
+    <guid isPermaLink="false">polytab:shelf:10092</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Accessibility &amp; Universal Design
+Organization: Center for Research on Environment Health and Population Activities (CREHPA)
+Location: NP, NP
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000010092</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Center for Research, Evaluation Resources and Development (CRERD)</title>
+    <link>https://polytab.store/#30403</link>
+    <guid isPermaLink="false">polytab:shelf:30403</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Center for Research, Evaluation Resources and Development (CRERD)
+Location: NG, NG
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030403</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>CENTRE FOR HUMAN RIGHTS AND POLICY STUDIES</title>
+    <link>https://polytab.store/#30404</link>
+    <guid isPermaLink="false">polytab:shelf:30404</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: CENTRE FOR HUMAN RIGHTS AND POLICY STUDIES
+Location: KE, KE
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030404</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Centre for Indian Knowledge Systems</title>
+    <link>https://polytab.store/#30405</link>
+    <guid isPermaLink="false">polytab:shelf:30405</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Centre for Indian Knowledge Systems
+Location: IN, IN
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030405</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Centre for Information Resilience</title>
+    <link>https://polytab.store/#30406</link>
+    <guid isPermaLink="false">polytab:shelf:30406</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Centre for Information Resilience
+Location: GB, GB
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030406</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Centre for Injury Prevention and Research, Bangladesh (CIPRB)</title>
+    <link>https://polytab.store/#30407</link>
+    <guid isPermaLink="false">polytab:shelf:30407</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Centre for Injury Prevention and Research, Bangladesh (CIPRB)
+Location: BD, BD
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030407</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Centre for Journalism Innovation and Development</title>
+    <link>https://polytab.store/#30408</link>
+    <guid isPermaLink="false">polytab:shelf:30408</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Centre for Journalism Innovation and Development
+Location: NG, NG
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030408</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Centre for Lebanese Studies</title>
+    <link>https://polytab.store/#30409</link>
+    <guid isPermaLink="false">polytab:shelf:30409</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Centre for Lebanese Studies
+Location: GB, GB
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030409</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Centre for Legal Research and Development</title>
+    <link>https://polytab.store/#30410</link>
+    <guid isPermaLink="false">polytab:shelf:30410</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Centre for Legal Research and Development
+Location: NG, NG
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030410</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Centre for Policy Dialogue</title>
+    <link>https://polytab.store/#30411</link>
+    <guid isPermaLink="false">polytab:shelf:30411</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Centre for Policy Dialogue
+Location: BD, BD
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030411</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Centre for Rights Education and Awareness</title>
+    <link>https://polytab.store/#40059</link>
+    <guid isPermaLink="false">polytab:shelf:40059</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Classrooms
+Organization: Centre for Rights Education and Awareness
+Location: KE, KE
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000040059</description>
+    <category>Classrooms</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Centre for the Study of Adolescence</title>
+    <link>https://polytab.store/#30412</link>
+    <guid isPermaLink="false">polytab:shelf:30412</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Centre for the Study of Adolescence
+Location: KE, KE
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030412</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Centre International de Développement et de Recherche</title>
+    <link>https://polytab.store/#30413</link>
+    <guid isPermaLink="false">polytab:shelf:30413</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Centre International de Développement et de Recherche
+Location: FR, FR
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030413</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Centre National de Coopération au Développement (CNCD-11.11.11)</title>
+    <link>https://polytab.store/#30414</link>
+    <guid isPermaLink="false">polytab:shelf:30414</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Centre National de Coopération au Développement (CNCD-11.11.11)
+Location: BE, BE
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030414</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Centre of Dialogue on Human Settlement and Poverty Alleviation (CODOHSAPA)</title>
+    <link>https://polytab.store/#30415</link>
+    <guid isPermaLink="false">polytab:shelf:30415</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Centre of Dialogue on Human Settlement and Poverty Alleviation (CODOHSAPA)
+Location: SL, SL
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030415</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Centro de Inteligência Territorial</title>
+    <link>https://polytab.store/#30416</link>
+    <guid isPermaLink="false">polytab:shelf:30416</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Centro de Inteligência Territorial
+Location: BR, BR
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030416</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Centro Latinoamericano de Administración para el Desarrollo</title>
+    <link>https://polytab.store/#30417</link>
+    <guid isPermaLink="false">polytab:shelf:30417</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Centro Latinoamericano de Administración para el Desarrollo
+Location: VE, VE
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030417</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Charity Projects Ltd (Comic Relief)</title>
+    <link>https://polytab.store/#30418</link>
+    <guid isPermaLink="false">polytab:shelf:30418</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Charity Projects Ltd (Comic Relief)
+Location: GB, GB
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030418</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Child Rights Coalition Asia</title>
+    <link>https://polytab.store/#40060</link>
+    <guid isPermaLink="false">polytab:shelf:40060</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Classrooms
+Organization: Child Rights Coalition Asia
+Location: Global
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000040060</description>
+    <category>Classrooms</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Children in Crisis</title>
+    <link>https://polytab.store/#40061</link>
+    <guid isPermaLink="false">polytab:shelf:40061</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Classrooms
+Organization: Children in Crisis
+Location: GB, GB
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000040061</description>
+    <category>Classrooms</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Children in Crossfire</title>
+    <link>https://polytab.store/#40062</link>
+    <guid isPermaLink="false">polytab:shelf:40062</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Classrooms
+Organization: Children in Crossfire
+Location: GB, GB
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000040062</description>
+    <category>Classrooms</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Church of England - The Archbishops&apos; Council</title>
+    <link>https://polytab.store/#30419</link>
+    <guid isPermaLink="false">polytab:shelf:30419</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Church of England - The Archbishops&apos; Council
+Location: GB, GB
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030419</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>CIFAL Scotland</title>
+    <link>https://polytab.store/#30420</link>
+    <guid isPermaLink="false">polytab:shelf:30420</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: CIFAL Scotland
+Location: GB, GB
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030420</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>CINI</title>
+    <link>https://polytab.store/#30421</link>
+    <guid isPermaLink="false">polytab:shelf:30421</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: CINI
+Location: IN, IN
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030421</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>CISU</title>
+    <link>https://polytab.store/#30422</link>
+    <guid isPermaLink="false">polytab:shelf:30422</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: CISU
+Location: DK, DK
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030422</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>City of London Corporation</title>
+    <link>https://polytab.store/#30423</link>
+    <guid isPermaLink="false">polytab:shelf:30423</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: City of London Corporation
+Location: GB, GB
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030423</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>CIVICUS World Alliance for Citizen Participation</title>
+    <link>https://polytab.store/#30424</link>
+    <guid isPermaLink="false">polytab:shelf:30424</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: CIVICUS World Alliance for Citizen Participation
+Location: ZA, ZA
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030424</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>CIVIL INITIATIVES FOR DEVELOPMENT AND PEACE INDIA</title>
+    <link>https://polytab.store/#30425</link>
+    <guid isPermaLink="false">polytab:shelf:30425</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: CIVIL INITIATIVES FOR DEVELOPMENT AND PEACE INDIA
+Location: IN, IN
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030425</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Civil Rights Defenders</title>
+    <link>https://polytab.store/#30426</link>
+    <guid isPermaLink="false">polytab:shelf:30426</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Civil Rights Defenders
+Location: SE, SE
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030426</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>CLASP</title>
+    <link>https://polytab.store/#30427</link>
+    <guid isPermaLink="false">polytab:shelf:30427</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: CLASP
+Location: US, US
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030427</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Clim-Eat</title>
+    <link>https://polytab.store/#30428</link>
+    <guid isPermaLink="false">polytab:shelf:30428</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Clim-Eat
+Location: NL, NL
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030428</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Climate Investment Funds</title>
+    <link>https://polytab.store/#20063</link>
+    <guid isPermaLink="false">polytab:shelf:20063</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Environmental
+Organization: Climate Investment Funds
+Location: Global
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000020063</description>
+    <category>Environmental</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Climate Policy Initiative</title>
+    <link>https://polytab.store/#20064</link>
+    <guid isPermaLink="false">polytab:shelf:20064</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Environmental
+Organization: Climate Policy Initiative
+Location: US, US
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000020064</description>
+    <category>Environmental</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Cobra Collective CIC</title>
+    <link>https://polytab.store/#30429</link>
+    <guid isPermaLink="false">polytab:shelf:30429</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Cobra Collective CIC
+Location: GB, GB
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030429</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>COC Nederland</title>
+    <link>https://polytab.store/#30430</link>
+    <guid isPermaLink="false">polytab:shelf:30430</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: COC Nederland
+Location: NL, NL
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030430</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>CODA International</title>
+    <link>https://polytab.store/#30431</link>
+    <guid isPermaLink="false">polytab:shelf:30431</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: CODA International
+Location: GB, GB
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030431</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>CODEART ASBL</title>
+    <link>https://polytab.store/#30432</link>
+    <guid isPermaLink="false">polytab:shelf:30432</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: CODEART ASBL
+Location: BE, BE
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030432</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Coffey International Development</title>
+    <link>https://polytab.store/#30433</link>
+    <guid isPermaLink="false">polytab:shelf:30433</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Coffey International Development
+Location: GB, GB
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030433</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>ColaLife</title>
+    <link>https://polytab.store/#30434</link>
+    <guid isPermaLink="false">polytab:shelf:30434</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: ColaLife
+Location: GB, GB
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030434</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Collectif Stratégies Alimentaires</title>
+    <link>https://polytab.store/#30435</link>
+    <guid isPermaLink="false">polytab:shelf:30435</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Collectif Stratégies Alimentaires
+Location: BE, BE
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030435</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Collective for Research and Training on Development Action</title>
+    <link>https://polytab.store/#30436</link>
+    <guid isPermaLink="false">polytab:shelf:30436</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Collective for Research and Training on Development Action
+Location: LB, LB
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030436</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>COMISION INTERECLESIAL DE JUSTICIA Y PAZ</title>
+    <link>https://polytab.store/#30437</link>
+    <guid isPermaLink="false">polytab:shelf:30437</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: COMISION INTERECLESIAL DE JUSTICIA Y PAZ
+Location: CO, CO
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030437</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Comitato Internazionale per lo Sviluppo dei Popoli</title>
+    <link>https://polytab.store/#30438</link>
+    <guid isPermaLink="false">polytab:shelf:30438</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Comitato Internazionale per lo Sviluppo dei Popoli
+Location: IT, IT
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030438</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>COMMISSION JUSTICE ET PAIX ASBL (cjp)</title>
+    <link>https://polytab.store/#30439</link>
+    <guid isPermaLink="false">polytab:shelf:30439</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: COMMISSION JUSTICE ET PAIX ASBL (cjp)
+Location: BE, BE
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030439</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Common Seas CIC</title>
+    <link>https://polytab.store/#30440</link>
+    <guid isPermaLink="false">polytab:shelf:30440</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Common Seas CIC
+Location: GB, GB
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030440</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Commonwealth Local Government Forum</title>
+    <link>https://polytab.store/#30441</link>
+    <guid isPermaLink="false">polytab:shelf:30441</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Commonwealth Local Government Forum
+Location: GB, GB
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030441</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Commonwealth of Learning</title>
+    <link>https://polytab.store/#40063</link>
+    <guid isPermaLink="false">polytab:shelf:40063</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Classrooms
+Organization: Commonwealth of Learning
+Location: CA, CA
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000040063</description>
+    <category>Classrooms</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Commune de Comè - Bénin</title>
+    <link>https://polytab.store/#30442</link>
+    <guid isPermaLink="false">polytab:shelf:30442</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Commune de Comè - Bénin
+Location: BJ, BJ
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030442</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Community Peace Museums Heritage Foundation (CPMHF)</title>
+    <link>https://polytab.store/#60041</link>
+    <guid isPermaLink="false">polytab:shelf:60041</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Campus Grounds
+Organization: Community Peace Museums Heritage Foundation (CPMHF)
+Location: KE, KE
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000060041</description>
+    <category>Campus Grounds</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Compassion UK</title>
+    <link>https://polytab.store/#30443</link>
+    <guid isPermaLink="false">polytab:shelf:30443</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Compassion UK
+Location: GB, GB
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030443</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Comunidades Ecologistas La Ceiba - COECOCEIBA</title>
+    <link>https://polytab.store/#30444</link>
+    <guid isPermaLink="false">polytab:shelf:30444</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Comunidades Ecologistas La Ceiba - COECOCEIBA
+Location: CR, CR
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030444</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Concern Worldwide</title>
+    <link>https://polytab.store/#30445</link>
+    <guid isPermaLink="false">polytab:shelf:30445</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Concern Worldwide
+Location: IE, IE
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030445</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Concern Worldwide UK</title>
+    <link>https://polytab.store/#30446</link>
+    <guid isPermaLink="false">polytab:shelf:30446</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Concern Worldwide UK
+Location: GB, GB
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030446</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Conciliation Resources</title>
+    <link>https://polytab.store/#30447</link>
+    <guid isPermaLink="false">polytab:shelf:30447</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Conciliation Resources
+Location: GB, GB
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030447</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Conciliation Resources Australia</title>
+    <link>https://polytab.store/#30448</link>
+    <guid isPermaLink="false">polytab:shelf:30448</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Conciliation Resources Australia
+Location: AU, AU
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030448</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>CONCORD Sweden</title>
+    <link>https://polytab.store/#30449</link>
+    <guid isPermaLink="false">polytab:shelf:30449</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: CONCORD Sweden
+Location: SE, SE
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030449</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Concordis International</title>
+    <link>https://polytab.store/#30450</link>
+    <guid isPermaLink="false">polytab:shelf:30450</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Concordis International
+Location: GB, GB
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030450</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>CONEXIÓN</title>
+    <link>https://polytab.store/#30451</link>
+    <guid isPermaLink="false">polytab:shelf:30451</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: CONEXIÓN
+Location: BO, BO
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030451</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Congodorpen vzw</title>
+    <link>https://polytab.store/#30452</link>
+    <guid isPermaLink="false">polytab:shelf:30452</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Congodorpen vzw
+Location: BE, BE
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030452</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Conservation Allies</title>
+    <link>https://polytab.store/#20065</link>
+    <guid isPermaLink="false">polytab:shelf:20065</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: IRS Form 990-series filing (tax year 2023) (ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF), tier: official_government_register).
+
+Category: Environmental
+Organization: Conservation Allies
+Location: Herndon, VA, US
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000020065</description>
+    <category>Environmental</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Conservation Celebration</title>
+    <link>https://polytab.store/#20066</link>
+    <guid isPermaLink="false">polytab:shelf:20066</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: IRS Form 990-series filing (tax year 2023) (ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF), tier: official_government_register).
+
+Category: Environmental
+Organization: Conservation Celebration
+Location: San Antonio, TX, US
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000020066</description>
+    <category>Environmental</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Conservation Collective</title>
+    <link>https://polytab.store/#20067</link>
+    <guid isPermaLink="false">polytab:shelf:20067</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: IRS Form 990-series filing (tax year 2022) (ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF), tier: official_government_register).
+
+Category: Environmental
+Organization: Conservation Collective
+Location: Leicester, NC, US
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000020067</description>
+    <category>Environmental</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Conservation Congress</title>
+    <link>https://polytab.store/#20068</link>
+    <guid isPermaLink="false">polytab:shelf:20068</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: IRS Form 990-series filing (tax year 2023) (ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF), tier: official_government_register).
+
+Category: Environmental
+Organization: Conservation Congress
+Location: Great Falls, MT, US
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000020068</description>
+    <category>Environmental</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Conservation Consultants</title>
+    <link>https://polytab.store/#20069</link>
+    <guid isPermaLink="false">polytab:shelf:20069</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: IRS Form 990-series filing (tax year 2020) (ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF), tier: official_government_register).
+
+Category: Environmental
+Organization: Conservation Consultants
+Location: Pittsburgh, PA, US
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000020069</description>
+    <category>Environmental</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Conservation Foundation</title>
+    <link>https://polytab.store/#20070</link>
+    <guid isPermaLink="false">polytab:shelf:20070</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: IRS Form 990-series filing (tax year 2023) (ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF), tier: official_government_register).
+
+Category: Environmental
+Organization: Conservation Foundation
+Location: Naperville, IL, US
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000020070</description>
+    <category>Environmental</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Conservation International Foundation</title>
+    <link>https://polytab.store/#20071</link>
+    <guid isPermaLink="false">polytab:shelf:20071</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Environmental
+Organization: Conservation International Foundation
+Location: US, US
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000020071</description>
+    <category>Environmental</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Conservation Legacy</title>
+    <link>https://polytab.store/#20072</link>
+    <guid isPermaLink="false">polytab:shelf:20072</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: IRS Form 990-series filing (tax year 2023) (ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF), tier: official_government_register).
+
+Category: Environmental
+Organization: Conservation Legacy
+Location: Durango, CO, US
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000020072</description>
+    <category>Environmental</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Conservation Minnesota</title>
+    <link>https://polytab.store/#20073</link>
+    <guid isPermaLink="false">polytab:shelf:20073</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: IRS Form 990-series filing (tax year 2023) (ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF), tier: official_government_register).
+
+Category: Environmental
+Organization: Conservation Minnesota
+Location: Minneapolis, MN, US
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000020073</description>
+    <category>Environmental</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Conservation Nation</title>
+    <link>https://polytab.store/#20074</link>
+    <guid isPermaLink="false">polytab:shelf:20074</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: IRS Form 990-series filing (tax year 2023) (ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF), tier: official_government_register).
+
+Category: Environmental
+Organization: Conservation Nation
+Location: Washington, DC, US
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000020074</description>
+    <category>Environmental</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Conservation Nebraska</title>
+    <link>https://polytab.store/#20075</link>
+    <guid isPermaLink="false">polytab:shelf:20075</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: IRS Form 990-series filing (tax year 2023) (ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF), tier: official_government_register).
+
+Category: Environmental
+Organization: Conservation Nebraska
+Location: Lincoln, NE, US
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000020075</description>
+    <category>Environmental</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Conservation Nw</title>
+    <link>https://polytab.store/#20076</link>
+    <guid isPermaLink="false">polytab:shelf:20076</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: IRS Form 990-series filing (tax year 2024) (ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF), tier: official_government_register).
+
+Category: Environmental
+Organization: Conservation Nw
+Location: Seattle, WA, US
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000020076</description>
+    <category>Environmental</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Consortium of Reproductive Health Associations (CORHA)</title>
+    <link>https://polytab.store/#10093</link>
+    <guid isPermaLink="false">polytab:shelf:10093</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Accessibility &amp; Universal Design
+Organization: Consortium of Reproductive Health Associations (CORHA)
+Location: ET, ET
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000010093</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Construction Sector Transparency Initiative (CoST)</title>
+    <link>https://polytab.store/#30453</link>
+    <guid isPermaLink="false">polytab:shelf:30453</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Construction Sector Transparency Initiative (CoST)
+Location: Global
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030453</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Cord Global</title>
+    <link>https://polytab.store/#30454</link>
+    <guid isPermaLink="false">polytab:shelf:30454</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Cord Global
+Location: GB, GB
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030454</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Cordaid</title>
+    <link>https://polytab.store/#30455</link>
+    <guid isPermaLink="false">polytab:shelf:30455</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Cordaid
+Location: NL, NL
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030455</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Corporación de Apoyo a Comunidades Populares</title>
+    <link>https://polytab.store/#30456</link>
+    <guid isPermaLink="false">polytab:shelf:30456</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Corporación de Apoyo a Comunidades Populares
+Location: CO, CO
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030456</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Corus International</title>
+    <link>https://polytab.store/#30457</link>
+    <guid isPermaLink="false">polytab:shelf:30457</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Corus International
+Location: US, US
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030457</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Cowater International Inc</title>
+    <link>https://polytab.store/#20077</link>
+    <guid isPermaLink="false">polytab:shelf:20077</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Environmental
+Organization: Cowater International Inc
+Location: CA, CA
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000020077</description>
+    <category>Environmental</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Cowater UK Limited</title>
+    <link>https://polytab.store/#20078</link>
+    <guid isPermaLink="false">polytab:shelf:20078</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Environmental
+Organization: Cowater UK Limited
+Location: GB, GB
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000020078</description>
+    <category>Environmental</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>COWI</title>
+    <link>https://polytab.store/#30458</link>
+    <guid isPermaLink="false">polytab:shelf:30458</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: COWI
+Location: DK, DK
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030458</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>CRANE</title>
+    <link>https://polytab.store/#30459</link>
+    <guid isPermaLink="false">polytab:shelf:30459</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: CRANE
+Location: UG, UG
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030459</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>CREA</title>
+    <link>https://polytab.store/#30460</link>
+    <guid isPermaLink="false">polytab:shelf:30460</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: CREA
+Location: IN, IN
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030460</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Croix-Rouge de Belgique Communauté francophone - Activités internationales ASBL</title>
+    <link>https://polytab.store/#30461</link>
+    <guid isPermaLink="false">polytab:shelf:30461</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Croix-Rouge de Belgique Communauté francophone - Activités internationales ASBL
+Location: BE, BE
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030461</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Ecolife Conservation</title>
+    <link>https://polytab.store/#20079</link>
+    <guid isPermaLink="false">polytab:shelf:20079</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: IRS Form 990-series filing (tax year 2023) (ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF), tier: official_government_register).
+
+Category: Environmental
+Organization: Ecolife Conservation
+Location: Carlsbad, CA, US
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000020079</description>
+    <category>Environmental</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Fundacja im. Kazimierza Pułaskiego (Casimir Pulaski Foundation)</title>
+    <link>https://polytab.store/#30462</link>
+    <guid isPermaLink="false">polytab:shelf:30462</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Fundacja im. Kazimierza Pułaskiego (Casimir Pulaski Foundation)
+Location: PL, PL
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030462</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Global Conservation</title>
+    <link>https://polytab.store/#20080</link>
+    <guid isPermaLink="false">polytab:shelf:20080</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: IRS Form 990-series filing (tax year 2023) (ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF), tier: official_government_register).
+
+Category: Environmental
+Organization: Global Conservation
+Location: Portola Vally, CA, US
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000020080</description>
+    <category>Environmental</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>International Crisis Group</title>
+    <link>https://polytab.store/#30463</link>
+    <guid isPermaLink="false">polytab:shelf:30463</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: International Crisis Group
+Location: BE, BE
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030463</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>International Potato Center</title>
+    <link>https://polytab.store/#30464</link>
+    <guid isPermaLink="false">polytab:shelf:30464</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: International Potato Center
+Location: PE, PE
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030464</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Island Conservation</title>
+    <link>https://polytab.store/#20081</link>
+    <guid isPermaLink="false">polytab:shelf:20081</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: IRS Form 990-series filing (tax year 2023) (ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF), tier: official_government_register).
+
+Category: Environmental
+Organization: Island Conservation
+Location: Santa Cruz, CA, US
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000020081</description>
+    <category>Environmental</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Larkspur Conservation</title>
+    <link>https://polytab.store/#20082</link>
+    <guid isPermaLink="false">polytab:shelf:20082</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: IRS Form 990-series filing (tax year 2023) (ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF), tier: official_government_register).
+
+Category: Environmental
+Organization: Larkspur Conservation
+Location: Nashville, TN, US
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000020082</description>
+    <category>Environmental</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Lookfar Conservation</title>
+    <link>https://polytab.store/#20083</link>
+    <guid isPermaLink="false">polytab:shelf:20083</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: IRS Form 990-series filing (tax year 2023) (ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF), tier: official_government_register).
+
+Category: Environmental
+Organization: Lookfar Conservation
+Location: Glencoe, IL, US
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000020083</description>
+    <category>Environmental</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Red Cross Red Crescent Climate Centre</title>
+    <link>https://polytab.store/#20084</link>
+    <guid isPermaLink="false">polytab:shelf:20084</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Environmental
+Organization: Red Cross Red Crescent Climate Centre
+Location: NL, NL
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000020084</description>
+    <category>Environmental</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Stichting Nederlands Instituut voor Internationale Betrekkingen &apos;Clingendael&apos;</title>
+    <link>https://polytab.store/#30465</link>
+    <guid isPermaLink="false">polytab:shelf:30465</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Stichting Nederlands Instituut voor Internationale Betrekkingen &apos;Clingendael&apos;
+Location: NL, NL
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030465</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Sustainable Conservation</title>
+    <link>https://polytab.store/#20085</link>
+    <guid isPermaLink="false">polytab:shelf:20085</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: IRS Form 990-series filing (tax year 2023) (ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF), tier: official_government_register).
+
+Category: Environmental
+Organization: Sustainable Conservation
+Location: San Francisco, CA, US
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000020085</description>
+    <category>Environmental</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>THE CENTRE FOR COUNSELLING, NUTRITION AND HEALTH CARE</title>
+    <link>https://polytab.store/#10094</link>
+    <guid isPermaLink="false">polytab:shelf:10094</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Accessibility &amp; Universal Design
+Organization: THE CENTRE FOR COUNSELLING, NUTRITION AND HEALTH CARE
+Location: TZ, TZ
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000010094</description>
+    <category>Accessibility &amp; Universal Design</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>The Climate Change Organisation</title>
+    <link>https://polytab.store/#20086</link>
+    <guid isPermaLink="false">polytab:shelf:20086</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Environmental
+Organization: The Climate Change Organisation
+Location: GB, GB
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000020086</description>
+    <category>Environmental</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>The Commonwealth Secretariat</title>
+    <link>https://polytab.store/#30466</link>
+    <guid isPermaLink="false">polytab:shelf:30466</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: The Commonwealth Secretariat
+Location: Global
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030466</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Thrive Conservation</title>
+    <link>https://polytab.store/#20087</link>
+    <guid isPermaLink="false">polytab:shelf:20087</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: IRS Form 990-series filing (tax year 2023) (ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF), tier: official_government_register).
+
+Category: Environmental
+Organization: Thrive Conservation
+Location: Sacramento, CA, US
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000020087</description>
+    <category>Environmental</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Tompkins Conservation</title>
+    <link>https://polytab.store/#20088</link>
+    <guid isPermaLink="false">polytab:shelf:20088</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: IRS Form 990-series filing (tax year 2023) (ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF), tier: official_government_register).
+
+Category: Environmental
+Organization: Tompkins Conservation
+Location: San Francisco, CA, US
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000020088</description>
+    <category>Environmental</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Trossamfundet Svenska kyrkan</title>
+    <link>https://polytab.store/#30467</link>
+    <guid isPermaLink="false">polytab:shelf:30467</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Trossamfundet Svenska kyrkan
+Location: SE, SE
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030467</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Universidad Cientifica del Sur</title>
+    <link>https://polytab.store/#30468</link>
+    <guid isPermaLink="false">polytab:shelf:30468</guid>
+    <description>What is broken: Community needs require trusted support.
+What will be done: Fund this organization’s verified mission.
+Proof: Registered IATI publisher/organisation record linked to official reporting (IATI open data) (IATI Registry (International Aid Transparency Initiative publishers), tier: transnational_vetted).
+
+Category: Civic Tech
+Organization: Universidad Cientifica del Sur
+Location: PE, PE
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000030468</description>
+    <category>Civic Tech</category>
+    <pubDate>Thu, 12 Nov 2026 08:16:06 GMT</pubDate>
     <georss:point>0.00 0.00</georss:point>
   </item>
   </channel>
