@@ -1225,6 +1225,37 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           card.appendChild(bottomDiv);
           grid.appendChild(card);
         });
+        if (pager) {
+          const totalPages2 = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+          if (totalPages2 > 1) {
+            const makeBtn = (label, target, disabled, active) => {
+              const b = document.createElement("button");
+              b.type = "button";
+              b.textContent = label;
+              b.disabled = !!disabled;
+              b.className = active
+                ? "px-3 py-1.5 rounded-lg text-xs font-bold bg-purple-700 text-white hc-btn"
+                : "px-3 py-1.5 rounded-lg text-xs font-medium bg-black hover:bg-zinc-800 text-zinc-300 border border-zinc-800 transition disabled:opacity-40 disabled:cursor-not-allowed";
+              b.setAttribute("aria-label", typeof label === "string" ? label : "Page");
+              if (!disabled) b.addEventListener("click", () => { state.page = target; renderProposalsGrid(); const f = document.getElementById("proposalsFrame"); if (f) f.scrollIntoView({behavior:"smooth", block:"start"}); });
+              return b;
+            };
+            pager.appendChild(makeBtn("Prev", state.page - 1, state.page <= 1, false));
+            const windowSize = 5;
+            let sP = Math.max(1, state.page - Math.floor(windowSize / 2));
+            let eP = Math.min(totalPages2, sP + windowSize - 1);
+            if (eP - sP + 1 < windowSize) sP = Math.max(1, eP - windowSize + 1);
+            const addDots = () => { const d=document.createElement("span"); d.className="text-zinc-600 px-1 text-xs"; d.textContent="…"; pager.appendChild(d); };
+            if (sP > 1) { pager.appendChild(makeBtn("1", 1, false, state.page === 1)); if (sP > 2) addDots(); }
+            for (let p = sP; p <= eP; p++) { pager.appendChild(makeBtn(String(p), p, false, state.page === p)); }
+            if (eP < totalPages2) { if (eP < totalPages2 - 1) addDots(); pager.appendChild(makeBtn(String(totalPages2), totalPages2, false, state.page === totalPages2)); }
+            pager.appendChild(makeBtn("Next", state.page + 1, state.page >= totalPages2, false));
+            const info = document.createElement("span");
+            info.className = "text-[11px] text-zinc-400 font-mono px-2";
+            info.textContent = "Page " + state.page + " of " + totalPages2 + " (" + filtered.length + " bounties)";
+            pager.appendChild(info);
+          }
+        }
       }
       function openActionModal(proposal) {
         state.activeModalProposal = proposal;
