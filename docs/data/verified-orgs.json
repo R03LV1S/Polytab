@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "updated_at": "2026-11-12T00:28:21.055Z",
+  "updated_at": "2026-11-12T00:36:19.503Z",
   "description": "Polytab verified charity master list. Captured from free public sources (ProPublica Nonprofit Explorer / IRS filings). Evidence-backed; no fabricated ratings. No coordinates or personal data.",
   "counts": {
-    "total": 68
+    "total": 72
   },
   "progress": {
     "query_index": 2,
@@ -14,16 +14,43 @@
     },
     "us_pages": {
       "children disability": 0,
-      "pediatric cancer": 1
+      "pediatric cancer": 1,
+      "disaster relief": 1
     },
-    "us_q": 2,
-    "uk_t": 2,
-    "ca_url": 1,
-    "au_row": 300,
+    "us_q": 3,
+    "uk_t": 3,
+    "ca_url": 0,
+    "au_row": 450,
     "au_url": 0,
-    "nz_url": 1
+    "nz_url": 0
   },
   "orgs": [
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "273770228",
+      "ein": "273770228",
+      "name": "Aba Disaster Relief",
+      "city": "Winter Haven",
+      "state": "FL",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/273770228",
+        "evidence": "IRS Form 990-series filing (tax year 2018)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2018,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=05_2019_prefixes_27-27%2F273770228_201812_990_2019052116323174.pdf",
+        "total_revenue": 123487,
+        "total_expenses": 172156
+      },
+      "captured_at": "2026-11-12T00:36:01.716Z"
+    },
     {
       "ein": "853447057",
       "name": "Aiden Snyder Pediatric Brain Cancer Charity Inc",
@@ -789,6 +816,32 @@
       "captured_at": "2026-11-11T23:13:35.610Z"
     },
     {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "473837240",
+      "ein": "473837240",
+      "name": "Comprehensive Disaster Relief",
+      "city": "Millsboro",
+      "state": "DE",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/473837240",
+        "evidence": "IRS Form 990-series filing (tax year 2020)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2020,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_10_2022_prefixes_47-51%2F473837240_202012_990_2022102520545006.pdf",
+        "total_revenue": 1403872,
+        "total_expenses": 882758
+      },
+      "captured_at": "2026-11-12T00:36:00.007Z"
+    },
+    {
       "ein": "200746202",
       "name": "Courtney Boynton Pediatric Cancer Foundation Inc",
       "city": "Orlando",
@@ -978,6 +1031,32 @@
         "total_expenses": 241178
       },
       "captured_at": "2026-11-12T00:28:09.255Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "851890487",
+      "ein": "851890487",
+      "name": "Flex Disaster Relief",
+      "city": "Spring",
+      "state": "TX",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/851890487",
+        "evidence": "IRS Form 990-series filing (tax year 2020)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2020,
+        "form_type": "1",
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=08_2021_prefixes_83-91%2F851890487_202012_990EZ_2021080518685821.pdf",
+        "total_revenue": 0,
+        "total_expenses": 0
+      },
+      "captured_at": "2026-11-12T00:36:04.299Z"
     },
     {
       "ein": "42156082",
@@ -1195,6 +1274,32 @@
         "is_501c3": true
       },
       "captured_at": "2026-11-11T23:13:45.993Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "611958893",
+      "ein": "611958893",
+      "name": "Liberty Disaster Relief",
+      "city": "Liberty",
+      "state": "MO",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/611958893",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": "1",
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F611958893_202312_990EZ_2024070222644178.pdf",
+        "total_revenue": 141995,
+        "total_expenses": 139301
+      },
+      "captured_at": "2026-11-12T00:36:01.274Z"
     },
     {
       "ein": "364431739",
@@ -2173,27 +2278,27 @@
   ],
   "sources": {
     "US_IRS_ProPublica": {
-      "last_run": "2026-11-12T00:28:11.693Z",
-      "last_added": 13,
-      "last_fetched": 13
+      "last_run": "2026-11-12T00:36:09.595Z",
+      "last_added": 4,
+      "last_fetched": 4
     },
     "UK_CharityCommission": {
-      "last_run": "2026-11-12T00:28:13.220Z",
+      "last_run": "2026-11-12T00:36:11.218Z",
       "last_added": 0,
       "last_fetched": 0
     },
     "CA_CRA_Charities": {
-      "last_run": "2026-11-12T00:28:14.319Z",
+      "last_run": "2026-11-12T00:36:12.348Z",
       "last_added": 0,
       "last_fetched": 0
     },
     "AU_ACNC": {
-      "last_run": "2026-11-12T00:28:16.896Z",
+      "last_run": "2026-11-12T00:36:15.582Z",
       "last_added": 0,
       "last_fetched": 0
     },
     "NZ_Charities": {
-      "last_run": "2026-11-12T00:28:21.048Z",
+      "last_run": "2026-11-12T00:36:19.498Z",
       "last_added": 0,
       "last_fetched": 0
     }
