@@ -207,19 +207,22 @@
 
     <section id="tab-shelf" class="tab-panel space-y-6">
       <div class="bg-zinc-900/50 border border-zinc-800 p-4 rounded-2xl hc-card">
-        <div class="flex flex-col lg:flex-row lg:items-start gap-4">
+        <div class="flex flex-col lg:flex-row lg:items-stretch gap-4">
           <div id="categoryFilterBar" class="flex-1 flex flex-col gap-3 min-w-0" role="group" aria-label="Filter by category"></div>
-          <div class="lg:w-56 shrink-0 bg-black/30 border border-zinc-800 rounded-xl p-3 flex flex-col gap-2">
-            <label for="searchInput" class="sr-only">Search bounties</label>
-            <input id="searchInput" type="search" placeholder="Search Bounties"
-              class="bg-black border border-zinc-700 focus:border-yellow-500 rounded-xl px-3.5 py-2 text-xs text-white placeholder-slate-500 outline-none w-full" />
-            <label for="statusFilter" class="sr-only">Filter by status</label>
-            <select id="statusFilter" class="bg-black border border-zinc-700 focus:border-yellow-500 rounded-xl px-3 py-2 text-xs text-white outline-none w-full">
-              <option value="ALL">All Statuses</option>
-              <option value="Active">Active Funding</option>
-              <option value="In Review (48h Lock)">In 48h Proof Review</option>
-              <option value="Funded">Funded / Disbursed</option>
-            </select>
+          <div class="lg:w-64 shrink-0 flex">
+            <div class="w-full h-full bg-zinc-950/70 border border-zinc-700 rounded-xl p-3 flex flex-col gap-2 justify-start">
+              <div class="text-[10px] font-mono uppercase tracking-wider text-zinc-500">Quick Filters</div>
+              <label for="searchInput" class="sr-only">Search bounties</label>
+              <input id="searchInput" type="search" placeholder="Search Bounties"
+                class="bg-black border border-zinc-700 focus:border-yellow-500 rounded-xl px-3.5 py-2 text-xs text-white placeholder-slate-500 outline-none w-full" />
+              <label for="statusFilter" class="sr-only">Filter by status</label>
+              <select id="statusFilter" class="bg-black border border-zinc-700 focus:border-yellow-500 rounded-xl px-3 py-2 text-xs text-white outline-none w-full">
+                <option value="ALL">All Statuses</option>
+                <option value="Active">Active Funding</option>
+                <option value="In Review (48h Lock)">In 48h Proof Review</option>
+                <option value="Funded">Funded / Disbursed</option>
+              </select>
+            </div>
           </div>
         </div>
       </div>
