@@ -967,27 +967,16 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           return btn;
         };
 
-        // "All Categories" and parent toggles (top of box) with hide-able sub-sections beneath (compact layout)
+        // Parent toggles (top of box) with hide-able sub-sections beneath (compact layout)
         const topSection = document.createElement("div");
         topSection.className = "w-full flex flex-col gap-2";
 
         const mainRow = document.createElement("div");
         mainRow.className = "w-full flex flex-wrap items-center gap-2";
-        mainRow.appendChild(mkBtn("ALL", "All Categories", () => {
-          PARENTS.forEach((p) => { state.expandedParents[p] = false; });
-          state.selectedCategory = "ALL";
-          renderCategoryPills();
-          renderProposalsGrid();
-        }));
-
-        const sep = document.createElement("span");
-        sep.className = "hidden sm:inline text-zinc-700 text-xs px-1";
-        sep.textContent = "|";
-        mainRow.appendChild(sep);
 
         PARENTS.forEach((parent) => {
           const expanded = !!state.expandedParents[parent];
-          const parentActive = state.selectedCategory === parent || (state.selectedCategory !== "ALL" && (PARENT_CATEGORIES[parent] || []).includes(state.selectedCategory));
+          const parentActive = state.selectedCategory === parent || ((PARENT_CATEGORIES[parent] || []).includes(state.selectedCategory));
           const pbtn = document.createElement("button");
           pbtn.type = "button";
           pbtn.className = btnClass(parentActive);
