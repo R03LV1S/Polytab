@@ -207,14 +207,15 @@
 
     <section id="tab-shelf" class="tab-panel space-y-6">
       <div class="bg-zinc-900/50 border border-zinc-800 p-4 rounded-2xl space-y-4 hc-card">
-        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
-          <div id="categoryFilterBar" class="flex flex-wrap gap-1.5" role="group" aria-label="Filter by category"></div>
-          <div class="flex items-center space-x-2 shrink-0">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div class="flex items-center gap-2 flex-1">
             <label for="searchInput" class="sr-only">Search action items</label>
             <input id="searchInput" type="search" placeholder="Search potholes, ramps, bleachers..."
-              class="bg-black border border-zinc-700 focus:border-yellow-500 rounded-xl px-3.5 py-2 text-xs text-white placeholder-slate-500 outline-none w-56" />
+              class="bg-black border border-zinc-700 focus:border-yellow-500 rounded-xl px-3.5 py-2 text-xs text-white placeholder-slate-500 outline-none w-full sm:w-72" />
+          </div>
+          <div class="shrink-0">
             <label for="statusFilter" class="sr-only">Filter by status</label>
-            <select id="statusFilter" class="bg-black border border-zinc-700 focus:border-yellow-500 rounded-xl px-3 py-2 text-xs text-white outline-none">
+            <select id="statusFilter" class="bg-black border border-zinc-700 focus:border-yellow-500 rounded-xl px-3 py-2 text-xs text-white outline-none w-full sm:w-auto">
               <option value="ALL">All Statuses</option>
               <option value="Active">Active Funding</option>
               <option value="In Review (48h Lock)">In 48h Proof Review</option>
@@ -222,6 +223,7 @@
             </select>
           </div>
         </div>
+        <div id="categoryFilterBar" class="flex flex-col gap-3" role="group" aria-label="Filter by category"></div>
       </div>
       <div id="proposalsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" aria-live="polite"></div>
     </section>
@@ -694,7 +696,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         }
         renderProposalsGrid();
       }
-      let state = { proposals: [], markets: [], selectedCategory: PARENT_CHARITIES, selectedStatus: "ALL", searchQuery: "", plainLanguageMode: false, highContrastMode: false, liteMode: false, connectedAddress: null, socialHandle: localStorage.getItem("polytab_handle") || "", activeModalProposal: null, mapInstance: null, expandedParents: { [PARENT_CHARITIES]: true, [PARENT_SPECULATIVE]: false, [PARENT_VOTING]: false }, endorsements: loadEndorsements(), verifiedEndorsements: null, endorsementsSnapshotStatus: "loading" };
+      let state = { proposals: [], markets: [], selectedCategory: PARENT_CHARITIES, selectedStatus: "ALL", searchQuery: "", plainLanguageMode: false, highContrastMode: false, liteMode: false, connectedAddress: null, socialHandle: localStorage.getItem("polytab_handle") || "", activeModalProposal: null, mapInstance: null, expandedParents: { [PARENT_CHARITIES]: true, [PARENT_SPECULATIVE]: false, [PARENT_VOTING]: false }, showAllCategoriesSection: true, endorsements: loadEndorsements(), verifiedEndorsements: null, endorsementsSnapshotStatus: "loading" };
       function isValidAddress(addr) { return /^0x[a-fA-F0-9]{40}$/.test(String(addr || "").trim()); }
       function isValidTxHash(hash) { return /^0x[a-fA-F0-9]{64}$/.test(String(hash || "").trim()); }
       async function loadFeedState() {
@@ -963,51 +965,74 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           return btn;
         };
 
-        // Centered "All Categories"
-        const allRow = document.createElement("div");
-        allRow.className = "w-full flex justify-center";
-        allRow.appendChild(mkBtn("ALL", "All Categories", () => {
-          state.selectedCategory = "ALL";
-          renderCategoryPills();
-          renderProposalsGrid();
-        }));
-        bar.appendChild(allRow);
-
-        // Centered parent toggles: Charities, Speculative, Voting
-        const toggleRow = document.createElement("div");
-        toggleRow.className = "w-full flex justify-center items-center gap-2 flex-wrap";
-        PARENTS.forEach((parent) => {
-          const expanded = !!state.expandedParents[parent];
-          const parentActive = state.selectedCategory === parent || (state.selectedCategory !== "ALL" && (PARENT_CATEGORIES[parent] || []).includes(state.selectedCategory));
-          const pbtn = document.createElement("button");
-          pbtn.type = "button";
-          pbtn.className = btnClass(parentActive);
-          pbtn.setAttribute("aria-pressed", String(parentActive));
-          pbtn.setAttribute("aria-expanded", String(expanded));
-          pbtn.textContent = (expanded ? "▾ " : "▸ ") + parent;
-          pbtn.addEventListener("click", () => {
-            // Compartmentalized: select parent -> show only its sub-sections and only its projects
-            PARENTS.forEach((p) => { state.expandedParents[p] = (p === parent); });
-            state.selectedCategory = parent;
+        // Section 1 (hide-able): "All Categories"
+        const allSection = document.createElement("div");
+        allSection.className = "w-full flex flex-col items-center gap-2";
+        const allHeader = document.createElement("button");
+        allHeader.type = "button";
+        const allShown = !!state.showAllCategoriesSection;
+        allHeader.className = "text-[11px] font-mono uppercase tracking-wider text-zinc-400 hover:text-white transition";
+        allHeader.setAttribute("aria-expanded", String(allShown));
+        allHeader.textContent = (allShown ? "▾ " : "▸ ") + "Categories";
+        allHeader.addEventListener("click", () => { state.showAllCategoriesSection = !state.showAllCategoriesSection; renderCategoryPills(); });
+        allSection.appendChild(allHeader);
+        if (allShown) {
+          const allRow = document.createElement("div");
+          allRow.className = "w-full flex justify-center";
+          allRow.appendChild(mkBtn("ALL", "All Categories", () => {
+            PARENTS.forEach((p) => { state.expandedParents[p] = false; });
+            state.selectedCategory = "ALL";
             renderCategoryPills();
             renderProposalsGrid();
-          });
-          toggleRow.appendChild(pbtn);
-        });
-        bar.appendChild(toggleRow);
+          }));
+          allSection.appendChild(allRow);
 
-        // Sub-sections displayed underneath the toggle row for the active/expanded parent
-        const activeParent = PARENTS.find((p) => state.expandedParents[p]) || null;
-        if (activeParent) {
-          const cats = PARENT_CATEGORIES[activeParent] || [];
-          const subRow = document.createElement("div");
-          subRow.className = "w-full flex justify-center items-center gap-1.5 flex-wrap pt-1";
-          subRow.appendChild(mkBtn(activeParent, "All " + activeParent, () => { state.selectedCategory = activeParent; renderCategoryPills(); renderProposalsGrid(); }));
-          cats.forEach((c) => {
-            subRow.appendChild(mkBtn(c, c, () => { state.selectedCategory = c; renderCategoryPills(); renderProposalsGrid(); }));
+          // Section 2 (centered parent toggles)
+          const toggleRow = document.createElement("div");
+          toggleRow.className = "w-full flex justify-center items-center gap-2 flex-wrap";
+          PARENTS.forEach((parent) => {
+            const expanded = !!state.expandedParents[parent];
+            const parentActive = state.selectedCategory === parent || (state.selectedCategory !== "ALL" && (PARENT_CATEGORIES[parent] || []).includes(state.selectedCategory));
+            const pbtn = document.createElement("button");
+            pbtn.type = "button";
+            pbtn.className = btnClass(parentActive);
+            pbtn.setAttribute("aria-pressed", String(parentActive));
+            pbtn.setAttribute("aria-expanded", String(expanded));
+            pbtn.textContent = (expanded ? "▾ " : "▸ ") + parent;
+            pbtn.addEventListener("click", () => {
+              // Compartmentalized: selecting a parent shows only its sub-sections and only its projects.
+              // Clicking the already-expanded active parent hides its sub-sections (hide-able).
+              const isActiveExpanded = state.expandedParents[parent] && (state.selectedCategory === parent || (PARENT_CATEGORIES[parent] || []).includes(state.selectedCategory));
+              if (isActiveExpanded) {
+                state.expandedParents[parent] = false;
+              } else {
+                PARENTS.forEach((p) => { state.expandedParents[p] = (p === parent); });
+                state.selectedCategory = parent;
+              }
+              renderCategoryPills();
+              renderProposalsGrid();
+            });
+            toggleRow.appendChild(pbtn);
           });
-          bar.appendChild(subRow);
+          allSection.appendChild(toggleRow);
+
+          // Section 3 (sub-sections / sub-sub sections for expanded parent, hide-able)
+          PARENTS.forEach((parent) => {
+            if (!state.expandedParents[parent]) return;
+            const cats = PARENT_CATEGORIES[parent] || [];
+            const subWrap = document.createElement("div");
+            subWrap.className = "w-full flex flex-col items-center gap-1.5 pt-1";
+            const subRow = document.createElement("div");
+            subRow.className = "w-full flex justify-center items-center gap-1.5 flex-wrap";
+            subRow.appendChild(mkBtn(parent, "All " + parent, () => { state.selectedCategory = parent; renderCategoryPills(); renderProposalsGrid(); }));
+            cats.forEach((c) => {
+              subRow.appendChild(mkBtn(c, c, () => { state.selectedCategory = c; renderCategoryPills(); renderProposalsGrid(); }));
+            });
+            subWrap.appendChild(subRow);
+            allSection.appendChild(subWrap);
+          });
         }
+        bar.appendChild(allSection);
 
         const hint = document.createElement("p");
         hint.className = "w-full text-center text-[10px] text-zinc-500 mt-1";
