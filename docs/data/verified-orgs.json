@@ -1,10 +1,9 @@
 {
-  "version": 1,
-  "updated_at": "2026-11-11T23:14:07.053Z",
+  "version": 2,
+  "updated_at": "2026-11-12T00:28:21.055Z",
   "description": "Polytab verified charity master list. Captured from free public sources (ProPublica Nonprofit Explorer / IRS filings). Evidence-backed; no fabricated ratings. No coordinates or personal data.",
   "counts": {
-    "total": 54,
-    "with_recent_filing": 54
+    "total": 68
   },
   "progress": {
     "query_index": 2,
@@ -12,7 +11,17 @@
       "children disability": 0,
       "pediatric cancer": 0,
       "children hospital": 1
-    }
+    },
+    "us_pages": {
+      "children disability": 0,
+      "pediatric cancer": 1
+    },
+    "us_q": 2,
+    "uk_t": 2,
+    "ca_url": 1,
+    "au_row": 300,
+    "au_url": 0,
+    "nz_url": 1
   },
   "orgs": [
     {
@@ -115,6 +124,32 @@
       "captured_at": "2026-11-11T23:13:23.838Z"
     },
     {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "300633490",
+      "ein": "300633490",
+      "name": "Ashleycan Pediatric Cancer Foundation",
+      "city": "Bourbonnais",
+      "state": "IL",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/300633490",
+        "evidence": "IRS Form 990-series filing (tax year 2018)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2018,
+        "form_type": "1",
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=08_2020_prefixes_27-34%2F300633490_201812_990EZ_2020083117270684.pdf",
+        "total_revenue": 26832,
+        "total_expenses": 25874
+      },
+      "captured_at": "2026-11-12T00:28:04.755Z"
+    },
+    {
       "ein": "363874655",
       "name": "Bear Necessities Pediatric Cancer Foundation",
       "city": "Chicago",
@@ -146,6 +181,32 @@
         "is_501c3": true
       },
       "captured_at": "2026-11-11T23:13:26.831Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "363874655",
+      "ein": "363874655",
+      "name": "Bear Necessities Pediatric Cancer Foundation",
+      "city": "Chicago",
+      "state": "IL",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/363874655",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_02_2024_prefixes_31-38%2F363874655_202306_990_2024020822282287.pdf",
+        "total_revenue": 1735462,
+        "total_expenses": 1413781
+      },
+      "captured_at": "2026-11-12T00:28:07.644Z"
     },
     {
       "ein": "131739922",
@@ -214,6 +275,32 @@
       "captured_at": "2026-11-11T23:13:25.969Z"
     },
     {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "300087852",
+      "ein": "300087852",
+      "name": "Cancer Free Kids Pediatric Cancer Research Alliance",
+      "city": "Cincinnati",
+      "state": "OH",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/300087852",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F300087852_202312_990_2025020323066005.pdf",
+        "total_revenue": 2392346,
+        "total_expenses": 2358490
+      },
+      "captured_at": "2026-11-12T00:28:06.824Z"
+    },
+    {
       "ein": "231409677",
       "name": "Children And Adult Disability And Educational Services",
       "city": "Swarthmore",
@@ -245,6 +332,32 @@
         "is_501c3": true
       },
       "captured_at": "2026-11-11T23:13:18.104Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "231409677",
+      "ein": "231409677",
+      "name": "Children And Adult Disability And Educational Services",
+      "city": "Swarthmore",
+      "state": "PA",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/231409677",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_02_2024_prefixes_22-25%2F231409677_202306_990_2024022022292541.pdf",
+        "total_revenue": 35914257,
+        "total_expenses": 32619893
+      },
+      "captured_at": "2026-11-12T00:24:49.595Z"
     },
     {
       "ein": "310537130",
@@ -841,6 +954,32 @@
       "captured_at": "2026-11-11T23:13:28.353Z"
     },
     {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "843110599",
+      "ein": "843110599",
+      "name": "Enzo & Me Pediatric Cancer Foundation",
+      "city": "San Ramon",
+      "state": "CA",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/843110599",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F843110599_202312_990_2025020623078568.pdf",
+        "total_revenue": 204230,
+        "total_expenses": 241178
+      },
+      "captured_at": "2026-11-12T00:28:09.255Z"
+    },
+    {
       "ein": "42156082",
       "name": "Franciscan Children Hospital",
       "city": "Brighton",
@@ -907,6 +1046,32 @@
       "captured_at": "2026-11-11T23:13:29.180Z"
     },
     {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "825084102",
+      "ein": "825084102",
+      "name": "Hammer Out Pediatric Cancer Corp",
+      "city": "Charleston",
+      "state": "SC",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/825084102",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": "1",
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F825084102_202312_990EZ_2025012223026316.pdf",
+        "total_revenue": 25569,
+        "total_expenses": 27673
+      },
+      "captured_at": "2026-11-12T00:28:10.093Z"
+    },
+    {
       "ein": "844609095",
       "name": "Idaho Pediatric Cancer Coalition Inc",
       "city": "Twin Falls",
@@ -938,6 +1103,32 @@
         "is_501c3": true
       },
       "captured_at": "2026-11-11T23:13:27.978Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "844609095",
+      "ein": "844609095",
+      "name": "Idaho Pediatric Cancer Coalition Inc",
+      "city": "Twin Falls",
+      "state": "ID",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/844609095",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F844609095_202312_990_2024061122513227.pdf",
+        "total_revenue": 311769,
+        "total_expenses": 294944
+      },
+      "captured_at": "2026-11-12T00:28:08.840Z"
     },
     {
       "ein": "271176390",
@@ -1105,6 +1296,32 @@
       "captured_at": "2026-11-11T23:13:23.463Z"
     },
     {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "933170881",
+      "ein": "933170881",
+      "name": "Montana Pediatric Cancer Foundation",
+      "city": "Whitefish",
+      "state": "MT",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/933170881",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": "2",
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F933170881_202312_990PF_2025010222971717.pdf",
+        "total_revenue": 533760,
+        "total_expenses": 470626
+      },
+      "captured_at": "2026-11-12T00:28:04.329Z"
+    },
+    {
       "ein": "593097333",
       "name": "National Pediatric Cancer Foundation Inc",
       "city": "Tampa",
@@ -1136,6 +1353,32 @@
         "is_501c3": true
       },
       "captured_at": "2026-11-11T23:13:26.341Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "593097333",
+      "ein": "593097333",
+      "name": "National Pediatric Cancer Foundation Inc",
+      "city": "Tampa",
+      "state": "FL",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/593097333",
+        "evidence": "IRS Form 990-series filing (tax year 2024)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2024,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F593097333_202406_990_2025021023084107.pdf",
+        "total_revenue": 5010088,
+        "total_expenses": 5075041
+      },
+      "captured_at": "2026-11-12T00:28:07.231Z"
     },
     {
       "ein": "10782751",
@@ -1237,6 +1480,32 @@
       "captured_at": "2026-11-11T23:13:23.084Z"
     },
     {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "464807923",
+      "ein": "464807923",
+      "name": "Pediatric Cancer Action Network",
+      "city": "Lincoln",
+      "state": "NE",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/464807923",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": "1",
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F464807923_202312_990EZ_2024070322652381.pdf",
+        "total_revenue": 63525,
+        "total_expenses": 54480
+      },
+      "captured_at": "2026-11-12T00:28:03.897Z"
+    },
+    {
       "ein": "237161550",
       "name": "Pediatric Cancer Foundation",
       "city": "Purchase",
@@ -1268,6 +1537,32 @@
         "is_501c3": true
       },
       "captured_at": "2026-11-11T23:13:21.102Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "237161550",
+      "ein": "237161550",
+      "name": "Pediatric Cancer Foundation",
+      "city": "Purchase",
+      "state": "NY",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/237161550",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F237161550_202306_990_2024040522346389.pdf",
+        "total_revenue": 3422325,
+        "total_expenses": 2402449
+      },
+      "captured_at": "2026-11-12T00:28:01.792Z"
     },
     {
       "ein": "202297295",
@@ -1334,6 +1629,32 @@
         "is_501c3": true
       },
       "captured_at": "2026-11-11T23:13:22.268Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "953772528",
+      "ein": "953772528",
+      "name": "Pediatric Cancer Research Foundation",
+      "city": "Irvine",
+      "state": "CA",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/953772528",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F953772528_202312_990_2025020323067604.pdf",
+        "total_revenue": 3984492,
+        "total_expenses": 3727170
+      },
+      "captured_at": "2026-11-12T00:28:03.058Z"
     },
     {
       "ein": "208768920",
@@ -1633,6 +1954,32 @@
       "captured_at": "2026-11-11T23:13:27.200Z"
     },
     {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "471955469",
+      "ein": "471955469",
+      "name": "Thinkbig Pediatric Cancer Fund Inc",
+      "city": "Bloomsburg",
+      "state": "PA",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/471955469",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F471955469_202312_990_2025021423098744.pdf",
+        "total_revenue": 276505,
+        "total_expenses": 318191
+      },
+      "captured_at": "2026-11-12T00:28:08.008Z"
+    },
+    {
       "ein": "941294954",
       "name": "Valley Childrens Hospital",
       "city": "Madera",
@@ -1765,6 +2112,32 @@
       "captured_at": "2026-11-11T23:13:22.641Z"
     },
     {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "474894726",
+      "ein": "474894726",
+      "name": "Whip Pediatric Cancer Inc",
+      "city": "Hauppauge",
+      "state": "NY",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/474894726",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": "1",
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F474894726_202312_990EZ_2024070322659539.pdf",
+        "total_revenue": 32708,
+        "total_expenses": 53825
+      },
+      "captured_at": "2026-11-12T00:28:03.484Z"
+    },
+    {
       "ein": "921321678",
       "name": "Will Heidrich Foundation For Pediatric Cancer Research",
       "city": "Cary",
@@ -1797,5 +2170,32 @@
       },
       "captured_at": "2026-11-11T23:13:43.565Z"
     }
-  ]
+  ],
+  "sources": {
+    "US_IRS_ProPublica": {
+      "last_run": "2026-11-12T00:28:11.693Z",
+      "last_added": 13,
+      "last_fetched": 13
+    },
+    "UK_CharityCommission": {
+      "last_run": "2026-11-12T00:28:13.220Z",
+      "last_added": 0,
+      "last_fetched": 0
+    },
+    "CA_CRA_Charities": {
+      "last_run": "2026-11-12T00:28:14.319Z",
+      "last_added": 0,
+      "last_fetched": 0
+    },
+    "AU_ACNC": {
+      "last_run": "2026-11-12T00:28:16.896Z",
+      "last_added": 0,
+      "last_fetched": 0
+    },
+    "NZ_Charities": {
+      "last_run": "2026-11-12T00:28:21.048Z",
+      "last_added": 0,
+      "last_fetched": 0
+    }
+  }
 }
