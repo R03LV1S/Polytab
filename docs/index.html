@@ -210,8 +210,8 @@
       <div class="bg-zinc-900/50 border border-zinc-800 p-4 rounded-2xl hc-card">
         <div class="flex flex-col lg:flex-row lg:items-stretch gap-4">
           <div id="categoryFilterBar" class="flex-1 flex flex-col gap-3 min-w-0" role="group" aria-label="Filter by category"></div>
-          <div class="lg:w-64 shrink-0 flex">
-            <div class="w-full h-full bg-zinc-950/70 border border-zinc-700 rounded-xl p-3 flex flex-col gap-2 justify-start">
+          <div class="shrink-0 flex flex-col sm:flex-row lg:flex-row gap-3 items-stretch">
+            <div class="w-full sm:w-56 lg:w-56 bg-zinc-950/70 border border-zinc-700 rounded-xl p-3 flex flex-col gap-2 justify-start">
               <div class="text-[10px] font-mono uppercase tracking-wider text-zinc-500">Quick Filters</div>
               <label for="searchInput" class="sr-only">Search bounties</label>
               <input id="searchInput" type="search" placeholder="Search Bounties"
@@ -223,6 +223,25 @@
                 <option value="In Review (48h Lock)">In 48h Proof Review</option>
                 <option value="Funded">Funded / Disbursed</option>
               </select>
+            </div>
+            <div class="w-full sm:w-56 lg:w-56 bg-zinc-950/70 border border-zinc-700 rounded-xl p-3 flex flex-col gap-2 justify-start">
+              <div class="text-[10px] font-mono uppercase tracking-wider text-zinc-500">Location & Sort</div>
+              <label for="zipInput" class="sr-only">Zip code for 50 mile radius</label>
+              <input id="zipInput" type="text" inputmode="numeric" maxlength="10" placeholder="Zip Code (50 mi radius)"
+                class="bg-black border border-zinc-700 focus:border-yellow-500 rounded-xl px-3.5 py-2 text-xs text-white placeholder-slate-500 outline-none w-full" />
+              <p id="zipStatus" class="text-[10px] text-zinc-500 leading-snug">Enter a US ZIP code to filter bounties within 50 miles (public lookup).</p>
+              <div class="mt-auto">
+                <label for="sortBySelect" class="block text-[10px] font-mono uppercase tracking-wider text-zinc-500 mb-1">Sort By</label>
+                <select id="sortBySelect" class="bg-black border border-zinc-700 focus:border-yellow-500 rounded-xl px-3 py-2 text-xs text-white outline-none w-full">
+                  <option value="default">Default (Verified Rank)</option>
+                  <option value="most_funded">Most Funded</option>
+                  <option value="most_popular">Most Popular</option>
+                  <option value="most_votes">Most Votes</option>
+                  <option value="closest">Closest Distance</option>
+                  <option value="newest">Newest</option>
+                  <option value="oldest">Oldest</option>
+                </select>
+              </div>
             </div>
           </div>
         </div>
@@ -643,12 +662,12 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       const CATEGORIES = ["ALL"].concat(CHARITY_CATEGORIES).concat(SPECULATIVE_CATEGORIES).concat(VOTING_CATEGORIES);
       const PAGE_SIZE = 6;
       const FALLBACK_PROPOSALS = [
-        { id: "1", title: "Science Lab Wheelchair-Accessible Station & Lowered Bench", parentCategory: "Charities", category: "Accessibility & Universal Design", location: "Science Wing / Room 204", summary: "Retrofit Station #1 in Chemistry Lab B with an adjustable-height ADA workbench, accessible sink controls, and clear knee clearance.", plainSummary: "What is broken: Chemistry lab tables are too high for wheelchair users.\nWhat will be done: Install a height-adjustable lab desk.\nProof: Photo of installed desk co-signed by student accessibility council.", votePriceUSD: 0.50, targetUSD: 65.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000101", status: "Active", lat: null, lng: null, website: null, socials: {} },
-        { id: "2", title: "North Stadium Bleacher Power-Wash & Handrail Repaint", parentCategory: "Charities", category: "Athletics", location: "North Field / Bleachers", summary: "Clear debris under visitor bleachers, pressure-wash aluminum benches, and apply rust-oleate safety yellow paint to stair handrails.", plainSummary: "What is broken: Stadium bleachers are dirty and handrails are rusty.\nWhat will be done: Power-wash seats and paint stair rails bright yellow.\nProof: Before and after photos posted to RSS feed.", votePriceUSD: 0.50, targetUSD: 45.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000102", status: "Active", lat: null, lng: null, website: null, socials: {} },
-        { id: "3", title: "East Entrance Tactile Paving & Curb-Cut Repair", parentCategory: "Charities", category: "Accessibility & Universal Design", location: "East Sidewalk / Bus Drop-off", summary: "Patch cracked concrete lip on the East sidewalk ramp and install high-visibility truncated dome tactile mats for blind and low-vision navigation.", plainSummary: "What is broken: Cracked sidewalk ramp blocks wheelchairs and lacks textured bumps for cane users.\nWhat will be done: Smooth concrete lip and bolt down yellow tactile dome mat.\nProof: Geo-tagged video test.", votePriceUSD: 0.25, targetUSD: 50.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000103", status: "Active", lat: null, lng: null, website: null, socials: {} },
-        { id: "4", title: "Art Studio Sink Trap Cleanout & Brush Restock", parentCategory: "Charities", category: "Classrooms", location: "North Wing / Art Room 108", summary: "Clear clay sediment from dual sink traps and purchase 24 synthetic acrylic brushes for shared student use.", plainSummary: "What is broken: Art room sink drains slowly and shared brushes are worn out.\nWhat will be done: Clean drain trap and buy 24 new brushes.\nProof: Receipt + photo of clean working sink.", votePriceUSD: 0.25, targetUSD: 25.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000104", status: "Active", lat: null, lng: null, website: null, socials: {} },
-        { id: "5", title: "Solar Pollinator Waystation & Native Milkweed Bed", parentCategory: "Charities", category: "Environmental", location: "South Courtyard", summary: "Convert 40 sq ft of neglected gravel beds into native milkweed and wildflower pollinator habitats with solar drip irrigation.", plainSummary: "What is broken: South courtyard bed is weeds and gravel.\nWhat will be done: Plant native flowers for bees and butterflies.\nProof: Time-lapse video of planting.", votePriceUSD: 0.50, targetUSD: 40.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000105", status: "Active", lat: null, lng: null, website: null, socials: {} },
-        { id: "6", title: "Open-Source Municipal & School Budget Visualizer", parentCategory: "Charities", category: "Civic Tech", location: "Global / Digital Commons", summary: "Convert annual PDF line-item expenditure tables into an open-source, screen-reader-accessible CSV and interactive chart repository.", plainSummary: "What is broken: Budget reports are locked in hard-to-read PDF files.\nWhat will be done: Build a free searchable web chart.\nProof: Public GitHub repository release.", votePriceUSD: 0.50, targetUSD: 60.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000106", status: "Active", lat: null, lng: null, website: null, socials: {} }
+        { id: "1", title: "Science Lab Wheelchair-Accessible Station & Lowered Bench", parentCategory: "Charities", category: "Accessibility & Universal Design", location: "Science Wing / Room 204", summary: "Retrofit Station #1 in Chemistry Lab B with an adjustable-height ADA workbench, accessible sink controls, and clear knee clearance.", plainSummary: "What is broken: Chemistry lab tables are too high for wheelchair users.\nWhat will be done: Install a height-adjustable lab desk.\nProof: Photo of installed desk co-signed by student accessibility council.", votePriceUSD: 0.50, targetUSD: 65.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000101", status: "Active", lat: null, lng: null, website: null, socials: {}, datePublishedMs: 0 },
+        { id: "2", title: "North Stadium Bleacher Power-Wash & Handrail Repaint", parentCategory: "Charities", category: "Athletics", location: "North Field / Bleachers", summary: "Clear debris under visitor bleachers, pressure-wash aluminum benches, and apply rust-oleate safety yellow paint to stair handrails.", plainSummary: "What is broken: Stadium bleachers are dirty and handrails are rusty.\nWhat will be done: Power-wash seats and paint stair rails bright yellow.\nProof: Before and after photos posted to RSS feed.", votePriceUSD: 0.50, targetUSD: 45.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000102", status: "Active", lat: null, lng: null, website: null, socials: {}, datePublishedMs: 0 },
+        { id: "3", title: "East Entrance Tactile Paving & Curb-Cut Repair", parentCategory: "Charities", category: "Accessibility & Universal Design", location: "East Sidewalk / Bus Drop-off", summary: "Patch cracked concrete lip on the East sidewalk ramp and install high-visibility truncated dome tactile mats for blind and low-vision navigation.", plainSummary: "What is broken: Cracked sidewalk ramp blocks wheelchairs and lacks textured bumps for cane users.\nWhat will be done: Smooth concrete lip and bolt down yellow tactile dome mat.\nProof: Geo-tagged video test.", votePriceUSD: 0.25, targetUSD: 50.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000103", status: "Active", lat: null, lng: null, website: null, socials: {}, datePublishedMs: 0 },
+        { id: "4", title: "Art Studio Sink Trap Cleanout & Brush Restock", parentCategory: "Charities", category: "Classrooms", location: "North Wing / Art Room 108", summary: "Clear clay sediment from dual sink traps and purchase 24 synthetic acrylic brushes for shared student use.", plainSummary: "What is broken: Art room sink drains slowly and shared brushes are worn out.\nWhat will be done: Clean drain trap and buy 24 new brushes.\nProof: Receipt + photo of clean working sink.", votePriceUSD: 0.25, targetUSD: 25.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000104", status: "Active", lat: null, lng: null, website: null, socials: {}, datePublishedMs: 0 },
+        { id: "5", title: "Solar Pollinator Waystation & Native Milkweed Bed", parentCategory: "Charities", category: "Environmental", location: "South Courtyard", summary: "Convert 40 sq ft of neglected gravel beds into native milkweed and wildflower pollinator habitats with solar drip irrigation.", plainSummary: "What is broken: South courtyard bed is weeds and gravel.\nWhat will be done: Plant native flowers for bees and butterflies.\nProof: Time-lapse video of planting.", votePriceUSD: 0.50, targetUSD: 40.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000105", status: "Active", lat: null, lng: null, website: null, socials: {}, datePublishedMs: 0 },
+        { id: "6", title: "Open-Source Municipal & School Budget Visualizer", parentCategory: "Charities", category: "Civic Tech", location: "Global / Digital Commons", summary: "Convert annual PDF line-item expenditure tables into an open-source, screen-reader-accessible CSV and interactive chart repository.", plainSummary: "What is broken: Budget reports are locked in hard-to-read PDF files.\nWhat will be done: Build a free searchable web chart.\nProof: Public GitHub repository release.", votePriceUSD: 0.50, targetUSD: 60.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000106", status: "Active", lat: null, lng: null, website: null, socials: {}, datePublishedMs: 0 }
       ];
       function loadEndorsements() {
         try { const v = JSON.parse(localStorage.getItem("polytab_endorsements") || "{}"); return (v && typeof v === "object" && !Array.isArray(v)) ? v : {}; } catch (_) { return {}; }
@@ -702,7 +721,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         }
         renderProposalsGrid();
       }
-      let state = { proposals: [], markets: [], selectedCategory: PARENT_CHARITIES, selectedStatus: "ALL", searchQuery: "", plainLanguageMode: false, highContrastMode: false, liteMode: false, connectedAddress: null, socialHandle: localStorage.getItem("polytab_handle") || "", activeModalProposal: null, mapInstance: null, expandedParents: { [PARENT_CHARITIES]: true, [PARENT_SPECULATIVE]: false, [PARENT_VOTING]: false }, showAllCategoriesSection: true, endorsements: loadEndorsements(), verifiedEndorsements: null, endorsementsSnapshotStatus: "loading" };
+      let state = { proposals: [], markets: [], selectedCategory: PARENT_CHARITIES, selectedStatus: "ALL", searchQuery: "", plainLanguageMode: false, highContrastMode: false, liteMode: false, connectedAddress: null, socialHandle: localStorage.getItem("polytab_handle") || "", activeModalProposal: null, mapInstance: null, expandedParents: { [PARENT_CHARITIES]: true, [PARENT_SPECULATIVE]: false, [PARENT_VOTING]: false }, showAllCategoriesSection: true, endorsements: loadEndorsements(), verifiedEndorsements: null, endorsementsSnapshotStatus: "loading", page: 1, sortBy: "default", zipQuery: "", zipLat: null, zipLng: null, zipResolvedCode: null };
       function isValidAddress(addr) { return /^0x[a-fA-F0-9]{40}$/.test(String(addr || "").trim()); }
       function isValidTxHash(hash) { return /^0x[a-fA-F0-9]{64}$/.test(String(hash || "").trim()); }
       async function loadFeedState() {
@@ -716,6 +735,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           if (Array.isArray(feed.items) && feed.items.length > 0) {
             state.proposals = feed.items.map((item, idx) => {
               const meta = item._polytab || {};
+              const dp = (typeof item.date_published === "string" && item.date_published) ? Date.parse(item.date_published) : NaN;
               return {
                 id: String(item.id || idx + 1),
                 title: String(item.title || "Untitled Action"),
@@ -733,7 +753,8 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
                 lat: (meta.lat === null || meta.lat === undefined || meta.lat === "") ? null : Number(meta.lat),
                 lng: (meta.lng === null || meta.lng === undefined || meta.lng === "") ? null : Number(meta.lng),
                 website: (typeof meta.website === "string" && /^https?:\/\//i.test(meta.website)) ? meta.website.trim() : null,
-                socials: (meta.socials && typeof meta.socials === "object" && !Array.isArray(meta.socials)) ? meta.socials : {}
+                socials: (meta.socials && typeof meta.socials === "object" && !Array.isArray(meta.socials)) ? meta.socials : {},
+                datePublishedMs: Number.isFinite(dp) ? dp : 0
               };
             });
           } else { state.proposals = FALLBACK_PROPOSALS; }
@@ -1027,29 +1048,108 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           " Device-local ♥ is instant feedback on this device only.";
         bar.appendChild(hint);
       }
+      function haversineMiles(lat1, lon1, lat2, lon2) {
+        const toRad = (d) => d * Math.PI / 180;
+        const R = 3958.7613;
+        const dLat = toRad(lat2 - lat1);
+        const dLon = toRad(lon2 - lon1);
+        const a = Math.sin(dLat / 2) ** 2 + Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLon / 2) ** 2;
+        return 2 * R * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+      }
+      function itemDistanceMiles(item) {
+        if (state.zipLat == null || state.zipLng == null) return null;
+        if (item.lat == null || item.lng == null || !Number.isFinite(Number(item.lat)) || !Number.isFinite(Number(item.lng))) return null;
+        return haversineMiles(state.zipLat, state.zipLng, Number(item.lat), Number(item.lng));
+      }
+      async function resolveZip(zipRaw) {
+        const zip = String(zipRaw || "").trim();
+        const statusEl = document.getElementById("zipStatus");
+        if (!zip) {
+          state.zipQuery = ""; state.zipLat = null; state.zipLng = null; state.zipResolvedCode = null;
+          if (statusEl) statusEl.textContent = "Enter a US ZIP code to filter bounties within 50 miles (public lookup).";
+          state.page = 1; renderProposalsGrid();
+          return;
+        }
+        if (!/^\d{5}(-\d{4})?$/.test(zip)) {
+          if (statusEl) statusEl.textContent = "Enter a valid 5-digit US ZIP code (e.g. 02139).";
+          state.zipQuery = zip; state.zipLat = null; state.zipLng = null; state.zipResolvedCode = null;
+          state.page = 1; renderProposalsGrid();
+          return;
+        }
+        const z5 = zip.slice(0, 5);
+        state.zipQuery = z5;
+        if (statusEl) statusEl.textContent = "Looking up ZIP " + z5 + "…";
+        try {
+          const controller = new AbortController();
+          const timeout = setTimeout(() => controller.abort(), 4000);
+          const res = await fetch("https://api.zippopotam.us/us/" + z5, { signal: controller.signal });
+          clearTimeout(timeout);
+          if (!res.ok) throw new Error("zip not found");
+          const data = await res.json();
+          const place = data && data.places && data.places[0];
+          const lat = place ? parseFloat(place.latitude) : NaN;
+          const lng = place ? parseFloat(place.longitude) : NaN;
+          if (!Number.isFinite(lat) || !Number.isFinite(lng)) throw new Error("no coords");
+          state.zipLat = lat; state.zipLng = lng; state.zipResolvedCode = z5;
+          const placeName = place && (place["place name"] || "");
+          const st = place && (place["state abbreviation"] || "");
+          if (statusEl) statusEl.textContent = "Showing bounties within 50 mi of " + z5 + (placeName ? (" — " + placeName + (st ? ", " + st : "")) : "") + ".";
+        } catch (_) {
+          state.zipLat = null; state.zipLng = null; state.zipResolvedCode = null;
+          if (statusEl) statusEl.textContent = "Could not resolve ZIP " + z5 + " (network/unavailable). Distance filter inactive; showing all matching bounties.";
+        }
+        state.page = 1; renderProposalsGrid();
+      }
+      function compareIds(a, b) {
+        const ia = parseInt(a.id, 10), ib = parseInt(b.id, 10);
+        if (Number.isFinite(ia) && Number.isFinite(ib) && ia !== ib) return ia - ib;
+        return String(a.id).localeCompare(String(b.id));
+      }
+      function sortProposals(list) {
+        const mode = state.sortBy || "default";
+        const vaNf = (id) => { const v = verifiedEndorsementCount(id); return (v == null ? -1 : v); };
+        const local = (id) => isEndorsed(id) ? 1 : 0;
+        const arr = list.slice();
+        if (mode === "most_funded") {
+          arr.sort((a,b) => ((Number(b.fundedUSD)||0) - (Number(a.fundedUSD)||0)) || compareIds(a,b));
+        } else if (mode === "most_popular") {
+          arr.sort((a,b) => (vaNf(b.id) - vaNf(a.id)) || (local(b.id) - local(a.id)) || compareIds(a,b));
+        } else if (mode === "most_votes") {
+          arr.sort((a,b) => ((Number(b.votesCount)||0) - (Number(a.votesCount)||0)) || compareIds(a,b));
+        } else if (mode === "closest") {
+          arr.sort((a,b) => {
+            const da = itemDistanceMiles(a), db = itemDistanceMiles(b);
+            if (da == null && db == null) return compareIds(a,b);
+            if (da == null) return 1;
+            if (db == null) return -1;
+            if (da !== db) return da - db;
+            return compareIds(a,b);
+          });
+        } else if (mode === "newest") {
+          arr.sort((a,b) => ((Number(b.datePublishedMs)||0) - (Number(a.datePublishedMs)||0)) || compareIds(a,b));
+        } else if (mode === "oldest") {
+          arr.sort((a,b) => ((Number(a.datePublishedMs)||0) - (Number(b.datePublishedMs)||0)) || compareIds(a,b));
+        } else {
+          arr.sort((a,b) => (vaNf(b.id) - vaNf(a.id)) || (local(b.id) - local(a.id)) || compareIds(a,b));
+        }
+        return arr;
+      }
       function renderProposalsGrid() {
         const grid = document.getElementById("proposalsGrid");
         grid.replaceChildren();
-        const filtered = state.proposals.filter((item) => {
+        const filtered = sortProposals(state.proposals.filter((item) => {
           const pcat = item.parentCategory || parentForCategory(item.category) || PARENT_CHARITIES;
           const matchesCat = state.selectedCategory === "ALL" || item.category === state.selectedCategory || pcat === state.selectedCategory;
           const matchesStatus = state.selectedStatus === "ALL" || item.status === state.selectedStatus;
           const q = state.searchQuery.toLowerCase();
           const matchesSearch = !q || item.title.toLowerCase().includes(q) || item.location.toLowerCase().includes(q) || item.category.toLowerCase().includes(q) || item.summary.toLowerCase().includes(q);
-          return matchesCat && matchesStatus && matchesSearch;
-        }).sort((a, b) => {
-          const va = verifiedEndorsementCount(a.id);
-          const vb = verifiedEndorsementCount(b.id);
-          const vaN = (va == null ? -1 : va);
-          const vbN = (vb == null ? -1 : vb);
-          if (vbN !== vaN) return vbN - vaN; // verified/global ranking (honest snapshot)
-          const ea = isEndorsed(a.id) ? 1 : 0;
-          const eb = isEndorsed(b.id) ? 1 : 0;
-          if (eb !== ea) return eb - ea; // device-local tie-breaker
-          const ia = parseInt(a.id, 10), ib = parseInt(b.id, 10);
-          if (Number.isFinite(ia) && Number.isFinite(ib) && ia !== ib) return ia - ib;
-          return 0;
-        });
+          if (!(matchesCat && matchesStatus && matchesSearch)) return false;
+          if (state.zipLat != null && state.zipLng != null) {
+            const d = itemDistanceMiles(item);
+            if (d == null || d > 50) return false;
+          }
+          return true;
+        }));
         const pager = document.getElementById("proposalsPagination");
         if (pager) pager.replaceChildren();
         const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
@@ -1058,7 +1158,11 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         if (filtered.length === 0) {
           const emptyBox = document.createElement("div");
           emptyBox.className = "col-span-full bg-zinc-900/40 border border-zinc-800 rounded-2xl p-8 text-center text-zinc-400 text-sm";
-          emptyBox.textContent = "No matching civic action items found. Try clearing your category or search filter.";
+          if (state.zipLat != null && state.zipLng != null) {
+            emptyBox.textContent = "No bounties found within 50 miles of ZIP " + (state.zipResolvedCode || state.zipQuery || "") + ". Try clearing the ZIP filter or changing filters.";
+          } else {
+            emptyBox.textContent = "No matching civic action items found. Try clearing your category or search filter.";
+          }
           grid.appendChild(emptyBox);
           return;
         }
@@ -1463,6 +1567,17 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       });
       document.getElementById("searchInput").addEventListener("input", (e) => { state.searchQuery = e.target.value; state.page = 1; renderProposalsGrid(); });
       document.getElementById("statusFilter").addEventListener("change", (e) => { state.selectedStatus = e.target.value; state.page = 1; renderProposalsGrid(); });
+      const sortSel = document.getElementById("sortBySelect");
+      if (sortSel) {
+        sortSel.value = state.sortBy || "default";
+        sortSel.addEventListener("change", (e) => { state.sortBy = e.target.value || "default"; state.page = 1; renderProposalsGrid(); });
+      }
+      const zipInputEl = document.getElementById("zipInput");
+      if (zipInputEl) {
+        zipInputEl.value = state.zipQuery || "";
+        zipInputEl.addEventListener("change", () => resolveZip(zipInputEl.value));
+        zipInputEl.addEventListener("keydown", (e) => { if (e.key === "Enter") { e.preventDefault(); resolveZip(zipInputEl.value); } });
+      }
       document.getElementById("connectWalletBtn").addEventListener("click", async (e) => {
         const btn = e.currentTarget;
         if (typeof window.ethereum === "undefined") { alert("No browser Web3 wallet detected. You can still vote via QR codes, ZK-Email, or SMS!"); return; }
