@@ -3,7 +3,7 @@
   "updated_at": "2026-11-12T00:13:04.976Z",
   "description": "Polytab global charity master list (curated). Public organizations with public HQ locations, official websites, and social links. All entries honest-zero (fundedUSD=0, votesCount=0). No coordinates near private residences; HQ/public locations only.",
   "id_compartmentalization": {
-    "version": 2,
+    "version": 3,
     "note": "Scaffolded ID identification pipeline (bloc format). Numeric IDs are compartmentalized by parent range and leaf subcategory block for structure and wallet/URL compatibility. wallet = 0x71C + zero-padded id. Never renumber existing IDs.",
     "bloc_format": {
       "id": "<numeric string>",
@@ -25,8 +25,8 @@
         }
       },
       "Speculative": {
-        "range": "80000-99999",
-        "description": "Normal Voting topics/categories (Speculative). Community outcome proposals; funds directed to designated verified recipient/foundation per verified resolution conditions. Honest-zero until real on-chain votes.",
+        "range": "80000-89999",
+        "description": "Speculative outcome/community proposal bounties. Funds directed to designated verified recipient/foundation per verified resolution conditions. Honest-zero until real on-chain votes/stakes.",
         "blocks": {
           "Policy & Local Outcomes": 81000,
           "Elections & Civic Accountability": 82000,
@@ -34,8 +34,22 @@
           "Global & Humanitarian Outcomes": 84000
         },
         "reserved": [
-          "80000-80999 (future voting blocs)",
-          "85000-99999 (future voting blocs/subcategories)"
+          "80000-80999 (future speculative blocs)",
+          "85000-89999 (future speculative blocs/subcategories)"
+        ]
+      },
+      "Voting": {
+        "range": "90000-99999",
+        "description": "Voting topics/categories. Community votes on outcomes/questions; honest-zero until real on-chain votes.",
+        "blocks": {
+          "Community Referendums": 91000,
+          "Public Office & Elections": 92000,
+          "Policy & Governance Votes": 93000,
+          "Global Outcome Votes": 94000
+        },
+        "reserved": [
+          "90000-90999 (future voting blocs)",
+          "95000-99999 (future voting blocs/subcategories)"
         ]
       }
     },
@@ -50,7 +64,11 @@
       "Policy & Local Outcomes": 81000,
       "Elections & Civic Accountability": 82000,
       "Public Safety & Infrastructure": 83000,
-      "Global & Humanitarian Outcomes": 84000
+      "Global & Humanitarian Outcomes": 84000,
+      "Community Referendums": 91000,
+      "Public Office & Elections": 92000,
+      "Policy & Governance Votes": 93000,
+      "Global Outcome Votes": 94000
     }
   },
   "items": [
