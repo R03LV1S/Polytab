@@ -3,6 +3,151 @@
   "description": "Polytab Event Radar queue. Current events (last 21 days) surfaced from free public feeds (GDELT, CDC Newsroom, GDACS, USGS) as candidate civic-action blocks in the exact Polytab block format. All metrics are honest-zero (fundedUSD=0, votesCount=0). Items are PROPOSED — promotion to the Action Shelf (feed.json) requires a verified organization pairing and governance sign-off, never automatic. Wallet series: 0x71E + ID (601+). No coordinates are stored (lat/lng null); locations are public place-name strings only.",
   "items": [
     {
+      "id": "607",
+      "title": "Sports For Kids Foundation fundraiser helps children and families",
+      "category": "Accessibility & Universal Design",
+      "organization": "Fisher House Foundation",
+      "location": "United States",
+      "summary": "Community Radar current event: \"Sports For Kids Foundation fundraiser helps children and families\" (GDELT (ketv.com), 2026-11-09). Proposed pairing with verified organization Fisher House Foundation (Action Shelf bounty #501) — pending governance verification.",
+      "plainSummary": "• What is broken: Sports For Kids Foundation fundraiser helps children and families\n• What will be done: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://www.ketv.com/article/la-vista-garage-sale-raises-money/74370382 (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x71E0000000000000000000000000000000000607",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "GDELT (ketv.com)",
+        "sourceUrl": "https://www.ketv.com/article/la-vista-garage-sale-raises-money/74370382",
+        "publishedAt": "2026-11-09T05:00:00.000Z",
+        "discoveredAt": "2026-11-12T23:24:53.961Z",
+        "proposedPairing": {
+          "bountyId": "501",
+          "organization": "Fisher House Foundation",
+          "keywordMatches": 8
+        },
+        "dedupeHash": "106d256fb88521b6051ccd02de5744de6ebc3f76be0bb009825fdcf70f07c5ba"
+      }
+    },
+    {
+      "id": "608",
+      "title": "Flu shots to children under anesthesia raises questions about parental consent",
+      "category": "Accessibility & Universal Design",
+      "organization": "Canine Companions",
+      "location": "United States",
+      "summary": "Community Radar current event: \"Flu shots to children under anesthesia raises questions about parental consent\" (GDELT (cities929.com), 2026-11-08). Proposed pairing with verified organization Canine Companions (Action Shelf bounty #502) — pending governance verification.",
+      "plainSummary": "• What is broken: Flu shots to children under anesthesia raises questions about parental consent\n• What will be done: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://www.cities929.com/2026/11/08/flu-shots-to-children-under-anesthesia-raises-questions-about-parental-consent/ (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x71E0000000000000000000000000000000000608",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "GDELT (cities929.com)",
+        "sourceUrl": "https://www.cities929.com/2026/11/08/flu-shots-to-children-under-anesthesia-raises-questions-about-parental-consent/",
+        "publishedAt": "2026-11-08T20:30:00.000Z",
+        "discoveredAt": "2026-11-12T23:24:53.986Z",
+        "proposedPairing": {
+          "bountyId": "502",
+          "organization": "Canine Companions",
+          "keywordMatches": 11
+        },
+        "dedupeHash": "9e9584275cd9cb848f02b19bfe2edf18f1d1b55dead77d5caf607223029aa834"
+      }
+    },
+    {
+      "id": "609",
+      "title": "DISABILITY INCLUSION : Persons with disabilities demand action beyond policies",
+      "category": "Accessibility & Universal Design",
+      "organization": "Best Buddies International",
+      "location": "Uganda",
+      "summary": "Community Radar current event: \"DISABILITY INCLUSION : Persons with disabilities demand action beyond policies\" (GDELT (ntv.co.ug), 2026-11-08). Proposed pairing with verified organization Best Buddies International (Action Shelf bounty #503) — pending governance verification.",
+      "plainSummary": "• What is broken: DISABILITY INCLUSION : Persons with disabilities demand action beyond policies\n• What will be done: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://ntv.co.ug/news/disability-inclusion-persons-with-disabilities-demand-action-beyond-policies (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x71E0000000000000000000000000000000000609",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "GDELT (ntv.co.ug)",
+        "sourceUrl": "https://ntv.co.ug/news/disability-inclusion-persons-with-disabilities-demand-action-beyond-policies",
+        "publishedAt": "2026-11-08T13:30:00.000Z",
+        "discoveredAt": "2026-11-12T23:24:54.005Z",
+        "proposedPairing": {
+          "bountyId": "503",
+          "organization": "Best Buddies International",
+          "keywordMatches": 9
+        },
+        "dedupeHash": "02361d4160f0655a148493af2acb5518d30e3dda17f8a95a818e285cd78e2141"
+      }
+    },
+    {
+      "id": "610",
+      "title": "Wrong to undo protections for Maine children with disabilities",
+      "category": "Accessibility & Universal Design",
+      "organization": "Morgan's Wonderland Inclusion Foundation",
+      "location": "United States",
+      "summary": "Community Radar current event: \"Wrong to undo protections for Maine children with disabilities\" (GDELT (pressherald.com), 2026-11-08). Proposed pairing with verified organization Morgan's Wonderland Inclusion Foundation (Action Shelf bounty #504) — pending governance verification.",
+      "plainSummary": "• What is broken: Wrong to undo protections for Maine children with disabilities\n• What will be done: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://www.pressherald.com/2026/11/08/wrong-to-undo-protections-for-maine-children-with-disabilities-opinion/ (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x71E0000000000000000000000000000000000610",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "GDELT (pressherald.com)",
+        "sourceUrl": "https://www.pressherald.com/2026/11/08/wrong-to-undo-protections-for-maine-children-with-disabilities-opinion/",
+        "publishedAt": "2026-11-08T10:30:00.000Z",
+        "discoveredAt": "2026-11-12T23:24:54.022Z",
+        "proposedPairing": {
+          "bountyId": "504",
+          "organization": "Morgan's Wonderland Inclusion Foundation",
+          "keywordMatches": 7
+        },
+        "dedupeHash": "6ccc62aa0a0aa057eda4e260c158a8c4658672b63aa4851d7e573ec0e4a7f674"
+      }
+    },
+    {
+      "id": "611",
+      "title": "Its befuddling says Surrey disabled children charity founder who facing losing job over DWP cuts",
+      "category": "Accessibility & Universal Design",
+      "organization": "Plan International",
+      "location": "United Kingdom",
+      "summary": "Community Radar current event: \"Its befuddling says Surrey disabled children charity founder who facing losing job over DWP cuts\" (GDELT (getsurrey.co.uk), 2026-10-24). Proposed pairing with verified organization Plan International (Action Shelf bounty #40003) — pending governance verification.",
+      "plainSummary": "• What is broken: Its befuddling says Surrey disabled children charity founder who facing losing job over DWP cuts\n• What will be done: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://www.getsurrey.co.uk/news/surrey-news/its-befuddling-says-surrey-disabled-34797466 (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x71E0000000000000000000000000000000000611",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "GDELT (getsurrey.co.uk)",
+        "sourceUrl": "https://www.getsurrey.co.uk/news/surrey-news/its-befuddling-says-surrey-disabled-34797466",
+        "publishedAt": "2026-10-24T13:45:00.000Z",
+        "discoveredAt": "2026-11-12T23:24:54.040Z",
+        "proposedPairing": {
+          "bountyId": "40003",
+          "organization": "Plan International",
+          "keywordMatches": 3
+        },
+        "dedupeHash": "a58ef3b99cae92c8ba9a0bc05b28647f886b348d1617ab8b70ccd7188be095e7"
+      }
+    },
+    {
       "id": "603",
       "title": "Hardwick Child Haven presents Indian Dinner",
       "category": "Accessibility & Universal Design",
@@ -175,7 +320,12 @@
     "65b8dfa20a692d87ddf3b9c9aef5d6fd3c6dd44b70c2225448d0a5690d19e229",
     "f58510df800d78550aa68677002dff345e91db240d69ee6f65810df85996b49b",
     "cda40fd34dd2672056ab1e05917e500207bbe2126c10be40bfc1bd4edfab9dee",
-    "79fbef738083bdae5a9f1d72627029690dcc7ea69801eb7e732c4b8561d757ad"
+    "79fbef738083bdae5a9f1d72627029690dcc7ea69801eb7e732c4b8561d757ad",
+    "106d256fb88521b6051ccd02de5744de6ebc3f76be0bb009825fdcf70f07c5ba",
+    "9e9584275cd9cb848f02b19bfe2edf18f1d1b55dead77d5caf607223029aa834",
+    "02361d4160f0655a148493af2acb5518d30e3dda17f8a95a818e285cd78e2141",
+    "6ccc62aa0a0aa057eda4e260c158a8c4658672b63aa4851d7e573ec0e4a7f674",
+    "a58ef3b99cae92c8ba9a0bc05b28647f886b348d1617ab8b70ccd7188be095e7"
   ],
-  "nextId": 607
+  "nextId": 612
 }
