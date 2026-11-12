@@ -654,7 +654,47 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         if (state.endorsements[k]) { delete state.endorsements[k]; } else { state.endorsements[k] = true; }
         saveEndorsements(state.endorsements);
       }
-      let state = { proposals: [], markets: [], selectedCategory: PARENT_CHARITIES, selectedStatus: "ALL", searchQuery: "", plainLanguageMode: false, highContrastMode: false, liteMode: false, connectedAddress: null, socialHandle: localStorage.getItem("polytab_handle") || "", activeModalProposal: null, mapInstance: null, expandedParents: { [PARENT_CHARITIES]: true, [PARENT_SPECULATIVE]: false, [PARENT_VOTING]: false }, endorsements: loadEndorsements() };
+      function verifiedEndorsementCount(id) {
+        const snap = state.verifiedEndorsements;
+        if (!snap || typeof snap !== "object") return null; // snapshot unavailable
+        const t = snap.totals && snap.totals[String(id)];
+        if (!t) return 0; // honest: no verified endorsements recorded
+        const n = Number(t.count);
+        return Number.isFinite(n) ? n : 0;
+      }
+      function endorsementIssueUrl(item) {
+        const pcat = item.parentCategory || parentForCategory(item.category) || PARENT_CHARITIES;
+        const payload = JSON.stringify({ bounty_id: String(item.id), parentCategory: pcat, category: item.category, title: item.title }, null, 2);
+        const fence = String.fromCharCode(96,96,96);
+        const params = new URLSearchParams({
+          title: "[Endorse]: #" + String(item.id),
+          labels: "endorsement",
+          body: "### Verified Bounty Endorsement (GitHub ledger)\n" +
+            "This issue is a verifiable endorsement. Global counts are derived from unique GitHub users per canonical bounty ID (deduped). No counts are fabricated.\n\n" +
+            fence + "json\n" + payload + "\n" + fence + "\n\n" +
+            "- Canonical bounty ID (shelf): " + String(item.id) + "\n" +
+            "- Parent: " + pcat + "\n- Category: " + item.category + "\n" +
+            "- Note: One endorsement counted per unique GitHub account per bounty in the aggregated snapshot."
+        });
+        return "https://github.com/" + GITHUB_OWNER + "/" + GITHUB_REPO + "/issues/new?" + params.toString();
+      }
+      async function loadVerifiedEndorsements() {
+        const controller = new AbortController();
+        const timeout = setTimeout(() => controller.abort(), 2500);
+        try {
+          const res = await fetch("./data/endorsements.json", { signal: controller.signal, cache: "no-store" });
+          clearTimeout(timeout);
+          if (!res.ok) throw new Error("endorsements snapshot status not 200");
+          const data = await res.json();
+          state.verifiedEndorsements = data;
+          state.endorsementsSnapshotStatus = "loaded";
+        } catch (_) {
+          state.verifiedEndorsements = null;
+          state.endorsementsSnapshotStatus = "unavailable";
+        }
+        renderProposalsGrid();
+      }
+      let state = { proposals: [], markets: [], selectedCategory: PARENT_CHARITIES, selectedStatus: "ALL", searchQuery: "", plainLanguageMode: false, highContrastMode: false, liteMode: false, connectedAddress: null, socialHandle: localStorage.getItem("polytab_handle") || "", activeModalProposal: null, mapInstance: null, expandedParents: { [PARENT_CHARITIES]: true, [PARENT_SPECULATIVE]: false, [PARENT_VOTING]: false }, endorsements: loadEndorsements(), verifiedEndorsements: null, endorsementsSnapshotStatus: "loading" };
       function isValidAddress(addr) { return /^0x[a-fA-F0-9]{40}$/.test(String(addr || "").trim()); }
       function isValidTxHash(hash) { return /^0x[a-fA-F0-9]{64}$/.test(String(hash || "").trim()); }
       async function loadFeedState() {
@@ -971,7 +1011,10 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
 
         const hint = document.createElement("p");
         hint.className = "w-full text-center text-[10px] text-zinc-500 mt-1";
-        hint.textContent = "Endorsements are device-local (one per bounty) to reduce spam; no global counts are fabricated.";
+        const snap = state.endorsementsSnapshotStatus;
+        hint.textContent = "Verified endorsements = unique GitHub users per bounty from the public issue ledger snapshot (anti-spam, deduped, $0). " +
+          (snap === "loaded" ? "Snapshot loaded (honest, no fabricated counts)." : snap === "loading" ? "Loading verified snapshot…" : "Verified snapshot unavailable.") +
+          " Device-local ♥ is instant feedback on this device only.";
         bar.appendChild(hint);
       }
       function renderProposalsGrid() {
@@ -985,9 +1028,16 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           const matchesSearch = !q || item.title.toLowerCase().includes(q) || item.location.toLowerCase().includes(q) || item.category.toLowerCase().includes(q) || item.summary.toLowerCase().includes(q);
           return matchesCat && matchesStatus && matchesSearch;
         }).sort((a, b) => {
+          const va = verifiedEndorsementCount(a.id);
+          const vb = verifiedEndorsementCount(b.id);
+          const vaN = (va == null ? -1 : va);
+          const vbN = (vb == null ? -1 : vb);
+          if (vbN !== vaN) return vbN - vaN; // verified/global ranking (honest snapshot)
           const ea = isEndorsed(a.id) ? 1 : 0;
           const eb = isEndorsed(b.id) ? 1 : 0;
-          if (eb !== ea) return eb - ea;
+          if (eb !== ea) return eb - ea; // device-local tie-breaker
+          const ia = parseInt(a.id, 10), ib = parseInt(b.id, 10);
+          if (Number.isFinite(ia) && Number.isFinite(ib) && ia !== ib) return ia - ib;
           return 0;
         });
         if (filtered.length === 0) {
@@ -1118,26 +1168,52 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           bottomDiv.appendChild(progressOuter);
           bottomDiv.appendChild(walletRow);
           const endorseRow = document.createElement("div");
-          endorseRow.className = "flex items-center justify-between gap-2";
+          endorseRow.className = "flex flex-col gap-1.5";
+          const endorseTop = document.createElement("div");
+          endorseTop.className = "flex items-center justify-between gap-2 flex-wrap";
           const endorseBtn = document.createElement("button");
           endorseBtn.type = "button";
           const endorsed = isEndorsed(item.id);
           endorseBtn.className = endorsed
             ? "inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-[11px] font-semibold bg-pink-500/15 text-pink-300 border border-pink-500/30 hover:bg-pink-500/20 transition"
             : "inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-[11px] font-medium bg-zinc-800 text-zinc-300 border border-zinc-700 hover:border-zinc-500 transition";
-          endorseBtn.textContent = endorsed ? "♥ Endorsed (this device)" : "♡ Endorse";
+          endorseBtn.textContent = endorsed ? "♥ Local (this device)" : "♡ Endorse locally";
           endorseBtn.setAttribute("aria-pressed", String(endorsed));
-          endorseBtn.title = "Device-local endorsement (one per bounty on this device). Not a global count.";
+          endorseBtn.title = "Device-local endorsement (instant feedback, one per bounty on this device). Not a global/verified count.";
           endorseBtn.addEventListener("click", (ev) => {
             ev.stopPropagation();
             toggleEndorsement(item.id);
             renderProposalsGrid();
           });
+          const vCount = verifiedEndorsementCount(item.id);
+          const verifiedBadge = document.createElement("span");
+          verifiedBadge.className = "text-[10px] font-mono px-2 py-0.5 rounded-md bg-emerald-500/10 text-emerald-300 border border-emerald-500/20";
+          if (vCount == null) {
+            verifiedBadge.textContent = "✓ Verified (GitHub): snapshot unavailable";
+            verifiedBadge.title = "Global verified endorsements come from the public GitHub issue ledger snapshot (unique users per bounty). Snapshot not loaded; no count fabricated.";
+          } else {
+            verifiedBadge.textContent = "✓ Verified (GitHub): " + vCount;
+            verifiedBadge.title = "Global ranking signal: unique GitHub users who endorsed this bounty (deduped, auditable issue ledger). Honest snapshot — no fabricated counts.";
+          }
+          endorseTop.appendChild(endorseBtn);
+          endorseTop.appendChild(verifiedBadge);
+          const endorseBottom = document.createElement("div");
+          endorseBottom.className = "flex items-center justify-between gap-2 flex-wrap";
+          const ghLink = document.createElement("a");
+          ghLink.href = endorsementIssueUrl(item);
+          ghLink.target = "_blank";
+          ghLink.rel = "noopener noreferrer";
+          ghLink.className = "text-[10px] text-yellow-300 hover:text-yellow-200 underline underline-offset-2";
+          ghLink.textContent = "Endorse on GitHub (verified, anti-spam)";
+          ghLink.title = "Creates a prefilled GitHub issue (label: endorsement) referencing this bounty's canonical ID. Counted in the verified snapshot as a unique GitHub user (deduped). $0, auditable.";
+          ghLink.addEventListener("click", (ev) => ev.stopPropagation());
           const endorseNote = document.createElement("span");
           endorseNote.className = "text-[10px] text-zinc-500";
-          endorseNote.textContent = "local rank";
-          endorseRow.appendChild(endorseBtn);
-          endorseRow.appendChild(endorseNote);
+          endorseNote.textContent = "local + verified rank";
+          endorseBottom.appendChild(ghLink);
+          endorseBottom.appendChild(endorseNote);
+          endorseRow.appendChild(endorseTop);
+          endorseRow.appendChild(endorseBottom);
           bottomDiv.appendChild(endorseRow);
           bottomDiv.appendChild(actionBtn);
           card.appendChild(topDiv);
@@ -1366,6 +1442,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       });
       if (state.socialHandle) { document.getElementById("socialIdentityBtn").textContent = state.socialHandle; }
       loadFeedState();
+      loadVerifiedEndorsements();
       loadMarkets();
       loadForecastBoard();
     })();

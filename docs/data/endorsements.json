@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "updated_at": null,
+  "source": {
+    "type": "github_issues",
+    "repository": "R03LV1S/Polytab",
+    "label": "endorsement",
+    "method": "unique_github_users_per_bounty_id",
+    "canonical_id_format": "shelf numeric compartmentalized string id (docs/feed.json)"
+  },
+  "integrity": {
+    "dedupe_key": "bounty_id + user.login (case-insensitive)",
+    "ignores": [
+      "issues missing/invalid bounty_id or not in feed",
+      "duplicate user per bounty",
+      "pull requests"
+    ],
+    "counts_fabricated": false
+  },
+  "stats": {
+    "issues_considered": 0,
+    "endorsements_accepted": 0,
+    "invalid_or_unmatched": 0,
+    "duplicates_ignored": 0
+  },
+  "totals": {}
+}

@@ -1,0 +1,42 @@
+name: Build Endorsements Snapshot
+
+on:
+  schedule:
+    - cron: "37 */6 * * *"  # every 6 hours (staggered), $0 on public repo
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: read
+
+concurrency:
+  group: build-endorsements
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Build verified endorsements snapshot (GitHub issue ledger, unique users per bounty)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/build-endorsements.js
+      - name: Commit snapshot
+        run: |
+          git config user.name "polytab-bot"
+          git config user.email "polytab-bot@users.noreply.github.com"
+          git add docs/data/endorsements.json
+          if git diff --cached --quiet; then
+            echo "No endorsement changes"
+            exit 0
+          fi
+          git commit -m "Endorsements: update verified snapshot (unique GitHub users per bounty, honest)"
+          git pull --rebase --autostash origin main
+          git push
