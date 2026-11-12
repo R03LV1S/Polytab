@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "updated_at": "2026-11-12T01:33:06.670Z",
+  "updated_at": "2026-11-12T02:04:48.374Z",
   "description": "Polytab verified charity master list. Captured from free public sources (ProPublica Nonprofit Explorer / IRS filings). Evidence-backed; no fabricated ratings. No coordinates or personal data.",
   "counts": {
-    "total": 96
+    "total": 115
   },
   "progress": {
     "query_index": 2,
@@ -16,14 +16,31 @@
       "children disability": 0,
       "pediatric cancer": 1,
       "disaster relief": 1,
-      "food bank": 1
+      "food bank": 1,
+      "food": 1
     },
-    "us_q": 4,
-    "uk_t": 4,
+    "us_q": 5,
+    "uk_t": 5,
     "ca_url": 1,
     "au_row": 600,
     "au_url": 0,
-    "nz_url": 1
+    "nz_url": 1,
+    "au_acnc_url": 0,
+    "au_acnc_row": 200,
+    "nz_charities_url": 1,
+    "ca_cra_url": 1,
+    "ie_charities_url": 1,
+    "scotland_oscr_url": 1,
+    "ni_charities_url": 0,
+    "sg_charities_url": 1,
+    "sg_charities_row": 0,
+    "im_charities_url": 0,
+    "je_charities_url": 0,
+    "gg_charities_url": 0,
+    "za_npo_url": 0,
+    "im_charities_json_url": 0,
+    "je_charities_json_url": 0,
+    "gg_charities_json_url": 0
   },
   "orgs": [
     {
@@ -339,6 +356,33 @@
         "total_expenses": 1413781
       },
       "captured_at": "2026-11-12T00:28:07.644Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "continent": "North America",
+      "registry_id": "300690336",
+      "name": "Big Foot Emergency Food Pantry",
+      "city": "Walworth",
+      "state": "WI",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/300690336",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "ein": "300690336",
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": "1",
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_05_2024_prefixes_27-31%2F300690336_202312_990EZ_2024053122462667.pdf",
+        "total_revenue": 83523,
+        "total_expenses": 39920
+      },
+      "captured_at": "2026-11-12T02:04:13.193Z"
     },
     {
       "ein": "131739922",
@@ -1270,6 +1314,33 @@
     {
       "source": "US_IRS_ProPublica",
       "country": "US",
+      "continent": "North America",
+      "registry_id": "270656350",
+      "name": "Fair Food",
+      "city": "Philadelphia",
+      "state": "PA",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/270656350",
+        "evidence": "IRS Form 990-series filing (tax year 2018)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "ein": "270656350",
+      "latest_filing": {
+        "tax_year": 2018,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=06_2019_prefixes_26-31%2F270656350_201806_990_2019062816451708.pdf",
+        "total_revenue": 335664,
+        "total_expenses": 327754
+      },
+      "captured_at": "2026-11-12T02:04:18.963Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
       "registry_id": "911166240",
       "ein": "911166240",
       "name": "Ferndale Food Bank",
@@ -1322,6 +1393,357 @@
     {
       "source": "US_IRS_ProPublica",
       "country": "US",
+      "continent": "North America",
+      "registry_id": "911747155",
+      "name": "Food Alliance",
+      "city": "Carnation",
+      "state": "WA",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/911747155",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "ein": "911747155",
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F911747155_202312_990_2025011723009858.pdf",
+        "total_revenue": 335497,
+        "total_expenses": 327508
+      },
+      "captured_at": "2026-11-12T02:04:18.549Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "continent": "North America",
+      "registry_id": "462372533",
+      "name": "Food Connects",
+      "city": "Brattleboro",
+      "state": "VT",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/462372533",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "ein": "462372533",
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F462372533_202312_990_2025030723162846.pdf",
+        "total_revenue": 2247120,
+        "total_expenses": 1812695
+      },
+      "captured_at": "2026-11-12T02:04:16.909Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "continent": "North America",
+      "registry_id": "850416803",
+      "name": "Food Depot",
+      "city": "Santa Fe",
+      "state": "NM",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/850416803",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "ein": "850416803",
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_02_2024_prefixes_84-93%2F850416803_202306_990_2024020822280399.pdf",
+        "total_revenue": 22918593,
+        "total_expenses": 22292761
+      },
+      "captured_at": "2026-11-12T02:04:16.198Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "continent": "North America",
+      "registry_id": "311020198",
+      "name": "Food Finders Food Bank Inc",
+      "city": "Lafayette",
+      "state": "IN",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/311020198",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "ein": "311020198",
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F311020198_202309_990_2024120622938474.pdf",
+        "total_revenue": 18884218,
+        "total_expenses": 18248260
+      },
+      "captured_at": "2026-11-12T02:04:14.486Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "continent": "North America",
+      "registry_id": "814736864",
+      "name": "Food Fort",
+      "city": "Lincoln",
+      "state": "NE",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/814736864",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "ein": "814736864",
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": "1",
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_05_2024_prefixes_81-82%2F814736864_202312_990EZ_2024052922450497.pdf",
+        "total_revenue": 100911,
+        "total_expenses": 128156
+      },
+      "captured_at": "2026-11-12T02:04:19.732Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "continent": "North America",
+      "registry_id": "752911547",
+      "name": "Food Foundation",
+      "city": "Dallas",
+      "state": "TX",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/752911547",
+        "evidence": "IRS Form 990-series filing (tax year 2021)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "ein": "752911547",
+      "latest_filing": {
+        "tax_year": 2021,
+        "form_type": null,
+        "pdf_url": null,
+        "total_revenue": 369195,
+        "total_expenses": 573006
+      },
+      "captured_at": "2026-11-12T02:04:18.186Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "continent": "North America",
+      "registry_id": "382853858",
+      "name": "Food Gatherers",
+      "city": "Ann Arbor",
+      "state": "MI",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/382853858",
+        "evidence": "IRS Form 990-series filing (tax year 2024)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "ein": "382853858",
+      "latest_filing": {
+        "tax_year": 2024,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F382853858_202406_990_2025021123093810.pdf",
+        "total_revenue": 22528904,
+        "total_expenses": 22663036
+      },
+      "captured_at": "2026-11-12T02:04:15.880Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "continent": "North America",
+      "registry_id": "611762787",
+      "name": "Food Group",
+      "city": "Sheridan",
+      "state": "WY",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/611762787",
+        "evidence": "IRS Form 990-series filing (tax year 2024)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "ein": "611762787",
+      "latest_filing": {
+        "tax_year": 2024,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F611762787_202406_990_2025021923107990.pdf",
+        "total_revenue": 876380,
+        "total_expenses": 582511
+      },
+      "captured_at": "2026-11-12T02:04:17.238Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "continent": "North America",
+      "registry_id": "232939247",
+      "name": "Food Helpers",
+      "city": "Canonsburg",
+      "state": "PA",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/232939247",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "ein": "232939247",
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": null,
+        "total_revenue": 2795099,
+        "total_expenses": 3096359
+      },
+      "captured_at": "2026-11-12T02:04:16.548Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "continent": "North America",
+      "registry_id": "883409814",
+      "name": "Food Leads",
+      "city": "Galena",
+      "state": "OH",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/883409814",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "ein": "883409814",
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": "1",
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F883409814_202312_990EZ_2025012323034252.pdf",
+        "total_revenue": 60925,
+        "total_expenses": 40290
+      },
+      "captured_at": "2026-11-12T02:04:20.807Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "continent": "North America",
+      "registry_id": "911090450",
+      "name": "Food Lifeline",
+      "city": "Seattle",
+      "state": "WA",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/911090450",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "ein": "911090450",
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_05_2024_prefixes_88-92%2F911090450_202306_990_2024050722385058.pdf",
+        "total_revenue": 157481704,
+        "total_expenses": 158605263
+      },
+      "captured_at": "2026-11-12T02:04:15.508Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "continent": "North America",
+      "registry_id": "311581053",
+      "name": "Food On Foot Inc",
+      "city": "West Hollywood",
+      "state": "CA",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/311581053",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "ein": "311581053",
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F311581053_202312_990_2025020323068993.pdf",
+        "total_revenue": 2611635,
+        "total_expenses": 2818013
+      },
+      "captured_at": "2026-11-12T02:04:12.562Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "continent": "North America",
+      "registry_id": "205371832",
+      "name": "Food Roots",
+      "city": "Tillamook",
+      "state": "OR",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/205371832",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "ein": "205371832",
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": null,
+        "total_revenue": 511407,
+        "total_expenses": 491871
+      },
+      "captured_at": "2026-11-12T02:04:19.311Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
       "registry_id": "20738229",
       "ein": "20738229",
       "name": "Food Share Food Bank",
@@ -1344,6 +1766,60 @@
         "total_expenses": 41498
       },
       "captured_at": "2026-11-12T01:32:47.882Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "continent": "North America",
+      "registry_id": "831580187",
+      "name": "Food Strong",
+      "city": "Cleveland",
+      "state": "OH",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/831580187",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "ein": "831580187",
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": null,
+        "total_revenue": 515699,
+        "total_expenses": 473840
+      },
+      "captured_at": "2026-11-12T02:04:17.558Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "continent": "North America",
+      "registry_id": "263662215",
+      "name": "Food Works",
+      "city": "Carbondale",
+      "state": "IL",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/263662215",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "ein": "263662215",
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F263662215_202312_990_2025022623124671.pdf",
+        "total_revenue": 633141,
+        "total_expenses": 397988
+      },
+      "captured_at": "2026-11-12T02:04:17.875Z"
     },
     {
       "source": "US_IRS_ProPublica",
@@ -2233,6 +2709,33 @@
     {
       "source": "US_IRS_ProPublica",
       "country": "US",
+      "continent": "North America",
+      "registry_id": "852479963",
+      "name": "Rockwood Food",
+      "city": "Gresham",
+      "state": "OR",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/852479963",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "ein": "852479963",
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F852479963_202312_990_2025012923045846.pdf",
+        "total_revenue": 162562,
+        "total_expenses": 165392
+      },
+      "captured_at": "2026-11-12T02:04:20.081Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
       "registry_id": "471654162",
       "ein": "471654162",
       "name": "Sahuarita Food Bank",
@@ -2512,6 +3015,33 @@
         "is_501c3": true
       },
       "captured_at": "2026-11-11T23:13:34.684Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "continent": "North America",
+      "registry_id": "223969109",
+      "name": "Tennessee Food On Foot Foundation Inc",
+      "city": "Talbott",
+      "state": "TN",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/223969109",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "ein": "223969109",
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F223969109_202312_990_2025012923051353.pdf",
+        "total_revenue": 238022,
+        "total_expenses": 287879
+      },
+      "captured_at": "2026-11-12T02:04:13.549Z"
     },
     {
       "ein": "741100555",
@@ -2903,27 +3433,82 @@
   ],
   "sources": {
     "US_IRS_ProPublica": {
-      "last_run": "2026-11-12T01:32:57.314Z",
-      "last_added": 24,
-      "last_fetched": 24
+      "last_run": "2026-11-12T02:04:20.808Z",
+      "last_added": 19,
+      "last_fetched": 20
     },
     "UK_CharityCommission": {
-      "last_run": "2026-11-12T01:32:58.898Z",
+      "last_run": "2026-11-12T02:04:22.283Z",
       "last_added": 0,
       "last_fetched": 0
     },
     "CA_CRA_Charities": {
-      "last_run": "2026-11-12T01:33:00.001Z",
+      "last_run": "2026-11-12T02:04:29.548Z",
       "last_added": 0,
       "last_fetched": 0
     },
     "AU_ACNC": {
-      "last_run": "2026-11-12T01:33:02.557Z",
+      "last_run": "2026-11-12T02:04:24.089Z",
       "last_added": 0,
       "last_fetched": 0
     },
     "NZ_Charities": {
-      "last_run": "2026-11-12T01:33:06.643Z",
+      "last_run": "2026-11-12T02:04:28.490Z",
+      "last_added": 0,
+      "last_fetched": 0
+    },
+    "IE_CharitiesRegulator": {
+      "last_run": "2026-11-12T02:04:30.627Z",
+      "last_added": 0,
+      "last_fetched": 0
+    },
+    "UK_OSCR_Scotland": {
+      "last_run": "2026-11-12T02:04:32.329Z",
+      "last_added": 0,
+      "last_fetched": 0
+    },
+    "UK_CharityCommissionNI": {
+      "last_run": "2026-11-12T02:04:34.406Z",
+      "last_added": 0,
+      "last_fetched": 0
+    },
+    "SG_CharityPortal": {
+      "last_run": "2026-11-12T02:04:38.512Z",
+      "last_added": 0,
+      "last_fetched": 0
+    },
+    "IM_CharitiesRegister": {
+      "last_run": "2026-11-12T02:04:39.124Z",
+      "last_added": 0,
+      "last_fetched": 0
+    },
+    "JE_CharityCommissioner": {
+      "last_run": "2026-11-12T02:04:41.665Z",
+      "last_added": 0,
+      "last_fetched": 0
+    },
+    "GG_CharityRegister": {
+      "last_run": "2026-11-12T02:04:42.919Z",
+      "last_added": 0,
+      "last_fetched": 0
+    },
+    "ZA_NPO_Register": {
+      "last_run": "2026-11-12T02:04:45.122Z",
+      "last_added": 0,
+      "last_fetched": 0
+    },
+    "IM_CharitiesRegister_json": {
+      "last_run": "2026-11-12T02:04:45.509Z",
+      "last_added": 0,
+      "last_fetched": 0
+    },
+    "JE_CharityCommissioner_json": {
+      "last_run": "2026-11-12T02:04:47.744Z",
+      "last_added": 0,
+      "last_fetched": 0
+    },
+    "GG_CharityRegister_json": {
+      "last_run": "2026-11-12T02:04:48.348Z",
       "last_added": 0,
       "last_fetched": 0
     }
