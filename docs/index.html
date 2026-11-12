@@ -642,7 +642,19 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         { id: "5", title: "Solar Pollinator Waystation & Native Milkweed Bed", parentCategory: "Charities", category: "Environmental", location: "South Courtyard", summary: "Convert 40 sq ft of neglected gravel beds into native milkweed and wildflower pollinator habitats with solar drip irrigation.", plainSummary: "What is broken: South courtyard bed is weeds and gravel.\nWhat will be done: Plant native flowers for bees and butterflies.\nProof: Time-lapse video of planting.", votePriceUSD: 0.50, targetUSD: 40.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000105", status: "Active", lat: null, lng: null, website: null, socials: {} },
         { id: "6", title: "Open-Source Municipal & School Budget Visualizer", parentCategory: "Charities", category: "Civic Tech", location: "Global / Digital Commons", summary: "Convert annual PDF line-item expenditure tables into an open-source, screen-reader-accessible CSV and interactive chart repository.", plainSummary: "What is broken: Budget reports are locked in hard-to-read PDF files.\nWhat will be done: Build a free searchable web chart.\nProof: Public GitHub repository release.", votePriceUSD: 0.50, targetUSD: 60.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000106", status: "Active", lat: null, lng: null, website: null, socials: {} }
       ];
-      let state = { proposals: [], markets: [], selectedCategory: "ALL", selectedStatus: "ALL", searchQuery: "", plainLanguageMode: false, highContrastMode: false, liteMode: false, connectedAddress: null, socialHandle: localStorage.getItem("polytab_handle") || "", activeModalProposal: null, mapInstance: null, expandedParents: { [PARENT_CHARITIES]: false, [PARENT_SPECULATIVE]: false, [PARENT_VOTING]: false } };
+      function loadEndorsements() {
+        try { const v = JSON.parse(localStorage.getItem("polytab_endorsements") || "{}"); return (v && typeof v === "object" && !Array.isArray(v)) ? v : {}; } catch (_) { return {}; }
+      }
+      function saveEndorsements(map) {
+        try { localStorage.setItem("polytab_endorsements", JSON.stringify(map || {})); } catch (_) {}
+      }
+      function isEndorsed(id) { return !!state.endorsements[String(id)]; }
+      function toggleEndorsement(id) {
+        const k = String(id);
+        if (state.endorsements[k]) { delete state.endorsements[k]; } else { state.endorsements[k] = true; }
+        saveEndorsements(state.endorsements);
+      }
+      let state = { proposals: [], markets: [], selectedCategory: PARENT_CHARITIES, selectedStatus: "ALL", searchQuery: "", plainLanguageMode: false, highContrastMode: false, liteMode: false, connectedAddress: null, socialHandle: localStorage.getItem("polytab_handle") || "", activeModalProposal: null, mapInstance: null, expandedParents: { [PARENT_CHARITIES]: true, [PARENT_SPECULATIVE]: false, [PARENT_VOTING]: false }, endorsements: loadEndorsements() };
       function isValidAddress(addr) { return /^0x[a-fA-F0-9]{40}$/.test(String(addr || "").trim()); }
       function isValidTxHash(hash) { return /^0x[a-fA-F0-9]{64}$/.test(String(hash || "").trim()); }
       async function loadFeedState() {
@@ -910,41 +922,57 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           btn.addEventListener("click", onClick);
           return btn;
         };
-        bar.appendChild(mkBtn("ALL", "All Categories", () => { state.selectedCategory = "ALL"; renderCategoryPills(); renderProposalsGrid(); }));
 
-        const parentWrap = document.createElement("div");
-        parentWrap.className = "w-full flex flex-col gap-2";
+        // Centered "All Categories"
+        const allRow = document.createElement("div");
+        allRow.className = "w-full flex justify-center";
+        allRow.appendChild(mkBtn("ALL", "All Categories", () => {
+          state.selectedCategory = "ALL";
+          renderCategoryPills();
+          renderProposalsGrid();
+        }));
+        bar.appendChild(allRow);
+
+        // Centered parent toggles: Charities, Speculative, Voting
+        const toggleRow = document.createElement("div");
+        toggleRow.className = "w-full flex justify-center items-center gap-2 flex-wrap";
         PARENTS.forEach((parent) => {
-          const cats = PARENT_CATEGORIES[parent] || [];
           const expanded = !!state.expandedParents[parent];
-          const parentSelected = state.selectedCategory === parent;
-          const row = document.createElement("div");
-          row.className = "flex items-center gap-1.5 flex-wrap";
+          const parentActive = state.selectedCategory === parent || (state.selectedCategory !== "ALL" && (PARENT_CATEGORIES[parent] || []).includes(state.selectedCategory));
           const pbtn = document.createElement("button");
           pbtn.type = "button";
-          pbtn.className = btnClass(parentSelected);
-          pbtn.setAttribute("aria-pressed", String(parentSelected));
+          pbtn.className = btnClass(parentActive);
+          pbtn.setAttribute("aria-pressed", String(parentActive));
           pbtn.setAttribute("aria-expanded", String(expanded));
           pbtn.textContent = (expanded ? "▾ " : "▸ ") + parent;
           pbtn.addEventListener("click", () => {
-            const willExpand = !state.expandedParents[parent];
-            state.expandedParents[parent] = willExpand;
+            // Compartmentalized: select parent -> show only its sub-sections and only its projects
+            PARENTS.forEach((p) => { state.expandedParents[p] = (p === parent); });
             state.selectedCategory = parent;
             renderCategoryPills();
             renderProposalsGrid();
           });
-          row.appendChild(pbtn);
-          parentWrap.appendChild(row);
-          if (expanded) {
-            const subRow = document.createElement("div");
-            subRow.className = "flex items-center gap-1.5 flex-wrap pl-3 border-l border-zinc-800 ml-1";
-            cats.forEach((c) => {
-              subRow.appendChild(mkBtn(c, c, () => { state.selectedCategory = c; renderCategoryPills(); renderProposalsGrid(); }));
-            });
-            parentWrap.appendChild(subRow);
-          }
+          toggleRow.appendChild(pbtn);
         });
-        bar.appendChild(parentWrap);
+        bar.appendChild(toggleRow);
+
+        // Sub-sections displayed underneath the toggle row for the active/expanded parent
+        const activeParent = PARENTS.find((p) => state.expandedParents[p]) || null;
+        if (activeParent) {
+          const cats = PARENT_CATEGORIES[activeParent] || [];
+          const subRow = document.createElement("div");
+          subRow.className = "w-full flex justify-center items-center gap-1.5 flex-wrap pt-1";
+          subRow.appendChild(mkBtn(activeParent, "All " + activeParent, () => { state.selectedCategory = activeParent; renderCategoryPills(); renderProposalsGrid(); }));
+          cats.forEach((c) => {
+            subRow.appendChild(mkBtn(c, c, () => { state.selectedCategory = c; renderCategoryPills(); renderProposalsGrid(); }));
+          });
+          bar.appendChild(subRow);
+        }
+
+        const hint = document.createElement("p");
+        hint.className = "w-full text-center text-[10px] text-zinc-500 mt-1";
+        hint.textContent = "Endorsements are device-local (one per bounty) to reduce spam; no global counts are fabricated.";
+        bar.appendChild(hint);
       }
       function renderProposalsGrid() {
         const grid = document.getElementById("proposalsGrid");
@@ -956,6 +984,11 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           const q = state.searchQuery.toLowerCase();
           const matchesSearch = !q || item.title.toLowerCase().includes(q) || item.location.toLowerCase().includes(q) || item.category.toLowerCase().includes(q) || item.summary.toLowerCase().includes(q);
           return matchesCat && matchesStatus && matchesSearch;
+        }).sort((a, b) => {
+          const ea = isEndorsed(a.id) ? 1 : 0;
+          const eb = isEndorsed(b.id) ? 1 : 0;
+          if (eb !== ea) return eb - ea;
+          return 0;
         });
         if (filtered.length === 0) {
           const emptyBox = document.createElement("div");
@@ -1084,6 +1117,28 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           bottomDiv.appendChild(statsRow);
           bottomDiv.appendChild(progressOuter);
           bottomDiv.appendChild(walletRow);
+          const endorseRow = document.createElement("div");
+          endorseRow.className = "flex items-center justify-between gap-2";
+          const endorseBtn = document.createElement("button");
+          endorseBtn.type = "button";
+          const endorsed = isEndorsed(item.id);
+          endorseBtn.className = endorsed
+            ? "inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-[11px] font-semibold bg-pink-500/15 text-pink-300 border border-pink-500/30 hover:bg-pink-500/20 transition"
+            : "inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-[11px] font-medium bg-zinc-800 text-zinc-300 border border-zinc-700 hover:border-zinc-500 transition";
+          endorseBtn.textContent = endorsed ? "♥ Endorsed (this device)" : "♡ Endorse";
+          endorseBtn.setAttribute("aria-pressed", String(endorsed));
+          endorseBtn.title = "Device-local endorsement (one per bounty on this device). Not a global count.";
+          endorseBtn.addEventListener("click", (ev) => {
+            ev.stopPropagation();
+            toggleEndorsement(item.id);
+            renderProposalsGrid();
+          });
+          const endorseNote = document.createElement("span");
+          endorseNote.className = "text-[10px] text-zinc-500";
+          endorseNote.textContent = "local rank";
+          endorseRow.appendChild(endorseBtn);
+          endorseRow.appendChild(endorseNote);
+          bottomDiv.appendChild(endorseRow);
           bottomDiv.appendChild(actionBtn);
           card.appendChild(topDiv);
           card.appendChild(bottomDiv);
