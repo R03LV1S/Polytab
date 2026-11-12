@@ -537,8 +537,11 @@ const CSV_SOURCES = [
   }
 ];
 
-// ---------- Shelf promotion (governed, schema-compatible) ----------
-function walletFor(id){ const body='0'.repeat(40-3-String(id).length)+String(id); return '0x71C'+body; }
+// ---------- Shelf promotion (governed, schema-compatible, scaffolded ID pipeline) ----------
+let idPipeline = null;
+try { idPipeline = require('./id-pipeline'); } catch (_) { idPipeline = null; }
+const CAT_BLOCK = (idPipeline && idPipeline.CHARITY_BLOCKS) ? idPipeline.CHARITY_BLOCKS : {'Accessibility & Universal Design':10000,'Environmental':20000,'Civic Tech':30000,'Classrooms':40000,'Arts & Clubs':45000,'Campus Grounds':60000,'Athletics':70000};
+function walletFor(id){ return idPipeline ? idPipeline.walletFor(id) : ('0x71C' + '0'.repeat(40-3-String(id).length)+String(id)); }
 function chooseCategory(name){
   const n=(name||'').toLowerCase();
   if(/blind|deaf|disab|autism|wheelchair|assist|access|rehab|prosthe|braille|health|medical|hospital|cancer|hospice|clinic|disease|mental|fistula|malaria|nutrition|vaccine/.test(n)) return 'Accessibility & Universal Design';
@@ -551,7 +554,6 @@ function chooseCategory(name){
 function promoteToShelf(reg, maxPromote){
   let raw=fs.readFileSync(FEED_PATH,'utf8'); if(raw.charCodeAt(0)===0xFEFF) raw=raw.slice(1);
   const feed=JSON.parse(raw);
-  const CAT_BLOCK={'Accessibility & Universal Design':10000,'Environmental':20000,'Civic Tech':30000,'Classrooms':40000,'Arts & Clubs':45000,'Campus Grounds':60000,'Athletics':70000};
   const counters={};
   for(const it of feed.items){ const n=parseInt(it.id,10); if(!Number.isFinite(n)) continue; for(const base of Object.values(CAT_BLOCK)){ if(n>base && n<base+10000) counters[base]=Math.max(counters[base]||0,n-base); } }
   const existing=new Set(feed.items.map(it=>(((it._polytab&&it._polytab.organization)||'').trim().toLowerCase())));
@@ -568,8 +570,9 @@ function promoteToShelf(reg, maxPromote){
     const la = (e.lat!=null && Number.isFinite(Number(e.lat)) && !isPrivateCoord(Number(e.lat), Number(e.lng))) ? Number(e.lat) : null;
     const ln = (e.lng!=null && Number.isFinite(Number(e.lng)) && la!=null) ? Number(e.lng) : null;
     const tier = (e.verification&&e.verification.tier)||'verified_registry';
+    const parentCategory = (idPipeline && idPipeline.PARENT_CHARITIES) ? idPipeline.PARENT_CHARITIES : 'Charities';
     const item={ id, title: org, content_html:'<p>Support the mission of '+org+' (verified record: '+(e.verification.source||e.source)+').</p>', url:'https://polytab.store/#'+id, date_published:new Date().toISOString(),
-      _polytab:{ category:cat, organization:org, location:loc, summary:'Support the mission of '+org+'.', plainSummary:'What is broken: Community needs require trusted support.\nWhat will be done: Fund this organization’s verified mission.\nProof: '+(e.verification.evidence||'Registry/filing evidence')+' ('+(e.verification.source||e.source)+', tier: '+tier+').', votePriceUSD:0.5, targetUSD:500, fundedUSD:0, votesCount:0, contract:walletFor(id), status:'Active', lat:la, lng:ln, website:site, socials:{} }
+      _polytab:{ parentCategory, category:cat, organization:org, location:loc, summary:'Support the mission of '+org+'.', plainSummary:'What is broken: Community needs require trusted support.\nWhat will be done: Fund this organization’s verified mission.\nProof: '+(e.verification.evidence||'Registry/filing evidence')+' ('+(e.verification.source||e.source)+', tier: '+tier+').', votePriceUSD:0.5, targetUSD:500, fundedUSD:0, votesCount:0, contract:walletFor(id), status:'Active', lat:la, lng:ln, website:site, socials:{} }
     };
     feed.items.push(item); existing.add(org.toLowerCase()); added++;
   }

@@ -3,9 +3,9 @@
   <channel>
     <title>Polytab — Global Civic Action Map (geoRSS)</title>
     <link>https://polytab.store/#map</link>
-    <description>geoRSS mirror of the Polytab Action Shelf. 1267 of 1267 actions publish organization coordinates, rounded to two decimal places (~1 km, neighborhood-level) to prevent PII/doxing. Organizations without a public location are listed in feed.xml only.</description>
+    <description>geoRSS mirror of the Polytab Action Shelf. 1269 of 1269 actions publish organization coordinates, rounded to two decimal places (~1 km, neighborhood-level) to prevent PII/doxing. Organizations without a public location are listed in feed.xml only.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Nov 2026 08:43:12 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 09:08:14 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://polytab.store/feeds/global.xml" rel="self" type="application/rss+xml" />
   <item>
@@ -24313,6 +24313,44 @@ Honest-zero: no on-chain votes have been recorded for this action yet.
 Escrow: 0x71C0000000000000000000000000000000030807</description>
     <category>Civic Tech</category>
     <pubDate>Thu, 12 Nov 2026 08:43:12 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Will a local traffic-calming &amp; safe-streets measure pass in this community?</title>
+    <link>https://polytab.store/#81001</link>
+    <guid isPermaLink="false">polytab:shelf:81001</guid>
+    <description>What is the question: Will a local traffic-calming measure pass?
+If it passes (verified): Funds go to a designated safe-streets/accessibility foundation for the affected community.
+Proof: Official public results and verified recipient designation. Honest-zero: $0 funded, 0 votes until real on-chain stakes.
+
+Category: Policy &amp; Local Outcomes
+Organization: Community Safe Streets Fund (illustrative)
+Location: Community Proposal (location TBD)
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000081001</description>
+    <category>Policy &amp; Local Outcomes</category>
+    <pubDate>Thu, 12 Nov 2026 08:58:11 GMT</pubDate>
+    <georss:point>0.00 0.00</georss:point>
+  </item>
+  <item>
+    <title>Will a proposed surveillance-technology contract be rejected or rolled back by local oversight?</title>
+    <link>https://polytab.store/#83001</link>
+    <guid isPermaLink="false">polytab:shelf:83001</guid>
+    <description>What is the question: Will a proposed surveillance-technology contract be rejected/rolled back?
+If verified: Funds support a designated local digital-rights/accountability organization.
+Proof: Official public records or oversight decisions. Honest-zero until real on-chain stakes.
+
+Category: Public Safety &amp; Infrastructure
+Organization: Civic Privacy &amp; Accountability Fund (illustrative)
+Location: Community Proposal (location TBD)
+Vote price: $0.50 · Target: $500.00
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Escrow: 0x71C0000000000000000000000000000000083001</description>
+    <category>Public Safety &amp; Infrastructure</category>
+    <pubDate>Thu, 12 Nov 2026 08:58:11 GMT</pubDate>
     <georss:point>0.00 0.00</georss:point>
   </item>
   </channel>

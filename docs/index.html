@@ -253,22 +253,23 @@
           </div>
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
-              <label for="newCategory" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Category *</label>
-              <select id="newCategory" class="w-full bg-black border border-zinc-700 rounded-xl px-3.5 py-2.5 text-sm text-white outline-none focus:border-yellow-500">
-                <option value="Accessibility & Universal Design">Accessibility &amp; Universal Design</option>
-                <option value="Campus Grounds">Campus Grounds</option>
-                <option value="Athletics">Athletics</option>
-                <option value="Classrooms">Classrooms</option>
-                <option value="Civic Tech">Civic Tech</option>
-                <option value="Environmental">Environmental</option>
+              <label for="newParentCategory" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Parent Category *</label>
+              <select id="newParentCategory" class="w-full bg-black border border-zinc-700 rounded-xl px-3.5 py-2.5 text-sm text-white outline-none focus:border-yellow-500">
+                <option value="Charities">Charities</option>
+                <option value="Speculative">Speculative / Voting</option>
               </select>
             </div>
             <div>
-              <label for="newLocation" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Neighborhood / Campus Area *</label>
-              <input type="text" id="newLocation" required maxlength="80" placeholder="e.g. Science Building / East Wing"
-                class="w-full bg-black border border-zinc-700 rounded-xl px-3.5 py-2.5 text-sm text-white outline-none focus:border-yellow-500" />
+              <label for="newCategory" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Subcategory (ID bloc) *</label>
+              <select id="newCategory" class="w-full bg-black border border-zinc-700 rounded-xl px-3.5 py-2.5 text-sm text-white outline-none focus:border-yellow-500"></select>
             </div>
           </div>
+          <div>
+            <label for="newLocation" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Neighborhood / Campus Area *</label>
+            <input type="text" id="newLocation" required maxlength="80" placeholder="e.g. Science Building / East Wing"
+              class="w-full bg-black border border-zinc-700 rounded-xl px-3.5 py-2.5 text-sm text-white outline-none focus:border-yellow-500" />
+          </div>
+          <p class="text-[11px] text-zinc-500 -mt-2">ID pipeline (bloc format): Charities 10000–79999, Speculative/Voting 80000–99999 (sub-blocks reserved for future blocs). IDs/wallets assigned as <code class="text-zinc-400">0x71C…</code> (never renumber existing).</p>
           <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div>
               <label for="newTargetUSD" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Target Bounty ($ USD) *</label>
@@ -576,14 +577,58 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       const GITHUB_OWNER = "r03lv1s";
       const GITHUB_REPO = "Polytab";
       const BASE_CHAIN_ID = 8453;
-      const CATEGORIES = ["ALL", "Accessibility & Universal Design", "Campus Grounds", "Athletics", "Classrooms", "Civic Tech", "Environmental"];
+      // --- ID identification pipeline (scaffolded, bloc format) ---
+      // Parents/ranges: Charities 10000-79999 (leaf sub-blocks). Speculative (Voting) 80000-99999 (leaf blocs; gaps reserved).
+      // Bloc format: numeric id string, url /#<id>, wallet 0x71C + zero-padded id (40 hex). Never renumber existing IDs.
+      const PARENT_CHARITIES = "Charities";
+      const PARENT_SPECULATIVE = "Speculative";
+      const CHARITY_CATEGORIES = ["Accessibility & Universal Design", "Environmental", "Civic Tech", "Classrooms", "Arts & Clubs", "Campus Grounds", "Athletics"];
+      const SPECULATIVE_CATEGORIES = ["Policy & Local Outcomes", "Elections & Civic Accountability", "Public Safety & Infrastructure", "Global & Humanitarian Outcomes"];
+      const CATEGORY_BLOCKS = {
+        "Accessibility & Universal Design": 10000,
+        "Environmental": 20000,
+        "Civic Tech": 30000,
+        "Classrooms": 40000,
+        "Arts & Clubs": 45000,
+        "Campus Grounds": 60000,
+        "Athletics": 70000,
+        "Policy & Local Outcomes": 81000,
+        "Elections & Civic Accountability": 82000,
+        "Public Safety & Infrastructure": 83000,
+        "Global & Humanitarian Outcomes": 84000
+      };
+      const CATEGORY_PARENT = {};
+      CHARITY_CATEGORIES.forEach((c) => { CATEGORY_PARENT[c] = PARENT_CHARITIES; });
+      SPECULATIVE_CATEGORIES.forEach((c) => { CATEGORY_PARENT[c] = PARENT_SPECULATIVE; });
+      function walletForId(id) {
+        const str = String(id);
+        return "0x71C" + "0".repeat(Math.max(0, 40 - 3 - str.length)) + str;
+      }
+      function parentForCategory(cat) {
+        if (CATEGORY_PARENT[cat]) return CATEGORY_PARENT[cat];
+        const base = CATEGORY_BLOCKS[cat];
+        if (base == null) return PARENT_CHARITIES;
+        return base >= 80000 ? PARENT_SPECULATIVE : PARENT_CHARITIES;
+      }
+      function nextIdForCategory(cat, proposals) {
+        const base = CATEGORY_BLOCKS[cat];
+        if (base == null) return null;
+        let maxOff = 0;
+        (proposals || []).forEach((p) => {
+          const n = parseInt(p.id, 10);
+          if (Number.isFinite(n) && n > base && n < base + 10000) { const off = n - base; if (off > maxOff) maxOff = off; }
+        });
+        const next = base + maxOff + 1;
+        return (next < base + 10000) ? String(next) : null;
+      }
+      const CATEGORIES = ["ALL"].concat(CHARITY_CATEGORIES).concat(SPECULATIVE_CATEGORIES);
       const FALLBACK_PROPOSALS = [
-        { id: "1", title: "Science Lab Wheelchair-Accessible Station & Lowered Bench", category: "Accessibility & Universal Design", location: "Science Wing / Room 204", summary: "Retrofit Station #1 in Chemistry Lab B with an adjustable-height ADA workbench, accessible sink controls, and clear knee clearance.", plainSummary: "What is broken: Chemistry lab tables are too high for wheelchair users.\nWhat will be done: Install a height-adjustable lab desk.\nProof: Photo of installed desk co-signed by student accessibility council.", votePriceUSD: 0.50, targetUSD: 65.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000101", status: "Active", lat: null, lng: null },
-        { id: "2", title: "North Stadium Bleacher Power-Wash & Handrail Repaint", category: "Athletics", location: "North Field / Bleachers", summary: "Clear debris under visitor bleachers, pressure-wash aluminum benches, and apply rust-oleate safety yellow paint to stair handrails.", plainSummary: "What is broken: Stadium bleachers are dirty and handrails are rusty.\nWhat will be done: Power-wash seats and paint stair rails bright yellow.\nProof: Before and after photos posted to RSS feed.", votePriceUSD: 0.50, targetUSD: 45.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000102", status: "Active", lat: null, lng: null },
-        { id: "3", title: "East Entrance Tactile Paving & Curb-Cut Repair", category: "Accessibility & Universal Design", location: "East Sidewalk / Bus Drop-off", summary: "Patch cracked concrete lip on the East sidewalk ramp and install high-visibility truncated dome tactile mats for blind and low-vision navigation.", plainSummary: "What is broken: Cracked sidewalk ramp blocks wheelchairs and lacks textured bumps for cane users.\nWhat will be done: Smooth concrete lip and bolt down yellow tactile dome mat.\nProof: Geo-tagged video test.", votePriceUSD: 0.25, targetUSD: 50.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000103", status: "Active", lat: null, lng: null },
-        { id: "4", title: "Art Studio Sink Trap Cleanout & Brush Restock", category: "Classrooms", location: "North Wing / Art Room 108", summary: "Clear clay sediment from dual sink traps and purchase 24 synthetic acrylic brushes for shared student use.", plainSummary: "What is broken: Art room sink drains slowly and shared brushes are worn out.\nWhat will be done: Clean drain trap and buy 24 new brushes.\nProof: Receipt + photo of clean working sink.", votePriceUSD: 0.25, targetUSD: 25.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000104", status: "Active", lat: null, lng: null },
-        { id: "5", title: "Solar Pollinator Waystation & Native Milkweed Bed", category: "Environmental", location: "South Courtyard", summary: "Convert 40 sq ft of neglected gravel beds into native milkweed and wildflower pollinator habitats with solar drip irrigation.", plainSummary: "What is broken: South courtyard bed is weeds and gravel.\nWhat will be done: Plant native flowers for bees and butterflies.\nProof: Time-lapse video of planting.", votePriceUSD: 0.50, targetUSD: 40.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000105", status: "Active", lat: null, lng: null },
-        { id: "6", title: "Open-Source Municipal & School Budget Visualizer", category: "Civic Tech", location: "Global / Digital Commons", summary: "Convert annual PDF line-item expenditure tables into an open-source, screen-reader-accessible CSV and interactive chart repository.", plainSummary: "What is broken: Budget reports are locked in hard-to-read PDF files.\nWhat will be done: Build a free searchable web chart.\nProof: Public GitHub repository release.", votePriceUSD: 0.50, targetUSD: 60.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000106", status: "Active", lat: null, lng: null }
+        { id: "1", title: "Science Lab Wheelchair-Accessible Station & Lowered Bench", parentCategory: "Charities", category: "Accessibility & Universal Design", location: "Science Wing / Room 204", summary: "Retrofit Station #1 in Chemistry Lab B with an adjustable-height ADA workbench, accessible sink controls, and clear knee clearance.", plainSummary: "What is broken: Chemistry lab tables are too high for wheelchair users.\nWhat will be done: Install a height-adjustable lab desk.\nProof: Photo of installed desk co-signed by student accessibility council.", votePriceUSD: 0.50, targetUSD: 65.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000101", status: "Active", lat: null, lng: null, website: null, socials: {} },
+        { id: "2", title: "North Stadium Bleacher Power-Wash & Handrail Repaint", parentCategory: "Charities", category: "Athletics", location: "North Field / Bleachers", summary: "Clear debris under visitor bleachers, pressure-wash aluminum benches, and apply rust-oleate safety yellow paint to stair handrails.", plainSummary: "What is broken: Stadium bleachers are dirty and handrails are rusty.\nWhat will be done: Power-wash seats and paint stair rails bright yellow.\nProof: Before and after photos posted to RSS feed.", votePriceUSD: 0.50, targetUSD: 45.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000102", status: "Active", lat: null, lng: null, website: null, socials: {} },
+        { id: "3", title: "East Entrance Tactile Paving & Curb-Cut Repair", parentCategory: "Charities", category: "Accessibility & Universal Design", location: "East Sidewalk / Bus Drop-off", summary: "Patch cracked concrete lip on the East sidewalk ramp and install high-visibility truncated dome tactile mats for blind and low-vision navigation.", plainSummary: "What is broken: Cracked sidewalk ramp blocks wheelchairs and lacks textured bumps for cane users.\nWhat will be done: Smooth concrete lip and bolt down yellow tactile dome mat.\nProof: Geo-tagged video test.", votePriceUSD: 0.25, targetUSD: 50.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000103", status: "Active", lat: null, lng: null, website: null, socials: {} },
+        { id: "4", title: "Art Studio Sink Trap Cleanout & Brush Restock", parentCategory: "Charities", category: "Classrooms", location: "North Wing / Art Room 108", summary: "Clear clay sediment from dual sink traps and purchase 24 synthetic acrylic brushes for shared student use.", plainSummary: "What is broken: Art room sink drains slowly and shared brushes are worn out.\nWhat will be done: Clean drain trap and buy 24 new brushes.\nProof: Receipt + photo of clean working sink.", votePriceUSD: 0.25, targetUSD: 25.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000104", status: "Active", lat: null, lng: null, website: null, socials: {} },
+        { id: "5", title: "Solar Pollinator Waystation & Native Milkweed Bed", parentCategory: "Charities", category: "Environmental", location: "South Courtyard", summary: "Convert 40 sq ft of neglected gravel beds into native milkweed and wildflower pollinator habitats with solar drip irrigation.", plainSummary: "What is broken: South courtyard bed is weeds and gravel.\nWhat will be done: Plant native flowers for bees and butterflies.\nProof: Time-lapse video of planting.", votePriceUSD: 0.50, targetUSD: 40.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000105", status: "Active", lat: null, lng: null, website: null, socials: {} },
+        { id: "6", title: "Open-Source Municipal & School Budget Visualizer", parentCategory: "Charities", category: "Civic Tech", location: "Global / Digital Commons", summary: "Convert annual PDF line-item expenditure tables into an open-source, screen-reader-accessible CSV and interactive chart repository.", plainSummary: "What is broken: Budget reports are locked in hard-to-read PDF files.\nWhat will be done: Build a free searchable web chart.\nProof: Public GitHub repository release.", votePriceUSD: 0.50, targetUSD: 60.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000106", status: "Active", lat: null, lng: null, website: null, socials: {} }
       ];
       let state = { proposals: [], markets: [], selectedCategory: "ALL", selectedStatus: "ALL", searchQuery: "", plainLanguageMode: false, highContrastMode: false, liteMode: false, connectedAddress: null, socialHandle: localStorage.getItem("polytab_handle") || "", activeModalProposal: null, mapInstance: null };
       function isValidAddress(addr) { return /^0x[a-fA-F0-9]{40}$/.test(String(addr || "").trim()); }
@@ -602,6 +647,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
               return {
                 id: String(item.id || idx + 1),
                 title: String(item.title || "Untitled Action"),
+                parentCategory: String(meta.parentCategory || parentForCategory(String(meta.category || "Campus Grounds")) || PARENT_CHARITIES),
                 category: String(meta.category || "Campus Grounds"),
                 location: String(meta.location || "Community"),
                 summary: String(item.summary || item.content_text || ""),
@@ -839,22 +885,36 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       function renderCategoryPills() {
         const bar = document.getElementById("categoryFilterBar");
         bar.replaceChildren();
-        CATEGORIES.forEach((cat) => {
+        const mkBtn = (value, label) => {
           const btn = document.createElement("button");
           btn.type = "button";
-          const isSelected = state.selectedCategory === cat;
+          const isSelected = state.selectedCategory === value;
           btn.className = isSelected ? "px-3 py-1.5 rounded-xl text-xs font-bold bg-purple-700 text-white transition hc-btn" : "px-3 py-1.5 rounded-xl text-xs font-medium bg-black hover:bg-zinc-800 text-zinc-300 border border-zinc-800 transition";
-          btn.textContent = cat === "ALL" ? "All Categories" : cat;
+          btn.textContent = label;
           btn.setAttribute("aria-pressed", String(isSelected));
-          btn.addEventListener("click", () => { state.selectedCategory = cat; renderCategoryPills(); renderProposalsGrid(); });
-          bar.appendChild(btn);
-        });
+          btn.addEventListener("click", () => { state.selectedCategory = value; renderCategoryPills(); renderProposalsGrid(); });
+          return btn;
+        };
+        bar.appendChild(mkBtn("ALL", "All Categories"));
+        const group = (title, cats) => {
+          const wrap = document.createElement("div");
+          wrap.className = "flex items-center gap-1.5 flex-wrap";
+          const label = document.createElement("span");
+          label.className = "text-[10px] font-mono uppercase tracking-wider text-zinc-500 px-1";
+          label.textContent = title;
+          wrap.appendChild(label);
+          cats.forEach((c) => wrap.appendChild(mkBtn(c, c)));
+          bar.appendChild(wrap);
+        };
+        group("Charities", CHARITY_CATEGORIES);
+        group("Speculative / Voting", SPECULATIVE_CATEGORIES);
       }
       function renderProposalsGrid() {
         const grid = document.getElementById("proposalsGrid");
         grid.replaceChildren();
         const filtered = state.proposals.filter((item) => {
-          const matchesCat = state.selectedCategory === "ALL" || item.category === state.selectedCategory;
+          const pcat = item.parentCategory || parentForCategory(item.category) || PARENT_CHARITIES;
+          const matchesCat = state.selectedCategory === "ALL" || item.category === state.selectedCategory || pcat === state.selectedCategory;
           const matchesStatus = state.selectedStatus === "ALL" || item.status === state.selectedStatus;
           const q = state.searchQuery.toLowerCase();
           const matchesSearch = !q || item.title.toLowerCase().includes(q) || item.location.toLowerCase().includes(q) || item.category.toLowerCase().includes(q) || item.summary.toLowerCase().includes(q);
@@ -876,9 +936,11 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           const badgeRow = document.createElement("div");
           badgeRow.className = "flex items-center justify-between gap-2 flex-wrap";
           const catBadge = document.createElement("span");
+          const pcat = item.parentCategory || parentForCategory(item.category) || PARENT_CHARITIES;
           const isAccess = item.category.includes("Accessibility");
-          catBadge.className = isAccess ? "text-[11px] font-mono font-semibold px-2.5 py-0.5 rounded-md bg-amber-500/10 text-amber-300 border border-amber-500/30 hc-accent" : "text-[11px] font-mono font-semibold px-2.5 py-0.5 rounded-md bg-purple-500/10 text-yellow-300 border border-yellow-500/20";
-          catBadge.textContent = item.category;
+          const isSpec = pcat === PARENT_SPECULATIVE;
+          catBadge.className = isSpec ? "text-[11px] font-mono font-semibold px-2.5 py-0.5 rounded-md bg-cyan-500/10 text-cyan-300 border border-cyan-500/30 hc-accent" : (isAccess ? "text-[11px] font-mono font-semibold px-2.5 py-0.5 rounded-md bg-amber-500/10 text-amber-300 border border-amber-500/30 hc-accent" : "text-[11px] font-mono font-semibold px-2.5 py-0.5 rounded-md bg-purple-500/10 text-yellow-300 border border-yellow-500/20");
+          catBadge.textContent = pcat + " · " + item.category;
           const statusBadge = document.createElement("span");
           statusBadge.className = item.status === "Active" ? "text-[11px] font-mono px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20" : "text-[11px] font-mono px-2 py-0.5 rounded bg-zinc-800 text-zinc-300 border border-zinc-700";
           statusBadge.textContent = item.status;
@@ -910,23 +972,33 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
             linksRow.appendChild(a);
           }
           const socialDefs = [
-            ["x", "X"], ["twitter", "X"], ["facebook", "f"], ["instagram", "ig"], ["linkedin", "in"], ["youtube", "yt"], ["github", "gh"], ["tiktok", "tt"]
+            ["x", "X", '<svg viewBox="0 0 24 24" class="w-3.5 h-3.5 fill-current" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.657l-5.214-6.817-5.965 6.817H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.45-6.231Zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77Z"/></svg>'],
+            ["twitter", "X", '<svg viewBox="0 0 24 24" class="w-3.5 h-3.5 fill-current" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.657l-5.214-6.817-5.965 6.817H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.45-6.231Zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77Z"/></svg>'],
+            ["facebook", "Facebook", '<svg viewBox="0 0 24 24" class="w-3.5 h-3.5 fill-current" aria-hidden="true"><path d="M22 12.06C22 6.504 17.523 2 12 2S2 6.504 2 12.06C2 17.083 5.657 21.245 10.438 22v-7.03H7.898v-2.91h2.54V9.845c0-2.522 1.492-3.915 3.777-3.915 1.094 0 2.238.197 2.238.197v2.476h-1.26c-1.243 0-1.63.775-1.63 1.57v1.888h2.773l-.443 2.91h-2.33V22C18.343 21.245 22 17.083 22 12.06Z"/></svg>'],
+            ["instagram", "Instagram", '<svg viewBox="0 0 24 24" class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>'],
+            ["linkedin", "LinkedIn", '<svg viewBox="0 0 24 24" class="w-3.5 h-3.5 fill-current" aria-hidden="true"><path d="M6.94 8.5H3.56V20h3.38V8.5ZM5.25 3A1.97 1.97 0 1 0 5.3 6.94 1.97 1.97 0 0 0 5.25 3ZM20.44 13.41c0-3.26-1.74-4.78-4.06-4.78-1.87 0-2.71 1.03-3.18 1.76V8.5H9.82c.04.92 0 11.5 0 11.5h3.38v-6.42c0-.34.02-.69.13-.94.28-.69.9-1.4 1.95-1.4 1.38 0 1.93 1.05 1.93 2.59V20h3.38l-.15-6.59Z"/></svg>'],
+            ["youtube", "YouTube", '<svg viewBox="0 0 24 24" class="w-3.5 h-3.5 fill-current" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.11-2.12C19.54 3.5 12 3.5 12 3.5s-7.54 0-9.39.58A3 3 0 0 0 .5 6.2 31.4 31.4 0 0 0 0 12a31.4 31.4 0 0 0 .5 5.8 3 3 0 0 0 2.11 2.12c1.85.58 9.39.58 9.39.58s7.54 0 9.39-.58a3 3 0 0 0 2.11-2.12A31.4 31.4 0 0 0 24 12a31.4 31.4 0 0 0-.5-5.8ZM9.75 15.5v-7L15.75 12l-6 3.5Z"/></svg>'],
+            ["github", "GitHub", '<svg viewBox="0 0 24 24" class="w-3.5 h-3.5 fill-current" aria-hidden="true"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.74.08-.74 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.5 1 .1-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.23-3.22-.12-.3-.53-1.52.12-3.17 0 0 1-.32 3.3 1.23a11.4 11.4 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.65.24 2.87.12 3.17.77.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.63-5.49 5.92.43.37.82 1.1.82 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5Z"/></svg>'],
+            ["tiktok", "TikTok", '<svg viewBox="0 0 24 24" class="w-3.5 h-3.5 fill-current" aria-hidden="true"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 1 1-2-2.75V9.4a6.34 6.34 0 1 0 5.45 6.27V8.74a8.2 8.2 0 0 0 4.78 1.53V6.84a4.84 4.84 0 0 1-1.01-.15Z"/></svg>'],
+            ["bluesky", "Bluesky", '<svg viewBox="0 0 24 24" class="w-3.5 h-3.5 fill-current" aria-hidden="true"><path d="M12 10.8c-1.09-2.12-4.06-6.07-6.82-8.02C2.53.92 1.5 1.42 1 1.64.43 1.9 0 2.78 0 3.3c0 .53.29 4.3.48 4.93.63 2.07 2.85 2.77 4.89 2.54.11-.01.21-.03.32-.04-.11.02-.21.03-.32.04-3 .44-5.66 1.53-2.17 5.42 3.84 4.02 5.26-.86 6.18-3.34.14-.37.28-.76.43-1.15.11-.28.2-.54.19-.68v.04c-.01.14.08.4.19.68.15.39.29.78.43 1.15.92 2.48 2.34 7.36 6.18 3.34 3.49-3.89.83-4.98-2.17-5.42-.11-.01-.21-.02-.32-.04.11.01.21.03.32.04 2.04.23 4.26-.47 4.89-2.54.19-.63.48-4.4.48-4.93 0-.52-.43-1.4-1-1.66-.5-.22-1.53-.72-4.18 1.14-2.76 1.95-5.73 5.9-6.82 8.02Z"/></svg>'],
+            ["discord", "Discord", '<svg viewBox="0 0 24 24" class="w-3.5 h-3.5 fill-current" aria-hidden="true"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03ZM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418Zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418Z"/></svg>'],
+            ["telegram", "Telegram", '<svg viewBox="0 0 24 24" class="w-3.5 h-3.5 fill-current" aria-hidden="true"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>']
           ];
           const seenSocial = new Set();
-          socialDefs.forEach(([key, label]) => {
+          socialDefs.forEach(([key, label, svg]) => {
             const url = safeLink(item.socials && item.socials[key]);
             if (!url) return;
-            const norm = label.toLowerCase();
+            const norm = key === "twitter" ? "x" : key;
             if (seenSocial.has(norm)) return;
             seenSocial.add(norm);
             const a = document.createElement("a");
             a.href = url;
             a.target = "_blank";
             a.rel = "noopener noreferrer";
-            a.className = "inline-flex items-center justify-center w-6 h-6 rounded-md bg-zinc-800 border border-zinc-700 text-zinc-300 hover:text-white hover:border-purple-500/50 transition font-bold";
-            a.textContent = label;
-            a.title = key.charAt(0).toUpperCase() + key.slice(1);
-            a.setAttribute("aria-label", "Open " + key + " profile for " + item.title);
+            a.className = "inline-flex items-center justify-center w-7 h-7 rounded-md bg-zinc-800 border border-zinc-700 text-zinc-300 hover:text-white hover:border-purple-500/50 transition";
+            a.innerHTML = svg;
+            a.title = label;
+            a.setAttribute("aria-label", "Open " + label + " profile for " + item.title);
             linksRow.appendChild(a);
           });
           if (linksRow.childNodes.length > 0) topDiv.appendChild(linksRow);
@@ -980,7 +1052,8 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       }
       function openActionModal(proposal) {
         state.activeModalProposal = proposal;
-        document.getElementById("modalCategoryBadge").textContent = proposal.category;
+        const pcat = proposal.parentCategory || parentForCategory(proposal.category) || PARENT_CHARITIES;
+        document.getElementById("modalCategoryBadge").textContent = pcat + " · " + proposal.category;
         document.getElementById("modalTitle").textContent = proposal.title;
         document.getElementById("modalVotePrice").textContent = `$${proposal.votePriceUSD.toFixed(2)} USD (Base L2)`;
         document.getElementById("modalWallet").textContent = proposal.wallet;
@@ -1107,11 +1180,23 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       }
       newWalletInput.addEventListener("input", updateCreateQr);
       newVoteInput.addEventListener("input", updateCreateQr);
+      function syncCreateSubcategories() {
+        const parent = (document.getElementById("newParentCategory") || {}).value || PARENT_CHARITIES;
+        const sub = document.getElementById("newCategory");
+        if (!sub) return;
+        const cats = parent === PARENT_SPECULATIVE ? SPECULATIVE_CATEGORIES : CHARITY_CATEGORIES;
+        sub.replaceChildren();
+        cats.forEach((c) => { const o = document.createElement("option"); o.value = c; o.textContent = c; sub.appendChild(o); });
+      }
+      const parentSel = document.getElementById("newParentCategory");
+      if (parentSel) parentSel.addEventListener("change", syncCreateSubcategories);
+      syncCreateSubcategories();
       document.getElementById("createProjectForm").addEventListener("submit", (e) => {
         e.preventDefault();
         const wallet = newWalletInput.value.trim();
         if (!isValidAddress(wallet)) { alert("Please provide a valid 42-character hexadecimal EVM wallet address starting with 0x."); return; }
         const title = document.getElementById("newTitle").value.trim();
+        const parentCategory = (document.getElementById("newParentCategory") || {}).value || PARENT_CHARITIES;
         const category = document.getElementById("newCategory").value;
         const location = document.getElementById("newLocation").value.trim();
         const targetUSD = parseFloat(document.getElementById("newTargetUSD").value) || 45.00;
@@ -1119,8 +1204,10 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         const coords = document.getElementById("newCoords").value.trim();
         const summary = document.getElementById("newSummary").value.trim();
         const plainSummary = document.getElementById("newPlainSummary").value.trim() || summary;
-        const payload = JSON.stringify({ title, category, location, targetUSD, votePriceUSD, payoutWallet: wallet, georssPoint: coords, plainSummary, status: "Active" }, null, 2);
-        const params = new URLSearchParams({ title: `[Proposal]: ${title}`, labels: "proposal,pending-verification", body: `### Project Proposal Metadata\n\`\`\`json\n${payload}\n\`\`\`\n\n### Action Scope & Proof Deliverable\n${summary}` });
+        const assignedId = nextIdForCategory(category, state.proposals);
+        const assignedWallet = assignedId ? walletForId(assignedId) : null;
+        const payload = JSON.stringify({ title, parentCategory: (CATEGORY_PARENT[category] || parentCategory), category, location, targetUSD, votePriceUSD, payoutWallet: wallet, georssPoint: coords, plainSummary, status: "Active", suggestedBlocId: assignedId, suggestedBlocWallet: assignedWallet }, null, 2);
+        const params = new URLSearchParams({ title: `[Proposal]: ${title}`, labels: "proposal,pending-verification", body: `### Project Proposal Metadata\n\`\`\`json\n${payload}\n\`\`\`\n\n### Action Scope & Proof Deliverable\n${summary}\n\n### ID Pipeline (bloc format)\n- Parent: ${CATEGORY_PARENT[category] || parentCategory}\n- Subcategory bloc: ${category}\n- Suggested bloc ID: ${assignedId || "n/a"}\n- Suggested bloc wallet: ${assignedWallet || "n/a"}\n- Note: user-supplied payoutWallet retained for escrow setup; bloc assignment follows compartmentalized ranges (Charities 10000-79999, Speculative/Voting 80000-99999).` });
         window.open(`https://github.com/${GITHUB_OWNER}/${GITHUB_REPO}/issues/new?${params.toString()}`, "_blank", "noopener");
       });
       document.getElementById("ussdSendBtn").addEventListener("click", () => {

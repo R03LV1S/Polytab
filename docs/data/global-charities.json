@@ -3,15 +3,54 @@
   "updated_at": "2026-11-12T00:13:04.976Z",
   "description": "Polytab global charity master list (curated). Public organizations with public HQ locations, official websites, and social links. All entries honest-zero (fundedUSD=0, votesCount=0). No coordinates near private residences; HQ/public locations only.",
   "id_compartmentalization": {
-    "note": "Numeric IDs are compartmentalized by site-valid category blocks for structure and wallet compatibility.",
+    "version": 2,
+    "note": "Scaffolded ID identification pipeline (bloc format). Numeric IDs are compartmentalized by parent range and leaf subcategory block for structure and wallet/URL compatibility. wallet = 0x71C + zero-padded id. Never renumber existing IDs.",
+    "bloc_format": {
+      "id": "<numeric string>",
+      "url": "https://polytab.store/#<id>",
+      "wallet": "0x71C + zeroPad40hex(idNumeric)"
+    },
+    "parents": {
+      "Charities": {
+        "range": "10000-79999",
+        "description": "Verified/audited/trustworthy charity bounties (evidence-backed, honest-zero).",
+        "blocks": {
+          "Accessibility & Universal Design": 10000,
+          "Environmental": 20000,
+          "Civic Tech": 30000,
+          "Classrooms": 40000,
+          "Arts & Clubs": 45000,
+          "Campus Grounds": 60000,
+          "Athletics": 70000
+        }
+      },
+      "Speculative": {
+        "range": "80000-99999",
+        "description": "Normal Voting topics/categories (Speculative). Community outcome proposals; funds directed to designated verified recipient/foundation per verified resolution conditions. Honest-zero until real on-chain votes.",
+        "blocks": {
+          "Policy & Local Outcomes": 81000,
+          "Elections & Civic Accountability": 82000,
+          "Public Safety & Infrastructure": 83000,
+          "Global & Humanitarian Outcomes": 84000
+        },
+        "reserved": [
+          "80000-80999 (future voting blocs)",
+          "85000-99999 (future voting blocs/subcategories)"
+        ]
+      }
+    },
     "blocks": {
-      "Accessibility & Universal Design": "10001-19999",
-      "Environmental": "20001-29999",
-      "Civic Tech": "30001-39999",
-      "Classrooms": "40001-49999",
-      "Arts & Clubs": "45001-49999",
-      "Campus Grounds": "60001-69999",
-      "Athletics": "70001-79999"
+      "Accessibility & Universal Design": 10000,
+      "Environmental": 20000,
+      "Civic Tech": 30000,
+      "Classrooms": 40000,
+      "Arts & Clubs": 45000,
+      "Campus Grounds": 60000,
+      "Athletics": 70000,
+      "Policy & Local Outcomes": 81000,
+      "Elections & Civic Accountability": 82000,
+      "Public Safety & Infrastructure": 83000,
+      "Global & Humanitarian Outcomes": 84000
     }
   },
   "items": [
@@ -42,7 +81,8 @@
           "instagram": "https://www.instagram.com/who",
           "linkedin": "https://www.linkedin.com/company/world-health-organization",
           "youtube": "https://www.youtube.com/user/who"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -69,7 +109,8 @@
         "socials": {
           "x": "https://x.com/IDA_CRPD_Forum",
           "facebook": "https://www.facebook.com/InternationalDisabilityAlliance"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -97,7 +138,8 @@
           "x": "https://x.com/CBMGlobal",
           "facebook": "https://www.facebook.com/CBMGlobal",
           "linkedin": "https://www.linkedin.com/company/cbm-global-disability-inclusion"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -126,7 +168,8 @@
           "facebook": "https://www.facebook.com/HIunitedstates",
           "instagram": "https://www.instagram.com/humanity_and_inclusion",
           "linkedin": "https://www.linkedin.com/company/humanity-&-inclusion"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -156,7 +199,8 @@
           "instagram": "https://www.instagram.com/sightsavers",
           "linkedin": "https://www.linkedin.com/company/sightsavers",
           "youtube": "https://www.youtube.com/user/sightsaversTV"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -184,7 +228,8 @@
           "x": "https://x.com/lftwworldwide",
           "facebook": "https://www.facebook.com/lightfortheworldint",
           "linkedin": "https://www.linkedin.com/company/light-for-the-world"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -213,7 +258,8 @@
           "facebook": "https://www.facebook.com/FredHollows",
           "instagram": "https://www.instagram.com/fredhollows",
           "youtube": "https://www.youtube.com/user/FredHollows"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -242,7 +288,8 @@
           "facebook": "https://www.facebook.com/worldwildlifefund",
           "instagram": "https://www.instagram.com/world_wildlife",
           "youtube": "https://www.youtube.com/user/worldwildlifefund"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -271,7 +318,8 @@
           "facebook": "https://www.facebook.com/thenatureconservancy",
           "instagram": "https://www.instagram.com/nature_org",
           "linkedin": "https://www.linkedin.com/company/the-nature-conservancy"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -300,7 +348,8 @@
           "facebook": "https://www.facebook.com/conservation.intl",
           "instagram": "https://www.instagram.com/conservationorg",
           "linkedin": "https://www.linkedin.com/company/conservation-international"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -328,7 +377,8 @@
           "x": "https://x.com/OurOcean",
           "facebook": "https://www.facebook.com/oceanconservancy",
           "instagram": "https://www.instagram.com/oceanconservancy"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -357,7 +407,8 @@
           "facebook": "https://www.facebook.com/wateraid",
           "instagram": "https://www.instagram.com/wateraid",
           "youtube": "https://www.youtube.com/user/WaterAid"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -386,7 +437,8 @@
           "facebook": "https://www.facebook.com/charitywater",
           "instagram": "https://www.instagram.com/charitywater",
           "youtube": "https://www.youtube.com/user/charitywater"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -415,7 +467,8 @@
           "facebook": "https://www.facebook.com/wikimediafoundation",
           "instagram": "https://www.instagram.com/wikimediafoundation",
           "linkedin": "https://www.linkedin.com/company/wikimedia-foundation"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -444,7 +497,8 @@
           "facebook": "https://www.facebook.com/eff",
           "instagram": "https://www.instagram.com/efforg",
           "youtube": "https://www.youtube.com/user/eff"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -472,7 +526,8 @@
           "x": "https://x.com/creativecommons",
           "facebook": "https://www.facebook.com/creativecommons",
           "linkedin": "https://www.linkedin.com/company/creative-commons"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -500,7 +555,8 @@
           "x": "https://x.com/mozilla",
           "facebook": "https://www.facebook.com/mozilla",
           "instagram": "https://www.instagram.com/mozilla"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -527,7 +583,8 @@
         "socials": {
           "x": "https://x.com/internetarchive",
           "facebook": "https://www.facebook.com/internetnetarchive"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -556,7 +613,8 @@
           "facebook": "https://www.facebook.com/unicef",
           "instagram": "https://www.instagram.com/unicef",
           "youtube": "https://www.youtube.com/user/unicef"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -585,7 +643,8 @@
           "facebook": "https://www.facebook.com/savethechildren",
           "instagram": "https://www.instagram.com/savethechildren",
           "youtube": "https://www.youtube.com/user/savethechildren"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -614,7 +673,8 @@
           "facebook": "https://www.facebook.com/planinternational",
           "instagram": "https://www.instagram.com/planinternational",
           "linkedin": "https://www.linkedin.com/company/plan-international"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -642,7 +702,8 @@
           "x": "https://x.com/EduCannotWait",
           "facebook": "https://www.facebook.com/EducationCannotWait",
           "linkedin": "https://www.linkedin.com/company/education-cannot-wait"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -671,7 +732,8 @@
           "facebook": "https://www.facebook.com/PrathamEducationFoundation",
           "instagram": "https://www.instagram.com/pratham_education",
           "linkedin": "https://www.linkedin.com/company/pratham-education-foundation"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -700,7 +762,8 @@
           "facebook": "https://www.facebook.com/soschildrensvillages",
           "instagram": "https://www.instagram.com/sos_childrens_villages",
           "linkedin": "https://www.linkedin.com/company/sos-children-s-villages-international"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -729,7 +792,8 @@
           "facebook": "https://www.facebook.com/msf.english",
           "instagram": "https://www.instagram.com/doctorswithoutborders",
           "youtube": "https://www.youtube.com/user/msf"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -758,7 +822,8 @@
           "facebook": "https://www.facebook.com/icrc",
           "instagram": "https://www.instagram.com/icrc",
           "linkedin": "https://www.linkedin.com/company/icrc"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -787,7 +852,8 @@
           "facebook": "https://www.facebook.com/partnersinhealth",
           "instagram": "https://www.instagram.com/partnersinhealth",
           "youtube": "https://www.youtube.com/user/partnersinhealth"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -815,7 +881,8 @@
           "x": "https://x.com/gavi",
           "facebook": "https://www.facebook.com/gavi",
           "linkedin": "https://www.linkedin.com/company/gavi"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -844,7 +911,8 @@
           "facebook": "https://www.facebook.com/theglobalfund",
           "instagram": "https://www.instagram.com/globalfund",
           "linkedin": "https://www.linkedin.com/company/the-global-fund"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -871,7 +939,8 @@
         "socials": {
           "x": "https://x.com/AgainstMalaria",
           "facebook": "https://www.facebook.com/AgainstMalaria"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -900,7 +969,8 @@
           "facebook": "https://www.facebook.com/directrelief",
           "instagram": "https://www.instagram.com/directrelief",
           "linkedin": "https://www.linkedin.com/company/direct-relief"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -929,7 +999,8 @@
           "facebook": "https://www.facebook.com/greenpeace.international",
           "instagram": "https://www.instagram.com/greenpeace",
           "youtube": "https://www.youtube.com/user/GreenpeaceVideo"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -958,7 +1029,8 @@
           "facebook": "https://www.facebook.com/RainforestAlliance",
           "instagram": "https://www.instagram.com/rainforestalliance",
           "linkedin": "https://www.linkedin.com/company/rainforest-alliance"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -987,7 +1059,8 @@
           "facebook": "https://www.facebook.com/TheWCS",
           "instagram": "https://www.instagram.com/thewcs",
           "youtube": "https://www.youtube.com/user/WCSMedia"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -1016,7 +1089,8 @@
           "facebook": "https://www.facebook.com/amnesty",
           "instagram": "https://www.instagram.com/amnesty",
           "youtube": "https://www.youtube.com/user/AmnestyInternational"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -1045,7 +1119,8 @@
           "facebook": "https://www.facebook.com/HumanRightsWatch",
           "instagram": "https://www.instagram.com/humanrightswatch",
           "youtube": "https://www.youtube.com/user/HumanRightsWatch"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -1073,7 +1148,8 @@
           "x": "https://x.com/anticorruption",
           "facebook": "https://www.facebook.com/TransparencyInternational",
           "linkedin": "https://www.linkedin.com/company/transparency-international"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -1101,7 +1177,8 @@
           "x": "https://x.com/BRACWorld",
           "facebook": "https://www.facebook.com/BRACWorld",
           "linkedin": "https://www.linkedin.com/company/brac"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -1130,7 +1207,8 @@
           "facebook": "https://www.facebook.com/CARE",
           "instagram": "https://www.instagram.com/careorg",
           "linkedin": "https://www.linkedin.com/company/care"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -1159,7 +1237,8 @@
           "facebook": "https://www.facebook.com/oxfam",
           "instagram": "https://www.instagram.com/oxfaminternational",
           "youtube": "https://www.youtube.com/user/oxfam"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -1188,7 +1267,8 @@
           "facebook": "https://www.facebook.com/InternationalRescueCommittee",
           "instagram": "https://www.instagram.com/rescueorg",
           "youtube": "https://www.youtube.com/user/InternationalRescue"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -1217,7 +1297,8 @@
           "facebook": "https://www.facebook.com/operationsmile",
           "instagram": "https://www.instagram.com/operationsmile",
           "youtube": "https://www.youtube.com/user/operationsmile"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -1246,7 +1327,8 @@
           "facebook": "https://www.facebook.com/EnvDefenseFund",
           "instagram": "https://www.instagram.com/environmental_defense_fund",
           "linkedin": "https://www.linkedin.com/company/environmental-defense-fund"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -1274,7 +1356,8 @@
           "x": "https://x.com/TeachForAll",
           "facebook": "https://www.facebook.com/TeachForAll",
           "linkedin": "https://www.linkedin.com/company/teach-for-all"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -1302,7 +1385,8 @@
           "x": "https://x.com/lionsclubs",
           "facebook": "https://www.facebook.com/lionsclubs",
           "instagram": "https://www.instagram.com/lionsclubs"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -1330,7 +1414,8 @@
           "x": "https://x.com/RedCross",
           "facebook": "https://www.facebook.com/redcross",
           "instagram": "https://www.instagram.com/americanredcross"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -1358,7 +1443,8 @@
           "x": "https://x.com/IFRC",
           "facebook": "https://www.facebook.com/IFRC",
           "instagram": "https://www.instagram.com/ifrc"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -1387,7 +1473,8 @@
           "facebook": "https://www.facebook.com/projecthopeorg",
           "instagram": "https://www.instagram.com/projecthopeorg",
           "linkedin": "https://www.linkedin.com/company/project-hope"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -1415,7 +1502,8 @@
           "x": "https://x.com/OrbisIntl",
           "facebook": "https://www.facebook.com/orbisinternational",
           "instagram": "https://www.instagram.com/orbisintl"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -1443,7 +1531,8 @@
           "x": "https://x.com/HelenKellerIntl",
           "facebook": "https://www.facebook.com/HelenKellerIntl",
           "linkedin": "https://www.linkedin.com/company/helen-keller-international"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -1471,7 +1560,8 @@
           "x": "https://x.com/seva_foundation",
           "facebook": "https://www.facebook.com/SevaFoundation",
           "instagram": "https://www.instagram.com/sevafoundation"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -1498,7 +1588,8 @@
         "socials": {
           "x": "https://x.com/cureblindness",
           "facebook": "https://www.facebook.com/cureblindnessproject"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -1526,7 +1617,8 @@
           "x": "https://x.com/MAPIntl",
           "facebook": "https://www.facebook.com/mapintl",
           "instagram": "https://www.instagram.com/mapintl"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -1554,7 +1646,8 @@
           "x": "https://x.com/americares",
           "facebook": "https://www.facebook.com/americares",
           "instagram": "https://www.instagram.com/americares"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -1582,7 +1675,8 @@
           "x": "https://x.com/IMC_Worldwide",
           "facebook": "https://www.facebook.com/internationalmedicalcorps",
           "instagram": "https://www.instagram.com/internationalmedicalcorps"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -1610,7 +1704,8 @@
           "x": "https://x.com/PATHtweets",
           "facebook": "https://www.facebook.com/PATHglobalhealth",
           "linkedin": "https://www.linkedin.com/company/path"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -1638,7 +1733,8 @@
           "x": "https://x.com/Fistula_Fdtn",
           "facebook": "https://www.facebook.com/fistulafoundation",
           "instagram": "https://www.instagram.com/fistulafoundation"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -1666,7 +1762,8 @@
           "x": "https://x.com/EvidenceAction",
           "facebook": "https://www.facebook.com/EvidenceAction",
           "linkedin": "https://www.linkedin.com/company/evidence-action"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -1694,7 +1791,8 @@
           "x": "https://x.com/vitaminangels",
           "facebook": "https://www.facebook.com/vitaminangels",
           "instagram": "https://www.instagram.com/vitaminangels"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -1722,7 +1820,8 @@
           "x": "https://x.com/LivingGoods",
           "facebook": "https://www.facebook.com/LivingGoods",
           "linkedin": "https://www.linkedin.com/company/living-goods"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -1750,7 +1849,8 @@
           "x": "https://x.com/LastMileHealth",
           "facebook": "https://www.facebook.com/LastMileHealth",
           "instagram": "https://www.instagram.com/lastmilehealth"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -1777,7 +1877,8 @@
         "socials": {
           "x": "https://x.com/SierraClubFdn",
           "facebook": "https://www.facebook.com/SierraClubFoundation"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -1805,7 +1906,8 @@
           "x": "https://x.com/NRDC",
           "facebook": "https://www.facebook.com/nrdc.org",
           "instagram": "https://www.instagram.com/nrdc_org"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -1833,7 +1935,8 @@
           "x": "https://x.com/350",
           "facebook": "https://www.facebook.com/350.org",
           "instagram": "https://www.instagram.com/350org"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -1861,7 +1964,8 @@
           "x": "https://x.com/Earthjustice",
           "facebook": "https://www.facebook.com/Earthjustice",
           "instagram": "https://www.instagram.com/earthjustice"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -1889,7 +1993,8 @@
           "x": "https://x.com/TheOceanCleanup",
           "facebook": "https://www.facebook.com/TheOceanCleanup",
           "instagram": "https://www.instagram.com/theoceancleanup"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -1917,7 +2022,8 @@
           "x": "https://x.com/WildAid",
           "facebook": "https://www.facebook.com/WildAid",
           "instagram": "https://www.instagram.com/wildaid"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -1945,7 +2051,8 @@
           "x": "https://x.com/AWF_Official",
           "facebook": "https://www.facebook.com/AfricanWildlifeFoundation",
           "instagram": "https://www.instagram.com/awf_official"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -1973,7 +2080,8 @@
           "x": "https://x.com/janegoodallinst",
           "facebook": "https://www.facebook.com/janegoodallinstitute",
           "instagram": "https://www.instagram.com/janegoodallinst"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -2001,7 +2109,8 @@
           "x": "https://x.com/WorldResources",
           "facebook": "https://www.facebook.com/worldresources",
           "linkedin": "https://www.linkedin.com/company/world-resources-institute"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -2029,7 +2138,8 @@
           "x": "https://x.com/CleanAirTask",
           "facebook": "https://www.facebook.com/CleanAirTaskForce",
           "linkedin": "https://www.linkedin.com/company/clean-air-task-force"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -2057,7 +2167,8 @@
           "x": "https://x.com/Treesftf",
           "facebook": "https://www.facebook.com/TreesfortheFuture",
           "instagram": "https://www.instagram.com/treesforthefuture"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -2083,7 +2194,8 @@
         "website": "https://www.eden-plus.org",
         "socials": {
           "facebook": "https://www.facebook.com/edenreforestation"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -2111,7 +2223,8 @@
           "x": "https://x.com/BirdLife_Intl",
           "facebook": "https://www.facebook.com/BirdLifeInternational",
           "instagram": "https://www.instagram.com/birdlife_international"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -2139,7 +2252,8 @@
           "x": "https://x.com/WetlandsInt",
           "facebook": "https://www.facebook.com/WetlandsInternational",
           "linkedin": "https://www.linkedin.com/company/wetlands-international"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -2165,7 +2279,8 @@
         "website": "https://osmfoundation.org",
         "socials": {
           "x": "https://x.com/openstreetmap"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -2193,7 +2308,8 @@
           "x": "https://x.com/codeforamerica",
           "facebook": "https://www.facebook.com/codeforamerica",
           "linkedin": "https://www.linkedin.com/company/code-for-america"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -2221,7 +2337,8 @@
           "x": "https://x.com/RSF_inter",
           "facebook": "https://www.facebook.com/Reporterssansfrontieres",
           "instagram": "https://www.instagram.com/reporters_sans_frontieres"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -2249,7 +2366,8 @@
           "x": "https://x.com/pressfreedom",
           "facebook": "https://www.facebook.com/committeetoprotectjournalists",
           "instagram": "https://www.instagram.com/committeetoprotectjournalists"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -2277,7 +2395,8 @@
           "x": "https://x.com/accessnow",
           "facebook": "https://www.facebook.com/accessnow",
           "instagram": "https://www.instagram.com/accessnow"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -2305,7 +2424,8 @@
           "x": "https://x.com/freedomhouse",
           "facebook": "https://www.facebook.com/FreedomHouse",
           "linkedin": "https://www.linkedin.com/company/freedom-house"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -2332,7 +2452,8 @@
         "socials": {
           "x": "https://x.com/article19org",
           "facebook": "https://www.facebook.com/ARTICLE19org"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -2360,7 +2481,8 @@
           "x": "https://x.com/RefugeeAssist",
           "facebook": "https://www.facebook.com/RefugeeAssist",
           "instagram": "https://www.instagram.com/refugeeassist"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -2387,7 +2509,8 @@
         "socials": {
           "x": "https://x.com/CIVICUSalliance",
           "facebook": "https://www.facebook.com/CIVICUS"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -2415,7 +2538,8 @@
           "x": "https://x.com/GlobalGiving",
           "facebook": "https://www.facebook.com/GlobalGiving",
           "instagram": "https://www.instagram.com/globalgiving"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -2443,7 +2567,8 @@
           "x": "https://x.com/MalalaFund",
           "facebook": "https://www.facebook.com/MalalaFund",
           "instagram": "https://www.instagram.com/malalafund"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -2472,7 +2597,8 @@
           "facebook": "https://www.facebook.com/camfed",
           "instagram": "https://www.instagram.com/camfed",
           "linkedin": "https://www.linkedin.com/company/camfed"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -2500,7 +2626,8 @@
           "x": "https://x.com/theirworld",
           "facebook": "https://www.facebook.com/Theirworld",
           "instagram": "https://www.instagram.com/theirworld"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -2528,7 +2655,8 @@
           "x": "https://x.com/StreetChildUK",
           "facebook": "https://www.facebook.com/streetchilduk",
           "instagram": "https://www.instagram.com/streetchildunited"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -2556,7 +2684,8 @@
           "x": "https://x.com/buildOnEmpowers",
           "facebook": "https://www.facebook.com/buildOn",
           "instagram": "https://www.instagram.com/buildon"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -2584,7 +2713,8 @@
           "x": "https://x.com/RoomtoGrow_org",
           "facebook": "https://www.facebook.com/RoomtoGrow",
           "instagram": "https://www.instagram.com/roomtogrow_org"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -2610,7 +2740,8 @@
         "website": "https://www.shineliteracy.org.za",
         "socials": {
           "facebook": "https://www.facebook.com/ShineLiteracy"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -2638,7 +2769,8 @@
           "x": "https://x.com/LibrariesWB",
           "facebook": "https://www.facebook.com/librarieswithoutborders",
           "instagram": "https://www.instagram.com/librarieswithoutborders"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -2666,7 +2798,8 @@
           "x": "https://x.com/ShelterBox",
           "facebook": "https://www.facebook.com/ShelterBox",
           "instagram": "https://www.instagram.com/shelterbox"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -2694,7 +2827,8 @@
           "x": "https://x.com/AllHandsHearts",
           "facebook": "https://www.facebook.com/AllHandsAndHearts",
           "instagram": "https://www.instagram.com/allhandsandhearts"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -2722,7 +2856,8 @@
           "x": "https://x.com/RebldgTogthr",
           "facebook": "https://www.facebook.com/RebuildingTogether",
           "instagram": "https://www.instagram.com/rebuildingtogether"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -2750,7 +2885,8 @@
           "x": "https://x.com/RightToPlayIntl",
           "facebook": "https://www.facebook.com/righttoplay",
           "instagram": "https://www.instagram.com/righttoplayintl"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -2778,7 +2914,8 @@
           "x": "https://x.com/peaceplayersintl",
           "facebook": "https://www.facebook.com/peaceplayersintl",
           "instagram": "https://www.instagram.com/peaceplayersintl"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -2806,7 +2943,8 @@
           "x": "https://x.com/SpecialOlympics",
           "facebook": "https://www.facebook.com/SpecialOlympics",
           "instagram": "https://www.instagram.com/specialolympics"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -2834,7 +2972,8 @@
           "x": "https://x.com/TrevorProject",
           "facebook": "https://www.facebook.com/TheTrevorProject",
           "instagram": "https://www.instagram.com/trevorproject"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -2862,7 +3001,8 @@
           "x": "https://x.com/Refugees",
           "facebook": "https://www.facebook.com/UNHCR",
           "instagram": "https://www.instagram.com/refugees"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -2890,7 +3030,8 @@
           "x": "https://x.com/WFP",
           "facebook": "https://www.facebook.com/WorldFoodProgramme",
           "instagram": "https://www.instagram.com/worldfoodprogramme"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -2917,7 +3058,8 @@
         "socials": {
           "x": "https://x.com/MdM_France",
           "facebook": "https://www.facebook.com/medecinsdumonde"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -2945,7 +3087,8 @@
           "x": "https://x.com/cmmb",
           "facebook": "https://www.facebook.com/cmmb.org",
           "instagram": "https://www.instagram.com/cmmb_worldwide"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -2973,7 +3116,8 @@
           "x": "https://x.com/PSIimpact",
           "facebook": "https://www.facebook.com/PSIHealthyLives",
           "linkedin": "https://www.linkedin.com/company/population-services-international"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -3001,7 +3145,8 @@
           "x": "https://x.com/UN_Women",
           "facebook": "https://www.facebook.com/unwomen",
           "instagram": "https://www.instagram.com/unwomen"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -3029,7 +3174,8 @@
           "x": "https://x.com/FaunaFloraInt",
           "facebook": "https://www.facebook.com/FaunaandFloraInternational",
           "instagram": "https://www.instagram.com/faunafloraint"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -3057,7 +3203,8 @@
           "x": "https://x.com/IUCN",
           "facebook": "https://www.facebook.com/iucn.org",
           "linkedin": "https://www.linkedin.com/company/iucn"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -3085,7 +3232,8 @@
           "x": "https://x.com/Surfrider",
           "facebook": "https://www.facebook.com/surfrider",
           "instagram": "https://www.instagram.com/surfrider"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -3112,7 +3260,8 @@
         "socials": {
           "x": "https://x.com/FoEint",
           "facebook": "https://www.facebook.com/foeint"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -3140,7 +3289,8 @@
           "x": "https://x.com/PlasticPollutes",
           "facebook": "https://www.facebook.com/PlasticPollution",
           "instagram": "https://www.instagram.com/plasticpollutes"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -3168,7 +3318,8 @@
           "x": "https://x.com/Kiva",
           "facebook": "https://www.facebook.com/kiva",
           "instagram": "https://www.instagram.com/kiva"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -3196,7 +3347,8 @@
           "x": "https://x.com/Ashoka",
           "facebook": "https://www.facebook.com/Ashoka",
           "linkedin": "https://www.linkedin.com/company/ashoka"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -3224,7 +3376,8 @@
           "x": "https://x.com/Acumen",
           "facebook": "https://www.facebook.com/acumenfund",
           "instagram": "https://www.instagram.com/acumenorg"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -3251,7 +3404,8 @@
         "socials": {
           "x": "https://x.com/bellingcat",
           "facebook": "https://www.facebook.com/bellingcat"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -3279,7 +3433,8 @@
           "x": "https://x.com/UNESCO",
           "facebook": "https://www.facebook.com/unesco",
           "instagram": "https://www.instagram.com/unesco"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -3307,7 +3462,8 @@
           "x": "https://x.com/JAWorldwide",
           "facebook": "https://www.facebook.com/JAWorldwide",
           "linkedin": "https://www.linkedin.com/company/ja-worldwide"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -3335,7 +3491,8 @@
           "x": "https://x.com/HungerProject",
           "facebook": "https://www.facebook.com/thehungerproject",
           "instagram": "https://www.instagram.com/thehungerproject"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -3362,7 +3519,8 @@
         "socials": {
           "x": "https://x.com/barefootcollege",
           "facebook": "https://www.facebook.com/BarefootCollegeInternational"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -3390,7 +3548,8 @@
           "x": "https://x.com/UNHabitat",
           "facebook": "https://www.facebook.com/UNHabitat",
           "instagram": "https://www.instagram.com/unhabitat"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -3418,7 +3577,8 @@
           "x": "https://x.com/BuildChange",
           "facebook": "https://www.facebook.com/BuildChange",
           "linkedin": "https://www.linkedin.com/company/build-change"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -3446,7 +3606,8 @@
           "x": "https://x.com/LaureusSport",
           "facebook": "https://www.facebook.com/LaureusSport",
           "instagram": "https://www.instagram.com/laureussport"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -3474,7 +3635,8 @@
           "x": "https://x.com/WomenWin",
           "facebook": "https://www.facebook.com/WomenWin",
           "instagram": "https://www.instagram.com/womenwin"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -3502,7 +3664,8 @@
           "x": "https://x.com/WorldVision",
           "facebook": "https://www.facebook.com/WorldVision",
           "instagram": "https://www.instagram.com/worldvision"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -3530,7 +3693,8 @@
           "x": "https://x.com/IRWorldwide",
           "facebook": "https://www.facebook.com/islamicreliefworldwide",
           "instagram": "https://www.instagram.com/islamicreliefworldwide"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -3558,7 +3722,8 @@
           "x": "https://x.com/ADRAIntl",
           "facebook": "https://www.facebook.com/joinADRA",
           "instagram": "https://www.instagram.com/adraintl"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -3586,7 +3751,8 @@
           "x": "https://x.com/mercycorps",
           "facebook": "https://www.facebook.com/mercycorps",
           "instagram": "https://www.instagram.com/mercycorps"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -3614,7 +3780,8 @@
           "x": "https://x.com/NRC_Norway",
           "facebook": "https://www.facebook.com/NorwegianRefugeeCouncil",
           "linkedin": "https://www.linkedin.com/company/norwegian-refugee-council"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -3642,7 +3809,8 @@
           "x": "https://x.com/ClientEarth",
           "facebook": "https://www.facebook.com/ClientEarth",
           "linkedin": "https://www.linkedin.com/company/clientearth"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -3670,7 +3838,8 @@
           "x": "https://x.com/UCSUSA",
           "facebook": "https://www.facebook.com/unionofconcernedscientists",
           "instagram": "https://www.instagram.com/unionofconcernedscientists"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -3698,7 +3867,8 @@
           "x": "https://x.com/Rare_org",
           "facebook": "https://www.facebook.com/rare.org",
           "linkedin": "https://www.linkedin.com/company/rare"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -3726,7 +3896,8 @@
           "x": "https://x.com/BlueMarineFdn",
           "facebook": "https://www.facebook.com/BlueMarineFoundation",
           "instagram": "https://www.instagram.com/bluemarinefoundation"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -3753,7 +3924,8 @@
         "socials": {
           "x": "https://x.com/HumaneTech_",
           "linkedin": "https://www.linkedin.com/company/center-for-humane-technology"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -3780,7 +3952,8 @@
         "socials": {
           "x": "https://x.com/factchecknet",
           "facebook": "https://www.facebook.com/Poynter"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -3807,7 +3980,8 @@
         "socials": {
           "x": "https://x.com/MuckRock",
           "facebook": "https://www.facebook.com/muckrock"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -3835,7 +4009,8 @@
           "x": "https://x.com/NDI",
           "facebook": "https://www.facebook.com/National.Democratic.Institute",
           "linkedin": "https://www.linkedin.com/company/national-democratic-institute-ndi"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -3862,7 +4037,8 @@
         "socials": {
           "x": "https://x.com/AfricanLibrary",
           "facebook": "https://www.facebook.com/AfricanLibraryProject"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -3890,7 +4066,8 @@
           "x": "https://x.com/WorldLitFound",
           "facebook": "https://www.facebook.com/worldliteracyfoundation",
           "instagram": "https://www.instagram.com/worldliteracyfoundation"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -3918,7 +4095,8 @@
           "x": "https://x.com/PencilsOfPromis",
           "facebook": "https://www.facebook.com/pencilsofpromise",
           "instagram": "https://www.instagram.com/pencilsofpromise"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -3946,7 +4124,8 @@
           "x": "https://x.com/DILeducates",
           "facebook": "https://www.facebook.com/DILeducates",
           "instagram": "https://www.instagram.com/dileducates"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -3974,7 +4153,8 @@
           "x": "https://x.com/AkshayaPatra",
           "facebook": "https://www.facebook.com/TheAkshayapatraFoundation",
           "instagram": "https://www.instagram.com/theakshayapatrafoundation"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -4000,7 +4180,8 @@
         "website": "https://www.openarchitecturecollaborative.org",
         "socials": {
           "facebook": "https://www.facebook.com/OpenArchitectureCollaborative"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -4028,7 +4209,8 @@
           "x": "https://x.com/Habitat_org",
           "facebook": "https://www.facebook.com/habitat",
           "instagram": "https://www.instagram.com/habitatforhumanity"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -4056,7 +4238,8 @@
           "x": "https://x.com/UNICEFUSA",
           "facebook": "https://www.facebook.com/UNICEFUSA",
           "instagram": "https://www.instagram.com/unicefusa"
-        }
+        },
+        "parentCategory": "Charities"
       }
     },
     {
@@ -4084,7 +4267,8 @@
           "x": "https://x.com/playworks",
           "facebook": "https://www.facebook.com/Playworks",
           "instagram": "https://www.instagram.com/playworks"
-        }
+        },
+        "parentCategory": "Charities"
       }
     }
   ]
