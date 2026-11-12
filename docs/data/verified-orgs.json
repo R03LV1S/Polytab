@@ -1,13 +1,13 @@
 {
   "version": 3,
-  "updated_at": "2026-11-12T02:21:11.103Z",
+  "updated_at": "2026-11-12T03:23:26.261Z",
   "description": "Polytab verified charity master list. Captured from free public sources (ProPublica Nonprofit Explorer / IRS filings). Evidence-backed; no fabricated ratings. No coordinates or personal data.",
   "counts": {
-    "total": 345,
+    "total": 455,
     "by_tier": {
-      "transnational_vetted": 200,
+      "transnational_vetted": 300,
       "unknown": 115,
-      "official_government_register": 30
+      "official_government_register": 40
     }
   },
   "progress": {
@@ -24,10 +24,11 @@
       "food bank": 1,
       "food": 1,
       "shelter": 1,
-      "refugee": 1
+      "refugee": 1,
+      "disaster": 1
     },
-    "us_q": 7,
-    "uk_t": 7,
+    "us_q": 8,
+    "uk_t": 8,
     "ca_url": 1,
     "au_row": 600,
     "au_url": 0,
@@ -35,8 +36,8 @@
     "au_acnc_url": 0,
     "au_acnc_row": 200,
     "nz_charities_url": 0,
-    "ca_cra_url": 1,
-    "ie_charities_url": 1,
+    "ca_cra_url": 0,
+    "ie_charities_url": 0,
     "scotland_oscr_url": 0,
     "ni_charities_url": 0,
     "sg_charities_url": 0,
@@ -48,11 +49,11 @@
     "im_charities_json_url": 0,
     "je_charities_json_url": 0,
     "gg_charities_json_url": 0,
-    "fr_rna_url": 0,
-    "iati_start": 200,
-    "eu_tr_url": 0,
-    "gg_t": 2,
-    "wikidata_idx": 80
+    "fr_rna_url": 1,
+    "iati_start": 300,
+    "eu_tr_url": 1,
+    "gg_t": 3,
+    "wikidata_idx": 120
   },
   "orgs": [
     {
@@ -125,6 +126,28 @@
       "source": "IATI_Registry",
       "country": "NP",
       "continent": null,
+      "registry_id": "XI-IATI-NP-SWC-8220",
+      "registry_id_raw": "NP-SWC-8220",
+      "name": "Aapasi Sahayog Kendra Syangja Nepal (ASK Nepal)",
+      "city": null,
+      "state": "NP",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/ask",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "NP",
+      "continent": null,
       "registry_id": "XI-IATI-NP-SWC-27693",
       "registry_id_raw": "NP-SWC-27693",
       "name": "Aasaman Nepal",
@@ -168,6 +191,35 @@
         "total_expenses": 172156
       },
       "captured_at": "2026-11-12T00:36:01.716Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "continent": "North America",
+      "registry_id": "US-EIN-273770228",
+      "registry_id_raw": "273770228",
+      "name": "Aba Disaster Relief",
+      "city": "Winter Haven",
+      "state": "FL",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "official_government_register",
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/273770228",
+        "evidence": "IRS Form 990-series filing (tax year 2018)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "ein": "273770228",
+      "latest_filing": {
+        "tax_year": 2018,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=05_2019_prefixes_27-27%2F273770228_201812_990_2019052116323174.pdf"
+      },
+      "captured_at": "2026-11-12T03:23:02.469Z"
     },
     {
       "source": "IATI_Registry",
@@ -303,6 +355,28 @@
     },
     {
       "source": "IATI_Registry",
+      "country": "NL",
+      "continent": null,
+      "registry_id": "XI-IATI-NL-KVK-24428291",
+      "registry_id_raw": "NL-KVK-24428291",
+      "name": "Acacia Water",
+      "city": null,
+      "state": "NL",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/aw",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
       "country": "BE",
       "continent": null,
       "registry_id": "XI-IATI-BE-BCE_KBO-0546740696",
@@ -388,6 +462,50 @@
         "has_recent_filing": true
       },
       "captured_at": "2026-11-12T02:21:09.266Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "NL",
+      "continent": null,
+      "registry_id": "XI-IATI-NL-KVK-34185938",
+      "registry_id_raw": "NL-KVK-34185938",
+      "name": "Access to Medicine Foundation",
+      "city": null,
+      "state": "NL",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/atmf",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "NL",
+      "continent": null,
+      "registry_id": "XI-IATI-NL-KVK-70292361",
+      "registry_id_raw": "NL-KVK-70292361",
+      "name": "Access to Seeds Foundation",
+      "city": null,
+      "state": "NL",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/atsf",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
     },
     {
       "source": "IATI_Registry",
@@ -1070,6 +1188,28 @@
         "has_recent_filing": true
       },
       "captured_at": "2026-11-12T02:20:29.286Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "GB",
+      "continent": null,
+      "registry_id": "XI-IATI-GB-COH-2732176",
+      "registry_id_raw": "GB-COH-2732176",
+      "name": "Adam Smith International",
+      "city": null,
+      "state": "GB",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/asi",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
     },
     {
       "source": "IATI_Registry",
@@ -1862,6 +2002,94 @@
         "has_recent_filing": true
       },
       "captured_at": "2026-11-12T02:21:09.266Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "GH",
+      "continent": null,
+      "registry_id": "XI-IATI-GH-DSW-7992",
+      "registry_id_raw": "GH-DSW-7992",
+      "name": "African Security Sector Network",
+      "city": null,
+      "state": "GH",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/assn",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "ZA",
+      "continent": null,
+      "registry_id": "XI-IATI-XI-BRIDGE-3665722432",
+      "registry_id_raw": "XI-BRIDGE-3665722432",
+      "name": "African Tax Administration Forum",
+      "city": null,
+      "state": "ZA",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/ataf",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "KE",
+      "continent": null,
+      "registry_id": "XI-IATI-KE-NCB-90769",
+      "registry_id_raw": "KE-NCB-90769",
+      "name": "African Technology Policy Studies Network",
+      "city": null,
+      "state": "KE",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/atps",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "GH",
+      "continent": null,
+      "registry_id": "XI-IATI-GH-DSW-2046",
+      "registry_id_raw": "GH-DSW-2046",
+      "name": "African Women's Development Fund",
+      "city": null,
+      "state": "GH",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/awdf",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
     },
     {
       "source": "IATI_Registry",
@@ -2829,6 +3057,50 @@
     },
     {
       "source": "IATI_Registry",
+      "country": "AM",
+      "continent": null,
+      "registry_id": "XI-IATI-AM-SRALE-222.160.00137",
+      "registry_id_raw": "AM-SRALE-222.160.00137",
+      "name": "American University of Armenia",
+      "city": null,
+      "state": "AM",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/aua_fund",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "LB",
+      "continent": null,
+      "registry_id": "XI-IATI-XI-ROR-04pznsd21",
+      "registry_id_raw": "XI-ROR-04pznsd21",
+      "name": "American University of Beirut",
+      "city": null,
+      "state": "LB",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/auob",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
       "country": "NL",
       "continent": null,
       "registry_id": "XI-IATI-NL-KVK-40530953",
@@ -2980,6 +3252,28 @@
         "has_recent_filing": true
       },
       "captured_at": "2026-11-12T02:21:09.266Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "SN",
+      "continent": null,
+      "registry_id": "XI-IATI-SN-NINEA-004487121",
+      "registry_id_raw": "SN-NINEA-004487121",
+      "name": "Amref health Africa in Senegal",
+      "city": null,
+      "state": "SN",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/awa_sn",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
     },
     {
       "source": "IATI_Registry",
@@ -3137,6 +3431,28 @@
     },
     {
       "source": "IATI_Registry",
+      "country": "GB",
+      "continent": null,
+      "registry_id": "XI-IATI-GB-CHC-1049160",
+      "registry_id_raw": "GB-CHC-1049160",
+      "name": "Anti-Slavery International",
+      "city": null,
+      "state": "GB",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/asil",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
       "country": "KE",
       "continent": null,
       "registry_id": "XI-IATI-KE-RCO-PVT-2016-025726",
@@ -3288,6 +3604,28 @@
         "has_recent_filing": true
       },
       "captured_at": "2026-11-12T02:21:09.266Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "JO",
+      "continent": null,
+      "registry_id": "XI-IATI-JO-MSD-19700011100010",
+      "registry_id_raw": "JO-MSD-19700011100010",
+      "name": "Arab Women Organization of Jordan",
+      "city": null,
+      "state": "JO",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/awo2022",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
     },
     {
       "source": "IATI_Registry",
@@ -3537,6 +3875,28 @@
     },
     {
       "source": "IATI_Registry",
+      "country": "KE",
+      "continent": null,
+      "registry_id": "XI-IATI-KE-NCB-21805120080955572",
+      "registry_id_raw": "KE-NCB-21805120080955572",
+      "name": "Ashoka East Africa",
+      "city": null,
+      "state": "KE",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/ashoka",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
       "country": "ID",
       "continent": null,
       "registry_id": "XI-IATI-ID-DJP-312529852906000",
@@ -3600,6 +3960,50 @@
         "has_recent_filing": true
       },
       "captured_at": "2026-11-12T02:20:29.286Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": null,
+      "continent": null,
+      "registry_id": "XI-IATI-XM-DAC-46004",
+      "registry_id_raw": "XM-DAC-46004",
+      "name": "Asian Development Bank",
+      "city": null,
+      "state": null,
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/asdb",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "SE",
+      "continent": null,
+      "registry_id": "XI-IATI-SE-ON-802457-8950",
+      "registry_id_raw": "SE-ON-802457-8950",
+      "name": "Asov Stockholm",
+      "city": null,
+      "state": "SE",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/asov",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
     },
     {
       "source": "IATI_Registry",
@@ -3801,6 +4205,28 @@
     },
     {
       "source": "IATI_Registry",
+      "country": "ML",
+      "continent": null,
+      "registry_id": "XI-IATI-ML-NIF-086108989R",
+      "registry_id_raw": "ML-NIF-086108989R",
+      "name": "Association de Soutien au Développement des Activités de Population",
+      "city": null,
+      "state": "ML",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/asdap",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
       "country": "BI",
       "continent": null,
       "registry_id": "XI-IATI-BI-NIF-4001458845",
@@ -3842,6 +4268,28 @@
         "has_recent_filing": true
       },
       "captured_at": "2026-11-12T02:20:29.286Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "BD",
+      "continent": null,
+      "registry_id": "XI-IATI-BD-NAB-0203",
+      "registry_id_raw": "BD-NAB-0203",
+      "name": "Association for Prevention of Septic Abortion, Bangladesh (BAPSA)",
+      "city": null,
+      "state": "BD",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bapsa",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
     },
     {
       "source": "IATI_Registry",
@@ -3889,6 +4337,28 @@
     },
     {
       "source": "IATI_Registry",
+      "country": "US",
+      "continent": null,
+      "registry_id": "XI-IATI-US-EIN-521291786",
+      "registry_id_raw": "US-EIN-521291786",
+      "name": "Association for Women's Rights in Development (AWID)",
+      "city": null,
+      "state": "US",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/awid",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
       "country": "GB",
       "continent": null,
       "registry_id": "XI-IATI-GB-CHC-314137",
@@ -3930,6 +4400,72 @@
         "has_recent_filing": true
       },
       "captured_at": "2026-11-12T02:21:09.266Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "US",
+      "continent": null,
+      "registry_id": "XI-IATI-US-EIN-20-364204",
+      "registry_id_raw": "US-EIN-20-364204",
+      "name": "Asylum Access",
+      "city": null,
+      "state": "US",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/asylum_access",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "IN",
+      "continent": null,
+      "registry_id": "XI-IATI-IN-MCA-U74999TN2010PTC076608",
+      "registry_id_raw": "IN-MCA-U74999TN2010PTC076608",
+      "name": "Athena Infonomics India Private Limited",
+      "city": null,
+      "state": "IN",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/athena_aiipl",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "GB",
+      "continent": null,
+      "registry_id": "XI-IATI-GB-COH-01245534",
+      "registry_id_raw": "GB-COH-01245534",
+      "name": "Atos IT Services Ltd",
+      "city": null,
+      "state": "GB",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/atosuk",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
     },
     {
       "source": "IATI_Registry",
@@ -4029,6 +4565,28 @@
     },
     {
       "source": "IATI_Registry",
+      "country": "AU",
+      "continent": null,
+      "registry_id": "XI-IATI-AU-5",
+      "registry_id_raw": "AU-5",
+      "name": "Australia - Department of  Foreign Affairs and Trade",
+      "city": null,
+      "state": "AU",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/ausgov",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
       "country": "BE",
       "continent": null,
       "registry_id": "XI-IATI-BE-BCE_KBO-0408095925",
@@ -4048,6 +4606,314 @@
         "has_recent_filing": true
       },
       "captured_at": "2026-11-12T02:20:29.286Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "BE",
+      "continent": null,
+      "registry_id": "XI-IATI-BE-BCE_KBO-0423588904",
+      "registry_id_raw": "BE-BCE_KBO-0423588904",
+      "name": "Autre Terre asbl",
+      "city": null,
+      "state": "BE",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/a-t",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "BI",
+      "continent": null,
+      "registry_id": "XI-IATI-BI-NIF-4000742330",
+      "registry_id_raw": "BI-NIF-4000742330",
+      "name": "AUXFIN Burundi",
+      "city": null,
+      "state": "BI",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/auxfinbi",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "NL",
+      "continent": null,
+      "registry_id": "XI-IATI-NL-KVK-58076573",
+      "registry_id_raw": "NL-KVK-58076573",
+      "name": "AUXFIN International B.V.",
+      "city": null,
+      "state": "NL",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/auxfinintl",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "GB",
+      "continent": null,
+      "registry_id": "XI-IATI-GB-COH-06133927",
+      "registry_id_raw": "GB-COH-06133927",
+      "name": "Avanti Communications Plc",
+      "city": null,
+      "state": "GB",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/ava_admin",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "BE",
+      "continent": null,
+      "registry_id": "XI-IATI-BE-BCE_KBO-0447404580",
+      "registry_id_raw": "BE-BCE_KBO-0447404580",
+      "name": "Avocats Sans Frontières",
+      "city": null,
+      "state": "BE",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/asf",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "UG",
+      "continent": null,
+      "registry_id": "XI-IATI-UG-NGB-5914-129",
+      "registry_id_raw": "UG-NGB-5914-129",
+      "name": "AVSI FOUNDATION IN UGANDA",
+      "city": null,
+      "state": "UG",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/avsi_uganda",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "SS",
+      "continent": null,
+      "registry_id": "XI-IATI-SS-RRC-140",
+      "registry_id_raw": "SS-RRC-140",
+      "name": "AVSI South Sudan",
+      "city": null,
+      "state": "SS",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/avsi-ssd",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "LB",
+      "continent": null,
+      "registry_id": "XI-IATI-LB-MOI-853",
+      "registry_id_raw": "LB-MOI-853",
+      "name": "AVT-L Association of Victims of Terrorism Lebanon",
+      "city": null,
+      "state": "LB",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/avt-l",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "CO",
+      "continent": null,
+      "registry_id": "XI-IATI-CO-RUE-900619925-0",
+      "registry_id_raw": "CO-RUE-900619925-0",
+      "name": "Awake Travel",
+      "city": null,
+      "state": "CO",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/awaketravel",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "NL",
+      "continent": null,
+      "registry_id": "XI-IATI-NL-KVK-34106722",
+      "registry_id_raw": "NL-KVK-34106722",
+      "name": "AWEPA",
+      "city": null,
+      "state": "NL",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/awepa",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "NP",
+      "continent": null,
+      "registry_id": "XI-IATI-NP-IRD-201252183",
+      "registry_id_raw": "NP-IRD-201252183",
+      "name": "B. P. Koirala Institute of Health Sciences",
+      "city": null,
+      "state": "NP",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bpkihs_dharan",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "TZ",
+      "continent": null,
+      "registry_id": "XI-IATI-TZ-TRA-116315386",
+      "registry_id_raw": "TZ-TRA-116315386",
+      "name": "Babawatoto Centre For Children and Youth",
+      "city": null,
+      "state": "TZ",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bawacecy-tz",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "NP",
+      "continent": null,
+      "registry_id": "XI-IATI-NP-DAO-DANG-18-046_47",
+      "registry_id_raw": "NP-DAO-DANG-18-046/47",
+      "name": "Backward Society Education (BASE)",
+      "city": null,
+      "state": "NP",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/base_22",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "MK",
+      "continent": null,
+      "registry_id": "XI-IATI-MK-CR-6524710",
+      "registry_id_raw": "MK-CR-6524710",
+      "name": "Balkan Civil Society Development Network",
+      "city": null,
+      "state": "MK",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bcsdn",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
     },
     {
       "source": "US_IRS_ProPublica",
@@ -4076,6 +4942,94 @@
       "captured_at": "2026-11-12T01:32:51.508Z"
     },
     {
+      "source": "IATI_Registry",
+      "country": "HN",
+      "continent": null,
+      "registry_id": "XI-IATI-XM-DAC-46007",
+      "registry_id_raw": "XM-DAC-46007",
+      "name": "Banco Centroamericano de Integración Económica",
+      "city": null,
+      "state": "HN",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bcie",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "BD",
+      "continent": null,
+      "registry_id": "XI-IATI-XI-IATI-BBDN",
+      "registry_id_raw": "XI-IATI-BBDN",
+      "name": "Bangladesh Business and Disability Network",
+      "city": null,
+      "state": "BD",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bbdn",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "BD",
+      "continent": null,
+      "registry_id": "XI-IATI-BD-NAB-0271",
+      "registry_id_raw": "BD-NAB-0271",
+      "name": "Bangladesh Nari Progati Sangha",
+      "city": null,
+      "state": "BD",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bnps",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "BD",
+      "continent": null,
+      "registry_id": "XI-IATI-BD-ROC-S-12313",
+      "registry_id_raw": "BD-ROC-S-12313",
+      "name": "Bangladesh Primary Care Respiratory Society",
+      "city": null,
+      "state": "BD",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bpcrs",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
       "source": "US_IRS_ProPublica",
       "country": "US",
       "registry_id": "861305334",
@@ -4100,6 +5054,226 @@
         "total_expenses": 22790
       },
       "captured_at": "2026-11-12T01:32:48.296Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "TG",
+      "continent": null,
+      "registry_id": "XI-IATI-XM-DAC-46021",
+      "registry_id_raw": "XM-DAC-46021",
+      "name": "BANQUE OUEST AFRICAINE DE DEVELOPPEMENT",
+      "city": null,
+      "state": "TG",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/boadiita",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "UG",
+      "continent": null,
+      "registry_id": "XI-IATI-UG-RSB-164179",
+      "registry_id_raw": "UG-RSB-164179",
+      "name": "BAREFOOTLAW",
+      "city": null,
+      "state": "UG",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bfl",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "SE",
+      "continent": null,
+      "registry_id": "XI-IATI-SE-ON-846003-9020",
+      "registry_id_raw": "SE-ON-846003-9020",
+      "name": "Barnfonden",
+      "city": null,
+      "state": "SE",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/barnfonden",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "CH",
+      "continent": null,
+      "registry_id": "XI-IATI-CH-FDJP-CHE-109-991-002",
+      "registry_id_raw": "CH-FDJP-CHE-109-991-002",
+      "name": "Basel Institute on Governance",
+      "city": null,
+      "state": "CH",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/basel_institute",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "GB",
+      "continent": null,
+      "registry_id": "XI-IATI-GB-CHC-1079599",
+      "registry_id_raw": "GB-CHC-1079599",
+      "name": "BasicNeeds",
+      "city": null,
+      "state": "GB",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/basicneeds",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "IN",
+      "continent": null,
+      "registry_id": "XI-IATI-IN-MCA-U74900TN2013PTC093426",
+      "registry_id_raw": "IN-MCA-U74900TN2013PTC093426",
+      "name": "Basil Energetics Private Limited",
+      "city": null,
+      "state": "IN",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bepl",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "MW",
+      "continent": null,
+      "registry_id": "XI-IATI-MW-CNM-BCM-CF",
+      "registry_id_raw": "MW-CNM-BCM-CF",
+      "name": "Baylor College of Medicine Children's Foundation Malawi",
+      "city": null,
+      "state": "MW",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bcm-cf",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "GB",
+      "continent": null,
+      "registry_id": "XI-IATI-GB-CHC-1076235",
+      "registry_id_raw": "GB-CHC-1076235",
+      "name": "BBC Media Action",
+      "city": null,
+      "state": "GB",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bbcmediaaction",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "GB",
+      "continent": null,
+      "registry_id": "XI-IATI-GB-COH-07177839",
+      "registry_id_raw": "GB-COH-07177839",
+      "name": "Bboxx",
+      "city": null,
+      "state": "GB",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bboxx",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "GB",
+      "continent": null,
+      "registry_id": "XI-IATI-GB-COH-OC305127",
+      "registry_id_raw": "GB-COH-OC305127",
+      "name": "BDO LLP",
+      "city": null,
+      "state": "GB",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bdo",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
     },
     {
       "ein": "363874655",
@@ -4161,6 +5335,226 @@
       "captured_at": "2026-11-12T00:28:07.644Z"
     },
     {
+      "source": "IATI_Registry",
+      "country": "GB",
+      "continent": null,
+      "registry_id": "XI-IATI-GB-CHC-1108464",
+      "registry_id_raw": "GB-CHC-1108464",
+      "name": "Bees Abroad UK",
+      "city": null,
+      "state": "GB",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bauk",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "GB",
+      "continent": null,
+      "registry_id": "XI-IATI-GB-CHC-1078803",
+      "registry_id_raw": "GB-CHC-1078803",
+      "name": "Bees for Development Trust",
+      "city": null,
+      "state": "GB",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/beesfordevelopment",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "GB",
+      "continent": null,
+      "registry_id": "XI-IATI-GB-COH-08567792",
+      "registry_id_raw": "GB-COH-08567792",
+      "name": "Behavioural Insights Team",
+      "city": null,
+      "state": "GB",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bit",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "BE",
+      "continent": null,
+      "registry_id": "XI-IATI-XM-DAC-2-10",
+      "registry_id_raw": "XM-DAC-2-10",
+      "name": "Belgian Development Cooperation",
+      "city": null,
+      "state": "BE",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/be-dgd",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "BE",
+      "continent": null,
+      "registry_id": "XI-IATI-BE-BCE_KBO-0463729878",
+      "registry_id_raw": "BE-BCE_KBO-0463729878",
+      "name": "Benelux Afro Center",
+      "city": null,
+      "state": "BE",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bac",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "SE",
+      "continent": null,
+      "registry_id": "XI-IATI-SE-ON-802536-7759",
+      "registry_id_raw": "SE-ON-802536-7759",
+      "name": "Beredskapslyftet Ideell Förening",
+      "city": null,
+      "state": "SE",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/beredskapslyftet",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "LB",
+      "continent": null,
+      "registry_id": "XI-IATI-LB-MOI-26_AD",
+      "registry_id_raw": "LB-MOI-26_AD",
+      "name": "Berytech Foundation",
+      "city": null,
+      "state": "LB",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/berytech",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "BE",
+      "continent": null,
+      "registry_id": "XI-IATI-BE-BCE_KBO-0478060441",
+      "registry_id_raw": "BE-BCE_KBO-0478060441",
+      "name": "Beweging voor Internationale Solidariteit - Mouvement pour la Solidarité Internationale",
+      "city": null,
+      "state": "BE",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bismsi",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": null,
+      "continent": null,
+      "registry_id": "XI-IATI-KE-KRA-P052188980R",
+      "registry_id_raw": "KE-KRA-P052188980R",
+      "name": "BFA Global Kenya Ltd",
+      "city": null,
+      "state": null,
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bfa_global",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "FR",
+      "continent": null,
+      "registry_id": "XI-IATI-FR-RCS-49962201700014",
+      "registry_id_raw": "FR-RCS-49962201700014",
+      "name": "Bibliothèques Sans Frontières",
+      "city": null,
+      "state": "FR",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bsf1",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
       "source": "US_IRS_ProPublica",
       "country": "US",
       "continent": "North America",
@@ -4186,6 +5580,94 @@
         "total_expenses": 39920
       },
       "captured_at": "2026-11-12T02:04:13.193Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "GB",
+      "continent": null,
+      "registry_id": "XI-IATI-GB-SC-044007",
+      "registry_id_raw": "GB-SC-044007",
+      "name": "Bioclimate Research and Development",
+      "city": null,
+      "state": "GB",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bioclimate",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "ZW",
+      "continent": null,
+      "registry_id": "XI-IATI-XI-ROR-0130VHY65",
+      "registry_id_raw": "XI-ROR-0130VHY65",
+      "name": "Biomedical Research and Training Institute",
+      "city": null,
+      "state": "ZW",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/brti",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "ZM",
+      "continent": null,
+      "registry_id": "XI-IATI-ZM-PCR-120190005001",
+      "registry_id_raw": "ZM-PCR-120190005001",
+      "name": "Bloggers of Zambia",
+      "city": null,
+      "state": "ZM",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bloggerszm",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "GB",
+      "continent": null,
+      "registry_id": "XI-IATI-GB-CC-1098893",
+      "registry_id_raw": "GB-CC-1098893",
+      "name": "Blue Ventures Conservation",
+      "city": null,
+      "state": "GB",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/blueventures",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
     },
     {
       "ein": "131739922",
@@ -4219,6 +5701,556 @@
         "is_501c3": true
       },
       "captured_at": "2026-11-11T23:13:55.899Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "GB",
+      "continent": null,
+      "registry_id": "XI-IATI-GB-CHC-1068839",
+      "registry_id_raw": "GB-CHC-1068839",
+      "name": "Bond",
+      "city": null,
+      "state": "GB",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bond",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "NL",
+      "continent": null,
+      "registry_id": "XI-IATI-NL-KVK-50744984",
+      "registry_id_raw": "NL-KVK-50744984",
+      "name": "BoP Innovation Center",
+      "city": null,
+      "state": "NL",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bopinc",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "ID",
+      "continent": null,
+      "registry_id": "XI-IATI-ID-DJP-730720232711000",
+      "registry_id_raw": "ID-DJP-730720232711000",
+      "name": "Borneo Nature Foundation",
+      "city": null,
+      "state": "ID",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bnf",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "BE",
+      "continent": null,
+      "registry_id": "XI-IATI-BE-BCE_KBO-0479222461",
+      "registry_id_raw": "BE-BCE_KBO-0479222461",
+      "name": "BOS+ tropen",
+      "city": null,
+      "state": "BE",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bos_plus_tropen",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "GB",
+      "continent": null,
+      "registry_id": "XI-IATI-GB-COH-OC359103",
+      "registry_id_raw": "GB-COH-OC359103",
+      "name": "Boston Consulting Group UK LLP",
+      "city": null,
+      "state": "GB",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bcg",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "US",
+      "continent": null,
+      "registry_id": "XI-IATI-US-EIN-04-2103547",
+      "registry_id_raw": "US-EIN-04-2103547",
+      "name": "Boston University",
+      "city": null,
+      "state": "US",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bu-carbx-admin",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "NL",
+      "continent": null,
+      "registry_id": "XI-IATI-NL-KVK-41210098",
+      "registry_id_raw": "NL-KVK-41210098",
+      "name": "Both ENDS",
+      "city": null,
+      "state": "NL",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bothends",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "GB",
+      "continent": null,
+      "registry_id": "XI-IATI-GB-UKPRN-10000824",
+      "registry_id_raw": "GB-UKPRN-10000824",
+      "name": "Bournemouth University Higher Education Corporation",
+      "city": null,
+      "state": "GB",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bournemouth_university",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "BD",
+      "continent": null,
+      "registry_id": "XI-IATI-BD-NAB-002",
+      "registry_id_raw": "BD-NAB-002",
+      "name": "BRAC",
+      "city": null,
+      "state": "BD",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/brac_admin2",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "GB",
+      "continent": null,
+      "registry_id": "XI-IATI-GB-CHC-1115482",
+      "registry_id_raw": "GB-CHC-1115482",
+      "name": "BRAC UK",
+      "city": null,
+      "state": "GB",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bracuk",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "BD",
+      "continent": null,
+      "registry_id": "XI-IATI-XI-GRID-grid.52681.38",
+      "registry_id_raw": "XI-GRID-grid.52681.38",
+      "name": "BRAC University",
+      "city": null,
+      "state": "BD",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bu",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "GB",
+      "continent": null,
+      "registry_id": "XI-IATI-GB-COH-11116719",
+      "registry_id_raw": "GB-COH-11116719",
+      "name": "Brink Innovation",
+      "city": null,
+      "state": "GB",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/brink_innovation",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "SE",
+      "continent": null,
+      "registry_id": "XI-IATI-SE-ON-802013-3420",
+      "registry_id_raw": "SE-ON-802013-3420",
+      "name": "Bris, Barnens rätt i samhället",
+      "city": null,
+      "state": "SE",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bris",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "GB",
+      "continent": null,
+      "registry_id": "XI-IATI-GB-CHC-1135700",
+      "registry_id_raw": "GB-CHC-1135700",
+      "name": "British & Irish Agencies Afghanistan Group",
+      "city": null,
+      "state": "GB",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/baag",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "GB",
+      "continent": null,
+      "registry_id": "XI-IATI-GB-CHC-1127366",
+      "registry_id_raw": "GB-CHC-1127366",
+      "name": "British Asian Trust",
+      "city": null,
+      "state": "GB",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/b_a_t",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "GB",
+      "continent": null,
+      "registry_id": "XI-IATI-GB-CHC-209131",
+      "registry_id_raw": "GB-CHC-209131",
+      "name": "British Council",
+      "city": null,
+      "state": "GB",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/britishcouncil",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "GB",
+      "continent": null,
+      "registry_id": "XI-IATI-GB-COH-03877777",
+      "registry_id_raw": "GB-COH-03877777",
+      "name": "British International Investment plc",
+      "city": null,
+      "state": "GB",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bii",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "BE",
+      "continent": null,
+      "registry_id": "XI-IATI-BE-BCE_KBO-0418088113",
+      "registry_id_raw": "BE-BCE_KBO-0418088113",
+      "name": "Broederlijk Delen",
+      "city": null,
+      "state": "BE",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bd",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "CO",
+      "continent": null,
+      "registry_id": "XI-IATI-CO-RUE-830140714-1",
+      "registry_id_raw": "CO-RUE-830140714-1",
+      "name": "Brujula Comunicaciones Estrategicas SAS",
+      "city": null,
+      "state": "CO",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/brujula",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "BE",
+      "continent": null,
+      "registry_id": "XI-IATI-BE-BCE_KBO-0451516390",
+      "registry_id_raw": "BE-BCE_KBO-0451516390",
+      "name": "Brulocalis",
+      "city": null,
+      "state": "BE",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/brulocalis",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "US",
+      "continent": null,
+      "registry_id": "XI-IATI-US-EIN-52-1764268",
+      "registry_id_raw": "US-EIN-52-1764268",
+      "name": "BSR",
+      "city": null,
+      "state": "US",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bsr_admin",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "UG",
+      "continent": null,
+      "registry_id": "XI-IATI-UG-NGB-10890",
+      "registry_id_raw": "UG-NGB-10890",
+      "name": "Bucks Community NGO",
+      "city": null,
+      "state": "UG",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bucksfarm",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "YE",
+      "continent": null,
+      "registry_id": "XI-IATI-YE-MSAL-220",
+      "registry_id_raw": "YE-MSAL-220",
+      "name": "Building Foundation for Development",
+      "city": null,
+      "state": "YE",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bfdyemen",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "BI",
+      "continent": null,
+      "registry_id": "XI-IATI-BI-NIF-4000450306",
+      "registry_id_raw": "BI-NIF-4000450306",
+      "name": "Burundi Leadership Training Programme",
+      "city": null,
+      "state": "BI",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bltp",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "GB",
+      "continent": null,
+      "registry_id": "XI-IATI-GB-CHC-297716",
+      "registry_id_raw": "GB-CHC-297716",
+      "name": "Business in the Community",
+      "city": null,
+      "state": "GB",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bitc",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
     },
     {
       "ein": "300087852",
@@ -4896,6 +6928,35 @@
       "captured_at": "2026-11-12T02:19:59.651Z"
     },
     {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "continent": "North America",
+      "registry_id": "US-EIN-922124497",
+      "registry_id_raw": "922124497",
+      "name": "Collier Disaster Alliance",
+      "city": "Naples",
+      "state": "FL",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "official_government_register",
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/922124497",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "ein": "922124497",
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F922124497_202312_990_2024070522668052.pdf"
+      },
+      "captured_at": "2026-11-12T03:22:59.159Z"
+    },
+    {
       "source": "IATI_Registry",
       "country": "BJ",
       "continent": null,
@@ -5028,6 +7089,50 @@
       "captured_at": "2026-11-12T02:21:09.266Z"
     },
     {
+      "source": "IATI_Registry",
+      "country": "BJ",
+      "continent": null,
+      "registry_id": "XI-IATI-BJ-IFU-6201300688700",
+      "registry_id_raw": "BJ-IFU-6201300688700",
+      "name": "Commune de Avrankou - Bénin",
+      "city": null,
+      "state": "BJ",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/avrankou",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "BJ",
+      "continent": null,
+      "registry_id": "XI-IATI-BJ-IFU-6200901944209",
+      "registry_id_raw": "BJ-IFU-6200901944209",
+      "name": "Commune de Bopa - Bénin",
+      "city": null,
+      "state": "BJ",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bopa",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
       "source": "US_IRS_ProPublica",
       "country": "US",
       "registry_id": "751813170",
@@ -5104,6 +7209,35 @@
         "total_expenses": 882758
       },
       "captured_at": "2026-11-12T00:36:00.007Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "continent": "North America",
+      "registry_id": "US-EIN-473837240",
+      "registry_id_raw": "473837240",
+      "name": "Comprehensive Disaster Relief",
+      "city": "Millsboro",
+      "state": "DE",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "official_government_register",
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/473837240",
+        "evidence": "IRS Form 990-series filing (tax year 2020)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "ein": "473837240",
+      "latest_filing": {
+        "tax_year": 2020,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_10_2022_prefixes_47-51%2F473837240_202012_990_2022102520545006.pdf"
+      },
+      "captured_at": "2026-11-12T03:22:59.484Z"
     },
     {
       "ein": "200746202",
@@ -5225,6 +7359,151 @@
         "has_recent_filing": true
       },
       "captured_at": "2026-11-12T02:21:09.266Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "continent": "North America",
+      "registry_id": "US-EIN-453303894",
+      "registry_id_raw": "453303894",
+      "name": "Disaster & Victim Services",
+      "city": "Daphne",
+      "state": "AL",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "official_government_register",
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/453303894",
+        "evidence": "IRS Form 990-series filing (tax year 2016)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "ein": "453303894",
+      "latest_filing": {
+        "tax_year": 2016,
+        "form_type": "1",
+        "pdf_url": null
+      },
+      "captured_at": "2026-11-12T03:23:05.857Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "continent": "North America",
+      "registry_id": "US-EIN-261270154",
+      "registry_id_raw": "261270154",
+      "name": "Disaster Accountability Project",
+      "city": "Rockville",
+      "state": "MD",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "official_government_register",
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/261270154",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "ein": "261270154",
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": "1",
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F261270154_202312_990EZ_2024070522661258.pdf"
+      },
+      "captured_at": "2026-11-12T03:23:03.667Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "continent": "North America",
+      "registry_id": "US-EIN-275301542",
+      "registry_id_raw": "275301542",
+      "name": "Disaster Anesthesia Inc",
+      "city": "Charleston",
+      "state": "SC",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "official_government_register",
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/275301542",
+        "evidence": "IRS Form 990-series filing (tax year 2020)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "ein": "275301542",
+      "latest_filing": {
+        "tax_year": 2020,
+        "form_type": "1",
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_08_2022_prefixes_26-31%2F275301542_202012_990EZ_2022080820272863.pdf"
+      },
+      "captured_at": "2026-11-12T03:23:04.027Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "continent": "North America",
+      "registry_id": "US-EIN-814863674",
+      "registry_id_raw": "814863674",
+      "name": "Disaster Leadership Team",
+      "city": "Pateros",
+      "state": "WA",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "official_government_register",
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/814863674",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "ein": "814863674",
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": "1",
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F814863674_202312_990EZ_2025040823311700.pdf"
+      },
+      "captured_at": "2026-11-12T03:23:01.531Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "continent": "North America",
+      "registry_id": "US-EIN-881838207",
+      "registry_id_raw": "881838207",
+      "name": "Disaster Sources Inc",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "official_government_register",
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/881838207",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "ein": "881838207",
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": "1",
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_05_2024_prefixes_86-88%2F881838207_202312_990EZ_2024052322421860.pdf"
+      },
+      "captured_at": "2026-11-12T03:23:01.068Z"
     },
     {
       "source": "US_IRS_ProPublica",
@@ -5962,6 +8241,50 @@
       "captured_at": "2026-11-12T02:21:09.266Z"
     },
     {
+      "source": "IATI_Registry",
+      "country": "US",
+      "continent": null,
+      "registry_id": "XI-IATI-DAC-1601",
+      "registry_id_raw": "DAC-1601",
+      "name": "Gates Foundation",
+      "city": null,
+      "state": "US",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bmgf",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "DE",
+      "continent": null,
+      "registry_id": "XI-IATI-DE-1",
+      "registry_id_raw": "DE-1",
+      "name": "Germany - Ministry for Economic Cooperation and Development",
+      "city": null,
+      "state": "DE",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bmz",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
       "ein": "825084102",
       "name": "Hammer Out Pediatric Cancer Corp",
       "city": "Charleston",
@@ -6202,6 +8525,28 @@
     },
     {
       "source": "IATI_Registry",
+      "country": "DE",
+      "continent": null,
+      "registry_id": "XI-IATI-XI-IATI-IKI",
+      "registry_id_raw": "XI-IATI-IKI",
+      "name": "International Climate Initiative (IKI) / BMUKN",
+      "city": null,
+      "state": "DE",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bmu_iki",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
       "country": "US",
       "continent": null,
       "registry_id": "XI-IATI-US-EIN-262681792",
@@ -6335,6 +8680,35 @@
         "total_expenses": 139301
       },
       "captured_at": "2026-11-12T00:36:01.274Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "continent": "North America",
+      "registry_id": "US-EIN-611958893",
+      "registry_id_raw": "611958893",
+      "name": "Liberty Disaster Relief",
+      "city": "Liberty",
+      "state": "MO",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "official_government_register",
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/611958893",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "ein": "611958893",
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": "1",
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F611958893_202312_990EZ_2024070222644178.pdf"
+      },
+      "captured_at": "2026-11-12T03:23:02.154Z"
     },
     {
       "source": "US_IRS_ProPublica",
@@ -6844,6 +9218,35 @@
       "captured_at": "2026-11-11T23:13:45.238Z"
     },
     {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "continent": "North America",
+      "registry_id": "US-EIN-936038023",
+      "registry_id_raw": "936038023",
+      "name": "Paisley Disaster Unit",
+      "city": "Paisley",
+      "state": "OR",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "official_government_register",
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/936038023",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "ein": "936038023",
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": "1",
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_05_2024_prefixes_92-94%2F936038023_202312_990EZ_2024052922450177.pdf"
+      },
+      "captured_at": "2026-11-12T03:23:02.983Z"
+    },
+    {
       "ein": "464807923",
       "name": "Pediatric Cancer Action Network",
       "city": "Lincoln",
@@ -7100,6 +9503,28 @@
         "total_expenses": 8152835
       },
       "captured_at": "2026-11-12T01:32:52.326Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "BF",
+      "continent": null,
+      "registry_id": "XI-IATI-BF-MATD-118884808RR0001",
+      "registry_id_raw": "BF-MATD-118884808RR0001",
+      "name": "Radios Rurales Internationales",
+      "city": null,
+      "state": "BF",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/bfrri",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
     },
     {
       "source": "US_IRS_ProPublica",
@@ -8136,6 +10561,28 @@
       "source": "IATI_Registry",
       "country": "NL",
       "continent": null,
+      "registry_id": "XI-IATI-NL-KVK-58279199",
+      "registry_id_raw": "NL-KVK-58279199",
+      "name": "The Access to Nutrition Foundation",
+      "city": null,
+      "state": "NL",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/atnf",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "NL",
+      "continent": null,
       "registry_id": "XI-IATI-NL-KVK-72908114",
       "registry_id_raw": "NL-KVK-72908114",
       "name": "The AGRI3 Fund",
@@ -8285,6 +10732,28 @@
         "total_expenses": 318191
       },
       "captured_at": "2026-11-12T00:28:08.008Z"
+    },
+    {
+      "source": "IATI_Registry",
+      "country": "GB",
+      "continent": null,
+      "registry_id": "XI-IATI-GB-GOV-13",
+      "registry_id_raw": "GB-GOV-13",
+      "name": "UK - Department for Business, Energy and Industrial Strategy (BEIS)",
+      "city": null,
+      "state": "GB",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/beis",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
     },
     {
       "source": "US_IRS_ProPublica",
@@ -8566,6 +11035,28 @@
       "captured_at": "2026-11-12T01:32:50.291Z"
     },
     {
+      "source": "IATI_Registry",
+      "country": "MU",
+      "continent": null,
+      "registry_id": "XI-IATI-MU-CR-C191439",
+      "registry_id_raw": "MU-CR-C191439",
+      "name": "West Africa Blue",
+      "city": null,
+      "state": "MU",
+      "website": null,
+      "lat": null,
+      "lng": null,
+      "verification": {
+        "tier": "transnational_vetted",
+        "source": "IATI Registry (International Aid Transparency Initiative publishers)",
+        "source_url": "https://iatiregistry.org/publisher/blue",
+        "evidence": "Registered IATI publisher/organisation record linked to official reporting (IATI open data)",
+        "independently_filed": true,
+        "has_recent_filing": true
+      },
+      "captured_at": "2026-11-12T03:23:24.432Z"
+    },
+    {
       "ein": "474894726",
       "name": "Whip Pediatric Cancer Inc",
       "city": "Hauppauge",
@@ -8715,14 +11206,14 @@
   ],
   "sources": {
     "US_IRS_ProPublica": {
-      "last_run": "2026-11-12T02:20:52.899Z",
-      "last_added": 12,
-      "last_fetched": 12,
+      "last_run": "2026-11-12T03:23:06.252Z",
+      "last_added": 10,
+      "last_fetched": 10,
       "last_updated": 0,
       "status": "ok"
     },
     "UK_CharityCommission": {
-      "last_run": "2026-11-12T02:20:54.319Z",
+      "last_run": "2026-11-12T03:23:07.632Z",
       "last_added": 0,
       "last_fetched": 0,
       "status": "degraded_endpoint",
@@ -8730,7 +11221,7 @@
       "last_updated": 0
     },
     "CA_CRA_Charities": {
-      "last_run": "2026-11-12T02:21:00.173Z",
+      "last_run": "2026-11-12T03:23:14.974Z",
       "last_added": 0,
       "last_fetched": 0,
       "status": "degraded_endpoint",
@@ -8738,7 +11229,7 @@
       "last_updated": 0
     },
     "AU_ACNC": {
-      "last_run": "2026-11-12T02:20:55.887Z",
+      "last_run": "2026-11-12T03:23:11.036Z",
       "last_added": 0,
       "last_fetched": 0,
       "status": "degraded_endpoint",
@@ -8746,7 +11237,7 @@
       "last_updated": 0
     },
     "NZ_Charities": {
-      "last_run": "2026-11-12T02:20:59.149Z",
+      "last_run": "2026-11-12T03:23:13.951Z",
       "last_added": 0,
       "last_fetched": 0,
       "status": "degraded_endpoint",
@@ -8754,7 +11245,7 @@
       "last_updated": 0
     },
     "IE_CharitiesRegulator": {
-      "last_run": "2026-11-12T02:21:00.983Z",
+      "last_run": "2026-11-12T03:23:16.000Z",
       "last_added": 0,
       "last_fetched": 0,
       "status": "degraded_endpoint",
@@ -8762,7 +11253,7 @@
       "last_updated": 0
     },
     "UK_OSCR_Scotland": {
-      "last_run": "2026-11-12T02:21:01.684Z",
+      "last_run": "2026-11-12T03:23:16.657Z",
       "last_added": 0,
       "last_fetched": 0,
       "status": "degraded_endpoint",
@@ -8770,7 +11261,7 @@
       "last_updated": 0
     },
     "UK_CharityCommissionNI": {
-      "last_run": "2026-11-12T02:21:03.006Z",
+      "last_run": "2026-11-12T03:23:18.443Z",
       "last_added": 0,
       "last_fetched": 0,
       "status": "degraded_endpoint",
@@ -8778,7 +11269,7 @@
       "last_updated": 0
     },
     "SG_CharityPortal": {
-      "last_run": "2026-11-12T02:21:05.556Z",
+      "last_run": "2026-11-12T03:23:21.144Z",
       "last_added": 0,
       "last_fetched": 0,
       "status": "degraded_endpoint",
@@ -8823,13 +11314,13 @@
     "FR_RNA_Associations": {
       "status": "degraded_endpoint",
       "last_error": "no reachable/valid open data",
-      "last_run": "2026-11-12T02:21:07.681Z",
+      "last_run": "2026-11-12T03:23:23.077Z",
       "last_added": 0,
       "last_updated": 0,
       "last_fetched": 0
     },
     "IATI_Registry": {
-      "last_run": "2026-11-12T02:21:09.266Z",
+      "last_run": "2026-11-12T03:23:24.432Z",
       "last_added": 100,
       "last_updated": 0,
       "last_fetched": 100,
@@ -8838,7 +11329,7 @@
     "EU_TransparencyRegister": {
       "status": "degraded_endpoint",
       "last_error": "no reachable/valid open data",
-      "last_run": "2026-11-12T02:21:10.405Z",
+      "last_run": "2026-11-12T03:23:25.539Z",
       "last_added": 0,
       "last_updated": 0,
       "last_fetched": 0
@@ -8846,14 +11337,14 @@
     "GlobalGiving_OpenData": {
       "status": "degraded_endpoint",
       "last_error": "HTTP 401",
-      "last_run": "2026-11-12T02:21:11.097Z",
+      "last_run": "2026-11-12T03:23:26.255Z",
       "last_added": 0,
       "last_updated": 0,
       "last_fetched": 0
     },
     "Wikidata_Enrichment": {
       "status": "ok",
-      "last_run": "2026-11-12T02:21:11.097Z",
+      "last_run": "2026-11-12T03:23:26.256Z",
       "last_enriched": 0
     }
   }
