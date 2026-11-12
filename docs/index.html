@@ -227,7 +227,10 @@
           </div>
         </div>
       </div>
-      <div id="proposalsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" aria-live="polite"></div>
+      <div id="proposalsFrame" class="bg-zinc-900/40 border border-zinc-800 rounded-2xl p-4 sm:p-5 space-y-4 hc-card">
+        <div id="proposalsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" aria-live="polite"></div>
+        <div id="proposalsPagination" class="flex flex-wrap items-center justify-center gap-2 pt-2 border-t border-zinc-800 text-xs font-mono"></div>
+      </div>
     </section>
 
     <section id="tab-map" class="tab-panel hidden space-y-4">
@@ -638,6 +641,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       const PARENTS = [PARENT_CHARITIES, PARENT_SPECULATIVE, PARENT_VOTING];
       const PARENT_CATEGORIES = { [PARENT_CHARITIES]: CHARITY_CATEGORIES, [PARENT_SPECULATIVE]: SPECULATIVE_CATEGORIES, [PARENT_VOTING]: VOTING_CATEGORIES };
       const CATEGORIES = ["ALL"].concat(CHARITY_CATEGORIES).concat(SPECULATIVE_CATEGORIES).concat(VOTING_CATEGORIES);
+      const PAGE_SIZE = 6;
       const FALLBACK_PROPOSALS = [
         { id: "1", title: "Science Lab Wheelchair-Accessible Station & Lowered Bench", parentCategory: "Charities", category: "Accessibility & Universal Design", location: "Science Wing / Room 204", summary: "Retrofit Station #1 in Chemistry Lab B with an adjustable-height ADA workbench, accessible sink controls, and clear knee clearance.", plainSummary: "What is broken: Chemistry lab tables are too high for wheelchair users.\nWhat will be done: Install a height-adjustable lab desk.\nProof: Photo of installed desk co-signed by student accessibility council.", votePriceUSD: 0.50, targetUSD: 65.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000101", status: "Active", lat: null, lng: null, website: null, socials: {} },
         { id: "2", title: "North Stadium Bleacher Power-Wash & Handrail Repaint", parentCategory: "Charities", category: "Athletics", location: "North Field / Bleachers", summary: "Clear debris under visitor bleachers, pressure-wash aluminum benches, and apply rust-oleate safety yellow paint to stair handrails.", plainSummary: "What is broken: Stadium bleachers are dirty and handrails are rusty.\nWhat will be done: Power-wash seats and paint stair rails bright yellow.\nProof: Before and after photos posted to RSS feed.", votePriceUSD: 0.50, targetUSD: 45.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000102", status: "Active", lat: null, lng: null, website: null, socials: {} },
@@ -993,6 +997,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
               PARENTS.forEach((p) => { state.expandedParents[p] = (p === parent); });
               state.selectedCategory = parent;
             }
+            state.page = 1;
             renderCategoryPills();
             renderProposalsGrid();
           });
@@ -1006,9 +1011,9 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           const cats = PARENT_CATEGORIES[parent] || [];
           const subWrap = document.createElement("div");
           subWrap.className = "w-full flex flex-wrap items-center gap-1.5 p-2 rounded-lg bg-black/20 border border-zinc-800/70";
-          subWrap.appendChild(mkBtn(parent, "All " + parent, () => { state.selectedCategory = parent; renderCategoryPills(); renderProposalsGrid(); }));
+          subWrap.appendChild(mkBtn(parent, "All " + parent, () => { state.selectedCategory = parent; state.page = 1; renderCategoryPills(); renderProposalsGrid(); }));
           cats.forEach((c) => {
-            subWrap.appendChild(mkBtn(c, c, () => { state.selectedCategory = c; renderCategoryPills(); renderProposalsGrid(); }));
+            subWrap.appendChild(mkBtn(c, c, () => { state.selectedCategory = c; state.page = 1; renderCategoryPills(); renderProposalsGrid(); }));
           });
           topSection.appendChild(subWrap);
         });
@@ -1045,6 +1050,11 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           if (Number.isFinite(ia) && Number.isFinite(ib) && ia !== ib) return ia - ib;
           return 0;
         });
+        const pager = document.getElementById("proposalsPagination");
+        if (pager) pager.replaceChildren();
+        const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+        if (!Number.isFinite(state.page) || state.page < 1) state.page = 1;
+        if (state.page > totalPages) state.page = totalPages;
         if (filtered.length === 0) {
           const emptyBox = document.createElement("div");
           emptyBox.className = "col-span-full bg-zinc-900/40 border border-zinc-800 rounded-2xl p-8 text-center text-zinc-400 text-sm";
@@ -1052,7 +1062,9 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           grid.appendChild(emptyBox);
           return;
         }
-        filtered.forEach((item) => {
+        const startIdx = (state.page - 1) * PAGE_SIZE;
+        const pageItems = filtered.slice(startIdx, startIdx + PAGE_SIZE);
+        pageItems.forEach((item) => {
           const pct = Math.min(Math.round((item.fundedUSD / item.targetUSD) * 100), 100);
           const card = document.createElement("article");
           card.className = "bg-zinc-900/60 border border-zinc-800 hover:border-zinc-700 rounded-2xl p-5 flex flex-col justify-between space-y-4 transition shadow-lg hc-card";
@@ -1225,36 +1237,33 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           card.appendChild(bottomDiv);
           grid.appendChild(card);
         });
-        if (pager) {
-          const totalPages2 = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
-          if (totalPages2 > 1) {
-            const makeBtn = (label, target, disabled, active) => {
-              const b = document.createElement("button");
-              b.type = "button";
-              b.textContent = label;
-              b.disabled = !!disabled;
-              b.className = active
-                ? "px-3 py-1.5 rounded-lg text-xs font-bold bg-purple-700 text-white hc-btn"
-                : "px-3 py-1.5 rounded-lg text-xs font-medium bg-black hover:bg-zinc-800 text-zinc-300 border border-zinc-800 transition disabled:opacity-40 disabled:cursor-not-allowed";
-              b.setAttribute("aria-label", typeof label === "string" ? label : "Page");
-              if (!disabled) b.addEventListener("click", () => { state.page = target; renderProposalsGrid(); const f = document.getElementById("proposalsFrame"); if (f) f.scrollIntoView({behavior:"smooth", block:"start"}); });
-              return b;
-            };
-            pager.appendChild(makeBtn("Prev", state.page - 1, state.page <= 1, false));
-            const windowSize = 5;
-            let sP = Math.max(1, state.page - Math.floor(windowSize / 2));
-            let eP = Math.min(totalPages2, sP + windowSize - 1);
-            if (eP - sP + 1 < windowSize) sP = Math.max(1, eP - windowSize + 1);
-            const addDots = () => { const d=document.createElement("span"); d.className="text-zinc-600 px-1 text-xs"; d.textContent="…"; pager.appendChild(d); };
-            if (sP > 1) { pager.appendChild(makeBtn("1", 1, false, state.page === 1)); if (sP > 2) addDots(); }
-            for (let p = sP; p <= eP; p++) { pager.appendChild(makeBtn(String(p), p, false, state.page === p)); }
-            if (eP < totalPages2) { if (eP < totalPages2 - 1) addDots(); pager.appendChild(makeBtn(String(totalPages2), totalPages2, false, state.page === totalPages2)); }
-            pager.appendChild(makeBtn("Next", state.page + 1, state.page >= totalPages2, false));
-            const info = document.createElement("span");
-            info.className = "text-[11px] text-zinc-400 font-mono px-2";
-            info.textContent = "Page " + state.page + " of " + totalPages2 + " (" + filtered.length + " bounties)";
-            pager.appendChild(info);
-          }
+        if (pager && totalPages > 1) {
+          const makeBtn = (label, target, disabled, active) => {
+            const b = document.createElement("button");
+            b.type = "button";
+            b.textContent = label;
+            b.disabled = !!disabled;
+            b.className = active
+              ? "px-3 py-1.5 rounded-lg text-xs font-bold bg-purple-700 text-white hc-btn"
+              : "px-3 py-1.5 rounded-lg text-xs font-medium bg-black hover:bg-zinc-800 text-zinc-300 border border-zinc-800 transition disabled:opacity-40 disabled:cursor-not-allowed";
+            b.setAttribute("aria-label", typeof label === "string" ? label : "Page");
+            if (!disabled) b.addEventListener("click", () => { state.page = target; renderProposalsGrid(); const f = document.getElementById("proposalsFrame"); if (f) f.scrollIntoView({behavior:"smooth", block:"start"}); });
+            return b;
+          };
+          pager.appendChild(makeBtn("Prev", state.page - 1, state.page <= 1, false));
+          const windowSize = 5;
+          let sP = Math.max(1, state.page - Math.floor(windowSize / 2));
+          let eP = Math.min(totalPages, sP + windowSize - 1);
+          if (eP - sP + 1 < windowSize) sP = Math.max(1, eP - windowSize + 1);
+          const addDots = () => { const d=document.createElement("span"); d.className="text-zinc-600 px-1 text-xs"; d.textContent="…"; pager.appendChild(d); };
+          if (sP > 1) { pager.appendChild(makeBtn("1", 1, false, state.page === 1)); if (sP > 2) addDots(); }
+          for (let p = sP; p <= eP; p++) { pager.appendChild(makeBtn(String(p), p, false, state.page === p)); }
+          if (eP < totalPages) { if (eP < totalPages - 1) addDots(); pager.appendChild(makeBtn(String(totalPages), totalPages, false, state.page === totalPages)); }
+          pager.appendChild(makeBtn("Next", state.page + 1, state.page >= totalPages, false));
+          const info = document.createElement("span");
+          info.className = "text-[11px] text-zinc-400 font-mono px-2";
+          info.textContent = "Page " + state.page + " of " + totalPages + " (" + filtered.length + " bounties)";
+          pager.appendChild(info);
         }
       }
       function openActionModal(proposal) {
@@ -1452,8 +1461,8 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         e.currentTarget.setAttribute("aria-pressed", String(state.liteMode));
         document.body.classList.toggle("lite-mode", state.liteMode);
       });
-      document.getElementById("searchInput").addEventListener("input", (e) => { state.searchQuery = e.target.value; renderProposalsGrid(); });
-      document.getElementById("statusFilter").addEventListener("change", (e) => { state.selectedStatus = e.target.value; renderProposalsGrid(); });
+      document.getElementById("searchInput").addEventListener("input", (e) => { state.searchQuery = e.target.value; state.page = 1; renderProposalsGrid(); });
+      document.getElementById("statusFilter").addEventListener("change", (e) => { state.selectedStatus = e.target.value; state.page = 1; renderProposalsGrid(); });
       document.getElementById("connectWalletBtn").addEventListener("click", async (e) => {
         const btn = e.currentTarget;
         if (typeof window.ethereum === "undefined") { alert("No browser Web3 wallet detected. You can still vote via QR codes, ZK-Email, or SMS!"); return; }
