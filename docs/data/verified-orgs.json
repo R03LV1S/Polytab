@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "updated_at": "2026-11-12T00:36:19.503Z",
+  "updated_at": "2026-11-12T01:33:06.670Z",
   "description": "Polytab verified charity master list. Captured from free public sources (ProPublica Nonprofit Explorer / IRS filings). Evidence-backed; no fabricated ratings. No coordinates or personal data.",
   "counts": {
-    "total": 72
+    "total": 96
   },
   "progress": {
     "query_index": 2,
@@ -15,14 +15,15 @@
     "us_pages": {
       "children disability": 0,
       "pediatric cancer": 1,
-      "disaster relief": 1
+      "disaster relief": 1,
+      "food bank": 1
     },
-    "us_q": 3,
-    "uk_t": 3,
-    "ca_url": 0,
-    "au_row": 450,
+    "us_q": 4,
+    "uk_t": 4,
+    "ca_url": 1,
+    "au_row": 600,
     "au_url": 0,
-    "nz_url": 0
+    "nz_url": 1
   },
   "orgs": [
     {
@@ -177,6 +178,110 @@
       "captured_at": "2026-11-12T00:28:04.755Z"
     },
     {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "911215485",
+      "ein": "911215485",
+      "name": "Auburn Food Bank",
+      "city": "Auburn",
+      "state": "WA",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/911215485",
+        "evidence": "IRS Form 990-series filing (tax year 2022)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2022,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F911215485_202206_990_2023061221443942.pdf",
+        "total_revenue": 4729419,
+        "total_expenses": 4820489
+      },
+      "captured_at": "2026-11-12T01:32:53.928Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "10545734",
+      "ein": "10545734",
+      "name": "Augusta Food Bank",
+      "city": "Augusta",
+      "state": "ME",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/10545734",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F010545734_202312_990_2025021023082699.pdf",
+        "total_revenue": 2302198,
+        "total_expenses": 2257679
+      },
+      "captured_at": "2026-11-12T01:32:55.115Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "911428805",
+      "ein": "911428805",
+      "name": "Ballard Food Bank",
+      "city": "Seattle",
+      "state": "WA",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/911428805",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": null,
+        "total_revenue": 10284381,
+        "total_expenses": 10169535
+      },
+      "captured_at": "2026-11-12T01:32:51.508Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "861305334",
+      "ein": "861305334",
+      "name": "Bank Street Food Bank",
+      "city": "Louisville",
+      "state": "KY",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/861305334",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": "1",
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_05_2024_prefixes_85-86%2F861305334_202312_990EZ_2024052122398463.pdf",
+        "total_revenue": 13325,
+        "total_expenses": 22790
+      },
+      "captured_at": "2026-11-12T01:32:48.296Z"
+    },
+    {
       "ein": "363874655",
       "name": "Bear Necessities Pediatric Cancer Foundation",
       "city": "Chicago",
@@ -326,6 +431,32 @@
         "total_expenses": 2358490
       },
       "captured_at": "2026-11-12T00:28:06.824Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "271286258",
+      "ein": "271286258",
+      "name": "Chesterfield Food Bank",
+      "city": "Chester",
+      "state": "VA",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/271286258",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": null,
+        "total_revenue": 7626876,
+        "total_expenses": 7001691
+      },
+      "captured_at": "2026-11-12T01:32:53.185Z"
     },
     {
       "ein": "231409677",
@@ -818,6 +949,58 @@
     {
       "source": "US_IRS_ProPublica",
       "country": "US",
+      "registry_id": "751813170",
+      "ein": "751813170",
+      "name": "Community Food Bank",
+      "city": "Fort Worth",
+      "state": "TX",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/751813170",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F751813170_202312_990_2024061022503807.pdf",
+        "total_revenue": 22327930,
+        "total_expenses": 22523412
+      },
+      "captured_at": "2026-11-12T01:32:50.679Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "840817696",
+      "ein": "840817696",
+      "name": "Community Food Bank",
+      "city": "Grand Jct",
+      "state": "CO",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/840817696",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F840817696_202305_990_2024042322370908.pdf",
+        "total_revenue": 992096,
+        "total_expenses": 1003958
+      },
+      "captured_at": "2026-11-12T01:32:57.314Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
       "registry_id": "473837240",
       "ein": "473837240",
       "name": "Comprehensive Disaster Relief",
@@ -941,6 +1124,58 @@
       "captured_at": "2026-11-11T23:13:54.772Z"
     },
     {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "842209131",
+      "ein": "842209131",
+      "name": "Edmonds Food Bank",
+      "city": "Edmonds",
+      "state": "WA",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/842209131",
+        "evidence": "IRS Form 990-series filing (tax year 2024)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2024,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F842209131_202406_990_2025021023088749.pdf",
+        "total_revenue": 3497016,
+        "total_expenses": 3736729
+      },
+      "captured_at": "2026-11-12T01:32:54.327Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "680002165",
+      "ein": "680002165",
+      "name": "Emergency Food Bank",
+      "city": "Stockton",
+      "state": "CA",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/680002165",
+        "evidence": "IRS Form 990-series filing (tax year 2024)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2024,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F680002165_202406_990_2025020623074752.pdf",
+        "total_revenue": 14763650,
+        "total_expenses": 13717572
+      },
+      "captured_at": "2026-11-12T01:32:51.931Z"
+    },
+    {
       "ein": "452861060",
       "name": "Endure To Cure Pediatric Cancer Foundation",
       "city": "Wilmington",
@@ -1035,6 +1270,32 @@
     {
       "source": "US_IRS_ProPublica",
       "country": "US",
+      "registry_id": "911166240",
+      "ein": "911166240",
+      "name": "Ferndale Food Bank",
+      "city": "Ferndale",
+      "state": "WA",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/911166240",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_03_2024_prefixes_86-99%2F911166240_202306_990_2024030522310081.pdf",
+        "total_revenue": 1617783,
+        "total_expenses": 1525740
+      },
+      "captured_at": "2026-11-12T01:32:56.414Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
       "registry_id": "851890487",
       "ein": "851890487",
       "name": "Flex Disaster Relief",
@@ -1057,6 +1318,58 @@
         "total_expenses": 0
       },
       "captured_at": "2026-11-12T00:36:04.299Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "20738229",
+      "ein": "20738229",
+      "name": "Food Share Food Bank",
+      "city": "Newton",
+      "state": "TX",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/20738229",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": "1",
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_05_2024_prefixes_01-06%2F020738229_202312_990EZ_2024052122399026.pdf",
+        "total_revenue": 30727,
+        "total_expenses": 41498
+      },
+      "captured_at": "2026-11-12T01:32:47.882Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "860619725",
+      "ein": "860619725",
+      "name": "Foothills Food Bank",
+      "city": "Carefree",
+      "state": "AZ",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/860619725",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F860619725_202312_990_2025020323069625.pdf",
+        "total_revenue": 6547554,
+        "total_expenses": 5656382
+      },
+      "captured_at": "2026-11-12T01:32:52.749Z"
     },
     {
       "ein": "42156082",
@@ -1149,6 +1462,32 @@
         "total_expenses": 27673
       },
       "captured_at": "2026-11-12T00:28:10.093Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "742181456",
+      "ein": "742181456",
+      "name": "Houston Food Bank",
+      "city": "Houston",
+      "state": "TX",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/742181456",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_05_2024_prefixes_62-74%2F742181456_202306_990_2024050722387215.pdf",
+        "total_revenue": 298504285,
+        "total_expenses": 314899919
+      },
+      "captured_at": "2026-11-12T01:32:48.705Z"
     },
     {
       "ein": "844609095",
@@ -1335,6 +1674,84 @@
       "captured_at": "2026-11-11T23:13:36.042Z"
     },
     {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "841642388",
+      "ein": "841642388",
+      "name": "Lynnwood Food Bank",
+      "city": "Lynnwood",
+      "state": "WA",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/841642388",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": null,
+        "total_revenue": 6325051,
+        "total_expenses": 6085088
+      },
+      "captured_at": "2026-11-12T01:32:55.932Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "581514800",
+      "ein": "581514800",
+      "name": "Manna Food Bank",
+      "city": "Mills River",
+      "state": "NC",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/581514800",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F581514800_202306_990_2024061122523245.pdf",
+        "total_revenue": 37885817,
+        "total_expenses": 36358884
+      },
+      "captured_at": "2026-11-12T01:32:49.511Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "920150918",
+      "ein": "920150918",
+      "name": "Matsu Food Bank",
+      "city": "Wasilla",
+      "state": "AK",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/920150918",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F920150918_202312_990_2025031423211448.pdf",
+        "total_revenue": 2836507,
+        "total_expenses": 1343054
+      },
+      "captured_at": "2026-11-12T01:32:56.861Z"
+    },
+    {
       "ein": "752428911",
       "name": "Methodist Childrens Hospital",
       "city": "Lubbock",
@@ -1517,6 +1934,32 @@
         "is_501c3": true
       },
       "captured_at": "2026-11-11T23:14:01.389Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "721028539",
+      "ein": "721028539",
+      "name": "Northshore Food Bank",
+      "city": "Covington",
+      "state": "LA",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/721028539",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F721028539_202312_990_2025021123089265.pdf",
+        "total_revenue": 2979358,
+        "total_expenses": 2369142
+      },
+      "captured_at": "2026-11-12T01:32:54.741Z"
     },
     {
       "ein": "208533395",
@@ -1762,6 +2205,58 @@
       "captured_at": "2026-11-12T00:28:03.058Z"
     },
     {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "237259739",
+      "ein": "237259739",
+      "name": "Puyallup Food Bank",
+      "city": "Puyallup",
+      "state": "WA",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/237259739",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F237259739_202312_990_2025030723165874.pdf",
+        "total_revenue": 7976067,
+        "total_expenses": 8152835
+      },
+      "captured_at": "2026-11-12T01:32:52.326Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "471654162",
+      "ein": "471654162",
+      "name": "Sahuarita Food Bank",
+      "city": "Sahuarita",
+      "state": "AZ",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/471654162",
+        "evidence": "IRS Form 990-series filing (tax year 2024)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2024,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F471654162_202406_990_2025041023349557.pdf",
+        "total_revenue": 4876358,
+        "total_expenses": 4788863
+      },
+      "captured_at": "2026-11-12T01:32:53.551Z"
+    },
+    {
       "ein": "208768920",
       "name": "Seattle Childrens Hospital",
       "city": "Seattle",
@@ -1927,6 +2422,32 @@
       "captured_at": "2026-11-11T23:13:53.268Z"
     },
     {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "911215709",
+      "ein": "911215709",
+      "name": "Sequim Food Bank",
+      "city": "Sequim",
+      "state": "WA",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/911215709",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F911215709_202312_990_2025022423121877.pdf",
+        "total_revenue": 2157519,
+        "total_expenses": 2007816
+      },
+      "captured_at": "2026-11-12T01:32:55.538Z"
+    },
+    {
       "ein": "842269112",
       "name": "Sloth Foundation For Pediatric Cancer",
       "city": "San Jose",
@@ -2085,6 +2606,58 @@
       "captured_at": "2026-11-12T00:28:08.008Z"
     },
     {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "860505273",
+      "ein": "860505273",
+      "name": "United Food Bank",
+      "city": "Mesa",
+      "state": "AZ",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/860505273",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_03_2024_prefixes_74-86%2F860505273_202306_990_2024031222315171.pdf",
+        "total_revenue": 45985490,
+        "total_expenses": 43611598
+      },
+      "captured_at": "2026-11-12T01:32:49.909Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "870212453",
+      "ein": "870212453",
+      "name": "Utah Food Bank",
+      "city": "S Salt Lake",
+      "state": "UT",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/870212453",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_05_2024_prefixes_86-88%2F870212453_202306_990_2024051722396137.pdf",
+        "total_revenue": 144925638,
+        "total_expenses": 132939559
+      },
+      "captured_at": "2026-11-12T01:32:49.102Z"
+    },
+    {
       "ein": "941294954",
       "name": "Valley Childrens Hospital",
       "city": "Madera",
@@ -2184,6 +2757,32 @@
       "captured_at": "2026-11-11T23:13:33.681Z"
     },
     {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "742244826",
+      "ein": "742244826",
+      "name": "Weld Food Bank",
+      "city": "Greeley",
+      "state": "CO",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/742244826",
+        "evidence": "IRS Form 990-series filing (tax year 2024)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2024,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F742244826_202406_990_2025041023345891.pdf",
+        "total_revenue": 25594470,
+        "total_expenses": 25854904
+      },
+      "captured_at": "2026-11-12T01:32:50.291Z"
+    },
+    {
       "ein": "474894726",
       "name": "Whip Pediatric Cancer Inc",
       "city": "Hauppauge",
@@ -2274,31 +2873,57 @@
         "is_501c3": true
       },
       "captured_at": "2026-11-11T23:13:43.565Z"
+    },
+    {
+      "source": "US_IRS_ProPublica",
+      "country": "US",
+      "registry_id": "237111782",
+      "ein": "237111782",
+      "name": "Yolo Food Bank",
+      "city": "Woodland",
+      "state": "CA",
+      "website": null,
+      "verification": {
+        "source": "ProPublica Nonprofit Explorer (IRS EO BMF + Form 990/990-EZ/990-PF)",
+        "source_url": "https://projects.propublica.org/nonprofits/organizations/237111782",
+        "evidence": "IRS Form 990-series filing (tax year 2023)",
+        "independently_filed": true,
+        "has_recent_filing": true,
+        "is_501c3": true
+      },
+      "latest_filing": {
+        "tax_year": 2023,
+        "form_type": null,
+        "pdf_url": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F237111782_202306_990_2024040522345095.pdf",
+        "total_revenue": 23338085,
+        "total_expenses": 23350748
+      },
+      "captured_at": "2026-11-12T01:32:51.082Z"
     }
   ],
   "sources": {
     "US_IRS_ProPublica": {
-      "last_run": "2026-11-12T00:36:09.595Z",
-      "last_added": 4,
-      "last_fetched": 4
+      "last_run": "2026-11-12T01:32:57.314Z",
+      "last_added": 24,
+      "last_fetched": 24
     },
     "UK_CharityCommission": {
-      "last_run": "2026-11-12T00:36:11.218Z",
+      "last_run": "2026-11-12T01:32:58.898Z",
       "last_added": 0,
       "last_fetched": 0
     },
     "CA_CRA_Charities": {
-      "last_run": "2026-11-12T00:36:12.348Z",
+      "last_run": "2026-11-12T01:33:00.001Z",
       "last_added": 0,
       "last_fetched": 0
     },
     "AU_ACNC": {
-      "last_run": "2026-11-12T00:36:15.582Z",
+      "last_run": "2026-11-12T01:33:02.557Z",
       "last_added": 0,
       "last_fetched": 0
     },
     "NZ_Charities": {
-      "last_run": "2026-11-12T00:36:19.498Z",
+      "last_run": "2026-11-12T01:33:06.643Z",
       "last_added": 0,
       "last_fetched": 0
     }
