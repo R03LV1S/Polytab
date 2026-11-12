@@ -966,23 +966,24 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           return btn;
         };
 
-        // "All Categories" and parent toggles (top of box) with hide-able sub-sections beneath
+        // "All Categories" and parent toggles (top of box) with hide-able sub-sections beneath (compact layout)
         const topSection = document.createElement("div");
-        topSection.className = "w-full flex flex-col items-center gap-2";
+        topSection.className = "w-full flex flex-col gap-2";
 
-        const allRow = document.createElement("div");
-        allRow.className = "w-full flex justify-center";
-        allRow.appendChild(mkBtn("ALL", "All Categories", () => {
+        const mainRow = document.createElement("div");
+        mainRow.className = "w-full flex flex-wrap items-center gap-2";
+        mainRow.appendChild(mkBtn("ALL", "All Categories", () => {
           PARENTS.forEach((p) => { state.expandedParents[p] = false; });
           state.selectedCategory = "ALL";
           renderCategoryPills();
           renderProposalsGrid();
         }));
-        topSection.appendChild(allRow);
 
-        // Centered parent toggles: Charities, Speculative, Voting
-        const toggleRow = document.createElement("div");
-        toggleRow.className = "w-full flex justify-center items-center gap-2 flex-wrap";
+        const sep = document.createElement("span");
+        sep.className = "hidden sm:inline text-zinc-700 text-xs px-1";
+        sep.textContent = "|";
+        mainRow.appendChild(sep);
+
         PARENTS.forEach((parent) => {
           const expanded = !!state.expandedParents[parent];
           const parentActive = state.selectedCategory === parent || (state.selectedCategory !== "ALL" && (PARENT_CATEGORIES[parent] || []).includes(state.selectedCategory));
@@ -1005,29 +1006,26 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
             renderCategoryPills();
             renderProposalsGrid();
           });
-          toggleRow.appendChild(pbtn);
+          mainRow.appendChild(pbtn);
         });
-        topSection.appendChild(toggleRow);
+        topSection.appendChild(mainRow);
 
-        // Sub-sections for the expanded parent (hide-able)
+        // Sub-sections for the expanded parent (hide-able), compact strip
         PARENTS.forEach((parent) => {
           if (!state.expandedParents[parent]) return;
           const cats = PARENT_CATEGORIES[parent] || [];
           const subWrap = document.createElement("div");
-          subWrap.className = "w-full flex flex-col items-center gap-1.5 pt-1";
-          const subRow = document.createElement("div");
-          subRow.className = "w-full flex justify-center items-center gap-1.5 flex-wrap";
-          subRow.appendChild(mkBtn(parent, "All " + parent, () => { state.selectedCategory = parent; renderCategoryPills(); renderProposalsGrid(); }));
+          subWrap.className = "w-full flex flex-wrap items-center gap-1.5 p-2 rounded-lg bg-black/20 border border-zinc-800/70";
+          subWrap.appendChild(mkBtn(parent, "All " + parent, () => { state.selectedCategory = parent; renderCategoryPills(); renderProposalsGrid(); }));
           cats.forEach((c) => {
-            subRow.appendChild(mkBtn(c, c, () => { state.selectedCategory = c; renderCategoryPills(); renderProposalsGrid(); }));
+            subWrap.appendChild(mkBtn(c, c, () => { state.selectedCategory = c; renderCategoryPills(); renderProposalsGrid(); }));
           });
-          subWrap.appendChild(subRow);
           topSection.appendChild(subWrap);
         });
         bar.appendChild(topSection);
 
         const hint = document.createElement("p");
-        hint.className = "w-full text-center text-[10px] text-zinc-500 mt-1";
+        hint.className = "w-full text-[10px] text-zinc-500";
         const snap = state.endorsementsSnapshotStatus;
         hint.textContent = "Verified endorsements = unique GitHub users per bounty from the public issue ledger snapshot (anti-spam, deduped, $0). " +
           (snap === "loaded" ? "Snapshot loaded (honest, no fabricated counts)." : snap === "loading" ? "Loading verified snapshot…" : "Verified snapshot unavailable.") +
