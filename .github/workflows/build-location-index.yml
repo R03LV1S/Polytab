@@ -1,0 +1,38 @@
+name: Build Location Index
+
+on:
+  schedule:
+    - cron: "17 3 * * *"  # daily, staggered (free on public repo)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-location-index
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Build location index from free GeoNames dumps
+        run: node scripts/build-location-index.js
+      - name: Commit location index
+        run: |
+          git config user.name "polytab-bot"
+          git config user.email "polytab-bot@users.noreply.github.com"
+          git add docs/data/location-index.json
+          if git diff --cached --quiet; then
+            echo "No location index changes"
+            exit 0
+          fi
+          git commit -m "Location index: refresh from GeoNames (daily, free)"
+          git pull --rebase --autostash origin main
+          git push

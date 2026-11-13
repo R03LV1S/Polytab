@@ -1680,32 +1680,59 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         sortSel.value = state.sortBy || "default";
         sortSel.addEventListener("change", (e) => { state.sortBy = e.target.value || "default"; state.page = 1; renderProposalsGrid(); });
       }
-      const _LOC_COUNTRIES = [["AF","Afghanistan"],["AL","Albania"],["DZ","Algeria"],["AS","American Samoa"],["AD","Andorra"],["AO","Angola"],["AI","Anguilla"],["AQ","Antarctica"],["AG","Antigua and Barbuda"],["AR","Argentina"],["AM","Armenia"],["AW","Aruba"],["AU","Australia"],["AT","Austria"],["AZ","Azerbaijan"],["BS","Bahamas"],["BH","Bahrain"],["BD","Bangladesh"],["BB","Barbados"],["BY","Belarus"],["BE","Belgium"],["BZ","Belize"],["BJ","Benin"],["BM","Bermuda"],["BT","Bhutan"],["BO","Bolivia"],["BA","Bosnia and Herzegovina"],["BW","Botswana"],["BR","Brazil"],["BN","Brunei"],["BG","Bulgaria"],["BF","Burkina Faso"],["BI","Burundi"],["KH","Cambodia"],["CM","Cameroon"],["CA","Canada"],["CV","Cabo Verde"],["KY","Cayman Islands"],["CF","Central African Republic"],["TD","Chad"],["CL","Chile"],["CN","China"],["CO","Colombia"],["KM","Comoros"],["CG","Congo"],["CD","Congo (DRC)"],["CR","Costa Rica"],["CI","Côte d'Ivoire"],["HR","Croatia"],["CU","Cuba"],["CY","Cyprus"],["CZ","Czechia"],["DK","Denmark"],["DJ","Djibouti"],["DM","Dominica"],["DO","Dominican Republic"],["EC","Ecuador"],["EG","Egypt"],["SV","El Salvador"],["GQ","Equatorial Guinea"],["ER","Eritrea"],["EE","Estonia"],["SZ","Eswatini"],["ET","Ethiopia"],["FJ","Fiji"],["FI","Finland"],["FR","France"],["GA","Gabon"],["GM","Gambia"],["GE","Georgia"],["DE","Germany"],["GH","Ghana"],["GR","Greece"],["GD","Grenada"],["GT","Guatemala"],["GN","Guinea"],["GW","Guinea-Bissau"],["GY","Guyana"],["HT","Haiti"],["HN","Honduras"],["HK","Hong Kong"],["HU","Hungary"],["IS","Iceland"],["IN","India"],["ID","Indonesia"],["IR","Iran"],["IQ","Iraq"],["IE","Ireland"],["IL","Israel"],["IT","Italy"],["JM","Jamaica"],["JP","Japan"],["JO","Jordan"],["KZ","Kazakhstan"],["KE","Kenya"],["KI","Kiribati"],["KP","North Korea"],["KR","South Korea"],["KW","Kuwait"],["KG","Kyrgyzstan"],["LA","Laos"],["LV","Latvia"],["LB","Lebanon"],["LS","Lesotho"],["LR","Liberia"],["LY","Libya"],["LI","Liechtenstein"],["LT","Lithuania"],["LU","Luxembourg"],["MO","Macao"],["MG","Madagascar"],["MW","Malawi"],["MY","Malaysia"],["MV","Maldives"],["ML","Mali"],["MT","Malta"],["MH","Marshall Islands"],["MR","Mauritania"],["MU","Mauritius"],["MX","Mexico"],["FM","Micronesia"],["MD","Moldova"],["MC","Monaco"],["MN","Mongolia"],["ME","Montenegro"],["MA","Morocco"],["MZ","Mozambique"],["MM","Myanmar"],["NA","Namibia"],["NR","Nauru"],["NP","Nepal"],["NL","Netherlands"],["NZ","New Zealand"],["NI","Nicaragua"],["NE","Niger"],["NG","Nigeria"],["MK","North Macedonia"],["NO","Norway"],["OM","Oman"],["PK","Pakistan"],["PW","Palau"],["PS","Palestine"],["PA","Panama"],["PG","Papua New Guinea"],["PY","Paraguay"],["PE","Peru"],["PH","Philippines"],["PL","Poland"],["PT","Portugal"],["PR","Puerto Rico"],["QA","Qatar"],["RO","Romania"],["RU","Russia"],["RW","Rwanda"],["KN","Saint Kitts and Nevis"],["LC","Saint Lucia"],["VC","Saint Vincent and the Grenadines"],["WS","Samoa"],["SM","San Marino"],["ST","Sao Tome and Principe"],["SA","Saudi Arabia"],["SN","Senegal"],["RS","Serbia"],["SC","Seychelles"],["SL","Sierra Leone"],["SG","Singapore"],["SK","Slovakia"],["SI","Slovenia"],["SB","Solomon Islands"],["SO","Somalia"],["ZA","South Africa"],["SS","South Sudan"],["ES","Spain"],["LK","Sri Lanka"],["SD","Sudan"],["SR","Suriname"],["SE","Sweden"],["CH","Switzerland"],["SY","Syria"],["TW","Taiwan"],["TJ","Tajikistan"],["TZ","Tanzania"],["TH","Thailand"],["TL","Timor-Leste"],["TG","Togo"],["TO","Tonga"],["TT","Trinidad and Tobago"],["TN","Tunisia"],["TR","Turkey"],["TM","Turkmenistan"],["TV","Tuvalu"],["UG","Uganda"],["UA","Ukraine"],["AE","United Arab Emirates"],["GB","United Kingdom"],["US","United States"],["UY","Uruguay"],["UZ","Uzbekistan"],["VU","Vanuatu"],["VA","Vatican City"],["VE","Venezuela"],["VN","Vietnam"],["YE","Yemen"],["ZM","Zambia"],["ZW","Zimbabwe"]];
-      const _LOC_US = [["AL","Alabama"],["AK","Alaska"],["AZ","Arizona"],["AR","Arkansas"],["CA","California"],["CO","Colorado"],["CT","Connecticut"],["DE","Delaware"],["DC","District of Columbia"],["FL","Florida"],["GA","Georgia"],["HI","Hawaii"],["ID","Idaho"],["IL","Illinois"],["IN","Indiana"],["IA","Iowa"],["KS","Kansas"],["KY","Kentucky"],["LA","Louisiana"],["ME","Maine"],["MD","Maryland"],["MA","Massachusetts"],["MI","Michigan"],["MN","Minnesota"],["MS","Mississippi"],["MO","Missouri"],["MT","Montana"],["NE","Nebraska"],["NV","Nevada"],["NH","New Hampshire"],["NJ","New Jersey"],["NM","New Mexico"],["NY","New York"],["NC","North Carolina"],["ND","North Dakota"],["OH","Ohio"],["OK","Oklahoma"],["OR","Oregon"],["PA","Pennsylvania"],["RI","Rhode Island"],["SC","South Carolina"],["SD","South Dakota"],["TN","Tennessee"],["TX","Texas"],["UT","Utah"],["VT","Vermont"],["VA","Virginia"],["WA","Washington"],["WV","West Virginia"],["WI","Wisconsin"],["WY","Wyoming"],["PR","Puerto Rico"],["GU","Guam"],["VI","U.S. Virgin Islands"],["AS","American Samoa (US)"],["MP","Northern Mariana Islands"]];
-      const _LOC_CA = [["AB","Alberta"],["BC","British Columbia"],["MB","Manitoba"],["NB","New Brunswick"],["NL","Newfoundland and Labrador"],["NS","Nova Scotia"],["NT","Northwest Territories"],["NU","Nunavut"],["ON","Ontario"],["PE","Prince Edward Island"],["QC","Quebec"],["SK","Saskatchewan"],["YT","Yukon"]];
-      const _LOC_AU = [["NSW","New South Wales"],["VIC","Victoria"],["QLD","Queensland"],["WA","Western Australia"],["SA","South Australia"],["TAS","Tasmania"],["ACT","Australian Capital Territory"],["NT","Northern Territory (AU)"]];
-      const _LOC_CITIES = ["Tampa","Tallahassee","Tacoma","Taipei","Tallinn","Tashkent","Tbilisi","Tehran","Tel Aviv","Tempe","Toledo","Tucson","Tulsa","Turin","Florence","Flint","Flagstaff","Fresno","Frankfurt","Fukuoka","Fortaleza","Florianópolis","Fairfax","Fayetteville","Fort Worth","Fort Lauderdale","Fargo","Farmington","Frederick","Falls Church","Florissant","Folsom","Fontana","Los Angeles","New York","Chicago","Houston","Phoenix","Philadelphia","San Antonio","San Diego","Dallas","San Jose","Austin","Jacksonville","San Francisco","Seattle","Denver","Boston","Atlanta","Miami","Detroit","Orlando","Portland","Sacramento","Charlotte","Nashville","Baltimore","Milwaukee","Kansas City","Las Vegas","Minneapolis","Cleveland","Raleigh","Pittsburgh","Cincinnati","London","Paris","Berlin","Madrid","Rome","Toronto","Vancouver","Montreal","Sydney","Melbourne","Brisbane","Perth","Tokyo","Osaka","Seoul","Beijing","Shanghai","Mumbai","Delhi","Bangalore","Mexico City","São Paulo","Buenos Aires","Lima","Bogotá","Santiago","Cairo","Lagos","Nairobi","Johannesburg","Dubai","Istanbul","Moscow","Warsaw","Prague","Vienna","Zurich","Amsterdam","Dublin","Stockholm","Copenhagen","Oslo","Helsinki","Calgary","Edmonton","Ottawa","Winnipeg","Hamilton","Quebec City","Halifax","Madison","Memphis","Mesa","Mobile","Montgomery","Monterrey","Munich","Manchester","Marseille","Medellín","Manila"];
-      const _LOC_ITEMS = [];
-      _LOC_COUNTRIES.forEach(([c,n]) => { _LOC_ITEMS.push({label:c+" - "+n, value:c, code:c, name:n, kind:"country"}); _LOC_ITEMS.push({label:n, value:n, code:c, name:n, kind:"country"}); });
-      _LOC_US.forEach(([c,n]) => { _LOC_ITEMS.push({label:c+" - "+n+" (US)", value:c, code:c, name:n, kind:"state", country:"United States"}); _LOC_ITEMS.push({label:n, value:n, code:c, name:n, kind:"state", country:"United States"}); });
-      _LOC_CA.forEach(([c,n]) => { _LOC_ITEMS.push({label:c+" - "+n+" (CA)", value:n, code:c, name:n, kind:"province", country:"Canada"}); _LOC_ITEMS.push({label:n, value:n, code:c, name:n, kind:"province", country:"Canada"}); });
-      _LOC_AU.forEach(([c,n]) => { _LOC_ITEMS.push({label:c+" - "+n+" (AU)", value:n, code:c, name:n, kind:"state", country:"Australia"}); _LOC_ITEMS.push({label:n, value:n, code:c, name:n, kind:"state", country:"Australia"}); });
-      _LOC_CITIES.forEach(n => _LOC_ITEMS.push({label:n, value:n, code:"", name:n, kind:"city"}));
-      const _LOC_SEEN = new Set();
-      const _LOC_UNIQ = _LOC_ITEMS.filter(it => { const k = it.label.toLowerCase(); if (_LOC_SEEN.has(k)) return false; _LOC_SEEN.add(k); return true; });
+      // Location suggestions: static index (generated daily by GitHub Actions from free GeoNames) + adaptive live Nominatim
+      let _LOC_UNIQ = [];
+      function _buildLocItemsFromIndex(idx) {
+        const items = [];
+        if (!idx) return items;
+        (idx.countries || []).forEach(c => {
+          const code = String(c.c||"").toUpperCase(); const name = String(c.n||"");
+          if (!code || !name) return;
+          items.push({label: code+" - "+name, value: code, code, name, kind:"country", country:name});
+          items.push({label: name, value: name, code, name, kind:"country", country:name});
+        });
+        (idx.admin1 || []).forEach(a => {
+          const code = String(a.c||""); const name = String(a.n||""); const ascii = String(a.a||name); const cc = String(a.cc||"").toUpperCase(); const cn = String(a.cn||cc);
+          if (!name || !cc) return;
+          const disp = name + (cn ? (", "+cn) : "");
+          if (code) items.push({label: code+" - "+disp, value: name, code, name, kind:"state", country:cn, countryCode:cc});
+          items.push({label: disp, value: name, code, name, kind:"state", country:cn, countryCode:cc});
+          if (ascii && ascii !== name) items.push({label: ascii+", "+cn, value: ascii, code, name:ascii, kind:"state", country:cn, countryCode:cc});
+        });
+        (idx.cities || []).forEach(c => {
+          const name = String(c.n||""); const ascii = String(c.a||name); const cc = String(c.cc||"").toUpperCase(); const cn = String(c.cn||cc); const st = String(c.s||"");
+          if (!name) return;
+          const tail = (st ? (", "+st) : "") + (cn ? (", "+cn) : "");
+          items.push({label: name+tail, value: name, code:"", name, kind:"city", country:cn, countryCode:cc, state:st});
+          if (ascii && ascii !== name) items.push({label: ascii+tail, value: ascii, code:"", name:ascii, kind:"city", country:cn, countryCode:cc, state:st});
+        });
+        const seen = new Set();
+        return items.filter(it => { const k = String(it.label||"").toLowerCase(); if (seen.has(k)) return false; seen.add(k); return true; });
+      }
+      async function _loadLocationIndex() {
+        try {
+          const res = await fetch("./data/location-index.json", { cache: "no-store" });
+          if (!res.ok) return;
+          const idx = await res.json();
+          const built = _buildLocItemsFromIndex(idx);
+          if (built.length) _LOC_UNIQ = built;
+        } catch (_) { /* live API suggestions still work */ }
+      }
+      _loadLocationIndex();
       function _locSuggestLocal(q) {
         const raw = String(q || "").trim();
-        if (!raw) return [];
+        if (!raw || !_LOC_UNIQ.length) return [];
         const ql = raw.toLowerCase(); const qu = raw.toUpperCase();
         const scored = [];
         for (const it of _LOC_UNIQ) {
-          const nameL = it.name.toLowerCase();
-          const codeU = (it.code || "").toUpperCase();
-          const labelL = it.label.toLowerCase();
+          const nameL = String(it.name||"").toLowerCase();
+          const asciiL = String(it.ascii||"").toLowerCase();
+          const codeU = String(it.code||"").toUpperCase();
+          const labelL = String(it.label||"").toLowerCase();
           let score = 99;
           if (codeU && codeU === qu) score = 0;
           else if (codeU && codeU.startsWith(qu) && raw.length <= 3) score = 1;
-          else if (nameL.startsWith(ql)) score = 2;
+          else if (nameL.startsWith(ql) || (asciiL && asciiL.startsWith(ql))) score = 2;
           else if (labelL.startsWith(ql)) score = 2;
           else if (codeU && codeU.startsWith(qu)) score = 3;
           else continue;
@@ -1713,7 +1740,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         }
         scored.sort((a,b) => a.score - b.score || a.it.label.localeCompare(b.it.label));
         const out = []; const seenVal = new Set();
-        for (const sc of scored) { const vk = (sc.it.value||sc.it.label).toLowerCase()+"|"+sc.it.kind; if (seenVal.has(vk)) continue; seenVal.add(vk); out.push(sc.it); }
+        for (const sc of scored) { const vk = (String(sc.it.value||sc.it.label)).toLowerCase()+"|"+sc.it.kind; if (seenVal.has(vk)) continue; seenVal.add(vk); out.push(sc.it); }
         return out;
       }
       let _sugSeq = 0, _sugTimer = null, _sugCache = new Map();
@@ -1804,6 +1831,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         });
         zipInputEl.addEventListener("blur", () => { setTimeout(() => { if (zipSuggestEl) zipSuggestEl.classList.add("hidden"); }, 120); });
       }
+
       const zipClearBtn = document.getElementById("zipClearBtn");
       if (zipClearBtn) {
         zipClearBtn.addEventListener("click", () => {
