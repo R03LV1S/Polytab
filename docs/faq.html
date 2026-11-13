@@ -69,7 +69,7 @@
         <div class="howto-step"><div class="howto-num">1</div><div><strong>Pick an EVM wallet.</strong> The easiest option is a free browser/mobile wallet like MetaMask, Rabby, or Coinbase Wallet. A dedicated hardware wallet (Ledger, Trezor) or a project multisig (like Safe) is even better for shared project funds.</div></div>
         <div class="howto-step"><div class="howto-num">2</div><div><strong>Create (or choose) the project wallet.</strong> In your wallet app, create a new account/address specifically for the project. Use a fresh address rather than a personal one if you want clean bookkeeping or shared control.</div></div>
         <div class="howto-step"><div class="howto-num">3</div><div><strong>Use Base (chain ID 8453) &mdash; not Ethereum Mainnet.</strong> Polytab&rsquo;s micro-vote payments and escrow run on Base L2 (<code>ethereum:0x...@8453</code>), where gas is fractions of a cent. Your address is the same on every EVM network, but <em>balances and gas are per-network</em> &mdash; Mainnet ETH cannot pay Base gas.<br>
-          In <strong>Brave</strong>: <em>Brave &rarr; Brave Wallet &rarr; Deposit</em>, change the network filter (top-right, e.g. &ldquo;All Networks&rdquo;) to <strong>Base</strong>, and pick <strong>&ldquo;Ether &mdash; ETH on Base&rdquo;</strong>.<br>
+          In <strong>Brave</strong>: <em>Brave &rarr; Brave Wallet &rarr; Deposit</em>, change the network filter (top-right, e.g. &ldquo;All Networks&rdquo;) to <strong>Base</strong>, and pick <strong>&ldquo;Ether &mdash; ETH on Base&rdquo;</strong> &mdash; full walkthrough: <a href="#brave-wallet">How to: Use Brave Wallet with Polytab</a>.<br>
           In <strong>MetaMask</strong>: <em>Networks &rarr; Add network &rarr; Base</em> (or pick Base from the network list).<br>
           Then add only a tiny amount of ETH on Base &mdash; a couple of dollars covers thousands of micro-votes. Polygon is also supported, but Base is the default we use.</div></div>
         <div class="howto-step"><div class="howto-num">4</div><div><strong>Copy the 0x address</strong> (not the seed phrase, not the private key &mdash; just the address) from your wallet&rsquo;s account screen. It starts with <code>0x</code> and is 42 characters long.</div></div>
@@ -99,6 +99,41 @@
 
       <h3>What if I have no phone or computer?</h3>
       <p>Ask a trusted friend, school, library, or community center to help open the site and scan a QR code, or to help you receive SMS/USSD instructions when those channels are available in your area. Supporting a project never requires you to reveal private keys.</p>
+
+      <h2 id="brave-wallet">How to: Use Brave Wallet with Polytab</h2>
+      <p>Brave has a built-in, self-custody wallet &mdash; you don&rsquo;t need to install MetaMask. It&rsquo;s the fastest way to put a little ETH on Base and cast micro-votes from the browser you already use. Everything Polytab does (payments, escrow, tips) settles on Base (chain ID <code>8453</code>), so this walkthrough keeps you on Base the whole time.</p>
+
+      <h3>Step-by-step: deposit ETH on Base</h3>
+      <div class="space-y-3">
+        <div class="howto-step"><div class="howto-num">1</div><div><strong>Open Brave Wallet.</strong> Click the <strong>wallet icon</strong> in the Brave toolbar (or <em>Brave menu &rarr; Wallet</em>). If this is your first time, create or import a wallet and write down the seed phrase on paper &mdash; Brave (and Polytab) never see it.</div></div>
+        <div class="howto-step"><div class="howto-num">2</div><div><strong>Go to Deposit.</strong> In <em>brave://wallet/crypto/deposit</em> (Brave Wallet &rarr; <strong>Deposit</strong>) you&rsquo;ll see an &ldquo;All Networks&rdquo; list of assets.</div></div>
+        <div class="howto-step"><div class="howto-num">3</div><div><strong>Filter to Base.</strong> Click the <strong>&ldquo;All Networks&rdquo;</strong> dropdown (top-right) and choose <strong>Base</strong>. Now only Base assets are shown.</div></div>
+        <div class="howto-step"><div class="howto-num">4</div><div><strong>Pick &ldquo;Ether &mdash; ETH on Base&rdquo;.</strong> That&rsquo;s the only asset Polytab needs. Follow the deposit flow to buy it or transfer it in. You only need a few dollars&rsquo; worth &mdash; Base gas is a fraction of a cent, so a couple of dollars covers thousands of micro-votes.</div></div>
+        <div class="howto-step"><div class="howto-num">5</div><div><strong>Double-check the subtitle.</strong> Every row says the network under the asset name (e.g., <em>&ldquo;ETH on Base&rdquo;</em> vs <em>&ldquo;ETH on Ethereum Mainnet&rdquo;</em>). If the network doesn&rsquo;t say <strong>Base</strong>, pick a different option or your funds land on the wrong chain &mdash; see the Base vs Mainnet mistake below.</div></div>
+      </div>
+
+      <h3>Step-by-step: connect Brave Wallet to polytab.store</h3>
+      <div class="space-y-3">
+        <div class="howto-step"><div class="howto-num">1</div><div>Click <strong>Connect Wallet</strong> in the top-right corner of <a href="./index.html">polytab.store</a>.</div></div>
+        <div class="howto-step"><div class="howto-num">2</div><div><strong>Approve in Brave Wallet.</strong> A Brave Wallet popup will ask to connect your address &mdash; click <strong>Connect</strong>. Your address shows as connected in the button (e.g., <code>0x1a2b&hellip;9f8e</code>).</div></div>
+        <div class="howto-step"><div class="howto-num">3</div><div><strong>If the site says &ldquo;No browser Web3 wallet detected&rdquo;:</strong> open <code>brave://settings/crypto</code> (or search &ldquo;crypto&rdquo; in Brave&rsquo;s settings search) and set your <strong>default Ethereum wallet</strong> to Brave Wallet, then reload the page. Alternatively, skip connecting altogether and pay with the QR flow below &mdash; no connection needed.</div></div>
+      </div>
+
+      <h3>Step-by-step: cast a micro-vote with Brave Wallet</h3>
+      <div class="space-y-3">
+        <div class="howto-step"><div class="howto-num">1</div><div>Open the project and click <strong>&ldquo;1. Send Micro-Vote via Browser Wallet&rdquo;</strong> in the action dialog.</div></div>
+        <div class="howto-step"><div class="howto-num">2</div><div><strong>Approve the transaction.</strong> Brave Wallet pops up with the amount (~$0.50) plus a fraction of a cent of Base gas. Review the recipient address, then click <strong>Confirm</strong>.</div></div>
+        <div class="howto-step"><div class="howto-num">3</div><div><strong>Log your vote.</strong> Back on the site, paste the <code>0x&hellip;</code> transaction hash into <strong>&ldquo;2. Log &amp; Verify Transaction Hash on GitHub Ledger&rdquo;</strong> and hit verify &mdash; the GitHub Action checks it on-chain and updates the vote counts.</div></div>
+      </div>
+
+      <div class="callout mt-4">
+        <p class="!mt-0"><strong>Prefer not to connect a wallet at all?</strong> Fine &mdash; every project shows an EIP-681 QR code. Scan it from any EVM wallet app (including the Brave Wallet mobile app), pay on Base, and the transaction itself is your ballot. No connection to the website required.</p>
+      </div>
+
+      <div class="warn mt-3">
+        <p class="!mt-0"><strong>Depositing from an exchange?</strong> When withdrawing to Brave Wallet&rsquo;s address, choose <strong>Base</strong> as the withdrawal network &mdash; <em>not</em> ERC20 / Ethereum Mainnet and not the Polygon network. Wrong-network deposits go to the same address on a different chain and won&rsquo;t pay Base gas (see <a href="#project-wallet">Project Wallet &rarr; common mistakes</a>).</p>
+        <p><strong>Security:</strong> Polytab and Brave never ask for your seed phrase. Only enter it inside Brave&rsquo;s own wallet setup/unlock screen. Double-check you&rsquo;re on <code>polytab.store</code> (HTTPS) before approving anything, and start with a small test amount.</p>
+      </div>
 
       <hr>
 
