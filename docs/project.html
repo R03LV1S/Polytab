@@ -264,15 +264,27 @@
 
           const likeBtn = document.getElementById("likeBtn");
           const shareBtn = document.getElementById("shareBtn");
-          const likeOverlay = document.getElementById("likeOverlay");
-          const closeLike = document.getElementById("closeLikeOverlay");
-          const likeGithub = document.getElementById("likeGithubLink");
-          const likeCopy = document.getElementById("likeCopyLink");
-          const shareInstagram = document.getElementById("shareInstagram");
-          const shareTikTok = document.getElementById("shareTikTok");
           const shareUrl = location.href;
           const shareText = "Support this project on Polytab: " + item.title;
-          if (likeGithub) likeGithub.href = issue;
+          const getOverlay = () => document.getElementById("likeOverlay");
+          const openLike = () => {
+            const ov = getOverlay();
+            if (!ov) return;
+            ov.classList.remove("hidden");
+            ov.classList.add("flex");
+            ov.style.display = "flex";
+            ov.setAttribute("aria-hidden","false");
+          };
+          const hideLike = () => {
+            const ov = getOverlay();
+            if (!ov) return;
+            ov.classList.add("hidden");
+            ov.classList.remove("flex");
+            ov.style.display = "none";
+            ov.setAttribute("aria-hidden","true");
+          };
+          const likeGithubEl = document.getElementById("likeGithubLink");
+          if (likeGithubEl) likeGithubEl.href = issue;
           // Add instant verified-account provider buttons when cloud backend is configured
           if (ENDORSEMENT_API) {
             const container = document.getElementById("providerButtons");
@@ -302,20 +314,33 @@
             if (btn) { const old = btn.textContent; btn.textContent = "Link copied"; setTimeout(()=>btn.textContent = old, 1500); }
             if (openUrl) window.open(openUrl, "_blank", "noopener,noreferrer");
           };
-          const openLike = () => { if(likeOverlay){ likeOverlay.classList.remove("hidden"); likeOverlay.setAttribute("aria-hidden","false"); } };
-          const hideLike = () => { if(likeOverlay){ likeOverlay.classList.add("hidden"); likeOverlay.setAttribute("aria-hidden","true"); } };
           if (likeBtn) likeBtn.addEventListener("click", openLike);
           if (shareBtn) shareBtn.addEventListener("click", () => { openLike(); const sec = document.getElementById("shareSection"); if (sec && sec.scrollIntoView) sec.scrollIntoView({block:"nearest"}); });
-          if (closeLike) closeLike.addEventListener("click", (e)=>{ e.preventDefault(); e.stopPropagation(); hideLike(); });
-          if (likeOverlay) likeOverlay.addEventListener("click", (e)=>{
-            const dialog = likeOverlay.querySelector('[role="dialog"]');
-            if (!dialog || !dialog.contains(e.target)) hideLike();
-          });
-          if (likeCopy) likeCopy.addEventListener("click", async ()=>{ try { await navigator.clipboard.writeText(shareUrl); likeCopy.textContent = "Link copied"; setTimeout(()=>likeCopy.textContent="Copy link",1500);} catch(_){ prompt("Copy link:", shareUrl); } });
-          if (shareInstagram) shareInstagram.addEventListener("click", () => copyAndFlash(shareInstagram, "https://www.instagram.com/"));
-          if (shareTikTok) shareTikTok.addEventListener("click", () => copyAndFlash(shareTikTok, "https://www.tiktok.com/upload?lang=en"));
-          const shareDiscord = document.getElementById("shareDiscord");
-          if (shareDiscord) shareDiscord.addEventListener("click", () => copyAndFlash(shareDiscord, "https://discord.com/app"));
+          const likeCopyEl = document.getElementById("likeCopyLink");
+          if (likeCopyEl) likeCopyEl.addEventListener("click", async ()=>{ try { await navigator.clipboard.writeText(shareUrl); likeCopyEl.textContent = "Link copied"; setTimeout(()=>likeCopyEl.textContent="Copy link",1500);} catch(_){ prompt("Copy link:", shareUrl); } });
+          const shareInstagramEl = document.getElementById("shareInstagram");
+          if (shareInstagramEl) shareInstagramEl.addEventListener("click", () => copyAndFlash(shareInstagramEl, "https://www.instagram.com/"));
+          const shareTikTokEl = document.getElementById("shareTikTok");
+          if (shareTikTokEl) shareTikTokEl.addEventListener("click", () => copyAndFlash(shareTikTokEl, "https://www.tiktok.com/upload?lang=en"));
+          const shareDiscordEl = document.getElementById("shareDiscord");
+          if (shareDiscordEl) shareDiscordEl.addEventListener("click", () => copyAndFlash(shareDiscordEl, "https://discord.com/app"));
+          if (!window.__polytabLikeOverlayWired) {
+            window.__polytabLikeOverlayWired = true;
+            document.addEventListener("click", (e) => {
+              const ov = document.getElementById("likeOverlay");
+              if (!ov || ov.classList.contains("hidden")) return;
+              const closeBtn = e.target.closest("#closeLikeOverlay");
+              if (closeBtn) { e.preventDefault(); e.stopPropagation(); hideLike(); return; }
+              const dialog = ov.querySelector('[role="dialog"]');
+              if (dialog && !dialog.contains(e.target)) hideLike();
+            });
+            document.addEventListener("keydown", (e) => {
+              if (e.key === "Escape") {
+                const ov = document.getElementById("likeOverlay");
+                if (ov && !ov.classList.contains("hidden")) hideLike();
+              }
+            });
+          }
           const snap = await loadEndorsements();
           const cloud = await loadCloudEndorsements();
           const ghVc = vCount(snap, item.id);
@@ -465,7 +490,7 @@
     })();
   </script>
 
-  <div id="likeOverlay" class="hidden fixed inset-0 z-50 bg-black/70 backdrop-blur-sm flex items-center justify-center p-4" aria-hidden="true">
+  <div id="likeOverlay" class="hidden fixed inset-0 z-50 bg-black/70 backdrop-blur-sm items-center justify-center p-4" aria-hidden="true" style="display:none">
     <div class="w-full max-w-md bg-zinc-950 border border-zinc-800 rounded-2xl p-5 space-y-4 shadow-2xl mx-auto" role="dialog" aria-modal="true" aria-label="Support this project">
       <div class="flex items-start justify-between gap-3">
         <div>

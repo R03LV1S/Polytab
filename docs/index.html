@@ -1984,18 +1984,35 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         if (tt) tt.onclick = async () => { try { await navigator.clipboard.writeText(shareUrl); tt.textContent = "Link copied"; setTimeout(()=>tt.textContent="TikTok",1500);} catch(_){ } window.open("https://www.tiktok.com/upload?lang=en","_blank","noopener,noreferrer"); };
         const dc = document.getElementById("shareDiscord");
         if (dc) dc.onclick = async () => { try { await navigator.clipboard.writeText(shareUrl); dc.textContent = "Link copied"; setTimeout(()=>dc.textContent="Discord",1500);} catch(_){ } window.open("https://discord.com/app","_blank","noopener,noreferrer"); };
-        if (overlay) { overlay.classList.remove("hidden"); overlay.setAttribute("aria-hidden","false"); }
+        if (overlay) {
+          overlay.classList.remove("hidden");
+          overlay.classList.add("flex");
+          overlay.style.display = "flex";
+          overlay.setAttribute("aria-hidden","false");
+        }
       }
       function closeLikeOverlay() {
         const overlay = document.getElementById("likeOverlay");
-        if (overlay) { overlay.classList.add("hidden"); overlay.setAttribute("aria-hidden","true"); }
+        if (overlay) {
+          overlay.classList.add("hidden");
+          overlay.classList.remove("flex");
+          overlay.style.display = "none";
+          overlay.setAttribute("aria-hidden","true");
+        }
       }
-      const closeLikeBtn = document.getElementById("closeLikeOverlay");
-      if (closeLikeBtn) closeLikeBtn.addEventListener("click", (e) => { e.preventDefault(); e.stopPropagation(); closeLikeOverlay(); });
-      const likeOverlayEl = document.getElementById("likeOverlay");
-      if (likeOverlayEl) likeOverlayEl.addEventListener("click", (e) => {
-        const dialog = likeOverlayEl.querySelector('[role="dialog"]');
-        if (!dialog || !dialog.contains(e.target)) closeLikeOverlay();
+      document.addEventListener("click", (e) => {
+        const overlay = document.getElementById("likeOverlay");
+        if (!overlay || overlay.classList.contains("hidden")) return;
+        const closeBtn = e.target.closest("#closeLikeOverlay");
+        if (closeBtn) { e.preventDefault(); e.stopPropagation(); closeLikeOverlay(); return; }
+        const dialog = overlay.querySelector('[role="dialog"]');
+        if (dialog && !dialog.contains(e.target)) closeLikeOverlay();
+      });
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") {
+          const overlay = document.getElementById("likeOverlay");
+          if (overlay && !overlay.classList.contains("hidden")) closeLikeOverlay();
+        }
       });
 
       loadFeedState();
@@ -2005,7 +2022,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
     })();
   </script>
 
-  <div id="likeOverlay" class="hidden fixed inset-0 z-50 bg-black/70 backdrop-blur-sm flex items-center justify-center p-4" aria-hidden="true">
+  <div id="likeOverlay" class="hidden fixed inset-0 z-50 bg-black/70 backdrop-blur-sm items-center justify-center p-4" aria-hidden="true" style="display:none">
     <div class="w-full max-w-md bg-zinc-950 border border-zinc-800 rounded-2xl p-5 space-y-4 shadow-2xl mx-auto" role="dialog" aria-modal="true" aria-label="Support this project">
       <div class="flex items-start justify-between gap-3">
         <div>
