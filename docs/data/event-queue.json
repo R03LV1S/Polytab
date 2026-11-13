@@ -3,6 +3,35 @@
   "description": "Polytab Event Radar queue. Current events (last 21 days) surfaced from free public feeds (GDELT, CDC Newsroom, GDACS, USGS) as candidate civic-action blocks in the exact Polytab block format. All metrics are honest-zero (fundedUSD=0, votesCount=0). Items are PROPOSED — promotion to the Projects (feed.json) requires a verified organization pairing and governance sign-off, never automatic. Wallet series: 0x71E + ID (601+). No coordinates are stored (lat/lng null); locations are public place-name strings only.",
   "items": [
     {
+      "id": "612",
+      "title": "Flood — SEVERE STORMS AND FLOODING — (DR)",
+      "category": "Environmental",
+      "organization": "World Central Kitchen",
+      "location": "NM — Cibola (County)",
+      "summary": "Community Radar current event: \"Flood — SEVERE STORMS AND FLOODING — (DR)\" (FEMA OpenFEMA (public domain), 2026-10-26). Proposed pairing with verified organization World Central Kitchen (Projects bounty #505) — pending governance verification.",
+      "plainSummary": "• Cause: Flood — SEVERE STORMS AND FLOODING — (DR)\n• Resolution: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://www.fema.gov/disaster/3660 (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "FEMA OpenFEMA (public domain)",
+        "sourceUrl": "https://www.fema.gov/disaster/3660",
+        "publishedAt": "2026-10-26T00:00:00.000Z",
+        "discoveredAt": "2026-11-13T23:15:41.633Z",
+        "proposedPairing": {
+          "bountyId": "505",
+          "organization": "World Central Kitchen",
+          "keywordMatches": 4
+        },
+        "dedupeHash": "e6d025d8223f937cf7f2696130c95c9655a63c322306b7233d33f20386810d75"
+      }
+    },
+    {
       "id": "607",
       "title": "Sports For Kids Foundation fundraiser helps children and families",
       "category": "Accessibility & Universal Design",
@@ -325,7 +354,8 @@
     "9e9584275cd9cb848f02b19bfe2edf18f1d1b55dead77d5caf607223029aa834",
     "02361d4160f0655a148493af2acb5518d30e3dda17f8a95a818e285cd78e2141",
     "6ccc62aa0a0aa057eda4e260c158a8c4658672b63aa4851d7e573ec0e4a7f674",
-    "a58ef3b99cae92c8ba9a0bc05b28647f886b348d1617ab8b70ccd7188be095e7"
+    "a58ef3b99cae92c8ba9a0bc05b28647f886b348d1617ab8b70ccd7188be095e7",
+    "e6d025d8223f937cf7f2696130c95c9655a63c322306b7233d33f20386810d75"
   ],
-  "nextId": 612
+  "nextId": 613
 }
