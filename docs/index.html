@@ -749,13 +749,6 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         if (state.endorsements[k]) { delete state.endorsements[k]; } else { state.endorsements[k] = true; }
         saveEndorsements(state.endorsements);
       }
-      function formatLikeCount(n) {
-        const v = Number(n);
-        if (!Number.isFinite(v) || v < 0) return "0";
-        if (v < 1000) return String(Math.floor(v));
-        if (v < 1000000) return (v / 1000).toFixed(1) + "K";
-        return (v / 1000000).toFixed(1) + "M";
-      }
       function verifiedEndorsementCount(id) {
         const snap = state.verifiedEndorsements;
         let gh = null;
@@ -1507,30 +1500,9 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           const statusBadge = document.createElement("span");
           statusBadge.className = item.status === "Active" ? "text-[11px] font-mono px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20" : "text-[11px] font-mono px-2 py-0.5 rounded bg-zinc-800 text-zinc-300 border border-zinc-700";
           statusBadge.textContent = item.status;
-          const endorseBtn = document.createElement("button");
-          endorseBtn.type = "button";
-          endorseBtn.className = "inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-l-none rounded-r-lg text-[11px] font-semibold bg-pink-500/15 text-pink-300 border border-pink-500/30 hover:bg-pink-500/20 transition";
-          endorseBtn.textContent = "♥ Like";
-          endorseBtn.setAttribute("aria-label", "Like this project");
-          endorseBtn.title = "Like/support this project. Verified endorsements are counted publicly.";
-          endorseBtn.addEventListener("click", (ev) => {
-            ev.stopPropagation();
-            openLikeOverlay(item);
-          });
-          const likeCountBox = document.createElement("span");
-          likeCountBox.className = "inline-flex items-center justify-center min-w-[2.25rem] px-2.5 py-1.5 rounded-l-lg rounded-r-none border-r-0 text-[11px] font-semibold bg-pink-500/15 text-pink-300 border border-pink-500/30 font-mono";
-          const vCountForLike = verifiedEndorsementCount(item.id);
-          likeCountBox.textContent = formatLikeCount(vCountForLike == null ? 0 : vCountForLike);
-          likeCountBox.title = (vCountForLike == null ? "0" : vCountForLike) + " verified endorsement" + ((vCountForLike == 1) ? "" : "s");
-          likeCountBox.setAttribute("aria-label", (vCountForLike == null ? "0" : vCountForLike) + " verified endorsements");
-          const likeRow = document.createElement("div");
-          likeRow.className = "flex items-center gap-0";
-          likeRow.appendChild(likeCountBox);
-          likeRow.appendChild(endorseBtn);
           const statusCol = document.createElement("div");
           statusCol.className = "flex flex-col items-end gap-1.5";
           statusCol.appendChild(statusBadge);
-          statusCol.appendChild(likeRow);
           badgeRow.appendChild(catBadge);
           badgeRow.appendChild(statusCol);
           const locP = document.createElement("p");
