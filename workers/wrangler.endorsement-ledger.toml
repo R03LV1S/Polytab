@@ -24,4 +24,4 @@ ALLOWED_ORIGINS = "https://polytab.store,https://r03lv1s.github.io,http://localh
 [[d1_databases]]
 binding = "DB"
 database_name = "polytab-endorsement-ledger"
-database_id = "REPLACE_WITH_D1_DATABASE_ID"
+database_id = "85a90943-1862-4752-8d0a-a028410ccaae"
