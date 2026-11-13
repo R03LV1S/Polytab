@@ -251,7 +251,46 @@
           const d = item.details;
           renderListOrPlaceholder(document.getElementById("people"), d.people || d.people_involved || m.people, "Not added yet. (Template field: people involved — e.g. organizers, partners, workers.)");
           renderListOrPlaceholder(document.getElementById("communities"), d.communities || d.affected_communities || m.communities, "Not added yet. (Template field: affected communities.)");
-          renderListOrPlaceholder(document.getElementById("updates"), d.updates || d.proof_updates || m.updates, "Not added yet. (Template field: updates & proof — e.g. milestones, photos, receipts, reports.)");
+
+          // Updates & Proof: merge template fields with published proof submissions (GitHub issues -> docs/data/proofs.json)
+          const updatesEl = document.getElementById("updates"); updatesEl.replaceChildren();
+          const detailUpdates = d.updates || d.proof_updates || m.updates || null;
+          let proofs = [];
+          try {
+            const pr = await fetch("./data/proofs.json", { cache: "no-store" });
+            if (pr.ok) { const pj = await pr.json(); proofs = (pj && pj.projects && pj.projects[item.id]) ? pj.projects[item.id] : []; }
+          } catch (_) {}
+          if (Array.isArray(proofs) && proofs.length) {
+            const list = document.createElement("div"); list.className = "space-y-3";
+            proofs.forEach(p => {
+              const card = document.createElement("div"); card.className = "border border-zinc-800 rounded-lg p-3 bg-black/30 space-y-1.5";
+              const top = document.createElement("div"); top.className = "flex flex-wrap items-center justify-between gap-2";
+              const t = document.createElement("div"); t.className = "text-sm font-semibold text-white"; t.textContent = p.title || p.type || "Proof update";
+              const meta = document.createElement("div"); meta.className = "text-[10px] font-mono text-zinc-400";
+              meta.textContent = [p.type, p.date, p.amount, p.state ? ("issue: " + p.state) : null].filter(Boolean).join(" · ");
+              top.appendChild(t); top.appendChild(meta); card.appendChild(top);
+              if (p.details) { const dsc = document.createElement("p"); dsc.className = "text-xs text-zinc-300 whitespace-pre-line"; dsc.textContent = String(p.details); card.appendChild(dsc); }
+              if (p.beneficiary) { const b = document.createElement("div"); b.className = "text-xs text-zinc-400"; b.textContent = "Benefactor/recipient: " + p.beneficiary; card.appendChild(b); }
+              if (p.tx_hash) { const tx = document.createElement("div"); tx.className = "text-xs text-zinc-400 font-mono break-all"; tx.textContent = "Tx/ref: " + p.tx_hash; card.appendChild(tx); }
+              const links = Array.isArray(p.links) ? p.links : [];
+              const imgs = Array.isArray(p.images) ? p.images : [];
+              const linkWrap = document.createElement("div"); linkWrap.className = "flex flex-wrap gap-2 pt-1";
+              imgs.slice(0,4).forEach(u => { const a=document.createElement("a"); a.href=u; a.target="_blank"; a.rel="noopener noreferrer"; a.className="block"; const im=document.createElement("img"); im.src=u; im.alt="Proof image"; im.loading="lazy"; im.className="h-16 w-16 object-cover rounded border border-zinc-800"; a.appendChild(im); linkWrap.appendChild(a); });
+              links.filter(u => !imgs.includes(u)).slice(0,6).forEach(u => { const a=document.createElement("a"); a.href=u; a.target="_blank"; a.rel="noopener noreferrer"; a.className="text-[11px] text-yellow-300 hover:text-yellow-200 underline break-all"; a.textContent=u; linkWrap.appendChild(a); });
+              if (p.issue_url) { const a=document.createElement("a"); a.href=p.issue_url; a.target="_blank"; a.rel="noopener noreferrer"; a.className="text-[11px] text-zinc-300 hover:text-white underline"; a.textContent="View submission (GitHub #" + p.issue_number + ")"; linkWrap.appendChild(a); }
+              if (linkWrap.childNodes.length) card.appendChild(linkWrap);
+              list.appendChild(card);
+            });
+            updatesEl.appendChild(list);
+            const note = document.createElement("p"); note.className = "text-[10px] text-zinc-500 mt-2"; note.textContent = "Proof entries are published from public GitHub submissions (docs/data/proofs.json). Review linked issues for verification/dispute status."; updatesEl.appendChild(note);
+          } else if (detailUpdates) {
+            renderListOrPlaceholder(updatesEl, detailUpdates, "");
+          } else {
+            const wrap = document.createElement("div"); wrap.className = "space-y-2";
+            const p = document.createElement("p"); p.className = "text-zinc-500 italic"; p.textContent = "No proof updates published yet.";
+            const a = document.createElement("a"); a.href = "https://github.com/" + GITHUB_OWNER + "/" + GITHUB_REPO + "/issues/new?template=proof-update.yml&title=" + encodeURIComponent("[Proof]: #" + item.id + " - "); a.target = "_blank"; a.rel = "noopener noreferrer"; a.className = "inline-flex text-xs text-yellow-300 hover:text-yellow-200 underline"; a.textContent = "Submit proof / spending update on GitHub";
+            wrap.appendChild(p); wrap.appendChild(a); updatesEl.appendChild(wrap);
+          }
 
           const dl = document.getElementById("detailList"); dl.replaceChildren();
           addKV(dl, "Type", item.parentCategory);
