@@ -226,10 +226,14 @@
             </div>
             <div class="w-full sm:w-56 lg:w-56 bg-zinc-950/70 border border-zinc-700 rounded-xl p-3 flex flex-col gap-2 justify-start">
               <div class="text-[10px] font-mono uppercase tracking-wider text-zinc-500">Location & Sort</div>
-              <label for="zipInput" class="sr-only">Zip code for 50 mile radius</label>
-              <input id="zipInput" type="text" inputmode="numeric" maxlength="10" placeholder="Zip Code (50 mi radius)"
-                class="bg-black border border-zinc-700 focus:border-yellow-500 rounded-xl px-3.5 py-2 text-xs text-white placeholder-slate-500 outline-none w-full" />
-              <p id="zipStatus" class="text-[10px] text-zinc-500 leading-snug">Enter a US ZIP code to filter bounties within 50 miles (public lookup).</p>
+              <label for="zipInput" class="sr-only">Location for 50 mile radius</label>
+              <div class="flex items-center gap-1.5">
+                <input id="zipInput" type="text" maxlength="80" placeholder="Location (ZIP/city/country)"
+                  class="bg-black border border-zinc-700 focus:border-yellow-500 rounded-xl px-3.5 py-2 text-xs text-white placeholder-slate-500 outline-none w-full min-w-0" />
+                <button id="zipClearBtn" type="button" aria-label="Clear location filter" title="Clear"
+                  class="shrink-0 h-8 w-8 flex items-center justify-center rounded-lg border border-zinc-700 bg-black text-zinc-400 hover:text-white hover:border-zinc-500 text-sm leading-none">×</button>
+              </div>
+              <p id="zipStatus" class="text-[10px] text-zinc-500 leading-snug">Enter location (ZIP, city, state, country) to filter within 50 mi.</p>
               <div class="mt-auto">
                 <label for="sortBySelect" class="block text-[10px] font-mono uppercase tracking-wider text-zinc-500 mb-1">Sort By</label>
                 <select id="sortBySelect" class="bg-black border border-zinc-700 focus:border-yellow-500 rounded-xl px-3 py-2 text-xs text-white outline-none w-full">
@@ -1062,41 +1066,52 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         return haversineMiles(state.zipLat, state.zipLng, Number(item.lat), Number(item.lng));
       }
       async function resolveZip(zipRaw) {
-        const zip = String(zipRaw || "").trim();
+        const query = String(zipRaw || "").trim();
         const statusEl = document.getElementById("zipStatus");
-        if (!zip) {
+        if (!query) {
           state.zipQuery = ""; state.zipLat = null; state.zipLng = null; state.zipResolvedCode = null;
-          if (statusEl) statusEl.textContent = "Enter a US ZIP code to filter bounties within 50 miles (public lookup).";
+          if (statusEl) statusEl.textContent = "Enter location (ZIP, city, state, country) to filter within 50 mi.";
           state.page = 1; renderProposalsGrid();
           return;
         }
-        if (!/^\d{5}(-\d{4})?$/.test(zip)) {
-          if (statusEl) statusEl.textContent = "Enter a valid 5-digit US ZIP code (e.g. 02139).";
-          state.zipQuery = zip; state.zipLat = null; state.zipLng = null; state.zipResolvedCode = null;
-          state.page = 1; renderProposalsGrid();
-          return;
-        }
-        const z5 = zip.slice(0, 5);
-        state.zipQuery = z5;
-        if (statusEl) statusEl.textContent = "Looking up ZIP " + z5 + "…";
+        state.zipQuery = query;
+        if (statusEl) statusEl.textContent = "Looking up location…";
         try {
           const controller = new AbortController();
-          const timeout = setTimeout(() => controller.abort(), 4000);
-          const res = await fetch("https://api.zippopotam.us/us/" + z5, { signal: controller.signal });
-          clearTimeout(timeout);
-          if (!res.ok) throw new Error("zip not found");
-          const data = await res.json();
-          const place = data && data.places && data.places[0];
-          const lat = place ? parseFloat(place.latitude) : NaN;
-          const lng = place ? parseFloat(place.longitude) : NaN;
+          const timeout = setTimeout(() => controller.abort(), 5000);
+          let lat = NaN, lng = NaN, label = query;
+          if (/^\d{5}(-\d{4})?$/.test(query)) {
+            const z5 = query.slice(0, 5);
+            const res = await fetch("https://api.zippopotam.us/us/" + z5, { signal: controller.signal });
+            clearTimeout(timeout);
+            if (!res.ok) throw new Error("not found");
+            const data = await res.json();
+            const place = data && data.places && data.places[0];
+            lat = place ? parseFloat(place.latitude) : NaN;
+            lng = place ? parseFloat(place.longitude) : NaN;
+            const placeName = place && (place["place name"] || "");
+            const st = place && (place["state abbreviation"] || "");
+            label = z5 + (placeName ? (" - " + placeName + (st ? ", " + st : "")) : "");
+            state.zipResolvedCode = z5;
+          } else {
+            const res = await fetch("https://nominatim.openstreetmap.org/search?format=json&limit=1&q=" + encodeURIComponent(query), {
+              signal: controller.signal, headers: { "Accept": "application/json" }
+            });
+            clearTimeout(timeout);
+            if (!res.ok) throw new Error("not found");
+            const data = await res.json();
+            const hit = Array.isArray(data) ? data[0] : null;
+            lat = hit ? parseFloat(hit.lat) : NaN;
+            lng = hit ? parseFloat(hit.lon) : NaN;
+            label = hit && hit.display_name ? String(hit.display_name).split(",").slice(0, 3).join(",").trim() : query;
+            state.zipResolvedCode = query;
+          }
           if (!Number.isFinite(lat) || !Number.isFinite(lng)) throw new Error("no coords");
-          state.zipLat = lat; state.zipLng = lng; state.zipResolvedCode = z5;
-          const placeName = place && (place["place name"] || "");
-          const st = place && (place["state abbreviation"] || "");
-          if (statusEl) statusEl.textContent = "Showing bounties within 50 mi of " + z5 + (placeName ? (" — " + placeName + (st ? ", " + st : "")) : "") + ".";
+          state.zipLat = lat; state.zipLng = lng;
+          if (statusEl) statusEl.textContent = "Showing bounties within 50 mi of " + label + ".";
         } catch (_) {
           state.zipLat = null; state.zipLng = null; state.zipResolvedCode = null;
-          if (statusEl) statusEl.textContent = "Could not resolve ZIP " + z5 + " (network/unavailable). Distance filter inactive; showing all matching bounties.";
+          if (statusEl) statusEl.textContent = "Could not resolve location. Showing all bounties.";
         }
         state.page = 1; renderProposalsGrid();
       }
@@ -1159,7 +1174,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           const emptyBox = document.createElement("div");
           emptyBox.className = "col-span-full bg-zinc-900/40 border border-zinc-800 rounded-2xl p-8 text-center text-zinc-400 text-sm";
           if (state.zipLat != null && state.zipLng != null) {
-            emptyBox.textContent = "No bounties found within 50 miles of ZIP " + (state.zipResolvedCode || state.zipQuery || "") + ". Try clearing the ZIP filter or changing filters.";
+            emptyBox.textContent = "No bounties found within 50 miles of " + (state.zipResolvedCode || state.zipQuery || "location") + ". Try clearing the location filter or changing filters.";
           } else {
             emptyBox.textContent = "No matching civic action items found. Try clearing your category or search filter.";
           }
@@ -1577,6 +1592,13 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         zipInputEl.value = state.zipQuery || "";
         zipInputEl.addEventListener("change", () => resolveZip(zipInputEl.value));
         zipInputEl.addEventListener("keydown", (e) => { if (e.key === "Enter") { e.preventDefault(); resolveZip(zipInputEl.value); } });
+      }
+      const zipClearBtn = document.getElementById("zipClearBtn");
+      if (zipClearBtn) {
+        zipClearBtn.addEventListener("click", () => {
+          if (zipInputEl) zipInputEl.value = "";
+          resolveZip("");
+        });
       }
       document.getElementById("connectWalletBtn").addEventListener("click", async (e) => {
         const btn = e.currentTarget;
