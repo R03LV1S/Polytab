@@ -1,12 +1,17 @@
 name: Escrow Watchdog
 
-# COST SAFETY: public repo → GitHub Actions minutes are free.
-# Poll Base mainnet for ANY movement of the shared Polytab escrow address (native ETH,
-# outgoing nonce, or ERC20 outflows not on the allowlist) and open a hard alert.
+# COST SAFETY: public repo → GitHub Actions minutes are free. Polls Base mainnet every 30 minutes
+# for ANY outgoing movement of the shared Polytab escrow address (native ETH balance decrease or
+# outgoing nonce bump) and opens a hard alert. ERC20 inbound donations are logged informationally.
+#
+# NO API KEY REQUIRED. The script cascades free public endpoints (1rpc.io/base → base.publicnode.com
+# → mainnet.base.org). For faster/richer checks (unlimited getLogs, sub-minute), set repo secret
+# BASE_RPC_URL in Settings → Secrets → Actions — e.g., a free Alchemy endpoint — and you get a
+# single-endpoint run with no rate-limit caveats.
 
 on:
   schedule:
-    - cron: "23 */6 * * *"  # every 6 hours — enough to catch movement; free tier
+    - cron: "*/30 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -31,7 +36,8 @@ jobs:
       - name: Poll Base RPC for escrow movement
         id: poll
         env:
-          BASE_RPC_URL: https://mainnet.base.org
+          # Optional: set repo secret BASE_RPC_URL (Alchemy / QuickNode / Infura free tier) for faster/richer checks.
+          BASE_RPC_URL: ${{ secrets.BASE_RPC_URL || '' }}
         run: node scripts/escrow-watchdog.js
       - name: Commit updated watch state
         run: |

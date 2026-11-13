@@ -33,3 +33,15 @@ Risk flags for user:
 - Stewardship program for users without wallets: policy in FAQ/Terms/Privacy + out-of-band intake (GitHub issue template, no IDs in repo).
 - Escrow watchdog: scripts/escrow-watchdog.js + .github/workflows/escrow-watchdog.yml (6-hour cron). Baseline: balance 0, nonce 0 @ block 57,056,874. Alerts on ANY outgoing movement; acknowledgements via escrow-sweeps.json + sweep issues (never auto-mute).
 - Adversarial-reviewer gate: unavailable (provider free-usage limit) throughout; verification inline (HTML parse, JS compile, checksum verify, RPC baseline, tests 46/46).
+
+
+## Addendum v2 (watchdog hardening)
+- Watchdog v2: 6h -> 30-minute cron; free public-RPC cascade (1rpc.io/base -> publicnode -> mainnet.base.org), no API key required.
+- Best-effort ERC20 inbound-log scan added (informational only). Balance/nonce remain the alert triggers.
+- BASE_RPC_URL repo secret wiring: optional dedicated endpoint (Alchemy free tier recommended) for unlimited getLogs; workflow prefers it automatically.
+
+## Addendum v3 (user questions - answered inline offline)
+Q1 QR recreated vs provided? RECREATED (my PNG, user payload verified by decode)
+Q2 Watchdog harder + GitHub/Cloudflare? DONE (see v2; Cloudflare worker optional for sub-minute)
+Q3 Custody/stewardship legal? Discussed: MSB/charitable solicitation exposure; not curable by ToS; see reply
+Q4 GitHub-able Alchemy key? Set BASE_RPC_URL in repo secrets; zero code change

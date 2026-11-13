@@ -11,13 +11,16 @@ It holds the donated micro-votes ($0.25–$1.00 each) for all currently **unclai
 
 1. **Custody is minimal and bounded.** The escrow holds only unclaimed bounties and only until verification (or platform conversion per the sweep policy). Funds for user-created bounty pages flow directly to the creator's wallet; the escrow never touches them.
 2. **Everything is public.** Every deposit, sweep, and receipt is on Base; sweep receipts are posted to this repository (`org-sweep` labeled issues) with transaction hashes and screenshots.
-3. **A watchdog alerts on any outgoing movement.** `scripts/escrow-watchdog.js` runs on a schedule (`.github/workflows/escrow-watchdog.yml`, every 6 hours) and compares:
+3. **A watchdog alerts on any outgoing movement — every 30 minutes.** `scripts/escrow-watchdog.js` runs on a GitHub Actions schedule and compares:
    - **Native ETH balance** — any decrease alerts (nothing should ever leave without a sweep).
    - **Outgoing nonce** — any increase alerts (the nonce only rises when the escrow signs a transaction; this detects any ETH or ERC20 token send).
-   - First run establishes a baseline; afterwards, balance drops or nonce bumps always open a hard `[ESCROW ALERT]` GitHub issue with the full state diff.
+   - Plus a best-effort ERC20 inbound-log scan (informational only, feeds `escrow-state.json` — never an alert).
+   - Free public-RPC cascade, **no API key required** (`1rpc.io/base` → `base.publicnode.com` → `mainnet.base.org`). First run establishes a baseline; afterwards, balance drops or nonce bumps always open a hard `[ESCROW ALERT]` issue with the full state diff.
 4. **Acknowledgment, not suppression.** Legitimate outgoing transfers (sweeps) are documented by appending the transaction hash to `docs/data/escrow-sweeps.json` and publishing a `sweep-receipt` issue. The watchdog does not auto-mute; an alert on an expected sweep is resolved by linking the sweep receipt in the issue. This means **a missed or forged receipt is always loud** — silence never hides a theft.
-5. **What it cannot see.** The watchdog reads only public RPC data and cannot see inside the key. If the key itself is compromised after hours, the 6-hour cron still forces a visible alert within one cycle. It does not block a withdrawal — it demands detection and accountability. Migration to a Safe multisig for the escrow is the natural next hardening step once the escrow holds material funds.
-6. **Alerts are committed (baseline) and reviewed.** `docs/data/escrow-state.json` (current baseline) is committed so changes are auditable in git history; every alert writes `docs/data/escrow-alerts.json`, which triggers the issue workflow.
+5. **What it cannot see.** The watchdog reads only public RPC data and cannot see inside the key. Even so, the 30-minute cron forces a visible alert quickly — it does not block a withdrawal, it guarantees detection. Migration to a Safe multisig for the escrow is the natural next hardening step once the escrow holds material funds.
+
+### Setting a dedicated endpoint (optional, recommended once funds accumulate)
+The current cron works on free public endpoints. For full-fidelity checks (unlimited `eth_getLogs`, sub-30-second log queries), create a free [Alchemy](https://www.alchemy.com/) account on the Base network and set the endpoint URL as a repository secret named `BASE_RPC_URL` (Settings → Secrets and variables → Actions → New repository secret). The workflow prefers the secret automatically; no code changes needed. Or run a Cloudflare Worker on a 5-minute cron (also free) calling the same script if you want sub-minute granularity — the script is dependency-free and works anywhere Node ≥ 18 is available.
 
 ## Operational responses
 
