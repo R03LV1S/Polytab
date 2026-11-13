@@ -1,8 +1,23 @@
 {
   "version": 1,
-  "updated_at": null,
-  "source": { "type": "github_issues", "repository": "R03LV1S/Polytab", "label": "proof" },
-  "integrity": { "counts_fabricated": false, "note": "Proof entries are sourced from public GitHub issues matched to canonical project IDs. Review issue state/contents for verification status." },
-  "stats": { "issues_considered": 0, "proofs_accepted": 0, "invalid_or_unmatched": 0, "projects_with_proofs": 0 },
+  "updated_at": "2026-11-13T23:55:46.486Z",
+  "source": {
+    "type": "github_issues",
+    "repository": "R03LV1S/Polytab",
+    "labels": [
+      "proof",
+      "proof-approved"
+    ]
+  },
+  "integrity": {
+    "counts_fabricated": false,
+    "note": "Proof entries are sourced from public GitHub issues matched to canonical project IDs and labeled proof + proof-approved. Review linked issues for full details."
+  },
+  "stats": {
+    "issues_considered": 0,
+    "proofs_accepted": 0,
+    "invalid_or_unmatched": 0,
+    "projects_with_proofs": 0
+  },
   "projects": {}
 }
