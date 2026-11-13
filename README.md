@@ -1,66 +1,54 @@
 # Polytab
 
-Polytab is a website where you can browse community and civic projects, learn what each project is trying to do, and show your support.
+## Vote with pennies. Fund real-world action.
 
-**Website:** https://polytab.store
+### The ancient instinct, rebuilt for the modern world
 
-## What you can do on Polytab
+Every community has always faced real problems — clean water, health care, safety, education, protection, access. And every community has asked the same question: *how do we actually decide to act?*
 
-- **Browse projects:** See a list of projects with summaries, locations, categories, and status.
-- **Search and filter:** Find projects by keyword, category, status, and location.
-- **View project details:** Open a project page to read its goals, details, updates, proof updates, and related links.
-- **Support a project:** Use the Like/Support options on a project to endorse it or share it with others.
-- **Get involved or share updates:** Use the links on project pages to submit information (such as adding yourself as involved or submitting proof/updates) when available.
+Long before banks, ballots, or blockchains, councils answered with clay. Sumerian *Ukkin*. Egyptian *Djatjat/Kenbet*. The clay-tablet verdict *Di-til-la* — "it is (hereby) cut/decided." The tablet didn't just record history; it **cut the decision into stone**: public, immutable, final.
 
-## How to use the site
+**Polytab** (Poly + Tab, "many tablets") revives that spirit in the modern age — a decentralized, append-only ledger of civic decrees where every vote, bounty, and payout is immutably recorded and mirrored across open RSS/JSON feeds.
 
-### 1. Browse projects
-- Open https://polytab.store.
-- Use the **Browse Projects** view to scroll through available projects.
-- Use search, category, status, sorting, and location filters to narrow results.
+### How Polytab works (in plain words)
 
-**Location filter tips**
-- You can enter a city, state/province, country, or ZIP/postal code.
-- Clicking a suggestion applies it immediately.
-- ZIP/postal code searches can show projects within about 50 miles (when project location data is available).
-- City/state/country selections show projects matching that place.
+1. **Vote** — Community members cast micro-fee votes ($0.25–$1.00). Each vote is both a signed ballot *and* an escrow deposit into a project's cold-storage wallet.
+2. **Pool** — Vote funds accumulate. The pool is held in escrow, not spent unilaterally.
+3. **Execute & disburse** — Verified proof-of-work is published (geo-tagged evidence, TikTok proof, Git commit hash, etc.). A 2-of-3 multi-sig releases the bounty directly to the community worker.
 
-### 2. View a project
-- Click a project title to open its project page.
-- On a project page you can see information such as:
-  - Project goals
-  - Project details
-  - People involved / communities (when provided)
-  - Updates and proof updates (when provided)
-  - Links and other project information
+**No losers.** If a proposal loses, the funds aren't lost — voters are credited and can reuse their vote on any other active proposal. Funds move only when a community-approved action is actually completed.
 
-### 3. Support a project (Like / Endorse)
-- Click **Like** (♥) on a project card or project page to open the support popup.
-- **Counted endorsement:** Choose an available sign-in/verification option to confirm your account and record a verified endorsement (where available). This helps keep counts accurate and reduces duplicate or fake support.
-- **Endorse on GitHub (manual):** You can also submit a manual endorsement through GitHub if you prefer.
-- **Share (not counted):** You can share a project link on social platforms or copy the link. Sharing helps spread the word but is not a verified or counted endorsement.
+### Why you should use Polytab
 
-### 4. Share a project
-- Use the share options in the support popup to share on supported platforms or copy the project link.
-- Some platforms may require you to paste the copied link manually.
+- **Fund real-world action with real money.** Turn small micro-donations into tangible community outcomes. It's civic action that actually gets funded.
+- **Vote with pennies.** You don't need a fortune to participate. Small-dollar stakes become real escrowed funding for verified interventions.
+- **Verified support, zero fake noise.** Endorsements can be verified through trusted sign-in providers (GitHub, Google, Discord, Facebook, TikTok, etc.) with deduplicated counts, plus a manual GitHub endorsement path. Public GitHub-issue ledgers and open feeds keep counts auditable.
+- **Community-owned outcomes.** Anti-collusion escrow, 2-of-3 multi-sig with a 48-hour public challenge window, and immutable public records — the ancient "it is decided" feeling, engineered for accountability.
 
-### 5. Add yourself or submit proof/updates
-- On project pages, look for links/buttons such as **Add yourself** or **Submit proof/update** (when available).
-- These actions may take you to a form or GitHub page where you can submit information for review/publication according to the project’s process.
+### Who is Polytab for?
 
-## Other sections on the site
-Depending on what is available, the site may also include:
-- **View Map:** Map-based view of projects/locations.
-- **Start a Project:** Information or tools for starting/submitting a project.
-- **View Predictions:** Prediction/forecast-related views.
-- **Ways to Join:** Options for participating or getting involved.
-- **How It Works:** More information about how the platform works.
+- **Charities & nonprofits** that want grassroots funding and community-backed voting power.
+- **Communities** raising money for local causes, mutual aid, civic emergencies, accessibility, health, education, or environmental action.
+- **Civic-minded people** who want their small contributions to become real-world impact — and want transparency in how decisions are made and funds released.
 
-## Privacy and terms
-- **Terms of Service:** https://polytab.store/terms
-- **Privacy Policy:** https://polytab.store/privacy
+### What Polytab can do for you / your community
 
-## Notes
-- Some features depend on third-party services (such as sign-in providers or GitHub) and may require you to authorize access or have an account with those services.
-- Verified endorsements are used to improve accuracy and reduce spam/duplicate counts.
-- Project information and updates may come from public submissions and published records.
+- Turn community concern into funded action.
+- Make small contributions that pool into real escrowed bounties.
+- Publish immutable public proof and feeds — because decisions made in the open shouldn't live in a drawer.
+- Keep the human memory of decisions intact: Polytab is the modern tablet that remembers what a community agreed to do — and does it.
+
+### Get started
+
+- **Website:** https://polytab.store
+- **Browse projects, filter by location/category/status, view details, support, share.**
+- **Start a project** or **get involved** via the site.
+
+### Legal & privacy
+
+- Terms: https://polytab.store/terms
+- Privacy: https://polytab.store/privacy
+
+---
+
+**Polytab — many tablets. One decision. Real action.**
