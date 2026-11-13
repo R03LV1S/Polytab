@@ -260,6 +260,11 @@
             const pr = await fetch("./data/proofs.json", { cache: "no-store" });
             if (pr.ok) { const pj = await pr.json(); proofs = (pj && pj.projects && pj.projects[item.id]) ? pj.projects[item.id] : []; }
           } catch (_) {}
+          const submitUrl = "https://github.com/" + GITHUB_OWNER + "/" + GITHUB_REPO + "/issues/new?template=proof-update.yml&title=" + encodeURIComponent("[Proof]: #" + item.id + " - ");
+          const submitBtn = document.createElement("a");
+          submitBtn.href = submitUrl; submitBtn.target = "_blank"; submitBtn.rel = "noopener noreferrer";
+          submitBtn.className = "inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-zinc-800 text-zinc-200 border border-zinc-700 hover:border-zinc-500 hover:text-white transition";
+          submitBtn.textContent = "Submit proof / spending update";
           if (Array.isArray(proofs) && proofs.length) {
             const list = document.createElement("div"); list.className = "space-y-3";
             proofs.forEach(p => {
@@ -282,14 +287,16 @@
               list.appendChild(card);
             });
             updatesEl.appendChild(list);
-            const note = document.createElement("p"); note.className = "text-[10px] text-zinc-500 mt-2"; note.textContent = "Proof entries are published from public GitHub submissions (docs/data/proofs.json). Review linked issues for verification/dispute status."; updatesEl.appendChild(note);
+            const footer = document.createElement("div"); footer.className = "mt-3 flex flex-wrap items-center justify-between gap-2";
+            const note = document.createElement("p"); note.className = "text-[10px] text-zinc-500"; note.textContent = "Published from public GitHub submissions labeled proof + proof-approved (docs/data/proofs.json). Review linked issues for details.";
+            footer.appendChild(note); footer.appendChild(submitBtn.cloneNode(true)); updatesEl.appendChild(footer);
           } else if (detailUpdates) {
             renderListOrPlaceholder(updatesEl, detailUpdates, "");
+            const wrap = document.createElement("div"); wrap.className = "mt-3"; wrap.appendChild(submitBtn); updatesEl.appendChild(wrap);
           } else {
             const wrap = document.createElement("div"); wrap.className = "space-y-2";
-            const p = document.createElement("p"); p.className = "text-zinc-500 italic"; p.textContent = "No proof updates published yet.";
-            const a = document.createElement("a"); a.href = "https://github.com/" + GITHUB_OWNER + "/" + GITHUB_REPO + "/issues/new?template=proof-update.yml&title=" + encodeURIComponent("[Proof]: #" + item.id + " - "); a.target = "_blank"; a.rel = "noopener noreferrer"; a.className = "inline-flex text-xs text-yellow-300 hover:text-yellow-200 underline"; a.textContent = "Submit proof / spending update on GitHub";
-            wrap.appendChild(p); wrap.appendChild(a); updatesEl.appendChild(wrap);
+            const p = document.createElement("p"); p.className = "text-zinc-500 italic"; p.textContent = "No approved proof updates published yet.";
+            wrap.appendChild(p); wrap.appendChild(submitBtn); updatesEl.appendChild(wrap);
           }
 
           const dl = document.getElementById("detailList"); dl.replaceChildren();

@@ -11,6 +11,7 @@ const OWNER = process.env.GITHUB_REPOSITORY_OWNER || 'R03LV1S';
 const REPO = process.env.GITHUB_REPOSITORY ? process.env.GITHUB_REPOSITORY.split('/')[1] : 'Polytab';
 const TOKEN = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || '';
 const LABEL = 'proof';
+const APPROVED_LABEL = 'proof-approved';
 const FEED_PATH = path.join(__dirname, '..', 'docs', 'feed.json');
 const OUT_PATH = path.join(__dirname, '..', 'docs', 'data', 'proofs.json');
 
@@ -116,8 +117,9 @@ function extractProjectId(issue) {
 }
 
 async function fetchAllProofIssues() {
+  // Only publish issues that have BOTH "proof" and "proof-approved" labels (verified/approved).
   const issues = [];
-  let url = `https://api.github.com/repos/${OWNER}/${REPO}/issues?labels=${encodeURIComponent(LABEL)}&state=all&per_page=100&sort=created&direction=desc`;
+  let url = `https://api.github.com/repos/${OWNER}/${REPO}/issues?labels=${encodeURIComponent(LABEL + ',' + APPROVED_LABEL)}&state=all&per_page=100&sort=created&direction=desc`;
   let page = 0;
   while (url) {
     page++;
@@ -181,8 +183,8 @@ async function main() {
   const out = {
     version: 1,
     updated_at: new Date().toISOString(),
-    source: { type: 'github_issues', repository: `${OWNER}/${REPO}`, label: LABEL },
-    integrity: { counts_fabricated: false, note: 'Proof entries are sourced from public GitHub issues matched to canonical project IDs. Review issue state/contents for verification status.' },
+    source: { type: 'github_issues', repository: `${OWNER}/${REPO}`, labels: [LABEL, APPROVED_LABEL] },
+    integrity: { counts_fabricated: false, note: 'Proof entries are sourced from public GitHub issues matched to canonical project IDs and labeled proof + proof-approved. Review linked issues for full details.' },
     stats: { issues_considered: considered, proofs_accepted: accepted, invalid_or_unmatched: invalid, projects_with_proofs: Object.keys(byProject).length },
     projects: byProject
   };
