@@ -725,7 +725,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         const next = base + maxOff + 1;
         return (next < base + 10000) ? String(next) : null;
       }
-      const PARENTS = [PARENT_CHARITIES, PARENT_SPECULATIVE, PARENT_VOTING];
+      const PARENTS = [PARENT_VOTING, PARENT_SPECULATIVE, PARENT_CHARITIES];
       const PARENT_CATEGORIES = { [PARENT_CHARITIES]: CHARITY_CATEGORIES, [PARENT_SPECULATIVE]: SPECULATIVE_CATEGORIES, [PARENT_VOTING]: VOTING_CATEGORIES };
       const CATEGORIES = ["ALL"].concat(CHARITY_CATEGORIES).concat(SPECULATIVE_CATEGORIES).concat(VOTING_CATEGORIES);
       const PAGE_SIZE = 6;
@@ -837,7 +837,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         }
         renderProposalsGrid();
       }
-      let state = { orgWallets: new Map(), proposals: [], markets: [], selectedCategory: PARENT_CHARITIES, selectedStatus: "ALL", searchQuery: "", plainLanguageMode: false, highContrastMode: false, liteMode: false, connectedAddress: null, socialHandle: localStorage.getItem("polytab_handle") || "", activeModalProposal: null, mapInstance: null, expandedParents: { [PARENT_CHARITIES]: true, [PARENT_SPECULATIVE]: false, [PARENT_VOTING]: false }, showAllCategoriesSection: true, endorsements: loadEndorsements(), verifiedEndorsements: null, cloudEndorsements: null, endorsementsSnapshotStatus: "loading", page: 1, sortBy: "default", zipQuery: "", zipLat: null, zipLng: null, zipResolvedCode: null, locMode: "none", locKind: null, locCountry: null, locState: null, locCity: null, locLabel: "" };
+      let state = { orgWallets: new Map(), proposals: [], markets: [], selectedCategory: PARENT_VOTING, selectedStatus: "ALL", searchQuery: "", plainLanguageMode: false, highContrastMode: false, liteMode: false, connectedAddress: null, socialHandle: localStorage.getItem("polytab_handle") || "", activeModalProposal: null, mapInstance: null, expandedParents: { [PARENT_VOTING]: true, [PARENT_SPECULATIVE]: false, [PARENT_CHARITIES]: false }, showAllCategoriesSection: true, endorsements: loadEndorsements(), verifiedEndorsements: null, cloudEndorsements: null, endorsementsSnapshotStatus: "loading", page: 1, sortBy: "default", zipQuery: "", zipLat: null, zipLng: null, zipResolvedCode: null, locMode: "none", locKind: null, locCountry: null, locState: null, locCity: null, locLabel: "" };
       function isValidAddress(addr) { return /^0x[a-fA-F0-9]{40}$/.test(String(addr || "").trim()); }
       function isValidTxHash(hash) { return /^0x[a-fA-F0-9]{64}$/.test(String(hash || "").trim()); }
       async function loadOverlayWallets() {
@@ -1411,7 +1411,8 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         } else if (mode === "oldest") {
           arr.sort((a,b) => ((Number(a.datePublishedMs)||0) - (Number(b.datePublishedMs)||0)) || compareIds(a,b));
         } else {
-          arr.sort((a,b) => (vaNf(b.id) - vaNf(a.id)) || (local(b.id) - local(a.id)) || compareIds(a,b));
+          const rankOf = (item) => { const p = item.parentCategory || parentForCategory(item.category) || PARENT_CHARITIES; return p === PARENT_VOTING ? 0 : p === PARENT_SPECULATIVE ? 1 : 2; };
+          arr.sort((a,b) => (rankOf(a) - rankOf(b)) || (vaNf(b.id) - vaNf(a.id)) || (local(b.id) - local(a.id)) || compareIds(a,b));
         }
         return arr;
       }
