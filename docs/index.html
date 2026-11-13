@@ -1620,19 +1620,6 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           bottomDiv.appendChild(walletRow);
           const endorseRow = document.createElement("div");
           endorseRow.className = "flex flex-col gap-1.5";
-          const endorseTop = document.createElement("div");
-          endorseTop.className = "flex items-center justify-between gap-2 flex-wrap";
-          const vCount = verifiedEndorsementCount(item.id);
-          const verifiedBadge = document.createElement("span");
-          verifiedBadge.className = "text-[10px] font-mono px-2 py-0.5 rounded-md bg-emerald-500/10 text-emerald-300 border border-emerald-500/20";
-          if (vCount == null) {
-            verifiedBadge.textContent = "Verified endorsements: unavailable";
-            verifiedBadge.title = "Verified endorsement count is not available right now.";
-          } else {
-            verifiedBadge.textContent = vCount + " verified endorsement" + (vCount === 1 ? "" : "s");
-            verifiedBadge.title = "People who endorsed this project with a verified account (e.g. GitHub). One per person.";
-          }
-          endorseTop.appendChild(verifiedBadge);
           const endorseBottom = document.createElement("div");
           endorseBottom.className = "flex items-center justify-between gap-2 flex-wrap";
           const ghLink = document.createElement("a");
@@ -1655,7 +1642,6 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
             claimLink.addEventListener("click", (ev) => ev.stopPropagation());
             endorseBottom.appendChild(claimLink);
           }
-          endorseRow.appendChild(endorseTop);
           endorseRow.appendChild(endorseBottom);
           bottomDiv.appendChild(endorseRow);
           bottomDiv.appendChild(actionBtn);
