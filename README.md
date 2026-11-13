@@ -12,15 +12,15 @@ Long before banks, ballots, or blockchains, councils answered with clay. Sumeria
 
 ### How Polytab works (in plain words)
 
-1. **Verify** — An organization named on a bounty page proves itself (registry record + domain control). Until then, that page is donation-locked: nobody, not even the owner, can collect from it.
+1. **Verify** — An organization named on a bounty page proves itself (registry record + domain control). Until then, that page is support-locked: nobody, not even the owner, can collect from it.
 2. **Vote** — Once verified, community members cast micro-fee votes ($0.25–$1.00). Each vote is both a signed ballot *and* a direct payment to the organization's wallet on Base/Polygon — settled peer-to-peer, no custody in between.
-3. **Execute & disburse** — Verified proof-of-work is published (geo-tagged evidence, TikTok proof, Git commit hash, etc.). Donations go straight to the verified organization's wallet. For user-created bounties, the payout wallet is creator-specified at creation. No middleman ever holds the money.
+3. **Execute & disburse** — Verified proof-of-work is published (geo-tagged evidence, TikTok proof, Git commit hash, etc.). Contributions go straight to the verified organization's wallet. For user-created bounties, the payout wallet is creator-specified at creation. No middleman ever holds the money.
 
-**No platform fees.** Once a page is verified, donations flow directly to its payout wallet and Polytab never takes a penny. No pooled treasury, no escrow, no custody, no surprises.
+**No platform fees.** Once a page is verified, contributions flow directly to its payout wallet and Polytab never takes a penny. No pooled treasury, no escrow, no custody, no surprises.
 
 ### Why you should use Polytab
 
-- **Fund real-world action with real money.** Turn small micro-donations into tangible community outcomes. It's civic action that actually gets funded.
+- **Support real-world action with real money.** Turn small micro-contributions into tangible community outcomes. It's civic action that actually gets funded.
 - **Vote with pennies.** You don't need a fortune to participate. Small-dollar stakes flow directly into verified interventions.
 - **Verified support, zero custody.** You deploy, you give, it lands. No deposits, no withdrawal process, no ledger to reconcile.
 - **Community-owned outcomes.** Verification and public feeds keep counts auditable, the wallet ledger visible to everyone, and outsiders from ever touching a drop of your stake.

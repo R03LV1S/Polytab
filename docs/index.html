@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Polytab.store | The Decentralized Civic Action Marketplace</title>
-  <meta name="description" content="The store where you buy civic outcomes, not junk. Donation marketplace for verified charities: funds settle directly on-chain into each organization's wallet; Polytab holds nothing." />
+  <meta name="description" content="The store where you buy civic outcomes, not junk. Support marketplace for verified charities: funds settle directly on-chain into each organization's wallet; Polytab holds nothing." />
   
   <link rel="alternate" type="application/rss+xml" title="Polytab Projects (RSS)" href="./feed.xml" />
   <link rel="alternate" type="application/feed+json" title="Polytab Global JSON Feed" href="./feed.json" />
@@ -190,7 +190,7 @@
             Vote with pennies. <span class="text-yellow-400 hc-accent">Fund real-world action.</span>
           </h1>
           <p class="text-zinc-300 text-xs sm:text-sm leading-snug line-clamp-2">
-            Donations are locked until each named organization verifies its bounty page (registry + domain control). Verification unlocks the page and sends donations directly to the org&rsquo;s own payout wallet on Base &mdash; Polytab never holds funds.<br />
+            Contributions are locked until each named organization verifies its bounty page (registry + domain control). Verification unlocks the page and sends contributions directly to the org&rsquo;s own payout wallet on Base &mdash; Polytab never holds funds.<br />
           </p>
         </div>
         <div class="lg:col-span-4 xl:col-span-3 grid grid-cols-3 gap-1.5">
@@ -200,7 +200,7 @@
             <span class="text-[9px] text-emerald-400 font-mono leading-tight">Honest-Zero · Live</span>
           </div>
           <div class="bg-zinc-900/70 border border-zinc-800 p-2 rounded-lg hc-card">
-            <span class="text-[9px] text-zinc-400 uppercase font-semibold tracking-wider block">Donation Status</span>
+            <span class="text-[9px] text-zinc-400 uppercase font-semibold tracking-wider block">Support Status</span>
             <span id="statTotalEscrow" class="text-lg font-black text-yellow-400 hc-accent mt-0.5 block leading-none">$0.00</span>
             <span class="text-[9px] text-zinc-400 font-mono leading-tight">Locked Until Org Verification</span>
           </div>
@@ -314,7 +314,7 @@
             </div>
             <p class="text-[11px] text-zinc-500 mt-2">Use an address, ZIP, city, state, or country — we’ll turn it into a project location automatically.</p>
           </div>
-          <p class="text-[11px] text-zinc-500 -mt-2">ID pipeline (bloc format): Charities 10000&ndash;79999, Speculative 80000&ndash;89999, Voting 90000&ndash;99999 (sub-blocks reserved for future blocs). IDs never renumber. Donations are locked until the named organization verifies; funds then settle directly into the organization&rsquo;s payout wallet &mdash; Polytab never holds funds.</p>
+          <p class="text-[11px] text-zinc-500 -mt-2">ID pipeline (bloc format): Charities 10000&ndash;79999, Speculative 80000&ndash;89999, Voting 90000&ndash;99999 (sub-blocks reserved for future blocs). IDs never renumber. Contributions are locked until the named organization verifies; funds then settle directly into the organization&rsquo;s payout wallet &mdash; Polytab never holds funds.</p>
           <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div>
               <label for="newTargetUSD" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Funding Goal (USD) *</label>
@@ -377,8 +377,8 @@
           <span class="px-2.5 py-1 rounded bg-zinc-800 text-zinc-300 border border-zinc-700 text-[11px] font-mono">Vote on values. Forecast with pennies.</span>
         </div>
         <p class="text-xs text-zinc-400 max-w-3xl leading-relaxed">
-          Each market asks which verified intervention works better for a specific community. Backing an outcome is a donation, not a wager &mdash;
-          <strong class="text-yellow-300 hc-accent">100% of every stake funds the project you chose</strong>. Donations unlock only after the beneficiary organization verifies its bounty page (registry + domain control). Until then, every stake button is locked. No protocol slice, no redistribution between outcomes, and no money back to anyone once verified.
+          Each market asks which verified intervention works better for a specific community. Backing an outcome is a support, not a wager &mdash;
+          <strong class="text-yellow-300 hc-accent">100% of every stake funds the project you chose</strong>. Contributions unlock only after the beneficiary organization verifies its bounty page (registry + domain control). Until then, every stake button is locked. No protocol slice, no redistribution between outcomes, and no money back to anyone once verified.
           Settlement decides which intervention earns the documented-improvement credit, and which forecasters earn non-monetary accuracy credit.
         </p>
         <p class="text-xs text-zinc-400 max-w-3xl leading-relaxed">
@@ -470,13 +470,13 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div class="bg-zinc-900/50 border border-zinc-800 p-6 rounded-2xl space-y-3 hc-card">
           <span class="text-xs font-mono uppercase text-yellow-400 font-bold">Anti-Self-Dealing Design</span>
-          <h2 class="text-xl font-bold text-white">Donations Locked Until Org Verification</h2>
+          <h2 class="text-xl font-bold text-white">Contributions Locked Until Org Verification</h2>
           <p class="text-xs text-zinc-300 leading-relaxed">
-            Every bounty page for an unverified organization is donation-locked by design &mdash; so nobody can invent a false bounty for an org and collect funds through Polytab (&ldquo;The Bleacher Cartel&rdquo;):
+            Every bounty page for an unverified organization is support-locked by design &mdash; so nobody can invent a false bounty for an org and collect funds through Polytab (&ldquo;The Bleacher Cartel&rdquo;):
           </p>
           <ol class="text-xs text-zinc-300 space-y-2 list-decimal list-inside">
-            <li><strong>Locked by default:</strong> only user-created projects (with a creator-supplied payout wallet) can receive donations from day one. Auto-listed charity pages cannot.</li>
-            <li><strong>Org Verification:</strong> a named charity unlocks its page by filing an org-claim issue with its registry number and domain control (DNS TXT or an email from its official domain). Donations for that page then settle directly on-chain into the organization&rsquo;s own payout wallet.</li>
+            <li><strong>Locked by default:</strong> only user-created projects (with a creator-supplied payout wallet) can receive contributions from day one. Auto-listed charity pages cannot.</li>
+            <li><strong>Org Verification:</strong> a named charity unlocks its page by filing an org-claim issue with its registry number and domain control (DNS TXT or an email from its official domain). Contributions for that page then settle directly on-chain into the organization&rsquo;s own payout wallet.</li>
             <li><strong>Direct-to-org settlement:</strong> funds never transit through Polytab &mdash; donors send straight to the verified org&rsquo;s wallet. Public receipts (tx hashes in GitHub issues) keep every sweep auditable.</li>
           </ol>
         </div>
@@ -495,7 +495,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         <span class="text-xs font-mono uppercase text-purple-400 font-bold">Futarchy &amp; Adversarial Outcome Markets</span>
         <h3 class="text-lg font-bold text-white">Vote on Values, Forecast with Pennies</h3>
         <p class="text-xs text-zinc-300 leading-relaxed">
-          Futarchy policy markets let small-dollar donations reveal which verified intervention a community believes works better. Every stake is a direct donation held in escrow for the outcome the staker chose, locked until that beneficiary verifies its bounty page &mdash; unlocked, funds settle on-chain to the beneficiary&rsquo;s own wallet, no protocol slice, no redistribution between outcomes, and no payout to anyone<strong class="text-yellow-300"> &mdash; </strong>after verification. Settlement decides which intervention earns the documented-improvement credit and which forecasters earn non-monetary accuracy credit. Stakes for unverified beneficiaries stay locked; no funds flow anywhere until they claim. Markets launch at $0 funded with an unset forecast split; numbers appear only after verified on-chain stakes.
+          Futarchy policy markets let small-dollar contributions reveal which verified intervention a community believes works better. Every stake is a direct support held in escrow for the outcome the staker chose, locked until that beneficiary verifies its bounty page &mdash; unlocked, funds settle on-chain to the beneficiary&rsquo;s own wallet, no protocol slice, no redistribution between outcomes, and no payout to anyone<strong class="text-yellow-300"> &mdash; </strong>after verification. Settlement decides which intervention earns the documented-improvement credit and which forecasters earn non-monetary accuracy credit. Stakes for unverified beneficiaries stay locked; no funds flow anywhere until they claim. Markets launch at $0 funded with an unset forecast split; numbers appear only after verified on-chain stakes.
         </p>
         <ol class="text-xs text-zinc-300 space-y-2 list-decimal list-inside">
           <li><strong>Tier 1 &mdash; Deterministic:</strong> A GitHub Action cron-fetches public data feeds (legislative dockets, agency APIs, school-district reports), SHA-256-verifies the body, and auto-settles hard metrics after the resolution deadline.</li>
@@ -579,9 +579,9 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       </div>
       <div id="modalLockBlock" class="hidden space-y-4 border border-amber-500/30 bg-amber-500/5 rounded-xl p-5 text-center">
         <div class="text-3xl leading-none" aria-hidden="true">&#128274;</div>
-        <h3 class="text-base font-bold text-amber-200">Donations locked for #<span id="lockProjectId"></span></h3>
+        <h3 class="text-base font-bold text-amber-200">Contributions locked for #<span id="lockProjectId"></span></h3>
         <p class="text-xs text-zinc-300 leading-relaxed">
-          This organization hasn&rsquo;t verified its bounty page yet, so funds are not accepted. Verification confirms the organization&rsquo;s legal identity and official domain (registry + DNS TXT or org-domain email). Donations settle directly into the verified organization&rsquo;s Base wallet; Polytab never holds funds.
+          This organization hasn&rsquo;t verified its bounty page yet, so funds are not accepted. Verification confirms the organization&rsquo;s legal identity and official domain (registry + DNS TXT or org-domain email). Contributions settle directly into the verified organization&rsquo;s Base wallet; Polytab never holds funds.
         </p>
         <div class="flex flex-col items-center gap-2 pt-1">
           <a id="modalClaimLink" href="#" target="_blank" rel="noopener noreferrer" class="inline-block px-4 py-2 rounded-xl bg-amber-500/15 border border-amber-500/40 text-amber-200 text-sm font-semibold hover:text-amber-100">Org? Claim this page &rarr;</a>
@@ -618,7 +618,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       <div class="space-y-1 max-w-2xl">
         <p class="font-semibold text-zinc-300">Polytab (`polytab.store`) &mdash; Open-Source Civic Coordination Protocol</p>
         <p class="text-[11px] text-zinc-500">
-          Disclaimer: Polytab is static open-source interface software hosted on GitHub Pages and Cloudflare Edge. Donations to bounty pages whose organizations have not verified are disabled entirely &mdash; Polytab never takes custody of funds. Verified charities receive donations directly on-chain into their own Base wallet; user-created bounty pages settle directly into the creator&rsquo;s wallet. Polytab is not a bank, a charity, or an insurer; micro-transactions settle on Base/Polygon and are non-refundable; see Terms.
+          Disclaimer: Polytab is static open-source interface software hosted on GitHub Pages and Cloudflare Edge. Contributions to bounty pages whose organizations have not verified are disabled entirely &mdash; Polytab never takes custody of funds. Verified charities receive contributions directly on-chain into their own Base wallet; user-created bounty pages settle directly into the creator&rsquo;s wallet. Polytab is not a bank, a charity, or an insurer; micro-transactions settle on Base/Polygon and are non-refundable; see Terms.
         </p>
       </div>
       <div class="flex flex-wrap gap-3 font-mono text-[11px]">
@@ -654,9 +654,9 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       const ENDORSEMENT_API = (window.POLYTAB_ENDORSEMENT_API || "").replace(/\/$/, "");
       const BASE_CHAIN_ID = 8453;
       // Bloc pipeline: IDs are bloc-assigned (Charities 10000-79999, etc.) and never renumbered.
-      // All auto-listed pages ship with a placeholder wallet and donation buttons LOCKED until the
+      // All auto-listed pages ship with a placeholder wallet and support buttons LOCKED until the
       // named organization verifies (org-claim issue: registry + DNS TXT/official-domain email).
-      // Donations settle directly on-chain into the verified organization's payout wallet — Polytab never custodies funds.
+      // Contributions settle directly on-chain into the verified organization's payout wallet — Polytab never custodies funds.
       const ESCROW_WALLET = "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08";
       // --- ID identification pipeline (scaffolded, bloc format) ---
       // Parents/ranges: Charities 10000-79999. Speculative 80000-89999. Voting 90000-99999 (leaf blocs; gaps reserved).
@@ -803,7 +803,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           title: "[Org Claim]: #" + String(item.id || "") + " - " + String(item.title || "").slice(0, 80),
           labels: "org-claim",
           body: "### Organization claim — bounty page #" + String(item.id || "") + "\n" +
-            "Claim this Polytab bounty page on behalf of an organization. Donation buttons unlock on completion; funds settle directly into the payout wallet this issue provides.\n\n" +
+            "Claim this Polytab bounty page on behalf of an organization. Support buttons unlock on completion; funds settle directly into the payout wallet this issue provides.\n\n" +
             "**Organization legal name:**\n" +
             "**Organization website:**\n" +
             "**Registry & ID (e.g. IRS EIN / CRA BN / Charity number):**\n" +
@@ -812,7 +812,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
             "**Official email (same domain as the org website):**\n" +
             "**Payout wallet (0x, on Base chain ID 8453):**\n" +
             "**Verification (required — pick one):** (a) add `polytab-verify=" + String(item.id || "<project-id>") + "` as a TXT record on your domain (fastest), or (b) reply from an email address on your organization's official domain confirming (registry record, officer, payout wallet). Self-asserted contact info is never sufficient.\n" +
-            "**Confirmation:** By submitting, you confirm that this wallet belongs to the organization and that donated funds will be used for it.\n"
+            "**Confirmation:** By submitting, you confirm that this wallet belongs to the organization and that contributed funds will be used for it.\n"
         });
         return "https://github.com/" + GITHUB_OWNER + "/" + GITHUB_REPO + "/issues/new?" + params.toString();
       }
@@ -998,10 +998,10 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
               btn.type = "button";
               btn.className = "w-full py-2.5 px-4 bg-amber-500/10 hover:bg-amber-500/15 text-amber-200 font-bold rounded-xl text-xs border border-amber-500/40 transition hc-btn";
               btn.textContent = "Locked — Funds unlock once " + o.organization + " verifies its bounty page";
-              btn.title = "Donations are disabled until the beneficiary organization verifies (org-claim.yml).";
+              btn.title = "Contributions are disabled until the beneficiary organization verifies (org-claim.yml).";
               const lockedNote = document.createElement("p");
               lockedNote.className = "text-[11px] text-amber-200/80 leading-snug pt-1";
-              lockedNote.textContent = "Donations resume once the organization files its org-claim and verifies (registry + DNS TXT). Until then, nothing is collected and nothing transits Polytab.";
+              lockedNote.textContent = "Contributions resume once the organization files its org-claim and verifies (registry + DNS TXT). Until then, nothing is collected and nothing transits Polytab.";
               row.appendChild(btn);
               row.appendChild(lockedNote);
               outcomesDiv.appendChild(row);
@@ -1679,7 +1679,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
             claimLink.rel = "noopener noreferrer";
             claimLink.className = "text-[10px] text-amber-300 hover:text-amber-200 underline underline-offset-2";
             claimLink.textContent = "Org? Claim this page \u2192";
-            claimLink.title = "Claiming unlocks donations for this page. Verify via GitHub issue: org name, website, registry ID, and the payout wallet to send donations to.";
+            claimLink.title = "Claiming unlocks contributions for this page. Verify via GitHub issue: org name, website, registry ID, and the payout wallet to send contributions to.";
             claimLink.addEventListener("click", (ev) => ev.stopPropagation());
             endorseBottom.appendChild(claimLink);
           }

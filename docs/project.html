@@ -126,12 +126,12 @@
           title: "[Org Claim]: #" + String(item.id || "") + " - " + String(item.title || "").slice(0, 80),
           labels: "org-claim",
           body: "### Organization claim — bounty page #" + String(item.id || "") + "\n" +
-            "Claim this Polytab bounty page on behalf of an organization. Donation buttons unlock on completion; funds then settle directly into the payout wallet this issue provides.\n\n" +
+            "Claim this Polytab bounty page on behalf of an organization. Support buttons unlock on completion; funds then settle directly into the payout wallet this issue provides.\n\n" +
             "**Organization legal name:**\n**Organization website:**\n**Registry & ID (IRS EIN / CRA BN / Charity number):**\n**Registry lookup URL:**\n" +
             "**Officer name (must be on the org's public record):**\n**Official email (same domain as the org website):**\n" +
             "**Payout wallet (0x, on Base chain ID 8453):**\n" +
             "**Verification (required — pick one):** (a) add `polytab-verify=" + String(item.id || "<project-id>") + "` as a TXT record on your domain (fastest), or (b) reply from an email address on your organization's official domain confirming (registry record, officer, payout wallet). Self-asserted contact info is never sufficient.\n" +
-            "**Confirmation:** By submitting, you confirm this wallet belongs to the organization and that donated funds will be used for it.\n"
+            "**Confirmation:** By submitting, you confirm this wallet belongs to the organization and that contributed funds will be used for it.\n"
         });
         return "https://github.com/" + GITHUB_OWNER + "/" + GITHUB_REPO + "/issues/new?" + params.toString();
       }
@@ -290,7 +290,7 @@
           if (escrowNote) {
             const isLocked = String(item.wallet || "").toLowerCase() === ESCROW_WALLET.toLowerCase();
             if (isLocked) {
-              escrowNote.textContent = "Donations are disabled on this page until the named organization verifies (registry + domain). Nothing is collected; nothing transits Polytab.";
+              escrowNote.textContent = "Contributions are disabled on this page until the named organization verifies (registry + domain). Nothing is collected; nothing transits Polytab.";
               escrowNote.className = "text-[10px] text-amber-400 mt-1";
             } else {
               escrowNote.textContent = "Verified page — pay directly on-chain; every sweep is public.";
@@ -410,7 +410,7 @@
             buy.href = orgClaimIssueUrl(item);
             buy.textContent = "Org? Claim this page \u2192";
             buy.className = "inline-flex items-center justify-center px-4 py-2.5 rounded-xl bg-amber-500/15 border border-amber-500/40 text-amber-200 text-xs font-bold transition hover:text-amber-100";
-            buy.title = "Donations unlock after org verification. If you represent this organization, claim the page.";
+            buy.title = "Contributions unlock after org verification. If you represent this organization, claim the page.";
           } else {
             buy.href = "./index.html#" + encodeURIComponent(item.id);
             buy.textContent = "Buy Action ($" + item.votePriceUSD.toFixed(2) + ") / View & Verify";

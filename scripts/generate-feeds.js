@@ -78,7 +78,7 @@ function itemDescription(item) {
   const w = m.contract || m.wallet;
   if (w) {
     if (String(w).toLowerCase() === "0x1e89ff2c2922528c8ace8db07f73ef979ea76c08") {
-      lines.push("Donations: locked — org must verify (registry + DNS TXT) to unlock its page");
+      lines.push("Contributions: locked — org must verify (registry + DNS TXT) to unlock its page");
     } else {
       lines.push("Payout: " + w);
     }

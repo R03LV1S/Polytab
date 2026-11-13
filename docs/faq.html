@@ -52,7 +52,7 @@
       <hr>
 
       <h2 id="project-wallet">How to: Project Wallet (EVM 0x Address)</h2>
-      <p><strong>Short answer:</strong> The Project Wallet is an EVM-compatible <code>0x</code> address that your project controls. It&rsquo;s where donations go once your organization verifies and donations unlock. Unverified pages cannot accept donations at all; there is no shared escrow, and Polytab never holds funds. You never share a private key or seed phrase with Polytab.</p>
+      <p><strong>Short answer:</strong> The Project Wallet is an EVM-compatible <code>0x</code> address that your project controls. It&rsquo;s where contributions go once your organization verifies and contributions unlock. Unverified pages cannot accept contributions at all; there is no shared escrow, and Polytab never holds funds. You never share a private key or seed phrase with Polytab.</p>
 
       <h3>What is an EVM 0x address?</h3>
       <p>An EVM (Ethereum Virtual Machine) address is a 42-character hexadecimal address starting with <code>0x</code>, for example <code>0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045</code>. It works on Base (chain ID <code>8453</code>) and Polygon, which are the networks Polytab uses. Think of it as the project&rsquo;s public account number &mdash; anyone can send funds to it or see what&rsquo;s in it, but only whoever holds the private key can move funds out.</p>
@@ -60,15 +60,15 @@
       <h3>Why does Polytab ask for it?</h3>
       <ul>
         <li>Micro-votes ($0.25&ndash;$1.00) are both a signed ballot and a direct payment designated for the project you choose.</li>
-        <li>User-created bounty pages accept donations directly into the creator&rsquo;s own wallet; charity pages accept donations only after the named organization verifies.</li>
-        <li>Charity bounty pages stay donation-locked until the named organization verifies (registry record + domain control). Polytab holds no funds; verification unlocks the page and routes donations directly to the organization&rsquo;s wallet (<a href="./claim.html">Claim Your Bounty Page</a>).</li>
+        <li>User-created bounty pages accept contributions directly into the creator&rsquo;s own wallet; charity pages accept contributions only after the named organization verifies.</li>
+        <li>Charity bounty pages stay support-locked until the named organization verifies (registry record + domain control). Polytab holds no funds; verification unlocks the page and routes contributions directly to the organization&rsquo;s wallet (<a href="./claim.html">Claim Your Bounty Page</a>).</li>
       </ul>
 
       <h3>Step-by-step: create a Project Wallet</h3>
       <div class="space-y-3">
         <div class="howto-step"><div class="howto-num">1</div><div><strong>Pick an EVM wallet.</strong> The easiest option is a free browser/mobile wallet like MetaMask, Rabby, or Coinbase Wallet. A dedicated hardware wallet (Ledger, Trezor) or a project multisig (like Safe) is even better for shared project funds.</div></div>
         <div class="howto-step"><div class="howto-num">2</div><div><strong>Create (or choose) the project wallet.</strong> In your wallet app, create a new account/address specifically for the project. Use a fresh address rather than a personal one if you want clean bookkeeping or shared control.</div></div>
-        <div class="howto-step"><div class="howto-num">3</div><div><strong>Use Base (chain ID 8453) &mdash; not Ethereum Mainnet.</strong> Polytab&rsquo;s donations run on Base L2 (<code>ethereum:0x...@8453</code>), where gas is fractions of a cent. Your address is the same on every EVM network, but <em>balances and gas are per-network</em> &mdash; Mainnet ETH cannot pay Base gas.<br>
+        <div class="howto-step"><div class="howto-num">3</div><div><strong>Use Base (chain ID 8453) &mdash; not Ethereum Mainnet.</strong> Polytab&rsquo;s contributions run on Base L2 (<code>ethereum:0x...@8453</code>), where gas is fractions of a cent. Your address is the same on every EVM network, but <em>balances and gas are per-network</em> &mdash; Mainnet ETH cannot pay Base gas.<br>
           In <strong>Brave</strong>: <em>Brave &rarr; Brave Wallet &rarr; Deposit</em>, change the network filter (top-right, e.g. &ldquo;All Networks&rdquo;) to <strong>Base</strong>, and pick <strong>&ldquo;Ether &mdash; ETH on Base&rdquo;</strong> &mdash; full walkthrough: <a href="#brave-wallet">How to: Use Brave Wallet with Polytab</a>.<br>
           In <strong>MetaMask</strong>: <em>Networks &rarr; Add network &rarr; Base</em> (or pick Base from the network list).<br>
           Then add only a tiny amount of ETH on Base &mdash; a couple of dollars covers thousands of micro-votes. Polygon is also supported, but Base is the default we use.</div></div>
@@ -161,7 +161,7 @@
       <h2>Getting Started</h2>
 
       <h3>What is Polytab?</h3>
-      <p>Polytab is an open-source civic coordination protocol. Communities propose real-world actions, members back them with micro-fee ($0.25&ndash;$1.00) ballots, and donations stay disabled on any bounty page whose organization has not verified. Once verified, donations settle directly on-chain into the organization&rsquo;s Base wallet; decisions and payout records are public and auditable across RSS/JSON feeds.</p>
+      <p>Polytab is an open-source civic coordination protocol. Communities propose real-world actions, members back them with micro-fee ($0.25&ndash;$1.00) ballots, and contributions stay disabled on any bounty page whose organization has not verified. Once verified, contributions settle directly on-chain into the organization&rsquo;s Base wallet; decisions and payout records are public and auditable across RSS/JSON feeds.</p>
 
       <h3>Do I need an account?</h3>
       <p>No. Anyone can browse projects without signing in. Endorsements and verification flows use your existing accounts (GitHub, Google, Discord, Facebook, or TikTok, where available) via a secure OAuth handshake &mdash; no Polytab password is required, and we never receive your provider password.</p>
@@ -177,10 +177,10 @@
       <h2>Funds, Fees &amp; Custody</h2>
 
       <h3>Who holds the money?</h3>
-      <p><strong>No one.</strong> Polytab never takes custody or possession of funds at any point &mdash; donations for unverified pages are disabled outright, and on verification they settle directly into the organization&rsquo;s wallet. For user-created projects, your payout wallet is yours alone. Polytab holds no keys.</p>
+      <p><strong>No one.</strong> Polytab never takes custody or possession of funds at any point &mdash; contributions for unverified pages are disabled outright, and on verification they settle directly into the organization&rsquo;s wallet. For user-created projects, your payout wallet is yours alone. Polytab holds no keys.</p>
 
       <h3>Where does the bounty go when a project succeeds?</h3>
-      <p>Once a page is verified, donations settle directly on-chain into the organization&rsquo;s wallet &mdash; nothing is collected, pooled, or routed by Polytab. There is no sweep and no refund flow because Polytab never receives or moves funds; see the &ldquo;proposal that isn&rsquo;t approved&rdquo; answer further down for what happens to donations on unverified pages (short answer: none are possible).</p>
+      <p>Once a page is verified, contributions settle directly on-chain into the organization&rsquo;s wallet &mdash; nothing is collected, pooled, or routed by Polytab. There is no sweep and no refund flow because Polytab never receives or moves funds; see the &ldquo;proposal that isn&rsquo;t approved&rdquo; answer further down for what happens to contributions on unverified pages (short answer: none are possible).</p>
 
       <h3>Are there fees?</h3>
       <p>There is no Polytab protocol fee. You only pay the network gas fee on Base/Polygon for your own transactions (typically a fraction of a cent to cents on Base). Future payment-conversion services may charge their own processing fees, disclosed at the point of use.</p>
@@ -203,7 +203,7 @@
       <h2>Projects, Proof &amp; IDs</h2>
 
       <h3>Is my organization listed on a bounty page?</h3>
-      <p>Yes, thousands are &mdash; bounty pages named after registered charities and nonprofits are fundraising proxies for those organizations. Until verification, your page shows <strong>&ldquo;Locked &mdash; organization must verify&rdquo;</strong> and donations are disabled entirely. Once verified (registry + domain), the donation button unlocks and funds settle directly on-chain into your organization&rsquo;s Base wallet &mdash; Polytab never holds funds. Note donations do not appear until verification; locked pages accept none. See <a href="./claim.html">Claim Your Bounty Page</a>.</p>
+      <p>Yes, thousands are &mdash; bounty pages named after registered charities and nonprofits are outreach proxies for those organizations. Until verification, your page shows <strong>&ldquo;Locked &mdash; organization must verify&rdquo;</strong> and contributions are disabled entirely. Once verified (registry + domain), the support button unlocks and funds settle directly on-chain into your organization&rsquo;s Base wallet &mdash; Polytab never holds funds. Note contributions do not appear until verification; locked pages accept none. See <a href="./claim.html">Claim Your Bounty Page</a>.</p>
 
       <h3>How do I start a project?</h3>
       <p>Go to the <strong>Start a Project</strong> tab, fill in the title, category, location (address, ZIP, city, state, or country &mdash; we auto-geocode it), funding goal, micro-vote price, and Project Wallet, then submit. Your proposal is opened as a GitHub Issue for public review and verification.</p>
@@ -212,20 +212,20 @@
       <p>A short description (max 600 characters) of what needs doing and what proof will show it worked &mdash; e.g., geo-tagged photos, a commit hash, a video, or a completion certificate. Evidence like this is what donors review before giving; Polytab does nothing with proof but surface it.</p>
 
       <h3>What are the ID numbers and the placeholder wallets?</h3>
-      <p>Project IDs are bloc-assigned by category (Charities 10000&ndash;79999, Speculative 80000&ndash;89999, Voting 90000&ndash;99999) and never renumbered. Every bounty page ships donation-locked with a placeholder wallet; on verification (registry + domain proof), that placeholder is rewritten to the organization&rsquo;s own payout wallet and the donation button unlocks. Until then, no donations are possible.</p>
+      <p>Project IDs are bloc-assigned by category (Charities 10000&ndash;79999, Speculative 80000&ndash;89999, Voting 90000&ndash;99999) and never renumbered. Every bounty page ships support-locked with a placeholder wallet; on verification (registry + domain proof), that placeholder is rewritten to the organization&rsquo;s own payout wallet and the support button unlocks. Until then, no contributions are possible.</p>
 
       <h3>What happens to a proposal that isn&rsquo;t approved?</h3>
-      <p>First, the honest mechanics: if the donation button is visible, your micro-vote is a one-way, on-chain transaction directly to that organization&rsquo;s wallet designating your stake for the project. Once it&rsquo;s sent on Base/Polygon, it can&rsquo;t be pulled back &mdash; not by the project, not by Polytab (which never touches the money). If the button is locked, no donation can be made at all; approval of your gift is the organization&rsquo;s verification.</p>
+      <p>First, the honest mechanics: if the support button is visible, your micro-vote is a one-way, on-chain transaction directly to that organization&rsquo;s wallet designating your stake for the project. Once it&rsquo;s sent on Base/Polygon, it can&rsquo;t be pulled back &mdash; not by the project, not by Polytab (which never touches the money). If the button is locked, no support can be made at all; approval of your gift is the organization&rsquo;s verification.</p>
       <p>That means there is <strong>no automatic refund or &ldquo;vote credit&rdquo; today</strong>. If a proposal is rejected or shelved, here&rsquo;s what actually happens:</p>
       <ul>
-        <li><strong>Only after a page unlocks.</strong> When donations unlock for a verified organization, your contribution settles directly to its wallet on-chain; Polytab never holds or forwards it. On locked pages, donations are simply disabled &mdash; your wallet never leaves your control.</li>
+        <li><strong>Only after a page unlocks.</strong> When contributions unlock for a verified organization, your contribution settles directly to its wallet on-chain; Polytab never holds or forwards it. On locked pages, contributions are simply disabled &mdash; your wallet never leaves your control.</li>
         <li><strong>You can cast a new $0.25&ndash;$1.00 micro-vote</strong> for a different proposal &mdash; that&rsquo;s the practical way to redirect your support today.</li>
-        <li><strong>If you think a project is abandoned or misusing funds</strong>, email <a href="mailto:support@polytab.store">support@polytab.store</a> with your transaction hash and the project ID. We can freeze the page publicly and escalate to the organization&rsquo;s registry liaison to halt any further donations; recovery can&rsquo;t be guaranteed for payments already settled on-chain.</li>
+        <li><strong>If you think a project is abandoned or misusing funds</strong>, email <a href="mailto:support@polytab.store">support@polytab.store</a> with your transaction hash and the project ID. We can freeze the page publicly and escalate to the organization&rsquo;s registry liaison to halt any further contributions; recovery can&rsquo;t be guaranteed for payments already settled on-chain.</li>
       </ul>
-      <p>Already-sent on-chain donations are final (that&rsquo;s how Base works). Funds designated for this project are never quietly re-used elsewhere: they go to the organization on claim, or to the organization&rsquo;s official fund as a USD donation with public receipts.</p>
+      <p>Already-sent on-chain contributions are final (that&rsquo;s how Base works). Funds designated for this project are never quietly re-used elsewhere: they go to the organization on claim, or to the organization&rsquo;s official fund as a USD support with public receipts.</p>
 
       <h3 id="proof-of-work">How to: Get paid when you complete an action</h3>
-      <p><strong>Short answer:</strong> the organization claims its page; on verification, donations flow directly into its wallet (if any donations were already made on unlocked pages, nothing is required of anyone &mdash; funds went straight to the beneficiary). As the claimant, here&rsquo;s exactly how it works, step by step:</p>
+      <p><strong>Short answer:</strong> the organization claims its page; on verification, contributions flow directly into its wallet (if any contributions were already made on unlocked pages, nothing is required of anyone &mdash; funds went straight to the beneficiary). As the claimant, here&rsquo;s exactly how it works, step by step:</p>
       <div class="space-y-3">
         <div class="howto-step"><div class="howto-num">1</div><div><strong>Open the project page.</strong> Go to <a href="./index.html">polytab.store</a> &rarr; <em>Browse Projects</em> &rarr; click the project you completed. This page is where your proof will live once approved.</div></div>
         <div class="howto-step"><div class="howto-num">2</div><div><strong>Click &ldquo;Submit proof / spending update&rdquo;.</strong> Scroll to the <strong>Updates &amp; Proof</strong> section on the project page and click that button. It opens a new browser tab with a GitHub issue pre-filled from the &ldquo;Proof / Spending Update&rdquo; template, titled like <code>[Proof]: #10001 - </code>. (The same flow exists on the main page&rsquo;s action dialog under &ldquo;Did you complete this physical/digital task? &rarr; Submit Proof-of-Work&rdquo;.)</div></div>

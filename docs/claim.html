@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Claim Your Bounty Page — Polytab</title>
-  <meta name="description" content="How a verified organization can claim its bounty page and unlock Polytab donations. Funds flow on-chain to your organization's wallet; Polytab never holds funds." />
+  <meta name="description" content="How a verified organization can claim its bounty page and unlock Polytab contributions. Funds flow on-chain to your organization's wallet; Polytab never holds funds." />
   <meta name="theme-color" content="#000000" />
   <link rel="manifest" href="./manifest.json" />
   <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
@@ -46,7 +46,7 @@
       <h1 class="text-2xl sm:text-3xl font-extrabold text-white !mt-0">Claim Your Bounty Page</h1>
       <p class="text-sm text-zinc-400"><strong>For organizations named on Polytab&rsquo;s project shelf.</strong></p>
 
-      <p>Many organizations are listed on Polytab as possible recipients of small-dollar community grants (&ldquo;micro-votes&rdquo;). Until your page is <strong>verified</strong>, donations on it are disabled &mdash; nothing is collected, nothing is held, and nothing transits Polytab. Verification unlocks the page: donations then flow directly on-chain into <strong>your organization&rsquo;s own wallet</strong>.</p>
+      <p>Many organizations are listed on Polytab as possible recipients of small-dollar community grants (&ldquo;micro-votes&rdquo;). Until your page is <strong>verified</strong>, contributions on it are disabled &mdash; nothing is collected, nothing is held, and nothing transits Polytab. Verification unlocks the page: contributions then flow directly on-chain into <strong>your organization&rsquo;s own wallet</strong>.</p>
 
       <hr>
 
@@ -66,27 +66,27 @@
         <div class="howto-step"><div class="howto-num">2</div><div><strong>Open the claim form.</strong> On your bounty card or page, click <em>&ldquo;Org? Claim this page &rarr;&rdquo;</em> &mdash; it opens a pre-filled GitHub issue using <code>org-claim.yml</code>. No GitHub? Email <a href="mailto:support@polytab.store">support@polytab.store</a> with the same information instead.</div></div>
         <div class="howto-step"><div class="howto-num">3</div><div><strong>Fill it in:</strong> organization legal name, project ID(s), official website, registry name + number, registry lookup URL, first and last name of a registry-listed officer, official email at your domain, and your <strong>payout wallet</strong> &mdash; a <code>0x</code> address on <strong>Base, chain ID 8453</strong>.</div></div>
         <div class="howto-step"><div class="howto-num">4</div><div><strong>Verify.</strong> Add a DNS TXT record <code>polytab-verify=&lt;project id&gt;</code> to your domain (e.g. <code>polytab-verify=10001</code>) and mention it in the issue, or reply from an email at your org&rsquo;s domain to the officer-listed person. Without one of these we verify against the registry listing, which takes longer.</div></div>
-        <div class="howto-step"><div class="howto-num">5</div><div><strong>We record the wallet and unlock your page.</strong> On verification, your organization&rsquo;s donation button turns on and every donation settles directly on-chain into your Base wallet &mdash; no funds are ever held, pooled, or forwarded by Polytab. A public receipt (transaction hash / donation proof) is posted to the repo so donors can audit any sweep.</div></div>
+        <div class="howto-step"><div class="howto-num">5</div><div><strong>We record the wallet and unlock your page.</strong> On verification, your organization&rsquo;s support button turns on and every support settles directly on-chain into your Base wallet &mdash; no funds are ever held, pooled, or forwarded by Polytab. A public receipt (transaction hash / support proof) is posted to the repo so donors can audit any sweep.</div></div>
       </div>
 
       <p class="mt-3"><strong>Lower-tech route:</strong> email <a href="mailto:support@polytab.store">support@polytab.store</a> with: org name, project ID(s), website, registry name + ID + lookup URL, requester&rsquo;s name, official email, and your payout wallet (0x, Base 8453). Same verification, same unlock.</p>
 
       <hr>
 
-      <h2>Where do the donations come from? How are they held?</h2>
-      <p><strong>They aren&rsquo;t held by Polytab, ever.</strong> Donations to unverified bounty pages are simply disabled in the product. Once your page is verified:</p>
+      <h2>Where do the contributions come from? How are they held?</h2>
+      <p><strong>They aren&rsquo;t held by Polytab, ever.</strong> Contributions to unverified bounty pages are simply disabled in the product. Once your page is verified:</p>
       <ul>
-        <li>The donation button routes the donor&rsquo;s payment directly to <em>your</em> <code>0x</code> wallet on Base (chain ID 8453) via EIP-681 QR / EIP-681 link.</li>
+        <li>The support button routes the donor&rsquo;s payment directly to <em>your</em> <code>0x</code> wallet on Base (chain ID 8453) via EIP-681 QR / EIP-681 link.</li>
         <li>Polytab never sees, holds, sweeps, or takes a cut. We are a verification &amp; audit rail, nothing more.</li>
-        <li>The on-chain ledger is the receipt &mdash; everyone can verify every donation reached you.</li>
+        <li>The on-chain ledger is the receipt &mdash; everyone can verify every support reached you.</li>
       </ul>
 
       <div class="callout mt-3">
-        <p class="!mt-0"><strong>Nothing is parked on your behalf.</strong> There is no pooled wallet to approve a sweep from, no funds sitting idle waiting for you, no interim accounting. Donations appear on your page (and on Base) the moment a donor sends. If you don&rsquo;t find your claimed page displaying a live donation button, email support &mdash; donations on an unlocked page are immediate.</p>
+        <p class="!mt-0"><strong>Nothing is parked on your behalf.</strong> There is no pooled wallet to approve a sweep from, no funds sitting idle waiting for you, no interim accounting. Contributions appear on your page (and on Base) the moment a donor sends. If you don&rsquo;t find your claimed page displaying a live support button, email support &mdash; contributions on an unlocked page are immediate.</p>
       </div>
 
       <h2>What if the organization doesn&rsquo;t have a wallet?</h2>
-      <p>You can still receive donations: (1) any EVM wallet on Base (MetaMask, Rabby, Coinbase Wallet, Brave Wallet, hardware wallets) accepts them at no cost to set up, or (2) donors can pay to your organization&rsquo;s official public donation page (registry-listed) and you attest the donation via the proof flow &mdash; visibility without crypto. If neither works, donations to your page stay locked. Either way, Polytab never becomes a custodian.</p>
+      <p>You can still receive contributions: (1) any EVM wallet on Base (MetaMask, Rabby, Coinbase Wallet, Brave Wallet, hardware wallets) accepts them at no cost to set up, or (2) donors can pay to your organization&rsquo;s official public support page (registry-listed) and you attest the support via the proof flow &mdash; visibility without crypto. If neither works, contributions to your page stay locked. Either way, Polytab never becomes a custodian.</p>
 
       <hr>
 
@@ -94,8 +94,8 @@
       <ul>
         <li>We verify the organization, not donors. Donor wallets are never harvested, shared, or monetized.</li>
         <li>We never accept claims via DMs, social posts, phone calls, or personal email. Only official-domain channels and the public registry.</li>
-        <li>Impersonating an organization to capture donations is fraud; we report it and we hold the page locked.</li>
-        <li>Sweeps and donations are public: transaction hashes on Base and receipts in the <a href="https://github.com/R03LV1S/Polytab" target="_blank" rel="noopener">Polytab GitHub repo</a>. Nobody &mdash; including Polytab &mdash; can silently take or re-route donated funds.</li>
+        <li>Impersonating an organization to capture contributions is fraud; we report it and we hold the page locked.</li>
+        <li>Sweeps and contributions are public: transaction hashes on Base and receipts in the <a href="https://github.com/R03LV1S/Polytab" target="_blank" rel="noopener">Polytab GitHub repo</a>. Nobody &mdash; including Polytab &mdash; can silently take or re-route contributed funds.</li>
       </ul>
 
       <hr>
