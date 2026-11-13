@@ -620,6 +620,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       "use strict";
       const GITHUB_OWNER = "r03lv1s";
       const GITHUB_REPO = "Polytab";
+      const ENDORSEMENT_API = (window.POLYTAB_ENDORSEMENT_API || "").replace(/\/$/, "");
       const BASE_CHAIN_ID = 8453;
       // --- ID identification pipeline (scaffolded, bloc format) ---
       // Parents/ranges: Charities 10000-79999. Speculative 80000-89999. Voting 90000-99999 (leaf blocs; gaps reserved).
@@ -700,11 +701,19 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       }
       function verifiedEndorsementCount(id) {
         const snap = state.verifiedEndorsements;
-        if (!snap || typeof snap !== "object") return null; // snapshot unavailable
-        const t = snap.totals && snap.totals[String(id)];
-        if (!t) return 0; // honest: no verified endorsements recorded
-        const n = Number(t.count);
-        return Number.isFinite(n) ? n : 0;
+        let gh = null;
+        if (snap && typeof snap === "object" && snap.totals) {
+          const t = snap.totals[String(id)];
+          gh = t ? (Number.isFinite(Number(t.count)) ? Number(t.count) : 0) : 0;
+        }
+        let cloud = 0;
+        const cs = state.cloudEndorsements;
+        if (cs && cs.projects && cs.projects[String(id)]) {
+          const n = Number(cs.projects[String(id)].total);
+          cloud = Number.isFinite(n) ? n : 0;
+        }
+        if (gh == null && !cs) return null;
+        return (gh == null ? 0 : gh) + cloud;
       }
       function endorsementIssueUrl(item) {
         const pcat = item.parentCategory || parentForCategory(item.category) || PARENT_CHARITIES;
@@ -736,9 +745,17 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           state.verifiedEndorsements = null;
           state.endorsementsSnapshotStatus = "unavailable";
         }
+        if (ENDORSEMENT_API) {
+          try {
+            const c = new AbortController(); const t2 = setTimeout(() => c.abort(), 2500);
+            const r2 = await fetch(ENDORSEMENT_API + "/api/endorsements.json", { signal: c.signal, cache: "no-store" });
+            clearTimeout(t2);
+            if (r2.ok) state.cloudEndorsements = await r2.json();
+          } catch (_) { state.cloudEndorsements = null; }
+        }
         renderProposalsGrid();
       }
-      let state = { proposals: [], markets: [], selectedCategory: PARENT_CHARITIES, selectedStatus: "ALL", searchQuery: "", plainLanguageMode: false, highContrastMode: false, liteMode: false, connectedAddress: null, socialHandle: localStorage.getItem("polytab_handle") || "", activeModalProposal: null, mapInstance: null, expandedParents: { [PARENT_CHARITIES]: true, [PARENT_SPECULATIVE]: false, [PARENT_VOTING]: false }, showAllCategoriesSection: true, endorsements: loadEndorsements(), verifiedEndorsements: null, endorsementsSnapshotStatus: "loading", page: 1, sortBy: "default", zipQuery: "", zipLat: null, zipLng: null, zipResolvedCode: null, locMode: "none", locKind: null, locCountry: null, locState: null, locCity: null, locLabel: "" };
+      let state = { proposals: [], markets: [], selectedCategory: PARENT_CHARITIES, selectedStatus: "ALL", searchQuery: "", plainLanguageMode: false, highContrastMode: false, liteMode: false, connectedAddress: null, socialHandle: localStorage.getItem("polytab_handle") || "", activeModalProposal: null, mapInstance: null, expandedParents: { [PARENT_CHARITIES]: true, [PARENT_SPECULATIVE]: false, [PARENT_VOTING]: false }, showAllCategoriesSection: true, endorsements: loadEndorsements(), verifiedEndorsements: null, cloudEndorsements: null, endorsementsSnapshotStatus: "loading", page: 1, sortBy: "default", zipQuery: "", zipLat: null, zipLng: null, zipResolvedCode: null, locMode: "none", locKind: null, locCountry: null, locState: null, locCity: null, locLabel: "" };
       function isValidAddress(addr) { return /^0x[a-fA-F0-9]{40}$/.test(String(addr || "").trim()); }
       function isValidTxHash(hash) { return /^0x[a-fA-F0-9]{64}$/.test(String(hash || "").trim()); }
       async function loadFeedState() {
@@ -1410,11 +1427,15 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           endorseBtn.type = "button";
           endorseBtn.className = "inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-[11px] font-semibold bg-pink-500/15 text-pink-300 border border-pink-500/30 hover:bg-pink-500/20 transition";
           endorseBtn.textContent = "♥ Like";
-          endorseBtn.setAttribute("aria-label", "Like this project on GitHub (public)");
-          endorseBtn.title = "Like this project publicly on GitHub. Your like is counted for everyone.";
+          endorseBtn.setAttribute("aria-label", "Like this project");
+          endorseBtn.title = "Like/support this project. Verified endorsements are counted publicly.";
           endorseBtn.addEventListener("click", (ev) => {
             ev.stopPropagation();
-            window.open(endorsementIssueUrl(item), "_blank", "noopener,noreferrer");
+            if (ENDORSEMENT_API) {
+              window.open("./project.html?id=" + encodeURIComponent(String(item.id)) + "&endorse=1", "_blank", "noopener,noreferrer");
+            } else {
+              window.open(endorsementIssueUrl(item), "_blank", "noopener,noreferrer");
+            }
           });
           const vCount = verifiedEndorsementCount(item.id);
           const verifiedBadge = document.createElement("span");

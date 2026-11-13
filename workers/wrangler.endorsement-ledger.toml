@@ -1,0 +1,27 @@
+# Polytab Verifiable Social Endorsement Ledger Worker
+# D1-backed OAuth identity verification + deduplicated endorsement counts.
+#
+# SETUP (one-time, requires Cloudflare account + wrangler auth):
+#   1) wrangler d1 create polytab-endorsement-ledger
+#   2) Copy the returned database_id into the [[d1_databases]] block below.
+#   3) wrangler d1 execute polytab-endorsement-ledger --file=endorsement-ledger-schema.sql
+#   4) Set secrets/vars (Dashboard or wrangler secret put):
+#        PEPPER_SECRET (>=32 chars), PUBLIC_BASE_URL, ALLOWED_ORIGINS
+#        and per-provider: GITHUB_CLIENT_ID/SECRET, GOOGLE_CLIENT_ID/SECRET, DISCORD_CLIENT_ID/SECRET
+#   5) Configure each OAuth app's callback URL to: <PUBLIC_BASE_URL>/auth/callback
+#
+# Deploy: wrangler deploy --config wrangler.endorsement-ledger.toml
+
+name = "polytab-endorsement-ledger"
+main = "endorsement-ledger.js"
+compatibility_date = "2026-11-01"
+
+[vars]
+# Non-secret defaults (override in dashboard/env as needed)
+ALLOWED_ORIGINS = "https://polytab.store,https://r03lv1s.github.io,http://localhost:3000"
+# PUBLIC_BASE_URL = "https://polytab-endorsement-ledger.<subdomain>.workers.dev"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "polytab-endorsement-ledger"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"

@@ -109,6 +109,8 @@
       "use strict";
       const GITHUB_OWNER = "r03lv1s";
       const GITHUB_REPO = "Polytab";
+      // Cloud endorsement backend (Cloudflare Worker). Set to your worker base URL when deployed, e.g. "https://polytab-endorsement-ledger.<subdomain>.workers.dev"
+      const ENDORSEMENT_API = (window.POLYTAB_ENDORSEMENT_API || "").replace(/\/$/, "");
       const qs = new URLSearchParams(location.search);
       const wantId = String(qs.get("id") || "").trim();
       const statusMsg = document.getElementById("statusMsg");
@@ -149,11 +151,26 @@
           if (!res.ok) return null; return await res.json();
         } catch (_) { return null; }
       }
+      async function loadCloudEndorsements(){
+        if (!ENDORSEMENT_API) return null;
+        try {
+          const c = new AbortController(); const t = setTimeout(()=>c.abort(), 2500);
+          const res = await fetch(ENDORSEMENT_API + "/api/endorsements.json", { signal: c.signal, cache: "no-store" });
+          clearTimeout(t);
+          if (!res.ok) return null; return await res.json();
+        } catch (_) { return null; }
+      }
       function vCount(snap, id){
         if (!snap || !snap.totals) return null;
         const t = snap.totals[String(id)];
         if (!t) return 0;
         const n = Number(t.count); return Number.isFinite(n) ? n : 0;
+      }
+      function cloudCount(snap, id){
+        if (!snap || !snap.projects) return 0;
+        const p = snap.projects[String(id)];
+        if (!p) return 0;
+        const n = Number(p.total); return Number.isFinite(n) ? n : 0;
       }
       function addKV(dl, k, v){
         if (v == null || v === "") return;
@@ -242,6 +259,23 @@
           const shareUrl = location.href;
           const shareText = "Support this project on Polytab: " + item.title;
           if (likeGithub) likeGithub.href = issue;
+          // Add instant verified-account provider buttons when cloud backend is configured
+          if (ENDORSEMENT_API) {
+            const container = document.getElementById("providerButtons");
+            if (container) {
+              container.replaceChildren();
+              const providers = [["github","Endorse with GitHub (instant)"],["google","Endorse with Google"],["discord","Endorse with Discord"]];
+              providers.forEach(([prov,label]) => {
+                const a = document.createElement("a");
+                a.href = ENDORSEMENT_API + "/auth/start?provider=" + encodeURIComponent(prov) + "&project_id=" + encodeURIComponent(item.id);
+                a.className = "flex items-center justify-between w-full px-4 py-2.5 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-200 hover:bg-emerald-500/15 transition text-sm";
+                a.innerHTML = '<span class="font-semibold">' + label + '</span><span class="text-xs text-emerald-300/80">Verified account (counted)</span>';
+                container.appendChild(a);
+              });
+              const note = document.getElementById("providerNote");
+              if (note) note.textContent = "Sign in with a provider to record a verified, deduplicated endorsement (1 per account per project).";
+            }
+          }
           const setShare = (id, url) => { const a=document.getElementById(id); if(a) a.href=url; };
           setShare("shareX", "https://twitter.com/intent/tweet?text=" + encodeURIComponent(shareText) + "&url=" + encodeURIComponent(shareUrl));
           setShare("shareFacebook", "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(shareUrl));
@@ -253,9 +287,14 @@
           if (likeOverlay) likeOverlay.addEventListener("click", (e)=>{ if(e.target===likeOverlay) hideLike(); });
           if (likeCopy) likeCopy.addEventListener("click", async ()=>{ try { await navigator.clipboard.writeText(shareUrl); likeCopy.textContent = "Link copied"; setTimeout(()=>likeCopy.textContent="Copy link",1500);} catch(_){ prompt("Copy link:", shareUrl); } });
           const snap = await loadEndorsements();
-          const vc = vCount(snap, item.id);
+          const cloud = await loadCloudEndorsements();
+          const ghVc = vCount(snap, item.id);
+          const clVc = cloudCount(cloud, item.id);
+          const totalVc = (ghVc == null ? 0 : ghVc) + clVc;
           const likeCount = document.getElementById("likeCount");
-          likeCount.textContent = vc == null ? "✓ Likes (GitHub): unavailable" : "✓ Likes (GitHub): " + vc;
+          if (ghVc == null && !cloud) likeCount.textContent = "✓ Likes: unavailable";
+          else if (cloud) likeCount.textContent = "✓ Likes: " + totalVc + " (GitHub: " + (ghVc == null ? "n/a" : ghVc) + ", verified accounts: " + clVc + ")";
+          else likeCount.textContent = "✓ Likes (GitHub): " + (ghVc == null ? "unavailable" : ghVc);
 
           const buy = document.getElementById("buyAction");
           buy.href = "./index.html#" + encodeURIComponent(item.id);
@@ -387,6 +426,7 @@
 
           statusMsg.classList.add("hidden");
           view.classList.remove("hidden");
+          if (qs.get("endorse") === "1" && typeof openLike === "function") { try { openLike(); } catch (_) {} }
         } catch (e) {
           statusMsg.textContent = "Could not load this project right now. Please try again.";
         }
@@ -406,11 +446,12 @@
       </div>
       <div class="space-y-2">
         <div class="text-[10px] uppercase tracking-wider text-zinc-500 font-semibold">Counted endorsement</div>
+        <div id="providerButtons" class="space-y-2"></div>
         <a id="likeGithubLink" href="#" target="_blank" rel="noopener noreferrer" class="flex items-center justify-between w-full px-4 py-3 rounded-xl bg-pink-500/15 border border-pink-500/30 text-pink-200 hover:bg-pink-500/20 transition">
-          <span class="font-semibold">Endorse on GitHub</span>
+          <span class="font-semibold">Endorse on GitHub (issue ledger)</span>
           <span class="text-xs text-pink-300/80">Public, 1 per person (counted)</span>
         </a>
-        <p class="text-[11px] text-zinc-500">Submit the GitHub endorsement to be counted in the public like total.</p>
+        <p id="providerNote" class="text-[11px] text-zinc-500">Submit the GitHub endorsement to be counted in the public like total. (If a verified-accounts backend is configured, instant provider sign-in options appear above.)</p>
       </div>
       <div class="space-y-2">
         <div class="text-[10px] uppercase tracking-wider text-zinc-500 font-semibold">Share support (not counted)</div>
