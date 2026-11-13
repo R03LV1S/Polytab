@@ -284,71 +284,72 @@
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
         <form id="createProjectForm" class="lg:col-span-2 bg-zinc-900/50 border border-zinc-800 p-6 rounded-2xl space-y-5 hc-card">
           <div>
-            <h2 class="text-xl font-bold text-white">Start a New Project</h2>
-            <p class="text-xs text-zinc-400 mt-1">Non-custodial setup: generate a fresh cold-storage wallet offline, enter its public address below, and submit to our automated GitHub Action indexer.</p>
+            <h2 class="text-xl font-bold text-white">Start a Civic Action</h2>
+            <p class="text-xs text-zinc-400 mt-1 mt-2">Turn a real community need into a funded, verified action. Set a small support level, create a project wallet, and let the community decide. You never share private keys.</p>
           </div>
           <div>
-            <label for="newTitle" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Action Item Title *</label>
+            <label for="newTitle" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Project Title *</label>
             <input type="text" id="newTitle" required maxlength="120" placeholder="e.g. Science Lab Wheelchair-Accessible Station Upgrade"
               class="w-full bg-black border border-zinc-700 rounded-xl px-3.5 py-2.5 text-sm text-white outline-none focus:border-yellow-500" />
           </div>
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
-              <label for="newParentCategory" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Parent Category *</label>
+              <label for="newParentCategory" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Campaign Type *</label>
               <select id="newParentCategory" class="hc-select w-full bg-black border border-zinc-700 rounded-xl px-3.5 py-2.5 text-sm text-white outline-none focus:border-yellow-500">
-                <option value="Charities">Charities</option>
-                <option value="Speculative">Speculative</option>
-                <option value="Voting">Voting</option>
+                <option value="Charities">Community Causes (Charities)</option>
+                <option value="Speculative">Experiments &amp; Public-Interest Ideas (Speculative)</option>
+                <option value="Voting">Civic Decisions &amp; Votes (Voting)</option>
               </select>
             </div>
             <div>
-              <label for="newCategory" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Subcategory (ID bloc) *</label>
+              <label for="newCategory" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Cause Area *</label>
               <select id="newCategory" class="hc-select w-full bg-black border border-zinc-700 rounded-xl px-3.5 py-2.5 text-sm text-white outline-none focus:border-yellow-500"></select>
             </div>
           </div>
           <div>
-            <label for="newLocation" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Neighborhood / Campus Area *</label>
-            <input type="text" id="newLocation" required maxlength="80" placeholder="e.g. Science Building / East Wing"
-              class="w-full bg-black border border-zinc-700 rounded-xl px-3.5 py-2.5 text-sm text-white outline-none focus:border-yellow-500" />
+            <label for="newLocation" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Location / Campus / Neighborhood *</label>
+            <div class="relative">
+              <input type="text" id="newLocation" required maxlength="240" placeholder="City, State, ZIP, or address — we'll auto-geocode it"
+                class="w-full bg-black border border-zinc-700 rounded-xl px-3.5 py-2.5 text-sm text-white outline-none focus:border-yellow-500" />
+              <div id="newSuggest" class="hidden absolute z-50 mt-1 w-full bg-zinc-950 border border-zinc-700 rounded-xl shadow-lg overflow-hidden max-h-56 overflow-y-auto"></div>
+            </div>
+            <p class="text-[11px] text-zinc-500 mt-2">Use an address, ZIP, city, state, or country — we’ll turn it into a project location automatically.</p>
           </div>
           <p class="text-[11px] text-zinc-500 -mt-2">ID pipeline (bloc format): Charities 10000–79999, Speculative 80000–89999, Voting 90000–99999 (sub-blocks reserved for future blocs). IDs/wallets assigned as <code class="text-zinc-400">0x71C…</code> (never renumber existing).</p>
           <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div>
-              <label for="newTargetUSD" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Target Bounty ($ USD) *</label>
+              <label for="newTargetUSD" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Funding Goal (USD) *</label>
               <input type="number" id="newTargetUSD" min="1" max="100000" step="0.50" value="45.00" required
                 class="w-full bg-black border border-zinc-700 rounded-xl px-3.5 py-2.5 text-sm text-white outline-none focus:border-yellow-500" />
             </div>
             <div>
-              <label for="newVoteUSD" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Micro-Vote Price ($) *</label>
+              <label for="newVoteUSD" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Support Level / Micro-Vote Price ($) *</label>
               <input type="number" id="newVoteUSD" min="0.05" max="100" step="0.05" value="0.50" required
                 class="w-full bg-black border border-zinc-700 rounded-xl px-3.5 py-2.5 text-sm text-white outline-none focus:border-yellow-500" />
             </div>
             <div>
-              <label for="newCoords" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">GeoRSS Coords (Lat, Lng)</label>
-              <input type="text" id="newCoords" placeholder="lat, lng (optional)"
+              <label for="newCoords" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Location Coordinates (Auto-Generated)</label>
+              <input type="text" id="newCoords" readonly placeholder="Auto-generated from location"
                 class="w-full bg-black border border-zinc-700 rounded-xl px-3.5 py-2.5 text-sm text-white font-mono outline-none focus:border-yellow-500" />
             </div>
           </div>
           <div>
             <div class="flex items-center justify-between mb-1">
-              <label for="newWallet" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider">Cold-Storage Project Wallet (EVM 0x Address) *</label>
+              <label for="newWallet" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider">Project Wallet (EVM 0x Address) *</label>
               <span class="text-[11px] text-amber-400 font-mono">Never share private keys</span>
             </div>
             <input type="text" id="newWallet" required pattern="^0x[a-fA-F0-9]{40}$" placeholder="0x71C... (42-character hexadecimal address)"
               class="w-full bg-black border border-zinc-700 rounded-xl px-3.5 py-2.5 text-sm text-white font-mono outline-none focus:border-yellow-500" />
+            <p class="text-[11px] text-zinc-500 mt-2">No crypto wallet? You can connect or create a smart wallet later; you never share private keys here.</p>
+            <p class="text-[11px] text-zinc-500 mt-2">No crypto wallet, phone, or computer? You can still join later via QR code, ZK-Email, SMS/USSD, or Telegram voice &mdash; and a future payment conversion service can credit converted amounts back onto the project bounty.</p>
           </div>
           <div>
-            <label for="newSummary" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Action Scope &amp; Verifiable Proof Deliverable *</label>
-            <textarea id="newSummary" rows="3" required maxlength="600" placeholder="Specify what is broken, what will be completed, and what photo/video/commit proof will unlock the escrow."
+            <label for="newSummary" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Action Scope &amp; Proof Plan *</label>
+            <textarea id="newSummary" rows="3" required maxlength="600" placeholder="What needs doing, and what proof shows it worked?"
               class="w-full bg-black border border-zinc-700 rounded-xl px-3.5 py-2.5 text-sm text-white outline-none focus:border-yellow-500"></textarea>
           </div>
-          <div>
-            <label for="newPlainSummary" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Plain-Language Summary (Accessibility / 3rd-Grade Reading Level)</label>
-            <input type="text" id="newPlainSummary" maxlength="240" placeholder="e.g. Lowering one chemistry lab table so wheelchair users can do experiments comfortably."
-              class="w-full bg-black border border-zinc-700 rounded-xl px-3.5 py-2.5 text-sm text-white outline-none focus:border-yellow-500" />
-          </div>
           <button type="submit" class="w-full py-3 px-4 bg-purple-700 hover:bg-purple-600 text-white font-bold rounded-xl shadow-lg shadow-purple-700/25 transition text-sm hc-btn">
-            Generate JSON Payload &amp; Submit via GitHub Issue &rarr;
+            Submit Project via GitHub →
           </button>
         </form>
         <aside class="space-y-4">
@@ -454,7 +455,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
             </p>
           </div>
           <div class="space-y-2">
-            <a href="https://github.com/r03lv1s/Polytab/issues/new?labels=batch-ballot&title=%5BBatch+Consensus%5D%3A+Community+Assembly+Tally" target="_blank" rel="noopener"
+            <a href="https://github.com/R03LV1S/Polytab/issues/new?labels=batch-ballot&title=%5BBatch+Consensus%5D%3A+Community+Assembly+Tally" target="_blank" rel="noopener"
               class="block w-full py-2.5 px-4 bg-zinc-800 hover:bg-zinc-600 text-zinc-200 border border-zinc-700 font-semibold rounded-xl text-xs text-center transition">
               Submit Off-Grid Community Batch Tally &rarr;
             </a>
@@ -606,7 +607,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       <div class="flex flex-wrap gap-3 font-mono text-[11px]">
         <a href="https://www.youtube.com/@clairewineland" target="_blank" rel="noopener" class="text-zinc-300 hover:text-yellow-400">For Claire ♥</a>
         <span>&bull;</span>
-        <a href="https://github.com/r03lv1s/Polytab" target="_blank" rel="noopener" class="text-zinc-300 hover:text-yellow-400">GitHub Repo</a>
+        <a href="https://github.com/R03LV1S/Polytab" target="_blank" rel="noopener" class="text-zinc-300 hover:text-yellow-400">GitHub Repo</a>
         <span>&bull;</span>
         <a href="./feed.xml" class="text-zinc-300 hover:text-yellow-400">RSS 2.0</a>
         <span>&bull;</span>
@@ -627,7 +628,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
   <script>
     (function () {
       "use strict";
-      const GITHUB_OWNER = "r03lv1s";
+      const GITHUB_OWNER = "R03LV1S";
       const GITHUB_REPO = "Polytab";
       const ENDORSEMENT_API = (window.POLYTAB_ENDORSEMENT_API || "").replace(/\/$/, "");
       const BASE_CHAIN_ID = 8453;
@@ -640,6 +641,23 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       const CHARITY_CATEGORIES = ["Accessibility & Universal Design", "Environmental", "Civic Tech", "Classrooms", "Arts & Clubs", "Campus Grounds", "Athletics"];
       const SPECULATIVE_CATEGORIES = ["Policy & Local Outcomes", "Elections & Civic Accountability", "Public Safety & Infrastructure", "Global & Humanitarian Outcomes"];
       const VOTING_CATEGORIES = ["Community Referendums", "Public Office & Elections", "Policy & Governance Votes", "Global Outcome Votes"];
+      const CATEGORY_LABELS = {
+        "Accessibility & Universal Design": "Accessible Spaces & Equipment",
+        "Environmental": "Green Spaces & Cleanups",
+        "Civic Tech": "Community Tech Tools",
+        "Classrooms": "Schools & Learning",
+        "Arts & Clubs": "Arts, Culture & Clubs",
+        "Campus Grounds": "Campus Grounds & Yards",
+        "Athletics": "Sports & Fields",
+        "Policy & Local Outcomes": "Local Policy Wins",
+        "Elections & Civic Accountability": "Election Integrity",
+        "Public Safety & Infrastructure": "Safety & Public Infrastructure",
+        "Global & Humanitarian Outcomes": "Global Humanitarian Aid",
+        "Community Referendums": "Community Polls",
+        "Public Office & Elections": "Public Office Races",
+        "Policy & Governance Votes": "Policy & Governance Votes",
+        "Global Outcome Votes": "Global Outcome Votes"
+      };
       const CATEGORY_BLOCKS = {
         "Accessibility & Universal Design": 10000,
         "Environmental": 20000,
@@ -1205,6 +1223,66 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         }
         state.page = 1; renderProposalsGrid();
       }
+      let _createLocSeq = 0;
+      async function resolveCreateLocation(query, hint) {
+        const seq = ++_createLocSeq;
+        const q = String(query || "").trim();
+        const locEl = document.getElementById("newLocation");
+        const coordsEl = document.getElementById("newCoords");
+        const isUsZip = /^\d{5}(-\d{4})?$/.test(q);
+        let lat = NaN, lng = NaN, label = q;
+        if (isUsZip) {
+          try {
+            const controller = new AbortController();
+            const timeout = setTimeout(() => controller.abort(), 5000);
+            const res = await fetch("https://api.zippopotam.us/us/" + q.slice(0, 5), { signal: controller.signal });
+            clearTimeout(timeout);
+            if (res.ok) {
+              const data = await res.json();
+              const place = data && data.places && data.places[0];
+              lat = place ? parseFloat(place.latitude) : NaN;
+              lng = place ? parseFloat(place.longitude) : NaN;
+              if (Number.isFinite(lat) && Number.isFinite(lng)) {
+                const placeName = place ? (place["place name"] || "") : "";
+                const st = place ? (place["state abbreviation"] || "") : "";
+                label = q + (placeName ? (" - " + placeName + (st ? (", " + st) : "")) : "");
+              }
+            }
+          } catch (_) { /* fall through to nominatim */ }
+        }
+        if (!Number.isFinite(lat) || !Number.isFinite(lng)) {
+          try {
+            const controller = new AbortController();
+            const timeout = setTimeout(() => controller.abort(), 5000);
+            const res = await fetch("https://nominatim.openstreetmap.org/search?format=json&limit=1&addressdetails=1&q=" + encodeURIComponent(q), { signal: controller.signal, headers: { "Accept": "application/json" } });
+            clearTimeout(timeout);
+            if (res.ok) {
+              const data = await res.json();
+              const hit = Array.isArray(data) ? data[0] : null;
+              if (hit) {
+                lat = parseFloat(hit.lat); lng = parseFloat(hit.lon);
+                if (Number.isFinite(lat) && Number.isFinite(lng)) {
+                  const addr = hit.address || {};
+                  const aType = String(hit.addresstype || hit.type || hit.class || "").toLowerCase();
+                  if (aType === "country") { label = addr.country || hit.display_name || q; }
+                  else if (aType === "state" || aType === "region" || aType === "province" || aType === "state_district" || aType === "administrative") { label = (addr.state || hit.display_name || q) + (addr.country ? (", " + addr.country) : ""); }
+                  else if (addr.city || addr.town || addr.village || addr.municipality || addr.hamlet) { label = (addr.city || addr.town || addr.village || addr.municipality || addr.hamlet) + (addr.state ? (", " + addr.state) : "") + (addr.country ? (", " + addr.country) : ""); }
+                  else { label = String(hit.display_name || q).split(",").slice(0, 3).join(",").trim(); }
+                }
+              }
+            }
+          } catch (_) { /* leave coordinates unset */ }
+        }
+        if (seq !== _createLocSeq) return false; // superseded by a newer location resolution
+        if (Number.isFinite(lat) && Number.isFinite(lng)) {
+          const coordsText = lat.toFixed(2) + " " + lng.toFixed(2);
+          if (locEl) locEl.value = label;
+          if (coordsEl) coordsEl.value = coordsText;
+          return true;
+        }
+        if (locEl) locEl.value = String(query || "").trim();
+        return false;
+      }
       function compareIds(a, b) {
         const ia = parseInt(a.id, 10), ib = parseInt(b.id, 10);
         if (Number.isFinite(ia) && Number.isFinite(ib) && ia !== ib) return ia - ib;
@@ -1641,24 +1719,27 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         if (!sub) return;
         const cats = PARENT_CATEGORIES[parent] || CHARITY_CATEGORIES;
         sub.replaceChildren();
-        cats.forEach((c) => { const o = document.createElement("option"); o.value = c; o.textContent = c; sub.appendChild(o); });
+        cats.forEach((c) => { const o = document.createElement("option"); o.value = c; o.textContent = CATEGORY_LABELS[c] || c; sub.appendChild(o); });
       }
       const parentSel = document.getElementById("newParentCategory");
       if (parentSel) parentSel.addEventListener("change", syncCreateSubcategories);
       syncCreateSubcategories();
-      document.getElementById("createProjectForm").addEventListener("submit", (e) => {
+      document.getElementById("createProjectForm").addEventListener("submit", async (e) => {
         e.preventDefault();
         const wallet = newWalletInput.value.trim();
         if (!isValidAddress(wallet)) { alert("Please provide a valid 42-character hexadecimal EVM wallet address starting with 0x."); return; }
         const title = document.getElementById("newTitle").value.trim();
         const parentCategory = (document.getElementById("newParentCategory") || {}).value || PARENT_CHARITIES;
         const category = document.getElementById("newCategory").value;
-        const location = document.getElementById("newLocation").value.trim();
+        let location = document.getElementById("newLocation").value.trim();
         const targetUSD = parseFloat(document.getElementById("newTargetUSD").value) || 45.00;
         const votePriceUSD = parseFloat(document.getElementById("newVoteUSD").value) || 0.50;
-        const coords = document.getElementById("newCoords").value.trim();
+        const coordsEl = document.getElementById("newCoords");
+        let coords = coordsEl ? coordsEl.value.trim() : "";
         const summary = document.getElementById("newSummary").value.trim();
-        const plainSummary = document.getElementById("newPlainSummary").value.trim() || summary;
+        const plainSummary = summary;
+        if (!coords) { await resolveCreateLocation(location); coords = coordsEl ? coordsEl.value.trim() : ""; location = document.getElementById("newLocation") ? document.getElementById("newLocation").value.trim() : location; }
+        if (!coords) { alert("We couldn't geocode that location yet. Try a city, ZIP, or street address and submit again."); return; }
         const assignedId = nextIdForCategory(category, state.proposals);
         const assignedWallet = assignedId ? walletForId(assignedId) : null;
         const payload = JSON.stringify({ title, parentCategory: (CATEGORY_PARENT[category] || parentCategory), category, location, targetUSD, votePriceUSD, payoutWallet: wallet, georssPoint: coords, plainSummary, status: "Active", suggestedBlocId: assignedId, suggestedBlocWallet: assignedWallet }, null, 2);
@@ -1777,8 +1858,8 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         local.forEach(add); remote.forEach(add);
         return out.slice(0,5);
       }
-      function _renderLocSuggest(items) {
-        const box = document.getElementById("zipSuggest");
+      function _renderLocSuggest(items, boxId = "zipSuggest", inputId = "zipInput") {
+        const box = document.getElementById(boxId);
         if (!box) return;
         box.replaceChildren();
         if (!items || !items.length) { box.classList.add("hidden"); return; }
@@ -1788,8 +1869,8 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           btn.className = "w-full text-left px-3 py-2 text-xs text-zinc-200 hover:bg-zinc-800 border-b border-zinc-800 last:border-b-0";
           btn.textContent = it.label;
           btn.addEventListener("mousedown", (ev) => { ev.preventDefault(); _sugSelecting = true; });
-          btn.addEventListener("click", () => {
-            const inp = document.getElementById("zipInput");
+          btn.addEventListener("click", async () => {
+            const inp = document.getElementById(inputId);
             const typed = inp ? String(inp.value || "").trim() : "";
             const pickedVal = it.value || it.name || it.label;
             const typedPostal = /^\d{5}(-\d{4})?$/.test(typed) || (/^[A-Za-z0-9][A-Za-z0-9 -]{1,10}[A-Za-z0-9]?$/.test(typed) && /\d/.test(typed) && typed.length <= 12 && !/^[A-Za-z]{2}$/.test(typed));
@@ -1797,7 +1878,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
             const resolveHint = typedPostal ? { kind: "zip", name: it.name || it.label || typed, code: typed } : it;
             if (inp) inp.value = typedPostal ? typed : pickedVal;
             box.classList.add("hidden");
-            resolveZip(resolveVal, resolveHint);
+            if (inp && inp.id === "newLocation") { await resolveCreateLocation(resolveVal, resolveHint); } else { resolveZip(resolveVal, resolveHint); }
             setTimeout(() => { _sugSelecting = false; }, 0);
           });
           box.appendChild(btn);
@@ -1870,8 +1951,8 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         _sugCache.set(key, merged);
         return merged;
       }
-      function _updateLocSuggest() {
-        const inp = document.getElementById("zipInput"); if (!inp) return;
+      function _updateLocSuggest(inputId = "zipInput", boxId = "zipSuggest") {
+        const inp = document.getElementById(inputId); if (!inp) return;
         const q = inp.value || "";
         const raw = String(q).trim();
         const local = _locSuggestLocal(q);
@@ -1881,7 +1962,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           const zipOpt = { label: raw + " — search within 50 mi", value: raw, code: raw, name: raw, kind: "zip" };
           initial = _mergeSug([zipOpt], initial);
         }
-        _renderLocSuggest(initial);
+        _renderLocSuggest(initial, boxId, inputId);
         if (raw.length < 2) return;
         const seq = ++_sugSeq;
         if (_sugTimer) clearTimeout(_sugTimer);
@@ -1891,7 +1972,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           if (document.activeElement !== inp) return;
           let merged = _mergeSug(_locSuggestLocal(q), remote);
           if (isPostal) merged = _mergeSug([{ label: raw + " — search within 50 mi", value: raw, code: raw, name: raw, kind: "zip" }], merged);
-          _renderLocSuggest(merged);
+          _renderLocSuggest(merged, boxId, inputId);
         }, 250);
       }
       const zipInputEl = document.getElementById("zipInput");
@@ -1915,6 +1996,22 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           if (zipSuggestEl) zipSuggestEl.classList.add("hidden");
           resolveZip("");
         });
+      }
+      const newLocationInput = document.getElementById("newLocation");
+      const newSuggestEl = document.getElementById("newSuggest");
+      if (newLocationInput) {
+        const syncNewLocSuggest = () => _updateLocSuggest("newLocation", "newSuggest");
+        newLocationInput.addEventListener("input", syncNewLocSuggest);
+        newLocationInput.addEventListener("focus", syncNewLocSuggest);
+        newLocationInput.addEventListener("keydown", (e) => {
+          if (e.key === "Enter") {
+            e.preventDefault();
+            if (newSuggestEl) newSuggestEl.classList.add("hidden");
+            resolveCreateLocation(newLocationInput.value);
+          }
+          if (e.key === "Escape") { if (newSuggestEl) newSuggestEl.classList.add("hidden"); }
+        });
+        newLocationInput.addEventListener("blur", () => { setTimeout(() => { if (newSuggestEl) newSuggestEl.classList.add("hidden"); }, 150); });
       }
       document.getElementById("connectWalletBtn").addEventListener("click", async (e) => {
         const btn = e.currentTarget;
