@@ -1,8 +1,12 @@
 name: Ingest Global Verified Orgs (Multi-country)
 
+# COST SAFETY: uses only free/public data sources and standard GitHub-hosted runners.
+# Keep this repo public and set GitHub billing spending limit to $0 / disable paid Actions overages.
+# If any action may incur charges, stop runs and wait for free quota/tokens to replenish.
+
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "17 */6 * * *"  # staggered, free-tier friendly
   workflow_dispatch:
 
 permissions:
@@ -15,29 +19,33 @@ concurrency:
 jobs:
   ingest:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          ref: main
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Ingest from multiple public registries (free)
-        run: node scripts/ingest-global-verified-orgs.js
-      - name: Commit verified-orgs registry if changed
+      - name: Ingest and promote verified orgs (free public registries)
+        run: node scripts/ingest-global-verified-orgs.js --promote
+      - name: Generate feeds
+        run: node scripts/generate-feeds.js
+      - name: Commit and push updates (verified orgs + promoted shelf/feeds)
         env:
           EVENT_NAME: ${{ github.event_name }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/data/verified-orgs.json
+          git add docs/data/verified-orgs.json docs/feed.json docs/feed.xml docs/feeds docs/data
           if git diff --cached --quiet; then
-            echo "No verified-orgs changes to commit."
+            echo "No changes to commit."
             exit 0
           fi
-          git commit -m "Verified orgs: multi-country registry ingest (evidence-backed)"
+          git commit -m "Verified orgs: ingest/promote + feeds (evidence-backed, honest-zero)"
           BRANCH="${GITHUB_REF_NAME:-main}"
           REMOTE="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-          if [ "$EVENT_NAME" = "schedule" ]; then git pull --rebase --autostash "$REMOTE" "$BRANCH" || true; fi
+          git pull --rebase --autostash "$REMOTE" "$BRANCH" || true
           git push "$REMOTE" "HEAD:$BRANCH"
  

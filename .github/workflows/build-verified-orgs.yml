@@ -1,8 +1,11 @@
 name: Build Verified Orgs Master List
 
+# COST SAFETY: free/public sources only (ProPublica/IRS). Keep repo public and set GitHub billing spending limit to $0.
+# If any action may incur charges, stop runs and wait for free quota/tokens to replenish.
+
 on:
   schedule:
-    - cron: "17 */6 * * *"  # every 6 hours (staggered) — capture quickly, $0 cost
+    - cron: "47 */6 * * *"  # staggered, free-tier friendly
   workflow_dispatch:
 
 permissions:
@@ -15,24 +18,28 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
         with:
+          fetch-depth: 0
           ref: main
       - uses: actions/setup-node@v4
         with:
           node-version: 20
       - name: Capture verified orgs (ProPublica / IRS filings, free)
         run: node scripts/build-verified-orgs.js
-      - name: Commit registry
+      - name: Generate feeds
+        run: node scripts/generate-feeds.js
+      - name: Commit registry and feeds
         run: |
           git config user.name "polytab-bot"
           git config user.email "polytab-bot@users.noreply.github.com"
-          git add docs/data/verified-orgs.json
+          git add docs/data/verified-orgs.json docs/feed.xml docs/feeds
           if git diff --cached --quiet; then
-            echo "No new verified orgs"
+            echo "No changes to commit"
             exit 0
           fi
-          git commit -m "Verified orgs: capture master list (IRS filings, honest)"
-          git pull --rebase --autostash origin main
-          git push
+          git commit -m "Verified orgs: capture master list (IRS filings, honest) + feeds"
+          git pull --rebase --autostash origin main || true
+          git push origin HEAD:main

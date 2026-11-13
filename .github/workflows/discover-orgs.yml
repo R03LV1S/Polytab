@@ -1,18 +1,29 @@
 name: Discover Verified Organizations
 
+# COST SAFETY: free/public sources only. Keep repo public and set GitHub billing spending limit to $0.
+# If any action may incur charges, stop runs and wait for free quota/tokens to replenish.
+
 on:
   schedule:
-    - cron: "0 0 * * 0"  # Weekly on Sunday
+    - cron: "23 1 * * 0"  # Weekly, staggered (free-tier friendly)
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: discover-orgs
+  cancel-in-progress: false
+
 jobs:
   discover:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
       - uses: actions/setup-node@v4
         with:
           node-version: 20
@@ -22,9 +33,17 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: node scripts/discover-orgs.js
-      - name: Commit new orgs
+      - name: Generate feeds
+        run: node scripts/generate-feeds.js
+      - name: Commit new orgs and feeds
         run: |
           git config user.name "polytab-bot"
           git config user.email "polytab-bot@users.noreply.github.com"
           git add docs/
-          if git diff --cached --quiet; then echo "No new orgs found"; else git commit -m "Auto-discover verified organizations"; git push; fi
+          if git diff --cached --quiet; then
+            echo "No new orgs found"
+            exit 0
+          fi
+          git commit -m "Auto-discover verified organizations + feeds"
+          git pull --rebase --autostash origin main || true
+          git push origin HEAD:main
