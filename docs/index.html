@@ -1081,9 +1081,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
 
         const hint = document.createElement("p");
         hint.className = "w-full text-[10px] text-zinc-500";
-        const snap = state.endorsementsSnapshotStatus;
-        hint.textContent = "♥ Like opens a public endorsement on GitHub (counted once per person). " +
-          (snap === "loaded" ? "Like counts are up to date." : snap === "loading" ? "Loading like counts..." : "Like counts unavailable right now.");
+        hint.textContent = "♥ Like opens a public endorsement on GitHub (counted once per person).";
         bar.appendChild(hint);
       }
       function haversineMiles(lat1, lon1, lat2, lon2) {
