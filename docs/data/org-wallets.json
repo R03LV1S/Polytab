@@ -1,0 +1,5 @@
+{
+  "version": 1,
+  "description": "Verified organization payout wallets for Polytab bounty pages. Keyed by canonical project ID. Empty = all shelf items remain locked (donations disabled) with their shared placeholder wallet. Populated by the org-claim admin flow after registry + domain verification. Consumed by the browser (docs/index.html, docs/project.html) and markets rendering.",
+  "entries": {}
+}

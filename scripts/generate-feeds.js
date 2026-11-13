@@ -75,7 +75,14 @@ function itemDescription(item) {
   if (!Number(m.fundedUSD) && !Number(m.votesCount)) {
     lines.push("Honest-zero: no on-chain votes have been recorded for this action yet.");
   }
-  if (m.contract || m.wallet) lines.push("Escrow: " + (m.contract || m.wallet));
+  const w = m.contract || m.wallet;
+  if (w) {
+    if (String(w).toLowerCase() === "0x1e89ff2c2922528c8ace8db07f73ef979ea76c08") {
+      lines.push("Donations: locked — org must verify (registry + DNS TXT) to unlock its page");
+    } else {
+      lines.push("Payout: " + w);
+    }
+  }
   if (m.website) lines.push("Website: " + m.website);
   return lines.join("\n");
 }

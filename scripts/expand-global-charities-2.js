@@ -14,7 +14,7 @@ const CAT_BLOCK = {
   'Athletics': 70000
 };
 const VALID_CATEGORIES = new Set(Object.keys(CAT_BLOCK));
-const ESCROW_WALLET='0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08'; function walletFor(_id){ return ESCROW_WALLET; } // shared Polytab escrow (unclaimed bounties)
+const ESCROW_WALLET='0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08'; function walletFor(_id){ return ESCROW_WALLET; } // PLACEHOLDER (page ships donation-locked)
 function safeUrl(u){ return (typeof u==='string' && /^https?:\/\//i.test(u.trim())) ? u.trim() : null; }
 function block(category, org, title, location, lat, lng, website, socials, summary, plainSummary, targetUSD){
   const cat = VALID_CATEGORIES.has(category)?category:'Civic Tech';

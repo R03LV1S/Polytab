@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "description": "Polytab Futarchy Policy Markets (Pilot). Vote on values, forecast with pennies. Every stake is a direct donation: 100% of it reaches the escrow of the intervention the staker chose. There is no protocol fee, no pooled pot, no redistribution between outcomes, and no payout of any kind to any staker. Settlement only decides which intervention earns the documented-improvement credit, and which forecasters earn non-monetary accuracy credit (public accuracy rate, resolution record, badges). All markets launch at $0 funded with an unset forecast split; numbers appear only after verified on-chain stakes.",
+  "description": "Polytab Futarchy Policy Markets (Pilot). Vote on values, forecast with pennies. Every stake is a direct donation: 100% of it reaches the beneficiary organization the staker chose (donations settle on-chain once the organization verifies its bounty page). There is no protocol fee, no pooled pot, no redistribution between outcomes, and no payout of any kind to any staker. Settlement only decides which intervention earns the documented-improvement credit, and which forecasters earn non-monetary accuracy credit (public accuracy rate, resolution record, badges). All markets launch at $0 funded with an unset forecast split; numbers appear only after verified on-chain stakes.",
   "fundingPolicy": {
     "projectEscrowPct": 100,
     "protocolFeePct": 0,
     "stakerPayoutPct": 0,
-    "description": "100% of every stake goes to the project escrow selected by the staker. Polytab never takes custody, never takes a cut, and never pays a staker back."
+    "description": "100% of every stake goes to the project the staker selected (direct settlement to the verified beneficiary). Polytab never takes custody, never takes a cut, and never pays a staker back."
   },
   "incentivePolicy": {
     "type": "non-monetary-reputation",
@@ -46,7 +46,7 @@
         "disputeWindowHours": 72,
         "settlement": "Resolution posted as a public GitHub Issue with attached evidence. Any staker may challenge during the dispute window by posting a dispute bond. Final call by 2-of-3 multi-sig council including at least one directly impacted stakeholder (Nothing About Us Without Us)."
       },
-      "fundingRule": "100% of every stake goes directly to the escrow of the outcome the staker chose (#207 or #315 on the Projects). No protocol slice, no shared pot, no redistribution to the other side, and no payout to any staker — the money only ever funds the chosen project.",
+      "fundingRule": "100% of every stake goes directly to the outcome the staker chose (#207 or #315 on the Projects), settling on-chain into the organization wallet once its page unlocks. No protocol slice, no shared pot, no redistribution to the other side, and no payout to any staker — the money only ever funds the chosen project.",
       "reputationRule": "When the market resolves, stakers who backed the credited intervention earn a Correct Forecast credit: accuracy rate, win/loss record, and a public badge. Nothing is paid out; reputation is not redeemable or transferable.",
       "plainSummary": "• Cause: Chicago families of children with disabilities must choose between therapy programs without real evidence about which one works better.\n• Resolution: Two verified programs receive direct donations from people backing them. Small amounts reveal which program the community believes works better, and every dollar funds a real program.\n• Incentive: people who forecast correctly earn a public accuracy score and badges — never money.\n• Proof: The market resolves on published school-participation data and each program's audited clinical logs, posted to a public GitHub Issue with a 72-hour challenge window."
     },
@@ -83,7 +83,7 @@
         "disputeWindowHours": 48,
         "settlement": "Resolution posted as a public GitHub Issue with attached evidence. Any staker may challenge during the dispute window by posting a dispute bond. Final call by 2-of-3 multi-sig council."
       },
-      "fundingRule": "100% of every stake goes directly to the escrow of the outcome the staker chose (#302 or #307 on the Projects). No protocol slice, no shared pot, no redistribution to the other side, and no payout to any staker — the money only ever funds the chosen project.",
+      "fundingRule": "100% of every stake goes directly to the outcome the staker chose (#302 or #307 on the Projects), settling on-chain into the organization wallet once its page unlocks. No protocol slice, no shared pot, no redistribution to the other side, and no payout to any staker — the money only ever funds the chosen project.",
       "reputationRule": "When the market resolves, stakers who backed the credited intervention earn a Correct Forecast credit: accuracy rate, win/loss record, and a public badge. Nothing is paid out; reputation is not redeemable or transferable.",
       "plainSummary": "• Cause: Denver's health budgets must guess whether nurse home visits or equine-assisted therapy does more good per dollar, and guesses waste money.\n• Resolution: Two verified programs receive direct donations from people backing them. Small amounts reveal which program the community believes works better, and every dollar funds a real program.\n• Incentive: people who forecast correctly earn a public accuracy score and badges — never money.\n• Proof: The market resolves on each program's audited outcome logs and Denver public health data, posted to a public GitHub Issue with a 48-hour challenge window."
     }

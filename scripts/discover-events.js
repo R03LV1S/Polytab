@@ -218,7 +218,7 @@ function isRecent(dateIso, nowMs, maxAgeDays) {
   return ageMs >= -86400000 && ageMs <= days * 86400000; // allow 1 day clock skew
 }
 
-// All unclaimed bounties route to the shared Polytab-managed escrow on Base
+// All unclaimed bounties route to the placeholder wallet (page ships donation-locked)
 const ESCROW_WALLET = "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08";
 function walletFor(_id) {
   return ESCROW_WALLET;

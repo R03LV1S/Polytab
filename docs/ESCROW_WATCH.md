@@ -1,4 +1,6 @@
-# Polytab Escrow & Watchdog
+# Polytab Escrow & Watchdog — LEGACY / UNALLOCATED
+
+> **Status note (Nov 13, 2026):** Polytab moved to **claim-first, non-custodial** donations. Unverified bounty pages cannot accept funds at all; donors pay directly into the verified organization's wallet. Nothing is supposed to land in the omnibus escrow below. This watchdog remains in place only as an **alarm** for stray or malicious deposits to the legacy address — any movement triggers a hard issue. It is **not** a design for new payments.
 
 The Polytab Base escrow is a single shared omnibus address on **Base (chain ID 8453)**:
 

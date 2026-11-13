@@ -45,3 +45,21 @@ Q1 QR recreated vs provided? RECREATED (my PNG, user payload verified by decode)
 Q2 Watchdog harder + GitHub/Cloudflare? DONE (see v2; Cloudflare worker optional for sub-minute)
 Q3 Custody/stewardship legal? Discussed: MSB/charitable solicitation exposure; not curable by ToS; see reply
 Q4 GitHub-able Alchemy key? Set BASE_RPC_URL in repo secrets; zero code change
+
+
+## DECISION CHANGE (Nov 13 2026, user): claim-first, non-custodial shelf
+Supersedes omnibus escrow for shelf items. Charities named on the shelf cannot receive donations until they verify (registry + DNS TXT/email). On verification, an org-wallet is written and donation/stake flows unlock direct-to-wallet. No monies transit or linger in any platform address.
+
+- [x] B1 Overlay: docs/data/org-wallets.json (empty map; applied at render time over escrow placeholders)
+- [x] B2 index.html: effectiveWalletFor(item), locked UI (cards, modal, wallet rows, buy buttons), locked blocks (#modalPayBlock vs #modalClaimBlock), markets outcome gating (merge feed+overlay), hero/copy/footer/disclaimers rewritten, remove static escrow QR switch for unclaimed, claim links preserved
+- [x] B3 project.html: locked banner, disabled buy button + direct-wallet note for creator items; no QR for unclaimed
+- [x] B4 claim.html + faq.html + README + terms/privacy: locked/direct-to-org language everywhere; remove escrow-sweep-as-default trade-offs; keep unclaimed-sweep policy only as backstop for stray deposits
+- [ ] B5 Verify: tests, HTML parse, JS compile, live check; adversarial gate
+
+
+## Addendum v4 (claim-first shipped)
+- docs/data/org-wallets.json overlay (empty at launch; browser merges it over feed; pages remain locked until entries land).
+- index.html: effectiveWalletFor/orgWalletForId helpers; shelf cards & markets show LOCKED until overlay exists; modal shows modalLockBlock for unclaimed (modalPayBlock hidden); markets outcome gating locks all 2 venues until beneficiary verifies.
+- project.html: overlay applied; locked banner; Buy button becomes Org Claim CTA when locked (unlocked jumps to shelf page).
+- Regenerate feeds (locked-appropriate item lines, no more Escrow line for placeholder wallets); tests 46/46 green.
+- Comment sweep: scripts/workers/tests all read as donation-locked placeholder routing (was misleading escrow language).

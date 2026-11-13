@@ -12,31 +12,31 @@ Long before banks, ballots, or blockchains, councils answered with clay. Sumeria
 
 ### How Polytab works (in plain words)
 
-1. **Vote** — Community members cast micro-fee votes ($0.25–$1.00). Each vote is both a signed ballot *and* an escrow deposit into the Polytab-managed Base escrow for that project.
-2. **Pool** — Vote funds accumulate. The pool is held in escrow, not spent unilaterally.
-3. **Execute & disburse** — Verified proof-of-work is published (geo-tagged evidence, TikTok proof, Git commit hash, etc.). A verified organization claims its bounty page (registry match), is swept to its payout wallet on-chain, or the funds are converted to USD and donated to its official fund if never claimed.
+1. **Verify** — An organization named on a bounty page proves itself (registry record + domain control). Until then, that page is donation-locked: nobody, not even the owner, can collect from it.
+2. **Vote** — Once verified, community members cast micro-fee votes ($0.25–$1.00). Each vote is both a signed ballot *and* a direct payment to the organization's wallet on Base/Polygon — settled peer-to-peer, no custody in between.
+3. **Execute & disburse** — Verified proof-of-work is published (geo-tagged evidence, TikTok proof, Git commit hash, etc.). Donations go straight to the verified organization's wallet. For user-created bounties, the payout wallet is creator-specified at creation. No middleman ever holds the money.
 
-**No lost donations.** Every micro-vote designates its deposit for the project you chose; funds move only to the verified organization that claims the page (on-chain sweep) — or, if it never claims, are converted to USD and donated to its official fund. Either way, nothing about your deposit is kept by Polytab, and receipts for every sweep are public.
+**No platform fees.** Once a page is verified, donations flow directly to its payout wallet and Polytab never takes a penny. No pooled treasury, no escrow, no custody, no surprises.
 
 ### Why you should use Polytab
 
 - **Fund real-world action with real money.** Turn small micro-donations into tangible community outcomes. It's civic action that actually gets funded.
-- **Vote with pennies.** You don't need a fortune to participate. Small-dollar stakes become real escrowed funding for verified interventions.
-- **Verified support, zero fake noise.** Endorsements can be verified through trusted sign-in providers (GitHub, Google, Discord, Facebook, TikTok, etc.) with deduplicated counts, plus a manual GitHub endorsement path. Public GitHub-issue ledgers and open feeds keep counts auditable.
-- **Community-owned outcomes.** One auditable omnibus escrow, a 48-hour public dispute window, and public receipts for every sweep — the ancient "it is decided" feeling, engineered for accountability.
+- **Vote with pennies.** You don't need a fortune to participate. Small-dollar stakes flow directly into verified interventions.
+- **Verified support, zero custody.** You deploy, you give, it lands. No deposits, no withdrawal process, no ledger to reconcile.
+- **Community-owned outcomes.** Verification and public feeds keep counts auditable, the wallet ledger visible to everyone, and outsiders from ever touching a drop of your stake.
 
 ### Who is Polytab for?
 
-- **Charities & nonprofits** that want grassroots funding and community-backed voting power.
+- **Charities & nonprofits** that want grassroots funding and auditable, zero-middleman voting power.
 - **Communities** raising money for local causes, mutual aid, civic emergencies, accessibility, health, education, or environmental action.
-- **Civic-minded people** who want their small contributions to become real-world impact — and want transparency in how decisions are made and funds released.
+- **Civic-minded people** who want their small contributions to become real-world impact — with the recipient's money never in a custodial account they don't control.
 
 ### What Polytab can do for you / your community
 
 - Turn community concern into funded action.
-- Make small contributions that pool into real escrowed bounties.
+- Let verified charities receive direct on-chain support with public proof.
 - Publish immutable public proof and feeds — because decisions made in the open shouldn't live in a drawer.
-- Keep the human memory of decisions intact: Polytab is the modern tablet that remembers what a community agreed to do — and does it.
+- Keep the human memory of decisions intact: Polytab is the modern tablet that remembers what a community agreed to do — and delivers it directly.
 
 ### Get started
 
@@ -51,4 +51,4 @@ Long before banks, ballots, or blockchains, councils answered with clay. Sumeria
 
 ---
 
-**Polytab — many tablets. One decision. Real action.**
+**Polytab — many tablets. One decision. Direct delivery, zero custody.**

@@ -97,9 +97,9 @@ test("keywordMatch: 'sick' must not match 'sickens'", () => {
   assert.strictEqual(keywordMatch("Sick children need care", "sick"), true);
 });
 
-// --- Escrow routing (shared Polytab-managed escrow, Base) ---
+// --- Placeholder routing (page ships donation-locked, Base) ---
 const ESCROW_WALLET = "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08";
-test("walletFor returns the shared Polytab escrow address", () => {
+test("walletFor returns the placeholder donation-locked wallet", () => {
   assert.strictEqual(walletFor(601), ESCROW_WALLET);
   assert.strictEqual(walletFor(999), ESCROW_WALLET);
 });
@@ -141,7 +141,7 @@ test("toQueueBlock: exact 15-field block, bullets, honest-zero, radar provenance
   assert.ok(b.plainSummary.startsWith("• Cause: "));
   assert.ok(b.plainSummary.includes("\n• Resolution: "));
   assert.ok(b.plainSummary.includes("\n• Proof: "));
-  // Escrow routing
+  // Placeholder routing
   assert.strictEqual(b.wallet, ESCROW_WALLET);
   assert.strictEqual(b.radar.sourceFeed, "CDC Online Newsroom");
   assert.strictEqual(b.radar.proposedPairing.bountyId, "215");

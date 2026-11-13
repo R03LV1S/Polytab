@@ -1,10 +1,10 @@
 // Polytab ID identification pipeline (bloc format)
-// Bloc IDs are used for compartmentalization and routing only. Payments settle into the
-// shared Polytab-managed escrow on Base (chain ID 8453). Funds accumulate there for
-// bounties whose organization has NOT yet claimed/verified, are swept to the verified
-// organization's payout wallet once it verifies (org-claim flow), or are converted to USD
-// and donated to the organization's verified external fund (website donation page / GoFundMe)
-// when the claim window closes without a verified claim — receipts are published publicly.
+// Bloc IDs are used for compartmentalization/routing only. Every auto-listed bounty ships
+// DONATION-LOCKED with a placeholder wallet (chain ID 8453). Fundraising is disabled for
+// unverified organizations. Verified organizations file an org-claim (registry + domain control)
+// and get their own payout wallet, which unlocks the donation button for their page.
+// Donations settle directly on-chain into the organization's wallet — Polytab never holds,
+// pools, sweeps, or designates funds.
 //   id:      "<number>" (category-compartmentalized block)
 //   url:     "https://polytab.store/#<id>"
 // Invariants: never reuse/renumber existing IDs; fundedUSD/votesCount honest-zero until real on-chain votes exist.
@@ -59,8 +59,8 @@ const VOTING_CATEGORIES = Object.keys(VOTING_BLOCKS);
 const VALID_CATEGORIES = new Set(Object.keys(BLOCKS));
 
 function walletFor(_id) {
-  // All unclaimed bounties route to the shared Polytab escrow (Base, chain ID 8453).
-  // Organizations that verify replace this with their own payout wallet in data/feed files.
+  // Every auto-listed page ships donation-locked with this placeholder wallet.
+  // A verified organization replaces it with its own payout wallet (claim flow) which unlocks its page.
   return ESCROW_WALLET;
 }
 
@@ -129,12 +129,12 @@ function collectNumericIds(items) {
 
 function idCompartmentalizationMeta() {
   return {
-    version: 4,
-    note: "Scaffolded ID identification pipeline (bloc format). Numeric IDs are compartmentalized by parent range and leaf subcategory block for structure and routing only. All unclaimed bounties settle into the shared Polytab-managed escrow on Base (0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08); verified organizations replace it with their own payout wallet. Never renumber existing IDs.",
+    version: 5,
+    note: "Scaffolded ID identification pipeline (bloc format). Numeric IDs compartmentalize by parent range and leaf subcategory block for structure and routing only. Every auto-listed page ships donation-locked with a placeholder wallet (0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08); verified organizations replace it with their own payout wallet and unlock their page. Never renumber existing IDs.",
     bloc_format: {
       id: "<numeric string>",
       url: "https://polytab.store/#<id>",
-      escrow: ESCROW_WALLET
+      placeholder: ESCROW_WALLET
     },
     parents: {
       [PARENT_CHARITIES]: {

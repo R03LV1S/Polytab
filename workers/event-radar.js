@@ -56,7 +56,7 @@ export default {
           "USGS Significant Earthquakes GeoJSON"
         ],
         idSeries: "601+",
-        walletSeries: "shared Polytab escrow (Base)",
+        walletSeries: "placeholder wallet (page ships donation-locked)",
         status: "Proposed (never auto-promoted to Projects)",
         honestZero: { fundedUSD: 0, votesCount: 0, odds: null, coordinates: null }
       });
