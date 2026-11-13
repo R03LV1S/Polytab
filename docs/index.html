@@ -1465,11 +1465,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           ghLink.textContent = "Endorse on GitHub (verified, anti-spam)";
           ghLink.title = "Creates a prefilled GitHub issue (label: endorsement) referencing this bounty's canonical ID. Counted in the verified snapshot as a unique GitHub user (deduped). $0, auditable.";
           ghLink.addEventListener("click", (ev) => ev.stopPropagation());
-          const endorseNote = document.createElement("span");
-          endorseNote.className = "text-[10px] text-zinc-500";
-          endorseNote.textContent = "local + verified rank";
           endorseBottom.appendChild(ghLink);
-          endorseBottom.appendChild(endorseNote);
           endorseRow.appendChild(endorseTop);
           endorseRow.appendChild(endorseBottom);
           bottomDiv.appendChild(endorseRow);
