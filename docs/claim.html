@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Claim Your Bounty Page — Polytab</title>
+  <meta name="description" content="How an organization can claim its Polytab bounty page, verify, and receive the escrowed funds donated in its name." />
+  <meta name="theme-color" content="#000000" />
+  <link rel="manifest" href="./manifest.json" />
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <link rel="icon" type="image/jpeg" href="./favicon.jpg" />
+  <link rel="apple-touch-icon" href="./favicon.jpg" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { background:#050505; color:#e4e4e7; }
+    .card { background: rgba(24,24,27,.6); border:1px solid #27272a; border-radius: 1rem; }
+    .prose h2 { color:#fff; font-size:1.125rem; font-weight:700; margin-top:1.75rem; margin-bottom:.5rem; }
+    .prose h3 { color:#fff; font-size:1rem; font-weight:600; margin-top:1rem; margin-bottom:.25rem; }
+    .prose p, .prose li { color:#d4d4d8; line-height:1.7; font-size:.925rem; }
+    .prose ul { list-style: disc; padding-left:1.25rem; margin:.5rem 0; }
+    .prose ol { list-style: decimal; padding-left:1.25rem; margin:.5rem 0; }
+    .prose a { color:#facc15; text-decoration: underline; text-underline-offset: 2px; }
+    .prose strong { color:#fff; }
+    .prose hr { border-color:#27272a; margin:1.5rem 0; }
+    .prose code { color:#fde68a; background:rgba(39,39,42,.6); border:1px solid #3f3f46; border-radius:.375rem; padding:.05rem .35rem; font-size:.85em; }
+    .howto-step { display:flex; gap:.75rem; align-items:flex-start; }
+    .howto-num { flex:0 0 auto; width:1.75rem; height:1.75rem; border-radius:9999px; background:#92400e; color:#fef3c7; font-weight:700; font-size:.8rem; display:flex; align-items:center; justify-content:center; margin-top:.1rem; }
+    .callout { background: rgba(254,240,138,.06); border:1px solid rgba(250,204,21,.35); border-radius:.75rem; padding:.75rem 1rem; }
+  </style>
+</head>
+<body class="min-h-screen">
+  <header class="border-b border-zinc-800/80 bg-black/90 backdrop-blur sticky top-0 z-30">
+    <div class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between gap-3">
+      <a href="./index.html" class="flex items-center gap-2">
+        <img src="./logo.svg" alt="Polytab" class="w-8 h-8 rounded-lg" onerror="this.src='./logo.jpg'" />
+        <span class="text-lg font-black tracking-tight text-white">POLY<span class="text-yellow-400">TAB</span></span>
+      </a>
+      <nav class="flex items-center gap-2 text-xs">
+        <a href="./index.html" class="px-3 py-1.5 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white">&larr; Back to Browse Projects</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-4 py-8">
+    <article class="card p-6 sm:p-8 prose">
+      <h1 class="text-2xl sm:text-3xl font-extrabold text-white !mt-0">Claim Your Bounty Page</h1>
+      <p class="text-sm text-zinc-400"><strong>For organizations named on Polytab&rsquo;s project shelf.</strong></p>
+
+      <p>Thousands of organizations are listed on Polytab as possible recipients of small-dollar community grants (&ldquo;micro-votes&rdquo;). If your organization is named on a bounty page marked <strong>&ldquo;Escrow · awaiting org verification&rdquo;</strong>, the funds donated to that page are sitting in the Polytab-managed escrow on Base, and they belong to you. This page explains how to claim them.</p>
+
+      <hr>
+
+      <h2>What verification means</h2>
+      <p>Verification confirms that <strong>the person claiming the page speaks for the organization</strong> and that the payout wallet is genuinely the organization&rsquo;s. We check two things:</p>
+      <ul>
+        <li><strong>Registry match:</strong> a government or recognized registry listing (IRS EIN, Canada Revenue Agency BN, UK Charity Commission number, state nonprofit registry, or equivalent) that links your legal name to your country and mission.</li>
+        <li><strong>Domain control:</strong> either a DNS TXT record on your official domain, or an email from that domain, or an officer whose name is on your public registry record contacting us from the org-adjacent address.</li>
+      </ul>
+      <p>Verification is free. Requests are reviewed manually as they arrive; expect 2&ndash;14 days depending on registry responsiveness. Never share a seed phrase or private key &mdash; we never need them, and we never ask.</p>
+
+      <hr>
+
+      <h2>How to claim (step-by-step)</h2>
+      <div class="space-y-3">
+        <div class="howto-step"><div class="howto-num">1</div><div>Find the project ID on your organization&rsquo;s bounty page (e.g., <code>#10001</code>).</div></div>
+        <div class="howto-step"><div class="howto-num">2</div><div><strong>Open the claim form.</strong> On your bounty page or card, click <em>&ldquo;Org? Claim this page &rarr;&rdquo;</em> &mdash; it opens a pre-filled GitHub issue using the <code>org-claim.yml</code> template. No GitHub? Email <a href="mailto:support@polytab.store">support@polytab.store</a> with the same information instead (see below).</div></div>
+        <div class="howto-step"><div class="howto-num">3</div><div><strong>Fill in the claim:</strong> organization legal name, the project ID(s) you claim, official website, registry name &amp; number, the registry lookup URL, the first and last name of an officer on the org&rsquo;s public record, an official email on your domain, and the <strong>payout wallet</strong> (a <code>0x</code> address on <strong>Base, chain ID 8453</strong>) where funds should be sent.</div></div>
+        <div class="howto-step"><div class="howto-num">4</div><div><strong>Strengthen verification (optional but faster):</strong> add a DNS TXT record <code>polytab-verify=&lt;project id&gt;</code> to your domain, e.g. <code>polytab-verify=10001</code>, and mention it in the issue. We check the record directly; without it, we verify via the registry listing instead.</div></div>
+        <div class="howto-step"><div class="howto-num">5</div><div><strong>We verify and sweep.</strong> Once satisfied, we sweep the escrowed funds <em>on-chain</em> to the payout wallet you supplied and post the transaction hash publicly in the GitHub repo (issue labeled <code>org-sweep</code>), so anyone can audit the transfer. Your page gets a &ldquo;Verified org&rdquo; badge and its displayed wallet becomes yours.</div></div>
+      </div>
+
+      <p class="mt-3"><strong>Lower-tech route:</strong> if GitHub is awkward, email <a href="mailto:support@polytab.store">support@polytab.store</a> with: org name, project ID(s), website, registry name + ID + lookup URL, requester's name (as shown in the registry), official email, payout wallet (0x on Base), and DNS TXT if you can add it. Same verification, same sweep, same public receipt.</p>
+
+      <hr>
+
+      <h2>Where does the money come from?</h2>
+      <p>Community members donate to bounties on polytab.store by sending micro-transactions ($0.25&ndash;$1.00) on Base. Until an organization claims and verifies its page, those funds accumulate in one Polytab-managed escrow address on Base (<code>0x1e89ff2c2922528c8cEB0dB07F73ef979Ea76C08</code>) &mdash; never in a private key held by the creator of any project.</p>
+
+      <div class="callout mt-3">
+        <p class="!mt-0"><strong>Non-refundable by design.</strong> Donations to bounties are final. This is what lets Polytab hold the escrow for you at zero cost and zero custodial claim beyond safekeeping and delivery.</p>
+      </div>
+
+      <hr>
+
+      <h2>What if the organization keeps no single wallet?</h2>
+      <p>Not every organization can or wants to receive crypto. You can claim the page and request a fiat sweep instead: we convert the escrow to USD and donate the net amount to your organization&rsquo;s official public donation channel (registry-listed donation page, GoFundMe, or your own donations URL). Every fiat sweep records the gross amount escrowed, any fees or conversion costs deducted, the net amount delivered, and screenshots/receipts in a public <code>org-sweep</code> issue. By opting for fiat we may need your org to confirm its public donation URL as authoritative.</p>
+
+      <h2>What if the organization never claims?</h2>
+      <p>Funds donated before an organization claims are held in the escrow. If a bounty page accumulates unused funds and the organization never verifies within the campaign window, the net funds are converted to USD and deposited to the organization&rsquo;s next-best verified public destination (official donation page or GoFundMe), with full receipts published in the repository. If even that is impossible, funds remain in escrow and are redirected to comparable verified charities when the page is re-org-assigned &mdash; always with public receipts and an explanation.</p>
+
+      <hr>
+
+      <h2>Safety &amp; anti-fraud</h2>
+      <ul>
+        <li>We verify <strong>the organization</strong>, not the donor. Donors&rsquo; wallets are not harvested, shared, or monetized.</li>
+        <li>We never accept &ldquo;verification&rdquo; via DMs, social media, or private email chains outside your official domain. If in doubt, contact your registry.</li>
+        <li>Impersonators are rejected and reported. If someone claims to act on your behalf, tell us and we will hold the sweep.</li>
+        <li>Sweeps are public: transaction hashes on Base and issue receipts in the <a href="https://github.com/R03LV1S/Polytab" target="_blank" rel="noopener">Polytab GitHub repo</a>. Nobody &mdash; including Polytab &mdash; can silently take or re-route the escrow.</li>
+      </ul>
+
+      <hr>
+
+      <h2>Questions?</h2>
+      <p>Email <a href="mailto:support@polytab.store">support@polytab.store</a>. For the donor side of the story, see the <a href="./faq.html">FAQ &amp; How-Tos</a>.</p>
+    </article>
+  </main>
+
+  <footer class="border-t border-zinc-800/80 mt-8">
+    <div class="max-w-4xl mx-auto px-4 py-6 flex flex-wrap gap-x-4 gap-y-2 text-[11px] font-mono text-zinc-400">
+      <a href="https://github.com/R03LV1S/Polytab" target="_blank" rel="noopener" class="hover:text-yellow-400">GitHub Repo</a>
+      <span>&bull;</span>
+      <a href="./feed.xml" class="hover:text-yellow-400">RSS 2.0</a>
+      <span>&bull;</span>
+      <a href="./feed.json" class="hover:text-yellow-400">JSON Feed</a>
+      <span>&bull;</span>
+      <a href="./faq.html" class="hover:text-yellow-400">FAQ &amp; How-Tos</a>
+      <span>&bull;</span>
+      <a href="./claim.html" class="hover:text-yellow-400">Claim Your Bounty Page</a>
+      <span>&bull;</span>
+      <a href="./terms.html" class="hover:text-yellow-400">Terms</a>
+      <span>&bull;</span>
+      <a href="./privacy.html" class="hover:text-yellow-400">Privacy</a>
+    </div>
+  </footer>
+</body>
+</html>

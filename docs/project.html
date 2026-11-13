@@ -61,8 +61,9 @@
             <div id="priceText" class="text-xs text-yellow-400 font-mono mt-1"></div>
           </div>
           <div class="bg-black/40 border border-zinc-800 rounded-xl p-3">
-            <div class="label">Escrow Wallet</div>
+            <div class="label">Polytab Escrow (Base)</div>
             <div id="walletText" class="text-xs text-zinc-200 font-mono mt-1 break-all"></div>
+            <div id="escrowNote" class="text-[10px] text-amber-400 mt-1 hidden">Awaiting org verification — funds held in the shared Polytab escrow; swept to the verified organization&rsquo;s payout wallet.</div>
           </div>
           <div class="bg-black/40 border border-zinc-800 rounded-xl p-3">
             <div class="label">Status</div>
@@ -119,6 +120,21 @@
     (function(){
       "use strict";
       const GITHUB_OWNER = "r03lv1s";
+      const ESCROW_WALLET = "0x1e89ff2c2922528c8cEB0dB07F73ef979Ea76C08";
+      function orgClaimIssueUrl(item) {
+        const params = new URLSearchParams({
+          title: "[Org Claim]: #" + String(item.id || "") + " - " + String(item.title || "").slice(0, 80),
+          labels: "org-claim",
+          body: "### Organization claim — bounty page #" + String(item.id || "") + "\n" +
+            "Claim this Polytab bounty page on behalf of an organization. Escrowed funds are swept to the payout wallet this issue provides once verified.\n\n" +
+            "**Organization legal name:**\n**Organization website:**\n**Registry & ID (IRS EIN / CRA BN / Charity number):**\n**Registry lookup URL:**\n" +
+            "**Officer name (must be on the org's public record):**\n**Official email (same domain as the org website):**\n" +
+            "**Payout wallet (0x, on Base chain ID 8453):**\n" +
+            "**DNS TXT challenge (optional):** add `polytab-verify=" + String(item.id || "escrow") + "` as a TXT record on your domain, or we verify against the registry listing above.\n" +
+            "**Confirmation:** By submitting, you confirm this wallet belongs to the organization and that donated funds will be used for it.\n"
+        });
+        return "https://github.com/" + GITHUB_OWNER + "/" + GITHUB_REPO + "/issues/new?" + params.toString();
+      }
       const GITHUB_REPO = "Polytab";
       // Cloud endorsement backend (Cloudflare Worker). Set to your worker base URL when deployed, e.g. "https://polytab-endorsement-ledger.<subdomain>.workers.dev"
       const ENDORSEMENT_API = (window.POLYTAB_ENDORSEMENT_API || "").replace(/\/$/, "");
@@ -258,6 +274,11 @@
           escText(document.getElementById("votesText"), String(item.votesCount) + " votes");
           escText(document.getElementById("priceText"), "$" + item.votePriceUSD.toFixed(2) + " / vote");
           escText(document.getElementById("walletText"), item.wallet || "Not available");
+          const escrowNote = document.getElementById("escrowNote");
+          if (escrowNote) {
+            const unclaimed = String(item.wallet || "").toLowerCase() === ESCROW_WALLET.toLowerCase();
+            escrowNote.classList.toggle("hidden", !unclaimed);
+          }
           escText(document.getElementById("statusText"), item.status);
           escText(document.getElementById("idText"), "Project ID: " + item.id);
 
@@ -266,6 +287,15 @@
           if (w){ const a=document.createElement("a"); a.href=w; a.target="_blank"; a.rel="noopener noreferrer"; a.className="inline-flex items-center px-2.5 py-1 rounded-md bg-zinc-800 border border-zinc-700 text-yellow-300 hover:text-yellow-200"; a.textContent="Website ↗"; links.appendChild(a); }
           const defs = [["x","X"],["facebook","Facebook"],["instagram","Instagram"],["linkedin","LinkedIn"],["youtube","YouTube"],["github","GitHub"],["tiktok","TikTok"],["bluesky","Bluesky"],["discord","Discord"],["telegram","Telegram"]];
           defs.forEach(([k,label])=>{ const u=safeLink(item.socials[k]); if(!u) return; const a=document.createElement("a"); a.href=u; a.target="_blank"; a.rel="noopener noreferrer"; a.className="inline-flex items-center px-2.5 py-1 rounded-md bg-zinc-900 border border-zinc-800 text-zinc-300 hover:text-white"; a.textContent=label; links.appendChild(a); });
+          if (String(item.wallet || "").toLowerCase() === ESCROW_WALLET.toLowerCase()) {
+            const claim = document.createElement("a");
+            claim.href = orgClaimIssueUrl(item);
+            claim.target = "_blank";
+            claim.rel = "noopener noreferrer";
+            claim.className = "inline-flex items-center px-2.5 py-1 rounded-md bg-amber-500/10 border border-amber-500/30 text-amber-300 hover:text-amber-200 font-semibold";
+            claim.textContent = "Org? Claim this page \u2192";
+            links.appendChild(claim);
+          }
           const issue = endorsementIssueUrl(item);
           const gh = document.createElement("a"); gh.href=issue; gh.target="_blank"; gh.rel="noopener noreferrer"; gh.className="inline-flex items-center px-2.5 py-1 rounded-md bg-zinc-900 border border-zinc-800 text-zinc-300 hover:text-white"; gh.textContent="Endorse on GitHub"; links.appendChild(gh);
 

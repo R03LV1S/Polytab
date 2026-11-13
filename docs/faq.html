@@ -52,16 +52,16 @@
       <hr>
 
       <h2 id="project-wallet">How to: Project Wallet (EVM 0x Address)</h2>
-      <p><strong>Short answer:</strong> The Project Wallet is an EVM-compatible <code>0x</code> address that your project controls. It&rsquo;s where your project&rsquo;s funds are directed once the community approves the action and a 2-of-3 multi-sig releases the bounty. You never share a private key or seed phrase with Polytab.</p>
+      <p><strong>Short answer:</strong> The Project Wallet is an EVM-compatible <code>0x</code> address that your project controls. It&rsquo;s where funds go once your project is funded and claimed by a verified organization (or, for bounty pages without a claim, the funds are swept on-chain to the payout wallet the verified organization supplies). You never share a private key or seed phrase with Polytab.</p>
 
       <h3>What is an EVM 0x address?</h3>
-      <p>An EVM (Ethereum Virtual Machine) address is a 42-character hexadecimal address starting with <code>0x</code>, for example <code>0x71C0000000000000000000000000000000000101</code>. It works on Base (chain ID <code>8453</code>) and Polygon, which are the networks Polytab uses. Think of it as the project&rsquo;s public account number &mdash; anyone can send funds to it or see what&rsquo;s in it, but only whoever holds the private key can move funds out.</p>
+      <p>An EVM (Ethereum Virtual Machine) address is a 42-character hexadecimal address starting with <code>0x</code>, for example <code>0x1e89ff2c2922528c8cEB0dB07F73ef979Ea76C08</code>. It works on Base (chain ID <code>8453</code>) and Polygon, which are the networks Polytab uses. Think of it as the project&rsquo;s public account number &mdash; anyone can send funds to it or see what&rsquo;s in it, but only whoever holds the private key can move funds out.</p>
 
       <h3>Why does Polytab ask for it?</h3>
       <ul>
         <li>Micro-votes ($0.25&ndash;$1.00) are both a signed ballot and an escrow deposit for the project you choose.</li>
         <li>When the action is completed and verified, the bounty is released to the wallet your project controls.</li>
-        <li>Polytab never takes custody of your funds or your keys &mdash; transactions settle peer-to-peer directly on Base/Polygon.</li>
+        <li>Unclaimed bounties settle into the Polytab-managed escrow on Base &mdash; we never hold private keys, and funds move only through the sweep process (<a href="./claim.html">Claim Your Bounty Page</a>): on-chain to the verified organization&rsquo;s payout wallet, or to its official giving channel by USD transfer with public receipts.</li>
       </ul>
 
       <h3>Step-by-step: create a Project Wallet</h3>
@@ -140,7 +140,7 @@
       <h2>Getting Started</h2>
 
       <h3>What is Polytab?</h3>
-      <p>Polytab is an open-source, non-custodial civic coordination protocol. Communities propose real-world actions, members vote with micro-fee ($0.25&ndash;$1.00) ballots that double as escrow deposits, and when proof-of-work is verified, a 2-of-3 multi-sig releases the bounty directly to the project wallet. Decisions and payouts are recorded on public, immutable ledgers mirrored across RSS/JSON feeds.</p>
+      <p>Polytab is an open-source civic coordination protocol. Communities propose real-world actions, members back them with micro-fee ($0.25&ndash;$1.00) ballots that double as escrow deposits, and when verification completes, the escrowed funds are swept to the verified organization (or converted to USD and donated to its official giving channel if it never claims). Decisions and payouts are recorded on public, immutable ledgers mirrored across RSS/JSON feeds.</p>
 
       <h3>Do I need an account?</h3>
       <p>No. Anyone can browse projects without signing in. Endorsements and verification flows use your existing accounts (GitHub, Google, Discord, Facebook, or TikTok, where available) via a secure OAuth handshake &mdash; no Polytab password is required, and we never receive your provider password.</p>
@@ -149,17 +149,17 @@
       <p>To cast a micro-vote with a Web3 wallet, yes &mdash; or you can use the QR-code flow with any compatible wallet. If you have no wallet, phone, or computer, see the &ldquo;No crypto wallet?&rdquo; answers above. Sharing and endorsing don&rsquo;t require crypto at all.</p>
 
       <h3>How do micro-votes work?</h3>
-      <p>Each vote is a small on-chain transaction ($0.25&ndash;$1.00) on Base L2. It is both a cryptographically signed ballot for the proposal and an escrow deposit for that project. Every dollar of every stake funds the project you chose &mdash; Polytab takes no protocol slice, no pooled pot, and no redistribution between outcomes.</p>
+      <p>Each vote is a small on-chain transaction ($0.25&ndash;$1.00) on Base L2. It is both a cryptographically signed ballot for the proposal and an escrow deposit designated for the project you chose. Every dollar held in escrow is designated for the project you selected &mdash; no protocol slice, no fees, and no redistribution; it flows only to the verified organization that claims the page (or to that organization&rsquo;s official fund via USD donation with public receipts).</p>
 
       <hr>
 
       <h2>Funds, Fees &amp; Custody</h2>
 
       <h3>Who holds the money?</h3>
-      <p><strong>Not Polytab.</strong> Polytab is static open-source software hosted on GitHub Pages and Cloudflare Edge. All micro-transactions settle peer-to-peer on EVM networks directly into project-controlled wallets. Polytab never takes custody of private keys or user funds.</p>
+      <p>For unclaimed bounties: <strong>Polytab does</strong>, and that&rsquo;s deliberate. Micro-transactions settle on Base into one Polytab-managed escrow address (<code>0x1e89ff2c2922528c8cEB0dB07F73ef979Ea76C08</code>). We keep it custodial until the organization verifies its claim &mdash; then sweeps go on-chain to its payout wallet. For user-created projects, your own payout wallet is yours alone; Polytab never takes keys.</p>
 
       <h3>Where does the bounty go when a project succeeds?</h3>
-      <p>Once the action&rsquo;s proof-of-work is verified (geo-tagged evidence, a public commit, a video, etc.), a 2-of-3 multi-sig releases the escrowed funds to the project-controlled payout wallet. If the action isn&rsquo;t approved, the funds stay where they already are &mdash; in the project&rsquo;s escrow wallet. There is no automatic refund back to you; see the &ldquo;proposal that isn&rsquo;t approved&rdquo; answer further down.</p>
+      <p>Once the action&rsquo;s proof-of-work and verification checks are complete (geo-tagged evidence, public commit, video, etc., within the 48&ndash;72h public dispute window), funds in the escrow designation for that bounty are swept to the verified organization&rsquo;s payout wallet. If the claim never completes, funds convert to USD and are donated to the organization&rsquo;s official fund &mdash; never to Polytab. There is no automatic refund back to you; see the &ldquo;proposal that isn&rsquo;t approved&rdquo; answer further down.</p>
 
       <h3>Are there fees?</h3>
       <p>There is no Polytab protocol fee. You only pay the network gas fee on Base/Polygon for your own transactions (typically a fraction of a cent to cents on Base). Future payment-conversion services may charge their own processing fees, disclosed at the point of use.</p>
@@ -181,27 +181,30 @@
 
       <h2>Projects, Proof &amp; IDs</h2>
 
+      <h3>Is my organization listed on a bounty page?</h3>
+      <p>Yes, thousands are &mdash; bounty pages named after registered charities and nonprofits are crowdfunding deposits for those organizations. Until verification, your page shows <strong>&ldquo;Escrow · awaiting org verification&rdquo;</strong> and funds sit in the Polytab-managed escrow on Base (they are not spent, re-allocated, or withdrawn by anyone else). To claim and receive them, see <a href="./claim.html">Claim Your Bounty Page</a> &mdash; registry + domain verification, on-chain sweep to the payout wallet you provide, public receipts.</p>
+
       <h3>How do I start a project?</h3>
       <p>Go to the <strong>Start a Project</strong> tab, fill in the title, category, location (address, ZIP, city, state, or country &mdash; we auto-geocode it), funding goal, micro-vote price, and Project Wallet, then submit. Your proposal is opened as a GitHub Issue for public review and verification.</p>
 
       <h3>What is the &ldquo;Action Scope &amp; Proof Plan&rdquo;?</h3>
-      <p>A short description (max 600 characters) of what needs doing and what proof will show it worked &mdash; e.g., geo-tagged photos, a commit hash, a video, or a completion certificate. This is what the 2-of-3 verification council checks before releasing funds.</p>
+      <p>A short description (max 600 characters) of what needs doing and what proof will show it worked &mdash; e.g., geo-tagged photos, a commit hash, a video, or a completion certificate. Evidence like this is what the sweep review checks before funds designated for this bounty move.</p>
 
-      <h3>What are the ID numbers and <code>0x71C...</code> wallets?</h3>
-      <p>Project IDs are bloc-assigned by category (Charities 10000&ndash;79999, Speculative 80000&ndash;89999, Voting 90000&ndash;99999) and never renumbered. The bloc wallet shown for a project is derived as <code>0x71C</code> plus the zero-padded ID. Your user-supplied Project Wallet is retained for escrow setup alongside the bloc assignment.</p>
+      <h3>What are the ID numbers and the shared escrow address?</h3>
+      <p>Project IDs are bloc-assigned by category (Charities 10000&ndash;79999, Speculative 80000&ndash;89999, Voting 90000&ndash;99999) and never renumbered. Until an organization verifies and claims a page, it displays the shared Polytab escrow on Base; once verified, the page shows the organization&rsquo;s own payout wallet (or, for never-claimed bounties, the public receipts of the USD donation to its official fund).</p>
 
       <h3>What happens to a proposal that isn&rsquo;t approved?</h3>
-      <p>First, the honest mechanics: your micro-vote is a one-way, peer-to-peer payment straight into the project&rsquo;s escrow wallet. Once it&rsquo;s sent on Base/Polygon, it can&rsquo;t be pulled back &mdash; not by the project, and not by Polytab, because Polytab never holds keys or funds.</p>
+      <p>First, the honest mechanics: your micro-vote is a one-way, on-chain transaction designating your stake for the project you chose. Once it&rsquo;s sent on Base/Polygon, it can&rsquo;t be pulled back &mdash; not by the project, and not by Polytab. The funds sit in the shared Polytab escrow until the organization verifies and claims the page, then on-chain sweeps go to its payout wallet; if it never claims, they convert to USD and are donated to its official giving channel with public receipts.</p>
       <p>That means there is <strong>no automatic refund or &ldquo;vote credit&rdquo; today</strong>. If a proposal is rejected or shelved, here&rsquo;s what actually happens:</p>
       <ul>
-        <li><strong>No refund to your wallet.</strong> The money stays in that project&rsquo;s escrow wallet, which controls it via its own keys/multi-sig.</li>
+        <li><strong>No refund to your wallet.</strong> Your contribution stays in the escrow; every dollar of it is delivered to the organization (or its official fund by USD transfer) &mdash; never kept by Polytab, and never redirected to anyone else without public receipts.</li>
         <li><strong>You can cast a new $0.25&ndash;$1.00 micro-vote</strong> for a different proposal &mdash; that&rsquo;s the practical way to redirect your support today.</li>
-        <li><strong>If you think a project is abandoned or misusing funds</strong>, email <a href="mailto:support@polytab.store">support@polytab.store</a> with your transaction hash and the project ID. We can flag the project publicly and escalate to the 2-of-3 multi-sig signers &mdash; but recovery can&rsquo;t be guaranteed for on-chain payments that already settled.</li>
+        <li><strong>If you think a project is abandoned or misusing funds</strong>, email <a href="mailto:support@polytab.store">support@polytab.store</a> with your transaction hash and the project ID. We can flag the project publicly, halt any sweep mid-process, and route the donation to the organization&rsquo;s verified channel instead &mdash; recovery can&rsquo;t be guaranteed for payments already settled.</li>
       </ul>
-      <p>A future escrow design may let voters reuse their stake on another proposal without paying again, but that is <strong>not live</strong> yet and should never be treated as a refund promise. Funds only move when a community-approved action is completed and verified.</p>
+      <p>Already-sent on-chain donations are final (that&rsquo;s how Base works). Funds designated for this project are never quietly re-used elsewhere: they go to the organization on claim, or to the organization&rsquo;s official fund as a USD donation with public receipts.</p>
 
       <h3 id="proof-of-work">How to: Get paid when you complete an action</h3>
-      <p><strong>Short answer:</strong> you don&rsquo;t &ldquo;withdraw&rdquo; from Polytab, and you don&rsquo;t bill us. The escrowed money sits in the project&rsquo;s wallet. Once your proof is verified, the project&rsquo;s <strong>2-of-3 multi-sig</strong> (three named signers, two of whom must agree) sends the bounty on-chain to the worker payout address you provide. Here&rsquo;s exactly how it works, step by step:</p>
+      <p><strong>Short answer:</strong> you don&rsquo;t withdraw from Polytab &mdash; the organization does the claiming. Escrowed money stays in the Polytab-managed escrow until the organization verifies and receives it (or, on timeout, its official channel receives a USD donation). As the claimant, here&rsquo;s exactly how it works, step by step:</p>
       <div class="space-y-3">
         <div class="howto-step"><div class="howto-num">1</div><div><strong>Open the project page.</strong> Go to <a href="./index.html">polytab.store</a> &rarr; <em>Browse Projects</em> &rarr; click the project you completed. This page is where your proof will live once approved.</div></div>
         <div class="howto-step"><div class="howto-num">2</div><div><strong>Click &ldquo;Submit proof / spending update&rdquo;.</strong> Scroll to the <strong>Updates &amp; Proof</strong> section on the project page and click that button. It opens a new browser tab with a GitHub issue pre-filled from the &ldquo;Proof / Spending Update&rdquo; template, titled like <code>[Proof]: #10001 - </code>. (The same flow exists on the main page&rsquo;s action dialog under &ldquo;Did you complete this physical/digital task? &rarr; Submit Proof-of-Work&rdquo;.)</div></div>
@@ -213,11 +216,11 @@
           - <strong>Evidence</strong> &mdash; drag photos, receipts, quotes, or documents right into the issue, or paste public links (IPFS, Google Drive, a TikTok with <code>#PolytabProof</code>, a YouTube video, or a Git commit hash).</div></div>
         <div class="howto-step"><div class="howto-num">4</div><div><strong>Include your payout address.</strong> Put the <code>0x</code> EVM wallet where the bounty should be sent &mdash; in the &ldquo;Beneficiary / recipient&rdquo; field (or, in the action-dialog flow, replace the <code>Worker Payout Address: 0x...</code> placeholder with your address). This must be an address you control.</div></div>
         <div class="howto-step"><div class="howto-num">5</div><div><strong>Submit the issue.</strong> You need a free GitHub account to file it &mdash; that&rsquo;s what keeps the payout auditable and public. Once submitted, it&rsquo;s labeled <code>proof</code> and visible to reviewers.</div></div>
-        <div class="howto-step"><div class="howto-num">6</div><div><strong>Review &amp; 48-hour challenge window.</strong> The 2-of-3 multi-sig signers review your evidence. If they approve, the issue is labeled <code>proof-approved</code>, gets published to the site&rsquo;s public proof feed, and opens a <strong>48-hour public dispute window</strong> &mdash; anyone can challenge the claim (and fraudulent proof gets flagged) before funds move.</div></div>
-        <div class="howto-step"><div class="howto-num">7</div><div><strong>Get paid on-chain.</strong> If the 48-hour window passes with no successful challenge, the 2-of-3 multi-sig releases the bounty directly to your worker payout address on Base/Polygon. You&rsquo;ll receive a normal <code>0x...</code> transaction you can see in any block explorer. Polytab never holds, forwards, or takes a cut of the money &mdash; only the multi-sig can release it.</div></div>
+        <div class="howto-step"><div class="howto-num">6</div><div><strong>Review &amp; 48-hour challenge window.</strong> Reviewers check your evidence; verified proof is published to the site&rsquo;s proof feed and opens a <strong>48-hour public dispute window</strong> &mdash; anyone can challenge fraudulent proof before funds move.</div></div>
+        <div class="howto-step"><div class="howto-num">7</div><div><strong>Payout happens by sweep, not withdrawal.</strong> When the 48-hour window passes and review signs off, the escrow for this bounty is swept on-chain to the worker payout address you provide (or to the organization&rsquo;s verified payout wallet for claimed pages). You&rsquo;ll see a normal <code>0x...</code> transaction on Base in any block explorer, and the GitHub issue gets a public sweep receipt.</div></div>
       </div>
       <div class="callout mt-3">
-        <p class="!mt-0"><strong>Reality check:</strong> payout is not automatic and is never guaranteed by Polytab. It depends on the project&rsquo;s 2-of-3 multi-sig and on your evidence holding up in the review and 48-hour challenge window. Strong, timestamped proof &mdash; geo-tagged photos, receipts, public links, commit hashes &mdash; is what gets bounties released. If something goes wrong, email <a href="mailto:support@polytab.store">support@polytab.store</a> with the GitHub issue link.</p>
+        <p class="!mt-0"><strong>Reality check:</strong> payout is not automatic and is never guaranteed. It depends on the review checks holding up in the 48-hour challenge window, on the organization claiming its page, and on the payout address you supply. Strong, timestamped proof &mdash; geo-tagged photos, receipts, public links, commit hashes &mdash; is what gets bounties released. If something goes wrong, email <a href="mailto:support@polytab.store">support@polytab.store</a> with the GitHub issue link.</p>
       </div>
 
       <hr>
@@ -255,6 +258,8 @@
       <a href="./feed.json" class="hover:text-yellow-400">JSON Feed</a>
       <span>&bull;</span>
       <a href="./faq.html" class="hover:text-yellow-400">FAQ &amp; How-Tos</a>
+      <span>&bull;</span>
+      <a href="./claim.html" class="hover:text-yellow-400">Claim Bounty Page</a>
       <span>&bull;</span>
       <a href="./terms.html" class="hover:text-yellow-400">Terms</a>
       <span>&bull;</span>

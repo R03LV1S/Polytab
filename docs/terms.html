@@ -61,8 +61,17 @@
         <li><strong>Moderation/integrity:</strong> We may exclude, invalidate, hide, or remove endorsements, submissions, or content that violate these Terms, appear abusive or fraudulent, or compromise integrity or availability.</li>
       </ul>
 
-      <h2>4. No Purchases or Payment Processing (Current)</h2>
-      <p>The Service does not currently offer products for sale or process payments through <code class="text-yellow-300">polytab.store</code>. If purchases, donations, or payment features are added in the future, additional terms and disclosures will be provided at the point of use.</p>
+      <h2>4. Donations &amp; Escrow (Micro-Transactions)</h2>
+      <p>Micro-transactions (micro-votes, micro-stakes, and similar pay-to-act actions) carry real, on-chain value. By depositing, you understand and agree to the following:</p>
+      <ul>
+        <li><strong>What the escrow is.</strong> Deposits settle on EVM chains (Base chain ID 8453 and Polygon) into wallets designated by the Service. For bounty pages named after organizations that have not yet verified, funds settle into one Polytab-managed omnibus escrow on Base (<code class="text-yellow-300">0x1e89ff2c2922528c8cEB0dB07F73ef979Ea76C08</code>); for user-created projects, funds settle directly into the project&rsquo;s creator-provided payout wallet, which Polytab never controls.</li>
+        <li><strong>Deposits are final.</strong> Blockchain transactions are irreversible and cannot be recalled at our discretion. Polytab does not issue refunds or chargebacks for on-chain donations, and donor anonymity/finality is a design feature.</li>
+        <li><strong>Verification &amp; sweeps.</strong> For unclaimed bounties, we deliver funds only to an organization that verifies its identity under the <a href="https://polytab.store/claim.html">org-claim process</a> (registry record &mdash; IRS/CRA/UKCC/state nonprofit registries &mdash; plus domain/contact match). On completion of verification, funds are swept on-chain to the payout wallet the organization supplies. Transaction hashes are posted publicly to the GitHub repository.</li>
+        <li><strong>Never-claimed bounties.</strong> If a bounty page accumulates funds and the organization never verifies, the net funds are converted to USD and donated to the organization&rsquo;s official public giving channel (registry-listed donation page or GoFundMe). Conversion/transfer costs may be deducted from the amount donated, and receipts of the donation are published in the repository.</li>
+        <li><strong>Polytab is not a bank, payment processor, money services business, charity, or fiduciary.</strong> The escrow is custodial infrastructure for delivery of earmarked donations to verified recipients. Escrowed funds are not deposits, do not bear interest, and are not insured by any government deposit-insurance program. No warranty of fund performance, timing, or delivery completeness is made.</li>
+        <li><strong>Dispute windows.</strong> Sweep proposals are posted with a public dispute window (typically 48 hours) before funds move. Reports of fraudulent claims received during the window are reviewed and may halt a sweep. Final sweep decisions rest with Polytab in its sole discretion.</li>
+        <li><strong>Assumption of risk.</strong> You acknowledge the inherent risks of public blockchain transactions, network congestion, and conversion-rate fluctuation between deposit and sweep/donation, as well as the risk of contributing to a proposal whose organization never verifies.</li>
+      </ul>
 
       <h2>5. Acceptable Use</h2>
       <p>You agree not to:</p>
@@ -109,6 +118,8 @@
       <a href="./feed.json" class="hover:text-yellow-400">JSON Feed</a>
       <span>&bull;</span>
       <a href="./faq.html" class="hover:text-yellow-400">FAQ &amp; How-Tos</a>
+      <span>&bull;</span>
+      <a href="./claim.html" class="hover:text-yellow-400">Claim Bounty Page</a>
       <span>&bull;</span>
       <a href="./terms.html" class="hover:text-yellow-400">Terms</a>
       <span>&bull;</span>

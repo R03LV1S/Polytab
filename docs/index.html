@@ -180,30 +180,30 @@
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-3 items-center">
         <div class="lg:col-span-8 xl:col-span-9 space-y-1">
           <div class="inline-flex flex-wrap items-center gap-x-2 gap-y-0.5 px-2 py-0.5 rounded-full bg-purple-500/10 border border-yellow-500/20 text-yellow-300 text-[10px] font-medium">
-            <span>100% Non-Custodial</span>
+            <span>100% Held for the Cause</span>
             <span>&bull;</span>
             <span>Base &amp; Polygon EVM Micro-Transactions</span>
             <span>&bull;</span>
-            <span>$0.00 Infrastructure</span>
+            <span>$0.00 Platform Fees</span>
           </div>
           <h1 class="text-xl sm:text-2xl font-extrabold tracking-tight text-white leading-tight">
             Vote with pennies. <span class="text-yellow-400 hc-accent">Fund real-world action.</span>
           </h1>
           <p class="text-zinc-300 text-xs sm:text-sm leading-snug line-clamp-2">
-            Every micro-vote ($0.25&ndash;$1.00) is both a cryptographically signed ballot and an escrow deposit into a project's cold-storage wallet.<br />
-            When verified proof-of-work is published to the RSS oracle, a 2-of-3 multi-sig releases the bounty directly to the community worker.
+            Every micro-vote ($0.25&ndash;$1.00) is both a signed ballot and an escrow deposit into the shared Polytab Base escrow for the project you choose.<br />
+            Once a verified organization claims its bounty page, funds sweep on-chain to the payout wallet it provides &mdash; or, if it never does, they are converted to USD and donated to its official fund.
           </p>
         </div>
         <div class="lg:col-span-4 xl:col-span-3 grid grid-cols-3 gap-1.5">
           <div class="bg-zinc-900/70 border border-zinc-800 p-2 rounded-lg hc-card">
             <span class="text-[9px] text-zinc-400 uppercase font-semibold tracking-wider block">Active Bounties</span>
             <span id="statTotalProjects" class="text-lg font-black text-white mt-0.5 block leading-none">0</span>
-            <span class="text-[9px] text-emerald-400 font-mono leading-tight">On-Chain Verified</span>
+            <span class="text-[9px] text-emerald-400 font-mono leading-tight">Honest-Zero · Live</span>
           </div>
           <div class="bg-zinc-900/70 border border-zinc-800 p-2 rounded-lg hc-card">
             <span class="text-[9px] text-zinc-400 uppercase font-semibold tracking-wider block">Escrow Pooled</span>
             <span id="statTotalEscrow" class="text-lg font-black text-yellow-400 hc-accent mt-0.5 block leading-none">$0.00</span>
-            <span class="text-[9px] text-zinc-400 font-mono leading-tight">Cold Storage</span>
+            <span class="text-[9px] text-zinc-400 font-mono leading-tight">Polytab Escrow (Base)</span>
           </div>
           <div class="bg-zinc-900/70 border border-zinc-800 p-2 rounded-lg hc-card">
             <span class="text-[9px] text-zinc-400 uppercase font-semibold tracking-wider block">Micro-Votes</span>
@@ -315,7 +315,7 @@
             </div>
             <p class="text-[11px] text-zinc-500 mt-2">Use an address, ZIP, city, state, or country — we’ll turn it into a project location automatically.</p>
           </div>
-          <p class="text-[11px] text-zinc-500 -mt-2">ID pipeline (bloc format): Charities 10000–79999, Speculative 80000–89999, Voting 90000–99999 (sub-blocks reserved for future blocs). IDs/wallets assigned as <code class="text-zinc-400">0x71C…</code> (never renumber existing).</p>
+          <p class="text-[11px] text-zinc-500 -mt-2">ID pipeline (bloc format): Charities 10000–79999, Speculative 80000–89999, Voting 90000–99999 (sub-blocks reserved for future blocs). IDs never renumber. Unclaimed bounties settle into the shared Polytab escrow on Base; verified organizations receive on-chain sweeps to the payout wallet they provide.</p>
           <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div>
               <label for="newTargetUSD" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Funding Goal (USD) *</label>
@@ -470,15 +470,15 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
     <section id="tab-governance" class="tab-panel hidden space-y-8">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div class="bg-zinc-900/50 border border-zinc-800 p-6 rounded-2xl space-y-3 hc-card">
-          <span class="text-xs font-mono uppercase text-yellow-400 font-bold">Anti-Collusion Escrow Protocol</span>
-          <h2 class="text-xl font-bold text-white">2-of-3 Multi-Sig &amp; 48-Hour Challenge Lock</h2>
+          <span class="text-xs font-mono uppercase text-yellow-400 font-bold">Anti-Self-Dealing Escrow Protocol</span>
+          <h2 class="text-xl font-bold text-white">Org-Verified Sweep &amp; 48-Hour Challenge Lock</h2>
           <p class="text-xs text-zinc-300 leading-relaxed">
-            To prevent self-dealing ("The Bleacher Cartel"), project creators cannot unilaterally withdraw funds to themselves:
+            Because unclaimed bounties settle into one Polytab-managed escrow, project creators can&rsquo;t self-award the funds sitting under their own project&rsquo;s name (&ldquo;The Bleacher Cartel&rdquo;):
           </p>
           <ol class="text-xs text-zinc-300 space-y-2 list-decimal list-inside">
             <li><strong>Proof Enclosure:</strong> Worker submits before/after geo-tagged photo, TikTok proof (<code class="text-yellow-400">#PolytabProof</code>), or Git commit hash.</li>
-            <li><strong>48-Hour RSS Broadcast:</strong> GitHub Actions publishes the proof in <code class="text-yellow-400">./feed.xml</code> under an <code class="text-yellow-400">&lt;enclosure&gt;</code> tag, starting a 48-hour public dispute window.</li>
-            <li><strong>2-of-3 Sign-Off:</strong> Funds release only when 2 of 3 keyholders (Project Champion, Task Worker, Community/Accessibility Arbiter) co-sign the cold-storage transaction.</li>
+            <li><strong>48-Hour Broadcast:</strong> Sweeps and proofs are staged as public GitHub issues for 48 hours with a public dispute window before funds move.</li>
+            <li><strong>Org Verification Sweep:</strong> Escrowed funds release only after the organization verifies its bounty page (official registry record + domain/contact-owner match) and supplies its payout wallet &mdash; or, if it never claims, are converted to USD and donated to the organization&rsquo;s official giving channel (website donation page, GoFundMe, etc.). Every sweep posts public receipts &mdash; transaction hashes and transfer screenshots &mdash; in this repository.</li>
           </ol>
         </div>
         <div class="bg-zinc-900/50 border border-zinc-800 p-6 rounded-2xl space-y-3 hc-card">
@@ -486,8 +486,8 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           <h2 class="text-xl font-bold text-white">Zero-Trust Pipeline Invariants</h2>
           <ul class="text-xs text-zinc-300 space-y-2">
             <li>&bull; <strong>Shell Injection Isolation:</strong> Untrusted GitHub Issue payloads are passed strictly via <code class="text-emerald-400">env:</code> variables, never interpolated into <code class="text-emerald-400">run:</code> bash blocks.</li>
-            <li>&bull; <strong>Replay &amp; Receipt Verification:</strong> The Python RPC verifier checks <code class="text-emerald-400">receipt.status == 1</code>, recipient match, minimum Wei threshold, and hash uniqueness in <code class="text-emerald-400">votes.json</code>.</li>
-            <li>&bull; <strong>Serialized FIFO Concurrency:</strong> Workflow uses <code class="text-emerald-400">concurrency: cancel-in-progress: false</code> with <code class="text-emerald-400">git pull --rebase</code> to prevent TOCTOU race conditions.</li>
+            <li>&bull; <strong>Logged &amp; Audited Votes:</strong> Every pay-to-vote transaction is logged to the public repository with hash, recipient, amount, and unique-hash rejection. Verification is a manual on-chain audit today; an automated RPC verifier is in development.</li>
+            <li>&bull; <strong>Serialized Feed Writes:</strong> Feed and ledger updates commit through a single-writer, serialized pipeline (<code class="text-emerald-400">concurrency: cancel-in-progress: false</code>, <code class="text-emerald-400">git pull --rebase</code>) to prevent TOCTOU race conditions.</li>
             <li>&bull; <strong>DOM Sanitization:</strong> Zero <code class="text-emerald-400">innerHTML</code> rendering of user strings; strict regex guards on all EVM addresses and hashes.</li>
           </ul>
         </div>
@@ -496,7 +496,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         <span class="text-xs font-mono uppercase text-purple-400 font-bold">Futarchy &amp; Adversarial Outcome Markets</span>
         <h3 class="text-lg font-bold text-white">Vote on Values, Forecast with Pennies</h3>
         <p class="text-xs text-zinc-300 leading-relaxed">
-          Futarchy policy markets let small-dollar donations reveal which verified intervention a community believes works better. Every stake is a direct donation: <strong class="text-yellow-300">100% goes to the escrow of the intervention the staker chose</strong> &mdash; no protocol slice, no shared pot, no redistribution between outcomes, and no payout to anyone. Correct forecasts earn non-monetary reputation (a public accuracy rate, win/loss record, and badges), never money. Markets launch at $0 funded with an unset forecast split; numbers appear only after verified on-chain stakes.
+          Futarchy policy markets let small-dollar donations reveal which verified intervention a community believes works better. Every stake is a direct donation held in the shared Polytab escrow for the outcome the staker chose <strong class="text-yellow-300">&mdash; no protocol slice, no redistribution between outcomes, and no payout to anyone</strong>. Settlement decides which intervention earns the documented-improvement credit, and which forecasters earn non-monetary accuracy credit; escrowed stakes are swept to the verified beneficiary, or handled per the unclaimed-bounty sweep policy if never claimed. Markets launch at $0 funded with an unset forecast split; numbers appear only after verified on-chain stakes.
         </p>
         <ol class="text-xs text-zinc-300 space-y-2 list-decimal list-inside">
           <li><strong>Tier 1 &mdash; Deterministic:</strong> A GitHub Action cron-fetches public data feeds (legislative dockets, agency APIs, school-district reports), SHA-256-verifies the body, and auto-settles hard metrics after the resolution deadline.</li>
@@ -540,7 +540,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
             <strong id="modalVotePrice" class="text-white text-sm block">$0.50 USD</strong>
           </div>
           <div class="text-xs text-zinc-400">
-            <span>Project Escrow Address:</span>
+            <span>Polytab Escrow (Base):</span>
             <code id="modalWallet" class="text-[11px] text-yellow-300 font-mono break-all block mt-0.5">0x...</code>
           </div>
           <button id="sendEvmVoteBtn" type="button"
@@ -556,7 +556,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       <form id="verifyVoteForm" class="space-y-3 border-t border-zinc-800 pt-4">
         <h3 class="text-xs font-bold uppercase tracking-wider text-zinc-300">2. Log &amp; Verify Transaction Hash on GitHub Ledger</h3>
         <p class="text-[11px] text-zinc-400">
-          After sending your micro-transaction, submit the <code class="text-zinc-200">0x...</code> transaction hash below. Our serialized GitHub Action queries the Base/Polygon RPC, verifies the receipt, updates <code class="text-zinc-200">votes.json</code>, and purges the Cloudflare edge cache.
+          After sending your micro-transaction to the escrow, submit the <code class="text-zinc-200">0x...</code> transaction hash below. The hash is audited on the Base/Polygon RPC (manually today; automation in development), recorded in <code class="text-zinc-200">votes.json</code>, and the edge cache is purged.
         </p>
         <div>
           <label for="txHashInput" class="block text-[11px] font-semibold text-zinc-300 mb-1">EVM Transaction Hash (66 chars) *</label>
@@ -576,11 +576,14 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           </div>
         </div>
       </form>
-      <div class="border-t border-zinc-800 pt-3 flex items-center justify-between text-xs">
+      <div class="border-t border-zinc-800 pt-3 flex items-center justify-between text-xs gap-2">
         <span class="text-zinc-400">Did you complete this physical/digital task?</span>
-        <button id="openProofSubmissionBtn" type="button" class="text-yellow-400 hover:text-yellow-300 font-semibold underline">
-          Submit Proof-of-Work &rarr;
-        </button>
+        <span class="flex items-center gap-3">
+          <button id="openProofSubmissionBtn" type="button" class="text-yellow-400 hover:text-yellow-300 font-semibold underline">
+            Submit Proof-of-Work &rarr;
+          </button>
+          <a id="modalClaimLink" href="#" target="_blank" rel="noopener noreferrer" class="hidden text-amber-300 hover:text-amber-200 font-semibold underline">Org? Claim this page &rarr;</a>
+        </span>
       </div>
     </div>
   </div>
@@ -602,9 +605,9 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
   <footer class="border-t border-zinc-800/80 bg-black py-8 mt-12 text-xs text-zinc-400">
     <div class="max-w-[105.6rem] mx-auto px-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
       <div class="space-y-1 max-w-2xl">
-        <p class="font-semibold text-zinc-300">Polytab (`polytab.store`) &mdash; Open-Source Non-Custodial Civic Coordination Protocol</p>
+        <p class="font-semibold text-zinc-300">Polytab (`polytab.store`) &mdash; Open-Source Civic Coordination Protocol</p>
         <p class="text-[11px] text-zinc-500">
-          Disclaimer: Polytab is static open-source interface software hosted on GitHub Pages and Cloudflare Edge. Polytab never takes custody of private keys or user funds. All micro-transactions settle peer-to-peer on EVM networks directly into project-controlled wallets.
+          Disclaimer: Polytab is static open-source interface software hosted on GitHub Pages and Cloudflare Edge. Until an organization verifies its bounty page, its funds are held in the Polytab-managed escrow on Base (we never hold private keys); they are swept on-chain to the verified organization&rsquo;s payout wallet, or converted to USD and donated to its official fund if it never claims. Polytab is not a bank, a charity, or an insurer; micro-transactions settle on Base/Polygon and are non-refundable; see Terms.
         </p>
       </div>
       <div class="flex flex-wrap gap-3 font-mono text-[11px]">
@@ -617,6 +620,8 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         <a href="./feed.json" class="text-zinc-300 hover:text-yellow-400">JSON Feed</a>
         <span>&bull;</span>
         <a href="./faq.html" class="text-zinc-300 hover:text-yellow-400">FAQ &amp; How-Tos</a>
+        <span>&bull;</span>
+        <a href="./claim.html" class="text-zinc-300 hover:text-yellow-400">Claim Bounty Page</a>
         <span>&bull;</span>
         <a href="./terms.html" class="text-zinc-300 hover:text-yellow-400">Terms</a>
         <span>&bull;</span>
@@ -637,9 +642,13 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       const GITHUB_REPO = "Polytab";
       const ENDORSEMENT_API = (window.POLYTAB_ENDORSEMENT_API || "").replace(/\/$/, "");
       const BASE_CHAIN_ID = 8453;
+      // Shared Polytab-managed Base escrow: all unclaimed bounties settle here.
+      // Sweeps to the verified organization's payout wallet once it claims (org-claim.yml),
+      // or are converted to USD and donated to its official fund if never claimed.
+      const ESCROW_WALLET = "0x1e89ff2c2922528c8cEB0dB07F73ef979Ea76C08";
       // --- ID identification pipeline (scaffolded, bloc format) ---
       // Parents/ranges: Charities 10000-79999. Speculative 80000-89999. Voting 90000-99999 (leaf blocs; gaps reserved).
-      // Bloc format: numeric id string, url /#<id>, wallet 0x71C + zero-padded id (40 hex). Never renumber existing IDs.
+      // Bloc IDs: numeric id string, url /#<id>. Attribution only; payments settle into the shared Polytab escrow. Never renumber existing IDs.
       const PARENT_CHARITIES = "Charities";
       const PARENT_SPECULATIVE = "Speculative";
       const PARENT_VOTING = "Voting";
@@ -684,10 +693,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       CHARITY_CATEGORIES.forEach((c) => { CATEGORY_PARENT[c] = PARENT_CHARITIES; });
       SPECULATIVE_CATEGORIES.forEach((c) => { CATEGORY_PARENT[c] = PARENT_SPECULATIVE; });
       VOTING_CATEGORIES.forEach((c) => { CATEGORY_PARENT[c] = PARENT_VOTING; });
-      function walletForId(id) {
-        const str = String(id);
-        return "0x71C" + "0".repeat(Math.max(0, 40 - 3 - str.length)) + str;
-      }
+      function walletForId(_id) { return ESCROW_WALLET; }
       function parentForCategory(cat) {
         if (CATEGORY_PARENT[cat]) return CATEGORY_PARENT[cat];
         const base = CATEGORY_BLOCKS[cat];
@@ -712,12 +718,12 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       const CATEGORIES = ["ALL"].concat(CHARITY_CATEGORIES).concat(SPECULATIVE_CATEGORIES).concat(VOTING_CATEGORIES);
       const PAGE_SIZE = 6;
       const FALLBACK_PROPOSALS = [
-        { id: "1", title: "Science Lab Wheelchair-Accessible Station & Lowered Bench", parentCategory: "Charities", category: "Accessibility & Universal Design", location: "Science Wing / Room 204", summary: "Retrofit Station #1 in Chemistry Lab B with an adjustable-height ADA workbench, accessible sink controls, and clear knee clearance.", plainSummary: "Cause: Chemistry lab tables are too high for wheelchair users.\nResolution: Install a height-adjustable lab desk.\nProof: Photo of installed desk co-signed by student accessibility council.", votePriceUSD: 0.50, targetUSD: 65.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000101", status: "Active", lat: null, lng: null, website: null, socials: {}, datePublishedMs: 0 },
-        { id: "2", title: "North Stadium Bleacher Power-Wash & Handrail Repaint", parentCategory: "Charities", category: "Athletics", location: "North Field / Bleachers", summary: "Clear debris under visitor bleachers, pressure-wash aluminum benches, and apply rust-oleate safety yellow paint to stair handrails.", plainSummary: "Cause: Stadium bleachers are dirty and handrails are rusty.\nResolution: Power-wash seats and paint stair rails bright yellow.\nProof: Before and after photos posted to RSS feed.", votePriceUSD: 0.50, targetUSD: 45.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000102", status: "Active", lat: null, lng: null, website: null, socials: {}, datePublishedMs: 0 },
-        { id: "3", title: "East Entrance Tactile Paving & Curb-Cut Repair", parentCategory: "Charities", category: "Accessibility & Universal Design", location: "East Sidewalk / Bus Drop-off", summary: "Patch cracked concrete lip on the East sidewalk ramp and install high-visibility truncated dome tactile mats for blind and low-vision navigation.", plainSummary: "Cause: Cracked sidewalk ramp blocks wheelchairs and lacks textured bumps for cane users.\nResolution: Smooth concrete lip and bolt down yellow tactile dome mat.\nProof: Geo-tagged video test.", votePriceUSD: 0.25, targetUSD: 50.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000103", status: "Active", lat: null, lng: null, website: null, socials: {}, datePublishedMs: 0 },
-        { id: "4", title: "Art Studio Sink Trap Cleanout & Brush Restock", parentCategory: "Charities", category: "Classrooms", location: "North Wing / Art Room 108", summary: "Clear clay sediment from dual sink traps and purchase 24 synthetic acrylic brushes for shared student use.", plainSummary: "Cause: Art room sink drains slowly and shared brushes are worn out.\nResolution: Clean drain trap and buy 24 new brushes.\nProof: Receipt + photo of clean working sink.", votePriceUSD: 0.25, targetUSD: 25.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000104", status: "Active", lat: null, lng: null, website: null, socials: {}, datePublishedMs: 0 },
-        { id: "5", title: "Solar Pollinator Waystation & Native Milkweed Bed", parentCategory: "Charities", category: "Environmental", location: "South Courtyard", summary: "Convert 40 sq ft of neglected gravel beds into native milkweed and wildflower pollinator habitats with solar drip irrigation.", plainSummary: "Cause: South courtyard bed is weeds and gravel.\nResolution: Plant native flowers for bees and butterflies.\nProof: Time-lapse video of planting.", votePriceUSD: 0.50, targetUSD: 40.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000105", status: "Active", lat: null, lng: null, website: null, socials: {}, datePublishedMs: 0 },
-        { id: "6", title: "Open-Source Municipal & School Budget Visualizer", parentCategory: "Charities", category: "Civic Tech", location: "Global / Digital Commons", summary: "Convert annual PDF line-item expenditure tables into an open-source, screen-reader-accessible CSV and interactive chart repository.", plainSummary: "Cause: Budget reports are locked in hard-to-read PDF files.\nResolution: Build a free searchable web chart.\nProof: Public GitHub repository release.", votePriceUSD: 0.50, targetUSD: 60.00, fundedUSD: 0, votesCount: 0, wallet: "0x71C0000000000000000000000000000000000106", status: "Active", lat: null, lng: null, website: null, socials: {}, datePublishedMs: 0 }
+        { id: "1", title: "Science Lab Wheelchair-Accessible Station & Lowered Bench", parentCategory: "Charities", category: "Accessibility & Universal Design", location: "Science Wing / Room 204", summary: "Retrofit Station #1 in Chemistry Lab B with an adjustable-height ADA workbench, accessible sink controls, and clear knee clearance.", plainSummary: "Cause: Chemistry lab tables are too high for wheelchair users.\nResolution: Install a height-adjustable lab desk.\nProof: Photo of installed desk co-signed by student accessibility council.", votePriceUSD: 0.50, targetUSD: 65.00, fundedUSD: 0, votesCount: 0, wallet: "0x1e89ff2c2922528c8cEB0dB07F73ef979Ea76C08", status: "Active", lat: null, lng: null, website: null, socials: {}, datePublishedMs: 0 },
+        { id: "2", title: "North Stadium Bleacher Power-Wash & Handrail Repaint", parentCategory: "Charities", category: "Athletics", location: "North Field / Bleachers", summary: "Clear debris under visitor bleachers, pressure-wash aluminum benches, and apply rust-oleate safety yellow paint to stair handrails.", plainSummary: "Cause: Stadium bleachers are dirty and handrails are rusty.\nResolution: Power-wash seats and paint stair rails bright yellow.\nProof: Before and after photos posted to RSS feed.", votePriceUSD: 0.50, targetUSD: 45.00, fundedUSD: 0, votesCount: 0, wallet: "0x1e89ff2c2922528c8cEB0dB07F73ef979Ea76C08", status: "Active", lat: null, lng: null, website: null, socials: {}, datePublishedMs: 0 },
+        { id: "3", title: "East Entrance Tactile Paving & Curb-Cut Repair", parentCategory: "Charities", category: "Accessibility & Universal Design", location: "East Sidewalk / Bus Drop-off", summary: "Patch cracked concrete lip on the East sidewalk ramp and install high-visibility truncated dome tactile mats for blind and low-vision navigation.", plainSummary: "Cause: Cracked sidewalk ramp blocks wheelchairs and lacks textured bumps for cane users.\nResolution: Smooth concrete lip and bolt down yellow tactile dome mat.\nProof: Geo-tagged video test.", votePriceUSD: 0.25, targetUSD: 50.00, fundedUSD: 0, votesCount: 0, wallet: "0x1e89ff2c2922528c8cEB0dB07F73ef979Ea76C08", status: "Active", lat: null, lng: null, website: null, socials: {}, datePublishedMs: 0 },
+        { id: "4", title: "Art Studio Sink Trap Cleanout & Brush Restock", parentCategory: "Charities", category: "Classrooms", location: "North Wing / Art Room 108", summary: "Clear clay sediment from dual sink traps and purchase 24 synthetic acrylic brushes for shared student use.", plainSummary: "Cause: Art room sink drains slowly and shared brushes are worn out.\nResolution: Clean drain trap and buy 24 new brushes.\nProof: Receipt + photo of clean working sink.", votePriceUSD: 0.25, targetUSD: 25.00, fundedUSD: 0, votesCount: 0, wallet: "0x1e89ff2c2922528c8cEB0dB07F73ef979Ea76C08", status: "Active", lat: null, lng: null, website: null, socials: {}, datePublishedMs: 0 },
+        { id: "5", title: "Solar Pollinator Waystation & Native Milkweed Bed", parentCategory: "Charities", category: "Environmental", location: "South Courtyard", summary: "Convert 40 sq ft of neglected gravel beds into native milkweed and wildflower pollinator habitats with solar drip irrigation.", plainSummary: "Cause: South courtyard bed is weeds and gravel.\nResolution: Plant native flowers for bees and butterflies.\nProof: Time-lapse video of planting.", votePriceUSD: 0.50, targetUSD: 40.00, fundedUSD: 0, votesCount: 0, wallet: "0x1e89ff2c2922528c8cEB0dB07F73ef979Ea76C08", status: "Active", lat: null, lng: null, website: null, socials: {}, datePublishedMs: 0 },
+        { id: "6", title: "Open-Source Municipal & School Budget Visualizer", parentCategory: "Charities", category: "Civic Tech", location: "Global / Digital Commons", summary: "Convert annual PDF line-item expenditure tables into an open-source, screen-reader-accessible CSV and interactive chart repository.", plainSummary: "Cause: Budget reports are locked in hard-to-read PDF files.\nResolution: Build a free searchable web chart.\nProof: Public GitHub repository release.", votePriceUSD: 0.50, targetUSD: 60.00, fundedUSD: 0, votesCount: 0, wallet: "0x1e89ff2c2922528c8cEB0dB07F73ef979Ea76C08", status: "Active", lat: null, lng: null, website: null, socials: {}, datePublishedMs: 0 }
       ];
       function loadEndorsements() {
         try { const v = JSON.parse(localStorage.getItem("polytab_endorsements") || "{}"); return (v && typeof v === "object" && !Array.isArray(v)) ? v : {}; } catch (_) { return {}; }
@@ -770,6 +776,28 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         });
         return "https://github.com/" + GITHUB_OWNER + "/" + GITHUB_REPO + "/issues/new?" + params.toString();
       }
+      function orgClaimIssueUrl(item) {
+        const params = new URLSearchParams({
+          title: "[Org Claim]: #" + String(item.id || "") + " - " + String(item.title || "").slice(0, 80),
+          labels: "org-claim",
+          body: "### Organization claim — bounty page #" + String(item.id || "") + "\n" +
+            "Claim this Polytab bounty page on behalf of an organization. Escrowed funds are swept to the payout wallet this issue provides once verified.\n\n" +
+            "**Organization legal name:**\n" +
+            "**Organization website:**\n" +
+            "**Registry & ID (e.g. IRS EIN / CRA BN / Charity number):**\n" +
+            "**Registry lookup URL:**\n" +
+            "**First + last name of the requesting officer (must be on the org's public record):**\n" +
+            "**Official email (same domain as the org website):**\n" +
+            "**Payout wallet (0x, on Base chain ID 8453):**\n" +
+            "**DNS TXT challenge (optional but strengthens verification):** add `polytab-verify=" + String(item.id || "escrow") + "` as a TXT record on your domain, or we will verify against the registry listing above.\n" +
+            "**Confirmation:** By submitting, you confirm that this wallet belongs to the organization and that donated funds will be used for it.\n"
+        });
+        return "https://github.com/" + GITHUB_OWNER + "/" + GITHUB_REPO + "/issues/new?" + params.toString();
+      }
+      function orgClaimBadgeFor(item) {
+        const w = String(item && item.wallet || "");
+        return w.toLowerCase() === ESCROW_WALLET.toLowerCase() ? "unclaimed" : "verified";
+      }
       async function loadVerifiedEndorsements() {
         const controller = new AbortController();
         const timeout = setTimeout(() => controller.abort(), 2500);
@@ -821,7 +849,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
                 targetUSD: Number(meta.targetUSD) || 45.00,
                 fundedUSD: Number(meta.fundedUSD) || 0.00,
                 votesCount: Number(meta.votesCount) || 0,
-                wallet: isValidAddress(meta.contract || meta.wallet) ? meta.contract || meta.wallet : "0x71C0000000000000000000000000000000000101",
+                wallet: isValidAddress(meta.contract || meta.wallet) ? meta.contract || meta.wallet : "0x1e89ff2c2922528c8cEB0dB07F73ef979Ea76C08",
                 status: String(meta.status || "Active"),
                 lat: (meta.lat === null || meta.lat === undefined || meta.lat === "") ? null : Number(meta.lat),
                 lng: (meta.lng === null || meta.lng === undefined || meta.lng === "") ? null : Number(meta.lng),
@@ -940,7 +968,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
             recordBtn.className = "w-full py-2 bg-purple-700 hover:bg-purple-600 text-white font-semibold rounded-xl text-[11px] transition hc-btn";
             recordBtn.textContent = "Record Funding via GitHub Issue";
             recordBtn.addEventListener("click", () => {
-              const params = new URLSearchParams({ title: "[Outcome Funding]: " + m.id + " Outcome " + o.key, labels: "outcome-funding,pending-rpc-check", body: ["### Futarchy Outcome Funding Submission", "- **Market:** " + m.id + " — " + m.title, "- **Outcome:** " + o.key + " — " + o.label + " (" + o.organization + ", bounty #" + o.beneficiaryBountyId + ")", "- **Escrow Wallet:** `" + o.escrowWallet + "`", "- **Amount (USD):** " + m.stakePriceUSD, "- **TX Hash:** `0x...`", "", "100% of this amount funds the chosen project. No protocol fee, no redistribution, no payout."].join("\n") });
+              const params = new URLSearchParams({ title: "[Outcome Funding]: " + m.id + " Outcome " + o.key, labels: "outcome-funding,pending-rpc-check", body: ["### Futarchy Outcome Funding Submission", "- **Market:** " + m.id + " — " + m.title, "- **Outcome:** " + o.key + " — " + o.label + " (" + o.organization + ", bounty #" + o.beneficiaryBountyId + ")", "- **Escrow (Polytab, Base):** `" + o.escrowWallet + "`", "- **Amount (USD):** " + m.stakePriceUSD, "- **TX Hash:** `0x...`", "", "100% of this amount funds the chosen project. No protocol fee, no redistribution, no payout."].join("\n") });
               window.open("https://github.com/" + GITHUB_OWNER + "/" + GITHUB_REPO + "/issues/new?" + params.toString(), "_blank", "noopener");
             });
             panel.appendChild(qrBox);
@@ -1527,8 +1555,14 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           progressOuter.appendChild(progressInner);
           const walletRow = document.createElement("div");
           walletRow.className = "flex items-center justify-between text-[11px] font-mono text-zinc-400";
+          const claimState = orgClaimBadgeFor(item);
           const walletLabel = document.createElement("span");
-          walletLabel.textContent = "Escrow: " + item.wallet.slice(0, 8) + "..." + item.wallet.slice(-6);
+          if (claimState === "unclaimed") {
+            walletLabel.textContent = "Escrow · awaiting org verification";
+            walletLabel.className = "text-amber-400";
+          } else {
+            walletLabel.textContent = "Escrow (verified org): " + item.wallet.slice(0, 8) + "..." + item.wallet.slice(-6);
+          }
           const priceLabel = document.createElement("span");
           priceLabel.className = "text-yellow-400 hc-accent";
           priceLabel.textContent = `$${item.votePriceUSD.toFixed(2)} / vote`;
@@ -1568,6 +1602,17 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           ghLink.title = "Creates a prefilled GitHub issue (label: endorsement) referencing this bounty's canonical ID. Counted in the verified snapshot as a unique GitHub user (deduped). $0, auditable.";
           ghLink.addEventListener("click", (ev) => ev.stopPropagation());
           endorseBottom.appendChild(ghLink);
+          if (orgClaimBadgeFor(item) === "unclaimed") {
+            const claimLink = document.createElement("a");
+            claimLink.href = orgClaimIssueUrl(item);
+            claimLink.target = "_blank";
+            claimLink.rel = "noopener noreferrer";
+            claimLink.className = "text-[10px] text-amber-300 hover:text-amber-200 underline underline-offset-2";
+            claimLink.textContent = "Org? Claim this page \u2192";
+            claimLink.title = "Claiming lets an organization receive the escrowed funds. Verify via GitHub issue: org name, website, registry ID, and the payout wallet to sweep to.";
+            claimLink.addEventListener("click", (ev) => ev.stopPropagation());
+            endorseBottom.appendChild(claimLink);
+          }
           endorseRow.appendChild(endorseTop);
           endorseRow.appendChild(endorseBottom);
           bottomDiv.appendChild(endorseRow);
@@ -1611,7 +1656,16 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         document.getElementById("modalCategoryBadge").textContent = pcat + " · " + proposal.category;
         document.getElementById("modalTitle").textContent = proposal.title;
         document.getElementById("modalVotePrice").textContent = `$${proposal.votePriceUSD.toFixed(2)} USD (Base L2)`;
-        document.getElementById("modalWallet").textContent = proposal.wallet;
+        document.getElementById("modalWallet").textContent = proposal.wallet === ESCROW_WALLET ? ESCROW_WALLET + " (Polytab escrow)" : proposal.wallet;
+        const claimLink = document.getElementById("modalClaimLink");
+        if (claimLink) {
+          if (orgClaimBadgeFor(proposal) === "unclaimed") {
+            claimLink.href = orgClaimIssueUrl(proposal);
+            claimLink.classList.remove("hidden");
+          } else {
+            claimLink.classList.add("hidden");
+          }
+        }
         const approxWei = String(Math.round((proposal.votePriceUSD / 2800) * 1e18));
         const eip681 = `ethereum:${proposal.wallet}@${BASE_CHAIN_ID}?value=${approxWei}`;
         const qrBox = document.getElementById("modalQrBox");
@@ -1650,7 +1704,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         document.getElementById("printFlyerMeta").textContent = `${p.category} • ${p.location} • Target: $${p.targetUSD.toFixed(2)}`;
         document.getElementById("printFlyerDesc").textContent = state.plainLanguageMode ? p.plainSummary : p.summary;
         document.getElementById("printFlyerPrice").textContent = `Scan to Cast a $${p.votePriceUSD.toFixed(2)} Micro-Vote on Base L2`;
-        document.getElementById("printFlyerWallet").textContent = `Escrow Wallet: ${p.wallet}`;
+        document.getElementById("printFlyerWallet").textContent = `Polytab Escrow (Base): ${ESCROW_WALLET}`;
         const printQr = document.getElementById("printFlyerQr");
         printQr.replaceChildren();
         const approxWei = String(Math.round((p.votePriceUSD / 2800) * 1e18));
@@ -1673,7 +1727,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       document.getElementById("openProofSubmissionBtn").addEventListener("click", () => {
         const p = state.activeModalProposal;
         if (!p) return;
-        const params = new URLSearchParams({ title: `[Proof of Completion]: #${p.id} - ${p.title}`, labels: "proof-of-work,48h-challenge-window", body: [`### Proof-of-Completion Oracle Submission`, `- **Project ID:** ${p.id}`, `- **Escrow Wallet:** \`${p.wallet}\``, `- **Worker Payout Address:** \`0x...\``, `- **IPFS / R2 / TikTok Proof Media URL:** \`https://...\``, `- **2-of-3 Multi-Sig Signers Notified:** Yes`].join("\n") });
+        const params = new URLSearchParams({ title: `[Proof of Completion]: #${p.id} - ${p.title}`, labels: "proof-of-work,48h-challenge-window", body: [`### Proof-of-Completion Oracle Submission`, `- **Project ID:** ${p.id}`, `- **Escrow (Polytab, Base):** \`${ESCROW_WALLET}\``, `- **Worker Payout Address:** \`0x...\``, `- **IPFS / R2 / TikTok Proof Media URL:** \`https://...\``, `- **48h Public Dispute Window:** Yes`].join("\n") });
         window.open(`https://github.com/${GITHUB_OWNER}/${GITHUB_REPO}/issues/new?${params.toString()}`, "_blank", "noopener");
       });
       const tabButtons = document.querySelectorAll(".nav-tab-btn");
@@ -1765,7 +1819,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         const assignedId = nextIdForCategory(category, state.proposals);
         const assignedWallet = assignedId ? walletForId(assignedId) : null;
         const payload = JSON.stringify({ title, parentCategory: (CATEGORY_PARENT[category] || parentCategory), category, location, targetUSD, votePriceUSD, payoutWallet: wallet, georssPoint: coords, plainSummary, status: "Active", suggestedBlocId: assignedId, suggestedBlocWallet: assignedWallet }, null, 2);
-        const params = new URLSearchParams({ title: `[Proposal]: ${title}`, labels: "proposal,pending-verification", body: `### Project Proposal Metadata\n\`\`\`json\n${payload}\n\`\`\`\n\n### Action Scope & Proof Deliverable\n${summary}\n\n### ID Pipeline (bloc format)\n- Parent: ${CATEGORY_PARENT[category] || parentCategory}\n- Subcategory bloc: ${category}\n- Suggested bloc ID: ${assignedId || "n/a"}\n- Suggested bloc wallet: ${assignedWallet || "n/a"}\n- Note: user-supplied payoutWallet retained for escrow setup; bloc assignment follows compartmentalized ranges (Charities 10000-79999, Speculative 80000-89999, Voting 90000-99999).` });
+        const params = new URLSearchParams({ title: `[Proposal]: ${title}`, labels: "proposal,pending-verification", body: `### Project Proposal Metadata\n\`\`\`json\n${payload}\n\`\`\`\n\n### Action Scope & Proof Deliverable\n${summary}\n\n### ID Pipeline (bloc format)\n- Parent: ${CATEGORY_PARENT[category] || parentCategory}\n- Subcategory bloc: ${category}\n- Suggested bloc ID: ${assignedId || "n/a"}\n- Escrow (Polytab, Base): shared escrow for unclaimed bounties; attribution via bloc ID (never renumbered). Payout/sweep goes to the user-supplied payoutWallet after verified proof-of-work.` });
         window.open(`https://github.com/${GITHUB_OWNER}/${GITHUB_REPO}/issues/new?${params.toString()}`, "_blank", "noopener");
       });
       document.getElementById("ussdSendBtn").addEventListener("click", () => {
