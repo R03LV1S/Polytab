@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy — Polytab</title>
+  <meta name="description" content="Privacy Policy for Polytab (polytab.store)." />
+  <meta name="theme-color" content="#000000" />
+  <link rel="manifest" href="./manifest.json" />
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <link rel="icon" type="image/jpeg" href="./favicon.jpg" />
+  <link rel="apple-touch-icon" href="./favicon.jpg" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { background:#050505; color:#e4e4e7; }
+    .card { background: rgba(24,24,27,.6); border:1px solid #27272a; border-radius: 1rem; }
+    .prose h2 { color:#fff; font-size:1.125rem; font-weight:700; margin-top:1.5rem; margin-bottom:.5rem; }
+    .prose h3 { color:#fff; font-size:1rem; font-weight:600; margin-top:1rem; margin-bottom:.25rem; }
+    .prose p, .prose li { color:#d4d4d8; line-height:1.7; font-size:.925rem; }
+    .prose ul { list-style: disc; padding-left:1.25rem; margin:.5rem 0; }
+    .prose ol { list-style: decimal; padding-left:1.25rem; margin:.5rem 0; }
+    .prose a { color:#facc15; text-decoration: underline; text-underline-offset: 2px; }
+    .prose strong { color:#fff; }
+    .prose hr { border-color:#27272a; margin:1.5rem 0; }
+  </style>
+</head>
+<body class="min-h-screen">
+  <header class="border-b border-zinc-800/80 bg-black/90 backdrop-blur sticky top-0 z-30">
+    <div class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between gap-3">
+      <a href="./index.html" class="flex items-center gap-2">
+        <img src="./logo.svg" alt="Polytab" class="w-8 h-8 rounded-lg" onerror="this.src='./logo.jpg'" />
+        <span class="text-lg font-black tracking-tight text-white">POLY<span class="text-yellow-400">TAB</span></span>
+      </a>
+      <nav class="flex items-center gap-2 text-xs">
+        <a href="./index.html" class="px-3 py-1.5 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white">← Back to Browse Projects</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-4 py-8">
+    <article class="card p-6 sm:p-8 prose">
+      <h1 class="text-2xl sm:text-3xl font-extrabold text-white !mt-0">Privacy Policy</h1>
+      <p class="text-sm text-zinc-400"><strong>Effective Date:</strong> November 13, 2026<br><strong>Last Updated:</strong> November 13, 2026</p>
+
+      <p>This Privacy Policy explains how <strong>Polytab</strong> ("Polytab," "we," "us," or "our") collects, uses, and shares information when you visit or interact with <a href="https://polytab.store">https://polytab.store</a> (the "Service").</p>
+
+      <hr>
+
+      <h2>1. Core Principles</h2>
+      <p>Polytab aims to minimize data collection. Much of the Service is a static website; you can browse projects without creating a Polytab account.</p>
+
+      <h2>2. Information We Collect</h2>
+      <p>Depending on how you use the Service, we may process:</p>
+      <ul>
+        <li><strong>Public GitHub endorsement data:</strong> If you endorse a project by submitting a GitHub issue, information you submit (such as your GitHub username/profile, issue content, and timestamps) is public on GitHub and may be included in public, auditable snapshots/data used by the Service.</li>
+        <li><strong>Provider-verified endorsement data (OAuth):</strong> If you use a verified sign-in/endorsement flow (e.g., GitHub, Google, Discord, Facebook, TikTok, as available) via <code class="text-yellow-300">endorse.polytab.store</code>, we receive limited information from the provider to verify your account and record a deduplicated endorsement.
+          <ul>
+            <li>We use your provider account identifier to create a <strong>one-way cryptographic keyed hash (HMAC)</strong> for deduplication/counting.</li>
+            <li>We do <strong>not</strong> intentionally store your provider password or OAuth access tokens in our endorsement records.</li>
+            <li>Where available, we may store a <strong>private account reference/label or profile URL</strong> associated with the verified endorsement (for deduplication, integrity, and anti-spam/abuse purposes). This information is <strong>not exposed by the public endorsement counts API</strong>, but it may be accessible to service operators/administrators with backend access.</li>
+          </ul>
+        </li>
+        <li><strong>Local/device data (browser storage):</strong> The site may use browser storage (e.g., <code class="text-yellow-300">localStorage</code>) for preferences or local-only features (such as device-local feedback/settings) stored on your device.</li>
+        <li><strong>Hosting/network logs:</strong> The Service is delivered using third-party infrastructure (e.g., GitHub Pages and/or Cloudflare). These providers may process standard technical data such as IP address, user-agent, request metadata, and timestamps for delivery, security, and abuse prevention.</li>
+        <li><strong>Communications:</strong> If you contact us (e.g., by email), we receive the information you provide and related metadata needed to respond.</li>
+      </ul>
+
+      <h2>3. How We Use Information</h2>
+      <p>We use information to:</p>
+      <ol>
+        <li>Operate, display, and maintain the Service (projects, endorsements, counts, and related features).</li>
+        <li>Verify and deduplicate endorsements and prevent spam, fraud, and abuse.</li>
+        <li>Maintain security, reliability, and integrity of the Service and infrastructure.</li>
+        <li>Respond to inquiries and support requests.</li>
+        <li>Comply with legal obligations and enforce our Terms.</li>
+      </ol>
+
+      <h2>4. Cookies &amp; Browser Storage</h2>
+      <p>We do not intentionally use third-party advertising or cross-site behavioral tracking cookies. The Service may use strictly necessary browser storage/cookies/tokens (including short-lived OAuth state/security parameters) for functionality and security.</p>
+
+      <h2>5. How Information Is Shared</h2>
+      <p>We do <strong>not</strong> sell your personal information. We may share information:</p>
+      <ul>
+        <li><strong>Publicly:</strong> Endorsements/content you submit via public channels (e.g., GitHub issues) and derived public snapshots/counts are publicly accessible.</li>
+        <li><strong>With service providers/infrastructure:</strong> Providers that help operate the Service (e.g., GitHub, Cloudflare, identity providers) process data according to their own terms/policies.</li>
+        <li><strong>For legal/safety reasons:</strong> If required by law or to protect rights, safety, security, and integrity of the Service and users.</li>
+      </ul>
+
+      <h2>6. Data Retention</h2>
+      <ul>
+        <li><strong>OAuth access tokens:</strong> Used transiently for verification and not intentionally persisted in endorsement records.</li>
+        <li><strong>Verified endorsement records:</strong> Retained as needed to maintain counts, deduplication, integrity, and abuse prevention, unless/until removed or updated as part of data/source updates or valid requests (where feasible).</li>
+        <li><strong>Public third-party records (e.g., GitHub issues):</strong> Governed by the third-party platform; changes there may be reflected in subsequent snapshots/updates.</li>
+        <li><strong>Communications/support records:</strong> Retained as needed to respond and for legitimate operational/legal purposes.</li>
+      </ul>
+
+      <h2>7. Your Privacy Rights &amp; Choices</h2>
+      <p>Depending on your location, you may have rights to access, correct, or delete certain personal information, or to object/restrict certain processing. Because some data is public (e.g., GitHub issues) or necessary for integrity/deduplication, deletion/changes may be limited or may require action on third-party platforms.</p>
+      <p>To make a request, contact <a href="mailto:contact@polytab.store">contact@polytab.store</a>. We may need to verify your request and your relationship to the relevant account/record.</p>
+
+      <h2>8. Data Security</h2>
+      <p>We use reasonable technical and organizational measures (including HTTPS/TLS in transit, limited data handling, and cryptographic hashing for deduplication identifiers) to protect information. However, no method of transmission or storage is completely secure.</p>
+
+      <h2>9. Children's Privacy</h2>
+      <p>The Service is not directed to children under 13 (or a higher age where required by local law), and we do not knowingly collect personal information from children in violation of applicable law. If you believe a child has provided personal information, contact us so we can take appropriate steps.</p>
+
+      <h2>10. Changes to This Policy &amp; Contact</h2>
+      <p>We may update this Privacy Policy from time to time. Changes are effective when posted at <a href="https://polytab.store/privacy">https://polytab.store/privacy</a> with an updated "Last Updated" date.</p>
+      <p><strong>Email:</strong> <a href="mailto:contact@polytab.store">contact@polytab.store</a><br>
+      <strong>Website:</strong> <a href="https://polytab.store">https://polytab.store</a></p>
+    </article>
+  </main>
+
+  <footer class="border-t border-zinc-800/80 mt-8">
+    <div class="max-w-4xl mx-auto px-4 py-6 flex flex-wrap gap-x-4 gap-y-2 text-[11px] font-mono text-zinc-400">
+      <a href="https://www.youtube.com/@clairewineland" target="_blank" rel="noopener" class="hover:text-yellow-400">For Claire ♥</a>
+      <span>&bull;</span>
+      <a href="https://github.com/r03lv1s/Polytab" target="_blank" rel="noopener" class="hover:text-yellow-400">GitHub Repo</a>
+      <span>&bull;</span>
+      <a href="./feed.xml" class="hover:text-yellow-400">RSS 2.0</a>
+      <span>&bull;</span>
+      <a href="./feed.json" class="hover:text-yellow-400">JSON Feed</a>
+      <span>&bull;</span>
+      <a href="./terms.html" class="hover:text-yellow-400">Terms</a>
+      <span>&bull;</span>
+      <a href="./privacy.html" class="hover:text-yellow-400">Privacy</a>
+    </div>
+  </footer>
+</body>
+</html>
