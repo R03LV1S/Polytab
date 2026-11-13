@@ -1420,10 +1420,10 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           verifiedBadge.className = "text-[10px] font-mono px-2 py-0.5 rounded-md bg-emerald-500/10 text-emerald-300 border border-emerald-500/20";
           if (vCount == null) {
             verifiedBadge.textContent = "✓ Verified (GitHub): snapshot unavailable";
-            verifiedBadge.title = "Global verified endorsements come from the public GitHub issue ledger snapshot (unique users per bounty). Snapshot not loaded; no count fabricated.";
+            verifiedBadge.title = "Public count from GitHub endorsements (one per person per project). Count not loaded.";
           } else {
             verifiedBadge.textContent = "✓ Verified (GitHub): " + vCount;
-            verifiedBadge.title = "Global ranking signal: unique GitHub users who endorsed this bounty (deduped, auditable issue ledger). Honest snapshot — no fabricated counts.";
+            verifiedBadge.title = "Public count: people who endorsed this project on GitHub (one per person).";
           }
           endorseTop.appendChild(endorseBtn);
           endorseTop.appendChild(verifiedBadge);
