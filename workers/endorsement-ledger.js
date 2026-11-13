@@ -32,24 +32,64 @@ const PROVIDERS = {
     tokenUrl: "https://github.com/login/oauth/access_token",
     userUrl: "https://api.github.com/user",
     scope: "read:user",
-    idKey: "client_id",
+    tokenParamsExtra: {},
+    authParamsExtra: {},
     extractId: (data) => (data && data.id != null ? String(data.id) : null),
+    extractProfile: (data) => ({ url: data && data.html_url ? String(data.html_url) : null, label: data && data.login ? String(data.login) : null }),
   },
   google: {
     authUrl: "https://accounts.google.com/o/oauth2/v2/auth",
     tokenUrl: "https://oauth2.googleapis.com/token",
     userUrl: "https://openidconnect.googleapis.com/v1/userinfo",
-    scope: "openid",
-    idKey: "client_id",
+    scope: "openid profile",
+    tokenParamsExtra: {},
+    authParamsExtra: { prompt: "consent", access_type: "online" },
     extractId: (data) => (data && data.sub != null ? String(data.sub) : null),
+    extractProfile: (data) => ({ url: data && data.profile ? String(data.profile) : null, label: data && data.name ? String(data.name) : null }),
   },
   discord: {
     authUrl: "https://discord.com/api/oauth2/authorize",
     tokenUrl: "https://discord.com/api/oauth2/token",
     userUrl: "https://discord.com/api/users/@me",
     scope: "identify",
-    idKey: "client_id",
+    tokenParamsExtra: {},
+    authParamsExtra: {},
     extractId: (data) => (data && data.id != null ? String(data.id) : null),
+    extractProfile: (data) => ({ url: (data && data.id) ? ("https://discord.com/users/" + String(data.id)) : null, label: data && data.username ? String(data.username) : null }),
+  },
+  facebook: {
+    authUrl: "https://www.facebook.com/v19.0/dialog/oauth",
+    tokenUrl: "https://graph.facebook.com/v19.0/oauth/access_token",
+    // token exchange via GET for Facebook is common; we support POST too, but implement GET-style in code path below
+    userUrl: "https://graph.facebook.com/me?fields=id,name,link",
+    scope: "public_profile",
+    tokenMethod: "GET",
+    clientIdKey: "client_id",
+    clientSecretKey: "client_secret",
+    tokenParamsExtra: {},
+    authParamsExtra: {},
+    extractId: (data) => (data && data.id != null ? String(data.id) : null),
+    extractProfile: (data) => ({ url: data && data.link ? String(data.link) : (data && data.id ? ("https://www.facebook.com/" + String(data.id)) : null), label: data && data.name ? String(data.name) : null }),
+  },
+  tiktok: {
+    authUrl: "https://www.tiktok.com/v2/auth/authorize/",
+    tokenUrl: "https://open.tiktokapis.com/v2/oauth/token/",
+    userUrl: "https://open.tiktokapis.com/v2/user/info/?fields=open_id,union_id,display_name,avatar_url,profile_deep_link",
+    scope: "user.info.basic",
+    tokenMethod: "POST_JSON_OR_FORM",
+    clientIdKey: "client_key",
+    clientSecretKey: "client_secret",
+    authClientIdKey: "client_key",
+    tokenParamsExtra: {},
+    authParamsExtra: {},
+    extractId: (data) => {
+      const u = data && data.data && data.data.user ? data.data.user : (data && data.user ? data.user : data);
+      return u && (u.open_id || u.union_id) ? String(u.open_id || u.union_id) : null;
+    },
+    extractProfile: (data) => {
+      const u = data && data.data && data.data.user ? data.data.user : (data && data.user ? data.user : data);
+      return { url: u && u.profile_deep_link ? String(u.profile_deep_link) : null, label: u && u.display_name ? String(u.display_name) : null };
+    },
   },
 };
 
@@ -113,7 +153,7 @@ function getProviderConfig(env, provider) {
   const p = PROVIDERS[provider];
   if (!p) return null;
   const up = provider.toUpperCase();
-  const clientId = env[`${up}_CLIENT_ID`];
+  const clientId = env[`${up}_CLIENT_ID`] || env[`${up}_CLIENT_KEY`];
   const clientSecret = env[`${up}_CLIENT_SECRET`];
   if (!clientId || !clientSecret) return null;
   return { ...p, clientId, clientSecret, provider };
@@ -195,14 +235,15 @@ async function handleStart(request, env, url) {
   const publicBase = String(env.PUBLIC_BASE_URL || new URL(request.url).origin).replace(/\/$/, "");
   const redirectUri = `${publicBase}/auth/callback`;
   const auth = new URL(pconf.authUrl);
-  auth.searchParams.set("client_id", pconf.clientId);
+  auth.searchParams.set(pconf.authClientIdKey || "client_id", pconf.clientId);
   auth.searchParams.set("redirect_uri", redirectUri);
   auth.searchParams.set("response_type", "code");
   auth.searchParams.set("scope", pconf.scope);
   auth.searchParams.set("state", state);
   auth.searchParams.set("code_challenge", challenge);
   auth.searchParams.set("code_challenge_method", "S256");
-  if (provider === "google") { auth.searchParams.set("prompt", "consent"); auth.searchParams.set("access_type", "online"); }
+  const extras = pconf.authParamsExtra || {};
+  for (const [k, v] of Object.entries(extras)) auth.searchParams.set(k, String(v));
 
   // store return_to hint in state table? simple: encode allowed return origin in cookie-less way not needed;
   // we redirect to first allowed origin with params. return_to is validated client-side by allowlist on callback redirect below if provided.
@@ -235,22 +276,52 @@ async function handleCallback(request, env, url) {
   const redirectUri = `${publicBase}/auth/callback`;
 
   // Exchange code for token
-  const params = new URLSearchParams({
-    client_id: pconf.clientId,
-    client_secret: pconf.clientSecret,
-    code,
-    grant_type: "authorization_code",
-    redirect_uri: redirectUri,
-    code_verifier: verifier,
-  });
-  const tokenRes = await fetch(pconf.tokenUrl, {
-    method: "POST",
-    headers: { "Content-Type": "application/x-www-form-urlencoded", "Accept": "application/json", "User-Agent": "polytab-endorsement-ledger/1.0" },
-    body: params.toString(),
-  });
-  if (!tokenRes.ok) return text("Token exchange failed.", 502, headers);
-  const tokenData = await tokenRes.json().catch(() => ({}));
-  const accessToken = tokenData.access_token;
+  let tokenData = {};
+  if (pconf.tokenMethod === "GET") {
+    const tu = new URL(pconf.tokenUrl);
+    tu.searchParams.set(pconf.clientIdKey || "client_id", pconf.clientId);
+    tu.searchParams.set(pconf.clientSecretKey || "client_secret", pconf.clientSecret);
+    tu.searchParams.set("redirect_uri", redirectUri);
+    tu.searchParams.set("code", code);
+    // Some providers may accept/ignore code_verifier in GET; include for PKCE where supported
+    tu.searchParams.set("code_verifier", verifier);
+    const tokenRes = await fetch(tu.toString(), { headers: { "Accept": "application/json", "User-Agent": "polytab-endorsement-ledger/1.0" } });
+    if (!tokenRes.ok) return text("Token exchange failed.", 502, headers);
+    tokenData = await tokenRes.json().catch(() => ({}));
+  } else if (provider === "tiktok") {
+    const body = {
+      client_key: pconf.clientId,
+      client_secret: pconf.clientSecret,
+      code,
+      grant_type: "authorization_code",
+      redirect_uri: redirectUri,
+      code_verifier: verifier,
+    };
+    const tokenRes = await fetch(pconf.tokenUrl, {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded", "Accept": "application/json", "User-Agent": "polytab-endorsement-ledger/1.0" },
+      body: new URLSearchParams(body).toString(),
+    });
+    if (!tokenRes.ok) return text("Token exchange failed.", 502, headers);
+    tokenData = await tokenRes.json().catch(() => ({}));
+  } else {
+    const params = new URLSearchParams({
+      [pconf.clientIdKey || "client_id"]: pconf.clientId,
+      [pconf.clientSecretKey || "client_secret"]: pconf.clientSecret,
+      code,
+      grant_type: "authorization_code",
+      redirect_uri: redirectUri,
+      code_verifier: verifier,
+    });
+    const tokenRes = await fetch(pconf.tokenUrl, {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded", "Accept": "application/json", "User-Agent": "polytab-endorsement-ledger/1.0" },
+      body: params.toString(),
+    });
+    if (!tokenRes.ok) return text("Token exchange failed.", 502, headers);
+    tokenData = await tokenRes.json().catch(() => ({}));
+  }
+  const accessToken = tokenData.access_token || (tokenData.data && tokenData.data.access_token);
   if (!accessToken) return text("No access token.", 502, headers);
 
   // Fetch identity (access token used once, not stored)
@@ -261,11 +332,20 @@ async function handleCallback(request, env, url) {
   const userData = await userRes.json().catch(() => ({}));
   const rawId = pconf.extractId(userData);
   if (!rawId) return text("Could not verify identity.", 502, headers);
+  const profile = (typeof pconf.extractProfile === "function") ? (pconf.extractProfile(userData) || {}) : {};
+  const accountUrl = profile.url ? String(profile.url).slice(0, 500) : null;
+  const accountLabel = profile.label ? String(profile.label).slice(0, 200) : null;
 
   const blinded = await hmacSha256Hex(String(env.PEPPER_SECRET), `${provider}:${rawId}`);
-  await env.DB.prepare(
-    "INSERT OR IGNORE INTO endorsements (project_id, provider, blinded_user_hash, created_at) VALUES (?, ?, ?, ?)"
-  ).bind(projectId, provider, blinded, now).run();
+  try {
+    await env.DB.prepare(
+      "INSERT OR IGNORE INTO endorsements (project_id, provider, blinded_user_hash, created_at, account_url, account_label) VALUES (?, ?, ?, ?, ?, ?)"
+    ).bind(projectId, provider, blinded, now, accountUrl, accountLabel).run();
+  } catch (_) {
+    await env.DB.prepare(
+      "INSERT OR IGNORE INTO endorsements (project_id, provider, blinded_user_hash, created_at) VALUES (?, ?, ?, ?)"
+    ).bind(projectId, provider, blinded, now).run();
+  }
 
   const allowed = getAllowedOrigins(env);
   const destBase = allowed[0] || "https://polytab.store";

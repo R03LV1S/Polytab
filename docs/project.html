@@ -278,7 +278,7 @@
             const container = document.getElementById("providerButtons");
             if (container) {
               container.replaceChildren();
-              const providers = [["github","GitHub"],["google","Google"],["discord","Discord"]];
+              const providers = [["github","GitHub"],["google","Google"],["discord","Discord"],["facebook","Facebook"],["tiktok","TikTok"]];
               providers.forEach(([prov,label]) => {
                 const a = document.createElement("a");
                 a.href = ENDORSEMENT_API + "/auth/start?provider=" + encodeURIComponent(prov) + "&project_id=" + encodeURIComponent(item.id);
