@@ -12,18 +12,18 @@ Long before banks, ballots, or blockchains, councils answered with clay. Sumeria
 
 ### How Polytab works (in plain words)
 
-1. **Vote** — Community members cast micro-fee votes ($0.25–$1.00). Each vote is both a signed ballot *and* an escrow deposit into a project's cold-storage wallet.
+1. **Vote** — Community members cast micro-fee votes ($0.25–$1.00). Each vote is both a signed ballot *and* an escrow deposit into the Polytab-managed Base escrow for that project.
 2. **Pool** — Vote funds accumulate. The pool is held in escrow, not spent unilaterally.
-3. **Execute & disburse** — Verified proof-of-work is published (geo-tagged evidence, TikTok proof, Git commit hash, etc.). A 2-of-3 multi-sig releases the bounty directly to the community worker.
+3. **Execute & disburse** — Verified proof-of-work is published (geo-tagged evidence, TikTok proof, Git commit hash, etc.). A verified organization claims its bounty page (registry match), is swept to its payout wallet on-chain, or the funds are converted to USD and donated to its official fund if never claimed.
 
-**No losers.** If a proposal loses, the funds aren't lost — voters are credited and can reuse their vote on any other active proposal. Funds move only when a community-approved action is actually completed.
+**No lost donations.** Every micro-vote designates its deposit for the project you chose; funds move only to the verified organization that claims the page (on-chain sweep) — or, if it never claims, are converted to USD and donated to its official fund. Either way, nothing about your deposit is kept by Polytab, and receipts for every sweep are public.
 
 ### Why you should use Polytab
 
 - **Fund real-world action with real money.** Turn small micro-donations into tangible community outcomes. It's civic action that actually gets funded.
 - **Vote with pennies.** You don't need a fortune to participate. Small-dollar stakes become real escrowed funding for verified interventions.
 - **Verified support, zero fake noise.** Endorsements can be verified through trusted sign-in providers (GitHub, Google, Discord, Facebook, TikTok, etc.) with deduplicated counts, plus a manual GitHub endorsement path. Public GitHub-issue ledgers and open feeds keep counts auditable.
-- **Community-owned outcomes.** Anti-collusion escrow, 2-of-3 multi-sig with a 48-hour public challenge window, and immutable public records — the ancient "it is decided" feeling, engineered for accountability.
+- **Community-owned outcomes.** One auditable omnibus escrow, a 48-hour public dispute window, and public receipts for every sweep — the ancient "it is decided" feeling, engineered for accountability.
 
 ### Who is Polytab for?
 

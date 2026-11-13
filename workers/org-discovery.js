@@ -55,11 +55,10 @@ export default {
   }
 };
 
-// Wallet matching the existing pattern: 0x71C + zero padding + ID suffix
-// e.g. id "501" -> 0x71C0000000000000000000000000000000000501 (40 hex chars)
-function walletFor(id) {
-  const body = "0".repeat(40 - 3 - String(id).length) + String(id);
-  return "0x71C" + body;
+// All unclaimed bounties route to the shared Polytab-managed escrow on Base
+const ESCROW_WALLET = "0x1e89ff2c2922528c8cEB0dB07F73ef979Ea76C08";
+function walletFor(_id) {
+  return ESCROW_WALLET;
 }
 
 // Format a discovered org into the EXACT block schema (15 fields, same order)

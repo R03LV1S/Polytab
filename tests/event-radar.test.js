@@ -97,17 +97,11 @@ test("keywordMatch: 'sick' must not match 'sickens'", () => {
   assert.strictEqual(keywordMatch("Sick children need care", "sick"), true);
 });
 
-// --- Wallet series ---
-test("walletFor(601) -> 0x71E + zeros + 601, 40 hex chars", () => {
-  const w = walletFor(601);
-  assert.strictEqual(w, "0x71E" + "0".repeat(34) + "601");
-  assert.strictEqual(w.length, 42);
-  assert.ok(/^0x[0-9a-fA-F]{40}$/.test(w));
-});
-test("walletFor(999) stays 42 chars", () => {
-  const w = walletFor(999);
-  assert.strictEqual(w.length, 42);
-  assert.ok(/^0x[0-9a-fA-F]{40}$/.test(w));
+// --- Escrow routing (shared Polytab-managed escrow, Base) ---
+const ESCROW_WALLET = "0x1e89ff2c2922528c8cEB0dB07F73ef979Ea76C08";
+test("walletFor returns the shared Polytab escrow address", () => {
+  assert.strictEqual(walletFor(601), ESCROW_WALLET);
+  assert.strictEqual(walletFor(999), ESCROW_WALLET);
 });
 
 // --- Pairing against the REAL feed.json (100 verified orgs) ---
@@ -147,8 +141,8 @@ test("toQueueBlock: exact 15-field block, bullets, honest-zero, radar provenance
   assert.ok(b.plainSummary.startsWith("• Cause: "));
   assert.ok(b.plainSummary.includes("\n• Resolution: "));
   assert.ok(b.plainSummary.includes("\n• Proof: "));
-  // Wallet + provenance
-  assert.ok(/^0x71E[0]{34}601$/.test(b.wallet));
+  // Escrow routing
+  assert.strictEqual(b.wallet, ESCROW_WALLET);
   assert.strictEqual(b.radar.sourceFeed, "CDC Online Newsroom");
   assert.strictEqual(b.radar.proposedPairing.bountyId, "215");
   assert.strictEqual(b.radar.dedupeHash, "abc123");

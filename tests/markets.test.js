@@ -77,14 +77,12 @@ test("honest-zero: every market starts unfunded with an unset forecast split", (
   }
 });
 
-test("every outcome has a distinct valid escrow wallet in the 0x71D series", () => {
-  const seen = new Set();
+test("every outcome routes to the shared Polytab-managed Base escrow", () => {
+  const ESCROW = "0x1e89ff2c2922528c8cEB0dB07F73ef979Ea76C08";
   for (const m of marketsFile.markets) {
     assert.ok(m.outcomes.length >= 2, m.id + " needs at least two outcomes");
     for (const o of m.outcomes) {
-      assert.ok(/^0x71D[0-9a-fA-F]{37}$/.test(o.escrowWallet), m.id + " bad escrow wallet " + o.escrowWallet);
-      assert.ok(!seen.has(o.escrowWallet), "duplicate escrow wallet " + o.escrowWallet);
-      seen.add(o.escrowWallet);
+      assert.strictEqual(o.escrowWallet, ESCROW, m.id + " outcome " + o.key + " must fund the shared Polytab escrow");
       assert.ok(/^\d+$/.test(o.beneficiaryBountyId), m.id + " outcome " + o.key + " needs a numeric bounty id");
       assert.ok(/^https?:\/\//.test((m.oracle || {}).source || ""), m.id + " oracle source must be a public URL");
     }

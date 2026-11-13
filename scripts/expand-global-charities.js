@@ -15,10 +15,9 @@ const CAT_BLOCK = {
 };
 const VALID_CATEGORIES = new Set(Object.keys(CAT_BLOCK));
 
-function walletFor(id) {
-  const body = '0'.repeat(40 - 3 - String(id).length) + String(id);
-  return '0x71C' + body;
-}
+// All unclaimed bounties route to the shared Polytab-managed escrow on Base
+const ESCROW_WALLET = '0x1e89ff2c2922528c8cEB0dB07F73ef979Ea76C08';
+function walletFor(_id) { return ESCROW_WALLET; }
 
 function safeUrl(u){ return (typeof u==='string' && /^https?:\/\//i.test(u.trim())) ? u.trim() : null; }
 

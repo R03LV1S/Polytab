@@ -39,10 +39,10 @@ const CRITERIA = {
   minProgramRatio: 0.70          // min 70% program spending
 };
 
-// Wallet matching existing pattern: 0x71C + zero padding + ID (40 hex chars)
-function walletFor(id) {
-  const body = "0".repeat(40 - 3 - String(id).length) + String(id);
-  return "0x71C" + body;
+// All unclaimed bounties route to the shared Polytab-managed escrow on Base
+const ESCROW_WALLET = "0x1e89ff2c2922528c8cEB0dB07F73ef979Ea76C08";
+function walletFor(_id) {
+  return ESCROW_WALLET;
 }
 
 // Convert a discovered org into the EXACT block schema (15 fields, same order as curated blocks)

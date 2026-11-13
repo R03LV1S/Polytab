@@ -1,11 +1,15 @@
-// Polytab ID identification pipeline (scaffolded, bloc format)
-// Bloc format (shelf/active bounties): numeric compartmentalized string IDs + deterministic escrow/wallet
+// Polytab ID identification pipeline (bloc format)
+// Bloc IDs are used for compartmentalization and routing only. Payments settle into the
+// shared Polytab-managed escrow on Base (chain ID 8453). Funds accumulate there for
+// bounties whose organization has NOT yet claimed/verified, are swept to the verified
+// organization's payout wallet once it verifies (org-claim flow), or are converted to USD
+// and donated to the organization's verified external fund (website donation page / GoFundMe)
+// when the claim window closes without a verified claim — receipts are published publicly.
 //   id:      "<number>" (category-compartmentalized block)
 //   url:     "https://polytab.store/#<id>"
-//   wallet:  "0x71C" + "0".repeat(40 - 3 - id.length) + id  (40-hex, prefix 0x71C)
-// Parent ranges reserve ID space; leaf subcategories own blocks within the parent range.
-// Invariants: never reuse/renumber existing IDs; fundedUSD/votesCount honest-zero until real on-chain votes.
+// Invariants: never reuse/renumber existing IDs; fundedUSD/votesCount honest-zero until real on-chain votes exist.
 
+const ESCROW_WALLET = "0x1e89ff2c2922528c8cEB0dB07F73ef979Ea76C08";
 const PARENT_CHARITIES = "Charities";
 const PARENT_SPECULATIVE = "Speculative";
 const PARENT_VOTING = "Voting";
@@ -54,10 +58,10 @@ const SPECULATIVE_CATEGORIES = Object.keys(SPECULATIVE_BLOCKS);
 const VOTING_CATEGORIES = Object.keys(VOTING_BLOCKS);
 const VALID_CATEGORIES = new Set(Object.keys(BLOCKS));
 
-function walletFor(id) {
-  const s = String(id);
-  const body = "0".repeat(Math.max(0, 40 - 3 - s.length)) + s;
-  return "0x71C" + body;
+function walletFor(_id) {
+  // All unclaimed bounties route to the shared Polytab escrow (Base, chain ID 8453).
+  // Organizations that verify replace this with their own payout wallet in data/feed files.
+  return ESCROW_WALLET;
 }
 
 function parentForCategory(category) {
@@ -125,12 +129,12 @@ function collectNumericIds(items) {
 
 function idCompartmentalizationMeta() {
   return {
-    version: 3,
-    note: "Scaffolded ID identification pipeline (bloc format). Numeric IDs are compartmentalized by parent range and leaf subcategory block for structure and wallet/URL compatibility. wallet = 0x71C + zero-padded id. Never renumber existing IDs.",
+    version: 4,
+    note: "Scaffolded ID identification pipeline (bloc format). Numeric IDs are compartmentalized by parent range and leaf subcategory block for structure and routing only. All unclaimed bounties settle into the shared Polytab-managed escrow on Base (0x1e89ff2c2922528c8cEB0dB07F73ef979Ea76C08); verified organizations replace it with their own payout wallet. Never renumber existing IDs.",
     bloc_format: {
       id: "<numeric string>",
       url: "https://polytab.store/#<id>",
-      wallet: "0x71C + zeroPad40hex(idNumeric)"
+      escrow: ESCROW_WALLET
     },
     parents: {
       [PARENT_CHARITIES]: {
@@ -156,6 +160,7 @@ function idCompartmentalizationMeta() {
 }
 
 module.exports = {
+  ESCROW_WALLET,
   PARENT_CHARITIES,
   PARENT_SPECULATIVE,
   PARENT_VOTING,

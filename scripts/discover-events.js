@@ -218,10 +218,10 @@ function isRecent(dateIso, nowMs, maxAgeDays) {
   return ageMs >= -86400000 && ageMs <= days * 86400000; // allow 1 day clock skew
 }
 
-// Wallet series for event-radar blocks: 0x71E + zero padding + ID (40 hex chars)
-function walletFor(id) {
-  const body = "0".repeat(40 - 3 - String(id).length) + String(id);
-  return "0x71E" + body;
+// All unclaimed bounties route to the shared Polytab-managed escrow on Base
+const ESCROW_WALLET = "0x1e89ff2c2922528c8cEB0dB07F73ef979Ea76C08";
+function walletFor(_id) {
+  return ESCROW_WALLET;
 }
 
 // Propose (never assert) a pairing with one of the 100 VERIFIED orgs already

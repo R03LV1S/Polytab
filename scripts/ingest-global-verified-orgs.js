@@ -541,7 +541,7 @@ const CSV_SOURCES = [
 let idPipeline = null;
 try { idPipeline = require('./id-pipeline'); } catch (_) { idPipeline = null; }
 const CAT_BLOCK = (idPipeline && idPipeline.CHARITY_BLOCKS) ? idPipeline.CHARITY_BLOCKS : {'Accessibility & Universal Design':10000,'Environmental':20000,'Civic Tech':30000,'Classrooms':40000,'Arts & Clubs':45000,'Campus Grounds':60000,'Athletics':70000};
-function walletFor(id){ return idPipeline ? idPipeline.walletFor(id) : ('0x71C' + '0'.repeat(40-3-String(id).length)+String(id)); }
+const ESCROW_WALLET='0x1e89ff2c2922528c8cEB0dB07F73ef979Ea76C08'; function walletFor(id){ return idPipeline ? idPipeline.walletFor(id) : ESCROW_WALLET; } // shared Polytab escrow (unclaimed bounties)
 function chooseCategory(name){
   const n=(name||'').toLowerCase();
   if(/blind|deaf|disab|autism|wheelchair|assist|access|rehab|prosthe|braille|health|medical|hospital|cancer|hospice|clinic|disease|mental|fistula|malaria|nutrition|vaccine/.test(n)) return 'Accessibility & Universal Design';
