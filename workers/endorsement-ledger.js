@@ -75,7 +75,7 @@ const PROVIDERS = {
     authUrl: "https://www.tiktok.com/v2/auth/authorize/",
     tokenUrl: "https://open.tiktokapis.com/v2/oauth/token/",
     userUrl: "https://open.tiktokapis.com/v2/user/info/?fields=open_id,union_id,display_name,avatar_url,profile_deep_link",
-    scope: "user.info.basic",
+    scope: "user.info.basic,user.info.profile",
     tokenMethod: "POST_JSON_OR_FORM",
     clientIdKey: "client_key",
     clientSecretKey: "client_secret",
