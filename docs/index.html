@@ -227,13 +227,16 @@
             <div class="w-full sm:w-56 lg:w-56 bg-zinc-950/70 border border-zinc-700 rounded-xl p-3 flex flex-col gap-2 justify-start">
               <div class="text-[10px] font-mono uppercase tracking-wider text-zinc-500">Location & Sort</div>
               <label for="zipInput" class="sr-only">Location for 50 mile radius</label>
-              <div class="flex items-center gap-1.5">
-                <input id="zipInput" type="text" maxlength="80" placeholder="Location (ZIP/city/country)"
-                  class="bg-black border border-zinc-700 focus:border-yellow-500 rounded-xl px-3.5 py-2 text-xs text-white placeholder-slate-500 outline-none w-full min-w-0" />
-                <button id="zipClearBtn" type="button" aria-label="Clear location filter" title="Clear"
-                  class="shrink-0 h-8 w-8 flex items-center justify-center rounded-lg border border-zinc-700 bg-black text-zinc-400 hover:text-white hover:border-zinc-500 text-sm leading-none">×</button>
+              <div class="relative">
+                <div class="flex items-center gap-1.5">
+                  <input id="zipInput" type="text" maxlength="80" placeholder="City/State/Country/Zip" autocomplete="off"
+                    class="bg-black border border-zinc-700 focus:border-yellow-500 rounded-xl px-3.5 py-2 text-xs text-white placeholder-slate-500 outline-none w-full min-w-0" />
+                  <button id="zipClearBtn" type="button" aria-label="Clear location filter" title="Clear"
+                    class="shrink-0 h-8 w-8 flex items-center justify-center rounded-lg border border-zinc-700 bg-black text-zinc-400 hover:text-white hover:border-zinc-500 text-sm leading-none">×</button>
+                </div>
+                <div id="zipSuggest" class="hidden absolute z-50 mt-1 w-full bg-zinc-950 border border-zinc-700 rounded-xl shadow-lg overflow-hidden max-h-56 overflow-y-auto"></div>
               </div>
-              <p id="zipStatus" class="text-[10px] text-zinc-500 leading-snug">Enter location (ZIP, city, state, country) to filter within 50 mi.</p>
+              <p id="zipStatus" class="text-[10px] text-zinc-500 leading-snug">Enter City/State/Country/Zip to filter within 50 mi.</p>
               <div class="mt-auto">
                 <label for="sortBySelect" class="block text-[10px] font-mono uppercase tracking-wider text-zinc-500 mb-1">Sort By</label>
                 <select id="sortBySelect" class="bg-black border border-zinc-700 focus:border-yellow-500 rounded-xl px-3 py-2 text-xs text-white outline-none w-full">
@@ -1070,7 +1073,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         const statusEl = document.getElementById("zipStatus");
         if (!query) {
           state.zipQuery = ""; state.zipLat = null; state.zipLng = null; state.zipResolvedCode = null;
-          if (statusEl) statusEl.textContent = "Enter location (ZIP, city, state, country) to filter within 50 mi.";
+          if (statusEl) statusEl.textContent = "Enter City/State/Country/Zip to filter within 50 mi.";
           state.page = 1; renderProposalsGrid();
           return;
         }
@@ -1587,16 +1590,81 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         sortSel.value = state.sortBy || "default";
         sortSel.addEventListener("change", (e) => { state.sortBy = e.target.value || "default"; state.page = 1; renderProposalsGrid(); });
       }
+      const _LOC_COUNTRIES = [["AF","Afghanistan"],["AL","Albania"],["DZ","Algeria"],["AS","American Samoa"],["AD","Andorra"],["AO","Angola"],["AI","Anguilla"],["AQ","Antarctica"],["AG","Antigua and Barbuda"],["AR","Argentina"],["AM","Armenia"],["AW","Aruba"],["AU","Australia"],["AT","Austria"],["AZ","Azerbaijan"],["BS","Bahamas"],["BH","Bahrain"],["BD","Bangladesh"],["BB","Barbados"],["BY","Belarus"],["BE","Belgium"],["BZ","Belize"],["BJ","Benin"],["BM","Bermuda"],["BT","Bhutan"],["BO","Bolivia"],["BA","Bosnia and Herzegovina"],["BW","Botswana"],["BR","Brazil"],["BN","Brunei"],["BG","Bulgaria"],["BF","Burkina Faso"],["BI","Burundi"],["KH","Cambodia"],["CM","Cameroon"],["CA","Canada"],["CV","Cabo Verde"],["KY","Cayman Islands"],["CF","Central African Republic"],["TD","Chad"],["CL","Chile"],["CN","China"],["CO","Colombia"],["KM","Comoros"],["CG","Congo"],["CD","Congo (DRC)"],["CR","Costa Rica"],["CI","Côte d'Ivoire"],["HR","Croatia"],["CU","Cuba"],["CY","Cyprus"],["CZ","Czechia"],["DK","Denmark"],["DJ","Djibouti"],["DM","Dominica"],["DO","Dominican Republic"],["EC","Ecuador"],["EG","Egypt"],["SV","El Salvador"],["GQ","Equatorial Guinea"],["ER","Eritrea"],["EE","Estonia"],["SZ","Eswatini"],["ET","Ethiopia"],["FJ","Fiji"],["FI","Finland"],["FR","France"],["GA","Gabon"],["GM","Gambia"],["GE","Georgia"],["DE","Germany"],["GH","Ghana"],["GR","Greece"],["GD","Grenada"],["GT","Guatemala"],["GN","Guinea"],["GW","Guinea-Bissau"],["GY","Guyana"],["HT","Haiti"],["HN","Honduras"],["HK","Hong Kong"],["HU","Hungary"],["IS","Iceland"],["IN","India"],["ID","Indonesia"],["IR","Iran"],["IQ","Iraq"],["IE","Ireland"],["IL","Israel"],["IT","Italy"],["JM","Jamaica"],["JP","Japan"],["JO","Jordan"],["KZ","Kazakhstan"],["KE","Kenya"],["KI","Kiribati"],["KP","North Korea"],["KR","South Korea"],["KW","Kuwait"],["KG","Kyrgyzstan"],["LA","Laos"],["LV","Latvia"],["LB","Lebanon"],["LS","Lesotho"],["LR","Liberia"],["LY","Libya"],["LI","Liechtenstein"],["LT","Lithuania"],["LU","Luxembourg"],["MO","Macao"],["MG","Madagascar"],["MW","Malawi"],["MY","Malaysia"],["MV","Maldives"],["ML","Mali"],["MT","Malta"],["MH","Marshall Islands"],["MR","Mauritania"],["MU","Mauritius"],["MX","Mexico"],["FM","Micronesia"],["MD","Moldova"],["MC","Monaco"],["MN","Mongolia"],["ME","Montenegro"],["MA","Morocco"],["MZ","Mozambique"],["MM","Myanmar"],["NA","Namibia"],["NR","Nauru"],["NP","Nepal"],["NL","Netherlands"],["NZ","New Zealand"],["NI","Nicaragua"],["NE","Niger"],["NG","Nigeria"],["MK","North Macedonia"],["NO","Norway"],["OM","Oman"],["PK","Pakistan"],["PW","Palau"],["PS","Palestine"],["PA","Panama"],["PG","Papua New Guinea"],["PY","Paraguay"],["PE","Peru"],["PH","Philippines"],["PL","Poland"],["PT","Portugal"],["PR","Puerto Rico"],["QA","Qatar"],["RO","Romania"],["RU","Russia"],["RW","Rwanda"],["KN","Saint Kitts and Nevis"],["LC","Saint Lucia"],["VC","Saint Vincent and the Grenadines"],["WS","Samoa"],["SM","San Marino"],["ST","Sao Tome and Principe"],["SA","Saudi Arabia"],["SN","Senegal"],["RS","Serbia"],["SC","Seychelles"],["SL","Sierra Leone"],["SG","Singapore"],["SK","Slovakia"],["SI","Slovenia"],["SB","Solomon Islands"],["SO","Somalia"],["ZA","South Africa"],["SS","South Sudan"],["ES","Spain"],["LK","Sri Lanka"],["SD","Sudan"],["SR","Suriname"],["SE","Sweden"],["CH","Switzerland"],["SY","Syria"],["TW","Taiwan"],["TJ","Tajikistan"],["TZ","Tanzania"],["TH","Thailand"],["TL","Timor-Leste"],["TG","Togo"],["TO","Tonga"],["TT","Trinidad and Tobago"],["TN","Tunisia"],["TR","Turkey"],["TM","Turkmenistan"],["TV","Tuvalu"],["UG","Uganda"],["UA","Ukraine"],["AE","United Arab Emirates"],["GB","United Kingdom"],["US","United States"],["UY","Uruguay"],["UZ","Uzbekistan"],["VU","Vanuatu"],["VA","Vatican City"],["VE","Venezuela"],["VN","Vietnam"],["YE","Yemen"],["ZM","Zambia"],["ZW","Zimbabwe"]];
+      const _LOC_US = [["AL","Alabama"],["AK","Alaska"],["AZ","Arizona"],["AR","Arkansas"],["CA","California"],["CO","Colorado"],["CT","Connecticut"],["DE","Delaware"],["DC","District of Columbia"],["FL","Florida"],["GA","Georgia"],["HI","Hawaii"],["ID","Idaho"],["IL","Illinois"],["IN","Indiana"],["IA","Iowa"],["KS","Kansas"],["KY","Kentucky"],["LA","Louisiana"],["ME","Maine"],["MD","Maryland"],["MA","Massachusetts"],["MI","Michigan"],["MN","Minnesota"],["MS","Mississippi"],["MO","Missouri"],["MT","Montana"],["NE","Nebraska"],["NV","Nevada"],["NH","New Hampshire"],["NJ","New Jersey"],["NM","New Mexico"],["NY","New York"],["NC","North Carolina"],["ND","North Dakota"],["OH","Ohio"],["OK","Oklahoma"],["OR","Oregon"],["PA","Pennsylvania"],["RI","Rhode Island"],["SC","South Carolina"],["SD","South Dakota"],["TN","Tennessee"],["TX","Texas"],["UT","Utah"],["VT","Vermont"],["VA","Virginia"],["WA","Washington"],["WV","West Virginia"],["WI","Wisconsin"],["WY","Wyoming"],["PR","Puerto Rico"],["GU","Guam"],["VI","U.S. Virgin Islands"],["AS","American Samoa (US)"],["MP","Northern Mariana Islands"]];
+      const _LOC_CA = [["AB","Alberta"],["BC","British Columbia"],["MB","Manitoba"],["NB","New Brunswick"],["NL","Newfoundland and Labrador"],["NS","Nova Scotia"],["NT","Northwest Territories"],["NU","Nunavut"],["ON","Ontario"],["PE","Prince Edward Island"],["QC","Quebec"],["SK","Saskatchewan"],["YT","Yukon"]];
+      const _LOC_AU = [["NSW","New South Wales"],["VIC","Victoria"],["QLD","Queensland"],["WA","Western Australia"],["SA","South Australia"],["TAS","Tasmania"],["ACT","Australian Capital Territory"],["NT","Northern Territory (AU)"]];
+      const _LOC_CITIES = ["Florence","Flint","Flagstaff","Fresno","Frankfurt","Fukuoka","Fortaleza","Florianópolis","Fairfax","Fayetteville","Fort Worth","Fort Lauderdale","Fargo","Farmington","Frederick","Falls Church","Florissant","Folsom","Fontana","Los Angeles","New York","Chicago","Houston","Phoenix","Philadelphia","San Antonio","San Diego","Dallas","San Jose","Austin","Jacksonville","San Francisco","Seattle","Denver","Boston","Atlanta","Miami","Detroit","London","Paris","Berlin","Madrid","Rome","Toronto","Vancouver","Montreal","Sydney","Melbourne","Brisbane","Perth","Tokyo","Osaka","Seoul","Beijing","Shanghai","Mumbai","Delhi","Bangalore","Mexico City","São Paulo","Buenos Aires","Lima","Bogotá","Santiago","Cairo","Lagos","Nairobi","Johannesburg","Dubai","Istanbul","Moscow","Warsaw","Prague","Vienna","Zurich","Amsterdam","Dublin","Stockholm","Copenhagen","Oslo","Helsinki","Calgary","Edmonton","Ottawa","Winnipeg"];
+      const _LOC_ITEMS = [];
+      _LOC_COUNTRIES.forEach(([c,n]) => { _LOC_ITEMS.push({label:c+" - "+n, value:c, code:c, name:n, kind:"country"}); _LOC_ITEMS.push({label:n, value:n, code:c, name:n, kind:"country"}); });
+      _LOC_US.forEach(([c,n]) => { _LOC_ITEMS.push({label:c+" - "+n+" (US)", value:c, code:c, name:n, kind:"state"}); _LOC_ITEMS.push({label:n, value:n, code:c, name:n, kind:"state"}); });
+      _LOC_CA.forEach(([c,n]) => { _LOC_ITEMS.push({label:c+" - "+n+" (CA)", value:n, code:c, name:n, kind:"province"}); _LOC_ITEMS.push({label:n, value:n, code:c, name:n, kind:"province"}); });
+      _LOC_AU.forEach(([c,n]) => { _LOC_ITEMS.push({label:c+" - "+n+" (AU)", value:n, code:c, name:n, kind:"state"}); _LOC_ITEMS.push({label:n, value:n, code:c, name:n, kind:"state"}); });
+      _LOC_CITIES.forEach(n => _LOC_ITEMS.push({label:n, value:n, code:"", name:n, kind:"city"}));
+      const _LOC_SEEN = new Set();
+      const _LOC_UNIQ = _LOC_ITEMS.filter(it => { const k = it.label.toLowerCase(); if (_LOC_SEEN.has(k)) return false; _LOC_SEEN.add(k); return true; });
+      function _locSuggest(q) {
+        const raw = String(q || "").trim();
+        if (!raw) return [];
+        const ql = raw.toLowerCase(); const qu = raw.toUpperCase();
+        const scored = [];
+        for (const it of _LOC_UNIQ) {
+          const nameL = it.name.toLowerCase();
+          const codeU = (it.code || "").toUpperCase();
+          const labelL = it.label.toLowerCase();
+          let score = 99;
+          if (codeU && codeU === qu) score = 0;
+          else if (codeU && codeU.startsWith(qu) && raw.length <= 3) score = 1;
+          else if (nameL.startsWith(ql)) score = 2;
+          else if (labelL.startsWith(ql)) score = 2;
+          else if (codeU && codeU.startsWith(qu)) score = 3;
+          else continue;
+          scored.push({it, score});
+        }
+        scored.sort((a,b) => a.score - b.score || a.it.label.localeCompare(b.it.label));
+        const out = []; const seenVal = new Set();
+        for (const sc of scored) { const vk = sc.it.value.toLowerCase()+"|"+sc.it.kind; if (seenVal.has(vk)) continue; seenVal.add(vk); out.push(sc.it); if (out.length >= 5) break; }
+        return out;
+      }
+      function _renderLocSuggest(items) {
+        const box = document.getElementById("zipSuggest");
+        if (!box) return;
+        box.replaceChildren();
+        if (!items || !items.length) { box.classList.add("hidden"); return; }
+        items.forEach(it => {
+          const btn = document.createElement("button");
+          btn.type = "button";
+          btn.className = "w-full text-left px-3 py-2 text-xs text-zinc-200 hover:bg-zinc-800 border-b border-zinc-800 last:border-b-0";
+          btn.textContent = it.label;
+          btn.addEventListener("mousedown", (ev) => { ev.preventDefault(); });
+          btn.addEventListener("click", () => {
+            const inp = document.getElementById("zipInput");
+            if (inp) inp.value = it.value;
+            box.classList.add("hidden");
+            resolveZip(it.value);
+          });
+          box.appendChild(btn);
+        });
+        box.classList.remove("hidden");
+      }
       const zipInputEl = document.getElementById("zipInput");
+      const zipSuggestEl = document.getElementById("zipSuggest");
       if (zipInputEl) {
         zipInputEl.value = state.zipQuery || "";
+        zipInputEl.addEventListener("input", () => { _renderLocSuggest(_locSuggest(zipInputEl.value)); });
+        zipInputEl.addEventListener("focus", () => { _renderLocSuggest(_locSuggest(zipInputEl.value)); });
         zipInputEl.addEventListener("change", () => resolveZip(zipInputEl.value));
-        zipInputEl.addEventListener("keydown", (e) => { if (e.key === "Enter") { e.preventDefault(); resolveZip(zipInputEl.value); } });
+        zipInputEl.addEventListener("keydown", (e) => {
+          if (e.key === "Enter") { e.preventDefault(); if (zipSuggestEl) zipSuggestEl.classList.add("hidden"); resolveZip(zipInputEl.value); }
+          if (e.key === "Escape") { if (zipSuggestEl) zipSuggestEl.classList.add("hidden"); }
+        });
+        zipInputEl.addEventListener("blur", () => { setTimeout(() => { if (zipSuggestEl) zipSuggestEl.classList.add("hidden"); }, 120); });
       }
       const zipClearBtn = document.getElementById("zipClearBtn");
       if (zipClearBtn) {
         zipClearBtn.addEventListener("click", () => {
           if (zipInputEl) zipInputEl.value = "";
+          if (zipSuggestEl) zipSuggestEl.classList.add("hidden");
           resolveZip("");
         });
       }
