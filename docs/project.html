@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Project — Polytab</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { background:#050505; color:#e4e4e7; }
+    .card { background: rgba(24,24,27,.6); border:1px solid #27272a; border-radius: 1rem; }
+    .muted { color:#a1a1aa; }
+    .label { font-size: 10px; letter-spacing: .08em; text-transform: uppercase; color:#71717a; font-weight:600; }
+  </style>
+</head>
+<body class="min-h-screen">
+  <header class="border-b border-zinc-800/80 bg-black/90 backdrop-blur sticky top-0 z-30">
+    <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between gap-3">
+      <a href="./index.html" class="flex items-center gap-2">
+        <img src="./logo.svg" alt="Polytab" class="w-8 h-8 rounded-lg" onerror="this.src='./logo.jpg'" />
+        <span class="text-lg font-black tracking-tight text-white">POLY<span class="text-yellow-400">TAB</span></span>
+      </a>
+      <nav class="flex items-center gap-2 text-xs">
+        <a href="./index.html" class="px-3 py-1.5 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white">← Back to Browse Projects</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 py-6 space-y-5">
+    <div id="statusMsg" class="card p-6 text-sm text-zinc-300">Loading project…</div>
+
+    <article id="projectView" class="hidden space-y-5">
+      <section class="card p-5 sm:p-6 space-y-4">
+        <div class="flex flex-wrap items-start justify-between gap-3">
+          <div class="space-y-2 min-w-0">
+            <div class="flex flex-wrap items-center gap-2" id="badges"></div>
+            <p id="location" class="text-xs text-zinc-400 font-mono"></p>
+            <h1 id="title" class="text-2xl sm:text-3xl font-extrabold text-white leading-tight"></h1>
+            <p id="orgLine" class="text-sm text-zinc-300"></p>
+          </div>
+          <div class="shrink-0 flex flex-col items-end gap-2 text-right">
+            <div id="likeCount" class="text-xs font-mono px-2.5 py-1 rounded-md bg-emerald-500/10 text-emerald-300 border border-emerald-500/20"></div>
+            <button id="likeBtn" type="button" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-pink-500/15 text-pink-300 border border-pink-500/30 hover:bg-pink-500/20 transition">♥ Like</button>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+          <div class="bg-black/40 border border-zinc-800 rounded-xl p-3">
+            <div class="label">Raised / Target</div>
+            <div id="fundingText" class="text-lg font-bold text-white mt-1"></div>
+            <div class="w-full h-2 bg-zinc-900 rounded-full overflow-hidden mt-2 border border-zinc-800"><div id="progressBar" class="h-full bg-indigo-500" style="width:0%"></div></div>
+          </div>
+          <div class="bg-black/40 border border-zinc-800 rounded-xl p-3">
+            <div class="label">Micro-Votes</div>
+            <div id="votesText" class="text-lg font-bold text-white mt-1"></div>
+            <div id="priceText" class="text-xs text-yellow-400 font-mono mt-1"></div>
+          </div>
+          <div class="bg-black/40 border border-zinc-800 rounded-xl p-3">
+            <div class="label">Escrow Wallet</div>
+            <div id="walletText" class="text-xs text-zinc-200 font-mono mt-1 break-all"></div>
+          </div>
+          <div class="bg-black/40 border border-zinc-800 rounded-xl p-3">
+            <div class="label">Status</div>
+            <div id="statusText" class="text-lg font-bold text-white mt-1"></div>
+            <div id="idText" class="text-xs text-zinc-400 font-mono mt-1"></div>
+          </div>
+        </div>
+
+        <div id="linksRow" class="flex flex-wrap items-center gap-2 text-xs"></div>
+        <div class="flex flex-wrap gap-2">
+          <a id="buyAction" href="#" class="inline-flex items-center justify-center px-4 py-2.5 rounded-xl bg-purple-700 hover:bg-purple-600 text-white text-xs font-bold transition">Buy Action / View & Verify</a>
+        </div>
+      </section>
+
+      <section class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+        <div class="card p-5 space-y-2">
+          <h2 class="text-sm font-bold text-white uppercase tracking-wider">Summary</h2>
+          <p id="summary" class="text-sm text-zinc-300 leading-relaxed whitespace-pre-line"></p>
+        </div>
+        <div class="card p-5 space-y-2">
+          <h2 class="text-sm font-bold text-white uppercase tracking-wider">Plain Language</h2>
+          <p id="plainSummary" class="text-sm text-zinc-300 leading-relaxed whitespace-pre-line"></p>
+        </div>
+      </section>
+
+      <section class="grid grid-cols-1 lg:grid-cols-3 gap-5">
+        <div class="card p-5 space-y-2">
+          <h2 class="text-sm font-bold text-white uppercase tracking-wider">People Involved</h2>
+          <div id="people" class="text-sm text-zinc-300 leading-relaxed"></div>
+        </div>
+        <div class="card p-5 space-y-2">
+          <h2 class="text-sm font-bold text-white uppercase tracking-wider">Affected Communities</h2>
+          <div id="communities" class="text-sm text-zinc-300 leading-relaxed"></div>
+        </div>
+        <div class="card p-5 space-y-2">
+          <h2 class="text-sm font-bold text-white uppercase tracking-wider">Updates & Proof</h2>
+          <div id="updates" class="text-sm text-zinc-300 leading-relaxed"></div>
+        </div>
+      </section>
+
+      <section class="card p-5 space-y-2">
+        <h2 class="text-sm font-bold text-white uppercase tracking-wider">Project Details (Template)</h2>
+        <dl id="detailList" class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3 text-sm"></dl>
+      </section>
+    </article>
+  </main>
+
+  <script>
+    (function(){
+      "use strict";
+      const GITHUB_OWNER = "r03lv1s";
+      const GITHUB_REPO = "Polytab";
+      const qs = new URLSearchParams(location.search);
+      const wantId = String(qs.get("id") || "").trim();
+      const statusMsg = document.getElementById("statusMsg");
+      const view = document.getElementById("projectView");
+
+      function escText(el, text){ el.textContent = text == null ? "" : String(text); }
+      function safeLink(u){ return (typeof u === "string" && /^https?:\/\//i.test(u.trim())) ? u.trim() : null; }
+      function parentForCategory(cat){
+        const id = String(cat||"");
+        // lightweight: infer from common names; feed provides parentCategory when available
+        const spec = ["Policy & Local Outcomes","Elections & Civic Accountability","Public Safety & Infrastructure","Global & Humanitarian Outcomes"];
+        const vote = ["Community Referendums","Public Office & Elections","Policy & Governance Votes","Global Outcome Votes"];
+        if (spec.includes(id)) return "Speculative";
+        if (vote.includes(id)) return "Voting";
+        return "Charities";
+      }
+      function endorsementIssueUrl(item){
+        const pcat = item.parentCategory || parentForCategory(item.category) || "Charities";
+        const payload = JSON.stringify({ bounty_id: String(item.id), parentCategory: pcat, category: item.category, title: item.title }, null, 2);
+        const fence = String.fromCharCode(96,96,96);
+        const params = new URLSearchParams({
+          title: "[Endorse]: #" + String(item.id),
+          labels: "endorsement",
+          body: "### Verified Bounty Endorsement (GitHub ledger)\n" +
+            "This issue is a verifiable endorsement. Global counts are derived from unique GitHub users per canonical bounty ID (deduped). No counts are fabricated.\n\n" +
+            fence + "json\n" + payload + "\n" + fence + "\n\n" +
+            "- Canonical project ID: " + String(item.id) + "\n" +
+            "- Parent: " + pcat + "\n- Category: " + item.category + "\n" +
+            "- Note: One endorsement counted per unique GitHub account per bounty in the aggregated snapshot."
+        });
+        return "https://github.com/" + GITHUB_OWNER + "/" + GITHUB_REPO + "/issues/new?" + params.toString();
+      }
+      async function loadEndorsements(){
+        try {
+          const c = new AbortController(); const t = setTimeout(()=>c.abort(), 3000);
+          const res = await fetch("./data/endorsements.json", { signal: c.signal, cache: "no-store" });
+          clearTimeout(t);
+          if (!res.ok) return null; return await res.json();
+        } catch (_) { return null; }
+      }
+      function vCount(snap, id){
+        if (!snap || !snap.totals) return null;
+        const t = snap.totals[String(id)];
+        if (!t) return 0;
+        const n = Number(t.count); return Number.isFinite(n) ? n : 0;
+      }
+      function addKV(dl, k, v){
+        if (v == null || v === "") return;
+        const dt = document.createElement("dt"); dt.className = "label"; dt.textContent = k;
+        const dd = document.createElement("dd"); dd.className = "text-zinc-200 break-words"; dd.textContent = String(v);
+        dl.appendChild(dt); dl.appendChild(dd);
+      }
+      function renderListOrPlaceholder(el, items, placeholder){
+        el.replaceChildren();
+        if (Array.isArray(items) && items.length){
+          const ul = document.createElement("ul"); ul.className = "list-disc pl-5 space-y-1";
+          items.forEach(x => { const li = document.createElement("li"); li.textContent = String(x); ul.appendChild(li); });
+          el.appendChild(ul); return;
+        }
+        if (typeof items === "string" && items.trim()){
+          el.textContent = items.trim(); return;
+        }
+        const p = document.createElement("p"); p.className = "text-zinc-500 italic"; p.textContent = placeholder; el.appendChild(p);
+      }
+
+      async function main(){
+        if (!wantId){ statusMsg.textContent = "No project ID provided. Go back to Browse Projects and select a project."; return; }
+        try {
+          const c = new AbortController(); const t = setTimeout(()=>c.abort(), 5000);
+          const res = await fetch("./feed.json", { signal: c.signal });
+          clearTimeout(t);
+          if (!res.ok) throw new Error("feed not available");
+          const feed = await res.json();
+          const items = Array.isArray(feed.items) ? feed.items : [];
+          const raw = items.find(it => String(it.id) === wantId);
+          if (!raw){ statusMsg.textContent = "Project not found (ID: " + wantId + "). It may have been moved or removed."; return; }
+          const m = raw._polytab || {};
+          const item = {
+            id: String(raw.id),
+            title: String(raw.title || "Untitled Project"),
+            parentCategory: String(m.parentCategory || parentForCategory(m.category) || "Charities"),
+            category: String(m.category || "General"),
+            organization: String(m.organization || ""),
+            location: String(m.location || "Community"),
+            summary: String(m.summary || raw.summary || raw.content_text || ""),
+            plainSummary: String(m.plainSummary || ""),
+            votePriceUSD: Number(m.votePriceUSD || 0),
+            targetUSD: Number(m.targetUSD || 0),
+            fundedUSD: Number(m.fundedUSD || 0),
+            votesCount: Number(m.votesCount || 0),
+            wallet: String(m.contract || m.wallet || ""),
+            status: String(m.status || "Active"),
+            website: m.website || null,
+            socials: (m.socials && typeof m.socials === "object") ? m.socials : {},
+            date_published: raw.date_published || null,
+            details: (m.details && typeof m.details === "object") ? m.details : {}
+          };
+
+          document.title = item.title + " — Polytab";
+          const pct = item.targetUSD > 0 ? Math.min(100, Math.round((item.fundedUSD / item.targetUSD) * 100)) : 0;
+
+          const badges = document.getElementById("badges"); badges.replaceChildren();
+          const mk = (txt, cls) => { const s=document.createElement("span"); s.className=cls; s.textContent=txt; return s; };
+          badges.appendChild(mk(item.parentCategory + " · " + item.category, "text-[11px] font-mono font-semibold px-2.5 py-0.5 rounded-md bg-purple-500/10 text-yellow-300 border border-yellow-500/20"));
+          badges.appendChild(mk(item.status, item.status === "Active" ? "text-[11px] font-mono px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20" : "text-[11px] font-mono px-2 py-0.5 rounded bg-zinc-800 text-zinc-300 border border-zinc-700"));
+
+          escText(document.getElementById("location"), "📍 " + item.location);
+          escText(document.getElementById("title"), item.title);
+          escText(document.getElementById("orgLine"), item.organization ? ("Organization: " + item.organization) : "Organization: (not specified)");
+          escText(document.getElementById("fundingText"), "$" + item.fundedUSD.toFixed(2) + " / $" + item.targetUSD.toFixed(2) + " (" + pct + "%)");
+          document.getElementById("progressBar").style.width = pct + "%";
+          escText(document.getElementById("votesText"), String(item.votesCount) + " votes");
+          escText(document.getElementById("priceText"), "$" + item.votePriceUSD.toFixed(2) + " / vote");
+          escText(document.getElementById("walletText"), item.wallet || "Not available");
+          escText(document.getElementById("statusText"), item.status);
+          escText(document.getElementById("idText"), "Project ID: " + item.id);
+
+          const links = document.getElementById("linksRow"); links.replaceChildren();
+          const w = safeLink(item.website);
+          if (w){ const a=document.createElement("a"); a.href=w; a.target="_blank"; a.rel="noopener noreferrer"; a.className="inline-flex items-center px-2.5 py-1 rounded-md bg-zinc-800 border border-zinc-700 text-yellow-300 hover:text-yellow-200"; a.textContent="Website ↗"; links.appendChild(a); }
+          const defs = [["x","X"],["facebook","Facebook"],["instagram","Instagram"],["linkedin","LinkedIn"],["youtube","YouTube"],["github","GitHub"],["tiktok","TikTok"],["bluesky","Bluesky"],["discord","Discord"],["telegram","Telegram"]];
+          defs.forEach(([k,label])=>{ const u=safeLink(item.socials[k]); if(!u) return; const a=document.createElement("a"); a.href=u; a.target="_blank"; a.rel="noopener noreferrer"; a.className="inline-flex items-center px-2.5 py-1 rounded-md bg-zinc-900 border border-zinc-800 text-zinc-300 hover:text-white"; a.textContent=label; links.appendChild(a); });
+          const issue = endorsementIssueUrl(item);
+          const gh = document.createElement("a"); gh.href=issue; gh.target="_blank"; gh.rel="noopener noreferrer"; gh.className="inline-flex items-center px-2.5 py-1 rounded-md bg-zinc-900 border border-zinc-800 text-zinc-300 hover:text-white"; gh.textContent="Endorse on GitHub"; links.appendChild(gh);
+
+          const likeBtn = document.getElementById("likeBtn");
+          likeBtn.addEventListener("click", () => window.open(issue, "_blank", "noopener,noreferrer"));
+          const snap = await loadEndorsements();
+          const vc = vCount(snap, item.id);
+          const likeCount = document.getElementById("likeCount");
+          likeCount.textContent = vc == null ? "✓ Likes (GitHub): unavailable" : "✓ Likes (GitHub): " + vc;
+
+          const buy = document.getElementById("buyAction");
+          buy.href = "./index.html#" + encodeURIComponent(item.id);
+          buy.textContent = "Buy Action ($" + item.votePriceUSD.toFixed(2) + ") / View & Verify";
+
+          escText(document.getElementById("summary"), item.summary || "No summary provided.");
+          escText(document.getElementById("plainSummary"), item.plainSummary || "No plain-language summary provided.");
+
+          const d = item.details;
+          renderListOrPlaceholder(document.getElementById("people"), d.people || d.people_involved || m.people, "Not added yet. (Template field: people involved — e.g. organizers, partners, workers.)");
+          renderListOrPlaceholder(document.getElementById("communities"), d.communities || d.affected_communities || m.communities, "Not added yet. (Template field: affected communities.)");
+          renderListOrPlaceholder(document.getElementById("updates"), d.updates || d.proof_updates || m.updates, "Not added yet. (Template field: updates & proof — e.g. milestones, photos, receipts, reports.)");
+
+          const dl = document.getElementById("detailList"); dl.replaceChildren();
+          addKV(dl, "Type", item.parentCategory);
+          addKV(dl, "Category", item.category);
+          addKV(dl, "Organization", item.organization || "(not specified)");
+          addKV(dl, "Location", item.location);
+          addKV(dl, "Published", item.date_published || "(not specified)");
+          addKV(dl, "Project URL", "https://polytab.store/project.html?id=" + item.id);
+          addKV(dl, "Bounty URL (app)", "https://polytab.store/#" + item.id);
+          if (d && typeof d === "object") {
+            Object.keys(d).forEach(k => {
+              if (["people","people_involved","communities","affected_communities","updates","proof_updates"].includes(k)) return;
+              const val = d[k];
+              if (val == null || val === "") return;
+              if (typeof val === "object") addKV(dl, k, JSON.stringify(val)); else addKV(dl, k, val);
+            });
+          }
+
+          statusMsg.classList.add("hidden");
+          view.classList.remove("hidden");
+        } catch (e) {
+          statusMsg.textContent = "Could not load this project right now. Please try again.";
+        }
+      }
+      main();
+    })();
+  </script>
+</body>
+</html>

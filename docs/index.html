@@ -1305,7 +1305,11 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           locP.textContent = "📍 " + item.location;
           const titleH3 = document.createElement("h3");
           titleH3.className = "text-base font-bold text-white leading-snug";
-          titleH3.textContent = item.title;
+          const titleLink = document.createElement("a");
+          titleLink.href = "./project.html?id=" + encodeURIComponent(String(item.id));
+          titleLink.className = "hover:text-yellow-300 hover:underline underline-offset-2 transition";
+          titleLink.textContent = item.title;
+          titleH3.appendChild(titleLink);
           const descP = document.createElement("p");
           descP.className = "text-xs text-zinc-300 leading-relaxed whitespace-pre-line";
           descP.textContent = state.plainLanguageMode ? item.plainSummary : item.summary;
