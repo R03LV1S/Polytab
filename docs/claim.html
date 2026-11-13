@@ -48,15 +48,20 @@
 
       <p>Thousands of organizations are listed on Polytab as possible recipients of small-dollar community grants (&ldquo;micro-votes&rdquo;). If your organization is named on a bounty page marked <strong>&ldquo;Escrow · awaiting org verification&rdquo;</strong>, the funds donated to that page are sitting in the Polytab-managed escrow on Base, and they belong to you. This page explains how to claim them.</p>
 
+      <figure class="text-center my-4">
+        <img src="./escrow-qr.png" alt="QR code for the Polytab Base escrow address 0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08" width="170" height="170" style="margin:0 auto; border-radius:.75rem; border:1px solid #27272a; display:inline-block;" />
+        <figcaption class="text-[11px] text-zinc-500 mt-2">Donations land here on Base (chain ID 8453). Scan to confirm the address yourself &mdash; the exact address is also printed under the QR: <code>0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08</code>.</figcaption>
+      </figure>
+
       <hr>
 
       <h2>What verification means</h2>
-      <p>Verification confirms that <strong>the person claiming the page speaks for the organization</strong> and that the payout wallet is genuinely the organization&rsquo;s. We check two things:</p>
+      <p>Verification confirms that <strong>the person claiming the page speaks for the organization</strong> and that the payout wallet is genuinely the organization&rsquo;s. Both halves are required &mdash; registry match AND domain control; we never accept self-asserted contact details:</p>
       <ul>
-        <li><strong>Registry match:</strong> a government or recognized registry listing (IRS EIN, Canada Revenue Agency BN, UK Charity Commission number, state nonprofit registry, or equivalent) that links your legal name to your country and mission.</li>
-        <li><strong>Domain control:</strong> either a DNS TXT record on your official domain, or an email from that domain, or an officer whose name is on your public registry record contacting us from the org-adjacent address.</li>
+        <li><strong>Registry match (required):</strong> a government or recognized registry listing (IRS EIN, Canada Revenue Agency BN, UK Charity Commission number, state nonprofit registry, or equivalent) that links your legal name to your country and mission.</li>
+        <li><strong>Domain control (required):</strong> a DNS TXT record (<code>polytab-verify=&lt;project id&gt;</code>) on your official domain, <em>or</em> an email from that domain to the registry-listed officer.</li>
       </ul>
-      <p>Verification is free. Requests are reviewed manually as they arrive; expect 2&ndash;14 days depending on registry responsiveness. Never share a seed phrase or private key &mdash; we never need them, and we never ask.</p>
+      <p>We do not accept DMs, phone calls, social posts, personal email, or &ldquo;messages from the CEO&rsquo;s friend.&rdquo; Verification is free. Requests are reviewed manually as they arrive; expect 2&ndash;14 days depending on registry responsiveness. Never share a seed phrase or private key &mdash; we never need them, and we never ask.</p>
 
       <hr>
 

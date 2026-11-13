@@ -64,6 +64,7 @@
             <div class="label">Polytab Escrow (Base)</div>
             <div id="walletText" class="text-xs text-zinc-200 font-mono mt-1 break-all"></div>
             <div id="escrowNote" class="text-[10px] text-amber-400 mt-1 hidden">Awaiting org verification — funds held in the shared Polytab escrow; swept to the verified organization&rsquo;s payout wallet.</div>
+            <img id="escrowQr" src="./escrow-qr.png" alt="QR code for the Polytab Base escrow (0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08)" width="140" height="140" class="mt-2 rounded-lg border border-zinc-800 hidden" />
           </div>
           <div class="bg-black/40 border border-zinc-800 rounded-xl p-3">
             <div class="label">Status</div>
@@ -278,6 +279,8 @@
           if (escrowNote) {
             const unclaimed = String(item.wallet || "").toLowerCase() === ESCROW_WALLET.toLowerCase();
             escrowNote.classList.toggle("hidden", !unclaimed);
+            const qrImg = document.getElementById("escrowQr");
+            if (qrImg) qrImg.classList.toggle("hidden", !unclaimed);
           }
           escText(document.getElementById("statusText"), item.status);
           escText(document.getElementById("idText"), "Project ID: " + item.id);

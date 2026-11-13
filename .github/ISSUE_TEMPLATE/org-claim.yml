@@ -8,6 +8,7 @@ body:
       value: |
         Claim a Polytab bounty page on behalf of an organization. Funds sit in the Polytab-managed escrow on Base (0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08) until verification, then are swept on-chain to the payout wallet you provide below.
         Before submitting, read the full policy (verification, sweeps, unclaimed funds) at https://polytab.store/claim.html.
+        Verification is NOT optional and never uses self-asserted contact info: we require BOTH a registry match and domain control (DNS TXT or an email from the org's official domain).
   - type: input
     id: org_name
     attributes:
@@ -70,12 +71,11 @@ body:
   - type: dropdown
     id: verification_mode
     attributes:
-      label: Preferred verification method
-      description: We will use both where possible. DNS TXT is the strongest self-serve proof; otherwise we match the registry listing.
+      label: Verification method (both are required)
+      description: We require a registry match AND domain control. DNS TXT is the fastest self-serve proof; the fallback is an email from the org's official domain to the requester listed in the registry. Self-asserted contact info (DMs, phone calls, personal email, social posts) is never accepted.
       options:
         - DNS TXT (polytab-verify=<project id> TXT on the org domain)
-        - Registry listing
-        - Official email (same-domain email to the registry officer)
+        - Official email from the org's domain (to the registry-listed officer)
     validations:
       required: true
   - type: textarea

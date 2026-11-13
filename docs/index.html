@@ -1670,7 +1670,15 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         const eip681 = `ethereum:${proposal.wallet}@${BASE_CHAIN_ID}?value=${approxWei}`;
         const qrBox = document.getElementById("modalQrBox");
         qrBox.replaceChildren();
-        if (typeof QRCode !== "undefined") {
+        const escrowUnclaimed = orgClaimBadgeFor(proposal) === "unclaimed";
+        if (escrowUnclaimed) {
+          const img = document.createElement("img");
+          img.src = "./escrow-qr.png";
+          img.alt = "QR code for the Polytab Base escrow (0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08)";
+          img.width = 150; img.height = 150;
+          img.style.cssText = "border-radius:.65rem;border:1px solid #27272a;background:#0E0E12;padding:8px;";
+          qrBox.appendChild(img);
+        } else if (typeof QRCode !== "undefined") {
           new QRCode(qrBox, { text: eip681, width: 140, height: 140, colorDark: "#000000", colorLight: "#ffffff", correctLevel: QRCode.CorrectLevel.M });
         }
         const modal = document.getElementById("actionModal");
