@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FAQ &amp; How-Tos - Polytab</title>
+  <meta name="description" content="Frequently asked questions and step-by-step how-to guides for Polytab (polytab.store), including how to set up your Project Wallet (EVM 0x address)." />
+  <meta name="theme-color" content="#000000" />
+  <link rel="manifest" href="./manifest.json" />
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <link rel="icon" type="image/jpeg" href="./favicon.jpg" />
+  <link rel="apple-touch-icon" href="./favicon.jpg" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { background:#050505; color:#e4e4e7; }
+    .card { background: rgba(24,24,27,.6); border:1px solid #27272a; border-radius: 1rem; }
+    .prose h2 { color:#fff; font-size:1.125rem; font-weight:700; margin-top:1.75rem; margin-bottom:.5rem; }
+    .prose h3 { color:#fff; font-size:1rem; font-weight:600; margin-top:1rem; margin-bottom:.25rem; }
+    .prose p, .prose li { color:#d4d4d8; line-height:1.7; font-size:.925rem; }
+    .prose ul { list-style: disc; padding-left:1.25rem; margin:.5rem 0; }
+    .prose ol { list-style: decimal; padding-left:1.25rem; margin:.5rem 0; }
+    .prose a { color:#facc15; text-decoration: underline; text-underline-offset: 2px; }
+    .prose strong { color:#fff; }
+    .prose hr { border-color:#27272a; margin:1.5rem 0; }
+    .prose code { color:#fde68a; background:rgba(39,39,42,.6); border:1px solid #3f3f46; border-radius:.375rem; padding:.05rem .35rem; font-size:.85em; }
+    .howto-step { display:flex; gap:.75rem; align-items:flex-start; }
+    .howto-num { flex:0 0 auto; width:1.75rem; height:1.75rem; border-radius:9999px; background:#7e22ce; color:#fff; font-weight:700; font-size:.8rem; display:flex; align-items:center; justify-content:center; margin-top:.1rem; }
+    .callout { background: rgba(254,240,138,.06); border:1px solid rgba(250,204,21,.35); border-radius:.75rem; padding:.75rem 1rem; }
+    .warn { background: rgba(248,113,113,.08); border:1px solid rgba(248,113,113,.35); border-radius:.75rem; padding:.75rem 1rem; }
+  </style>
+</head>
+<body class="min-h-screen">
+  <header class="border-b border-zinc-800/80 bg-black/90 backdrop-blur sticky top-0 z-30">
+    <div class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between gap-3">
+      <a href="./index.html" class="flex items-center gap-2">
+        <img src="./logo.svg" alt="Polytab" class="w-8 h-8 rounded-lg" onerror="this.src='./logo.jpg'" />
+        <span class="text-lg font-black tracking-tight text-white">POLY<span class="text-yellow-400">TAB</span></span>
+      </a>
+      <nav class="flex items-center gap-2 text-xs">
+        <a href="./index.html" class="px-3 py-1.5 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white">&larr; Back to Browse Projects</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-4 py-8">
+    <article class="card p-6 sm:p-8 prose">
+      <h1 class="text-2xl sm:text-3xl font-extrabold text-white !mt-0">FAQ &amp; How-Tos</h1>
+      <p class="text-sm text-zinc-400"><strong>Last Updated:</strong> November 13, 2026</p>
+
+      <p>Everything you need to start, fund, and verify real civic action on Polytab &mdash; in plain language.</p>
+
+      <hr>
+
+      <h2 id="project-wallet">How to: Project Wallet (EVM 0x Address)</h2>
+      <p><strong>Short answer:</strong> The Project Wallet is an EVM-compatible <code>0x</code> address that your project controls. It&rsquo;s where your project&rsquo;s funds are directed once the community approves the action and a 2-of-3 multi-sig releases the bounty. You never share a private key or seed phrase with Polytab.</p>
+
+      <h3>What is an EVM 0x address?</h3>
+      <p>An EVM (Ethereum Virtual Machine) address is a 42-character hexadecimal address starting with <code>0x</code>, for example <code>0x71C0000000000000000000000000000000000101</code>. It works on Base (chain ID <code>8453</code>) and Polygon, which are the networks Polytab uses. Think of it as the project&rsquo;s public account number &mdash; anyone can send funds to it or see what&rsquo;s in it, but only whoever holds the private key can move funds out.</p>
+
+      <h3>Why does Polytab ask for it?</h3>
+      <ul>
+        <li>Micro-votes ($0.25&ndash;$1.00) are both a signed ballot and an escrow deposit for the project you choose.</li>
+        <li>When the action is completed and verified, the bounty is released to the wallet your project controls.</li>
+        <li>Polytab never takes custody of your funds or your keys &mdash; transactions settle peer-to-peer directly on Base/Polygon.</li>
+      </ul>
+
+      <h3>Step-by-step: create a Project Wallet</h3>
+      <div class="space-y-3">
+        <div class="howto-step"><div class="howto-num">1</div><div><strong>Pick an EVM wallet.</strong> The easiest option is a free browser/mobile wallet like MetaMask, Rabby, or Coinbase Wallet. A dedicated hardware wallet (Ledger, Trezor) or a project multisig (like Safe) is even better for shared project funds.</div></div>
+        <div class="howto-step"><div class="howto-num">2</div><div><strong>Create (or choose) the project wallet.</strong> In your wallet app, create a new account/address specifically for the project. Use a fresh address rather than a personal one if you want clean bookkeeping or shared control.</div></div>
+        <div class="howto-step"><div class="howto-num">3</div><div><strong>Switch your wallet to Base (chain ID 8453) or Polygon.</strong> Polytab payments use Base L2 (<code>ethereum:0x...@8453</code>). In MetaMask: <em>Networks &rarr; Add network &rarr; Base</em> (or choose Base from the network list). Add a little ETH on Base for gas if you plan to send transactions yourself.</div></div>
+        <div class="howto-step"><div class="howto-num">4</div><div><strong>Copy the 0x address</strong> (not the seed phrase, not the private key &mdash; just the address) from your wallet&rsquo;s account screen. It starts with <code>0x</code> and is 42 characters long.</div></div>
+        <div class="howto-step"><div class="howto-num">5</div><div><strong>Paste it into the &ldquo;Project Wallet (EVM 0x Address)&rdquo; field</strong> when you start a project on <a href="./index.html">polytab.store</a>. The field validates the format and shows a live EIP-681 QR preview of a micro-vote payment to that address.</div></div>
+        <div class="howto-step"><div class="howto-num">6</div><div><strong>Keep the private key safe.</strong> If your project uses a personal wallet for early testing, migrate to a shared multisig before real bounty funds arrive. Never type your seed phrase or private key into any website, including Polytab.</div></div>
+      </div>
+
+      <div class="callout mt-4">
+        <p class="!mt-0"><strong>Best practice for teams:</strong> use a 2-of-3 multisig (for example Safe) as the Project Wallet. That mirrors Polytab&rsquo;s own verification model and prevents any single person from moving project funds alone.</p>
+      </div>
+
+      <div class="warn mt-3">
+        <p class="!mt-0"><strong>Never share:</strong> your seed phrase, private key, or wallet password. Polytab only ever needs the public <code>0x</code> address. Anyone asking for your seed phrase is trying to steal your funds.</p>
+      </div>
+
+      <h3>Common mistakes</h3>
+      <ul>
+        <li><strong>Wrong format:</strong> addresses must be 42 characters and start with <code>0x</code>. Addresses from non-EVM chains (e.g., Bitcoin <code>bc1...</code>, Solana base58, or ENS names like <code>name.eth</code>) are not accepted directly &mdash; resolve ENS to its 0x address first.</li>
+        <li><strong>Wrong network:</strong> the address works on Base and Polygon, but funds sent on Ethereum mainnet or the wrong chain may not land where you expect. Send/receive on Base (or Polygon, as supported).</li>
+        <li><strong>Typos:</strong> a single wrong character sends funds to an unrecoverable address. Copy-paste the address, or scan the QR preview shown next to the field to double-check it.</li>
+        <li><strong>Personal wallet for team funds:</strong> fine for testing, risky for bounty payouts. Prefer a shared multisig or a dedicated project wallet.</li>
+      </ul>
+
+      <h3>What if I have no crypto wallet?</h3>
+      <p>You are not locked out. You can still participate and fund projects later via QR-code payments, ZK-Email, SMS/USSD, or Telegram voice. A future payment-conversion service can convert conventional payments (card/bank) into crypto and credit the converted amount back onto the project bounty, so you don&rsquo;t need to hold crypto yourself.</p>
+
+      <h3>What if I have no phone or computer?</h3>
+      <p>Ask a trusted friend, school, library, or community center to help open the site and scan a QR code, or to help you receive SMS/USSD instructions when those channels are available in your area. Supporting a project never requires you to reveal private keys.</p>
+
+      <hr>
+
+      <h2>Getting Started</h2>
+
+      <h3>What is Polytab?</h3>
+      <p>Polytab is an open-source, non-custodial civic coordination protocol. Communities propose real-world actions, members vote with micro-fee ($0.25&ndash;$1.00) ballots that double as escrow deposits, and when proof-of-work is verified, a 2-of-3 multi-sig releases the bounty directly to the project wallet. Decisions and payouts are recorded on public, immutable ledgers mirrored across RSS/JSON feeds.</p>
+
+      <h3>Do I need an account?</h3>
+      <p>No. Anyone can browse projects without signing in. Endorsements and verification flows use your existing accounts (GitHub, Google, Discord, Facebook, or TikTok, where available) via a secure OAuth handshake &mdash; no Polytab password is required, and we never receive your provider password.</p>
+
+      <h3>Do I need crypto to participate?</h3>
+      <p>To cast a micro-vote with a Web3 wallet, yes &mdash; or you can use the QR-code flow with any compatible wallet. If you have no wallet, phone, or computer, see the &ldquo;No crypto wallet?&rdquo; answers above. Sharing and endorsing don&rsquo;t require crypto at all.</p>
+
+      <h3>How do micro-votes work?</h3>
+      <p>Each vote is a small on-chain transaction ($0.25&ndash;$1.00) on Base L2. It is both a cryptographically signed ballot for the proposal and an escrow deposit for that project. Every dollar of every stake funds the project you chose &mdash; Polytab takes no protocol slice, no pooled pot, and no redistribution between outcomes.</p>
+
+      <hr>
+
+      <h2>Funds, Fees &amp; Custody</h2>
+
+      <h3>Who holds the money?</h3>
+      <p><strong>Not Polytab.</strong> Polytab is static open-source software hosted on GitHub Pages and Cloudflare Edge. All micro-transactions settle peer-to-peer on EVM networks directly into project-controlled wallets. Polytab never takes custody of private keys or user funds.</p>
+
+      <h3>Where does the bounty go when a project succeeds?</h3>
+      <p>Once the action&rsquo;s proof-of-work is verified (geo-tagged evidence, a public commit, a video, etc.), a 2-of-3 multi-sig releases the escrowed funds to the project-controlled payout wallet. If the action is not approved, voters are credited and can reuse their vote on another proposal.</p>
+
+      <h3>Are there fees?</h3>
+      <p>There is no Polytab protocol fee. You only pay the network gas fee on Base/Polygon for your own transactions (typically a fraction of a cent to cents on Base). Future payment-conversion services may charge their own processing fees, disclosed at the point of use.</p>
+
+      <hr>
+
+      <h2>Endorsements &amp; Likes</h2>
+
+      <h3>What is a &ldquo;verified endorsement&rdquo;?</h3>
+      <p>A verified endorsement is support for a project confirmed through a trusted sign-in provider (GitHub, Google, Discord, Facebook, or TikTok, where available). We deduplicate by a one-way cryptographic hash of your provider account ID, so each account counts once per project. Verified counts appear on project cards and project pages &mdash; for example, &ldquo;3 verified endorsements.&rdquo;</p>
+
+      <h3>What is the Like button and counter?</h3>
+      <p>The heart button records a quick like for a project. The counter next to it shows the total likes, formatted compactly (e.g., <code>0</code>&ndash;<code>999</code>, then <code>1.0K</code>, <code>1.1K</code>, <code>11.1K</code>, <code>111.1K</code>, <code>1.0M</code>). Likes are not verified endorsements and do not confirm your identity &mdash; they are a lightweight signal of interest.</p>
+
+      <h3>Are Likes or endorsements votes?</h3>
+      <p>No. Likes and endorsements show community support and can help people decide what to look at. Micro-vote <em>payments</em> on Base/Polygon are the actual ballots that escrow funds.</p>
+
+      <hr>
+
+      <h2>Projects, Proof &amp; IDs</h2>
+
+      <h3>How do I start a project?</h3>
+      <p>Go to the <strong>Start a Project</strong> tab, fill in the title, category, location (address, ZIP, city, state, or country &mdash; we auto-geocode it), funding goal, micro-vote price, and Project Wallet, then submit. Your proposal is opened as a GitHub Issue for public review and verification.</p>
+
+      <h3>What is the &ldquo;Action Scope &amp; Proof Plan&rdquo;?</h3>
+      <p>A short description (max 600 characters) of what needs doing and what proof will show it worked &mdash; e.g., geo-tagged photos, a commit hash, a video, or a completion certificate. This is what the 2-of-3 verification council checks before releasing funds.</p>
+
+      <h3>What are the ID numbers and <code>0x71C...</code> wallets?</h3>
+      <p>Project IDs are bloc-assigned by category (Charities 10000&ndash;79999, Speculative 80000&ndash;89999, Voting 90000&ndash;99999) and never renumbered. The bloc wallet shown for a project is derived as <code>0x71C</code> plus the zero-padded ID. Your user-supplied Project Wallet is retained for escrow setup alongside the bloc assignment.</p>
+
+      <h3>What happens to a proposal that isn&rsquo;t approved?</h3>
+      <p>Voters are credited and may reuse their vote on any other active proposal. Funds move only when a community-approved action is actually completed and verified.</p>
+
+      <h3>I completed the action. How do I get paid?</h3>
+      <p>Submit proof-of-work from the project page via a GitHub issue titled <code>[Proof of Completion]</code> with your project ID, escrow wallet, proof media URLs, and the sign-off from the 2-of-3 multi-sig signers. There is a 48-hour public challenge window before the bounty is released.</p>
+
+      <hr>
+
+      <h2>Safety &amp; Privacy</h2>
+
+      <h3>Where can I read the fine print?</h3>
+      <ul>
+        <li><a href="./terms.html">Terms of Service</a></li>
+        <li><a href="./privacy.html">Privacy Policy</a></li>
+      </ul>
+
+      <h3>Is my location public?</h3>
+      <p>Project locations are public by design (communities need to find and act on them). The public GeoRSS feed rounds coordinates to two decimal places (~1&nbsp;km, neighborhood-level) to avoid exposing precise PII or home addresses. Use a neighborhood, ZIP, or public landmark &mdash; not someone&rsquo;s home.</p>
+
+      <h3>Who do I contact for help?</h3>
+      <p><strong>Email:</strong> <a href="mailto:contact@polytab.store">contact@polytab.store</a><br>
+      <strong>Website:</strong> <a href="https://polytab.store">https://polytab.store</a></p>
+
+      <hr>
+
+      <h2>Still have a question?</h2>
+      <p>Email <a href="mailto:contact@polytab.store">contact@polytab.store</a> or open an issue on <a href="https://github.com/R03LV1S/Polytab" target="_blank" rel="noopener">GitHub</a>. We read everything.</p>
+    </article>
+  </main>
+
+  <footer class="border-t border-zinc-800/80 mt-8">
+    <div class="max-w-4xl mx-auto px-4 py-6 flex flex-wrap gap-x-4 gap-y-2 text-[11px] font-mono text-zinc-400">
+      <a href="https://www.youtube.com/@clairewineland" target="_blank" rel="noopener" class="hover:text-yellow-400">For Claire &#128129;</a>
+      <span>&bull;</span>
+      <a href="https://github.com/R03LV1S/Polytab" target="_blank" rel="noopener" class="hover:text-yellow-400">GitHub Repo</a>
+      <span>&bull;</span>
+      <a href="./feed.xml" class="hover:text-yellow-400">RSS 2.0</a>
+      <span>&bull;</span>
+      <a href="./feed.json" class="hover:text-yellow-400">JSON Feed</a>
+      <span>&bull;</span>
+      <a href="./faq.html" class="hover:text-yellow-400">FAQ &amp; How-Tos</a>
+      <span>&bull;</span>
+      <a href="./terms.html" class="hover:text-yellow-400">Terms</a>
+      <span>&bull;</span>
+      <a href="./privacy.html" class="hover:text-yellow-400">Privacy</a>
+    </div>
+  </footer>
+</body>
+</html>
