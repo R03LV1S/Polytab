@@ -4,8 +4,12 @@
   "chainId": 8453,
   "balanceWei": "0",
   "nonce": 0,
-  "lastBlock": 57056874,
+  "lastBlock": 57060760,
+  "incomingErc20SinceLastCheck": 0,
+  "logScanNote": null,
   "allowedSweeps": [],
-  "lastCheckUtc": "2026-11-13T20:26:38.078Z",
-  "lastStatus": "ok"
+  "seenLogTxs": [],
+  "lastCheckUtc": "2026-11-13T20:39:34.981Z",
+  "lastStatus": "ok",
+  "endpointUsed": "https://1rpc.io/base"
 }
