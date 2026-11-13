@@ -77,7 +77,7 @@
           <p id="summary" class="text-sm text-zinc-300 leading-relaxed whitespace-pre-line"></p>
         </div>
         <div class="card p-5 space-y-2">
-          <h2 class="text-sm font-bold text-white uppercase tracking-wider">Plain Language</h2>
+          <h2 class="text-sm font-bold text-white uppercase tracking-wider">Project Goals</h2>
           <p id="plainSummary" class="text-sm text-zinc-300 leading-relaxed whitespace-pre-line"></p>
         </div>
       </section>
@@ -98,7 +98,7 @@
       </section>
 
       <section class="card p-5 space-y-2">
-        <h2 class="text-sm font-bold text-white uppercase tracking-wider">Project Details (Template)</h2>
+        <h2 class="text-sm font-bold text-white uppercase tracking-wider">Project Details</h2>
         <dl id="detailList" class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3 text-sm"></dl>
       </section>
     </article>
@@ -235,7 +235,23 @@
           const gh = document.createElement("a"); gh.href=issue; gh.target="_blank"; gh.rel="noopener noreferrer"; gh.className="inline-flex items-center px-2.5 py-1 rounded-md bg-zinc-900 border border-zinc-800 text-zinc-300 hover:text-white"; gh.textContent="Endorse on GitHub"; links.appendChild(gh);
 
           const likeBtn = document.getElementById("likeBtn");
-          likeBtn.addEventListener("click", () => window.open(issue, "_blank", "noopener,noreferrer"));
+          const likeOverlay = document.getElementById("likeOverlay");
+          const closeLike = document.getElementById("closeLikeOverlay");
+          const likeGithub = document.getElementById("likeGithubLink");
+          const likeCopy = document.getElementById("likeCopyLink");
+          const shareUrl = location.href;
+          const shareText = "Support this project on Polytab: " + item.title;
+          if (likeGithub) likeGithub.href = issue;
+          const setShare = (id, url) => { const a=document.getElementById(id); if(a) a.href=url; };
+          setShare("shareX", "https://twitter.com/intent/tweet?text=" + encodeURIComponent(shareText) + "&url=" + encodeURIComponent(shareUrl));
+          setShare("shareFacebook", "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(shareUrl));
+          setShare("shareLinkedIn", "https://www.linkedin.com/sharing/share-offsite/?url=" + encodeURIComponent(shareUrl));
+          const openLike = () => { if(likeOverlay){ likeOverlay.classList.remove("hidden"); likeOverlay.setAttribute("aria-hidden","false"); } };
+          const hideLike = () => { if(likeOverlay){ likeOverlay.classList.add("hidden"); likeOverlay.setAttribute("aria-hidden","true"); } };
+          if (likeBtn) likeBtn.addEventListener("click", openLike);
+          if (closeLike) closeLike.addEventListener("click", hideLike);
+          if (likeOverlay) likeOverlay.addEventListener("click", (e)=>{ if(e.target===likeOverlay) hideLike(); });
+          if (likeCopy) likeCopy.addEventListener("click", async ()=>{ try { await navigator.clipboard.writeText(shareUrl); likeCopy.textContent = "Link copied"; setTimeout(()=>likeCopy.textContent="Copy link",1500);} catch(_){ prompt("Copy link:", shareUrl); } });
           const snap = await loadEndorsements();
           const vc = vCount(snap, item.id);
           const likeCount = document.getElementById("likeCount");
@@ -246,11 +262,64 @@
           buy.textContent = "Buy Action ($" + item.votePriceUSD.toFixed(2) + ") / View & Verify";
 
           escText(document.getElementById("summary"), item.summary || "No summary provided.");
-          escText(document.getElementById("plainSummary"), item.plainSummary || "No plain-language summary provided.");
+          escText(document.getElementById("plainSummary"), item.plainSummary || "No project goals provided.");
 
           const d = item.details;
-          renderListOrPlaceholder(document.getElementById("people"), d.people || d.people_involved || m.people, "Not added yet. (Template field: people involved — e.g. organizers, partners, workers.)");
-          renderListOrPlaceholder(document.getElementById("communities"), d.communities || d.affected_communities || m.communities, "Not added yet. (Template field: affected communities.)");
+          // People involved: merge template data with published involvement submissions (docs/data/involvement.json)
+          const peopleEl = document.getElementById("people"); peopleEl.replaceChildren();
+          const detailPeople = d.people || d.people_involved || m.people || null;
+          let involved = [];
+          try {
+            const ir = await fetch("./data/involvement.json", { cache: "no-store" });
+            if (ir.ok) { const ij = await ir.json(); involved = (ij && ij.projects && ij.projects[item.id]) ? ij.projects[item.id] : []; }
+          } catch (_) {}
+          const addSelfUrl = "https://github.com/" + GITHUB_OWNER + "/" + GITHUB_REPO + "/issues/new?template=involvement.yml&title=" + encodeURIComponent("[Involved]: #" + item.id + " - ");
+          if (Array.isArray(involved) && involved.length) {
+            const ul = document.createElement("ul"); ul.className = "space-y-2";
+            involved.forEach(p => {
+              const li = document.createElement("li"); li.className = "border border-zinc-800 rounded-lg p-2.5 bg-black/30";
+              const nm = document.createElement("div"); nm.className = "text-sm font-semibold text-white"; nm.textContent = p.name || "Contributor";
+              const role = document.createElement("div"); role.className = "text-xs text-zinc-400"; role.textContent = p.role || "Involved";
+              li.appendChild(nm); li.appendChild(role);
+              const meta = document.createElement("div"); meta.className = "text-[11px] text-zinc-300 mt-1 space-y-0.5";
+              if (p.github) { const g=document.createElement("div"); g.textContent = "GitHub: " + p.github; meta.appendChild(g); }
+              if (p.website) { const w=document.createElement("a"); const wu=String(p.website); w.href=/^https?:\/\//i.test(wu)?wu:"#"; w.target="_blank"; w.rel="noopener noreferrer"; w.className="text-yellow-300 hover:text-yellow-200 underline break-all"; w.textContent = wu; meta.appendChild(w); }
+              if (p.contact) { const c=document.createElement("div"); c.textContent = "Contact: " + p.contact; meta.appendChild(c); }
+              if (p.about) { const a=document.createElement("div"); a.className="text-zinc-400 whitespace-pre-line"; a.textContent = p.about; meta.appendChild(a); }
+              if (p.issue_url) { const a=document.createElement("a"); a.href=p.issue_url; a.target="_blank"; a.rel="noopener noreferrer"; a.className="text-zinc-300 hover:text-white underline"; a.textContent = "View submission"; meta.appendChild(a); }
+              li.appendChild(meta); ul.appendChild(li);
+            });
+            peopleEl.appendChild(ul);
+          } else if (detailPeople) {
+            renderListOrPlaceholder(peopleEl, detailPeople, "");
+          } else {
+            const p = document.createElement("p"); p.className = "text-zinc-500 italic"; p.textContent = "No people listed yet."; peopleEl.appendChild(p);
+          }
+          const addSelf = document.createElement("a"); addSelf.href = addSelfUrl; addSelf.target="_blank"; addSelf.rel="noopener noreferrer"; addSelf.className="inline-flex mt-2 text-xs text-yellow-300 hover:text-yellow-200 underline"; addSelf.textContent = "Add yourself (public GitHub submission)"; peopleEl.appendChild(addSelf);
+          const scrapeNote = document.createElement("p"); scrapeNote.className = "text-[10px] text-zinc-500 mt-1"; scrapeNote.textContent = "Names are not auto-scraped from websites. People can opt in by adding themselves."; peopleEl.appendChild(scrapeNote);
+
+          // Affected communities / labels
+          const commEl = document.getElementById("communities"); commEl.replaceChildren();
+          const suggested = ["Blind or low vision","Deaf or hard of hearing","Children and youth","Older adults","People with disabilities","Low-income households","Underserved communities","Refugees and displaced people","Veterans","Students","Caregivers","Rural communities","Indigenous communities","LGBTQ+ people","People experiencing homelessness","Immigrants and migrants"];
+          const detailComm = d.communities || d.affected_communities || d.community_labels || m.communities || m.community_labels || null;
+          const renderLabels = (arr) => {
+            const wrap = document.createElement("div"); wrap.className = "flex flex-wrap gap-1.5";
+            arr.forEach(x => { const tag=document.createElement("span"); tag.className="px-2 py-0.5 rounded-md text-[11px] bg-zinc-900 border border-zinc-800 text-zinc-200"; tag.textContent=String(x); wrap.appendChild(tag); });
+            return wrap;
+          };
+          if (Array.isArray(detailComm) && detailComm.length) {
+            commEl.appendChild(renderLabels(detailComm));
+          } else if (typeof detailComm === "string" && detailComm.trim()) {
+            const p = document.createElement("p"); p.className="text-sm text-zinc-300 whitespace-pre-line"; p.textContent = detailComm.trim(); commEl.appendChild(p);
+          } else {
+            const p = document.createElement("p"); p.className = "text-zinc-500 italic"; p.textContent = "No community labels added yet."; commEl.appendChild(p);
+          }
+          const sug = document.createElement("details"); sug.className = "mt-2";
+          const sum = document.createElement("summary"); sum.className = "text-xs text-zinc-400 cursor-pointer"; sum.textContent = "Suggested inclusive community labels";
+          const box = document.createElement("div"); box.className = "mt-2";
+          box.appendChild(renderLabels(suggested));
+          const note = document.createElement("p"); note.className = "text-[10px] text-zinc-500 mt-2"; note.textContent = "Use respectful, people-first labels that fit the project. Labels can be added via project data/details or submissions."; box.appendChild(note);
+          sug.appendChild(sum); sug.appendChild(box); commEl.appendChild(sug);
 
           // Updates & Proof: merge template fields with published proof submissions (GitHub issues -> docs/data/proofs.json)
           const updatesEl = document.getElementById("updates"); updatesEl.replaceChildren();
@@ -325,5 +394,36 @@
       main();
     })();
   </script>
+
+  <div id="likeOverlay" class="hidden fixed inset-0 z-50 bg-black/70 backdrop-blur-sm flex items-center justify-center p-4" aria-hidden="true">
+    <div class="w-full max-w-md bg-zinc-950 border border-zinc-800 rounded-2xl p-5 space-y-4 shadow-2xl" role="dialog" aria-modal="true" aria-label="Support this project">
+      <div class="flex items-start justify-between gap-3">
+        <div>
+          <h3 class="text-lg font-bold text-white">Support this project</h3>
+          <p class="text-xs text-zinc-400 mt-1">Choose how you want to show support.</p>
+        </div>
+        <button id="closeLikeOverlay" type="button" class="text-zinc-400 hover:text-white text-xl leading-none" aria-label="Close">&times;</button>
+      </div>
+      <div class="space-y-2">
+        <div class="text-[10px] uppercase tracking-wider text-zinc-500 font-semibold">Counted endorsement</div>
+        <a id="likeGithubLink" href="#" target="_blank" rel="noopener noreferrer" class="flex items-center justify-between w-full px-4 py-3 rounded-xl bg-pink-500/15 border border-pink-500/30 text-pink-200 hover:bg-pink-500/20 transition">
+          <span class="font-semibold">Endorse on GitHub</span>
+          <span class="text-xs text-pink-300/80">Public, 1 per person (counted)</span>
+        </a>
+        <p class="text-[11px] text-zinc-500">Submit the GitHub endorsement to be counted in the public like total.</p>
+      </div>
+      <div class="space-y-2">
+        <div class="text-[10px] uppercase tracking-wider text-zinc-500 font-semibold">Share support (not counted)</div>
+        <div class="grid grid-cols-2 gap-2 text-sm">
+          <a id="shareX" href="#" target="_blank" rel="noopener noreferrer" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white text-center">Share on X</a>
+          <a id="shareFacebook" href="#" target="_blank" rel="noopener noreferrer" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white text-center">Share on Facebook</a>
+          <a id="shareLinkedIn" href="#" target="_blank" rel="noopener noreferrer" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white text-center">Share on LinkedIn</a>
+          <button id="likeCopyLink" type="button" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white">Copy link</button>
+        </div>
+        <p class="text-[11px] text-zinc-500">Social shares show support but are not verified or added to the endorsement count. Directly endorsing with a logged-in social account is not available on this site.</p>
+      </div>
+    </div>
+  </div>
+
 </body>
 </html>
