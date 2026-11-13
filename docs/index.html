@@ -1326,11 +1326,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           endorseBtn.title = "Like/support this project. Verified endorsements are counted publicly.";
           endorseBtn.addEventListener("click", (ev) => {
             ev.stopPropagation();
-            if (ENDORSEMENT_API) {
-              window.open("./project.html?id=" + encodeURIComponent(String(item.id)) + "&endorse=1", "_blank", "noopener,noreferrer");
-            } else {
-              window.open(endorsementIssueUrl(item), "_blank", "noopener,noreferrer");
-            }
+            openLikeOverlay(item);
           });
           const statusCol = document.createElement("div");
           statusCol.className = "flex flex-col items-end gap-1.5";
@@ -1922,11 +1918,95 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         }
       });
       if (state.socialHandle) { document.getElementById("socialIdentityBtn").textContent = state.socialHandle; }
+
+      // Like/endorse/share overlay (opens on main page)
+      function openLikeOverlay(item) {
+        if (!item) return;
+        const overlay = document.getElementById("likeOverlay");
+        const titleEl = document.getElementById("likeOverlayTitle");
+        const likeGithub = document.getElementById("likeGithubLink");
+        const providerContainer = document.getElementById("providerButtons");
+        const providerNote = document.getElementById("providerNote");
+        if (titleEl) titleEl.textContent = item.title || "Project";
+        const issue = endorsementIssueUrl(item);
+        if (likeGithub) likeGithub.href = issue;
+        if (providerContainer) {
+          providerContainer.replaceChildren();
+          if (ENDORSEMENT_API) {
+            const providers = [["github","GitHub"],["google","Google"],["discord","Discord"],["facebook","Facebook"],["tiktok","TikTok"]];
+            providers.forEach(([prov,label]) => {
+              const a = document.createElement("a");
+              a.href = ENDORSEMENT_API + "/auth/start?provider=" + encodeURIComponent(prov) + "&project_id=" + encodeURIComponent(String(item.id));
+              a.className = "flex items-center w-full px-4 py-2.5 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-200 hover:bg-emerald-500/15 transition text-sm";
+              a.innerHTML = '<span class="font-semibold">' + label + '</span>';
+              providerContainer.appendChild(a);
+            });
+            if (providerNote) providerNote.textContent = "Choose a platform to endorse this project.";
+          } else {
+            if (providerNote) providerNote.textContent = "Choose a platform to endorse this project.";
+          }
+        }
+        const shareUrl = (location.origin && location.origin !== "null" ? location.origin : "https://polytab.store") + "/project.html?id=" + encodeURIComponent(String(item.id));
+        const shareText = "Support this project on Polytab: " + (item.title || "Project");
+        const setShare = (id, url) => { const a = document.getElementById(id); if (a) a.href = url; };
+        setShare("shareX", "https://twitter.com/intent/tweet?text=" + encodeURIComponent(shareText) + "&url=" + encodeURIComponent(shareUrl));
+        setShare("shareFacebook", "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(shareUrl));
+        setShare("shareLinkedIn", "https://www.linkedin.com/sharing/share-offsite/?url=" + encodeURIComponent(shareUrl));
+        const copyBtn = document.getElementById("likeCopyLink");
+        if (copyBtn) copyBtn.onclick = async () => { try { await navigator.clipboard.writeText(shareUrl); copyBtn.textContent = "Link copied"; setTimeout(()=>copyBtn.textContent="Copy link",1500);} catch(_){ try { prompt("Copy link:", shareUrl); } catch(__){} } };
+        const ig = document.getElementById("shareInstagram");
+        if (ig) ig.onclick = async () => { try { await navigator.clipboard.writeText(shareUrl); ig.textContent = "Link copied"; setTimeout(()=>ig.textContent="Instagram",1500);} catch(_){ } window.open("https://www.instagram.com/","_blank","noopener,noreferrer"); };
+        const tt = document.getElementById("shareTikTok");
+        if (tt) tt.onclick = async () => { try { await navigator.clipboard.writeText(shareUrl); tt.textContent = "Link copied"; setTimeout(()=>tt.textContent="TikTok",1500);} catch(_){ } window.open("https://www.tiktok.com/upload?lang=en","_blank","noopener,noreferrer"); };
+        if (overlay) { overlay.classList.remove("hidden"); overlay.setAttribute("aria-hidden","false"); }
+      }
+      function closeLikeOverlay() {
+        const overlay = document.getElementById("likeOverlay");
+        if (overlay) { overlay.classList.add("hidden"); overlay.setAttribute("aria-hidden","true"); }
+      }
+      const closeLikeBtn = document.getElementById("closeLikeOverlay");
+      if (closeLikeBtn) closeLikeBtn.addEventListener("click", closeLikeOverlay);
+      const likeOverlayEl = document.getElementById("likeOverlay");
+      if (likeOverlayEl) likeOverlayEl.addEventListener("click", (e) => { if (e.target === likeOverlayEl) closeLikeOverlay(); });
+
       loadFeedState();
       loadVerifiedEndorsements();
       loadMarkets();
       loadForecastBoard();
     })();
   </script>
+
+  <div id="likeOverlay" class="hidden fixed inset-0 z-50 bg-black/70 backdrop-blur-sm flex items-center justify-center p-4" aria-hidden="true">
+    <div class="w-full max-w-md bg-zinc-950 border border-zinc-800 rounded-2xl p-5 space-y-4 shadow-2xl mx-auto" role="dialog" aria-modal="true" aria-label="Support this project">
+      <div class="flex items-start justify-between gap-3">
+        <div>
+          <h3 class="text-lg font-bold text-white">Support this project</h3>
+          <p id="likeOverlayTitle" class="text-xs text-zinc-400 mt-1"></p>
+        </div>
+        <button id="closeLikeOverlay" type="button" class="text-zinc-400 hover:text-white text-xl leading-none" aria-label="Close">&times;</button>
+      </div>
+      <div class="space-y-2">
+        <div class="text-[10px] uppercase tracking-wider text-zinc-500 font-semibold">Counted endorsement</div>
+        <div id="providerButtons" class="space-y-2"></div>
+        <a id="likeGithubLink" href="#" target="_blank" rel="noopener noreferrer" class="flex flex-col items-start w-full px-4 py-3 rounded-xl bg-[#FFD8B5]/15 border border-[#FFD8B5]/40 text-[#FFE8D6] hover:bg-[#FFD8B5]/25 transition">
+          <span class="font-semibold">Endorse on GitHub</span>
+          <span class="text-xs text-[#FFD8B5]/80">(manual)</span>
+        </a>
+        <p id="providerNote" class="text-[11px] text-zinc-500">Choose a platform to endorse this project.</p>
+      </div>
+      <div id="shareSection" class="space-y-2">
+        <div class="text-[10px] uppercase tracking-wider text-zinc-500 font-semibold">Share (not counted)</div>
+        <div class="grid grid-cols-2 gap-2 text-sm">
+          <a id="shareX" href="#" target="_blank" rel="noopener noreferrer" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white text-center">X</a>
+          <a id="shareFacebook" href="#" target="_blank" rel="noopener noreferrer" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white text-center">Facebook</a>
+          <button id="shareInstagram" type="button" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white text-center">Instagram</button>
+          <button id="shareTikTok" type="button" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white text-center">TikTok</button>
+          <a id="shareLinkedIn" href="#" target="_blank" rel="noopener noreferrer" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white text-center">LinkedIn</a>
+          <button id="likeCopyLink" type="button" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white">Copy link</button>
+        </div>
+        <p class="text-[11px] text-zinc-500">Sharing shows support but is not verified, not counted, and does not confirm your account or track your profile. Instagram/TikTok: link copied and site opened so you can paste/share manually.</p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
