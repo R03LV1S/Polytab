@@ -1409,7 +1409,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
             : "inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-[11px] font-medium bg-zinc-800 text-zinc-300 border border-zinc-700 hover:border-zinc-500 transition";
           endorseBtn.textContent = endorsed ? "♥ Local (this device)" : "♡ Endorse locally";
           endorseBtn.setAttribute("aria-pressed", String(endorsed));
-          endorseBtn.title = "Device-local endorsement (instant feedback, one per bounty on this device). Not a global/verified count.";
+          endorseBtn.title = "Save a ♥ on this device only. Not a public or verified count.";
           endorseBtn.addEventListener("click", (ev) => {
             ev.stopPropagation();
             toggleEndorsement(item.id);
