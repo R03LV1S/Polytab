@@ -1058,9 +1058,8 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         const hint = document.createElement("p");
         hint.className = "w-full text-[10px] text-zinc-500";
         const snap = state.endorsementsSnapshotStatus;
-        hint.textContent = "Verified endorsements = unique GitHub users per bounty from the public issue ledger snapshot (anti-spam, deduped, $0). " +
-          (snap === "loaded" ? "Snapshot loaded (honest, no fabricated counts)." : snap === "loading" ? "Loading verified snapshot…" : "Verified snapshot unavailable.") +
-          " Device-local ♥ is instant feedback on this device only.";
+        hint.textContent = "♥ Like opens a public endorsement on GitHub (counted once per person). " +
+          (snap === "loaded" ? "Like counts are up to date." : snap === "loading" ? "Loading like counts..." : "Like counts unavailable right now.");
         bar.appendChild(hint);
       }
       function haversineMiles(lat1, lon1, lat2, lon2) {
@@ -1403,17 +1402,13 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           endorseTop.className = "flex items-center justify-between gap-2 flex-wrap";
           const endorseBtn = document.createElement("button");
           endorseBtn.type = "button";
-          const endorsed = isEndorsed(item.id);
-          endorseBtn.className = endorsed
-            ? "inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-[11px] font-semibold bg-pink-500/15 text-pink-300 border border-pink-500/30 hover:bg-pink-500/20 transition"
-            : "inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-[11px] font-medium bg-zinc-800 text-zinc-300 border border-zinc-700 hover:border-zinc-500 transition";
-          endorseBtn.textContent = endorsed ? "♥ Local (this device)" : "♡ Endorse locally";
-          endorseBtn.setAttribute("aria-pressed", String(endorsed));
-          endorseBtn.title = "Save a ♥ on this device only. Not a public or verified count.";
+          endorseBtn.className = "inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-[11px] font-semibold bg-pink-500/15 text-pink-300 border border-pink-500/30 hover:bg-pink-500/20 transition";
+          endorseBtn.textContent = "♥ Like";
+          endorseBtn.setAttribute("aria-label", "Like this project on GitHub (public)");
+          endorseBtn.title = "Like this project publicly on GitHub. Your like is counted for everyone.";
           endorseBtn.addEventListener("click", (ev) => {
             ev.stopPropagation();
-            toggleEndorsement(item.id);
-            renderProposalsGrid();
+            window.open(endorsementIssueUrl(item), "_blank", "noopener,noreferrer");
           });
           const vCount = verifiedEndorsementCount(item.id);
           const verifiedBadge = document.createElement("span");
