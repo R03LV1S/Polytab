@@ -726,6 +726,13 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         if (state.endorsements[k]) { delete state.endorsements[k]; } else { state.endorsements[k] = true; }
         saveEndorsements(state.endorsements);
       }
+      function formatLikeCount(n) {
+        const v = Number(n);
+        if (!Number.isFinite(v) || v < 0) return "0";
+        if (v < 1000) return String(Math.floor(v));
+        if (v < 1000000) return (v / 1000).toFixed(1) + "K";
+        return (v / 1000000).toFixed(1) + "M";
+      }
       function verifiedEndorsementCount(id) {
         const snap = state.verifiedEndorsements;
         let gh = null;
@@ -1412,10 +1419,20 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
             ev.stopPropagation();
             openLikeOverlay(item);
           });
+          const likeCountBox = document.createElement("span");
+          likeCountBox.className = "inline-flex items-center justify-center min-w-[2.25rem] px-2.5 py-1.5 rounded-lg text-[11px] font-semibold bg-pink-500/15 text-pink-300 border border-pink-500/30 font-mono";
+          const vCountForLike = verifiedEndorsementCount(item.id);
+          likeCountBox.textContent = formatLikeCount(vCountForLike == null ? 0 : vCountForLike);
+          likeCountBox.title = (vCountForLike == null ? "0" : vCountForLike) + " verified endorsement" + ((vCountForLike == 1) ? "" : "s");
+          likeCountBox.setAttribute("aria-label", (vCountForLike == null ? "0" : vCountForLike) + " verified endorsements");
+          const likeRow = document.createElement("div");
+          likeRow.className = "flex items-center gap-1.5";
+          likeRow.appendChild(likeCountBox);
+          likeRow.appendChild(endorseBtn);
           const statusCol = document.createElement("div");
           statusCol.className = "flex flex-col items-end gap-1.5";
           statusCol.appendChild(statusBadge);
-          statusCol.appendChild(endorseBtn);
+          statusCol.appendChild(likeRow);
           badgeRow.appendChild(catBadge);
           badgeRow.appendChild(statusCol);
           const locP = document.createElement("p");
@@ -1528,11 +1545,11 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           const verifiedBadge = document.createElement("span");
           verifiedBadge.className = "text-[10px] font-mono px-2 py-0.5 rounded-md bg-emerald-500/10 text-emerald-300 border border-emerald-500/20";
           if (vCount == null) {
-            verifiedBadge.textContent = "✓ Verified (GitHub): snapshot unavailable";
-            verifiedBadge.title = "Public count from GitHub endorsements (one per person per project). Count not loaded.";
+            verifiedBadge.textContent = "Verified endorsements: unavailable";
+            verifiedBadge.title = "Verified endorsement count is not available right now.";
           } else {
-            verifiedBadge.textContent = "✓ Verified (GitHub): " + vCount;
-            verifiedBadge.title = "Public count: people who endorsed this project on GitHub (one per person).";
+            verifiedBadge.textContent = vCount + " verified endorsement" + (vCount === 1 ? "" : "s");
+            verifiedBadge.title = "People who endorsed this project with a verified account (e.g. GitHub). One per person.";
           }
           endorseTop.appendChild(verifiedBadge);
           const endorseBottom = document.createElement("div");

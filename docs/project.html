@@ -35,7 +35,7 @@
 
     <article id="projectView" class="hidden space-y-5">
       <section class="card relative p-5 sm:p-6 space-y-4">
-        <div class="absolute top-4 right-4 sm:top-6 sm:right-6 flex flex-col items-end gap-2 text-right z-10">
+        <div class="absolute top-4 right-4 sm:top-6 sm:right-6 flex items-center gap-2 text-right z-10">
           <div id="likeCount" class="text-xs font-mono px-2.5 py-1 rounded-md bg-emerald-500/10 text-emerald-300 border border-emerald-500/20"></div>
           <div class="flex items-center gap-2">
             <button id="likeBtn" type="button" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-pink-500/15 text-pink-300 border border-pink-500/30 hover:bg-pink-500/20 transition">♥ Like</button>
@@ -182,6 +182,13 @@
         const p = snap.projects[String(id)];
         if (!p) return 0;
         const n = Number(p.total); return Number.isFinite(n) ? n : 0;
+      }
+      function formatLikeCount(n) {
+        const v = Number(n);
+        if (!Number.isFinite(v) || v < 0) return "0";
+        if (v < 1000) return String(Math.floor(v));
+        if (v < 1000000) return (v / 1000).toFixed(1) + "K";
+        return (v / 1000000).toFixed(1) + "M";
       }
       function addKV(dl, k, v){
         if (v == null || v === "") return;
@@ -347,9 +354,7 @@
           const clVc = cloudCount(cloud, item.id);
           const totalVc = (ghVc == null ? 0 : ghVc) + clVc;
           const likeCount = document.getElementById("likeCount");
-          if (ghVc == null && !cloud) likeCount.textContent = "✓ Likes: unavailable";
-          else if (cloud) likeCount.textContent = "✓ Likes: " + totalVc + " (GitHub: " + (ghVc == null ? "n/a" : ghVc) + ", verified accounts: " + clVc + ")";
-          else likeCount.textContent = "✓ Likes (GitHub): " + (ghVc == null ? "unavailable" : ghVc);
+          likeCount.textContent = formatLikeCount(totalVc);
 
           const buy = document.getElementById("buyAction");
           buy.href = "./index.html#" + encodeURIComponent(item.id);
