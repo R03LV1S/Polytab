@@ -24,3 +24,12 @@ Risk flags for user:
 - docs/claim.html (public claim how-to), org-claim.yml + sweep-receipt.md templates; \"Org? Claim this page\" CTAs on shelf cards, project page, and action dialog; awaiting-org-verification badge.
 - Legal/FAQ/README/footer copy rewritten to custody truth; Pages rebuild pending at push time.
 - Adversarial-reviewer gate: FAILED repeatedly on provider free-usage limit - verification done inline (HTML parse, JS compile, address counts, tests). Re-run when quota resets.
+
+
+## Addendum (commits 8a832f4..312da34)
+- URGENT: earlier address (8c8cEB0d...) was a wrong transcription; replaced everywhere with valid EIP-55 0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08 (Keccak-verified, 13,261 refs, 23 files + hidden/.opencode+.github). 
+- docs/escrow-qr.png (Polytab.Store branded, address caption) embedded in action modal, project page, claim page, FAQ.
+- Org-claim verification hardened: registry match AND domain control (DNS TXT / org-domain email) now required; self-asserted contact info refused.
+- Stewardship program for users without wallets: policy in FAQ/Terms/Privacy + out-of-band intake (GitHub issue template, no IDs in repo).
+- Escrow watchdog: scripts/escrow-watchdog.js + .github/workflows/escrow-watchdog.yml (6-hour cron). Baseline: balance 0, nonce 0 @ block 57,056,874. Alerts on ANY outgoing movement; acknowledgements via escrow-sweeps.json + sweep issues (never auto-mute).
+- Adversarial-reviewer gate: unavailable (provider free-usage limit) throughout; verification inline (HTML parse, JS compile, checksum verify, RPC baseline, tests 46/46).
