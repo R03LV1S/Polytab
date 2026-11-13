@@ -177,18 +177,38 @@ function parseCities(txt, countriesByCode, admin1ByKey) {
   const admin1ByKey = new Map(admin1.map(a => [a.countryCode + '.' + a.code, a]));
   const cities = parseCities(citiesTxt, countriesByCode, admin1ByKey);
 
-  const index = {
-    version: 1,
-    generated_at: new Date().toISOString(),
-    source: 'GeoNames (CC BY 4.0) countryInfo.txt, admin1CodesASCII.txt, cities15000.txt',
-    counts: { countries: countries.length, admin1: admin1.length, cities: cities.length },
+  // Build fresh snapshot from free sources, then update existing index file accordingly (additions/changes/removals)
+  let existing = null;
+  try { existing = JSON.parse(fs.readFileSync(OUT, 'utf8')); } catch (_) {}
+  const fresh = {
     countries: countries.map(c => ({ c: c.code, n: c.name })),
     admin1: admin1.map(a => ({ c: a.code, n: a.name, a: a.ascii !== a.name ? a.ascii : undefined, cc: a.countryCode, cn: a.country })),
     cities: cities.map(c => ({ n: c.name, a: c.ascii !== c.name ? c.ascii : undefined, cc: c.countryCode, cn: c.country, s: c.admin1 || undefined, sc: c.admin1Code || undefined, p: c.pop }))
   };
-
+  const key = (kind, x) => kind === 'countries' ? ('c:'+x.c) : kind === 'admin1' ? ('a:'+x.cc+'.'+x.c) : ('p:'+x.cc+'|'+x.sc+'|'+x.n);
+  const diffKind = (kind) => {
+    const oldArr = Array.isArray(existing && existing[kind]) ? existing[kind] : [];
+    const newArr = fresh[kind];
+    const om = new Map(oldArr.map(x => [key(kind,x), JSON.stringify(x)]));
+    const nm = new Map(newArr.map(x => [key(kind,x), JSON.stringify(x)]));
+    let added=0, removed=0, changed=0;
+    for (const [k,v] of nm) { if (!om.has(k)) added++; else if (om.get(k) !== v) changed++; }
+    for (const k of om.keys()) { if (!nm.has(k)) removed++; }
+    return {added, removed, changed};
+  };
+  const changes = { countries: diffKind('countries'), admin1: diffKind('admin1'), cities: diffKind('cities') };
+  const index = Object.assign({}, existing || {}, {
+    version: 1,
+    generated_at: new Date().toISOString(),
+    updated_at: new Date().toISOString(),
+    source: 'GeoNames (CC BY 4.0) countryInfo.txt, admin1CodesASCII.txt, cities15000.txt',
+    counts: { countries: fresh.countries.length, admin1: fresh.admin1.length, cities: fresh.cities.length },
+    countries: fresh.countries,
+    admin1: fresh.admin1,
+    cities: fresh.cities
+  });
   fs.mkdirSync(path.dirname(OUT), { recursive: true });
   fs.writeFileSync(OUT, JSON.stringify(index));
   const stat = fs.statSync(OUT);
-  console.log('Wrote', OUT, 'bytes=', stat.size, 'counts=', index.counts);
+  console.log('Updated', OUT, 'bytes=', stat.size, 'counts=', index.counts, 'changes=', JSON.stringify(changes));
 })().catch((e) => { console.error(e); process.exit(1); });

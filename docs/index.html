@@ -1771,37 +1771,71 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         });
         box.classList.remove("hidden");
       }
-      async function _remoteLocSuggest(q, seq) {
-        const raw = String(q||"").trim();
-        if (raw.length < 2) return [];
-        const key = raw.toLowerCase();
-        if (_sugCache.has(key)) return _sugCache.get(key);
+      function _normSug(it) {
+        if (!it) return null;
+        const label = String(it.label||"").trim(); const value = String(it.value||it.name||label).trim();
+        if (!label && !value) return null;
+        return { label: label||value, value, code: String(it.code||""), name: String(it.name||value||label), kind: it.kind||"place", country: it.country||null, state: it.state||null };
+      }
+      async function _fetchNominatimSug(raw, seq) {
         try {
           const controller = new AbortController();
           const to = setTimeout(() => controller.abort(), 3500);
           const url = "https://nominatim.openstreetmap.org/search?format=json&addressdetails=1&limit=5&q=" + encodeURIComponent(raw);
           const res = await fetch(url, { signal: controller.signal, headers: { "Accept": "application/json" } });
           clearTimeout(to);
-          if (seq !== _sugSeq) return [];
-          if (!res.ok) return [];
+          if (seq !== _sugSeq || !res.ok) return [];
           const data = await res.json();
-          const out = (Array.isArray(data)?data:[]).map(hit => {
+          return (Array.isArray(data)?data:[]).map(hit => {
             const a = hit.address || {};
             const country = a.country || ""; const cc = (a.country_code||"").toUpperCase();
             const st = a.state || a.region || a.province || a.state_district || "";
             const city = a.city || a.town || a.village || a.municipality || a.hamlet || "";
             const t = String(hit.addresstype || hit.type || "").toLowerCase();
-            let kind = "place", name = "", code = "", label = "", value = "", hintCountry = country;
+            let kind="place", name="", code="", label="", value="";
             if (t === "country") { kind="country"; name=country || hit.name || raw; code=cc; label=(cc?cc+" - ":"")+name; value=cc||name; }
             else if (t === "state" || t === "region" || t === "province" || t === "state_district" || t === "administrative") { kind="state"; name=st || hit.name || raw; label=name+(country?(", "+country):""); value=name; }
             else if (city || t==="city"||t==="town"||t==="village"||t==="municipality"||t==="hamlet"||t==="suburb"||t==="county") { kind="city"; name=city || hit.name || raw; label=name+(st?(", "+st):"")+(country?(", "+country):""); value=name; }
             else { kind="place"; name=hit.name || String(hit.display_name||raw).split(",")[0]; label=String(hit.display_name||name).split(",").slice(0,3).join(",").trim(); value=name; }
-            if (!name) return null;
-            return {label, value, code, name, kind, country: hintCountry, state: st};
+            return _normSug({label, value, code, name, kind, country, state: st});
           }).filter(Boolean);
-          _sugCache.set(key, out);
-          return out;
         } catch (_) { return []; }
+      }
+      async function _fetchPhotonSug(raw, seq) {
+        try {
+          const controller = new AbortController();
+          const to = setTimeout(() => controller.abort(), 3500);
+          const url = "https://photon.komoot.io/api/?q=" + encodeURIComponent(raw) + "&limit=5&lang=en";
+          const res = await fetch(url, { signal: controller.signal, headers: { "Accept": "application/json" } });
+          clearTimeout(to);
+          if (seq !== _sugSeq || !res.ok) return [];
+          const data = await res.json();
+          const feats = Array.isArray(data && data.features) ? data.features : [];
+          return feats.map(f => {
+            const p = f.properties || {};
+            const country = p.country || ""; const cc = (p.countrycode||"").toUpperCase();
+            const st = p.state || p.county || "";
+            const city = p.city || p.town || p.village || p.name || "";
+            const osmType = String(p.osm_value || p.type || "").toLowerCase();
+            let kind="place", name="", code="", label="", value="";
+            if (osmType === "country" || p.type === "country") { kind="country"; name=country || p.name || raw; code=cc; label=(cc?cc+" - ":"")+name; value=cc||name; }
+            else if (p.type === "state" || osmType === "state" || osmType === "province" || osmType === "region") { kind="state"; name=p.name || st || raw; label=name+(country?(", "+country):""); value=name; }
+            else if (p.type === "city" || p.type === "town" || p.type === "village" || p.type === "district" || p.type === "locality") { kind="city"; name=p.name || city || raw; label=name+(st?(", "+st):"")+(country?(", "+country):""); value=name; }
+            else { name=p.name || city || raw; label=[name, st, country].filter(Boolean).join(", ") || name; value=name; }
+            return _normSug({label, value, code, name, kind, country, state: st});
+          }).filter(Boolean);
+        } catch (_) { return []; }
+      }
+      async function _remoteLocSuggest(q, seq) {
+        const raw = String(q||"").trim();
+        if (raw.length < 2) return [];
+        const key = raw.toLowerCase();
+        if (_sugCache.has(key)) return _sugCache.get(key);
+        const [a, b] = await Promise.all([_fetchNominatimSug(raw, seq), _fetchPhotonSug(raw, seq)]);
+        if (seq !== _sugSeq) return [];
+        const merged = _mergeSug(a, b); // dedupe across providers
+        _sugCache.set(key, merged);
+        return merged;
       }
       function _updateLocSuggest() {
         const inp = document.getElementById("zipInput"); if (!inp) return;
