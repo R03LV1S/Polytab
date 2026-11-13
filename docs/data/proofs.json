@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "updated_at": null,
+  "source": { "type": "github_issues", "repository": "R03LV1S/Polytab", "label": "proof" },
+  "integrity": { "counts_fabricated": false, "note": "Proof entries are sourced from public GitHub issues matched to canonical project IDs. Review issue state/contents for verification status." },
+  "stats": { "issues_considered": 0, "proofs_accepted": 0, "invalid_or_unmatched": 0, "projects_with_proofs": 0 },
+  "projects": {}
+}
