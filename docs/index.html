@@ -735,7 +735,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         }
         renderProposalsGrid();
       }
-      let state = { proposals: [], markets: [], selectedCategory: PARENT_CHARITIES, selectedStatus: "ALL", searchQuery: "", plainLanguageMode: false, highContrastMode: false, liteMode: false, connectedAddress: null, socialHandle: localStorage.getItem("polytab_handle") || "", activeModalProposal: null, mapInstance: null, expandedParents: { [PARENT_CHARITIES]: true, [PARENT_SPECULATIVE]: false, [PARENT_VOTING]: false }, showAllCategoriesSection: true, endorsements: loadEndorsements(), verifiedEndorsements: null, endorsementsSnapshotStatus: "loading", page: 1, sortBy: "default", zipQuery: "", zipLat: null, zipLng: null, zipResolvedCode: null };
+      let state = { proposals: [], markets: [], selectedCategory: PARENT_CHARITIES, selectedStatus: "ALL", searchQuery: "", plainLanguageMode: false, highContrastMode: false, liteMode: false, connectedAddress: null, socialHandle: localStorage.getItem("polytab_handle") || "", activeModalProposal: null, mapInstance: null, expandedParents: { [PARENT_CHARITIES]: true, [PARENT_SPECULATIVE]: false, [PARENT_VOTING]: false }, showAllCategoriesSection: true, endorsements: loadEndorsements(), verifiedEndorsements: null, endorsementsSnapshotStatus: "loading", page: 1, sortBy: "default", zipQuery: "", zipLat: null, zipLng: null, zipResolvedCode: null, locMode: "none", locKind: null, locCountry: null, locState: null, locCity: null, locLabel: "" };
       function isValidAddress(addr) { return /^0x[a-fA-F0-9]{40}$/.test(String(addr || "").trim()); }
       function isValidTxHash(hash) { return /^0x[a-fA-F0-9]{64}$/.test(String(hash || "").trim()); }
       async function loadFeedState() {
@@ -1195,7 +1195,8 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           const q = state.searchQuery.toLowerCase();
           const matchesSearch = !q || item.title.toLowerCase().includes(q) || item.location.toLowerCase().includes(q) || item.category.toLowerCase().includes(q) || item.summary.toLowerCase().includes(q);
           if (!(matchesCat && matchesStatus && matchesSearch)) return false;
-          if (state.locMode === "zip" && state.zipLat != null && state.zipLng != null) {
+          if (state.locMode === "zip") {
+            if (state.zipLat == null || state.zipLng == null) return false;
             const d = itemDistanceMiles(item);
             if (d == null || d > 50) return false;
           } else if (state.locMode === "place") {
