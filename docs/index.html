@@ -1108,8 +1108,9 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           return;
         }
         state.zipQuery = query; state.locLabel = query;
-        // Suggestion-picked place: filter to that city/state/country (no radius)
-        if (hint && hint.kind && hint.kind !== "zip") {
+        const queryLooksPostal = /^\d{5}(-\d{4})?$/.test(query) || (/^[A-Za-z0-9][A-Za-z0-9 -]{1,10}[A-Za-z0-9]?$/.test(query) && /\d/.test(query) && query.length <= 12 && !/^[A-Za-z]{2}$/.test(query));
+        // Suggestion-picked place: filter to that city/state/country (no radius), unless query is a postal/ZIP code (then use radius)
+        if (hint && hint.kind && hint.kind !== "zip" && !queryLooksPostal) {
           clearLoc();
           state.zipQuery = query; state.locLabel = hint.name || query;
           state.locMode = "place"; state.locKind = hint.kind;
@@ -1128,7 +1129,8 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           const controller = new AbortController();
           const timeout = setTimeout(() => controller.abort(), 5000);
           let lat = NaN, lng = NaN, label = query, mode = "zip", locKind = "zip", country = null, stName = null, city = null;
-          const isUsZip = /^d{5}(-d{4})?$/.test(query);
+          const isUsZip = /^\d{5}(-\d{4})?$/.test(query);
+          const looksPostal = isUsZip || (/^[A-Za-z0-9][A-Za-z0-9 -]{1,10}[A-Za-z0-9]?$/.test(query) && /\d/.test(query) && query.length <= 12);
           let handled = false;
           if (isUsZip) {
             try {
@@ -1164,8 +1166,8 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
             stName = addr.state || addr.region || addr.province || addr.state_district || null;
             city = addr.city || addr.town || addr.village || addr.municipality || addr.hamlet || null;
             const aType = String(hit.addresstype || hit.type || hit.class || "").toLowerCase();
-            const isPostcode = aType === "postcode" || aType === "postal_code" || /d/.test(query) && query.length <= 12 && /^[A-Za-z0-9][A-Za-z0-9 -]{1,10}[A-Za-z0-9]?$/.test(query) && !/^[A-Za-z]{2}$/.test(query);
-            if (isPostcode) {
+            const isPostcode = aType === "postcode" || aType === "postal_code" || (queryLooksPostal && aType !== "country" && aType !== "state" && aType !== "region" && aType !== "province");
+            if (isPostcode || queryLooksPostal) {
               mode = "zip"; locKind = "zip";
               label = (addr.postcode || query) + (city ? (" - " + city) : (stName ? (" - " + stName) : "")) + (country ? (", " + country) : "");
             } else if (aType === "country") {
@@ -1764,7 +1766,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         for (const sc of scored) { const vk = (String(sc.it.value||sc.it.label)).toLowerCase()+"|"+sc.it.kind; if (seenVal.has(vk)) continue; seenVal.add(vk); out.push(sc.it); }
         return out;
       }
-      let _sugSeq = 0, _sugTimer = null, _sugCache = new Map();
+      let _sugSeq = 0, _sugTimer = null, _sugCache = new Map(), _sugSelecting = false;
       function _mergeSug(local, remote) {
         const out = []; const seen = new Set();
         const add = (it) => { if(!it) return; const k = (String(it.label||"")+"|"+String(it.value||"")+"|"+String(it.kind||"")).toLowerCase(); if(seen.has(k)) return; seen.add(k); out.push(it); };
@@ -1781,12 +1783,18 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           btn.type = "button";
           btn.className = "w-full text-left px-3 py-2 text-xs text-zinc-200 hover:bg-zinc-800 border-b border-zinc-800 last:border-b-0";
           btn.textContent = it.label;
-          btn.addEventListener("mousedown", (ev) => { ev.preventDefault(); });
+          btn.addEventListener("mousedown", (ev) => { ev.preventDefault(); _sugSelecting = true; });
           btn.addEventListener("click", () => {
             const inp = document.getElementById("zipInput");
-            if (inp) inp.value = it.value || it.name || it.label;
+            const typed = inp ? String(inp.value || "").trim() : "";
+            const pickedVal = it.value || it.name || it.label;
+            const typedPostal = /^\d{5}(-\d{4})?$/.test(typed) || (/^[A-Za-z0-9][A-Za-z0-9 -]{1,10}[A-Za-z0-9]?$/.test(typed) && /\d/.test(typed) && typed.length <= 12 && !/^[A-Za-z]{2}$/.test(typed));
+            const resolveVal = typedPostal ? typed : pickedVal;
+            const resolveHint = typedPostal ? { kind: "zip", name: it.name || it.label || typed, code: typed } : it;
+            if (inp) inp.value = typedPostal ? typed : pickedVal;
             box.classList.add("hidden");
-            resolveZip(it.value || it.name || it.label, it);
+            resolveZip(resolveVal, resolveHint);
+            setTimeout(() => { _sugSelecting = false; }, 0);
           });
           box.appendChild(btn);
         });
@@ -1861,16 +1869,25 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       function _updateLocSuggest() {
         const inp = document.getElementById("zipInput"); if (!inp) return;
         const q = inp.value || "";
+        const raw = String(q).trim();
         const local = _locSuggestLocal(q);
-        _renderLocSuggest(local.slice(0,5));
-        if (String(q).trim().length < 2) return;
+        let initial = local.slice(0,5);
+        const isPostal = /^\d{5}(-\d{4})?$/.test(raw) || (/^[A-Za-z0-9][A-Za-z0-9 -]{1,10}[A-Za-z0-9]?$/.test(raw) && /\d/.test(raw) && raw.length <= 12 && !/^[A-Za-z]{2}$/.test(raw));
+        if (isPostal && raw) {
+          const zipOpt = { label: raw + " — search within 50 mi", value: raw, code: raw, name: raw, kind: "zip" };
+          initial = _mergeSug([zipOpt], initial);
+        }
+        _renderLocSuggest(initial);
+        if (raw.length < 2) return;
         const seq = ++_sugSeq;
         if (_sugTimer) clearTimeout(_sugTimer);
         _sugTimer = setTimeout(async () => {
           const remote = await _remoteLocSuggest(q, seq);
           if (seq !== _sugSeq) return;
           if (document.activeElement !== inp) return;
-          _renderLocSuggest(_mergeSug(_locSuggestLocal(q), remote));
+          let merged = _mergeSug(_locSuggestLocal(q), remote);
+          if (isPostal) merged = _mergeSug([{ label: raw + " — search within 50 mi", value: raw, code: raw, name: raw, kind: "zip" }], merged);
+          _renderLocSuggest(merged);
         }, 250);
       }
       const zipInputEl = document.getElementById("zipInput");
@@ -1879,7 +1896,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         zipInputEl.value = state.zipQuery || "";
         zipInputEl.addEventListener("input", _updateLocSuggest);
         zipInputEl.addEventListener("focus", _updateLocSuggest);
-        zipInputEl.addEventListener("change", () => resolveZip(zipInputEl.value));
+        zipInputEl.addEventListener("change", () => { if (_sugSelecting) return; resolveZip(zipInputEl.value); });
         zipInputEl.addEventListener("keydown", (e) => {
           if (e.key === "Enter") { e.preventDefault(); if (zipSuggestEl) zipSuggestEl.classList.add("hidden"); resolveZip(zipInputEl.value); }
           if (e.key === "Escape") { if (zipSuggestEl) zipSuggestEl.classList.add("hidden"); }
