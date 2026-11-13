@@ -265,8 +265,8 @@ function toQueueBlock(ev, id) {
       600
     ),
     plainSummary: [
-      "• What is broken: " + ev.headline,
-      "• What will be done: A verified organization pairing converts this event into a fundable, escrowed civic outcome.",
+      "• Cause: " + ev.headline,
+      "• Resolution: A verified organization pairing converts this event into a fundable, escrowed civic outcome.",
       "• Proof: " + ev.url + " (public reporting; verification trail in docs/data/event-queue.json)"
     ].join("\n"),
     votePriceUSD: 0.50,

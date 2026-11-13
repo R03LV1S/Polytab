@@ -73,8 +73,8 @@ function formatBlock(org, id) {
     location: org.location,
     summary: org.summary,
     plainSummary: [
-      "• What is broken: " + org.whatIsBroken,
-      "• What will be done: " + org.whatWillBeDone,
+      "• Cause: " + org.whatIsBroken,
+      "• Resolution: " + org.whatWillBeDone,
       "• Proof: " + org.proof
     ].join("\n"),
     votePriceUSD: org.votePriceUSD || 0.50,

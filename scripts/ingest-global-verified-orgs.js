@@ -572,7 +572,7 @@ function promoteToShelf(reg, maxPromote){
     const tier = (e.verification&&e.verification.tier)||'verified_registry';
     const parentCategory = (idPipeline && idPipeline.PARENT_CHARITIES) ? idPipeline.PARENT_CHARITIES : 'Charities';
     const item={ id, title: org, content_html:'<p>Support the mission of '+org+' (verified record: '+(e.verification.source||e.source)+').</p>', url:'https://polytab.store/#'+id, date_published:new Date().toISOString(),
-      _polytab:{ parentCategory, category:cat, organization:org, location:loc, summary:'Support the mission of '+org+'.', plainSummary:'What is broken: Community needs require trusted support.\nWhat will be done: Fund this organization’s verified mission.\nProof: '+(e.verification.evidence||'Registry/filing evidence')+' ('+(e.verification.source||e.source)+', tier: '+tier+').', votePriceUSD:0.5, targetUSD:500, fundedUSD:0, votesCount:0, contract:walletFor(id), status:'Active', lat:la, lng:ln, website:site, socials:{} }
+      _polytab:{ parentCategory, category:cat, organization:org, location:loc, summary:'Support the mission of '+org+'.', plainSummary:'Cause: Community needs require trusted support.\nResolution: Fund this organization’s verified mission.\nProof: '+(e.verification.evidence||'Registry/filing evidence')+' ('+(e.verification.source||e.source)+', tier: '+tier+').', votePriceUSD:0.5, targetUSD:500, fundedUSD:0, votesCount:0, contract:walletFor(id), status:'Active', lat:la, lng:ln, website:site, socials:{} }
     };
     feed.items.push(item); existing.add(org.toLowerCase()); added++;
   }

@@ -144,8 +144,8 @@ test("toQueueBlock: exact 15-field block, bullets, honest-zero, radar provenance
   assert.strictEqual(b.lat, null);
   assert.strictEqual(b.lng, null);
   // Bullets format
-  assert.ok(b.plainSummary.startsWith("• What is broken: "));
-  assert.ok(b.plainSummary.includes("\n• What will be done: "));
+  assert.ok(b.plainSummary.startsWith("• Cause: "));
+  assert.ok(b.plainSummary.includes("\n• Resolution: "));
   assert.ok(b.plainSummary.includes("\n• Proof: "));
   // Wallet + provenance
   assert.ok(/^0x71E[0]{34}601$/.test(b.wallet));
