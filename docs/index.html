@@ -616,6 +616,11 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
   </footer>
 
   <script>
+    // Cloud endorsement backend (optional): set to your Cloudflare Worker URL, e.g. "https://polytab-endorsement-ledger.<subdomain>.workers.dev"
+    // Leave empty "" to keep using GitHub-issue endorsements only.
+    window.POLYTAB_ENDORSEMENT_API = window.POLYTAB_ENDORSEMENT_API || "";
+  </script>
+  <script>
     (function () {
       "use strict";
       const GITHUB_OWNER = "r03lv1s";
