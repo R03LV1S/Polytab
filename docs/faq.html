@@ -55,7 +55,7 @@
       <p><strong>Short answer:</strong> The Project Wallet is an EVM-compatible <code>0x</code> address that your project controls. It&rsquo;s where funds go once your project is funded and claimed by a verified organization (or, for bounty pages without a claim, the funds are swept on-chain to the payout wallet the verified organization supplies). You never share a private key or seed phrase with Polytab.</p>
 
       <h3>What is an EVM 0x address?</h3>
-      <p>An EVM (Ethereum Virtual Machine) address is a 42-character hexadecimal address starting with <code>0x</code>, for example <code>0x1e89ff2c2922528c8cEB0dB07F73ef979Ea76C08</code>. It works on Base (chain ID <code>8453</code>) and Polygon, which are the networks Polytab uses. Think of it as the project&rsquo;s public account number &mdash; anyone can send funds to it or see what&rsquo;s in it, but only whoever holds the private key can move funds out.</p>
+      <p>An EVM (Ethereum Virtual Machine) address is a 42-character hexadecimal address starting with <code>0x</code>, for example <code>0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08</code>. It works on Base (chain ID <code>8453</code>) and Polygon, which are the networks Polytab uses. Think of it as the project&rsquo;s public account number &mdash; anyone can send funds to it or see what&rsquo;s in it, but only whoever holds the private key can move funds out.</p>
 
       <h3>Why does Polytab ask for it?</h3>
       <ul>
@@ -156,7 +156,7 @@
       <h2>Funds, Fees &amp; Custody</h2>
 
       <h3>Who holds the money?</h3>
-      <p>For unclaimed bounties: <strong>Polytab does</strong>, and that&rsquo;s deliberate. Micro-transactions settle on Base into one Polytab-managed escrow address (<code>0x1e89ff2c2922528c8cEB0dB07F73ef979Ea76C08</code>). We keep it custodial until the organization verifies its claim &mdash; then sweeps go on-chain to its payout wallet. For user-created projects, your own payout wallet is yours alone; Polytab never takes keys.</p>
+      <p>For unclaimed bounties: <strong>Polytab does</strong>, and that&rsquo;s deliberate. Micro-transactions settle on Base into one Polytab-managed escrow address (<code>0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08</code>). We keep it custodial until the organization verifies its claim &mdash; then sweeps go on-chain to its payout wallet. For user-created projects, your own payout wallet is yours alone; Polytab never takes keys.</p>
 
       <h3>Where does the bounty go when a project succeeds?</h3>
       <p>Once the action&rsquo;s proof-of-work and verification checks are complete (geo-tagged evidence, public commit, video, etc., within the 48&ndash;72h public dispute window), funds in the escrow designation for that bounty are swept to the verified organization&rsquo;s payout wallet. If the claim never completes, funds convert to USD and are donated to the organization&rsquo;s official fund &mdash; never to Polytab. There is no automatic refund back to you; see the &ldquo;proposal that isn&rsquo;t approved&rdquo; answer further down.</p>

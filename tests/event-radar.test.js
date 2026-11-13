@@ -98,7 +98,7 @@ test("keywordMatch: 'sick' must not match 'sickens'", () => {
 });
 
 // --- Escrow routing (shared Polytab-managed escrow, Base) ---
-const ESCROW_WALLET = "0x1e89ff2c2922528c8cEB0dB07F73ef979Ea76C08";
+const ESCROW_WALLET = "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08";
 test("walletFor returns the shared Polytab escrow address", () => {
   assert.strictEqual(walletFor(601), ESCROW_WALLET);
   assert.strictEqual(walletFor(999), ESCROW_WALLET);

@@ -9,7 +9,7 @@
 //   url:     "https://polytab.store/#<id>"
 // Invariants: never reuse/renumber existing IDs; fundedUSD/votesCount honest-zero until real on-chain votes exist.
 
-const ESCROW_WALLET = "0x1e89ff2c2922528c8cEB0dB07F73ef979Ea76C08";
+const ESCROW_WALLET = "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08";
 const PARENT_CHARITIES = "Charities";
 const PARENT_SPECULATIVE = "Speculative";
 const PARENT_VOTING = "Voting";
@@ -130,7 +130,7 @@ function collectNumericIds(items) {
 function idCompartmentalizationMeta() {
   return {
     version: 4,
-    note: "Scaffolded ID identification pipeline (bloc format). Numeric IDs are compartmentalized by parent range and leaf subcategory block for structure and routing only. All unclaimed bounties settle into the shared Polytab-managed escrow on Base (0x1e89ff2c2922528c8cEB0dB07F73ef979Ea76C08); verified organizations replace it with their own payout wallet. Never renumber existing IDs.",
+    note: "Scaffolded ID identification pipeline (bloc format). Numeric IDs are compartmentalized by parent range and leaf subcategory block for structure and routing only. All unclaimed bounties settle into the shared Polytab-managed escrow on Base (0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08); verified organizations replace it with their own payout wallet. Never renumber existing IDs.",
     bloc_format: {
       id: "<numeric string>",
       url: "https://polytab.store/#<id>",

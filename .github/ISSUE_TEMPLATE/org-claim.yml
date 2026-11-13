@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Claim a Polytab bounty page on behalf of an organization. Funds sit in the Polytab-managed escrow on Base (0x1e89ff2c2922528c8cEB0dB07F73ef979Ea76C08) until verification, then are swept on-chain to the payout wallet you provide below.
+        Claim a Polytab bounty page on behalf of an organization. Funds sit in the Polytab-managed escrow on Base (0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08) until verification, then are swept on-chain to the payout wallet you provide below.
         Before submitting, read the full policy (verification, sweeps, unclaimed funds) at https://polytab.store/claim.html.
   - type: input
     id: org_name

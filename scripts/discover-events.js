@@ -219,7 +219,7 @@ function isRecent(dateIso, nowMs, maxAgeDays) {
 }
 
 // All unclaimed bounties route to the shared Polytab-managed escrow on Base
-const ESCROW_WALLET = "0x1e89ff2c2922528c8cEB0dB07F73ef979Ea76C08";
+const ESCROW_WALLET = "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08";
 function walletFor(_id) {
   return ESCROW_WALLET;
 }

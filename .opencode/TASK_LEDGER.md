@@ -1,6 +1,6 @@
 # TASK LEDGER — Polytab: consolidated escrow for unclaimed bounties
 
-**Decision (user, Nov 13 2026):** Option 3 — all unclaimed charity/bounty/market/radar wallets render to one Polytab-managed escrow on Base (`0x1e89ff2c2922528c8cEB0dB07F73ef979Ea76C08`). Orgs request funds via verification; sweeps happen either:
+**Decision (user, Nov 13 2026):** Option 3 — all unclaimed charity/bounty/market/radar wallets render to one Polytab-managed escrow on Base (`0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08`). Orgs request funds via verification; sweeps happen either:
 - **(a) Claimed:** on-chain transfer to the payout wallet the verified org provides (GitHub claim issue → admin verification → sweep).
 - **(b) Never claimed:** conversion to USD and donation to the org's verified external fund (website donation page / GoFundMe), with receipts/screenshots posted to GitHub (`org-sweep` labeled issues).
 User takes custody/liability knowingly; site copy/Terms must reflect custody honestly.

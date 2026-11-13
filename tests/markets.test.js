@@ -78,7 +78,7 @@ test("honest-zero: every market starts unfunded with an unset forecast split", (
 });
 
 test("every outcome routes to the shared Polytab-managed Base escrow", () => {
-  const ESCROW = "0x1e89ff2c2922528c8cEB0dB07F73ef979Ea76C08";
+  const ESCROW = "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08";
   for (const m of marketsFile.markets) {
     assert.ok(m.outcomes.length >= 2, m.id + " needs at least two outcomes");
     for (const o of m.outcomes) {
