@@ -1075,52 +1075,104 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         if (item.lat == null || item.lng == null || !Number.isFinite(Number(item.lat)) || !Number.isFinite(Number(item.lng))) return null;
         return haversineMiles(state.zipLat, state.zipLng, Number(item.lat), Number(item.lng));
       }
-      async function resolveZip(zipRaw) {
+      async function resolveZip(zipRaw, hint) {
         const query = String(zipRaw || "").trim();
         const statusEl = document.getElementById("zipStatus");
+        const clearLoc = () => { state.zipQuery=""; state.zipLat=null; state.zipLng=null; state.zipResolvedCode=null; state.locMode="none"; state.locKind=null; state.locCountry=null; state.locState=null; state.locCity=null; state.locLabel=""; };
         if (!query) {
-          state.zipQuery = ""; state.zipLat = null; state.zipLng = null; state.zipResolvedCode = null;
+          clearLoc();
           if (statusEl) statusEl.textContent = "Enter Location to filter within 50 mi.";
           state.page = 1; renderProposalsGrid();
           return;
         }
-        state.zipQuery = query;
+        state.zipQuery = query; state.locLabel = query;
+        // Suggestion-picked place: filter to that city/state/country (no radius)
+        if (hint && hint.kind && hint.kind !== "zip") {
+          clearLoc();
+          state.zipQuery = query; state.locLabel = hint.name || query;
+          state.locMode = "place"; state.locKind = hint.kind;
+          state.zipResolvedCode = hint.code || query;
+          if (hint.kind === "country") { state.locCountry = hint.name || query; state.locState = null; state.locCity = null; }
+          else if (hint.kind === "state" || hint.kind === "province") { state.locState = hint.name || query; state.locCountry = hint.country || null; state.locCity = null; }
+          else if (hint.kind === "city") { state.locCity = hint.name || query; state.locState = hint.state || null; state.locCountry = hint.country || null; }
+          else { state.locCountry = hint.country || null; state.locState = hint.state || null; state.locCity = hint.name || null; }
+          const disp = hint.name || query;
+          if (statusEl) statusEl.textContent = "Showing bounties in " + disp + (hint.code && (hint.kind === "state" || hint.kind === "province" || hint.kind === "country") ? " (" + hint.code + ")" : "") + ".";
+          state.page = 1; renderProposalsGrid();
+          return;
+        }
         if (statusEl) statusEl.textContent = "Looking up location…";
         try {
           const controller = new AbortController();
           const timeout = setTimeout(() => controller.abort(), 5000);
-          let lat = NaN, lng = NaN, label = query;
-          if (/^\d{5}(-\d{4})?$/.test(query)) {
-            const z5 = query.slice(0, 5);
-            const res = await fetch("https://api.zippopotam.us/us/" + z5, { signal: controller.signal });
-            clearTimeout(timeout);
-            if (!res.ok) throw new Error("not found");
-            const data = await res.json();
-            const place = data && data.places && data.places[0];
-            lat = place ? parseFloat(place.latitude) : NaN;
-            lng = place ? parseFloat(place.longitude) : NaN;
-            const placeName = place && (place["place name"] || "");
-            const st = place && (place["state abbreviation"] || "");
-            label = z5 + (placeName ? (" - " + placeName + (st ? ", " + st : "")) : "");
-            state.zipResolvedCode = z5;
-          } else {
-            const res = await fetch("https://nominatim.openstreetmap.org/search?format=json&limit=1&q=" + encodeURIComponent(query), {
+          let lat = NaN, lng = NaN, label = query, mode = "zip", locKind = "zip", country = null, stName = null, city = null;
+          const isUsZip = /^d{5}(-d{4})?$/.test(query);
+          let handled = false;
+          if (isUsZip) {
+            try {
+              const z5 = query.slice(0, 5);
+              const res = await fetch("https://api.zippopotam.us/us/" + z5, { signal: controller.signal });
+              if (res.ok) {
+                const data = await res.json();
+                const place = data && data.places && data.places[0];
+                lat = place ? parseFloat(place.latitude) : NaN;
+                lng = place ? parseFloat(place.longitude) : NaN;
+                if (Number.isFinite(lat) && Number.isFinite(lng)) {
+                  const placeName = place && (place["place name"] || "");
+                  const st = place && (place["state abbreviation"] || "");
+                  label = z5 + (placeName ? (" - " + placeName + (st ? (", " + st) : "")) : "");
+                  state.zipResolvedCode = z5; mode = "zip"; locKind = "zip"; country = "United States";
+                  handled = true;
+                }
+              }
+            } catch (_) { /* fall through to nominatim for non-US 5-digit codes */ }
+          }
+          if (!handled) {
+            const res = await fetch("https://nominatim.openstreetmap.org/search?format=json&limit=1&addressdetails=1&q=" + encodeURIComponent(query), {
               signal: controller.signal, headers: { "Accept": "application/json" }
             });
             clearTimeout(timeout);
             if (!res.ok) throw new Error("not found");
             const data = await res.json();
             const hit = Array.isArray(data) ? data[0] : null;
-            lat = hit ? parseFloat(hit.lat) : NaN;
-            lng = hit ? parseFloat(hit.lon) : NaN;
-            label = hit && hit.display_name ? String(hit.display_name).split(",").slice(0, 3).join(",").trim() : query;
+            if (!hit) throw new Error("not found");
+            lat = parseFloat(hit.lat); lng = parseFloat(hit.lon);
+            const addr = hit.address || {};
+            country = addr.country || null;
+            stName = addr.state || addr.region || addr.province || addr.state_district || null;
+            city = addr.city || addr.town || addr.village || addr.municipality || addr.hamlet || null;
+            const aType = String(hit.addresstype || hit.type || hit.class || "").toLowerCase();
+            const isPostcode = aType === "postcode" || aType === "postal_code" || /d/.test(query) && query.length <= 12 && /^[A-Za-z0-9][A-Za-z0-9 -]{1,10}[A-Za-z0-9]?$/.test(query) && !/^[A-Za-z]{2}$/.test(query);
+            if (isPostcode) {
+              mode = "zip"; locKind = "zip";
+              label = (addr.postcode || query) + (city ? (" - " + city) : (stName ? (" - " + stName) : "")) + (country ? (", " + country) : "");
+            } else if (aType === "country") {
+              mode = "place"; locKind = "country"; city = null; stName = null;
+              label = country || hit.display_name || query;
+            } else if (aType === "state" || aType === "region" || aType === "province" || aType === "state_district" || aType === "administrative") {
+              mode = "place"; locKind = "state";
+              label = (stName || query) + (country ? (", " + country) : "");
+              if (!stName) stName = query;
+            } else if (city || aType === "city" || aType === "town" || aType === "village" || aType === "municipality" || aType === "hamlet" || aType === "suburb" || aType === "county") {
+              mode = "place"; locKind = "city";
+              label = (city || query) + (stName ? (", " + stName) : "") + (country ? (", " + country) : "");
+              if (!city) city = query;
+            } else {
+              mode = "place"; locKind = stName ? "state" : "country";
+              label = hit.display_name ? String(hit.display_name).split(",").slice(0,3).join(",").trim() : query;
+            }
             state.zipResolvedCode = query;
           }
           if (!Number.isFinite(lat) || !Number.isFinite(lng)) throw new Error("no coords");
-          state.zipLat = lat; state.zipLng = lng;
-          if (statusEl) statusEl.textContent = "Showing bounties within 50 mi of " + label + ".";
+          state.zipLat = lat; state.zipLng = lng; state.locMode = mode; state.locKind = locKind; state.locLabel = label;
+          state.locCountry = country; state.locState = (mode === "zip" ? null : stName); state.locCity = (mode === "zip" ? null : city);
+          if (statusEl) {
+            if (mode === "zip") statusEl.textContent = "Showing bounties within 50 mi of " + label + ".";
+            else statusEl.textContent = "Showing bounties in " + (label || query) + ".";
+          }
         } catch (_) {
-          state.zipLat = null; state.zipLng = null; state.zipResolvedCode = null;
+          clearLoc();
+          state.zipQuery = query;
           if (statusEl) statusEl.textContent = "Could not resolve location. Showing all bounties.";
         }
         state.page = 1; renderProposalsGrid();
@@ -1632,7 +1684,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       const _LOC_US = [["AL","Alabama"],["AK","Alaska"],["AZ","Arizona"],["AR","Arkansas"],["CA","California"],["CO","Colorado"],["CT","Connecticut"],["DE","Delaware"],["DC","District of Columbia"],["FL","Florida"],["GA","Georgia"],["HI","Hawaii"],["ID","Idaho"],["IL","Illinois"],["IN","Indiana"],["IA","Iowa"],["KS","Kansas"],["KY","Kentucky"],["LA","Louisiana"],["ME","Maine"],["MD","Maryland"],["MA","Massachusetts"],["MI","Michigan"],["MN","Minnesota"],["MS","Mississippi"],["MO","Missouri"],["MT","Montana"],["NE","Nebraska"],["NV","Nevada"],["NH","New Hampshire"],["NJ","New Jersey"],["NM","New Mexico"],["NY","New York"],["NC","North Carolina"],["ND","North Dakota"],["OH","Ohio"],["OK","Oklahoma"],["OR","Oregon"],["PA","Pennsylvania"],["RI","Rhode Island"],["SC","South Carolina"],["SD","South Dakota"],["TN","Tennessee"],["TX","Texas"],["UT","Utah"],["VT","Vermont"],["VA","Virginia"],["WA","Washington"],["WV","West Virginia"],["WI","Wisconsin"],["WY","Wyoming"],["PR","Puerto Rico"],["GU","Guam"],["VI","U.S. Virgin Islands"],["AS","American Samoa (US)"],["MP","Northern Mariana Islands"]];
       const _LOC_CA = [["AB","Alberta"],["BC","British Columbia"],["MB","Manitoba"],["NB","New Brunswick"],["NL","Newfoundland and Labrador"],["NS","Nova Scotia"],["NT","Northwest Territories"],["NU","Nunavut"],["ON","Ontario"],["PE","Prince Edward Island"],["QC","Quebec"],["SK","Saskatchewan"],["YT","Yukon"]];
       const _LOC_AU = [["NSW","New South Wales"],["VIC","Victoria"],["QLD","Queensland"],["WA","Western Australia"],["SA","South Australia"],["TAS","Tasmania"],["ACT","Australian Capital Territory"],["NT","Northern Territory (AU)"]];
-      const _LOC_CITIES = ["Florence","Flint","Flagstaff","Fresno","Frankfurt","Fukuoka","Fortaleza","Florianópolis","Fairfax","Fayetteville","Fort Worth","Fort Lauderdale","Fargo","Farmington","Frederick","Falls Church","Florissant","Folsom","Fontana","Los Angeles","New York","Chicago","Houston","Phoenix","Philadelphia","San Antonio","San Diego","Dallas","San Jose","Austin","Jacksonville","San Francisco","Seattle","Denver","Boston","Atlanta","Miami","Detroit","London","Paris","Berlin","Madrid","Rome","Toronto","Vancouver","Montreal","Sydney","Melbourne","Brisbane","Perth","Tokyo","Osaka","Seoul","Beijing","Shanghai","Mumbai","Delhi","Bangalore","Mexico City","São Paulo","Buenos Aires","Lima","Bogotá","Santiago","Cairo","Lagos","Nairobi","Johannesburg","Dubai","Istanbul","Moscow","Warsaw","Prague","Vienna","Zurich","Amsterdam","Dublin","Stockholm","Copenhagen","Oslo","Helsinki","Calgary","Edmonton","Ottawa","Winnipeg"];
+      const _LOC_CITIES = ["Tampa","Tallahassee","Tacoma","Taipei","Tallinn","Tashkent","Tbilisi","Tehran","Tel Aviv","Tempe","Toledo","Tucson","Tulsa","Turin","Florence","Flint","Flagstaff","Fresno","Frankfurt","Fukuoka","Fortaleza","Florianópolis","Fairfax","Fayetteville","Fort Worth","Fort Lauderdale","Fargo","Farmington","Frederick","Falls Church","Florissant","Folsom","Fontana","Los Angeles","New York","Chicago","Houston","Phoenix","Philadelphia","San Antonio","San Diego","Dallas","San Jose","Austin","Jacksonville","San Francisco","Seattle","Denver","Boston","Atlanta","Miami","Detroit","Orlando","Portland","Sacramento","Charlotte","Nashville","Baltimore","Milwaukee","Kansas City","Las Vegas","Minneapolis","Cleveland","Raleigh","Pittsburgh","Cincinnati","London","Paris","Berlin","Madrid","Rome","Toronto","Vancouver","Montreal","Sydney","Melbourne","Brisbane","Perth","Tokyo","Osaka","Seoul","Beijing","Shanghai","Mumbai","Delhi","Bangalore","Mexico City","São Paulo","Buenos Aires","Lima","Bogotá","Santiago","Cairo","Lagos","Nairobi","Johannesburg","Dubai","Istanbul","Moscow","Warsaw","Prague","Vienna","Zurich","Amsterdam","Dublin","Stockholm","Copenhagen","Oslo","Helsinki","Calgary","Edmonton","Ottawa","Winnipeg","Hamilton","Quebec City","Halifax","Madison","Memphis","Mesa","Mobile","Montgomery","Monterrey","Munich","Manchester","Marseille","Medellín","Manila"];
       const _LOC_ITEMS = [];
       _LOC_COUNTRIES.forEach(([c,n]) => { _LOC_ITEMS.push({label:c+" - "+n, value:c, code:c, name:n, kind:"country"}); _LOC_ITEMS.push({label:n, value:n, code:c, name:n, kind:"country"}); });
       _LOC_US.forEach(([c,n]) => { _LOC_ITEMS.push({label:c+" - "+n+" (US)", value:c, code:c, name:n, kind:"state", country:"United States"}); _LOC_ITEMS.push({label:n, value:n, code:c, name:n, kind:"state", country:"United States"}); });
@@ -1641,7 +1693,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       _LOC_CITIES.forEach(n => _LOC_ITEMS.push({label:n, value:n, code:"", name:n, kind:"city"}));
       const _LOC_SEEN = new Set();
       const _LOC_UNIQ = _LOC_ITEMS.filter(it => { const k = it.label.toLowerCase(); if (_LOC_SEEN.has(k)) return false; _LOC_SEEN.add(k); return true; });
-      function _locSuggest(q) {
+      function _locSuggestLocal(q) {
         const raw = String(q || "").trim();
         if (!raw) return [];
         const ql = raw.toLowerCase(); const qu = raw.toUpperCase();
@@ -1661,8 +1713,15 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         }
         scored.sort((a,b) => a.score - b.score || a.it.label.localeCompare(b.it.label));
         const out = []; const seenVal = new Set();
-        for (const sc of scored) { const vk = sc.it.value.toLowerCase()+"|"+sc.it.kind; if (seenVal.has(vk)) continue; seenVal.add(vk); out.push(sc.it); if (out.length >= 5) break; }
+        for (const sc of scored) { const vk = (sc.it.value||sc.it.label).toLowerCase()+"|"+sc.it.kind; if (seenVal.has(vk)) continue; seenVal.add(vk); out.push(sc.it); }
         return out;
+      }
+      let _sugSeq = 0, _sugTimer = null, _sugCache = new Map();
+      function _mergeSug(local, remote) {
+        const out = []; const seen = new Set();
+        const add = (it) => { if(!it) return; const k = (String(it.label||"")+"|"+String(it.value||"")+"|"+String(it.kind||"")).toLowerCase(); if(seen.has(k)) return; seen.add(k); out.push(it); };
+        local.forEach(add); remote.forEach(add);
+        return out.slice(0,5);
       }
       function _renderLocSuggest(items) {
         const box = document.getElementById("zipSuggest");
@@ -1677,20 +1736,67 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           btn.addEventListener("mousedown", (ev) => { ev.preventDefault(); });
           btn.addEventListener("click", () => {
             const inp = document.getElementById("zipInput");
-            if (inp) inp.value = it.value;
+            if (inp) inp.value = it.value || it.name || it.label;
             box.classList.add("hidden");
-            resolveZip(it.value, it);
+            resolveZip(it.value || it.name || it.label, it);
           });
           box.appendChild(btn);
         });
         box.classList.remove("hidden");
       }
+      async function _remoteLocSuggest(q, seq) {
+        const raw = String(q||"").trim();
+        if (raw.length < 2) return [];
+        const key = raw.toLowerCase();
+        if (_sugCache.has(key)) return _sugCache.get(key);
+        try {
+          const controller = new AbortController();
+          const to = setTimeout(() => controller.abort(), 3500);
+          const url = "https://nominatim.openstreetmap.org/search?format=json&addressdetails=1&limit=5&q=" + encodeURIComponent(raw);
+          const res = await fetch(url, { signal: controller.signal, headers: { "Accept": "application/json" } });
+          clearTimeout(to);
+          if (seq !== _sugSeq) return [];
+          if (!res.ok) return [];
+          const data = await res.json();
+          const out = (Array.isArray(data)?data:[]).map(hit => {
+            const a = hit.address || {};
+            const country = a.country || ""; const cc = (a.country_code||"").toUpperCase();
+            const st = a.state || a.region || a.province || a.state_district || "";
+            const city = a.city || a.town || a.village || a.municipality || a.hamlet || "";
+            const t = String(hit.addresstype || hit.type || "").toLowerCase();
+            let kind = "place", name = "", code = "", label = "", value = "", hintCountry = country;
+            if (t === "country") { kind="country"; name=country || hit.name || raw; code=cc; label=(cc?cc+" - ":"")+name; value=cc||name; }
+            else if (t === "state" || t === "region" || t === "province" || t === "state_district" || t === "administrative") { kind="state"; name=st || hit.name || raw; label=name+(country?(", "+country):""); value=name; }
+            else if (city || t==="city"||t==="town"||t==="village"||t==="municipality"||t==="hamlet"||t==="suburb"||t==="county") { kind="city"; name=city || hit.name || raw; label=name+(st?(", "+st):"")+(country?(", "+country):""); value=name; }
+            else { kind="place"; name=hit.name || String(hit.display_name||raw).split(",")[0]; label=String(hit.display_name||name).split(",").slice(0,3).join(",").trim(); value=name; }
+            if (!name) return null;
+            return {label, value, code, name, kind, country: hintCountry, state: st};
+          }).filter(Boolean);
+          _sugCache.set(key, out);
+          return out;
+        } catch (_) { return []; }
+      }
+      function _updateLocSuggest() {
+        const inp = document.getElementById("zipInput"); if (!inp) return;
+        const q = inp.value || "";
+        const local = _locSuggestLocal(q);
+        _renderLocSuggest(local.slice(0,5));
+        if (String(q).trim().length < 2) return;
+        const seq = ++_sugSeq;
+        if (_sugTimer) clearTimeout(_sugTimer);
+        _sugTimer = setTimeout(async () => {
+          const remote = await _remoteLocSuggest(q, seq);
+          if (seq !== _sugSeq) return;
+          if (document.activeElement !== inp) return;
+          _renderLocSuggest(_mergeSug(_locSuggestLocal(q), remote));
+        }, 250);
+      }
       const zipInputEl = document.getElementById("zipInput");
       const zipSuggestEl = document.getElementById("zipSuggest");
       if (zipInputEl) {
         zipInputEl.value = state.zipQuery || "";
-        zipInputEl.addEventListener("input", () => { _renderLocSuggest(_locSuggest(zipInputEl.value)); });
-        zipInputEl.addEventListener("focus", () => { _renderLocSuggest(_locSuggest(zipInputEl.value)); });
+        zipInputEl.addEventListener("input", _updateLocSuggest);
+        zipInputEl.addEventListener("focus", _updateLocSuggest);
         zipInputEl.addEventListener("change", () => resolveZip(zipInputEl.value));
         zipInputEl.addEventListener("keydown", (e) => {
           if (e.key === "Enter") { e.preventDefault(); if (zipSuggestEl) zipSuggestEl.classList.add("hidden"); resolveZip(zipInputEl.value); }
