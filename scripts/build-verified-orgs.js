@@ -13,7 +13,7 @@
 //   not invent ratings, audits, or "trusted" badges beyond the filing evidence.
 // - No coordinates, no personal/home data. City/state from the public filing only.
 // - Registry entries are candidates for review/pairing; adding to this master
-//   list does NOT auto-promote anything to docs/feed.json (Action Shelf).
+//   list does NOT auto-promote anything to docs/feed.json (Civic Actions).
 //
 // Runs in GitHub Actions (free tier). Idempotent merge by EIN.
 

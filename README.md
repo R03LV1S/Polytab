@@ -62,7 +62,7 @@ All organizations are independently audited (IRS Form 990, Charity Navigator, Ch
 
 All feeds are static files generated from `docs/feed.json` by `scripts/generate-feeds.js` during the Pages deploy — no backend, no database.
 
-- `https://polytab.store/feed.xml` — RSS 2.0 mirror of the Action Shelf (100 verified organizations).
+- `https://polytab.store/feed.xml` — RSS 2.0 mirror of the Civic Actions (100 verified organizations).
 - `https://polytab.store/feed.json` — JSON Feed 1.1 (canonical machine-readable data).
 - `https://polytab.store/feeds/global.xml` — geoRSS mirror; coordinates rounded to 2 decimal places (~1 km) to prevent PII/doxing.
 - `https://polytab.store/feeds/audio.xml` — plain-language text feed for screen readers. Audio enclosures are only published when a real recording exists; no placeholder audio.

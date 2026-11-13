@@ -1,7 +1,7 @@
 // Polytab feed generator — builds the RSS/geoRSS feeds that docs/index.html links to.
 //
 // Outputs (all static, zero cost, no backend):
-//   docs/feed.xml        — RSS 2.0 mirror of the Action Shelf (docs/feed.json)
+//   docs/feed.xml        — RSS 2.0 mirror of the Civic Actions (docs/feed.json)
 //   docs/feeds/global.xml — geoRSS mirror; coordinates rounded to ~1 km (2 dp)
 //   docs/feeds/audio.xml  — plain-language text feed for screen readers
 //
@@ -132,9 +132,9 @@ function main() {
 
   fs.mkdirSync(OUT_DIR, { recursive: true });
 
-  // 1) Main RSS feed (Action Shelf)
+  // 1) Main RSS feed (Civic Actions)
   const feed = channelHeader({
-    title: "Polytab — Civic Action Shelf",
+    title: "Polytab — Civic Civic Actions",
     link: SITE,
     description:
       "The store where you buy civic outcomes, not junk. Every verified civic action, mirrored from feed.json. " +
@@ -154,7 +154,7 @@ function main() {
     title: "Polytab — Global Civic Action Map (geoRSS)",
     link: SITE + "/#map",
     description:
-      "geoRSS mirror of the Polytab Action Shelf. " + geoItems.length + " of " + items.length +
+      "geoRSS mirror of the Polytab Civic Actions. " + geoItems.length + " of " + items.length +
       " actions publish organization coordinates, rounded to two decimal places (~1 km, neighborhood-level) " +
       "to prevent PII/doxing. Organizations without a public location are listed in feed.xml only.",
     self: SITE + "/feeds/global.xml",

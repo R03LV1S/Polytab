@@ -6,7 +6,7 @@
   <title>Polytab.store | The Decentralized Civic Action Marketplace</title>
   <meta name="description" content="The store where you buy civic outcomes, not junk. Immutable on-chain ballot ledger and escrow system enabling low-cost community voting and milestone payouts via EVM micro-transactions." />
   
-  <link rel="alternate" type="application/rss+xml" title="Polytab Civic Action Shelf (RSS)" href="./feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="Polytab Civic Civic Actions (RSS)" href="./feed.xml" />
   <link rel="alternate" type="application/feed+json" title="Polytab Global JSON Feed" href="./feed.json" />
   <link rel="alternate" type="application/rss+xml" title="Polytab Plain-Language Action Feed" href="./feeds/audio.xml" />
   <link rel="hub" href="https://pubsubhubbub.appspot.com/" />
@@ -144,7 +144,7 @@
       </div>
       <nav class="flex items-center space-x-1 bg-zinc-900 p-1 rounded-xl border border-zinc-800" aria-label="Main Store Views">
         <button type="button" data-tab="shelf" class="nav-tab-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-purple-700 text-white transition">
-          Action Shelf
+          Civic Actions
         </button>
         <button type="button" data-tab="map" class="nav-tab-btn visual-heavy px-3.5 py-1.5 rounded-lg text-xs font-semibold text-zinc-300 hover:text-white transition">
           GeoRSS Map
@@ -819,7 +819,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         if (state.markets.length === 0) {
           const emptyBox = document.createElement("div");
           emptyBox.className = "col-span-full bg-zinc-900/40 border border-zinc-800 rounded-2xl p-8 text-center text-zinc-400 text-sm";
-          emptyBox.textContent = "No open futarchy markets. Markets are listed by the governance council from verified organizations on the Action Shelf.";
+          emptyBox.textContent = "No open futarchy markets. Markets are listed by the governance council from verified organizations on the Civic Actions.";
           grid.appendChild(emptyBox);
           return;
         }

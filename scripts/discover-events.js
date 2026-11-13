@@ -20,7 +20,7 @@
 //   fundedUSD: 0, votesCount: 0, status: "Proposed", lat/lng: null.
 //   "Proposed" (not "Active") because a radar-surfaced event has NOT yet passed
 //   organization pairing + governance verification. Promoting a queue item into
-//   feed.json (Action Shelf) is NEVER automatic.
+//   feed.json (Civic Actions) is NEVER automatic.
 //
 // No coordinates are ever written (lat/lng stay null): event locations are
 // kept as public place-name strings only (anti-doxing).
@@ -260,8 +260,8 @@ function toQueueBlock(ev, id) {
     summary: truncate(
       "Community Radar current event: \"" + ev.headline + "\" (" + ev.sourceName + (ev.date ? ", " + ev.date.slice(0, 10) : "") + "). " +
       (pairing
-        ? "Proposed pairing with verified organization " + pairing.organization + " (Action Shelf bounty #" + pairing.bountyId + ") — pending governance verification."
-        : "Awaiting a verified 501(c)(3) partner pairing before Action Shelf listing."),
+        ? "Proposed pairing with verified organization " + pairing.organization + " (Civic Actions bounty #" + pairing.bountyId + ") — pending governance verification."
+        : "Awaiting a verified 501(c)(3) partner pairing before Civic Actions listing."),
       600
     ),
     plainSummary: [
@@ -492,7 +492,7 @@ async function main() {
   queue.processedHashes = [...processed].slice(-MAX_PROCESSED_HASHES);
 
   queue.version = 1;
-  queue.description = "Polytab Event Radar queue. Current events (last 21 days) surfaced from free public feeds (GDELT, CDC Newsroom, GDACS, USGS) as candidate civic-action blocks in the exact Polytab block format. All metrics are honest-zero (fundedUSD=0, votesCount=0). Items are PROPOSED — promotion to the Action Shelf (feed.json) requires a verified organization pairing and governance sign-off, never automatic. Wallet series: 0x71E + ID (601+). No coordinates are stored (lat/lng null); locations are public place-name strings only.";
+  queue.description = "Polytab Event Radar queue. Current events (last 21 days) surfaced from free public feeds (GDELT, CDC Newsroom, GDACS, USGS) as candidate civic-action blocks in the exact Polytab block format. All metrics are honest-zero (fundedUSD=0, votesCount=0). Items are PROPOSED — promotion to the Civic Actions (feed.json) requires a verified organization pairing and governance sign-off, never automatic. Wallet series: 0x71E + ID (601+). No coordinates are stored (lat/lng null); locations are public place-name strings only.";
 
   // HONEST-ZERO GUARD: hard fail if any fabricated metric sneaks in
   const validCategories = CATEGORY_RULES.map(r => r.category);
