@@ -1022,7 +1022,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           pbtn.className = btnClass(parentActive);
           pbtn.setAttribute("aria-pressed", String(parentActive));
           pbtn.setAttribute("aria-expanded", String(expanded));
-          pbtn.textContent = (expanded ? "▾ " : "▸ ") + parent;
+          pbtn.textContent = parent;
           pbtn.addEventListener("click", () => {
             // Compartmentalized: selecting a parent shows only its sub-sections and only its projects.
             // Clicking the already-expanded active parent hides its sub-sections (hide-able).
