@@ -1411,7 +1411,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           statusBadge.textContent = item.status;
           const endorseBtn = document.createElement("button");
           endorseBtn.type = "button";
-          endorseBtn.className = "inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-[11px] font-semibold bg-pink-500/15 text-pink-300 border border-pink-500/30 hover:bg-pink-500/20 transition";
+          endorseBtn.className = "inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-l-none rounded-r-lg text-[11px] font-semibold bg-pink-500/15 text-pink-300 border border-pink-500/30 hover:bg-pink-500/20 transition";
           endorseBtn.textContent = "♥ Like";
           endorseBtn.setAttribute("aria-label", "Like this project");
           endorseBtn.title = "Like/support this project. Verified endorsements are counted publicly.";
@@ -1420,13 +1420,13 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
             openLikeOverlay(item);
           });
           const likeCountBox = document.createElement("span");
-          likeCountBox.className = "inline-flex items-center justify-center min-w-[2.25rem] px-2.5 py-1.5 rounded-lg text-[11px] font-semibold bg-pink-500/15 text-pink-300 border border-pink-500/30 font-mono";
+          likeCountBox.className = "inline-flex items-center justify-center min-w-[2.25rem] px-2.5 py-1.5 rounded-l-lg rounded-r-none border-r-0 text-[11px] font-semibold bg-pink-500/15 text-pink-300 border border-pink-500/30 font-mono";
           const vCountForLike = verifiedEndorsementCount(item.id);
           likeCountBox.textContent = formatLikeCount(vCountForLike == null ? 0 : vCountForLike);
           likeCountBox.title = (vCountForLike == null ? "0" : vCountForLike) + " verified endorsement" + ((vCountForLike == 1) ? "" : "s");
           likeCountBox.setAttribute("aria-label", (vCountForLike == null ? "0" : vCountForLike) + " verified endorsements");
           const likeRow = document.createElement("div");
-          likeRow.className = "flex items-center gap-1.5";
+          likeRow.className = "flex items-center gap-0";
           likeRow.appendChild(likeCountBox);
           likeRow.appendChild(endorseBtn);
           const statusCol = document.createElement("div");
