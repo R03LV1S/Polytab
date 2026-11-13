@@ -44,7 +44,10 @@
           </div>
           <div class="shrink-0 flex flex-col items-end gap-2 text-right">
             <div id="likeCount" class="text-xs font-mono px-2.5 py-1 rounded-md bg-emerald-500/10 text-emerald-300 border border-emerald-500/20"></div>
-            <button id="likeBtn" type="button" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-pink-500/15 text-pink-300 border border-pink-500/30 hover:bg-pink-500/20 transition">♥ Like</button>
+            <div class="flex items-center gap-2">
+              <button id="likeBtn" type="button" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-pink-500/15 text-pink-300 border border-pink-500/30 hover:bg-pink-500/20 transition">♥ Like</button>
+              <button id="shareBtn" type="button" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-zinc-800 text-zinc-200 border border-zinc-700 hover:border-zinc-500 hover:text-white transition">Share</button>
+            </div>
           </div>
         </div>
 
@@ -262,10 +265,13 @@
           const gh = document.createElement("a"); gh.href=issue; gh.target="_blank"; gh.rel="noopener noreferrer"; gh.className="inline-flex items-center px-2.5 py-1 rounded-md bg-zinc-900 border border-zinc-800 text-zinc-300 hover:text-white"; gh.textContent="Endorse on GitHub"; links.appendChild(gh);
 
           const likeBtn = document.getElementById("likeBtn");
+          const shareBtn = document.getElementById("shareBtn");
           const likeOverlay = document.getElementById("likeOverlay");
           const closeLike = document.getElementById("closeLikeOverlay");
           const likeGithub = document.getElementById("likeGithubLink");
           const likeCopy = document.getElementById("likeCopyLink");
+          const shareInstagram = document.getElementById("shareInstagram");
+          const shareTikTok = document.getElementById("shareTikTok");
           const shareUrl = location.href;
           const shareText = "Support this project on Polytab: " + item.title;
           if (likeGithub) likeGithub.href = issue;
@@ -290,12 +296,20 @@
           setShare("shareX", "https://twitter.com/intent/tweet?text=" + encodeURIComponent(shareText) + "&url=" + encodeURIComponent(shareUrl));
           setShare("shareFacebook", "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(shareUrl));
           setShare("shareLinkedIn", "https://www.linkedin.com/sharing/share-offsite/?url=" + encodeURIComponent(shareUrl));
+          const copyAndFlash = async (btn, openUrl) => {
+            try { await navigator.clipboard.writeText(shareUrl); } catch(_){ try { prompt("Copy link:", shareUrl); } catch(__){} }
+            if (btn) { const old = btn.textContent; btn.textContent = "Link copied"; setTimeout(()=>btn.textContent = old, 1500); }
+            if (openUrl) window.open(openUrl, "_blank", "noopener,noreferrer");
+          };
           const openLike = () => { if(likeOverlay){ likeOverlay.classList.remove("hidden"); likeOverlay.setAttribute("aria-hidden","false"); } };
           const hideLike = () => { if(likeOverlay){ likeOverlay.classList.add("hidden"); likeOverlay.setAttribute("aria-hidden","true"); } };
           if (likeBtn) likeBtn.addEventListener("click", openLike);
+          if (shareBtn) shareBtn.addEventListener("click", () => { openLike(); const sec = document.getElementById("shareSection"); if (sec && sec.scrollIntoView) sec.scrollIntoView({block:"nearest"}); });
           if (closeLike) closeLike.addEventListener("click", hideLike);
           if (likeOverlay) likeOverlay.addEventListener("click", (e)=>{ if(e.target===likeOverlay) hideLike(); });
           if (likeCopy) likeCopy.addEventListener("click", async ()=>{ try { await navigator.clipboard.writeText(shareUrl); likeCopy.textContent = "Link copied"; setTimeout(()=>likeCopy.textContent="Copy link",1500);} catch(_){ prompt("Copy link:", shareUrl); } });
+          if (shareInstagram) shareInstagram.addEventListener("click", () => copyAndFlash(shareInstagram, "https://www.instagram.com/"));
+          if (shareTikTok) shareTikTok.addEventListener("click", () => copyAndFlash(shareTikTok, "https://www.tiktok.com/upload?lang=en"));
           const snap = await loadEndorsements();
           const cloud = await loadCloudEndorsements();
           const ghVc = vCount(snap, item.id);
@@ -463,15 +477,17 @@
         </a>
         <p id="providerNote" class="text-[11px] text-zinc-500">Choose a platform to endorse this project.</p>
       </div>
-      <div class="space-y-2">
-        <div class="text-[10px] uppercase tracking-wider text-zinc-500 font-semibold">Share support (not counted)</div>
+      <div id="shareSection" class="space-y-2">
+        <div class="text-[10px] uppercase tracking-wider text-zinc-500 font-semibold">Share (not counted)</div>
         <div class="grid grid-cols-2 gap-2 text-sm">
-          <a id="shareX" href="#" target="_blank" rel="noopener noreferrer" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white text-center">Share on X</a>
-          <a id="shareFacebook" href="#" target="_blank" rel="noopener noreferrer" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white text-center">Share on Facebook</a>
-          <a id="shareLinkedIn" href="#" target="_blank" rel="noopener noreferrer" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white text-center">Share on LinkedIn</a>
+          <a id="shareX" href="#" target="_blank" rel="noopener noreferrer" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white text-center">X</a>
+          <a id="shareFacebook" href="#" target="_blank" rel="noopener noreferrer" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white text-center">Facebook</a>
+          <button id="shareInstagram" type="button" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white text-center">Instagram</button>
+          <button id="shareTikTok" type="button" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white text-center">TikTok</button>
+          <a id="shareLinkedIn" href="#" target="_blank" rel="noopener noreferrer" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white text-center">LinkedIn</a>
           <button id="likeCopyLink" type="button" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white">Copy link</button>
         </div>
-        <p class="text-[11px] text-zinc-500">Social shares show support but are not verified or added to the endorsement count. Directly endorsing with a logged-in social account is not available on this site.</p>
+        <p class="text-[11px] text-zinc-500">Sharing shows support but is not verified, not counted, and does not confirm your account or track your profile. Instagram/TikTok: link copied and site opened so you can paste/share manually.</p>
       </div>
     </div>
   </div>
