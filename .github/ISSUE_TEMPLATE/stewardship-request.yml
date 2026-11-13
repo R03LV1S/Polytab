@@ -1,0 +1,67 @@
+name: Stewardship Request — Users Without Wallets
+description: Request Polytab stewardship of your deposits for a verified charity. Verification is mandatory. Never include your ID, SSN, or password here.
+title: "[Stewardship]: "
+labels: ["stewardship-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For users who have no crypto wallet or hardware. Verification is mandatory **both** halves: (1) a verified account at a regulated financial institution or licensed provider, and (2) verifiable government-issued photo ID verified out-of-band.
+        **Never post your ID, SSN, password, or document images to this issue.** This form collects only non-sensitive information; we will contact you out-of-band for verification if eligible.
+  - type: input
+    id: country
+    attributes:
+      label: Country of residence
+      placeholder: "US"
+    validations:
+      required: true
+  - type: input
+    id: institution_type
+    attributes:
+      label: Type of financial platform you are verified with
+      description: e.g. FDIC-insured bank, credit union, regulated MSB/fintech, broker, or equivalent. If unsure, write "unknown".
+      placeholder: "FDIC-insured bank"
+    validations:
+      required: true
+  - type: input
+    id: institution_name
+    attributes:
+      label: Name of the institution or platform
+      placeholder: "ACME Bank N.A."
+    validations:
+      required: true
+  - type: input
+    id: charity_target
+    attributes:
+      label: Bounty/charity page ID(s) to fund
+      placeholder: "10001"
+    validations:
+      required: true
+  - type: input
+    id: public_name
+    attributes:
+      label: Name as it appears on your identification (optional self-display only)
+      description: Used only to prepare verification paperwork; never published.
+  - type: dropdown
+    id: id_status
+    attributes:
+      label: Government-issued photo ID status
+      options:
+        - "Yes — issued by my government, and my platform verified it"
+        - "Yes — but my platform has not verified it yet"
+        - "No government-issued photo ID"
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: "I understand no document images, SSN, password, seed phrase, or ID upload belongs in this form, and that sending them makes me ineligible until I confirm I destroyed them."
+          required: true
+        - label: "I authorize Polytab to verify my identity through the named platform or out-of-band process before accepting any deposit."
+          required: true
+        - label: "I understand deposits only fund the verified charity/bounty I designate, are non-refundable, and that stewardship is revocable at Polytab's discretion."
+          required: true
+        - label: "I understand I will not engage Polytab as an advisor, broker, attorney, or fiduciary, and that this form is not legal, financial, or tax advice."
+          required: true
