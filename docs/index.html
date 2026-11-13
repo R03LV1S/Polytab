@@ -1952,12 +1952,17 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         setShare("shareX", "https://twitter.com/intent/tweet?text=" + encodeURIComponent(shareText) + "&url=" + encodeURIComponent(shareUrl));
         setShare("shareFacebook", "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(shareUrl));
         setShare("shareLinkedIn", "https://www.linkedin.com/sharing/share-offsite/?url=" + encodeURIComponent(shareUrl));
+        setShare("shareWhatsApp", "https://wa.me/?text=" + encodeURIComponent(shareText + " " + shareUrl));
+        setShare("shareTelegram", "https://t.me/share/url?url=" + encodeURIComponent(shareUrl) + "&text=" + encodeURIComponent(shareText));
+        setShare("shareReddit", "https://www.reddit.com/submit?url=" + encodeURIComponent(shareUrl) + "&title=" + encodeURIComponent(shareText));
         const copyBtn = document.getElementById("likeCopyLink");
         if (copyBtn) copyBtn.onclick = async () => { try { await navigator.clipboard.writeText(shareUrl); copyBtn.textContent = "Link copied"; setTimeout(()=>copyBtn.textContent="Copy link",1500);} catch(_){ try { prompt("Copy link:", shareUrl); } catch(__){} } };
         const ig = document.getElementById("shareInstagram");
         if (ig) ig.onclick = async () => { try { await navigator.clipboard.writeText(shareUrl); ig.textContent = "Link copied"; setTimeout(()=>ig.textContent="Instagram",1500);} catch(_){ } window.open("https://www.instagram.com/","_blank","noopener,noreferrer"); };
         const tt = document.getElementById("shareTikTok");
         if (tt) tt.onclick = async () => { try { await navigator.clipboard.writeText(shareUrl); tt.textContent = "Link copied"; setTimeout(()=>tt.textContent="TikTok",1500);} catch(_){ } window.open("https://www.tiktok.com/upload?lang=en","_blank","noopener,noreferrer"); };
+        const dc = document.getElementById("shareDiscord");
+        if (dc) dc.onclick = async () => { try { await navigator.clipboard.writeText(shareUrl); dc.textContent = "Link copied"; setTimeout(()=>dc.textContent="Discord",1500);} catch(_){ } window.open("https://discord.com/app","_blank","noopener,noreferrer"); };
         if (overlay) { overlay.classList.remove("hidden"); overlay.setAttribute("aria-hidden","false"); }
       }
       function closeLikeOverlay() {
@@ -1965,9 +1970,12 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         if (overlay) { overlay.classList.add("hidden"); overlay.setAttribute("aria-hidden","true"); }
       }
       const closeLikeBtn = document.getElementById("closeLikeOverlay");
-      if (closeLikeBtn) closeLikeBtn.addEventListener("click", closeLikeOverlay);
+      if (closeLikeBtn) closeLikeBtn.addEventListener("click", (e) => { e.preventDefault(); e.stopPropagation(); closeLikeOverlay(); });
       const likeOverlayEl = document.getElementById("likeOverlay");
-      if (likeOverlayEl) likeOverlayEl.addEventListener("click", (e) => { if (e.target === likeOverlayEl) closeLikeOverlay(); });
+      if (likeOverlayEl) likeOverlayEl.addEventListener("click", (e) => {
+        const dialog = likeOverlayEl.querySelector('[role="dialog"]');
+        if (!dialog || !dialog.contains(e.target)) closeLikeOverlay();
+      });
 
       loadFeedState();
       loadVerifiedEndorsements();
@@ -1999,12 +2007,16 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         <div class="grid grid-cols-2 gap-2 text-sm">
           <a id="shareX" href="#" target="_blank" rel="noopener noreferrer" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white text-center">X</a>
           <a id="shareFacebook" href="#" target="_blank" rel="noopener noreferrer" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white text-center">Facebook</a>
+          <a id="shareLinkedIn" href="#" target="_blank" rel="noopener noreferrer" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white text-center">LinkedIn</a>
+          <a id="shareWhatsApp" href="#" target="_blank" rel="noopener noreferrer" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white text-center">WhatsApp</a>
+          <a id="shareTelegram" href="#" target="_blank" rel="noopener noreferrer" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white text-center">Telegram</a>
+          <a id="shareReddit" href="#" target="_blank" rel="noopener noreferrer" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white text-center">Reddit</a>
           <button id="shareInstagram" type="button" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white text-center">Instagram</button>
           <button id="shareTikTok" type="button" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white text-center">TikTok</button>
-          <a id="shareLinkedIn" href="#" target="_blank" rel="noopener noreferrer" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white text-center">LinkedIn</a>
+          <button id="shareDiscord" type="button" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white text-center">Discord</button>
           <button id="likeCopyLink" type="button" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white">Copy link</button>
         </div>
-        <p class="text-[11px] text-zinc-500">Sharing shows support but is not verified, not counted, and does not confirm your account or track your profile. Instagram/TikTok: link copied and site opened so you can paste/share manually.</p>
+        <p class="text-[11px] text-zinc-500">Sharing shows support but is not verified, not counted, and does not confirm your account or track your profile. Instagram/TikTok/Discord: link copied and app/site opened so you can paste/share manually.</p>
       </div>
     </div>
   </div>
