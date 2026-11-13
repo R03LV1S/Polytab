@@ -6,7 +6,7 @@
   <title>Polytab.store | The Decentralized Civic Action Marketplace</title>
   <meta name="description" content="The store where you buy civic outcomes, not junk. Immutable on-chain ballot ledger and escrow system enabling low-cost community voting and milestone payouts via EVM micro-transactions." />
   
-  <link rel="alternate" type="application/rss+xml" title="Polytab Civic Civic Actions (RSS)" href="./feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="Polytab Projects (RSS)" href="./feed.xml" />
   <link rel="alternate" type="application/feed+json" title="Polytab Global JSON Feed" href="./feed.json" />
   <link rel="alternate" type="application/rss+xml" title="Polytab Plain-Language Action Feed" href="./feeds/audio.xml" />
   <link rel="hub" href="https://pubsubhubbub.appspot.com/" />
@@ -144,22 +144,22 @@
       </div>
       <nav class="flex items-center space-x-1 bg-zinc-900 p-1 rounded-xl border border-zinc-800" aria-label="Main Store Views">
         <button type="button" data-tab="shelf" class="nav-tab-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-purple-700 text-white transition">
-          Civic Actions
+          Browse Projects
         </button>
         <button type="button" data-tab="map" class="nav-tab-btn visual-heavy px-3.5 py-1.5 rounded-lg text-xs font-semibold text-zinc-300 hover:text-white transition">
-          GeoRSS Map
+          View Map
         </button>
         <button type="button" data-tab="create" class="nav-tab-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold text-zinc-300 hover:text-white transition">
-          + List Action
+          Start a Project
         </button>
         <button type="button" data-tab="markets" class="nav-tab-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold text-zinc-300 hover:text-white transition">
-          Futarchy Lab
+          View Predictions
         </button>
         <button type="button" data-tab="global" class="nav-tab-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold text-zinc-300 hover:text-white transition">
-          SMS / Email / Global
+          Ways to Join
         </button>
         <button type="button" data-tab="governance" class="nav-tab-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold text-zinc-300 hover:text-white transition">
-          Escrow &amp; Rules
+          How It Works
         </button>
       </nav>
       <div class="flex items-center space-x-2">
@@ -269,7 +269,7 @@
     <section id="tab-map" class="tab-panel hidden space-y-4">
       <div class="bg-zinc-900/50 border border-zinc-800 p-5 rounded-2xl flex flex-wrap items-center justify-between gap-4 hc-card">
         <div>
-          <h2 class="text-lg font-bold text-white">Global GeoRSS Bounty Map</h2>
+          <h2 class="text-lg font-bold text-white">Project Map</h2>
           <p class="text-xs text-zinc-400">Plots verified organization locations from <code class="text-yellow-400">./feed.json</code>. The public geoRSS mirror at <code class="text-yellow-400">./feeds/global.xml</code> rounds coordinates to two decimal places (~1 km, neighborhood-level) to prevent PII/doxing.</p>
         </div>
         <div class="flex items-center space-x-2 text-xs font-mono">
@@ -283,7 +283,7 @@
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
         <form id="createProjectForm" class="lg:col-span-2 bg-zinc-900/50 border border-zinc-800 p-6 rounded-2xl space-y-5 hc-card">
           <div>
-            <h2 class="text-xl font-bold text-white">List a New Civic Action Item</h2>
+            <h2 class="text-xl font-bold text-white">Start a New Project</h2>
             <p class="text-xs text-zinc-400 mt-1">Non-custodial setup: generate a fresh cold-storage wallet offline, enter its public address below, and submit to our automated GitHub Action indexer.</p>
           </div>
           <div>
@@ -369,7 +369,7 @@
     <section id="tab-markets" class="tab-panel hidden space-y-6">
       <div class="bg-zinc-900/50 border border-zinc-800 p-5 rounded-2xl space-y-3 hc-card">
         <div class="flex flex-wrap items-center justify-between gap-3">
-          <h2 class="text-lg font-bold text-white">Futarchy Policy Markets &mdash; Pilot</h2>
+          <h2 class="text-lg font-bold text-white">Prediction Markets &mdash; Pilot</h2>
           <span class="px-2.5 py-1 rounded bg-zinc-800 text-zinc-300 border border-zinc-700 text-[11px] font-mono">Vote on values. Forecast with pennies.</span>
         </div>
         <p class="text-xs text-zinc-400 max-w-3xl leading-relaxed">
@@ -713,7 +713,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           body: "### Verified Bounty Endorsement (GitHub ledger)\n" +
             "This issue is a verifiable endorsement. Global counts are derived from unique GitHub users per canonical bounty ID (deduped). No counts are fabricated.\n\n" +
             fence + "json\n" + payload + "\n" + fence + "\n\n" +
-            "- Canonical bounty ID (shelf): " + String(item.id) + "\n" +
+            "- Canonical project ID: " + String(item.id) + "\n" +
             "- Parent: " + pcat + "\n- Category: " + item.category + "\n" +
             "- Note: One endorsement counted per unique GitHub account per bounty in the aggregated snapshot."
         });
@@ -819,7 +819,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         if (state.markets.length === 0) {
           const emptyBox = document.createElement("div");
           emptyBox.className = "col-span-full bg-zinc-900/40 border border-zinc-800 rounded-2xl p-8 text-center text-zinc-400 text-sm";
-          emptyBox.textContent = "No open futarchy markets. Markets are listed by the governance council from verified organizations on the Civic Actions.";
+          emptyBox.textContent = "No open prediction markets. Markets are listed by the governance council from verified organizations in Browse Projects.";
           grid.appendChild(emptyBox);
           return;
         }

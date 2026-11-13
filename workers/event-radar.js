@@ -57,7 +57,7 @@ export default {
         ],
         idSeries: "601+",
         walletSeries: "0x71E + zero padding + ID",
-        status: "Proposed (never auto-promoted to Civic Actions)",
+        status: "Proposed (never auto-promoted to Projects)",
         honestZero: { fundedUSD: 0, votesCount: 0, odds: null, coordinates: null }
       });
     }

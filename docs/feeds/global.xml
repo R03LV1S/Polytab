@@ -3,7 +3,7 @@
   <channel>
     <title>Polytab — Global Civic Action Map (geoRSS)</title>
     <link>https://polytab.store/#map</link>
-    <description>geoRSS mirror of the Polytab Civic Actions. 2869 of 2869 actions publish organization coordinates, rounded to two decimal places (~1 km, neighborhood-level) to prevent PII/doxing. Organizations without a public location are listed in feed.xml only.</description>
+    <description>geoRSS mirror of the Polytab Projects. 2869 of 2869 actions publish organization coordinates, rounded to two decimal places (~1 km, neighborhood-level) to prevent PII/doxing. Organizations without a public location are listed in feed.xml only.</description>
     <language>en-us</language>
     <lastBuildDate>Fri, 13 Nov 2026 05:25:59 GMT</lastBuildDate>
     <ttl>60</ttl>
