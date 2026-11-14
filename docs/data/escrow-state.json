@@ -4,12 +4,12 @@
   "chainId": 8453,
   "balanceWei": "0",
   "nonce": 0,
-  "lastBlock": 57060760,
-  "incomingErc20SinceLastCheck": 0,
-  "logScanNote": null,
+  "lastBlock": 57144831,
+  "incomingErc20SinceLastCheck": null,
+  "logScanNote": "log scan skipped: https://mainnet.base.org rate limit: {\"code\":-32011,\"message\":\"request limit reached\"}",
   "allowedSweeps": [],
   "seenLogTxs": [],
-  "lastCheckUtc": "2026-11-13T20:39:34.981Z",
+  "lastCheckUtc": "2026-11-14T01:22:22.402Z",
   "lastStatus": "ok",
   "endpointUsed": "https://1rpc.io/base"
 }
