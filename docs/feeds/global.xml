@@ -5,7 +5,7 @@
     <link>https://polytab.store/#map</link>
     <description>geoRSS mirror of the Polytab Projects. 4469 of 4469 actions publish organization coordinates, rounded to two decimal places (~1 km, neighborhood-level) to prevent PII/doxing. Organizations without a public location are listed in feed.xml only.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Nov 2026 06:31:09 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 07:06:47 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://polytab.store/feeds/global.xml" rel="self" type="application/rss+xml" />
   <item>
