@@ -3,6 +3,64 @@
   "description": "Polytab Event Radar queue. Current events (last 21 days) surfaced from free public feeds (GDELT, CDC Newsroom, GDACS, USGS) as candidate civic-action blocks in the exact Polytab block format. All metrics are honest-zero (fundedUSD=0, votesCount=0). Items are PROPOSED — promotion to the Projects (feed.json) requires a verified organization pairing and governance sign-off, never automatic. Wallet series: 0x71E + ID (601+). No coordinates are stored (lat/lng null); locations are public place-name strings only.",
   "items": [
     {
+      "id": "613",
+      "title": "Child abuse in the home : The Royal Commission we need .",
+      "category": "Accessibility & Universal Design",
+      "organization": "The Fred Hollows Foundation",
+      "location": "Australia",
+      "summary": "Community Radar current event: \"Child abuse in the home : The Royal Commission we need .\" (GDELT (mamamia.com.au), 2026-11-12). Proposed pairing with verified organization The Fred Hollows Foundation (Projects bounty #405) — pending governance verification.",
+      "plainSummary": "• Cause: Child abuse in the home : The Royal Commission we need .\n• Resolution: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://www.mamamia.com.au/royal-commission-family-abuse/ (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "GDELT (mamamia.com.au)",
+        "sourceUrl": "https://www.mamamia.com.au/royal-commission-family-abuse/",
+        "publishedAt": "2026-11-12T03:30:00.000Z",
+        "discoveredAt": "2026-11-14T04:56:01.354Z",
+        "proposedPairing": {
+          "bountyId": "405",
+          "organization": "The Fred Hollows Foundation",
+          "keywordMatches": 2
+        },
+        "dedupeHash": "45a7313fbafcb1ff5c21df80cf3403a067668173ddd1ed0442c1278fcdadc672"
+      }
+    },
+    {
+      "id": "614",
+      "title": "Rare Village : a fiscal sponsor for rare disease research",
+      "category": "Accessibility & Universal Design",
+      "organization": "St. Jude Children's Research Hospital",
+      "location": "United States",
+      "summary": "Community Radar current event: \"Rare Village : a fiscal sponsor for rare disease research\" (GDELT (insidephilanthropy.com), 2026-11-05). Proposed pairing with verified organization St. Jude Children's Research Hospital (Projects bounty #215) — pending governance verification.",
+      "plainSummary": "• Cause: Rare Village : a fiscal sponsor for rare disease research\n• Resolution: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://www.insidephilanthropy.com/home/this-fiscal-sponsor-supports-family-led-foundations-funding-rare-disease-research (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "GDELT (insidephilanthropy.com)",
+        "sourceUrl": "https://www.insidephilanthropy.com/home/this-fiscal-sponsor-supports-family-led-foundations-funding-rare-disease-research",
+        "publishedAt": "2026-11-05T22:00:00.000Z",
+        "discoveredAt": "2026-11-14T04:56:01.384Z",
+        "proposedPairing": {
+          "bountyId": "215",
+          "organization": "St. Jude Children's Research Hospital",
+          "keywordMatches": 2
+        },
+        "dedupeHash": "d5adb3cce05de48e0d545e2abb024cb469859e2be00a034a36ab1debe04df757"
+      }
+    },
+    {
       "id": "612",
       "title": "Flood — SEVERE STORMS AND FLOODING — (DR)",
       "category": "Environmental",
@@ -355,7 +413,9 @@
     "02361d4160f0655a148493af2acb5518d30e3dda17f8a95a818e285cd78e2141",
     "6ccc62aa0a0aa057eda4e260c158a8c4658672b63aa4851d7e573ec0e4a7f674",
     "a58ef3b99cae92c8ba9a0bc05b28647f886b348d1617ab8b70ccd7188be095e7",
-    "e6d025d8223f937cf7f2696130c95c9655a63c322306b7233d33f20386810d75"
+    "e6d025d8223f937cf7f2696130c95c9655a63c322306b7233d33f20386810d75",
+    "45a7313fbafcb1ff5c21df80cf3403a067668173ddd1ed0442c1278fcdadc672",
+    "d5adb3cce05de48e0d545e2abb024cb469859e2be00a034a36ab1debe04df757"
   ],
-  "nextId": 613
+  "nextId": 615
 }
