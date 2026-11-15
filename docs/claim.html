@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Claim Your Bounty Page — Polytab</title>
+  <meta name="description" content="How a verified organization can claim its bounty page and unlock Polytab contributions. Funds flow on-chain to your organization's wallet; Polytab never holds funds." />
+  <meta name="theme-color" content="#000000" />
+  <link rel="manifest" href="./manifest.json" />
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <link rel="icon" type="image/jpeg" href="./favicon.jpg" />
+  <link rel="apple-touch-icon" href="./favicon.jpg" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { background:#050505; color:#e4e4e7; }
+    .card { background: rgba(24,24,27,.6); border:1px solid #27272a; border-radius: 1rem; }
+    .prose h2 { color:#fff; font-size:1.125rem; font-weight:700; margin-top:1.75rem; margin-bottom:.5rem; }
+    .prose h3 { color:#fff; font-size:1rem; font-weight:600; margin-top:1rem; margin-bottom:.25rem; }
+    .prose p, .prose li { color:#d4d4d8; line-height:1.7; font-size:.925rem; }
+    .prose ul { list-style: disc; padding-left:1.25rem; margin:.5rem 0; }
+    .prose ol { list-style: decimal; padding-left:1.25rem; margin:.5rem 0; }
+    .prose a { color:#facc15; text-decoration: underline; text-underline-offset: 2px; }
+    .prose strong { color:#fff; }
+    .prose hr { border-color:#27272a; margin:1.5rem 0; }
+    .prose code { color:#fde68a; background:rgba(39,39,42,.6); border:1px solid #3f3f46; border-radius:.375rem; padding:.05rem .35rem; font-size:.85em; }
+    .howto-step { display:flex; gap:.75rem; align-items:flex-start; }
+    .howto-num { flex:0 0 auto; width:1.75rem; height:1.75rem; border-radius:9999px; background:#92400e; color:#fef3c7; font-weight:700; font-size:.8rem; display:flex; align-items:center; justify-content:center; margin-top:.1rem; }
+    .callout { background: rgba(254,240,138,.06); border:1px solid rgba(250,204,21,.35); border-radius:.75rem; padding:.75rem 1rem; }
+  </style>
+</head>
+<body class="min-h-screen">
+  <header class="border-b border-zinc-800/80 bg-black/90 backdrop-blur sticky top-0 z-30">
+    <div class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between gap-3">
+      <a href="./index.html" class="flex items-center gap-2">
+        <img src="./logo.svg" alt="Polytab" class="w-8 h-8 rounded-lg" onerror="this.src='./logo.jpg'" />
+        <span class="text-lg font-black tracking-tight text-white">POLY<span class="text-yellow-400">TAB</span></span>
+      </a>
+      <nav class="flex items-center gap-2 text-xs">
+        <a href="./index.html" class="px-3 py-1.5 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white">&larr; Back to Browse Projects</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-4 py-8">
+    <article class="card p-6 sm:p-8 prose">
+      <h1 class="text-2xl sm:text-3xl font-extrabold text-white !mt-0">Claim Your Bounty Page</h1>
+      <p class="text-sm text-zinc-400"><strong>For organizations named on Polytab&rsquo;s project shelf.</strong></p>
+
+      <p>Many organizations are listed on Polytab as possible recipients of small-dollar community grants (&ldquo;micro-votes&rdquo;). Until your page is <strong>verified</strong>, contributions on it are disabled &mdash; nothing is collected, nothing is held, and nothing transits Polytab. Verification unlocks the page: contributions then flow directly on-chain into <strong>your organization&rsquo;s own wallet</strong>.</p>
+
+      <hr>
+
+      <h2>What verification means</h2>
+      <p>We confirm two things &mdash; <strong>both are required</strong>:</p>
+      <ul>
+        <li><strong>Registry match (required):</strong> a government or recognized registry listing (IRS EIN, Canada Revenue Agency BN, UK Charity Commission number, state nonprofit registry, or equivalent) tying your legal name to your country and mission.</li>
+        <li><strong>Domain control (required):</strong> either a DNS TXT record (<code>polytab-verify=&lt;project id&gt;</code>) on your official domain, or an email from that same domain to the registry-listed officer.</li>
+      </ul>
+      <p>We do not accept DMs, phone calls, social posts, personal email, or &ldquo;messages from the CEO&rsquo;s friend&rdquo; as verification. Verification is free; review typically takes 2&ndash;14 days. Never share a seed phrase or private key &mdash; we never need them and never ask.</p>
+
+      <h2>Stewardship, trust endorsements, and endorsed members</h2>
+      <ul>
+        <li><strong>Steward (auto-assigned on unlock):</strong> when your organization is verified and unlocks a campaign/bounty page, the unlocking verified account becomes the campaign&rsquo;s official <strong>steward/arbiter</strong> for campaign stewardship within platform rules.</li>
+        <li><strong>Trust endorsements (reputation):</strong> separate from social Likes. Community volunteers, active participants, or beneficiaries with hands-on experience can provide trust endorsements that contribute to a reputation/trust badge.</li>
+        <li><strong>Endorsed members:</strong> other organizational members can become endorsed members of a campaign by completing endorsement verification or receiving a steward vouch (subject to policy and anti-abuse checks).</li>
+      </ul>
+      <p>Campaigns may be fixed-target or open-ended; contributions can continue beyond a fixed goal and open-ended campaigns can remain active for ongoing needs. &ldquo;Votes&rdquo; are support units (minimum participation threshold), not democratic votes. See <a href="./CAMPAIGN_FRAMEWORK.md" target="_blank" rel="noopener noreferrer">Campaign Framework &amp; Rules</a>.</p>
+
+      <hr>
+
+      <h2>How to claim (step-by-step)</h2>
+      <div class="space-y-3">
+        <div class="howto-step"><div class="howto-num">1</div><div>Find the project ID on your organization&rsquo;s bounty page (e.g., <code>#10001</code>).</div></div>
+        <div class="howto-step"><div class="howto-num">2</div><div><strong>Open the claim form.</strong> On your bounty card or page, click <em>&ldquo;Is This Your Org? Claim This Page&rdquo;</em> &mdash; it opens a pre-filled GitHub issue using <code>org-claim.yml</code>. No GitHub? Email <a href="mailto:support@polytab.store">support@polytab.store</a> with the same information instead.</div></div>
+        <div class="howto-step"><div class="howto-num">3</div><div><strong>Fill it in:</strong> organization legal name, project ID(s), official website, registry name + number, registry lookup URL, first and last name of a registry-listed officer, official email at your domain, and your <strong>payout wallet</strong> &mdash; a <code>0x</code> address on <strong>Base, chain ID 8453</strong>.</div></div>
+        <div class="howto-step"><div class="howto-num">4</div><div><strong>Verify.</strong> Add a DNS TXT record <code>polytab-verify=&lt;project id&gt;</code> to your domain (e.g. <code>polytab-verify=10001</code>) and mention it in the issue, or reply from an email at your org&rsquo;s domain to the officer-listed person. Without one of these we verify against the registry listing, which takes longer.</div></div>
+        <div class="howto-step"><div class="howto-num">5</div><div><strong>We record the wallet and unlock your page.</strong> On verification, your organization&rsquo;s support button turns on and every support settles directly on-chain into your Base wallet &mdash; no funds are ever held, pooled, or forwarded by Polytab. A public receipt (transaction hash / support proof) is posted to the repo so donors can audit any sweep.</div></div>
+      </div>
+
+      <p class="mt-3"><strong>Lower-tech route:</strong> email <a href="mailto:support@polytab.store">support@polytab.store</a> with: org name, project ID(s), website, registry name + ID + lookup URL, requester&rsquo;s name, official email, and your payout wallet (0x, Base 8453). Same verification, same unlock.</p>
+
+      <hr>
+
+      <h2>Where do the contributions come from? How are they held?</h2>
+      <p><strong>They aren&rsquo;t held by Polytab, ever.</strong> Contributions to unverified bounty pages are simply disabled in the product. Once your page is verified:</p>
+      <ul>
+        <li>The support button routes the donor&rsquo;s payment directly to <em>your</em> <code>0x</code> wallet on Base (chain ID 8453) via EIP-681 QR / EIP-681 link.</li>
+        <li>Polytab never sees, holds, sweeps, or takes a cut. We are a verification &amp; audit rail, nothing more.</li>
+        <li>The on-chain ledger is the receipt &mdash; everyone can verify every support reached you.</li>
+      </ul>
+
+      <div class="callout mt-3">
+        <p class="!mt-0"><strong>Nothing is parked on your behalf.</strong> There is no pooled wallet to approve a sweep from, no funds sitting idle waiting for you, no interim accounting. Contributions appear on your page (and on Base) the moment a donor sends. If you don&rsquo;t find your claimed page displaying a live support button, email support &mdash; contributions on an unlocked page are immediate.</p>
+      </div>
+
+      <h2>What if the organization doesn&rsquo;t have a wallet?</h2>
+      <p>You can still receive contributions: (1) any EVM wallet on Base (MetaMask, Rabby, Coinbase Wallet, Brave Wallet, hardware wallets) accepts them at no cost to set up, or (2) donors can pay to your organization&rsquo;s official public support page (registry-listed) and you attest the support via the proof flow &mdash; visibility without crypto. If neither works, contributions to your page stay locked. Either way, Polytab never becomes a custodian.</p>
+
+      <hr>
+
+      <h2>Safety &amp; anti-fraud</h2>
+      <ul>
+        <li>We verify the organization, not donors. Donor wallets are never harvested, shared, or monetized.</li>
+        <li>We never accept claims via DMs, social posts, phone calls, or personal email. Only official-domain channels and the public registry.</li>
+        <li>Impersonating an organization to capture contributions is fraud; we report it and we hold the page locked.</li>
+        <li>Sweeps and contributions are public: transaction hashes on Base and receipts in the <a href="https://github.com/R03LV1S/Polytab" target="_blank" rel="noopener">Polytab GitHub repo</a>. Nobody &mdash; including Polytab &mdash; can silently take or re-route contributed funds.</li>
+      </ul>
+
+      <hr>
+
+      <h2>Questions?</h2>
+      <p>Email <a href="mailto:support@polytab.store">support@polytab.store</a>. Donors: see the <a href="./faq.html">FAQ &amp; How-Tos</a>.</p>
+    </article>
+  </main>
+
+  <footer class="border-t border-zinc-800/80 mt-8 text-xs text-zinc-400">
+    <div class="max-w-4xl mx-auto px-4 py-6 flex flex-col gap-4 items-center text-center">
+      <p class="text-[11px] leading-relaxed text-zinc-500 w-full text-center">
+        Disclaimer: Polytab is static open-source interface software hosted on GitHub Pages and Cloudflare Edge. Contributions to bounty pages whose organizations have not verified are disabled entirely &mdash; Polytab never takes custody of funds. Contributions remain locked until each named organization verifies its bounty page (registry + domain control); verification unlocks the page and sends contributions directly to the organization&rsquo;s own payout wallet on Base. Verified charities receive contributions directly on-chain into their own Base wallet; user-created bounty pages settle directly into the creator&rsquo;s wallet. Polytab is not a bank, a charity, or an insurer; micro-transactions settle on Base/Polygon and are non-refundable; see Terms.
+      </p>
+      <div class="flex flex-wrap justify-center gap-x-4 gap-y-2 text-[11px] font-mono text-zinc-400 w-full">
+        <a href="https://www.youtube.com/@clairewineland" target="_blank" rel="noopener" class="hover:text-yellow-400">For Claire â™¥</a>
+        <span>&bull;</span>
+        <a href="./faq.html" class="hover:text-yellow-400">FAQ &amp; How-Tos</a>
+        <span>&bull;</span>
+        <a href="./claim.html" class="hover:text-yellow-400">Claim Bounty Page</a>
+        <span>&bull;</span>
+        <a href="./terms.html" class="hover:text-yellow-400">Terms</a>
+        <span>&bull;</span>
+        <a href="./privacy.html" class="hover:text-yellow-400">Privacy</a>
+        <span>&bull;</span>
+        <a href="./feed.xml" class="hover:text-yellow-400">RSS 2.0</a>
+        <span>&bull;</span>
+        <a href="./feed.json" class="hover:text-yellow-400">JSON Feed</a>
+        <span>&bull;</span>
+        <a href="https://github.com/R03LV1S/Polytab" target="_blank" rel="noopener" class="hover:text-yellow-400">GitHub Repo</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

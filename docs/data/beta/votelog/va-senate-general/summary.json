@@ -1,0 +1,79 @@
+{
+  "generatedAt": "2026-11-13T22:38:59.234Z",
+  "dataCurrentThrough": {
+    "independentExpenditures": "2026-11-01",
+    "campaignFinances": "2026-10-14",
+    "campaignFinancesByCandidate": {
+      "mizusawa": "2026-10-14",
+      "warner": "2026-10-14"
+    },
+    "superPacDonors": {
+      "C00800995": "2026-09-30"
+    },
+    "aipacEarmarks": "2026-10-14",
+    "donorNetwork": {
+      "mizusawa": "2026-08-04",
+      "warner": "2026-07-15",
+      "network": "2026-10-14"
+    },
+    "filingsProcessed": "2026-11-13"
+  },
+  "summary": {
+    "mizusawa": {
+      "totalReceiptsCents": 114112970,
+      "transfersFromAuthCents": 5219038,
+      "totalDisbursementsCents": 98743175,
+      "cashOnHandCents": 15403384,
+      "candidateContribCents": 15512922,
+      "candidateLoansCents": 2000000,
+      "totalIndividualCents": 90158807,
+      "otherCommitteeContribCents": 1135000,
+      "coverageEnd": "2026-10-14",
+      "individualRefundsCents": 583883,
+      "outsideSupportingCents": 0,
+      "outsideOpposingCents": 0,
+      "outsideBenefitingCents": 0
+    },
+    "warner": {
+      "totalReceiptsCents": 2022210545,
+      "transfersFromAuthCents": 643425540,
+      "totalDisbursementsCents": 1955766195,
+      "cashOnHandCents": 621767732,
+      "candidateContribCents": 0,
+      "candidateLoansCents": 0,
+      "totalIndividualCents": 1041238421,
+      "otherCommitteeContribCents": 248099000,
+      "coverageEnd": "2026-10-14",
+      "individualRefundsCents": 35746250,
+      "outsideSupportingCents": 4756000,
+      "outsideOpposingCents": 0,
+      "outsideBenefitingCents": 4756000
+    }
+  },
+  "outsideByCommittee": [
+    {
+      "committeeId": "C90020231",
+      "committee": "Thomas Paine Society L.L.C.",
+      "fecType": "I",
+      "forMizusawa": 0,
+      "againstMizusawa": 0,
+      "forWarner": 3741000,
+      "againstWarner": 0,
+      "total": 3741000,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202611029945310225",
+      "latestDate": "2026-11-01"
+    },
+    {
+      "committeeId": "C00800995",
+      "committee": "Democratic Messaging Project",
+      "fecType": "O",
+      "forMizusawa": 0,
+      "againstMizusawa": 0,
+      "forWarner": 1015000,
+      "againstWarner": 0,
+      "total": 1015000,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610149908817708",
+      "latestDate": "2026-09-30"
+    }
+  ]
+}

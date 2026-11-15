@@ -1,0 +1,81 @@
+name: Proof / Spending Update
+description: Submit proof of spending or project progress (receipts, purchase orders, photos, files/links). Public, $0 (GitHub).
+title: "[Proof]: #<project-id> - <short description>"
+labels: ["proof"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Submit proof for a Polytab project (bounty/vote/speculative). Attach receipts, POs, photos, or files by dragging them into a comment/field below, or include links. This is public and auditable.
+  - type: input
+    id: project_id
+    attributes:
+      label: Project ID
+      description: Canonical project/bounty ID (as shown on the project page), e.g. 10001
+      placeholder: "10001"
+    validations:
+      required: true
+  - type: dropdown
+    id: proof_type
+    attributes:
+      label: Proof Type
+      options:
+        - Receipt
+        - Purchase Order
+        - Photo / Image
+        - File / Document
+        - Link / Report
+        - Milestone Update
+        - Funds Released / Payout
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: Short description of this proof/update
+      placeholder: "Purchased 50 tactile STEM kits"
+    validations:
+      required: true
+  - type: input
+    id: amount
+    attributes:
+      label: Amount (USD, if applicable)
+      placeholder: "$125.00"
+  - type: input
+    id: date
+    attributes:
+      label: Date
+      placeholder: "YYYY-MM-DD"
+  - type: textarea
+    id: details
+    attributes:
+      label: Details / How funds were spent
+      description: Explain what was purchased/done, who benefited, and any relevant context.
+      placeholder: "Funds used for..."
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence (links, attachments, images)
+      description: Paste links (IPFS, public files, etc.) and/or drag-and-drop receipts, photos, or documents here.
+      placeholder: "https://...\n(you can also attach images/files)"
+  - type: input
+    id: tx_hash
+    attributes:
+      label: Transaction hash / release reference (if applicable)
+      placeholder: "0x..."
+  - type: input
+    id: beneficiary
+    attributes:
+      label: Benefactor / recipient (optional)
+      placeholder: "Organization or worker name"
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: I confirm this proof relates to the specified project and is accurate to the best of my knowledge.
+          required: true

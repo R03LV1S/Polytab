@@ -1,0 +1,272 @@
+{
+  "generatedAt": "2026-11-13T22:37:55.663Z",
+  "dataCurrentThrough": {
+    "independentExpenditures": "2026-11-03",
+    "campaignFinances": "2026-10-14",
+    "campaignFinancesByCandidate": {
+      "tafoya": "2026-10-14",
+      "flanagan": "2026-10-14"
+    },
+    "superPacDonors": {
+      "C00935999": "2026-11-10",
+      "C00492140": "2026-10-14",
+      "C00685719": "2026-10-14",
+      "C00963736": "",
+      "C00951723": "2026-10-14",
+      "C00955138": "2026-10-14",
+      "C00960781": "2026-10-14",
+      "C00341396": "2026-10-14",
+      "C00738815": "2026-10-14",
+      "C00490375": "2026-09-30",
+      "C00684530": "2026-09-30",
+      "C00961615": "2026-10-14",
+      "C00004036": "2026-10-14",
+      "C00802389": "2026-10-14"
+    },
+    "aipacEarmarks": "2026-10-14",
+    "donorNetwork": {
+      "tafoya": "2026-08-12",
+      "flanagan": "2026-07-22",
+      "network": "2026-10-14"
+    },
+    "filingsProcessed": "2026-11-13"
+  },
+  "summary": {
+    "tafoya": {
+      "totalReceiptsCents": 1250178559,
+      "transfersFromAuthCents": 100643447,
+      "totalDisbursementsCents": 968272980,
+      "cashOnHandCents": 281938689,
+      "candidateContribCents": 787848,
+      "candidateLoansCents": 0,
+      "totalIndividualCents": 1108732830,
+      "otherCommitteeContribCents": 33425060,
+      "coverageEnd": "2026-10-14",
+      "individualRefundsCents": 14003846,
+      "outsideSupportingCents": 2520000,
+      "outsideOpposingCents": 72237487,
+      "outsideBenefitingCents": 259352859
+    },
+    "flanagan": {
+      "totalReceiptsCents": 1156396337,
+      "transfersFromAuthCents": 32764393,
+      "totalDisbursementsCents": 1057074930,
+      "cashOnHandCents": 99321407,
+      "candidateContribCents": 700000,
+      "candidateLoansCents": 0,
+      "totalIndividualCents": 1062922603,
+      "otherCommitteeContribCents": 53618072,
+      "coverageEnd": "2026-10-14",
+      "individualRefundsCents": 8992010,
+      "outsideSupportingCents": 211832487,
+      "outsideOpposingCents": 256832859,
+      "outsideBenefitingCents": 284069974
+    }
+  },
+  "outsideByCommittee": [
+    {
+      "committeeId": "C00935999",
+      "committee": "Minnesota Forward",
+      "fecType": "O",
+      "forTafoya": 0,
+      "againstTafoya": 0,
+      "forFlanagan": 10435100,
+      "againstFlanagan": 256832859,
+      "total": 267267959,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202611029945322691",
+      "latestDate": "2026-11-02"
+    },
+    {
+      "committeeId": "C00492140",
+      "committee": "Ab PAC",
+      "fecType": "V",
+      "forTafoya": 0,
+      "againstTafoya": 0,
+      "forFlanagan": 138218583,
+      "againstFlanagan": 0,
+      "total": 138218583,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945197073",
+      "latestDate": "2026-10-22"
+    },
+    {
+      "committeeId": "C00685719",
+      "committee": "Dlga",
+      "fecType": "W",
+      "forTafoya": 0,
+      "againstTafoya": 0,
+      "forFlanagan": 36925000,
+      "againstFlanagan": 0,
+      "total": 36925000,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945298080",
+      "latestDate": "2026-10-28"
+    },
+    {
+      "committeeId": "C00963736",
+      "committee": "Our Heritage Matters",
+      "fecType": "O",
+      "forTafoya": 0,
+      "againstTafoya": 36655067,
+      "forFlanagan": 0,
+      "againstFlanagan": 0,
+      "total": 36655067,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202611049945333381",
+      "latestDate": "2026-11-03"
+    },
+    {
+      "committeeId": "C90011156",
+      "committee": "Working America",
+      "fecType": "I",
+      "forTafoya": 0,
+      "againstTafoya": 10132400,
+      "forFlanagan": 21333238,
+      "againstFlanagan": 0,
+      "total": 31465638,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945298537",
+      "latestDate": "2026-10-27"
+    },
+    {
+      "committeeId": "C00951723",
+      "committee": "The Edge Action Fund",
+      "fecType": "O",
+      "forTafoya": 0,
+      "againstTafoya": 17500000,
+      "forFlanagan": 0,
+      "againstFlanagan": 0,
+      "total": 17500000,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945196991",
+      "latestDate": "2026-10-22"
+    },
+    {
+      "committeeId": "C00955138",
+      "committee": "Building Together",
+      "fecType": "V",
+      "forTafoya": 0,
+      "againstTafoya": 5048235,
+      "forFlanagan": 0,
+      "againstFlanagan": 0,
+      "total": 5048235,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945300258",
+      "latestDate": "2026-10-28"
+    },
+    {
+      "committeeId": "C90018904",
+      "committee": "The Conservative Caucus Dba Americans For Constitutional Liberty",
+      "fecType": "I",
+      "forTafoya": 2520000,
+      "againstTafoya": 0,
+      "forFlanagan": 0,
+      "againstFlanagan": 0,
+      "total": 2520000,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159908831514",
+      "latestDate": "2026-10-12"
+    },
+    {
+      "committeeId": "C00960781",
+      "committee": "Principled Patriots PAC",
+      "fecType": "V",
+      "forTafoya": 0,
+      "againstTafoya": 2435696,
+      "forFlanagan": 0,
+      "againstFlanagan": 0,
+      "total": 2435696,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306675",
+      "latestDate": "2026-10-30"
+    },
+    {
+      "committeeId": "C00341396",
+      "committee": "Moveon.org Political Action",
+      "fecType": "W",
+      "forTafoya": 0,
+      "againstTafoya": 0,
+      "forFlanagan": 1925877,
+      "againstFlanagan": 0,
+      "total": 1925877,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202611029945310287",
+      "latestDate": "2026-10-22"
+    },
+    {
+      "committeeId": "C90023912",
+      "committee": "Christopher Street Project",
+      "fecType": "I",
+      "forTafoya": 0,
+      "againstTafoya": 0,
+      "forFlanagan": 1616498,
+      "againstFlanagan": 0,
+      "total": 1616498,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229941001905",
+      "latestDate": "2026-10-22"
+    },
+    {
+      "committeeId": "C00738815",
+      "committee": "Takeaction MN Federal Fund",
+      "fecType": "O",
+      "forTafoya": 0,
+      "againstTafoya": 466089,
+      "forFlanagan": 466089,
+      "againstFlanagan": 0,
+      "total": 932178,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202611039945330556",
+      "latestDate": "2026-11-03"
+    },
+    {
+      "committeeId": "C00490375",
+      "committee": "National Nurses United For Patient Protection",
+      "fecType": "O",
+      "forTafoya": 0,
+      "againstTafoya": 0,
+      "forFlanagan": 551291,
+      "againstFlanagan": 0,
+      "total": 551291,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610239945160630",
+      "latestDate": "2026-10-24"
+    },
+    {
+      "committeeId": "C00684530",
+      "committee": "Planned Parenthood Of Minnesota Political Action Fund",
+      "fecType": "O",
+      "forTafoya": 0,
+      "againstTafoya": 0,
+      "forFlanagan": 193900,
+      "againstFlanagan": 0,
+      "total": 193900,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610139908683632",
+      "latestDate": "2026-09-22"
+    },
+    {
+      "committeeId": "C00961615",
+      "committee": "Forward With Democrats PAC",
+      "fecType": "V",
+      "forTafoya": 0,
+      "againstTafoya": 0,
+      "forFlanagan": 125711,
+      "againstFlanagan": 0,
+      "total": 125711,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945260004",
+      "latestDate": "2026-10-26"
+    },
+    {
+      "committeeId": "C00004036",
+      "committee": "SEIU Cope (Service Employees International Union Committee On Political Education)",
+      "fecType": "Q",
+      "forTafoya": 0,
+      "againstTafoya": 0,
+      "forFlanagan": 35200,
+      "againstFlanagan": 0,
+      "total": 35200,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202609209908327886",
+      "latestDate": "2026-08-13"
+    },
+    {
+      "committeeId": "C00802389",
+      "committee": "Givegreen United Action",
+      "fecType": "O",
+      "forTafoya": 0,
+      "againstTafoya": 0,
+      "forFlanagan": 6000,
+      "againstFlanagan": 0,
+      "total": 6000,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610149908818812",
+      "latestDate": "2026-09-10"
+    }
+  ]
+}

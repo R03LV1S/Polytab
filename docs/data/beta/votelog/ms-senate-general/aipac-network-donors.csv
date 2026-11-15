@@ -1,0 +1,171 @@
+candidate,donor,city,state,zip5,employer,occupation,direct_total_cents,contributions,first_date,last_date,match_tier,same_employer_string,aipac_pac_total_cents,aipac_pac_rows,aipac_pac_recipient_committees,aipac_pac_cycles
+Cindy Hyde-Smith,Albert Gahfi,Bal Harbour,FL,33154,Newco Capital Group,Ceo,700000,1,2025-09-03,2025-09-03,zip,true,4690000,10,10,2024/2026
+Cindy Hyde-Smith,Ryan Brumberg,Greenwich,CT,06831,A Priori,Investing,700000,1,2025-12-11,2025-12-11,zip,true,2765400,13,11,2024/2026
+Cindy Hyde-Smith,Steven Berenson,Miami Beach,FL,33141,Berenson Partners LLC.,Manufacturer,500000,1,2025-09-25,2025-09-25,zip,false,3900000,7,7,2026
+Cindy Hyde-Smith,Sam Olswanger,Washington,DC,20009,Akin Gump Strauss Hauer & Feld LLP,Policy Advisor,450000,2,2025-11-10,2026-06-29,zip,false,400000,5,5,2024
+Cindy Hyde-Smith,David Bukzin,Purchase,NY,10577,Marcum LLP,Cpa,400000,1,2025-12-04,2025-12-04,zip,true,3950000,14,13,2024/2026
+Cindy Hyde-Smith,Mackenzie Brumberg,Greenwich,CT,06831,Not Employed,Not Employed,400000,1,2025-12-11,2025-12-11,zip,false,750000,2,2,2026
+Cindy Hyde-Smith,Basheva Goldberg,Boca Raton,FL,33433,Retired,Retired,350000,1,2025-08-14,2025-08-14,zip,false,3990000,23,19,2024/2026
+Cindy Hyde-Smith,Elizabeth Davis,Atlanta,GA,30336,Rndc,Prmarketing Exec,350000,1,2025-07-31,2025-07-31,zip,true,6780000,37,30,2024/2026
+Cindy Hyde-Smith,Jay Davis,Atlanta,GA,30336,Ndc,Executive,350000,1,2025-07-31,2025-07-31,zip,false,2960000,6,6,2024/2026
+Cindy Hyde-Smith,Jonathan Tipermas,Riverside,CT,06878,Citadel,Portfolio Manager,350000,1,2025-12-11,2025-12-11,zip,true,1850000,10,9,2024/2026
+Cindy Hyde-Smith,Larry D. Silver,Boca Raton,FL,33431,Silver Companies,Developer,350000,1,2025-08-29,2025-08-29,zip,true,7200000,20,16,2024/2026
+Cindy Hyde-Smith,Richard Davis,Atlanta,GA,30342,Rndc,Evp Government Affairs,350000,1,2025-07-31,2025-07-31,zip,true,5030000,32,26,2024/2026
+Cindy Hyde-Smith,Joel Reinstein,Boca Raton,FL,33433,Joel Reinstein Pllc,Attorney,300000,1,2025-08-14,2025-08-14,zip,true,7890000,35,25,2024/2026
+Cindy Hyde-Smith,Michael Kassen,Westport,CT,06880,Self,Investor,300000,1,2025-12-04,2025-12-04,zip,false,17500000,78,61,2024/2026
+Cindy Hyde-Smith,Elizabeta Shacket,Coral Springs,FL,33065,Retired,Family Mediator,250000,1,2025-09-03,2025-09-03,zip,false,2530000,21,14,2024/2026
+Cindy Hyde-Smith,Eugene Hirsh,Atlanta,GA,30327,Retired,Retired,250000,1,2025-07-31,2025-07-31,zip,false,1450000,12,10,2024/2026
+Cindy Hyde-Smith,Jay Martus,Deerfield Beach,FL,33443,Mfal Consulting LLC,Managing Partner,250000,1,2025-07-31,2025-07-31,zip,true,6300000,30,25,2026
+Cindy Hyde-Smith,Josh Hirsh,Atlanta,GA,30327,,,250000,1,2025-09-11,2025-09-11,zip,false,580000,2,2,2024/2026
+Cindy Hyde-Smith,Martin Press,Fort Lauderdale,FL,33301,Gunster Law Firm,Attorney,250000,1,2025-09-18,2025-09-18,zip,true,850000,6,6,2024/2026
+Cindy Hyde-Smith,Richard Romanoff,Norwalk,CT,06855,Nebraskaland,Sales,250000,1,2025-12-04,2025-12-04,zip,true,1250000,8,8,2024/2026
+Cindy Hyde-Smith,Robert Kukler,Dunwoody,GA,30338,Retired,Retired,250000,1,2025-09-11,2025-09-11,zip,false,450000,2,2,2026
+Cindy Hyde-Smith,William Krochalis,Sandy Springs,GA,30327,Retired,Retired,250000,1,2025-08-29,2025-08-29,zip,false,250000,1,1,2026
+Cindy Hyde-Smith,Adele Jacobs,Bridgeport,CT,06604,Jacobs&Wallace,Attorney,200000,1,2025-12-11,2025-12-11,zip,true,1000000,7,7,2024/2026
+Cindy Hyde-Smith,Alek Szlam,Alpharetta,GA,30022,Retired,Retired,200000,1,2025-09-11,2025-09-11,zip,false,550000,3,2,2024/2026
+Cindy Hyde-Smith,Allan Jacob,Miami Beach,FL,33140,Physicians Dialysis,Physician,200000,1,2025-09-03,2025-09-03,zip,true,1550000,11,10,2024/2026
+Cindy Hyde-Smith,Arthur Penn,Miami Beach,FL,33140,Pennantpark,Investments,200000,1,2025-09-03,2025-09-03,zip,true,10265000,47,40,2024/2026
+Cindy Hyde-Smith,Avi Avidan,Highland Beach,FL,33487,Self,Managing Member,200000,1,2025-08-14,2025-08-14,zip,false,3300000,27,24,2024/2026
+Cindy Hyde-Smith,Barry Sylvetsky,Wayland,MA,01778,Retired,Retired,200000,1,2025-08-07,2025-08-07,zip,false,1400000,10,10,2024/2026
+Cindy Hyde-Smith,Ephraim Greenwall,Miami Beach,FL,33141,Talcott Holdings Inc,Social Activist,200000,1,2025-09-03,2025-09-03,zip,false,8020000,48,35,2024/2026
+Cindy Hyde-Smith,Jeffrey Snydeer,Boca Raton,FL,33432,Retired,Retired,200000,1,2025-08-14,2025-08-14,zip,false,100000,1,1,2026
+Cindy Hyde-Smith,Kenneth Schwartz,Stamford,CT,06902,Retired,Retired,200000,2,2025-12-11,2026-04-23,zip,false,2600000,19,17,2024/2026
+Cindy Hyde-Smith,Laurence Smolley,Hollywood,FL,33021,Cleveland Clinic Florida,Physician,200000,1,2025-09-11,2025-09-11,zip,true,400000,4,4,2026
+Cindy Hyde-Smith,Margo Cohen,Surfside,FL,33154,Not Employed,Not Employed,200000,1,2025-09-25,2025-09-25,zip,false,2800000,14,13,2024/2026
+Cindy Hyde-Smith,Russell Greenberg,Westport,CT,06880,Altus Capital Partners Inc.,Investment Management,200000,1,2025-12-18,2025-12-18,zip,false,3050000,21,19,2024/2026
+Cindy Hyde-Smith,Stanley Sonenshine,Atlanta,GA,30350,Self,Real Estate Investments,200000,1,2025-08-29,2025-08-29,zip,false,3760000,35,32,2024/2026
+Cindy Hyde-Smith,Stephen Weinstein,Boca Raton,FL,33496,Retired,Retired,200000,1,2025-09-11,2025-09-11,zip,false,450000,3,3,2024
+Cindy Hyde-Smith,David Menche,Miami Beach,FL,33140,Self,Surgeon,180000,1,2025-09-03,2025-09-03,zip,false,2460000,12,12,2024/2026
+Cindy Hyde-Smith,David Stein,Stamford,CT,06903,Retired,Retired,150000,1,2025-12-18,2025-12-18,zip,false,3025000,19,19,2024/2026
+Cindy Hyde-Smith,Ellen Stu Morris,Delray Beach,FL,33483,Cozen O'Connor,Attorney,150000,2,2025-08-29,2025-09-18,zip,true,1970000,24,18,2024/2026
+Cindy Hyde-Smith,Ken Haron,Stamford,CT,06905,Artimus Construction LLC,Construction,150000,1,2025-12-11,2025-12-11,zip,true,650000,4,4,2024/2026
+Cindy Hyde-Smith,Kerrin Behrend,Stamford,CT,06902,Retired,Retired,150000,1,2025-12-04,2025-12-04,zip,false,2050000,13,13,2024/2026
+Cindy Hyde-Smith,Marshall Cooper,Greenwich,CT,06830,Self,Entrepreneur,150000,1,2025-12-11,2025-12-11,zip,false,800000,5,5,2024/2026
+Cindy Hyde-Smith,Paula Katz,Greenwich,CT,06830,Retired,Retired,150000,1,2025-12-11,2025-12-11,zip,false,1750000,10,10,2024/2026
+Cindy Hyde-Smith,Mort Weinstein,Miami Beach,FL,33141,Retired,Retired,125000,1,2025-09-03,2025-09-03,zip,false,2925000,21,18,2024/2026
+Cindy Hyde-Smith,Paul Scheinberg,Sandy Springs,GA,30350,Retired,Retired,125000,1,2025-09-11,2025-09-11,zip,false,325000,3,3,2024/2026
+Cindy Hyde-Smith,Seth Wise,Fort Lauderdale,FL,33301,Bbx Capital,Executive,125000,1,2025-09-18,2025-09-18,zip,true,300000,2,2,2026
+Cindy Hyde-Smith,Stacy Nerenstone,Miami Beach,FL,33141,Retired,Retired,125000,1,2025-09-03,2025-09-03,zip,false,4850000,39,31,2024/2026
+Cindy Hyde-Smith,Alan Levow,Atlanta,GA,30326,Crowne Partners Inc,Principal,100000,1,2025-09-11,2025-09-11,zip,true,10410000,54,37,2024/2026
+Cindy Hyde-Smith,Avi Wolf,Atlanta,GA,30342,Bwolf And Sons,Real Estate,100000,1,2025-09-11,2025-09-11,zip,false,250000,1,1,2024
+Cindy Hyde-Smith,Barry J. Labell,Boca Raton,FL,33496,Self Employed,Investor,100000,1,2025-08-21,2025-08-21,zip,false,2680000,25,20,2024/2026
+Cindy Hyde-Smith,Barry Silverman,Aventura,FL,33180,Self,M.D.,100000,1,2025-09-03,2025-09-03,zip,false,3775000,28,27,2024/2026
+Cindy Hyde-Smith,Benjamin Metzger,Boca Raton,FL,33496,Bbr,Investment,100000,1,2025-09-18,2025-09-18,zip,true,2000000,23,21,2024/2026
+Cindy Hyde-Smith,Bernard Kaminetsky,Boca Raton,FL,33433,7991 Tennyson Court,Physician,100000,1,2025-09-11,2025-09-11,zip,false,3810000,30,25,2024/2026
+Cindy Hyde-Smith,Betsy Korn,Pompano Beach,FL,33062,Bvision,Sports,100000,1,2025-09-11,2025-09-11,zip,true,9386500,52,38,2024/2026
+Cindy Hyde-Smith,Bonnie Ashman,Westport,CT,06880,Retired,Retired,100000,1,2025-12-04,2025-12-04,zip,false,1220000,12,11,2024/2026
+Cindy Hyde-Smith,Brian Landow,Bal Harbour,FL,33154,Canyon,Executive,100000,1,2025-09-25,2025-09-25,zip,false,2430000,10,10,2026
+Cindy Hyde-Smith,Caryn Bedzow,Hollywood,FL,33021,Retired,Retired,100000,1,2025-09-25,2025-09-25,zip,false,375000,4,4,2024/2026
+Cindy Hyde-Smith,Chuck Berk,Atlanta,GA,30327,Bcr Properties LLC,Business Owner,100000,1,2025-07-31,2025-07-31,zip,true,900000,8,8,2026
+Cindy Hyde-Smith,Dalit Gal,Atlanta,GA,30350,Not Employed,Not Employed,100000,1,2025-09-11,2025-09-11,zip,false,1200000,12,11,2024/2026
+Cindy Hyde-Smith,Darren Tobin,Atlanta,GA,30342,Tobin Law,Lawyer,100000,1,2025-09-11,2025-09-11,zip,true,900000,6,5,2024/2026
+Cindy Hyde-Smith,David Litman,Dallas,TX,75229,1957,Exec,100000,1,2025-09-03,2025-09-03,zip,true,2790000,21,20,2024/2026
+Cindy Hyde-Smith,David Zweig,Fort Lauderdale,FL,33301,Retired,Retired,100000,1,2025-09-03,2025-09-03,zip,false,2350000,18,17,2024/2026
+Cindy Hyde-Smith,Deborah Baker,Miami,FL,33138,Greenspoon Marder,Attorney,100000,1,2025-09-18,2025-09-18,zip,true,450000,5,5,2026
+Cindy Hyde-Smith,Dori Konig,Westport,CT,06880,Tsg Consumer,Managing Director,100000,1,2025-12-18,2025-12-18,zip,true,946200,5,4,2024/2026
+Cindy Hyde-Smith,Emil Meshberg,Fairfield,CT,06824,Retired,Retired,100000,1,2025-12-18,2025-12-18,zip,false,1300000,9,9,2024/2026
+Cindy Hyde-Smith,Etta Novick,Boca Raton,FL,33434,Retired,Retired,100000,1,2025-09-03,2025-09-03,zip,false,1600000,17,15,2024/2026
+Cindy Hyde-Smith,Fredric Levin,Greens Farms,CT,06838,Self Employed,Trader,100000,1,2025-12-04,2025-12-04,zip,false,600000,6,6,2024/2026
+Cindy Hyde-Smith,Gadi Slade,Westport,CT,06880,Retired,Retired,100000,1,2025-12-04,2025-12-04,zip,false,5336700,35,24,2024/2026
+Cindy Hyde-Smith,Gary Hertzberg,Boca Raton,FL,33496,Retired,Retired,100000,1,2025-08-21,2025-08-21,zip,false,1510000,27,22,2024/2026
+Cindy Hyde-Smith,Geoffrey Erickson,Old Greenwich,CT,06870,Immunis.Ai,Exec,100000,1,2025-12-18,2025-12-18,zip,true,5226700,33,23,2024/2026
+Cindy Hyde-Smith,Herbert Rosenberg,Atlanta,GA,30327,National Distributing Company,Executive,100000,1,2025-07-31,2025-07-31,zip,true,1100000,11,11,2024/2026
+Cindy Hyde-Smith,Hy Saporta,Westport,CT,06880,Steward Partners,Co-Founder,100000,1,2025-12-18,2025-12-18,zip,true,4661700,37,25,2024/2026
+Cindy Hyde-Smith,Isaac Frank,Atlanta,GA,30327,Building Blocks Real Estate,President,100000,1,2025-08-21,2025-08-21,zip,false,6230000,43,32,2024/2026
+Cindy Hyde-Smith,Itzhak Ezratti,Sunrise,FL,33323,Gl Homes,Founder,100000,1,2025-09-03,2025-09-03,zip,true,800000,8,8,2024/2026
+Cindy Hyde-Smith,J. Levine,Glencoe,IL,60022,Self,Real Estate,100000,1,2025-09-25,2025-09-25,zip,false,50000,1,1,2026
+Cindy Hyde-Smith,James Tate,North Miami,FL,33181,Tate Development Corp.,President,100000,1,2025-09-03,2025-09-03,zip,true,1730000,15,15,2024/2026
+Cindy Hyde-Smith,Jan Saperstein,Atlanta,GA,30342,Retired,Retired,100000,1,2025-08-29,2025-08-29,zip,false,1850000,19,17,2024/2026
+Cindy Hyde-Smith,Jane Best,Evanston,IL,60203,Self,Fundraiser,100000,1,2025-09-11,2025-09-11,zip,false,850000,8,8,2024/2026
+Cindy Hyde-Smith,Jane Gold,Miami,FL,33143,Not Employed,Not Employed,100000,1,2025-09-25,2025-09-25,zip,false,1425000,12,11,2024/2026
+Cindy Hyde-Smith,Jay Eisenberg,Coral Springs,FL,33067,Eisenberg Group,Real Estate,100000,1,2025-08-21,2025-08-21,zip,true,1250000,20,15,2024/2026
+Cindy Hyde-Smith,Jeremy Goldstein,Miami Beach,FL,33140,Tierramano LLC,Real Estate Investments,100000,1,2025-09-18,2025-09-18,zip,false,1800000,18,18,2024/2026
+Cindy Hyde-Smith,Jessica Genet,Hollywood,FL,33312,Self Employed,Psychologist,100000,1,2025-09-18,2025-09-18,zip,false,2355000,14,14,2024/2026
+Cindy Hyde-Smith,Jonathan Barry,Marietta,GA,30067,Spectrum Maintenance Services,Real Estate,100000,1,2025-08-29,2025-08-29,zip,true,1600000,20,18,2024/2026
+Cindy Hyde-Smith,Josh Belinfante,Atlanta,GA,30327,Robbins Firm,Attorney,100000,1,2025-08-21,2025-08-21,zip,true,450000,4,4,2024/2026
+Cindy Hyde-Smith,Josh Cohen,Fairfield,CT,06824,Not Employed,Not Employed,100000,1,2025-12-18,2025-12-18,zip,false,500000,5,5,2026
+Cindy Hyde-Smith,Leslie Dezer Salmon,Sunny Isles Beach,FL,33160,Dezer Development,Real Estate,100000,1,2025-09-11,2025-09-11,zip,true,1420000,10,9,2024/2026
+Cindy Hyde-Smith,Lisa Goldman,Boca Raton,FL,33496,Self,750000,100000,1,2025-09-03,2025-09-03,zip,false,555000,4,3,2024/2026
+Cindy Hyde-Smith,Mark Silberman,Atlanta,GA,30327,Retired,Retired,100000,1,2025-09-11,2025-09-11,zip,false,2600000,26,21,2024/2026
+Cindy Hyde-Smith,Martha Miller,Marietta,GA,30068,Retired,Retired,100000,1,2025-09-11,2025-09-11,zip,false,700000,4,4,2026
+Cindy Hyde-Smith,Marty Kogon,Atlanta,GA,30328,Pull A Part,Manager,100000,1,2025-09-11,2025-09-11,zip,true,350000,3,3,2024/2026
+Cindy Hyde-Smith,Melissa Schechter,Delray Beach,FL,33483,Oes Global,Business Owner,100000,1,2025-09-25,2025-09-25,zip,true,150000,2,2,2026
+Cindy Hyde-Smith,Michael Carter,Weston,CT,06883,Carter Morse & Goodrich,Managing Director,100000,1,2025-12-18,2025-12-18,zip,true,1180000,11,10,2024/2026
+Cindy Hyde-Smith,Michael Kogon,Sandy Springs,GA,30328,Pull-A-Part Recycling,Cmto,100000,1,2025-09-11,2025-09-11,zip,true,400000,4,4,2024/2026
+Cindy Hyde-Smith,Michael Rosnick,Southport,CT,06890,Miller Rosnick,Attorney,100000,1,2025-12-18,2025-12-18,zip,true,100000,1,1,2026
+Cindy Hyde-Smith,Monica Genet,Ft. Lauderdale,FL,33312,Retired,Retired,100000,1,2025-09-11,2025-09-11,zip,false,1200000,6,6,2024/2026
+Cindy Hyde-Smith,Nicole Goldberg,Boca Raton,FL,33431,Not Employed,Not Employed,100000,1,2025-09-11,2025-09-11,zip,false,1800000,14,13,2024/2026
+Cindy Hyde-Smith,Paul Rosenberg,Hollywood,FL,33312,Self,Attorney,100000,1,2025-08-21,2025-08-21,zip,false,2180000,14,12,2024/2026
+Cindy Hyde-Smith,Peter Burnim,Fairfield,CT,06824,Retired,Retired,100000,1,2025-12-18,2025-12-18,zip,false,1650000,16,16,2024/2026
+Cindy Hyde-Smith,Rachel Baum Stadlen,Hollywood,FL,33019,Not Employed,Not Employed,100000,1,2025-09-11,2025-09-11,zip,false,1555000,9,9,2024/2026
+Cindy Hyde-Smith,Rhoda Schneider,Boca Raton,FL,33498,Retired,Retired,100000,1,2025-08-21,2025-08-21,zip,false,2332500,29,23,2024/2026
+Cindy Hyde-Smith,Robin Struhl,Boca Raton,FL,33433,Self,Interior Designer,100000,1,2025-08-29,2025-08-29,zip,false,850000,11,11,2024/2026
+Cindy Hyde-Smith,Ross Kogon,Atlanta,GA,30360,Pull-A-Part,Ceo,100000,1,2025-07-31,2025-07-31,zip,true,5650000,37,29,2024/2026
+Cindy Hyde-Smith,Scott Bohrer,Atlanta,GA,30350,The Home Depot,Retail,100000,1,2025-08-21,2025-08-21,zip,false,3230000,24,17,2024/2026
+Cindy Hyde-Smith,Scott Fane,Delray Beach,FL,33483,Self,Cpa,100000,1,2025-08-29,2025-08-29,zip,false,1945000,72,41,2024/2026
+Cindy Hyde-Smith,Scott Horowitz,Atlanta,GA,30305,Lavista,Real Estate,100000,1,2025-09-03,2025-09-03,zip,true,600000,6,6,2026
+Cindy Hyde-Smith,Shmuel Wolf,Marietta,GA,30068,B Wolf And Sons,Real Estate,100000,1,2025-09-03,2025-09-03,zip,true,1450000,18,17,2024/2026
+Cindy Hyde-Smith,Sidney Ferenc,Boca Raton,FL,33496,Retired,Retired,100000,1,2025-08-21,2025-08-21,zip,false,1350000,10,9,2026
+Cindy Hyde-Smith,Stephen Nimer,Miami Beach,FL,33139,University Of Miami,Physician,100000,1,2025-09-25,2025-09-25,zip,true,850000,7,7,2026
+Cindy Hyde-Smith,Steven Becker,Boca Raton,FL,33496,Southern Glazers W&S,Executive,100000,1,2025-10-23,2025-10-23,zip,false,2740000,11,9,2024/2026
+Cindy Hyde-Smith,Steven Caller,Lexington,KY,40502,Retired,Retired,100000,1,2025-09-03,2025-09-03,zip,false,2130000,17,17,2024/2026
+Cindy Hyde-Smith,Steven Kushner,Atlanta,GA,30306,Fellows Labriola LLP,Attorney,100000,1,2025-08-21,2025-08-21,zip,true,2775000,24,22,2024/2026
+Cindy Hyde-Smith,Steven Wertheim,Atlanta,GA,30328,Resurgens,M.D.,100000,1,2025-07-31,2025-07-31,zip,true,6230000,40,31,2024/2026
+Cindy Hyde-Smith,Stuart Meyers,Atlanta,GA,30338,Retired,Retired,100000,1,2025-07-31,2025-07-31,zip,false,4275000,31,24,2024/2026
+Cindy Hyde-Smith,Tanjuihsien Marx,Pembroke Pines,FL,33024,Hca,Physician,100000,1,2025-09-11,2025-09-11,zip,true,500000,7,7,2024/2026
+Cindy Hyde-Smith,Tim Williams,Douglasville,GA,30135,Greystone Power Corporation,Vice President,100000,1,2025-08-14,2025-08-14,zip,true,2400000,25,21,2024/2026
+Cindy Hyde-Smith,Vered Links,Stamford,CT,06905,Chabad Of Stamford,Manager,100000,1,2025-12-04,2025-12-04,zip,true,1300000,8,8,2024/2026
+Cindy Hyde-Smith,Zipora Arison,Pompano Beach,FL,33062,Self Employed,Medical Doctor,100000,1,2025-09-03,2025-09-03,zip,false,7690000,56,41,2024/2026
+Cindy Hyde-Smith,Graham Miller,Boca Raton,FL,33486,The Bloom Organization,Banker,75000,1,2025-08-29,2025-08-29,zip,true,575000,8,8,2026
+Cindy Hyde-Smith,Arnold Mars,Pompano Beach,FL,33062,Retired,Retired,50000,1,2025-08-21,2025-08-21,zip,false,1142000,26,20,2024/2026
+Cindy Hyde-Smith,Barbara Osband,Boca Raton,FL,33433,Retired,Retired,50000,1,2025-08-21,2025-08-21,zip,false,850000,17,14,2024/2026
+Cindy Hyde-Smith,Benjamin Freedman,Boca Raton,FL,33433,Radiology Associates Of Hollywood,Physician,50000,1,2025-08-21,2025-08-21,zip,true,550000,10,9,2026
+Cindy Hyde-Smith,Benjamin Mark Tripp,Boca Raton,FL,33433,Self Employed,Physician,50000,1,2025-09-03,2025-09-03,zip,false,500000,10,9,2024/2026
+Cindy Hyde-Smith,Brian Doppelt,Boca Raton,FL,33496,Bainbridge Co,Exec,50000,1,2025-08-21,2025-08-21,zip,true,3396800,27,20,2024/2026
+Cindy Hyde-Smith,Caryn Groedel,Boca Raton,FL,33486,Caryn Groedel & Associates Co. Lpa,Lawyer,50000,1,2025-08-29,2025-08-29,zip,false,625000,13,12,2024/2026
+Cindy Hyde-Smith,David Kay,Boca Raton,FL,33433,Elevate Ent,Physician,50000,1,2025-08-21,2025-08-21,zip,true,700000,14,12,2024/2026
+Cindy Hyde-Smith,Elissa Klapper,Delray Beach,FL,33446,Retired,Retired,50000,1,2025-08-29,2025-08-29,zip,false,500000,11,10,2024/2026
+Cindy Hyde-Smith,Fred Ehrenstein,Hollywood,FL,33021,Retired,Retired,50000,1,2025-09-18,2025-09-18,zip,false,425000,11,10,2024/2026
+Cindy Hyde-Smith,Harold Traub,Delray Beach,FL,33446,Elm Street Partners LLC,Real Estate Investor,50000,1,2025-08-29,2025-08-29,zip,false,480000,7,6,2024/2026
+Cindy Hyde-Smith,Jeffrey Fisher,New York,NY,10021,Touro University,Special Programs Administrator,50000,1,2025-03-26,2025-03-26,zip,true,16828326,293,202,2024/2026
+Cindy Hyde-Smith,Jeffrey Goldberg,Boca Raton,FL,33431,The Milestone Group,Real Estate,50000,1,2025-08-29,2025-08-29,zip,true,3660000,28,22,2024/2026
+Cindy Hyde-Smith,Joshua Marcus,Boca Raton,FL,33496,Lendingone LLC,General Counsel,50000,1,2025-08-29,2025-08-29,zip,false,350000,6,5,2024/2026
+Cindy Hyde-Smith,Justin Hertzberg,Delray Beach,FL,33446,Fpfx Technologies,Ceo,50000,1,2025-08-21,2025-08-21,zip,true,1100000,18,15,2024/2026
+Cindy Hyde-Smith,Karen Lombart,Boca Raton,FL,33496,Not Employed,Not Employed,50000,1,2025-09-03,2025-09-03,zip,false,275000,6,6,2024/2026
+Cindy Hyde-Smith,Kevin Trangle,Beachwood,OH,44122,Imex,Physician,50000,1,2025-08-29,2025-08-29,zip,true,570000,9,7,2024/2026
+Cindy Hyde-Smith,Kevin Von Neuschatz,Miami,FL,33131,Stanhope Financial Holdings Limited,Executive,50000,1,2025-09-03,2025-09-03,zip,true,3125100,22,18,2024/2026
+Cindy Hyde-Smith,Leonard Grunstein,Boca Raton,FL,33433,Retired,Retired,50000,1,2025-08-29,2025-08-29,zip,false,1000000,14,13,2024/2026
+Cindy Hyde-Smith,Lisa Bensmihen,Deerfield Beach,FL,33441,United Elder Care Services,Home Care,50000,1,2025-08-21,2025-08-21,zip,true,5200000,46,34,2024/2026
+Cindy Hyde-Smith,Mark Cohen,Miami Beach,FL,33141,Stone House Partners,Self,50000,1,2025-09-03,2025-09-03,zip,true,1950000,23,22,2024/2026
+Cindy Hyde-Smith,Mark Horn,Boca Raton,FL,33432,Retired,Retired,50000,1,2025-08-21,2025-08-21,zip,false,900000,18,15,2024/2026
+Cindy Hyde-Smith,Matthew Kahn,Delray Beach,FL,33444,Mrsakahn II LLC,Consultant,50000,1,2025-08-21,2025-08-21,zip,false,1250000,21,19,2024/2026
+Cindy Hyde-Smith,Matthew Landau,Westport,CT,06880,Ls Property Group LLC,Real Estate Investing,50000,1,2025-12-18,2025-12-18,zip,true,1446500,27,26,2024/2026
+Cindy Hyde-Smith,Michael Morgenstern,Miami,FL,33131,Magnet,Investor,50000,1,2025-09-25,2025-09-25,zip,true,100000,2,2,2024/2026
+Cindy Hyde-Smith,Michael Rose,Boca Raton,FL,33432,Rose Real Estate Services Inc.,Real Estate,50000,1,2025-09-03,2025-09-03,zip,false,2775000,30,21,2024/2026
+Cindy Hyde-Smith,Mitchell Kopelman,Inlet Beach,FL,32461,Aprio LLP,Cpa,50000,1,2025-07-31,2025-07-31,zip,false,1050000,11,11,2026
+Cindy Hyde-Smith,Noam Lotan,Boynton Beach,FL,33473,Retired,Retired,50000,1,2025-08-21,2025-08-21,zip,false,390000,8,8,2026
+Cindy Hyde-Smith,Rand Schwartzwald,Boca Raton,FL,33434,David Schwartz Md,Administrator,50000,1,2025-08-21,2025-08-21,zip,false,1935000,34,24,2024/2026
+Cindy Hyde-Smith,Randee Rubenstein,Delray Beach,FL,33446,Retired,Retired,50000,1,2025-08-29,2025-08-29,zip,false,700000,14,12,2024/2026
+Cindy Hyde-Smith,Richard Linevsky,Ft. Lauderdale,FL,33331,Self,Real Estate,50000,1,2025-09-18,2025-09-18,zip,false,950000,10,10,2024/2026
+Cindy Hyde-Smith,Robert Cohen,Boca Raton,FL,33496,Retired,Retired,50000,1,2025-09-03,2025-09-03,zip,false,450000,8,7,2026
+Cindy Hyde-Smith,Roberta Loomar,Sunrise,FL,33323,Difgen Pharmaceuticals LLC,Attorney,50000,1,2025-09-11,2025-09-11,zip,true,900000,13,12,2024/2026
+Cindy Hyde-Smith,Samuel Dwek,Delray Beach,FL,33483,Self,Consultant,50000,1,2025-08-21,2025-08-21,zip,false,1375000,17,12,2024/2026
+Cindy Hyde-Smith,Scott Brenner,Boca Raton,FL,33432,Sfb Evolution Inc,Real Estate,50000,1,2025-08-29,2025-08-29,zip,true,1150000,18,18,2024/2026
+Cindy Hyde-Smith,Shlomoh Ben-David,Sunny Isles Beach,FL,33160,Aer Services Inc.,Managet,50000,1,2025-09-03,2025-09-03,zip,false,2689000,26,16,2024/2026
+Cindy Hyde-Smith,Simeon Fensterheim,Boca Raton,FL,33433,Retired,Retired,50000,1,2025-08-21,2025-08-21,zip,false,1400000,18,16,2024/2026
+Cindy Hyde-Smith,Stan Grubman,Boca Raton,FL,33496,Retired,Retired,50000,1,2025-08-29,2025-08-29,zip,false,975000,16,12,2024/2026
+Cindy Hyde-Smith,Steve Perles,Miami Beach,FL,33140,The Perles Law Firm,Attorney,50000,1,2025-09-30,2025-09-30,zip,false,1150000,13,13,2024/2026
+Cindy Hyde-Smith,Stewart Shull,Fort Lauderdale,FL,33312,S&G Medical Enterprises,President,50000,1,2025-09-03,2025-09-03,zip,true,1650000,14,12,2024/2026
+Cindy Hyde-Smith,William Gray,Plantation,FL,33325,76undefeated,Mgr,50000,1,2025-09-25,2025-09-25,zip,true,5721400,37,31,2024/2026
+Cindy Hyde-Smith,Yaakov Kronfeld,Boca Raton,FL,33433,Not Employed,Not Employed,50000,1,2025-08-21,2025-08-21,zip,false,825000,18,15,2024/2026
+Cindy Hyde-Smith,Yoav Cohen,Aventura,FL,33180,Energy Now,Founder And Ceo,50000,1,2025-08-29,2025-08-29,zip,true,400000,4,4,2024/2026
+Cindy Hyde-Smith,Zorik Spektor,Boca Raton,FL,33433,Florida Ent Associates,Physician,50000,1,2025-09-03,2025-09-03,zip,true,250000,6,6,2024/2026
+Cindy Hyde-Smith,Cathy Selig,Atlanta,GA,30309,Selig Enterprises,Real Estate,25000,1,2025-09-11,2025-09-11,zip,true,825000,10,9,2024/2026
+Scott Colom,Brett Schreiber,San Diego,CA,92107,Singleton Schreiber LLP,Founding Partner,700000,2,2025-09-30,2025-09-30,zip,true,2800000,9,9,2026
+Scott Colom,Brian Colon,Albuquerque,NM,87113,Singleton Schreiber LLP,Managing Partner,100000,1,2026-02-22,2026-02-22,zip,false,25000,1,1,2024
+Scott Colom,Gary Elden,Chicago,IL,60606,"Shook Hardy & Bacon, LLP",Attorney,100000,1,2026-04-20,2026-04-20,state,false,50000,1,1,2024
+Scott Colom,Jon Hirschtick,Lexington,MA,02420,Ptc,Chief Evangelist,100000,1,2025-12-08,2025-12-08,zip,true,10000000,25,19,2024/2026
+Scott Colom,Robert Friedman,San Mateo,CA,94402,Corporation For Enterprise Development,Chair,100000,1,2025-10-28,2025-10-28,state,false,1250000,9,8,2024/2026
+Scott Colom,David Hochberg,New York,NY,10021,Not Employed,Not Employed,50000,1,2025-09-15,2025-09-15,zip,false,100000,1,1,2024
+Scott Colom,Michael Koss,Los Angeles,CA,90025,Self Employed,Private Investor,50000,1,2026-05-20,2026-05-20,zip,false,9000000,67,40,2024/2026
+Scott Colom,David Stern,Chevy Chase,MD,20815,Not Employed,Not Employed,33300,1,2026-06-30,2026-06-30,state,false,1875000,20,19,2024/2026

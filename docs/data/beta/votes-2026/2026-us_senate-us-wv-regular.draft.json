@@ -1,0 +1,172 @@
+{
+  "template_version": "pol-vote-beta-2",
+  "bounty_id": "2026-us_senate-us-wv-regular",
+  "office_type": "us_senate",
+  "election_year": 2026,
+  "jurisdiction": {
+    "level": "federal",
+    "state": "US-WV",
+    "district": null,
+    "race_type": "regular",
+    "senate_class": 2
+  },
+  "subject": {
+    "name": "Shelley Moore Capito",
+    "party": "R",
+    "incumbent": true,
+    "won_race": true,
+    "votelog": {
+      "listed": true,
+      "member_id_or_slug": "capito",
+      "profile_url": "https://votelog.org/members/capito"
+    },
+    "identifiers": {
+      "bioguide_id": "C001047",
+      "fec_candidate_ids": [
+        "S4WV00159",
+        "H0WV02138"
+      ],
+      "fec_principal_committee_id_cycle": "C00539825",
+      "fec_principal_committee_ids_cycle": [
+        "C00539825"
+      ],
+      "opensecrets_cid": "N00009771"
+    }
+  },
+  "finance": {
+    "career_total_receipts_usd": 36794601,
+    "career_net_contributions_usd": 31580713,
+    "career_total_note": "Sum of FEC reported full-election receipts/net contributions across candidate IDs and authorized committees (source-linked).",
+    "cycle": 2026,
+    "cycle_window": "full_term_6yr",
+    "cycle_total_receipts_usd": 7314563,
+    "coverage_end_date": "2026-10-14",
+    "top_donors_cycle": [
+      {
+        "rank": 1,
+        "name": "Leading The Future",
+        "committee_id": "C00916692",
+        "amount_usd": 22500000,
+        "type": "superpac_donor_via_votelog",
+        "source_url": "https://votelog.org/data/wv-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 2,
+        "name": "Summit Ridge Media Group LLC",
+        "committee_id": "C00916692",
+        "amount_usd": 1126872,
+        "type": "superpac_donor_via_votelog",
+        "source_url": "https://votelog.org/data/wv-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 3,
+        "name": "Take Me Home WV Inc.",
+        "committee_id": "C00905612",
+        "amount_usd": 443054,
+        "type": "superpac_donor_via_votelog",
+        "source_url": "https://votelog.org/data/wv-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 4,
+        "name": "Lonsdale Enterprises Inc.",
+        "committee_id": "C00916692",
+        "amount_usd": 250000,
+        "type": "superpac_donor_via_votelog",
+        "source_url": "https://votelog.org/data/wv-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 5,
+        "name": "Chain Bridge Bank",
+        "committee_id": "C00916692",
+        "amount_usd": 66138,
+        "type": "superpac_donor_via_votelog",
+        "source_url": "https://votelog.org/data/wv-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      }
+    ],
+    "sources": [
+      {
+        "label": "OpenFEC candidate totals (election_full=true, S4WV00159)",
+        "url": "https://api.open.fec.gov/v1/candidate/S4WV00159/totals/?election_full=true",
+        "as_of": "2026-11-15"
+      },
+      {
+        "label": "OpenFEC candidate totals (election_full=true, H0WV02138)",
+        "url": "https://api.open.fec.gov/v1/candidate/H0WV02138/totals/?election_full=true",
+        "as_of": "2026-11-15"
+      }
+    ]
+  },
+  "opponents_nov_general": [
+    {
+      "name": "Rachel Lee Fetty Anderson",
+      "party": "D",
+      "cycle": 2026,
+      "cycle_total_receipts_usd": 164558,
+      "coverage_end_date": "2026-10-14",
+      "fec_candidate_id": "S6WV00188",
+      "fec_candidate_ids": [
+        "S6WV00188"
+      ],
+      "sources": [
+        {
+          "label": "OpenFEC candidate totals (election_full=true, S6WV00188)",
+          "url": "https://api.open.fec.gov/v1/candidate/S6WV00188/totals/?election_full=true",
+          "as_of": "2026-11-15"
+        }
+      ]
+    }
+  ],
+  "vote": {
+    "question": "[BETA_VOTE_QUESTION_PLACEHOLDER for Shelley Moore Capito | career reported receipts: $36,794,601]",
+    "question_vars": {
+      "subject_name": "Shelley Moore Capito",
+      "career_total_receipts_usd": 36794601
+    },
+    "type": "advisory_yes_no",
+    "options": [
+      "Yes",
+      "No",
+      "Abstain"
+    ]
+  },
+  "bounty_if_passed": {
+    "description": "[BETA_BOUNTY_OUTCOME_PLACEHOLDER for US-WV]",
+    "destination_type": "tip_jar",
+    "destination_criteria": "[BETA_CRITERIA_PLACEHOLDER for US-WV]",
+    "state": "US-WV"
+  },
+  "location": {
+    "label": "United States Capitol",
+    "address": "First St SE, Washington, DC 20004, USA",
+    "lat": 38.8899,
+    "lng": -77.0091
+  },
+  "payment": {
+    "chain": "base",
+    "chain_id": 8453,
+    "token": "USDC",
+    "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+    "qr_asset": "docs/escrow-qr.png",
+    "note": "Uses existing project wallet/QR; subject to current claim-first/support-locked routing rules unless overridden for this beta item.",
+    "payment_memo_or_slug": "2026-us_senate-us-wv-regular"
+  },
+  "provenance": {
+    "status": "beta_template_draft",
+    "generated_at": "2026-11-15T22:12:25.384Z",
+    "generator": "pol-vote-template",
+    "review_required": true
+  },
+  "_review": {
+    "missing": [],
+    "placeholders": [
+      "vote.question",
+      "bounty_if_passed.description",
+      "bounty_if_passed.destination_criteria"
+    ]
+  }
+}

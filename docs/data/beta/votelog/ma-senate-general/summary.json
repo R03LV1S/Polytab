@@ -1,0 +1,67 @@
+{
+  "generatedAt": "2026-11-13T22:37:51.261Z",
+  "dataCurrentThrough": {
+    "independentExpenditures": "2026-11-02",
+    "campaignFinances": "2026-10-14",
+    "campaignFinancesByCandidate": {
+      "deaton": "2026-10-14",
+      "markey": "2026-10-14"
+    },
+    "superPacDonors": {
+      "C00924183": "2026-10-14"
+    },
+    "aipacEarmarks": "2026-10-14",
+    "donorNetwork": {
+      "deaton": "2026-08-12",
+      "markey": "2026-08-12",
+      "network": "2026-10-14"
+    },
+    "filingsProcessed": "2026-11-13"
+  },
+  "summary": {
+    "deaton": {
+      "totalReceiptsCents": 167445977,
+      "transfersFromAuthCents": 0,
+      "totalDisbursementsCents": 118630341,
+      "cashOnHandCents": 48815636,
+      "candidateContribCents": 5341400,
+      "candidateLoansCents": 100000000,
+      "totalIndividualCents": 57989040,
+      "otherCommitteeContribCents": 997500,
+      "coverageEnd": "2026-10-14",
+      "individualRefundsCents": 75000,
+      "outsideSupportingCents": 66950000,
+      "outsideOpposingCents": 0,
+      "outsideBenefitingCents": 73100000
+    },
+    "markey": {
+      "totalReceiptsCents": 598538537,
+      "transfersFromAuthCents": 236923831,
+      "totalDisbursementsCents": 699615960,
+      "cashOnHandCents": 79991274,
+      "candidateContribCents": 0,
+      "candidateLoansCents": 0,
+      "totalIndividualCents": 267981746,
+      "otherCommitteeContribCents": 68144000,
+      "coverageEnd": "2026-10-14",
+      "individualRefundsCents": 9093653,
+      "outsideSupportingCents": 0,
+      "outsideOpposingCents": 6150000,
+      "outsideBenefitingCents": 0
+    }
+  },
+  "outsideByCommittee": [
+    {
+      "committeeId": "C00924183",
+      "committee": "Commonwealth Prosperity Fund",
+      "fecType": "O",
+      "forDeaton": 66950000,
+      "againstDeaton": 0,
+      "forMarkey": 0,
+      "againstMarkey": 6150000,
+      "total": 73100000,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202611049945331779",
+      "latestDate": "2026-11-02"
+    }
+  ]
+}

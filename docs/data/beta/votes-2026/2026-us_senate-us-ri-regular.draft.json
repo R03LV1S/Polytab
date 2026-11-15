@@ -1,0 +1,129 @@
+{
+  "template_version": "pol-vote-beta-2",
+  "bounty_id": "2026-us_senate-us-ri-regular",
+  "office_type": "us_senate",
+  "election_year": 2026,
+  "jurisdiction": {
+    "level": "federal",
+    "state": "US-RI",
+    "district": null,
+    "race_type": "regular",
+    "senate_class": 2
+  },
+  "subject": {
+    "name": "John F. Reed",
+    "party": "D",
+    "incumbent": true,
+    "won_race": true,
+    "votelog": {
+      "listed": true,
+      "member_id_or_slug": "reed",
+      "profile_url": "https://votelog.org/members/reed"
+    },
+    "identifiers": {
+      "bioguide_id": "R000122",
+      "fec_candidate_ids": [
+        "S6RI00163",
+        "H0RI02071"
+      ],
+      "fec_principal_committee_id_cycle": "C00238907",
+      "fec_principal_committee_ids_cycle": [
+        "C00238907",
+        "C00238907"
+      ],
+      "opensecrets_cid": "N00000362"
+    }
+  },
+  "finance": {
+    "career_total_receipts_usd": 26376545,
+    "career_net_contributions_usd": 16331992,
+    "career_total_note": "Sum of FEC reported full-election receipts/net contributions across candidate IDs and authorized committees (source-linked).",
+    "cycle": 2026,
+    "cycle_window": "full_term_6yr",
+    "cycle_total_receipts_usd": 4814653,
+    "coverage_end_date": "2026-10-14",
+    "top_donors_cycle": [],
+    "sources": [
+      {
+        "label": "OpenFEC candidate totals (election_full=true, S6RI00163)",
+        "url": "https://api.open.fec.gov/v1/candidate/S6RI00163/totals/?election_full=true",
+        "as_of": "2026-11-15"
+      },
+      {
+        "label": "OpenFEC candidate totals (election_full=true, H0RI02071)",
+        "url": "https://api.open.fec.gov/v1/candidate/H0RI02071/totals/?election_full=true",
+        "as_of": "2026-11-15"
+      }
+    ]
+  },
+  "opponents_nov_general": [
+    {
+      "name": "Raymond Tyler MR Mckay",
+      "party": "R",
+      "cycle": 2026,
+      "cycle_total_receipts_usd": 207231,
+      "coverage_end_date": "2026-10-14",
+      "fec_candidate_id": "S4RI00051",
+      "fec_candidate_ids": [
+        "S4RI00051"
+      ],
+      "sources": [
+        {
+          "label": "OpenFEC candidate totals (election_full=true, S4RI00051)",
+          "url": "https://api.open.fec.gov/v1/candidate/S4RI00051/totals/?election_full=true",
+          "as_of": "2026-11-15"
+        }
+      ]
+    }
+  ],
+  "vote": {
+    "question": "[BETA_VOTE_QUESTION_PLACEHOLDER for John F. Reed | career reported receipts: $26,376,545]",
+    "question_vars": {
+      "subject_name": "John F. Reed",
+      "career_total_receipts_usd": 26376545
+    },
+    "type": "advisory_yes_no",
+    "options": [
+      "Yes",
+      "No",
+      "Abstain"
+    ]
+  },
+  "bounty_if_passed": {
+    "description": "[BETA_BOUNTY_OUTCOME_PLACEHOLDER for US-RI]",
+    "destination_type": "tip_jar",
+    "destination_criteria": "[BETA_CRITERIA_PLACEHOLDER for US-RI]",
+    "state": "US-RI"
+  },
+  "location": {
+    "label": "United States Capitol",
+    "address": "First St SE, Washington, DC 20004, USA",
+    "lat": 38.8899,
+    "lng": -77.0091
+  },
+  "payment": {
+    "chain": "base",
+    "chain_id": 8453,
+    "token": "USDC",
+    "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+    "qr_asset": "docs/escrow-qr.png",
+    "note": "Uses existing project wallet/QR; subject to current claim-first/support-locked routing rules unless overridden for this beta item.",
+    "payment_memo_or_slug": "2026-us_senate-us-ri-regular"
+  },
+  "provenance": {
+    "status": "beta_template_draft",
+    "generated_at": "2026-11-15T22:12:00.028Z",
+    "generator": "pol-vote-template",
+    "review_required": true
+  },
+  "_review": {
+    "missing": [
+      "finance.top_donors_cycle"
+    ],
+    "placeholders": [
+      "vote.question",
+      "bounty_if_passed.description",
+      "bounty_if_passed.destination_criteria"
+    ]
+  }
+}

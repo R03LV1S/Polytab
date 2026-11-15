@@ -1,0 +1,101 @@
+candidate,donor,city,state,zip5,employer,occupation,direct_total_cents,contributions,first_date,last_date,match_tier,same_employer_string,aipac_pac_total_cents,aipac_pac_rows,aipac_pac_recipient_committees,aipac_pac_cycles
+Pete Ricketts,Edward Jr. Levy,Birmingham,MI,48009,Edw. C Levy Co,Chairman,1400000,5,2025-06-03,2025-11-10,zip,true,35510000,67,51,2024/2026
+Pete Ricketts,D Ryan Brumberg,Greenwich,CT,06831,A Priori,Finance,700000,2,2025-06-15,2025-06-15,zip,true,1100000,3,3,2024/2026
+Pete Ricketts,Daniel W. Setzman,New York,NY,10014,Jane Street Capital,Financial Advisor,700000,1,2026-04-22,2026-04-22,zip,false,1660000,11,11,2024
+Pete Ricketts,David Schwartz,Chicago,IL,60614,Waterton,Real Estate,700000,2,2026-01-22,2026-06-27,state,false,9000,5,5,2024
+Pete Ricketts,Linda Dresner,Birmingham,MI,48009,Retired,Retired,700000,2,2025-11-10,2025-11-10,zip,false,11630000,21,18,2024/2026
+Pete Ricketts,Marc S. Lipschultz,Saratoga Springs,NY,12866,Open Ai,President,700000,2,2025-12-18,2025-12-18,state,false,1980000,3,3,2024
+Pete Ricketts,Sanford Perl,Glencoe,IL,60022,Kirkland & Ellis LLP,Attorney,700000,2,2025-09-24,2025-09-24,zip,true,20270000,79,61,2024/2026
+Pete Ricketts,David Bukzin,Purchase,NY,10577,Cbiz Inc,Cpa,500000,2,2025-06-18,2025-06-18,zip,true,3950000,14,13,2024/2026
+Pete Ricketts,Rachel Rimsky Rubin,Riverside,CT,06878,"Adelphi Data, Inc.",Head Of Operations,500000,2,2025-06-16,2025-06-16,zip,true,1346200,6,5,2024/2026
+Pete Ricketts,Richard W Porter,Chicago,IL,60654,Kirkland & Ellis,Retired Partner,500000,2,2025-09-05,2026-03-31,state,true,1050000,11,9,2024/2026
+Pete Ricketts,Benjamin Weinstein,Dallas,TX,75248,Stride Healthcare,Healthcare Executive,350000,1,2026-06-17,2026-06-17,zip,true,1600000,8,7,2026
+Pete Ricketts,David Winn,Boca Raton,FL,33496,Fivew,Investor,350000,1,2025-06-30,2025-06-30,zip,false,660000,1,1,2024
+Pete Ricketts,Joseph Sarachek,Scarsdale,NY,10583,Sarachek Law Firm,Attorney,350000,1,2026-05-14,2026-05-14,zip,true,1960000,11,9,2024/2026
+Pete Ricketts,Kenneth Eckstein,New York,NY,10075,Hsf Kramer,Attorney,350000,1,2026-06-04,2026-06-04,zip,true,3950000,14,14,2024/2026
+Pete Ricketts,Michael Cassel,New York,NY,10019,"Wachtell, Lipton, Rosen & Katz",Attorney,350000,1,2026-06-11,2026-06-11,zip,true,1250000,5,5,2026
+Pete Ricketts,Michael Levy,Dallas,TX,75201,Crow Holdings,Investments,350000,1,2026-06-11,2026-06-11,zip,true,3300000,12,10,2026
+Pete Ricketts,Peter Zieve,Mukilteo,WA,98275,Electroimpact,Engineer,350000,1,2026-06-22,2026-06-22,zip,true,100000,1,1,2024
+Pete Ricketts,Samuel Schwartz,Las Vegas,NV,89134,"Schwartz, Pllc",Attorney,350000,1,2026-06-11,2026-06-11,zip,true,1570000,5,4,2026
+Pete Ricketts,Stacey Burke,Houston,TX,77056,"Stacey E. Burke, P.C.",Lawyer,350000,1,2026-06-29,2026-06-29,zip,true,1700000,12,12,2024/2026
+Pete Ricketts,Todd Platt,Dallas,TX,75219,Hillwood,Ceo,350000,1,2026-06-22,2026-06-22,zip,true,9610000,30,26,2024/2026
+Pete Ricketts,Tom Fellman,Omaha,NE,68114,Broadmoor Development Co,Developer,350000,1,2026-06-05,2026-06-05,zip,false,1350000,7,7,2024/2026
+Pete Ricketts,Yale Baron,Teaneck,NJ,07666,Anchorage Capital,Finance,350000,1,2026-06-18,2026-06-18,zip,true,1550000,5,5,2026
+Pete Ricketts,Jeffrey Maron,Stamford,CT,06905,7ridge,Manager,300000,1,2025-06-18,2025-06-18,zip,true,1975000,13,13,2024/2026
+Pete Ricketts,Joseph Zalis,Stamford,CT,06902,Citibank,Banker,300000,1,2025-06-18,2025-06-18,zip,true,300000,1,1,2026
+Pete Ricketts,Paula Katz,Greenwich,CT,06830,S-3 Group,Lawyer,300000,1,2025-06-17,2025-06-17,zip,false,1750000,10,10,2024/2026
+Pete Ricketts,Harlan Korenvaes,Dallas,TX,75220,Korenvaes Management,Principal,250000,1,2026-06-10,2026-06-10,zip,true,4040000,14,12,2024/2026
+Pete Ricketts,James Gray,Glencoe,IL,60022,G-Bar,Owner,250000,1,2025-09-25,2025-09-25,zip,true,680000,3,3,2024/2026
+Pete Ricketts,Jonathan Tipermas,Riverside,CT,06878,Bunge North America Pac,Portfolio Manager,250000,1,2025-06-17,2025-06-17,zip,false,1850000,10,9,2024/2026
+Pete Ricketts,Adele Jacobs,Fairfield,CT,06825,"Jacobs & Wallace, Pllc",Atty,200000,1,2025-06-17,2025-06-17,zip,false,1564000,19,19,2024/2026
+Pete Ricketts,Alan Zekelman,Bloomfield Hills,MI,48301,Pearson & Associates,Retired,200000,1,2025-10-26,2025-10-26,zip,false,1500000,11,11,2024/2026
+Pete Ricketts,Bonnie Ashman,Westport,CT,06880,Pearson & Associates,Retired,200000,1,2025-06-16,2025-06-16,zip,false,1220000,12,11,2024/2026
+Pete Ricketts,David Carroll,West Bloomfield,MI,48323,Pearson & Associates,Retired,200000,1,2025-10-26,2025-10-26,zip,false,2350000,18,17,2024/2026
+Pete Ricketts,David Zubricki,Brooklyn,NY,11201,Ducera Partners LLC,Investment Banker,200000,1,2026-06-12,2026-06-12,zip,true,650000,3,3,2026
+Pete Ricketts,Eliot Weiner,Birmingham,MI,48009,Edw. C. Levy Co,Executive,200000,2,2025-10-01,2025-10-15,zip,true,1150000,9,7,2026
+Pete Ricketts,Emil Meshberg,Fairfield,CT,06824,Pearson & Associates,Retired,200000,1,2025-06-16,2025-06-16,zip,false,1300000,9,9,2024/2026
+Pete Ricketts,Erik Stamell,Bloomfield Hills,MI,48301,Redemption Bank,Chief Credit Officer,200000,1,2025-11-06,2025-11-06,zip,true,2000000,15,10,2024/2026
+Pete Ricketts,Gary Goodman,Oak Park,MI,48237,Eaton Steel Bar Company,Steel Business,200000,1,2025-10-26,2025-10-26,zip,true,1130000,5,5,2024/2026
+Pete Ricketts,Jeff Tamaroff,Bloomfield Hills,MI,48302,Tamaroff Mts,Chairman,200000,1,2025-10-26,2025-10-26,zip,true,600000,5,5,2026
+Pete Ricketts,Jeffrey Kahan,Bloomfield,MI,48302,"Premier Realty Michigan, LLC",Attorney,200000,1,2025-10-28,2025-10-28,zip,true,1020000,10,9,2024/2026
+Pete Ricketts,Julie Wiener,West Bloomfield,MI,48323,Pearson & Associates,Retired,200000,1,2025-10-26,2025-10-26,zip,false,1100000,10,10,2024/2026
+Pete Ricketts,Lawrence Wolfe,Bloomfield Hills,MI,48302,Pearson & Associates,Retired,200000,1,2025-10-28,2025-10-28,zip,false,1400000,9,8,2024/2026
+Pete Ricketts,Margo Woll,West Bloomfield,MI,48323,Pearson & Associates,Retired,200000,1,2025-10-26,2025-10-26,zip,false,4610000,21,14,2024/2026
+Pete Ricketts,Matthew Landau,Westport,CT,06880,"Ls Property Group, LLC",Real Estate Investing,200000,1,2025-06-23,2025-06-23,zip,true,1446500,27,26,2024/2026
+Pete Ricketts,Michael Carter,Weston,CT,06883,Carter Morse & Goodrich,Managing Director,200000,1,2025-06-18,2025-06-18,zip,true,1180000,11,10,2024/2026
+Pete Ricketts,Michael Sandler,West Bloomfield,MI,48323,Pearson & Associates,Retired,200000,1,2025-10-27,2025-10-27,zip,false,1030000,12,9,2024/2026
+Pete Ricketts,Nancy Grosfeld,Bloomfield Hills,MI,48304,Pearson & Associates,Retired,200000,1,2025-10-26,2025-10-26,zip,false,800000,5,4,2026
+Pete Ricketts,Neil Fetter,West Bloomfield,MI,48323,Fetter Management,Real Estate,200000,1,2025-11-04,2025-11-04,zip,true,900000,7,7,2024/2026
+Pete Ricketts,Richard Romanoff,Norwalk,CT,06855,Nebraskaland,Sales,200000,1,2025-06-16,2025-06-16,zip,true,1250000,8,8,2024/2026
+Pete Ricketts,Russell Greenberg,Westport,CT,06880,"Altus Capital Partners,Inc",Investment Management,200000,1,2025-06-23,2025-06-23,zip,true,3050000,21,19,2024/2026
+Pete Ricketts,E Elizabeth Curnutte,Bingham Farms,MI,48025,"Holtzman Vogel, Pllc",Homemaker,180000,1,2025-10-22,2025-10-22,zip,false,780000,7,7,2026
+Pete Ricketts,Gary Javitch,Omaha,NE,68114,Retired,Retired,175000,3,2025-07-17,2026-06-24,zip,false,1110000,32,16,2024/2026
+Pete Ricketts,Zachary Stern,Greenwich,CT,06831,Pwc Us,Lawyer,150000,1,2025-06-16,2025-06-16,zip,true,1425000,10,9,2024/2026
+Pete Ricketts,Andrew Weitz,Bloomfield Hills,MI,48304,Wls Investments,Real Estate,100000,1,2025-11-08,2025-11-08,zip,true,536000,6,6,2026
+Pete Ricketts,David Cohen,"Fairfield, Connect",CT,06824,,Executive,100000,1,2025-06-17,2025-06-17,zip,false,1500000,18,18,2024/2026
+Pete Ricketts,David Mandelbaum,Weston,CT,06883,Bleakley Financial Group,Portfolio Manager,100000,1,2025-06-22,2025-06-22,zip,true,470000,5,5,2026
+Pete Ricketts,Edward N Robinson,Saint George,UT,84770,Retired,Retired,100000,4,2025-07-16,2026-04-24,zip,false,180000,3,0,2026
+Pete Ricketts,Elizabeth Kaner,"Westport,  Ct  068",CT,06880,Retieed,Retired,100000,1,2025-06-19,2025-06-19,zip,true,4086700,29,19,2024/2026
+Pete Ricketts,Grant Herlitz,Dallas,TX,75229,Hon,Re,100000,1,2026-06-18,2026-06-18,zip,true,700000,7,6,2024/2026
+Pete Ricketts,Herbert Weitzman,Dallas,TX,75201,Weitzman,Executive Chairman,100000,1,2026-06-11,2026-06-11,zip,true,1300000,12,12,2024/2026
+Pete Ricketts,Howard Fingeroot,Sylvan Lake,MI,48320,Sylvan Crest Partners,Real Estate Developer,100000,1,2025-10-09,2025-10-09,zip,true,1400000,10,9,2024/2026
+Pete Ricketts,Hy Saporta,Westport,CT,06880,Steward Partners,Co-Founder,100000,1,2025-06-17,2025-06-17,zip,true,4661700,37,25,2024/2026
+Pete Ricketts,Jacob Cohen,Detroit,MI,48203,Detroit Venture Partners,Investor,100000,1,2025-10-22,2025-10-22,zip,true,600000,5,4,2026
+Pete Ricketts,Jared Friedman,Birmingham,MI,48009,Friedman Real Estate,Ceo,100000,1,2025-11-07,2025-11-07,zip,true,400000,4,4,2026
+Pete Ricketts,Jeffrey Schostak,Birmingham,MI,48009,S-3 Group,Commerical Real Estate,100000,1,2025-11-08,2025-11-08,zip,false,1000000,6,5,2026
+Pete Ricketts,Jeremy Sasson,Bloomfield Hills,MI,48302,S-3 Group,Business Owner,100000,1,2025-10-22,2025-10-22,zip,false,100000,1,1,2026
+Pete Ricketts,Jodie Kaufman Davis,Birmingham,MI,48009,Hw Kaufman Group,Insurance Executive,100000,1,2025-10-26,2025-10-26,zip,true,350000,4,4,2026
+Pete Ricketts,Michael Dorman,West Bloomfield,MI,48322,Associated Dermatologist,Dermatologist,100000,1,2025-11-01,2025-11-01,zip,false,1650000,17,14,2024/2026
+Pete Ricketts,Michael Kassen,Westport,CT,06880,S-3 Group,Investor,100000,1,2025-06-19,2025-06-19,zip,false,17500000,78,61,2024/2026
+Pete Ricketts,Michael Kliegman,Westport,CT,06880,Akin Gump Strauss Hauer & Feld LLP,Attorney,100000,1,2025-06-16,2025-06-16,zip,true,1200000,14,14,2024/2026
+Pete Ricketts,Michael Rosner,West Bloomfield,MI,48323,Pearson & Associates,Financial Advisor,100000,1,2025-11-03,2025-11-03,zip,false,2150000,17,15,2024/2026
+Pete Ricketts,Rachel Stewart,Bloomfield Hills,MI,48304,Gardner White,Biz,100000,1,2025-10-26,2025-10-26,zip,true,300000,3,3,2026
+Pete Ricketts,David Colman,Birmingham,MI,48009,Acme,Real Estate,50000,1,2025-10-24,2025-10-24,zip,true,450000,5,5,2026
+Pete Ricketts,David Guz,Palm Beach Gardens,FL,33418,Pearson & Associates,Retired,50000,1,2025-10-10,2025-10-10,zip,false,50000,1,1,2026
+Pete Ricketts,Peter Maier,Dexter,MI,48130,Pearson & Associates,Retired,50000,1,2025-10-21,2025-10-21,zip,false,400000,5,4,2024/2026
+Pete Ricketts,Harold Berenson,Parker,CO,80134,Retired,Retired,37000,1,2026-06-05,2026-06-05,zip,false,1110000,11,6,2024/2026
+Pete Ricketts,Steven Perlman,Birmingham,MI,48009,Bcr Corporation,Real Estate,25000,1,2025-10-11,2025-10-11,zip,true,25000,1,1,2026
+Pete Ricketts,Jeffrey Lipsky,Prairie Village,KS,66208,Retired,Retired,20000,1,2026-06-25,2026-06-25,zip,false,385000,12,7,2024/2026
+Dan Osborn,Ronald Abramson,Washington,DC,20006,Buchanan Ingersoll & Rooney,Attorney,1050000,2,2025-09-30,2025-11-03,zip,false,200000,1,1,2026
+Dan Osborn,Bob Kerrey,New York,NY,10003,Allen And Company,Banker,650000,2,2025-09-21,2026-04-22,zip,true,330000,1,1,2024
+Dan Osborn,Gary Elden,Chicago,IL,60606,"Shook Hardy & Bacon, LLP",Attorney,350000,1,2026-02-26,2026-02-26,state,false,50000,1,1,2024
+Dan Osborn,Jeffrey Gural,New York,NY,10024,Gfp Real Estate,Real Estate,350000,1,2026-07-07,2026-07-07,zip,true,1660000,6,6,2024/2026
+Dan Osborn,Michael Feldman,San Francisco,CA,94115,Psai Realty Partners,Investor,250000,2,2025-06-07,2026-03-02,state,false,550000,10,10,2024/2026
+Dan Osborn,Andrew Feinberg,New York,NY,10022,Self-Employed,Writer,150000,2,2026-08-24,2026-09-21,state,false,25000,1,1,2026
+Dan Osborn,Michael Klein,West Hollywood,CA,90069,Not Employed,Not Employed,120000,12,2025-10-06,2026-09-06,state,false,10000,1,1,2026
+Dan Osborn,Daniel Cohen,Denver,CO,80203,Not Employed,Retired,112500,5,2026-05-27,2026-09-27,state,false,2000,1,1,2024
+Dan Osborn,Gerald Bekkerman,Chicago,IL,60606,Self-Employed,Attorney,100000,1,2026-03-05,2026-03-05,zip,false,200000,2,1,2024/2026
+Dan Osborn,Michael Winer,Rockville,MD,20852,Alignment Research Center,Scientist,100000,1,2026-07-30,2026-07-30,state,false,25000,1,0,2026
+Dan Osborn,Ronald Cohn,Carmel Valley,CA,93924,Self-Employed,Investment Management,100000,2,2026-08-19,2026-09-28,zip,false,3150000,16,14,2024/2026
+Dan Osborn,Barbara Grossman,Boston,MA,02116,Not Employed,Not Employed,50000,1,2026-03-11,2026-03-11,state,false,50000,1,1,2024
+Dan Osborn,Barry Perlman,Cambridge,MA,02139,Not Employed,Retired,50000,1,2026-07-03,2026-07-03,zip,false,100000,3,3,2026
+Dan Osborn,David Root,Somerville,MA,02143,Not Employed,Not Employed,50000,1,2026-08-08,2026-08-08,state,false,25000,1,0,2026
+Dan Osborn,Howard Wohl,Mill Neck,NY,11765,Not Employed,Not Employed,50000,1,2026-09-24,2026-09-24,zip,false,325000,5,3,2024/2026
+Dan Osborn,Marty Glick,Orinda,CA,94563,Saul Zaentz Company,Coo,50000,1,2026-09-19,2026-09-19,state,false,3320000,31,28,2024/2026
+Dan Osborn,Stephen Harris,Berkeley,CA,94705,Not Employed,Not Employed,50000,1,2026-09-15,2026-09-15,state,false,10201992,92,58,2024/2026
+Dan Osborn,David Stern,Chevy Chase,MD,20815,Not Employed,Not Employed,33300,1,2026-07-01,2026-07-01,state,false,1875000,20,19,2024/2026
+Dan Osborn,Stuart Siegel,Los Angeles,CA,90049,Not Employed,Not Employed,30000,4,2025-07-11,2026-09-29,state,false,3600000,37,32,2024/2026
+Dan Osborn,Michael Wampold,Mercer Island,WA,98040,Pwrfl,Attorney,25000,1,2025-09-08,2025-09-08,zip,true,750000,11,8,2024/2026
+Dan Osborn,David Smith,Hutchinson Island,FL,34949,Not Employed,Not Employed,20000,3,2026-08-18,2026-09-19,state,false,125000,2,2,2026
+Dan Osborn,Barbara Cohen,Piedmont,CA,94611,Self-Employed,Psychotherapist,14200,1,2026-01-29,2026-01-29,state,false,100000,1,0,2024
+Dan Osborn,Daniel Stone,Los Angeles,CA,90048,Cedars Sinai,Physician,10000,1,2026-09-29,2026-09-29,state,false,50000,1,1,2024

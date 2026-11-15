@@ -1,0 +1,6 @@
+candidate,donor,city,state,zip5,employer,occupation,direct_total_cents,contributions,first_date,last_date,match_tier,same_employer_string,aipac_pac_total_cents,aipac_pac_rows,aipac_pac_recipient_committees,aipac_pac_cycles
+John Deaton,David Schwartz,Belvedere Tiburon,CA,94920,,,141400,1,2026-05-16,2026-05-16,state,false,50000,1,1,2024
+John Deaton,Michael Moskowitz,New York,NY,10016,Self-Employed,Finance,100000,2,2026-03-30,2026-03-30,zip,false,300000,2,1,2024
+Ed Markey,Blair W. Effron,New York,NY,10075,Centerview Partners,Co-Founder Partner,1400000,3,2025-04-07,2025-04-22,zip,true,2550000,13,13,2024/2026
+Ed Markey,Bob Kerrey,New York,NY,10003,Allen And Co,Banker,300000,1,2026-02-06,2026-02-06,zip,false,330000,1,1,2024
+Ed Markey,Andrew Abraham,Milton,MA,02186,Keches Law Group,Attorney,200000,2,2025-09-25,2025-09-25,zip,true,300000,3,3,2024/2026

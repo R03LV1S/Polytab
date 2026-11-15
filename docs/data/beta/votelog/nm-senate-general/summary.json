@@ -1,0 +1,80 @@
+{
+  "generatedAt": "2026-11-13T22:38:22.699Z",
+  "dataCurrentThrough": {
+    "independentExpenditures": "2026-10-19",
+    "campaignFinances": "2026-10-14",
+    "campaignFinancesByCandidate": {
+      "marker": "2026-10-14",
+      "lujan": "2026-10-14"
+    },
+    "superPacDonors": {
+      "C00492140": "2026-10-14",
+      "C00887042": "2026-10-14"
+    },
+    "aipacEarmarks": "2026-10-14",
+    "donorNetwork": {
+      "marker": "2026-09-30",
+      "lujan": "2026-06-30",
+      "network": "2026-10-14"
+    },
+    "filingsProcessed": "2026-11-13"
+  },
+  "summary": {
+    "marker": {
+      "totalReceiptsCents": 9922965,
+      "transfersFromAuthCents": 0,
+      "totalDisbursementsCents": 9012232,
+      "cashOnHandCents": 8807,
+      "candidateContribCents": 0,
+      "candidateLoansCents": 0,
+      "totalIndividualCents": 9387965,
+      "otherCommitteeContribCents": 0,
+      "coverageEnd": "2026-10-14",
+      "individualRefundsCents": 0,
+      "outsideSupportingCents": 0,
+      "outsideOpposingCents": 0,
+      "outsideBenefitingCents": 0
+    },
+    "lujan": {
+      "totalReceiptsCents": 646052186,
+      "transfersFromAuthCents": 99031489,
+      "totalDisbursementsCents": 483103840,
+      "cashOnHandCents": 284327635,
+      "candidateContribCents": 0,
+      "candidateLoansCents": 0,
+      "totalIndividualCents": 337260060,
+      "otherCommitteeContribCents": 207534609,
+      "coverageEnd": "2026-10-14",
+      "individualRefundsCents": 11085328,
+      "outsideSupportingCents": 27442928,
+      "outsideOpposingCents": 0,
+      "outsideBenefitingCents": 27442928
+    }
+  },
+  "outsideByCommittee": [
+    {
+      "committeeId": "C00492140",
+      "committee": "Ab PAC",
+      "fecType": "V",
+      "forMarker": 0,
+      "againstMarker": 0,
+      "forLujan": 21738551,
+      "againstLujan": 0,
+      "total": 21738551,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610079908568619",
+      "latestDate": "2026-10-05"
+    },
+    {
+      "committeeId": "C00887042",
+      "committee": "Workers En Accion PAC",
+      "fecType": "O",
+      "forMarker": 0,
+      "againstMarker": 0,
+      "forLujan": 5704377,
+      "againstLujan": 0,
+      "total": 5704377,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610199916238314",
+      "latestDate": "2026-10-19"
+    }
+  ]
+}

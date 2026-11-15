@@ -1,0 +1,15 @@
+{
+  "baseline": true,
+  "escrow": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+  "chainId": 8453,
+  "balanceWei": "0",
+  "nonce": 0,
+  "lastBlock": 57944102,
+  "incomingErc20SinceLastCheck": null,
+  "logScanNote": "log scan skipped: https://mainnet.base.org rate limit: {\"code\":-32011,\"message\":\"request limit reached\"}",
+  "allowedSweeps": [],
+  "seenLogTxs": [],
+  "lastCheckUtc": "2026-11-15T21:46:33.849Z",
+  "lastStatus": "ok",
+  "endpointUsed": "https://1rpc.io/base"
+}

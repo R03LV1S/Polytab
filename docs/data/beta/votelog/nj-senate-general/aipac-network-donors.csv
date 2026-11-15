@@ -1,0 +1,419 @@
+candidate,donor,city,state,zip5,employer,occupation,direct_total_cents,contributions,first_date,last_date,match_tier,same_employer_string,aipac_pac_total_cents,aipac_pac_rows,aipac_pac_recipient_committees,aipac_pac_cycles
+Cory Booker,Brad Mindlin,Incline Village,NV,89451,Oro Capital Advisors,Managing Partner,700000,4,2025-02-24,2025-09-13,zip,true,16460000,45,36,2024/2026
+Cory Booker,David Blitzer,New York,NY,10022,Blackstone,Chairman,700000,2,2025-03-11,2025-03-11,zip,true,3125000,5,5,2026
+Cory Booker,David Sterling,Jericho,NY,11753,Sterlingrisk,Insurance,700000,2,2025-08-17,2025-08-17,zip,true,28990000,79,58,2024/2026
+Cory Booker,Erica Gerson,New York,NY,10024,Not Employed,Not Employed,700000,2,2025-08-11,2025-08-11,zip,false,3050000,11,10,2026
+Cory Booker,Gary Opper,Weston,FL,33326,Approved Financial,Cpa,700000,3,2025-02-24,2025-06-24,zip,true,4746000,24,16,2024/2026
+Cory Booker,Kevin Rader,Miami Beach,FL,33141,Brown And Brown Insurance,Insurance,700000,2,2025-06-22,2025-06-22,zip,true,3930000,9,7,2024/2026
+Cory Booker,Manny Panar,Silver Spring,MD,20904,Not Employed,Retired,700000,2,2025-06-19,2025-06-19,zip,false,49340000,110,72,2024/2026
+Cory Booker,Mark L. Gerson,New York,NY,10024,United States Institute Of Peace,Chairman,700000,2,2025-08-11,2025-08-11,zip,false,3550000,8,8,2024/2026
+Cory Booker,Mark Scher,Santa Barbara,CA,93108,Self-Employed,Investor,700000,2,2025-08-11,2025-08-11,zip,false,700000,1,1,2026
+Cory Booker,Michael Hackman,Los Angeles,CA,90049,Hackman Capital Partners,Ceo,700000,2,2025-02-24,2025-02-24,zip,true,32485000,72,50,2024/2026
+Cory Booker,Mona Sterling,Jericho,NY,11753,Eighteen Assoc,Real Estate,700000,2,2025-08-17,2025-08-17,zip,true,8440000,22,21,2024/2026
+Cory Booker,Philip Darivoff,Short Hills,NJ,07078,Vibrant Capital Partners,Chairman,700000,2,2025-05-01,2025-05-01,zip,true,43625000,90,65,2024/2026
+Cory Booker,Richard M. Pachulski,Los Angeles,CA,90077,"Pachulski, Stang, Ziehl & Jones",Attorney,700000,2,2025-02-24,2025-02-24,zip,true,14000000,38,32,2024/2026
+Cory Booker,Barak Raviv,Beverly Hills,CA,90210,Wells Fargo,Financial Advisor,675000,3,2025-02-24,2025-09-13,zip,true,19402300,79,55,2024/2026
+Cory Booker,Jonathan Lavine,Boston,MA,02116,Bain Capital,Investor,580000,2,2025-12-23,2025-12-23,zip,true,10840000,16,16,2024/2026
+Cory Booker,Adam Rosen,New York,NY,10023,Self-Employed,Project Manager,500000,2,2025-08-21,2025-08-21,zip,false,850000,2,2,2026
+Cory Booker,Norman J. Radow,Atlanta,GA,30326,Radco,Ceo,500000,2,2025-02-24,2025-02-24,zip,true,13050000,41,32,2024/2026
+Cory Booker,Robert Marx,New York,NY,10128,Self-Employed,Physician,500000,2,2025-02-11,2025-02-11,zip,false,500000,1,1,2026
+Cory Booker,Skip Miller,Los Angeles,CA,90067,Miller Barondess,Attorney,500000,2,2025-02-24,2025-02-24,zip,true,22990000,56,43,2024/2026
+Cory Booker,Jason Rimokh,Beverly Hills,CA,90210,Signal Brands,Retail,490000,3,2025-05-23,2025-09-24,zip,true,6710000,25,21,2024/2026
+Cory Booker,Brian Schall,Los Angeles,CA,90035,Self-Employed,Attorney,450000,2,2025-09-15,2025-09-15,zip,false,3810000,10,10,2024
+Cory Booker,Aaron Weitman,Hoboken,NJ,07030,Castleknight,Finance,400000,2,2025-09-02,2025-09-02,zip,true,14645000,41,34,2024/2026
+Cory Booker,Albert Praw,Sherman Oaks,CA,91403,Kbhome,Executive,400000,3,2024-12-24,2025-09-12,zip,true,2050000,18,14,2024/2026
+Cory Booker,Lawrence Macks,Naples,FL,34102,Not Employed,Retired,400000,2,2025-02-26,2025-02-26,zip,false,6340000,43,26,2024/2026
+Cory Booker,Linda Radow,Atlanta,GA,30326,Not Employed,Not Employed,380000,2,2025-03-01,2025-03-01,zip,false,6660000,11,9,2024/2026
+Cory Booker,Alan Pines,Livingston,NJ,07039,Bertram Associates,Developer,350000,1,2026-06-30,2026-06-30,zip,false,200000,1,1,2024
+Cory Booker,Caren Rothenberg,Livingston,NJ,07039,Real Estate Investment Group,Real Estate,350000,1,2025-09-03,2025-09-03,zip,true,1050000,3,3,2026
+Cory Booker,David Blumenthal,New York,NY,10024,Lion Brand,President,350000,1,2025-09-03,2025-09-03,zip,true,3230000,16,15,2024/2026
+Cory Booker,David Levine,New York,NY,10014,Blackstone,Real Estate,350000,1,2026-06-01,2026-06-01,state,false,3093300,17,13,2024/2026
+Cory Booker,Larry Rothenberg,Livingston,NJ,07039,Rockefeller Capital,Wealth Management,350000,1,2025-09-02,2025-09-02,zip,true,2900000,9,9,2026
+Cory Booker,Marc Solomon,Bethesda,MD,20814,Finmarc,Real Estate,350000,1,2025-08-06,2025-08-06,zip,true,450000,2,2,2026
+Cory Booker,Mark Futrovsky,Delray Beach,FL,33483,"Futrovsky, Forster & Scherr",Attorney,350000,1,2025-09-01,2025-09-01,zip,true,450000,2,2,2026
+Cory Booker,Martin Geller,New York,NY,10075,Geller And Company,Founder,350000,1,2025-04-30,2025-04-30,zip,true,11140000,35,28,2024/2026
+Cory Booker,Pamela Henes,New York,NY,10075,Not Employed,Homemaker,350000,1,2026-06-02,2026-06-02,zip,false,1100000,5,5,2024/2026
+Cory Booker,Pennie Abramson,Miami,FL,33109,Not Employed,Not Employed,350000,1,2025-08-26,2025-08-26,zip,false,1900000,16,14,2024/2026
+Cory Booker,Randall Mccallum,New York,NY,10021,Btig,Sales Trader,350000,1,2025-05-15,2025-05-15,zip,true,4800000,17,17,2024/2026
+Cory Booker,Richard Schifter,Washington,DC,20016,Not Employed,Retired,350000,1,2025-04-21,2025-04-21,zip,false,2400000,17,13,2024/2026
+Cory Booker,Robert R. Wiener,Purchase,NY,10577,Maxx Properties,Emeritus Chairman,350000,1,2025-09-03,2025-09-03,zip,true,3500000,18,18,2024/2026
+Cory Booker,Samuel Klatt,New York,NY,10010,10 East,Finance,350000,1,2025-04-21,2025-04-21,zip,true,801800,6,6,2024/2026
+Cory Booker,Stephen Krooth,Bethesda,MD,20814,Not Employed,Retired,350000,1,2025-08-06,2025-08-06,zip,false,10759900,42,36,2024/2026
+Cory Booker,Steven H. Klinghoffer,Short Hills,NJ,07078,Valcor Engineering Corp.,Executive,350000,1,2026-06-12,2026-06-12,zip,false,6900000,29,22,2024/2026
+Cory Booker,Alan Kleinman,Encino,CA,91436,Elevado Group Inc,Executive,340000,1,2025-05-25,2025-05-25,zip,true,4260000,14,13,2024/2026
+Cory Booker,Alex Weingarten,Studio City,CA,91604,Willkie Farr & Gallagher LLP,Attorney,340000,1,2025-05-15,2025-05-15,zip,true,2400000,6,4,2024
+Cory Booker,Bobby Saadian,Pacific Palisades,CA,90272,Wilshire Law Firm,Attorney,340000,1,2025-05-26,2025-05-26,zip,true,1358000,5,4,2026
+Cory Booker,Brad Conroy,Beverly Hills,CA,90212,Conroy Commercial,Real Estate Agents,340000,1,2025-05-15,2025-05-15,zip,true,4340000,11,10,2024/2026
+Cory Booker,Brandon Shainfeld,Beverly Hills,CA,90210,Platinum Mile,Venture,340000,1,2025-05-27,2025-05-27,zip,true,3100000,10,9,2024/2026
+Cory Booker,Daniel Yomtobian,Beverly Hills,CA,90210,"Web Value, Inc.",Ceo,340000,1,2025-05-15,2025-05-15,zip,true,3310000,10,9,2024/2026
+Cory Booker,Fred Bernstein,Beverly Hills,CA,90210,The Derf Co.,Real Estate,340000,1,2025-05-23,2025-05-23,zip,false,2735000,9,9,2024/2026
+Cory Booker,Gary Gilbert,Beverly Hills,CA,90210,Gilbert Films,Producer,340000,1,2025-05-29,2025-05-29,zip,true,3115000,25,24,2024/2026
+Cory Booker,Joli Altshule,Pacific Palisades,CA,90272,Goldman Sachs,Finance,340000,1,2025-05-29,2025-05-29,zip,true,4040000,12,12,2024/2026
+Cory Booker,Kara Slater,Los Angeles,CA,90067,Self-Employed,Travel Advisor,340000,1,2025-05-27,2025-05-27,zip,false,1570000,4,4,2024/2026
+Cory Booker,Kourosh Moghadam,Los Angeles,CA,90049,"Bd&J, PC",Attorney/President/Ceo,340000,1,2025-05-23,2025-05-23,zip,false,500000,1,1,2024
+Cory Booker,Lisa Alpern,Los Angeles,CA,90064,Not Employed,Not Employed,340000,1,2025-06-03,2025-06-03,zip,false,5420000,20,16,2026
+Cory Booker,Michael Cohanzad,Los Angeles,CA,90025,Self-Employed,Real Estate,340000,1,2025-05-27,2025-05-27,zip,false,3360000,11,11,2024/2026
+Cory Booker,Stephen Samuel,Beverly Hills,CA,90212,J&S Realty,Ceo,340000,1,2025-05-15,2025-05-15,zip,false,3980000,12,10,2024/2026
+Cory Booker,Steven Taylor,Los Angeles,CA,90049,Taylor Equities,Real Estate,340000,1,2025-05-19,2025-05-19,zip,true,1040000,2,2,2026
+Cory Booker,Andrew Rubinstein,Tenafly,NJ,07670,Oberland Capital,Finance,330000,1,2025-01-10,2025-01-10,zip,true,14136500,47,37,2024/2026
+Cory Booker,Avi Friedman,White Plains,NY,10606,Not Employed,Retired,330000,1,2025-01-07,2025-01-07,zip,false,15830000,49,40,2024/2026
+Cory Booker,Valerie Cohen,Darien,CT,06820,Not Employed,Not Employed,330000,1,2025-01-09,2025-01-09,zip,false,6700000,32,29,2024/2026
+Cory Booker,Aaron Leibovic,Los Angeles,CA,90049,Health Advocates,President,312500,1,2025-03-06,2025-03-06,zip,true,2897500,16,14,2024/2026
+Cory Booker,Bruce Goren,Encino,CA,91436,Self-Employed,Real Estate,312500,1,2025-03-10,2025-03-10,zip,false,2497500,16,15,2024/2026
+Cory Booker,Carey Strom,Los Angeles,CA,90048,Self-Employed,Physician,312500,1,2025-03-12,2025-03-12,zip,false,1460000,9,9,2024/2026
+Cory Booker,Daniel Gryczman,Los Angeles,CA,90024,Blumax Partners LLC,Consultant,312500,1,2025-03-04,2025-03-04,zip,true,1347500,9,9,2024/2026
+Cory Booker,Elie Benaron,Los Angeles,CA,90035,Not Employed,Retired,312500,1,2025-03-05,2025-03-05,zip,false,2372500,16,15,2024/2026
+Cory Booker,Ellen Sandler,Los Angeles,CA,90067,Not Employed,Not Employed,312500,1,2025-03-05,2025-03-05,zip,false,3397500,19,18,2024/2026
+Cory Booker,Howard Farber,Encino,CA,91316,Alpert And Alpert,Chairman,312500,1,2025-03-11,2025-03-11,zip,true,1807500,11,11,2024/2026
+Cory Booker,Jeffrey Wolman,Culver City,CA,90230,Wolman Wealth Management,Manager,312500,1,2025-03-05,2025-03-05,zip,true,2732500,21,19,2024/2026
+Cory Booker,Jubin Niamehr,Los Angeles,CA,90024,Jacoby And Meyers,Attorney,312500,1,2025-03-04,2025-03-04,zip,true,5480000,44,34,2024/2026
+Cory Booker,Julie Platt,Los Angeles,CA,90024,Not Employed,Not Employed,312500,1,2025-03-03,2025-03-03,zip,false,19612500,51,38,2024/2026
+Cory Booker,Keenan Wolens,Beverly Hills,CA,90210,Amir Development Co,Real Estate,312500,1,2025-03-03,2025-03-03,zip,true,7842500,36,30,2024/2026
+Cory Booker,Lisa Field,Beverly Hills,CA,90210,Self-Employed,Real Estate,312500,1,2025-03-10,2025-03-10,zip,false,3087500,18,17,2024/2026
+Cory Booker,Nancy Josephson,Los Angeles,CA,90069,Wme,Talent Agent,312500,1,2025-03-04,2025-03-04,zip,true,2852500,20,18,2024/2026
+Cory Booker,Nurit Robin,Santa Monica,CA,90402,Not Employed,Retired,312500,1,2025-03-04,2025-03-04,zip,false,3122500,21,18,2024/2026
+Cory Booker,Richard V. Sandler,Santa Monica,CA,90401,Maron And Sandler,Attorney,312500,2,2025-03-05,2025-03-05,zip,true,3085000,17,15,2024/2026
+Cory Booker,Sheri Rapaport,Los Angeles,CA,90049,Self-Employed,Volunteer,312500,1,2025-03-09,2025-03-09,zip,false,3542500,21,18,2024/2026
+Cory Booker,Gadi Maier,Paradise Valley,AZ,85253,Not Employed,Not Employed,300000,1,2025-03-18,2025-03-18,zip,false,3780000,17,13,2024/2026
+Cory Booker,Joseph Weinberg,Baltimore,MD,21202,Cordish Co.,Real Estate,300000,1,2025-04-03,2025-04-03,zip,false,21950000,35,34,2026
+Cory Booker,Kinney Zalesne,Washington,DC,20008,Kinney For Dc,Candidate,300000,1,2025-08-22,2025-08-22,zip,true,4015000,19,16,2024/2026
+Cory Booker,Bari J. Mattes,Newark,NJ,07102,Self-Employed,Consultant,260000,2,2025-02-24,2025-02-24,zip,false,2750000,11,8,2024/2026
+Cory Booker,Adam Offenhartz,New York,NY,10011,Baughman Kroup Bosse,Attorney,250000,1,2025-02-24,2025-02-24,zip,true,4825000,31,21,2024/2026
+Cory Booker,Alan Nemes,Saint Louis,MO,63130,Husch Blackwell,Attorney,250000,1,2025-02-24,2025-02-24,zip,true,2110000,12,8,2024/2026
+Cory Booker,Benjamin Warren,Houston,TX,77024,Itc Trading Company Ltd.,Ceo,250000,1,2025-02-24,2025-02-24,zip,true,3510000,17,12,2024/2026
+Cory Booker,Bettina Kramer,Atlantic Beach,NY,11509,"Creative Effects, Inc.",Owner,250000,1,2025-02-24,2025-02-24,zip,true,2870000,17,14,2024/2026
+Cory Booker,Brett Barth,New York,NY,10128,Bbr Partners,Co Ceo,250000,2,2025-08-26,2025-08-26,zip,true,8375000,36,25,2026
+Cory Booker,Daniella Gershel,Great Neck,NY,11021,Onyx Search Partners,President,250000,1,2025-04-21,2025-04-21,zip,true,1450000,7,7,2024/2026
+Cory Booker,David Kekst,Beverly Hills,CA,90210,Not Employed,Not Employed,250000,1,2025-02-24,2025-02-24,zip,false,6740000,43,31,2024/2026
+Cory Booker,David Kurzweil,Scarsdale,NY,10583,Latham & Watkins LLP,Attorney,250000,1,2025-08-28,2025-08-28,zip,true,5390000,18,15,2024/2026
+Cory Booker,David Levine,New York,NY,10013,Bloomberg,Financial Technology,250000,1,2025-09-08,2025-09-08,state,false,3093300,17,13,2024/2026
+Cory Booker,David Stein,Stamford,CT,06903,Not Employed,Attorney,250000,1,2025-02-24,2025-02-24,zip,false,3025000,19,19,2024/2026
+Cory Booker,Deborah Edell,New York,NY,10021,Not Employed,Not Employed,250000,1,2025-02-24,2025-02-24,zip,false,17306700,89,55,2024/2026
+Cory Booker,Donald Liss,Bronx,NY,10463,Pmr,Md,250000,1,2025-02-24,2025-02-24,zip,true,3700000,20,19,2024/2026
+Cory Booker,Dov Eisner,Cedarhurst,NY,11516,Element Capital,Finance,250000,1,2025-09-08,2025-09-08,zip,true,100000,1,1,2026
+Cory Booker,Eric Kassoff,Palm Beach Gardens,FL,33410,Wa,Attorney,250000,1,2025-08-28,2025-08-28,zip,true,350000,2,2,2024/2026
+Cory Booker,Eric Lavitsky,Bridgewater,NJ,08807,"Lavitsky Computer Laboratories, Inc.",Consultant,250000,1,2025-02-24,2025-02-24,zip,true,5225000,36,29,2024/2026
+Cory Booker,Guy Zaczepinski,Santa Monica,CA,90402,Century Park,Investor,250000,1,2025-09-13,2025-09-13,zip,true,4200000,20,17,2024/2026
+Cory Booker,Howard Kivell,New York,NY,10021,Self-Employed,Urologist,250000,1,2025-09-08,2025-09-08,zip,false,600000,2,1,2024/2026
+Cory Booker,James Sprayregen,Glencoe,IL,60022,Hilco Global,Vice Chairman,250000,1,2025-02-24,2025-02-24,zip,true,12434283,68,54,2024/2026
+Cory Booker,Jody Forchheimer,Brookline,MA,02446,Not Employed,Retired,250000,1,2025-02-24,2025-02-24,zip,false,38475500,150,96,2024/2026
+Cory Booker,John Isenberg,Prairie Village,KS,66207,Not Employed,Not Employed,250000,1,2025-02-24,2025-02-24,zip,false,4393000,40,33,2024/2026
+Cory Booker,Joseph Allerhand,New York,NY,10128,Allerhand & Odoner,Attorney,250000,1,2025-05-12,2025-05-12,zip,true,2530000,9,9,2024/2026
+Cory Booker,Joseph Kavana,Aventura,FL,33180,K Group Holdings Inc,Ceo,250000,1,2025-02-24,2025-02-24,zip,true,2250000,18,13,2024/2026
+Cory Booker,Judith Rosman,Tampa,FL,33629,Self-Employed,Consultant,250000,1,2025-02-24,2025-02-24,zip,false,4126800,29,22,2024/2026
+Cory Booker,Kenneth Frieze,Chestnut Hill,MA,02467,Gordon Brothers,Chairman,250000,1,2025-02-24,2025-02-24,zip,true,2140000,6,5,2024/2026
+Cory Booker,Laura Vexler,Moreland Hills,OH,44022,Not Employed,Not Employed,250000,1,2025-02-24,2025-02-24,zip,false,2550000,40,34,2024/2026
+Cory Booker,Lawrence Zlatkin,Westport,CT,06880,Coinbase,Attorney,250000,1,2025-02-24,2025-02-24,zip,true,500000,2,2,2026
+Cory Booker,Lee I. Miller,Chicago,IL,60611,Abundant Venture Partners,Operating Partner/Board Member,250000,2,2025-02-24,2025-02-24,zip,true,7240000,43,32,2024/2026
+Cory Booker,Marcia Cornfeld,Creve Coeur,MO,63141,Not Employed,Retired,250000,1,2025-02-24,2025-02-24,zip,false,925000,3,2,2026
+Cory Booker,Marty Adelstein,Los Angeles,CA,90049,Tomorrow Studios,Producer,250000,1,2025-02-24,2025-02-24,zip,true,5370000,17,17,2024/2026
+Cory Booker,Maury Herman,New Orleans,LA,70130,Self-Employed,Attorney,250000,1,2025-02-24,2025-02-24,zip,false,2100000,10,10,2024/2026
+Cory Booker,Michael Britvan,East Hampton,NY,11937,Hodges Ward Elliott,Real Estate Finance,250000,1,2025-02-24,2025-02-24,zip,true,3800000,19,13,2024/2026
+Cory Booker,Michael Levin,Tequesta,FL,33469,Not Employed,Retired,250000,1,2025-02-24,2025-02-24,zip,false,6100000,49,39,2024/2026
+Cory Booker,Michael Papo,New York,NY,10024,Not Employed,Retired,250000,2,2025-01-06,2025-01-06,zip,false,5214000,57,32,2024/2026
+Cory Booker,Michael Steinberg,Tampa,FL,33624,Ssa Attorneys P.A.,Attorney,250000,1,2025-02-24,2025-02-24,zip,false,1150000,10,8,2024/2026
+Cory Booker,Mitchell Jacobson,Locust Valley,NY,11560,Msc Industrial Direct Inc.,Non Executive Chairman,250000,1,2025-04-22,2025-04-22,zip,true,2390000,11,11,2024
+Cory Booker,Philip Cohen,Pepper Pike,OH,44124,Prn Funding LLC,Management,250000,1,2025-02-24,2025-02-24,zip,true,5870000,33,24,2024/2026
+Cory Booker,Robert Cohen,Larchmont,NY,10538,"Ra Cohen & Assocaites, Inc.",Real Estate,250000,1,2025-02-24,2025-02-24,zip,true,14650000,39,32,2024/2026
+Cory Booker,Robert Gach,Los Angeles,CA,90069,Ubs,Private Wealth Manager,250000,1,2025-02-24,2025-02-24,zip,true,4960000,24,20,2024/2026
+Cory Booker,Robert Pincus,Wilmington,DE,19807,Not Employed,Retired,250000,1,2025-02-24,2025-02-24,zip,false,9340000,54,36,2024/2026
+Cory Booker,Scott Siff,Washington,DC,20008,Quadrant Strategies,Consultant,250000,1,2025-02-24,2025-02-24,zip,true,4170000,25,23,2024/2026
+Cory Booker,Seth Wise,Davie,FL,33330,Altman,Real Estate,250000,1,2025-02-24,2025-02-24,zip,true,9093800,57,40,2024/2026
+Cory Booker,Shlomoh Ben-David,Sunny Isles Beach,FL,33160,"Aer Services, Inc.",Owner,250000,1,2025-02-24,2025-02-24,zip,true,2689000,26,16,2024/2026
+Cory Booker,Stephen Seiden,Livingston,NJ,07039,Herrod Construction,Executive,250000,1,2026-06-03,2026-06-03,zip,true,570000,10,7,2024/2026
+Cory Booker,Steve Kaplan,Santa Monica,CA,90402,"Nalpak Capital, LLC",Chairman,250000,1,2025-02-24,2025-02-24,zip,true,980000,4,4,2024/2026
+Cory Booker,Stuart Garson,Moreland Hills,OH,44022,Garson & Associates Co. Lpa,Attorney,250000,1,2025-02-24,2025-02-24,zip,true,3450000,15,12,2024/2026
+Cory Booker,Todd Becker,Pasadena,CA,91101,Becker Law Group,Attorney,250000,1,2025-02-24,2025-02-24,zip,true,3500000,14,14,2026
+Cory Booker,Todd Goldblum,Albuquerque,NM,87122,Family And Children'S Eye Care,Physician,250000,1,2025-02-24,2025-02-24,zip,true,1860000,15,12,2024/2026
+Cory Booker,Vic Hammel,Wyomissing,PA,19610,Not Employed,Retired,250000,1,2025-02-24,2025-02-24,zip,false,4050000,47,28,2024/2026
+Cory Booker,Robert Stillman,Potomac,MD,20854,Not Employed,Retired,225000,2,2025-08-06,2025-11-17,zip,false,2630000,35,27,2024/2026
+Cory Booker,Howard Welinsky,Toluca Lake,CA,91602,Not Employed,Retired,200600,3,2024-12-26,2025-10-31,zip,false,10155000,368,303,2024/2026
+Cory Booker,Alan J. Hyatt,Annapolis,MD,21401,Hyatt And Weber,Attorney,200000,1,2025-02-26,2025-02-26,zip,true,1900000,15,13,2024/2026
+Cory Booker,Alec Ellison,Greenwich,CT,06830,Houlihan Lokey,Investment Banking,200000,1,2025-05-04,2025-05-04,zip,true,6580000,33,29,2024/2026
+Cory Booker,Alec Ofsevit,Scarsdale,NY,10583,Woodline Partners,Finance,200000,1,2025-08-28,2025-08-28,zip,true,900000,7,7,2024/2026
+Cory Booker,Alexandra Metzl,Denver,CO,80210,Brownstein Hyatt Farber Schreck LLP,Attorney,200000,1,2025-05-01,2025-05-01,zip,true,1655000,11,10,2024/2026
+Cory Booker,Alexandra Tesser,Scarsdale,NY,10583,Cdr,Finance,200000,1,2025-09-05,2025-09-05,zip,true,900000,7,7,2024/2026
+Cory Booker,Arthur Howard Adler,Owings Mills,MD,21117,Caves Valley Partners,Real Estate,200000,1,2025-03-04,2025-03-04,zip,true,1700000,13,12,2024/2026
+Cory Booker,Avi Benus,Pikesville,MD,21208,Crossland LLC,Ceo,200000,1,2025-02-26,2025-02-26,zip,true,5750100,34,26,2024/2026
+Cory Booker,Barbara Berger,New York,NY,10024,Not Employed,Retired,200000,1,2025-01-27,2025-01-27,zip,false,2510000,20,15,2024/2026
+Cory Booker,Benjamin Greenwald,Baltimore,MD,21211,Arrow Parking Corp,Real Estate,200000,1,2025-02-28,2025-02-28,zip,true,1300000,6,6,2026
+Cory Booker,Billy Mann,Chevy Chase,MD,20815,Quadrant Strategies,Business Owner,200000,1,2025-08-19,2025-08-19,zip,true,1194000,10,10,2024/2026
+Cory Booker,Bruce Lane,Palm Beach,FL,33480,Lane Enterprises,Investor,200000,1,2025-08-18,2025-08-18,zip,true,350000,2,2,2026
+Cory Booker,Bruce Sholk,Miami Beach,FL,33141,Self-Employed,Investor,200000,1,2025-02-26,2025-02-26,zip,false,1800000,13,12,2024/2026
+Cory Booker,Bryan Spielman,New York,NY,10024,Advarra,Executive,200000,1,2025-01-07,2025-01-07,zip,true,1250000,11,11,2026
+Cory Booker,Curtis Lane,New York,NY,10023,Mts Health Partners,Founding Partner,200000,1,2025-01-16,2025-01-16,zip,true,6000000,24,22,2024/2026
+Cory Booker,David Bercow,Armonk,NY,10504,Vensure,Sales,200000,1,2025-08-29,2025-08-29,zip,true,2952000,78,55,2024/2026
+Cory Booker,David Cohen,Pacific Palisades,CA,90272,Palisades,Manager,200000,2,2025-10-01,2025-10-01,zip,false,2300000,10,9,2024/2026
+Cory Booker,David Kahane,Scarsdale,NY,10583,Invus Financial Advisors,Investor,200000,1,2025-09-01,2025-09-01,zip,true,700000,3,3,2026
+Cory Booker,David Kanstoroom,Potomac,MD,20854,Kvs Title,Attorney,200000,1,2025-08-06,2025-08-06,zip,true,3850000,36,33,2024/2026
+Cory Booker,David Rosen,Scarsdale,NY,10583,Rubric Capital,Analyst,200000,1,2025-08-29,2025-08-29,zip,true,5960000,24,20,2024/2026
+Cory Booker,Debbi Weinberg,Austin,TX,78701,Not Employed,Retired,200000,1,2025-02-26,2025-02-26,zip,false,600000,3,3,2026
+Cory Booker,Elizabeth Neufeld,Denver,CO,80210,Strat Labs,Ceo,200000,1,2025-05-14,2025-05-14,zip,true,800000,4,4,2026
+Cory Booker,Erica Newman,Stamford,CT,06903,Temple Beth El,Executive Director,200000,1,2025-08-23,2025-08-23,zip,true,200000,1,1,2026
+Cory Booker,Erwin Groner,Bethesda,MD,20814,Not Employed,Retired,200000,1,2025-08-06,2025-08-06,zip,false,200000,1,1,2026
+Cory Booker,Fred Claar,Harrison,NY,10528,Not Employed,Retired,200000,1,2025-08-22,2025-08-22,zip,false,2150000,24,18,2024/2026
+Cory Booker,Glen Chesir,New York,NY,10021,Gps Investment Partners,Partner,200000,1,2025-04-29,2025-04-29,zip,true,2725000,16,16,2024/2026
+Cory Booker,Herta Amir,Beverly Hills,CA,90211,Amir Development,Real Estate,200000,1,2025-10-01,2025-10-01,zip,true,6500000,95,72,2024/2026
+Cory Booker,Howard Friedman,Baltimore,MD,21209,Self-Employed,Investor,200000,1,2025-02-26,2025-02-26,zip,false,4270000,26,22,2024/2026
+Cory Booker,Imri Eisner,Scarsdale,NY,10583,Dla Piper LLP,Attorney,200000,1,2025-09-05,2025-09-05,zip,false,755000,6,6,2024/2026
+Cory Booker,Ivan Schlager,Washington,DC,20016,Kirkland And Ellis,Partner,200000,1,2025-08-26,2025-08-26,zip,true,1637500,7,7,2026
+Cory Booker,J Mark Schapiro,Baltimore,MD,21209,Continental Realty,Real Estate,200000,1,2025-02-26,2025-02-26,zip,true,1400000,10,8,2024/2026
+Cory Booker,James L. Bellinson,Bloomfield Hills,MI,48302,Riverstone Growth Partners,Managing Member,200000,1,2025-11-21,2025-11-21,zip,false,1050000,8,7,2024/2026
+Cory Booker,Jamie Minkove,New Rochelle,NY,10804,Coc,Banking,200000,1,2025-08-31,2025-08-31,zip,true,1480000,9,8,2024/2026
+Cory Booker,Jason Peltz,Glencoe,IL,60022,Bartlit Beck,Attorney,200000,1,2025-09-14,2025-09-14,zip,true,7632777,60,47,2024/2026
+Cory Booker,Jerry Wolasky,Deerfield Beach,FL,33442,Healthsource Distributors,Executive,200000,1,2025-02-26,2025-02-26,zip,true,4050000,23,22,2024/2026
+Cory Booker,Jessie Harris,Denver,CO,80206,Not Employed,Not Employed,200000,1,2025-04-28,2025-04-28,zip,false,2150000,8,8,2026
+Cory Booker,Jonathan Harris,Livingston Manor,NY,12758,Prudential Financial,Executive,200000,1,2025-09-03,2025-09-03,state,false,4850400,26,18,2024/2026
+Cory Booker,Josh E. Fidler,Naples,FL,34102,And Ventures,Advisor,200000,1,2025-03-06,2025-03-06,zip,false,100000,1,1,2026
+Cory Booker,Josh Rales,Bethesda,MD,20814,Rales Foundation,President,200000,1,2025-08-06,2025-08-06,zip,true,200000,1,1,2026
+Cory Booker,Kevin Penn,New York,NY,10128,American Securities,Investor,200000,1,2025-05-01,2025-05-01,zip,true,1100000,5,5,2026
+Cory Booker,Lara Baker,Englewood,CO,80111,Recht Kornfeld,Shareholder / Trial Attorney,200000,1,2025-05-20,2025-05-20,zip,true,1400000,6,6,2026
+Cory Booker,Larry Margolis,Basalt,CO,81621,Not Employed,Retired,200000,1,2025-08-20,2025-08-20,zip,false,11510000,35,29,2024/2026
+Cory Booker,Laura G. Mitzner,Denver,CO,80220,Rida Dev,Designer,200000,1,2025-05-22,2025-05-22,zip,true,1850000,9,9,2024/2026
+Cory Booker,Laura Merage,Englewood,CO,80111,Self-Employed,Artist,200000,1,2025-05-09,2025-05-09,zip,false,1800000,10,8,2026
+Cory Booker,Laura Stein,Beverly Hills,CA,90210,Robbins Geller,Attorney,200000,1,2025-09-13,2025-09-13,zip,true,2792500,24,22,2024/2026
+Cory Booker,Lisa Rogoff,Cherry Hl Vlg,CO,80113,Not Employed,Not Employed,200000,2,2025-05-02,2025-05-06,zip,false,1615000,10,8,2024/2026
+Cory Booker,Margie Fiverson,New Hyde Park,NY,11040,Not Employed,Not Employed,200000,1,2025-04-28,2025-04-28,zip,false,4080000,23,20,2024/2026
+Cory Booker,Mark Schuman,Bethesda,MD,20817,Self-Employed,Investor,200000,1,2025-08-09,2025-08-09,zip,false,615000,8,8,2024/2026
+Cory Booker,Mark Schwartzman,Glen Burnie,MD,21061,Glen Burnie Transmissions,President,200000,1,2025-02-27,2025-02-27,zip,true,1400000,8,8,2026
+Cory Booker,Marshall Klein,Baltimore,MD,21230,Self-Employed,Retail Grocery,200000,1,2025-02-26,2025-02-26,zip,false,1600000,13,11,2024/2026
+Cory Booker,Molly Snyder,New York,NY,10013,Self-Employed,Therapist,200000,1,2025-01-07,2025-01-07,zip,false,3800000,25,19,2024/2026
+Cory Booker,Rachel Goldhamer,Denver,CO,80246,Not Employed,Not Employed,200000,1,2025-04-28,2025-04-28,zip,false,1800000,9,9,2024/2026
+Cory Booker,Richard Alter,Pikesville,MD,21208,Manekin,Real Estate,200000,1,2025-03-07,2025-03-07,zip,false,500000,3,3,2024
+Cory Booker,Robert Miller,Franklin Lakes,NJ,07417,Rbc Wealth Management,Private Wealth Advisor,200000,1,2025-04-29,2025-04-29,zip,false,500000,3,3,2026
+Cory Booker,Robert Russel,Boca Raton,FL,33432,Not Employed,Retired,200000,1,2025-02-26,2025-02-26,zip,false,925000,5,5,2024/2026
+Cory Booker,Sasha Roiz,New York,NY,10024,Self-Employed,Investor,200000,1,2025-01-11,2025-01-11,zip,false,1200000,5,4,2026
+Cory Booker,Shaula A. Yemini,New York,NY,10019,Not Employed,Retired,200000,1,2025-08-15,2025-08-15,zip,false,3750000,15,13,2024/2026
+Cory Booker,Stephen Siderow,New York,NY,10028,Siderofsky LLC,Business Strategic Advisory,200000,1,2025-04-30,2025-04-30,zip,false,2750000,17,16,2024/2026
+Cory Booker,Steve Fein,Agoura Hills,CA,91301,Spc LLP,Attorney,200000,1,2025-09-29,2025-09-29,zip,true,1300000,8,7,2026
+Cory Booker,Steven Paletz,Denver,CO,80220,Akerman LLP,Attorney,200000,2,2025-05-26,2025-05-26,zip,true,995000,12,8,2024/2026
+Cory Booker,Susan Koehn,Potomac,MD,20854,Susan Koehn Designs,Jeweler,200000,1,2025-08-31,2025-08-31,zip,true,200000,1,1,2026
+Cory Booker,Tamara Picache,Englewood,CO,80111,The Flatiron Group,Investor,200000,1,2025-05-05,2025-05-05,zip,false,5670000,37,30,2024/2026
+Cory Booker,Tammy Shatz,New Rochelle,NY,10804,Not Employed,Retired,200000,1,2025-09-01,2025-09-01,zip,false,1600000,9,9,2024/2026
+Cory Booker,Thomas Warne,Tucson,AZ,85718,Self-Employed,Real Estate Developer,200000,1,2025-04-04,2025-04-04,zip,false,450000,5,5,2024/2026
+Cory Booker,Tiffany Appel,Denver,CO,80209,Kentwood,Realtor,200000,1,2025-04-28,2025-04-28,zip,false,1780000,9,9,2024/2026
+Cory Booker,Vera Markowitz,Beverly Hills,CA,90210,Not Employed,Retired,200000,2,2024-12-23,2025-06-02,zip,false,15205000,116,71,2024/2026
+Cory Booker,Wayne Cohen,New York,NY,10019,Sculptor Capital,Finance,200000,1,2025-05-15,2025-05-15,zip,true,4030000,17,17,2024/2026
+Cory Booker,Willa Fawer,Denver,CO,80209,Not Employed,Retired,200000,1,2025-05-25,2025-05-25,zip,false,1600000,8,8,2026
+Cory Booker,Yehuda Neuberger,Baltimore,MD,21208,Self-Employed,Finance Professional,200000,1,2025-02-26,2025-02-26,zip,false,26695000,143,105,2024/2026
+Cory Booker,Marc Guren,Los Angeles,CA,90049,"Acuity Capital, LLC",Banking,180000,1,2025-03-13,2025-03-13,zip,true,1085000,16,13,2024/2026
+Cory Booker,Adam Reich,Los Angeles,CA,90035,Reich Brothers,Co-Ceo,150000,1,2025-09-24,2025-09-24,zip,true,3390000,17,15,2024/2026
+Cory Booker,Adam Rosenfeld,West Hollywood,CA,90069,The Agency,Real Estate Broker,150000,1,2025-09-24,2025-09-24,zip,true,1800000,12,12,2026
+Cory Booker,Alan Gindi,Culver City,CA,90232,Bag Investments,Real Estate,150000,1,2025-09-29,2025-09-29,zip,true,14295000,45,39,2024/2026
+Cory Booker,Ed Zimbler,Los Angeles,CA,90024,Berkadia,Sr. Managing Director,150000,1,2025-09-13,2025-09-13,zip,true,4780000,39,34,2024/2026
+Cory Booker,Faith Bobrow,Potomac,MD,20854,Self-Employed,Real Estate Investor,150000,1,2025-08-11,2025-08-11,zip,false,550000,5,5,2024/2026
+Cory Booker,Freddie Reiss,Santa Monica,CA,90402,Not Employed,Not Employed,150000,1,2025-09-24,2025-09-24,zip,false,3075000,29,26,2024/2026
+Cory Booker,George Weisz,Scottsdale,AZ,85259,Self-Employed,Investor,150000,1,2025-04-15,2025-04-15,zip,false,4250000,17,11,2024/2026
+Cory Booker,Geula Solomon,New York,NY,10024,Barclays,Managing Director,150000,1,2025-01-06,2025-01-06,zip,true,1900000,16,15,2024/2026
+Cory Booker,Guy Ruttenberg,Los Angeles,CA,90067,Ruttenberg Ip Law,Attorney,150000,1,2025-11-06,2025-11-06,zip,true,1350000,9,8,2026
+Cory Booker,Jim Miller,Los Angeles,CA,90067,Miller Barondess,Attorney,150000,1,2025-02-24,2025-02-24,zip,true,1050000,7,7,2026
+Cory Booker,Joanna Silver,New York,NY,10025,Not Employed,Homemaker,150000,1,2025-01-06,2025-01-06,zip,false,3280000,30,22,2024/2026
+Cory Booker,Jubin Niahmer,Los Angeles,CA,90024,Jacoby & Meyers,Attorney,150000,1,2025-09-24,2025-09-24,zip,true,1412500,8,7,2026
+Cory Booker,Julie Stonberg,Scarsdale,NY,10583,Self-Employed,Social Worker,150000,1,2025-01-08,2025-01-08,zip,false,2500000,17,15,2024/2026
+Cory Booker,Katy Williamson,New York,NY,10023,Not Employed,Not Employed,150000,1,2025-01-06,2025-01-06,zip,false,1700000,8,8,2024/2026
+Cory Booker,Katya Sverdlov,Brooklyn,NY,11218,Sverdlov Law,Attorney,150000,1,2025-01-06,2025-01-06,zip,true,1160000,9,9,2024/2026
+Cory Booker,Leon Zekaria,Beverly Hills,CA,90210,Windsor,Fashion,150000,1,2025-09-13,2025-09-13,zip,true,2250000,9,9,2026
+Cory Booker,Lew Rudzki,Los Angeles,CA,90035,Canon Equity Partners,Real Estate,150000,1,2025-11-06,2025-11-06,zip,true,2525000,19,17,2024/2026
+Cory Booker,Mayer Bick,Los Angeles,CA,90035,Sb Advisors,Investment Banker,150000,1,2025-09-24,2025-09-24,zip,true,2550000,15,15,2024/2026
+Cory Booker,Monica Abrams,Bethesda,MD,20814,Not Employed,Retired,150000,1,2025-08-22,2025-08-22,zip,false,1505000,12,12,2024/2026
+Cory Booker,Peter Langerman,Short Hills,NJ,07078,Not Employed,Retired,150000,1,2026-06-11,2026-06-11,zip,false,9440000,36,30,2024/2026
+Cory Booker,Scott Edelman,Beverly Hills,CA,90212,Not Employed,Retired,150000,1,2025-10-03,2025-10-03,zip,false,2850000,14,14,2024/2026
+Cory Booker,Scott Packman,New York,NY,10028,Ssp Partners & Associates LLC,Consultant,150000,1,2025-04-21,2025-04-21,zip,true,3190000,26,25,2024/2026
+Cory Booker,Seth Damski,Clifton,NJ,07014,Old City Investment Partners,Financial Advisor,150000,1,2025-05-13,2025-05-13,zip,true,5353000,25,20,2024/2026
+Cory Booker,Stephen Chaleff,New York,NY,10023,Not Employed,Retired,135000,8,2025-01-07,2026-06-26,zip,false,1500000,18,16,2024/2026
+Cory Booker,Aliza Guren,Los Angeles,CA,90049,Karney Properties Co.,Real Estate,132500,1,2025-03-13,2025-03-13,zip,true,1397500,15,14,2024/2026
+Cory Booker,Bernard Kaminetsky,Boca Raton,FL,33433,Not Employed,Retired,125000,1,2025-02-24,2025-02-24,zip,false,3810000,30,25,2024/2026
+Cory Booker,Deborah Oseran,Tucson,AZ,85716,Not Employed,Retired,125000,1,2025-03-08,2025-03-08,zip,false,1359000,15,12,2024/2026
+Cory Booker,Dana Pachulski,Los Angeles,CA,90077,Not Employed,Not Employed,120000,2,2025-09-13,2025-09-13,zip,false,2470000,8,8,2024/2026
+Cory Booker,Jeannie Lavine,Boston,MA,02116,Not Employed,Not Employed,120000,2,2025-12-23,2025-12-23,zip,false,16570000,34,30,2024/2026
+Cory Booker,Meryl Tuchin,Los Angeles,CA,90067,Ucla,Physician,120000,1,2025-09-13,2025-09-13,zip,true,120000,1,1,2026
+Cory Booker,Michael Tuchin,Los Angeles,CA,90067,Ktbs Law LLP,Attorney,120000,2,2025-09-13,2025-09-13,zip,true,8910000,35,28,2024/2026
+Cory Booker,Adam Miller,Lutherville,MD,21093,"Klnb, LLC",Real Estate,100000,1,2025-02-26,2025-02-26,zip,true,800000,7,7,2026
+Cory Booker,Alan Friedman,Margate City,NJ,08402,Not Employed,Not Employed,100000,1,2025-07-30,2025-07-30,zip,false,2050000,27,24,2024/2026
+Cory Booker,Alan Hammer,Livingston,NJ,07039,Brach Eichler,Attorney,100000,1,2026-06-16,2026-06-16,zip,false,180000,1,1,2024
+Cory Booker,Alex Alma,Larchmont,NY,10538,Centerview,Investment Banking,100000,1,2025-04-25,2025-04-25,zip,true,700000,7,5,2024/2026
+Cory Booker,Alexander Roberts,Tarrytown,NY,10591,Not Employed,Retired,100000,1,2025-09-01,2025-09-01,zip,false,1375000,16,16,2024/2026
+Cory Booker,Alicia Nussdorf,Old Westbury,NY,11568,Not Employed,Not Employed,100000,1,2025-08-15,2025-08-15,zip,false,100000,1,1,2026
+Cory Booker,Allan Janoff,Livingston,NJ,07039,Crystal Plaza Group,Caterer,100000,1,2026-06-01,2026-06-01,zip,true,1550000,14,13,2024/2026
+Cory Booker,Alon Rosin,Roslyn,NY,11576,Oppenheimer,Finance,100000,1,2025-09-13,2025-09-13,zip,true,250000,1,1,2024
+Cory Booker,Anath Gardenswartz,Denver,CO,80220,Not Employed,Retired,100000,1,2025-05-14,2025-05-14,zip,false,400000,4,4,2026
+Cory Booker,Anne Landman,Brooklyn,NY,11201,Not Employed,Retired,100000,1,2025-01-08,2025-01-08,zip,false,375000,8,8,2024
+Cory Booker,Avi Galanti,Bethesda,MD,20817,Galanti Group,Real Estate,100000,1,2025-08-21,2025-08-21,zip,true,275000,4,4,2024/2026
+Cory Booker,Barbara Grossman,Boston,MA,02116,Not Employed,Not Employed,100000,1,2025-10-30,2025-10-30,state,false,50000,1,1,2024
+Cory Booker,Brandon Dunn,White Plains,NY,10606,Roc360,Finance,100000,1,2025-09-03,2025-09-03,zip,true,1400000,11,10,2024/2026
+Cory Booker,Brett Tanzman,Short Hills,NJ,07078,"Garden Homes/Wilf Law Firm, LLP",Real Estate/Attorney,100000,2,2026-06-14,2026-06-14,zip,true,330000,3,3,2024/2026
+Cory Booker,Brian Schreiber,New York,NY,10128,The Carlyle Group,Asset Management,100000,1,2025-04-29,2025-04-29,zip,true,1550000,15,12,2024/2026
+Cory Booker,Brian Zaro,Chappaqua,NY,10514,Zaro'S Family Bakery,Bakery,100000,1,2025-08-19,2025-08-19,zip,true,550000,5,5,2024/2026
+Cory Booker,Bruce Spector,Los Angeles,CA,90024,Not Employed,Retired,100000,1,2025-09-11,2025-09-11,zip,false,500000,3,3,2026
+Cory Booker,Carole Daman,Scarsdale,NY,10583,Not Employed,Retired,100000,1,2025-08-24,2025-08-24,zip,false,943000,11,10,2024/2026
+Cory Booker,Charles Jacobs,Chevy Chase,MD,20815,Not Employed,Retired,100000,1,2025-07-29,2025-07-29,zip,false,3180000,17,16,2024/2026
+Cory Booker,Cintra Pollack,Denver,CO,80209,Race Street Management,Investment Manager,100000,1,2025-05-14,2025-05-14,zip,true,750000,5,4,2024/2026
+Cory Booker,Cliff Silverman,Rye Brook,NY,10573,Millennium,Attorney,100000,1,2025-09-03,2025-09-03,zip,true,550000,5,5,2024/2026
+Cory Booker,Daniel Klein,Englewood,NJ,07631,Metropolitan Management,President/Real Estate,100000,1,2025-03-03,2025-03-03,zip,true,600000,5,5,2026
+Cory Booker,Daniel Tavakoli,New York,NY,10075,Akin Gump,Partner,100000,1,2025-05-18,2025-05-18,zip,true,725000,6,6,2024/2026
+Cory Booker,David Hameroff,Tucson,AZ,85718,"Hameroff Law Group, PC",Attorney,100000,1,2025-03-07,2025-03-07,zip,true,2515400,23,15,2024/2026
+Cory Booker,David Kerdell,New York,NY,10025,Not Employed,Retired,100000,1,2025-01-17,2025-01-17,zip,false,725000,9,9,2024/2026
+Cory Booker,David Schwartz,Bronx,NY,10463,Not Employed,Retired,100000,1,2025-08-20,2025-08-20,zip,false,1450000,14,13,2024/2026
+Cory Booker,David Shatz,Scarsdale,NY,10583,Not Employed,Retired,100000,1,2025-08-15,2025-08-15,zip,false,900000,10,9,2024/2026
+Cory Booker,Debra Panitch,Potomac,MD,20854,Not Employed,Retired,100000,1,2025-08-27,2025-08-27,zip,false,1500000,15,12,2024/2026
+Cory Booker,Donna Bender,Encino,CA,91436,Not Employed,Not Employed,100000,1,2025-09-19,2025-09-19,zip,false,12976000,58,39,2024/2026
+Cory Booker,Ellen Berger,White Plains,NY,10605,Not Employed,Retired,100000,1,2025-09-03,2025-09-03,zip,false,900000,12,12,2024/2026
+Cory Booker,Erin Frankel,Southfield,MI,48075,Open Window Corp,Investor,100000,1,2025-01-07,2025-01-07,zip,true,100000,1,1,2026
+Cory Booker,Erwin Sokol,Los Angeles,CA,90049,Marina Pacific Hotel & Suites,Hotel Operator,100000,1,2025-11-10,2025-11-10,zip,true,2225000,21,20,2024/2026
+Cory Booker,Gail Becker,New York,NY,10003,Gail Becker,"Founder, Entrepreneur",100000,1,2025-01-08,2025-01-08,zip,true,550000,5,5,2024/2026
+Cory Booker,Georgette Lookstein,Scarsdale,NY,10583,Mastercard,Product Manager,100000,1,2025-08-29,2025-08-29,zip,true,750000,9,9,2024/2026
+Cory Booker,Gila Daitz,New York,NY,10128,Self-Employed,Educator,100000,1,2025-01-12,2025-01-12,zip,false,500000,5,5,2026
+Cory Booker,Gordon I. Horwitz,Baltimore,MD,21215,"Sage Ventures, LLC",Real Estate,100000,1,2025-02-26,2025-02-26,zip,false,1300000,12,11,2024/2026
+Cory Booker,Helaine Levy,Tucson,AZ,85750,Diamond Ventures,Principal,100000,1,2025-03-05,2025-03-05,zip,true,450000,9,7,2024/2026
+Cory Booker,Henry Siegel,New York,NY,10025,Not Employed,Retired,100000,1,2025-06-18,2025-06-18,zip,false,2050000,25,23,2024/2026
+Cory Booker,Howard Pein,Harrison,NY,10528,Tradeweb Markets,Management,100000,1,2025-08-24,2025-08-24,zip,true,950000,10,9,2024/2026
+Cory Booker,Inna White,Brooklyn,NY,11215,Wells Fargo,Private Wealth Advisor,100000,1,2025-02-04,2025-02-04,zip,true,1405000,14,11,2024/2026
+Cory Booker,Isaac Pachulski,Beverly Hills,CA,90210,Pachulski Stang Ziehl & Jones,Attorney,100000,1,2025-09-13,2025-09-13,zip,true,3000000,15,12,2024/2026
+Cory Booker,Jacqueline Muss,New York,NY,10021,Self-Employed,Art Advisor,100000,1,2025-02-09,2025-02-09,zip,false,1400000,11,10,2024/2026
+Cory Booker,Jay Gould,Delray Beach,FL,33446,Majestic Property,Consutant,100000,1,2025-01-24,2025-01-24,zip,true,1875000,28,20,2024/2026
+Cory Booker,Jeffrey J. Greenbaum,Livingston,NJ,07039,Sills Cummis & Gross PC,Attorney,100000,1,2026-06-14,2026-06-14,zip,true,275000,5,5,2024/2026
+Cory Booker,Jeffrey Snyder,Boca Raton,FL,33432,Not Employed,Retired,100000,1,2025-02-26,2025-02-26,zip,false,9705000,61,53,2024/2026
+Cory Booker,Jeremy Sharpe,Tucson,AZ,85712,Rancho Sahuarita,Real Estate,100000,1,2025-03-22,2025-03-22,zip,true,825000,8,7,2024/2026
+Cory Booker,Jerome Snider,White Plains,NY,10606,Not Employed,Retired,100000,1,2025-08-24,2025-08-24,zip,false,300000,3,3,2026
+Cory Booker,Jimmy Asher,New York,NY,10075,Not Employed,Retired,100000,1,2025-01-06,2025-01-06,zip,false,250000,2,2,2024
+Cory Booker,Joel Appel,Denver,CO,80209,Zaidy'S Deli,Owner,100000,1,2025-05-19,2025-05-19,zip,true,1830000,13,13,2024/2026
+Cory Booker,Jonathan Ben-Zvi,Briarcliff Manor,NY,10510,Morgan Stanley,Executive Director,100000,1,2025-08-25,2025-08-25,zip,true,100000,1,1,2026
+Cory Booker,Joshua Gelfand,New Rochelle,NY,10804,Troutman Pepper Locke LLP,Attorney,100000,1,2025-09-05,2025-09-05,zip,true,275000,3,3,2026
+Cory Booker,Judy Novenstein,Bethesda,MD,20814,Not Employed,Retired,100000,1,2025-07-29,2025-07-29,zip,false,100000,1,1,2026
+Cory Booker,June Hersh,Bedford Corners,NY,10549,Not Employed,Retired,100000,1,2025-01-13,2025-01-13,zip,false,400000,4,3,2026
+Cory Booker,Lauri Bader,Englewood,NJ,07631,Not Employed,Not Employed,100000,1,2025-01-06,2025-01-06,zip,false,2300000,22,18,2024/2026
+Cory Booker,Lawrence Gross,Encino,CA,91436,J&C Enterprises,Executive,100000,1,2025-09-19,2025-09-19,zip,false,2250000,18,15,2024/2026
+Cory Booker,Lee Prisament,Nyack,NY,10960,Not Employed,Retired,100000,1,2025-08-25,2025-08-25,zip,false,650000,7,7,2024/2026
+Cory Booker,Lee Spies,New York,NY,10028,Not Employed,Not Employed,100000,1,2025-01-13,2025-01-13,zip,false,2000000,11,10,2026
+Cory Booker,Lee Ziff,Beverly Hills,CA,90210,Sequoia Realty,Realtor,100000,1,2025-09-26,2025-09-26,zip,true,2987300,43,33,2024/2026
+Cory Booker,Linda Daitz,New York,NY,10028,Not Employed,Retired,100000,1,2025-01-12,2025-01-12,zip,false,5370000,44,35,2024/2026
+Cory Booker,Marc Rothenberg,New York,NY,10069,Goldman Sachs & Co.,Finance,100000,1,2025-05-13,2025-05-13,zip,true,1175000,8,8,2024/2026
+Cory Booker,Mark Neumann,Owings Mills,MD,21117,"510 Ventures, LLC",Self-Employed,100000,1,2025-02-07,2025-02-07,zip,true,1770000,20,18,2024/2026
+Cory Booker,Martin F. Statfeld,Livingston,NJ,07039,Brown And Brown,Vice President,100000,1,2025-05-09,2025-05-09,zip,false,800000,8,8,2024/2026
+Cory Booker,Matthew Schweber,New York,NY,10040,Feuerstein Kulick,Attorney,100000,1,2025-01-06,2025-01-06,zip,true,1170000,11,10,2024/2026
+Cory Booker,Matthew Sloan,Los Angeles,CA,90064,Skadden Arps,Attorney,100000,1,2025-09-26,2025-09-26,zip,true,400000,6,6,2024/2026
+Cory Booker,Michael Fricklas,New York,NY,10024,Advance Publications Inc,Chief Legal Officer,100000,1,2025-05-09,2025-05-09,zip,false,400000,4,4,2024/2026
+Cory Booker,Michael Kleinberg,New Rochelle,NY,10804,Mkda,Architect,100000,1,2025-09-02,2025-09-02,zip,true,1250000,14,13,2024/2026
+Cory Booker,Michael Koss,Los Angeles,CA,90025,Self-Employed,Investor,100000,1,2025-09-15,2025-09-15,zip,false,9000000,67,40,2024/2026
+Cory Booker,Michael Nechamkin,Passaic,NJ,07055,Octagon Credit Investors,Chief Investment Officer,100000,1,2025-05-14,2025-05-14,zip,true,950000,7,7,2024/2026
+Cory Booker,Miles P. Berger,Livingston,NJ,07039,Berger Organization LLC,Real Estate,100000,1,2026-02-07,2026-02-07,state,false,100000,1,1,2024
+Cory Booker,Mimi Kress,Bethesda,MD,20817,Sandy Spring Builders,Residential Builder,100000,1,2025-08-20,2025-08-20,zip,true,1600000,17,16,2024/2026
+Cory Booker,Mitchell Gold,Owings Mills,MD,21117,Gold And Company,Real Estate,100000,1,2025-02-26,2025-02-26,zip,true,600000,6,6,2026
+Cory Booker,Mitchell Steir,Water Mill,NY,11976,Not Employed,Retired,100000,1,2025-05-01,2025-05-01,zip,false,2300000,18,17,2024/2026
+Cory Booker,Nathan Kornfeld,New York,NY,10012,Self-Employed,Banker,100000,1,2025-01-13,2025-01-13,zip,false,2350000,22,19,2024/2026
+Cory Booker,Peter Silberstein,Chestnut Hill,MA,02467,Silberstein & Associates,Attorney,100000,1,2025-01-07,2025-01-07,zip,true,550000,6,6,2024/2026
+Cory Booker,Phyllis Jaeger,New York,NY,10128,Sotheby'S International Real Estate,Real Estate Agent,100000,1,2025-01-09,2025-01-09,zip,true,750000,8,7,2024/2026
+Cory Booker,Rafael Steinberg,Old Greenwich,CT,06870,Servenco Management,Financial Analyst,100000,1,2025-08-29,2025-08-29,zip,true,400000,4,4,2024/2026
+Cory Booker,Randall Levitt,Bethesda,MD,20814,Nellis Corporation,Investor,100000,1,2025-07-30,2025-07-30,zip,true,4005000,27,23,2024/2026
+Cory Booker,Randall Reiner,Potomac,MD,20854,Self-Employed,Real Estate,100000,1,2025-08-06,2025-08-06,zip,false,1249000,20,17,2024/2026
+Cory Booker,Rena Krasnow,New York,NY,10128,Self-Employed,Not Employed,100000,1,2025-01-06,2025-01-06,zip,false,2150000,16,14,2024/2026
+Cory Booker,Richard Goldstein,Chevy Chase,MD,20815,Not Employed,Retired,100000,1,2025-08-28,2025-08-28,zip,false,700000,8,8,2024/2026
+Cory Booker,Richard Krumholz,New York,NY,10028,Delight Restaurant Group,Franchisee,100000,1,2025-09-03,2025-09-03,zip,true,600000,2,1,2024/2026
+Cory Booker,Robert Klyman,Los Angeles,CA,90004,Dla Piper,Attorney,100000,1,2025-04-03,2025-04-03,zip,true,8030000,29,24,2024/2026
+Cory Booker,Robin Samot,Scarsdale,NY,10583,Not Employed,Not Employed,100000,1,2025-08-22,2025-08-22,zip,false,1085000,11,11,2024/2026
+Cory Booker,Rochelle Sherman,New Rochelle,NY,10804,Not Employed,Not Employed,100000,1,2025-08-29,2025-08-29,zip,false,1250000,15,14,2024/2026
+Cory Booker,Roselle Mironer,New York,NY,10011,Not Employed,Retired,100000,1,2025-01-06,2025-01-06,zip,false,1000000,12,11,2024/2026
+Cory Booker,Sam Baruch,Lawrence,NY,11559,Capital One,Investment Banker,100000,2,2025-01-11,2025-01-11,zip,false,100000,2,1,2026
+Cory Booker,Sam Jacob,Westport,CT,06880,Slj Capital Partners LLC,Ceo,100000,1,2025-01-06,2025-01-06,zip,true,2450000,25,21,2024/2026
+Cory Booker,Samantha Z. Cohen,New York,NY,10075,Self-Employed,Designer,100000,1,2025-01-09,2025-01-09,zip,false,1150000,9,7,2024/2026
+Cory Booker,Sara Blechner,Scarsdale,NY,10583,Self-Employed,Speech Therapist,100000,1,2025-09-03,2025-09-03,zip,false,1435000,12,11,2024/2026
+Cory Booker,Scott Musoff,Scarsdale,NY,10583,Skadden,Attorney,100000,1,2025-08-22,2025-08-22,zip,true,1175000,9,9,2024/2026
+Cory Booker,Shana Rosen,Potomac,MD,20854,Self-Employed,Consultant,100000,1,2025-07-28,2025-07-28,zip,false,1150000,14,10,2024/2026
+Cory Booker,Sharon Kessler,New York,NY,10024,Evaluations LLC,Owner,100000,1,2025-01-20,2025-01-20,zip,true,1330000,11,10,2024/2026
+Cory Booker,Shelley Goldseker,Owings Mills,MD,21117,Not Employed,Not Employed,100000,1,2025-02-26,2025-02-26,zip,false,700000,6,5,2024/2026
+Cory Booker,Stephanie Ferdman,New York,NY,10024,Not Employed,Not Employed,100000,1,2025-02-10,2025-02-10,zip,false,200000,2,2,2024/2026
+Cory Booker,Steve Sibel,Cockeysville,MD,21030,Caves Valley Partners,Real Estate Developer,100000,1,2025-02-26,2025-02-26,zip,true,800000,8,8,2024/2026
+Cory Booker,Steven Fredman,Scarsdale,NY,10583,Not Employed,Retired,100000,1,2025-08-23,2025-08-23,zip,false,1725000,15,13,2024/2026
+Cory Booker,Stuart Schwartz,El Paso,TX,79912,Scotthulse PC,Attorney,100000,1,2025-05-14,2025-05-14,zip,true,500000,7,6,2024/2026
+Cory Booker,Susan Hammer,Livingston,NJ,07039,Not Employed,Retired,100000,1,2026-06-16,2026-06-16,zip,false,2499800,34,19,2024/2026
+Cory Booker,Terri Kessler,Tucson,AZ,85718,Long Realty Co.,Realtor,100000,1,2025-03-20,2025-03-20,zip,false,125000,2,2,2024/2026
+Cory Booker,Tyler Ross,New York,NY,10013,Reverence Capital Partners,Investment Professional,100000,1,2025-05-14,2025-05-14,zip,true,200000,2,2,2026
+Cory Booker,Viktoria Schrager,New York,NY,10024,Not Employed,Not Employed,100000,1,2025-01-12,2025-01-12,zip,false,1000000,9,9,2024/2026
+Cory Booker,Yana Lukeman,New York,NY,10019,Self-Employed,Consultant,100000,1,2025-01-27,2025-01-27,zip,false,3400000,34,25,2024/2026
+Cory Booker,Gary Tenzer,Los Angeles,CA,90067,George Smith Partners,Partner,75000,1,2025-11-03,2025-11-03,state,true,1800000,26,21,2024/2026
+Cory Booker,Marion Bergman,New York,NY,10017,Not Employed,Not Employed,75000,3,2025-05-01,2025-05-16,zip,false,100000,1,1,2026
+Cory Booker,Robert Schwartzberg,Potomac,MD,20854,Not Employed,Retired,75000,1,2025-08-25,2025-08-25,zip,false,325000,5,5,2024/2026
+Cory Booker,Patricia N. Berman,Boca Raton,FL,33433,Not Employed,Not Employed,65000,12,2025-01-02,2026-05-30,zip,false,50000,2,2,2024
+Cory Booker,Arlene F. Bender,Carlsbad,CA,92009,Not Employed,Not Employed,60000,5,2025-03-31,2026-02-20,zip,false,30000,1,0,2026
+Cory Booker,Jackie Shapo,Potomac,MD,20854,Self-Employed,Marriage Coach,60000,1,2025-08-28,2025-08-28,zip,false,110000,2,2,2026
+Cory Booker,Al Kamen,New York,NY,10022,Not Employed,Not Employed,53700,8,2025-04-01,2025-05-25,zip,false,100000,1,1,2024
+Cory Booker,Albert Cytryn,Potomac,MD,20854,Self-Employed,Physician,50000,1,2025-08-05,2025-08-05,zip,false,400000,8,8,2024/2026
+Cory Booker,Arthur Jakoby,New Rochelle,NY,10804,Herrick Feinstein,Attorney,50000,1,2025-09-05,2025-09-05,zip,true,700000,11,10,2024/2026
+Cory Booker,Betty Berenson,Scarsdale,NY,10583,Not Employed,Retired,50000,1,2025-09-10,2025-09-10,zip,false,1140000,18,15,2024/2026
+Cory Booker,Brian Ostar,Falls Church,VA,22043,Eb5 Capital,President,50000,1,2025-08-07,2025-08-07,zip,true,550000,12,11,2024/2026
+Cory Booker,Daniel Bussel,Los Angeles,CA,90067,Ktbs Law LLP,Attorney,50000,1,2025-09-29,2025-09-29,zip,true,925000,14,13,2024/2026
+Cory Booker,Daniel Kramer,Washington,DC,20009,Ch Management Corp,Co-Owner,50000,1,2025-08-07,2025-08-07,zip,true,675000,16,14,2024/2026
+Cory Booker,Danielle Gross,Phoenix,AZ,85018,Drg Behavioral Health,Therapist,50000,1,2025-03-26,2025-03-26,zip,true,1750000,22,16,2024/2026
+Cory Booker,David M. Stern,Los Angeles,CA,90077,Ktbs Law LLP,Attorney,50000,1,2025-09-24,2025-09-24,zip,true,1800000,22,18,2024/2026
+Cory Booker,David Yaffe,Arlington,VA,22203,Not Employed,Retired,50000,1,2025-08-07,2025-08-07,zip,false,475000,11,11,2024/2026
+Cory Booker,Deborah Feinerman,Los Angeles,CA,90077,Not Employed,Retired,50000,1,2025-10-03,2025-10-03,zip,false,425000,9,9,2024/2026
+Cory Booker,Elias Saratovsky,Bethesda,MD,20814,Birthright Israel,Ceo,50000,1,2025-08-07,2025-08-07,zip,true,475000,10,10,2024/2026
+Cory Booker,Gabriel Hauser,Rockville,MD,20852,Medstar Health,Physician,50000,1,2025-08-19,2025-08-19,zip,true,300000,5,5,2024/2026
+Cory Booker,Gideon Sasson,Potomac,MD,20854,Not Employed,Retired,50000,1,2025-08-15,2025-08-15,zip,false,460000,10,9,2024/2026
+Cory Booker,Howard Hogan,Arlington,VA,22205,Gibson Dunn,Partner,50000,1,2025-08-07,2025-08-07,zip,true,550000,9,8,2026
+Cory Booker,Jaclyn Rubin,Mclean,VA,22102,Bethesda Softworks,Senior Director Of Marketing,50000,1,2025-08-07,2025-08-07,zip,true,250000,5,5,2026
+Cory Booker,Jeffrey Smith,Englewood,FL,34224,Not Employed,Not Employed,50000,1,2025-04-01,2025-04-01,state,false,550000,4,3,2026
+Cory Booker,Jerome Chapman,Rockville,MD,20852,Not Employed,Retired,50000,1,2025-08-07,2025-08-07,zip,false,250000,6,6,2024/2026
+Cory Booker,Jerry Makris,Cresskill,NJ,07626,Fantis Foods,Business,50000,1,2025-08-17,2025-08-17,zip,true,50000,1,1,2026
+Cory Booker,Josh Kussman,Mclean,VA,22101,Not Employed,Not Employed,50000,1,2025-08-07,2025-08-07,zip,false,1625000,20,18,2024/2026
+Cory Booker,Joshua Epel,Greenwood Village,CO,80111,Not Employed,Retired,50000,1,2025-05-22,2025-05-22,zip,false,1145000,17,12,2024/2026
+Cory Booker,Lisa Ring,Saint Louis,MO,63105,Not Employed,Not Employed,50000,1,2025-04-06,2025-04-06,zip,false,425000,5,2,2024/2026
+Cory Booker,Lori Burman,Clarksville,MD,21029,Not Employed,Not Employed,50000,1,2025-07-17,2025-07-17,zip,false,3395000,52,44,2024/2026
+Cory Booker,Lynn Morgan,Potomac,MD,20854,Morgan Language Services,President,50000,1,2025-08-25,2025-08-25,zip,true,135000,3,3,2024/2026
+Cory Booker,Margaret Allon,Denver,CO,80246,Not Employed,Retired,50000,1,2025-05-22,2025-05-22,zip,false,50000,1,1,2026
+Cory Booker,Michael Mcferren,Great Falls,VA,22066,Amatus Management,Managing Member,50000,1,2025-08-07,2025-08-07,zip,true,550000,13,11,2024/2026
+Cory Booker,Michael Smith,Washington,DC,20010,Federal Trade Commission,Attorney,50000,1,2025-08-07,2025-08-07,zip,true,350000,7,7,2026
+Cory Booker,Mitchell Fagan,Arlington,VA,22206,Katten Muchin Rosenman LLP,Associate,50000,1,2025-08-07,2025-08-07,zip,true,200000,4,4,2026
+Cory Booker,Morton Zetlin,Arlington,VA,22203,Mercedes Benz Of Arlington,Auto Dealer,50000,1,2025-08-07,2025-08-07,zip,true,850000,17,17,2024/2026
+Cory Booker,Nykea Pippion Mcgriff,Chicago,IL,60637,Coldwell Banker Realty,Real Estate Broker,50000,1,2026-03-18,2026-03-18,state,false,25000,1,1,2026
+Cory Booker,Rachel Eisen,Monsey,NY,10952,Not Employed,Retired,50000,1,2025-09-07,2025-09-07,zip,false,500000,7,7,2024/2026
+Cory Booker,Randy K. Hubert,Princeton,NJ,08540,Lawrenceville Dermatology,Physician,50000,1,2025-07-22,2025-07-22,zip,false,900000,16,12,2024/2026
+Cory Booker,Rhonda Lees,Arlington,VA,22209,American Bankers Association,Senior Counsel,50000,1,2025-08-07,2025-08-07,zip,true,719400,26,20,2024/2026
+Cory Booker,Robert Brown,San Francisco,CA,94117,Not Employed,Not Employed,50000,1,2025-04-02,2025-04-02,state,false,25000,1,1,2024
+Cory Booker,Robert Gordon,Scottsdale,AZ,85255,Weitz & Luxenberg,Attorney,50000,1,2025-03-13,2025-03-13,zip,true,375000,5,5,2026
+Cory Booker,Scott Newman,North Caldwell,NJ,07006,Ramaz,Teacher,50000,1,2026-06-01,2026-06-01,zip,true,2400000,23,15,2024/2026
+Cory Booker,Scott Sussman,Corona Del Mar,CA,92625,Not Employed,Retired,50000,1,2025-04-14,2025-04-14,zip,false,1490000,15,11,2024/2026
+Cory Booker,Simon Bernstein,New Rochelle,NY,10804,Alvarez & Marsal,Consultant,50000,1,2025-09-08,2025-09-08,zip,true,475000,6,6,2024/2026
+Cory Booker,Steve Stone,Alexandria,VA,22310,Not Employed,Retired,50000,1,2025-08-07,2025-08-07,zip,false,350000,8,8,2024/2026
+Cory Booker,Sue Adatto,Scottsdale,AZ,85255,Not Employed,Retired,50000,1,2025-03-26,2025-03-26,zip,false,950000,13,12,2024/2026
+Cory Booker,Susan Miller,Piedmont,CA,94611,Joint Venture Silicon Valley,Associate Director,50000,1,2025-04-01,2025-04-01,state,false,125000,5,5,2024
+Cory Booker,Yair Flicker,Baltimore,MD,21201,"Smartlogic, LLC",Business Owner,50000,1,2025-08-07,2025-08-07,zip,true,275000,6,6,2026
+Cory Booker,Seth Spergel,Bethesda,MD,20817,Merlin Ventures,Managing Director,49900,1,2025-08-07,2025-08-07,zip,true,249500,5,5,2026
+Cory Booker,Alexander Lewin,Sandy Spring,MD,20860,Not Employed,Not Employed,45000,2,2025-04-06,2025-09-30,zip,false,40100,1,0,2024
+Cory Booker,Benjamin Pozez,Tucson,AZ,85719,Bp Diversified Investments,Real Estate,40000,1,2025-03-12,2025-03-12,zip,true,405000,10,8,2024/2026
+Cory Booker,Charles Gannon,Tucson,AZ,85718,Not Employed,Retired,40000,1,2025-03-26,2025-03-26,zip,false,70000,2,2,2024/2026
+Cory Booker,Judith Udell,Westport,CT,06880,Not Employed,Not Employed,37500,3,2025-04-01,2025-08-20,zip,false,25000,1,1,2026
+Cory Booker,Nir Maoz,Los Angeles,CA,90067,Ktbs Law LLP,Attorney,35000,1,2025-10-03,2025-10-03,zip,true,800000,18,18,2024/2026
+Cory Booker,Todd Becker,San Jose,CA,95136,Self-Employed,Preschool Owner,30000,2,2025-04-18,2025-04-18,state,false,7785000,42,35,2024/2026
+Cory Booker,Tom Newman,Tucson,AZ,85750,Not Employed,Retired,30000,1,2025-03-13,2025-03-13,zip,false,120000,4,4,2024/2026
+Cory Booker,Stephen Miller,San Francisco,CA,94103,Genentech,Scientist,28200,2,2025-04-01,2025-04-30,state,false,1200000,25,22,2024/2026
+Cory Booker,Aaron Feldman,Bethesda,MD,20817,Fidelity Investments,Advisor,25000,1,2025-08-19,2025-08-19,zip,true,1862500,13,12,2024/2026
+Cory Booker,Alice Baker,Tucson,AZ,85716,Not Employed,Not Employed,25000,1,2026-02-12,2026-02-12,zip,false,3450000,8,6,2024/2026
+Cory Booker,Asaf Cohen,Newton Center,MA,02459,Not Employed,Retired,25000,1,2025-12-02,2025-12-02,zip,false,260000,10,7,2026
+Cory Booker,David Cohen,Chevy Chase,MD,20815,Not Employed,Not Employed,25000,1,2025-04-06,2025-04-06,state,false,100000,1,1,2026
+Cory Booker,David Kaufman,Potomac,MD,20854,Jp Morgan Chase,Commercial Banker,25000,1,2025-08-07,2025-08-07,zip,true,175000,7,7,2024/2026
+Cory Booker,David Nanus,New Rochelle,NY,10804,Weill Cornell,Physician,25000,1,2025-09-30,2025-09-30,zip,true,355000,2,1,2024/2026
+Cory Booker,Ethan Starr,Washington,DC,20008,"Bizmaven, LLC",Owner/Researcher,25000,1,2025-09-03,2025-09-03,zip,true,525000,14,14,2024/2026
+Cory Booker,Gavriel Kahane,New York,NY,10069,Arkhouse,Investor,25000,1,2025-04-29,2025-04-29,zip,true,2986100,15,9,2024/2026
+Cory Booker,Gwen Stokols,Alexandria,VA,22304,Us Patent & Trademark Office,Attorney,25000,1,2025-08-07,2025-08-07,zip,true,218500,15,14,2024/2026
+Cory Booker,Isaac Jonas,New Rochelle,NY,10804,Loews Corp.,Investor,25000,1,2025-09-08,2025-09-08,zip,true,487500,11,11,2024/2026
+Cory Booker,Larry Porter,Alexandria,VA,22307,Not Employed,Retired,25000,1,2025-08-07,2025-08-07,zip,false,250000,10,10,2024/2026
+Cory Booker,Lawrence Friedman,Skokie,IL,60076,Self-Employed,Director,25000,1,2025-05-04,2025-05-04,zip,false,2010000,70,52,2024/2026
+Cory Booker,Martin Baum,Glen Ridge,NJ,07028,Edgewood Consulting Group,Consultant,25000,1,2026-06-14,2026-06-14,zip,true,650000,13,11,2024/2026
+Cory Booker,Michael J. Shapiro,Ojai,CA,93023,Self-Employed,Writer,25000,1,2026-02-10,2026-02-10,state,false,325000,9,7,2024/2026
+Cory Booker,Nicole Gordon,Santa Monica,CA,90405,Self-Employed,Interior Design,25000,1,2025-04-30,2025-04-30,state,false,20000,2,0,2026
+Cory Booker,Sarah Jonas,New Rochelle,NY,10804,Morrison Cohen LLP,Attorney,25000,1,2025-09-08,2025-09-08,zip,true,287500,8,8,2024/2026
+Cory Booker,Shelly Silverman,Tucson,AZ,85718,The Clover Company,Real Estate,25000,1,2025-04-07,2025-04-07,zip,true,75000,2,2,2024/2026
+Cory Booker,Carol Kochman,Land O Lakes,FL,34637,Not Employed,Retired,20000,3,2025-04-01,2025-06-18,zip,false,25000,1,1,2024
+Cory Booker,Susan Feldman,Brooklyn,NY,11201,Not Employed,Not Employed,20000,1,2025-04-07,2025-04-07,state,false,22500,7,6,2024/2026
+Cory Booker,Ralph Rauch,Lafayette,CA,94549,Self-Employed,Psychiatrist,18000,1,2026-03-31,2026-03-31,zip,false,233000,12,5,2024/2026
+Cory Booker,David Miller,Medina,NY,14103,Not Employed,Not Employed,14500,7,2026-01-01,2026-06-01,state,false,1406000,29,24,2024/2026
+Cory Booker,James Miller,Poway,CA,92064,Not Employed,Not Employed,12000,2,2026-02-12,2026-03-31,state,false,200000,2,2,2026
+Cory Booker,David Bloomgarden,Scarsdale,NY,10583,Scarsdale Medical Group,Physician,10500,3,2025-04-01,2025-08-15,zip,false,10000,1,1,2024
+Cory Booker,Ellen Lautenberg,Westport,CT,06880,Not Employed,Retired,10000,1,2025-01-20,2025-01-20,zip,false,1335000,12,11,2024/2026
+Cory Booker,Richard Goldstein,Sagaponack,NY,11962,Not Employed,Not Employed,8000,5,2025-10-15,2025-10-30,state,false,10800,2,2,2024
+Cory Booker,Sherry Levy,Houston,TX,77024,Not Employed,Retired,6200,1,2025-04-01,2025-04-01,zip,false,150000,2,1,2024
+Cory Booker,James Miller,Mendocino,CA,95460,Not Employed,Not Employed,5000,1,2025-10-07,2025-10-07,state,false,200000,2,2,2026
+Cory Booker,Joseph Tenenbaum,Leonia,NJ,07605,Columbia University,Physician,5000,1,2026-03-26,2026-03-26,state,false,36000,1,0,2026
+Cory Booker,Leslie Friedman,Mountain View,CA,94041,Self-Employed,Dancer,2800,3,2026-04-27,2026-06-27,zip,false,21200,4,2,2024
+Cory Booker,Leslie Friedman,San Francisco,CA,94115,Self-Employed,Dancer,2000,1,2025-04-01,2025-04-01,state,false,21200,4,2,2024

@@ -1,0 +1,105 @@
+{
+  "generatedAt": "2026-11-13T22:38:49.779Z",
+  "dataCurrentThrough": {
+    "independentExpenditures": "2026-10-20",
+    "campaignFinances": "2026-10-14",
+    "campaignFinancesByCandidate": {
+      "hagerty": "2026-10-14",
+      "bradshaw": "2026-10-14"
+    },
+    "superPacDonors": {
+      "C00916692": "2026-10-14",
+      "C00448696": "2026-10-14",
+      "C00524181": "2026-10-14"
+    },
+    "aipacEarmarks": "2026-10-14",
+    "donorNetwork": {
+      "hagerty": "2026-07-17",
+      "bradshaw": "2026-09-30",
+      "network": "2026-10-14"
+    },
+    "filingsProcessed": "2026-11-13"
+  },
+  "summary": {
+    "hagerty": {
+      "totalReceiptsCents": 842221063,
+      "transfersFromAuthCents": 200793029,
+      "totalDisbursementsCents": 539322473,
+      "cashOnHandCents": 495645497,
+      "candidateContribCents": 0,
+      "candidateLoansCents": 0,
+      "totalIndividualCents": 440283968,
+      "otherCommitteeContribCents": 177400000,
+      "coverageEnd": "2026-10-14",
+      "individualRefundsCents": 7518950,
+      "outsideSupportingCents": 27812020,
+      "outsideOpposingCents": 0,
+      "outsideBenefitingCents": 27812020
+    },
+    "bradshaw": {
+      "totalReceiptsCents": 3519538,
+      "transfersFromAuthCents": 0,
+      "totalDisbursementsCents": 2702241,
+      "cashOnHandCents": 825162,
+      "candidateContribCents": 0,
+      "candidateLoansCents": 0,
+      "totalIndividualCents": 3474538,
+      "otherCommitteeContribCents": 45000,
+      "coverageEnd": "2026-10-14",
+      "individualRefundsCents": 0,
+      "outsideSupportingCents": 140000,
+      "outsideOpposingCents": 0,
+      "outsideBenefitingCents": 140000
+    }
+  },
+  "outsideByCommittee": [
+    {
+      "committeeId": "C00916692",
+      "committee": "American Mission",
+      "fecType": "O",
+      "forHagerty": 21229749,
+      "againstHagerty": 0,
+      "forBradshaw": 0,
+      "againstBradshaw": 0,
+      "total": 21229749,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610039908512708",
+      "latestDate": "2026-10-01"
+    },
+    {
+      "committeeId": "C00448696",
+      "committee": "Senate Conservatives Fund",
+      "fecType": "W",
+      "forHagerty": 4451699,
+      "againstHagerty": 0,
+      "forBradshaw": 0,
+      "againstBradshaw": 0,
+      "total": 4451699,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219928486727",
+      "latestDate": "2026-10-20"
+    },
+    {
+      "committeeId": "C00524181",
+      "committee": "Senate Conservatives Action",
+      "fecType": "O",
+      "forHagerty": 2130572,
+      "againstHagerty": 0,
+      "forBradshaw": 0,
+      "againstBradshaw": 0,
+      "total": 2130572,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159908876069",
+      "latestDate": "2026-10-15"
+    },
+    {
+      "committeeId": "C90022492",
+      "committee": "Grassroots Henry County",
+      "fecType": "I",
+      "forHagerty": 0,
+      "againstHagerty": 0,
+      "forBradshaw": 140000,
+      "againstBradshaw": 0,
+      "total": 140000,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202611039945324467",
+      "latestDate": "2026-09-15"
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+candidate,donor,city,state,zip5,employer,occupation,direct_total_cents,contributions,first_date,last_date,match_tier,same_employer_string,aipac_pac_total_cents,aipac_pac_rows,aipac_pac_recipient_committees,aipac_pac_cycles
+Mark Warner,Skip Miller,Los Angeles,CA,90067,Miller Barondess,Attorney,1900000,6,2025-02-25,2026-01-15,zip,true,22990000,56,43,2024/2026
+Mark Warner,Bob Josephberg,Palm Beach,FL,33480,Not Employed,Retired,1320000,4,2025-02-17,2025-03-13,zip,false,760000,2,2,2026
+Mark Warner,Hilary Kapner,Bethesda,MD,20817,Hsk Consulting,Consultant,850000,3,2025-02-12,2025-02-25,zip,true,15190000,56,40,2024/2026
+Mark Warner,Aaron Weitman,Hoboken,NJ,07030,Castleknight,Financier,700000,2,2025-11-20,2025-11-20,zip,true,14645000,41,34,2024/2026
+Mark Warner,Alan L. Meltzer,Bethesda,MD,20817,National Financial Partners,Ceo,700000,2,2025-05-13,2025-05-13,zip,false,1030000,2,2,2024/2026
+Mark Warner,Amy Meltzer,Bethesda,MD,20817,Not Employed,Retired,700000,2,2025-05-13,2025-05-13,zip,false,820000,2,2,2024/2026
+Mark Warner,Brian Cohen,Beverly Hills,CA,90210,"Arden Insurance Services, LLC",Executive,700000,2,2026-01-17,2026-01-17,zip,false,2500000,5,5,2026
+Mark Warner,Brian Schall,Los Angeles,CA,90067,Schall Law,Attorney,700000,2,2026-01-15,2026-01-15,zip,true,11220000,26,25,2024/2026
+Mark Warner,Jimmy Haber,New York,NY,10075,Not Employed,Not Employed,700000,2,2025-11-10,2025-11-10,zip,false,6510000,29,23,2024/2026
+Mark Warner,Jonathan Lavine,Boston,MA,02116,Bain Capital,Investor,700000,2,2025-12-23,2025-12-23,zip,true,10840000,16,16,2024/2026
+Mark Warner,Mara Talpins,Mamaroneck,NY,10543,Not Employed,Retired,700000,2,2025-11-25,2025-11-25,zip,false,250000,1,1,2026
+Mark Warner,Martha Karsh,Los Angeles,CA,90077,Not Employed,Not Employed,700000,2,2026-03-03,2026-03-03,zip,false,7920000,24,24,2024
+Mark Warner,Michael Hackman,Los Angeles,CA,90049,Hackman Capital Partners,Ceo,700000,2,2025-02-25,2025-02-25,zip,true,32485000,72,50,2024/2026
+Mark Warner,Philip M. Darivoff,Short Hills,NJ,07078,Goldman Sachs & Co.,Investment Banker,700000,2,2026-01-06,2026-01-06,zip,false,43625000,90,65,2024/2026
+Mark Warner,Richard Pachulski,Los Angeles,CA,90067,"Pachulski, Stang, Ziehl & Jones",Attorney,700000,2,2026-01-14,2026-01-14,zip,true,10270000,22,18,2024/2026
+Mark Warner,Steven J. Rosenbaum,Potomac,MD,20854,"Covington & Burling, LLP",Attorney,700000,3,2025-03-14,2026-02-20,zip,false,2050000,5,3,2024/2026
+Mark Warner,Stewart Kohl,Cleveland,OH,44114,The Riverside Company,Ceo,700000,2,2025-08-06,2025-08-06,zip,true,2030000,9,9,2024/2026
+Mark Warner,Barak Raviv,Beverly Hills,CA,90210,Wells Fargo,Financial Advisor,675000,3,2025-02-25,2026-01-17,zip,true,19402300,79,55,2024/2026
+Mark Warner,Annie Sandler,Virginia Beach,VA,23452,Not Employed,Not Employed,660000,2,2025-02-17,2025-02-17,zip,false,660000,1,1,2026
+Mark Warner,Arthur Sandlere,Virginia Bch,VA,23452,"L M Sandler And Sons, Inc.",Business Owner,660000,2,2025-02-17,2025-02-17,zip,false,660000,1,1,2026
+Mark Warner,Avraham Ashkenazi,Norfolk,VA,23510,"Iat International, Inc.",President,660000,2,2025-02-14,2025-02-14,zip,true,960000,4,3,2024/2026
+Mark Warner,Jerrold Miller,Virginia Beach,VA,23454,Fairlead,Shipyard Owner,660000,2,2025-03-07,2025-03-07,zip,true,990000,2,2,2024/2026
+Mark Warner,Nathan Jaffe,Virginia Beach,VA,23454,"Sl Nusbaum & Sons, Inc.",Real Estate Sales,660000,2,2025-02-24,2025-02-24,zip,false,1160000,2,1,2024/2026
+Mark Warner,Manny Panar,Silver Spring,MD,20904,Not Employed,Retired,600000,2,2025-02-10,2025-02-25,zip,false,49340000,110,72,2024/2026
+Mark Warner,Patty Glaser,Los Angeles,CA,90067,"Glaser Weil, LLP",Attorney,550000,3,2025-02-25,2026-01-14,zip,false,5750000,28,24,2024/2026
+Mark Warner,Lawrence R. Siegel,Virginia Beach,VA,23452,Wiliams Mullen,Attorney,512500,5,2025-02-24,2026-01-18,zip,false,500000,1,1,2026
+Mark Warner,Albert H. Jr Small,Bethesda,MD,20817,Renaissance Centro,Executive,500000,2,2025-05-12,2025-05-12,zip,true,750000,2,2,2026
+Mark Warner,Blair W. Effron,New York,NY,10075,Centerview Partners,Banker,500000,2,2025-06-23,2025-06-23,zip,true,2550000,13,13,2024/2026
+Mark Warner,David Handler,Miami,FL,33133,Tidal Partners,Ceo,500000,1,2026-03-03,2026-03-03,zip,true,500000,1,1,2026
+Mark Warner,David Heller,Boca Raton,FL,33432,"The Nrp Group, LLC",Real Estate Broker,500000,2,2025-08-19,2025-08-19,zip,false,8670000,39,28,2024/2026
+Mark Warner,Gary Opper,Weston,FL,33326,Approved Financial,Cpa,500000,3,2025-02-25,2026-01-16,zip,true,4746000,24,16,2024/2026
+Mark Warner,Jed Nussbaum,Short Hills,NJ,07078,"Nut Tree Capital Management, Lp",Investment Management,500000,2,2026-01-08,2026-01-08,zip,true,1650000,4,4,2026
+Mark Warner,Louis Mayberg,Bal Harbour,FL,33154,Not Employed,Not Employed,500000,2,2025-05-09,2025-05-09,zip,false,500000,1,1,2026
+Mark Warner,Norman Radow,Atlanta,GA,30326,Radco,Ceo,500000,2,2025-02-25,2025-02-25,zip,true,13050000,41,32,2024/2026
+Mark Warner,Peter E. Berger,Stuart,FL,34996,"Siris Capital Group, LLC",Co-Founder,500000,2,2025-01-28,2025-01-28,zip,false,3530000,14,14,2024/2026
+Mark Warner,Timothy F. Wuliger,Moreland Hills,OH,44022,"Mallard Investments, Inc.",President,500000,2,2025-08-11,2025-08-11,zip,true,14730000,47,35,2024/2026
+Mark Warner,Tina B. Small,Bethesda,MD,20817,Not Employed,Retired,500000,2,2025-05-12,2025-05-12,zip,false,1200000,3,2,2024/2026
+Mark Warner,Todd Platt,Dallas,TX,75219,Hillwood Investment Properties,Ceo,500000,2,2026-02-18,2026-02-18,zip,false,9610000,30,26,2024/2026
+Mark Warner,Alan Cohn,Riviera Beach,FL,33404,Absolutecare,Ceo,430000,4,2025-01-07,2025-01-09,state,false,450000,13,13,2024/2026
+Mark Warner,Lawrence Macks,Naples,FL,34102,Chesapeake Realty Partners,Business Owner,400000,2,2025-09-30,2025-09-30,zip,true,6340000,43,26,2024/2026
+Mark Warner,Seth Wise,Davie,FL,33330,Altman,Real Estate Broker,400000,3,2025-02-25,2026-01-17,zip,true,9093800,57,40,2024/2026
+Mark Warner,Caren Rothenberg,Livingston,NJ,07039,Real Estate Investment Group,Real Estate Broker,350000,1,2025-11-17,2025-11-17,zip,true,1050000,3,3,2026
+Mark Warner,Daniel Glaser,New York,NY,10010,Clayton Dubilier & Rice,Operating Partner,350000,2,2025-10-17,2025-10-17,state,false,950000,6,6,2024/2026
+Mark Warner,David Deckter,Austin,TX,78746,Not Employed,Retired,350000,1,2025-04-08,2025-04-08,zip,false,6490000,24,19,2024/2026
+Mark Warner,David Ertel,Coral Gables,FL,33143,Bayview Financial Trading,Financial Trader,350000,1,2026-04-15,2026-04-15,zip,false,5180000,17,17,2024/2026
+Mark Warner,David Kline,Austin,TX,78701,Kline Properties,Real Estate Broker,350000,1,2025-04-14,2025-04-14,zip,true,5720000,21,18,2024/2026
+Mark Warner,Deborah Rudy,Austin,TX,78733,Not Employed,Not Employed,350000,1,2025-04-09,2025-04-09,zip,false,13555200,48,35,2024/2026
+Mark Warner,Helen Brownstein,Englewood,CO,80113,Not Employed,Not Employed,350000,1,2025-03-17,2025-03-17,zip,false,350000,1,1,2026
+Mark Warner,Ivan A. Schlager,Washington,DC,20016,Skadden Arps,Attorney,350000,1,2025-02-17,2025-02-17,zip,false,1637500,7,7,2026
+Mark Warner,Larry Rothenberg,Livingston,NJ,07039,Rockefeller Capital,Wealth Management,350000,1,2025-11-17,2025-11-17,zip,true,2900000,9,9,2026
+Mark Warner,Lee Miller,Chicago,IL,60611,Abundant Venture Partners,Co-Chair,350000,2,2025-02-25,2025-07-15,zip,true,7240000,43,32,2024/2026
+Mark Warner,Martin J. Geller,New York,NY,10075,Geller And Company,Founder,350000,1,2026-01-12,2026-01-12,zip,true,11140000,35,28,2024/2026
+Mark Warner,Michael G. Bronfein,Towson,MD,21204,Curio Wellness,Ceo,350000,1,2025-10-06,2025-10-06,zip,true,400000,2,2,2024
+Mark Warner,Robert Klyman,Los Angeles,CA,90004,Dla Piper,Attorney,350000,1,2026-01-14,2026-01-14,zip,true,8030000,29,24,2024/2026
+Mark Warner,Robert Pincus,Wilmington,DE,19807,Not Employed,Retired,350000,2,2025-02-12,2025-02-25,zip,false,9340000,54,36,2024/2026
+Mark Warner,Samuel Klatt,New York,NY,10010,10 East,Financier,350000,1,2026-01-12,2026-01-12,zip,true,801800,6,6,2024/2026
+Mark Warner,Scott Siff,Washington,DC,20008,Quadrant Strategies,Consultant,350000,2,2025-02-25,2025-02-26,zip,true,4170000,25,23,2024/2026
+Mark Warner,Stephen Krooth,Bethesda,MD,20814,Not Employed,Retired,350000,1,2025-02-25,2025-02-25,zip,false,10759900,42,36,2024/2026
+Mark Warner,Toby Shor,Corpus Christi,TX,78411,Not Employed,Retired,350000,1,2025-04-08,2025-04-08,zip,false,1950000,8,6,2024/2026
+Mark Warner,Alan Gindi,Culver City,CA,90232,Bag Investments,Real Estate Broker,300000,1,2026-01-22,2026-01-22,zip,true,14295000,45,39,2024/2026
+Mark Warner,Benjamin Greenwald,Baltimore,MD,21211,Arrow Parking Corp,Real Estate Broker,300000,1,2025-09-30,2025-09-30,zip,true,1300000,6,6,2026
+Mark Warner,Brad Mindlin,Incline Village,NV,89451,Oro Capital Advisors,Managing Partner,300000,1,2025-02-25,2025-02-25,zip,true,16460000,45,36,2024/2026
+Mark Warner,David Konikoff,Virginia Beach,VA,23451,Not Employed,Retired,300000,1,2025-03-12,2025-03-12,zip,false,500000,3,3,2024/2026
+Mark Warner,David M. Brand,Virginia Beach,VA,23451,Haynes Furniture,Executive,300000,1,2025-03-06,2025-03-06,zip,false,600000,5,4,2024/2026
+Mark Warner,Robert Russel,Boca Raton,FL,33432,Not Employed,Retired,300000,1,2025-09-30,2025-09-30,zip,false,925000,5,5,2024/2026
+Mark Warner,Steven Demby,Denver,CO,80209,"Brownstein Hyatt Farber Schreck, LLP",Attorney,300000,1,2025-03-19,2025-03-19,zip,true,6075000,24,24,2024/2026
+Mark Warner,Steven J. Sibel,Cockeysville,MD,21030,Caves Valley Partners,Partner,300000,1,2025-09-30,2025-09-30,zip,true,3200000,30,25,2024/2026
+Mark Warner,Adam Offenhartz,New York,NY,10011,Baughman Kroup Bosse,Attorney,250000,1,2025-02-25,2025-02-25,zip,true,4825000,31,21,2024/2026
+Mark Warner,Allan Schweitzer,Los Angeles,CA,90077,Beachpoint Capital,Portfolio Manager,250000,1,2025-02-25,2025-02-25,zip,true,8190000,26,24,2024/2026
+Mark Warner,Asha Jadeja,Palo Alto,CA,94301,Self Employed,Investor,250000,1,2025-10-06,2025-10-06,state,false,100000,1,1,2024
+Mark Warner,Benjamin Warren,Houston,TX,77024,"Itc Trading Company, Ltd.",Ceo,250000,1,2025-02-25,2025-02-25,zip,true,3510000,17,12,2024/2026
+Mark Warner,Bettina Kramer,Atlantic Beach,NY,11509,"Creative Effects, Inc.",Business Owner,250000,1,2025-02-25,2025-02-25,zip,true,2870000,17,14,2024/2026
+Mark Warner,Brett Barth,New York,NY,10128,Bbr Partners,Ceo,250000,1,2025-11-13,2025-11-13,zip,true,8375000,36,25,2026
+Mark Warner,Daniella Gershel,Great Neck,NY,11021,Onyx Search Partners,President,250000,1,2026-01-12,2026-01-12,zip,true,1450000,7,7,2024/2026
+Mark Warner,David Genet,Fort Lauderdale,FL,33312,Self Employed,Periodontist,250000,1,2026-01-21,2026-01-21,zip,false,950000,5,5,2026
+Mark Warner,David Kekst,Beverly Hills,CA,90210,Not Employed,Not Employed,250000,1,2025-02-25,2025-02-25,zip,false,6740000,43,31,2024/2026
+Mark Warner,David Kurzweil,Scarsdale,NY,10583,"Latham & Watkins, LLP",Attorney,250000,1,2025-11-15,2025-11-15,zip,false,5390000,18,15,2024/2026
+Mark Warner,David Schwartz,Chicago,IL,60614,Waterton,Real Estate Investment Management,250000,1,2025-07-29,2025-07-29,state,false,9000,5,5,2024
+Mark Warner,David Stein,Stamford,CT,06903,Not Employed,Not Employed,250000,1,2025-02-25,2025-02-25,zip,false,3025000,19,19,2024/2026
+Mark Warner,David Zweig,Fort Lauderdale,FL,33301,Not Employed,Retired,250000,1,2026-01-18,2026-01-18,zip,false,2350000,18,17,2024/2026
+Mark Warner,Deborah Edell,New York,NY,10021,Not Employed,Not Employed,250000,1,2025-02-25,2025-02-25,zip,false,17306700,89,55,2024/2026
+Mark Warner,Donald Liss,Bronx,NY,10463,Pmr,Physician,250000,1,2025-02-25,2025-02-25,zip,true,3700000,20,19,2024/2026
+Mark Warner,Eric Lavitsky,Bridgewater,NJ,08807,"Lavitsky Computer Laboratories, Inc.",Consultant,250000,1,2025-02-25,2025-02-25,zip,true,5225000,36,29,2024/2026
+Mark Warner,Eric Lowenstein,Point Lookout,NY,11569,Broadwall Management Corp.,Cfo,250000,1,2025-11-14,2025-11-14,zip,true,650000,4,4,2024/2026
+Mark Warner,Isaac Pachulski,Beverly Hills,CA,90210,Pszj Law,Attorney,250000,1,2026-01-22,2026-01-22,zip,true,3000000,15,12,2024/2026
+Mark Warner,James Sprayregen,Glencoe,IL,60022,Hilco Global,Vice Chairman,250000,1,2025-02-25,2025-02-25,zip,true,12434283,68,54,2024/2026
+Mark Warner,Jody Forchheimer,Brookline,MA,02446,Not Employed,Retired,250000,1,2025-02-25,2025-02-25,zip,false,38475500,150,96,2024/2026
+Mark Warner,John Isenberg,Prairie Village,KS,66207,Not Employed,Not Employed,250000,1,2025-02-25,2025-02-25,zip,false,4393000,40,33,2024/2026
+Mark Warner,Joseph Kavana,Aventura,FL,33180,"K Group Holdings, Inc.",Ceo,250000,1,2025-02-25,2025-02-25,zip,false,2250000,18,13,2024/2026
+Mark Warner,Joseph Schocken,Mercer Island,WA,98040,"Tranceka Capital, LLC",Investment Banker,250000,1,2025-03-17,2025-03-17,zip,false,8530000,28,15,2024/2026
+Mark Warner,Judith Rosman,Tampa,FL,33629,Rosmansearch,Founder,250000,1,2025-02-25,2025-02-25,zip,false,4126800,29,22,2024/2026
+Mark Warner,Julie Platt,Los Angeles,CA,90024,Not Employed,Not Employed,250000,1,2026-04-24,2026-04-24,zip,false,19612500,51,38,2024/2026
+Mark Warner,Kevin S. Penn,New York,NY,10128,American Securities,Investor,250000,1,2026-01-15,2026-01-15,zip,true,1100000,5,5,2026
+Mark Warner,Laura Vexler,Moreland Hills,OH,44022,Not Employed,Not Employed,250000,1,2025-02-25,2025-02-25,zip,false,2550000,40,34,2024/2026
+Mark Warner,Lawrence Zlatkin,Westport,CT,06880,Coinbase,Attorney,250000,1,2025-02-25,2025-02-25,zip,true,500000,2,2,2026
+Mark Warner,Marty Adelstein,Los Angeles,CA,90049,Tomorrow Studios,Producer,250000,1,2025-02-25,2025-02-25,zip,true,5370000,17,17,2024/2026
+Mark Warner,Maury Herman,New Orleans,LA,70130,Self Employed,Attorney,250000,1,2025-02-25,2025-02-25,zip,false,2100000,10,10,2024/2026
+Mark Warner,Michael Britvan,East Hampton,NY,11937,Hodges Ward Elliott,Real Estate Broker,250000,1,2025-02-25,2025-02-25,zip,true,3800000,19,13,2024/2026
+Mark Warner,Michael Levin,Tequesta,FL,33469,Not Employed,Retired,250000,1,2025-02-25,2025-02-25,zip,false,6100000,49,39,2024/2026
+Mark Warner,Michael Steinberg,Tampa,FL,33624,Ssa Lawyers P.A.,Attorney,250000,1,2025-02-25,2025-02-25,zip,true,1150000,10,8,2024/2026
+Mark Warner,Philip M. Cohen,Cleveland,OH,44124,Factor Finders,President,250000,1,2025-02-25,2025-02-25,zip,false,5870000,33,24,2024/2026
+Mark Warner,Robert A. Cohen,Larchmont,NY,10538,Ra Cohen & Co.,Real Estate Executive,250000,1,2025-02-25,2025-02-25,zip,false,14650000,39,32,2024/2026
+Mark Warner,Robert Gach,Los Angeles,CA,90069,Ubs,Private Wealth Manager,250000,1,2025-02-25,2025-02-25,zip,true,4960000,24,20,2024/2026
+Mark Warner,Ron Kramer,Virginia Beach,VA,23454,Not Employed,Retired,250000,1,2025-02-17,2025-02-17,zip,false,650000,5,3,2024/2026
+Mark Warner,Ron Squarer,Boulder,CO,80304,Adc Therapeutics,Director,250000,1,2025-03-10,2025-03-10,zip,true,7916000,45,36,2024/2026
+Mark Warner,Sandye Turnauer,Plantation,FL,33324,Not Employed,Retired,250000,1,2026-01-23,2026-01-23,zip,false,2250000,6,6,2026
+Mark Warner,Shlomoh Ben David,Sunny Isles Beach,FL,33160,"Aer Services, Inc.",Business Owner,250000,1,2025-02-25,2025-02-25,zip,true,2689000,26,16,2024/2026
+Mark Warner,Steve Kaplan,Santa Monica,CA,90402,"Nalpak Capital, LLC",Chairman,250000,1,2025-02-25,2025-02-25,zip,true,980000,4,4,2024/2026
+Mark Warner,Steven Rosenblum,Denver,CO,80210,Not Employed,Not Employed,250000,1,2025-03-03,2025-03-03,zip,false,5720000,32,28,2024/2026
+Mark Warner,Stuart Garson,Moreland Hills,OH,44022,Garson & Associates Co. Lpa,Attorney,250000,1,2025-02-25,2025-02-25,zip,true,3450000,15,12,2024/2026
+Mark Warner,Todd Becker,Pasadena,CA,91101,Becker Law Group,Attorney,250000,1,2025-02-25,2025-02-25,zip,true,3500000,14,14,2026
+Mark Warner,Todd Goldblum,Albuquerque,NM,87122,Family And Children'S Eye Care,Physician,250000,1,2025-02-25,2025-02-25,zip,true,1860000,15,12,2024/2026
+Mark Warner,Vic Hammel,Wyomissing,PA,19610,Not Employed,Retired,250000,1,2025-02-25,2025-02-25,zip,false,4050000,47,28,2024/2026
+Mark Warner,Mitchell Jacobson,New York,NY,10022,"Msc Industrial Direct, Inc.",Chairman,240000,1,2026-01-09,2026-01-09,zip,false,2340000,10,10,2026
+Mark Warner,Abbe Aron,Miami Beach,FL,33109,Not Employed,Retired,200000,1,2025-07-07,2025-07-07,zip,false,1150000,8,8,2024/2026
+Mark Warner,Adam Basner,Stevenson,MD,21153,Self Employed,Physician,200000,1,2025-09-30,2025-09-30,zip,false,500000,3,3,2026
+Mark Warner,Alan Rifkin,Sarasota,FL,34236,"Rifkin, Weiner, Livingston",Attorney,200000,1,2025-10-01,2025-10-01,zip,true,200000,1,1,2026
+Mark Warner,Albert Praw,Sherman Oaks,CA,91403,Kbhome,Executive,200000,2,2026-01-06,2026-01-21,zip,true,2050000,18,14,2024/2026
+Mark Warner,Alec Ellison,Greenwich,CT,06830,Houlihan Lokey,Investment Banker,200000,1,2026-01-09,2026-01-09,zip,true,6580000,33,29,2024/2026
+Mark Warner,Allison Kanders,Greenwich,CT,06830,Not Employed,Not Employed,200000,1,2025-07-23,2025-07-23,zip,false,600000,3,3,2024/2026
+Mark Warner,Alvin Hathaway,Baltimore,MD,21215,Beloved Community Services Corporation,President,200000,1,2025-09-19,2025-09-19,zip,true,200000,1,1,2026
+Mark Warner,Andrew Rosenstein,Reisterstown,MD,21136,Gastro Health,Physician,200000,1,2025-09-29,2025-09-29,zip,true,200000,1,1,2026
+Mark Warner,Brenda Abuaf,Westhampton Beach,NY,11978,Not Employed,Retired,200000,1,2025-07-17,2025-07-17,zip,false,1000000,7,7,2024/2026
+Mark Warner,Charles Jacobs,Chevy Chase,MD,20815,Not Employed,Retired,200000,2,2025-02-04,2025-03-03,zip,false,3180000,17,16,2024/2026
+Mark Warner,Chuck Bellock,Boulder,CO,80302,Bellock Construction,President,200000,1,2025-02-28,2025-02-28,zip,false,3550000,18,16,2024/2026
+Mark Warner,Curtis Lane,New York,NY,10023,Mts Health Partners,Investment Banker,200000,1,2026-04-09,2026-04-09,zip,true,6000000,24,22,2024/2026
+Mark Warner,Darius Bikoff,Whitestone,NY,11357,Not Employed,Not Employed,200000,1,2025-07-08,2025-07-08,zip,false,530000,2,2,2026
+Mark Warner,Daryl Simon,New York,NY,10075,Not Employed,Not Employed,200000,1,2025-07-12,2025-07-12,zip,false,1800000,10,10,2024/2026
+Mark Warner,Debbi Weinberg,Austin,TX,78701,Not Employed,Retired,200000,1,2025-09-30,2025-09-30,zip,false,600000,3,3,2026
+Mark Warner,Ellen Aschendorf,New York,NY,10022,Egg Electric,Business Owner,200000,1,2025-07-07,2025-07-07,zip,true,900000,5,5,2024/2026
+Mark Warner,Gail Perl,New York,NY,10028,Jbs Holding,Real Estate Broker,200000,1,2025-07-16,2025-07-16,zip,true,4690600,26,19,2024/2026
+Mark Warner,Glen Chesir,New York,NY,10021,Gps Investment Partners,Partner,200000,1,2026-01-08,2026-01-08,zip,true,2725000,16,16,2024/2026
+Mark Warner,Ivan Ross,Scarsdale,NY,10583,Ardea,Financier,200000,1,2026-01-07,2026-01-07,zip,true,2560000,15,11,2024/2026
+Mark Warner,Jill Bikoff,Whitestone,NY,11357,Not Employed,Not Employed,200000,1,2025-07-08,2025-07-08,zip,false,400000,2,2,2024/2026
+Mark Warner,Josh E. Fidler,Naples,FL,34102,Not Employed,Not Employed,200000,1,2025-10-06,2025-10-06,zip,false,100000,1,1,2026
+Mark Warner,Julie Bernstein,New York,NY,10065,Not Employed,Not Employed,200000,1,2025-07-12,2025-07-12,zip,false,700000,4,4,2026
+Mark Warner,Keenan Wolens,Beverly Hills,CA,90210,Amir Development Co.,Real Estate Broker,200000,1,2026-04-27,2026-04-27,zip,false,7842500,36,30,2024/2026
+Mark Warner,Kim Dickstein,New York,NY,10014,Not Employed,Retired,200000,1,2025-07-10,2025-07-10,zip,false,2950000,17,16,2024/2026
+Mark Warner,Kim Hartman,New York,NY,10028,Not Employed,Retired,200000,1,2025-07-09,2025-07-09,zip,false,2550000,13,13,2024/2026
+Mark Warner,Larry Margolis,Basalt,CO,81621,Not Employed,Retired,200000,1,2025-02-19,2025-02-19,zip,false,11510000,35,29,2024/2026
+Mark Warner,Lauren Schor Geller,New York,NY,10075,Not Employed,Not Employed,200000,1,2025-07-25,2025-07-25,zip,false,750000,4,2,2026
+Mark Warner,Leslie Salmon,New York,NY,10003,Dezer Development,Financer,200000,1,2025-07-08,2025-07-08,zip,true,200000,1,1,2026
+Mark Warner,Liza Berman,New York,NY,10128,Metro Loft Management,Real Estate Broker,200000,1,2025-07-17,2025-07-17,zip,true,1300000,6,6,2024/2026
+Mark Warner,Marc Rothenberg,New York,NY,10069,Goldman Sachs,Sales,200000,1,2026-01-12,2026-01-12,zip,false,1175000,8,8,2024/2026
+Mark Warner,Margie Fiverson,New Hyde Park,NY,11040,Not Employed,Not Employed,200000,1,2026-01-06,2026-01-06,zip,false,4080000,23,20,2024/2026
+Mark Warner,Marjorie Harris,Miami Beach,FL,33140,Not Employed,Not Employed,200000,1,2025-07-31,2025-07-31,zip,false,600000,3,3,2024/2026
+Mark Warner,Matthew Joblon,Cherry Hills Village,CO,80113,Bmc Investments,Real Estate Broker,200000,1,2025-03-22,2025-03-22,zip,true,900000,8,8,2024/2026
+Mark Warner,Meg Roth,New York,NY,10011,Not Employed,Not Employed,200000,1,2025-07-12,2025-07-12,zip,false,2000000,8,8,2024/2026
+Mark Warner,Michael A. Feiner,Greenwood Village,CO,80111,Feiner Enterprises,Business Owner,200000,2,2025-03-06,2025-04-01,zip,false,4080000,36,30,2024/2026
+Mark Warner,Michelle Domb,New York,NY,10069,Self Employed,Hospitality,200000,1,2025-07-10,2025-07-10,zip,false,800000,5,5,2024/2026
+Mark Warner,Patty Silverstein,New York,NY,10075,Not Employed,Retired,200000,1,2025-07-07,2025-07-07,zip,false,1450000,8,8,2024/2026
+Mark Warner,Philip Kaiser,Tulsa,OK,74114,Self Employed,Event Production,200000,1,2025-04-17,2025-04-17,zip,false,4150000,19,13,2024/2026
+Mark Warner,Rachel Dalton,White Plains,NY,10605,Self Employed,Attorney,200000,1,2025-07-12,2025-07-12,zip,false,1800000,11,11,2024/2026
+Mark Warner,Randy Ginsburg,East Hampton,NY,11937,Not Employed,Not Employed,200000,1,2025-07-17,2025-07-17,zip,false,1350000,9,9,2024/2026
+Mark Warner,Randye Kwait,New York,NY,10011,Not Employed,Retired,200000,1,2025-07-14,2025-07-14,zip,false,2000000,10,10,2024/2026
+Mark Warner,Rena Hoffman,New York,NY,10021,Not Employed,Retired,200000,1,2025-07-12,2025-07-12,zip,false,2200000,12,12,2024/2026
+Mark Warner,Richard Fain,Miami,FL,33156,Royal Caribbean Cruises,Ceo,200000,1,2026-04-05,2026-04-05,zip,false,2400000,6,5,2024/2026
+Mark Warner,Richard S. Price,Highland Park,IL,60035,Mesirow Financial,Executive Chairman,200000,1,2026-07-08,2026-07-08,zip,false,2490000,6,4,2024/2026
+Mark Warner,Scott Musoff,Scarsdale,NY,10583,Skadden Arps,Attorney,200000,2,2026-01-06,2026-01-06,zip,false,1175000,9,9,2024/2026
+Mark Warner,Sheera Eckstein,New York,NY,10075,Not Employed,Retired,200000,1,2025-07-13,2025-07-13,zip,false,1400000,8,7,2026
+Mark Warner,Simon Wasserberger,New York,NY,10028,Waterman Properties,Real Estate Broker,200000,1,2026-01-05,2026-01-05,zip,true,600000,4,4,2024/2026
+Mark Warner,Stacey Bennett,New York,NY,10075,Not Employed,Retired,200000,1,2025-07-12,2025-07-12,zip,false,3200000,16,15,2024/2026
+Mark Warner,Stacey Silverstein,New York,NY,10128,Self Employed,Attorney,200000,1,2025-07-17,2025-07-17,zip,false,1000000,5,5,2026
+Mark Warner,Wayne Cohen,New York,NY,10019,Sculptor Capital,Finance Executive,200000,1,2026-01-20,2026-01-20,zip,true,4030000,17,17,2024/2026
+Mark Warner,Daniel Tavakoli,New York,NY,10036,Akin,Partner,150000,1,2026-01-06,2026-01-06,state,true,725000,6,6,2024/2026
+Mark Warner,Freddie Reiss,Santa Monica,CA,90402,Not Employed,Retired,150000,1,2026-01-18,2026-01-18,zip,false,3075000,29,26,2024/2026
+Mark Warner,Gary Tenzer,Los Angeles,CA,90049,George Smith Partners,Real Estate Broker,150000,2,2025-02-25,2026-01-15,zip,true,1800000,26,21,2024/2026
+Mark Warner,Irwin Panitch,Potomac,MD,20854,Deloitte And Touche,Consultant,150000,1,2025-03-03,2025-03-03,zip,false,1935000,16,14,2024/2026
+Mark Warner,Jim Miller,Los Angeles,CA,90067,Miller Barondess,Attorney,150000,1,2026-01-18,2026-01-18,zip,true,1050000,7,7,2026
+Mark Warner,Jose Reines,Los Angeles,CA,90049,Not Employed,Retired,150000,1,2026-01-20,2026-01-20,zip,false,3222500,45,37,2024/2026
+Mark Warner,Lew Rudzki,Los Angeles,CA,90035,Canon Equity Partners,Real Estate Broker,150000,1,2025-02-25,2025-02-25,zip,true,2525000,19,17,2024/2026
+Mark Warner,Michael Leffell,Scarsdale,NY,10583,Portage Partners,Investor,150000,1,2026-01-14,2026-01-14,zip,true,16820000,57,37,2024/2026
+Mark Warner,Monica Abrams,Bethesda,MD,20814,Not Employed,Retired,150000,1,2025-02-21,2025-02-21,zip,false,1505000,12,12,2024/2026
+Mark Warner,Oren Lazar,North Hollywood,CA,91607,Lazar PC,Attorney,150000,1,2026-01-17,2026-01-17,zip,true,1025000,7,7,2026
+Mark Warner,Scott Packman,New York,NY,10028,"Ssp Partners, LLC",Consultant,150000,1,2026-01-06,2026-01-06,zip,false,3190000,26,25,2024/2026
+Mark Warner,Stephen Siderow,New York,NY,10028,Siderofsky Strategic Advisors,Consultant,150000,1,2026-01-08,2026-01-08,zip,true,2750000,17,16,2024/2026
+Mark Warner,Steven Becker,Boca Raton,FL,33496,Southern Glazers W & S,Executive,150000,1,2026-01-19,2026-01-19,zip,true,2740000,11,9,2024/2026
+Mark Warner,Zipora Arison,Pompano Beach,FL,33062,Self Employed,Physician,150000,1,2026-01-14,2026-01-14,zip,false,7690000,56,41,2024/2026
+Mark Warner,Bernard Kaminetsky,Boca Raton,FL,33433,Not Employed,Retired,125000,1,2025-02-25,2025-02-25,zip,false,3810000,30,25,2024/2026
+Mark Warner,Laura Gross,Virginia Beach,VA,23451,Kaufman & Canoles,Attorney,110000,3,2025-03-14,2025-10-02,zip,true,110000,3,3,2024/2026
+Mark Warner,Rhonda M. Lees,Arlington,VA,22209,American Bankers Association,Senior Counsel,104500,4,2025-02-18,2025-12-29,zip,true,719400,26,20,2024/2026
+Mark Warner,Lee Ziff,Beverly Hills,CA,90210,Sequoia Realty,Real Estate Broker,101800,1,2026-01-06,2026-01-06,zip,true,2987300,43,33,2024/2026
+Mark Warner,Aaron Finkelstein,Owings Mills,MD,21117,Ace Uniform Services,President,100000,1,2025-10-03,2025-10-03,zip,true,100000,1,1,2026
+Mark Warner,Adam Loewy,Austin,TX,78731,Loewy Law Firm,Attorney,100000,1,2025-04-21,2025-04-21,zip,true,6190000,21,17,2024/2026
+Mark Warner,Adam Miller,Lutherville,MD,21093,"Klnb, LLC",Real Estate Broker,100000,1,2025-09-30,2025-09-30,zip,true,800000,7,7,2026
+Mark Warner,Alan Hyatt,Annapolis,MD,21401,Hyatt And Weber,Attorney,100000,1,2025-09-30,2025-09-30,zip,true,1900000,15,13,2024/2026
+Mark Warner,Alex Meyer,New York,NY,10009,"Certares Management, LLC",Investment Professional,100000,1,2026-01-09,2026-01-09,zip,false,400000,5,5,2026
+Mark Warner,Allen Friedman,Teaneck,NJ,07666,Jp Morgan Chase,Attorney,100000,1,2025-07-30,2025-07-30,zip,false,960000,3,3,2024
+Mark Warner,Andrew Nusbaum,Norfolk,VA,23508,S.L. Nusbaum Realty Co,Real Estate Broker,100000,1,2025-03-25,2025-03-25,zip,true,200000,2,2,2024/2026
+Mark Warner,Aron Slone,Norfolk,VA,23507,"Slofo, LLC",Investor,100000,1,2025-03-19,2025-03-19,zip,false,100000,1,1,2026
+Mark Warner,Arshia Mirmiran,Baltimore,MD,21210,Cvp,Real Estate Broker,100000,1,2025-09-24,2025-09-24,zip,true,100000,1,1,2026
+Mark Warner,Arthur H. Adler,Owings Mills,MD,21117,Caves Valley Partners,Partner,100000,1,2025-09-30,2025-09-30,zip,true,1700000,13,12,2024/2026
+Mark Warner,Arthur Smith,Austin,TX,78746,Austin Heart,Cardiologist,100000,1,2025-04-13,2025-04-13,zip,true,1300000,15,12,2024/2026
+Mark Warner,Avi Galanti,Bethesda,MD,20817,Galanti Group,Real Estate Broker,100000,1,2025-03-05,2025-03-05,zip,true,275000,4,4,2024/2026
+Mark Warner,Brian Schreiber,New York,NY,10128,The Carlyle Group,Investor,100000,1,2026-01-20,2026-01-20,zip,true,1550000,15,12,2024/2026
+Mark Warner,Bruce Etkin,Aspen,CO,81611,Etkin Johnson Real Estate Partners,Chairman,100000,1,2025-03-17,2025-03-17,zip,true,2600000,20,20,2024/2026
+Mark Warner,Bruce Sholk,Miami Beach,FL,33141,Self Employed,Investor,100000,1,2025-09-30,2025-09-30,zip,false,1800000,13,12,2024/2026
+Mark Warner,Bruce Spector,Santa Monica,CA,90401,Not Employed,Retired,100000,1,2026-01-06,2026-01-06,zip,false,500000,6,6,2026
+Mark Warner,Claude G.B. Fontheim,Washington,DC,20008,"Fontheim International, LLC",Ceo,100000,1,2025-03-20,2025-03-20,zip,true,100000,2,2,2024
+Mark Warner,Dan Waldman,Westwood,MA,02090,Self Employed,Sales,100000,1,2026-03-12,2026-03-12,zip,false,30000,2,2,2024
+Mark Warner,Daniel Klein,Englewood,NJ,07631,Metropolitan Management,Real Estate Broker,100000,1,2025-09-30,2025-09-30,zip,true,600000,5,5,2026
+Mark Warner,Daniel Och,Greenwich,CT,06830,Willoughby Capital Holdings,Founder,100000,1,2026-01-16,2026-01-16,zip,true,16010000,7,6,2024/2026
+Mark Warner,David Hennes,New York,NY,10021,"Ropes & Gray, LLP",Attorney,100000,1,2026-01-17,2026-01-17,zip,false,850000,9,8,2024/2026
+Mark Warner,David Merage,Englewood,CO,80112,Consolidated Investment Group,Ceo,100000,1,2025-03-24,2025-03-24,zip,true,750000,6,6,2024/2026
+Mark Warner,David Schwartz,Bethesda,MD,20814,Not Employed,Retired,100000,1,2025-02-18,2025-02-18,zip,false,775000,9,9,2024/2026
+Mark Warner,David Stern,Los Angeles,CA,90077,"Ktbs Law, LLP",Attorney,100000,1,2025-02-25,2025-02-25,zip,false,1800000,22,18,2024/2026
+Mark Warner,Debra Panitch,Potomac,MD,20854,Not Employed,Retired,100000,1,2025-03-04,2025-03-04,zip,false,1500000,15,12,2024/2026
+Mark Warner,Douglas Maguire,Washington,DC,20007,"Brownstein Hyatt Farber Schreck, LLP",Government Relations,100000,1,2025-04-08,2025-04-08,zip,false,200000,2,2,2026
+Mark Warner,Elaine Luria,Norfolk,VA,23505,Bae Systems,Director,100000,1,2025-03-24,2025-03-24,zip,true,100000,1,1,2026
+Mark Warner,Eric Kassoff,Bethesda,MD,20814,Wilkes Artis,Attorney,100000,1,2025-02-08,2025-02-08,zip,false,3870000,21,20,2024/2026
+Mark Warner,Eric Rosenkranz,Bethesda,MD,20816,"Google, Inc.",Management,100000,1,2025-02-20,2025-02-20,zip,false,225000,5,4,2024/2026
+Mark Warner,Gail Press,Plantation,FL,33324,Not Employed,Retired,100000,1,2026-01-27,2026-01-27,zip,false,750000,7,6,2024/2026
+Mark Warner,Gary Marks,Fort Lauderdale,FL,33301,Marks And Fleischer P. A.,Attorney,100000,1,2026-01-30,2026-01-30,zip,false,2250000,17,15,2024/2026
+Mark Warner,Gene Bernstein,Southampton,NY,11968,Not Employed,Retired,100000,1,2025-11-25,2025-11-25,zip,false,100000,1,1,2024
+Mark Warner,Gordon Horwitz,Baltimore,MD,21215,"Sage Ventures, LLC",Real Estate Broker,100000,1,2025-09-30,2025-09-30,zip,false,1300000,12,11,2024/2026
+Mark Warner,Harvey Allon,Denver,CO,80246,Braddock Financial,Financial Services,100000,1,2025-03-21,2025-03-21,zip,true,615000,8,7,2024/2026
+Mark Warner,Harvey Hanerfeld,Bethesda,MD,20817,Not Employed,Retired,100000,2,2025-03-03,2025-03-03,zip,false,4405000,28,20,2024/2026
+Mark Warner,Howard Friedman,Baltimore,MD,21209,Lanx Partners,Founder,100000,1,2025-09-30,2025-09-30,zip,true,4270000,26,22,2024/2026
+Mark Warner,Howard S. Welinsky,Toluca Lake,CA,91602,Warner Brothers,Senior Vice President,100000,1,2026-01-06,2026-01-06,zip,false,10155000,368,303,2024/2026
+Mark Warner,Ilana Mendelow,Austin,TX,78746,Baylor Scott & White,Physician,100000,1,2025-04-15,2025-04-15,zip,true,300000,4,4,2026
+Mark Warner,J. Mark Schapiro,Baltimore,MD,21209,Continental Realty,Real Estate Broker,100000,1,2025-09-30,2025-09-30,zip,true,1400000,10,8,2024/2026
+Mark Warner,Jacob Slone,Baltimore,MD,21209,Harbor Group International,Investor,100000,1,2025-03-19,2025-03-19,zip,true,4465000,30,23,2024/2026
+Mark Warner,James Flood,Reston,VA,20190,"Brownstein Hyatt Farber Schreck, LLP",Attorney,100000,1,2025-07-22,2025-07-22,zip,false,100000,1,1,2024
+Mark Warner,James Miller,Greenwood Village,CO,80111,Miller Global Properties,Ceo,100000,1,2025-03-04,2025-03-04,zip,true,100000,1,1,2026
+Mark Warner,Jay Steinmetz,Towson,MD,21204,Not Employed,Not Employed,100000,1,2025-08-22,2025-08-22,zip,false,300000,3,3,2024/2026
+Mark Warner,Jeff Munjack,Encino,CA,91436,Self Employed,Finance Consultant,100000,1,2025-04-15,2025-04-15,zip,false,2630000,34,28,2024/2026
+Mark Warner,Jeffrey A. Breit,Virginia Beach,VA,23451,Breit Cantor Grana Buckner,Attorney,100000,1,2025-02-17,2025-02-17,zip,false,100000,1,1,2026
+Mark Warner,Jeffrey Snyder,Boca Raton,FL,33432,Not Employed,Retired,100000,1,2025-02-11,2025-02-11,zip,false,9705000,61,53,2024/2026
+Mark Warner,Joel Appel,Denver,CO,80209,Zaidy'S Deli,Business Owner,100000,1,2025-03-18,2025-03-18,zip,true,1830000,13,13,2024/2026
+Mark Warner,Joel Nied,Virginia Beach,VA,23451,"Price Benowitz, LLP",Attorney,100000,1,2025-03-26,2025-03-26,zip,false,850000,8,7,2024/2026
+Mark Warner,Jon D. Fraade,Westport,CT,06880,Jp Morgan Chase,Investment Management,100000,1,2025-07-23,2025-07-23,zip,false,850000,7,7,2024/2026
+Mark Warner,Jonathan Missner,Potomac,MD,20854,Stein Mitchell Beato & Missner,Attorney,100000,1,2025-02-12,2025-02-12,zip,true,2750000,24,22,2024/2026
+Mark Warner,Joseph Stadlen,Hollywood,FL,33019,Stadlen Family Holdings,Real Estate Broker,100000,1,2026-01-30,2026-01-30,zip,true,4561000,21,17,2024/2026
+Mark Warner,Joshua Epel,Greenwood Village,CO,80111,Not Employed,Not Employed,100000,1,2025-03-11,2025-03-11,zip,false,1145000,17,12,2024/2026
+Mark Warner,Laura Stein,Beverly Hills,CA,90210,Robbins Geller,Attorney,100000,1,2026-01-10,2026-01-10,zip,true,2792500,24,22,2024/2026
+Mark Warner,Lauren Hamer,Austin,TX,78731,Not Employed,Not Employed,100000,1,2025-04-19,2025-04-19,zip,false,1857200,11,10,2024/2026
+Mark Warner,Lawrence Steingold,Virginia Beach,VA,23454,"Woodway Management, LLC",Real Estate Broker,100000,1,2025-03-23,2025-03-23,zip,true,100000,1,1,2026
+Mark Warner,Leonor Blum,Baltimore,MD,21209,Not Employed,Retired,100000,1,2025-09-30,2025-09-30,zip,false,200000,2,2,2024/2026
+Mark Warner,Marc Kramer,New York,NY,10023,Rolnick Kramer Sadighi,Attorney,100000,1,2025-11-20,2025-11-20,zip,false,250000,1,1,2024
+Mark Warner,Mark Dreyfus,Virginia Beach,VA,23462,Ecpi University,Education Manager,100000,1,2025-03-26,2025-03-26,zip,true,100000,1,1,2026
+Mark Warner,Mark Neumann,Owings Mills,MD,21117,"510 Ventures, LLC",Investment Advisor,100000,1,2025-09-17,2025-09-17,zip,true,1770000,20,18,2024/2026
+Mark Warner,Martin Statfeld,Livingston,NJ,07039,Brown + Brown,Insurance Broker,100000,1,2026-01-12,2026-01-12,zip,true,800000,8,8,2024/2026
+Mark Warner,Michael H. Renbaum,Owings Mills,MD,21117,Not Employed,Retired,100000,1,2025-09-30,2025-09-30,zip,false,600000,5,5,2024/2026
+Mark Warner,Michael J. Stratton,Denver,CO,80209,Brownstein Hyatt Farber Schreck,Senior Policy Director,100000,1,2025-03-25,2025-03-25,state,true,250000,4,4,2024/2026
+Mark Warner,Michael Kassen,Westport,CT,06880,Self Employed,Investor,100000,1,2026-01-08,2026-01-08,zip,false,17500000,78,61,2024/2026
+Mark Warner,Mitch Davis,Austin,TX,78755,Mb Davis Group,Insurance Consultant,100000,1,2025-04-10,2025-04-10,zip,true,3742000,28,19,2024/2026
+Mark Warner,Mitchell Gold,Owings Mills,MD,21117,Gold And Company,Real Estate Broker,100000,1,2025-09-30,2025-09-30,zip,true,600000,6,6,2026
+Mark Warner,Myron Miller,Greenwood Village,CO,80111,Miller Global Properties,Chairman,100000,1,2025-03-04,2025-03-04,zip,true,100000,1,1,2026
+Mark Warner,Nora Lieberman,Austin,TX,78746,Not Employed,Not Employed,100000,1,2025-04-16,2025-04-16,zip,false,1400000,22,17,2024/2026
+Mark Warner,Pamela Wagoner,Afton,VA,22920,Upstream Insights,Business Owner,100000,1,2026-03-03,2026-03-03,zip,true,2810000,26,21,2024/2026
+Mark Warner,Paul Gardner,College Station,TX,77845,Dormae Products,Chairman,100000,1,2025-04-09,2025-04-09,zip,true,1350000,12,10,2024/2026
+Mark Warner,Paul Rosenberg,Fort Lauderdale,FL,33312,Self Employed,Attorney,100000,1,2026-02-01,2026-02-01,zip,false,2180000,14,12,2024/2026
+Mark Warner,Pennie Abramson,Miami,FL,33109,Not Employed,Not Employed,100000,1,2025-02-12,2025-02-12,zip,false,1900000,16,14,2024/2026
+Mark Warner,Peter Haas,New York,NY,10128,Hudson Advisors,Investment Professional,100000,1,2026-01-09,2026-01-09,zip,true,1930000,15,15,2024/2026
+Mark Warner,Rachel Goldhamer,Denver,CO,80246,Self Employed,Real Estate Broker,100000,1,2025-03-10,2025-03-10,zip,false,1800000,9,9,2024/2026
+Mark Warner,Randall Reiner,Potomac,MD,20854,Self Employed,Real Estate Broker,100000,1,2025-05-09,2025-05-09,zip,false,1249000,20,17,2024/2026
+Mark Warner,Rob Medway,Park City,UT,84060,Royal Capital Management LLC,Investor,100000,1,2026-01-06,2026-01-06,zip,false,2730000,28,24,2024/2026
+Mark Warner,Robert Stillman,Potomac,MD,20854,Not Employed,Retired,100000,1,2025-02-07,2025-02-07,zip,false,2630000,35,27,2024/2026
+Mark Warner,Robin Hettleman,Bethesda,MD,20817,Not Employed,Retired,100000,1,2025-03-05,2025-03-05,zip,false,1650000,18,14,2024/2026
+Mark Warner,Ronald Spindel,Virginia Beach,VA,23462,The Spindel Agency,Insurance Agent,100000,1,2025-03-18,2025-03-18,zip,true,75000,2,1,2024/2026
+Mark Warner,Ronald Wilheim,Cincinnati,OH,45237,Communicare,President,100000,1,2025-11-14,2025-11-14,zip,true,1400000,8,6,2024/2026
+Mark Warner,Sara H. Rubin,Virginia Beach,VA,23464,Self Employed,Public Relations,100000,1,2025-03-23,2025-03-23,zip,false,100000,1,1,2026
+Mark Warner,Sari Agatston,Miami Beach,FL,33109,Not Employed,Retired,100000,1,2026-04-21,2026-04-21,zip,false,1800000,15,11,2024/2026
+Mark Warner,Scott Levin,Virginia Beach,VA,23452,"757cfo, LLC",Ceo,100000,1,2025-03-26,2025-03-26,zip,true,125000,2,2,2024/2026
+Mark Warner,Shana Rosen,Potomac,MD,20854,"Bioenablers, LLC",Managing Partner,100000,1,2025-02-19,2025-02-19,zip,false,1150000,14,10,2024/2026
+Mark Warner,Shelley Goldseker,Owings Mills,MD,21117,Not Employed,Not Employed,100000,1,2025-09-30,2025-09-30,zip,false,700000,6,5,2024/2026
+Mark Warner,Stanley Barg,Vienna,VA,22182,Atlantic Realty,Real Estate Broker,100000,1,2025-03-04,2025-03-04,zip,false,800000,8,8,2024/2026
+Mark Warner,Steven Cohen,Greenwood Village,CO,80111,Self Employed,Real Estate Broker,100000,1,2025-02-28,2025-02-28,zip,false,250000,2,1,2026
+Mark Warner,Steven Manekin,Towson,MD,21204,"Vallit Advisors, LLC",Consultant,100000,1,2025-10-02,2025-10-02,zip,false,100000,1,1,2026
+Mark Warner,Timothy Punke,Mercer Island,WA,98040,Monument Policy Group,Consultant,100000,1,2025-03-19,2025-03-19,zip,false,2425000,17,11,2024/2026
+Mark Warner,Vera Markwoitz,Beverly Hills,CA,90210,Not Employed,Retired,100000,1,2026-01-06,2026-01-06,zip,false,700000,7,6,2026
+Mark Warner,Yehuda Neuberger,Baltimore,MD,21208,Self Employed,Finance Professional,100000,1,2025-09-30,2025-09-30,zip,false,26695000,143,105,2024/2026
+Mark Warner,Yigal Saad,Austin,TX,78759,Not Employed,Retired,100000,1,2025-04-16,2025-04-16,zip,false,1750000,14,13,2024/2026
+Mark Warner,Todd Copeland,Virginia Beach,VA,23451,"Rst Development, LLC",Real Estate Broker,80000,1,2025-02-20,2025-02-20,zip,false,930000,8,7,2024/2026
+Mark Warner,Stephen Lieberman,Edina,MN,55436,Not Employed,Not Employed,77200,8,2026-01-07,2026-07-07,zip,false,200000,2,2,2024
+Mark Warner,Erwin Sokol,Los Angeles,CA,90049,Marina Pacific Hotel,Hotel Operations,75000,1,2026-01-22,2026-01-22,zip,true,2225000,21,20,2024/2026
+Mark Warner,Robert Schwartzberg,Potomac,MD,20854,Not Employed,Retired,75000,1,2025-03-05,2025-03-05,zip,false,325000,5,5,2024/2026
+Mark Warner,Tamara Picache,Cherry Hills Village,CO,80111,The Flatiron Grp,Investor,75000,1,2025-03-08,2025-03-08,zip,true,5670000,37,30,2024/2026
+Mark Warner,Bradford Cheney,Fairfax Station,VA,22039,The Majority Group,Government Relations,74000,4,2025-01-14,2025-10-08,zip,true,50000,1,1,2024
+Mark Warner,Al Kamen,New York,NY,10022,Not Employed,Not Employed,68000,10,2025-04-20,2025-08-08,zip,false,100000,1,1,2024
+Mark Warner,Arnold J. Rosenblatt,Alexandria,VA,22311,Inova Cardiology,Physician,65000,5,2025-04-09,2026-07-14,zip,false,25000,1,1,2024
+Mark Warner,David P. Yaffe,Arlington,VA,22203,"Van Ness Feldman, LLP",Attorney,60000,2,2025-02-03,2025-02-18,zip,false,475000,11,11,2024/2026
+Mark Warner,Mona Flax,Virginia Beach,VA,23451,Self Employed,Attorney,55000,2,2025-03-21,2025-07-31,zip,false,50000,1,1,2026
+Mark Warner,Aaron Peck,Virginia Beach,VA,23451,Not Employed,Retired,50000,1,2025-03-20,2025-03-20,zip,false,100000,2,2,2024/2026
+Mark Warner,Aimee Dechter,Seattle,WA,98121,Not Employed,Retired,50000,1,2026-01-23,2026-01-23,zip,false,950000,26,26,2026
+Mark Warner,Alan J. Nussenblatt,Calabasas,CA,91302,Not Employed,Retired,50000,1,2025-03-17,2025-03-17,zip,false,1600000,30,29,2024/2026
+Mark Warner,Albert Cytryn,Potomac,MD,20854,Self Employed,Physician,50000,1,2025-02-19,2025-02-19,zip,false,400000,8,8,2024/2026
+Mark Warner,Brandon Wolfe,Austin,TX,78721,Cyberhaven,Sales,50000,1,2025-04-22,2025-04-22,zip,true,100000,2,2,2026
+Mark Warner,Brian Ostar,Falls Church,VA,22043,Eb5 Capital,President,50000,1,2025-02-18,2025-02-18,zip,true,550000,12,11,2024/2026
+Mark Warner,Brian Strelitz,Fort Lauderdale,FL,33316,Strelitz Group Ventures,Real Estate Broker,50000,1,2026-01-21,2026-01-21,zip,true,325000,7,6,2024/2026
+Mark Warner,Bruce Levy,Weston,FL,33332,Self Employed,Financial Advisor,50000,1,2026-01-21,2026-01-21,zip,false,400000,5,2,2024/2026
+Mark Warner,Claire Selinger,Austin,TX,78731,University Of Texas,Physician,50000,1,2025-04-08,2025-04-08,zip,true,100000,2,2,2026
+Mark Warner,Daniel Kramer,Washington,DC,20009,Ch Management Corp,Business Owner,50000,1,2025-02-21,2025-02-21,zip,true,675000,16,14,2024/2026
+Mark Warner,David Felsen,Potomac,MD,20854,Self Employed,Attorney,50000,1,2025-02-12,2025-02-12,zip,false,340000,8,8,2024/2026
+Mark Warner,David Leon,Virginia Beach,VA,23451,Not Employed,Retired,50000,1,2025-03-21,2025-03-21,zip,false,100000,2,2,2024/2026
+Mark Warner,Debbie Feinerman,Los Angeles,CA,90077,Not Employed,Retired,50000,1,2026-01-14,2026-01-14,zip,false,850000,17,16,2024/2026
+Mark Warner,Elias Saratovsky,Bethesda,MD,20814,Birthright Israel,Ceo,50000,1,2025-02-18,2025-02-18,zip,true,475000,10,10,2024/2026
+Mark Warner,Fred Ehrenstein,Hollywood,FL,33021,Not Employed,Retired,50000,1,2026-01-28,2026-01-28,zip,false,425000,11,10,2024/2026
+Mark Warner,Gene Sigalov,Davie,FL,33325,Self Employed,Attorney,50000,1,2026-01-19,2026-01-19,zip,false,210800,4,4,2026
+Mark Warner,Gideon Sasson,Potomac,MD,20854,Not Employed,Retired,50000,1,2025-03-04,2025-03-04,zip,false,460000,10,9,2024/2026
+Mark Warner,Herman Shelanski,Norfolk,VA,23507,Not Employed,Retired,50000,1,2025-03-27,2025-03-27,zip,false,50000,1,1,2026
+Mark Warner,Ira Bartfield,Arlington,VA,22205,National Gallery,Museum Specialist,50000,1,2025-02-18,2025-02-18,zip,false,725000,16,14,2024/2026
+Mark Warner,Jaclyn Rubin,Mclean,VA,22102,Bethesda Softworks,Senior Director Of Marketing,50000,1,2025-02-18,2025-02-18,zip,true,250000,5,5,2026
+Mark Warner,Jason Hoffman,Virginia Beach,VA,23453,Wells Fargo Advisors,Financial Advisor,50000,1,2025-03-24,2025-03-24,zip,true,150000,3,3,2026
+Mark Warner,Jay Massirman,Miami,FL,33133,Rivergate Eden Basis Companies,Real Estate Broker,50000,1,2026-04-03,2026-04-03,zip,true,1200000,20,18,2024/2026
+Mark Warner,Jeffrey S. Distenfeld,Rockville,MD,20852,"First Washington Realty, Inc.",Attorney,50000,1,2025-03-04,2025-03-04,zip,true,450000,9,9,2024/2026
+Mark Warner,Jerome Chapman,Rockville,MD,20852,Not Employed,Retired,50000,1,2025-02-18,2025-02-18,zip,false,250000,6,6,2024/2026
+Mark Warner,John Sorkin,New York,NY,10021,"Ropes & Gray, LLP",Attorney,50000,1,2026-01-17,2026-01-17,zip,false,300000,5,5,2024/2026
+Mark Warner,Josh Kussman,Mclean,VA,22101,Not Employed,Not Employed,50000,1,2025-02-18,2025-02-18,zip,false,1625000,20,18,2024/2026
+Mark Warner,Karen Lombart,Boca Raton,FL,33496,Not Employed,Not Employed,50000,1,2025-04-25,2025-04-25,zip,false,275000,6,6,2024/2026
+Mark Warner,Kenneth Weinstein,Chesapeake,VA,23321,Self Employed,Warehouse Materials,50000,1,2025-03-22,2025-03-22,zip,false,50000,1,1,2026
+Mark Warner,Laurence Smolley,Hollywood,FL,33021,"Cleveland Clinic, Florida",Physician,50000,1,2026-01-19,2026-01-19,zip,true,400000,4,4,2026
+Mark Warner,Lisa Abrams-Rosenberg,Weston,FL,33327,Not Employed,Retired,50000,1,2026-01-19,2026-01-19,zip,false,300000,3,2,2024/2026
+Mark Warner,Lynn Schoenbaum,Virginia Beach,VA,23451,Not Employed,Retired,50000,1,2025-03-19,2025-03-19,zip,false,50000,1,1,2026
+Mark Warner,Mark Grant,Fort Lauderdale,FL,33304,"Greenspoon Marder, LLP",Attorney,50000,1,2026-01-13,2026-01-13,zip,false,450000,8,7,2024/2026
+Mark Warner,Mark Tavlarides,Washington,DC,20008,Bgr Group,Government Relations,50000,1,2025-03-19,2025-03-19,zip,true,200000,2,0,2024
+Mark Warner,Martin Radnor,Boca Raton,FL,33496,Not Employed,Retired,50000,1,2026-01-27,2026-01-27,zip,false,50000,1,1,2026
+Mark Warner,Michael Blachman,Naples,FL,34108,Not Employed,Retired,50000,1,2025-03-26,2025-03-26,zip,false,50000,1,1,2026
+Mark Warner,Michael Mcferren,Great Falls,VA,22066,Amatus Management,Managing Member,50000,1,2025-02-18,2025-02-18,zip,true,550000,13,11,2024/2026
+Mark Warner,Michael Salasky,Norfolk,VA,23508,Not Employed,Not Employed,50000,1,2025-03-19,2025-03-19,zip,false,50000,1,1,2026
+Mark Warner,Michael Smith,Washington,DC,20010,Federal Trade Commission,Attorney,50000,1,2025-02-18,2025-02-18,zip,true,350000,7,7,2026
+Mark Warner,Mike Stratton,Denver,CO,80209,Brownstein Hyatt Farber Schreck,Senior Policy Director,50000,1,2025-09-24,2025-09-24,zip,false,100000,1,1,2026
+Mark Warner,Morty Zetlin,Arlington,VA,22203,Mb Of Arlington,Auto Dealer,50000,1,2025-02-18,2025-02-18,zip,false,100000,2,2,2026
+Mark Warner,Norman Goldin,Norfolk,VA,23510,Self Employed,Physician,50000,1,2025-03-19,2025-03-19,zip,false,75000,2,2,2024/2026
+Mark Warner,Randy Wolpert,Fort Lauderdale,FL,33301,Eightfold Re Capital,Partner,50000,1,2026-01-23,2026-01-23,zip,true,450000,5,5,2024/2026
+Mark Warner,Richard Sussman,Boca Raton,FL,33428,Not Employed,Retired,50000,1,2025-02-19,2025-02-19,zip,false,200000,4,4,2024/2026
+Mark Warner,Robert Brown,Parkland,FL,33076,Keysource,General Counsel,50000,1,2026-01-21,2026-01-21,zip,true,550000,11,7,2024/2026
+Mark Warner,Robert Ennis,Weston,FL,33331,Self Employed,Surgeon,50000,1,2026-01-18,2026-01-18,zip,false,1000000,13,11,2024/2026
+Mark Warner,Robert Greenberg,Tucson,AZ,85715,Not Employed,Not Employed,50000,1,2025-09-08,2025-09-08,zip,false,100000,1,0,2026
+Mark Warner,Roberta Loomar,Sunrise,FL,33323,Difgen Pharmaceuticals,Attorney,50000,1,2026-01-20,2026-01-20,zip,true,900000,13,12,2024/2026
+Mark Warner,Ronald Gottlieb,Ft Lauderdale,FL,33312,Not Employed,Retired,50000,1,2026-01-18,2026-01-18,zip,false,375000,8,8,2024/2026
+Mark Warner,Scott Bakal,Fort Lauderdale,FL,33301,Greenberg Traurig,Attorney,50000,1,2026-01-21,2026-01-21,zip,true,200000,3,3,2026
+Mark Warner,Stephen Kuperberg,Cabin John,MD,20818,"Feldesman Leifer, LLP",Attorney,50000,1,2025-02-19,2025-02-19,zip,false,350000,5,5,2024/2026
+Mark Warner,Steven Stone,Alexandria,VA,22310,Offit Kurman,Attorney,50000,1,2025-02-18,2025-02-18,zip,true,200000,4,4,2024/2026
+Mark Warner,Stewart Shull,Fort Lauderdale,FL,33312,S&G Medical Enterprises,President,50000,1,2026-01-18,2026-01-18,zip,true,1650000,14,12,2024/2026
+Mark Warner,Susan Thau,Chevy Chase,MD,20815,Self Employed,Public Policy Consultant,50000,1,2025-02-10,2025-02-10,zip,false,1185000,15,13,2024/2026
+Mark Warner,Tanjuihsien Marx,Pembroke Pines,FL,33024,Jackson Health System,Physician,50000,1,2026-01-13,2026-01-13,zip,false,500000,7,7,2024/2026
+Mark Warner,Zachary Samuels,Fort Lauderdale,FL,33312,Not Employed,Retired,50000,1,2026-01-20,2026-01-20,zip,false,400000,8,8,2026
+Mark Warner,Seth Spergel,Bethesda,MD,20817,Merlin Ventures,Managing Director,49900,1,2025-02-18,2025-02-18,zip,true,249500,5,5,2026
+Mark Warner,Norman Brownstein,Denver,CO,80202,Brownstein Hyatt Farber Schreck,Chairman,40000,2,2025-03-17,2025-03-17,zip,true,13450000,33,31,2024/2026
+Mark Warner,Jacquie Bayley,Bellevue,WA,98005,Not Employed,Not Employed,35000,2,2025-07-02,2026-02-26,zip,false,450000,7,6,2024/2026
+Mark Warner,Jody Balaban,Virginia Beach,VA,23452,Commonwealth Benefits,Real Estate Broker,35000,1,2025-03-26,2025-03-26,zip,true,35000,1,1,2026
+Mark Warner,Stephen A. Leon,Norfolk,VA,23505,"Cooper, Spong & Davis, P.C.",Attorney,30000,1,2025-03-27,2025-03-27,zip,false,30000,1,1,2026
+Mark Warner,Anita Gray,Cleveland,OH,44124,Not Employed,Retired,25000,1,2025-09-26,2025-09-26,zip,false,250000,5,3,2024/2026
+Mark Warner,Benjamin Shapo,Potomac,MD,20854,Jhu Apl,Engineer,25000,1,2025-02-24,2025-02-24,zip,true,25000,1,1,2026
+Mark Warner,David Kaufman,Potomac,MD,20854,Jp Morgan Chase,Commercial Banker,25000,1,2025-02-18,2025-02-18,zip,true,175000,7,7,2024/2026
+Mark Warner,David Spiegel,Calabasas,CA,91302,Active Washington Bowling,Business Owner,25000,1,2025-05-12,2025-05-12,zip,false,750000,15,14,2024/2026
+Mark Warner,Gwen Stokolks,Alexandria,VA,22304,Us Patent & Trademark Office,Attorney,25000,1,2025-02-18,2025-02-18,zip,true,25000,1,1,2026
+Mark Warner,Jenny Margulies,Washington,DC,20009,Us State Department,Foreign Affairs Officer,25000,1,2025-02-18,2025-02-18,zip,true,100000,4,4,2024/2026
+Mark Warner,Jody M. Wagner,Virginia Beach,VA,23451,"Jody'S, Inc.",Business Owner,25000,1,2025-03-31,2025-03-31,zip,false,25000,1,1,2026
+Mark Warner,Larry Porter,Alexandria,VA,22307,Not Employed,Retired,25000,1,2025-02-18,2025-02-18,zip,false,250000,10,10,2024/2026
+Mark Warner,Mark Rothman,Bethesda,MD,20814,The Myta Corporation,President,25000,1,2025-03-05,2025-03-05,zip,true,225000,5,5,2024/2026
+Mark Warner,Mark Schuman,Bethesda,MD,20817,Self Employed,Investor,25000,1,2025-02-25,2025-02-25,zip,false,615000,8,8,2024/2026
+Mark Warner,Matt Kahn,Washington,DC,20003,Us Department Of Justice,Attorney,25000,1,2025-02-18,2025-02-18,zip,false,153600,7,7,2024/2026
+Mark Warner,Minka Goldstein,Potomac,MD,20854,Nexth,Real Estate Broker,25000,1,2025-03-02,2025-03-02,zip,false,195000,6,5,2024/2026
+Mark Warner,Richard J. Courtheoux,Glencoe,IL,60022,Not Employed,Retired,25000,1,2025-12-26,2025-12-26,zip,false,1162500,39,29,2024/2026
+Mark Warner,Simon Fishman,Falls Church,VA,22043,Self Employed,Physician,25000,1,2025-02-18,2025-02-18,zip,false,850000,18,17,2024/2026
+Mark Warner,Terri Sarfan,Virginia Beach,VA,23451,Not Employed,Retired,25000,1,2025-03-27,2025-03-27,zip,false,25000,1,1,2026
+Mark Warner,Elizabeth Zimmer,Rochester,NY,14626,Not Employed,Not Employed,19000,8,2026-01-04,2026-07-04,state,false,200000,2,2,2026
+Mark Warner,Richard Goldstein,Sagaponack,NY,11962,Not Employed,Not Employed,18000,14,2025-10-14,2026-02-21,state,false,10800,2,2,2024
+Mark Warner,Alexander Mark,Rockville,MD,20852,Medstar,Physician,16500,22,2025-10-14,2026-07-14,zip,true,100000,3,2,2026
+Mark Warner,William Gray,Deland,FL,32720,Not Employed,Retired,10000,1,2026-01-21,2026-01-21,state,false,5721400,37,31,2024/2026
+Mark Warner,Nancy Goldberg,Los Angeles,CA,90066,Not Employed,Not Employed,2000,2,2025-10-19,2025-12-07,state,false,20000,1,1,2024

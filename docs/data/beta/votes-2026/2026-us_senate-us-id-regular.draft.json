@@ -1,0 +1,174 @@
+{
+  "template_version": "pol-vote-beta-2",
+  "bounty_id": "2026-us_senate-us-id-regular",
+  "office_type": "us_senate",
+  "election_year": 2026,
+  "jurisdiction": {
+    "level": "federal",
+    "state": "US-ID",
+    "district": null,
+    "race_type": "regular",
+    "senate_class": 2
+  },
+  "subject": {
+    "name": "James E Mr. Risch",
+    "party": "R",
+    "incumbent": true,
+    "won_race": true,
+    "votelog": {
+      "listed": true,
+      "member_id_or_slug": "risch",
+      "profile_url": "https://votelog.org/members/risch"
+    },
+    "identifiers": {
+      "bioguide_id": "R000584",
+      "fec_candidate_ids": [
+        "S8ID00092"
+      ],
+      "fec_principal_committee_id_cycle": "C00440362",
+      "fec_principal_committee_ids_cycle": [
+        "C00440362"
+      ],
+      "opensecrets_cid": "N00029441"
+    }
+  },
+  "finance": {
+    "career_total_receipts_usd": 14880656,
+    "career_net_contributions_usd": 13171542,
+    "career_total_note": "Sum of FEC reported full-election receipts/net contributions across candidate IDs and authorized committees (source-linked).",
+    "cycle": 2026,
+    "cycle_window": "full_term_6yr",
+    "cycle_total_receipts_usd": 5009089,
+    "coverage_end_date": "2026-10-14",
+    "top_donors_cycle": [
+      {
+        "rank": 1,
+        "name": "Fitzgerald & CO., Cpas, P.C.",
+        "committee_id": "C00817122",
+        "amount_usd": 11738,
+        "type": "superpac_donor_via_votelog",
+        "source_url": "https://votelog.org/data/id-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 2,
+        "name": "Jeffery Sanders",
+        "committee_id": "C00817122",
+        "amount_usd": 1800,
+        "type": "superpac_donor_via_votelog",
+        "employer": "Retired",
+        "occupation": "Retired",
+        "source_url": "https://votelog.org/data/id-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 3,
+        "name": "Matt Collins",
+        "committee_id": "C00817122",
+        "amount_usd": 1000,
+        "type": "superpac_donor_via_votelog",
+        "employer": "Caterpillar",
+        "occupation": "Management",
+        "source_url": "https://votelog.org/data/id-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 4,
+        "name": "Waller Perrow",
+        "committee_id": "C00817122",
+        "amount_usd": 869,
+        "type": "superpac_donor_via_votelog",
+        "employer": "Self Employed",
+        "occupation": "Developer",
+        "source_url": "https://votelog.org/data/id-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 5,
+        "name": "Clifford Satterfield",
+        "committee_id": "C00817122",
+        "amount_usd": 850,
+        "type": "superpac_donor_via_votelog",
+        "employer": "Bal Seal Engineering",
+        "occupation": "Machinist",
+        "source_url": "https://votelog.org/data/id-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      }
+    ],
+    "sources": [
+      {
+        "label": "OpenFEC candidate totals (election_full=true, S8ID00092)",
+        "url": "https://api.open.fec.gov/v1/candidate/S8ID00092/totals/?election_full=true",
+        "as_of": "2026-11-15"
+      }
+    ]
+  },
+  "opponents_nov_general": [
+    {
+      "name": "Todd Baker Achilles",
+      "party": "I",
+      "cycle": 2026,
+      "cycle_total_receipts_usd": 1921132,
+      "coverage_end_date": "2026-10-14",
+      "fec_candidate_id": "S6ID00146",
+      "fec_candidate_ids": [
+        "S6ID00146"
+      ],
+      "sources": [
+        {
+          "label": "OpenFEC candidate totals (election_full=true, S6ID00146)",
+          "url": "https://api.open.fec.gov/v1/candidate/S6ID00146/totals/?election_full=true",
+          "as_of": "2026-11-15"
+        }
+      ]
+    }
+  ],
+  "vote": {
+    "question": "[BETA_VOTE_QUESTION_PLACEHOLDER for James E Mr. Risch | career reported receipts: $14,880,656]",
+    "question_vars": {
+      "subject_name": "James E Mr. Risch",
+      "career_total_receipts_usd": 14880656
+    },
+    "type": "advisory_yes_no",
+    "options": [
+      "Yes",
+      "No",
+      "Abstain"
+    ]
+  },
+  "bounty_if_passed": {
+    "description": "[BETA_BOUNTY_OUTCOME_PLACEHOLDER for US-ID]",
+    "destination_type": "tip_jar",
+    "destination_criteria": "[BETA_CRITERIA_PLACEHOLDER for US-ID]",
+    "state": "US-ID"
+  },
+  "location": {
+    "label": "United States Capitol",
+    "address": "First St SE, Washington, DC 20004, USA",
+    "lat": 38.8899,
+    "lng": -77.0091
+  },
+  "payment": {
+    "chain": "base",
+    "chain_id": 8453,
+    "token": "USDC",
+    "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+    "qr_asset": "docs/escrow-qr.png",
+    "note": "Uses existing project wallet/QR; subject to current claim-first/support-locked routing rules unless overridden for this beta item.",
+    "payment_memo_or_slug": "2026-us_senate-us-id-regular"
+  },
+  "provenance": {
+    "status": "beta_template_draft",
+    "generated_at": "2026-11-15T22:09:07.843Z",
+    "generator": "pol-vote-template",
+    "review_required": true
+  },
+  "_review": {
+    "missing": [],
+    "placeholders": [
+      "vote.question",
+      "bounty_if_passed.description",
+      "bounty_if_passed.destination_criteria"
+    ]
+  }
+}

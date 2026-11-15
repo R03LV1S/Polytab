@@ -1,0 +1,10 @@
+candidate,donor,city,state,zip5,employer,occupation,direct_total_cents,contributions,first_date,last_date,match_tier,same_employer_string,aipac_pac_total_cents,aipac_pac_rows,aipac_pac_recipient_committees,aipac_pac_cycles
+Ben Ray Luján,Jeffrey Gural,New York,NY,10024,Gfp Real Estate,Real Estate,350000,2,2025-12-22,2025-12-22,zip,true,1660000,6,6,2024/2026
+Ben Ray Luján,Lindsay Gross,Franklin,MI,48025,Rocket Companies,Strategic Advisor,250000,1,2025-06-18,2025-06-18,zip,true,3600000,21,13,2024/2026
+Ben Ray Luján,Alice Baker,Tucson,AZ,85716,Not Employed,Not Employed,100000,2,2025-09-24,2025-09-24,zip,false,3450000,8,6,2024/2026
+Ben Ray Luján,Bradford Cheney,Fairfax Station,VA,22039,The Majority Group,Government Relations,100000,1,2026-03-09,2026-03-09,zip,true,50000,1,1,2024
+Ben Ray Luján,Mark Tavlarides,Washington,DC,20008,Bgr Group,Government Relations,100000,1,2026-05-28,2026-05-28,zip,true,200000,2,0,2024
+Ben Ray Luján,Richard Goldstein,Sagaponack,NY,11962,Not Employed,Not Employed,16200,15,2025-07-08,2026-04-20,state,false,10800,2,2,2024
+Ben Ray Luján,Sandra Turnauer,Plantation,FL,33324,Not Employed,Retired,15000,2,2025-04-04,2025-05-05,zip,false,1000000,2,2,2026
+Ben Ray Luján,Elizabeth Zimmer,Rochester,NY,14626,Not Employed,Not Employed,13500,9,2026-04-15,2026-06-19,state,false,200000,2,2,2026
+Ben Ray Luján,Carolyn Goldstein,Bayside,NY,11360,Not Employed,Not Employed,9000,3,2025-06-14,2025-06-16,zip,false,5000,1,1,2024

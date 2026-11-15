@@ -1,0 +1,67 @@
+{
+  "generatedAt": "2026-11-13T22:32:32.362Z",
+  "dataCurrentThrough": {
+    "independentExpenditures": "2026-10-05",
+    "campaignFinances": "2026-10-14",
+    "campaignFinancesByCandidate": {
+      "katz": "2026-10-14",
+      "coons": "2026-10-14"
+    },
+    "superPacDonors": {
+      "C00492140": "2026-10-14"
+    },
+    "aipacEarmarks": "2026-10-14",
+    "donorNetwork": {
+      "katz": "2026-08-26",
+      "coons": "2026-08-26",
+      "network": "2026-10-14"
+    },
+    "filingsProcessed": "2026-11-13"
+  },
+  "summary": {
+    "katz": {
+      "totalReceiptsCents": 19041612,
+      "transfersFromAuthCents": 0,
+      "totalDisbursementsCents": 17433153,
+      "cashOnHandCents": 1608459,
+      "candidateContribCents": 1052,
+      "candidateLoansCents": 12925000,
+      "totalIndividualCents": 6085560,
+      "otherCommitteeContribCents": 30000,
+      "coverageEnd": "2026-10-14",
+      "individualRefundsCents": 0,
+      "outsideSupportingCents": 0,
+      "outsideOpposingCents": 0,
+      "outsideBenefitingCents": 0
+    },
+    "coons": {
+      "totalReceiptsCents": 495601533,
+      "transfersFromAuthCents": 99424725,
+      "totalDisbursementsCents": 210950397,
+      "cashOnHandCents": 503171121,
+      "candidateContribCents": 0,
+      "candidateLoansCents": 0,
+      "totalIndividualCents": 220686115,
+      "otherCommitteeContribCents": 163618674,
+      "coverageEnd": "2026-10-14",
+      "individualRefundsCents": 2271787,
+      "outsideSupportingCents": 23176419,
+      "outsideOpposingCents": 0,
+      "outsideBenefitingCents": 23176419
+    }
+  },
+  "outsideByCommittee": [
+    {
+      "committeeId": "C00492140",
+      "committee": "Ab PAC",
+      "fecType": "V",
+      "forKatz": 0,
+      "againstKatz": 0,
+      "forCoons": 23176419,
+      "againstCoons": 0,
+      "total": 23176419,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610079908568600",
+      "latestDate": "2026-10-05"
+    }
+  ]
+}

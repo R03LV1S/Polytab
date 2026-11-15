@@ -1,0 +1,451 @@
+candidate,donor,city,state,zip5,employer,occupation,direct_total_cents,contributions,first_date,last_date,match_tier,same_employer_string,aipac_pac_total_cents,aipac_pac_rows,aipac_pac_recipient_committees,aipac_pac_cycles
+John E. Sununu,Lawrence Bernstein,North Miami Beach,FL,33162,None,Retired,700000,1,2026-03-29,2026-03-29,state,false,11000000,16,14,2026
+John E. Sununu,Michael Leffell,Scarsdale,NY,10583,Portage Partners,Investor,350000,1,2026-06-18,2026-06-18,zip,true,16820000,57,37,2024/2026
+John E. Sununu,Paul Isaac,Larchmont,NY,10538,Arbiter Partners Capital Management,Analyst,350000,1,2025-11-21,2025-11-21,zip,false,1050000,7,7,2024/2026
+John E. Sununu,Gregory Segall,Philadelphia,PA,19118,Versa Capital Group LLC,Ceo,100000,1,2025-12-27,2025-12-27,zip,false,200000,2,2,2026
+John E. Sununu,Norm Brownstein,Denver,CO,80202,Brownstein,Chairman,100000,1,2025-11-15,2025-11-15,zip,true,2800000,4,4,2026
+John E. Sununu,Sam Olswanger,Washington,DC,20009,Akin Gump Strauss Hauer  Feld,Senior Policy Advisor,100000,1,2026-03-26,2026-03-26,zip,false,400000,5,5,2024
+John E. Sununu,Steven Ellman,Phoenix,AZ,85016,Ellman Companies,Chairman,100000,1,2026-04-22,2026-04-22,zip,false,500000,1,1,2026
+John E. Sununu,Robert J. Selig,Bloomfield,CT,06002,None,Retired,28400,23,2026-04-06,2026-06-29,zip,false,50000,1,0,2026
+John E. Sununu,Herbert Heflich,Bridgewater Townsh,NJ,08836,None,Retired,11000,1,2026-07-10,2026-07-10,zip,false,2175000,21,15,2024/2026
+Chris Pappas,Marc S. Plonskier,Newton,MA,02465,Gatehouse,Real Estate,1050000,3,2025-03-28,2026-07-16,zip,true,6470000,20,19,2024/2026
+Chris Pappas,Stephen Krooth,Bethesda,MD,20814,N/A,Retired,1050000,3,2025-03-28,2025-07-17,zip,false,10759900,42,36,2024/2026
+Chris Pappas,Barbara Nan Grossman,Boston,MA,02116,Not Employed,Not Employed,700000,4,2025-08-10,2026-06-30,state,false,50000,1,1,2024
+Chris Pappas,Bianca Peskin,Brookline,MA,02446,Not Employed,Not Employed,700000,2,2025-03-28,2025-03-28,zip,false,30130000,54,45,2024/2026
+Chris Pappas,Jeffrey Gural,New York,NY,10017,Gfp Real Estate,Chairman,700000,2,2025-06-20,2025-06-20,state,true,1660000,6,6,2024/2026
+Chris Pappas,Jody E Forchheimer,Brookline,MA,02446,Not Employed,Retired,700000,2,2025-11-24,2025-11-24,zip,false,38475500,150,96,2024/2026
+Chris Pappas,Jon Hirschtick,Lexington,MA,02420,Ptc,Manager,700000,2,2025-03-28,2025-03-28,zip,true,10000000,25,19,2024/2026
+Chris Pappas,Jonathan S. Lavine,Boston,MA,02116,Bain Capital,Investor,700000,2,2025-12-31,2025-12-31,zip,true,10840000,16,16,2024/2026
+Chris Pappas,Joseph Weinberg,Baltimore,MD,21202,Cordish Companies,Realtor,700000,2,2025-12-18,2025-12-18,zip,true,21950000,35,34,2026
+Chris Pappas,Kendal Elyse Agins,San Francisco,CA,94123,Agins Interior,Business Owner,700000,2,2025-08-01,2025-08-01,zip,true,23390000,31,29,2024/2026
+Chris Pappas,Kenneth Frieze,Chestnut Hill,MA,02467,Gordon Brothers,Chairman,700000,2,2025-03-28,2025-03-28,zip,true,2140000,6,5,2024/2026
+Chris Pappas,Louis Kaplow,Brookline,MA,02446,Harvard University,Academic,700000,2,2025-11-24,2025-11-24,zip,true,28100000,56,51,2024/2026
+Chris Pappas,Michael Hackman,Los Angeles,CA,90049,Hackman Capital Partners,Ceo,700000,2,2025-05-15,2025-05-15,zip,true,32485000,72,50,2024/2026
+Chris Pappas,Robert Klein,Los Altos Hills,CA,94022,Klein Financial Corporation,Chairman,700000,2,2026-03-31,2026-03-31,state,false,103600,4,2,2024/2026
+Chris Pappas,Ron Zeff,San Francisco,CA,94111,Carmel Management,Ceo,700000,2,2025-08-01,2025-08-01,zip,true,23390000,31,29,2024/2026
+Chris Pappas,Ronald D. Abramson,Washington,DC,20007,Buchanan Ingersoll & Rooney,Attorney,700000,3,2025-11-17,2025-12-01,state,false,200000,1,1,2026
+Chris Pappas,Skip Miller,Los Angeles,CA,90067,Miller Barondess,Attorney,700000,2,2025-05-15,2025-05-15,zip,true,22990000,56,43,2024/2026
+Chris Pappas,Allen Friedman,Teaneck,NJ,07666,Jp Morgan Chase,Attorney,672500,2,2025-03-28,2025-06-27,zip,false,960000,3,3,2024
+Chris Pappas,David Schor,Boston,MA,02118,"Hawk Hill Management Company, LLC",Investor,550000,3,2026-04-09,2026-07-23,zip,false,2700000,15,12,2024/2026
+Chris Pappas,Alan Stein,Natick,MA,01760,N/A,Retired,500000,2,2025-03-28,2025-03-28,zip,false,1500000,4,3,2024/2026
+Chris Pappas,Barak Raviv,Beverly Hills,CA,90210,Wells Fargo,Financial Advisor,500000,2,2025-06-20,2025-06-20,zip,true,19402300,79,55,2024/2026
+Chris Pappas,David Rausnitz,Trinity,FL,34655,"Meopta Usa, Inc.",Executive,500000,2,2025-05-08,2025-05-08,zip,false,187500,1,1,2026
+Chris Pappas,Jeffrey Gleit,New York,NY,10021,"Arentfox Schiff, LLP",Attorney,500000,2,2025-09-30,2025-09-30,zip,false,500000,1,1,2026
+Chris Pappas,Nurit Robin,Santa Monica,CA,90402,Retired,Retired,500000,2,2026-04-23,2026-04-30,zip,false,3122500,21,18,2024/2026
+Chris Pappas,Richard Pachulski,Los Angeles,CA,90067,"Pachulski, Stang, Ziehl & Jones",Attorney,500000,2,2025-06-20,2025-06-20,zip,true,10270000,22,18,2024/2026
+Chris Pappas,Taylor Kushner,Miami,FL,33133,Grove Point Partners,Investor,500000,2,2025-05-08,2025-05-08,zip,true,2450000,15,12,2026
+Chris Pappas,Alice Baker,Tucson,AZ,85716,Not Employed,Not Employed,450000,3,2025-03-31,2026-08-19,zip,false,3450000,8,6,2024/2026
+Chris Pappas,Elliot Lepler,Mountain View,CA,94041,N/A,Retired,450000,2,2025-03-31,2025-09-04,zip,false,4856000,25,20,2024/2026
+Chris Pappas,Jubin Niamehr,Los Angeles,CA,90024,Jacoby And Meyers,Lawyer,450000,3,2025-05-15,2026-04-30,zip,true,5480000,44,34,2024/2026
+Chris Pappas,Avi Benus,Pikesville,MD,21208,"Crossland, LLC",Ceo,414300,2,2025-03-28,2026-01-22,zip,true,5750100,34,26,2024/2026
+Chris Pappas,Julie Candau,Walnut Creek,CA,94595,Marble Bridge Funding Group,Hr Manager,400000,3,2025-03-31,2025-09-04,zip,true,4580000,26,23,2024/2026
+Chris Pappas,Brian Seitz,Sandy Springs,GA,30328,Self,Real Estate,375000,2,2025-10-30,2025-10-30,zip,false,450000,3,3,2024/2026
+Chris Pappas,David A. Hirsch,Atlanta,GA,30327,Not Employed,Retired,375000,2,2025-12-04,2025-12-04,zip,false,1725000,5,5,2026
+Chris Pappas,James Bernstein,Augusta,GA,30909,Augusta Enterprises,Retail,375000,2,2025-11-20,2025-11-20,zip,true,2225000,8,8,2026
+Chris Pappas,Jonathan Rodbell,Atlanta,GA,30305,Atlanta Property Group,Commercail Real Estate Executive,375000,2,2025-11-20,2025-11-20,zip,true,1700000,10,8,2024/2026
+Chris Pappas,Karen Shulman,Atlanta,GA,30327,Not Employed,Not Employed,375000,2,2025-11-20,2025-11-20,zip,false,1725000,5,5,2026
+Chris Pappas,Matthew Slaine,Greensboro,NC,27408,Otgp,Ceo,375000,2,2025-11-20,2025-11-20,zip,true,2125000,8,7,2024/2026
+Chris Pappas,Michael Merlin,Sandy Springs,GA,30328,Rockefeller Capital Management,Director,375000,2,2025-10-30,2025-10-30,zip,true,1680000,5,5,2024/2026
+Chris Pappas,Mitch Lewis,Atlanta,GA,30350,Retired,Retired,375000,2,2025-12-11,2025-12-11,zip,false,875000,2,2,2026
+Chris Pappas,Paul Nozick,Atlanta,GA,30328,Alston & Bird,Attorney,375000,2,2025-12-04,2025-12-04,zip,true,1725000,5,5,2026
+Chris Pappas,Rael Gorelick,Charlotte,NC,28226,Biltmore Family Office,Cio,375000,2,2025-12-18,2025-12-18,zip,true,1725000,8,8,2026
+Chris Pappas,Robert Rothberg,Sandy Springs,GA,30328,Retired,Retired,375000,2,2025-11-20,2025-11-20,zip,false,2441660,17,6,2024/2026
+Chris Pappas,Ronnie Agami,Atlanta,GA,30327,Universal Diamonds,Sales,375000,2,2025-12-11,2025-12-11,zip,true,150000,1,1,2026
+Chris Pappas,Todd Starr,Atlanta,GA,30328,Altair Sign,Business Owner,375000,2,2025-11-28,2025-11-28,zip,true,2475000,19,16,2024/2026
+Chris Pappas,Nathan Berman,New York,NY,10128,Metro Loft Management,Ceo,360000,2,2025-03-31,2025-03-31,zip,true,2100000,8,7,2024/2026
+Chris Pappas,Marshall Funk,Richardson,TX,75080,Not Employed,Not Employed,351800,3,2025-03-31,2025-08-21,zip,true,1053600,6,5,2024/2026
+Chris Pappas,Adam Arens,Greenland,NH,03840,Patriot Auto Group,Ceo,350000,3,2025-03-28,2026-06-30,zip,true,1150000,9,8,2024/2026
+Chris Pappas,Adam Freede,Seal Beach,CA,90740,Madaluxe Group,Ceo,350000,1,2026-03-12,2026-03-12,zip,true,7350000,20,20,2026
+Chris Pappas,Alan Gindi,Culver City,CA,90232,Bag Investments,Real Estate,350000,1,2025-05-15,2025-05-15,zip,true,14295000,45,39,2024/2026
+Chris Pappas,Alan Leifer,Newton,MA,02458,"Leifer Capital Advisers, LLC",Investments,350000,1,2025-03-28,2025-03-28,zip,true,11240000,45,26,2024/2026
+Chris Pappas,Alexander Heckler,Miami Beach,FL,33140,"Lsn Law, Pa",Attorney,350000,1,2025-06-26,2025-06-26,zip,false,1520000,5,5,2024
+Chris Pappas,Allyn Kramer,Dallas,TX,75248,Not Employed,Retired,350000,1,2025-07-17,2025-07-17,zip,false,7690000,26,22,2024/2026
+Chris Pappas,Ann Pava,West Hartford,CT,06117,Not Employed,Not Employed,350000,2,2025-03-31,2025-12-18,zip,false,6200000,37,25,2024/2026
+Chris Pappas,Beth Greenberg,Weston,MA,02493,Not Employed,Not Employed,350000,1,2025-12-18,2025-12-18,zip,false,1630000,6,4,2024/2026
+Chris Pappas,Bob Kerrey,New York,NY,10003,Allen And Company,Banker,350000,1,2025-06-25,2025-06-25,zip,true,330000,1,1,2024
+Chris Pappas,Brian Greenspun,Henderson,NV,89014,Greenspun Media Group,President,350000,1,2026-04-09,2026-04-09,zip,false,200000,1,1,2026
+Chris Pappas,Dana Zeff,La Jolla,CA,92037,Unitleader,Family Office Investor,350000,1,2026-06-25,2026-06-25,zip,true,6400000,28,23,2024/2026
+Chris Pappas,Daniel Lubetzky,Austin,TX,78763,Kind,Founder,350000,1,2026-03-25,2026-03-25,zip,false,2450000,6,6,2026
+Chris Pappas,David Blumenthal,New York,NY,10024,Lion Brand,President,350000,1,2025-06-12,2025-06-12,zip,true,3230000,16,15,2024/2026
+Chris Pappas,David Deckter,Austin,TX,78746,N/A,Retired,350000,1,2025-03-31,2025-03-31,zip,false,6490000,24,19,2024/2026
+Chris Pappas,David Kliger,Long Beach,CA,90803,N/A,Retired,350000,1,2025-03-31,2025-03-31,zip,false,1525000,32,27,2024/2026
+Chris Pappas,David Kline,Austin,TX,78701,Kline Properties,Real Estate,350000,1,2025-03-31,2025-03-31,zip,true,5720000,21,18,2024/2026
+Chris Pappas,David Veeder,Dallas,TX,75230,"Ryan, LLC",Cpa,350000,1,2025-07-24,2025-07-24,zip,false,4500000,17,13,2024/2026
+Chris Pappas,Debra Krasnow,North Palm Beach,FL,33408,Not Employed,Retired,350000,1,2025-12-26,2025-12-26,zip,false,1000000,7,7,2026
+Chris Pappas,Ellen Sandler,Los Angeles,CA,90067,Not Employed,Not Employed,350000,1,2026-03-31,2026-03-31,zip,false,3397500,19,18,2024/2026
+Chris Pappas,Eric Kurtzman,Las Vegas,NV,89135,Stretto,Ceo,350000,1,2025-03-31,2025-03-31,zip,true,4810000,21,15,2024/2026
+Chris Pappas,Eugene Fooksman,Menlo Park,CA,94025,"Altopass, Inc.",Ceo,350000,1,2025-08-21,2025-08-21,zip,true,16060000,54,45,2024/2026
+Chris Pappas,Harvey Dachs,Woodmere,NY,11598,Dachs Employer LLC,Insurance,350000,1,2025-03-31,2025-03-31,zip,true,1310000,5,5,2024/2026
+Chris Pappas,Howard Welinsky,Toluca Lake,CA,91602,Not Employed,Retired,350000,3,2025-03-15,2025-12-26,zip,false,10155000,368,303,2024/2026
+Chris Pappas,Jaime Peisach,Doral,FL,33122,Passion Growers,Manager,350000,1,2025-05-15,2025-05-15,zip,true,12615000,37,31,2024/2026
+Chris Pappas,James Flood,Reston,VA,20190,"Brownstein Hyatt Farber Schreck, LLP",Attorney,350000,1,2026-03-18,2026-03-18,zip,false,100000,1,1,2024
+Chris Pappas,James P. Rosenfield,New Castle,NH,03854,Cambridge Energy Research,Marketing Director,350000,2,2025-03-28,2025-12-31,zip,true,7320000,52,36,2024/2026
+Chris Pappas,Jamey P. Rosenfield,New Castle,NH,03854,S&P Global,Senior Advisor,350000,2,2026-07-16,2026-08-06,zip,false,700000,4,4,2024/2026
+Chris Pappas,Jamie Silverstein,Sunapee,NH,03782,Page Four Media,President,350000,1,2025-03-28,2025-03-28,zip,true,3140000,16,9,2024/2026
+Chris Pappas,Jeffrey Davis,Miami Beach,FL,33139,Not Employed,Not Employed,350000,1,2025-09-19,2025-09-19,state,false,475000,10,9,2024/2026
+Chris Pappas,Jeremy Pava,West Hartford,CT,06117,Johnson Real Estate,Board Member,350000,1,2025-12-18,2025-12-18,zip,true,5650000,21,18,2024/2026
+Chris Pappas,Jonathan Chiel,Newton,MA,02458,Not Employed,Retired,350000,1,2026-08-06,2026-08-06,zip,false,450000,6,6,2026
+Chris Pappas,Judith Chiel,Newton,MA,02458,Not Employed,Not Employed,350000,2,2026-06-30,2026-08-06,zip,false,1050000,8,5,2026
+Chris Pappas,Julie Platt,Los Angeles,CA,90024,Not Employed,Not Employed,350000,1,2026-03-31,2026-03-31,zip,false,19612500,51,38,2024/2026
+Chris Pappas,Keenan L. Wolens,Beverly Hills,CA,90210,Amir Development Co,Real Estate,350000,1,2026-03-31,2026-03-31,zip,true,7842500,36,30,2024/2026
+Chris Pappas,Kimberly Sanner,San Francisco,CA,94118,Not Employed,Not Employed,350000,1,2025-03-31,2025-03-31,zip,false,3780000,26,21,2024/2026
+Chris Pappas,Larry Greenberg,Weston,MA,02493,Not Employed,Not Employed,350000,1,2025-03-28,2025-03-28,zip,false,20090000,62,43,2024/2026
+Chris Pappas,Lawrence Gill,Los Angeles,CA,90034,"Law Offices Of Lawrence B. Gill, P.C.",Attorney,350000,1,2025-03-31,2025-03-31,zip,true,1010000,3,3,2024/2026
+Chris Pappas,Lawrence Macks,Naples,FL,34102,Chesapeake Realty Partners,Ceo,350000,1,2026-01-22,2026-01-22,zip,true,6340000,43,26,2024/2026
+Chris Pappas,Manny Panar,Silver Spring,MD,20904,N/A,Retired,350000,1,2025-03-28,2025-03-28,zip,false,49340000,110,72,2024/2026
+Chris Pappas,Marc Gary,Atlanta,GA,30326,Not Employed,Retired,350000,1,2025-12-16,2025-12-16,zip,false,550000,3,3,2026
+Chris Pappas,Mark Alcott,New Rochelle,NY,10804,Alcott Adr Services,Arbitrator,350000,1,2025-06-05,2025-06-05,zip,true,2850000,16,16,2024/2026
+Chris Pappas,Mark Rubin,Palm Beach Gardens,FL,33420,Not Employed,Retired,350000,1,2026-08-06,2026-08-06,zip,false,2400000,9,9,2026
+Chris Pappas,Merri Matz-Braunstein,Highland Beach,FL,33487,N/A,Retired,350000,1,2025-03-31,2025-03-31,zip,false,350000,1,1,2026
+Chris Pappas,Natalie Barth,New York,NY,10128,Not Employed,Retired,350000,1,2025-12-04,2025-12-04,zip,false,700000,2,1,2026
+Chris Pappas,Neil Goldberg,Dallas,TX,75220,N/A,Retired,350000,2,2025-03-31,2025-07-24,zip,true,1130000,5,5,2024/2026
+Chris Pappas,Paul Baker,Tucson,AZ,85716,N/A,Retired,350000,1,2025-03-31,2025-03-31,zip,false,11930000,34,26,2024/2026
+Chris Pappas,Richard Sandler,Santa Monica,CA,90401,Maron And Sandler,Attorney,350000,1,2026-03-31,2026-03-31,zip,true,3085000,17,15,2024/2026
+Chris Pappas,Robert Klyman,Los Angeles,CA,90004,Dla Piper,Attorney,350000,1,2025-06-20,2025-06-20,zip,true,8030000,29,24,2024/2026
+Chris Pappas,Robert Sarver,Paradise Valley,AZ,85253,N/A,Retired,350000,1,2025-03-28,2025-03-28,zip,false,5510000,15,13,2024/2026
+Chris Pappas,Robert Wiener,Purchase,NY,10577,Maxx Properties,Chairman,350000,1,2025-05-29,2025-05-29,zip,true,3500000,18,18,2024/2026
+Chris Pappas,Ruth Kohen,Mercer Island,WA,98040,Not Employed,Not Employed,350000,1,2025-11-06,2025-11-06,zip,false,9101000,41,29,2024/2026
+Chris Pappas,Steve Emerson,Los Angeles,CA,90024,Self Employed,Investor,350000,1,2025-12-26,2025-12-26,zip,false,2450000,7,7,2026
+Chris Pappas,Thomas Brener,New York,NY,10028,"Quadrant Capital Advisors, Inc.",Managing Director,350000,1,2025-09-25,2025-09-25,zip,true,2750000,9,9,2024/2026
+Chris Pappas,Todd Platt,Dallas,TX,75219,Hillwood,Ceo,350000,1,2025-07-17,2025-07-17,zip,true,9610000,30,26,2024/2026
+Chris Pappas,Yehuda Neuberger,Baltimore,MD,21208,Self-Employed,Finance,350000,1,2025-12-31,2025-12-31,zip,false,26695000,143,105,2024/2026
+Chris Pappas,Aaron J. Leibovic,Los Angeles,CA,90049,Health Advocates,Attorney,300000,1,2026-04-09,2026-04-09,zip,true,2897500,16,14,2024/2026
+Chris Pappas,Alan Marcus,Newton,MA,02461,Boston College,Professor,300000,2,2025-03-28,2026-07-16,zip,true,2790000,27,19,2024/2026
+Chris Pappas,Benjamin K. Greenwald,Baltimore,MD,21202,Greenwald & Co. Inc.,Real Estate,300000,1,2026-01-22,2026-01-22,state,false,1300000,6,6,2026
+Chris Pappas,Dennis Monasebian,Armonk,NY,10504,Montgomery Corporation,Real Estate,300000,1,2025-06-20,2025-06-20,zip,true,2066000,14,12,2024/2026
+Chris Pappas,Howard Wohl,Mill Neck,NY,11765,Not Employed,Not Employed,300000,4,2025-10-30,2026-06-29,zip,false,325000,5,3,2024/2026
+Chris Pappas,Jeffrey Goldstein,North Andover,MA,01845,Not Employed,Retired,300000,2,2025-04-24,2026-07-09,zip,false,2800000,17,13,2024/2026
+Chris Pappas,Lillian Pinkus,Dallas,TX,75230,Not Employed,Retired,300000,2,2025-03-31,2025-08-07,zip,false,7820000,35,30,2024/2026
+Chris Pappas,Mark Tavlarides,Washington,DC,20008,Bgr Group,Government Affairs,300000,3,2025-06-18,2026-05-19,zip,true,200000,2,0,2024
+Chris Pappas,Peter Weil,Beverly Hills,CA,90210,"Glaser Weil, LLP",Attorney,300000,1,2025-05-15,2025-05-15,zip,false,3300000,11,11,2024/2026
+Chris Pappas,Robert Russel,Boca Raton,FL,33432,Not Employed,Retired,300000,1,2026-02-05,2026-02-05,zip,false,925000,5,5,2024/2026
+Chris Pappas,Susan Bergman,Newton Center,MA,02459,Not Employed,Retired,300000,2,2025-04-17,2026-07-09,zip,false,1450000,11,9,2024/2026
+Chris Pappas,Al Kamen,New York,NY,10022,Not Employed,Not Employed,291000,45,2025-04-06,2025-09-08,zip,false,100000,1,1,2024
+Chris Pappas,Robert Spilka,Stamford,CT,06903,N/A,Retired,275000,1,2025-03-31,2025-03-31,zip,false,1350000,8,8,2024/2026
+Chris Pappas,Adam Offenhartz,New York,NY,10003,Baughman Kroup Bosse,Attorney,250000,1,2025-03-28,2025-03-28,state,true,4825000,31,21,2024/2026
+Chris Pappas,Adam Offenhartz,New York,NY,10011,Baughman Kroup Bosse,Attorney,250000,1,2025-09-30,2025-09-30,zip,true,4825000,31,21,2024/2026
+Chris Pappas,Brett Goldfarb,Mercer Island,WA,98040,Not Employed,Not Employed,250000,1,2025-11-13,2025-11-13,zip,false,2750000,19,16,2024/2026
+Chris Pappas,Elan Ben-Avi,Bedford,NY,10506,Alvarez & Marsal,Financial Advisory,250000,1,2025-09-30,2025-09-30,zip,false,377500,3,3,2024/2026
+Chris Pappas,Glenn Siegel,Short Hills,NJ,07078,Moore & Van Allen,Attorney,250000,1,2025-09-11,2025-09-11,zip,true,800000,3,3,2026
+Chris Pappas,Herbert Simon,Indianapolis,IN,46260,Not Employed,Retired,250000,1,2026-07-30,2026-07-30,zip,false,8450000,42,36,2024/2026
+Chris Pappas,Isaac Pachulski,Beverly Hills,CA,90210,"Pachulski, Stang, Ziehl & Jones",Attorney,250000,1,2025-06-20,2025-06-20,zip,true,3000000,15,12,2024/2026
+Chris Pappas,Jason Cohen,Rye Brook,NY,10573,Portage Point,Banker,250000,1,2025-09-25,2025-09-25,zip,true,750000,3,3,2026
+Chris Pappas,Jason Rhodes,Newton,MA,02458,Atlas Venture,Biotech,250000,1,2025-10-08,2025-10-08,zip,true,2350000,16,15,2026
+Chris Pappas,Jeff Platt,Las Vegas,NV,89138,Self Employed,Broadcaster,250000,1,2025-08-07,2025-08-07,zip,false,1425000,7,6,2026
+Chris Pappas,Joshua Katzeff,Armonk,NY,10504,The Carlyle Group,Finance,250000,1,2025-09-25,2025-09-25,zip,false,250000,1,1,2026
+Chris Pappas,Laura Stein,Beverly Hills,CA,90210,Robbins Geller,Attorney,250000,2,2025-06-20,2025-08-14,zip,true,2792500,24,22,2024/2026
+Chris Pappas,Lisa Field,Beverly Hills,CA,90210,Self,Real Estate,250000,1,2026-04-09,2026-04-09,zip,false,3087500,18,17,2024/2026
+Chris Pappas,Michael Katz,Bergenfield,NJ,07621,Self Employed,Attorney,250000,1,2025-06-27,2025-06-27,zip,false,100000,1,1,2024
+Chris Pappas,Richard Fiedotin,Corte Madera,CA,94925,Not Employed,Retired,250000,2,2025-03-28,2025-08-21,zip,false,2350000,24,19,2024/2026
+Chris Pappas,Richard Krupp,New York,NY,10075,Pierpoint,Physician,250000,1,2025-03-28,2025-03-28,zip,true,2100000,10,10,2024/2026
+Chris Pappas,Robert Hirsh,Demarest,NJ,07627,"Norton Rose Fulbright, LLP",Attorney,250000,1,2025-09-25,2025-09-25,zip,false,250000,1,1,2026
+Chris Pappas,Ronit Berkovich,New York,NY,10023,"Weil, Gotshal & Manges, LLP",Attorney,250000,1,2025-09-11,2025-09-11,zip,false,876800,7,5,2026
+Chris Pappas,Sandra Einberg,The Woodlands,TX,77380,Not Employed,Not Employed,250000,1,2025-03-31,2025-03-31,zip,false,600000,3,3,2024/2026
+Chris Pappas,Scott Edelman,Beverly Hills,CA,90212,Not Employed,Retired,250000,1,2025-05-15,2025-05-15,zip,false,2850000,14,14,2024/2026
+Chris Pappas,Seth Wise,Davie,FL,33330,Bbx Capital,Real Estate,250000,1,2025-05-15,2025-05-15,zip,true,9093800,57,40,2024/2026
+Chris Pappas,Sheri Rapaport,Los Angeles,CA,90049,Not Employed,Not Employed,250000,1,2026-03-31,2026-03-31,zip,false,3542500,21,18,2024/2026
+Chris Pappas,Simon Ziff,Armonk,NY,10504,Ackman-Ziff Real Estate Group,President,250000,1,2025-03-26,2025-03-26,zip,true,3180000,22,18,2024/2026
+Chris Pappas,Susan Hammer,Livingston,NJ,07039,Brach Eichler,Attorney,250000,1,2025-03-31,2025-03-31,zip,true,2499800,34,19,2024/2026
+Chris Pappas,Yale Baron,Teaneck,NJ,07666,Anchorage Capital,Finance,250000,1,2025-09-30,2025-09-30,zip,true,1550000,5,5,2026
+Chris Pappas,Marcia Leifer,Newton,MA,02458,Leifer Capital Advisers,Trust Administrator,245100,1,2026-08-05,2026-08-05,zip,true,6380000,21,18,2024/2026
+Chris Pappas,Jacob Blumenfeld,Pikesville,MD,21208,Quest Holdings,Real Estate,214300,1,2025-03-28,2025-03-28,zip,true,5151500,34,27,2024/2026
+Chris Pappas,Jennifer Grossman,Baltimore,MD,21208,Shalom Tikvah,Founder,214300,1,2025-03-31,2025-03-31,zip,true,564300,7,7,2024/2026
+Chris Pappas,Josh Shein,Owings Mills,MD,21117,Trius Lending Partners,Executive,214300,1,2025-03-31,2025-03-31,zip,true,2685800,19,16,2024/2026
+Chris Pappas,Karen Segall,Pikesville,MD,21208,N/A,Retired,214300,1,2025-03-31,2025-03-31,zip,false,1863600,14,13,2024/2026
+Chris Pappas,Neal Fruman,Baltimore,MD,21224,National Lumber Company,Business Owner,214300,1,2025-03-28,2025-03-28,zip,true,1785800,7,6,2026
+Chris Pappas,Penny Silverman,Baltimore,MD,21208,University Of Md,Physician,214300,1,2025-03-28,2025-03-28,zip,true,1357200,5,4,2026
+Chris Pappas,Alexandra Tesser,Scarsdale,NY,10583,Community Reinvestment Fund,Finance,200000,1,2025-06-12,2025-06-12,zip,false,900000,7,7,2024/2026
+Chris Pappas,Amitay Kalmar,Boston,MA,02110,Lendbuzz,Manager,200000,1,2026-08-06,2026-08-06,state,true,300000,2,2,2024/2026
+Chris Pappas,Andrew Pollak,Owings Mills,MD,21117,University Of Maryland Medical System,Healthcare Executive,200000,1,2026-01-22,2026-01-22,zip,true,400000,2,2,2026
+Chris Pappas,Andrew Silfen,Rye Brook,NY,10573,Arentfox Schiff,Attorney,200000,1,2025-09-30,2025-09-30,zip,false,20000,2,2,2024
+Chris Pappas,Aron Ain,Naples,FL,34103,Not Employed,Retired,200000,1,2025-04-24,2025-04-24,zip,false,1100000,7,7,2024/2026
+Chris Pappas,Carey Strom,Los Angeles,CA,90048,Self,Md,200000,1,2026-04-30,2026-04-30,zip,false,1460000,9,9,2024/2026
+Chris Pappas,Cheryl Silverman,Great Neck,NY,11021,Not Employed,Not Employed,200000,1,2025-09-30,2025-09-30,zip,false,150000,1,1,2026
+Chris Pappas,Claudia Gordon Felson,Castro Valley,CA,94546,Not Employed,Not Employed,200000,2,2025-03-28,2025-08-14,zip,false,1775000,29,26,2024/2026
+Chris Pappas,Clifford Long,Newton,MA,02465,Long Term Capital LLC,Real Estate Investor,200000,1,2025-03-28,2025-03-28,zip,true,2900000,16,14,2024/2026
+Chris Pappas,Daniel B. Caine,Brooklyn,NY,11218,"Centerbase, LLC",Manager,200000,2,2025-03-28,2026-06-30,zip,true,4520000,36,21,2024/2026
+Chris Pappas,Daniel Edelman,New Rochelle,NY,10804,Flexpoint Ford,Private Equity,200000,1,2025-06-05,2025-06-05,zip,true,1000000,8,8,2024/2026
+Chris Pappas,Daniel Gryczman,Los Angeles,CA,90024,Blumax Partners LLC,Managing Partner,200000,1,2026-04-30,2026-04-30,zip,true,1347500,9,9,2024/2026
+Chris Pappas,David Bercow,Armonk,NY,10504,Vensure,Sales,200000,1,2025-05-22,2025-05-22,zip,true,2952000,78,55,2024/2026
+Chris Pappas,Debi Benaron,Los Angeles,CA,90035,Lex,Broker,200000,1,2026-04-23,2026-04-23,zip,true,318000,3,3,2026
+Chris Pappas,Donald Liss,Bronx,NY,10463,Physical Medicine & Rehabilitation,Physician,200000,1,2025-05-22,2025-05-22,zip,false,3700000,20,19,2024/2026
+Chris Pappas,Ellen Hochman,Brookline,MA,02445,Not Employed,Retired,200000,2,2025-04-17,2026-08-06,zip,false,2230000,22,13,2024/2026
+Chris Pappas,Glen Lewy,Mamaroneck,NY,10543,Not Employed,Retired,200000,1,2025-05-29,2025-05-29,zip,false,2030000,13,11,2024/2026
+Chris Pappas,Hilary Michael,Los Angeles,CA,90024,Wme,"Talent Agent, Partner, Department Head",200000,1,2026-04-30,2026-04-30,zip,true,560000,3,3,2026
+Chris Pappas,Howard Farber,Encino,CA,91316,Alpert & Affiliates,Executive,200000,2,2026-04-30,2026-04-30,zip,true,1807500,11,11,2024/2026
+Chris Pappas,Irwin Chafetz,Brookline,MA,02445,Self Employed,Executive,200000,1,2025-03-28,2025-03-28,zip,false,500000,4,4,2024/2026
+Chris Pappas,Jeffrey A. Weiss,Lincoln,RI,02865,Self Employed,Finance,200000,2,2025-03-28,2026-07-16,zip,false,1650000,15,11,2024/2026
+Chris Pappas,Jeffrey Wolman,Culver City,CA,90230,Wolman Wealth Management,Business Manager,200000,1,2026-03-31,2026-03-31,zip,true,2732500,21,19,2024/2026
+Chris Pappas,Jeremy Burton,Cambridge,MA,02139,Jcrc Of Greater Boston,Ceo,200000,2,2025-03-28,2026-08-06,zip,true,950000,12,8,2024/2026
+Chris Pappas,Jerry Wolasky,Deerfield Beach,FL,33442,Healthsource Distributors,Executive,200000,1,2026-01-22,2026-01-22,zip,true,4050000,23,22,2024/2026
+Chris Pappas,Jone Dalezman,Newton,MA,02460,Not Employed,Not Employed,200000,2,2025-03-28,2026-06-30,zip,false,8121666,64,43,2024/2026
+Chris Pappas,Joseph L. Schocken,Mercer Island,WA,98040,"Tranceka Capital, LLC",Investment Banker,200000,1,2025-11-28,2025-11-28,zip,false,8530000,28,15,2024/2026
+Chris Pappas,Joseph Mark Schapiro,Baltimore,MD,21209,Continental Realty,Real Estate Broker,200000,1,2026-02-05,2026-02-05,state,false,1400000,13,12,2024/2026
+Chris Pappas,Joseph Sarachek,Scarsdale,NY,10583,Sarachek Law Firm,Attorney,200000,1,2025-05-22,2025-05-22,zip,true,1960000,11,9,2024/2026
+Chris Pappas,Ken Alterman,Mercer Island,WA,98040,Not Employed,Not Employed,200000,1,2025-11-13,2025-11-13,zip,false,1700000,20,12,2024/2026
+Chris Pappas,Lawrence Cohen,Newton,MA,02459,Nixon Peabody,Attorney,200000,2,2025-03-28,2026-07-23,zip,true,1541000,16,11,2024/2026
+Chris Pappas,Lawrence Goldstein,Palm Beach Gardens,FL,33418,Santa Monica Partner,Fund Manager,200000,1,2025-03-31,2025-03-31,zip,true,1050000,5,5,2026
+Chris Pappas,Marc D. Silverstein,Lakewood Ranch,FL,34202,Not Employed,Retired,200000,2,2025-05-08,2026-06-30,zip,false,2780000,31,23,2024/2026
+Chris Pappas,Mark Gross,Surry,NH,03431,Surry Investment Advisors,Executive,200000,1,2025-03-28,2025-03-28,zip,true,1880000,5,4,2024/2026
+Chris Pappas,Mark Schwartzman,Glen Burnie,MD,21061,Glen Burnie Transmissions,President,200000,1,2026-01-22,2026-01-22,zip,true,1400000,8,8,2026
+Chris Pappas,Marshall Klein,Baltimore,MD,21230,Self-Employed,Retail Grocery,200000,1,2026-01-22,2026-01-22,zip,false,1600000,13,11,2024/2026
+Chris Pappas,Matthew Bergman,Seattle,WA,98102,Social Media Victims Law Center,Attorney,200000,1,2025-10-30,2025-10-30,zip,true,1560000,6,5,2024/2026
+Chris Pappas,Michael Auerbach,Los Angeles,CA,90064,Jackoway Austen,Attorney,200000,1,2026-04-30,2026-04-30,zip,true,620000,5,5,2024/2026
+Chris Pappas,Michael Weilheimer,Mashpee,MA,02649,N/A,Retired,200000,1,2025-03-28,2025-03-28,zip,false,4255600,35,23,2024/2026
+Chris Pappas,Miles Schlosberg,Seattle,WA,98199,Auke Bay Company,General Manager,200000,1,2025-11-13,2025-11-13,zip,true,4880000,24,15,2024/2026
+Chris Pappas,Nancy Josephson,Los Angeles,CA,90069,Wme,Talent Agent,200000,1,2026-03-31,2026-03-31,zip,true,2852500,20,18,2024/2026
+Chris Pappas,Rachel Albert,Middlebury,CT,06762,Not Employed,Not Employed,200000,1,2025-12-31,2025-12-31,zip,false,125000,2,1,2024/2026
+Chris Pappas,Rachel Murray,New York,NY,10003,Moelis,Investment Banker,200000,1,2025-09-11,2025-09-11,zip,true,1350000,6,6,2024/2026
+Chris Pappas,Richard Abrams,Fort Worth,TX,76116,Not Employed,Retired,200000,1,2025-07-31,2025-07-31,zip,false,1250000,7,6,2024/2026
+Chris Pappas,Richard P. Schifter,Washington,DC,20016,Retired,Retired,200000,1,2026-05-18,2026-05-18,zip,false,2400000,17,13,2024/2026
+Chris Pappas,Robert Gach,Los Angeles,CA,90069,Ubs,"Private Wealth Manager, Portfolio Mana",200000,1,2026-04-30,2026-04-30,zip,true,4960000,24,20,2024/2026
+Chris Pappas,Robert Kann,Newton,MA,02459,Not Employed,Retired,200000,2,2025-03-28,2026-06-30,zip,false,2550000,27,16,2024/2026
+Chris Pappas,Robert Lewenson,Tampa,FL,33615,N/A,Retired,200000,1,2025-03-31,2025-03-31,zip,false,2050000,14,11,2024/2026
+Chris Pappas,Stephen B Loeb,Seattle,WA,98116,Not Employed,Not Employed,200000,1,2025-11-13,2025-11-13,zip,false,3435000,19,13,2024/2026
+Chris Pappas,Steven J. Sibel,Cockeysville,MD,21030,Sjs Enterprises,President,200000,2,2025-03-28,2026-01-22,zip,true,3200000,30,25,2024/2026
+Chris Pappas,Tammy Shatz,New Rochelle,NY,10804,Not Employed,Retired,200000,1,2025-06-12,2025-06-12,zip,false,1600000,9,9,2024/2026
+Chris Pappas,Todd Becker,San Jose,CA,95136,Self-Employed,Preschool Owner,200000,1,2026-05-26,2026-05-26,state,false,7785000,42,35,2024/2026
+Chris Pappas,Albert Goldstein,Coral Gables,FL,33143,Stoiclane,Ceo,150000,1,2025-05-15,2025-05-15,zip,true,2720900,11,8,2024/2026
+Chris Pappas,Arthur Smith,Austin,TX,78746,Austin Heart,Cardiologist,150000,1,2025-03-31,2025-03-31,zip,true,1300000,15,12,2024/2026
+Chris Pappas,Benjamin Friend,San Francisco,CA,94102,Howard Properties,Real Estate,150000,1,2025-08-28,2025-08-28,zip,true,7222500,48,38,2024/2026
+Chris Pappas,Blair W. Effron,New York,NY,10075,Centerview Partners,Investment Banker,150000,1,2026-01-02,2026-01-02,zip,true,2550000,13,13,2024/2026
+Chris Pappas,Blake Roter,Highland Park,IL,60035,Burke Warren Mackay & Serritella P.C.,Attorney,150000,2,2025-09-29,2025-12-31,zip,false,100000,1,1,2026
+Chris Pappas,Brad Mindlin,Incline Village,NV,89451,Oro Capital Advisors,Managing Partner,150000,1,2025-06-20,2025-06-20,zip,true,16460000,45,36,2024/2026
+Chris Pappas,Daniel Hertzberg,Miami Beach,FL,33140,Self Employed,Real Estate,150000,1,2025-05-15,2025-05-15,zip,false,4373900,36,29,2024/2026
+Chris Pappas,Daniel Miller,Santa Monica,CA,90402,Miller Barondess,Attorney,150000,1,2025-05-15,2025-05-15,zip,true,1800000,12,11,2026
+Chris Pappas,David Adelman,Des Moines,IA,50312,Cornerstone Government Affairs,Consultant,150000,3,2025-06-12,2026-06-23,zip,true,115000,5,3,2024
+Chris Pappas,Deborah Rudy,Austin,TX,78733,Not Employed,Not Employed,150000,1,2025-03-28,2025-03-28,zip,false,13555200,48,35,2024/2026
+Chris Pappas,Donny Friend,San Francisco,CA,94121,Self Employed,Real Estate,150000,1,2025-08-28,2025-08-28,zip,false,3725000,26,24,2024/2026
+Chris Pappas,Ed Bridge,Mercer Island,WA,98040,Not Employed,Not Employed,150000,1,2025-11-28,2025-11-28,zip,false,150000,2,2,2024/2026
+Chris Pappas,Ed Zimbler,Los Angeles,CA,90024,Berkadia,Senior Managing Director,150000,1,2025-06-20,2025-06-20,zip,true,4780000,39,34,2024/2026
+Chris Pappas,Guy Ruttenberg,Los Angeles,CA,90067,Ruttenberg Ip Law,Attorney,150000,1,2025-06-20,2025-06-20,zip,true,1350000,9,8,2026
+Chris Pappas,Howard Heller,Cambridge,MA,02139,Massachusetts General Brigham,Physician,150000,2,2025-03-28,2025-08-18,zip,false,500000,5,5,2026
+Chris Pappas,Jason Friend,San Francisco,CA,94102,Howard Properties,Real Estate,150000,1,2025-08-28,2025-08-28,zip,true,5775000,39,36,2024/2026
+Chris Pappas,Larry Genet,Ft Lauderdale,FL,33312,Cbre Group,Real Estate,150000,1,2025-05-15,2025-05-15,zip,false,8021300,44,33,2024/2026
+Chris Pappas,Matthew Adler,Coral Gables,FL,33156,Adler Real Estate Partners,Founder,150000,1,2025-05-15,2025-05-15,zip,true,850000,8,7,2026
+Chris Pappas,Michael Weilheimer,Newton,MA,02459,Not Employed,Retired,150000,1,2026-08-06,2026-08-06,zip,false,745600,5,5,2026
+Chris Pappas,Sara Blechner,Scarsdale,NY,10583,Self Employed,Speech Therapist,150000,1,2025-05-22,2025-05-22,zip,false,1435000,12,11,2024/2026
+Chris Pappas,William Gray,Plantation,FL,33325,76 Undefeated,Manager,150000,1,2025-05-15,2025-05-15,zip,false,5721400,37,31,2024/2026
+Chris Pappas,Norman J. Radow,Atlanta,GA,30326,Radco Industries,Ceo,125000,1,2025-12-18,2025-12-18,zip,false,13050000,41,32,2024/2026
+Chris Pappas,Adam Basner,Stevenson,MD,21153,Self-Employed,Physician,100000,1,2026-01-22,2026-01-22,zip,false,500000,3,3,2026
+Chris Pappas,Adam Miller,Lutherville,MD,21093,"Klnb, LLC",Real Estate,100000,1,2026-01-22,2026-01-22,zip,true,800000,7,7,2026
+Chris Pappas,Aimee Dechter,Seattle,WA,98121,Not Employed,Not Employed,100000,1,2026-02-05,2026-02-05,zip,false,950000,26,26,2026
+Chris Pappas,Alan J. Hyatt,Annapolis,MD,21401,"Hyatt & Weber, Pac",Attorney,100000,1,2026-02-05,2026-02-05,zip,false,1900000,15,13,2024/2026
+Chris Pappas,Alby Kass,Closter,NJ,07624,Verita Global,Executive,100000,1,2025-09-25,2025-09-25,state,true,650000,2,2,2026
+Chris Pappas,Aliza Guren,Los Angeles,CA,90049,Karney Properties Co.,Real Estate,100000,1,2026-04-30,2026-04-30,zip,true,1397500,15,14,2024/2026
+Chris Pappas,Allen Dalezman,Newton,MA,02460,Abinitio,Coo,100000,1,2025-03-28,2025-03-28,zip,true,4200000,32,26,2024/2026
+Chris Pappas,Amir Goldman,Merion Station,PA,19066,Susquehanna International Group,Venture Capitalist,100000,1,2025-03-28,2025-03-28,zip,true,8060000,42,31,2024/2026
+Chris Pappas,Amy Friedkin,San Francisco,CA,94104,Not Employed,Not Employed,100000,1,2025-07-31,2025-07-31,zip,false,6665000,53,43,2024/2026
+Chris Pappas,Arthur H. Adler,Owings Mills,MD,21117,D.S. Brown Enterprises,Vice President,100000,1,2026-01-22,2026-01-22,zip,false,1700000,13,12,2024/2026
+Chris Pappas,Barry Best,New Rochelle,NY,10804,Mc Credit Partners,Investor,100000,1,2025-06-04,2025-06-04,zip,true,800000,8,8,2024/2026
+Chris Pappas,Barry Labell,Boca Raton,FL,33496,Seed And Smith,Founder Owner,100000,1,2025-03-28,2025-03-28,zip,true,2680000,25,20,2024/2026
+Chris Pappas,Barry Price,New City,NY,10956,Price Construction LLC,Engineer,100000,1,2025-03-31,2025-03-31,zip,true,600000,7,7,2024/2026
+Chris Pappas,Barry Richter,Guilford,CT,06437,Not Employed,Retired,100000,1,2026-08-06,2026-08-06,zip,false,375000,4,3,2024/2026
+Chris Pappas,Barry Swidler,Boca Raton,FL,33496,"American Fire Restoration, LLC",President,100000,1,2025-03-28,2025-03-28,zip,true,3550000,32,22,2024/2026
+Chris Pappas,Benjamin Warren,Houston,TX,77024,Itc Trading Company,Ceo,100000,1,2025-07-24,2025-07-24,zip,true,3510000,17,12,2024/2026
+Chris Pappas,Beryl Hoffman,Needham,MA,02492,Not Employed,Not Employed,100000,1,2026-06-30,2026-06-30,zip,false,586000,7,6,2026
+Chris Pappas,Bettina Kramer,Atlantic Beach,NY,11509,"Creative Effects, Inc.",Owner,100000,1,2025-03-31,2025-03-31,zip,true,2870000,17,14,2024/2026
+Chris Pappas,Betty Berenson,Scarsdale,NY,10583,Not Employed,Retired,100000,1,2025-06-05,2025-06-05,zip,false,1140000,18,15,2024/2026
+Chris Pappas,Bradford Cheney,Fairfax Station,VA,22039,The Majority Group,Government Affairs,100000,1,2025-06-30,2025-06-30,zip,true,50000,1,1,2024
+Chris Pappas,Brian Zaro,Chappaqua,NY,10514,Zaros Family Bakery,Business Owner,100000,1,2025-05-29,2025-05-29,zip,false,550000,5,5,2024/2026
+Chris Pappas,Bruce Goren,Encino,CA,91436,Self Employed,Real Estate,100000,1,2026-03-31,2026-03-31,zip,false,2497500,16,15,2024/2026
+Chris Pappas,Bruce Sholk,Miami Beach,FL,33141,Self Employed,Private Investor,100000,1,2026-01-22,2026-01-22,zip,false,1800000,13,12,2024/2026
+Chris Pappas,Carl M. Youngman,Newton,MA,02458,Not Employed,Retired,100000,1,2026-06-30,2026-06-30,zip,false,2500000,23,15,2024/2026
+Chris Pappas,Charles Myers,Boston,MA,02199,Not Employed,Retired,100000,1,2026-08-06,2026-08-06,zip,false,1600000,15,15,2026
+Chris Pappas,Craig Kornblum,Atlanta,GA,30350,Jeckil Promotions,Small Business Owner,100000,1,2025-03-31,2025-03-31,zip,true,1150000,8,7,2024/2026
+Chris Pappas,Dale Okonow,Needham,MA,02492,The Watermill Group,Senior Partner,100000,1,2026-08-06,2026-08-06,zip,true,1800000,17,17,2024/2026
+Chris Pappas,Daniel Klein,Englewood,NJ,07631,Metropolitan Management,Real Estate,100000,1,2026-01-22,2026-01-22,zip,true,600000,5,5,2026
+Chris Pappas,Daniel Rose,New York,NY,10012,Kreindler & Kreindler LLP,Attorney,100000,1,2025-03-31,2025-03-31,zip,true,3222000,25,20,2024/2026
+Chris Pappas,Darren Roberts,Boca Raton,FL,33496,Self Employed,Investor,100000,1,2025-03-31,2025-03-31,zip,false,1150000,9,8,2026
+Chris Pappas,Dave Keil,Atlanta,GA,30342,Lakeside Software,Executive,100000,1,2025-03-31,2025-03-31,zip,true,100000,1,1,2024
+Chris Pappas,David Alhadeff,Medina,WA,98039,Goldman Sachs,Investment Managment,100000,1,2025-11-28,2025-11-28,zip,true,850000,9,6,2024/2026
+Chris Pappas,David Beth,Boca Raton,FL,33496,Wallachbeth Capital,Owner Broker Dealer,100000,1,2025-03-28,2025-03-28,zip,true,1350000,14,11,2024/2026
+Chris Pappas,David Miller,Rye,NY,10580,Catalyst Capital Advisors,Portfolio Manager,100000,1,2025-03-28,2025-03-28,zip,true,1256000,27,22,2024/2026
+Chris Pappas,David Schostak,Livonia,MI,48152,Schostak Brothers & Company,Chief Executive Officer,100000,1,2025-03-31,2025-03-31,zip,true,1200000,8,8,2024/2026
+Chris Pappas,David Schwartz,Bronx,NY,10463,Not Employed,Retired,100000,1,2025-05-22,2025-05-22,zip,false,1450000,14,13,2024/2026
+Chris Pappas,Debbi Weinberg,Austin,TX,78701,Not Employed,Retired,100000,1,2026-02-26,2026-02-26,zip,false,600000,3,3,2026
+Chris Pappas,Erwin Sokol,Los Angeles,CA,90049,Marina Pacific Hotel & Suites,Hotel Operations,100000,1,2025-06-20,2025-06-20,zip,true,2225000,21,20,2024/2026
+Chris Pappas,Evan Charles,Marietta,GA,30064,Revedge Analytics,Founder And Principal Consultant,100000,1,2025-03-31,2025-03-31,zip,true,980000,15,11,2024/2026
+Chris Pappas,Fred Shaftman,Atlanta,GA,30327,N/A,Retired,100000,1,2025-03-31,2025-03-31,zip,false,2500000,18,16,2024/2026
+Chris Pappas,Garry Rayant,San Francisco,CA,94123,Not Employed,Retired,100000,1,2025-08-28,2025-08-28,zip,false,3816000,36,31,2024/2026
+Chris Pappas,Gary Balter,Hollywood,FL,33019,N/A,Retired,100000,1,2025-03-28,2025-03-28,zip,false,500000,7,6,2026
+Chris Pappas,Georgette Lookstein,Scarsdale,NY,10583,Mastercard,Product Manager,100000,1,2025-06-05,2025-06-05,zip,true,750000,9,9,2024/2026
+Chris Pappas,Gordon I. Horwitz,Baltimore,MD,21215,Sage Management,Real Estate,100000,1,2026-01-22,2026-01-22,zip,false,1300000,12,11,2024/2026
+Chris Pappas,Harmon Shragge,San Francisco,CA,94108,Self Employed,Real Estate,100000,1,2025-08-14,2025-08-14,zip,false,3227500,29,23,2024/2026
+Chris Pappas,Harold Diamond,Bal Harbour,FL,33154,Not Employed,Retired,100000,1,2025-06-27,2025-06-27,zip,false,900000,8,4,2026
+Chris Pappas,Harris Devor,Philadelphia,PA,19103,Cbiz,Forensic Accountant,100000,1,2025-03-28,2025-03-28,zip,true,2705000,33,22,2024/2026
+Chris Pappas,Harry Feder,Bal Harbour,FL,33154,N/A,Retired,100000,1,2025-03-31,2025-03-31,zip,false,725000,11,10,2024/2026
+Chris Pappas,Henry Siegel,New York,NY,10025,Not Employed,Retired,100000,1,2025-12-26,2025-12-26,zip,false,2050000,25,23,2024/2026
+Chris Pappas,Ilene Engel,Atlanta,GA,30305,N/A,Retired,100000,1,2025-03-31,2025-03-31,zip,false,3955000,18,13,2024/2026
+Chris Pappas,Ira Friedman,Teaneck,NJ,07666,Not Employed,Retired,100000,1,2025-06-27,2025-06-27,zip,false,300000,3,3,2024
+Chris Pappas,Isaac Wakszol,Miami,FL,33180,Awm,Financial Advisor,100000,1,2025-03-28,2025-03-28,zip,true,550000,6,5,2026
+Chris Pappas,James Sammet,Marina,CA,93933,Self Employed,Property Management,100000,1,2025-08-28,2025-08-28,zip,false,1150000,11,8,2024/2026
+Chris Pappas,Jane G Gale,Las Vegas,NV,89131,Niche Media,Managing Partner,100000,1,2026-03-27,2026-03-27,zip,false,50000,1,1,2024
+Chris Pappas,Jeff Cohen,Bloomfield Hills,MI,48302,Rock Companies,Developer,100000,1,2025-03-28,2025-03-28,zip,true,1500000,13,12,2024/2026
+Chris Pappas,Jeff Garden,West Bloomfield,MI,48323,Not Employed,Not Employed,100000,1,2025-03-31,2025-03-31,zip,false,600000,7,7,2024/2026
+Chris Pappas,Jeff Selig,Newton,MA,02459,Not Employed,Retired,100000,1,2026-06-30,2026-06-30,zip,false,350000,10,8,2026
+Chris Pappas,Jeff Stonberg,Gloucester,MA,01930,Stonberg Holdings Corp.,Real Estate Broker,100000,1,2025-04-17,2025-04-17,zip,true,1560000,15,12,2024/2026
+Chris Pappas,Jeffrey C. Wolk,Chestnut Hill,MA,02467,The Cross Country Group,Executive,100000,1,2026-08-06,2026-08-06,zip,true,4210000,36,30,2024/2026
+Chris Pappas,Jeffrey Hochberg,Teaneck,NJ,07666,"Sullivan & Cromwell, LLP",Attorney,100000,1,2025-06-27,2025-06-27,zip,false,1000000,14,13,2024/2026
+Chris Pappas,Jeffrey L. Hirsch,Needham,MA,02494,Hirsch Roberts Weinstein LLP,Attorney,100000,1,2025-12-18,2025-12-18,zip,false,1300000,7,3,2024/2026
+Chris Pappas,Joel Nied,Virginia Beach,VA,23451,Price Benowitz LLP,Attorney,100000,1,2025-03-31,2025-03-31,zip,true,850000,8,7,2024/2026
+Chris Pappas,John Farahi,Reno,NV,89511,Monarch Casino Resort,Ceo,100000,1,2025-12-26,2025-12-26,zip,false,660000,1,1,2024
+Chris Pappas,John Somorjai,Hillsborough,CA,94010,"Salesforce, Inc.",Executive Vice President,100000,1,2025-06-26,2025-06-26,zip,false,400000,2,2,2024/2026
+Chris Pappas,Jonathan Davis,Chestnut Hill,MA,02467,The Davis Companies,Ceo,100000,1,2025-10-10,2025-10-10,zip,true,2250000,23,18,2024/2026
+Chris Pappas,Jordan Levy,Miami Beach,FL,33139,Softbank Capital Ny,Managing Partner,100000,1,2025-05-15,2025-05-15,zip,true,2940000,17,13,2024/2026
+Chris Pappas,Joseph Mark,Garden City,NY,11530,"Hambro America, Inc.",Investment Banker,100000,1,2025-06-27,2025-06-27,zip,false,330000,1,1,2024
+Chris Pappas,Joseph Paley,Waban,MA,02468,Frontier Development Corp.,President,100000,1,2026-08-06,2026-08-06,zip,false,200000,2,2,2026
+Chris Pappas,Joseph Stadlen,Hollywood,FL,33019,Self Employed,Real Estate,100000,1,2025-03-31,2025-03-31,zip,false,4561000,21,17,2024/2026
+Chris Pappas,Judith Rosman,Tampa,FL,33629,Not Employed,Not Employed,100000,1,2025-03-31,2025-03-31,zip,false,4126800,29,22,2024/2026
+Chris Pappas,Julie Ovadia,Lafayette,CA,94549,N/A,Retired,100000,1,2025-03-31,2025-03-31,zip,false,2790000,22,18,2024/2026
+Chris Pappas,Ken Solomon,Pilot Point,TX,76258,Merit Street Media,President & Ceo,100000,1,2025-03-31,2025-03-31,zip,true,200000,2,2,2026
+Chris Pappas,Kenneth Novack,Rockport,MA,01966,N/A,Retired,100000,1,2025-03-28,2025-03-28,zip,false,650000,4,4,2026
+Chris Pappas,Laurie Baumel,Teaneck,NJ,07666,Not Employed,Not Employed,100000,1,2025-06-27,2025-06-27,zip,false,100000,1,1,2024
+Chris Pappas,Lea Anne Ottinger,Bellevue,WA,98004,Lmr Advisors,Managing Partner,100000,1,2025-11-20,2025-11-20,zip,true,175000,2,2,2026
+Chris Pappas,Lee Blecher,Rockville,MD,20852,Inova,Physician,100000,1,2025-03-31,2025-03-31,zip,true,100000,1,1,2024
+Chris Pappas,Lee Prisament,Nyack,NY,10960,Not Employed,Retired,100000,1,2025-05-29,2025-05-29,zip,false,650000,7,7,2024/2026
+Chris Pappas,Manuel Rajunov,Dallas,TX,75248,"Snell & Wilmer, LLP",Attorney,100000,1,2025-07-31,2025-07-31,zip,false,1600000,6,6,2026
+Chris Pappas,Marc Cohen,Pikesville,MD,21208,Cfi Management,Commercial Real Estate,100000,1,2026-01-29,2026-01-29,zip,true,275000,3,3,2024/2026
+Chris Pappas,Marc Guren,Los Angeles,CA,90049,"Acuity Capital, LLC",Business,100000,1,2026-04-30,2026-04-30,zip,true,1085000,16,13,2024/2026
+Chris Pappas,Mark Neumann,Bethesda,MD,20814,"510 Ventures, LLC",Business Owner,100000,1,2026-01-15,2026-01-15,zip,true,700000,7,7,2026
+Chris Pappas,Mark Silberman,Atlanta,GA,30327,N/A,Retired,100000,1,2025-03-31,2025-03-31,zip,false,2600000,26,21,2024/2026
+Chris Pappas,Marvin Moskowitz,Tiburon,CA,94920,Not Employed,Retired,100000,2,2025-08-14,2025-08-14,zip,false,1350000,24,19,2024/2026
+Chris Pappas,Mary Schuman,Ann Arbor,MI,48105,N/A,Retired,100000,1,2025-03-31,2025-03-31,zip,false,1050000,8,8,2024/2026
+Chris Pappas,Max Paul,Penn Valley,PA,19072,Ardmore Toyota,Car Dealer,100000,1,2025-07-02,2025-07-02,state,true,2050000,25,21,2024/2026
+Chris Pappas,Max Paul,Ardmore,PA,19003,Not Employed,Retired,100000,1,2025-10-17,2025-10-17,zip,false,2050000,25,21,2024/2026
+Chris Pappas,Michael D. Spektor,Mercer Island,WA,98040,Not Employed,Not Employed,100000,1,2025-11-28,2025-11-28,zip,false,2250000,27,15,2024/2026
+Chris Pappas,Michael Faren,Boca Raton,FL,33496,Stellar Aviation,Owner,100000,1,2025-03-28,2025-03-28,zip,true,580000,6,3,2024/2026
+Chris Pappas,Michael Freedman,Birmingham,MI,48009,N/A,Retired,100000,1,2025-03-31,2025-03-31,zip,false,600000,6,6,2024/2026
+Chris Pappas,Michael Leven,Boca Raton,FL,33496,N/A,Retired,100000,1,2025-03-21,2025-03-21,zip,false,850000,8,7,2026
+Chris Pappas,Michael Milch,Pittsburgh,PA,15217,Diamond & Denim Recruiting,President,100000,1,2025-03-28,2025-03-28,zip,true,2040000,16,12,2024/2026
+Chris Pappas,Michael Needle,Melrose,MA,02176,Cybrexa,Chief Medical Officer,100000,1,2025-03-28,2025-03-28,zip,true,1500000,15,14,2024/2026
+Chris Pappas,Michael Reiff,New York,NY,10011,N/A,Retired,100000,1,2025-03-28,2025-03-28,zip,false,950000,10,8,2024/2026
+Chris Pappas,Michael Renbaum,Owings Mills,MD,21117,"Custom Holding, Inc.",Executive,100000,1,2026-02-05,2026-02-05,zip,false,600000,5,5,2024/2026
+Chris Pappas,Mitchell Gold,Owings Mills,MD,21117,Gold And Company,Real Estate,100000,1,2026-01-22,2026-01-22,zip,true,600000,6,6,2026
+Chris Pappas,Mitchell Roberts,Boston,MA,02116,Pr Restaurants,Restaurants,100000,1,2025-03-28,2025-03-28,zip,true,5030000,38,29,2024/2026
+Chris Pappas,Moises Woldenberg,San Antonio,TX,78230,Intersteel,Owner,100000,1,2025-12-31,2025-12-31,state,false,1000000,5,4,2024/2026
+Chris Pappas,Moses Libitzky,Emeryville,CA,94608,Lpc Real Estate Corp,Chairman,100000,1,2025-09-04,2025-09-04,zip,true,4950000,34,31,2024/2026
+Chris Pappas,Murray Huppin,Spokane,WA,99223,Recom,Division President,100000,1,2025-10-30,2025-10-30,zip,true,5825000,55,38,2024/2026
+Chris Pappas,Nathaniel Rogoff,Woodmere,NY,11598,Hk Organization,Managing Director,100000,1,2025-03-28,2025-03-28,zip,true,650000,4,4,2024/2026
+Chris Pappas,Neil Lubarsky,New Rochelle,NY,10805,Self Employed,Attorney,100000,1,2025-05-29,2025-05-29,zip,false,1030000,9,8,2024/2026
+Chris Pappas,Phil Roberts,Seattle,WA,98109,"Ryan, Swanson & Cleveland, Pllc",Attorney,100000,1,2025-11-28,2025-11-28,zip,true,175000,2,2,2026
+Chris Pappas,Raanon Gal,Atlanta,GA,30329,Barnes And Thornburg,Attorney,100000,1,2025-03-31,2025-03-31,zip,true,450000,5,5,2024/2026
+Chris Pappas,Rachel Eisen,Monsey,NY,10952,Not Employed,Retired,100000,1,2025-06-05,2025-06-05,zip,false,500000,7,7,2024/2026
+Chris Pappas,Rachel Kalmowitz,Birmingham,MI,48009,Temple Beth El,Cantor,100000,1,2025-03-31,2025-03-31,zip,true,1300000,11,9,2024/2026
+Chris Pappas,Rafael Steinberg,Old Greenwich,CT,06870,Servenco Management,Financial Analyst,100000,1,2025-06-12,2025-06-12,zip,true,400000,4,4,2024/2026
+Chris Pappas,Robert Frost,New York,NY,10024,"Signature Partners, LLC",Commercial Real Estate,100000,1,2025-06-09,2025-06-09,zip,false,600000,6,6,2026
+Chris Pappas,Robert Huebscher,Lexington,MA,02420,Not Employed,Retired,100000,1,2026-08-06,2026-08-06,zip,false,2250000,25,21,2024/2026
+Chris Pappas,Robert Pincus,Wilmington,DE,19807,N/A,Retired,100000,1,2025-03-28,2025-03-28,zip,false,9340000,54,36,2024/2026
+Chris Pappas,Robert Swartz,Dallas,TX,75229,Not Employed,Retired,100000,1,2025-07-24,2025-07-24,zip,false,3200000,15,13,2024/2026
+Chris Pappas,Roger Klein,Waban,MA,02468,Not Employed,Not Employed,100000,1,2026-07-29,2026-07-29,zip,false,4000000,34,23,2024/2026
+Chris Pappas,Ron Gregory,Palm Desert,CA,92260,N/A,Retired,100000,1,2025-03-31,2025-03-31,zip,false,235000,5,4,2024/2026
+Chris Pappas,Scott Leemaster,Franklin,MI,48025,N/A,Retired,100000,1,2025-03-31,2025-03-31,zip,false,1300000,12,11,2024/2026
+Chris Pappas,Shelley Goldseker,Owings Mills,MD,21117,Not Employed,Not Employed,100000,1,2026-02-05,2026-02-05,zip,false,700000,6,5,2024/2026
+Chris Pappas,Sidney P. Kadish,Newton,MA,02459,Not Employed,Retired,100000,2,2025-04-17,2026-08-06,zip,false,125000,3,3,2026
+Chris Pappas,Stephen Oppenheimer,Atlanta,GA,30342,N/A,Retired,100000,1,2025-03-31,2025-03-31,zip,false,2700000,26,19,2024/2026
+Chris Pappas,Steven Becker,Boca Raton,FL,33496,Southern Glazers W & S,Executive,100000,1,2025-03-28,2025-03-28,zip,true,2740000,11,9,2024/2026
+Chris Pappas,Steven Berger,Boca Raton,FL,33496,Self Employed,Real Estate Broker,100000,1,2025-04-17,2025-04-17,zip,false,850000,6,6,2026
+Chris Pappas,Steven Gelles,Purchase,NY,10577,Sage Investors,Manager,100000,1,2025-06-05,2025-06-05,zip,true,600000,7,5,2024
+Chris Pappas,Steven Lerman,Fair Lawn,NJ,07410,N/A,Retired,100000,1,2025-03-31,2025-03-31,zip,false,1300000,10,7,2024/2026
+Chris Pappas,Steven Margolin,Bloomfield Hills,MI,48302,"Linwood Realty, Inc",Attorney,100000,1,2025-03-31,2025-03-31,zip,true,1400000,13,8,2024/2026
+Chris Pappas,Steven Segal,Chestnut Hill,MA,02467,Retired,Retired,100000,1,2026-05-21,2026-05-21,zip,false,8977777,44,32,2024/2026
+Chris Pappas,Stuart Nelson,Atlanta,GA,30309,The Shopping Center Group,Retail Leasing Agent,100000,1,2025-03-31,2025-03-31,zip,true,700000,7,7,2024/2026
+Chris Pappas,Tara Brown,Pikesville,MD,21208,Momentum Unlimited,Ceo,100000,1,2026-01-22,2026-01-22,zip,true,550000,7,7,2026
+Chris Pappas,Vera Markowitz,Beverly Hills,CA,90210,Not Employed,Retired,100000,1,2025-08-14,2025-08-14,zip,false,15205000,116,71,2024/2026
+Chris Pappas,Vic Hammel,Wyomissing,PA,19610,N/A,Retired,100000,1,2025-03-28,2025-03-28,zip,false,4050000,47,28,2024/2026
+Chris Pappas,William Schafer,Boca Raton,FL,33496,N/A,Retired,100000,1,2025-03-28,2025-03-28,zip,false,400000,13,13,2024/2026
+Chris Pappas,Zane Brown,Seattle,WA,98112,Amazon,Attorney,100000,1,2025-11-28,2025-11-28,zip,true,700000,8,5,2024/2026
+Chris Pappas,Barry Wolf,Los Angeles,CA,90064,Self Employed,Attorney,80000,8,2026-01-12,2026-08-12,state,false,50000,1,1,2024
+Chris Pappas,Gary Tenzer,Los Angeles,CA,90049,George Smith Partners,Real Estate,75000,1,2025-06-20,2025-06-20,zip,true,1800000,26,21,2024/2026
+Chris Pappas,Phillip Wintner,Los Angeles,CA,90035,"Winwin Enterprises, LLC",Real Estate,75000,1,2025-12-31,2025-12-31,zip,true,475000,7,6,2024/2026
+Chris Pappas,Carolyn Goldstein,Bayside,NY,11360,Not Employed,Not Employed,60000,7,2026-01-04,2026-06-29,zip,false,5000,1,1,2024
+Chris Pappas,Adrienne Young,Sewickley,PA,15143,Not Employed,Not Employed,50400,29,2025-10-10,2026-08-03,zip,false,7200,2,2,2024
+Chris Pappas,Aleksandr Gurevich,San Francisco,CA,94114,"Honte Investments, LLC",Cio,50000,1,2025-09-04,2025-09-04,zip,false,50000,1,1,2026
+Chris Pappas,Ann Bardacke,Vancouver,WA,98660,Ml Financial Inc,Executive,50000,1,2025-10-30,2025-10-30,zip,true,2285000,27,18,2024/2026
+Chris Pappas,Barry Cohn,San Francisco,CA,94132,Cushman & Wakefield,Real Estate,50000,1,2025-08-21,2025-08-21,zip,true,725000,17,17,2024/2026
+Chris Pappas,Bob Kaufman,Anchorage,AK,99507,Self-Employed,Investor,50000,1,2026-03-13,2026-03-13,zip,false,250000,2,2,2026
+Chris Pappas,Brian Doppelt,Boca Raton,FL,33496,Bainbridge Companies,Senior Vice President,50000,1,2025-05-15,2025-05-15,zip,true,3396800,27,20,2024/2026
+Chris Pappas,Brian Gurtman,Woodmere,NY,11598,Sheppard Mullin,Attorney,50000,1,2025-03-31,2025-03-31,zip,true,150000,3,3,2026
+Chris Pappas,Brian Strelitz,Fort Lauderdale,FL,33316,Strelitz Group Ventures,Entrepreneur,50000,1,2025-03-28,2025-03-28,zip,true,325000,7,6,2024/2026
+Chris Pappas,Carlos Andrade,Miami,FL,33138,Impress Your Guests Events,Event Designer,50000,1,2025-05-07,2025-05-07,state,false,50000,1,1,2024
+Chris Pappas,Carmela Pasternak,Palo Alto,CA,94301,Not Employed,Not Employed,50000,1,2026-06-19,2026-06-19,zip,false,100000,2,2,2024
+Chris Pappas,Chris Mccannell,Washington,DC,20001,Eris Group,Partner,50000,1,2026-02-27,2026-02-27,zip,false,1700000,23,18,2024
+Chris Pappas,Dan Kully,Seattle,WA,98115,"Kully Hall, LLC",Political Consultant,50000,1,2025-11-13,2025-11-13,zip,false,150000,2,2,2026
+Chris Pappas,Daniel Fierman,Charleston,SC,29401,Srm,Ceo,50000,1,2025-03-31,2025-03-31,zip,true,450000,7,7,2024/2026
+Chris Pappas,David Rostov,Seattle,WA,98105,Aurion Biotech,Chief Financial Officer,50000,1,2025-11-13,2025-11-13,zip,true,3658330,39,13,2024/2026
+Chris Pappas,David S Cohen,Chevy Chase,MD,20815,Not Employed,Not Employed,50000,1,2026-04-21,2026-04-21,state,false,100000,1,1,2026
+Chris Pappas,Debbie Feinerman,Los Angeles,CA,90077,Not Employed,Retired,50000,1,2025-05-15,2025-05-15,zip,false,850000,17,16,2024/2026
+Chris Pappas,Eitan Homa,San Rafael,CA,94903,Dermatology Associates Of The Bay Area,Physician,50000,1,2025-08-14,2025-08-14,zip,true,780000,10,9,2024/2026
+Chris Pappas,Eli Taub,Los Altos,CA,94024,Not Employed,Retired,50000,1,2025-08-21,2025-08-21,zip,false,200000,3,3,2024/2026
+Chris Pappas,Ellen Schulhofer,Las Vegas,NV,89144,"Brownstein Hyatt Farber Schreck, LLP",Attorney,50000,1,2026-04-09,2026-04-09,zip,false,100000,1,1,2024
+Chris Pappas,Elliott Joseph,Jamaica,NY,11432,N/A,Retired,50000,1,2025-03-28,2025-03-28,zip,false,1350000,21,14,2024/2026
+Chris Pappas,Gary Gershony,San Francisco,CA,94109,Self Employed,Venture Capitalist,50000,1,2025-08-28,2025-08-28,zip,false,475000,8,8,2024/2026
+Chris Pappas,Gina Gonchar,Mercer Island,WA,98040,Not Employed,Not Employed,50000,1,2025-11-20,2025-11-20,zip,false,200000,3,3,2026
+Chris Pappas,Gregory Berger,Denver,CO,80218,"Brownstein Hyatt Farber Schreck, LLP",Attorney,50000,1,2026-01-28,2026-01-28,zip,false,500000,1,1,2026
+Chris Pappas,Irina Lyapis,San Francisco,CA,94117,Atlassian,Attorney,50000,1,2025-08-21,2025-08-21,zip,true,200000,4,4,2026
+Chris Pappas,Isaac Jonas,New Rochelle,NY,10804,Loews Corp.,Investor,50000,1,2025-09-04,2025-09-04,zip,true,487500,11,11,2024/2026
+Chris Pappas,Jeff Farber,Tiburon,CA,94920,Koret Foundation,Ceo,50000,1,2025-08-14,2025-08-14,zip,true,200000,4,4,2024/2026
+Chris Pappas,Jeffrey Halbrecht,Kentfield,CA,94904,Self Employed,Physician,50000,1,2025-08-14,2025-08-14,zip,false,1450000,21,19,2024/2026
+Chris Pappas,Jennifer Bellah,Pacific Palisades,CA,90272,Gibson Dunn & Crutcher,Attorney,50000,1,2025-12-09,2025-12-09,zip,false,100000,1,1,2026
+Chris Pappas,Jorge Woldenberg,Bal Harbour,FL,33154,Corpac Group,Executive,50000,1,2025-05-15,2025-05-15,zip,true,13019100,41,33,2024/2026
+Chris Pappas,Joseph Shamie,Brooklyn,NY,11223,Delta Enterprise Corp,Owner And President,50000,1,2025-03-31,2025-03-31,zip,true,2860000,23,20,2024/2026
+Chris Pappas,Karen Galor,Pittsburgh,PA,15217,Highmark,Attorney,50000,1,2025-03-28,2025-03-28,zip,true,200000,4,4,2026
+Chris Pappas,Konstantin Kraz,Santa Clara,CA,95051,Not Employed,Not Employed,50000,1,2025-08-28,2025-08-28,zip,false,100000,2,2,2026
+Chris Pappas,Larry I. Silverstein,Waban,MA,02468,Morgan Lewis,Attorney,50000,1,2025-10-20,2025-10-20,zip,false,600000,6,6,2024/2026
+Chris Pappas,Larry Stadtner,San Anselmo,CA,94960,Not Employed,Retired,50000,1,2025-08-14,2025-08-14,zip,false,1475000,23,21,2024/2026
+Chris Pappas,Lawrence Edelman,San Francisco,CA,94127,Not Employed,Retired,50000,1,2025-08-28,2025-08-28,zip,false,500000,10,9,2024/2026
+Chris Pappas,Lily Kanter,Mill Valley,CA,94941,Not Employed,Retired,50000,1,2025-08-28,2025-08-28,zip,false,250000,4,4,2024/2026
+Chris Pappas,Liron Gitig,White Plains,NY,10605,Not Employed,Not Employed,50000,1,2025-10-17,2025-10-17,zip,false,1030000,5,4,2024/2026
+Chris Pappas,Loryn Arkow,Los Angeles,CA,90064,"Hogan Lovells Us, LLP",Attorney,50000,1,2025-08-21,2025-08-21,zip,false,750000,5,5,2026
+Chris Pappas,Marcelo Messer,New York,NY,10024,Rothschild & Co,Investment Banker,50000,1,2025-09-04,2025-09-04,zip,true,2304000,20,17,2024/2026
+Chris Pappas,Mark Gilfix,San Francisco,CA,94131,Gilfix & La Poll Associates,Attorney,50000,1,2025-08-21,2025-08-21,zip,true,700000,14,14,2024/2026
+Chris Pappas,Martin Schenker,San Francisco,CA,94118,"Cooley, LLP",Attorney,50000,1,2025-08-21,2025-08-21,zip,false,1050000,21,18,2024/2026
+Chris Pappas,Michael Becker,New York,NY,10003,N/A,Retired,50000,1,2025-03-31,2025-03-31,zip,false,1140000,16,11,2024/2026
+Chris Pappas,Michael Wampold,Mercer Island,WA,98040,Pwrfl,Attorney,50000,1,2025-10-30,2025-10-30,zip,true,750000,11,8,2024/2026
+Chris Pappas,Michele Rosen,Seattle,WA,98112,Not Employed,Not Employed,50000,1,2025-11-13,2025-11-13,zip,false,700000,9,7,2024/2026
+Chris Pappas,Moises Woldenberg,San Antonio,TX,78213,Intersteel Corp,Ceo,50000,1,2025-12-31,2025-12-31,zip,false,100000,1,1,2024
+Chris Pappas,Paul Burstein,Mercer Island,WA,98040,Not Employed,Retired,50000,1,2025-10-30,2025-10-30,zip,false,1750000,30,10,2024/2026
+Chris Pappas,Peter Fishkind,Roslyn Heights,NY,11577,Winston Strawn,Attorney,50000,1,2025-06-15,2025-06-15,zip,true,1040200,11,9,2024/2026
+Chris Pappas,Phoebe Nir,San Francisco,CA,94118,Not Employed,Not Employed,50000,1,2025-08-14,2025-08-14,zip,false,300000,6,6,2026
+Chris Pappas,Rich Benenson,Aspen,CO,81611,"Brownstein, LLP",Managing Partner,50000,1,2025-04-26,2025-04-26,zip,true,50000,1,1,2026
+Chris Pappas,Robert Amkraut,Seattle,WA,98125,Not Employed,Retired,50000,1,2025-11-13,2025-11-13,zip,false,1000000,24,15,2024/2026
+Chris Pappas,Robert Brown,Parkland,FL,33076,Keysource,General Counsel,50000,1,2025-03-28,2025-03-28,zip,true,550000,11,7,2024/2026
+Chris Pappas,Roberto Fischmann,Allentown,PA,18104,N/A,Retired,50000,1,2025-03-31,2025-03-31,zip,false,3950000,45,35,2024/2026
+Chris Pappas,Ronald S. Cohn,Carmel Valley,CA,93924,Self Employed,Investment Management,50000,1,2026-08-17,2026-08-17,zip,false,3150000,16,14,2024/2026
+Chris Pappas,Ronnie Gul,Los Angeles,CA,90034,Mesa West Capital,Finance,50000,1,2026-01-22,2026-01-22,zip,true,375000,6,5,2024/2026
+Chris Pappas,Russell Holdstein,Kentfield,CA,94904,Not Employed,Retired,50000,1,2025-08-14,2025-08-14,zip,false,3300000,42,33,2024/2026
+Chris Pappas,Ruth Zommick,Los Angeles,CA,90067,Harvey Capital Corp,Real Estate,50000,1,2025-03-28,2025-03-28,zip,true,450000,9,8,2024/2026
+Chris Pappas,Sharon Benus,Baltimore,MD,21208,N/A,Retired,50000,1,2025-03-31,2025-03-31,zip,false,50000,1,1,2026
+Chris Pappas,Silvanus Osborn Erickson,San Francisco,CA,94104,"Emerald Fund, Inc.",Real Estate Developer,50000,1,2025-08-14,2025-08-14,zip,true,400000,8,8,2024/2026
+Chris Pappas,Stephen Miller,San Francisco,CA,94121,Not Employed,Retired,50000,1,2025-08-14,2025-08-14,zip,false,1200000,25,22,2024/2026
+Chris Pappas,Steven Lee,San Francisco,CA,94121,"Bitdefender, Inc.",Executive,50000,1,2025-08-21,2025-08-21,zip,false,250000,5,5,2026
+Chris Pappas,Susan Wilson,Scarsdale,NY,10583,Self Employed,Speech Therapist,50000,1,2025-03-31,2025-03-31,zip,false,400000,5,4,2024/2026
+Chris Pappas,Yael Oberndorf,San Francisco,CA,94118,Tikvah Fund,Consultant,50000,1,2025-08-14,2025-08-14,state,false,100000,2,2,2026
+Chris Pappas,Frederick Mcdonald,Yakima,WA,98908,Not Employed,Retired,40000,1,2025-11-06,2025-11-06,zip,false,500000,12,8,2024/2026
+Chris Pappas,Carolyn Hathaway,Yarrow Point,WA,98004,Not Employed,Not Employed,36000,1,2025-11-13,2025-11-13,zip,false,586000,17,9,2024/2026
+Chris Pappas,Marjorie Blatt,Beverly Hills,CA,90212,Blatt Realty L.P.,Property Manager,26000,2,2026-07-21,2026-08-19,zip,false,475000,11,10,2024/2026
+Chris Pappas,Aaron Kleiner,Seattle,WA,98105,Atlassian,Government Affairs,25000,1,2025-11-13,2025-11-13,zip,true,400000,13,10,2024/2026
+Chris Pappas,Arnold Reich,Mercer Island,WA,98040,Not Employed,Not Employed,25000,1,2025-12-26,2025-12-26,zip,false,250000,4,3,2024/2026
+Chris Pappas,Bradley Blesie,Westport,CT,06880,Trailstone Management Corp,Energy,25000,1,2026-08-05,2026-08-05,zip,false,50000,1,0,2026
+Chris Pappas,Bruce Borrus,Seattle,WA,98103,Not Employed,Not Employed,25000,1,2025-11-13,2025-11-13,zip,false,910000,23,14,2024/2026
+Chris Pappas,David Abramowitz,Arlington,VA,22207,Not Employed,Not Employed,25000,1,2026-03-13,2026-03-13,state,false,450000,9,8,2024/2026
+Chris Pappas,David H. Kramer,Los Altos Hills,CA,94022,Not Employed,Not Employed,25000,1,2026-08-11,2026-08-11,state,false,1945000,26,22,2024/2026
+Chris Pappas,David Hochberg,New York,NY,10021,Not Employed,Not Employed,25000,1,2025-04-28,2025-04-28,zip,false,100000,1,1,2024
+Chris Pappas,David Rosen,Carmel,IN,46032,Ami,Executive,25000,1,2026-02-16,2026-02-16,zip,true,75000,2,2,2024
+Chris Pappas,Harold Rosen,Newton Center,MA,02459,Bilh,Physician,25000,1,2025-03-28,2025-03-28,zip,true,190000,8,4,2024/2026
+Chris Pappas,Jared Brown,Seattle,WA,98118,Not Employed,Not Employed,25000,1,2025-11-13,2025-11-13,zip,false,218000,8,5,2024/2026
+Chris Pappas,Louis Treiger,Seattle,WA,98118,Louis H. Treiger Pllc,Attorney,25000,1,2025-11-13,2025-11-13,zip,false,515000,17,10,2024/2026
+Chris Pappas,Mark Lipton,New York,NY,10021,"New York Medical Associates, P.C",Physician,25000,1,2025-09-20,2025-09-20,zip,false,50000,1,0,2026
+Chris Pappas,Nir Maoz,Los Angeles,CA,90067,"Ktbs Law, LLP",Attorney,25000,1,2025-07-17,2025-07-17,zip,false,800000,18,18,2024/2026
+Chris Pappas,Paul Etsekson,Bellevue,WA,98007,Not Employed,Retired,25000,1,2025-11-13,2025-11-13,zip,false,868000,17,13,2024/2026
+Chris Pappas,Paul Sytman,Seattle,WA,98118,Swedish Medical Group,Physician,25000,1,2025-11-13,2025-11-13,zip,true,190000,8,7,2024/2026
+Chris Pappas,Sharon Efron,West Hartford,CT,06107,Goodwin University,Professor,25000,1,2026-08-06,2026-08-06,zip,true,1137500,31,23,2024/2026
+Chris Pappas,Stuart Garrie,Bellevue,WA,98004,Not Employed,Not Employed,25000,1,2025-10-30,2025-10-30,zip,false,275000,10,10,2024/2026
+Chris Pappas,Thomas Kahn,Washington,DC,20007,Not Employed,Not Employed,25000,1,2025-06-25,2025-06-25,zip,false,1050000,3,3,2026
+Chris Pappas,William Hochberg,Edmonds,WA,98020,Hochberg & Hamar,Attorney,25000,1,2025-11-13,2025-11-13,zip,true,275000,10,6,2024/2026
+Chris Pappas,Steven Linkon,Bellevue,WA,98004,Not Employed,Not Employed,21800,1,2025-11-13,2025-11-13,zip,false,55000,3,3,2024
+Chris Pappas,Jacquie G. Bayley,Bellevue,WA,98005,Not Employed,Not Employed,20000,1,2026-07-09,2026-07-09,zip,false,450000,7,6,2024/2026
+Chris Pappas,Michael Krul,Delray Beach,FL,33446,Greenspoon Marder LLP,Attorney,20000,4,2026-04-21,2026-06-20,zip,true,110000,10,9,2026
+Chris Pappas,Emilie Roth,Stanford,CA,94305,Roth Cognitive Engineering,Human Factors Engineer,18700,1,2026-05-18,2026-05-18,zip,true,100000,1,0,2026
+Chris Pappas,Gary Elden,Chicago,IL,60606,Shook Hardy & Bacon L.L.P.,Attorney,12500,5,2026-04-18,2026-08-18,state,false,50000,1,1,2024
+Chris Pappas,Ken Stern,Newton,MA,02462,Pison Technology,Director Of Customer Services,10000,1,2026-07-01,2026-07-01,zip,true,2500,1,1,2024

@@ -1,0 +1,259 @@
+candidate,donor,city,state,zip5,employer,occupation,direct_total_cents,contributions,first_date,last_date,match_tier,same_employer_string,aipac_pac_total_cents,aipac_pac_rows,aipac_pac_recipient_committees,aipac_pac_cycles
+Chris Coons,Alex Amin,Los Angeles,CA,90024,Talent Systems,Executive,700000,2,2025-05-27,2025-05-27,zip,true,1660000,6,5,2026
+Chris Coons,Blair Effron,New York,NY,10019,Centerview,Banking,700000,2,2025-03-20,2025-03-20,state,false,2550000,13,13,2024/2026
+Chris Coons,Jeffrey Gural,New York,NY,10017,Gfp Real Estate LLC,Real Estate,700000,2,2025-03-31,2025-03-31,state,false,1660000,6,6,2024/2026
+Chris Coons,Jonathan Lavine,Boston,MA,02116,Bain Capital,Investor,700000,2,2025-12-16,2025-12-16,zip,true,10840000,16,16,2024/2026
+Chris Coons,Joseph Weinberg,Baltimore,MD,21202,Cordish Companies,Real Estate,700000,2,2025-12-08,2025-12-08,zip,true,21950000,35,34,2026
+Chris Coons,Manny Panar,Silver Spring,MD,20904,Not Employed,Retired,700000,2,2025-07-16,2025-07-16,zip,false,49340000,110,72,2024/2026
+Chris Coons,Michael Hackman,Los Angeles,CA,90049,Hackman Capital Partners,Ceo,700000,2,2026-04-10,2026-04-10,zip,true,32485000,72,50,2024/2026
+Chris Coons,Phil De Toledo,Sherman Oaks,CA,91423,"Capital Group Companies, Inc",Manager,700000,2,2026-04-21,2026-04-21,zip,true,16430000,33,32,2026
+Chris Coons,Philip Darivoff,Short Hills,NJ,07078,Vibrant Capital Partners,Chairman,700000,2,2026-04-01,2026-04-01,zip,true,43625000,90,65,2024/2026
+Chris Coons,Rafi Gordon,Marina Del Rey,CA,90292,Casting Networks,Co-Ceo,700000,2,2025-05-27,2025-05-27,zip,true,5010000,22,19,2024/2026
+Chris Coons,Richard Pzena,New York,NY,10021,Pzena Investment Management,Investment,700000,2,2026-04-09,2026-04-09,zip,true,2130000,6,6,2024/2026
+Chris Coons,Skip Miller,Los Angeles,CA,90067,Miller Barondess,Attorney,700000,2,2026-04-10,2026-04-10,zip,true,22990000,56,43,2024/2026
+Chris Coons,Stuart M. Grant,Boca Raton,FL,33487,Bench Walk Advisors,Managing Director,700000,2,2026-04-06,2026-04-06,zip,true,700000,1,1,2026
+Chris Coons,Suzanne B. Grant,Boca Raton,FL,33487,Not Employed,Retired,700000,2,2026-04-06,2026-04-06,zip,false,700000,1,1,2026
+Chris Coons,Victor Kohn,Encino,CA,91436,Not Employed,Retired,700000,2,2026-04-21,2026-04-21,zip,false,39930000,89,67,2024/2026
+Chris Coons,Warren Eisenberg,Springfield,NJ,07081,Not Employed,Not Employed,700000,2,2025-04-01,2025-04-01,zip,false,2232000,9,8,2024
+Chris Coons,Stephanie Trump,Sunny Isles Beach,FL,33160,Trump Group,Developer,660000,2,2026-04-06,2026-04-06,zip,true,2280000,6,5,2024/2026
+Chris Coons,Andrew Milgram,Greenwich,CT,06831,Marblegate Asset Management,Investment Management,625000,2,2025-09-04,2025-09-04,zip,true,2927600,11,10,2024/2026
+Chris Coons,Andrew Snyder,New York,NY,10013,Cambridge Information Group,Ceo,625000,2,2025-09-03,2025-09-03,zip,true,4350000,7,6,2026
+Chris Coons,Brett Barth,New York,NY,10128,Bbr Partners,Wealth Manager,625000,2,2025-07-15,2025-07-15,zip,true,8375000,36,25,2026
+Chris Coons,David Blitzer,New York,NY,10022,Blackstone Group,Chairman,625000,2,2025-08-27,2025-08-27,zip,false,3125000,5,5,2026
+Chris Coons,David Stonberg,Scarsdale,NY,10583,Neuberger Berman,Investor,625000,2,2025-09-02,2025-09-02,zip,true,1250000,2,2,2026
+Chris Coons,Evan Roth,New York,NY,10013,Bbr Partners,Co-Ceo,625000,2,2025-08-27,2025-08-27,zip,true,4715000,8,7,2024/2026
+Chris Coons,Jeffrey Port,New York,NY,10013,Weill Cornell Medicine,Physician,625000,2,2025-08-26,2025-08-26,zip,false,625000,1,1,2026
+Chris Coons,Jonathan Pollack,New York,NY,10013,Starwood,President,625000,2,2025-09-07,2025-09-07,zip,true,1250000,2,2,2026
+Chris Coons,David Margules,Philadelphia,PA,19146,Ballard Spahr LLP,Attorney,550000,3,2025-09-03,2025-12-31,zip,false,4575000,38,27,2024/2026
+Chris Coons,Barak Raviv,Beverly Hills,CA,90210,Wells Fargo,Financial Advisor,500000,2,2026-04-10,2026-04-10,zip,true,19402300,79,55,2024/2026
+Chris Coons,Robert Klyman,Los Angeles,CA,90004,Dla Piper,Attorney,500000,2,2026-04-10,2026-04-10,zip,true,8030000,29,24,2024/2026
+Chris Coons,Robert Pincus,Wilmington,DE,19806,American University,Professor,450000,2,2025-04-06,2026-03-04,zip,false,5400000,27,20,2024/2026
+Chris Coons,Pamela Kaufman Wagoner,Afton,VA,22920,Upstream Insights LLC,Business Owner,400000,3,2025-08-31,2026-03-03,zip,true,2810000,26,21,2024/2026
+Chris Coons,Daniel Feiner,Los Angeles,CA,90064,Fei,Real Estate,380000,2,2025-05-27,2025-05-27,zip,true,2420000,10,9,2024/2026
+Chris Coons,David Bolour,Los Angeles,CA,90069,And Asset Management,Real Estate Asset Management,380000,2,2025-05-27,2025-05-27,zip,true,2570000,7,6,2026
+Chris Coons,James Fogelman,Beverly Hills,CA,90211,Gibson Dunn & Crutcher,Attorney,380000,2,2025-05-24,2025-05-24,zip,true,3380000,13,11,2024/2026
+Chris Coons,Jesse Sharf,Santa Monica,CA,90402,Gibson Dunn & Crutcher,Partner,380000,2,2025-05-27,2025-05-27,zip,false,6280000,26,23,2024/2026
+Chris Coons,Liz Waters,Santa Monica,CA,90402,Not Employed,Not Employed,380000,2,2025-05-22,2025-05-22,zip,false,2040000,7,6,2026
+Chris Coons,Loren Osher,Santa Monica,CA,90402,Gibson Dunn & Crutcher,Attorney,380000,2,2025-05-29,2025-05-29,zip,false,1870000,5,5,2026
+Chris Coons,Naomi Hochman,Playa Del Rey,CA,90293,Self-Employed,Marketing Consultant,380000,2,2025-05-29,2025-05-29,zip,false,3397500,22,18,2024/2026
+Chris Coons,Sheila Bolour,Beverly Hills,CA,90210,Self-Employed,Medical Consultant,380000,2,2025-06-14,2025-06-14,zip,false,7000000,46,29,2024/2026
+Chris Coons,Barry Dds Kayne,Wilmington,DE,19807,Not Employed,Retired,350000,1,2025-08-21,2025-08-21,zip,false,2550000,23,19,2024/2026
+Chris Coons,Bob Kerrey,New York,NY,10003,Allen And Company,Banker,350000,1,2025-09-08,2025-09-08,zip,true,330000,1,1,2024
+Chris Coons,David Ross,Wilmington,DE,19807,Ross Aronstam & Moritz LLP,Attorney,350000,2,2025-04-05,2025-04-05,zip,true,2800000,24,20,2024/2026
+Chris Coons,Deborah Ross,Wilmington,DE,19807,Not Employed,Not Employed,350000,2,2025-04-05,2025-04-05,zip,false,350000,1,1,2026
+Chris Coons,Donna O. Bender,Encino,CA,91436,Not Employed,Not Employed,350000,1,2026-04-29,2026-04-29,zip,false,12976000,58,39,2024/2026
+Chris Coons,Eric Kassoff,Bethesda,MD,20814,Wilkes Artis Chartered,Attorney,350000,1,2026-03-05,2026-03-05,zip,false,3870000,21,20,2024/2026
+Chris Coons,Hilary Smith Kapner,Bethesda,MD,20817,"Hsk Consulting, LLC",Consultant,350000,1,2026-03-04,2026-03-04,zip,true,15190000,56,40,2024/2026
+Chris Coons,Isaac Pachulski,Beverly Hills,CA,90210,"Pachulski, Stang, Ziehl & Jones",Attorney,350000,1,2026-04-17,2026-04-17,zip,true,3000000,15,12,2024/2026
+Chris Coons,Jason Rhodes,Chestnut Hill,MA,02467,Atlas Venture,Biotech,350000,1,2025-11-04,2025-11-04,state,true,2350000,16,15,2026
+Chris Coons,Jay Schulman,Encino,CA,91436,Not Employed,Retired,350000,1,2026-04-30,2026-04-30,zip,false,4500000,37,31,2024/2026
+Chris Coons,Marc Solomon,Potomac,MD,20854,Finmarc,Real Estate,350000,1,2026-03-06,2026-03-06,zip,true,3660000,18,18,2024/2026
+Chris Coons,Martin Geller,New York,NY,10075,Geller And Company,Founder,350000,1,2026-04-08,2026-04-08,zip,true,11140000,35,28,2024/2026
+Chris Coons,Michelle Margules,Philadelphia,PA,19146,Not Employed,Not Employed,350000,1,2025-09-03,2025-09-03,zip,false,350000,1,1,2026
+Chris Coons,Neil Hockstein,Wilmington,DE,19807,Ent & Allergy Of Delaware,Physician,350000,1,2025-09-02,2025-09-02,zip,false,950000,10,9,2024/2026
+Chris Coons,Pedram Salimpour,Pacific Palisades,CA,90272,Plymouth Holdings,Managing Partner,350000,1,2025-06-01,2025-06-01,zip,false,200000,1,1,2026
+Chris Coons,Robert Granader,Miami,FL,33109,Freedonia Group,Ceo,350000,1,2026-03-06,2026-03-06,zip,true,3280000,9,8,2024/2026
+Chris Coons,Russell Silberglied,Wilmington,DE,19806,Richards Layton & Finger,Attorney,350000,1,2025-08-21,2025-08-21,zip,true,1905000,23,22,2024/2026
+Chris Coons,Scott Copeland,Rockville,MD,20852,"Rst Development, LLC",Real Estate Executive,350000,1,2026-03-05,2026-03-05,zip,true,7630000,43,33,2024/2026
+Chris Coons,Vic Hammel,Wyomissing,PA,19610,Not Employed,Retired,350000,2,2025-08-18,2025-08-18,zip,false,4050000,47,28,2024/2026
+Chris Coons,Jack Markell,Wilmington,DE,19807,Us Department Of State,Diplomat,300000,4,2025-03-26,2026-08-25,zip,false,100000,1,1,2026
+Chris Coons,Jed Nussbaum,Short Hills,NJ,07078,"Nut Tree Capital Management, Lp",Investment Management,300000,1,2026-04-06,2026-04-06,zip,true,1650000,4,4,2026
+Chris Coons,Wayne Cohen,New York,NY,10019,Sculptor Capital,Finance,300000,1,2026-04-10,2026-04-10,zip,true,4030000,17,17,2024/2026
+Chris Coons,Albert Small,Bethesda,MD,20817,Renaissance Centro,Executive,250000,1,2026-03-25,2026-03-25,zip,true,750000,2,2,2026
+Chris Coons,David Kanstoroom,Potomac,MD,20854,Self-Employed,Attorney,250000,2,2025-12-19,2026-03-06,zip,false,3850000,36,33,2024/2026
+Chris Coons,Guy Zaczepinski,Santa Monica,CA,90402,Century Park,Investor,250000,1,2026-04-10,2026-04-10,zip,true,4200000,20,17,2024/2026
+Chris Coons,Marc Felgoise,Fort Washington,PA,19034,Point Energy Solutions,Consultant,250000,1,2025-03-26,2025-03-26,zip,true,6830000,54,39,2024/2026
+Chris Coons,Mitchell Jacobson,New York,NY,10022,Msc Industrial Direct Inc.,Non-Executive Chairman,250000,1,2026-03-27,2026-03-27,zip,true,2340000,10,10,2026
+Chris Coons,Sam Klatt,New York,NY,10010,10 East,Finance,250000,1,2026-04-01,2026-04-01,zip,true,600000,2,2,2026
+Chris Coons,Adam Basner,Stevenson,MD,21153,Self-Employed,Physician,200000,1,2025-12-08,2025-12-08,zip,false,500000,3,3,2026
+Chris Coons,Adam Miller,Lutherville,MD,21093,"Klnb, LLC",Real Estate,200000,1,2025-12-08,2025-12-08,zip,true,800000,7,7,2026
+Chris Coons,Adam Reich,Los Angeles,CA,90035,Reich Brothers,Co-Ceo,200000,1,2026-04-10,2026-04-10,zip,true,3390000,17,15,2024/2026
+Chris Coons,Avi Benus,Pikesville,MD,21208,Crossland LLC,Ceo,200000,1,2025-12-08,2025-12-08,zip,true,5750100,34,26,2024/2026
+Chris Coons,Benjamin Genet,Hollywood,FL,33021,Self-Employed,Real Estate,200000,1,2026-04-07,2026-04-07,zip,false,9250000,17,15,2024/2026
+Chris Coons,Brian Fagan,Encino,CA,91316,Selective Real Estate Investments,President,200000,1,2026-04-24,2026-04-24,zip,true,1800000,13,12,2024/2026
+Chris Coons,Daniel Klein,Englewood,NJ,07631,Metropolitan Management,Real Estate,200000,1,2025-12-08,2025-12-08,zip,true,600000,5,5,2026
+Chris Coons,Daniel Och,Greenwich,CT,06830,Willoughby Capital Holdings LLC,Founder,200000,1,2026-04-06,2026-04-06,zip,true,16010000,7,6,2024/2026
+Chris Coons,Debbi Weinberg,Austin,TX,78701,Not Employed,Retired,200000,1,2025-12-08,2025-12-08,zip,false,600000,3,3,2026
+Chris Coons,Eric Waxman,Los Angeles,CA,90049,Ares Management,Partner,200000,1,2026-04-28,2026-04-28,zip,true,5350000,33,27,2024/2026
+Chris Coons,Howard Edelstein,New York,NY,10022,Not Employed,Not Employed,200000,1,2026-04-06,2026-04-06,zip,false,1450000,7,7,2024/2026
+Chris Coons,Howard Reichel,Potomac,MD,20854,In-Depth Engineering,Coo,200000,1,2026-03-06,2026-03-06,zip,true,1025000,5,4,2026
+Chris Coons,J. Mark Schapiro,Baltimore,MD,21209,Continental Realty,Real Estate,200000,1,2025-12-08,2025-12-08,zip,true,1400000,10,8,2024/2026
+Chris Coons,Jerry Wolasky,Deerfield Beach,FL,33442,Healthsource Distributors,Executive,200000,1,2025-12-08,2025-12-08,zip,true,4050000,23,22,2024/2026
+Chris Coons,Joseph Allerhand,New York,NY,10128,Allerhand & Odoner,Attorney,200000,1,2026-04-06,2026-04-06,zip,true,2530000,9,9,2024/2026
+Chris Coons,Lawrence Macks,Naples,FL,34102,Chesapeake Realty Partners,Ceo,200000,1,2025-12-08,2025-12-08,zip,true,6340000,43,26,2024/2026
+Chris Coons,Lew Rudzki,Los Angeles,CA,90035,Canon Equity Partners,Real Estate,200000,1,2026-04-10,2026-04-10,zip,true,2525000,19,17,2024/2026
+Chris Coons,Margie Fiverson,New Hyde Park,NY,11040,Not Employed,Not Employed,200000,1,2026-04-01,2026-04-01,zip,false,4080000,23,20,2024/2026
+Chris Coons,Mark Schwartzman,Glen Burnie,MD,21061,Glen Burnie Transmissions,President,200000,1,2025-12-08,2025-12-08,zip,true,1400000,8,8,2026
+Chris Coons,Marshall Klein,Baltimore,MD,21230,Self-Employed,Retail Grocery,200000,1,2025-12-08,2025-12-08,zip,false,1600000,13,11,2024/2026
+Chris Coons,Michael Bronfein,Owings Mills,MD,21117,Curio Wellness,Ceo,200000,1,2025-12-09,2025-12-09,zip,true,750000,3,3,2026
+Chris Coons,Michael Leffell,Scarsdale,NY,10583,Portage Partners,Investor,200000,1,2026-04-13,2026-04-13,zip,true,16820000,57,37,2024/2026
+Chris Coons,Nancy Duber,Washington,DC,20007,Not Employed,Retired,200000,1,2026-03-03,2026-03-03,zip,false,200000,1,1,2026
+Chris Coons,Noah Lightman,Baltimore,MD,21209,Not Employed,Retired,200000,1,2025-11-14,2025-11-14,zip,false,1790000,29,21,2024/2026
+Chris Coons,Richard Yulman,Miami Beach,FL,33140,Not Employed,Retired,200000,1,2026-04-06,2026-04-06,zip,false,2050000,8,8,2026
+Chris Coons,Robert Russel,Boca Raton,FL,33432,Not Employed,Retired,200000,1,2025-12-08,2025-12-08,zip,false,925000,5,5,2024/2026
+Chris Coons,Ronald Abramson,Washington,DC,20006,Buchanan Ingersoll & Rooney PC,Attorney,200000,1,2026-03-10,2026-03-10,zip,false,200000,1,1,2026
+Chris Coons,Scott Musoff,Scarsdale,NY,10583,Skadden Arps,Attorney,200000,1,2026-04-08,2026-04-08,zip,false,1175000,9,9,2024/2026
+Chris Coons,Shelley Goldseker,Owings Mills,MD,21117,Not Employed,Not Employed,200000,1,2025-12-08,2025-12-08,zip,false,700000,6,5,2024/2026
+Chris Coons,Stephen Siderow,New York,NY,10028,Siderofsky Strategic Advisors,Consultant,200000,1,2026-04-01,2026-04-01,zip,true,2750000,17,16,2024/2026
+Chris Coons,Tina Small,Bethesda,MD,20817,Not Employed,Retired,200000,1,2026-03-18,2026-03-18,zip,false,1200000,3,2,2024/2026
+Chris Coons,Vera Markowitz,Beverly Hills,CA,90210,Not Employed,Retired,200000,2,2026-04-17,2026-04-22,zip,false,15205000,116,71,2024/2026
+Chris Coons,Yehuda Neuberger,Baltimore,MD,21208,Self-Employed,Finance Professional,200000,1,2025-12-08,2025-12-08,zip,false,26695000,143,105,2024/2026
+Chris Coons,Marc Berman,Chicago,IL,60611,Not Employed,Retired,175000,18,2025-02-02,2026-08-01,zip,false,590000,48,11,2024/2026
+Chris Coons,Adam Rosenfeld,West Hollywood,CA,90069,The Agency,Real Estate Broker,150000,1,2026-04-10,2026-04-10,zip,true,1800000,12,12,2026
+Chris Coons,Avi Tansman,Boca Raton,FL,33433,Unico Itc,Business Owner,150000,1,2026-04-15,2026-04-15,zip,true,1400000,13,11,2024/2026
+Chris Coons,Barry Sylvetsky,Boca Raton,FL,33496,Not Employed,Retired,150000,1,2026-03-26,2026-03-26,zip,false,3150000,20,18,2024/2026
+Chris Coons,Claude Fontheim,Washington,DC,20008,Fontheim International LLC,Ceo,150000,2,2025-03-20,2025-03-20,zip,false,100000,2,2,2024
+Chris Coons,David Hennes,New York,NY,10021,Ropes & Gray LLP,Attorney,150000,1,2026-04-12,2026-04-12,zip,true,850000,9,8,2024/2026
+Chris Coons,Ed Zimbler,Los Angeles,CA,90024,Berkadia,Senior Managing Director,150000,1,2026-04-10,2026-04-10,zip,true,4780000,39,34,2024/2026
+Chris Coons,Freddie Reiss,Santa Monica,CA,90402,Not Employed,Retired,150000,1,2026-04-10,2026-04-10,zip,false,3075000,29,26,2024/2026
+Chris Coons,Jose Reines,Los Angeles,CA,90049,Not Employed,Retired,150000,1,2026-04-10,2026-04-10,zip,false,3222500,45,37,2024/2026
+Chris Coons,Jubin Niahmer,Los Angeles,CA,90024,Jacoby & Meyers,Attorney,150000,1,2026-04-10,2026-04-10,zip,true,1412500,8,7,2026
+Chris Coons,Kinney Zalesne,Washington,DC,20008,Kinney For Dc,Candidate,150000,1,2026-03-14,2026-03-14,zip,true,4015000,19,16,2024/2026
+Chris Coons,Larry Margolis,Basalt,CO,81621,Not Employed,Retired,150000,1,2025-12-27,2025-12-27,zip,false,11510000,35,29,2024/2026
+Chris Coons,Scott Packman,New York,NY,10028,Ssp Partners,Consultant,150000,1,2026-04-08,2026-04-08,zip,true,3190000,26,25,2024/2026
+Chris Coons,Seth Damski,Clifton,NJ,07014,Old City Securities LLC,Financial Advisor,150000,1,2026-04-10,2026-04-10,zip,true,5353000,25,20,2024/2026
+Chris Coons,Stephen Krooth,Bethesda,MD,20814,Not Employed,Retired,150000,1,2026-03-05,2026-03-05,zip,false,10759900,42,36,2024/2026
+Chris Coons,Eric Rosin,Cherry Hill,NJ,08003,Self-Employed,Physician,125000,2,2025-05-13,2025-09-12,zip,false,1775000,21,20,2024/2026
+Chris Coons,Carol Rothschild,Wilmington,DE,19806,Not Employed,Retired,110000,2,2025-06-25,2025-09-03,zip,false,1600000,21,15,2024/2026
+Chris Coons,Aaron Snyder,Rehoboth Beach,DE,19971,Us Health Partners,Physician,100000,1,2026-03-13,2026-03-13,zip,true,200000,2,2,2026
+Chris Coons,Adele Reznikoff,Encino,CA,91436,Not Employed,Not Employed,100000,1,2026-04-30,2026-04-30,zip,false,1200000,19,18,2024/2026
+Chris Coons,Aileen Borok,Encino,CA,91436,Not Employed,Not Employed,100000,1,2026-04-30,2026-04-30,zip,false,1250000,22,19,2024/2026
+Chris Coons,Alan Friedman,Margate City,NJ,08402,Not Employed,Retired,100000,1,2025-04-30,2025-04-30,zip,false,2050000,27,24,2024/2026
+Chris Coons,Alan J. Hyatt,Annapolis,MD,21401,Hyatt And Weber,Attorney,100000,1,2025-12-08,2025-12-08,zip,true,1900000,15,13,2024/2026
+Chris Coons,Albert Praw,Sherman Oaks,CA,91403,Kbhome,Executive,100000,1,2026-04-17,2026-04-17,zip,true,2050000,18,14,2024/2026
+Chris Coons,Albert Small,New York,NY,10012,Renaissance Centro,Managing Director,100000,1,2026-03-30,2026-03-30,zip,false,100000,1,1,2026
+Chris Coons,Alex Meyer,New York,NY,10009,Certares Management LLC,Investment Professional,100000,1,2026-03-26,2026-03-26,zip,true,400000,5,5,2026
+Chris Coons,Alyse Berkley,Encino,CA,91436,Self-Employed,Attorney,100000,1,2026-04-30,2026-04-30,zip,false,552000,12,10,2024/2026
+Chris Coons,Arthur Adler,Owings Mills,MD,21117,Caves Valley Partners,Real Estate,100000,1,2025-12-08,2025-12-08,zip,true,1700000,13,12,2024/2026
+Chris Coons,Ben Small,Washington,DC,20007,Renaissance Centro,Real Estate,100000,1,2026-03-30,2026-03-30,zip,true,100000,1,1,2026
+Chris Coons,Brian Steinwurtzel,Hastings On Hudson,NY,10706,Gfp Real Estate LLC,Ceo,100000,1,2025-03-14,2025-03-14,zip,false,750000,3,2,2026
+Chris Coons,Carla Garfield,Westlake Village,CA,91361,Self-Employed,Real Estate Investor,100000,1,2026-05-02,2026-05-02,zip,false,400000,4,4,2026
+Chris Coons,Colby Kash,Boca Raton,FL,33434,Self-Employed,Biotech,100000,1,2026-03-26,2026-03-26,zip,false,475000,3,3,2026
+Chris Coons,Ed Nahmias,Encino,CA,91436,Not Employed,Retired,100000,1,2026-04-22,2026-04-22,zip,false,1750000,23,19,2024/2026
+Chris Coons,Eric Eskin,Glen Mills,PA,19342,Not Employed,Retired,100000,1,2025-09-04,2025-09-04,zip,false,650000,11,10,2024/2026
+Chris Coons,Erwin Sokol,Los Angeles,CA,90049,Marina Pacific Hotel & Suites,Hotel Operations,100000,1,2026-04-10,2026-04-10,zip,true,2225000,21,20,2024/2026
+Chris Coons,Gary Polson,Los Angeles,CA,90049,Cydcor,Executive,100000,1,2026-05-02,2026-05-02,zip,true,1710000,13,9,2024/2026
+Chris Coons,Gordon I. Horwitz,Baltimore,MD,21215,Sage Ventures LLC,Real Estate,100000,1,2025-12-08,2025-12-08,zip,true,1300000,12,11,2024/2026
+Chris Coons,Graham Miller,Boca Raton,FL,33486,The Bloom Organization,Banker,100000,1,2026-04-05,2026-04-05,zip,true,575000,8,8,2026
+Chris Coons,Gregory Berger,Denver,CO,80218,Brownstein Hyatt Farber Schreck LLP,Attorney,100000,1,2025-06-02,2025-06-02,zip,false,500000,1,1,2026
+Chris Coons,Howard Ader,Los Angeles,CA,90077,Not Employed,Retired,100000,1,2026-04-30,2026-04-30,zip,false,650000,12,12,2024/2026
+Chris Coons,Howard Kohr,Washington,DC,20037,Not Employed,Retired,100000,1,2025-12-19,2025-12-19,zip,false,1750000,14,10,2026
+Chris Coons,Howard Tenenbaum,Hidden Hills,CA,91302,Keyes Motors,Car Business,100000,1,2026-05-02,2026-05-02,zip,true,2200000,21,20,2024/2026
+Chris Coons,Ivan Ross,Scarsdale,NY,10583,Ardea Partners,Finance,100000,1,2026-04-01,2026-04-01,zip,true,2560000,15,11,2024/2026
+Chris Coons,Jan Zakowski,Los Angeles,CA,90024,"Americal Management Co., Inc.",Ceo,100000,1,2026-04-22,2026-04-22,zip,true,7940000,45,32,2024/2026
+Chris Coons,Janet Mintz,Encino,CA,91436,Not Employed,Not Employed,100000,1,2026-04-30,2026-04-30,zip,false,200000,3,3,2026
+Chris Coons,Jason Muss,Forest Hills,NY,11375,Musa Development LLC,President,100000,1,2025-03-27,2025-03-27,zip,false,2535000,15,11,2024/2026
+Chris Coons,Jeffrey Snyder,Boca Raton,FL,33432,Not Employed,Retired,100000,1,2026-03-25,2026-03-25,zip,false,9705000,61,53,2024/2026
+Chris Coons,Jennifer Lopata,Hidden Hills,CA,91302,Synergy Academics,President,100000,1,2026-05-02,2026-05-02,zip,true,3900000,37,33,2024/2026
+Chris Coons,Jill Harmatz-Sanders,Chatsworth,CA,91311,Self-Employed,Real Estate Investor,100000,1,2026-05-02,2026-05-02,zip,false,2500000,32,26,2024/2026
+Chris Coons,Joel Reinstein,Boca Raton,FL,33433,Not Employed,Retired,100000,1,2026-03-25,2026-03-25,zip,false,7890000,35,25,2024/2026
+Chris Coons,Josh Kussman,Mclean,VA,22101,Not Employed,Not Employed,100000,1,2026-03-13,2026-03-13,zip,false,1625000,20,18,2024/2026
+Chris Coons,Larry Margolis,Bethesda,MD,20817,Not Employed,Retired,100000,1,2026-03-14,2026-03-14,zip,false,750000,4,3,2026
+Chris Coons,Laura Younai,Calabasas,CA,91302,Pro Health Prof Services,Cfo,100000,1,2026-05-02,2026-05-02,zip,true,2300000,30,25,2024/2026
+Chris Coons,Lee Miller,Chicago,IL,60611,Abundant Venture Partners,Partner,100000,1,2025-07-15,2025-07-15,zip,true,7240000,43,32,2024/2026
+Chris Coons,Lewis Shrensky,Potomac,MD,20859,Not Employed,Retired,100000,1,2025-12-21,2025-12-21,zip,false,500000,5,5,2026
+Chris Coons,Lisa Hess,Encino,CA,91316,Self-Employed,Cpa,100000,1,2026-04-30,2026-04-30,zip,false,2980000,24,22,2024/2026
+Chris Coons,Lisa Meitus,Delray Beach,FL,33446,Not Employed,Retired,100000,1,2026-03-26,2026-03-26,zip,false,100000,1,1,2026
+Chris Coons,Lisa Philipson,Boca Raton,FL,33496,Not Employed,Retired,100000,1,2026-03-30,2026-03-30,zip,false,450000,7,6,2024/2026
+Chris Coons,Marc Rothenberg,New York,NY,10069,Goldman Sachs,Finance,100000,1,2026-04-02,2026-04-02,zip,false,1175000,8,8,2024/2026
+Chris Coons,Marcia Paller,Encino,CA,91436,Self-Employed,Social Worker,100000,1,2026-04-30,2026-04-30,zip,false,1300000,22,21,2024/2026
+Chris Coons,Mark D. Neumann,Owings Mills,MD,21117,510 Ventures LLC,Business Owner,100000,1,2025-11-12,2025-11-12,zip,false,1770000,20,18,2024/2026
+Chris Coons,Matthew Sloan,Los Angeles,CA,90064,Not Employed,Not Employed,100000,1,2026-04-29,2026-04-29,zip,false,400000,6,6,2024/2026
+Chris Coons,Meg Flax,Chevy Chase,MD,20815,Not Employed,Retired,100000,1,2026-03-24,2026-03-24,zip,false,100000,1,1,2026
+Chris Coons,Michael Longwill,Chadds Ford,PA,19317,Airbase Carpet And Tile Mart,Executive,100000,1,2025-09-02,2025-09-02,zip,false,900000,12,12,2024/2026
+Chris Coons,Michael Nechamkin,Passaic,NJ,07055,Octagon Credit Investors,Investment Management,100000,1,2026-04-10,2026-04-10,zip,true,950000,7,7,2024/2026
+Chris Coons,Michele Yerman,Reisterstown,MD,21136,Not Employed,Not Employed,100000,1,2025-06-17,2025-06-17,zip,false,250000,4,4,2024/2026
+Chris Coons,Mike Stratton,Denver,CO,80209,Brownstein Hyatt Farber Schreck LLP,Shareholder,100000,1,2025-05-29,2025-05-29,zip,false,100000,1,1,2026
+Chris Coons,Mitchell Gold,Owings Mills,MD,21117,Gold And Company,Real Estate,100000,1,2025-12-08,2025-12-08,zip,true,600000,6,6,2026
+Chris Coons,Mitchell Steir,Water Mill,NY,11976,Not Employed,Retired,100000,1,2026-04-13,2026-04-13,zip,false,2300000,18,17,2024/2026
+Chris Coons,Monica Abrams,Bethesda,MD,20814,Not Employed,Retired,100000,1,2025-12-31,2025-12-31,zip,false,1505000,12,12,2024/2026
+Chris Coons,Moshe Meppen,Encino,CA,91436,"Metadolce Technologies, Inc",It,100000,1,2026-04-30,2026-04-30,zip,true,2800000,26,24,2024/2026
+Chris Coons,Nancy Beiser,Encino,CA,91436,By Nancy,Graphic Designer,100000,1,2026-04-30,2026-04-30,zip,true,5200000,45,35,2024/2026
+Chris Coons,Nina Appel,Wilmington,DE,19806,Not Employed,Retired,100000,2,2025-09-03,2025-09-22,zip,false,1025000,18,13,2024/2026
+Chris Coons,Norman Brownstein,Denver,CO,80202,Brownstein Hyatt Farber Schreck LLP,Attorney,100000,1,2025-06-13,2025-06-13,zip,false,13450000,33,31,2024/2026
+Chris Coons,Oren Lazar,North Hollywood,CA,91607,Lazar PC,Attorney,100000,1,2026-04-10,2026-04-10,zip,true,1025000,7,7,2026
+Chris Coons,Rachel Ross,Tarzana,CA,91356,Not Employed,Retired,100000,1,2026-04-30,2026-04-30,zip,false,1300000,12,12,2024/2026
+Chris Coons,Rama Fakheri,Encino,CA,91436,Self-Employed,Business Owner,100000,1,2026-04-29,2026-04-29,zip,false,3366666,20,20,2024/2026
+Chris Coons,Randall Flager,Trevose,PA,19053,"Flager & Associates, PC",Attorney,100000,1,2025-04-29,2025-04-29,zip,true,1550000,16,13,2024/2026
+Chris Coons,Randall Levitt,Bethesda,MD,20814,Nellis Corporation,Investor,100000,1,2026-03-14,2026-03-14,zip,true,4005000,27,23,2024/2026
+Chris Coons,Randy Brust,Encino,CA,91316,Crescent Realty Advisors,Business Owner,100000,1,2026-04-30,2026-04-30,zip,true,2250000,34,27,2024/2026
+Chris Coons,Richard P. Schifter,Washington,DC,20016,Not Employed,Retired,100000,1,2026-03-29,2026-03-29,zip,false,2400000,17,13,2024/2026
+Chris Coons,Richard Weintraub,Malibu,CA,90264,Weintraub Real Estate Group,President,100000,1,2026-04-10,2026-04-10,zip,true,3075000,24,22,2024/2026
+Chris Coons,Rob Medway,Park City,UT,84060,Mflp,Investments,100000,1,2026-03-25,2026-03-25,zip,true,2730000,28,24,2024/2026
+Chris Coons,Robert Stillman,Potomac,MD,20854,Not Employed,Retired,100000,1,2026-03-04,2026-03-04,zip,false,2630000,35,27,2024/2026
+Chris Coons,Rodd Werstil,Pittsburgh,PA,15217,Mckinney Properties,Managing Director,100000,1,2026-01-06,2026-01-06,zip,true,925000,12,11,2024/2026
+Chris Coons,Samuel Menaged,Ardmore,PA,19003,The Renfrew Center,Ceo,100000,1,2025-09-03,2025-09-03,zip,true,2275000,30,21,2024/2026
+Chris Coons,Scott Brenner,Boca Raton,FL,33432,Colliers,Real Estate,100000,1,2026-03-25,2026-03-25,zip,true,1150000,18,18,2024/2026
+Chris Coons,Scott Howard,Woodland Hills,CA,91364,Baker Tilly,Cpa,100000,1,2026-05-02,2026-05-02,zip,true,2491800,34,31,2024/2026
+Chris Coons,Steve Erdman,Los Angeles,CA,90067,Canfield Development Inc,Housing Development,100000,1,2026-04-30,2026-04-30,zip,true,350000,4,4,2026
+Chris Coons,Steven Fishman,Encino,CA,91436,"Fishman, Block And Diamond, By Cerity",Cpa,100000,1,2026-04-30,2026-04-30,zip,true,10790600,52,37,2024/2026
+Chris Coons,Steven J. Sibel,Cockeysville,MD,21030,Caves Valley Partners,Real Estate Developer,100000,1,2025-12-08,2025-12-08,zip,true,3200000,30,25,2024/2026
+Chris Coons,Stuart Siegel,Hidden Hills,CA,91302,Indoor Swap,Real Estate,100000,1,2026-05-02,2026-05-02,zip,true,3600000,37,32,2024/2026
+Chris Coons,Suzie Siegel,Beverly Hills,CA,90210,Not Employed,Retired,100000,1,2026-05-02,2026-05-02,zip,false,800000,7,7,2026
+Chris Coons,Tara Brown,Pikesville,MD,21208,Momentum Unlimited,Ceo,100000,1,2025-12-15,2025-12-15,zip,true,550000,7,7,2026
+Chris Coons,Tom Heymann,Hidden Hills,CA,91302,Nna Services LLC,Manager,100000,1,2026-05-03,2026-05-03,zip,true,3250000,38,34,2024/2026
+Chris Coons,Jennifer Gordon,Marina Del Rey,CA,90292,Self-Employed,Educational Therapist,90000,1,2025-05-30,2025-05-30,zip,false,962500,11,10,2024/2026
+Chris Coons,Gary Tenzer,Los Angeles,CA,90049,George Smith Partners,Real Estate Finance,75000,1,2026-04-10,2026-04-10,zip,true,1800000,26,21,2024/2026
+Chris Coons,Adam Raben,Wilmington,DE,19803,Not Employed,Not Employed,50000,1,2025-09-20,2025-09-20,zip,false,50000,1,1,2026
+Chris Coons,Arthur Hoffman,Harrisburg,PA,17110,Not Employed,Retired,50000,1,2025-09-03,2025-09-03,zip,false,500000,10,9,2024/2026
+Chris Coons,Benjamin Freedman,Boca Raton,FL,33433,Radiology Associates Of Hollywood,Physician,50000,1,2026-03-24,2026-03-24,zip,true,550000,10,9,2026
+Chris Coons,Brian Ostar,Falls Church,VA,22043,Eb5 Capital,President,50000,1,2026-03-13,2026-03-13,zip,true,550000,12,11,2024/2026
+Chris Coons,Christopher Buccini,Chadds Ford,PA,19317,Buccini Pollin Group,Co-President,50000,1,2025-09-17,2025-09-17,zip,true,50000,1,1,2026
+Chris Coons,David Steinman,Bala Cynwyd,PA,19004,Self-Employed,Physician,50000,1,2025-09-02,2025-09-02,zip,false,950000,17,15,2024/2026
+Chris Coons,Elias Saratovsky,Bethesda,MD,20814,Birthright Israel,Ceo,50000,1,2026-03-13,2026-03-13,zip,true,475000,10,10,2024/2026
+Chris Coons,Gideon Gradman,Philadelphia,PA,19146,Baker Tilly,Business Consultant,50000,1,2025-09-04,2025-09-04,zip,true,350000,7,6,2024/2026
+Chris Coons,Harris L. Devor,Philadelphia,PA,19103,"Cbiz, Inc.",Forensic Accountant,50000,1,2025-09-03,2025-09-03,zip,true,2705000,33,22,2024/2026
+Chris Coons,Howard Hogan,Arlington,VA,22205,Gibson Dunn,Partner,50000,1,2026-03-13,2026-03-13,zip,true,550000,9,8,2026
+Chris Coons,Howard Peck,Pennsburg,PA,18073,Self-Employed,Insurance Broker,50000,1,2025-04-29,2025-04-29,zip,false,880000,21,19,2024/2026
+Chris Coons,Ira Wallace,Penn Valley,PA,19072,Wan Advisory,Managing Partner,50000,1,2025-09-17,2025-09-17,zip,true,450000,8,8,2024/2026
+Chris Coons,Irwin Panitch,Boca Raton,FL,33432,Not Employed,Retired,50000,1,2026-03-30,2026-03-30,zip,false,775000,7,7,2026
+Chris Coons,Jack Blumenfeld,Wilmington,DE,19807,Not Employed,Retired,50000,1,2025-09-04,2025-09-04,zip,false,50000,1,1,2026
+Chris Coons,Jan Weinstock,Philadelphia,PA,19107,Gift Of Life Program,Attorney,50000,1,2025-09-03,2025-09-03,zip,false,300000,6,6,2024/2026
+Chris Coons,Jay Krigsman,Delray Beach,FL,33446,Self-Employed,Real Estate,50000,1,2026-04-09,2026-04-09,zip,false,50000,1,1,2026
+Chris Coons,Jennifer Lowitt,Riverside,CT,06878,Ropers Majeski,Attorney,50000,1,2026-03-25,2026-03-25,zip,true,50000,1,1,2026
+Chris Coons,Jennifer Rowland,Wilmington,DE,19803,Christianacare,Physician,50000,1,2025-09-18,2025-09-18,zip,true,50000,1,1,2026
+Chris Coons,Joshua Schoenberg,Wilmington,DE,19803,Schoenberg Memorial Chapel,Funeral Director,50000,1,2025-09-20,2025-09-20,zip,true,455000,14,11,2024/2026
+Chris Coons,Marc Oppenheimer,Philadelphia,PA,19123,Greenwood Gaming Inc,Chief Marketing Officer,50000,1,2025-09-13,2025-09-13,zip,true,2100000,36,23,2024/2026
+Chris Coons,Mark Blaskey,Naples,FL,34119,Ballard Spahr LLP,Attorney,50000,1,2025-09-07,2025-09-07,zip,true,250000,5,5,2024/2026
+Chris Coons,Martin Seaton,Los Angeles,CA,90024,Not Employed,Retired,50000,1,2026-05-26,2026-05-26,zip,false,2020000,56,44,2024/2026
+Chris Coons,Micha Weinblatt,Bethesda,MD,20817,Crooked Monkey,Ceo,50000,1,2026-03-13,2026-03-13,zip,true,400000,8,7,2024/2026
+Chris Coons,Michael Smith,Washington,DC,20010,Us Federal Trade Commission,Attorney,50000,1,2026-03-13,2026-03-13,zip,false,350000,7,7,2026
+Chris Coons,Mitchell Shore,Bala Cynwyd,PA,19004,Kolsby Gordon Robin & Shore,Attorney,50000,1,2025-09-10,2025-09-10,zip,true,500000,10,9,2024/2026
+Chris Coons,Morty Zetlin,Arlington,VA,22203,Mercedes Benz Of Arlington,Auto Dealer,50000,1,2026-03-13,2026-03-13,zip,true,100000,2,2,2026
+Chris Coons,Noam Lotan,Boynton Beach,FL,33473,Not Employed,Retired,50000,1,2026-03-26,2026-03-26,zip,false,390000,8,8,2026
+Chris Coons,Randall Reiner,Potomac,MD,20854,Self-Employed,Real Estate,50000,1,2026-03-19,2026-03-19,zip,false,1249000,20,17,2024/2026
+Chris Coons,Randall S. Krakauer,Princeton Junction,NJ,08550,Not Employed,Retired,50000,1,2025-04-29,2025-04-29,zip,false,5005000,38,18,2024/2026
+Chris Coons,Rhonda Lees,Arlington,VA,22209,American Bankers Association,Senior Counsel,50000,1,2026-03-13,2026-03-13,zip,true,719400,26,20,2024/2026
+Chris Coons,Richard Goldstein,Boca Raton,FL,33432,Not Employed,Retired,50000,1,2026-03-26,2026-03-26,zip,false,1950000,21,17,2024/2026
+Chris Coons,Robert Cohen,Boca Raton,FL,33496,Not Employed,Retired,50000,1,2026-03-24,2026-03-24,zip,false,450000,8,7,2026
+Chris Coons,Sarah Boden,Ventnor City,NJ,08406,Spare,Sales Executive,50000,1,2025-08-20,2025-08-20,zip,true,1150000,16,12,2024/2026
+Chris Coons,Sean Leder,Boca Raton,FL,33432,Leder Realty,Investor,50000,1,2026-03-31,2026-03-31,zip,true,1850000,13,12,2024/2026
+Chris Coons,Seth Lehr,Philadelphia,PA,19103,Not Employed,Retired,50000,1,2025-07-21,2025-07-21,zip,false,2500000,28,24,2024/2026
+Chris Coons,Stephani Perlmutter,Delray Beach,FL,33446,Not Employed,Retired,50000,1,2026-04-07,2026-04-07,zip,false,50000,1,1,2026
+Chris Coons,Steve Stone,Alexandria,VA,22310,Not Employed,Retired,50000,1,2026-03-13,2026-03-13,zip,false,350000,8,8,2024/2026
+Chris Coons,Stewart J. Esq. Eisenberg,Philadelphia,PA,19103,Eisenberg Rothweiler,Attorney,50000,1,2025-09-04,2025-09-04,state,true,525000,12,10,2024/2026
+Chris Coons,Susan Thau,Chevy Chase,MD,20815,Self-Employed,Consultant,50000,1,2026-03-05,2026-03-05,zip,false,1185000,15,13,2024/2026
+Chris Coons,Yair Flicker,Baltimore,MD,21201,"Smartlogic, LLC",Business Owner,50000,1,2026-03-13,2026-03-13,zip,true,275000,6,6,2026
+Chris Coons,Seth Spergel,Bethesda,MD,20817,Merlin Ventures,Managing Director,49900,1,2026-03-13,2026-03-13,zip,true,249500,5,5,2026
+Chris Coons,Julius Trump,Sunny Isles Beach,FL,33160,Trump Group,Executive,40000,2,2026-04-06,2026-04-06,zip,false,300000,3,3,2024
+Chris Coons,Amy Graiwer,Los Angeles,CA,90064,Not Employed,Not Employed,30000,1,2025-05-27,2025-05-27,zip,false,3290000,26,20,2024/2026
+Chris Coons,Alexandra Tornek,Wilmington,DE,19806,Tornek Design,Business Owner,25000,1,2025-09-08,2025-09-08,zip,true,25000,1,1,2026
+Chris Coons,Bruce Saran,Chadds Ford,PA,19317,Ccec,Physician,25000,1,2025-09-16,2025-09-16,zip,true,25000,1,1,2026
+Chris Coons,Caryl L. Marcus-Stape,Wilmington,DE,19810,Stape & Associates,Managing Partner,25000,1,2025-09-07,2025-09-07,zip,false,25000,1,1,2026
+Chris Coons,David Yaffe,Arlington,VA,22203,Not Employed,Retired,25000,1,2026-03-13,2026-03-13,zip,false,475000,11,11,2024/2026
+Chris Coons,Edward Friedman,Wilmington,DE,19807,Not Employed,Retired,25000,1,2025-09-16,2025-09-16,zip,false,25000,1,1,2026
+Chris Coons,Elisa Morris,Wilmington,DE,19803,Self-Employed,Photography,25000,1,2025-09-17,2025-09-17,zip,false,25000,1,1,2026
+Chris Coons,Gregg Goldstein,Chadds Ford,PA,19317,Ent & Allergy Of Delaware,Physician,25000,1,2025-09-19,2025-09-19,zip,true,25000,1,1,2026
+Chris Coons,Gwen Stokols,Alexandria,VA,22304,Us Patent And Trademark Office,Attorney,25000,1,2026-03-13,2026-03-13,zip,false,218500,15,14,2024/2026
+Chris Coons,Honey Amado,Beverly Hills,CA,90211,Not Employed,Not Employed,25000,1,2025-05-27,2025-05-27,zip,false,235000,6,3,2024/2026
+Chris Coons,Jon Strasser,Wilmington,DE,19803,Ropa,Physician,25000,1,2025-09-13,2025-09-13,zip,true,25000,1,1,2026
+Chris Coons,Kevin Rudolph,Wilmington,DE,19803,Ross Aronstam Moritz LLP,Attorney,25000,1,2025-09-16,2025-09-16,zip,true,25000,1,1,2026
+Chris Coons,Kim Wolensky,Collegeville,PA,19426,Not Employed,Retired,25000,1,2025-09-08,2025-09-08,zip,false,125000,4,3,2026
+Chris Coons,Larry Porter,Alexandria,VA,22307,Not Employed,Retired,25000,1,2026-03-13,2026-03-13,zip,false,250000,10,10,2024/2026
+Chris Coons,Lawrence Friedman,Skokie,IL,60076,Self-Employed,Director,25000,1,2025-05-04,2025-05-04,zip,false,2010000,70,52,2024/2026
+Chris Coons,Michael Silverman,Wilmington,DE,19806,Smf Legal,Attorney,25000,1,2025-09-16,2025-09-16,zip,true,25000,1,1,2026
+Chris Coons,Nina Paul,Cincinnati,OH,45242,Not Employed,Retired,25000,1,2025-08-27,2025-08-27,zip,false,550000,21,21,2024/2026
+Chris Coons,Richard Levine,Wilmington,DE,19803,Not Employed,Retired,25000,1,2025-09-18,2025-09-18,zip,false,25000,1,1,2026
+Chris Coons,Stuart Gershon,Collegeville,PA,19426,Not Employed,Retired,25000,1,2025-09-08,2025-09-08,zip,false,236800,8,7,2024/2026
+Chris Coons,Susan Komins,Wilmington,DE,19805,Self-Employed,Designer,25000,1,2025-09-14,2025-09-14,zip,false,25000,1,1,2026
+Chris Coons,Edward Beck,Huntingdon Valley,PA,19006,Not Employed,Retired,18000,1,2025-11-08,2025-11-08,zip,false,1406900,68,46,2024/2026

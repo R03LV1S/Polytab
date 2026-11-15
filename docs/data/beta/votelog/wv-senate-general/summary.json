@@ -1,0 +1,80 @@
+{
+  "generatedAt": "2026-11-13T22:39:00.173Z",
+  "dataCurrentThrough": {
+    "independentExpenditures": "2026-10-15",
+    "campaignFinances": "2026-10-14",
+    "campaignFinancesByCandidate": {
+      "capito": "2026-10-14",
+      "fettyanderson": "2026-10-14"
+    },
+    "superPacDonors": {
+      "C00916692": "2026-10-14",
+      "C00905612": "2026-10-14"
+    },
+    "aipacEarmarks": "2026-10-14",
+    "donorNetwork": {
+      "capito": "2026-06-30",
+      "fettyanderson": "2026-06-30",
+      "network": "2026-10-14"
+    },
+    "filingsProcessed": "2026-11-13"
+  },
+  "summary": {
+    "capito": {
+      "totalReceiptsCents": 544986600,
+      "transfersFromAuthCents": 45198903,
+      "totalDisbursementsCents": 469015486,
+      "cashOnHandCents": 307107635,
+      "candidateContribCents": 0,
+      "candidateLoansCents": 0,
+      "totalIndividualCents": 288781371,
+      "otherCommitteeContribCents": 204793702,
+      "coverageEnd": "2026-10-14",
+      "individualRefundsCents": 0,
+      "outsideSupportingCents": 30930877,
+      "outsideOpposingCents": 0,
+      "outsideBenefitingCents": 30930877
+    },
+    "fettyanderson": {
+      "totalReceiptsCents": 16455753,
+      "transfersFromAuthCents": 0,
+      "totalDisbursementsCents": 13587268,
+      "cashOnHandCents": 3568148,
+      "candidateContribCents": 1189040,
+      "candidateLoansCents": 2500000,
+      "totalIndividualCents": 12491713,
+      "otherCommitteeContribCents": 250000,
+      "coverageEnd": "2026-10-14",
+      "individualRefundsCents": 0,
+      "outsideSupportingCents": 0,
+      "outsideOpposingCents": 0,
+      "outsideBenefitingCents": 0
+    }
+  },
+  "outsideByCommittee": [
+    {
+      "committeeId": "C00916692",
+      "committee": "American Mission",
+      "fecType": "O",
+      "forCapito": 21019320,
+      "againstCapito": 0,
+      "forFettyanderson": 0,
+      "againstFettyanderson": 0,
+      "total": 21019320,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610039908512708",
+      "latestDate": "2026-10-01"
+    },
+    {
+      "committeeId": "C00905612",
+      "committee": "Take ME Home WV Action",
+      "fecType": "O",
+      "forCapito": 9911557,
+      "againstCapito": 0,
+      "forFettyanderson": 0,
+      "againstFettyanderson": 0,
+      "total": 9911557,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610169916157883",
+      "latestDate": "2026-10-15"
+    }
+  ]
+}

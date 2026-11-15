@@ -1,0 +1,251 @@
+candidate,donor,city,state,zip5,employer,occupation,direct_total_cents,contributions,first_date,last_date,match_tier,same_employer_string,aipac_pac_total_cents,aipac_pac_rows,aipac_pac_recipient_committees,aipac_pac_cycles
+Mike Collins,Dennis Dunn,Naples,FL,34105,Self,"Author, Outdoor Writer",350000,1,2026-06-03,2026-06-03,zip,false,50000,1,1,2026
+Mike Collins,Ira Riklis,Atlantic Beach,NY,11509,Sutherland Capital Mgmt. Inc.,Executive,350000,1,2026-05-19,2026-05-19,zip,true,20020000,54,50,2024/2026
+Mike Collins,Lisa Bensmihen,Deerfield Beach,FL,33441,United Elder Care Services,Home Care,239500,2,2025-05-28,2026-04-28,zip,true,5200000,46,34,2024/2026
+Mike Collins,Amy Goldman,Boca Raton,FL,33496,None,Retired,187500,1,2025-05-28,2025-05-28,zip,false,2608200,19,17,2024/2026
+Mike Collins,Benjamin Gordon,Palm Beach,FL,33480,Cambridge Capital,Investor,187500,1,2025-05-28,2025-05-28,zip,true,2850000,17,13,2024/2026
+Mike Collins,Daniel Adler,Boca Raton,FL,33433,Buymebeauty,Ceo,187500,1,2025-05-28,2025-05-28,zip,true,2025000,17,15,2024/2026
+Mike Collins,Gila Lee Adato,Boca Raton,FL,33498,Self Employed,Lawyer,187500,1,2025-06-06,2025-06-06,zip,false,875000,3,2,2026
+Mike Collins,Stewart Hescheles,Boca Raton,FL,33496,,,187500,1,2025-06-04,2025-06-04,zip,false,1587500,14,14,2024/2026
+Mike Collins,Zachary Berg,Palm Beach Gardens,FL,33418,Steward Partners,Financial Advisor,187500,1,2025-05-28,2025-05-28,zip,true,1250000,5,4,2026
+Mike Collins,David Smith,Jupiter,FL,33477,Smith Medical LLC,Sales,104100,1,2026-06-30,2026-06-30,state,false,125000,2,2,2026
+Mike Collins,Jay Mr Davis,Atlanta,GA,30327,Ndc,Executive,100000,1,2026-03-18,2026-03-18,zip,true,3710000,13,12,2024/2026
+Mike Collins,Scott Bohrer,Sandy Springs,GA,30350,Hd Supply,Finance,100000,1,2026-05-19,2026-05-19,zip,true,3230000,24,17,2024/2026
+Mike Collins,Steven Wertheim,Atlanta,GA,30328,None,Retired,100000,1,2025-06-02,2025-06-02,zip,false,6230000,40,31,2024/2026
+Mike Collins,Edward N. Robinson,Saint George,UT,84770,Retired,Retired,75000,3,2026-05-15,2026-06-12,zip,false,180000,3,0,2026
+Mike Collins,Karen Steinkruger,Tallula,IL,62688,Retired,Retired,28000,33,2025-12-16,2026-06-19,zip,false,600,2,2,2024
+Mike Collins,Baker Smith,Marietta,GA,30067,Bdo Usa P.C,Management Consultant,25000,1,2026-05-30,2026-05-30,zip,false,50000,5,3,2024/2026
+Mike Collins,John Wallace,Griffin,GA,30223,None,Retired,18000,8,2025-09-30,2026-06-16,zip,false,5000,1,1,2024
+Mike Collins,Peter Farrell,Houston,TX,77019,Resmed,Founder  Chairman Emeritus,10400,5,2025-08-31,2025-09-12,zip,false,50000,1,1,2024
+Mike Collins,Robert Hand,Pleasant View,TN,37146,Retired,Retired,7800,3,2026-07-03,2026-09-03,zip,false,3000,3,3,2024/2026
+Mike Collins,Steven J Dr. Berlin,St Thomas,VI,00802,Retired,Retired,7300,2,2026-02-19,2026-05-03,zip,false,10000,2,2,2024/2026
+Mike Collins,Diane Mackay,O Fallon,MO,63366,Retired,Retired,900,1,2026-05-10,2026-05-10,zip,false,2500,1,1,2024
+Jon Ossoff,Al Kamen,New York,NY,10022,Not Employed,Not Employed,1601400,119,2025-02-11,2025-12-26,zip,false,100000,1,1,2024
+Jon Ossoff,Norman Alpert,New York,NY,10023,Vestar Capital Partners,Private Equity Investing,700000,2,2025-06-26,2025-06-26,zip,true,2900000,29,29,2024
+Jon Ossoff,Kevin Rhein,Minnetonka,MN,55305,Not Employed,Not Employed,500000,3,2025-09-27,2025-11-09,zip,false,1210000,8,7,2024/2026
+Jon Ossoff,Robert Glustrom,Atlanta,GA,30309,Self Employed,Investor,500000,2,2025-11-17,2025-11-17,zip,false,3310000,9,9,2024/2026
+Jon Ossoff,Allan Kramer,Los Altos,CA,94022,Not Employed,Not Employed,350000,2,2025-01-26,2025-08-21,zip,false,25000,1,1,2026
+Jon Ossoff,Jeffrey Davis,Miami Beach,FL,33139,Not Employed,Not Employed,350000,1,2025-09-19,2025-09-19,state,false,475000,10,9,2024/2026
+Jon Ossoff,Michele Rosen,Seattle,WA,98112,Nw International Women'S Conference,Funding & Development,350000,1,2026-03-30,2026-03-30,zip,false,700000,9,7,2024/2026
+Jon Ossoff,Peter Cohen,Irvine,CA,92623,Not Employed,Not Employed,350000,1,2026-06-17,2026-06-17,state,false,550000,9,8,2024/2026
+Jon Ossoff,Aimee Dechter,Seattle,WA,98121,Not Employed,Not Employed,300000,1,2026-01-16,2026-01-16,zip,false,950000,26,26,2026
+Jon Ossoff,David May,New York,NY,10016,Superstructures,Architect,270000,7,2025-02-05,2026-06-29,zip,true,25000,1,1,2024
+Jon Ossoff,Carolyn Goldstein,Bayside,NY,11360,Not Employed,Not Employed,266000,42,2025-01-14,2026-06-30,zip,false,5000,1,1,2024
+Jon Ossoff,David W. Ruttenberg,Chicago,IL,60607,Self Employed,Real Estate,260000,2,2025-06-24,2026-04-26,zip,false,50000,1,1,2024
+Jon Ossoff,Marion Bergman,New York,NY,10017,Not Employed,Not Employed,250000,4,2025-05-22,2025-09-17,zip,false,100000,1,1,2026
+Jon Ossoff,Arlene F. Bender,Carlsbad,CA,92009,Not Employed,Not Employed,247500,22,2025-03-06,2026-06-25,zip,false,30000,1,0,2026
+Jon Ossoff,Jacquie Bayley,Bellevue,WA,98005,Not Employed,Not Employed,230000,27,2025-04-18,2026-06-18,zip,false,450000,7,6,2024/2026
+Jon Ossoff,Alan Rosskamm,Gates Mills,OH,44040,Breakthrough Charter Schools,Ceo,200000,1,2025-06-01,2025-06-01,zip,false,50000,1,1,2024
+Jon Ossoff,Diane Wohl,Mill Neck,NY,11765,Not Employed,Not Employed,200000,4,2025-10-30,2026-06-29,zip,false,175000,2,1,2024/2026
+Jon Ossoff,Ed Bridge,Mercer Island,WA,98040,Not Employed,Not Employed,200000,1,2025-04-30,2025-04-30,zip,false,150000,2,2,2024/2026
+Jon Ossoff,Alice Baker,Tucson,AZ,85716,Not Employed,Not Employed,175000,6,2025-05-26,2025-10-30,zip,false,3450000,8,6,2024/2026
+Jon Ossoff,Harry Jacobs,Longwood,FL,32779,Jacobs & Goodman P.A,Attorney,150000,2,2025-03-28,2025-04-22,zip,false,180000,1,1,2024
+Jon Ossoff,Robert Feldman,Dallas,TX,75229,Not Employed,Not Employed,150000,2,2025-03-09,2026-06-03,zip,false,1150000,9,8,2024/2026
+Jon Ossoff,Lou Kling,New York,NY,10028,Not Employed,Not Employed,137500,9,2025-04-08,2026-06-01,zip,false,105000,4,2,2026
+Jon Ossoff,Richard Goldstein,Naples,FL,34102,Not Employed,Not Employed,133800,78,2025-10-05,2026-03-30,state,false,2027500,28,19,2024/2026
+Jon Ossoff,John Wallace,Decatur,GA,30033,Webpt,Physical Therapy,130000,13,2025-07-20,2026-06-25,state,false,5000,1,1,2024
+Jon Ossoff,Steve Caplan,Boca Raton,FL,33434,Not Employed,Not Employed,126000,7,2025-05-19,2026-06-30,zip,false,60000,12,9,2024
+Jon Ossoff,Deborah Roth,Tampa,FL,33629,Self Employed,Psychiatrist,125000,6,2025-02-02,2026-06-06,zip,false,4208800,27,19,2024/2026
+Jon Ossoff,Jane Gale,Las Vegas,NV,89131,Not Employed,Not Employed,125000,4,2026-05-20,2026-06-26,zip,false,50000,1,1,2024
+Jon Ossoff,Mark Holzberg,Atlanta,GA,30307,Epiphany Dermatology Newnan,Dermatologist,125000,2,2025-06-09,2026-02-15,zip,false,150000,2,2,2026
+Jon Ossoff,Stephen Lieberman,Minneapolis,MN,55436,Not Employed,Not Employed,120800,6,2025-04-29,2026-06-29,zip,false,200000,2,2,2024
+Jon Ossoff,Barbara S. Berger,Naples,FL,34113,Not Employed,Not Employed,120000,12,2025-01-16,2026-05-23,state,false,2900000,10,10,2026
+Jon Ossoff,Abe J. Schear,Atlanta,GA,30309,Arnall Golden Gregory,Partner,100000,1,2026-06-29,2026-06-29,zip,true,500000,8,6,2024/2026
+Jon Ossoff,Alan Steremberg,San Francisco,CA,94133,Not Employed,Retired,100000,2,2025-03-14,2025-10-30,zip,false,250000,3,2,2024
+Jon Ossoff,Amy Dean,Aventura,FL,33160,Self Employed,Arbitrator,100000,2,2025-03-30,2026-01-25,zip,false,250000,1,1,2026
+Jon Ossoff,Andrew Feinberg,New York,NY,10022,Self Employed,Writer,100000,1,2026-06-27,2026-06-27,state,false,25000,1,1,2026
+Jon Ossoff,Carmela Pasternak,Palo Alto,CA,94301,Not Employed,Not Employed,100000,1,2026-06-19,2026-06-19,zip,false,100000,2,2,2024
+Jon Ossoff,Carol Milstein,Princeton,NJ,08540,Not Employed,Not Employed,100000,1,2025-03-30,2025-03-30,zip,false,3650000,11,11,2024/2026
+Jon Ossoff,David Stern,Chevy Chase,MD,20815,Not Employed,Not Employed,100000,2,2025-04-12,2025-12-31,state,false,1875000,20,19,2024/2026
+Jon Ossoff,Jeff Goldstein,Boston,MA,02118,Boston Capital Real Estate Partners,Real Estate,100000,1,2026-03-29,2026-03-29,state,false,200000,1,1,2024
+Jon Ossoff,Maxine Clark,Saint Louis,MO,63105,Not Employed,Not Employed,100000,1,2026-06-30,2026-06-30,zip,false,15000,1,1,2024
+Jon Ossoff,Michael Baron,Lighthouse Point,FL,33064,"Np Payments, LLC",President,100000,1,2026-05-03,2026-05-03,zip,false,36000,1,0,2026
+Jon Ossoff,Richard Bressler,Atlanta,GA,30342,Self Employed,Real Estate,100000,2,2025-09-21,2026-06-26,zip,false,35000,3,2,2024
+Jon Ossoff,Richard Weiner,Manhattan Beach,CA,90266,Not Employed,Retired,100000,5,2025-03-27,2026-06-29,state,false,30000,2,2,2024
+Jon Ossoff,Robert Josephberg,Palm Beach,FL,33480,Not Employed,Not Employed,100000,2,2026-02-14,2026-06-30,zip,false,4510000,19,16,2024/2026
+Jon Ossoff,Susan Miller,Piedmont,CA,94611,Joint Venture Silicon Valley,Associate Director,100000,2,2025-03-13,2025-04-04,state,false,125000,5,5,2024
+Jon Ossoff,Adrienne Young,Sewickley,PA,15143,Not Employed,Not Employed,96300,53,2025-01-27,2026-06-30,zip,false,7200,2,2,2024
+Jon Ossoff,Sandra Turnauer,Plantation,FL,33324,Not Employed,Not Employed,95000,13,2025-04-01,2026-06-29,zip,false,1000000,2,2,2026
+Jon Ossoff,Richard Goldstein,Sagaponack,NY,11962,Not Employed,Not Employed,93400,64,2025-07-03,2026-06-25,state,false,10800,2,2,2024
+Jon Ossoff,David Smith,Hutchinson Island,FL,34949,Not Employed,Not Employed,90000,12,2025-05-03,2026-06-26,state,false,125000,2,2,2026
+Jon Ossoff,Robert Greenberg,Tucson,AZ,85715,Not Employed,Not Employed,90000,6,2025-08-29,2025-12-29,zip,false,100000,1,0,2026
+Jon Ossoff,Stephanie Ferdman,New York,NY,10024,Not Employed,Not Employed,90000,9,2025-10-27,2026-06-27,zip,false,200000,2,2,2024/2026
+Jon Ossoff,Herbert L. Pruzan,Seattle,WA,98109,Not Employed,Not Employed,85000,3,2025-04-07,2026-05-07,zip,false,300000,4,4,2026
+Jon Ossoff,Emilie Roth,Stanford,CA,94305,Self Employed,Human Factors Consultant,80000,7,2026-01-06,2026-05-18,zip,false,100000,1,0,2026
+Jon Ossoff,Alexander Lewin,Sandy Spring,MD,20860,Not Employed,Not Employed,75000,6,2025-09-30,2026-06-22,zip,false,40100,1,0,2024
+Jon Ossoff,David Levine,Brewster,NY,10509,Self Employed,Attorney,75000,12,2025-08-30,2026-06-30,state,false,3093300,17,13,2024/2026
+Jon Ossoff,Marilyn Schultz,Warren,NJ,07059,Not Employed,Not Employed,75000,5,2025-08-27,2026-02-27,zip,false,50000,1,0,2026
+Jon Ossoff,Marvin Moskowitz,Tiburon,CA,94920,Not Employed,Not Employed,75000,2,2025-12-02,2026-02-16,zip,false,1350000,24,19,2024/2026
+Jon Ossoff,Richard Steinberg,New York,NY,10019,"Brandt, Steinberg, Lewis & Blond LLP",Attorney,75000,8,2026-01-22,2026-05-15,state,false,150000,3,3,2024/2026
+Jon Ossoff,Stephanie Jacqueney,New York,NY,10028,Self Employed,Attorney,75000,3,2025-01-28,2026-04-03,zip,false,35000,2,1,2024
+Jon Ossoff,Susan Hammer,Livingston,NJ,07039,Not Employed,Not Employed,75000,2,2026-02-07,2026-05-31,zip,false,2499800,34,19,2024/2026
+Jon Ossoff,Joel Gershenson,Farmington Hills,MI,48334,Not Employed,Not Employed,72500,6,2025-02-10,2026-03-27,zip,false,100000,1,0,2026
+Jon Ossoff,Jordan Cohen,New York,NY,10019,Not Employed,Not Employed,70000,2,2025-05-20,2026-06-30,state,false,100000,2,2,2026
+Jon Ossoff,William Gray,Deland,FL,32720,Not Employed,Retired,70000,6,2025-07-31,2026-04-03,state,false,5721400,37,31,2024/2026
+Jon Ossoff,Alan Kaplan,Deerfield,IL,60015,"Union And Employment Advisory, LLC",Attorney,67500,8,2025-03-31,2026-06-30,state,false,270000,6,6,2026
+Jon Ossoff,Steven Cohen,Prides Crossing,MA,01965,Not Employed,Not Employed,66400,10,2025-01-13,2026-06-03,state,false,180000,10,10,2024
+Jon Ossoff,Michael Bernstein,Napa,CA,94558,Not Employed,Not Employed,62700,4,2026-01-26,2026-06-30,zip,false,50000,2,2,2024
+Jon Ossoff,Barbara Morrison,Piedmont,CA,94611,Not Employed,Not Employed,60000,4,2025-03-31,2026-06-14,zip,false,50000,1,0,2024
+Jon Ossoff,Barry Wolf,Los Angeles,CA,90064,Self Employed,Attorney,60000,6,2026-01-12,2026-06-12,state,false,50000,1,1,2024
+Jon Ossoff,David Smith,San Diego,CA,92105,Not Employed,Retired,60000,6,2025-06-26,2026-05-21,state,false,750000,13,11,2024/2026
+Jon Ossoff,Gregory Hahn,Indianapolis,IN,46240,Bose Public Affairs Group,Attorney,60000,5,2026-01-27,2026-06-29,zip,false,10000,1,1,2024
+Jon Ossoff,Jonathan Pollack,Pelham,NY,10803,"Beldock Levine & Hoffman, LLP",Attorney,60000,4,2025-05-27,2026-01-01,state,false,1250000,2,2,2026
+Jon Ossoff,Louis Supowitz,Winter Park,FL,32789,Not Employed,Not Employed,60000,6,2025-02-21,2026-01-21,zip,false,20000,2,1,2024
+Jon Ossoff,Maurice Druzin,Palo Alto,CA,94301,Not Employed,Not Employed,60000,5,2025-01-08,2025-03-20,zip,false,200000,7,6,2024
+Jon Ossoff,Michael Lambert,Los Angeles,CA,90064,Lambert Media Group,President,60000,2,2025-08-14,2025-08-30,zip,true,1000000,10,10,2024
+Jon Ossoff,Paul Freedman,New Rochelle,NY,10804,"Oral Pathology Laboratory., Inc.",Oral Pathologist,60000,12,2025-07-28,2026-06-28,zip,true,15000,3,0,2026
+Jon Ossoff,Leslie Friedman,Mountain View,CA,94041,Self Employed,Dancer,59100,14,2025-04-03,2026-05-06,zip,false,21200,4,2,2024
+Jon Ossoff,Ellyne Myers,Tampa,FL,33629,Not Employed,Not Employed,57500,2,2026-05-21,2026-06-29,zip,false,850000,12,11,2024/2026
+Jon Ossoff,Cynthia Feldman,Dallas,TX,75229,Not Employed,Not Employed,55000,3,2025-06-05,2026-05-21,zip,false,250000,1,1,2024
+Jon Ossoff,Henry Siegel,New York,NY,10025,Not Employed,Not Employed,55000,10,2025-10-30,2026-06-30,zip,false,2050000,25,23,2024/2026
+Jon Ossoff,Susan Feldman,Brooklyn,NY,11201,Not Employed,Not Employed,55000,7,2025-01-13,2026-02-09,state,false,22500,7,6,2024/2026
+Jon Ossoff,Alan Friedman,Margate City,NJ,08402,Atlantic Medical Imaging,Physician,50000,1,2026-06-30,2026-06-30,zip,false,2050000,27,24,2024/2026
+Jon Ossoff,Arthur Rosenbloom,New York,NY,10022,Self Employed,Attorney,50000,2,2025-10-20,2025-10-20,zip,false,450000,5,5,2024/2026
+Jon Ossoff,Cintra Pollack,Denver,CO,80209,Race Street Management,Investment Manager,50000,1,2026-06-17,2026-06-17,zip,true,750000,5,4,2024/2026
+Jon Ossoff,Crystal Wilson,Kirkland,WA,98033,Microsoft Alumni Network,Cfo,50000,1,2025-06-20,2025-06-20,zip,true,25000,1,1,2024
+Jon Ossoff,David Bressman,New York,NY,10028,Not Employed,Not Employed,50000,2,2025-06-07,2025-08-21,zip,false,25000,1,0,2026
+Jon Ossoff,David Fox,Wheaton,IL,60189,Advocate Good Samaritan Hospital,President,50000,1,2026-06-17,2026-06-17,state,false,50000,1,0,2026
+Jon Ossoff,Janet Bell,Mamaroneck,NY,10543,Self Employed,Attorney,50000,2,2025-09-26,2026-06-12,zip,false,10000,1,1,2024
+Jon Ossoff,Jeffrey Davis,Gainesville,FL,32605,Not Employed,Not Employed,50000,2,2025-07-01,2026-05-30,state,false,475000,10,9,2024/2026
+Jon Ossoff,Joel Levy,Parkland,FL,33076,Not Employed,Not Employed,50000,1,2026-05-29,2026-05-29,zip,false,85000,3,2,2024/2026
+Jon Ossoff,John Morris,New York,NY,10024,Skadden Arps,Editor,50000,1,2026-06-24,2026-06-24,state,false,150000,1,1,2026
+Jon Ossoff,Joseph D. Miller,San Francisco,CA,94133,Not Employed,Not Employed,50000,1,2026-06-17,2026-06-17,state,false,600000,3,3,2024
+Jon Ossoff,Leonard Simon,La Jolla,CA,92037,Robbins Geller,Attorney,50000,1,2025-09-16,2025-09-16,state,false,150000,3,2,2024
+Jon Ossoff,Maribelle Leavitt,San Francisco,CA,94118,Not Employed,Not Employed,50000,1,2025-03-04,2025-03-04,zip,false,750000,5,5,2024
+Jon Ossoff,Norman H. Levine,Santa Monica,CA,90402,Self Employed,Attorney,50000,1,2026-06-19,2026-06-19,zip,false,825000,12,10,2024/2026
+Jon Ossoff,Peter Logan,Berkeley,CA,94708,Self Employed,Architect,50000,1,2026-01-24,2026-01-24,state,false,155000,6,3,2024/2026
+Jon Ossoff,Richard Jacobs,Los Angeles,CA,90046,Accelerator For America,Business Owner,50000,1,2025-03-27,2025-03-27,state,false,20000,2,2,2026
+Jon Ossoff,Robert Brown,San Francisco,CA,94117,Not Employed,Not Employed,50000,4,2025-07-18,2026-06-12,state,false,25000,1,1,2024
+Jon Ossoff,Robert Katz,Oakland,CA,94618,Not Employed,Not Employed,50000,1,2026-02-12,2026-02-12,state,false,2500,1,1,2024
+Jon Ossoff,Robert Smith,Mountain View,CA,94040,Not Employed,Not Employed,50000,5,2025-07-17,2026-06-18,state,false,30000,1,0,2026
+Jon Ossoff,Roger Zlotoff,Birmingham,MI,48009,Uniprop,Real Estate,50000,1,2025-01-13,2025-01-13,zip,true,900000,7,6,2024/2026
+Jon Ossoff,Stephen Hurst,Foster City,CA,94404,Not Employed,Not Employed,50000,6,2025-10-04,2026-06-30,zip,false,300000,3,3,2024
+Jon Ossoff,Steven Schreiber,New York,NY,10016,Not Employed,Not Employed,50000,1,2025-12-27,2025-12-27,zip,false,500000,1,0,2026
+Jon Ossoff,Ross Federgreen,Jensen Beach,FL,34957,Csr Professional Services,Business Owner,47000,8,2025-07-03,2026-06-20,zip,false,225000,9,0,2024
+Jon Ossoff,Dennis Morris,Brewster,MA,02631,Not Employed,Retired,45000,3,2026-04-13,2026-05-18,state,false,10000,1,1,2024
+Jon Ossoff,Richard Weiss,New York,NY,10021,Self Employed,Physician,45000,5,2025-07-23,2026-04-06,state,false,75000,1,0,2026
+Jon Ossoff,Cheryl Cooper,Highland Park,IL,60035,Kraff Eye Institute,Physician,40000,2,2026-01-28,2026-02-08,zip,false,500000,1,1,2026
+Jon Ossoff,Daniel Stone,Carmichael,CA,95608,Not Employed,Not Employed,40000,2,2025-07-02,2025-11-26,state,false,50000,1,1,2024
+Jon Ossoff,David Sherman,Lombard,IL,60148,Not Employed,Not Employed,40000,5,2025-12-13,2026-06-27,state,false,136000,3,2,2024/2026
+Jon Ossoff,David Smith,Van Nuys,CA,91406,Not Employed,Retired,40000,2,2026-05-05,2026-06-19,state,false,750000,13,11,2024/2026
+Jon Ossoff,Henry Danko,Morton Grove,IL,60053,Self Employed,Physician,40000,4,2025-04-22,2026-02-18,zip,false,5000,1,1,2026
+Jon Ossoff,Honey Amado,Beverly Hills,CA,90211,Not Employed,Not Employed,40000,4,2025-02-07,2026-02-12,zip,false,235000,6,3,2024/2026
+Jon Ossoff,Paul B. Ross,Great Neck,NY,11020,Not Employed,Not Employed,40000,7,2025-07-16,2026-05-07,state,false,565000,16,6,2024/2026
+Jon Ossoff,Jeffrey Farkas,Webster,NY,14580,Not Employed,Not Employed,35000,2,2026-05-23,2026-06-17,state,false,100000,1,1,2026
+Jon Ossoff,Robert Smith,Santa Barbara,CA,93110,Not Employed,Not Employed,35000,2,2025-04-04,2025-04-23,state,false,30000,1,0,2026
+Jon Ossoff,Warren Kaplan,Saratoga,CA,95070,Not Employed,Not Employed,34000,6,2026-02-11,2026-06-26,zip,false,150000,41,41,2024
+Jon Ossoff,Gary Rappaport,Wayzata,MN,55391,Not Employed,Ceo,32500,4,2025-06-12,2025-07-09,zip,false,100000,2,2,2024/2026
+Jon Ossoff,Robert Fink,Sherman Oaks,CA,91403,Self,Attorney At Law,32500,4,2025-04-12,2026-05-21,state,false,100000,3,3,2024
+Jon Ossoff,Andrew B. Cohen,Jersey City,NJ,07307,Not Employed,Retired,30000,3,2026-05-21,2026-06-22,state,false,365000,2,1,2024/2026
+Jon Ossoff,Beryl Hoffman,Needham,MA,02492,Not Employed,Not Employed,30000,2,2026-05-17,2026-05-20,zip,false,586000,7,6,2026
+Jon Ossoff,David Rosen,Carmel,IN,46032,Association Management Inc.,Executive,30000,1,2026-05-21,2026-05-21,zip,false,75000,2,2,2024
+Jon Ossoff,Marc Gordon,Evanston,IL,60203,Not Employed,Retired,30000,2,2025-11-06,2026-03-17,state,false,330000,1,1,2024
+Jon Ossoff,Michael Jacobs,Portola Valley,CA,94028,Not Employed,Not Employed,30000,2,2025-10-19,2026-06-17,state,false,75000,3,3,2024
+Jon Ossoff,Neil Goldberg,Buffalo,NY,14203,Self Employed,Attorney,30000,4,2025-12-09,2026-01-30,state,false,320000,2,2,2024
+Jon Ossoff,Rita Allen,Los Altos,CA,94024,Not Employed,Not Employed,29300,9,2025-05-20,2026-06-16,zip,false,10000,2,2,2024
+Jon Ossoff,Richard Benator,Atlanta,GA,30345,Not Employed,Retired,27500,3,2025-01-22,2026-02-18,zip,false,16800,2,0,2026
+Jon Ossoff,Aaron Cohen,New York,NY,10075,Not Employed,Retired,25000,1,2026-03-16,2026-03-16,state,false,2500000,20,17,2024/2026
+Jon Ossoff,Aaron Stiefel,Teaneck,NJ,07666,Arnold & Porter,Attorney,25000,1,2025-06-01,2025-06-01,zip,true,300000,10,9,2024/2026
+Jon Ossoff,Alan Friedman,New York,NY,10024,Lee & Associates,Realtor,25000,1,2026-06-19,2026-06-19,state,false,25000,1,1,2024
+Jon Ossoff,Anne Oppenheimer,Chicago,IL,60661,Not Employed,Not Employed,25000,1,2026-06-28,2026-06-28,zip,false,1345000,46,30,2024/2026
+Jon Ossoff,Barbara Wallace Grossman,Newton,MA,02458,Tufts University,Professor,25000,1,2026-05-20,2026-05-20,zip,true,50000,1,1,2024
+Jon Ossoff,Benjamin Kaplan,West Newton,MA,02465,Perkins School For The Blind,Attorney,25000,1,2026-02-25,2026-02-25,zip,false,100000,1,1,2024
+Jon Ossoff,David Becker,Santa Monica,CA,90402,Not Employed,Not Employed,25000,1,2026-02-17,2026-02-17,state,false,2650000,23,20,2024/2026
+Jon Ossoff,David Kaplan,Oakland,CA,94611,Classdojo,Consultant,25000,1,2025-05-21,2025-05-21,state,false,6270000,10,10,2024
+Jon Ossoff,David Rosen,Ithaca,NY,14850,Not Employed,Not Employed,25000,1,2026-06-14,2026-06-14,state,false,5960000,24,20,2024/2026
+Jon Ossoff,David Schwartz,Ardsley On Hudson,NY,10503,Not Employed,Not Employed,25000,1,2026-06-15,2026-06-15,state,false,1750000,18,16,2024/2026
+Jon Ossoff,Fred Herman,New Orleans,LA,70124,Self Employed,Attorney,25000,1,2026-06-30,2026-06-30,zip,false,20000,2,2,2024
+Jon Ossoff,Gary Forman,New York,NY,10003,Not Employed,Not Employed,25000,1,2025-03-19,2025-03-19,state,false,50000,1,1,2024
+Jon Ossoff,Gary Tenzer,Los Angeles,CA,90049,George Smith Partners,Real Estate Finance,25000,1,2026-06-01,2026-06-01,zip,true,1800000,26,21,2024/2026
+Jon Ossoff,Janet Tatz,Helena,MT,59601,Not Employed,Retired,25000,3,2025-09-26,2026-05-02,zip,true,45000,5,2,2024
+Jon Ossoff,Joel Paisner,Lake Forest Park,WA,98155,Ascent Law Partners,Attorney,25000,1,2026-04-20,2026-04-20,zip,false,50000,2,2,2024
+Jon Ossoff,Joel Shapiro,Fort Lauderdale,FL,33307,Self Employed,Media Production,25000,1,2025-07-14,2025-07-14,state,false,135000,4,4,2024/2026
+Jon Ossoff,Lea Cohen,New York,NY,10075,Self Employed,Assistant,25000,1,2025-09-26,2025-09-26,state,false,2500,1,1,2024
+Jon Ossoff,Linda Rosen,Venice,CA,90291,Not Employed,Not Employed,25000,1,2025-06-14,2025-06-14,state,false,26800,3,2,2024/2026
+Jon Ossoff,Lynn Pollock,Los Angeles,CA,90049,Not Employed,Not Employed,25000,1,2026-03-19,2026-03-19,state,false,50000,1,1,2024
+Jon Ossoff,Marjorie Blatt,Beverly Hills,CA,90212,Blatt Realty,Property Manager,25000,1,2026-04-15,2026-04-15,zip,true,475000,11,10,2024/2026
+Jon Ossoff,Matthew Ross,Berkeley,CA,94705,Not Employed,Not Employed,25000,1,2026-06-09,2026-06-09,state,false,550000,11,9,2024/2026
+Jon Ossoff,Michael J. Shapiro,Ojai,CA,93023,Self Employed,Writer,25000,1,2025-07-09,2025-07-09,state,false,325000,9,7,2024/2026
+Jon Ossoff,Richard G. Brown,Oceanside,CA,92056,Not Employed,Retired,25000,1,2026-05-27,2026-05-27,state,false,50000,1,0,2026
+Jon Ossoff,Robert Orgel,Santa Monica,CA,90403,"Pachulski Stang Ziehl & Jones, LLP",Attorney,25000,1,2025-12-10,2025-12-10,zip,false,50000,1,1,2026
+Jon Ossoff,Sarah Brown,Brownwood,TX,76801,Not Employed,Not Employed,25000,3,2026-01-17,2026-03-09,state,false,3600,2,2,2024
+Jon Ossoff,Steven T. Manson,Decatur,GA,30030,Georgia State University,Professor,25000,1,2025-03-28,2025-03-28,zip,false,2500,1,1,2024
+Jon Ossoff,Susan Stone,Santa Monica,CA,90403,Savannah,Business Owner,25000,1,2026-06-18,2026-06-18,state,false,10500,2,2,2024
+Jon Ossoff,Mark Smith,Eureka,CA,95503,Not Employed,Not Employed,24000,4,2026-01-22,2026-06-30,state,false,600000,6,6,2024
+Jon Ossoff,Robert Cohen,Manhattan,NY,10022,Self Employed,Tv Producer,23000,4,2026-05-20,2026-06-30,state,false,14650000,39,32,2024/2026
+Jon Ossoff,Linda Rosen,Pacific Palisades,CA,90272,Not Employed,Retired,22800,3,2026-03-19,2026-06-04,state,false,26800,3,2,2024/2026
+Jon Ossoff,Charles Goldberg,Mount Vernon,NY,10552,Not Employed,Not Employed,21600,2,2025-01-07,2025-01-25,state,false,30000,3,3,2026
+Jon Ossoff,Mouris Nassimi,Kings Point,NY,11024,Not Employed,Not Employed,21000,27,2025-04-03,2026-03-25,zip,false,130000,4,3,2024/2026
+Jon Ossoff,Allen Mccall,Seattle,WA,98112,Not Employed,Not Employed,20000,1,2026-03-12,2026-03-12,zip,false,30000,1,0,2026
+Jon Ossoff,Chester Black,Wayland,MA,01778,Not Employed,Retired,20000,2,2025-04-08,2025-04-15,zip,false,500000,1,0,2026
+Jon Ossoff,David Cohen,Chevy Chase,MD,20815,Not Employed,Not Employed,20000,1,2026-06-30,2026-06-30,state,false,100000,1,1,2026
+Jon Ossoff,David Mann,New York,NY,10017,Mr Architecture & Decor,Architect,20000,2,2025-06-13,2025-06-28,state,false,10000,1,1,2024
+Jon Ossoff,David Schlakman,Norwalk,CT,06853,Not Employed,Not Employed,20000,1,2026-04-23,2026-04-23,zip,false,10000,1,1,2024
+Jon Ossoff,Julie Rose,Clearwater,FL,33767,Not Employed,Not Employed,20000,2,2026-05-09,2026-06-16,zip,false,10000,2,2,2024
+Jon Ossoff,Michael Reiter,Chipley,FL,32428,Self Employed,Attorney,20000,6,2025-03-26,2025-06-18,state,false,18000,1,1,2024
+Jon Ossoff,Michael Weiss,Bedford Corners,NY,10549,Self Employed,Photographer,20000,2,2026-05-06,2026-05-06,state,false,25000,1,0,2026
+Jon Ossoff,Nancy Cohen,San Diego,CA,92101,Not Employed,Not Employed,20000,2,2026-06-01,2026-06-15,state,false,900000,18,13,2024/2026
+Jon Ossoff,Nancy Cohen,Takoma Park,MD,20912,Not Employed,Retired,20000,1,2026-03-16,2026-03-16,state,false,1250000,8,6,2024/2026
+Jon Ossoff,Stuart Siegel,Los Angeles,CA,90049,Not Employed,Retired,20000,2,2026-02-03,2026-05-27,state,false,3600000,37,32,2024/2026
+Jon Ossoff,David Silverstein,Saratoga,CA,95070,Not Employed,Not Employed,17500,3,2026-05-04,2026-06-28,zip,false,5000,1,1,2026
+Jon Ossoff,Michael Smith,Beulah,CO,81023,Not Employed,Not Employed,17500,2,2025-04-18,2025-05-28,state,false,15450000,26,23,2024/2026
+Jon Ossoff,Steven Gurland,Aventura,FL,33180,Not Employed,Not Employed,17500,4,2026-05-20,2026-06-24,state,false,10000,1,1,2026
+Jon Ossoff,Nancy Goldberg,Los Angeles,CA,90066,Not Employed,Not Employed,17400,15,2025-07-29,2026-06-29,state,false,20000,1,1,2024
+Jon Ossoff,Sheila Lieber,Chevy Chase,MD,20815,Not Employed,Not Employed,15600,11,2025-10-16,2026-04-08,zip,false,25000,1,0,2026
+Jon Ossoff,Barbara Weinberg,Camarillo,CA,93010,Not Employed,Retired,15500,4,2025-01-16,2026-06-19,state,false,2300000,10,10,2024
+Jon Ossoff,David Friedman,Merrick,NY,11566,Self Employed,Dentist,15000,1,2025-06-02,2025-06-02,state,false,238500,5,4,2024/2026
+Jon Ossoff,Leslie Friedman,San Francisco,CA,94115,Self Employed,Dancer,15000,3,2025-07-19,2025-09-04,state,false,21200,4,2,2024
+Jon Ossoff,Michael Cohen,New York,NY,10024,Self Employed,Social Worker,15000,3,2025-09-23,2026-06-17,state,false,660000,1,1,2024
+Jon Ossoff,Robert Brown,Los Altos Hills,CA,94022,Not Employed,Not Employed,15000,3,2026-06-05,2026-06-05,state,false,25000,1,1,2024
+Jon Ossoff,Howard Tullman,Chicago,IL,60614,Not Employed,Not Employed,14500,3,2025-07-06,2026-06-18,zip,false,20000,2,2,2024
+Jon Ossoff,Adrienne Hastings,Van Nuys,CA,91436,Not Employed,Not Employed,13800,8,2025-06-24,2026-02-20,zip,false,60000,2,0,2026
+Jon Ossoff,Richard Weiss,Oakland,CA,94610,Not Employed,Not Employed,13700,6,2025-07-15,2026-03-29,state,false,500000,5,4,2024
+Jon Ossoff,Maxine Zinder,Roslyn,NY,11576,Not Employed,Not Employed,13500,8,2025-01-28,2026-06-17,zip,false,10000,1,1,2024
+Jon Ossoff,Seth Phillips,Lake Worth,FL,33467,Congregation Keneseth Israel,Rabbi,13500,9,2025-10-08,2026-06-08,zip,false,5000,1,1,2024
+Jon Ossoff,Andrew Berman,New York,NY,10036,Greenwich Village Society,Executive Director,12500,1,2025-10-13,2025-10-13,state,false,107000,8,6,2024/2026
+Jon Ossoff,Frank Gilner,Kirkwood,MO,63122,Self Employed,Licensed Clinical Psychologist,12500,13,2026-01-27,2026-06-30,zip,false,7200,2,2,2026
+Jon Ossoff,James Gray,Woodstock,IL,60098,Not Employed,Not Employed,11500,4,2026-02-14,2026-03-24,state,false,980000,5,5,2024/2026
+Jon Ossoff,Robert Silver,North Falmouth,MA,02556,Not Employed,Not Employed,11400,6,2026-05-10,2026-06-26,state,false,30000,3,2,2024
+Jon Ossoff,Janet Poretsky,Baldwin,NY,11510,Self Employed,Clinical Social Worker,10600,8,2026-01-07,2026-06-07,zip,false,4000,2,2,2024
+Jon Ossoff,Jonathan Friedman,Beverly Hills,CA,90210,Self Employed,Producer,10600,1,2026-02-19,2026-02-19,state,false,425000,5,3,2024/2026
+Jon Ossoff,Barbara Kaplan,Boca Raton,FL,33434,Not Employed,Not Employed,10000,1,2026-06-15,2026-06-15,state,false,10000,1,1,2024
+Jon Ossoff,Bob Rosenblatt,Annandale,VA,22003,Self Employed,Writer,10000,1,2026-06-18,2026-06-18,zip,false,255000,20,18,2024
+Jon Ossoff,David Bloomgarden,Scarsdale,NY,10583,Not Employed,Not Employed,10000,2,2026-06-06,2026-06-29,zip,false,10000,1,1,2024
+Jon Ossoff,Ellen Lautenberg,Westport,CT,06880,Not Employed,Not Employed,10000,1,2026-03-09,2026-03-09,zip,false,1335000,12,11,2024/2026
+Jon Ossoff,Foster Dale,Chicago,IL,60613,"Foster Dale Architects, Inc.",Architect,10000,1,2026-05-24,2026-05-24,zip,true,20000,1,1,2024
+Jon Ossoff,Harry Bayer,Mountain Brk,AL,35223,Not Employed,Not Employed,10000,1,2026-05-27,2026-05-27,zip,false,100000,3,3,2024
+Jon Ossoff,Harry Lerner,Charlotte,NC,28210,Lerner And Company,Real Estate Broker,10000,1,2026-05-07,2026-05-07,zip,false,250000,4,3,2024/2026
+Jon Ossoff,Kirsten Mishkin,Newcomb,NY,12852,Not Employed,Not Employed,10000,2,2026-01-16,2026-03-30,zip,false,15000,3,3,2024
+Jon Ossoff,Neil Goldberg,Eden,NY,14057,Not Employed,Not Employed,10000,1,2026-04-29,2026-04-29,state,false,320000,2,2,2024
+Jon Ossoff,Ralph Rauch,Lafayette,CA,94549,Self Employed,Psychiatrist,10000,1,2025-11-17,2025-11-17,zip,false,233000,12,5,2024/2026
+Jon Ossoff,Richard Goldenhersh,Belleville,IL,62223,Not Employed,Not Employed,10000,1,2026-04-22,2026-04-22,zip,false,1003000,25,11,2024/2026
+Jon Ossoff,Robert Meyers,Oakland,CA,94611,Not Employed,Not Employed,10000,1,2026-03-31,2026-03-31,state,false,10000,1,1,2026
+Jon Ossoff,Steven Wils,New York,NY,10013,Not Employed,Not Employed,10000,1,2026-06-17,2026-06-17,zip,false,10000,1,1,2024
+Jon Ossoff,Susan Edelheit,Mercer Island,WA,98040,Not Employed,Not Employed,10000,1,2025-09-25,2025-09-25,zip,false,175000,3,3,2024
+Jon Ossoff,Linda Greig,Mill Valley,CA,94941,Not Employed,Not Employed,9000,9,2025-10-27,2026-06-27,zip,false,15000,3,3,2024
+Jon Ossoff,Richard Lake,Baltimore,MD,21212,Not Employed,Not Employed,9000,6,2026-01-25,2026-06-25,state,false,1500000,15,15,2024
+Jon Ossoff,Sheila Lieber,Bethesda,MD,20817,Not Employed,Not Employed,8800,4,2026-05-13,2026-06-22,state,false,25000,1,0,2026
+Jon Ossoff,Thea Howey,Bala Cynwyd,PA,19004,Mercer County Community College,Professor,8500,4,2025-07-15,2026-03-26,zip,false,2500,1,1,2024
+Jon Ossoff,Daniel Bernstein,El Granada,CA,94018,Not Employed,Not Employed,8400,6,2026-01-23,2026-06-30,state,false,100000,1,1,2024
+Jon Ossoff,Cheryl Feinberg,Lawrence,NY,11559,Not Employed,Not Employed,7500,3,2025-07-12,2025-09-12,zip,false,350000,12,12,2024
+Jon Ossoff,David B. Rosen,Rye Brook,NY,10573,Not Employed,Not Employed,7200,1,2026-04-27,2026-04-27,state,false,5960000,24,20,2024/2026
+Jon Ossoff,Mara Shlachter,Portland,OR,97221,Not Employed,Retired,7000,2,2025-03-02,2025-05-19,zip,false,180000,1,1,2026
+Jon Ossoff,Melvin Kay,Los Angeles,CA,90024,Not Employed,Not Employed,6400,3,2026-04-21,2026-06-21,zip,false,2500,1,1,2024
+Jon Ossoff,Linda Hendelberg,Sandy Springs,GA,30342,Not Employed,Not Employed,5700,3,2025-07-29,2026-04-11,zip,false,2500,1,1,2024
+Jon Ossoff,Peter Tuschak,Wilmington,DE,19803,Not Employed,Not Employed,5300,2,2026-05-21,2026-06-14,zip,false,2500,1,1,2026
+Jon Ossoff,Elliott Pollack,Hartford,CT,06105,Pullman And Comley,Attorney,5000,1,2025-03-27,2025-03-27,zip,false,18000,1,1,2024
+Jon Ossoff,Gary Elden,Chicago,IL,60606,Shook Hardy & Bacon LLP,Attorney,5000,2,2026-05-18,2026-06-18,state,false,50000,1,1,2024
+Jon Ossoff,Marjorie Harris,Miami,FL,33176,Not Employed,Retired,5000,1,2025-11-17,2025-11-17,state,false,3135000,16,15,2024/2026
+Jon Ossoff,Mark Berger,San Mateo,CA,94403,Not Employed,Not Employed,5000,1,2026-05-21,2026-05-21,state,false,2500,1,1,2026
+Jon Ossoff,Mark Wolf,Grass Valley,CA,95945,Not Employed,Not Employed,5000,2,2025-12-27,2026-01-25,state,false,30000,2,2,2024/2026
+Jon Ossoff,Martha Miller,Decatur,GA,30030,Not Employed,Not Employed,5000,1,2026-02-19,2026-02-19,state,false,700000,4,4,2026
+Jon Ossoff,Peter W. Miller,Piedmont,CA,94610,Not Employed,Not Employed,5000,1,2025-11-10,2025-11-10,state,false,100000,1,1,2026
+Jon Ossoff,Steven Cohen,Los Osos,CA,93402,Not Employed,Not Employed,5000,2,2026-05-27,2026-06-24,state,false,50000,2,2,2024
+Jon Ossoff,Stanley Foodim,New York,NY,10075,Not Employed,Not Employed,4000,2,2026-04-15,2026-06-16,zip,false,2500,1,1,2024
+Jon Ossoff,Kenneth Reiter,Long Beach,CA,90802,Kaiser Permanente,Social Worker,3200,3,2026-04-05,2026-06-03,zip,false,2000,2,2,2024
+Jon Ossoff,Beth Krugman,New York,NY,10024,Not Employed,Not Employed,3000,3,2026-04-28,2026-06-28,zip,false,2500,1,1,2026
+Jon Ossoff,Barbara Cohen,Piedmont,CA,94611,Self Employed,Psychotherapist,2000,1,2026-03-31,2026-03-31,state,false,100000,1,0,2024
+Jon Ossoff,Michael Harris,San Francisco,CA,94114,Self Employed,Architect,2000,2,2026-05-12,2026-06-12,state,false,5500,3,2,2024
+Jon Ossoff,Alan Freisleben,San Juan Capistrano,CA,92675,Not Employed,Not Employed,1800,1,2026-05-16,2026-05-16,zip,false,10000,1,0,2026
+Jon Ossoff,Harry George Kagan,Gulf Stream,FL,33483,Self Employed,Attorney,1500,1,2026-06-15,2026-06-15,zip,false,31900,7,1,2026
+Jon Ossoff,Julia Mattingly,Healdsburg,CA,95448,Aeris Insight,Financial Analyst,1500,1,2026-06-07,2026-06-07,zip,false,1500,1,1,2024

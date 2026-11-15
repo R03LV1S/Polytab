@@ -1,0 +1,96 @@
+candidate,donor,city,state,zip5,employer,occupation,direct_total_cents,contributions,first_date,last_date,match_tier,same_employer_string,aipac_pac_total_cents,aipac_pac_rows,aipac_pac_recipient_committees,aipac_pac_cycles
+Bill Hagerty,Linda Dresner,Birmingham,MI,48009,Self Employed,Retail Merchant,700000,1,2026-04-14,2026-04-14,zip,false,11630000,21,18,2024/2026
+Bill Hagerty,Edward C. Levy,Birmingham,MI,48009,Edw. C. Levy Co.,Chairman,699900,24,2025-04-21,2025-05-16,zip,true,35510000,67,51,2024/2026
+Bill Hagerty,Aaron Weitman,Hoboken,NJ,07030,Castleknight,Finance,494000,1,2025-03-18,2025-03-18,zip,true,14645000,41,34,2024/2026
+Bill Hagerty,Chris Patterson,Cordova,TN,38018,Patterson Bray Pllc,Lawyer,480000,1,2025-03-17,2025-03-17,zip,true,50000,1,1,2024
+Bill Hagerty,Eugene Schneur,Bay Harbor Islands,FL,33154,Sbv Re Investments,Real Estate Developer,475000,1,2025-09-18,2025-09-18,zip,true,4820000,15,14,2024/2026
+Bill Hagerty,William Friedland,New York,NY,10075,Larstrand Corp,Real Estate Investor,475000,1,2025-09-22,2025-09-22,zip,true,850000,3,3,2024/2026
+Bill Hagerty,Steven Perles,Miami Beach,FL,33140,The Perles Law Firm PC,Attorney,380000,6,2025-01-26,2025-08-27,zip,false,100000,1,1,2024
+Bill Hagerty,Brian Raddock,Jericho,NY,11753,K&R Preservation,Real Estate Developer,332500,1,2025-09-02,2025-09-02,zip,true,200000,1,1,2026
+Bill Hagerty,David Rosen,Scarsdale,NY,10583,Rubric Capital,Investor,332500,1,2025-03-19,2025-03-19,zip,true,5960000,24,20,2024/2026
+Bill Hagerty,Michael Woronoff,Los Angeles,CA,90049,Retired,Retired,285000,1,2026-05-01,2026-05-01,zip,false,2775000,19,16,2024/2026
+Bill Hagerty,Brett Barth,Garden City,NY,11530,Bbr Partners,Investment Management,237500,1,2025-03-12,2025-03-12,zip,true,7855000,42,34,2024
+Bill Hagerty,Daniel Benedict,Garden City,NY,11530,Self-Employed,Investor,237500,1,2025-09-25,2025-09-25,zip,false,2030000,8,8,2024/2026
+Bill Hagerty,David Shapiro,Miami Beach,FL,33154,Affiliate.Com,Ceo,237500,1,2026-04-30,2026-04-30,zip,true,250000,1,1,2026
+Bill Hagerty,Gadi Slade,Westport,CT,06880,Retired,Retired,237500,1,2025-03-18,2025-03-18,zip,false,5336700,35,24,2024/2026
+Bill Hagerty,Larry Rothenberg,Livingston,NJ,07039,Rockefeller Global Family Office,Wealth Management,237500,1,2025-03-25,2025-03-25,zip,true,2900000,9,9,2026
+Bill Hagerty,Lisa Kantor,Rye,NY,10580,Retired,Retired,237500,1,2025-03-18,2025-03-18,zip,false,4620000,15,12,2024/2026
+Bill Hagerty,Michael Rotenberg,Los Angeles,CA,90077,3 Arts Entertainment,Co-Ceo,237500,1,2026-04-30,2026-04-30,zip,true,2825000,20,17,2024/2026
+Bill Hagerty,Paul Millman,New York,NY,10023,Superstructures,Architect,237500,1,2025-08-25,2025-08-25,zip,true,550000,3,3,2024/2026
+Bill Hagerty,Russell Herman,Rumson,NJ,07760,White Pine Capital Management,Finance,237500,1,2025-03-14,2025-03-14,zip,true,3509700,14,10,2024/2026
+Bill Hagerty,Steve Hendry,Beverly Hills,CA,90212,Access Entertainment,Finance,237500,1,2026-04-29,2026-04-29,zip,true,1800000,14,14,2026
+Bill Hagerty,Uri Kaufman,Lawrence,NY,11559,Self-Employed,Real Estate,237500,1,2025-08-25,2025-08-25,zip,false,1025000,13,13,2024/2026
+Bill Hagerty,Aaron Nagiel,Santa Monica,CA,90402,Usc,Physician,190000,1,2026-04-28,2026-04-28,zip,true,900000,9,9,2026
+Bill Hagerty,Ari Ryan,Chicago,IL,60611,Self-Employed,Investor,190000,1,2026-04-28,2026-04-28,zip,false,2820000,21,18,2024/2026
+Bill Hagerty,Ben Tausig,Los Angeles,CA,90035,Pwc Us Tax LLP,Tax Principal,190000,1,2026-04-29,2026-04-29,zip,true,1275000,15,14,2024/2026
+Bill Hagerty,Courtney Mizel,Los Angeles,CA,90024,Cventures,Managing Direct,190000,1,2026-05-03,2026-05-03,zip,true,775000,8,8,2026
+Bill Hagerty,Hugo Rose,Los Angeles,CA,90035,Televix,Ceo,190000,1,2026-04-28,2026-04-28,zip,true,950000,7,7,2026
+Bill Hagerty,Jason Miller,Hoboken,NJ,07030,Business Concepts 2.0,Finance,190000,1,2025-09-22,2025-09-22,zip,true,200000,1,1,2026
+Bill Hagerty,Jason Milner,Los Angeles,CA,90064,Retired,Retired,190000,1,2026-05-01,2026-05-01,zip,false,2000000,12,9,2024/2026
+Bill Hagerty,Jason Pomeranc,New York,NY,10014,Sixty Hotles,Real Estate,190000,1,2025-09-25,2025-09-25,zip,false,300000,2,2,2026
+Bill Hagerty,Jean Cooper,Los Angeles,CA,90064,Retired,Retired,190000,1,2026-04-28,2026-04-28,zip,false,200000,1,1,2026
+Bill Hagerty,Marc Kwestel,Cedarhurst,NY,11516,Extell,Evp Finance,190000,1,2025-09-02,2025-09-02,zip,true,500000,4,4,2026
+Bill Hagerty,Phil Amoils,Santa Monica,CA,90402,Self-Employed,Physician,190000,1,2026-04-29,2026-04-29,zip,false,1020000,11,10,2024/2026
+Bill Hagerty,Dennis Mr. Dunn,Naples,FL,34105,Self-Employed,Author,180000,3,2025-10-24,2026-04-11,zip,false,50000,1,1,2026
+Bill Hagerty,Lisa Korbatov,Beverly Hills,CA,90210,Fisch Properties,Real Estate,150000,1,2025-06-23,2025-06-23,zip,true,100000,1,1,2026
+Bill Hagerty,Daniel Glaser,New York,NY,10013,Imperium Capital,Real Estate,142500,1,2025-08-25,2025-08-25,zip,true,950000,6,6,2024/2026
+Bill Hagerty,David Kekst,Beverly Hills,CA,90210,Retired,Retired,142500,1,2026-04-29,2026-04-29,zip,false,6740000,43,31,2024/2026
+Bill Hagerty,Fernando Szew,Beverly Hills,CA,90210,Self-Employed,Sales,142500,1,2026-04-29,2026-04-29,zip,false,1525000,29,23,2024/2026
+Bill Hagerty,Jamie Resin,Los Angeles,CA,90035,Goldman Sachs,Investment Management,142500,1,2026-04-28,2026-04-28,zip,true,2260000,30,23,2024/2026
+Bill Hagerty,Mark Horowitz,Los Angeles,CA,90035,Retired,Retired,142500,1,2026-04-27,2026-04-27,zip,false,1520000,17,14,2024/2026
+Bill Hagerty,Norman Horowitz,Bayside,NY,11361,Register Abstract Co. Inc.,President,142500,1,2025-09-21,2025-09-21,zip,false,550000,4,4,2026
+Bill Hagerty,Seth Damski,Clifton,NJ,07014,Old City Investment Partners,Financial Advisor,142500,1,2025-03-19,2025-03-19,zip,true,5353000,25,20,2024/2026
+Bill Hagerty,Simon Ziff,Armonk,NY,10504,Ackman-Ziff Real Estate Group,President,142500,1,2025-09-18,2025-09-18,zip,true,3180000,22,18,2024/2026
+Bill Hagerty,Andy Talbert,Miami,FL,33137,Elux Capital,Real Estate,100000,1,2025-05-30,2025-05-30,zip,true,671600,5,5,2024
+Bill Hagerty,Craig Weiss,Memphis,TN,38120,Tower Ventures,Cellular Tower Development,100000,1,2025-03-18,2025-03-18,zip,true,3825000,13,9,2024/2026
+Bill Hagerty,Daniel Dunkelman,Los Angeles,CA,90048,Self-Employed,Doctor,100000,1,2025-06-06,2025-06-06,zip,false,1700000,9,9,2024/2026
+Bill Hagerty,David Cohen,New York,NY,10019,Apollo Global Management,Partner,100000,1,2025-05-01,2025-05-01,state,false,98600,5,5,2024/2026
+Bill Hagerty,Adam Bailey,New York,NY,10004,Self-Employed,Real Estate Lawyer And Litigator,95000,1,2025-08-25,2025-08-25,zip,false,100000,1,1,2026
+Bill Hagerty,Adam Berkowitz,Los Angeles,CA,90067,Lenore Entertainment Group LLC,Talent Manager,95000,1,2026-05-04,2026-05-04,zip,false,1700000,29,24,2024/2026
+Bill Hagerty,Adam Struck,Beverly Hills,CA,90210,Struck Capital,Venture Capital,95000,1,2026-05-04,2026-05-04,zip,true,1750000,19,16,2024/2026
+Bill Hagerty,Billy Jacobs,Greenwich,CT,06831,White Lake Real Estate Capital LLC,Real Estate,95000,1,2025-09-22,2025-09-22,zip,false,50000,1,1,2026
+Bill Hagerty,Craig Emanuel,Beverly Hills,CA,90210,The Kid From Downunder Inc.,Executive,95000,1,2026-04-28,2026-04-28,zip,true,1390000,30,25,2024/2026
+Bill Hagerty,Daniel Tenenblatt,Los Angeles,CA,90048,Matchmaster,Attorney,95000,1,2026-04-29,2026-04-29,zip,true,4600000,37,26,2024/2026
+Bill Hagerty,David Kramer,Los Angeles,CA,90035,Greenberg Glusker,Attorney,95000,1,2026-04-28,2026-04-28,zip,true,1945000,26,22,2024/2026
+Bill Hagerty,David Spies,Irvington,NY,10533,Retired,Retired,95000,1,2025-09-11,2025-09-11,zip,false,900000,15,14,2024/2026
+Bill Hagerty,Evan Schlessinger,Los Angeles,CA,90024,Springboard Company,Market Research,95000,1,2026-04-29,2026-04-29,zip,true,949000,29,24,2024/2026
+Bill Hagerty,Jason Muss,Forest Hills,NY,11375,Muss Development LLC,President,95000,1,2025-09-30,2025-09-30,zip,true,2535000,15,11,2024/2026
+Bill Hagerty,Jody Kriss,New York,NY,10011,Kriss Capital LLC,Real Estate Investor,95000,1,2025-08-22,2025-08-22,zip,true,500000,5,5,2026
+Bill Hagerty,Jonathan Baruch,Hideout,UT,84036,Rain,Media,95000,1,2026-05-02,2026-05-02,zip,true,1255000,25,20,2024/2026
+Bill Hagerty,Jonathan Schechter,Englewood,NJ,07631,Kirkland & Ellis,Attorney,95000,1,2025-09-02,2025-09-02,zip,true,1425000,16,15,2024/2026
+Bill Hagerty,Joshua Muss,Forest Hills,NY,11375,Muss Development LLC,Principal,95000,1,2025-09-25,2025-09-25,zip,true,1980000,13,11,2024/2026
+Bill Hagerty,Joy Musry,Los Angeles,CA,90024,Retired,Retired,95000,1,2026-04-28,2026-04-28,zip,false,775000,26,21,2024/2026
+Bill Hagerty,Mark Dunec,Livingston,NJ,07039,Fti Consulting,Real Estate Appraiser,95000,1,2025-08-21,2025-08-21,zip,true,800000,6,6,2026
+Bill Hagerty,Mitchell Mr. Hochberg,New York,NY,10171,Lightstone,President,95000,1,2025-10-03,2025-10-03,zip,true,100000,1,1,2026
+Bill Hagerty,Nikita Putnam,Los Angeles,CA,90034,Designer,Self,95000,1,2026-04-28,2026-04-28,zip,true,1115000,21,17,2024/2026
+Bill Hagerty,Pace Cooper,Memphis,TN,38120,Cooper Hotels,President / Ceo,95000,1,2026-03-30,2026-03-30,zip,true,2350000,11,7,2024/2026
+Bill Hagerty,Rani Dishi,New York,NY,10033,Self-Employed,Attorney,95000,1,2025-09-17,2025-09-17,zip,false,400000,3,3,2026
+Bill Hagerty,Reuben Berman,Los Angeles,CA,90064,Entrada Partners,Real Estate,95000,1,2026-05-03,2026-05-03,zip,true,1450000,29,24,2024/2026
+Bill Hagerty,Robert Ezrapour,New York,NY,10471,Robico Management,Real Estate Dev,95000,1,2025-09-15,2025-09-15,zip,true,1700000,15,9,2024/2026
+Bill Hagerty,Roger Fishman,Los Angeles,CA,90049,The Zizo Group Inc,Marketing/Photographer,95000,1,2026-04-27,2026-04-27,zip,true,1270000,30,25,2024/2026
+Bill Hagerty,Scott Lerman,New York,NY,10021,Rialto Management Corp,Property Manager,95000,1,2025-09-21,2025-09-21,zip,true,1025000,10,10,2024/2026
+Bill Hagerty,Stephen Rabinowitz,Larchmont,NY,10538,Greenberg Traurig,Attorney,95000,1,2025-09-22,2025-09-22,zip,true,1200000,12,12,2024/2026
+Bill Hagerty,Yigal Dakar,Los Angeles,CA,90034,Retired,Retired,95000,1,2026-04-28,2026-04-28,zip,false,1445000,30,24,2024/2026
+Bill Hagerty,Avrohom Schlisselfeld,Spring Valley,NY,10977,Cbiz,Account,71200,1,2025-08-21,2025-08-21,zip,true,225000,3,3,2024/2026
+Bill Hagerty,Dovid Frankel,New York,NY,10022,E&Y,Accountant,71200,1,2025-08-21,2025-08-21,zip,false,425000,7,7,2024/2026
+Bill Hagerty,Douglas Maguire,Washington,DC,20007,Bhfs,Econ Foreign Policy,50000,1,2025-02-10,2025-02-10,zip,true,200000,2,2,2026
+Bill Hagerty,Thomas Kahn,Washington,DC,20007,Cormac Group,Partner,50000,1,2025-07-18,2025-07-18,zip,false,1050000,3,3,2026
+Bill Hagerty,Alex Haberman,New York,NY,11561,Self-Employed,Real Estate,47500,1,2025-09-22,2025-09-22,zip,false,50000,1,1,2026
+Bill Hagerty,Daniel Cosgrove,Los Angeles,CA,90077,Daniel J Cosgrove M.D. Inc,Physician,47500,1,2026-04-27,2026-04-27,zip,true,750000,39,30,2024/2026
+Bill Hagerty,Emanuel Neuman,New York,NY,10017,Spandrel Development,Real Estate,47500,1,2025-09-17,2025-09-17,zip,true,1980000,11,10,2026
+Bill Hagerty,Jack Donitz,Encino,CA,91426,Ruz Distribution Inc.,Executive,47500,1,2026-04-29,2026-04-29,zip,false,765000,28,23,2024/2026
+Bill Hagerty,Jared Wisen,New York,NY,10021,Cim Group,Real Estate Investor,47500,1,2025-09-17,2025-09-17,zip,true,400000,6,6,2026
+Bill Hagerty,Jason Bergsman,Santa Monica,CA,90402,Meateater,Ceo,47500,1,2026-05-02,2026-05-02,zip,true,150000,2,2,2026
+Bill Hagerty,Jeffrey Fisher,New York,NY,10021,Touro University,Special Programs Administrator,47500,1,2025-03-11,2025-03-11,zip,true,16828326,293,202,2024/2026
+Bill Hagerty,Jonah Nagrotsky,Bronx,NY,10463,Jns,Development,47500,1,2025-08-01,2025-08-01,zip,true,300000,6,6,2026
+Bill Hagerty,Peter Greenspan,Tenafly,NJ,07670,Wework,Real Estate Exec,47500,1,2025-09-04,2025-09-04,zip,true,775000,15,14,2024/2026
+Bill Hagerty,Robert Scharf,Teaneck,NJ,07666,Edison Properties,Real Estate,47500,1,2025-09-04,2025-09-04,zip,true,750000,14,13,2024/2026
+Bill Hagerty,Tanya Surpin,Los Angeles,CA,90035,Self-Employed,Event Planning,47500,1,2026-05-13,2026-05-13,zip,false,625000,9,8,2024/2026
+Bill Hagerty,Frederick Menowitz,Palm Beach,FL,33480,Retired,Retired,25000,1,2026-02-04,2026-02-04,zip,false,720000,3,3,2024
+Bill Hagerty,Dan Lahmi,New York,NY,10022,Sutton Square Group,Commercial Re Broker,23700,1,2025-09-17,2025-09-17,zip,true,50000,2,2,2024/2026
+Bill Hagerty,Dianne Fensterheim,Boca Raton,FL,33433,Retired,Retired,23700,1,2026-05-18,2026-05-18,zip,false,735000,12,9,2024/2026
+Bill Hagerty,Michael Mintz,New York,NY,10025,Md Squared Property Group,Real Estate,23700,1,2025-09-18,2025-09-18,zip,true,450000,11,11,2024/2026
+Bill Hagerty,Janice Berger,Brentwood,TN,37027,Retired,Retired,12900,10,2025-08-26,2026-06-09,zip,false,2500,1,1,2024
+Bill Hagerty,Robert Nepple,Minneapolis,MN,55401,Retired,Retired,12700,11,2025-10-13,2026-05-13,zip,false,2500,1,1,2024
+Bill Hagerty,Karen Steinkruger,Tallula,IL,62688,Retired,Retired,8800,33,2025-02-03,2026-05-22,zip,false,600,2,2,2024
+Bill Hagerty,Kent C. Fossum,Nipomo,CA,93444,Retired,Retired,2500,3,2025-04-07,2026-05-20,zip,false,2000,2,1,2024

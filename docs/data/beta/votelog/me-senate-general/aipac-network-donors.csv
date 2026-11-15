@@ -1,0 +1,1388 @@
+candidate,donor,city,state,zip5,employer,occupation,direct_total_cents,contributions,first_date,last_date,match_tier,same_employer_string,aipac_pac_total_cents,aipac_pac_rows,aipac_pac_recipient_committees,aipac_pac_cycles
+Susan Collins,Amir Goldman,Merion Station,PA,19066,Goldman,Venture Capitalist,1650000,4,2025-03-28,2026-06-07,zip,true,8060000,42,31,2024/2026
+Susan Collins,Allison Leff,New York,NY,10010,Self,Homemaker,1400000,4,2025-03-28,2026-06-07,zip,false,7077900,30,25,2024/2026
+Susan Collins,Edward C. Levy,Birmingham,MI,48009,Edward C. Levy Co.,Chairman,1369000,8,2025-04-12,2025-09-02,zip,true,35510000,67,51,2024/2026
+Susan Collins,Ann Colin,Rye,NY,10580,Retired,Retired,1050000,3,2026-06-09,2026-06-09,zip,false,1730000,3,2,2024/2026
+Susan Collins,David Rosenberg,Marblehead,MA,01945,Dsr Motor Group,Auto Dealer,1050000,3,2026-05-20,2026-06-09,zip,true,5500000,26,21,2024/2026
+Susan Collins,Ellen Calmas,Chestnut Hill,MA,02467,Retired,Retired,950000,6,2025-03-28,2026-05-20,zip,false,3487000,40,28,2024/2026
+Susan Collins,Bradley M. Bloom,Wellesley,MA,02481,Berkshire Partners LLC,Investments,760000,2,2026-06-07,2026-06-07,zip,true,3200000,10,9,2024/2026
+Susan Collins,Harvey Bines,Rye,NH,03870,Sullivan & Worcester LLP,Lawyer,750000,4,2025-03-28,2026-06-16,zip,true,3475000,20,14,2024/2026
+Susan Collins,Adam Milstein,Los Angeles,CA,91436,Hager Pacific Properties,Investor,700000,2,2026-03-31,2026-06-24,zip,false,10270000,30,24,2024/2026
+Susan Collins,Ahuva Gross,Livingston,NJ,07039,Retired,Retired,700000,2,2026-02-16,2026-02-16,zip,false,700000,1,1,2026
+Susan Collins,Alan Hartman,New York,NY,10028,Centerview Partners,Banking,700000,3,2025-03-28,2026-06-09,zip,true,5427100,23,16,2024/2026
+Susan Collins,Alex Slusky,San Francisco,CA,94118,Vector Capital,Founder,700000,2,2026-06-09,2026-06-09,state,true,330000,1,1,2024
+Susan Collins,Alex Von Furstenberg,Beverly Hills,CA,90210,"Ranger Global Advisors, LLC",Cio,700000,2,2025-11-10,2025-11-10,zip,true,2760000,5,5,2024/2026
+Susan Collins,Alice Baker,Tucson,AZ,85716,Retired,Retired,700000,2,2025-11-10,2025-11-10,zip,false,3450000,8,6,2024/2026
+Susan Collins,Andrew Balson,West Newton,MA,02465,Cove Hill Partners,Investment Advisor,700000,2,2026-05-19,2026-05-19,zip,true,2060000,4,3,2024/2026
+Susan Collins,Andrew Bursky,Greenwich,CT,06830,Atlas Holdings,Executive,700000,2,2025-11-10,2025-11-10,zip,true,330000,1,1,2024
+Susan Collins,Andrew Feldstein,Scarsdale,NY,10583,Retired,Retired,700000,2,2025-05-05,2025-05-05,state,false,200000,2,2,2024/2026
+Susan Collins,Andrew O. Smith,Columbus,OH,43209,Majestic Paint Corp.,Executive,700000,3,2025-11-10,2026-05-18,zip,false,4410000,24,13,2024/2026
+Susan Collins,Ari Adlerstein,Merion Station,PA,19066,T7 Capital,Finance,700000,2,2025-11-10,2025-11-10,zip,true,3500000,6,6,2026
+Susan Collins,Arthur Penn,Miami Beach,FL,33140,Pennant Park,Investor,700000,2,2026-05-31,2026-05-31,zip,false,10265000,47,40,2024/2026
+Susan Collins,Barbara Shear,Palm Beach,FL,33480,Retired,Retired,700000,2,2026-02-16,2026-02-16,zip,false,1550000,4,4,2024/2026
+Susan Collins,Bianca Peskin,Brookline,MA,02446,Retired,Retired,700000,3,2025-06-01,2025-12-21,zip,false,30130000,54,45,2024/2026
+Susan Collins,Bill Glazer,Gladwyne,PA,19035,Keystone,Real Estate,700000,2,2025-11-10,2025-11-10,zip,true,4130000,22,18,2024/2026
+Susan Collins,Brad Shusman,Philadelphia,PA,19102,Goldman Sachs,Investment Advisor,700000,3,2025-12-31,2026-06-07,zip,true,1680000,9,8,2024/2026
+Susan Collins,Brett Sundheim,New York,NY,10019,Retired,Retired,700000,2,2026-06-09,2026-06-09,zip,false,700000,1,1,2026
+Susan Collins,Catherine Farahi,Reno,NV,89511,Retired,Retired,700000,2,2026-06-09,2026-06-09,zip,false,700000,1,1,2026
+Susan Collins,Colleen Fain,Miami,FL,33156,Retired,Retired,700000,2,2026-06-07,2026-06-07,zip,false,700000,1,1,2026
+Susan Collins,Dan Macklowitz,New York,NY,10010,Jane Street Capital,Trader,700000,2,2026-06-07,2026-06-07,zip,true,1050000,2,2,2026
+Susan Collins,Daniel Kraft,Foxboro,MA,02035,Kraft Group,Executive,700000,2,2026-06-09,2026-06-09,zip,false,10700000,22,22,2024/2026
+Susan Collins,Daniel Lubetzky,Austin,TX,78763,Kind LLC,Founder & Executive Chairman,700000,1,2026-05-11,2026-05-11,zip,true,2450000,6,6,2026
+Susan Collins,Daniel Sundheim,New York,NY,10019,D1 Capital,Finance,700000,2,2026-06-09,2026-06-09,zip,true,700000,1,1,2026
+Susan Collins,David Abrams,Brookline,MA,02445,Abrams Capital Management LLC,Investment Manager,700000,2,2026-05-19,2026-05-19,zip,false,700000,1,1,2026
+Susan Collins,David Chaimovitz,Glencoe,IL,60022,Setna,Ceo,700000,2,2026-05-11,2026-05-11,zip,true,2800000,5,4,2026
+Susan Collins,David Lieberman,Bronx,NY,10471,Gts Distribution,Management,700000,2,2026-05-15,2026-05-15,zip,false,10344800,31,26,2024/2026
+Susan Collins,David Schor,Boston,MA,02118,Hawk Hill Management Co. LLC,Analyst,700000,3,2026-02-16,2026-05-18,zip,true,2700000,15,12,2024/2026
+Susan Collins,Dawn Lavin,Highland Park,IL,60035,Retired,Retired,700000,2,2026-05-01,2026-05-01,zip,false,7350000,11,11,2026
+Susan Collins,Debra Black,New York,NY,10022,Self,Philanthropist,700000,2,2025-12-03,2025-12-03,zip,false,2430000,4,4,2024/2026
+Susan Collins,Debra Weinberg,Baltimore,MD,21202,Jewish Grandparents Network,Executive Director,700000,2,2026-06-09,2026-06-09,zip,false,5280000,8,8,2024
+Susan Collins,Diana Riklis,Atlantic Beach,NY,11509,Self,Community Volunteer,700000,2,2026-05-18,2026-05-18,zip,false,6000000,10,7,2024/2026
+Susan Collins,Douglas Cutler,Dania,FL,33004,Cutler Management Corp,Commercial Real Estate Development,700000,2,2026-06-01,2026-06-01,zip,true,3200000,13,10,2024/2026
+Susan Collins,Eric Senderowicz,Great Neck,NY,11021,Idaho Freez Pak,Ceo,700000,2,2026-05-18,2026-05-18,zip,false,6112500,20,19,2024/2026
+Susan Collins,Esther Chouake,Englewood,NJ,07631,Self,Physician,700000,2,2026-01-30,2026-01-30,zip,false,500000,1,1,2024
+Susan Collins,Gila Milstein,Encino,CA,91436,Stand By Me,President,700000,2,2026-05-18,2026-06-24,zip,false,11220000,32,24,2024/2026
+Susan Collins,Howard Rich,Marblehead,MA,01945,Retired,Retired,700000,2,2026-06-09,2026-06-09,zip,false,2600000,16,14,2024/2026
+Susan Collins,Ira Riklis,Atlantic Beach,NY,11509,Sutherland Capital Mgmt. Inc.,President,700000,2,2025-09-21,2025-09-21,zip,true,20020000,54,50,2024/2026
+Susan Collins,Iris Smith,Broomfield,CO,80021,Self,Creative Arts,700000,2,2025-11-10,2025-11-10,zip,false,14460000,24,21,2024/2026
+Susan Collins,Jack Halpern,New York,NY,10023,Atlantic Realty,Real Estate,700000,3,2025-06-26,2026-01-30,zip,true,4980000,31,30,2024/2026
+Susan Collins,James Belardi,Manhattan Beach,CA,90266,Apollo Isg,Ceo,700000,2,2025-12-18,2026-03-30,zip,true,260000,1,1,2024
+Susan Collins,James C. Baker,New York,NY,10128,Newberger Berman,Investment Management,700000,2,2025-12-06,2026-06-09,zip,false,1050000,3,3,2026
+Susan Collins,Jean Kaplan,Santa Monica,CA,90402,Retired,Retired,700000,2,2026-06-01,2026-06-01,zip,false,5750000,13,13,2026
+Susan Collins,Jeffrey Wolk,Chestnut Hill,MA,02467,The Cross Country Group,Executive,700000,2,2026-05-20,2026-05-20,zip,true,4210000,36,30,2024/2026
+Susan Collins,Jerry Bednyak,Glencoe,IL,60022,Skybox Capital,Co-Founder,700000,2,2026-04-22,2026-04-22,zip,true,9240000,23,21,2024/2026
+Susan Collins,Jim Groch,Merion Station,PA,19066,"Groch Enterprises, LLC",Investor,700000,2,2025-11-10,2025-11-10,zip,true,1800000,6,6,2026
+Susan Collins,Jim Sokolove,Boca Raton,FL,33432,Retired,Retired,700000,2,2026-02-16,2026-06-16,zip,false,1300000,4,3,2026
+Susan Collins,Joan G Hoffman,Palm Beach Gardens,FL,33418,Retired,Retired,700000,2,2026-02-16,2026-02-16,zip,false,3455000,21,17,2024/2026
+Susan Collins,Joanna M. Jacobson,Boston,MA,02108,Self,Grant Partner,700000,2,2026-05-18,2026-05-18,zip,false,700000,1,1,2026
+Susan Collins,Jody Forchheimer,Brookline,MA,02446,Fidelity Investments,Attorney,700000,3,2025-06-01,2025-12-03,zip,false,38475500,150,96,2024/2026
+Susan Collins,John Farahi,Reno,NV,89502,Atlantis Casino Resort,Ceo,700000,2,2026-06-09,2026-06-09,zip,false,1050000,2,2,2026
+Susan Collins,John Shear,West Palm Beach,FL,33405,Retired,Retired,700000,2,2026-02-16,2026-02-16,zip,false,700000,1,1,2026
+Susan Collins,Jonathon S. Jacobson,Boston,MA,02117,"Highfields Capital Management,",Ceo,700000,2,2026-05-18,2026-05-18,zip,false,700000,1,1,2026
+Susan Collins,Joseph Menzin,Surfside,FL,33154,Retired,Retired,700000,2,2026-06-01,2026-06-01,zip,false,2340000,7,7,2024/2026
+Susan Collins,Joseph Weinberg,Baltimore,MD,21202,Cordish Companies,Real Estate,700000,2,2025-11-10,2025-11-10,zip,true,21950000,35,34,2026
+Susan Collins,Josh Kraft,Chestnut Hill,MA,02467,Kraft Group,Non Profit Executive,700000,2,2026-05-19,2026-05-19,zip,false,100000,1,1,2024
+Susan Collins,Judith Shear,West Palm Beach,FL,33405,Retired,Retired,700000,2,2026-02-16,2026-02-16,zip,false,700000,1,1,2026
+Susan Collins,Larry A. Mizel,Greenwood Village,CO,80111,Mdc Holdings,Executive,700000,2,2025-12-05,2025-12-05,state,true,1980000,6,6,2024
+Susan Collins,Lawrence Bernstein,Miami Beach,FL,33140,Amber Mountain,Partner,700000,2,2026-05-18,2026-05-18,zip,true,11000000,16,14,2026
+Susan Collins,Lawrence Elins,Los Angeles,CA,90024,Retired,Retired,700000,2,2026-04-22,2026-06-01,zip,false,650000,3,3,2026
+Susan Collins,Lisa Alpern,Los Angeles,CA,90064,Retired,Retired,700000,2,2025-09-30,2026-06-09,zip,false,5420000,20,16,2026
+Susan Collins,Lisa Wallack,Weston,MA,02493,Homemaker,Self,700000,4,2025-03-28,2026-05-18,zip,false,6060000,42,30,2024/2026
+Susan Collins,Loren Breslow,Fort Lauderdale,FL,33301,Command Marketing Innovations,Business Owner,700000,2,2025-12-03,2025-12-03,zip,true,12600000,18,18,2026
+Susan Collins,Louis Kaplow,Brookline,MA,02446,Harvard,Professor,700000,2,2025-12-03,2025-12-03,zip,true,28100000,56,51,2024/2026
+Susan Collins,Manny Panar,Silver Spring,MD,20904,Retired,Retired,700000,2,2026-05-01,2026-05-01,zip,false,49340000,110,72,2024/2026
+Susan Collins,Marc S. Lipschultz,New York,NY,10128,Blue Owl Capital,Ceo,700000,2,2025-05-04,2025-05-04,zip,true,1980000,3,3,2024
+Susan Collins,Mark Gross,Surry,NH,03431,Surry Investment Advisors,Executive,700000,2,2026-06-09,2026-06-09,zip,true,1880000,5,4,2024/2026
+Susan Collins,Martin Geller,New York,NY,10075,Geller And Company,Founder And Managing Principal,700000,3,2025-02-21,2025-06-17,zip,true,11140000,35,28,2024/2026
+Susan Collins,Martin Gross,Palm Beach Gardens,FL,33418,"Sandalwood Securities, Inc.",Investment Manager,700000,2,2025-06-25,2026-02-16,zip,true,350000,1,1,2026
+Susan Collins,Martin Silver,Palm Beach,FL,33480,Retired,Retired,700000,2,2026-01-29,2026-06-09,zip,false,3700000,19,16,2024/2026
+Susan Collins,Marvin Schlanger,Palm Beach Gardens,FL,33418,Retired,Retired,700000,2,2026-02-16,2026-02-16,zip,false,5960000,40,27,2024/2026
+Susan Collins,Michael Cohen,Dallas,TX,75229,Kelli'S Gift Shop Supplier,Ceo,700000,2,2025-11-10,2026-06-29,zip,false,7370000,26,21,2024/2026
+Susan Collins,Michael Smith,Broomfield,CO,80021,Kaitar Resources,Consultant,700000,2,2025-11-10,2025-11-10,zip,true,15450000,26,23,2024/2026
+Susan Collins,Miriam Einhorn,Boynton Beach,FL,33437,Retired,Retired,700000,2,2026-06-09,2026-06-09,zip,false,1050000,2,2,2026
+Susan Collins,Naava Grossman,Aspen,CO,81612,Retired,Retired,700000,2,2026-03-09,2026-03-09,zip,false,29410000,61,52,2024/2026
+Susan Collins,Nancy Cohen,Lutherville Timoni,MD,21093,Eddies Of Roland Park,Owner,700000,2,2026-06-09,2026-06-09,zip,false,700000,1,1,2026
+Susan Collins,Neil Wallack,Bozeman,MT,59718,1901 Partners,Investor,700000,2,2026-06-07,2026-06-07,zip,true,700000,1,1,2026
+Susan Collins,Norman Brownstein,Denver,CO,80202,Brownstein Hyatt Farber,Attorney,700000,2,2025-12-03,2025-12-03,zip,false,13450000,33,31,2024/2026
+Susan Collins,Paul L. Baker,Tucson,AZ,85716,Retired,Retired,700000,2,2025-11-10,2025-11-10,zip,false,11930000,34,26,2024/2026
+Susan Collins,Philip Darivoff,Short Hills,NJ,07078,Vibrant Capital Partners,Chairman,700000,3,2025-03-28,2025-06-17,zip,true,43625000,90,65,2024/2026
+Susan Collins,Philip Detoledo,Sherman Oaks,CA,91423,Capital Group,Manager,700000,3,2025-03-28,2025-09-30,zip,true,25410000,61,52,2024/2026
+Susan Collins,Richard Fain,Miami,FL,33156,Royal Caribbean Cruises Ltd.,Chairman & Ceo,700000,2,2026-06-07,2026-06-07,zip,false,2400000,6,5,2024/2026
+Susan Collins,Robert Efroymson,Santa Fe,NM,87501,Self Employed,Attorney,700000,2,2026-06-09,2026-06-09,zip,false,6800000,17,16,2024/2026
+Susan Collins,Robert Josephberg,Palm Beach,FL,33480,Retired,Retired,700000,2,2026-01-29,2026-06-09,zip,false,4510000,19,16,2024/2026
+Susan Collins,Robert Kraft,Foxborough,MA,02035,The Kraft Group,Executive,700000,2,2025-08-14,2026-06-01,zip,false,200000,1,1,2026
+Susan Collins,Sam Colin,Rye,NY,10580,First Manhattan,Portfolio Manager,700000,2,2026-06-09,2026-06-09,zip,true,2080000,4,3,2024/2026
+Susan Collins,Sanford Grossman,Glenwood Springs,CO,81601,Retired,Retired,700000,2,2026-03-09,2026-03-09,zip,false,8050000,13,13,2026
+Susan Collins,Scott Austin,Tarzana,CA,91356,Retired,Retired,700000,3,2025-09-20,2025-09-30,zip,false,1850000,11,10,2026
+Susan Collins,Scott Feldman,Princeton,NJ,08540,Susquehanna Growth Equity,Managing Director,700000,2,2025-11-10,2025-11-10,zip,false,3910000,8,8,2024/2026
+Susan Collins,Seth Merrin,Cortlandt Manor,NY,10567,Retired,Retired,700000,2,2026-06-09,2026-06-09,zip,false,9770000,21,16,2024/2026
+Susan Collins,Sheldon Stone,Los Angeles,CA,90049,Oaktree Capital Mgmt,Portfolio Manager,700000,2,2025-09-21,2025-09-21,zip,false,5120000,3,3,2024
+Susan Collins,Shelly Kassen,Westport,CT,06880,Retired,Retired,700000,2,2026-04-22,2026-04-22,zip,false,1630000,4,4,2024/2026
+Susan Collins,Stacey Goldman,Merion Station,PA,19066,Kohelet Yeshiva High School,Teacher,700000,2,2026-06-07,2026-06-07,zip,true,2100000,4,4,2026
+Susan Collins,Stanley D. Frankel,Troy,MI,48084,Self,Realtor,700000,2,2026-03-25,2026-03-25,zip,false,150000,1,1,2024
+Susan Collins,Steven Berenson,Miami Beach,FL,33141,Prima Food,Ceo,700000,2,2026-06-08,2026-06-08,zip,false,3900000,7,7,2026
+Susan Collins,Steven Lavin,Highland Park,IL,60035,"Lavin & Gedville, PC",President,700000,2,2026-05-01,2026-05-01,zip,true,4900000,7,7,2026
+Susan Collins,Steven Taylor,Los Angeles,CA,90049,Taylor Equities,Real Estate,700000,2,2025-09-30,2025-09-30,zip,true,1040000,2,2,2026
+Susan Collins,Teri Volpert,New York,NY,10128,The Volpert Foundation,President,700000,2,2026-05-18,2026-05-18,zip,false,1900000,5,5,2024/2026
+Susan Collins,Thomas Schick,Brooklyn,NY,11210,Retired,Retired,700000,5,2026-02-16,2026-06-29,zip,false,1567000,24,15,2024/2026
+Susan Collins,Todd Platt,Dallas,TX,75219,Hillwood,Ceo,700000,2,2025-11-10,2026-06-23,zip,true,9610000,30,26,2024/2026
+Susan Collins,Victor Kohn,Encino,CA,91436,Capital Group Companies,Financial Analyst,700000,3,2025-03-28,2025-09-21,zip,true,39930000,89,67,2024/2026
+Susan Collins,Linda Dresner,Birmingham,MI,48009,Retired,Retired,684000,2,2025-06-21,2025-06-23,zip,false,11630000,21,18,2024/2026
+Susan Collins,David Schlussel,Teaneck,NJ,07666,Key Properties,Real Estate,653500,2,2025-06-26,2025-06-26,zip,true,1130000,7,6,2024/2026
+Susan Collins,Michael Kassen,Westport,CT,06880,Self,Investor,650000,3,2025-02-21,2026-04-22,zip,false,17500000,78,61,2024/2026
+Susan Collins,Sylvia Golden,West Palm Beach,FL,33401,Retired,Retired,650000,3,2026-02-16,2026-06-09,zip,false,11920000,38,28,2024/2026
+Susan Collins,Vera Markowitz,Beverly Hills,CA,90210,Retired,Retired,650000,3,2025-09-20,2026-06-24,zip,false,15205000,116,71,2024/2026
+Susan Collins,Bobby Saadian,Pacific Palisades,CA,90272,Wilshire Law,Lawyer,618000,2,2025-09-30,2025-09-30,zip,true,1358000,5,4,2026
+Susan Collins,Allen Friedman,Teaneck,NJ,07666,Jp Morgan Chase,Attorney,600000,3,2025-06-26,2026-01-30,zip,false,960000,3,3,2024
+Susan Collins,Annie Austin,Tarzana,CA,91356,Retired,Retired,600000,2,2025-09-30,2025-09-30,zip,false,600000,1,1,2026
+Susan Collins,David Kreisman,Delray Beach,FL,33446,Retired,Retired,600000,2,2026-02-16,2026-05-26,zip,false,5710000,31,28,2024/2026
+Susan Collins,Douglas Gessner,Glenview,IL,60025,Kirkland & Ellis,Lawyer,600000,2,2025-03-28,2026-06-29,zip,false,12500000,44,38,2024/2026
+Susan Collins,Jason Rimokh,Beverly Hills,CA,90210,Signal Brands,Retail,600000,3,2025-03-28,2025-09-30,zip,true,6710000,25,21,2024/2026
+Susan Collins,Jay Martus,Deerfield Beach,FL,33443,Mfal Consulting,Managing Partner,600000,2,2026-05-20,2026-05-20,zip,true,6300000,30,25,2026
+Susan Collins,Randy Nichols,Denver,CO,80206,Nichols Partnership,Real Estate Developer,600000,3,2025-11-10,2025-12-03,zip,true,1500000,8,6,2024/2026
+Susan Collins,Steven Hornstein,Palm Beach,FL,33480,Global Credit Advisers,Chief Investment Officer,600000,2,2026-01-06,2026-01-08,state,false,250000,3,3,2024
+Susan Collins,Harlan Korenvaes,Dallas,TX,75220,Korenvaes Mgmt LLC,Investment Management,599900,3,2025-11-10,2026-06-17,zip,false,4040000,14,12,2024/2026
+Susan Collins,Mark Cohen,Lantana,FL,33462,Retired,Retired,575000,3,2026-02-16,2026-06-09,zip,false,575000,2,1,2026
+Susan Collins,Eugene Fooksman,Menlo Park,CA,94025,"Altopass, Inc.",Ceo,550000,3,2025-09-30,2026-03-27,zip,true,16060000,54,45,2024/2026
+Susan Collins,Lisa Kohn,Encino,CA,91436,Retired,Retired,550000,2,2025-09-20,2025-09-20,zip,false,2540000,7,6,2024/2026
+Susan Collins,Stephen Harris,Walnut Creek,CA,94595,Lawrence Berkeley National Labratory,Chemist,550000,2,2026-04-29,2026-06-17,zip,false,10201992,92,58,2024/2026
+Susan Collins,Anat Roitberg-Tambur,Chicago,IL,60611,Northwestern Univeristy,Lab Director,500000,2,2026-05-11,2026-05-11,zip,true,1610000,16,16,2024/2026
+Susan Collins,Brian Schall,Los Angeles,CA,90067,Schall Law,Attorney,500000,2,2025-06-28,2025-06-28,zip,true,11220000,26,25,2024/2026
+Susan Collins,Bruce Taragin,New York,NY,10128,Blumberg Capital,Venture Capitalist,500000,2,2025-06-01,2025-06-01,zip,true,1050000,3,3,2026
+Susan Collins,Chuck Bellock,Boulder,CO,80302,Community Development Group,Real Estate,500000,2,2025-12-05,2025-12-06,zip,true,3550000,18,16,2024/2026
+Susan Collins,David Keil,Atlanta,GA,30342,Lakeside Software,Ceo,500000,2,2025-03-28,2025-03-28,zip,true,4450000,23,20,2024/2026
+Susan Collins,David Margules,Philadelphia,PA,19146,Ballard Spahr,Lawyer,500000,4,2025-03-28,2026-06-08,zip,true,4575000,38,27,2024/2026
+Susan Collins,Edgar Jannotta,Teton Village,WY,83025,Retired,Retired,500000,2,2025-11-10,2025-11-10,zip,false,400000,4,4,2024
+Susan Collins,Elizabeta Shacket,Coral Springs,FL,33065,Retired,Retired,500000,2,2025-03-28,2025-03-28,zip,false,2530000,21,14,2024/2026
+Susan Collins,George Rohr,New York,NY,10075,Nch Capitol Inc,Investor,500000,2,2025-02-21,2025-02-21,zip,false,4640000,12,12,2024/2026
+Susan Collins,Isaac Applbaum,Oakland,CA,94610,Mizmaa Ventures,Venture Capitalist,500000,2,2026-01-29,2026-01-29,zip,true,700000,1,1,2026
+Susan Collins,Joseph Mark,Garden City,NY,11530,Hambro America Inc.,Investment Banker,500000,2,2025-06-26,2025-06-26,zip,false,330000,1,1,2024
+Susan Collins,Mark Hastings,West Palm Beach,FL,33405,Psg Equity,Investor,500000,2,2025-11-10,2025-11-10,zip,true,500000,1,1,2026
+Susan Collins,Michael Leffell,Scarsdale,NY,10583,Portage Partners,Investor,500000,2,2026-03-27,2026-03-27,zip,true,16820000,57,37,2024/2026
+Susan Collins,Milton Cooper,Old Westbury,NY,11568,Kimco Realty,Real Estate Executive,500000,2,2025-02-21,2025-02-21,zip,true,14885000,38,30,2024/2026
+Susan Collins,Myrna Freedman,Wellesley,MA,02482,Retired,Retired,500000,4,2025-06-01,2026-06-29,zip,false,3600000,37,20,2024/2026
+Susan Collins,Paul S. Efron,Palm Beach,FL,33480,Goldman Sachs,Investment Banker,500000,2,2026-01-29,2026-01-29,zip,false,1200000,4,4,2026
+Susan Collins,Randall S. Krakauer,Princeton Junction,NJ,08550,Retired,Retired,500000,5,2025-09-21,2026-06-28,zip,false,5005000,38,18,2024/2026
+Susan Collins,Rodger Krouse,Boca Raton,FL,33432,Sun Capital Partners,Co-Ceo,500000,2,2025-11-10,2025-11-10,zip,true,8300000,20,19,2024/2026
+Susan Collins,Shlomoh Ben David,Sunny Isles Beach,FL,33160,"Aer Services, Inc.",Owner,500000,3,2025-03-28,2026-06-17,zip,true,2689000,26,16,2024/2026
+Susan Collins,Steven Rosenbaum,Potomac,MD,20854,Covington Burling LLP,Attorney,500000,2,2026-05-11,2026-05-11,zip,false,2050000,5,3,2024/2026
+Susan Collins,Steven Sall,Greenwich,CT,06831,Republic Clothing,Founder,500000,2,2026-01-29,2026-01-29,zip,true,1750000,7,7,2024/2026
+Susan Collins,Edward Gerry,South Freeport,ME,04078,Stsllc,Consultant,484800,10,2025-03-28,2026-06-17,zip,true,100000,1,1,2026
+Susan Collins,David L. Horne,Washington,DC,20016,David L. Horne LLC,Consultant,450000,2,2025-03-28,2026-06-17,zip,false,1175000,9,6,2024/2026
+Susan Collins,Mike Klein,Lincolnwood,IL,60712,Airoom,Ceo,403100,31,2025-10-14,2026-06-15,zip,true,100000,2,2,2024
+Susan Collins,Alan Genachowski,New Rochelle,NY,10804,Self,Trader,400000,2,2026-06-16,2026-06-16,zip,false,350000,1,1,2026
+Susan Collins,Harold Goldfine,Hopkins,MN,55305,Retired,Retired,400000,2,2026-06-02,2026-06-23,zip,false,1600000,22,16,2024/2026
+Susan Collins,Howard Reichel,Potomac,MD,20854,In-Depth Engineering,Vp,400000,3,2026-04-29,2026-05-19,zip,true,1025000,5,4,2026
+Susan Collins,Jacqueline Shulman,Jenkintown,PA,19046,Retired,Retired,400000,3,2026-02-16,2026-06-09,zip,false,2375000,23,21,2024/2026
+Susan Collins,Jeremy Rosenblum,Philadelphia,PA,19103,Retired,Retired,400000,3,2025-12-31,2026-06-09,zip,false,3125000,37,23,2024/2026
+Susan Collins,Lesley Bodzy,Houston,TX,77004,Retired,Artist / Attorney,400000,2,2025-01-28,2025-03-28,zip,false,4755000,32,27,2024/2026
+Susan Collins,Nancy Brown,Teaneck,NJ,07666,Retired,Retired,400000,2,2026-01-29,2026-06-09,zip,false,4060000,22,19,2024/2026
+Susan Collins,Natalie Katzin,Los Angeles,CA,90035,Retired,Retired,400000,3,2025-09-20,2026-06-09,zip,false,1150000,9,8,2026
+Susan Collins,Sol Boucai,West Palm Beach,FL,33401,Retired,Retired,400000,3,2026-01-29,2026-06-09,zip,false,1200000,6,6,2024/2026
+Susan Collins,Jean Cohen,Lantana,FL,33462,Retired,Retired,375000,2,2026-02-16,2026-02-16,zip,false,2075000,9,9,2024/2026
+Susan Collins,Jason Rhodes,Newton,MA,02458,Atlas Venture,Biotech,364300,2,2026-04-30,2026-05-01,zip,true,2350000,16,15,2026
+Susan Collins,Gary Katz,White Plains,NY,10601,Downtown Capital Partners,Attorney,360000,2,2026-06-08,2026-06-08,zip,true,726000,3,2,2024/2026
+Susan Collins,Jay Weinstein,Bala Cynwyd,PA,19004,Eisner Advisory Group,Cpa,360000,2,2025-12-03,2025-12-03,zip,false,1060000,3,3,2026
+Susan Collins,Jonathan Silverman,Millboro,VA,24460,Self,Comm Real Estate,352000,2,2026-05-22,2026-06-16,zip,false,900000,4,4,2026
+Susan Collins,Aaron Snyder,Rockville,MD,20850,Us Health Partners LLC,Ceo,350000,1,2026-06-28,2026-06-28,zip,false,700000,6,5,2024/2026
+Susan Collins,Adam Freede,Seal Beach,CA,90740,Madaluxe Corp,Ceo,350000,1,2026-03-09,2026-03-09,zip,false,7350000,20,20,2026
+Susan Collins,Adam Garner,Greenwich,CT,06830,Drw,Partner,350000,1,2026-06-29,2026-06-29,zip,true,4000000,15,14,2024/2026
+Susan Collins,Adam Sklar,New York,NY,10075,Monarch Alternative Cap,Investment Banker,350000,1,2026-03-27,2026-03-27,zip,false,1400000,4,4,2026
+Susan Collins,Alan Fisher,Atherton,CA,94027,Slac National Axxelerator,Physicist,350000,1,2026-04-29,2026-04-29,zip,false,5530000,25,23,2024/2026
+Susan Collins,Alan Kleinman,Encino,CA,91436,Evaoldo Group,Real Estate Broker,350000,1,2025-09-30,2025-09-30,zip,false,4260000,14,13,2024/2026
+Susan Collins,Alan Weissman,Rye,NY,10580,"Alfred Weissman Real Estate, LLC",Principal & Ceo,350000,1,2026-05-20,2026-05-20,zip,false,4791000,24,18,2024/2026
+Susan Collins,Albert Chance,Fort Lauderdale,FL,33301,Atlantic Coast Enterprises,Businessman,350000,1,2026-06-24,2026-06-24,zip,true,3090000,14,12,2024/2026
+Susan Collins,Allen Dalezman,Newtonville,MA,02460,Ab Initio,Coo,350000,1,2026-05-18,2026-05-18,zip,true,4200000,32,26,2024/2026
+Susan Collins,Allyn Kramer,Dallas,TX,75248,Retired,Retired,350000,1,2025-11-10,2025-11-10,zip,false,7690000,26,22,2024/2026
+Susan Collins,Andrei Iancu,Los Angeles,CA,90024,Sullivan Cromwell LLP,Attorney,350000,1,2025-12-21,2025-12-21,zip,false,2350000,13,11,2024/2026
+Susan Collins,Ann Davis,Atlanta,GA,30327,Retired,Retired,350000,1,2026-06-23,2026-06-23,zip,false,3930000,17,16,2024/2026
+Susan Collins,Ann Pava,West Hartford,CT,06117,Retired,Retired,350000,2,2025-06-01,2026-05-20,zip,false,6200000,37,25,2024/2026
+Susan Collins,Arthur Black,Highland Beach,FL,33487,Self,Investments,350000,1,2026-05-18,2026-05-18,zip,false,1995600,14,13,2024/2026
+Susan Collins,Barry Kaplan,Seattle,WA,98112,Retired,Retired,350000,1,2026-06-17,2026-06-17,zip,false,770000,10,9,2024/2026
+Susan Collins,Barry Sylvetsky,Boca Raton,FL,33496,Retired,Retired,350000,1,2026-06-01,2026-06-01,zip,false,3150000,20,18,2024/2026
+Susan Collins,Bella Cohen,Mamaroneck,NY,10543,Retired,Retired,350000,1,2026-06-09,2026-06-09,zip,false,850000,6,6,2024/2026
+Susan Collins,Ben Plotkin,Jupiter,FL,33477,Stifel Financial Corp,Executive Vice President,350000,1,2026-02-16,2026-02-16,zip,false,5530000,27,23,2024/2026
+Susan Collins,Beth Levy,Saint Louis,MO,63141,Self,Physician,350000,1,2026-05-18,2026-05-18,zip,false,1850000,9,6,2024/2026
+Susan Collins,Bonnie Siegel,Leawood,KS,66211,Retired,Retired,350000,1,2026-05-18,2026-05-18,zip,false,6665000,33,27,2024/2026
+Susan Collins,Brandon Shainfeld,Beverly Hills,CA,90210,Platinum Mile,Venture Capital,350000,1,2025-09-30,2025-09-30,zip,true,3100000,10,9,2024/2026
+Susan Collins,Brian Labovick,West Palm Beach,FL,33418,Labovick Law Group,Attorney,350000,1,2026-02-16,2026-02-16,zip,true,4450000,37,27,2024/2026
+Susan Collins,Brian Shack,Miami,FL,33133,Braman Management,Attorney,350000,1,2025-11-10,2025-11-10,zip,true,2670000,12,9,2024/2026
+Susan Collins,Carrie Nussbaum,Short Hills,NJ,07078,Self,Community Volunteer,350000,1,2026-06-23,2026-06-23,zip,false,350000,1,1,2026
+Susan Collins,Charles Kramer,West Palm Beach,FL,33412,Retired,Retired,350000,1,2026-02-16,2026-02-16,zip,false,1800000,21,15,2026
+Susan Collins,Daniel Loeb,New York,NY,10001,Third Point LLC,Ceo,350000,1,2025-11-10,2025-11-10,zip,true,21220000,61,42,2024/2026
+Susan Collins,Daniel Yomtobian,Beverly Hills,CA,90210,"Web Value, Inc.",Ceo,350000,1,2025-09-30,2025-09-30,zip,true,3310000,10,9,2024/2026
+Susan Collins,Danny Sheena,Bellaire,TX,77401,Sheena Law,Attorney,350000,1,2026-06-23,2026-06-23,zip,false,11947777,42,37,2024/2026
+Susan Collins,Darren Azman,Summit,NJ,07901,Mcdermott Will Emery LLP,Attorney,350000,1,2026-03-09,2026-03-09,zip,false,2600000,8,8,2026
+Susan Collins,David Adelman,Haverford,PA,19041,Campus Apartments,Ceo,350000,1,2025-12-03,2025-12-03,zip,true,700000,2,2,2026
+Susan Collins,David Blumberg,Golden Beach,FL,33160,Blumberg Capital,Venture Captial,350000,1,2026-02-09,2026-02-09,zip,true,100000,1,1,2026
+Susan Collins,David Kosloff,Merion Station,PA,19066,Roosevelt Paper,Sales,350000,1,2025-12-03,2025-12-03,zip,true,600000,2,2,2026
+Susan Collins,David Kupperman,Nyack,NY,10960,Neuberger Berman,Portfolio Manager,350000,1,2025-12-21,2025-12-21,zip,true,6900000,20,20,2026
+Susan Collins,David Orlofsky,Hoboken,NJ,07030,Alix Partners,Managing Director,350000,1,2026-03-09,2026-03-09,zip,true,4224900,18,17,2024/2026
+Susan Collins,David Porter,Prairie Village,KS,66208,Retired,Retired,350000,1,2026-04-22,2026-04-22,zip,false,1315000,22,22,2024/2026
+Susan Collins,David Rasiel,New York,NY,10024,Retired,Retired,350000,1,2026-06-09,2026-06-09,zip,false,680000,2,2,2024/2026
+Susan Collins,David Veeder,Dallas,TX,75230,Ryan LLC,Cpa,350000,1,2025-12-03,2025-12-03,zip,true,4500000,17,13,2024/2026
+Susan Collins,David Zwillinger,New York,NY,10028,Desri,Ceo,350000,1,2026-06-23,2026-06-23,zip,true,1310000,5,5,2024/2026
+Susan Collins,Dirk Wallinger,Cherry Hills Villa,CO,80113,York Space Systems,Ceo,350000,1,2025-10-23,2025-10-23,zip,true,1350000,6,6,2026
+Susan Collins,Doris Davis,Los Gatos,CA,95032,Retired,Retired,350000,1,2026-04-22,2026-04-22,zip,false,6920000,22,22,2024/2026
+Susan Collins,Ed Satell,King Of Prussia,PA,19406,Retired,Retired,350000,1,2026-02-16,2026-02-16,zip,false,800000,5,4,2026
+Susan Collins,Elizabeth Davis,Atlanta,GA,30336,Rndc LLC,Executive,350000,1,2026-06-23,2026-06-23,zip,false,6780000,37,30,2024/2026
+Susan Collins,Elizabeth Sembler,Saint Petersburg,FL,33704,Retired,Retired,350000,1,2026-06-30,2026-06-30,zip,false,500000,3,3,2026
+Susan Collins,Ellen Sandler,Los Angeles,CA,90067,Sandler Family Foundation,Philanthropist,350000,1,2026-03-31,2026-03-31,zip,false,3397500,19,18,2024/2026
+Susan Collins,Emilin Schaffer,Santa Monica,CA,90403,Retired,Retired,350000,1,2025-09-20,2025-09-20,zip,false,1004500,4,4,2026
+Susan Collins,Eric Chern,Northbrook,IL,60062,Chicago Trading Company,Manager,350000,2,2026-06-08,2026-06-08,zip,false,14180000,46,31,2024/2026
+Susan Collins,Eric Haron,Villanova,PA,19085,Sig,Finance,350000,1,2025-12-03,2025-12-03,zip,true,2050000,13,12,2024/2026
+Susan Collins,Eric Kassoff,Bethesda,MD,20814,Wilkes Artis Chartered,Attorney,350000,1,2026-04-29,2026-04-29,zip,false,3870000,21,20,2024/2026
+Susan Collins,Eric Kurtzman,Las Vegas,NV,89135,Stretto,Ceo,350000,1,2026-03-09,2026-03-09,zip,true,4810000,21,15,2024/2026
+Susan Collins,Eric M. Zachs,West Hartford,CT,06117,Mcm Holdings LLC,Telecom,350000,1,2026-06-01,2026-06-01,zip,true,3456300,17,12,2024/2026
+Susan Collins,Eric Waxman,Los Angeles,CA,90049,Ares Management,Partner,350000,1,2026-06-16,2026-06-16,zip,true,5350000,33,27,2024/2026
+Susan Collins,Eva Schlanger,Palm Beach Gardens,FL,33418,Retired,Retired,350000,1,2026-06-16,2026-06-16,zip,false,1000000,5,4,2024/2026
+Susan Collins,Evan Zucker,Denver,CO,80218,Academy Partnersg Group,Executive,350000,1,2025-11-13,2025-11-13,zip,false,2380000,7,7,2024/2026
+Susan Collins,Fred Bernstein,Beverly Hills,CA,90210,The Derf Company,Real Estate,350000,1,2025-09-30,2025-09-30,zip,true,2735000,9,9,2024/2026
+Susan Collins,Galina Moerdler,Fair Lawn,NJ,07410,Vaporstream,Management,350000,1,2026-05-18,2026-05-18,zip,false,1350000,8,7,2024/2026
+Susan Collins,Gary Gilbert,Beverly Hills,CA,90210,Gilbert Films,Producer,350000,1,2025-09-30,2025-09-30,zip,true,3115000,25,24,2024/2026
+Susan Collins,George Solich,Denver,CO,80206,Fourpoint Energy,Chairman & Ceo,350000,1,2025-12-03,2025-12-03,zip,true,3770000,11,11,2024/2026
+Susan Collins,Gordon Owades,Lexington,MA,02420,Retired,Retired,350000,1,2026-05-18,2026-05-18,zip,false,2750000,17,14,2024/2026
+Susan Collins,Gregory Segall,Philadelphia,PA,19118,Versa Capital Group LLC,Ceo,350000,2,2025-10-27,2025-12-03,zip,false,200000,2,2,2026
+Susan Collins,Harold Diamond,Bal Harbour,FL,33154,Retired,Retired,350000,4,2025-06-26,2026-06-30,zip,false,900000,8,4,2026
+Susan Collins,Herbert Donner,Manhasset,NY,11030,Adi Management Inc,Real Estate Management,350000,1,2026-05-19,2026-05-19,zip,true,1000000,6,6,2024/2026
+Susan Collins,Hilary Kapner,Bethesda,MD,20817,Hsk Consulting,Consultant,350000,1,2026-04-22,2026-04-22,zip,true,15190000,56,40,2024/2026
+Susan Collins,Hy Saporta,Westport,CT,06880,Steward Partners,Co-Founder,350000,1,2026-06-09,2026-06-09,zip,true,4661700,37,25,2024/2026
+Susan Collins,Ilya Sukhar,San Francisco,CA,94105,Matrix Partners,Investor,350000,1,2026-06-17,2026-06-17,zip,true,2690000,7,7,2024/2026
+Susan Collins,Irv Robinson,Naples,FL,34108,Retired,Retired,350000,1,2026-04-22,2026-04-22,zip,false,1650000,10,9,2026
+Susan Collins,Irwin Panitch,Boca Raton,FL,33432,Retired,Retired,350000,1,2026-04-22,2026-04-22,zip,false,775000,7,7,2026
+Susan Collins,Isaac Frank,Atlanta,GA,30327,Building Blocks Commercial Real Estate,President,350000,1,2026-06-23,2026-06-23,zip,false,6230000,43,32,2024/2026
+Susan Collins,James Shapiro,San Francisco,CA,94118,Mitchell Investments,Investor,350000,1,2026-06-24,2026-06-24,zip,true,2184000,13,10,2024/2026
+Susan Collins,Jamie Kotler,Brookline,MA,02445,Self,Rabbi,350000,2,2025-06-01,2026-05-18,zip,false,3110000,20,13,2024/2026
+Susan Collins,Jay Pepose,Chesterfield,MO,63017,Retired,Retired,350000,1,2026-06-07,2026-06-07,zip,false,1025000,7,3,2024/2026
+Susan Collins,Jay Stieber,Prospect Heights,IL,60070,Lettuce Entertain You,Attorney,350000,1,2026-06-23,2026-06-23,zip,true,2675000,49,31,2024/2026
+Susan Collins,Jed Nussbaum,Short Hills,NJ,07078,Nut Tree Capital Management,Investment Manager,350000,1,2026-06-23,2026-06-23,zip,false,1650000,4,4,2026
+Susan Collins,Jeff Reingold,Portland,OR,97239,Self,Real Estate,350000,1,2026-06-29,2026-06-29,zip,false,700000,3,3,2024/2026
+Susan Collins,Jeffrey Cohen,Chicago,IL,60645,Retired,Retired,350000,2,2026-01-09,2026-06-09,zip,false,700000,4,4,2024
+Susan Collins,Jeffrey Halis,New York,NY,10028,Retired,Retired,350000,1,2026-05-20,2026-05-20,zip,false,3790000,7,6,2024/2026
+Susan Collins,Jeffrey Raizner,Houston,TX,77005,Raizner Alania LLP,Attorney,350000,1,2026-06-28,2026-06-28,zip,false,3000000,28,25,2024/2026
+Susan Collins,Jeffrey Stein,New Canaan,CT,06840,Stein Advisors LLC,Partner,350000,1,2026-03-16,2026-03-16,zip,true,3881108,12,12,2024/2026
+Susan Collins,Jeffrey Stonberg,Gloucester,MA,01930,Property Resources,Real Estate Executive,350000,2,2026-06-08,2026-06-29,zip,false,600000,6,6,2024/2026
+Susan Collins,Jeremy Pava,West Hartford,CT,06117,Johnson Real Estate,Board Member,350000,1,2026-05-20,2026-05-20,zip,true,5650000,21,18,2024/2026
+Susan Collins,Jim Baker,New York,NY,10128,Neuberger Berman,Investment Management,350000,1,2025-06-28,2025-06-28,zip,true,1050000,2,2,2026
+Susan Collins,Joan Violin,Wellington,FL,33414,Retired,Retired,350000,1,2026-02-16,2026-02-16,zip,false,5450000,33,23,2024/2026
+Susan Collins,Joel Bender,Houston,TX,77024,Cactus Wellhead,Executive,350000,1,2026-06-09,2026-06-09,zip,true,3300000,11,10,2024/2026
+Susan Collins,Joel Greenblatt,Sands Point,NY,11050,Retired,Retired,350000,1,2026-01-29,2026-01-29,zip,false,2050000,7,7,2024/2026
+Susan Collins,Joel Greenblatt,Palm Beach,FL,33480,Retired,Retired,350000,1,2026-06-09,2026-06-09,zip,false,900000,4,4,2024/2026
+Susan Collins,Joel Hart,Palm Beach Gardens,FL,33410,Retired,Retired,350000,1,2026-02-16,2026-02-16,zip,false,4870000,33,22,2024/2026
+Susan Collins,Joel Leibowitz,West Palm Beach,FL,33412,Retired,Retired,350000,1,2026-02-16,2026-02-16,zip,false,3950000,32,23,2024/2026
+Susan Collins,Joel Sandberg,Miami,FL,33179,Retired,Retired,350000,1,2026-06-07,2026-06-07,zip,false,9960000,28,27,2024/2026
+Susan Collins,John Wolf,Jupiter,FL,33477,Retired,Retired,350000,1,2026-02-16,2026-02-16,zip,false,4300000,31,22,2024/2026
+Susan Collins,Joli Altshule,Pacific Palisades,CA,90272,Goldman Sachs,Vice President,350000,1,2025-09-20,2025-09-20,zip,true,4040000,12,12,2024/2026
+Susan Collins,Jonathan Missner,Potomac,MD,20854,Stein Mitchell,Attorney,350000,1,2026-04-22,2026-04-22,zip,false,2750000,24,22,2024/2026
+Susan Collins,Jonathan Nemeth,Lebanon,NJ,08833,Retired,Retired,350000,1,2026-05-18,2026-05-18,zip,false,1840000,21,18,2024/2026
+Susan Collins,Jonathan Slass,Warren,NJ,07059,Rotor Clip,Manager,350000,1,2026-06-24,2026-06-24,zip,true,6989700,34,26,2024/2026
+Susan Collins,Joseph Lubeck,West Palm Beach,FL,33403,American Landmark,Real Estate,350000,1,2026-06-16,2026-06-16,zip,true,4900000,14,12,2024/2026
+Susan Collins,Joshua Crane,New York,NY,10075,Spruce Capital Partners,Principal,350000,1,2026-06-01,2026-06-01,zip,true,3950000,20,18,2024/2026
+Susan Collins,Joshua Rosman,Merion Station,PA,19066,Metro Global Ventures,Managing Director,350000,1,2025-11-10,2025-11-10,zip,false,350000,1,1,2026
+Susan Collins,Julie Brandt,Burlingame,CA,94010,Self,Consultant,350000,1,2026-06-24,2026-06-24,zip,false,1150000,5,5,2024/2026
+Susan Collins,Julie Platt,Los Angeles,CA,90024,Self,Philanthropist,350000,1,2026-03-31,2026-03-31,zip,false,19612500,51,38,2024/2026
+Susan Collins,Kara Slater,Los Angeles,CA,90049,Self,Community Volunteer,350000,1,2025-09-20,2025-09-20,zip,false,2380000,7,6,2024/2026
+Susan Collins,Karen Rosenberg,Marblehead,MA,01945,Retired,Retired,350000,1,2026-06-09,2026-06-09,zip,false,350000,1,1,2026
+Susan Collins,Keenan Wolens,Beverly Hills,CA,90210,Amir Development Co,Ceo,350000,1,2026-03-31,2026-03-31,zip,true,7842500,36,30,2024/2026
+Susan Collins,Kenneth Novack,Rockport,MA,01966,Retired,Retired,350000,1,2026-05-18,2026-05-18,zip,false,650000,4,4,2026
+Susan Collins,Kerry Vickar,Charlotte,NC,28284,Lkv Management LLC,Ceo,350000,1,2026-02-16,2026-02-16,zip,false,8840000,21,21,2024/2026
+Susan Collins,Kevin Luskin,Palm Beach Gardens,FL,33418,Retired,Retired,350000,1,2026-03-09,2026-03-09,zip,false,1000000,5,5,2024/2026
+Susan Collins,Kirk Gellin,Palm Beach,FL,33480,Retired,Retired,350000,1,2026-06-09,2026-06-09,zip,false,2130000,10,10,2024/2026
+Susan Collins,Kourosh Moghadam,Los Angeles,CA,90049,Bd&J PC,Attorney,350000,1,2025-09-30,2025-09-30,zip,false,500000,1,1,2024
+Susan Collins,Lance Hirt,Lawrence,NY,11559,Stonecourt Capital,Private Equity,350000,1,2026-05-18,2026-05-18,zip,true,1550000,4,4,2024/2026
+Susan Collins,Larry Greenberg,Weston,MA,02493,Retired,Retired,350000,1,2025-06-01,2025-06-01,zip,false,20090000,62,43,2024/2026
+Susan Collins,Laura Stein,Beverly Hills,CA,90210,Robbins Geller,Attorney,350000,1,2026-06-07,2026-06-07,zip,true,2792500,24,22,2024/2026
+Susan Collins,Laurie Platt,Dallas,TX,75219,Platt Family Charitable Foundation,Chairman,350000,1,2026-06-29,2026-06-29,zip,false,350000,1,1,2026
+Susan Collins,Lawrence Burian,New Rochelle,NY,10804,Production Resource Group,Ceo,350000,1,2026-06-28,2026-06-28,zip,true,2125000,9,7,2024/2026
+Susan Collins,Lee Schwartz,Houston,TX,77025,The Methodist Hospital,Attorney,350000,1,2026-06-16,2026-06-16,zip,true,13545000,51,40,2024/2026
+Susan Collins,Leon Zekaria,Beverly Hills,CA,90210,Windsor Fashion,Executive,350000,1,2026-04-22,2026-04-22,zip,false,2250000,9,9,2026
+Susan Collins,Leonid Vayner,Brooklyn,NY,11235,Elliott Investment Management Lp,Manager,350000,2,2025-06-28,2026-06-08,zip,true,2815000,18,16,2024/2026
+Susan Collins,Lillian Pinkus,Dallas,TX,75230,Retired,Retired,350000,1,2025-11-10,2025-11-10,zip,false,7820000,35,30,2024/2026
+Susan Collins,Loren Daitch,Merrick,NY,11566,Stuart L Daitch Dmd PC,Office Manager,350000,2,2025-03-28,2026-06-29,zip,true,1135000,18,12,2024/2026
+Susan Collins,Lorri Owades,Lexington,MA,02420,Retired,Retired,350000,1,2026-05-18,2026-05-18,zip,false,350000,1,1,2026
+Susan Collins,Marc Sacks,Deerfield,IL,60015,Mesirow Financial,Investments,350000,1,2026-06-29,2026-06-29,zip,true,2460000,17,13,2024/2026
+Susan Collins,Marc Schlussel,Teaneck,NJ,07666,Key Properties,Real Estate,350000,2,2025-06-26,2026-01-30,zip,false,200000,2,2,2024
+Susan Collins,Marc Solomon,Potomac,MD,20854,Finmarc Management,Real Estate,350000,1,2026-04-29,2026-04-29,zip,true,3660000,18,18,2024/2026
+Susan Collins,Marcy Cornfeld,Saint Louis,MO,63141,Retired,Retired,350000,1,2026-06-01,2026-06-01,zip,false,1055000,4,3,2024/2026
+Susan Collins,Marina Jacobson,Palm Beach,FL,33480,Retired,Retired,350000,2,2025-06-28,2026-03-27,zip,false,9529200,45,32,2024/2026
+Susan Collins,Marjie Kargman,Palm Beach,FL,33480,Retired,Retired,350000,1,2026-05-20,2026-05-20,zip,false,350000,1,1,2026
+Susan Collins,Mark Chudacoff,Palm Beach Gardens,FL,33418,Self,Real Estate,350000,1,2026-01-29,2026-01-29,zip,false,2440000,14,13,2024/2026
+Susan Collins,Mark Cudacoff,Palm Beach Gardens,FL,33418,Retired,Retired,350000,1,2026-06-09,2026-06-09,zip,false,350000,1,1,2026
+Susan Collins,Matt Bayer,Chicago,IL,60614,Mj Holding,Ceo,350000,1,2026-06-08,2026-06-08,zip,true,4000000,15,14,2026
+Susan Collins,Matthew Kaplan,Summit,NJ,07901,Neuberger Berman,Investor,350000,3,2026-06-09,2026-06-30,zip,true,4600000,8,8,2026
+Susan Collins,Max Reichenthal,Houston,TX,77020,Texas Iron & Metal,Steel Distributor,350000,1,2026-06-24,2026-06-24,zip,false,4600000,22,20,2024/2026
+Susan Collins,Melvin Cutler,Aventura,FL,33180,Cutler Capital Management,Founder,350000,1,2026-06-17,2026-06-17,zip,true,1650000,4,4,2026
+Susan Collins,Michael Cassel,New York,NY,10019,Wachtell Lipton Rosen Katz,Attorney,350000,1,2026-03-09,2026-03-09,zip,false,1250000,5,5,2026
+Susan Collins,Michael Cohanzad,Los Angeles,CA,90025,Self Employed,Real Estate Broker,350000,1,2025-09-30,2025-09-30,zip,false,3360000,11,11,2024/2026
+Susan Collins,Michael Kaplan,New York,NY,10028,Davis Polk & Wardwell LLP,Attorney,350000,2,2025-09-30,2026-06-09,zip,true,3300000,21,18,2024/2026
+Susan Collins,Michael Levy,Dallas,TX,75201,Crow Holdings,Investments,350000,1,2026-05-01,2026-05-01,zip,true,3300000,12,10,2026
+Susan Collins,Michael Woronoff,Los Angeles,CA,90049,Retired,Retired,350000,2,2026-03-09,2026-06-29,zip,false,2775000,19,16,2024/2026
+Susan Collins,Michelle Lobel,Dallas,TX,75220,Ideal Fastener Corp,Owner,350000,1,2025-12-03,2025-12-03,zip,true,5200000,23,19,2024/2026
+Susan Collins,Mitchell Jacobson,New York,NY,10022,Jfi LLC,Non Executive Chairman,350000,1,2025-06-28,2025-06-28,zip,false,2340000,10,10,2026
+Susan Collins,Mitchell Kopelman,Inlet Beach,FL,32461,Aprio LLP,Cpa,350000,1,2026-06-16,2026-06-16,zip,false,1050000,11,11,2026
+Susan Collins,Mitchell Mr. Julis,Los Angeles,CA,90067,Canyon Partners,Managing Partner,350000,1,2025-12-21,2025-12-21,zip,true,4300000,19,15,2024/2026
+Susan Collins,Mitchell Roberts,Boston,MA,02116,Pr Restaurants LLC,Ceo,350000,1,2026-05-18,2026-05-18,zip,true,5030000,38,29,2024/2026
+Susan Collins,Morris Tuchman,Surfside,FL,33154,Retired,Retired,350000,1,2026-05-18,2026-05-18,zip,false,10030900,35,28,2024/2026
+Susan Collins,Oscar Pinkas,Darien,CT,06820,Greenberg Traurig,Attorney,350000,2,2025-12-21,2026-03-16,zip,true,1300000,6,4,2026
+Susan Collins,Pam Lubeck,West Palm Beach,FL,33403,American Landmark,Real Estate,350000,1,2026-06-16,2026-06-16,zip,true,350000,1,1,2026
+Susan Collins,Paul Candau,El Cerrito,CA,94530,Marble Bridge Funding,Ceo,350000,1,2026-04-29,2026-04-29,zip,false,3000000,9,9,2026
+Susan Collins,Pejman Salimpour,Sherman Oaks,CA,91403,Salimpour Pediatric Medical Group,Physician,350000,1,2026-06-16,2026-06-16,zip,false,1010000,3,3,2024/2026
+Susan Collins,Rachelle Silver,New York,NY,10038,Autumn Communications Inc,President,350000,1,2026-06-30,2026-06-30,state,false,380000,2,2,2026
+Susan Collins,Randall Levitt,Bethesda,MD,20814,Nellis Corp,Investor,350000,1,2026-06-17,2026-06-17,zip,false,4005000,27,23,2024/2026
+Susan Collins,Richard Bassuk,Scarsdale,NY,10583,Singer Bassuk Organization,President,350000,1,2026-04-22,2026-04-22,zip,false,5820000,18,16,2024/2026
+Susan Collins,Richard Calmas,Chestnut Hill,MA,02467,Retired,Retired,350000,2,2026-06-09,2026-06-30,zip,false,2900000,18,12,2024/2026
+Susan Collins,Richard Cornfeld,Saint Louis,MO,63141,Retired,Retired,350000,1,2026-06-01,2026-06-01,zip,false,4180000,17,15,2024/2026
+Susan Collins,Richard Davis,Atlanta,GA,30342,Rndc,Executive Vice President,350000,1,2026-06-23,2026-06-23,zip,true,5030000,32,26,2024/2026
+Susan Collins,Richard Genirberg,Stateline,NV,89449,Retired,Retired,350000,2,2026-04-29,2026-05-13,zip,false,6240000,22,22,2024/2026
+Susan Collins,Richard Goodman,Walnut Creek,CA,94595,Retired,Retired,350000,1,2026-06-17,2026-06-17,zip,false,1650000,25,25,2024/2026
+Susan Collins,Richard Horvitz,Miami Beach,FL,33139,Moreland Management Co,Investor,350000,1,2025-03-30,2025-03-30,state,false,2000000,6,6,2024/2026
+Susan Collins,Richard Sandler,Santa Monica,CA,90401,Maron & Sandler,Attorney,350000,1,2026-03-31,2026-03-31,zip,false,3085000,17,15,2024/2026
+Susan Collins,Richard Yulman,Miami Beach,FL,33140,Retired,Retired,350000,2,2026-06-09,2026-06-09,zip,false,2050000,8,8,2026
+Susan Collins,Robert Granader,Miami Beach,FL,33109,Freedonia Group,Ceo,350000,1,2026-06-09,2026-06-09,zip,true,3280000,9,8,2024/2026
+Susan Collins,Robert Haber,Brookline,MA,02445,Proficio Partners,Cio,350000,1,2026-06-09,2026-06-09,zip,false,3878500,14,11,2024/2026
+Susan Collins,Robert Kargman,Palm Beach,FL,33480,Boston Land Co,President,350000,1,2026-05-20,2026-05-20,zip,false,3322000,18,13,2024/2026
+Susan Collins,Robert Sarver,Paradise Valley,AZ,85253,3edgewood LLC,Principal,350000,1,2026-06-01,2026-06-01,zip,false,5510000,15,13,2024/2026
+Susan Collins,Robert Schwartz,New York,NY,10075,Spruce Capital Partners,Principal,350000,1,2026-06-01,2026-06-01,zip,true,3950000,20,18,2024/2026
+Susan Collins,Rodd Werstil,Pittsburgh,PA,15217,Mckinney Properties,Managing Director,350000,1,2026-04-25,2026-04-25,zip,true,925000,12,11,2024/2026
+Susan Collins,Roger Klein,Waban,MA,02468,Retired,Retired,350000,1,2026-06-01,2026-06-01,zip,false,4000000,34,23,2024/2026
+Susan Collins,Ronald Breakstone,Sandy Springs,GA,30350,Retired,Retired,350000,1,2026-06-24,2026-06-24,zip,false,350000,1,1,2026
+Susan Collins,Ruth Kohen,Mercer Island,WA,98040,Retired,Retired,350000,1,2026-05-18,2026-05-18,zip,false,9101000,41,29,2024/2026
+Susan Collins,Samuel Davidoff,Washington,DC,20016,Mfb Technologies Inc,Ceo,350000,1,2026-06-17,2026-06-17,zip,false,350000,1,1,2026
+Susan Collins,Scott Copeland,Rockville,MD,20852,Rst Development,Real Estate,350000,1,2026-04-29,2026-04-29,zip,true,7630000,43,33,2024/2026
+Susan Collins,Shannon Sheena,Bellaire,TX,77401,Sheena Law,Executive Assistant,350000,1,2026-06-23,2026-06-23,zip,false,2160000,7,7,2024/2026
+Susan Collins,Sharon Altman,Short Hills,NJ,07078,Retired,Retired,350000,1,2026-02-16,2026-02-16,zip,false,350000,1,1,2026
+Susan Collins,Shaula Yemini,New York,NY,10019,Retired,Retired,350000,1,2026-04-22,2026-04-22,zip,false,3750000,15,13,2024/2026
+Susan Collins,Shelly Gerson,Cincinnati,OH,45237,Retired,Retired,350000,1,2026-05-18,2026-05-18,zip,false,2700000,14,8,2024/2026
+Susan Collins,Sig Zises,West Palm Beach,FL,33401,Retired,Retired,350000,1,2026-02-16,2026-02-16,zip,false,880000,3,3,2026
+Susan Collins,Skip Miller,Los Angeles,CA,90067,Miller Barondess,Attorney,350000,1,2026-06-28,2026-06-28,zip,true,22990000,56,43,2024/2026
+Susan Collins,Stacey Burke,Houston,TX,77056,Stacey Burke PC,Attorney,350000,1,2026-06-30,2026-06-30,zip,false,1700000,12,12,2024/2026
+Susan Collins,Stacy Nerenstone,Miami Beach,FL,33141,Retired,Retired,350000,2,2026-04-22,2026-06-01,zip,false,4850000,39,31,2024/2026
+Susan Collins,Stanley A. Rabin,Dallas,TX,75230,Retired,Retired,350000,1,2025-11-10,2025-11-10,zip,false,7090000,25,21,2024/2026
+Susan Collins,Stephen Samuel,Beverly Hills,CA,90210,Evolve Realty Development,Developer,350000,1,2025-09-30,2025-09-30,zip,true,1600000,6,6,2024/2026
+Susan Collins,Steve Emerson,Los Angeles,CA,90024,Emerson Gp Family Office,Investor,350000,1,2025-12-21,2025-12-21,zip,true,2450000,7,7,2026
+Susan Collins,Steve Kimmelman,Cleveland,OH,44124,Redwood Living,Chairman,350000,2,2026-04-22,2026-04-22,zip,true,8890000,31,28,2024/2026
+Susan Collins,Steve Mendell,Jupiter,FL,33477,Hei Hotels,Hotel Management,350000,1,2026-05-19,2026-05-19,zip,true,2390000,7,7,2024/2026
+Susan Collins,Steve Sadaka,Sunrise,FL,33323,Retired,Retired,350000,1,2026-01-29,2026-01-29,zip,false,1750000,8,8,2024/2026
+Susan Collins,Steven Becker,Boca Raton,FL,33496,Southern Glazers W & S,Executive,350000,1,2026-06-23,2026-06-23,zip,true,2740000,11,9,2024/2026
+Susan Collins,Steven Gottlieb,Palm Beach,FL,33480,Retired,Retired,350000,1,2026-02-16,2026-02-16,zip,false,450000,2,2,2026
+Susan Collins,Steven Kuhl,West Palm Beach,FL,33412,Retired,Retired,350000,1,2026-02-16,2026-02-16,zip,false,2900000,27,20,2024/2026
+Susan Collins,Stewart Satter,Lantana,FL,33462,Retired,Retired,350000,1,2026-01-29,2026-01-29,zip,false,1410000,5,5,2024/2026
+Susan Collins,Stuart And Sara Meyers,Dunwoody,GA,30338,Retired,Retired,350000,2,2026-06-29,2026-06-29,zip,false,4275000,31,24,2024/2026
+Susan Collins,Sue Maltiel,Saratoga,CA,95070,Retired,Retired,350000,1,2026-06-29,2026-06-29,zip,false,650000,4,4,2024/2026
+Susan Collins,Susan Reichenthal,Houston,TX,77020,Self,Home Maker,350000,1,2026-06-24,2026-06-24,zip,false,350000,1,1,2026
+Susan Collins,Todd Becker,Pasadena,CA,91101,Becker Law Group,Attorney,350000,2,2025-03-28,2025-09-21,zip,true,3500000,14,14,2026
+Susan Collins,Tony Davis,Chicago,IL,60610,Linden Capital,Investor,350000,1,2026-05-18,2026-05-18,zip,false,19964400,76,56,2024/2026
+Susan Collins,William Gray,Plantation,FL,33325,76 Undefeated,Manager,350000,1,2026-06-01,2026-06-01,zip,false,5721400,37,31,2024/2026
+Susan Collins,Yale Baron,Teaneck,NJ,07666,Anchorage Capital,Finance,350000,1,2026-03-16,2026-03-16,zip,true,1550000,5,5,2026
+Susan Collins,Yossie Hollander,Irvine,CA,92603,Fuel Freedom Foundation,Founder,350000,1,2025-12-31,2025-12-31,zip,false,250000,1,1,2024
+Susan Collins,Michael Gortenburg,Leawood,KS,66211,Retired,Retired,349200,1,2026-04-22,2026-04-22,zip,false,6672600,29,25,2024/2026
+Susan Collins,Brad Conroy,Beverly Hills,CA,90212,Conroy Commercial,Real Estate,340000,1,2025-09-20,2025-09-20,zip,true,4340000,11,10,2024/2026
+Susan Collins,Alyse Millstein,Ridgewood,NJ,07450,The Stro Companies,Real Estate,330000,1,2025-01-28,2025-01-28,zip,true,7320000,23,21,2024/2026
+Susan Collins,Avi Friedman,White Plains,NY,10606,Retired,Retired,330000,1,2025-01-28,2025-01-28,zip,false,15830000,49,40,2024/2026
+Susan Collins,James Haber,New York,NY,10075,Self Employeed,Investor,330000,1,2025-01-28,2025-01-28,zip,true,3285000,10,9,2024/2026
+Susan Collins,Randall Mccallum,New York,NY,10021,Btig,Sales Trader,330000,1,2025-01-28,2025-01-28,zip,true,4800000,17,17,2024/2026
+Susan Collins,Sarah Biser,Holmdel,NJ,07733,Fox Rothschild LLP,Attorney,330000,1,2025-01-28,2025-01-28,zip,true,5650000,19,18,2024/2026
+Susan Collins,Tina Weinstock,New York,NY,10022,Self,Homemaker,330000,1,2025-01-28,2025-01-28,zip,false,4150000,24,19,2024/2026
+Susan Collins,Gary Kaufman,New York,NY,10016,Self,Attorney,325000,3,2025-12-31,2026-03-31,zip,false,75000,3,2,2024/2026
+Susan Collins,Paul J. Isaac,Larchmont,NY,10538,Arbiter Partners Capital Mgmt,Analyst,304800,4,2025-06-28,2025-10-20,zip,true,1050000,7,7,2024/2026
+Susan Collins,Andrew Jagoda,Scarsdale,NY,10583,Katten Muchin Rosenman LLP,Attorney,300000,2,2025-01-28,2026-06-09,zip,true,3300000,28,23,2024/2026
+Susan Collins,Andrew Schleimer,Las Vegas,NV,89158,Tko Group Holdings,Cfo,300000,1,2025-01-28,2025-01-28,zip,true,3080000,11,11,2024/2026
+Susan Collins,Ann Margolin,Dallas,TX,75219,Retired,Retired,300000,1,2025-11-10,2025-11-10,zip,false,2800000,13,12,2024/2026
+Susan Collins,Barry J. Kramer,Palo Alto,CA,94306,Fenwick & West,Lawyer,300000,3,2025-09-21,2026-06-09,zip,true,300000,3,2,2024
+Susan Collins,Barry Rubenstein,Glen Head,NY,11545,Retired,Retired,300000,1,2025-12-21,2025-12-21,zip,false,6850000,15,13,2024/2026
+Susan Collins,Debra Shapiro,West Palm Beach,FL,33401,Retired,Retired,300000,2,2026-01-29,2026-02-16,zip,false,900000,4,3,2024/2026
+Susan Collins,Ellen Segal,Chestnut Hill,MA,02467,Retired,Retired,300000,2,2025-05-05,2026-05-19,zip,false,1900000,18,15,2024/2026
+Susan Collins,Elliott Joseph,Forest Hills,NY,11375,Retired,Retired,300000,2,2025-03-28,2026-03-27,zip,false,520000,4,4,2024/2026
+Susan Collins,Eveline Shekhman,Farmington,CT,06032,American Jewish Medical Association,Ceo,300000,2,2026-05-19,2026-06-01,zip,true,4879700,56,19,2024/2026
+Susan Collins,Frank Risch,Dallas,TX,75225,Retired,Retired,300000,1,2025-11-10,2025-11-10,zip,false,4420000,16,13,2024/2026
+Susan Collins,Gary Erlbaum,Ardmore,PA,19003,Greentree Properties,Real Estate Investor/Businessman,300000,2,2025-11-10,2026-06-09,zip,false,7900000,49,30,2024/2026
+Susan Collins,James P. Rosenfield,New Castle,NH,03854,Cambridge Energy Research,Marketing Director,300000,2,2025-06-01,2025-12-29,zip,false,7320000,52,36,2024/2026
+Susan Collins,Jay Ashberg,Mercer Island,WA,98040,Value Builders,Owner,300000,1,2026-06-30,2026-06-30,zip,false,300000,1,1,2026
+Susan Collins,Jeffrey Hochberg,Teaneck,NJ,07666,Sullivan & Cromnell,Attorney,300000,2,2025-06-26,2026-06-30,zip,false,1000000,14,13,2024/2026
+Susan Collins,Jon Banks,Beverly Hills,CA,90210,Retired,Retired,300000,1,2026-02-16,2026-02-16,zip,false,500000,2,2,2026
+Susan Collins,Jubin Niamehr,Los Angeles,CA,90024,Jacoby & Meyers,Attorney,300000,1,2026-04-22,2026-04-22,zip,true,5480000,44,34,2024/2026
+Susan Collins,Karen Benett,Miami Beach,FL,33140,Self Employed,Food Truck Vendor,300000,1,2025-09-20,2025-09-20,zip,false,900000,21,21,2024/2026
+Susan Collins,Maury Herman,New Orleans,LA,70130,"Herman Katz Gisleson & Cain, LLC",Attorney,300000,1,2026-06-24,2026-06-24,zip,false,2100000,10,10,2024/2026
+Susan Collins,Peter Sidel,Palm Beach Gardens,FL,33410,Retired,Retired,300000,1,2026-02-16,2026-02-16,zip,false,3730000,23,19,2024/2026
+Susan Collins,Richard Morse,Commack,NY,11725,Citigroup,Financial Advisor,300000,1,2026-06-17,2026-06-17,zip,false,1125000,14,14,2024/2026
+Susan Collins,Rick Guttman,Houston,TX,77096,Dakota Properties,Real Estate,300000,1,2026-06-28,2026-06-28,zip,true,650000,3,3,2026
+Susan Collins,Sheila Leibovic,Los Angeles,CA,90049,Retired,Retired,300000,1,2026-04-29,2026-04-29,zip,false,660000,3,2,2026
+Susan Collins,Steven Demby,Denver,CO,80209,"Brownstein Hyatt Farber Schreck, LLP",Attorney,300000,1,2025-12-03,2025-12-03,zip,true,6075000,24,24,2024/2026
+Susan Collins,Yehuda Neuberger,Pikesville,MD,21208,Sim Holdings,President,300000,1,2026-03-16,2026-03-16,zip,false,26695000,143,105,2024/2026
+Susan Collins,Tina Kasimer,Sharon,MA,02067,Retired,Retired,275000,3,2025-06-01,2026-06-24,zip,false,750000,9,7,2024/2026
+Susan Collins,Alexander Hakim,Beverly Hills,CA,90212,Self,Real Estate Broker,268000,1,2025-09-20,2025-09-20,zip,false,2107200,15,15,2024/2026
+Susan Collins,Amir Dar,Beverly Hills,CA,90210,Enzo Equities,Real Estate,268000,1,2025-09-30,2025-09-30,zip,true,1319000,9,9,2024/2026
+Susan Collins,Andrew Black,Los Angeles,CA,90004,Michael Smith Inc,Art Advisor,268000,1,2025-09-20,2025-09-20,zip,true,1342700,11,9,2024/2026
+Susan Collins,Brian Soloway,Los Angeles,CA,90064,Raymond James,Investment Banker,268000,1,2025-09-20,2025-09-20,zip,true,2000000,15,14,2024/2026
+Susan Collins,Denille Sachs,Los Angeles,CA,90064,Apple Inc.,Attorney,268000,1,2025-09-20,2025-09-20,zip,true,2214900,16,14,2024/2026
+Susan Collins,Elana Schuldt,Los Angeles,CA,90049,Rodan Family Foundation,President,268000,1,2025-09-20,2025-09-20,zip,true,1272700,9,8,2026
+Susan Collins,Holly Moradfar,Los Angeles,CA,90049,Retired,Retired,268000,1,2025-09-30,2025-09-30,zip,false,1920200,14,13,2024/2026
+Susan Collins,Jayme Bolden,Los Angeles,CA,90024,Felson Companies,Acquisition And Management,268000,1,2025-11-10,2025-11-10,zip,false,656200,5,5,2024/2026
+Susan Collins,Mark Broumand,Los Angeles,CA,90014,Mark Broumand Inc,Ceo,268000,1,2025-09-20,2025-09-20,zip,true,1522700,9,9,2024/2026
+Susan Collins,Michael Gardner,Los Angeles,CA,90064,Stone Canyon,Finance,268000,1,2025-09-30,2025-09-30,zip,true,2751700,16,15,2024/2026
+Susan Collins,Ran Ben-Tzur,Los Angeles,CA,90066,Fenwick,Attorney,268000,1,2025-09-30,2025-09-30,zip,true,1787200,14,13,2024/2026
+Susan Collins,Shirley Halimi,Beverly Hills,CA,90211,Retired,Retired,268000,1,2025-09-20,2025-09-20,zip,false,2373400,18,15,2024/2026
+Susan Collins,Steven Hakim,Beverly Hills,CA,90212,Self,Real Estate Broker,268000,1,2025-09-20,2025-09-20,zip,false,1924200,15,14,2024/2026
+Susan Collins,Talia Friedman,Los Angeles,CA,90064,The Cultivist,Business Development Consultant,268000,1,2025-09-30,2025-09-30,zip,false,1177200,7,7,2026
+Susan Collins,Vadim Gorin,Santa Monica,CA,90402,American Century Investments,Sales,268000,1,2025-09-30,2025-09-30,zip,true,717000,4,4,2024/2026
+Susan Collins,Victoria Neril,Beverly Hills,CA,90210,Retired,Retired,268000,1,2025-09-20,2025-09-20,zip,false,1634500,12,12,2024/2026
+Susan Collins,Alyse Vishnick,New York,NY,10021,Artisan Partners,Asset Management,250000,1,2025-06-28,2025-06-28,zip,true,2180000,12,12,2024/2026
+Susan Collins,Amy Dean,Aventura,FL,33160,Amy Dean Pa,Arbitrator,250000,1,2026-06-08,2026-06-08,zip,false,250000,1,1,2026
+Susan Collins,Aric Zamel,Beverly Hills,CA,90212,Ubs Financial,Managing Director,250000,1,2026-06-30,2026-06-30,zip,false,250000,1,1,2026
+Susan Collins,Arthur Agatston,Miami Beach,FL,33109,Self,Physician,250000,1,2025-03-28,2025-03-28,zip,false,1530000,10,10,2024/2026
+Susan Collins,Ben Jacobs,Englewood,NJ,07631,Farmers Life,Ceo,250000,1,2026-02-09,2026-02-09,zip,false,18000,1,1,2024
+Susan Collins,Ben Silverman,Los Angeles,CA,90067,Propagate Content,Film & Tv,250000,1,2026-05-19,2026-05-19,zip,true,610000,2,2,2024/2026
+Susan Collins,Benjamin Genet,Hollywood,FL,33021,Self,Real Estate,250000,1,2025-03-28,2025-03-28,zip,false,9250000,17,15,2024/2026
+Susan Collins,Betsy Korn,Pompano Beach,FL,33062,Bvision,Owner,250000,1,2025-03-28,2025-03-28,zip,true,9386500,52,38,2024/2026
+Susan Collins,Carl Cohen,Beachwood,OH,44122,Retired,Retired,250000,1,2026-01-29,2026-01-29,zip,false,5050000,36,29,2024/2026
+Susan Collins,Carolyn Ziegler,Brooklyn,NY,11201,Retired,Retired,250000,1,2025-03-28,2025-03-28,zip,false,650000,3,3,2026
+Susan Collins,Daniel Dunkelman,Marina Del Rey,CA,90292,Cedars- Sinai,Doctor,250000,1,2025-03-28,2025-03-28,zip,true,500000,2,2,2026
+Susan Collins,Daniel Erlbaum,Merion Station,PA,19066,Finch Brands,Ceo,250000,1,2025-11-10,2025-11-10,zip,true,500000,4,4,2026
+Susan Collins,Daniel Gryczman,Santa Monica,CA,90402,Blumax Partners LLC,Managing Partner,250000,1,2026-04-22,2026-04-22,zip,true,1510000,8,8,2024/2026
+Susan Collins,Daniella Gershel,Great Neck,NY,11021,Onyx Search Partners Ltd,Managing Partner,250000,1,2025-06-28,2025-06-28,zip,true,1450000,7,7,2024/2026
+Susan Collins,David Chasen,New York,NY,10128,Two Seas Capital,Financial,250000,1,2026-03-16,2026-03-16,zip,false,1000000,4,4,2026
+Susan Collins,David Mr. Chaifetz,Sarasota,FL,34236,Retired,Retired,250000,1,2025-03-28,2025-03-28,zip,false,3975000,24,15,2024/2026
+Susan Collins,David Robbins,New York,NY,10011,Monomoy Capital,Partner,250000,1,2026-03-16,2026-03-16,zip,true,650000,3,3,2026
+Susan Collins,David Zubricki,Brooklyn,NY,11201,Ducera Partners,Managing Director,250000,1,2026-03-09,2026-03-09,zip,false,650000,3,3,2026
+Susan Collins,Donna Bender,Encino,CA,91436,Homemaker,Self,250000,1,2025-03-28,2025-03-28,zip,false,12976000,58,39,2024/2026
+Susan Collins,Ed Satell,Bala Cynwyd,PA,19004,Successfuel,Ceo,250000,1,2025-03-28,2025-03-28,zip,true,800000,5,5,2024/2026
+Susan Collins,Emanuel Neuman,New York,NY,10065,Spandrel Development,Real Estate,250000,1,2025-03-28,2025-03-28,zip,true,2910000,21,17,2024/2026
+Susan Collins,Erez Elisha,Short Hills,NJ,07078,Tcv,Cfo,250000,1,2025-06-28,2025-06-28,zip,true,500000,2,2,2026
+Susan Collins,Eric Martz,New York,NY,10012,Evercore,Investment Banker,250000,1,2026-03-16,2026-03-16,zip,true,500000,2,2,2026
+Susan Collins,Gary Goodman,Bloomfield Hills,MI,48302,Eaton Stell Bar Company,Owner,250000,1,2025-03-28,2025-03-28,zip,true,2000000,11,10,2024/2026
+Susan Collins,Gerald Shapiro,Rockville,MD,20850,Shapiro And Duncan,Mechanical Engineer,250000,1,2026-06-30,2026-06-30,zip,false,750000,3,3,2026
+Susan Collins,Harold Grinspoon,Agawam,MA,01001,Harold Grinspoon Foundation,Founder,250000,1,2026-06-30,2026-06-30,zip,true,600000,3,3,2026
+Susan Collins,Henry Aboodi,Scarsdale,NY,10583,Alpind Resources,Real Estate,250000,1,2026-06-23,2026-06-23,zip,false,1270000,4,3,2024/2026
+Susan Collins,Herbert Simon,Indianapolis,IN,46260,Retired,Retired,250000,1,2026-05-19,2026-05-19,zip,false,8450000,42,36,2024/2026
+Susan Collins,Igor Lotsvin,Emerald Hills,CA,94062,Merrill Lynch,Portfolio Manager,250000,2,2025-11-10,2026-06-09,zip,false,2700000,45,39,2024/2026
+Susan Collins,Jacob Cohen,Solon,OH,44139,Teamhealth,Physician,250000,1,2025-03-28,2025-03-28,zip,true,5980000,29,18,2024/2026
+Susan Collins,Jacques Blinbaum,New York,NY,10022,Old Court Group,Executive,250000,1,2025-03-28,2025-03-28,zip,true,8320277,28,23,2024/2026
+Susan Collins,Jaime Peisach,Miami,FL,33122,Passion Growers,Manager,250000,1,2026-06-09,2026-06-09,zip,true,12615000,37,31,2024/2026
+Susan Collins,Jariel Bortnick,Short Hills,NJ,07078,Quad Property Group,Real Estate,250000,1,2026-06-01,2026-06-01,zip,true,570000,3,3,2026
+Susan Collins,Jason Cohen,Port Chester,NY,10573,Portage Point,Banker,250000,1,2026-06-01,2026-06-01,zip,true,750000,3,3,2026
+Susan Collins,Jason Wuliger,Chagrin Falls,OH,44022,Nachshon Ventures LLC,Manager,250000,1,2025-03-28,2025-03-28,zip,true,9000000,45,32,2024/2026
+Susan Collins,Jay Weinberger,Livingston,NJ,07039,Houlihan Lokey,Banker,250000,1,2026-03-16,2026-03-16,zip,true,1750000,6,6,2026
+Susan Collins,Jennifer Kapp,Davie,FL,33328,Jk Consulting,Owner,250000,1,2026-06-30,2026-06-30,zip,false,500000,3,3,2026
+Susan Collins,Jeremy Matican,Port Washington,NY,11050,Jefferies Group,Banker,250000,1,2026-03-09,2026-03-09,zip,false,750000,3,3,2026
+Susan Collins,Jimmy Hausberg,Los Angeles,CA,90049,Hightower Advisors,Financial Advisor,250000,1,2026-04-22,2026-04-22,zip,true,450000,3,3,2026
+Susan Collins,John Engelman,Spring Valley,NY,10977,Retired,Retired,250000,1,2025-03-28,2025-03-28,zip,false,1300000,7,3,2024/2026
+Susan Collins,Jonathan Harris,New Rochelle,NY,10804,"1970 Group, Inc.",Attorney,250000,1,2025-03-28,2025-03-28,zip,true,4850400,26,18,2024/2026
+Susan Collins,Joseph Allerhand,New York,NY,10128,Allerhand & Odoner,Lawyer,250000,1,2025-06-28,2025-06-28,zip,true,2530000,9,9,2024/2026
+Susan Collins,Ken Kahan,Los Angeles,CA,90025,California Landmark,Investor,250000,1,2025-03-28,2025-03-28,zip,true,4500000,19,19,2026
+Susan Collins,Larry Gordon,Ellicott City,MD,21042,Gordon Financial Services,Financial Advisor,250000,1,2026-05-20,2026-05-20,zip,true,375000,3,3,2024/2026
+Susan Collins,Larry Kugler,Delray Beach,FL,33483,Lk Dayton Investments,Manager,250000,1,2026-01-29,2026-01-29,zip,true,5083000,39,35,2024/2026
+Susan Collins,Larry Russ,Los Angeles,CA,90025,"Russ, August & Kabat",Lawyer,250000,1,2025-03-28,2025-03-28,zip,true,4790000,12,12,2024/2026
+Susan Collins,Leah Davis,Atlanta,GA,30342,Homemaker,Self,250000,1,2025-03-28,2025-03-28,zip,false,2200000,7,5,2024/2026
+Susan Collins,Lisa Field,Beverly Hills,CA,90210,Self-Employed,Real Estate,250000,1,2026-04-29,2026-04-29,zip,false,3087500,18,17,2024/2026
+Susan Collins,Marc Heimowitz,Delray Beach,FL,33483,Self,Attorney,250000,1,2026-03-09,2026-03-09,zip,false,850000,5,5,2026
+Susan Collins,Margie Fiverson,New Hyde Park,NY,11040,Retired,Retired,250000,1,2025-06-28,2025-06-28,zip,false,4080000,23,20,2024/2026
+Susan Collins,Mark Engel,Sands Point,NY,11050,Langsam Properties,Executive,250000,1,2025-02-21,2025-02-21,zip,false,4930000,28,24,2024/2026
+Susan Collins,Mark Rubin,West Palm Beach,FL,33420,Retired,Retired,250000,1,2026-06-01,2026-06-01,zip,false,2400000,9,9,2026
+Susan Collins,Mark Sander,Houston,TX,77024,Sanders Clinic,Surgeon,250000,1,2025-03-28,2025-03-28,zip,true,500000,2,2,2026
+Susan Collins,Matthew Engel,Port Washington,NY,11050,Langsam Properties,Real Estate Executive,250000,1,2025-02-21,2025-02-21,zip,false,4600000,29,22,2024/2026
+Susan Collins,Mayra Lichter,North Miami,FL,33181,Lichter Law Firm,Attorney,250000,1,2025-03-28,2025-03-28,zip,true,1225000,9,8,2024/2026
+Susan Collins,Michael Glick,New York,NY,10003,Retired,Retired,250000,2,2025-09-17,2026-06-09,zip,false,1470000,10,8,2024/2026
+Susan Collins,Michael Katz,Bergenfield,NJ,07621,Self,Attorney,250000,1,2025-06-26,2025-06-26,zip,false,100000,1,1,2024
+Susan Collins,Monica Aboodi,Scarsdale,NY,10583,Self,Community Volunteer,250000,1,2026-06-23,2026-06-23,zip,false,970000,4,4,2024/2026
+Susan Collins,Monica Sasson,Golden Beach,FL,33160,Retired,Retired,250000,1,2026-06-09,2026-06-09,zip,false,1225000,8,8,2024/2026
+Susan Collins,Morton Weinstein,Miami Beach,FL,33141,Retired,Retired,250000,1,2026-06-01,2026-06-01,zip,false,1575000,13,13,2024/2026
+Susan Collins,Patricia Glaser,Los Angeles,CA,90067,Glaser Weil,Attorney,250000,1,2026-02-13,2026-02-13,zip,false,330000,1,1,2024
+Susan Collins,Peter Berger,Stuart,FL,34996,Siris Capital LLC,Managing Partner,250000,1,2025-06-28,2025-06-28,zip,true,3530000,14,14,2024/2026
+Susan Collins,Peter Morgenstern,Palm Beach Gardens,FL,33418,Retired,Retired,250000,1,2025-03-28,2025-03-28,zip,false,2050000,8,8,2024/2026
+Susan Collins,Peter Weintraub,Scarsdale,NY,10583,"Bristol Associates, Ltd.",Owner,250000,1,2025-03-28,2025-03-28,zip,true,500000,2,2,2026
+Susan Collins,Richard Robin,Santa Monica,CA,90402,Retired,Retired,250000,1,2026-04-22,2026-04-22,zip,false,1330000,5,4,2024/2026
+Susan Collins,Rick Cornfeld,Creve Coeur,MO,63141,Retired,Retired,250000,1,2025-03-28,2025-03-28,zip,false,2100000,10,9,2024/2026
+Susan Collins,Robert Cohen,Larchmont,NY,10538,Ra Cohen And Assoc.,Real Estate,250000,1,2025-02-21,2025-02-21,zip,false,14650000,39,32,2024/2026
+Susan Collins,Robert Grossman,West Orange,NJ,07052,Retired,Retired,250000,1,2025-01-28,2025-01-28,zip,false,4170000,19,17,2024/2026
+Susan Collins,Roberto Fischmann,Allentown,PA,18104,Retired,Retired,250000,3,2025-09-20,2026-03-27,zip,false,3950000,45,35,2024/2026
+Susan Collins,Ruth Suzman,Scarsdale,NY,10583,Retired,Retired,250000,1,2025-06-28,2025-06-28,zip,false,250000,1,1,2026
+Susan Collins,Sanford Perl,Glencoe,IL,60022,Kirkland & Ellis LLP,Attorney,250000,1,2025-03-28,2025-03-28,zip,true,20270000,79,61,2024/2026
+Susan Collins,Scott Gewant,Mountain Brk,AL,35223,Ash Renovations,Owner,250000,1,2026-06-29,2026-06-29,zip,true,800000,7,5,2024/2026
+Susan Collins,Sheri Rapaport,Los Angeles,CA,90049,Self,Real Estate,250000,1,2026-03-31,2026-03-31,zip,false,3542500,21,18,2024/2026
+Susan Collins,Shira Weinstein,Mamaroneck,NY,10543,Retired,Retired,250000,1,2025-03-28,2025-03-28,zip,false,1674000,17,13,2024/2026
+Susan Collins,Stephen Goldstein,Westport,CT,06880,Evercore,Financial Advisor,250000,1,2026-03-09,2026-03-09,zip,true,400000,2,2,2026
+Susan Collins,Stephen Ritchie,Glencoe,IL,60022,Kirkland & Ellis LLP,Attorney,250000,1,2025-03-28,2025-03-28,zip,true,15490000,76,58,2024/2026
+Susan Collins,Steve Kimmelman,Independence,OH,44131,Redwood Living,Chairman,250000,1,2025-03-28,2025-03-28,zip,false,2660000,10,10,2024/2026
+Susan Collins,Steven Schultz,Hollywood,FL,33021,Kidz Medical Services,Physician,250000,1,2026-06-09,2026-06-09,zip,false,500000,4,4,2024/2026
+Susan Collins,Steven Wertheim,Atlanta,GA,30328,Retired,Retired,250000,1,2025-03-28,2025-03-28,zip,false,6230000,40,31,2024/2026
+Susan Collins,Stuart Kapp,Davie,FL,33328,Self,Attorney,250000,1,2026-06-30,2026-06-30,zip,false,250000,1,1,2026
+Susan Collins,Susie Bender,Houston,TX,77024,Homemaker,Self,250000,1,2025-03-28,2025-03-28,zip,false,3710000,11,10,2024/2026
+Susan Collins,Thomas Brener,New York,NY,10028,"Quadrant Capital Advisors, Inc.",Managing Director,250000,1,2025-06-28,2025-06-28,zip,true,2750000,9,9,2024/2026
+Susan Collins,Tina Weinstock,Palm Beach,FL,33480,Self,Community Volunteer,250000,2,2026-01-29,2026-01-29,zip,false,2520000,10,9,2024/2026
+Susan Collins,Tony Lampert,Palm Beach Gardens,FL,33410,Retired,Retired,250000,1,2026-02-16,2026-02-16,zip,false,950000,8,7,2024/2026
+Susan Collins,Vic Hammel,Reading,PA,19610,Retired,Retired,250000,1,2026-06-08,2026-06-08,zip,false,4050000,47,28,2024/2026
+Susan Collins,Wayne Cohen,New York,NY,10019,Sculptor,Finance,250000,1,2025-06-28,2025-06-28,zip,true,4030000,17,17,2024/2026
+Susan Collins,Yehuda Scharf,New York,NY,10022,Morrison Cohen,Attorney,250000,1,2026-05-18,2026-05-18,zip,false,350000,2,2,2026
+Susan Collins,Elizabeth Schultz,New York,NY,10022,Retired,Retired,226000,3,2025-01-28,2026-06-23,zip,false,1200000,22,21,2024/2026
+Susan Collins,Richard Rothschild,Palm Beach,FL,33480,Retired,Retired,226000,2,2026-06-16,2026-06-23,zip,false,400000,2,2,2026
+Susan Collins,Benjamin Lopata,Lawrence,NY,11559,Retired,Retired,225000,1,2026-05-18,2026-05-18,zip,false,975000,8,6,2024/2026
+Susan Collins,Gideon Naim,Penn Valley,PA,19072,Retired,Retired,225000,2,2025-12-21,2026-06-24,zip,false,2175000,36,32,2024/2026
+Susan Collins,Adam Thalhimer,Henrico,VA,23229,Thompson Davis,Financial Advisor,200000,1,2026-06-23,2026-06-23,zip,true,1550000,24,16,2024/2026
+Susan Collins,Albert Praw,Sherman Oaks,CA,91403,Kb Home,Executive,200000,1,2026-06-17,2026-06-17,zip,false,2050000,18,14,2024/2026
+Susan Collins,Alec Ellison,Greenwich,CT,06830,Houlihan Lokey,Investment Banking,200000,1,2025-06-28,2025-06-28,zip,true,6580000,33,29,2024/2026
+Susan Collins,Alex Alma,Larchmont,NY,10538,Centerview,Investment Banker,200000,2,2025-06-30,2026-05-18,zip,true,700000,7,5,2024/2026
+Susan Collins,Alfred Whiteman,West Palm Beach,FL,33412,Retired,Retired,200000,1,2026-02-16,2026-02-16,zip,false,1000000,8,8,2026
+Susan Collins,Ali Bernstein,New York,NY,10022,Self,Community Volunteer,200000,1,2026-05-19,2026-05-19,zip,false,200000,1,1,2026
+Susan Collins,Alise Panitch,Cherry Hill,NJ,08002,Advocare Grove Family Medical,Business Mgr,200000,2,2026-06-16,2026-06-28,zip,true,600000,11,10,2024/2026
+Susan Collins,Alla Weisz,West Palm Beach,FL,33412,Weisz Family Medicine,Physician,200000,1,2026-02-16,2026-02-16,zip,false,1300000,16,13,2024/2026
+Susan Collins,Allison Kanders,Palm Beach,FL,33480,Retired,Retired,200000,1,2026-05-18,2026-05-18,zip,false,1243000,7,7,2024/2026
+Susan Collins,Andrew Jacobson,Greenwich,CT,06836,Axiom,Manager,200000,1,2025-06-28,2025-06-28,zip,true,4170000,17,12,2024/2026
+Susan Collins,Andrew Smukler,Palm Beach Gardens,FL,33418,Jas Securities,Trader,200000,1,2026-06-08,2026-06-08,zip,false,3150000,27,18,2024/2026
+Susan Collins,Arthur Loring,West Palm Beach,FL,33401,Retired,Retired,200000,1,2026-02-16,2026-02-16,zip,false,1200000,14,11,2024/2026
+Susan Collins,Austin Berg,Owings Mills,MD,21117,Greenspring Realty,Executive,200000,1,2026-05-20,2026-05-20,zip,false,2065000,14,13,2026
+Susan Collins,Barry Kayne,Wilmington,DE,19807,Retired,Retired,200000,1,2026-06-08,2026-06-08,zip,false,2550000,23,19,2024/2026
+Susan Collins,Bruce Dubinsky,Palm Beach Gardens,FL,33418,Dubinsky Consulting,Forensic Accountant,200000,2,2026-02-16,2026-06-23,zip,false,1100000,13,10,2024/2026
+Susan Collins,Bruce Jacobson,New York,NY,10021,Self,Health Care Advisory,200000,1,2025-01-28,2025-01-28,zip,false,5310000,28,24,2024/2026
+Susan Collins,Burt Levine,New York,NY,10065,Levine Organization,Real Estate,200000,1,2025-01-28,2025-01-28,zip,true,2150000,13,11,2024/2026
+Susan Collins,Carole Kushnir,Woodside,CA,94062,Hk Enterprises,Owner,200000,1,2026-04-29,2026-04-29,zip,true,1500000,12,12,2024/2026
+Susan Collins,Charles Myers,Boston,MA,02199,Retired,Retired,200000,1,2026-05-18,2026-05-18,zip,false,1600000,15,15,2026
+Susan Collins,Dana Frank,El Paso,TX,79912,Retired,Retired,200000,1,2026-05-18,2026-05-18,zip,false,400000,2,2,2026
+Susan Collins,Darryl Schall,Encino,CA,91436,Retired,Retired,200000,1,2025-09-30,2025-09-30,zip,false,4520000,27,26,2024/2026
+Susan Collins,Daryl Simon,New York,NY,10075,Retired,Retired,200000,1,2026-05-18,2026-05-18,zip,false,1800000,10,10,2024/2026
+Susan Collins,David Barish,Sugar Land,TX,77479,Chair King,Ceo,200000,2,2026-06-09,2026-06-17,zip,true,1850000,20,14,2024/2026
+Susan Collins,David Ertel,Miami,FL,33143,Bayview Asset Management,Ceo,200000,1,2026-03-02,2026-03-02,zip,true,5180000,17,17,2024/2026
+Susan Collins,David Muschel,Englewood,NJ,07631,Ema Inv,Finance,200000,2,2026-06-24,2026-06-30,zip,true,5943000,59,33,2024/2026
+Susan Collins,David Ross,Wilmington,DE,19807,Ross Aronstam & Moritz,Attorney,200000,1,2026-06-17,2026-06-17,zip,false,2800000,24,20,2024/2026
+Susan Collins,David Schwartz,Bronx,NY,10463,Retired,Retired,200000,1,2026-06-28,2026-06-28,zip,false,1450000,14,13,2024/2026
+Susan Collins,David Zweig,Fort Lauderdale,FL,33301,Retired,Retired,200000,1,2026-06-09,2026-06-09,zip,false,2350000,18,17,2024/2026
+Susan Collins,Debi Benaron,Los Angeles,CA,90035,Lex,Broker,200000,1,2026-04-22,2026-04-22,zip,true,318000,3,3,2026
+Susan Collins,Donny Friend,San Francisco,CA,94121,Self,Real Estate Investor,200000,1,2026-04-29,2026-04-29,zip,false,3725000,26,24,2024/2026
+Susan Collins,Eduardo Brender,Fort Lauderdale,FL,33312,Activest Wealth,Financial Advisor,200000,1,2026-06-28,2026-06-28,zip,false,1000000,11,11,2026
+Susan Collins,Eliot Lauer,Lawrence,NY,11559,Katten Mnuchin Rosenbaum,Attorney,200000,2,2026-01-29,2026-05-12,zip,false,50000,1,1,2024
+Susan Collins,Ellen Aschendorf,New York,NY,10036,Egg Electric,President,200000,1,2026-05-19,2026-05-19,zip,true,1900000,9,9,2024/2026
+Susan Collins,Eric Rosin,Cherry Hill,NJ,08003,Self,Physician,200000,1,2026-06-08,2026-06-08,zip,false,1775000,21,20,2024/2026
+Susan Collins,Francis Maas,Beverly Hills,CA,90212,Self Employed,Real Estate,200000,1,2026-06-17,2026-06-17,zip,false,2450000,20,17,2024/2026
+Susan Collins,Gary Applebaum,Pasadena,MD,21122,Retired,Retired,200000,1,2026-06-29,2026-06-29,zip,false,1468000,16,14,2024/2026
+Susan Collins,Gary Marks,Fort Lauderdale,FL,33301,Marks & Fleischer Pa,Attorney,200000,1,2026-06-09,2026-06-09,zip,false,2250000,17,15,2024/2026
+Susan Collins,Guy Miasnik,Los Altos Hills,CA,94022,Miasnik Ventures,Managing Partner,200000,1,2026-06-29,2026-06-29,zip,true,480000,3,3,2024/2026
+Susan Collins,Hilary Michael,Los Angeles,CA,90024,Wme Co,Partner,200000,1,2026-04-22,2026-04-22,zip,false,560000,3,3,2026
+Susan Collins,Howard Cohen,Potomac,MD,20854,Federal Health Counsel,Attorney,200000,1,2026-04-22,2026-04-22,zip,true,860000,3,3,2024
+Susan Collins,Howard Farber,Encino,CA,91316,Alpert & Affiliates,Executive,200000,1,2026-04-22,2026-04-22,zip,true,1807500,11,11,2024/2026
+Susan Collins,Howard Stern,Brentwood,TN,37027,Zero6 Energy Inc,Sr Managing Director,200000,1,2026-06-23,2026-06-23,zip,false,775000,6,6,2024/2026
+Susan Collins,Ivan Ross,Scarsdale,NY,10583,Ardea Partners,Finance,200000,1,2025-06-28,2025-06-28,zip,true,2560000,15,11,2024/2026
+Susan Collins,Ivan Schlager,Washington,DC,20016,Kirkland Ellis,Partner,200000,1,2026-04-22,2026-04-22,zip,false,1637500,7,7,2026
+Susan Collins,James Johnson,Greenbrae,CA,94904,Retired,Retired,200000,1,2026-05-01,2026-05-01,zip,false,6425000,28,25,2024/2026
+Susan Collins,Jared Karpel,Encino,CA,91436,Kig Capital Real Estate,Real Estate Broker,200000,2,2025-09-30,2026-06-24,zip,true,200000,2,1,2026
+Susan Collins,Jason Friend,San Francisco,CA,94102,Howard Properties,Real Estate,200000,1,2026-04-22,2026-04-22,zip,true,5775000,39,36,2024/2026
+Susan Collins,Jeffrey Wolman,Culver City,CA,90230,Wolman Wealth Management,Investment Advisor,200000,1,2026-03-31,2026-03-31,zip,true,2732500,21,19,2024/2026
+Susan Collins,Jennifer Gross,New York,NY,10021,Retired,Retired,200000,1,2026-05-18,2026-05-18,zip,false,1200000,9,7,2024/2026
+Susan Collins,Jennifer Malkin,Beverly Hills,CA,90212,Retired,Retired,200000,1,2026-06-29,2026-06-29,zip,false,650000,3,3,2026
+Susan Collins,Jessica Myers,Boston,MA,02199,Retired,Retired,200000,2,2026-05-18,2026-05-19,zip,false,600000,6,6,2026
+Susan Collins,Joel Brooks,Jericho,NY,11753,Joel Brooks & Associates,Lawyer,200000,1,2026-04-22,2026-04-22,zip,false,150000,3,3,2024
+Susan Collins,Jordan Levin,Deerfield,IL,60015,Open Bet,Ceo,200000,1,2026-04-22,2026-04-22,zip,false,500000,3,3,2026
+Susan Collins,Jory Pacht,Sugar Land,TX,77479,Altair Resources,President,200000,1,2026-06-23,2026-06-23,zip,true,1650000,12,7,2024/2026
+Susan Collins,Jose Smith,Miami Beach,FL,33141,Self Employed,Attorney,200000,2,2026-06-09,2026-06-29,zip,false,300000,3,2,2026
+Susan Collins,Joseph Schapiro,Pikesville,MD,21208,Continental Realty Co,Ceo,200000,1,2026-06-17,2026-06-17,zip,false,1400000,13,12,2024/2026
+Susan Collins,Josh Kussman,Mc Lean,VA,22101,Retired,Retired,200000,2,2026-04-22,2026-05-20,zip,false,1625000,20,18,2024/2026
+Susan Collins,Julie Bernstein,New York,NY,10065,Retired,Retired,200000,1,2026-05-19,2026-05-19,zip,false,700000,4,4,2026
+Susan Collins,Julie Ovadia,Lafayette,CA,94549,Retired,Retired,200000,1,2025-09-30,2025-09-30,zip,false,2790000,22,18,2024/2026
+Susan Collins,Karen Newman,Los Angeles,CA,90025,Retired,Retired,200000,1,2025-09-20,2025-09-20,zip,false,300000,2,2,2026
+Susan Collins,Kenneth Levy,Los Gatos,CA,95030,Acobs Levy Equity Managemen,Investor,200000,1,2026-03-27,2026-03-27,zip,false,4450000,19,17,2024/2026
+Susan Collins,Kerry Miller,Miami Beach,FL,33139,Retired,Retired,200000,1,2026-06-28,2026-06-28,zip,false,518000,4,4,2026
+Susan Collins,Kevin Penn,New York,NY,10128,American Securities,Investor,200000,1,2025-09-20,2025-09-20,zip,true,1100000,5,5,2026
+Susan Collins,Kim Dickstein,New York,NY,10014,Retired,Retired,200000,1,2026-05-18,2026-05-18,zip,false,2950000,17,16,2024/2026
+Susan Collins,Lauren Schor,New York,NY,10075,Lauren Geller,Investor,200000,1,2026-05-18,2026-05-18,zip,false,2410000,10,9,2024/2026
+Susan Collins,Lauryn Harris,Los Angeles,CA,90049,Retired,Retired,200000,1,2025-09-20,2025-09-20,zip,false,1912500,16,13,2024/2026
+Susan Collins,Lee Zinn,San Antonio,TX,78230,Retired,Retired,200000,1,2026-06-16,2026-06-16,zip,false,600000,6,6,2024/2026
+Susan Collins,Leland Alpert,Cherry Hills Villa,CO,80113,Lee Alpert And Company,Ceo,200000,1,2025-12-03,2025-12-03,zip,true,2400000,13,13,2026
+Susan Collins,Leslie Salmon,Sunny Isles Beach,FL,33160,Dezer Development,Finance,200000,1,2026-05-18,2026-05-18,zip,true,3330000,19,16,2024/2026
+Susan Collins,Linda Weisenberg,Cleveland,OH,44124,Retired,Retired,200000,1,2026-06-23,2026-06-23,zip,false,650000,6,6,2026
+Susan Collins,Marc Felgoise,Fort Washington,PA,19034,Point Energy Solutions,Consultant,200000,1,2026-06-09,2026-06-09,zip,true,6830000,54,39,2024/2026
+Susan Collins,Marc Paley,Bal Harbour,FL,33154,Hightechlending,Executive,200000,1,2025-01-28,2025-01-28,zip,true,400000,2,2,2026
+Susan Collins,Marc Rothenberg,New York,NY,10069,Goldman Sachs & Co.,Sales,200000,1,2025-06-28,2025-06-28,zip,true,1175000,8,8,2024/2026
+Susan Collins,Margo Cohen,Surfside,FL,33154,Retired,Retired,200000,1,2026-05-31,2026-05-31,zip,false,2800000,14,13,2024/2026
+Susan Collins,Marjorie Harris,Miami Beach,FL,33139,Retired,Retired,200000,1,2026-05-19,2026-05-19,zip,false,2535000,13,12,2024/2026
+Susan Collins,Mark Levy,West Palm Beach,FL,33401,Retired,Retired,200000,1,2026-02-16,2026-02-16,zip,false,2960000,18,15,2024/2026
+Susan Collins,Martin Fein,Houston,TX,77056,Martin Fein Interests LLC,Owner,200000,1,2026-06-09,2026-06-09,zip,false,1800000,16,12,2024/2026
+Susan Collins,Martin Press,Fort Lauderdale,FL,33301,Gunster Law Firm,Attorney,200000,1,2026-06-28,2026-06-28,zip,true,850000,6,6,2024/2026
+Susan Collins,Meg Roth,New York,NY,10011,Retired,Retired,200000,1,2026-06-17,2026-06-17,zip,false,2000000,8,8,2024/2026
+Susan Collins,Melissa Hollander,Lutherville,MD,21093,Self,Dentist,200000,2,2025-09-20,2026-06-29,zip,false,1900000,24,18,2024/2026
+Susan Collins,Michael Auerbach,Los Angeles,CA,90064,Jackoway Austen,Attorney,200000,1,2026-04-22,2026-04-22,zip,true,620000,5,5,2024/2026
+Susan Collins,Michael Barry,Hopkins,MN,55305,Twin City Fan,President,200000,1,2026-06-23,2026-06-23,zip,false,2460000,16,11,2024/2026
+Susan Collins,Michael Leffell,New York,NY,10017,Portage Partners,Investor,200000,1,2025-06-28,2025-06-28,state,true,16820000,57,37,2024/2026
+Susan Collins,Mindy Gross,Sugar Land,TX,77478,Retired,Retired,200000,1,2026-06-23,2026-06-23,zip,false,3220000,25,18,2024/2026
+Susan Collins,Miriam Miller,Los Angeles,CA,90034,Retired,Retired,200000,1,2025-11-10,2025-11-10,zip,false,1000000,5,5,2026
+Susan Collins,Morris Kaplan,Newtown,PA,18940,Retired,Retired,200000,1,2026-06-08,2026-06-08,zip,false,2375000,26,16,2024/2026
+Susan Collins,Moses Libitzky,Emeryville,CA,94608,Lpc Real Estate,Principle,200000,1,2026-04-29,2026-04-29,zip,false,4950000,34,31,2024/2026
+Susan Collins,Murray Huppin,Spokane,WA,99223,Onecall,Owner,200000,2,2025-12-03,2026-06-23,zip,false,5825000,55,38,2024/2026
+Susan Collins,Myrna Young,Voorhees,NJ,08043,Retired,Retired,200000,2,2026-06-16,2026-06-28,zip,false,150000,2,2,2026
+Susan Collins,Nancy Josephson,Los Angeles,CA,90069,William Morris Endeavor,Talent Agent,200000,1,2026-03-31,2026-03-31,zip,false,2852500,20,18,2024/2026
+Susan Collins,Philip Cohen,Cleveland,OH,44124,Prn Funding LLC,Managing Director,200000,1,2026-06-09,2026-06-09,zip,true,5870000,33,24,2024/2026
+Susan Collins,Rachel Dalton,White Plains,NY,10605,Self,Attorney,200000,1,2026-05-19,2026-05-19,zip,false,1800000,11,11,2024/2026
+Susan Collins,Randall Levitt,Potomac,MD,20854,Nellis Corp,Investor,200000,1,2026-03-27,2026-03-27,zip,false,1150000,8,8,2026
+Susan Collins,Randye Kwait,New York,NY,10011,Retired,Retired,200000,1,2026-05-18,2026-05-18,zip,false,2000000,10,10,2024/2026
+Susan Collins,Rena Hoffman,New York,NY,10021,Retired,Retired,200000,1,2026-05-19,2026-05-19,zip,false,2200000,12,12,2024/2026
+Susan Collins,Richard Weisberg,Deerfield,IL,60015,Retired,Retired,200000,1,2026-04-22,2026-04-22,zip,false,400000,3,3,2024/2026
+Susan Collins,Robert Finvarb,Aventura,FL,33180,Robert Finvarb Companies,Real Estate Developer,200000,2,2025-12-21,2026-06-01,zip,true,650000,7,6,2026
+Susan Collins,Robert Friedman,Irvine,CA,92612,F & F Capital,Investor,200000,1,2026-06-08,2026-06-08,zip,true,850000,7,6,2024/2026
+Susan Collins,Robert Gach,Los Angeles,CA,90069,Ubs Wealth Management,Advisor,200000,1,2026-04-22,2026-04-22,zip,true,4960000,24,20,2024/2026
+Susan Collins,Robert Miller,Syosset,NY,11791,Retired,Retired,200000,1,2026-06-24,2026-06-24,zip,false,1500000,11,10,2026
+Susan Collins,Robert Pincus,Wilmington,DE,19806,Retired,Retired,200000,1,2026-06-01,2026-06-01,zip,false,5400000,27,20,2024/2026
+Susan Collins,Robert Rothberg,East Orleans,MA,02643,Retired,Retired,200000,1,2026-05-18,2026-05-18,zip,false,425000,3,3,2024/2026
+Susan Collins,Robert Scharf,Lawrence,NY,11559,Abro Management Co,Real Estate Management,200000,1,2026-05-19,2026-05-19,zip,false,200000,1,1,2026
+Susan Collins,Russell Greenberg,Westport,CT,06880,Altus Capital,Investment Management,200000,1,2026-03-02,2026-03-02,zip,false,3050000,21,19,2024/2026
+Susan Collins,Ruth Margules,Wellington,FL,33449,Retired,Retired,200000,1,2026-03-02,2026-03-02,zip,false,1100000,9,8,2024/2026
+Susan Collins,Sam Olswanger,Washington,DC,20009,Akin Gump Strauss Hauer  Feld,Senior Policy Advisor,200000,1,2025-12-08,2025-12-08,zip,false,400000,5,5,2024
+Susan Collins,Samantha Brous,New York,NY,10021,Self,Community Volunteer,200000,1,2026-05-18,2026-05-18,zip,false,600000,3,3,2026
+Susan Collins,Samantha Ettus,Pacific Palisades,CA,90272,Self,Writer,200000,1,2026-04-22,2026-04-22,zip,false,400000,3,3,2026
+Susan Collins,Scott Bohrer,Sandy Springs,GA,30350,Hd Supply,Finance,200000,1,2026-06-23,2026-06-23,zip,true,3230000,24,17,2024/2026
+Susan Collins,Seth Wise,Davie,FL,33330,Bbx Capital,Real Estate,200000,1,2026-06-09,2026-06-09,zip,true,9093800,57,40,2024/2026
+Susan Collins,Sharon Efron,West Hartford,CT,06107,Goodwin University,Professor,200000,2,2025-06-01,2026-06-01,zip,true,1137500,31,23,2024/2026
+Susan Collins,Sheera Eckstein,New York,NY,10075,Retired,Retired,200000,1,2026-06-01,2026-06-01,zip,false,1400000,8,7,2026
+Susan Collins,Sheila Schwartz,Atlanta,GA,30327,Retired,Retired,200000,1,2026-06-29,2026-06-29,zip,false,2225000,20,17,2024/2026
+Susan Collins,Shlomo Troodler,Merion Station,PA,19066,Blank Rome LLP,Attorney,200000,1,2025-12-03,2025-12-03,zip,true,1260000,6,6,2026
+Susan Collins,Stacey Silverstein,New York,NY,10128,Self,Attorney,200000,1,2026-05-18,2026-05-18,zip,false,1000000,5,5,2026
+Susan Collins,Stanley Sonenshine,Atlanta,GA,30350,Retired,Retired,200000,1,2026-06-24,2026-06-24,zip,false,3760000,35,32,2024/2026
+Susan Collins,Stephen Siderow,New York,NY,10028,Siderofsky Strategic Advisors,Business Consulting,200000,1,2025-06-28,2025-06-28,zip,true,2750000,17,16,2024/2026
+Susan Collins,Steven Lotwin,Calabasas,CA,91302,Capital Group,Investment Manager,200000,1,2025-09-30,2025-09-30,zip,true,2820000,15,13,2024/2026
+Susan Collins,Steven Monosson,San Mateo,CA,94402,Retired,Retired,200000,1,2026-06-28,2026-06-28,zip,false,1600000,8,7,2024/2026
+Susan Collins,Steven Segal,Chestnut Hill,MA,02467,Retired,Retired,200000,1,2026-05-19,2026-05-19,zip,false,8977777,44,32,2024/2026
+Susan Collins,Stuart Gilbert,Chestnut Hill,MA,02467,Retired,Retired,200000,1,2026-06-08,2026-06-08,zip,false,200000,1,1,2026
+Susan Collins,Stuart Oremland,Portola Valley,CA,94028,Retired,Retired,200000,1,2026-04-29,2026-04-29,zip,false,3245000,32,31,2024/2026
+Susan Collins,Susan Janosky,Newton,MA,02465,Retired,Retired,200000,1,2025-06-01,2025-06-01,zip,false,800000,11,9,2024/2026
+Susan Collins,Susan Sasson,Orinda,CA,94563,Self,Vineyard Owner,200000,1,2026-06-23,2026-06-23,zip,false,500000,2,2,2024/2026
+Susan Collins,Tami Schneider,New York,NY,10075,Self,Community Volunteer,200000,1,2026-05-19,2026-05-19,zip,false,2000000,8,8,2024/2026
+Susan Collins,Terri Farber,Bloomfield Hills,MI,48301,Retired,Retired,200000,1,2026-05-18,2026-05-18,zip,false,500000,4,4,2026
+Susan Collins,Terry Gardner,Houston,TX,77007,Retired,Retired,200000,1,2026-06-08,2026-06-08,zip,false,3650000,44,30,2024/2026
+Susan Collins,Zipora Arison,Pompano Beach,FL,33062,Retired,Retired,200000,2,2026-06-08,2026-06-09,zip,false,7690000,56,41,2024/2026
+Susan Collins,Lewis Heafitz,Needham,MA,02492,Equity Industrial Partners,Investor,190900,6,2025-10-16,2026-06-30,zip,false,100000,1,1,2024
+Susan Collins,Baruch Glaubach,Lawrence,NY,11559,Vleigh Mangement,Investor,180000,1,2026-06-08,2026-06-08,zip,false,1860000,3,3,2026
+Susan Collins,David Menche,Miami Beach,FL,33140,Self,Physician,180000,1,2026-06-01,2026-06-01,zip,false,2460000,12,12,2024/2026
+Susan Collins,David Shteremberg,La Jolla,CA,92037,"Steren Electronics International, LLC",Ceo,180000,1,2025-11-10,2025-11-10,zip,true,3480000,18,17,2024/2026
+Susan Collins,Neil Cooper,Conshohocken,PA,19428,Royer Cooper Cohen Braunfeld LLC,Attorney,180000,1,2025-12-03,2025-12-03,zip,true,530000,5,5,2024/2026
+Susan Collins,Paul Kulbersh,Savannah,GA,31411,Retired,Retired,180000,1,2026-06-24,2026-06-24,zip,false,841000,10,8,2024/2026
+Susan Collins,Robert Haber,Miami,FL,33133,Proficio Capital,Financial Advisor,180000,1,2025-06-01,2025-06-01,zip,true,496400,3,3,2026
+Susan Collins,David Wolf,Miami Beach,FL,33154,Retired,Retired,175000,1,2026-06-08,2026-06-08,zip,false,225000,2,2,2024/2026
+Susan Collins,Gary Mars,Miami,FL,33180,Siegfried Rivera,Attorney,175000,1,2026-06-09,2026-06-09,zip,true,750000,7,6,2024/2026
+Susan Collins,Gil Bonwitt,Miami,FL,33179,Scheck Group,Principle,175000,1,2026-06-09,2026-06-09,zip,true,1675000,21,18,2024/2026
+Susan Collins,Stephen Garchik,Reston,VA,20191,Sjm Partners,Real Estate Developer,175000,1,2026-06-08,2026-06-08,zip,false,175000,1,1,2026
+Susan Collins,Jim Frank,Winnetka,IL,60093,Retired,Retired,165000,3,2025-04-08,2025-04-08,zip,false,330000,1,1,2024
+Susan Collins,Anna Rosenbaum,Stuart,FL,34996,Baptist Healthcare Systems,Tech,155400,10,2025-08-31,2026-06-08,zip,false,80000,6,0,2026
+Susan Collins,Alan Benenson,Golden Beach,FL,33160,Mas Development,Developer,150000,1,2026-06-09,2026-06-09,zip,true,450000,2,2,2026
+Susan Collins,Alan Leifer,Newton,MA,02458,"Leifer Capital Advisers, LLC",Investments,150000,1,2025-06-01,2025-06-01,zip,true,11240000,45,26,2024/2026
+Susan Collins,Alberto Franco,North Miami Beach,FL,33179,Franco Partners,President,150000,1,2026-06-08,2026-06-08,zip,true,150000,1,1,2026
+Susan Collins,Avrohom Wolf,Sandy Springs,GA,30342,B. Wolf & Sons,Real Estate,150000,1,2026-06-29,2026-06-29,zip,false,300000,3,3,2026
+Susan Collins,Barbara Dabah,New York,NY,10065,Retired,Retired,150000,1,2025-01-28,2025-01-28,zip,false,500000,4,4,2024/2026
+Susan Collins,Barry Gleichenhaus,Littleton,CO,80121,Retired,Retired,150000,1,2026-06-23,2026-06-23,zip,false,1450000,12,11,2024/2026
+Susan Collins,Bruce Lane,Bethesda,MD,20814,The Meridian Group,Real Estate,150000,1,2026-01-29,2026-01-29,zip,false,2470000,14,14,2024/2026
+Susan Collins,Carol Katzman,Overland Park,KS,66212,Retired,Retired,150000,2,2025-12-03,2026-06-09,zip,false,4155000,54,28,2024/2026
+Susan Collins,Cindy Leibovitch,New York,NY,10014,Retired,Retired,150000,1,2025-01-28,2025-01-28,zip,false,900000,7,7,2024/2026
+Susan Collins,Daniel Rose,New York,NY,10012,Kreindler & Kreindler LLP,Attorney,150000,1,2025-01-28,2025-01-28,zip,true,3222000,25,20,2024/2026
+Susan Collins,David Rothberg,Branford,CT,06405,Laticrete,Chairman,150000,2,2026-06-08,2026-06-26,zip,true,50000,1,1,2026
+Susan Collins,Deborah Myers,Golden Beach,FL,33160,Retired,Retired,150000,1,2026-06-09,2026-06-09,zip,false,500000,3,2,2026
+Susan Collins,Eric Weissmann,Miami,FL,33131,Cgp Holdings,Investor,150000,2,2026-05-11,2026-06-28,zip,false,100000,2,2,2026
+Susan Collins,Fran Szczesny,New York,NY,10069,Retired,Retired,150000,1,2025-01-28,2025-01-28,zip,false,300000,3,2,2024
+Susan Collins,Gene Bernstein,Southampton,NY,11968,Northville Industries,Semi-Retired Executive,150000,1,2025-09-21,2025-09-21,zip,true,100000,1,1,2024
+Susan Collins,George Blank,Highland Park,NJ,08904,Retired,Retired,150000,2,2026-06-08,2026-06-30,zip,false,400000,5,4,2026
+Susan Collins,Harold Kotler,Brookline,MA,02445,Gwk Investment Manager,Ceo,150000,1,2026-03-24,2026-03-24,zip,false,1360000,6,3,2024/2026
+Susan Collins,Harrison Denman,New York,NY,10075,White & Case,Partner,150000,1,2026-03-09,2026-03-09,zip,true,820000,5,5,2024/2026
+Susan Collins,Harry Feder,Bronx,NY,10463,Retired,Retired,150000,1,2026-06-30,2026-06-30,zip,false,476000,10,10,2024/2026
+Susan Collins,Harvey Hanerfeld,Bethesda,MD,20817,Retired,Retired,150000,1,2026-04-22,2026-04-22,zip,false,4405000,28,20,2024/2026
+Susan Collins,Howard Hogan,Arlington,VA,22205,"Gibson, Dunn Crutcher",Partner,150000,2,2026-04-22,2026-05-31,zip,false,550000,9,8,2026
+Susan Collins,Irina Roller,New York,NY,10004,"Law Offices Of Irina Roller, Pllc",Attorney,150000,1,2025-01-28,2025-01-28,zip,true,4994600,26,21,2024/2026
+Susan Collins,Isaac Wakszol,Miami,FL,33180,Activest Wealth,Ceo,150000,1,2026-06-08,2026-06-08,zip,false,550000,6,5,2026
+Susan Collins,Ivan Facianof,Miami,FL,33180,Next Terra Capital,Executive,150000,1,2026-06-08,2026-06-08,zip,false,350000,4,3,2026
+Susan Collins,Jacob Blumenfeld,Pikesville,MD,21208,Quest Holdings,Real Estate,150000,1,2026-06-08,2026-06-08,zip,true,5151500,34,27,2024/2026
+Susan Collins,Janet Emerson,West Palm Beach,FL,33412,Retired,Retired,150000,1,2026-02-16,2026-02-16,zip,false,1850000,24,17,2024/2026
+Susan Collins,Jeffrey Scheck,Miami,FL,33179,Scheck Group,Principle,150000,1,2026-06-08,2026-06-08,zip,true,600000,8,8,2024/2026
+Susan Collins,Jeffrey Wolf,Miami,FL,33179,Mynd Holdings,President,150000,1,2026-06-08,2026-06-08,zip,true,450000,2,2,2026
+Susan Collins,Jeremy Abelson,Cherry Hills Villa,CO,80113,Irving Investors,Principal,150000,1,2025-11-10,2025-11-10,zip,true,1850000,15,15,2024/2026
+Susan Collins,Karen Grosser,Montgomery,OH,45242,Retired,Retired,150000,2,2026-06-17,2026-06-23,zip,false,980000,15,8,2024/2026
+Susan Collins,Keith Kerman,Beachwood,OH,44122,Retired,Retired,150000,1,2025-09-13,2025-09-13,zip,false,200000,1,1,2024
+Susan Collins,Lauren Schor Geller,New York,NY,10075,Retired,Retired,150000,1,2026-06-09,2026-06-09,zip,false,1700000,7,6,2024/2026
+Susan Collins,Laurence Cohen,Miami Beach,FL,33139,Merus Global Investments,Partner,150000,1,2026-06-09,2026-06-09,zip,false,1280000,17,15,2024/2026
+Susan Collins,Lawrence Steyn,Miami,FL,33137,American Industrial Partners,Partner,150000,1,2026-06-28,2026-06-28,zip,true,3450000,21,18,2024/2026
+Susan Collins,Linleigh Richker,Santa Barbara,CA,93103,Richker Metals,Secretary,150000,1,2025-09-20,2025-09-20,zip,true,1200000,11,9,2024/2026
+Susan Collins,Monica Genet,Fort Lauderdale,FL,33312,Retired,Retired,150000,1,2026-06-24,2026-06-24,zip,false,1200000,6,6,2024/2026
+Susan Collins,Omri Dahan,Los Angeles,CA,90035,Self,Investor,150000,1,2025-09-20,2025-09-20,zip,false,2740000,16,13,2024/2026
+Susan Collins,Paul Fingersh,Prairie Village,KS,66207,Kc Venture Group,Ceo,150000,1,2026-04-22,2026-04-22,zip,false,760000,4,4,2024/2026
+Susan Collins,Rachel Dabah,New York,NY,10021,Self,Marketing,150000,1,2025-01-28,2025-01-28,zip,false,600000,6,5,2024/2026
+Susan Collins,Ricky Mars,Miami,FL,33179,Dental Care Group,Dentist,150000,1,2026-06-08,2026-06-08,zip,true,800000,6,5,2024/2026
+Susan Collins,Robert Lipson,East Brunswick,NJ,08816,Berkadia,Mortgage Banker,150000,2,2025-11-10,2026-06-16,zip,true,2877500,48,36,2024/2026
+Susan Collins,Robert Moskovitz,Miami,FL,33179,Rok Enterprises,Real Estate,150000,1,2026-06-16,2026-06-16,zip,true,450000,2,2,2026
+Susan Collins,Ron Lieberman,New York,NY,10011,Capital One,Attorney,150000,1,2025-01-28,2025-01-28,zip,true,3824200,25,20,2024/2026
+Susan Collins,Ronald Scheinzeit,Marietta,GA,30068,Retired,Retired,150000,1,2026-06-29,2026-06-29,zip,false,772500,38,29,2024/2026
+Susan Collins,Sarah Espiedra,North Miami,FL,33181,Lvmh Perfumes And Cosmetics,Marketing,150000,1,2026-06-08,2026-06-08,zip,false,150000,1,1,2026
+Susan Collins,Scott Packman,New York,NY,10028,Ssp Partners & Assoc.,Consultant,150000,1,2025-06-28,2025-06-28,zip,false,3190000,26,25,2024/2026
+Susan Collins,Scott Siegel,Frisco,TX,75035,Retired,Retired,150000,1,2025-02-21,2025-02-21,zip,false,1450000,12,11,2024/2026
+Susan Collins,Seth Damski,Clifton,NJ,07014,Old City Investment Partners,Financial Advisor,150000,1,2025-06-28,2025-06-28,zip,true,5353000,25,20,2024/2026
+Susan Collins,Shelly Baldwin,New York,NY,10023,Triangle Capital,Head Of Business Development,150000,1,2025-01-28,2025-01-28,zip,true,1520000,9,8,2024/2026
+Susan Collins,Sidney Friedman,Los Angeles,CA,90049,Hawthorne Radiology,Radiologist,150000,1,2026-04-22,2026-04-22,zip,true,1875000,13,13,2024/2026
+Susan Collins,Stephen Nimer,Miami Beach,FL,33139,Sylvester Cancer Center,Physician,150000,1,2026-06-01,2026-06-01,zip,false,850000,7,7,2026
+Susan Collins,Steven Sanderson,Minneapolis,MN,55446,Retired,Retired,150000,2,2026-06-09,2026-06-30,zip,false,725000,14,10,2024/2026
+Susan Collins,Steven Wildstein,Glen Head,NY,11545,Retired,Retired,150000,1,2026-06-23,2026-06-23,zip,false,2160000,42,29,2024/2026
+Susan Collins,Toby Mayman,Marina Del Rey,CA,90292,Retired,Retired,150000,2,2025-09-20,2026-06-09,zip,false,25000,1,1,2024
+Susan Collins,William Rackoff,Palm Beach Gardens,FL,33418,Retired,Retired,150000,2,2026-04-22,2026-06-24,zip,false,1275000,14,11,2024/2026
+Susan Collins,Eli Goldner,New Rochelle,NY,10804,Retired,Retired,140400,12,2025-09-30,2026-06-30,zip,false,68000,3,2,2024
+Susan Collins,Amy Bloomstone,West Newton,MA,02465,Catholic Charities,Lawyer,125000,2,2025-06-01,2026-05-19,zip,false,1650000,26,22,2024/2026
+Susan Collins,Bernard Dr. Kaminetsky,Boca Raton,FL,33433,Retired,Retired,125000,1,2025-03-28,2025-03-28,zip,false,3810000,30,25,2024/2026
+Susan Collins,David Groner,Bingham Farms,MI,48025,Self-Employed,Mediator,125000,4,2026-05-11,2026-06-09,zip,false,378000,12,6,2024/2026
+Susan Collins,Randall Reiner,Potomac,MD,20854,Rl Reiner,Real Estate,125000,2,2025-12-29,2026-03-31,zip,false,1249000,20,17,2024/2026
+Susan Collins,Robert Dr. Stillman,Potomac,MD,20854,Shady Grove Fertility,Physician,125000,1,2026-04-29,2026-04-29,zip,true,2630000,35,27,2024/2026
+Susan Collins,Shay Kuperman,Bellaire,TX,77401,Vinson Elkins L. L. P.,Attorney,125000,2,2026-05-11,2026-06-08,zip,false,1325000,13,12,2026
+Susan Collins,Victor Mellon,Los Angeles,CA,90035,Kee Bookkeeping,Attorney,125000,2,2026-05-11,2026-06-17,zip,true,500000,9,8,2024/2026
+Susan Collins,Bruce Lederman,Pacific Palisades,CA,90272,Retired,Retired,120000,2,2025-09-20,2026-06-03,zip,false,825000,8,7,2024/2026
+Susan Collins,Grace Latt,Encino,CA,91316,Retired,Retired,120000,3,2025-09-30,2026-06-09,zip,false,3100000,30,27,2024/2026
+Susan Collins,Andrew Flaster,Moultonborough,NH,03254,Retired,Retired,104100,1,2026-06-28,2026-06-28,zip,false,700000,7,5,2024/2026
+Susan Collins,Dean Faracchio,Lake Mary,FL,32746,Retired,Retired,104100,1,2026-06-07,2026-06-07,zip,false,280000,3,2,2024
+Susan Collins,Steve Hefter,Highland Park,IL,60035,Self,Investor,104100,1,2026-06-24,2026-06-24,zip,false,100000,1,1,2024
+Susan Collins,Saul Basch,Wilbraham,MA,01095,Retired,Retired,104000,2,2025-08-21,2026-05-14,zip,false,35000,1,0,2026
+Susan Collins,Aaron Cohen,New York,NY,10025,The Colony Group,Investment Management,100000,1,2025-01-28,2025-01-28,zip,false,2400000,19,16,2024/2026
+Susan Collins,Abraham Wacht,Santa Monica,CA,90402,Federal Industries Inc.,President,100000,1,2025-09-20,2025-09-20,zip,false,1295000,10,8,2024/2026
+Susan Collins,Adam Waldman,Irvington,NY,10533,Portage Point,Investment Banker,100000,1,2026-05-18,2026-05-18,zip,false,1050000,7,7,2026
+Susan Collins,Alan Friedman,Margate City,NJ,08402,Retired,Retired,100000,1,2026-06-09,2026-06-09,zip,false,2050000,27,24,2024/2026
+Susan Collins,Alan Kaplan,Greensboro,GA,30642,Retired,Retired,100000,1,2026-06-29,2026-06-29,zip,false,250000,3,3,2024/2026
+Susan Collins,Alan Nemes,Saint Louis,MO,63130,Self,Attorney,100000,1,2026-06-30,2026-06-30,zip,false,2110000,12,8,2024/2026
+Susan Collins,Alan Newman,West Palm Beach,FL,33412,Retired,Retired,100000,1,2026-02-16,2026-02-16,zip,false,1550000,23,17,2024/2026
+Susan Collins,Alan Robin,Houston,TX,77063,Alan Robin Law,Attorney,100000,1,2026-06-17,2026-06-17,zip,false,650000,9,9,2024/2026
+Susan Collins,Alan Stein,Natick,MA,01760,Retired,Retired,100000,1,2026-06-09,2026-06-09,zip,false,1500000,4,3,2024/2026
+Susan Collins,Alex Kozakov,Encino,CA,91316,Self,Commercial Real Estate,100000,1,2025-09-20,2025-09-20,zip,false,100000,1,1,2026
+Susan Collins,Alex Shack,Miami Beach,FL,33139,Braman Management Association,Executive,100000,1,2025-09-20,2025-09-20,zip,true,2150000,17,17,2026
+Susan Collins,Allan Janoff,Livingston,NJ,07039,Crystal Plaza Group,Caterer,100000,1,2026-05-31,2026-05-31,zip,true,1550000,14,13,2024/2026
+Susan Collins,Allan Quiat,Houston,TX,77082,Retired,Retired,100000,1,2026-06-16,2026-06-16,zip,false,1525000,16,15,2024/2026
+Susan Collins,Amelia Katzen,Newton,MA,02458,Retired,Retired,100000,1,2025-06-01,2025-06-01,zip,false,800000,8,6,2024/2026
+Susan Collins,Amy Friedkin,San Francisco,CA,94104,Self,Philanthropist,100000,1,2026-03-27,2026-03-27,zip,false,6665000,53,43,2024/2026
+Susan Collins,Amy Graiwer,Los Angeles,CA,90064,Self,Community Volunteer,100000,1,2025-09-20,2025-09-20,zip,false,3290000,26,20,2024/2026
+Susan Collins,Andrew Herman,Chevy Chase,MD,20815,"Gibson, Dunn, And Crutcher LLP",Attorney,100000,1,2026-06-09,2026-06-09,zip,false,740000,17,9,2024/2026
+Susan Collins,Ann Bardacke,Vancouver,WA,98660,Ml Financial Inc,Executive,100000,1,2026-06-09,2026-06-09,zip,true,2285000,27,18,2024/2026
+Susan Collins,Anne Lurie,Newton Highlands,MA,02461,Public Transit,It Manager,100000,1,2026-06-24,2026-06-24,zip,true,100000,1,1,2026
+Susan Collins,Ari Feinstein,Dallas,TX,75230,Annex Ventures,President,100000,1,2026-05-18,2026-05-18,zip,true,630000,4,4,2024/2026
+Susan Collins,Ariel Cudkowicz,Newton,MA,02458,Seyfarth Shaw,Attorney,100000,1,2026-06-16,2026-06-16,zip,true,7081600,50,33,2024/2026
+Susan Collins,Arnaud Karsenti,Coral Gables,FL,33143,13th Floor Manager LLC,Real Estate Developer,100000,1,2025-12-03,2025-12-03,zip,true,1000000,10,10,2026
+Susan Collins,Arnold Mars,Pompano Beach,FL,33062,Retired,Retired,100000,2,2026-05-01,2026-06-24,zip,false,1142000,26,20,2024/2026
+Susan Collins,Avi Abel,Brooklyn,NY,11215,Fireclay Tile,Director,100000,1,2026-05-18,2026-05-18,zip,true,100000,1,1,2026
+Susan Collins,Avram Freedberg,Stamford,CT,06905,"National Collector'S Mint, Inc.",President,100000,1,2026-06-23,2026-06-23,zip,false,2350000,13,13,2024/2026
+Susan Collins,Barbara Shrensky,Potomac,MD,20854,Retired,Retired,100000,1,2026-06-23,2026-06-23,zip,false,100000,1,1,2026
+Susan Collins,Barry Silverman,Aventura,FL,33180,Self Employed,Physician,100000,1,2026-06-01,2026-06-01,zip,false,3775000,28,27,2024/2026
+Susan Collins,Barry Topol,Danville,CA,94526,Assessment Solutions,Consultant,100000,2,2026-04-29,2026-06-24,zip,false,1721000,37,33,2024/2026
+Susan Collins,Ben Bloomstone,West Newton,MA,02465,Cross Shore Capital,Financial Manager,100000,1,2026-05-19,2026-05-19,zip,false,1300000,13,13,2024/2026
+Susan Collins,Benjamin Friend,San Francisco,CA,94102,Howard Properties,Real Estate,100000,1,2026-04-22,2026-04-22,zip,true,7222500,48,38,2024/2026
+Susan Collins,Bennett Greenspan,Bellaire,TX,77401,Retired,Retired,100000,1,2026-06-09,2026-06-09,zip,false,4265000,32,21,2024/2026
+Susan Collins,Betty Silverglate,Ellicott City,MD,21042,Retired,Retired,100000,1,2026-06-24,2026-06-24,zip,false,1100000,12,11,2024/2026
+Susan Collins,Bill Kleinman,Plano,TX,75093,Haynes Boone,Attorney,100000,1,2026-06-17,2026-06-17,zip,true,1575000,23,20,2024/2026
+Susan Collins,Blair Richardson,Denver,CO,80209,Bow River Capital,Ceo,100000,1,2025-11-10,2025-11-10,zip,true,100000,1,1,2026
+Susan Collins,Bob Halavi,Los Angeles,CA,90024,Self,Real Estate,100000,1,2026-06-28,2026-06-28,zip,false,200000,2,2,2024/2026
+Susan Collins,Brenda Abuaf,Westhampton Beach,NY,11978,Retired,Retired,100000,1,2026-05-18,2026-05-18,zip,false,1000000,7,7,2024/2026
+Susan Collins,Brenda Haynes,Wellesley Hills,MA,02481,Retired,Retired,100000,1,2025-06-01,2025-06-01,zip,false,2590000,18,15,2024/2026
+Susan Collins,Brent Morse,Englewood,CO,80113,Morenergy Exploration Company,Owner,100000,1,2025-12-03,2025-12-03,zip,true,500000,5,5,2024/2026
+Susan Collins,Brian Bilzin,Miami,FL,33131,Bilzin Sumberg,Attorney,100000,1,2026-06-08,2026-06-08,zip,true,250000,3,3,2024/2026
+Susan Collins,Brian Dror,Oxnard,CA,93035,Brian Dror Cpa Inc,Cpa,100000,1,2025-11-10,2025-11-10,zip,true,2205000,12,10,2024/2026
+Susan Collins,Brian Levy,Parkland,FL,33067,Hca Florida Institute For Women'S Heal,Physician,100000,1,2026-06-09,2026-06-09,zip,false,100000,1,1,2026
+Susan Collins,Brian Schreiber,New York,NY,10128,The Carlyle Group,Asset Manager,100000,1,2025-06-28,2025-06-28,zip,true,1550000,15,12,2024/2026
+Susan Collins,Brook Hinchman,Santa Monica,CA,90402,Oaktree Capital,Finance,100000,1,2025-09-20,2025-09-20,zip,true,442700,4,4,2026
+Susan Collins,Bruce A Soll,Columbus,OH,43209,Soll Advisors LLC,Counselor,100000,1,2026-04-22,2026-04-22,zip,true,400000,2,2,2024
+Susan Collins,Bruce Goren,Encino,CA,91436,"Picoa, Inc.",Real Estate Investment,100000,1,2026-03-31,2026-03-31,zip,true,2497500,16,15,2024/2026
+Susan Collins,Bruce Klein,Spring Valley,NY,10977,Ccc,Management Consultant,100000,1,2026-05-18,2026-05-18,zip,true,2010000,11,7,2024/2026
+Susan Collins,Burton Katzen,West Palm Beach,FL,33412,Retired,Retired,100000,1,2026-02-16,2026-02-16,zip,false,700000,8,8,2026
+Susan Collins,Carl Gross,West Long Branch,NJ,07764,Gb Ltd Oper Co Inc,Attorney,100000,1,2026-05-07,2026-05-07,zip,true,100000,1,1,2026
+Susan Collins,Carl Youngman,Newton,MA,02458,Retired,Retired,100000,1,2025-06-01,2025-06-01,zip,false,2500000,23,15,2024/2026
+Susan Collins,Carlos Kelvin,San Diego,CA,92154,Cali Resources Inc,Cercular Economy,100000,1,2026-06-23,2026-06-23,zip,true,100000,1,1,2026
+Susan Collins,Carol Porter,Prairie Village,KS,66208,Retired,Retired,100000,1,2026-04-22,2026-04-22,zip,false,718000,16,16,2024/2026
+Susan Collins,Carolyn Hockstein,Wilmington,DE,19807,Eye Physicians And Surgeons,Physician,100000,1,2026-06-01,2026-06-01,zip,true,350000,4,4,2026
+Susan Collins,Charles Berk,Sandy Springs,GA,30327,Retired,Retired,100000,1,2026-06-30,2026-06-30,zip,false,200000,2,2,2026
+Susan Collins,Charles Ganz,Sandy Springs,GA,30328,Retired,Retired,100000,1,2026-06-23,2026-06-23,zip,false,706000,14,14,2024/2026
+Susan Collins,Charles Ribakoff,Palm Beach,FL,33480,Retired,Retired,100000,1,2026-06-09,2026-06-09,zip,false,250000,3,3,2024/2026
+Susan Collins,Christina Maier,Dexter,MI,48130,Retired,Retired,100000,1,2026-06-23,2026-06-23,zip,false,150000,2,1,2024/2026
+Susan Collins,Dan Zandberg,Pittsburgh,PA,15217,University Pittsburg Medical Center,Physician,100000,1,2026-05-18,2026-05-18,zip,false,100000,1,1,2026
+Susan Collins,Daniel Cohen,New York,NY,10019,Apollo,Partner,100000,1,2025-10-06,2025-10-06,state,false,675000,2,2,2024/2026
+Susan Collins,Daniel Diaz Balart,Key Biscayne,FL,33149,Tsg Advocates,Attorney,100000,1,2025-11-06,2025-11-06,zip,true,50000,1,1,2026
+Susan Collins,Daniel Feiner,Greenwood Village,CO,80111,Feiner Enterprises,Real Estate,100000,2,2026-06-01,2026-06-09,zip,false,200000,4,4,2024
+Susan Collins,Danielle Darish,Needham,MA,02492,Self,Social Worker,100000,1,2025-06-01,2025-06-01,zip,false,2000000,21,18,2024/2026
+Susan Collins,Dave Litman,Dallas,TX,75229,Travel Funders Network,Executive,100000,1,2026-06-08,2026-06-08,zip,false,100000,1,1,2026
+Susan Collins,David Carroll,West Bloomfield,MI,48323,Retired,Retired,100000,1,2026-05-19,2026-05-19,zip,false,2350000,18,17,2024/2026
+Susan Collins,David Farahi,Denver,CO,80206,Self Employed,Executive,100000,1,2025-11-10,2025-11-10,zip,false,1975000,21,20,2024/2026
+Susan Collins,David Feldman,Larchmont,NY,10538,Clifford Chance,Attorney,100000,1,2026-03-16,2026-03-16,zip,true,300000,2,1,2024/2026
+Susan Collins,David Goodtree,Needham,MA,02492,Foodgraph,Chairman,100000,1,2026-05-18,2026-05-18,zip,true,2230000,19,15,2024/2026
+Susan Collins,David Halberg,New York,NY,10128,Self Employed,Insurance Broker,100000,1,2025-01-28,2025-01-28,zip,false,750000,7,7,2026
+Susan Collins,David Handleman,Bloomfield Hills,MI,48302,Retired,Retired,100000,1,2026-06-24,2026-06-24,zip,false,2150000,23,17,2024/2026
+Susan Collins,David Heller,Boca Raton,FL,33432,The Nrp Group LLC,Real Estate,100000,1,2026-05-19,2026-05-19,zip,true,8670000,39,28,2024/2026
+Susan Collins,David Kanstoroom,Potomac,MD,20854,Self,Attorney,100000,1,2026-04-22,2026-04-22,zip,false,3850000,36,33,2024/2026
+Susan Collins,David Liner,Lakewood Ranch,FL,34202,Retired,Retired,100000,1,2026-06-23,2026-06-23,zip,false,100000,1,1,2026
+Susan Collins,David Merage,Englewood,CO,80112,Merage Foundation,Philanthropist,100000,1,2025-12-05,2025-12-05,zip,false,750000,6,6,2024/2026
+Susan Collins,David Stern,Annapolis,MD,21403,Retired,Retired,100000,1,2026-04-22,2026-04-22,zip,false,1875000,20,19,2024/2026
+Susan Collins,Debbie Kurinsky,Needham,MA,02492,Retired,Retired,100000,1,2026-05-20,2026-05-20,zip,false,1600000,17,15,2024/2026
+Susan Collins,Deborah Shalom,Boston,MA,02116,Retired,Retired,100000,1,2025-06-01,2025-06-01,zip,false,1000000,10,9,2026
+Susan Collins,Debra Meppen,Encino,CA,91436,Gordon Rees Scully Mansukhani,Attorney,100000,1,2025-09-20,2025-09-20,zip,true,485000,6,5,2024/2026
+Susan Collins,Debra Panitch,Potomac,MD,20854,Retired,Retired,100000,1,2026-05-20,2026-05-20,zip,false,1500000,15,12,2024/2026
+Susan Collins,Delia Perlov,Newton Center,MA,02459,Self,Scientist,100000,1,2025-05-05,2025-05-05,zip,false,1825000,20,17,2024/2026
+Susan Collins,Doran Tajkef,Encino,CA,91436,Retired,Retired,100000,1,2025-09-30,2025-09-30,zip,false,700000,4,4,2024/2026
+Susan Collins,Doug Ross,Atlanta,GA,30328,Retired,Retired,100000,1,2026-06-23,2026-06-23,zip,false,750000,9,8,2024/2026
+Susan Collins,Edward Crane,Palm Beach Gradens,FL,33410,Retired,Retired,100000,1,2026-02-16,2026-02-16,zip,false,1150000,17,14,2024/2026
+Susan Collins,Edward Rochman,Houston,TX,77094,Gulf Coast Bag,Vp,100000,1,2026-06-23,2026-06-23,zip,true,255000,5,5,2024/2026
+Susan Collins,Elie Tawil,Encino,CA,91436,"Magnite, Inc.",Deputy General Counsel,100000,1,2025-09-20,2025-09-20,zip,true,400000,5,5,2026
+Susan Collins,Elisa Silverman,West Newton,MA,02465,Self,Real Estate,100000,1,2025-06-01,2025-06-01,zip,false,1898800,20,18,2024/2026
+Susan Collins,Ellen Berk,Newton,MA,02465,Self,Marketing Consultant,100000,1,2025-06-28,2025-06-28,zip,false,300000,3,3,2026
+Susan Collins,Ellen Hochman,Brookline,MA,02445,Retired,Retired,100000,1,2025-06-01,2025-06-01,zip,false,2230000,22,13,2024/2026
+Susan Collins,Emily Kaufman,Towson,MD,21204,Kaufman Products,Owner,100000,1,2026-06-01,2026-06-01,zip,true,700000,7,7,2026
+Susan Collins,Ephraim Greenwall,Miami Beach,FL,33141,Talcott Holdijngs,Real Estate,100000,1,2026-06-01,2026-06-01,zip,false,8020000,48,35,2024/2026
+Susan Collins,Eric Lavitsky,Bridgewater,NJ,08807,Lavitsky Computer Lab Inc,Consultant,100000,1,2026-06-24,2026-06-24,zip,false,5225000,36,29,2024/2026
+Susan Collins,Eric Weiner,Palm Springs,FL,33461,Mspb Health,Physician,100000,1,2026-02-16,2026-02-16,zip,false,700000,13,11,2024/2026
+Susan Collins,Etta Novick,Boca Raton,FL,33434,Retired,Retired,100000,1,2025-12-29,2025-12-29,zip,false,1600000,17,15,2024/2026
+Susan Collins,Ezra Katz,Miami,FL,33133,Aztec Group,Real Estate,100000,1,2026-06-01,2026-06-01,zip,true,1250000,8,8,2024/2026
+Susan Collins,Ezra Riber,Columbia,SC,29223,Self,Physician,100000,2,2026-06-09,2026-06-23,zip,false,655000,11,8,2026
+Susan Collins,Fred Claar,Harrison,NY,10528,Retired,Retired,100000,1,2026-06-08,2026-06-08,zip,false,2150000,24,18,2024/2026
+Susan Collins,Gabriel Hauser,Rockville,MD,20852,Medstar Health,Physician,100000,1,2026-04-29,2026-04-29,zip,true,300000,5,5,2024/2026
+Susan Collins,Gary Friedman,Scarsdale,NY,10583,Retired,Retired,100000,1,2026-05-18,2026-05-18,zip,false,1000000,17,15,2024/2026
+Susan Collins,Gary Gradinger,Los Angeles,CA,90069,Lionsgate,Executive Vice President,100000,1,2025-09-21,2025-09-21,zip,true,1550000,19,16,2024/2026
+Susan Collins,Gary Opper,Weston,FL,33326,Retired,Retired,100000,1,2026-06-09,2026-06-09,zip,false,4746000,24,16,2024/2026
+Susan Collins,Gerald Zoldan,Chicago,IL,60611,Retired,Retired,100000,1,2026-06-30,2026-06-30,zip,false,3405000,48,35,2024/2026
+Susan Collins,Glen Chesir,New York,NY,10021,Gps Investment Partners,Partner,100000,1,2025-06-28,2025-06-28,zip,true,2725000,16,16,2024/2026
+Susan Collins,Greg Berard,Woodland Hills,CA,91364,The Berard Company,Ceo,100000,1,2025-09-30,2025-09-30,zip,true,625000,14,13,2024/2026
+Susan Collins,Guy Zaczepinski,Santa Monica,CA,90402,Century Park Capital,Investor,100000,1,2026-06-23,2026-06-23,zip,false,4200000,20,17,2024/2026
+Susan Collins,Haim Dabah,New York,NY,10065,Hds Capital,Founder,100000,1,2026-06-24,2026-06-24,zip,false,100000,1,1,2026
+Susan Collins,Hal Grossman,West Palm Beach,FL,33412,Retired,Retired,100000,1,2026-02-16,2026-02-16,zip,false,450000,5,5,2026
+Susan Collins,Harley Frank,Providence,RI,02906,Admairal,Executive,100000,1,2026-06-09,2026-06-09,zip,true,742000,11,5,2024/2026
+Susan Collins,Harris Devor,Philadelphia,PA,19103,Cbiz,Forensic Accountant,100000,1,2026-06-24,2026-06-24,zip,true,2705000,33,22,2024/2026
+Susan Collins,Harvey Morgan,Palm Beach Gardens,FL,33418,Retired,Retired,100000,1,2026-02-16,2026-02-16,zip,false,1150000,16,14,2024/2026
+Susan Collins,Herbert Rosenberg,Atlanta,GA,30327,National Distributing Co. Inc,Executive,100000,1,2026-06-23,2026-06-23,zip,false,1100000,11,11,2024/2026
+Susan Collins,Herbert Wender,Palm Beach Gardens,FL,33418,Retired,Retired,100000,1,2026-02-16,2026-02-16,zip,false,2200000,20,13,2024/2026
+Susan Collins,Herta Amir,Beverly Hills,CA,90211,Amir Development,Real Estate,100000,1,2026-06-01,2026-06-01,zip,true,6500000,95,72,2024/2026
+Susan Collins,Hila Solomon,Sherman Oaks,CA,91423,Gibson Dunn,Attorney,100000,1,2025-09-20,2025-09-20,zip,true,885000,12,11,2024/2026
+Susan Collins,Howard Bromberg,Palm Beach Gardens,FL,33410,Retired,Retired,100000,1,2026-02-16,2026-02-16,zip,false,1500000,15,12,2024/2026
+Susan Collins,Howard Friedman,Baltimore,MD,21209,Circa Capital,Chairman,100000,1,2026-06-29,2026-06-29,zip,false,4270000,26,22,2024/2026
+Susan Collins,Howard Heller,Cambridge,MA,02139,Massgeneral Brigham,Physician,100000,1,2025-06-01,2025-06-01,zip,true,500000,5,5,2026
+Susan Collins,Howard Kohr,Washington,DC,20037,Retired,Retired,100000,1,2026-04-29,2026-04-29,zip,false,1750000,14,10,2026
+Susan Collins,Irving Cohen,New York,NY,10006,Sharco Realty LLC,Real Estate,100000,1,2025-06-25,2025-06-25,zip,false,100000,1,1,2024
+Susan Collins,Irwin Chafetz,Brookline,MA,02445,The Interface Group Dba Adfam,Executive,100000,1,2025-06-01,2025-06-01,zip,true,500000,4,4,2024/2026
+Susan Collins,Isaac Novick,Boca Raton,FL,33434,Retired,Retired,100000,1,2026-06-29,2026-06-29,zip,false,500000,6,6,2024/2026
+Susan Collins,Itzhak Ezratti,Sunrise,FL,33323,Gl Homes Of Florida,Real Estate,100000,1,2026-06-08,2026-06-08,zip,false,800000,8,8,2024/2026
+Susan Collins,J. Allen Britvan,Pleasantville,NY,10570,Retired,Retired,100000,1,2026-02-16,2026-02-16,zip,false,1400000,19,15,2024/2026
+Susan Collins,Jacob Slone,Baltimore,MD,21209,Harbor Group International,Investor,100000,1,2026-06-09,2026-06-09,zip,true,4465000,30,23,2024/2026
+Susan Collins,Jake Davidson,Sherman Oaks,CA,91423,Davidson Kahn Capital Mgt,Asset Manager,100000,1,2025-09-30,2025-09-30,zip,false,1517500,14,14,2024/2026
+Susan Collins,James Diamond,Portsmouth,NH,03801,Retired,Retired,100000,2,2025-12-14,2025-12-19,zip,false,25000,1,0,2026
+Susan Collins,James J. Butera,Chester,MD,21619,"Meeks, Butera And Israel Pllc",Attorney,100000,1,2025-09-30,2025-09-30,zip,false,100000,1,1,2024
+Susan Collins,James Tate,North Miami,FL,33181,Tate Development Corp,Real Estate,100000,1,2026-06-01,2026-06-01,zip,false,1730000,15,15,2024/2026
+Susan Collins,Jami Huber,West Palm Beach,FL,33411,Jami Huber Law,Attorney,100000,1,2026-02-16,2026-02-16,zip,false,1100000,16,15,2024/2026
+Susan Collins,Jamie Silverstein,Sanbornville,NH,03872,Page Four Media,Media,100000,1,2026-05-19,2026-05-19,state,true,3140000,16,9,2024/2026
+Susan Collins,Janet Zuckerman,Potomac,MD,20854,Retired,Retired,100000,1,2026-05-01,2026-05-01,zip,false,250000,4,4,2026
+Susan Collins,Jason Manne,Pittsburgh,PA,15217,Retired,Retired,100000,1,2026-05-18,2026-05-18,zip,false,200000,4,4,2024/2026
+Susan Collins,Jason Muss,New York,NY,10128,Muss Development LLC,Real Estate,100000,1,2026-01-30,2026-01-30,state,true,3085000,17,13,2024/2026
+Susan Collins,Jason Rudolph,Hollywood,FL,33021,Preferred Legal Planning,Attorney,100000,1,2026-06-09,2026-06-09,zip,false,150000,2,2,2026
+Susan Collins,Jay A. Fishman,Troy,MI,48084,Jay Fishman Ltd,Investment Counsel,100000,1,2026-06-22,2026-06-22,zip,false,150000,1,1,2024
+Susan Collins,Jay Gould,New York,NY,10021,Majestic Property,Consultant,100000,1,2026-06-17,2026-06-17,zip,true,1950000,23,19,2024/2026
+Susan Collins,Jay Gould,Delray Beach,FL,33446,Majestic Property,Consultant,100000,1,2025-01-28,2025-01-28,zip,true,1875000,28,20,2024/2026
+Susan Collins,Jay Minkoff,Philadelphia,PA,19103,Retired,Retired,100000,2,2025-09-21,2025-09-21,zip,false,200000,2,2,2024/2026
+Susan Collins,Jeffrey Berney,West Palm Beach,FL,33412,Retired,Retired,100000,1,2026-02-16,2026-02-16,zip,false,350000,6,6,2024/2026
+Susan Collins,Jeffrey Goldstein,North Andover,MA,01845,Retired,Retired,100000,1,2025-06-01,2025-06-01,zip,false,2800000,17,13,2024/2026
+Susan Collins,Jeffrey Kaufman,Boynton Beach,FL,33437,Kaufman & Lynd,Attorney,100000,1,2026-02-16,2026-02-16,zip,false,1270000,21,15,2024/2026
+Susan Collins,Jeffrey Moerdler,Bronx,NY,10463,Haynes Boone,Attorney,100000,2,2026-05-19,2026-06-24,zip,true,650000,9,5,2024/2026
+Susan Collins,Jeffrey Snyder,Boca Raton,FL,33432,Retired,Retired,100000,1,2025-03-28,2025-03-28,zip,false,9705000,61,53,2024/2026
+Susan Collins,Jennifer Gordon,Marina Del Rey,CA,90292,Self,Educational Therapist,100000,1,2025-09-20,2025-09-20,zip,false,962500,11,10,2024/2026
+Susan Collins,Jennifer Michaels,New York,NY,10028,Jb Consulting,Ceo,100000,1,2026-06-24,2026-06-24,zip,true,1075000,12,10,2024/2026
+Susan Collins,Jeremy Goldstein,Miami Beach,FL,33140,Tierramano LLC,Real Estate,100000,1,2026-06-09,2026-06-09,zip,false,1800000,18,18,2024/2026
+Susan Collins,Jessica Myers,Weston,MA,02493,Retired,Retired,100000,1,2025-06-01,2025-06-01,zip,false,1450000,15,12,2024/2026
+Susan Collins,Jill Roberts,Boston,MA,02116,Self,Homemaker,100000,1,2025-05-05,2025-05-05,zip,false,2200000,22,17,2024/2026
+Susan Collins,Jodi Boockvar,Scarsdale,NY,10583,Self,Homemaker,100000,1,2025-01-28,2025-01-28,zip,false,900000,8,8,2026
+Susan Collins,Joel Krischer,Beverly Hills,CA,90212,Retired,Retired,100000,1,2026-06-24,2026-06-24,zip,false,2590000,23,16,2024/2026
+Susan Collins,Jonathan Cordish,Baltimore,MD,21202,Ctr Management Inc,Real Estate,100000,1,2026-05-19,2026-05-19,zip,false,1800000,18,14,2024/2026
+Susan Collins,Jone Dalezman,Newtonville,MA,02460,Retired,Retired,100000,1,2025-06-01,2025-06-01,zip,false,8121666,64,43,2024/2026
+Susan Collins,Joseph Czyzyk,Rolling Hills,CA,90274,"Mercury Air Group, Inc",Ceo,100000,1,2026-06-30,2026-06-30,zip,false,1150000,6,4,2026
+Susan Collins,Joseph Kamelgard,Los Angeles,CA,90035,Elevance,Physician,100000,1,2025-09-20,2025-09-20,zip,false,900000,12,11,2024/2026
+Susan Collins,Joseph Stadlen,Hollywood,FL,33019,Stadlen Family Holdings,Real Estate,100000,2,2026-06-09,2026-06-17,zip,true,4561000,21,17,2024/2026
+Susan Collins,Judith Galler,Ventnor City,NJ,08406,Retired,Retired,100000,1,2026-06-08,2026-06-08,zip,false,1975000,24,20,2024/2026
+Susan Collins,Judith Sherwood,Baltimore,MD,21209,Retired,Retired,100000,1,2026-05-31,2026-05-31,zip,false,275000,4,4,2026
+Susan Collins,Julie Altman,Cambridge,MA,02138,Story Street Research,Consultant,100000,1,2025-06-01,2025-06-01,zip,false,1100000,11,9,2024/2026
+Susan Collins,Kairavi Daum,Los Angeles,CA,90024,Compass Beverly Hills,Real Estate Agent,100000,1,2025-09-20,2025-09-20,zip,true,557500,6,6,2024/2026
+Susan Collins,Keith Singer,Boca Raton,FL,33432,Singer Wealth Advisors,Managing Director,100000,1,2026-06-01,2026-06-01,zip,true,700000,8,8,2024/2026
+Susan Collins,Kenneth Cohen,Atlanta,GA,30326,Retired,Retired,100000,1,2026-06-29,2026-06-29,zip,false,100000,1,1,2026
+Susan Collins,Kenneth Gilman,East Hampton,NY,11937,Retired,Retired,100000,1,2026-06-09,2026-06-09,zip,false,600000,2,2,2024
+Susan Collins,Kenneth Weatherwax,Sherman Oaks,CA,91403,Lowenstein  Weatherwax LLP,Attorney,100000,1,2026-06-10,2026-06-10,zip,false,100000,1,1,2026
+Susan Collins,Kevin Von Neuschatz,Miami,FL,33131,Stanhope Financial,Financial Executive,100000,1,2026-06-09,2026-06-09,zip,true,3125100,22,18,2024/2026
+Susan Collins,Larry Brown,Palm Beach Gardens,FL,33418,Retired,Retired,100000,1,2026-03-27,2026-03-27,zip,false,2650000,22,22,2024/2026
+Susan Collins,Larry Stadtner,San Anselmo,CA,94960,Retired,Retired,100000,1,2026-05-01,2026-05-01,zip,false,1475000,23,21,2024/2026
+Susan Collins,Laura Vexler,Chagrin Falls,OH,44022,Retired,Retired,100000,1,2026-05-18,2026-05-18,zip,false,2550000,40,34,2024/2026
+Susan Collins,Lawrence Handler,Birmingham,MI,48009,Eye South Partners,Surgeon,100000,1,2026-06-16,2026-06-16,zip,false,775000,9,9,2024/2026
+Susan Collins,Leah Justman,Encino,CA,91436,Place Showroom,Salesperson,100000,1,2025-09-20,2025-09-20,zip,false,200000,3,3,2026
+Susan Collins,Lee Spies,New York,NY,10028,Self,Homemaker,100000,1,2025-01-28,2025-01-28,zip,false,2000000,11,10,2026
+Susan Collins,Leo Ghitis,Golden Beach,FL,33160,Ghitis Company,Owner,100000,1,2026-06-09,2026-06-09,zip,true,2350000,21,15,2024/2026
+Susan Collins,Lily Furst,Miami Beach,FL,33140,Nunya,Advertising,100000,1,2026-06-30,2026-06-30,zip,true,235000,8,6,2024/2026
+Susan Collins,Lio Slama,New York,NY,10005,Ask Neo,Ceo,100000,1,2026-06-08,2026-06-08,zip,false,275000,4,4,2024/2026
+Susan Collins,Lisa Abrams-Rosenberg,Weston,FL,33327,Retired,Retired,100000,1,2026-06-17,2026-06-17,zip,false,300000,3,2,2024/2026
+Susan Collins,Lisa Conti,Boston,MA,02116,Retired,Retired,100000,1,2025-06-01,2025-06-01,zip,false,1100000,11,9,2024/2026
+Susan Collins,Lori K. Sidman,Boston,MA,02115,Jewish Community Centers,Board Of Directors,100000,1,2025-06-01,2025-06-01,zip,false,1600000,15,14,2024/2026
+Susan Collins,Lourdes Suarez,Miami,FL,33133,Retired,Retired,100000,1,2026-06-08,2026-06-08,zip,false,100000,1,1,2026
+Susan Collins,Marc Rohatiner,Los Angeles,CA,90034,"Wolf, Rifkin, Shapiro",Attorney,100000,1,2025-09-20,2025-09-20,zip,false,1100000,14,11,2024/2026
+Susan Collins,Marc Silverstein,Bradenton,FL,34202,Retired,Retired,100000,1,2026-06-23,2026-06-23,zip,false,2780000,31,23,2024/2026
+Susan Collins,Marcia Leifer,Newton,MA,02458,Leifer Capital,Trust Advisor,100000,1,2025-06-01,2025-06-01,zip,false,6380000,21,18,2024/2026
+Susan Collins,Marilyn Okonow,Needham,MA,02492,Retired,Retired,100000,1,2025-06-01,2025-06-01,zip,false,1200000,12,11,2024/2026
+Susan Collins,Marina Hirsch,New York,NY,10013,Self Employed,Homemaker,100000,1,2025-01-28,2025-01-28,zip,false,600000,7,6,2024/2026
+Susan Collins,Mark Bunim,Great Neck,NY,11021,Case Closure,Attorney,100000,1,2026-06-24,2026-06-24,zip,true,575000,7,7,2026
+Susan Collins,Mark Cohen,Miami Beach,FL,33141,Self,Investor,100000,1,2026-06-01,2026-06-01,zip,false,1950000,23,22,2024/2026
+Susan Collins,Mark Goldhaber,Raleigh,NC,27612,Retired,Retired,100000,1,2026-06-23,2026-06-23,zip,false,3125000,27,15,2024/2026
+Susan Collins,Mark Klafter,Orlando,FL,32814,Neurological Services Of Orlando,Physician,100000,1,2026-06-30,2026-06-30,zip,true,767000,8,6,2024/2026
+Susan Collins,Mark Neumann,Owings Mills,MD,21117,510 Ventures LLC,Owner,100000,1,2026-06-17,2026-06-17,zip,false,1770000,20,18,2024/2026
+Susan Collins,Mark Reichek,Houston,TX,77024,Retired,Retired,100000,1,2026-06-17,2026-06-17,zip,false,750000,10,9,2024/2026
+Susan Collins,Mark Rubin,Palm Beach Gardens,FL,33410,Retired,Retired,100000,1,2025-06-01,2025-06-01,zip,false,15164000,61,45,2024/2026
+Susan Collins,Mark Simon,Chatham,NJ,07928,Sun Pharma,Health Care,100000,1,2025-11-10,2025-11-10,zip,true,850000,13,9,2024/2026
+Susan Collins,Mark Wintner,Los Angeles,CA,90035,Jll Capital Markets,Mortgage Broker,100000,1,2025-09-20,2025-09-20,zip,false,950000,9,8,2024/2026
+Susan Collins,Marla Curtis,Boxford,MA,01921,"Marla Glanzer Curtis,A.I.A",Architect,100000,1,2025-06-01,2025-06-01,zip,false,1700000,17,15,2024/2026
+Susan Collins,Marshall Abrahams,Paradise Valley,AZ,85253,Retired,Retired,100000,1,2026-06-16,2026-06-16,zip,false,325000,6,6,2024/2026
+Susan Collins,Martin Craig,Chicago,IL,60601,Retired,Retired,100000,1,2026-06-29,2026-06-29,zip,false,2860000,23,20,2024/2026
+Susan Collins,Martin Rosengarten,New York,NY,10022,Morgan Stanley,Financial Advisor,100000,1,2025-12-21,2025-12-21,zip,true,2750000,17,11,2024/2026
+Susan Collins,Marty Evanson,Encino,CA,91436,Retired,Retired,100000,1,2025-09-30,2025-09-30,zip,false,1000000,13,12,2024/2026
+Susan Collins,Marty Glick,Oakland,CA,94611,Golden State LLC,Advisor,100000,1,2026-04-22,2026-04-22,zip,true,3320000,31,28,2024/2026
+Susan Collins,Max Paul,Ardmore,PA,19003,Ardmore Toyota,Car Dealer,100000,1,2026-02-16,2026-02-16,zip,true,2050000,25,21,2024/2026
+Susan Collins,Mehran Hakimian,Great Neck,NY,11024,Mehran Hakimian Inc,Owner,100000,1,2026-06-23,2026-06-23,zip,true,1000000,6,6,2024/2026
+Susan Collins,Michael Britvan,East Hampton,NY,11937,Hodges Ward Elliott,Real Estate,100000,1,2026-06-09,2026-06-09,zip,true,3800000,19,13,2024/2026
+Susan Collins,Michael Brooks,Palm Beach Gardens,FL,33418,Retired,Retired,100000,1,2026-05-31,2026-05-31,zip,false,1100000,18,14,2024/2026
+Susan Collins,Michael Feiner,Greenwood Village,CO,80111,Feiner Enterprises,Business Owner,100000,1,2025-11-10,2025-11-10,zip,false,4080000,36,30,2024/2026
+Susan Collins,Michael Levin,Jupiter,FL,33469,Retired,Retired,100000,1,2026-02-16,2026-02-16,zip,false,6100000,49,39,2024/2026
+Susan Collins,Michael Reiff,New York,NY,10011,Retired,Retired,100000,1,2026-05-18,2026-05-18,zip,false,950000,10,8,2024/2026
+Susan Collins,Michael Spivak,West Palm Beach,FL,33412,Retired,Retired,100000,1,2026-02-16,2026-02-16,zip,false,800000,15,11,2024/2026
+Susan Collins,Michael Tobin,West Bloomfield,MI,48323,The Tobin Group,Real Estate,100000,1,2026-06-08,2026-06-08,zip,true,460000,7,6,2024/2026
+Susan Collins,Michael Weilheimer,Mashpee,MA,02649,Retired,Retired,100000,1,2025-06-01,2025-06-01,zip,false,4255600,35,23,2024/2026
+Susan Collins,Michael Wienir,Encino,CA,91316,Retired,Retired,100000,1,2025-09-30,2025-09-30,zip,false,1350000,12,11,2026
+Susan Collins,Michele Klein,Potomac,MD,20854,Retired,Retired,100000,1,2026-05-01,2026-05-01,zip,false,900000,9,7,2024/2026
+Susan Collins,Michelle Landver,Sherman Oaks,CA,91403,Wtw,Insurance Broker,100000,1,2026-06-29,2026-06-29,zip,true,1150000,18,17,2024/2026
+Susan Collins,Mimi Kress,Bethesda,MD,20817,Sandy Spring Builders,Home Builder,100000,1,2026-05-20,2026-05-20,zip,true,1600000,17,16,2024/2026
+Susan Collins,Mort Weinstein,Miami Beach,FL,33141,Retired,Retired,100000,1,2026-04-22,2026-04-22,zip,false,2925000,21,18,2024/2026
+Susan Collins,Moshe Meppen,Encino,CA,91436,"Metadolce Technologies, Inc.",Information Technology Consulting,100000,1,2025-09-30,2025-09-30,zip,true,2800000,26,24,2024/2026
+Susan Collins,Murray Rabinowitz,Great Neck,NY,11021,Brooklyn Holdings,Executive,100000,1,2026-06-09,2026-06-09,zip,true,533600,12,8,2024/2026
+Susan Collins,Nancy Shulman,Palm Beach Gardens,FL,33418,Retired,Retired,100000,1,2026-02-16,2026-02-16,zip,false,1025000,11,11,2024/2026
+Susan Collins,Neil Goldstein,Phoenix,AZ,85018,Retired,Retired,100000,2,2026-06-08,2026-06-23,zip,false,175000,4,3,2024/2026
+Susan Collins,Neil Koenig,Boca Raton,FL,33496,Retired,Retired,100000,1,2026-06-23,2026-06-23,zip,false,100000,1,1,2026
+Susan Collins,Nina Levene,New York,NY,10028,Retired,Retired,100000,1,2026-05-18,2026-05-18,zip,false,550000,4,3,2026
+Susan Collins,Nir Maoz,Palo Alto,CA,94306,Ktbs Law LLP,Attorney,100000,1,2026-04-29,2026-04-29,zip,true,300000,3,3,2026
+Susan Collins,Noah Lightman,Baltimore,MD,21209,Retired,Retired,100000,1,2026-06-09,2026-06-09,zip,false,1790000,29,21,2024/2026
+Susan Collins,Norman Silvers,Palm Beach Gardens,FL,33418,Retired,Retired,100000,1,2026-02-16,2026-02-16,zip,false,2150000,26,22,2024/2026
+Susan Collins,Pamela Wagoner,Afton,VA,22920,Upstream Insights,President,100000,1,2026-05-20,2026-05-20,zip,true,2810000,26,21,2024/2026
+Susan Collins,Patricia Mcweeney,Boxford,MA,01921,Retired,Retired,100000,1,2025-06-01,2025-06-01,zip,false,1000000,15,13,2024/2026
+Susan Collins,Patti Mcweeney,Boxford,MA,01921,Retired,Retired,100000,1,2026-05-20,2026-05-20,zip,false,125000,2,2,2026
+Susan Collins,Paul Rosenberg,Fort Lauderdale,FL,33312,"Rosenberg & Rosenberg, P.A",Attorney,100000,1,2026-06-17,2026-06-17,zip,false,2180000,14,12,2024/2026
+Susan Collins,Peter Feinberg,North Miami Beach,FL,33160,Self,Investor,100000,1,2026-06-08,2026-06-08,zip,false,1000000,10,10,2024/2026
+Susan Collins,Randy Brust,Encino,CA,91316,Self Employed,Crescent Realty Advisors,100000,1,2025-09-30,2025-09-30,zip,false,2250000,34,27,2024/2026
+Susan Collins,Rhonda Small,Joelton,TN,37080,Self,Attorney,100000,1,2026-06-17,2026-06-17,zip,false,250000,1,1,2026
+Susan Collins,Richard Eisenberg,Lawrence,NY,11559,Retired,Retired,100000,1,2026-06-04,2026-06-04,zip,false,25000,1,1,2024
+Susan Collins,Richard Freundlich,Palm Beach,FL,33480,Rlf Capital Advisors,Owner,100000,2,2026-05-11,2026-06-09,zip,true,1970000,45,24,2024/2026
+Susan Collins,Richard Kashnow,Menlo Park,CA,94025,Tangible Sciences,Chairman,100000,1,2026-06-16,2026-06-16,zip,true,1750000,10,10,2024/2026
+Susan Collins,Richard Kremen,West Palm Beach,FL,33412,Retired,Retired,100000,1,2026-02-16,2026-02-16,zip,false,750000,11,10,2026
+Susan Collins,Richard Pogin,Fort Myers,FL,33908,Retired,Retired,100000,1,2026-06-30,2026-06-30,zip,false,350000,4,4,2024/2026
+Susan Collins,Richard Rappaport,Salt Lake City,UT,84124,Retired,Retired,100000,1,2026-06-17,2026-06-17,zip,false,1205000,39,30,2024/2026
+Susan Collins,Risa Gewurz,Brookline,MA,02445,Retired,Retired,100000,1,2025-06-01,2025-06-01,zip,false,1500000,19,18,2024/2026
+Susan Collins,Rita Weiner,Chestnut Hill,MA,02467,Retired,Retired,100000,1,2025-06-01,2025-06-01,zip,false,400000,7,7,2026
+Susan Collins,Rob Medway,Park City,UT,84060,Mflp,Investments,100000,1,2025-06-28,2025-06-28,zip,true,2730000,28,24,2024/2026
+Susan Collins,Robert Goldberg,Cleveland,OH,44124,Retired,Retired,100000,1,2026-06-09,2026-06-09,zip,false,1400000,10,9,2024/2026
+Susan Collins,Robert Gordon,Palm Beach Gardens,FL,33418,Obgyn Specialists,Physician,100000,1,2026-02-16,2026-02-16,zip,true,600000,10,8,2024/2026
+Susan Collins,Robert Greene,New York,NY,10021,Retired,Retired,100000,1,2025-01-28,2025-01-28,zip,false,300000,3,3,2026
+Susan Collins,Robert K. Huebscher,Lexington,MA,02420,Tmx,Business Manager,100000,1,2026-05-19,2026-05-19,zip,false,2250000,25,21,2024/2026
+Susan Collins,Robert Miller,Franklin Lakes,NJ,07417,Self,Private Wealth Advisor,100000,1,2025-06-28,2025-06-28,zip,false,500000,3,3,2026
+Susan Collins,Robert Vinikoor,Fort Myers,FL,33919,Retired,Retired,100000,1,2026-06-09,2026-06-09,zip,false,1340000,6,4,2024/2026
+Susan Collins,Robert Vinikoor,Ocean Park,ME,04063,Retired,Retired,100000,1,2026-05-01,2026-05-01,zip,false,150000,3,2,2026
+Susan Collins,Roberta Loomar,Sunrise,FL,33323,Difgen Pharmaceuticals LLC,Attorney,100000,1,2026-06-09,2026-06-09,zip,true,900000,13,12,2024/2026
+Susan Collins,Robin Levy,Newton,MA,02458,Retired,Retired,100000,1,2026-05-19,2026-05-19,zip,false,300000,3,2,2024/2026
+Susan Collins,Robin Santiago,West Hartford,CT,06117,Retired,Retired,100000,1,2026-06-09,2026-06-09,zip,false,900000,13,11,2024/2026
+Susan Collins,Ron Kaufman,San Francisco,CA,94133,Self,Realtor,100000,1,2026-04-22,2026-04-22,zip,false,1750000,21,21,2024/2026
+Susan Collins,Ronald Fingerhut,Minneapolis,MN,55416,Family Partners,President,100000,2,2026-06-28,2026-06-30,zip,false,1050000,20,16,2024/2026
+Susan Collins,Ronald Gottlieb,Fort Lauderdale,FL,33312,Retired,Retired,100000,1,2026-06-09,2026-06-09,zip,false,375000,8,8,2024/2026
+Susan Collins,Ronald Schram,Palm Beach,FL,33480,Self,Attorney,100000,1,2026-02-16,2026-02-16,zip,false,1830000,27,19,2024/2026
+Susan Collins,Ronit Setton,New York,NY,10128,Retired,Retired,100000,1,2025-01-28,2025-01-28,zip,false,3280000,27,18,2024/2026
+Susan Collins,Ross Fiedler,New York,NY,10011,Kirkland & Ellis LLP,Attorney,100000,1,2026-05-19,2026-05-19,zip,true,100000,1,1,2026
+Susan Collins,Russell Silberglied,Wilmington,DE,19806,Richards Layton & Finger,Attorney,100000,1,2026-05-31,2026-05-31,zip,true,1905000,23,22,2024/2026
+Susan Collins,Sam Miller,Naples,FL,34119,Retired,Retired,100000,1,2026-05-18,2026-05-18,zip,false,600000,7,5,2026
+Susan Collins,Samuel Levine,Yardley,PA,19067,Princeton Oral Surgery,Oral Surgeon,100000,1,2026-06-09,2026-06-09,zip,true,1000000,15,13,2024/2026
+Susan Collins,Sandra Matthew,Agoura Hills,CA,91301,Self,Real Estate Property Manager,100000,1,2025-09-30,2025-09-30,zip,false,1300000,17,16,2024/2026
+Susan Collins,Sandy Sigal,Calabasas,CA,91302,Newmark Merrill Companies,Shopping Center Operator,100000,1,2025-06-01,2025-06-01,zip,true,3600000,18,16,2024/2026
+Susan Collins,Shaina Simhaee,Beverly Hills,CA,90210,Self,Holistic Nutritionist,100000,1,2025-09-20,2025-09-20,zip,false,550000,6,6,2026
+Susan Collins,Shana Glassman,Tarzana,CA,91356,Retired,Retired,100000,1,2025-11-10,2025-11-10,zip,false,1625000,17,17,2024/2026
+Susan Collins,Sharon Meron,Beverly Hills,CA,90212,Retired,Retired,100000,1,2025-09-20,2025-09-20,state,false,690000,11,7,2024/2026
+Susan Collins,Sharon Mishkin,Brookline,MA,02445,Retired,Retired,100000,1,2025-06-01,2025-06-01,zip,false,1300000,10,10,2024/2026
+Susan Collins,Shelly Friedstein,Aspen,CO,81612,Retired,Retired,100000,1,2026-06-30,2026-06-30,zip,false,100000,1,1,2026
+Susan Collins,Shlomo Baruch,Lawrence,NY,11559,Retired,Retired,100000,1,2026-05-18,2026-05-18,zip,false,400000,4,4,2026
+Susan Collins,Simon Wasserberger,New York,NY,10028,Waterman Properties,Real Estate,100000,1,2025-06-28,2025-06-28,zip,true,600000,4,4,2024/2026
+Susan Collins,Stefanie Goldstein,Mountain Brk,AL,35223,My Yoga Practice,Ceo,100000,1,2026-06-08,2026-06-08,zip,true,950000,7,6,2026
+Susan Collins,Stephen Crane,Philadelphia,PA,19130,Retired,Retired,100000,1,2026-06-08,2026-06-08,zip,false,1400000,25,18,2024/2026
+Susan Collins,Stephen Oppenheimer,Atlanta,GA,30342,Retired,Retired,100000,1,2026-06-23,2026-06-23,zip,false,2700000,26,19,2024/2026
+Susan Collins,Steve Allen,Hideout,UT,84036,Retired,Retired,100000,1,2026-04-23,2026-04-23,zip,false,350000,3,3,2024/2026
+Susan Collins,Steve Perles,Miami Beach,FL,33140,"The Perles Law Firm, PC",Attorney,100000,1,2026-06-01,2026-06-01,zip,true,1150000,13,13,2024/2026
+Susan Collins,Steven Caller,Lexington,KY,40502,Retired,Retired,100000,1,2026-06-01,2026-06-01,zip,false,2130000,17,17,2024/2026
+Susan Collins,Steven Rosenblum,Denver,CO,80210,Retired,Retired,100000,1,2025-11-10,2025-11-10,zip,false,5720000,32,28,2024/2026
+Susan Collins,Steven Sibel,Cockeysville,MD,21030,Caves Valley Partners,Real Estate,100000,1,2026-03-31,2026-03-31,zip,true,3200000,30,25,2024/2026
+Susan Collins,Steven Sisselman,Needham,MA,02492,Retired,Retired,100000,1,2026-05-19,2026-05-19,zip,false,1800000,17,17,2024/2026
+Susan Collins,Steven Solomon,Incline Village,NV,89451,Solomon Advisory Serv,Ceo,100000,1,2026-04-22,2026-04-22,zip,false,3100000,25,22,2024/2026
+Susan Collins,Steven Tannenbaum,Dedham,MA,02026,Retired,Retired,100000,1,2026-06-01,2026-06-01,zip,false,100000,1,1,2026
+Susan Collins,Steven Wells,Cazenovia,NY,13035,American Food & Vending,Executive,100000,1,2026-06-23,2026-06-23,zip,true,980000,8,5,2024/2026
+Susan Collins,Stuart A. Ambassador Bernstein,Washington,DC,20007,Retired,Retired,100000,1,2026-05-18,2026-05-18,zip,false,200000,2,1,2026
+Susan Collins,Stuart Lockman,North Palm Beach,FL,33408,Retired,Retired,100000,1,2026-02-16,2026-02-16,zip,false,950000,15,12,2024/2026
+Susan Collins,Stuart Nelson,Atlanta,GA,30309,The Shopping Center Group,Real Estate,100000,1,2026-06-23,2026-06-23,zip,true,700000,7,7,2024/2026
+Susan Collins,Susan Bergman,Newton,MA,02459,Self,Physician,100000,1,2025-06-01,2025-06-01,zip,false,1450000,11,9,2024/2026
+Susan Collins,Susan Mark,Stamford,CT,06905,Retired,Retired,100000,1,2026-06-24,2026-06-24,zip,false,1250000,8,7,2024/2026
+Susan Collins,Susan Plutsky,Santa Monica,CA,90402,Retired,Retired,100000,1,2025-09-20,2025-09-20,zip,false,800000,9,9,2024/2026
+Susan Collins,Susan Toochin,Newton Centre,MA,02459,Retired,Retired,100000,1,2025-11-10,2025-11-10,zip,false,1750000,12,10,2024/2026
+Susan Collins,Suzanne Cohen,Newton Center,MA,02459,Retired,Retired,100000,1,2026-06-08,2026-06-08,zip,false,1050000,13,13,2026
+Susan Collins,Thomas M. Cerabino,New York,NY,10022,Willkie Farr & Gallagher LLP,Chairman,100000,1,2025-11-10,2025-11-10,zip,false,150000,1,1,2026
+Susan Collins,Thomas Meyers,Lantana,FL,33462,Stein Industries,Ceo,100000,1,2025-09-30,2025-09-30,zip,true,1145000,15,12,2024/2026
+Susan Collins,Viktoria Schrager,New York,NY,10024,Self,Homemaker,100000,1,2025-01-28,2025-01-28,zip,false,1000000,9,9,2024/2026
+Susan Collins,William Lieberman,Pittsburgh,PA,15232,Quality Insurance Concepts Inc,Insurance Executive,100000,1,2026-04-22,2026-04-22,state,false,1100000,3,1,2024/2026
+Susan Collins,Zachary Chesler,Calabasas,CA,91302,Retired,Retired,100000,1,2025-11-10,2025-11-10,zip,false,125000,2,2,2026
+Susan Collins,Zoya Raynes,New York,NY,10023,Bank Of America,Management,100000,1,2026-05-19,2026-05-19,zip,true,300000,3,3,2024/2026
+Susan Collins,Alex Freund,Naples,FL,34110,Northwestern Mutual,Financial Advisor,90000,1,2026-06-16,2026-06-16,zip,true,90000,1,1,2026
+Susan Collins,Beau Shapiro,Beverly Hills,CA,90210,Self,Clergy,90000,1,2025-09-30,2025-09-30,zip,false,378300,5,5,2026
+Susan Collins,Brian Feld,San Antonio,TX,78230,Archpoint Group,Attorney,90000,1,2026-06-08,2026-06-08,zip,false,90000,1,1,2026
+Susan Collins,Roberta Zucker,Tiburon,CA,94920,Retired,Retired,90000,2,2026-04-29,2026-05-11,zip,false,865000,14,13,2024/2026
+Susan Collins,Paul Sanderson,Alamo,CA,94507,Retired,Retired,85000,2,2026-04-29,2026-04-29,zip,false,1683000,39,29,2024/2026
+Susan Collins,Gene Rosenberg,Teaneck,NJ,07666,Retired,Retired,77500,3,2025-06-26,2026-01-30,zip,false,1147474,204,199,2024/2026
+Susan Collins,Aaron Hollander,Weston,CT,06883,First Aviation,Management,75000,2,2025-12-06,2026-06-21,state,false,25000,1,1,2024
+Susan Collins,Alan Nussenblatt,Calabasas,CA,91302,Retired,Retired,75000,1,2025-12-03,2025-12-03,zip,false,1600000,30,29,2024/2026
+Susan Collins,Bruce Zessar,Highland Park,IL,60035,Advisory Research Inc,Investment Management,75000,1,2026-06-08,2026-06-08,zip,false,1245000,20,20,2024/2026
+Susan Collins,Eli Portnoy,Los Angeles,CA,90035,Backengine,Ceo / Co-Founder,75000,1,2025-09-20,2025-09-20,zip,true,475000,4,4,2024/2026
+Susan Collins,Joel Young,Bloomfield Hills,MI,48301,Self,Physician,75000,1,2026-06-09,2026-06-09,zip,false,225000,5,5,2024/2026
+Susan Collins,Michael Schuffler,Mercer Island,WA,98040,Retired,Retired,75000,2,2025-12-03,2026-06-28,zip,false,1337500,48,23,2024/2026
+Susan Collins,Nelson Obus,Princeton,NJ,08540,Wynnefield Capital,Finance,75000,1,2025-10-28,2025-10-28,zip,false,250000,3,3,2024
+Susan Collins,Rafael Cohen,North Miami Beach,FL,33160,Osmuum LLC,Manager,75000,2,2026-03-16,2026-05-01,zip,false,800000,37,34,2024/2026
+Susan Collins,Rick Entin,Pacific Palisades,CA,90272,"Rae Management Company, Inc.",Real Estate Investor,75000,1,2025-09-20,2025-09-20,zip,true,2057500,25,24,2024/2026
+Susan Collins,Robert Shpall,Los Angeles,CA,90034,Retired,Retired,75000,1,2025-09-21,2025-09-21,zip,false,1735300,23,20,2024/2026
+Susan Collins,Talia Smith,Los Angeles,CA,90035,Evewear,Clothing Designer,75000,1,2025-09-30,2025-09-30,zip,true,725000,5,5,2026
+Susan Collins,Michael Blacher,Los Angeles,CA,90034,Liberty Cassidy Whitmore,Attorney,72000,1,2026-06-29,2026-06-29,zip,false,352000,3,3,2024/2026
+Susan Collins,Kenneth Wichman,Manchester,CT,06040,"Manchester Podiatry Center, PC",Podiatrist,71100,4,2026-03-05,2026-06-17,zip,false,10000,1,1,2024
+Susan Collins,Jeffrey Lipsky,Prairie Village,KS,66208,Retired,Retired,70000,3,2026-01-29,2026-05-12,zip,false,385000,12,7,2024/2026
+Susan Collins,Dennis Muchmore,Naples,FL,34110,Honigman LLP,Government Affairs,65000,5,2025-09-05,2026-06-30,zip,true,35000,2,2,2024/2026
+Susan Collins,Thomas Farrell,New York,NY,10021,Retired,Retired,61400,27,2025-10-14,2026-06-17,state,false,150000,2,2,2024
+Susan Collins,Martin Lurie,Newton,MA,02461,Cloudera,System Engineer,61300,1,2025-09-20,2025-09-20,zip,true,862400,12,11,2024/2026
+Susan Collins,Leon Biederman,Los Angeles,CA,90077,Retired,Retired,60000,3,2026-06-12,2026-06-24,zip,false,2575000,31,21,2024/2026
+Susan Collins,Liora Pier,Beverly Hills,CA,90211,Self,Teacher,60000,1,2025-09-20,2025-09-20,zip,false,562500,13,9,2024/2026
+Susan Collins,Robert Elbinger,Santa Monica,CA,90404,Retired,Retired,60000,1,2025-09-20,2025-09-20,zip,false,670000,13,12,2026
+Susan Collins,Sheila Bolour,Beverly Hills,CA,90210,Retired,Retired,60000,1,2025-09-30,2025-09-30,zip,false,7000000,46,29,2024/2026
+Susan Collins,Arnold Jacobson,Alamo,CA,94507,Retired,Retired,57500,2,2026-04-29,2026-05-19,zip,false,445000,12,12,2024/2026
+Susan Collins,Katherine Dietze,Palm Beach,FL,33480,Retired,Retired,52000,1,2026-04-23,2026-04-23,state,false,100000,2,2,2024
+Susan Collins,Morry Honig,Hermitage,TN,37076,Retired,Retired,52000,1,2026-06-20,2026-06-20,zip,false,50000,1,0,2026
+Susan Collins,Samuel Shorstein,Jacksonville,FL,32256,Retired,Retired,52000,1,2026-06-07,2026-06-07,state,false,100000,2,2,2026
+Susan Collins,Lee Ziff,Beverly Hills,CA,90210,Sequoia Realty,Realtor,51800,1,2026-06-24,2026-06-24,zip,true,2987300,43,33,2024/2026
+Susan Collins,Joel Fieldman,Glen Head,NY,11545,Retired,Retired,50800,5,2026-05-31,2026-06-30,state,false,25000,1,0,2024
+Susan Collins,Aaron Feinstein,Encino,CA,91436,Self,Physician,50000,1,2025-09-20,2025-09-20,zip,false,850000,15,15,2024/2026
+Susan Collins,Adeena Fitterman,Santa Monica,CA,90403,Akf Properties,Realtor,50000,1,2025-09-30,2025-09-30,zip,false,100000,2,1,2024/2026
+Susan Collins,Agnes Adler,Los Angeles,CA,90035,Self,Interior Design,50000,1,2025-09-20,2025-09-20,zip,false,75000,2,2,2024/2026
+Susan Collins,Alan Skobin,Chesterfield,MO,63017,Galpin Motors,Vice President,50000,1,2026-06-17,2026-06-17,zip,true,400000,6,5,2026
+Susan Collins,Amy Leveton,Washington,DC,20007,Amy Lev Strategies,Marketing,50000,1,2026-04-22,2026-04-22,zip,false,145000,4,3,2024/2026
+Susan Collins,Anthony Scatuorchio,Miami Beach,FL,33139,Retired,Retired,50000,1,2026-06-09,2026-06-09,zip,false,50000,1,1,2026
+Susan Collins,Arnie Hiller,Potomac,MD,20854,Us Search LLC,Executive,50000,1,2026-05-01,2026-05-01,zip,true,450000,8,7,2024/2026
+Susan Collins,Arthur Loring,Palm Beach,FL,33480,Retired,Retired,50000,1,2025-05-12,2025-05-12,state,false,1200000,14,11,2024/2026
+Susan Collins,Avi Jorisch,Washington,DC,20003,Israel Economic Forum,Ceo,50000,1,2026-04-22,2026-04-22,zip,true,50000,1,1,2026
+Susan Collins,Barbara Goldfarb,Aventura,FL,33160,Self,Matchmaker,50000,1,2026-06-09,2026-06-09,zip,false,450000,7,6,2024/2026
+Susan Collins,Barbara Lustrin,Palm Beach Gardens,FL,33418,Retired,Retired,50000,1,2026-02-16,2026-02-16,zip,false,250000,5,5,2026
+Susan Collins,Barry Hollander,West Palm Beach,FL,33412,Retired,Retired,50000,1,2026-02-16,2026-02-16,zip,false,800000,13,11,2024/2026
+Susan Collins,Barry Pressman,Beverly Hills,CA,90210,Cedars-Sinai Imaging Medical Group,Physician,50000,1,2026-06-16,2026-06-16,zip,false,1250000,22,19,2024/2026
+Susan Collins,Behrooz Sumekh,Northridge,CA,91324,Temple C Adult Day,Manager,50000,1,2026-06-23,2026-06-23,zip,false,350000,4,3,2024/2026
+Susan Collins,Benjamin Shienbaum,Fort Washington,PA,19034,Retired,Retired,50000,1,2026-05-11,2026-05-11,zip,false,107500,7,4,2024/2026
+Susan Collins,Bob Kaufman,Anchorage,AK,99507,Alaska Org,Founder,50000,1,2026-06-29,2026-06-29,zip,false,250000,2,2,2026
+Susan Collins,Brett Hersh,Gladwyne,PA,19035,Empire Promos,Executive,50000,1,2026-05-19,2026-05-19,zip,false,380000,4,4,2026
+Susan Collins,Brian Rice,Bannockburn,IL,60015,Ever.Ag,Advisor,50000,1,2026-06-30,2026-06-30,zip,true,400000,4,4,2026
+Susan Collins,Bryan Berkett,Beverly Hills,CA,90212,Self,Farmer,50000,1,2025-09-30,2025-09-30,zip,false,50000,1,1,2026
+Susan Collins,Carol Brody,West Palm Beach,FL,33412,Retired,Retired,50000,1,2026-02-16,2026-02-16,zip,false,450000,9,7,2026
+Susan Collins,Carol Rothschild,Wilmington,DE,19806,Retired,Retired,50000,1,2026-05-20,2026-05-20,zip,false,1600000,21,15,2024/2026
+Susan Collins,Carolyn Silbey,Palm Beach Gardens,FL,33418,Retired,Retired,50000,1,2026-02-16,2026-02-16,zip,false,1050000,21,17,2024/2026
+Susan Collins,Carolynn Levy,Brookline,MA,02445,Retired,Retired,50000,1,2025-06-01,2025-06-01,zip,false,600000,8,7,2024/2026
+Susan Collins,Claudia Felson,Castro Valley,CA,94546,Retired,Retired,50000,1,2026-04-22,2026-04-22,zip,false,1775000,29,26,2024/2026
+Susan Collins,Dan Gottfried,Avon,CT,06001,Enfinity Global,Attorney,50000,1,2026-06-02,2026-06-02,zip,true,150000,2,2,2024/2026
+Susan Collins,Dan Guttell,Needham,MA,02492,Beth Israel Lahey Health,Finance,50000,1,2026-05-01,2026-05-01,zip,true,75400,3,3,2024/2026
+Susan Collins,Daniel Gordon,Dallas,TX,75230,Gibson Dunn Crutcher LLP,Attorney,50000,1,2026-06-08,2026-06-08,zip,false,125000,3,3,2026
+Susan Collins,Daniel Mulieri,Coral Springs,FL,33067,Fl State Attorneys Office,Legislative Director,50000,1,2026-06-09,2026-06-09,zip,false,150000,2,2,2026
+Susan Collins,Darryl May,Johns Island,SC,29455,Dowd Bennett LLP,Attorney,50000,1,2026-06-09,2026-06-09,zip,true,700000,16,12,2024/2026
+Susan Collins,David Abramowitz,Mc Lean,VA,22101,Retired,Retired,50000,1,2026-04-29,2026-04-29,zip,false,400000,8,7,2024/2026
+Susan Collins,David Bercow,Armonk,NY,10504,Vensure,Sales,50000,1,2026-06-02,2026-06-02,zip,true,2952000,78,55,2024/2026
+Susan Collins,David Chesnoff,Las Vegas,NV,89101,Self,Lawyer,50000,1,2026-05-02,2026-05-02,zip,false,480000,2,2,2024/2026
+Susan Collins,David Dr. Marinoff,Oakland,CA,94611,Bay Childrens Hospital,Physician,50000,1,2026-04-22,2026-04-22,zip,false,1560000,17,16,2024/2026
+Susan Collins,David Eidelman,Saint Louis,MO,63105,Daytona Street,Investment Advisor,50000,1,2026-05-18,2026-05-18,zip,true,260000,6,4,2024/2026
+Susan Collins,David Hartford,Oakland,CA,94611,Retired,Retired,50000,1,2026-04-22,2026-04-22,zip,false,700000,12,12,2024/2026
+Susan Collins,David Katzin,Beverly Hills,CA,90211,Retired,Retired,50000,1,2025-09-20,2025-09-20,zip,false,175000,4,4,2024/2026
+Susan Collins,David Lefer,New York,NY,10016,Nyu,Teacher,50000,1,2026-06-06,2026-06-06,zip,true,200000,2,1,2024/2026
+Susan Collins,David Lombardi,Miami,FL,33127,Lombardi Properties,Realtor,50000,1,2026-06-24,2026-06-24,zip,true,750000,9,9,2024/2026
+Susan Collins,David Md Musher,New York,NY,10029,Retired,Retired,50000,1,2026-01-29,2026-01-29,zip,false,1000000,10,9,2024/2026
+Susan Collins,David Rosenblum,Los Angeles,CA,90064,Retired,Retired,50000,2,2026-06-09,2026-06-24,zip,false,290000,12,6,2024/2026
+Susan Collins,Davina Massey,Beverly Hills,CA,90210,Self,Attorney,50000,1,2025-09-20,2025-09-20,zip,false,597500,12,9,2024/2026
+Susan Collins,Deborah Soffen,Princeton,NJ,08540,Self,Physician,50000,1,2025-06-26,2025-06-26,zip,false,50000,1,1,2024
+Susan Collins,Dennis Albers,Aspen,CO,81611,Self,Real Estate,50000,1,2026-04-29,2026-04-29,zip,false,3285000,57,45,2024/2026
+Susan Collins,Donald Marks,Tarzana,CA,91356,Marks Contractors,Real Estate Developer,50000,1,2025-09-20,2025-09-20,zip,false,450000,9,9,2026
+Susan Collins,Donna Friedman,Tarzana,CA,91356,Retired,Retired,50000,1,2025-09-20,2025-09-20,zip,false,1000000,16,13,2024/2026
+Susan Collins,Douglas Cohn,Tampa,FL,33609,Retired,Retired,50000,1,2026-06-13,2026-06-13,state,false,4520000,27,21,2024
+Susan Collins,Drew Parker,Englewood,NJ,07631,Kingsbrook Investments,Real Estate,50000,1,2026-01-30,2026-01-30,zip,false,150000,3,3,2024
+Susan Collins,Edward Dauber,Englewood,NJ,07631,Csg Law,Attorney,50000,1,2026-05-18,2026-05-18,zip,true,814000,22,18,2024/2026
+Susan Collins,Elie Gittler,New Rochelle,NY,10804,Retired,Retired,50000,1,2026-06-30,2026-06-30,zip,false,50000,1,1,2026
+Susan Collins,Elizabeth Brody,Bethesda,MD,20814,Retired,Retired,50000,1,2026-06-09,2026-06-09,zip,false,355000,15,14,2024/2026
+Susan Collins,Ethan Grodofsky,Sanibel,FL,33957,Retired,Retired,50000,1,2026-06-08,2026-06-08,zip,false,150000,3,3,2026
+Susan Collins,Eva Kaplan,Los Angeles,CA,90035,Self,Real Estate Broker,50000,1,2025-09-30,2025-09-30,zip,false,150000,3,3,2026
+Susan Collins,Franklin Niver,Encino,CA,91436,Self,Dentist,50000,1,2025-09-21,2025-09-21,zip,false,575000,8,8,2026
+Susan Collins,Fred Ehrenstein,Hollywood,FL,33021,Retired,Retired,50000,1,2026-06-09,2026-06-09,zip,false,425000,11,10,2024/2026
+Susan Collins,Fred Gruber,Tarzana,CA,91356,First Rate Financial Group,Mortgage Loan Originator,50000,1,2025-09-30,2025-09-30,zip,true,700000,13,13,2024/2026
+Susan Collins,Gabriel Grossman,West Palm Beach,FL,33412,Retired,Retired,50000,1,2026-02-16,2026-02-16,zip,false,800000,16,12,2024/2026
+Susan Collins,Gary Greenberg,Cincinnati,OH,45208,Retired,Retired,50000,1,2026-05-18,2026-05-18,zip,false,1470000,17,12,2024/2026
+Susan Collins,Gary Manko,Denver,CO,80211,University Of Colorado School Of Medic,Physician,50000,1,2026-06-17,2026-06-17,zip,false,375000,6,6,2026
+Susan Collins,Gene Sigalov,Davie,FL,33325,"The Sigalov Firm, Pllc",Attorney,50000,1,2026-06-17,2026-06-17,zip,false,210800,4,4,2026
+Susan Collins,George Frankenstein,San Francisco,CA,94127,Retired,Retired,50000,2,2026-04-29,2026-04-29,zip,false,741000,21,20,2026
+Susan Collins,Gerald Cohen,Highland Beach,FL,33487,Greenley Corp,Investor,50000,1,2026-06-05,2026-06-05,zip,true,25000,1,1,2026
+Susan Collins,Gloria Segall,West Palm Beach,FL,33412,Retired,Retired,50000,1,2026-02-16,2026-02-16,zip,false,650000,13,11,2024/2026
+Susan Collins,Harold Berenson,Parker,CO,80134,Amazon,Engineer,50000,1,2026-06-17,2026-06-17,zip,false,1110000,11,6,2024/2026
+Susan Collins,Harold Masor,Valley Village,CA,91607,Retired,Retired,50000,1,2025-09-20,2025-09-20,zip,false,950000,18,13,2024/2026
+Susan Collins,Harvey M. Tettlebaum,Jefferson City,MO,65101,Husch Blackwell,Attorney,50000,1,2026-06-17,2026-06-17,zip,false,360000,11,10,2024/2026
+Susan Collins,Helene Berger,West Stockbridge,MA,01266,Retired,Retired,50000,1,2026-06-02,2026-06-02,zip,false,225000,8,8,2026
+Susan Collins,Hillary Wallace,New York,NY,10024,Memorial Sloan Kettering Cancer Center,Content Management Assistant,50000,1,2025-12-21,2025-12-21,zip,true,500000,10,10,2026
+Susan Collins,Howard Peck,Pennsburg,PA,18073,Senior Insurance Solutions,Insurance Broker,50000,1,2026-06-08,2026-06-08,zip,false,880000,21,19,2024/2026
+Susan Collins,Ilana Kattan,Washington,DC,20037,Hogan Lovells LLP,Attorney,50000,1,2026-04-22,2026-04-22,zip,false,275000,7,6,2024/2026
+Susan Collins,Iris Engelson,New York,NY,10024,Interet Corporation,Tech Consultant,50000,1,2026-04-30,2026-04-30,zip,true,36000,1,0,2026
+Susan Collins,Iris Langman,Naples,FL,34114,Retired,Retired,50000,1,2026-06-29,2026-06-29,zip,false,850000,16,15,2024/2026
+Susan Collins,Irwin Azman,Port Saint Lucie,FL,34987,Retired,Retired,50000,1,2026-05-19,2026-05-19,zip,false,225000,7,7,2026
+Susan Collins,Isaac Zekaria,Beverly Hills,CA,90212,Windsor Fashions,President,50000,1,2026-04-22,2026-04-22,zip,false,100000,2,2,2026
+Susan Collins,Jack Benvent,Morristown,NJ,07960,Benvent Properties,Managing Director,50000,1,2026-05-20,2026-05-20,zip,false,125000,2,2,2024/2026
+Susan Collins,Jacob Shapiro,Loxahatchee,FL,33470,Foundation For Defense Of Democracies,Fundraising,50000,1,2026-02-16,2026-02-16,zip,false,700000,14,13,2024/2026
+Susan Collins,Jacqueline Muss,New York,NY,10021,Self,Art Advisor,50000,1,2025-02-21,2025-02-21,zip,false,1400000,11,10,2024/2026
+Susan Collins,James Holtz,Pleasanton,CA,94566,Retired,Retired,50000,1,2026-04-29,2026-04-29,zip,false,1350000,22,22,2024/2026
+Susan Collins,James Ramenofsky,Oakton,VA,22124,Virginia Hospital Center,Physician,50000,1,2026-04-22,2026-04-22,zip,true,535000,10,8,2024/2026
+Susan Collins,Jana Wallack,Los Angeles,CA,90024,Retired,Retired,50000,1,2025-09-30,2025-09-30,zip,false,352500,8,7,2024/2026
+Susan Collins,Jason Hersh,Ambler,PA,19002,Klein Hersh,Ceo,50000,1,2026-05-19,2026-05-19,zip,true,730000,5,4,2026
+Susan Collins,Jay Leveton,Washington,DC,20007,Stagwell Global,Marketing,50000,1,2026-04-22,2026-04-22,zip,false,50000,1,1,2026
+Susan Collins,Jay Sage,Newton Center,MA,02459,Retired,Retired,50000,1,2026-05-18,2026-05-18,zip,false,245000,8,5,2024/2026
+Susan Collins,Jeannine Rahimian,Los Angeles,CA,90024,Ucla,Physician,50000,1,2025-09-20,2025-09-20,zip,true,575000,12,10,2024/2026
+Susan Collins,Jennifer Berman,Pikesville,MD,21208,Retired,Retired,50000,1,2026-06-29,2026-06-29,zip,false,1200000,16,14,2024/2026
+Susan Collins,Jeremy Kazzaz,Pittsburgh,PA,15217,Beacon Coalition,Executive Director,50000,1,2026-05-03,2026-05-03,zip,false,25000,1,1,2024
+Susan Collins,Jesse Klein,Blue Bell,PA,19422,Klein Hersh,Executive,50000,1,2026-05-20,2026-05-20,zip,true,850000,4,4,2026
+Susan Collins,Jody Lewinter,West Hartford,CT,06117,Hartford Healthcare,Physician,50000,1,2026-05-31,2026-05-31,zip,true,95000,4,4,2024/2026
+Susan Collins,Joel Yudenfreund,Palm Beach Gardens,FL,33410,Stiefel Co,Wealth Management,50000,1,2026-03-09,2026-03-09,zip,false,850000,16,13,2024/2026
+Susan Collins,John Koren,Southport,CT,06890,Hudson Partners,Banker,50000,1,2026-06-23,2026-06-23,zip,true,1500000,10,10,2024/2026
+Susan Collins,John Rockman,Encino,CA,91436,Self,Digital Advertising,50000,1,2025-09-20,2025-09-20,zip,false,350000,5,5,2026
+Susan Collins,Jon Parritz,Saint Paul,MN,55120,Parritz Law Plc,Attorney,50000,1,2026-06-30,2026-06-30,zip,false,318000,6,5,2024/2026
+Susan Collins,Jonah Nagrotsky,Bronx,NY,10463,Jewish News Syndicate,Chief Development Officer,50000,1,2026-04-22,2026-04-22,zip,false,300000,6,6,2026
+Susan Collins,Jonathan Aires,Beverly Hills,CA,90212,Northwestern Mutual,Financial Advisor,50000,2,2026-05-18,2026-06-09,zip,true,52500,3,2,2026
+Susan Collins,Jonathan Barry,Marietta,GA,30067,Spectrum Maintenance Services,Real Estate,50000,1,2026-06-28,2026-06-28,zip,true,1600000,20,18,2024/2026
+Susan Collins,Jonathan Cookler,Tarzana,CA,91356,Retired,Retired,50000,1,2025-09-20,2025-09-20,zip,false,825000,16,11,2024/2026
+Susan Collins,Jonathan Leffell,Chestnut Hill,MA,02467,Foursquare,Manager,50000,2,2025-09-21,2026-05-24,zip,false,485000,8,5,2024/2026
+Susan Collins,Jonathan Lutz,Sarasota,FL,34241,United Defense Tactical,Owner,50000,1,2026-06-09,2026-06-09,zip,true,200000,3,2,2026
+Susan Collins,Jonathan Risch,Bellaire,TX,77401,Dpis Builder Services,Ceo,50000,1,2026-06-17,2026-06-17,zip,true,1880000,28,14,2024/2026
+Susan Collins,Judy Thomas,Glendale,CA,91207,Safe Medical Corp.,Vice President,50000,1,2025-09-30,2025-09-30,zip,false,2400000,30,26,2024/2026
+Susan Collins,Julie Brennglass,Encino,CA,91316,Self,Psychotherapy,50000,1,2025-09-30,2025-09-30,zip,false,75000,2,1,2026
+Susan Collins,Justin Schair,Portland,ME,04112,Acadia Capital Group,Investor,50000,1,2026-05-01,2026-05-01,zip,true,150000,2,1,2026
+Susan Collins,Karen Getelman,Tarzana,CA,91356,Retired,Retired,50000,1,2025-09-20,2025-09-20,zip,false,970000,19,14,2024/2026
+Susan Collins,Katherine Gore,Hallowell,ME,04347,Charter Communcations,Government Affairs,50000,1,2026-03-31,2026-03-31,state,false,25000,1,1,2026
+Susan Collins,Kathryn Leitner,Los Angeles,CA,90049,Retired,Retired,50000,1,2025-09-30,2025-09-30,zip,false,300000,3,3,2026
+Susan Collins,Kenneth Goldman,Orinda,CA,94563,Eso Fund,Finance,50000,1,2026-04-29,2026-04-29,zip,true,650000,12,12,2026
+Susan Collins,Laurence Smolley,Hollywood,FL,33021,Cleveland Clinic Florida,Physician,50000,1,2026-06-23,2026-06-23,zip,true,400000,4,4,2026
+Susan Collins,Laurie Price,Deerfield,IL,60015,Retired,Retired,50000,1,2026-06-24,2026-06-24,zip,false,50000,1,1,2026
+Susan Collins,Lewis Hershkowitz,Roslyn Heights,NY,11577,Big Geyser Inc,Executive,50000,1,2025-12-03,2025-12-03,zip,true,500000,10,10,2026
+Susan Collins,Lisa Coll,Auburndale,MA,02466,Retired,Retired,50000,1,2025-06-01,2025-06-01,zip,false,2230000,28,22,2024/2026
+Susan Collins,Lissa Rechtin,San Francisco,CA,94116,Retired,Retired,50000,1,2026-06-08,2026-06-08,zip,false,150000,4,2,2026
+Susan Collins,Lou Weiss,Pittsburgh,PA,15217,Retired,Retired,50000,1,2026-05-18,2026-05-18,zip,false,725000,10,6,2024/2026
+Susan Collins,Marc Gonchar,Mercer Island,WA,98040,Opum,Physician,50000,1,2026-06-23,2026-06-23,zip,true,475000,10,8,2024/2026
+Susan Collins,Mario Mekler,Miami,FL,33133,Dalet,Business Development,50000,1,2026-06-23,2026-06-23,zip,true,400000,6,6,2026
+Susan Collins,Marissa Leitner,Encino,CA,91436,Self,School Psychologist,50000,1,2025-09-20,2025-09-20,zip,false,780000,16,15,2024/2026
+Susan Collins,Mark Follender,Ridgewood,NJ,07450,Follender Law Offices,Attorney,50000,1,2025-09-20,2025-09-20,zip,true,2518800,34,31,2024/2026
+Susan Collins,Mark Gilfix,Palo Alto,CA,94306,Gilfix & La Poll Assoc,Attorney,50000,1,2026-04-29,2026-04-29,zip,false,100000,2,2,2026
+Susan Collins,Mark Goldin,Los Angeles,CA,90034,Retired,Retired,50000,1,2025-09-20,2025-09-20,zip,false,675000,12,10,2024/2026
+Susan Collins,Mark Lutz,American Canyon,CA,94503,Steel Mill Recycling,Chairman,50000,1,2026-06-23,2026-06-23,zip,true,700000,6,4,2024/2026
+Susan Collins,Mark Meland,Miami Beach,FL,33141,Meland Budwick Pa,Attorney,50000,1,2026-06-01,2026-06-01,zip,false,350000,7,7,2024/2026
+Susan Collins,Mark Podgainy,New York,NY,10011,Getzler Henrich & Assoc,Management,50000,1,2026-06-09,2026-06-09,zip,false,50000,1,1,2026
+Susan Collins,Martin Scheck,Miami,FL,33179,Scheck Group,Investment Manager,50000,1,2026-06-09,2026-06-09,zip,true,250000,4,4,2024/2026
+Susan Collins,Marvin Rosen,West Palm Beach,FL,33401,Retired,Retired,50000,1,2026-02-16,2026-02-16,zip,false,650000,11,10,2024/2026
+Susan Collins,Matthew Bergman,Seattle,WA,98102,Smvlc,Attorney,50000,1,2026-06-23,2026-06-23,zip,true,1560000,6,5,2024/2026
+Susan Collins,Micha Weinblatt,Bethesda,MD,20817,Crooked Monkey,Ceo,50000,1,2026-04-22,2026-04-22,zip,true,400000,8,7,2024/2026
+Susan Collins,Michael Benn,Scarsdale,NY,10583,Wachtell Lipton Rosen Katz,Attorney,50000,1,2026-05-18,2026-05-18,zip,false,413600,6,5,2024/2026
+Susan Collins,Michael Brehne,Maitland,FL,32751,Self,Attorney,50000,1,2026-06-16,2026-06-16,zip,false,1300000,15,9,2024/2026
+Susan Collins,Michael Geller,Aurora,CO,80011,"Beverage Distributors Company, LLC",Ceo,50000,1,2025-12-03,2025-12-03,zip,true,450000,8,8,2024/2026
+Susan Collins,Michael Loboda,Los Angeles,CA,90035,Self,Real Estate Broker,50000,1,2025-09-20,2025-09-20,zip,false,500000,9,9,2024/2026
+Susan Collins,Michael Sosebee,Oakland,CA,94610,Equipment Share,Sr. Operations Manager,50000,1,2026-04-22,2026-04-22,zip,false,1325000,13,12,2024/2026
+Susan Collins,Michael Tuchman,Chicago,IL,60613,Levenfeld Pearlstein LLC,Attorney,50000,1,2026-06-23,2026-06-23,zip,false,225000,4,2,2024/2026
+Susan Collins,Michael Zalesne,Arlington,VA,22201,Prizma Strategies,Director,50000,1,2026-04-29,2026-04-29,zip,false,652600,18,14,2024/2026
+Susan Collins,Michele Resnick,Delray Beach,FL,33483,Your Hearth Healing,Therapist,50000,1,2025-12-03,2025-12-03,zip,false,500000,10,10,2026
+Susan Collins,Michelle Arbit,Sherman Oaks,CA,91423,Nbcuniversal,Marketing,50000,1,2025-09-30,2025-09-30,zip,true,300000,4,4,2026
+Susan Collins,Michelle Schoenfeld,Los Angeles,CA,90049,Retired,Retired,50000,1,2025-09-30,2025-09-30,zip,false,657500,16,12,2024/2026
+Susan Collins,Miles Holden,San Anselmo,CA,94960,Hanson Bridgett LLP,Attorney,50000,1,2026-04-22,2026-04-22,zip,true,254000,7,6,2024/2026
+Susan Collins,Morgan Simon,Chicago,IL,60614,Assures,Sales,50000,1,2026-06-09,2026-06-09,zip,true,200000,3,3,2024/2026
+Susan Collins,Morris Berger,Aventura,FL,33160,Retired,Retired,50000,1,2026-06-09,2026-06-09,zip,false,250000,3,3,2026
+Susan Collins,Morton Zetlin,Arlington,VA,22203,Mercedes Benz Of Arlington,Auto Dealer,50000,1,2026-04-22,2026-04-22,zip,true,850000,17,17,2024/2026
+Susan Collins,Mory Barak,Encino,CA,91316,Lion Real Estate Group,Real Estate,50000,1,2025-09-30,2025-09-30,zip,true,2200000,23,18,2024/2026
+Susan Collins,Moshe Graber,Los Angeles,CA,90034,Gerber & Co Inc,Cpa,50000,1,2025-09-20,2025-09-20,zip,true,425000,7,7,2024/2026
+Susan Collins,Nelie Amini,Sherman Oaks,CA,91403,Kaiser,Nurse Practitioner,50000,1,2025-09-20,2025-09-20,zip,true,100000,2,2,2026
+Susan Collins,Nina Appel,Wilmington,DE,19806,Retired,Retired,50000,1,2026-05-20,2026-05-20,zip,false,1025000,18,13,2024/2026
+Susan Collins,Norman Traeger,Belvedere Tiburon,CA,94920,Retired,Retired,50000,1,2026-05-01,2026-05-01,zip,false,1625000,20,17,2024/2026
+Susan Collins,Or Amsalam,Los Angeles,CA,90035,Self,Restaurant Owner,50000,1,2025-09-30,2025-09-30,zip,false,450000,5,5,2026
+Susan Collins,Orete Harkavy,Deerfield,IL,60015,Retired,Retired,50000,1,2026-05-01,2026-05-01,zip,false,925000,14,12,2026
+Susan Collins,Pamela Norden,Needham,MA,02492,Krauss Dermatology,Dermatologist,50000,1,2025-06-01,2025-06-01,zip,true,260000,7,7,2024/2026
+Susan Collins,Pamela Rembaum,Palm Beach Gardens,FL,33418,Campbell Property Management,Accountant,50000,1,2026-02-16,2026-02-16,zip,true,900000,17,14,2024/2026
+Susan Collins,Paul Ross,Merrick,NY,11566,Retired,Retired,50000,1,2026-05-08,2026-05-08,zip,false,565000,16,6,2024/2026
+Susan Collins,Peter Levi,Fort Worth,TX,76109,Retired,Retired,50000,1,2026-06-08,2026-06-08,zip,false,275000,6,3,2024/2026
+Susan Collins,Philip Cohen,Miami Beach,FL,33139,Retired,Retired,50000,1,2026-06-24,2026-06-24,zip,false,1166000,30,27,2024/2026
+Susan Collins,Philip Greenland,Evanston,IL,60203,Northwestern University,Professor,50000,1,2025-09-07,2025-09-07,zip,true,70000,4,2,2024/2026
+Susan Collins,Rand Schwartzwald,Boca Raton,FL,33434,Sunstate Medical Specialists,Administration,50000,1,2026-06-24,2026-06-24,zip,true,1935000,34,24,2024/2026
+Susan Collins,Randall Kessler,Alameda,CA,94501,Kessler & Kessler,Attorney,50000,1,2026-04-29,2026-04-29,zip,true,1300000,28,27,2024/2026
+Susan Collins,Randi Levine,Los Angeles,CA,90049,Self-Employed,Investment Manager,50000,1,2025-09-20,2025-09-20,state,false,852500,13,10,2024/2026
+Susan Collins,Rebecca Kekst,Beverly Hills,CA,90210,Retired,Retired,50000,1,2025-09-30,2025-09-30,zip,false,2155000,18,11,2024/2026
+Susan Collins,Richard Comiter,Palm Beach Gardens,FL,33418,Comiter & Singer,Attorney,50000,1,2026-02-16,2026-02-16,zip,false,400000,8,8,2026
+Susan Collins,Richard Lipsey,Baton Rouge,LA,70884,Lipsey'S,Wholesale,50000,1,2026-05-08,2026-05-08,state,true,6840000,42,34,2024/2026
+Susan Collins,Richard Ravitz,Walnut Creek,CA,94598,Retired,Retired,50000,1,2026-04-29,2026-04-29,zip,false,550000,11,11,2024/2026
+Susan Collins,Richard Tatelman,Boca Raton,FL,33496,Merrimack Valley Dist.,Executive,50000,2,2026-05-18,2026-06-09,zip,false,615000,11,3,2024/2026
+Susan Collins,Robert Amkraut,Seattle,WA,98125,Retired,Retired,50000,1,2025-11-10,2025-11-10,zip,false,1000000,24,15,2024/2026
+Susan Collins,Robert Benedon,Cherry Hill,NJ,08002,Self,Dentist,50000,1,2026-06-09,2026-06-09,zip,false,575000,12,12,2024/2026
+Susan Collins,Robert Briskin,Palm Beach Gardens,FL,33418,Vip Care,Physician,50000,1,2026-02-16,2026-02-16,zip,false,275000,6,5,2024/2026
+Susan Collins,Robert Costrell,Fayetteville,AR,72704,Retired,Retired,50000,1,2026-05-18,2026-05-18,zip,false,650000,14,10,2024/2026
+Susan Collins,Robert Davidson,West Berlin,NJ,08091,Retired,Retired,50000,1,2026-06-09,2026-06-09,zip,false,850000,14,12,2024/2026
+Susan Collins,Robert Kaplan,Naples,FL,34105,Retired,Retired,50000,1,2026-06-09,2026-06-09,zip,false,10000,1,1,2026
+Susan Collins,Robert Poliner,Bonita Springs,FL,34135,Retired,Retired,50000,1,2026-05-08,2026-05-08,zip,false,225000,16,12,2024/2026
+Susan Collins,Robert Zeiger,Los Angeles,CA,90049,Self,Physician,50000,1,2026-06-08,2026-06-08,zip,false,50000,1,1,2026
+Susan Collins,Robin Kanel,Palm Beach Gardens,FL,33418,Retired,Retired,50000,1,2026-02-16,2026-02-16,zip,false,350000,7,7,2024/2026
+Susan Collins,Robin Rosenzweig,Boca Raton,FL,33434,Self,Homemaker,50000,1,2025-12-21,2025-12-21,zip,false,1000000,6,6,2026
+Susan Collins,Robin Spiegelman,Alamo,CA,94507,Self,Health & Wellness Consultant,50000,1,2026-04-29,2026-04-29,zip,false,550000,10,10,2024/2026
+Susan Collins,Rona Gollob,Simsbury,CT,06070,Retired,Retired,50000,1,2026-06-09,2026-06-09,zip,false,195000,7,5,2024/2026
+Susan Collins,Ronen Cohen,Studio City,CA,91604,Disney,Mergers & Acquisitions,50000,1,2025-09-30,2025-09-30,zip,true,400000,5,5,2026
+Susan Collins,Ross Herman,Minneapolis,MN,55446,Herman Capital Corp,Real Estate,50000,1,2026-06-29,2026-06-29,zip,false,665000,9,5,2024/2026
+Susan Collins,S. Jack Fenigstein,Los Angeles,CA,90034,"Fenigstein & Kaufman, A Professional C",Attorney,50000,1,2025-09-20,2025-09-20,zip,true,100000,2,2,2026
+Susan Collins,Sabrina Beldner,Studio City,CA,91604,Mcgirewoods,Attorney,50000,1,2025-09-30,2025-09-30,zip,true,700000,11,11,2024/2026
+Susan Collins,Sam Klewans,Palm Beach Gardens,FL,33418,Retired,Retired,50000,1,2026-02-16,2026-02-16,zip,false,800000,16,14,2024/2026
+Susan Collins,Samuel Shorstein,Gainesville,FL,32608,Retired,Retired,50000,1,2026-05-11,2026-05-11,zip,false,100000,2,2,2026
+Susan Collins,Sanaz Rad,Los Angeles,CA,90077,Self Employed,Real Estate Broker,50000,1,2025-09-20,2025-09-20,zip,false,100000,2,2,2024/2026
+Susan Collins,Sanford Seiger,Solon,OH,44139,Retired,Retired,50000,2,2026-05-20,2026-06-28,zip,false,1229000,50,34,2024/2026
+Susan Collins,Sara Aronson,Waban,MA,02468,Retired,Retired,50000,1,2025-06-01,2025-06-01,zip,false,600000,12,12,2024/2026
+Susan Collins,Scott Becker,Glencoe,IL,60022,Beckers Healthcare,Attorney,50000,1,2026-05-11,2026-05-11,zip,false,7930000,98,64,2024/2026
+Susan Collins,Scott Fane,Delray Beach,FL,33483,Scott Fane Cpa Pa,Cpa,50000,1,2026-06-30,2026-06-30,zip,true,1945000,72,41,2024/2026
+Susan Collins,Shale Lapping,Chicago,IL,60601,Ipex Inc,Investor,50000,1,2026-06-29,2026-06-29,zip,false,2360000,41,33,2024/2026
+Susan Collins,Sheldon Klapper,Portland,OR,97210,Retired,Retired,50000,1,2026-06-29,2026-06-29,zip,false,1409200,19,16,2024/2026
+Susan Collins,Sherri Cherman,Studio City,CA,91604,Elements Pharmacy,Pharmacist Owner,50000,1,2025-09-20,2025-09-20,zip,true,675000,12,11,2024/2026
+Susan Collins,Shirin Yadegar,Los Angeles,CA,90049,Self,Publisher Of La Mom Magazine,50000,1,2025-09-20,2025-09-20,zip,false,574500,15,11,2024/2026
+Susan Collins,Sidney P. Md Kadish,Newton,MA,02459,Lahey Clinic,Physician,50000,1,2025-06-01,2025-06-01,zip,false,125000,3,3,2026
+Susan Collins,Sion Tesone,Miami Beach,FL,33140,Osher Enterprises,Ceo,50000,1,2026-06-09,2026-06-09,zip,false,50000,1,1,2026
+Susan Collins,Sohail Mahboubian,Los Angeles,CA,90069,Nooshin Mahboubian,"Anesthesiologist, Md",50000,1,2025-09-20,2025-09-20,zip,true,50000,1,1,2026
+Susan Collins,Stanley Alpert,Mercer Island,WA,98040,Radius Recycling,Attorney,50000,1,2025-12-31,2025-12-31,zip,true,1200000,15,14,2024/2026
+Susan Collins,Stefanie Goldstein,Los Angeles,CA,90049,My Yoga Practice,Ceo,50000,1,2025-09-20,2025-09-20,zip,true,1700000,10,10,2024/2026
+Susan Collins,Stephanie Heyman,Encino,CA,91436,Daniel B Heyman Cpa,Secretary,50000,1,2025-09-30,2025-09-30,zip,true,2650000,15,13,2024/2026
+Susan Collins,Stephen Delinsky,Needham,MA,02492,Retired,Retired,50000,1,2026-05-18,2026-05-18,zip,false,900000,14,9,2024/2026
+Susan Collins,Stephen Epstein,Palm Beach Gardens,FL,33410,Retired,Retired,50000,1,2026-06-29,2026-06-29,zip,false,500000,16,9,2024/2026
+Susan Collins,Stephen Miller,San Francisco,CA,94121,Retired,Retired,50000,1,2026-04-22,2026-04-22,zip,false,1200000,25,22,2024/2026
+Susan Collins,Steven Brickman,Birmingham,AL,35205,Sirote,Lawyer,50000,1,2026-06-23,2026-06-23,zip,false,350000,3,3,2024/2026
+Susan Collins,Steven Jacobson,Rockville,MD,20852,West And Feinberg,Attorney,50000,1,2026-06-22,2026-06-22,zip,true,450000,3,3,2024/2026
+Susan Collins,Steven Korol,Buffalo Grove,IL,60089,Leon Korol Company,President,50000,1,2026-05-01,2026-05-01,zip,false,1300000,14,13,2024/2026
+Susan Collins,Steven Milman,Austin,TX,78759,Retired,Retired,50000,1,2026-03-27,2026-03-27,zip,false,660000,17,11,2024/2026
+Susan Collins,Sunny Russ,Beverly Hills,CA,90210,Retired,Retired,50000,1,2025-09-20,2025-09-20,zip,false,907000,18,14,2024/2026
+Susan Collins,Susan Firestone,Longmeadow,MA,01106,Retired,Retired,50000,1,2026-06-23,2026-06-23,zip,false,950000,10,8,2024/2026
+Susan Collins,Suzanne Kalfus,Bethesda,MD,20817,Alpa,Lawyer,50000,1,2026-06-17,2026-06-17,zip,true,450000,7,3,2024/2026
+Susan Collins,Teddy Greenspan,Beverly Hills,CA,90210,Retired,Retired,50000,1,2026-06-09,2026-06-09,zip,false,50000,1,1,2026
+Susan Collins,Toby Waldorf,Los Angeles,CA,90049,Retired,Retired,50000,1,2025-09-20,2025-09-20,zip,false,252500,6,6,2024
+Susan Collins,Victor Bergman,Beachwood,OH,44122,Shamburg Johnson & Bergman,Attorney,50000,1,2026-06-28,2026-06-28,zip,false,800000,14,11,2024/2026
+Susan Collins,Viktor Goldenberg,North Miami Beach,FL,33160,Self Employed,Real Estate Development,50000,1,2026-06-01,2026-06-01,zip,false,896000,15,14,2024/2026
+Susan Collins,Zachary Samuels,Fort Lauderdale,FL,33312,Retired,Retired,50000,1,2026-06-23,2026-06-23,zip,false,400000,8,8,2026
+Susan Collins,Robert Rosenthal,Syosset,NY,11791,First Long Island,Wealth Management,49700,2,2025-06-27,2026-06-06,zip,true,100000,2,2,2024/2026
+Susan Collins,Marc Hurwitz,Miami,FL,33139,Self Employed,Investor,42500,1,2026-01-31,2026-01-31,state,false,350000,5,4,2024/2026
+Susan Collins,Barry Shrage,Chestnut Hill,MA,02467,Brandeis,Professor,41200,4,2026-05-25,2026-06-30,zip,false,151200,4,4,2024
+Susan Collins,Bryan Dench,Portland,ME,04103,Retired,Retired,36400,2,2025-09-12,2026-06-12,zip,false,100000,1,1,2026
+Susan Collins,Ken Kwartler,West Linn,OR,97068,Ken Swartler Law,Attorney,36000,1,2026-06-28,2026-06-28,zip,false,358000,13,9,2024/2026
+Susan Collins,Henry Lerner,Waban,MA,02468,Self Employed,Physician,35000,2,2026-06-20,2026-06-25,zip,false,310000,13,13,2024
+Susan Collins,Charlie Greenberg,New York City,NY,10075,Patientpoint,Healthcare Marketing,31200,1,2026-06-21,2026-06-21,zip,false,25000,1,1,2024
+Susan Collins,Cecilia Goodman,Newport Beach,CA,92660,Retired,Retired,30000,2,2026-06-28,2026-06-30,zip,false,1545000,11,9,2024/2026
+Susan Collins,Herbert Heflich,Martinsville,NJ,08836,Retired,Retired,30000,3,2026-06-04,2026-06-30,zip,false,2175000,21,15,2024/2026
+Susan Collins,Ted Tasky,Northbrook,IL,60062,Retired,Retired,29400,7,2026-02-04,2026-06-11,zip,false,7200,2,2,2026
+Susan Collins,Irving Kempner,Sharon,MA,02067,Retired,Retired,27500,2,2026-05-20,2026-06-09,zip,false,405000,14,14,2024/2026
+Susan Collins,Gary Karch,Fort Lauderdale,FL,33305,Retired,Retired,26500,2,2026-06-09,2026-06-20,zip,false,25000,1,0,2026
+Susan Collins,Barry Chaiken,New York,NY,10128,Barry Chaiken,Physician,26000,1,2025-12-06,2025-12-06,zip,false,100000,1,0,2026
+Susan Collins,Jeffrey Elfont,Danville,CA,94526,Self Employed,Investment Manager,26000,1,2026-06-10,2026-06-10,zip,false,150000,3,3,2026
+Susan Collins,Joseph Spivack,Closter,NJ,07624,Retired,Retired,26000,1,2026-06-11,2026-06-11,zip,false,25000,1,0,2024
+Susan Collins,Julie Rogawski,New York,NY,10024,Retired,Retired,26000,1,2025-11-18,2025-11-18,state,false,100000,1,0,2024
+Susan Collins,Seth Chazanoff,Long Beach,NY,11561,Retired,Retired,25200,4,2026-05-15,2026-06-09,zip,false,12500,2,0,2026
+Susan Collins,Adam Belfer,Los Angeles,CA,90035,H.I.G. Realty Partners,Real Estate,25000,1,2025-09-30,2025-09-30,zip,false,300000,7,6,2024/2026
+Susan Collins,Alan Gingold,Wayzata,MN,55391,Lorenz Bus Service,Cfo,25000,1,2026-06-16,2026-06-16,state,true,45000,3,2,2026
+Susan Collins,Alan Marks,Berkeley,CA,94707,Retired,Retired,25000,1,2026-06-16,2026-06-16,zip,false,50000,4,3,2024/2026
+Susan Collins,Alan Reinstein,Farmington Hills,MI,48334,Retired,Retired,25000,1,2026-06-28,2026-06-28,zip,false,25000,1,1,2026
+Susan Collins,Alan Traster,Delray Beach,FL,33446,Guardian Pharmacy,Pharmacist,25000,1,2026-06-09,2026-06-09,zip,true,100000,4,3,2024/2026
+Susan Collins,Alex Sztuden,Los Angeles,CA,90035,Brainfuse,Ceo,25000,1,2025-09-20,2025-09-20,zip,true,400000,8,7,2024/2026
+Susan Collins,Allan Kramer,Los Altos,CA,94022,Retired,Retired,25000,1,2026-06-09,2026-06-09,zip,false,25000,1,1,2026
+Susan Collins,Alvin Schuster,Redington Beach,FL,33708,Self Employed,Real Estate,25000,1,2026-06-29,2026-06-29,zip,false,50000,2,2,2024/2026
+Susan Collins,Amy Stoken,Winnetka,IL,60093,Next Level Exchange,Director,25000,1,2026-06-28,2026-06-28,zip,false,775000,12,11,2024/2026
+Susan Collins,Andrew Shact,Weston,MA,02493,Retired,Retired,25000,1,2026-06-30,2026-06-30,zip,false,275000,4,3,2024/2026
+Susan Collins,Asaf Cohen,Newton Center,MA,02459,Retired,Retired,25000,1,2026-06-09,2026-06-09,zip,false,260000,10,7,2026
+Susan Collins,Barrett Stern,Bronx,NY,10463,B Stern Cre,Real Estate,25000,1,2026-06-09,2026-06-09,zip,true,75000,3,3,2026
+Susan Collins,Barry Goldstein,Hewlett,NY,11557,Retired,Retired,25000,1,2026-05-11,2026-05-11,zip,false,10000,1,1,2024
+Susan Collins,Benjamin Karlin,Brookline,MA,02446,Self Employed,Entrepreneur,25000,1,2026-06-11,2026-06-11,zip,false,25000,1,0,2026
+Susan Collins,Celia Meadow,Miami Beach,FL,33141,Retired,Retired,25000,1,2026-06-08,2026-06-08,zip,false,25000,1,1,2026
+Susan Collins,Charles Citrin,Miami,FL,33138,Retired,Retired,25000,1,2026-06-09,2026-06-09,zip,false,95000,5,3,2024/2026
+Susan Collins,Charles Pulman,Dallas,TX,75248,Meadows Collier,Attorney,25000,1,2026-06-09,2026-06-09,zip,true,25000,1,1,2026
+Susan Collins,Cheryl Brandes,Purchase,NY,10577,Retired,Retired,25000,1,2026-05-20,2026-05-20,zip,false,654500,12,9,2024/2026
+Susan Collins,Curtis Freedland,Odessa,FL,33556,Retired,Retired,25000,1,2026-06-16,2026-06-16,zip,false,465000,7,4,2026
+Susan Collins,Daniel Kordansky,Boynton Beach,FL,33473,Self-Employed,Physician,25000,1,2026-06-17,2026-06-17,zip,false,59800,10,7,2024/2026
+Susan Collins,Daniel Ruben,Agoura Hills,CA,91376,Retired,Retired,25000,1,2025-09-30,2025-09-30,zip,false,575000,23,21,2024/2026
+Susan Collins,David Adler,Chappaqua,NY,10514,Randa Accessories Group,General Counsel,25000,1,2026-05-07,2026-05-07,zip,false,200000,3,2,2026
+Susan Collins,David Chivo,Mercer Island,WA,98040,Compass Housing Alliance,Director Of Advancement,25000,1,2026-06-02,2026-06-02,zip,false,92500,6,5,2024/2026
+Susan Collins,David Gerstenfeld,Upper Saddle River,NJ,07458,Retired,Retired,25000,1,2026-06-17,2026-06-17,zip,false,25000,1,1,2026
+Susan Collins,David Krischer,Atlanta,GA,30358,Retired,Retired,25000,1,2026-05-11,2026-05-11,zip,false,400000,8,8,2024/2026
+Susan Collins,David Levitt,Deerfield,IL,60015,Hinshaw Culbertson,Attorney,25000,1,2026-06-08,2026-06-08,zip,false,60000,3,3,2024/2026
+Susan Collins,David Orenstein,Pacific Palisades,CA,90272,Palisades Capital Partners,Principal,25000,1,2025-09-20,2025-09-20,zip,false,375000,7,7,2026
+Susan Collins,Deanna Jacobson,Glenview,IL,60026,Self,Manager,25000,1,2026-06-28,2026-06-28,zip,false,25000,1,1,2026
+Susan Collins,Dennis Goldman,Lake Forest,IL,60045,Retired,Retired,25000,1,2026-06-09,2026-06-09,zip,false,25000,1,1,2026
+Susan Collins,Donald Jones,Los Angeles,CA,90024,Retired,Retired,25000,1,2026-06-30,2026-06-30,zip,false,925000,14,11,2024/2026
+Susan Collins,Ethan Starr,Washington,DC,20008,Bizmaven LLC,Owner,25000,1,2026-06-28,2026-06-28,zip,false,525000,14,14,2024/2026
+Susan Collins,Fanny Hanono,Miami,FL,33179,Gfx Inc,President,25000,1,2026-06-02,2026-06-02,zip,false,165000,4,4,2026
+Susan Collins,Fred Soussa,Aventura,FL,33160,Retired,Retired,25000,1,2026-06-09,2026-06-09,zip,false,110000,7,4,2024/2026
+Susan Collins,Gary Lawson,Dallas,TX,75254,Lawson Attorneys Pllc,Attorney,25000,1,2026-06-21,2026-06-21,zip,true,209900,28,28,2026
+Susan Collins,Gary Shev,Los Angeles,CA,90066,All Point,Finance,25000,1,2026-06-09,2026-06-09,zip,true,35000,3,3,2026
+Susan Collins,Gilbert Mayor,Morristown,NJ,07960,Retired,Retired,25000,1,2026-06-09,2026-06-09,zip,false,1257500,25,18,2024/2026
+Susan Collins,Gregg Stevens,Plano,TX,75093,Hinshaw & Culbertson,Attorney,25000,1,2026-06-30,2026-06-30,zip,true,225000,3,3,2026
+Susan Collins,Harvey M. Tettlebaum,California,MO,65018,Husch Blackwell,Attorney,25000,1,2025-12-31,2025-12-31,state,false,560000,13,11,2024/2026
+Susan Collins,Henry Cohen,Villa Park,CA,92861,Retired,Retired,25000,1,2026-06-24,2026-06-24,zip,false,1611000,13,9,2024/2026
+Susan Collins,Herb Donner,Manhasset,NY,11030,Adi Management Inc.,Real Estate Management,25000,1,2026-06-29,2026-06-29,zip,false,600000,8,7,2024/2026
+Susan Collins,Herbert Levine,Brookline,MA,02445,Northeastern University,Professor,25000,1,2026-06-09,2026-06-09,zip,true,45000,3,3,2024/2026
+Susan Collins,Holly Lusk,Harpswell,ME,04079,Baxter Law LLC,Attorney,25000,1,2026-04-10,2026-04-10,zip,false,200000,1,1,2026
+Susan Collins,Janis Kummer,Los Angeles,CA,90049,Retired,Retired,25000,1,2026-05-18,2026-05-18,zip,false,275000,2,1,2026
+Susan Collins,Jay Koppelman,Pleasant Hill,CA,94523,Retired,Retired,25000,1,2026-04-29,2026-04-29,zip,false,450000,18,17,2024/2026
+Susan Collins,Jay Massirman,Miami,FL,33133,Rivergate Eden Basis,Real Estate,25000,1,2026-06-09,2026-06-09,zip,false,1200000,20,18,2024/2026
+Susan Collins,Jay More,Clark,NJ,07066,Retired,Retired,25000,1,2026-06-17,2026-06-17,zip,false,205000,2,1,2026
+Susan Collins,Jay Nadel,Demarest,NJ,07627,Self Employed,Consultant,25000,1,2026-06-09,2026-06-09,zip,false,175000,5,4,2024/2026
+Susan Collins,Jay Schulman,Encino,CA,91436,Retired,Retired,25000,1,2025-09-30,2025-09-30,zip,false,4500000,37,31,2024/2026
+Susan Collins,Jeffrey Liber,San Diego,CA,92130,Retired,Retired,25000,1,2026-06-24,2026-06-24,zip,false,600000,13,11,2024/2026
+Susan Collins,Joel Jacobson,Los Angeles,CA,90035,Gildage,Tech Exec,25000,1,2025-09-20,2025-09-20,zip,true,200000,5,5,2024/2026
+Susan Collins,John Landa,Houston,TX,77024,Lapin Landa Nolan LLP,Attorney,25000,1,2026-06-17,2026-06-17,zip,false,205000,8,6,2024/2026
+Susan Collins,Jon Weinbach,Los Angeles,CA,90024,Skydance Sports,President,25000,1,2025-09-20,2025-09-20,zip,true,150000,3,3,2024/2026
+Susan Collins,Jonathan Hornblass,Atlantic Beach,NY,11509,Royal News,Management,25000,1,2026-06-10,2026-06-10,state,false,1025000,20,18,2024
+Susan Collins,Joseph Haym,Wellington,FL,33414,Retired,Retired,25000,1,2026-06-09,2026-06-09,zip,false,25000,1,1,2026
+Susan Collins,Judith Udell,Westport,CT,06880,Retired,Retired,25000,1,2026-06-16,2026-06-16,zip,false,25000,1,1,2026
+Susan Collins,Julie Paris,Pittsburgh,PA,15217,Stand With Us,Regional Director,25000,1,2026-06-28,2026-06-28,zip,false,3600000,23,14,2024/2026
+Susan Collins,Karen Segall,Pikesville,MD,21208,Retired,Retired,25000,1,2026-06-17,2026-06-17,zip,false,1863600,14,13,2024/2026
+Susan Collins,Katherine Gore,Scarborough,ME,04074,Charter Communcations,Government Affairs,25000,1,2026-06-09,2026-06-09,zip,false,25000,1,1,2026
+Susan Collins,Keith J Roland,Slingerlands,NY,12159,Roland Law Firm,Attorney,25000,1,2026-06-08,2026-06-08,zip,true,725000,6,4,2024/2026
+Susan Collins,Kevin Wexler,Carlsbad,CA,92011,Reliant Parking,Ceo,25000,1,2025-11-10,2025-11-10,zip,true,275000,9,8,2026
+Susan Collins,Kristin Fletcher,Orrs Island,ME,04066,Retired,Retired,25000,1,2026-06-01,2026-06-01,zip,false,200000,1,1,2026
+Susan Collins,Lance Kawesch,Newton Center,MA,02459,"Kawesch Law Group, LLC",Corporate Attorney,25000,1,2026-06-16,2026-06-16,zip,true,210300,26,17,2024/2026
+Susan Collins,Larry Shatoff,Lakewood Ranch,FL,34202,Retired,Retired,25000,1,2026-06-09,2026-06-09,zip,false,155000,7,4,2024/2026
+Susan Collins,Laurie Gliklich,Weston,MA,02493,Retired,Retired,25000,1,2025-06-01,2025-06-01,zip,false,175000,4,4,2024/2026
+Susan Collins,Lawrence Friedman,Skokie,IL,60076,Self,Attorney,25000,1,2025-06-01,2025-06-01,zip,false,2010000,70,52,2024/2026
+Susan Collins,Lawrence Lerman,Silver Spring,MD,20902,Retired,Retired,25000,1,2026-05-18,2026-05-18,zip,false,110000,8,4,2024/2026
+Susan Collins,Leslie Loew,West Hartford,CT,06117,Retired,Retired,25000,1,2026-06-09,2026-06-09,zip,false,75000,2,2,2026
+Susan Collins,Lewis Weinger,Dallas,TX,75230,Bain & Company,Consultant,25000,1,2026-06-09,2026-06-09,zip,true,25000,1,1,2026
+Susan Collins,Linda Fife,Valley Village,CA,91607,Retired,Retired,25000,1,2026-06-24,2026-06-24,zip,false,25000,1,1,2026
+Susan Collins,Lisa Henry,Fort Lauderdale,FL,33306,Retired,Retired,25000,1,2026-05-19,2026-05-19,zip,false,900000,36,36,2026
+Susan Collins,Marc Lofman,Northbrook,IL,60062,State Street Capital,Management,25000,1,2026-06-24,2026-06-24,zip,true,486000,16,14,2024/2026
+Susan Collins,Marc Pomerantz,Pittsburgh,PA,15217,Retired,Retired,25000,1,2026-06-29,2026-06-29,zip,false,480000,9,6,2024/2026
+Susan Collins,Marshall Gordon,Memphis,TN,38168,Self,Real Estate,25000,1,2026-05-20,2026-05-20,zip,false,50000,2,2,2026
+Susan Collins,Marvin Hershenson,Hollywood,FL,33019,Retired,Retired,25000,1,2026-06-09,2026-06-09,zip,false,45500,182,182,2026
+Susan Collins,Mary Holley,Arab,AL,35016,Retired,Retired,25000,1,2026-06-09,2026-06-09,zip,false,100000,6,1,2026
+Susan Collins,Maurice Varon,Pittsford,NY,14534,University Rochester Health,Physician,25000,1,2026-05-18,2026-05-18,zip,false,250000,5,3,2024/2026
+Susan Collins,Michael Aronsohn,Boca Raton,FL,33496,Self,Physician,25000,1,2026-06-09,2026-06-09,zip,false,25000,1,1,2026
+Susan Collins,Michael Lieber,Newbury Park,CA,91320,Retired,Retired,25000,1,2026-06-17,2026-06-17,zip,false,250000,1,0,2026
+Susan Collins,Michael Waterman,Encino,CA,91316,Pegasus Investments,Attorney,25000,1,2026-06-30,2026-06-30,zip,true,1160000,17,16,2024/2026
+Susan Collins,Michel Cohen,Miami,FL,33179,Osmium LLC,Director,25000,1,2026-06-17,2026-06-17,zip,false,490000,24,24,2024/2026
+Susan Collins,Miriam Scharf,Prairie Village,KS,66208,Retired,Retired,25000,1,2026-06-28,2026-06-28,zip,false,500000,13,10,2024/2026
+Susan Collins,Mitchell Keiter,Beverly Hills,CA,90212,Keiter Appellate Law,Attorney,25000,1,2026-06-16,2026-06-16,zip,true,25000,1,1,2026
+Susan Collins,Nancy Lipoff,Miami,FL,33133,Retired,Retired,25000,1,2026-06-09,2026-06-09,zip,false,25000,1,1,2026
+Susan Collins,Neil Kupferman,Hewlett,NY,11557,Self,Attorney,25000,1,2025-11-10,2025-11-10,zip,false,250000,10,10,2026
+Susan Collins,Nir Maoz,Los Angeles,CA,90067,Ktbs Law LLP,Attorney,25000,1,2025-09-20,2025-09-20,zip,true,800000,18,18,2024/2026
+Susan Collins,Paul Sterbcow,New Orleans,LA,70118,Self,Attorney,25000,1,2025-09-30,2025-09-30,zip,false,370000,14,10,2026
+Susan Collins,Peter Rosenberg,Penn Valley,PA,19072,Stonehage Fleming,Attorney,25000,1,2025-12-03,2025-12-03,zip,true,800000,21,19,2024/2026
+Susan Collins,Phillip Wintner,Los Angeles,CA,90035,"Winwin Enterprises, LLC",Real Estate,25000,1,2025-09-20,2025-09-20,zip,true,475000,7,6,2024/2026
+Susan Collins,Randolph Tritell,Bethesda,MD,20816,Retired,Retired,25000,1,2026-06-30,2026-06-30,zip,false,100000,4,3,2024/2026
+Susan Collins,Raymond Garfield,Dallas,TX,75254,Garfield Public,Real Estate,25000,1,2026-06-09,2026-06-09,zip,false,50000,2,2,2024/2026
+Susan Collins,Richard Shamos,Los Angeles,CA,90034,Kirkland & Ellis,Attorney,25000,1,2025-09-20,2025-09-20,zip,true,225000,5,4,2024/2026
+Susan Collins,Robert Bandes,Oldsmar,FL,34677,Bandes Construction,Contractor,25000,1,2026-06-09,2026-06-09,zip,true,50000,2,1,2026
+Susan Collins,Robert Grenitz,Atlanta,GA,30327,Retired,Retired,25000,1,2026-06-17,2026-06-17,zip,false,435000,4,3,2026
+Susan Collins,Robyn Eagle,Palm Beach Gardens,FL,33410,Retired,Retired,25000,1,2025-11-10,2025-11-10,zip,false,75000,3,2,2024/2026
+Susan Collins,Roger Becker,Portland,OR,97209,Retired,Retired,25000,1,2026-04-29,2026-04-29,zip,false,25000,1,1,2026
+Susan Collins,Ronnie Gul,Los Angeles,CA,90034,Morgan Stanley,Financial Advisor,25000,1,2025-09-20,2025-09-20,zip,false,375000,6,5,2024/2026
+Susan Collins,Sandra Elias,Providence,RI,02903,Retired,Retired,25000,1,2026-06-17,2026-06-17,zip,false,180000,5,3,2024/2026
+Susan Collins,Sandy Seiger,Solon,OH,44139,Retired,Retired,25000,1,2026-06-24,2026-06-24,zip,false,306000,10,8,2024/2026
+Susan Collins,Shlomi Ronen,Los Angeles,CA,90034,Dekel Capital,Real Estate Finance,25000,1,2025-09-20,2025-09-20,zip,true,575000,10,8,2024/2026
+Susan Collins,Steve Axler,Raleigh,NC,27615,Self Employed,Accountant,25000,1,2026-05-08,2026-05-08,zip,false,85000,2,1,2024/2026
+Susan Collins,Susan Shabsels,Brooklyn,NY,11215,Retired,Retired,25000,1,2026-05-18,2026-05-18,zip,false,90000,5,3,2024/2026
+Susan Collins,Terry Stagman,Chicago,IL,60611,Self-Employed,Psychologist,25000,1,2026-06-09,2026-06-09,zip,false,315000,10,5,2024/2026
+Susan Collins,Yehuda Blinder,Englewood,NJ,07631,Aijm Associates,Finance,25000,1,2026-05-07,2026-05-07,zip,false,178000,5,5,2024/2026
+Susan Collins,Steven Wittenberg,Cardiff,CA,92007,Retired,Retired,21200,1,2026-02-13,2026-02-13,zip,false,880000,4,0,2024/2026
+Susan Collins,Alan Levine,Sarasota,FL,34231,Retired,Retired,21000,8,2026-01-21,2026-06-21,zip,false,65000,7,5,2024/2026
+Susan Collins,Alan Futerfas,New York,NY,10017,The Law Offices Of Alan S. Futerfas,Attorney,20800,2,2026-06-19,2026-06-24,zip,false,100000,3,0,2026
+Susan Collins,Jon Jacobs,Brooklyn,NY,11230,Retired,Retired,20800,1,2026-06-24,2026-06-24,zip,false,5000,1,1,2024
+Susan Collins,Mark Haloossim,Beverly Hills,CA,90210,Contempo,President,20800,1,2026-06-11,2026-06-11,zip,true,565000,12,10,2024/2026
+Susan Collins,Steven Ryder,Westport,CT,06880,Retired,Retired,20800,2,2025-10-15,2026-06-02,zip,false,10000,1,1,2026
+Susan Collins,Richard Thalheimer,San Rafael,CA,94901,Retired,Retired,20000,2,2026-05-20,2026-05-20,zip,false,525000,9,8,2024
+Susan Collins,Robert Karp,Tampa,FL,33613,Retired,Retired,20000,1,2026-06-08,2026-06-08,zip,false,80000,6,4,2024/2026
+Susan Collins,William Weiss,Englewood,NJ,07631,Paperclip,Executive,20000,1,2026-05-08,2026-05-08,zip,false,275000,13,10,2024/2026
+Susan Collins,Adam Hoeflich,Glencoe,IL,60022,"Paul, Weiss",Lawyer,18000,1,2026-05-14,2026-05-14,state,false,50000,1,1,2024
+Susan Collins,Irl Solomon,Saint Louis,MO,63146,Retired,Retired,18000,3,2025-11-27,2026-03-01,zip,false,5000,1,1,2024
+Susan Collins,Mark Travis,Boise,ID,83706,Retired,Retired,18000,1,2026-05-20,2026-05-20,zip,false,127800,10,4,2024/2026
+Susan Collins,Ralph Rauch,Lafayette,CA,94549,N/A,Retired,18000,1,2026-05-20,2026-05-20,zip,false,233000,12,5,2024/2026
+Susan Collins,Eric Pillischer,Commack,NY,11725,Rubin  Rothman,Attorney,15500,8,2025-11-25,2026-06-24,zip,false,7500,3,3,2024
+Susan Collins,Murray Ufberg,Upper Gwynedd,PA,19446,Retired,Retired,15000,1,2026-06-02,2026-06-02,zip,false,110000,6,5,2024/2026
+Susan Collins,Stanley Slater,New York,NY,10023,Retired,Retired,15000,1,2026-01-30,2026-01-30,zip,false,249000,39,22,2024/2026
+Susan Collins,Janice Berger,Brentwood,TN,37027,Retired,Retired,14500,9,2026-02-26,2026-06-02,zip,false,2500,1,1,2024
+Susan Collins,Martin Rich,Longboat Key,FL,34228,Retired,Retired,12500,5,2026-02-25,2026-06-25,zip,false,11000,3,2,2024
+Susan Collins,Richard Dorenstreich,Aliso Viejo,CA,92656,Retired,Retired,11400,2,2026-06-07,2026-06-07,zip,false,60000,2,1,2024/2026
+Susan Collins,Leslie Elder,Portland,OR,97239,Retired,Retired,11000,4,2025-11-11,2025-12-09,zip,false,7200,2,2,2024
+Susan Collins,Earl Foote,College Park,MD,20740,Retired,Retired,10400,1,2026-06-04,2026-06-04,zip,false,75000,2,1,2026
+Susan Collins,Robert Silver,Framingham,MA,01701,Retired,Retired,10400,1,2026-06-10,2026-06-10,zip,false,30000,3,2,2024
+Susan Collins,Michael Savin,Bloomfield Hills,MI,48302,Precisionir,Physician,10000,1,2026-06-24,2026-06-24,zip,false,170000,6,3,2024/2026
+Susan Collins,Noam Neusner,South Orange,NJ,07079,30 Point,Partner,10000,4,2026-03-04,2026-06-04,zip,true,50300,13,9,2026
+Susan Collins,Stephen L. Kamzan,Tucson,AZ,85749,Retired,Retired,10000,1,2026-05-19,2026-05-19,zip,false,3600,1,1,2024
+Susan Collins,Brett Studner,Delray Beach,FL,33483,Odell Studner Group,Insurance,9900,1,2026-06-17,2026-06-17,zip,false,7200,2,1,2024
+Susan Collins,Karen Steinkruger,Tallula,IL,62688,Retired,Retired,6200,13,2026-04-10,2026-06-30,zip,false,600,2,2,2024
+Susan Collins,David Levine,New York,NY,10028,Retired,Retired,6000,2,2025-06-25,2026-06-12,state,false,3093300,17,13,2024/2026
+Susan Collins,Abraham Tesser,Athens,GA,30606,Retired,Retired,5000,1,2026-05-07,2026-05-07,zip,false,20000,3,2,2026
+Susan Collins,Jacobo Goldberg,Houston,TX,77027,Retired,Retired,5000,2,2026-06-29,2026-06-29,zip,false,2500,1,1,2024
+Susan Collins,Pamela Schneider,Norwalk,CT,03851,Emg Mediainc,Sales,5000,1,2026-05-11,2026-05-11,state,false,12500,2,2,2026

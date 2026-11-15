@@ -1,0 +1,93 @@
+{
+  "generatedAt": "2026-11-13T22:38:40.383Z",
+  "dataCurrentThrough": {
+    "independentExpenditures": "2026-10-20",
+    "campaignFinances": "2026-10-14",
+    "campaignFinancesByCandidate": {
+      "hern": "2026-10-14",
+      "thomas": "2026-10-14"
+    },
+    "superPacDonors": {
+      "C00875039": "2026-10-14",
+      "C00448696": "2026-10-14",
+      "C00524181": "2026-10-14"
+    },
+    "aipacEarmarks": "2026-10-14",
+    "donorNetwork": {
+      "hern": "2026-06-30",
+      "thomas": "2026-10-13",
+      "network": "2026-10-14"
+    },
+    "filingsProcessed": "2026-11-13"
+  },
+  "summary": {
+    "hern": {
+      "totalReceiptsCents": 1086223327,
+      "transfersFromAuthCents": 314387901,
+      "totalDisbursementsCents": 805024659,
+      "cashOnHandCents": 281198668,
+      "candidateContribCents": 0,
+      "candidateLoansCents": 505000000,
+      "totalIndividualCents": 150148781,
+      "otherCommitteeContribCents": 102760000,
+      "coverageEnd": "2026-10-14",
+      "individualRefundsCents": 5554534,
+      "outsideSupportingCents": 21978896,
+      "outsideOpposingCents": 0,
+      "outsideBenefitingCents": 21978896
+    },
+    "thomas": {
+      "totalReceiptsCents": 11595398,
+      "transfersFromAuthCents": 0,
+      "totalDisbursementsCents": 9278873,
+      "cashOnHandCents": 2410159,
+      "candidateContribCents": 0,
+      "candidateLoansCents": 0,
+      "totalIndividualCents": 11521485,
+      "otherCommitteeContribCents": 0,
+      "coverageEnd": "2026-10-14",
+      "individualRefundsCents": 1059,
+      "outsideSupportingCents": 0,
+      "outsideOpposingCents": 0,
+      "outsideBenefitingCents": 0
+    }
+  },
+  "outsideByCommittee": [
+    {
+      "committeeId": "C00875039",
+      "committee": "High Plains PAC",
+      "fecType": "O",
+      "forHern": 16500000,
+      "againstHern": 0,
+      "forThomas": 0,
+      "againstThomas": 0,
+      "total": 16500000,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610079908556341",
+      "latestDate": "2026-10-05"
+    },
+    {
+      "committeeId": "C00448696",
+      "committee": "Senate Conservatives Fund",
+      "fecType": "W",
+      "forHern": 4470146,
+      "againstHern": 0,
+      "forThomas": 0,
+      "againstThomas": 0,
+      "total": 4470146,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219928486723",
+      "latestDate": "2026-10-20"
+    },
+    {
+      "committeeId": "C00524181",
+      "committee": "Senate Conservatives Action",
+      "fecType": "O",
+      "forHern": 1008750,
+      "againstHern": 0,
+      "forThomas": 0,
+      "againstThomas": 0,
+      "total": 1008750,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159908873091",
+      "latestDate": "2026-10-15"
+    }
+  ]
+}

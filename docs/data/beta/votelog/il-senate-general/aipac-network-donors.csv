@@ -1,0 +1,294 @@
+candidate,donor,city,state,zip5,employer,occupation,direct_total_cents,contributions,first_date,last_date,match_tier,same_employer_string,aipac_pac_total_cents,aipac_pac_rows,aipac_pac_recipient_committees,aipac_pac_cycles
+Don Tracy,Ronald Gidwitz,Jupiter Island,FL,33455,Riverbend Industries,Executive Chairman,699900,3,2025-11-05,2025-11-25,zip,true,700000,1,1,2026
+Don Tracy,Richard Porter,Northfield,IL,60093,Retired,Retired,600000,2,2025-08-30,2026-06-22,zip,false,1050000,11,9,2024/2026
+Don Tracy,Ryan Brown,Quincy,IL,62301,Grsm,Attorney,52000,1,2025-12-19,2025-12-19,state,false,480000,10,7,2024/2026
+Juliana Stratton,Adam Hoeflich,Glencoe,IL,60022,"Bartlit Beck, LLP",Attorney,700000,2,2025-06-11,2025-06-11,state,false,50000,1,1,2024
+Juliana Stratton,Brian Rice,Bannockburn,IL,60015,Ever.Ag,Strategic Advisor,700000,2,2025-04-24,2025-04-24,zip,true,400000,4,4,2026
+Juliana Stratton,Lee Rosenberg,Chicago,IL,60607,Rosenberg Advisory,Advisor,700000,2,2025-04-25,2025-04-25,zip,true,700000,7,7,2024/2026
+Juliana Stratton,Meredith Bluhm Wolf,Chicago,IL,60614,Lamb Partners,Realtor,700000,2,2025-11-13,2025-11-13,zip,true,660000,1,1,2024
+Juliana Stratton,Todd A. Stern,Skokie,IL,60076,Enfield Capital,Ceo,700000,2,2025-12-22,2025-12-22,zip,true,500000,2,2,2024/2026
+Juliana Stratton,Mark Gerstein,Highland Park,IL,60035,Not Employed,Retired,450000,2,2025-08-11,2025-11-30,zip,false,9170000,48,34,2024/2026
+Juliana Stratton,Laurence Smolley,Hollywood,FL,33021,Cleveland Clinic Florida,Physician,400000,3,2025-09-11,2025-10-06,zip,true,400000,4,4,2026
+Juliana Stratton,Aaron Goldman,Atlanta,GA,30306,Perennial Properties,President,350000,1,2025-11-04,2025-11-04,zip,true,5490000,24,17,2024/2026
+Juliana Stratton,Abraham Stern,Skokie,IL,60076,Much Shelist,Attorney,350000,1,2025-12-08,2025-12-08,zip,true,572000,6,6,2024/2026
+Juliana Stratton,Alexis Bednyak,Glencoe,IL,60022,Alexis Bednyak Design,Business Owner,350000,1,2025-08-13,2025-08-13,zip,true,8543300,36,21,2024/2026
+Juliana Stratton,Andrew Hochberg,Skokie,IL,60077,"Next Realty, LLC",Ceo,350000,1,2025-07-03,2025-07-03,zip,false,1475000,20,18,2024/2026
+Juliana Stratton,Bruce Levenson,Potomac,MD,20854,Revolution Cooking,Chairman,350000,1,2026-01-15,2026-01-15,zip,true,350000,1,1,2026
+Juliana Stratton,Carey Cooper,Highland Park,IL,60035,Cooper Management,Chairman,350000,2,2025-08-11,2025-10-15,zip,true,2930000,35,28,2024/2026
+Juliana Stratton,Daniel Halpern,Atlanta,GA,30305,"Arp, LLC",Managing Member,350000,1,2026-03-15,2026-03-15,zip,false,100000,1,1,2026
+Juliana Stratton,David Brown,Chicago,IL,60606,"Much Shelist, PC",Attorney,350000,2,2025-07-03,2025-08-09,zip,false,3435000,22,17,2024/2026
+Juliana Stratton,David Golder,Winnetka,IL,60093,Self Employed,Financial Manager,350000,2,2025-05-28,2025-09-14,zip,false,325000,10,10,2024
+Juliana Stratton,Gary Marks,Fort Lauderdale,FL,33301,Marks And Fleischer,Attorney,350000,1,2025-10-13,2025-10-13,zip,true,2250000,17,15,2024/2026
+Juliana Stratton,Greg Carlin,Chicago,IL,60614,"G2 Gaming, LLC",Executive,350000,1,2025-08-04,2025-08-04,zip,false,8279900,28,24,2024/2026
+Juliana Stratton,Hilary Kapner,Bethesda,MD,20817,Hsk Consulting,Consultant,350000,1,2025-11-10,2025-11-10,zip,true,15190000,56,40,2024/2026
+Juliana Stratton,Isaac Frank,Atlanta,GA,30327,Self Employed,Realtor,350000,1,2025-11-03,2025-11-03,zip,false,6230000,43,32,2024/2026
+Juliana Stratton,Jason Peltz,Glencoe,IL,60022,"Bartlit Beck, LLP",Attorney,350000,2,2025-08-07,2026-03-05,zip,false,7632777,60,47,2024/2026
+Juliana Stratton,Joseph Weinberg,Baltimore,MD,21202,Cordish Companies,Realtor,350000,1,2025-10-31,2025-10-31,zip,true,21950000,35,34,2026
+Juliana Stratton,Lisa Kohn,Encino,CA,91436,Not Employed,Not Employed,350000,1,2025-12-14,2025-12-14,zip,false,2540000,7,6,2024/2026
+Juliana Stratton,Michael Merlin,Sandy Springs,GA,30328,Rockefeller Capital Management,Director,350000,1,2025-11-15,2025-11-15,zip,true,1680000,5,5,2024/2026
+Juliana Stratton,Norman Radow,Atlanta,GA,30326,Radco Industries,Ceo,350000,1,2025-11-04,2025-11-04,zip,false,13050000,41,32,2024/2026
+Juliana Stratton,Rebekah Shalit,Chicago,IL,60610,Not Employed,Not Employed,350000,1,2025-09-03,2025-09-03,zip,false,400000,4,3,2026
+Juliana Stratton,Robert J. Brown,San Francisco,CA,94109,"Zai Lab, LLC (Us)",Physician,350000,2,2025-05-23,2025-09-16,state,false,25000,1,1,2024
+Juliana Stratton,Robert Wiener,Purchase,NY,10577,Maxx Properties,Chairman,350000,1,2026-01-20,2026-01-20,zip,true,3500000,18,18,2024/2026
+Juliana Stratton,Sara Star,Chicago,IL,60614,Not Employed,Not Employed,350000,2,2025-05-21,2025-08-13,zip,false,330000,1,1,2024
+Juliana Stratton,Victor Kohn,Encino,CA,91436,Not Employed,Not Employed,350000,1,2025-12-14,2025-12-14,zip,false,39930000,89,67,2024/2026
+Juliana Stratton,Gene Sigalov,Davie,FL,33325,Upfirst,Business Owner,300000,1,2025-09-18,2025-09-18,zip,false,210800,4,4,2026
+Juliana Stratton,Jaime Peisach,Miami,FL,33122,Passion Growers,Manager,300000,1,2025-10-13,2025-10-13,zip,true,12615000,37,31,2024/2026
+Juliana Stratton,Ophira Cukierman,Scarsdale,NY,10583,"Greenacres Management, LLC",Entrepreneur,300000,1,2026-01-06,2026-01-06,zip,true,1200000,10,10,2026
+Juliana Stratton,Paul Rosenberg,Fort Lauderdale,FL,33312,Self Employed,Attorney,300000,1,2025-10-13,2025-10-13,zip,false,2180000,14,12,2024/2026
+Juliana Stratton,Robert Cohen,Larchmont,NY,10538,"Ra Cohen & Associates, Inc.",Real Estate,300000,1,2025-07-03,2025-07-03,zip,true,14650000,39,32,2024/2026
+Juliana Stratton,Ronald Bakalarz,Aventura,FL,33180,Self Employed,Investor,300000,1,2025-10-13,2025-10-13,zip,false,8724900,40,32,2024/2026
+Juliana Stratton,Alan Levow,Atlanta,GA,30326,"Crowne Partners, Inc.",Realtor,250000,1,2025-11-03,2025-11-03,zip,false,10410000,54,37,2024/2026
+Juliana Stratton,Gail Press,Plantation,FL,33324,Not Employed,Retired,250000,1,2025-09-09,2025-09-09,zip,false,750000,7,6,2024/2026
+Juliana Stratton,Howard Feinsand,Atlanta,GA,30309,Not Employed,Retired,250000,1,2025-11-06,2025-11-06,zip,false,350000,2,2,2024/2026
+Juliana Stratton,Lyons Heyman,Marietta,GA,30067,Not Employed,Retired,250000,1,2025-11-14,2025-11-14,zip,false,1400000,11,9,2024/2026
+Juliana Stratton,Matt Bayer,Chicago,IL,60614,"Mj Holding Company, LLC",Ceo,250000,1,2025-08-04,2025-08-04,zip,false,4000000,15,14,2026
+Juliana Stratton,Avery Kastin,Atlanta,GA,30308,"Service Marketing, Inc.",Broker,200000,1,2025-11-03,2025-11-03,zip,true,500000,5,4,2024/2026
+Juliana Stratton,Betsy Brint,Highland Park,IL,60035,Not Employed,Not Employed,200000,2,2025-12-06,2026-03-03,zip,false,100000,1,1,2024
+Juliana Stratton,Claudio Dombey,Hallandale Beach,FL,33009,"Accesso Partners, LLC",Principal,200000,1,2025-10-14,2025-10-14,zip,false,2125000,18,15,2024/2026
+Juliana Stratton,David Blumenthal,New York,NY,10024,Lion Brand,Ceo,200000,1,2026-01-21,2026-01-21,zip,true,3230000,16,15,2024/2026
+Juliana Stratton,David Kahane,Scarsdale,NY,10583,Invus Opportunities,Investor,200000,1,2026-01-20,2026-01-20,zip,false,700000,3,3,2026
+Juliana Stratton,David Keil,Atlanta,GA,30305,Resurgens,Executive,200000,1,2025-11-06,2025-11-06,zip,true,350000,2,2,2026
+Juliana Stratton,David Rosen,Scarsdale,NY,10583,Rubric Capital,Analyst,200000,1,2025-12-11,2025-12-11,zip,true,5960000,24,20,2024/2026
+Juliana Stratton,Dennis Monasebian,Armonk,NY,10504,Self Employed,Realtor,200000,1,2026-01-18,2026-01-18,zip,false,2066000,14,12,2024/2026
+Juliana Stratton,Donald Liss,Bronx,NY,10463,Physical Medicine And Rehabilitation,Physician,200000,1,2025-12-10,2025-12-10,zip,false,3700000,20,19,2024/2026
+Juliana Stratton,Emily Hoffman,Chicago,IL,60657,"Learsi & Co, Inc.",Accountant,200000,1,2025-08-08,2025-08-08,zip,false,430000,4,2,2026
+Juliana Stratton,Howard Tenenbaum,Hidden Hills,CA,91302,Keyes Motors,Business Owner,200000,1,2026-01-18,2026-01-18,zip,true,2200000,21,20,2024/2026
+Juliana Stratton,Isaac Mendal,Aventura,FL,33180,Select Pet Products,President,200000,1,2025-10-07,2025-10-07,zip,false,300000,2,2,2024/2026
+Juliana Stratton,Jamie Minkove,New Rochelle,NY,10804,Cpc Consulting,Finance,200000,1,2026-01-13,2026-01-13,zip,false,1480000,9,8,2024/2026
+Juliana Stratton,Jason Saltzman,Marietta,GA,30068,Montlick Injury Attorneys,Attorney,200000,1,2025-11-03,2025-11-03,zip,true,600000,3,3,2026
+Juliana Stratton,Jay Schulman,Encino,CA,91436,Not Employed,Retired,200000,1,2025-12-23,2025-12-23,zip,false,4500000,37,31,2024/2026
+Juliana Stratton,Jillian Copeland,Rockville,MD,20852,Not Employed,Retired,200000,2,2025-11-06,2025-12-02,zip,false,1950000,14,11,2024/2026
+Juliana Stratton,Joel Eidelstein,North Miami Beach,FL,33160,New Wave Loans,Executive,200000,1,2025-09-30,2025-09-30,zip,true,3955000,23,18,2024/2026
+Juliana Stratton,Lee I. Miller,Chicago,IL,60611,Abundant Venture Partners,Partner,200000,2,2025-07-15,2026-02-26,zip,true,7240000,43,32,2024/2026
+Juliana Stratton,Lisa Lainer-Fagan,Encino,CA,91316,Selective Real Estate Investments,Real Estate,200000,1,2025-12-18,2025-12-18,zip,true,1700000,17,17,2024/2026
+Juliana Stratton,Marc Gary,Atlanta,GA,30326,Not Employed,Retired,200000,1,2025-11-06,2025-11-06,zip,false,550000,3,3,2026
+Juliana Stratton,Noah Breakstone,Aventura,FL,33160,Bti Partners,Realtor,200000,1,2025-10-01,2025-10-01,zip,true,7890000,34,28,2024/2026
+Juliana Stratton,Orete Harkavy,Deerfield,IL,60015,Not Employed,Not Employed,200000,1,2025-08-11,2025-08-11,zip,false,925000,14,12,2026
+Juliana Stratton,Pam Szokol,Glencoe,IL,60022,Not Employed,Retired,200000,1,2025-09-04,2025-09-04,zip,false,200000,2,2,2026
+Juliana Stratton,Paul Steinfeld,Atlanta,GA,30309,Not Employed,Retired,200000,1,2025-12-03,2025-12-03,zip,false,600000,3,3,2026
+Juliana Stratton,Philip Solomon,Golden Beach,FL,33160,Way 2 Much Entertainment,Ceo,200000,1,2025-09-30,2025-09-30,zip,false,3830000,16,13,2024/2026
+Juliana Stratton,Robert Stillman,Potomac,MD,20854,Not Employed,Retired,200000,1,2025-11-17,2025-11-17,zip,false,2630000,35,27,2024/2026
+Juliana Stratton,Russell Mannis,Scarsdale,NY,10583,Not Employed,Not Employed,200000,1,2026-01-21,2026-01-21,zip,false,1650000,9,9,2024/2026
+Juliana Stratton,Steven Becker,Boca Raton,FL,33496,Southern Glazers W & S,Executive,200000,1,2025-10-13,2025-10-13,zip,true,2740000,11,9,2024/2026
+Juliana Stratton,Steven Fredman,Scarsdale,NY,10583,Not Employed,Retired,200000,1,2026-01-14,2026-01-14,zip,false,1725000,15,13,2024/2026
+Juliana Stratton,Stuart Meyers,Dunwoody,GA,30338,Not Employed,Retired,200000,1,2025-11-05,2025-11-05,zip,false,4275000,31,24,2024/2026
+Juliana Stratton,Zipora Arison,Pompano Beach,FL,33062,Self Employed,Physician,200000,2,2025-09-30,2025-10-08,zip,false,7690000,56,41,2024/2026
+Juliana Stratton,Gila Bronner,Highland Park,IL,60035,"Bronner Group, LLC",Consultant,180000,1,2025-07-03,2025-07-03,zip,true,1560000,26,25,2024/2026
+Juliana Stratton,Richard Levy,Wilmette,IL,60091,Victory Park Capital,Ceo,180000,1,2025-08-04,2025-08-04,zip,false,280000,2,2,2026
+Juliana Stratton,Bob Kerrey,New York,NY,10003,Allen And Company,Banker,175000,1,2026-06-25,2026-06-25,zip,true,330000,1,1,2024
+Juliana Stratton,Alan Gottlieb,Atlanta,GA,30327,Laureate Medical Group,Physician,150000,1,2025-12-03,2025-12-03,zip,false,500000,1,0,2024
+Juliana Stratton,Alli Medof,Roswell,GA,30075,Not Employed,Not Employed,150000,1,2025-11-05,2025-11-05,zip,false,1100000,7,7,2026
+Juliana Stratton,Elizabeta Shacket,Coral Springs,FL,33065,Not Employed,Retired,150000,1,2025-09-04,2025-09-04,zip,false,2530000,21,14,2024/2026
+Juliana Stratton,Eric Wilensky,Atlanta,GA,30327,Nelson Mullins,Attorney,150000,1,2025-11-05,2025-11-05,zip,true,1600000,10,8,2024/2026
+Juliana Stratton,Neville Isaacson,Pacific Palisades,CA,90272,Not Employed,Retired,150000,1,2026-01-17,2026-01-17,zip,false,2100000,26,21,2024/2026
+Juliana Stratton,Robert Brown,Parkland,FL,33076,Keysource,Attorney,150000,1,2025-10-09,2025-10-09,zip,true,550000,11,7,2024/2026
+Juliana Stratton,Shira Weinstein,Mamaroneck,NY,10543,Not Employed,Retired,150000,1,2026-01-14,2026-01-14,zip,false,1674000,17,13,2024/2026
+Juliana Stratton,Stephen Oppenheimer,Atlanta,GA,30342,Not Employed,Retired,150000,1,2025-11-18,2025-11-18,zip,false,2700000,26,19,2024/2026
+Juliana Stratton,Steven Greenbaum,Highland Park,IL,60035,"Senior Housing Group, LLC",Realtor,150000,2,2025-08-10,2026-03-05,zip,false,1830000,23,18,2024/2026
+Juliana Stratton,Ilene Adler,Chicago,IL,60611,Not Employed,Retired,125000,3,2025-07-03,2025-12-22,zip,false,150000,3,3,2026
+Juliana Stratton,Jacob Avraham,Chicago,IL,60614,University Of Illinois Chicago,Physician,125000,1,2025-09-13,2025-09-13,zip,false,750000,5,5,2024/2026
+Juliana Stratton,Robyn Tavel,Glencoe,IL,60022,Not Employed,Not Employed,125000,2,2025-09-04,2026-02-12,zip,false,70000,3,3,2026
+Juliana Stratton,Seth Wise,Fort Lauderdale,FL,33301,Bbx Capital,Executive,125000,1,2025-09-09,2025-09-09,zip,true,300000,2,2,2026
+Juliana Stratton,Gregory Hahn,Indianapolis,IN,46240,Bose Public Affairs Group,Attorney,105000,5,2025-06-13,2026-03-27,zip,false,10000,1,1,2024
+Juliana Stratton,Aaron Detoledo,Sherman Oaks,CA,91423,Service Titan,Operations,100000,1,2026-01-14,2026-01-14,zip,true,2000000,26,23,2024/2026
+Juliana Stratton,Adam Mamelak,Sherman Oaks,CA,91401,Cedars-Sinai Medical Center,Physician,100000,1,2025-12-29,2025-12-29,zip,true,1583000,26,22,2024/2026
+Juliana Stratton,Aileen Borok,Encino,CA,91436,Not Employed,Not Employed,100000,1,2025-12-23,2025-12-23,zip,false,1250000,22,19,2024/2026
+Juliana Stratton,Alec Ofsevit,Scarsdale,NY,10583,Woodline,Financial Services,100000,1,2025-12-19,2025-12-19,zip,true,900000,7,7,2024/2026
+Juliana Stratton,Alexander Block,Encino,CA,91316,Golden Hippo,Manager,100000,1,2026-01-14,2026-01-14,zip,true,1000000,9,9,2024/2026
+Juliana Stratton,Alexander Roberts,Tarrytown,NY,10591,Not Employed,Retired,100000,1,2026-01-16,2026-01-16,zip,false,1375000,16,16,2024/2026
+Juliana Stratton,Alfredo Frohlich,Aventura,FL,33160,Not Employed,Not Employed,100000,1,2025-10-07,2025-10-07,zip,false,2350000,21,16,2024/2026
+Juliana Stratton,Amian Kelemer,Baltimore,MD,21209,Crane Foundation,Education Consultant,100000,1,2025-12-08,2025-12-08,zip,true,850000,9,8,2024/2026
+Juliana Stratton,Ann Lieberman,Encino,CA,91436,Woodcrest Schools,Business Owner,100000,1,2025-12-23,2025-12-23,zip,true,400000,6,6,2026
+Juliana Stratton,Ann Schneiderman,Northbrook,IL,60062,Not Employed,Not Employed,100000,1,2025-09-04,2025-09-04,zip,false,550000,4,4,2026
+Juliana Stratton,Arthur Jakoby,New Rochelle,NY,10804,"Herrick Feinstein, LLP",Attorney,100000,1,2025-12-11,2025-12-11,zip,false,700000,11,10,2024/2026
+Juliana Stratton,Barry Price,New City,NY,10956,"Price Construction, LLC",Engineer,100000,1,2026-01-20,2026-01-20,zip,true,600000,7,7,2024/2026
+Juliana Stratton,Beny Rub,North Miami Beach,FL,33162,Rub Pediatrics Md Pa,Physician,100000,1,2025-10-09,2025-10-09,zip,true,700000,10,9,2024/2026
+Juliana Stratton,Beth Kramer,Washington,DC,20008,Lockheed Martin Corp,Attorney,100000,1,2025-12-02,2025-12-02,zip,false,950000,11,8,2024/2026
+Juliana Stratton,Betty Berenson,Scarsdale,NY,10583,Not Employed,Retired,100000,1,2026-01-10,2026-01-10,zip,false,1140000,18,15,2024/2026
+Juliana Stratton,Betty Silverglate,Ellicott City,MD,21042,Not Employed,Retired,100000,1,2025-12-02,2025-12-02,zip,false,1100000,12,11,2024/2026
+Juliana Stratton,Bianca Peskin,Brookline,MA,02446,Not Employed,Not Employed,100000,1,2025-12-05,2025-12-05,zip,false,30130000,54,45,2024/2026
+Juliana Stratton,Bonnie Natal,Pikesville,MD,21208,Envoy Business Advocate,Executive,100000,1,2025-12-09,2025-12-09,zip,true,950000,10,10,2024/2026
+Juliana Stratton,Brandon Dunn,White Plains,NY,10606,Roc360,Finance,100000,1,2026-01-13,2026-01-13,zip,true,1400000,11,10,2024/2026
+Juliana Stratton,Brian Rosenzweig,Brookhaven,GA,30319,Joule Ventures,Finance,100000,1,2025-11-21,2025-11-21,zip,true,620000,6,6,2024/2026
+Juliana Stratton,Carole Daman,Scarsdale,NY,10583,Not Employed,Retired,100000,1,2026-01-20,2026-01-20,zip,false,943000,11,10,2024/2026
+Juliana Stratton,Craig Kornblum,Atlanta,GA,30350,Jeckil Promotions,Business Owner,100000,1,2025-11-03,2025-11-03,zip,true,1150000,8,7,2024/2026
+Juliana Stratton,Cristi Finkel,Highland Park,IL,60035,Not Employed,Not Employed,100000,2,2025-09-04,2026-01-13,zip,false,75000,2,2,2026
+Juliana Stratton,Daniel Freedman,Los Angeles,CA,90067,Jmbm Law,Attorney,100000,1,2026-01-14,2026-01-14,zip,false,50000,1,1,2024
+Juliana Stratton,David Bercow,Armonk,NY,10504,"Vensure, LLC",Sales,100000,1,2025-12-23,2025-12-23,zip,false,2952000,78,55,2024/2026
+Juliana Stratton,David Miller,Rye,NY,10580,Catalyst Capital Advisors,Manager,100000,1,2026-01-20,2026-01-20,zip,true,1256000,27,22,2024/2026
+Juliana Stratton,David Senft,Los Angeles,CA,90046,Not Employed,Retired,100000,1,2025-12-26,2025-12-26,zip,false,350000,5,5,2026
+Juliana Stratton,David Victor,Birmingham,MI,48009,American Educational Institute,Executive,100000,1,2025-07-03,2025-07-03,zip,true,3170000,19,15,2024/2026
+Juliana Stratton,David Zweig,Fort Lauderdale,FL,33301,Not Employed,Retired,100000,1,2025-09-04,2025-09-04,zip,false,2350000,18,17,2024/2026
+Juliana Stratton,Deborah Shalom,Boston,MA,02116,Not Employed,Not Employed,100000,1,2025-12-08,2025-12-08,zip,false,1000000,10,9,2026
+Juliana Stratton,Debra Panitch,Potomac,MD,20854,Not Employed,Retired,100000,1,2025-12-01,2025-12-01,zip,false,1500000,15,12,2024/2026
+Juliana Stratton,Delia Perlov,Newton Center,MA,02459,Self Employed,Artist,100000,1,2025-11-15,2025-11-15,zip,false,1825000,20,17,2024/2026
+Juliana Stratton,Donna Bender,Encino,CA,91436,Not Employed,Not Employed,100000,1,2026-01-17,2026-01-17,zip,false,12976000,58,39,2024/2026
+Juliana Stratton,Dorie Fain,Baltimore,MD,21231,And Wealth Partners,Business Owner,100000,1,2025-12-01,2025-12-01,zip,true,550000,7,6,2024/2026
+Juliana Stratton,E. Olivia Lurie,Chicago,IL,60647,Class Choreography,Executive,100000,1,2025-09-11,2025-09-11,zip,true,594000,10,9,2024/2026
+Juliana Stratton,Elissa Ness,Reisterstown,MD,21136,Not Employed,Retired,100000,1,2025-12-01,2025-12-01,zip,false,1405000,24,19,2024/2026
+Juliana Stratton,Eliyahu Wolfe,Decatur,GA,30033,Wolfe Law,Attorney,100000,1,2025-11-18,2025-11-18,zip,false,600000,3,3,2026
+Juliana Stratton,Elizabeth Cooley Nelson,Austin,TX,78703,Not Employed,Not Employed,100000,1,2026-01-23,2026-01-23,zip,false,330000,1,1,2024
+Juliana Stratton,Ellen Segal,Chestnut Hill,MA,02467,Not Employed,Retired,100000,1,2025-11-19,2025-11-19,zip,false,1900000,18,15,2024/2026
+Juliana Stratton,Emily Kaufman,Towson,MD,21204,"Kaufman Products, Inc.",Business Owner,100000,1,2025-12-03,2025-12-03,zip,false,700000,7,7,2026
+Juliana Stratton,Erin Gelfand,New Rochelle,NY,10804,Westchester Day School,Teacher,100000,1,2026-01-05,2026-01-05,zip,false,275000,6,6,2024/2026
+Juliana Stratton,Fred Claar,Harrison,NY,10528,Not Employed,Not Employed,100000,1,2025-12-10,2025-12-10,zip,false,2150000,24,18,2024/2026
+Juliana Stratton,Gary Lazar,Encino,CA,91316,Not Employed,Not Employed,100000,1,2025-12-23,2025-12-23,zip,false,1925000,25,22,2024/2026
+Juliana Stratton,Georgette Lookstein,Scarsdale,NY,10583,Mastercard,Product Manager,100000,1,2025-12-22,2025-12-22,zip,true,750000,9,9,2024/2026
+Juliana Stratton,Greg Abrams,Calabasas,CA,91302,Not Employed,Retired,100000,1,2026-01-05,2026-01-05,zip,false,2420000,34,30,2024/2026
+Juliana Stratton,Jack Frydrych,Encino,CA,91316,Not Employed,Retired,100000,1,2025-12-23,2025-12-23,zip,false,2325000,28,24,2024/2026
+Juliana Stratton,Jacqueline Vaisman,North Hollywood,CA,91603,Not Employed,Not Employed,100000,1,2026-01-18,2026-01-18,state,false,100000,2,2,2026
+Juliana Stratton,Jayne Klein,Forest Hill,MD,21050,Not Employed,Not Employed,100000,1,2025-12-10,2025-12-10,zip,false,550000,7,6,2024/2026
+Juliana Stratton,Jennifer Berman,Pikesville,MD,21208,Not Employed,Retired,100000,1,2025-11-21,2025-11-21,zip,false,1200000,16,14,2024/2026
+Juliana Stratton,Jennifer Brown,Glencoe,IL,60022,Not Employed,Retired,100000,1,2025-09-11,2025-09-11,zip,false,250000,2,2,2026
+Juliana Stratton,Jennifer Snyder,Rockville,MD,20850,Not Employed,Not Employed,100000,1,2025-11-20,2025-11-20,zip,false,950000,10,7,2024/2026
+Juliana Stratton,Jerome Snider,White Plains,NY,10606,Not Employed,Retired,100000,1,2026-01-13,2026-01-13,zip,false,300000,3,3,2026
+Juliana Stratton,Jesse Bachsihan,Studio City,CA,91604,Self Employed,Sales,100000,1,2026-01-15,2026-01-15,zip,false,300000,4,4,2026
+Juliana Stratton,Jessica Hochman,Studio City,CA,91604,Self Employed,Physician,100000,1,2026-01-14,2026-01-14,zip,false,750000,12,11,2024/2026
+Juliana Stratton,Jill Granader,Miami,FL,33109,Cambridge Information Group,Director,100000,1,2025-12-09,2025-12-09,zip,true,1880000,16,13,2024/2026
+Juliana Stratton,Jody Forchheimer,Brookline,MA,02446,Not Employed,Retired,100000,1,2025-11-13,2025-11-13,zip,false,38475500,150,96,2024/2026
+Juliana Stratton,Joe Ackerman,Golden Beach,FL,33160,Pensam Capital,Realtor,100000,1,2025-10-11,2025-10-11,zip,true,1600000,17,13,2024/2026
+Juliana Stratton,Joel Marks,Atlanta,GA,30327,Not Employed,Retired,100000,1,2025-11-17,2025-11-17,zip,false,1000000,10,9,2024/2026
+Juliana Stratton,Johanna Chanin,Bethesda,MD,20814,Not Employed,Retired,100000,1,2025-12-03,2025-12-03,zip,false,1725000,17,14,2024/2026
+Juliana Stratton,Jonathan Harris,New Rochelle,NY,10804,1970 Group,Attorney,100000,1,2026-01-13,2026-01-13,zip,true,4850400,26,18,2024/2026
+Juliana Stratton,Jordan Feiger,Highland Park,IL,60035,Not Employed,Retired,100000,1,2025-08-13,2025-08-13,zip,false,2437000,32,27,2024/2026
+Juliana Stratton,Joseph Kavana,Aventura,FL,33180,K. Group Holdings,Ceo,100000,1,2025-10-08,2025-10-08,zip,false,2250000,18,13,2024/2026
+Juliana Stratton,Joy Sibel,Cockeysville,MD,21030,Not Employed,Not Employed,100000,1,2025-12-01,2025-12-01,zip,false,800000,8,8,2026
+Juliana Stratton,Judy Thomas,Glendale,CA,91207,Self Employed,Sales Broker,100000,1,2025-12-23,2025-12-23,zip,false,2400000,30,26,2024/2026
+Juliana Stratton,Julie Bernstein,Cockeysville,MD,21030,Not Employed,Not Employed,100000,1,2025-12-08,2025-12-08,zip,false,900000,9,9,2026
+Juliana Stratton,Julie Turkel,Chicago,IL,60618,Rvah,Vet,100000,1,2025-09-11,2025-09-11,zip,false,50000,1,1,2026
+Juliana Stratton,Karen Galanti,Bethesda,MD,20817,Self Employed,Marketing Director,100000,1,2025-12-03,2025-12-03,zip,false,800000,8,7,2026
+Juliana Stratton,Karen Segall,Pikesville,MD,21208,Not Employed,Not Employed,100000,1,2025-12-05,2025-12-05,zip,false,1863600,14,13,2024/2026
+Juliana Stratton,Kerry Iris,Palm Beach Gardens,FL,33410,Resolution Capitol Management,Realtor,100000,1,2025-12-10,2025-12-10,zip,true,800000,8,7,2024/2026
+Juliana Stratton,Kevin Finkel,Wilmette,IL,60091,Providence Real Estate,Principal,100000,1,2025-08-13,2025-08-13,zip,true,1102000,11,11,2024/2026
+Juliana Stratton,Lee Prisament,Nyack,NY,10960,Not Employed,Retired,100000,1,2025-12-17,2025-12-17,zip,false,650000,7,7,2024/2026
+Juliana Stratton,Lewis Shrensky,Potomac,MD,20859,Not Employed,Retired,100000,1,2025-12-21,2025-12-21,zip,false,500000,5,5,2026
+Juliana Stratton,Liba Benus,Pikesville,MD,21208,Not Employed,Retired,100000,1,2025-11-20,2025-11-20,zip,false,1000000,12,10,2024/2026
+Juliana Stratton,Linda Elman,Baltimore,MD,21215,Not Employed,Not Employed,100000,1,2025-12-09,2025-12-09,zip,false,1250000,16,14,2024/2026
+Juliana Stratton,Linda Friedman,Chicago,IL,60606,"Stowell Friedman, LLP",Attorney,100000,1,2026-03-16,2026-03-16,state,false,25000,1,1,2024
+Juliana Stratton,Lindsay Yaffa,Chicago,IL,60613,Not Employed,Not Employed,100000,1,2025-09-11,2025-09-11,zip,false,450000,2,2,2026
+Juliana Stratton,Lisa Hess,Encino,CA,91316,Self Employed,Accountant,100000,1,2025-12-23,2025-12-23,zip,false,2980000,24,22,2024/2026
+Juliana Stratton,Lisa Kleeman,Owings Mills,MD,21117,Not Employed,Not Employed,100000,1,2025-12-01,2025-12-01,zip,false,800000,8,8,2026
+Juliana Stratton,Lisa Radov,Baltimore,MD,21209,Not Employed,Retired,100000,1,2025-12-02,2025-12-02,zip,false,450000,5,5,2024/2026
+Juliana Stratton,Lisa Stoler,Owings Mills,MD,21117,Not Employed,Retired,100000,1,2025-11-15,2025-11-15,zip,false,1250000,11,10,2024/2026
+Juliana Stratton,Lisa Wallack,Weston,MA,02493,Not Employed,Not Employed,100000,1,2025-11-13,2025-11-13,zip,false,6060000,42,30,2024/2026
+Juliana Stratton,Lisi Nigrin,Pikesville,MD,21208,Self Employed,Interior Designer,100000,1,2025-12-02,2025-12-02,zip,false,1050000,10,10,2024/2026
+Juliana Stratton,Lori Burman,Clarksville,MD,21029,Not Employed,Not Employed,100000,1,2025-12-05,2025-12-05,zip,false,3395000,52,44,2024/2026
+Juliana Stratton,Lynette Brown,Encino,CA,91316,Not Employed,Not Employed,100000,1,2025-12-23,2025-12-23,zip,false,2200000,22,19,2024/2026
+Juliana Stratton,Marlene Schooler,Bethesda,MD,20817,Not Employed,Retired,100000,1,2025-12-06,2025-12-06,zip,false,500000,5,5,2026
+Juliana Stratton,Marnie Abramson,North Potomac,MD,20878,Lightility,Business Owner,100000,1,2025-12-01,2025-12-01,zip,true,1050000,11,9,2024/2026
+Juliana Stratton,Mary Miller,Baltimore,MD,21208,Mt. Washington Pediatric Hospital,Executive,100000,1,2025-12-02,2025-12-02,zip,true,695000,11,10,2024/2026
+Juliana Stratton,Matthew Mishory,Santa Monica,CA,90402,Rubber Ring Creative,Ceo,100000,1,2026-01-18,2026-01-18,zip,false,100000,1,1,2026
+Juliana Stratton,Melissa Hollander,Lutherville,MD,21093,Dentist,Dentist,100000,1,2025-12-03,2025-12-03,zip,true,1900000,24,18,2024/2026
+Juliana Stratton,Meredith Druyen,Westlake Village,CA,91361,Not Employed,Retired,100000,2,2026-01-01,2026-01-16,zip,false,1350000,24,22,2024/2026
+Juliana Stratton,Meredith Kirshenbaum,Deerfield,IL,60015,Goldberg Kohn,Attorney,100000,1,2025-09-04,2025-09-04,zip,true,565000,16,13,2024/2026
+Juliana Stratton,Merritt Miller,Lutherville,MD,21093,Merritt Gallery,Artist,100000,1,2025-12-11,2025-12-11,zip,true,900000,8,8,2026
+Juliana Stratton,Michael Diamond,Sherman Oaks,CA,91423,Range Media Partners,Manager,100000,1,2026-01-18,2026-01-18,zip,true,150000,2,2,2026
+Juliana Stratton,Michael H. Zaransky,Northbrook,IL,60062,Mz Capital Partners,Real Estate,100000,1,2025-07-03,2025-07-03,zip,true,950000,8,6,2024/2026
+Juliana Stratton,Michael Kleinberg,New Rochelle,NY,10804,Mkda,Architect,100000,1,2026-01-20,2026-01-20,zip,true,1250000,14,13,2024/2026
+Juliana Stratton,Michael Newman,Golden Beach,FL,33160,Newtech,Executive,100000,1,2025-10-07,2025-10-07,zip,true,3574900,24,19,2024/2026
+Juliana Stratton,Michael Zusman,Sunny Isles Beach,FL,33160,Not Employed,Not Employed,100000,1,2025-10-09,2025-10-09,zip,false,2150000,17,15,2024/2026
+Juliana Stratton,Mimi Kress,Bethesda,MD,20817,"Sandy Spring Builders, LLC",Construction,100000,1,2025-11-14,2025-11-14,zip,true,1600000,17,16,2024/2026
+Juliana Stratton,Moshe Meppen,Encino,CA,91436,"Metadolce Technologies, Inc.",It Technician,100000,1,2025-12-23,2025-12-23,zip,true,2800000,26,24,2024/2026
+Juliana Stratton,Nancy Duber,Washington,DC,20007,Not Employed,Not Employed,100000,1,2025-12-08,2025-12-08,zip,false,200000,1,1,2026
+Juliana Stratton,Naphtali Nektalov,Los Angeles,CA,90035,"Axle Homes, LLC",Developer,100000,1,2026-01-14,2026-01-14,zip,false,1375000,16,13,2024/2026
+Juliana Stratton,Nelie Amini,Sherman Oaks,CA,91403,Kaiser,Nurse Practitioner,100000,1,2026-01-19,2026-01-19,zip,true,100000,2,2,2026
+Juliana Stratton,Pamela Wagoner,Afton,VA,22920,Not Employed,Not Employed,100000,1,2025-11-13,2025-11-13,zip,false,2810000,26,21,2024/2026
+Juliana Stratton,Paul Meister,Chicago,IL,60610,Gcm Grosvenor,Vice Chairmain,100000,1,2025-08-04,2025-08-04,zip,true,4600000,31,20,2024/2026
+Juliana Stratton,Rachel Groner,Baltimore,MD,21209,Not Employed,Retired,100000,1,2025-12-02,2025-12-02,zip,false,610000,12,9,2024/2026
+Juliana Stratton,Rachel Katz,Chicago,IL,60618,Not Employed,Not Employed,100000,1,2025-09-04,2025-09-04,zip,false,50000,1,1,2026
+Juliana Stratton,Rachel Klein,Chicago,IL,60618,Not Employed,Not Employed,100000,1,2025-09-04,2025-09-04,zip,false,150000,2,2,2026
+Juliana Stratton,Rachel Warschawski,Baltimore,MD,21208,Self Employed,Artist,100000,1,2025-11-20,2025-11-20,zip,false,750000,11,11,2024/2026
+Juliana Stratton,Rada Burdeen,Winnetka,IL,60093,Burdeen'S Ltd,Business Owner,100000,1,2025-09-11,2025-09-11,zip,false,50000,1,1,2026
+Juliana Stratton,Rafael Steinberg,Old Greenwich,CT,06870,Servenco Management,Manager,100000,1,2026-01-20,2026-01-20,zip,true,400000,4,4,2024/2026
+Juliana Stratton,Rama Fakheri,Encino,CA,91436,Self Employed,Psycologist,100000,1,2025-12-23,2025-12-23,zip,false,3366666,20,20,2024/2026
+Juliana Stratton,Renee Levow,Atlanta,GA,30326,Not Employed,Retired,100000,1,2025-11-03,2025-11-03,zip,false,100000,1,1,2026
+Juliana Stratton,Robin Hanerfeld,Bethesda,MD,20817,Not Employed,Retired,100000,1,2025-12-01,2025-12-01,zip,false,1325000,15,13,2024/2026
+Juliana Stratton,Robin Hettleman,Bethesda,MD,20817,Not Employed,Retired,100000,1,2025-11-20,2025-11-20,zip,false,1650000,18,14,2024/2026
+Juliana Stratton,Rod Loewenthal,Highland Park,IL,60035,Ubs,Financial Advisor,100000,1,2025-08-14,2025-08-14,zip,true,6601100,44,31,2024/2026
+Juliana Stratton,Ron Rappaport,Tarzana,CA,91356,That'S A Rapp Productions,Producer,100000,1,2026-01-14,2026-01-14,zip,false,50000,1,1,2026
+Juliana Stratton,Ross Kogon,Atlanta,GA,30360,Pull-A-Part,Ceo,100000,1,2025-12-08,2025-12-08,zip,true,5650000,37,29,2024/2026
+Juliana Stratton,Samuel Menaged,Ardmore,PA,19003,The Renfrew Center,Ceo,100000,1,2025-11-14,2025-11-14,zip,true,2275000,30,21,2024/2026
+Juliana Stratton,Sarah Sager,Chicago,IL,60657,Croke Fairchild,Attorney,100000,1,2025-09-04,2025-09-04,zip,true,150000,3,2,2024/2026
+Juliana Stratton,Scott Musoff,Scarsdale,NY,10583,"Skadden, LLP",Attorney,100000,1,2025-12-22,2025-12-22,zip,false,1175000,9,9,2024/2026
+Juliana Stratton,Sevda Topr,Scarsdale,NY,10583,Not Employed,Not Employed,100000,1,2025-12-16,2025-12-16,zip,false,1420000,11,10,2024/2026
+Juliana Stratton,Shana Glassman,Tarzana,CA,91356,Not Employed,Not Employed,100000,1,2025-12-23,2025-12-23,zip,false,1625000,17,17,2024/2026
+Juliana Stratton,Shana Rosen,Potomac,MD,20854,Self Employed,Pharmaceutical Consultant,100000,1,2025-12-09,2025-12-09,zip,false,1150000,14,10,2024/2026
+Juliana Stratton,Sharon Sasson,New City,NY,10956,Not Employed,Not Employed,100000,1,2026-01-20,2026-01-20,zip,false,1105000,8,7,2024/2026
+Juliana Stratton,Stacy Samet,Bethesda,MD,20817,Not Employed,Not Employed,100000,1,2025-12-10,2025-12-10,zip,false,300000,3,3,2026
+Juliana Stratton,Stephen Schwartz,White Plains,NY,10605,"Ai Education, Inc.",Ceo,100000,1,2026-01-21,2026-01-21,zip,false,350000,4,4,2026
+Juliana Stratton,Stephie Blum,Northbrook,IL,60062,Not Employed,Not Employed,100000,1,2025-09-08,2025-09-08,zip,false,350000,3,3,2026
+Juliana Stratton,Steven Wertheim,Atlanta,GA,30328,Not Employed,Retired,100000,1,2025-11-03,2025-11-03,zip,false,6230000,40,31,2024/2026
+Juliana Stratton,Stuart Nelson,Atlanta,GA,30309,The Shopping Center Group,Realtor,100000,1,2025-11-12,2025-11-12,zip,true,700000,7,7,2024/2026
+Juliana Stratton,Sunpac Sunpac,Coral Gables,FL,33133,Not Employed,Not Employed,100000,1,2025-10-02,2025-10-02,zip,false,500000,1,1,2024
+Juliana Stratton,Susan Talles,Baltimore,MD,21208,Not Employed,Not Employed,100000,1,2025-12-08,2025-12-08,zip,false,1150000,14,11,2024/2026
+Juliana Stratton,Susan Thau,Chevy Chase,MD,20815,Not Employed,Not Employed,100000,1,2025-11-14,2025-11-14,zip,false,1185000,15,13,2024/2026
+Juliana Stratton,Tanjuihsien Marx,Pembroke Pines,FL,33024,Hca,Physician,100000,1,2025-09-11,2025-09-11,zip,true,500000,7,7,2024/2026
+Juliana Stratton,Tim Schrager,Sandy Springs,GA,30327,"Perennial Properties, Inc.",Realtor,100000,1,2025-11-07,2025-11-07,zip,true,100000,1,1,2026
+Juliana Stratton,Vic Hammel,Wyomissing,PA,19610,Not Employed,Retired,100000,1,2025-11-20,2025-11-20,zip,false,4050000,47,28,2024/2026
+Juliana Stratton,David Osband,New Rochelle,NY,10804,Sword Bio,Sales,75000,1,2026-01-20,2026-01-20,zip,true,175000,2,2,2026
+Juliana Stratton,Robin Samot,Scarsdale,NY,10583,Not Employed,Retired,75000,1,2026-01-23,2026-01-23,zip,false,1085000,11,11,2024/2026
+Juliana Stratton,Scott Rosmarin,Monroe,NY,10950,"Camp Rosmarin, Inc.",Management,75000,1,2026-01-20,2026-01-20,zip,false,625000,11,9,2024/2026
+Juliana Stratton,Simon Bernstein,New Rochelle,NY,10804,Alvarez & Marsal,Consultant,75000,1,2026-01-13,2026-01-13,zip,true,475000,6,6,2024/2026
+Juliana Stratton,Stephanie Wechsler,Scarsdale,NY,10583,Not Employed,Not Employed,75000,1,2026-01-20,2026-01-20,zip,false,75000,1,1,2026
+Juliana Stratton,Steven Korol,Buffalo Grove,IL,60089,Leon Korol Co,Opera Singer,75000,1,2025-08-13,2025-08-13,zip,true,1300000,14,13,2024/2026
+Juliana Stratton,Robert Wolfberg,Glencoe,IL,60022,Pls Financial Services,Executive,70000,1,2025-08-13,2025-08-13,zip,true,4950000,33,28,2024/2026
+Juliana Stratton,Ron Meisler,Northbrook,IL,60062,Skadden,Attorney,70000,1,2025-08-13,2025-08-13,zip,true,4833500,43,31,2024/2026
+Juliana Stratton,Charles Goldberg,Glenview,IL,60026,Not Employed,Retired,60000,1,2025-08-13,2025-08-13,zip,false,491000,6,5,2024/2026
+Juliana Stratton,Scott Lederman,Highland Park,IL,60035,Gcm Grosvenor,Executive,60000,1,2025-09-04,2025-09-04,zip,true,1105000,11,11,2024/2026
+Juliana Stratton,Abraham M. Katz,Northbrook,IL,60062,Not Employed,Not Employed,50000,1,2025-12-23,2025-12-23,zip,false,235000,7,3,2024/2026
+Juliana Stratton,Adele Reznikoff,Encino,CA,91436,Not Employed,Not Employed,50000,1,2025-12-26,2025-12-26,zip,false,1200000,19,18,2024/2026
+Juliana Stratton,Bennett Spiegel,Encino,CA,91316,Not Employed,Retired,50000,1,2025-12-23,2025-12-23,zip,false,725000,12,12,2024/2026
+Juliana Stratton,Betzalel Eichenbaum,Encino,CA,91436,"Business Machines Consultants, Inc.",Manager,50000,1,2026-01-01,2026-01-01,zip,false,300000,5,5,2026
+Juliana Stratton,Bruce Werner,Lincolnshire,IL,60069,Bruce Werner,Business Owner,50000,1,2025-08-12,2025-08-12,zip,false,2648000,62,48,2024/2026
+Juliana Stratton,Carin Freeman,Sherman Oaks,CA,91403,Not Employed,Not Employed,50000,1,2025-12-29,2025-12-29,zip,false,1150000,20,19,2024/2026
+Juliana Stratton,Cheryl Brandes Pine,Purchase,NY,10577,Not Employed,Retired,50000,1,2026-01-12,2026-01-12,zip,false,952500,21,19,2024/2026
+Juliana Stratton,Daniel Goldstein,North Miami Beach,FL,33179,Accesso,Realtor,50000,1,2025-09-30,2025-09-30,zip,true,1125000,20,15,2024/2026
+Juliana Stratton,David Ephraim,Highland Park,IL,60035,"Ephraim And Associates, PC",Attorney,50000,1,2025-08-13,2025-08-13,zip,false,939000,21,20,2024/2026
+Juliana Stratton,David Rappaport,Fontana,WI,53125,Ep Wealth Advisors,Wealth Management,50000,1,2025-08-13,2025-08-13,zip,true,530000,12,11,2024/2026
+Juliana Stratton,David Spiegel,Calabasas,CA,91302,Not Employed,Retired,50000,1,2025-12-29,2025-12-29,zip,false,750000,15,14,2024/2026
+Juliana Stratton,David Wacker,Calabasas,CA,91302,Not Employed,Retired,50000,1,2026-01-16,2026-01-16,zip,false,390000,12,7,2024/2026
+Juliana Stratton,David Wolle,Highland Park,IL,60035,"Kos Services, LLC",Coo,50000,1,2025-08-13,2025-08-13,zip,false,1012000,14,14,2024/2026
+Juliana Stratton,Diana Judovits,Encino,CA,91436,"Emerge Business Management, Inc.",Consultant,50000,1,2026-01-01,2026-01-01,zip,false,1050000,17,16,2024/2026
+Juliana Stratton,Evan Charles,Marietta,GA,30064,"Revedge Analytics, LLC",Consultant,50000,1,2025-11-05,2025-11-05,zip,true,980000,15,11,2024/2026
+Juliana Stratton,Fred Ehrenstein,Hollywood,FL,33021,Not Employed,Retired,50000,1,2025-10-10,2025-10-10,zip,false,425000,11,10,2024/2026
+Juliana Stratton,Harris Devor,Philadelphia,PA,19103,"Cbiz, Inc.",Forensic Accountant,50000,1,2025-11-07,2025-11-07,zip,true,2705000,33,22,2024/2026
+Juliana Stratton,Howard Ader,Los Angeles,CA,90077,Not Employed,Retired,50000,1,2025-12-26,2025-12-26,zip,false,650000,12,12,2024/2026
+Juliana Stratton,Jacques Bessoudo,Miami,FL,33179,Not Employed,Not Employed,50000,1,2025-10-06,2025-10-06,zip,false,3039800,26,21,2024/2026
+Juliana Stratton,James I. Kaplan,Chicago,IL,60657,Quarles & Brady LLP,Attorney,50000,1,2026-02-25,2026-02-25,zip,true,75000,3,1,2026
+Juliana Stratton,Jamie Grossman,Newton,MA,02465,Mgs Group Real Estate,Realtor,50000,1,2025-11-17,2025-11-17,zip,false,100000,2,2,2026
+Juliana Stratton,Jeffrey Levine,Encino,CA,91316,"Imprint Coaching, LLC.",Consultant,50000,1,2025-12-30,2025-12-30,zip,false,790000,10,8,2024/2026
+Juliana Stratton,Jennifer Fabian,Chicago,IL,60618,People'S Resource Center,Ceo,50000,1,2025-08-18,2025-08-18,zip,false,25000,1,1,2026
+Juliana Stratton,Josh Friedman,Calabasas,CA,91302,Self Employed,Attorney,50000,1,2025-12-29,2025-12-29,zip,false,1987525,48,18,2024/2026
+Juliana Stratton,Kathryn Leitner,Los Angeles,CA,90049,Not Employed,Retired,50000,1,2026-01-18,2026-01-18,zip,false,300000,3,3,2026
+Juliana Stratton,Kevin Finkel,Highland Park,IL,60035,Providence Real Estate,Executive,50000,1,2026-01-13,2026-01-13,zip,true,648000,8,8,2024
+Juliana Stratton,Lewis Shubin,Sandy Springs,GA,30328,Crowne Partners,Realtor,50000,1,2025-11-20,2025-11-20,zip,true,1550000,15,13,2024/2026
+Juliana Stratton,Marcia Paller,Encino,CA,91436,Self Employed,Licensed Clinical Social Worker,50000,1,2025-12-29,2025-12-29,zip,false,1300000,22,21,2024/2026
+Juliana Stratton,Mark Grant,Fort Lauderdale,FL,33304,"Greenspoon Marder, LLP",Attorney,50000,1,2025-09-04,2025-09-04,zip,false,450000,8,7,2024/2026
+Juliana Stratton,Mark Swedelson,Encino,CA,91436,"Goldberg Swedelson & Associates, Inc.",Accountant,50000,1,2026-01-05,2026-01-05,zip,false,600000,12,12,2024/2026
+Juliana Stratton,Marshall Goldberg,Calabasas,CA,91302,Glass & Goldberg Law,Attorney,50000,1,2026-01-01,2026-01-01,zip,true,400000,8,7,2024/2026
+Juliana Stratton,Michael Feldman,Encino,CA,91436,Komar Alliance,President,50000,1,2025-12-29,2025-12-29,zip,true,550000,10,10,2024/2026
+Juliana Stratton,Michael Sheinkop,Glencoe,IL,60022,Hilco Global,Realtor,50000,1,2025-09-12,2025-09-12,zip,true,1405000,19,17,2024/2026
+Juliana Stratton,Michel Benarrosh,Aventura,FL,33180,Not Employed,Retired,50000,1,2025-10-13,2025-10-13,zip,false,700000,12,10,2024/2026
+Juliana Stratton,Mory Barak,Encino,CA,91316,Lion Real Estate Group,Realtor,50000,1,2025-12-29,2025-12-29,zip,true,2200000,23,18,2024/2026
+Juliana Stratton,Randy Levine,Calabasas,CA,91302,Self Employed,Realtor,50000,1,2026-01-05,2026-01-05,zip,false,550000,11,10,2024/2026
+Juliana Stratton,Rebecca Raskin,Westlake Village,CA,91362,Not Employed,Retired,50000,1,2026-01-05,2026-01-05,zip,false,450000,9,9,2024/2026
+Juliana Stratton,Richard Herman,Chicago,IL,60606,Jewish Federation,Advisor,50000,2,2025-04-25,2025-12-16,zip,false,50000,1,0,2026
+Juliana Stratton,Richard Linevsky,Weston,FL,33331,Self Employed,Realtor,50000,1,2025-09-08,2025-09-08,zip,false,950000,10,10,2024/2026
+Juliana Stratton,Robert Wynner,Westlake Village,CA,91362,"Nevers, Palazzo, Packard, Wildermuth &",Attorney,50000,1,2026-01-17,2026-01-17,zip,true,700000,11,11,2024/2026
+Juliana Stratton,Roberta Loomar,Sunrise,FL,33323,"Difgen Pharmaceuticals, LLC",Attorney,50000,1,2025-09-11,2025-09-11,zip,false,900000,13,12,2024/2026
+Juliana Stratton,Scott Fisher,Marietta,GA,30067,"Arnall Golden Gregory, LLP",Attorney,50000,1,2025-11-17,2025-11-17,zip,false,650000,9,6,2024/2026
+Juliana Stratton,Scott Howard,Woodland Hills,CA,91364,Baker Tilly,Cpa,50000,1,2026-01-01,2026-01-01,zip,true,2491800,34,31,2024/2026
+Juliana Stratton,Stacy Shakiban,Hidden Hills,CA,91302,Enco Design,Real Estate,50000,1,2026-01-03,2026-01-03,zip,true,660000,13,12,2024/2026
+Juliana Stratton,Steven Scheck,Miami,FL,33179,Scheck Group,Investor,50000,1,2025-09-30,2025-09-30,zip,true,950000,17,13,2024/2026
+Juliana Stratton,Stewart Shull,Fort Lauderdale,FL,33312,S&G Medical Enterprises,President,50000,1,2025-09-04,2025-09-04,zip,true,1650000,14,12,2024/2026
+Juliana Stratton,Tom Heymann,Hidden Hills,CA,91302,"Nna Services, LLC",Manager,50000,1,2026-01-01,2026-01-01,zip,false,3250000,38,34,2024/2026
+Juliana Stratton,Steve Loewenthal,Evanston,IL,60201,Not Employed,Retired,40000,1,2025-08-13,2025-08-13,zip,false,280000,6,5,2026
+Juliana Stratton,Isaac Jonas,New Rochelle,NY,10804,Loews Corp.,Investor,37500,1,2025-12-17,2025-12-17,zip,true,487500,11,11,2024/2026
+Juliana Stratton,Sarah Jonas,New Rochelle,NY,10804,"Morrison Cohen, LLP",Attorney,37500,1,2025-12-17,2025-12-17,zip,false,287500,8,8,2024/2026
+Juliana Stratton,Abraham Bril,Aventura,FL,33180,Not Employed,Retired,25000,1,2025-10-15,2025-10-15,zip,false,575000,23,17,2024/2026
+Juliana Stratton,Allen Ginsburg,Chicago,IL,60610,Not Employed,Retired,25000,1,2025-08-12,2025-08-12,zip,false,50000,1,1,2026
+Juliana Stratton,Kevin Kirshenbaum,Evanston,IL,60203,Wellington Radiology,Physician,25000,1,2025-12-03,2025-12-03,zip,true,450000,15,15,2024
+Juliana Stratton,Martin Cohen,Bethlehem,PA,18020,Cohen Feely Law,Attorney,25000,1,2026-01-27,2026-01-27,state,false,5000,1,1,2026
+Juliana Stratton,Sarah Abrams,Glencoe,IL,60022,Baleen Specialty,Executive,25000,1,2025-09-26,2025-09-26,zip,false,25000,1,1,2024
+Juliana Stratton,Richard Weiner,Manhattan Bch,CA,90266,Not Employed,Retired,15000,3,2026-03-17,2026-04-24,state,false,30000,2,2,2024

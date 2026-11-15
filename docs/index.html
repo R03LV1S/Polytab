@@ -1,0 +1,2529 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Polytab.store | The Decentralized Civic Action Marketplace</title>
+  <meta name="description" content="The store where you buy civic outcomes, not junk. Support marketplace for verified charities: funds settle directly on-chain into each organization's wallet; Polytab holds nothing." />
+  
+  <link rel="alternate" type="application/rss+xml" title="Polytab Projects (RSS)" href="./feed.xml" />
+  <link rel="alternate" type="application/feed+json" title="Polytab Global JSON Feed" href="./feed.json" />
+  <link rel="alternate" type="application/rss+xml" title="Polytab Plain-Language Action Feed" href="./feeds/audio.xml" />
+  <link rel="hub" href="https://pubsubhubbub.appspot.com/" />
+  <link rel="manifest" href="./manifest.json" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <link rel="icon" type="image/jpeg" href="./favicon.jpg" />
+  <link rel="apple-touch-icon" href="./favicon.jpg" />
+
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.tailwindcss.com https://cdn.jsdelivr.net https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; img-src 'self' data: https:; connect-src 'self' https://api.coinbase.com https://api.zippopotam.us https://nominatim.openstreetmap.org https://api.github.com https://mainnet.base.org https://*.workers.dev https://polytab.store; object-src 'none'; base-uri 'self';" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.css" integrity="sha384-b8ANgTJvdlAnWM5YGMpKn7Kodm+1k7NYNG9zdjTCcZcKatzYHwZ0RLdWarbJJVzU" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.js" integrity="sha384-u5N8qJeJOO2iqNjIKTdl6KeKsEikMAmCUBPc6sC6uGpgL34aPJ4VgNhuhumedpEk" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/6.17.0/ethers.umd.min.js" integrity="sha384-lApM4ELRuFNT7NgNqnXB2zFWgSDdhVvmnOHov2DPJz/2zuNpZImXBeklFr18ilvi" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha384-3zSEDfvllQohrq0PHL1fOXJuC/jSOO34H46t6UQfobFOmxE5BpjjaIJY5F2/bMnU" crossorigin="anonymous"></script>
+
+  <style>
+    html { scrollbar-gutter: stable; }
+    *:focus-visible {
+      outline: 3px solid #a855f7 !important;
+      outline-offset: 2px !important;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, ::before, ::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+    body.high-contrast {
+      background-color: #000000 !important;
+      color: #ffffff !important;
+    }
+    body.high-contrast .hc-card {
+      background-color: #000000 !important;
+      border: 2px solid #ffffff !important;
+    }
+    body.high-contrast .hc-accent {
+      color: #facc15 !important;
+    }
+    body.high-contrast .hc-btn {
+      background-color: #facc15 !important;
+      color: #000000 !important;
+      font-weight: 800 !important;
+      border: 2px solid #ffffff !important;
+    }
+    body.lite-mode .visual-heavy {
+      display: none !important;
+    }
+    #printableFlyer {
+      display: none;
+    }
+    @media print {
+      body > *:not(#printableFlyer) {
+        display: none !important;
+      }
+      #printableFlyer {
+        display: block !important;
+        background: #ffffff !important;
+        color: #000000 !important;
+        padding: 2rem;
+        font-family: sans-serif;
+      }
+    }
+    select.hc-select {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%23a1a1aa' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.6' d='M6 8l4 4 4-4'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 0.65rem center;
+      background-size: 1rem 1rem;
+      padding-right: 2.25rem !important;
+    }
+  </style>
+</head>
+
+<body class="bg-black text-slate-100 min-h-screen flex flex-col font-sans antialiased selection:bg-purple-600 selection:text-white">
+
+  <a href="#main-workspace" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:bg-purple-700 focus:text-white focus:px-4 focus:py-2 focus:rounded-lg focus:font-bold">
+    Skip to Main Content
+  </a>
+
+  <div class="bg-zinc-900 border-b border-zinc-800 text-xs">
+    <div class="max-w-[105.6rem] mx-auto px-4 py-2 flex flex-wrap items-center justify-between gap-3">
+      <div class="flex items-center space-x-2 overflow-hidden max-w-xl" aria-live="polite">
+        <span class="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-mono font-bold bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 shrink-0">
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 mr-1.5 animate-pulse"></span>
+          RSS / WEBSUB LIVE
+        </span>
+        <p id="rssTickerText" class="text-zinc-300 truncate font-mono text-[11px]">
+          Initializing decentralized feed bus (/feed.json)...
+        </p>
+      </div>
+      <div class="flex flex-wrap items-center gap-2" role="toolbar" aria-label="Accessibility and bandwidth controls">
+        <button id="toggleSimpleBtn" type="button" aria-pressed="false"
+          class="px-2.5 py-1 rounded bg-zinc-800 hover:bg-zinc-600 text-zinc-200 border border-zinc-700 transition font-medium">
+          See Bounty Details
+        </button>
+        <button id="toggleContrastBtn" type="button" aria-pressed="false"
+          class="px-2.5 py-1 rounded bg-zinc-800 hover:bg-zinc-600 text-zinc-200 border border-zinc-700 transition font-medium">
+          High Contrast
+        </button>
+        <button id="toggleLiteBtn" type="button" aria-pressed="false"
+          class="px-2.5 py-1 rounded bg-zinc-800 hover:bg-zinc-600 text-zinc-200 border border-zinc-700 transition font-medium"
+          title="Strips maps and graphics for 2G connections and screen readers">
+          2G Text-Only Mode
+        </button>
+        <a href="./feed.xml" target="_blank" rel="noopener"
+          class="px-2.5 py-1 rounded bg-orange-500/10 hover:bg-orange-500/20 text-orange-400 border border-orange-500/30 font-mono transition">
+          RSS 2.0
+        </a>
+        <a href="./feed.json" target="_blank" rel="noopener"
+          class="px-2.5 py-1 rounded bg-purple-500/10 hover:bg-purple-600/20 text-yellow-400 border border-yellow-500/30 font-mono transition">
+          JSON Feed
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <header class="border-b border-zinc-800/80 bg-black/90 backdrop-blur sticky top-0 z-30">
+    <div class="max-w-[105.6rem] mx-auto px-4 py-4 flex flex-wrap items-center justify-between gap-4">
+      <div class="flex items-center space-x-3">
+        <a href="#" class="flex items-center space-x-2 group">
+          <img src="./logo.svg" alt="Polytab" class="w-9 h-9 rounded-xl shadow-lg shadow-purple-700/30" onerror="this.src='./logo.jpg'" />
+          <div>
+            <div class="flex items-center space-x-1.5">
+              <span class="text-xl font-black tracking-tight text-white">POLY<span class="text-yellow-400 hc-accent">TAB</span></span>
+              <span class="text-xs bg-purple-500/10 text-yellow-400 px-2 py-0.5 rounded border border-yellow-500/20 font-mono">.store</span>
+            </div>
+            <p class="text-[11px] text-zinc-400 hidden sm:block">The store where you buy civic outcomes, not junk.</p>
+          </div>
+        </a>
+      </div>
+      <nav class="flex items-center space-x-1 bg-zinc-900 p-1 rounded-xl border border-zinc-800" aria-label="Main Store Views">
+        <button type="button" data-tab="shelf" class="nav-tab-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-purple-700 text-white transition">
+          Browse Projects
+        </button>
+        <button type="button" data-tab="map" class="nav-tab-btn visual-heavy px-3.5 py-1.5 rounded-lg text-xs font-semibold text-zinc-300 hover:text-white transition">
+          View Map
+        </button>
+        <button type="button" data-tab="create" class="nav-tab-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold text-zinc-300 hover:text-white transition">
+          Start a Project
+        </button>
+        <button type="button" data-tab="markets" class="nav-tab-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold text-zinc-300 hover:text-white transition">
+          View Predictions
+        </button>
+        <button type="button" data-tab="global" class="nav-tab-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold text-zinc-300 hover:text-white transition">
+          Ways to Join
+        </button>
+        <button type="button" data-tab="governance" class="nav-tab-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold text-zinc-300 hover:text-white transition">
+          How It Works
+        </button>
+      </nav>
+      <div class="flex items-center space-x-2">
+        <button id="socialIdentityBtn" type="button"
+          class="text-xs bg-zinc-900 hover:bg-zinc-800 text-zinc-300 border border-zinc-700 px-3 py-2 rounded-xl font-medium transition">
+          Link Handle
+        </button>
+        <button id="connectWalletBtn" type="button"
+          class="text-xs bg-purple-700 hover:bg-purple-600 text-white px-4 py-2 rounded-xl font-semibold shadow-lg shadow-purple-700/20 transition hc-btn">
+          Connect Wallet
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="border-b border-zinc-800/80 bg-gradient-to-b from-slate-900/60 to-slate-950 py-2.5">
+    <div class="max-w-[105.6rem] mx-auto px-4">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-3 items-center">
+        <div class="lg:col-span-8 xl:col-span-9 space-y-1">
+          <div class="inline-flex flex-wrap items-center gap-x-2 gap-y-0.5 px-2 py-0.5 rounded-full bg-purple-500/10 border border-yellow-500/20 text-yellow-300 text-[10px] font-medium">
+            <span>100% Held for the Cause</span>
+            <span>&bull;</span>
+            <span>Base &amp; Polygon EVM Micro-Transactions</span>
+            <span>&bull;</span>
+            <span>$0.00 Platform Fees</span>
+          </div>
+          <h1 class="text-xl sm:text-2xl font-extrabold tracking-tight text-white leading-tight">
+            Vote with pennies. <span class="text-yellow-400 hc-accent">Fund real-world action.</span>
+          </h1>
+          <p class="text-zinc-300 text-xs sm:text-sm leading-snug">
+            Back real civic outcomes with penny-level support &mdash; and help fund verified action directly on-chain.
+          </p>
+        </div>
+        <div class="lg:col-span-4 xl:col-span-3 grid grid-cols-3 gap-1.5">
+          <div class="bg-zinc-900/70 border border-zinc-800 p-2 rounded-lg hc-card text-center">
+            <span class="text-[9px] text-zinc-400 uppercase font-semibold tracking-wider block">Active Bounties</span>
+            <span id="statTotalProjects" class="text-lg font-black text-white mt-0.5 block leading-none">0</span>
+            <span class="text-[9px] text-emerald-400 font-mono leading-tight block mt-1">Active · Live</span>
+          </div>
+          <div class="bg-zinc-900/70 border border-zinc-800 p-2 rounded-lg hc-card text-center">
+            <span class="text-[9px] text-zinc-400 uppercase font-semibold tracking-wider block">Support Status</span>
+            <span id="statTotalEscrow" class="text-lg font-black text-yellow-400 hc-accent mt-0.5 block leading-none">$0.00</span>
+            <span class="text-[9px] text-zinc-400 font-mono leading-tight block mt-1">Total funding</span>
+          </div>
+          <div class="bg-zinc-900/70 border border-zinc-800 p-2 rounded-lg hc-card text-center">
+            <span class="text-[9px] text-zinc-400 uppercase font-semibold tracking-wider block">Micro-Votes</span>
+            <span id="statTotalVotes" class="text-lg font-black text-white mt-0.5 block leading-none">0</span>
+            <span id="statGasEstimate" class="text-[9px] text-yellow-300 font-mono leading-tight block mt-1">Gas &lt; $0.002</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main id="main-workspace" class="max-w-[105.6rem] mx-auto px-4 py-8 flex-1 w-full">
+
+    <section id="tab-shelf" class="tab-panel space-y-6">
+      <div class="bg-zinc-900/50 border border-zinc-800 p-4 rounded-2xl hc-card">
+        <div class="flex flex-col lg:flex-row lg:items-stretch gap-4">
+          <div id="categoryFilterBar" class="flex-1 flex flex-col gap-3 min-w-0" role="group" aria-label="Filter by category"></div>
+          <div class="shrink-0 flex flex-col sm:flex-row lg:flex-row gap-3 items-stretch">
+            <div class="w-full sm:w-56 lg:w-56 bg-zinc-950/70 border border-zinc-700 rounded-xl p-3 flex flex-col gap-2 justify-start">
+              <div class="text-[10px] font-mono uppercase tracking-wider text-zinc-500">Quick Filters</div>
+              <label for="searchInput" class="sr-only">Search bounties</label>
+              <input id="searchInput" type="search" placeholder="Search Bounties"
+                class="bg-black border border-zinc-700 focus:border-yellow-500 rounded-xl px-3.5 py-2 text-xs text-white placeholder-slate-500 outline-none w-full" />
+              <label for="statusFilter" class="sr-only">Filter by status</label>
+              <select id="statusFilter" class="hc-select bg-black border border-zinc-700 focus:border-yellow-500 rounded-xl px-3 py-2 text-xs text-white outline-none w-full">
+                <option value="ALL">All Statuses</option>
+                <option value="Active">Active Funding</option>
+                <option value="In Review (48h Lock)">In 48h Proof Review</option>
+                <option value="Funded">Funded / Disbursed</option>
+              </select>
+            </div>
+            <div class="w-full sm:w-56 lg:w-56 bg-zinc-950/70 border border-zinc-700 rounded-xl p-3 flex flex-col gap-2 justify-start">
+              <div class="text-[10px] font-mono uppercase tracking-wider text-zinc-500">Location</div>
+              <label for="zipInput" class="sr-only">Location for 50 mile radius</label>
+              <p id="zipStatus" class="text-[10px] text-zinc-500 leading-snug">Enter Location to filter within 50 mi.</p>
+              <div class="relative">
+                <div class="flex items-center gap-1.5">
+                  <input id="zipInput" type="text" maxlength="80" placeholder="City/State/Country/Zip" autocomplete="off"
+                    class="bg-black border border-zinc-700 focus:border-yellow-500 rounded-xl px-3.5 py-2 text-xs text-white placeholder-slate-500 outline-none w-full min-w-0" />
+                  <button id="zipClearBtn" type="button" aria-label="Clear location filter" title="Clear"
+                    class="shrink-0 h-8 w-8 flex items-center justify-center rounded-lg border border-zinc-700 bg-black text-zinc-400 hover:text-white hover:border-zinc-500 text-sm leading-none">×</button>
+                </div>
+                <div id="zipSuggest" class="hidden absolute z-50 mt-1 w-full bg-zinc-950 border border-zinc-700 rounded-xl shadow-lg overflow-hidden max-h-56 overflow-y-auto"></div>
+              </div>
+              <select id="sortBySelect" class="hc-select bg-black border border-zinc-700 focus:border-yellow-500 rounded-xl px-3 py-2 text-xs text-white outline-none w-full">
+                <option value="default">Default (Verified Rank)</option>
+                <option value="most_funded">Most Funded</option>
+                <option value="most_popular">Most Popular</option>
+                <option value="most_votes">Most Votes</option>
+                <option value="closest">Closest Distance</option>
+                <option value="newest">Newest</option>
+                <option value="oldest">Oldest</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="proposalsFrame" class="bg-zinc-900/40 border border-zinc-800 rounded-2xl p-4 sm:p-5 space-y-4 hc-card">
+        <div id="proposalsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" aria-live="polite"></div>
+        <div id="proposalsPagination" class="flex flex-wrap items-center justify-center gap-2 pt-2 border-t border-zinc-800 text-xs font-mono"></div>
+      </div>
+    </section>
+
+    <section id="tab-map" class="tab-panel hidden space-y-4">
+      <div class="bg-zinc-900/50 border border-zinc-800 p-5 rounded-2xl flex flex-wrap items-center justify-between gap-4 hc-card">
+        <div>
+          <h2 class="text-lg font-bold text-white">Project Map</h2>
+          <p class="text-xs text-zinc-400">Plots verified organization locations from <code class="text-yellow-400">./feed.json</code>. The public geoRSS mirror at <code class="text-yellow-400">./feeds/global.xml</code> rounds coordinates to two decimal places (~1 km, neighborhood-level) to prevent PII/doxing.</p>
+        </div>
+        <div class="flex items-center space-x-2 text-xs font-mono">
+          <span class="px-2.5 py-1 rounded bg-zinc-800 text-zinc-300 border border-zinc-700">W3C GeoRSS Standard</span>
+        </div>
+      </div>
+      <div id="polytabMap" class="w-full h-[520px] rounded-2xl border border-zinc-800 z-10"></div>
+    </section>
+
+    <section id="tab-create" class="tab-panel hidden">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <form id="createProjectForm" class="lg:col-span-2 bg-zinc-900/50 border border-zinc-800 p-6 rounded-2xl space-y-5 hc-card">
+          <div>
+            <h2 class="text-xl font-bold text-white">Start a Civic Action</h2>
+            <p class="text-xs text-zinc-400 mt-1 mt-2">Turn a real community need into a funded, verified action. Set a small support level, create a project wallet, and let the community decide. You never share private keys.</p>
+          </div>
+          <div>
+            <label for="newTitle" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Project Title *</label>
+            <input type="text" id="newTitle" required maxlength="120" placeholder="e.g. Science Lab Wheelchair-Accessible Station Upgrade"
+              class="w-full bg-black border border-zinc-700 rounded-xl px-3.5 py-2.5 text-sm text-white outline-none focus:border-yellow-500" />
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label for="newParentCategory" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Campaign Type *</label>
+              <select id="newParentCategory" class="hc-select w-full bg-black border border-zinc-700 rounded-xl px-3.5 py-2.5 text-sm text-white outline-none focus:border-yellow-500">
+                <option value="Charities">Community Causes (Charities)</option>
+                <option value="Speculative">Experiments &amp; Public-Interest Ideas (Speculative)</option>
+                <option value="Voting">Civic Decisions &amp; Votes (Voting)</option>
+              </select>
+            </div>
+            <div>
+              <label for="newCategory" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Cause Area *</label>
+              <select id="newCategory" class="hc-select w-full bg-black border border-zinc-700 rounded-xl px-3.5 py-2.5 text-sm text-white outline-none focus:border-yellow-500"></select>
+            </div>
+          </div>
+          <div>
+            <label for="newLocation" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Location / Campus / Neighborhood *</label>
+            <div class="relative">
+              <input type="text" id="newLocation" required maxlength="240" placeholder="City, State, ZIP, or address — we'll auto-geocode it"
+                class="w-full bg-black border border-zinc-700 rounded-xl px-3.5 py-2.5 text-sm text-white outline-none focus:border-yellow-500" />
+              <div id="newSuggest" class="hidden absolute z-50 mt-1 w-full bg-zinc-950 border border-zinc-700 rounded-xl shadow-lg overflow-hidden max-h-56 overflow-y-auto"></div>
+            </div>
+            <p class="text-[11px] text-zinc-500 mt-2">Use an address, ZIP, city, state, or country — we’ll turn it into a project location automatically.</p>
+          </div>
+          <p class="text-[11px] text-zinc-500 -mt-2">ID pipeline (bloc format): Charities 10000&ndash;79999, Speculative 80000&ndash;89999, Voting 90000&ndash;99999 (sub-blocks reserved for future blocs). IDs never renumber. Contributions are locked until the named organization verifies; funds then settle directly into the organization&rsquo;s payout wallet &mdash; Polytab never holds funds.</p>
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div>
+              <label for="newTargetUSD" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Funding Goal (USD) *</label>
+              <input type="number" id="newTargetUSD" min="1" max="100000" step="0.50" value="45.00" required
+                class="w-full bg-black border border-zinc-700 rounded-xl px-3.5 py-2.5 text-sm text-white outline-none focus:border-yellow-500" />
+            </div>
+            <div>
+              <label for="newVoteUSD" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Support Level / Micro-Vote Price ($) *</label>
+              <input type="number" id="newVoteUSD" min="0.05" max="100" step="0.05" value="0.50" required
+                class="w-full bg-black border border-zinc-700 rounded-xl px-3.5 py-2.5 text-sm text-white outline-none focus:border-yellow-500" />
+            </div>
+            <div>
+              <label for="newCoords" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Location Coordinates (Auto-Generated)</label>
+              <input type="text" id="newCoords" readonly placeholder="Auto-generated from location"
+                class="w-full bg-black border border-zinc-700 rounded-xl px-3.5 py-2.5 text-sm text-white font-mono outline-none focus:border-yellow-500" />
+            </div>
+          </div>
+          <div>
+            <div class="flex flex-wrap items-center justify-between gap-x-3 gap-y-1 mb-1">
+              <label for="newWallet" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider">Project Wallet (EVM 0x Address) *</label>
+              <span class="flex flex-wrap items-center gap-x-3 gap-y-1">
+                <a href="./faq.html#project-wallet" class="text-[11px] text-yellow-400 hover:text-yellow-300 font-semibold underline underline-offset-2">How do I get one?</a>
+                <span class="text-[11px] text-amber-400 font-mono">Never share private keys</span>
+              </span>
+            </div>
+            <input type="text" id="newWallet" required pattern="^0x[a-fA-F0-9]{40}$" placeholder="0x71C... (42-character hexadecimal address)"
+              class="w-full bg-black border border-zinc-700 rounded-xl px-3.5 py-2.5 text-sm text-white font-mono outline-none focus:border-yellow-500" />
+            <p class="text-[11px] text-zinc-500 mt-2">No crypto wallet? You can connect or create a smart wallet later; you never share private keys here.</p>
+            <p class="text-[11px] text-zinc-500 mt-2">No crypto wallet, phone, or computer? You can still join via QR code, ZK-Email, SMS/USSD, or Telegram voice &mdash; or let Polytab steward your deposits on your behalf (verified financial service platform + verifiable government ID required &mdash; see the <a href="./faq.html#stewardship" class="text-yellow-400 hover:text-yellow-300 underline">stewardship program</a>).</p>
+          </div>
+          <div>
+            <label for="newSummary" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Action Scope &amp; Proof Plan *</label>
+            <textarea id="newSummary" rows="3" required maxlength="600" placeholder="What needs doing, and what proof shows it worked?"
+              class="w-full bg-black border border-zinc-700 rounded-xl px-3.5 py-2.5 text-sm text-white outline-none focus:border-yellow-500"></textarea>
+          </div>
+          <button type="submit" class="w-full py-3 px-4 bg-purple-700 hover:bg-purple-600 text-white font-bold rounded-xl shadow-lg shadow-purple-700/25 transition text-sm hc-btn">
+            Submit Project via GitHub →
+          </button>
+        </form>
+        <aside class="space-y-4">
+          <div class="bg-zinc-900/50 border border-zinc-800 p-6 rounded-2xl flex flex-col items-center text-center hc-card">
+            <span class="text-xs font-bold text-zinc-400 uppercase tracking-wider mb-3">Live EIP-681 Payment QR Preview</span>
+            <div id="createQrPreview" class="p-3 bg-white rounded-xl min-h-[170px] min-w-[170px] flex items-center justify-center">
+              <span class="text-xs text-zinc-500 font-mono">Enter valid 0x address</span>
+            </div>
+            <p id="createUriPreview" class="text-[11px] text-zinc-400 font-mono mt-3 break-all">ethereum:0x...@8453</p>
+          </div>
+          <div class="bg-zinc-900/30 border border-zinc-800 p-5 rounded-2xl text-xs text-zinc-400 space-y-2 hc-card">
+            <h3 class="text-zinc-200 font-bold">Nothing About Us Without Us</h3>
+            <p>For <strong>Accessibility &amp; Universal Design</strong> proposals, include at least one directly impacted stakeholder on the 2-of-3 verification sign-off council.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="tab-markets" class="tab-panel hidden space-y-6">
+      <div class="bg-zinc-900/50 border border-zinc-800 p-5 rounded-2xl space-y-3 hc-card">
+        <div class="flex flex-wrap items-center justify-between gap-3">
+          <h2 class="text-lg font-bold text-white">Prediction Markets &mdash; Pilot</h2>
+          <span class="px-2.5 py-1 rounded bg-zinc-800 text-zinc-300 border border-zinc-700 text-[11px] font-mono">Vote on values. Forecast with pennies.</span>
+        </div>
+        <p class="text-xs text-zinc-400 max-w-3xl leading-relaxed">
+          Each market asks which verified intervention works better for a specific community. Backing an outcome is a support, not a wager &mdash;
+          <strong class="text-yellow-300 hc-accent">100% of every stake funds the project you chose</strong>. Contributions unlock only after the beneficiary organization verifies its bounty page (registry + domain control). Until then, every stake button is locked. No protocol slice, no redistribution between outcomes, and no money back to anyone once verified.
+          Settlement decides which intervention earns the documented-improvement credit, and which forecasters earn non-monetary accuracy credit.
+        </p>
+        <p class="text-xs text-zinc-400 max-w-3xl leading-relaxed">
+          The incentive is reputation, never money: a public accuracy rate, a win/loss record, and badges. Reputation cannot be redeemed, transferred, or cashed out.
+        </p>
+        <p class="text-[11px] text-amber-300/90 bg-amber-500/5 border border-amber-500/20 rounded-xl px-3 py-2 font-mono">
+          Honest-zero launch: total funded is $0.00 and the forecast split is unset until the first verified on-chain stake. No fabricated numbers, ever.
+        </p>
+      </div>
+      <div id="marketsGrid" class="grid grid-cols-1 lg:grid-cols-2 gap-6" aria-live="polite"></div>
+      <div class="bg-zinc-900/50 border border-zinc-800 p-5 rounded-2xl space-y-3 hc-card">
+        <div class="flex flex-wrap items-center justify-between gap-3">
+          <h2 class="text-lg font-bold text-white">Forecast Reputation &mdash; Non-Monetary</h2>
+          <span class="px-2.5 py-1 rounded bg-zinc-800 text-zinc-300 border border-zinc-700 text-[11px] font-mono">Accuracy, not payouts</span>
+        </div>
+        <p class="text-xs text-zinc-400 max-w-3xl leading-relaxed">
+          Correct forecasts earn a public accuracy rate, a win/loss record, and badges. Entries appear only after a market resolves and a forecast is verified &mdash; never before. Reputation is never paid in money.
+        </p>
+        <div id="forecastBoard" class="space-y-2" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section id="tab-global" class="tab-panel hidden space-y-8">
+      <div class="bg-zinc-900/50 border border-zinc-800 p-6 rounded-2xl space-y-2 hc-card">
+        <h2 class="text-2xl font-extrabold text-white">Universal Access: Zero-Smartphone &amp; Offline Onboarding</h2>
+        <p class="text-sm text-zinc-300 max-w-3xl">
+          95% of the world has access to a phone, but millions use feature phones on 2G networks, shared cybercaf&eacute;s, or assistive voice tools. Polytab bridges ERC-4337 Account Abstraction with SMS/USSD, ZK-Email, and Telegram Voice so nobody is left out.
+        </p>
+      </div>
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div class="bg-zinc-900/60 border border-zinc-800 p-6 rounded-2xl flex flex-col justify-between space-y-4 hc-card">
+          <div class="space-y-2">
+            <span class="px-2.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-[11px] font-mono font-bold">TIER 3 &amp; 4: NO INTERNET / 2G</span>
+            <h3 class="text-lg font-bold text-white">USSD &amp; SMS Deterministic Wallet</h3>
+            <p class="text-xs text-zinc-400">
+              Dialing <code class="text-zinc-200">*384*104#</code> or texting commands generates a counterfactual ERC-4337 smart account via <code class="text-yellow-400">CREATE2(HMAC_SHA256(Phone, Salt))</code> with zero PII stored on GitHub.
+            </p>
+          </div>
+          <div class="bg-black border border-zinc-800 rounded-xl p-3 font-mono text-xs space-y-3">
+            <div id="ussdScreen" class="text-emerald-400 whitespace-pre-line min-h-[110px] leading-relaxed">--- POLYTAB USSD *384*104# ---
+Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</div>
+            <div class="flex space-x-2">
+              <label for="ussdInput" class="sr-only">Enter SMS or USSD command</label>
+              <input id="ussdInput" type="text" placeholder="e.g. VOTE 1"
+                class="flex-1 bg-zinc-900 border border-zinc-700 rounded-lg px-2.5 py-1.5 text-white outline-none" />
+              <button id="ussdSendBtn" type="button" class="bg-emerald-600 hover:bg-emerald-500 text-white px-3 py-1.5 rounded-lg font-sans font-semibold">
+                Send
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="bg-zinc-900/60 border border-zinc-800 p-6 rounded-2xl flex flex-col justify-between space-y-4 hc-card">
+          <div class="space-y-2">
+            <span class="px-2.5 py-0.5 rounded bg-purple-500/10 text-yellow-400 border border-yellow-500/20 text-[11px] font-mono font-bold">CYBERCAF&Eacute; / EMAIL ONLY</span>
+            <h3 class="text-lg font-bold text-white">ZK-Email DKIM Relayer</h3>
+            <p class="text-xs text-zinc-400">
+              No browser extension or smartphone required. Every email provider signs outgoing messages with cryptographic DKIM headers. Our verifier validates your DKIM signature via Zero-Knowledge proofs and sponsors the gas via an ERC-4337 Paymaster.
+            </p>
+            <div class="bg-black border border-zinc-800 rounded-xl p-3 font-mono text-[11px] text-zinc-300 space-y-1">
+              <div><span class="text-zinc-500">To:</span> relayer@polytab.store</div>
+              <div><span class="text-zinc-500">Subject:</span> VOTE 0.50 ON #1</div>
+              <div><span class="text-zinc-500">DKIM-Signature:</span> v=1; a=rsa-sha256...</div>
+            </div>
+          </div>
+          <a href="mailto:relayer@polytab.store?subject=VOTE%200.50%20ON%20%231&body=Sign%20and%20execute%20via%20DKIM%20Paymaster"
+            class="w-full py-2.5 px-4 bg-purple-700 hover:bg-purple-600 text-white font-semibold rounded-xl text-xs text-center transition hc-btn">
+            Launch Pre-Filled ZK-Email Ballot
+          </a>
+        </div>
+        <div class="bg-zinc-900/60 border border-zinc-800 p-6 rounded-2xl flex flex-col justify-between space-y-4 hc-card">
+          <div class="space-y-2">
+            <span class="px-2.5 py-0.5 rounded bg-purple-500/10 text-purple-400 border border-purple-500/20 text-[11px] font-mono font-bold">VOICE / MOTOR ACCESSIBILITY</span>
+            <h3 class="text-lg font-bold text-white">Telegram Whisper Voice &amp; Paper Batch</h3>
+            <p class="text-xs text-zinc-400">
+              Users with motor or visual impairments can send a voice note to <code class="text-zinc-200">@PolytabBot</code>; Cloudflare Workers AI (Whisper) transcribes the intent into a 1-tap ballot. Off-grid villages can submit signed batch assembly tallies via a single coordinator.
+            </p>
+          </div>
+          <div class="space-y-2">
+            <a href="https://github.com/R03LV1S/Polytab/issues/new?labels=batch-ballot&title=%5BBatch+Consensus%5D%3A+Community+Assembly+Tally" target="_blank" rel="noopener"
+              class="block w-full py-2.5 px-4 bg-zinc-800 hover:bg-zinc-600 text-zinc-200 border border-zinc-700 font-semibold rounded-xl text-xs text-center transition">
+              Submit Off-Grid Community Batch Tally &rarr;
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tab-governance" class="tab-panel hidden space-y-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-zinc-900/50 border border-zinc-800 p-6 rounded-2xl space-y-3 hc-card">
+          <span class="text-xs font-mono uppercase text-yellow-400 font-bold">Anti-Self-Dealing Design</span>
+          <h2 class="text-xl font-bold text-white">Contributions Locked Until Org Verification</h2>
+          <p class="text-xs text-zinc-300 leading-relaxed">
+            Every bounty page for an unverified organization is support-locked by design &mdash; so nobody can invent a false bounty for an org and collect funds through Polytab (&ldquo;The Bleacher Cartel&rdquo;):
+          </p>
+          <ol class="text-xs text-zinc-300 space-y-2 list-decimal list-inside">
+            <li><strong>Locked by default:</strong> only user-created projects (with a creator-supplied payout wallet) can receive contributions from day one. Auto-listed charity pages cannot.</li>
+            <li><strong>Org Verification:</strong> a named charity unlocks its page by filing an org-claim issue with its registry number and domain control (DNS TXT or an email from its official domain). Contributions for that page then settle directly on-chain into the organization&rsquo;s own payout wallet.</li>
+            <li><strong>Direct-to-org settlement:</strong> funds never transit through Polytab &mdash; donors send straight to the verified org&rsquo;s wallet. Public receipts (tx hashes in GitHub issues) keep every sweep auditable.</li>
+          </ol>
+        </div>
+        <div class="bg-zinc-900/50 border border-zinc-800 p-6 rounded-2xl space-y-3 hc-card">
+          <span class="text-xs font-mono uppercase text-emerald-400 font-bold">Adversarial Red-Team Hardening</span>
+          <h2 class="text-xl font-bold text-white">Zero-Trust Pipeline Invariants</h2>
+          <ul class="text-xs text-zinc-300 space-y-2">
+            <li>&bull; <strong>Shell Injection Isolation:</strong> Untrusted GitHub Issue payloads are passed strictly via <code class="text-emerald-400">env:</code> variables, never interpolated into <code class="text-emerald-400">run:</code> bash blocks.</li>
+            <li>&bull; <strong>Logged &amp; Audited Votes:</strong> Every pay-to-vote transaction is logged to the public repository with hash, recipient, amount, and unique-hash rejection. Verification is a manual on-chain audit today; an automated RPC verifier is in development.</li>
+            <li>&bull; <strong>Serialized Feed Writes:</strong> Feed and ledger updates commit through a single-writer, serialized pipeline (<code class="text-emerald-400">concurrency: cancel-in-progress: false</code>, <code class="text-emerald-400">git pull --rebase</code>) to prevent TOCTOU race conditions.</li>
+            <li>&bull; <strong>DOM Sanitization:</strong> Zero <code class="text-emerald-400">innerHTML</code> rendering of user strings; strict regex guards on all EVM addresses and hashes.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="bg-zinc-900/30 border border-zinc-800 p-6 rounded-2xl space-y-3 hc-card">
+        <span class="text-xs font-mono uppercase text-purple-400 font-bold">Futarchy &amp; Adversarial Outcome Markets</span>
+        <h3 class="text-lg font-bold text-white">Vote on Values, Forecast with Pennies</h3>
+        <p class="text-xs text-zinc-300 leading-relaxed">
+          Futarchy policy markets let small-dollar contributions reveal which verified intervention a community believes works better. Every stake is a direct support held in escrow for the outcome the staker chose, locked until that beneficiary verifies its bounty page &mdash; unlocked, funds settle on-chain to the beneficiary&rsquo;s own wallet, no protocol slice, no redistribution between outcomes, and no payout to anyone<strong class="text-yellow-300"> &mdash; </strong>after verification. Settlement decides which intervention earns the documented-improvement credit and which forecasters earn non-monetary accuracy credit. Stakes for unverified beneficiaries stay locked; no funds flow anywhere until they claim. Markets launch at $0 funded with an unset forecast split; numbers appear only after verified on-chain stakes.
+        </p>
+        <ol class="text-xs text-zinc-300 space-y-2 list-decimal list-inside">
+          <li><strong>Tier 1 &mdash; Deterministic:</strong> A GitHub Action cron-fetches public data feeds (legislative dockets, agency APIs, school-district reports), SHA-256-verifies the body, and auto-settles hard metrics after the resolution deadline.</li>
+          <li><strong>Tier 2 &mdash; Community Dispute Window:</strong> Ambiguous resolutions post as public GitHub Issues with attached evidence; any staker may challenge within the 48&ndash;72 hour window by posting a dispute bond.</li>
+          <li><strong>Tier 3 &mdash; 2-of-3 Multi-Sig:</strong> Final call by the Project Champion, Task Worker, and Community/Accessibility Arbiter council — Accessibility markets always include a directly impacted stakeholder (<em>Nothing About Us Without Us</em>).</li>
+        </ol>
+        <p class="text-[11px] text-amber-300/90 bg-amber-500/5 border border-amber-500/20 rounded-xl px-3 py-2 font-mono leading-relaxed">
+          SHELVED PENDING LEGAL REVIEW: Adversarial accountability markets (&ldquo;The Civic Short&rdquo;) on named officials, corporations, or investigations present event-contract/gambling-law exposure and defamation risk. Only futarchy markets between verified 501(c)(3) interventions ship until counsel clears the adversarial tier.
+        </p>
+      </div>
+      <div class="bg-zinc-900/30 border border-zinc-800 p-6 rounded-2xl space-y-2 hc-card">
+        <span class="text-xs font-mono uppercase text-amber-400 font-bold">Historical &amp; Academic Foundation (2600 BCE &rarr; Web3)</span>
+        <h3 class="text-lg font-bold text-white">From Sumerian Clay Tablets (<em>Di-til-la</em>) to <code>polytab.store</code></h3>
+        <p class="text-xs text-zinc-300 leading-relaxed">
+          Polytab draws its name and civic structure from the earliest documented human assemblies: the Sumerian bicameral <strong>Ukkin</strong> and the Old Kingdom Egyptian <strong>Djatjat</strong> and <strong>Kenbet</strong> councils. When those ancient citizen juries settled a public works obligation or civic judgment, they inscribed the completed legal verdict onto an immutable clay tablet known as a <strong><em>Di-til-la</em></strong> ("completed case"). Polytab revives the <em>Di-til-la</em> ("Poly-Tablet") for the global digital commons—combining EVM micro-ledgers with open RSS syndication so any community on Earth can coordinate and fund public goods at zero infrastructure cost.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <div id="actionModal" class="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 hidden items-center justify-center p-4" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="bg-zinc-900 border border-zinc-700 rounded-2xl max-w-lg w-full p-6 space-y-5 shadow-2xl hc-card max-h-[92vh] overflow-y-auto">
+      <div class="flex items-start justify-between gap-4">
+        <div>
+          <span id="modalCategoryBadge" class="text-[11px] font-mono uppercase px-2 py-0.5 rounded bg-purple-500/10 text-yellow-400 border border-yellow-500/20">Category</span>
+          <h2 id="modalTitle" class="text-xl font-bold text-white mt-1">Action Title</h2>
+        </div>
+        <button id="closeModalBtn" type="button" class="text-zinc-400 hover:text-white text-sm font-mono px-2.5 py-1 rounded-lg bg-zinc-800">
+          ESC &times;
+        </button>
+      </div>
+      <div id="modalPayBlock" class="space-y-5">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center bg-black p-4 rounded-xl border border-zinc-800">
+        <div class="flex flex-col items-center text-center">
+          <div id="modalQrBox" class="p-2.5 bg-white rounded-xl" role="img" aria-label="EIP-681 Payment QR Code"></div>
+          <span id="modalQrCaption" class="text-[10px] text-zinc-400 font-mono mt-2">Scan with Mobile Wallet (Base L2)</span>
+        </div>
+        <div class="space-y-2.5">
+          <div class="text-xs text-zinc-400">
+            <span>Minimum per support unit ("vote"):</span>
+            <strong id="modalVotePrice" class="text-white text-sm block">$0.50 USD</strong>
+          </div>
+          <div>
+            <label for="supportUnitsInput" class="block text-xs text-zinc-400 mb-1">Support units (votes):</label>
+            <input id="supportUnitsInput" type="number" min="1" step="1" value="1" class="w-full bg-black border border-zinc-700 rounded-xl px-3 py-2 text-xs text-white outline-none focus:border-yellow-500" />
+            <p id="supportTotalText" class="text-[11px] text-zinc-400 mt-1">Total: $0.50 USD (1 unit). $X/vote is a minimum participation threshold; "votes" are support units, not democratic votes.</p>
+          </div>
+          <div class="text-xs text-zinc-400">
+            <span>Beneficiary Wallet (Base):</span>
+            <code id="modalWallet" class="text-[11px] text-yellow-300 font-mono break-all block mt-0.5">0x...</code>
+          </div>
+          <button id="sendEvmVoteBtn" type="button"
+            class="w-full py-2.5 px-3 bg-purple-700 hover:bg-purple-600 text-white font-bold rounded-xl text-xs transition hc-btn">
+            1. Send Support via Browser Wallet
+          </button>
+          <button id="printFlyerBtn" type="button"
+            class="w-full py-2 px-3 bg-zinc-800 hover:bg-zinc-600 text-zinc-200 border border-zinc-700 font-semibold rounded-xl text-xs transition">
+            Print Physical Campus QR Poster
+          </button>
+        </div>
+      </div>
+      <form id="verifyVoteForm" class="space-y-3 border-t border-zinc-800 pt-4">
+        <h3 class="text-xs font-bold uppercase tracking-wider text-zinc-300">2. Log &amp; Verify Transaction Hash on GitHub Ledger</h3>
+        <p class="text-[11px] text-zinc-400">
+          After sending your micro-transaction directly to the beneficiary wallet, submit the <code class="text-zinc-200">0x...</code> transaction hash below. The hash is audited on the Base/Polygon RPC (manually today; automation in development), recorded in <code class="text-zinc-200">votes.json</code>, and the edge cache is purged.
+        </p>
+        <div>
+          <label for="txHashInput" class="block text-[11px] font-semibold text-zinc-300 mb-1">EVM Transaction Hash (66 chars) *</label>
+          <input id="txHashInput" type="text" required pattern="^0x[a-fA-F0-9]{64}$" placeholder="0x8a9f3b..."
+            class="w-full bg-black border border-zinc-700 rounded-xl px-3 py-2 text-xs text-white font-mono outline-none focus:border-yellow-500" />
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <div>
+            <label for="voterHandleInput" class="block text-[11px] font-semibold text-zinc-300 mb-1">Public Handle (Discord / TG / GitHub)</label>
+            <input id="voterHandleInput" type="text" maxlength="50" placeholder="@student_handle"
+              class="w-full bg-black border border-zinc-700 rounded-xl px-3 py-2 text-xs text-white outline-none focus:border-yellow-500" />
+          </div>
+          <div class="flex items-end">
+            <button type="submit" class="w-full py-2 px-4 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-xl text-xs transition">
+              Verify TX via GitHub Issue &rarr;
+            </button>
+          </div>
+        </div>
+      </form>
+      </div>
+      <div id="modalLockBlock" class="hidden space-y-4 border border-amber-500/30 bg-amber-500/5 rounded-xl p-5 text-center">
+        <div class="text-3xl leading-none" aria-hidden="true">&#128274;</div>
+        <h3 class="text-base font-bold text-amber-200">Contributions locked for #<span id="lockProjectId"></span></h3>
+        <p class="text-xs text-zinc-300 leading-relaxed">
+          This organization hasn&rsquo;t verified its bounty page yet, so funds are not accepted. Verification confirms the organization&rsquo;s legal identity and official domain (registry + DNS TXT or org-domain email). Contributions settle directly into the verified organization&rsquo;s Base wallet; Polytab never holds funds.
+        </p>
+        <div class="flex flex-col items-center gap-2 pt-1">
+          <a id="modalClaimLink" href="#" target="_blank" rel="noopener noreferrer" class="inline-block px-4 py-2 rounded-xl bg-amber-500/15 border border-amber-500/40 text-amber-200 text-sm font-semibold hover:text-amber-100">Is This Your Org? Claim This Page</a>
+          <a href="./claim.html" target="_blank" rel="noopener noreferrer" class="text-[11px] text-zinc-400 hover:text-zinc-200 underline underline-offset-2">How verification works &rarr;</a>
+        </div>
+      </div>
+      <div class="border-t border-zinc-800 pt-3 flex items-center justify-between text-xs gap-2">
+        <span class="text-zinc-400">Did you complete this physical/digital task?</span>
+        <span class="flex items-center gap-2">
+          <button id="openProofSubmissionBtn" type="button" class="text-yellow-400 hover:text-yellow-300 font-semibold underline">
+            Submit Proof-of-Work &rarr;
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <section id="printableFlyer" aria-hidden="true">
+    <div style="border: 4px solid #000; padding: 24px; max-width: 680px; margin: 0 auto; text-align: center;">
+      <p style="font-size: 12px; font-weight: bold; letter-spacing: 2px; text-transform: uppercase; margin: 0;">POLYTAB.STORE &bull; DECENTRALIZED CIVIC ACTION BOUNTY</p>
+      <h1 id="printFlyerTitle" style="font-size: 28px; font-weight: 900; margin: 12px 0;">Action Title</h1>
+      <p id="printFlyerMeta" style="font-size: 14px; margin-bottom: 16px;">Category &bull; Location</p>
+      <p id="printFlyerDesc" style="font-size: 15px; line-height: 1.5; margin-bottom: 20px;"></p>
+      <div id="printFlyerQr" style="display: inline-block; padding: 12px; border: 2px solid #000; margin-bottom: 16px;"></div>
+      <p id="printFlyerPrice" style="font-size: 18px; font-weight: bold; margin: 8px 0;">Scan with any Web3 Wallet to Cast a $0.50 Micro-Vote</p>
+      <p id="printFlyerWallet" style="font-family: monospace; font-size: 12px; word-break: break-all; margin: 4px 0;"></p>
+      <hr style="margin: 16px 0; border: 1px dashed #000;" />
+      <p style="font-size: 12px;">No smartphone or Web3 wallet? Text <strong>VOTE</strong> to our SMS gateway or visit <strong>https://polytab.store</strong></p>
+    </div>
+  </section>
+
+  <footer class="border-t border-zinc-800/80 bg-black py-6 mt-12 text-xs text-zinc-400">
+    <div class="w-full px-4 sm:px-6 lg:px-8 flex flex-col gap-4 items-center text-center">
+      <p class="text-[11px] leading-relaxed text-zinc-500 w-full text-center">
+        Disclaimer: Polytab is static open-source interface software hosted on GitHub Pages and Cloudflare Edge. Contributions to bounty pages whose organizations have not verified are disabled entirely &mdash; Polytab never takes custody of funds. Contributions remain locked until each named organization verifies its bounty page (registry + domain control); verification unlocks the page and sends contributions directly to the organization&rsquo;s own payout wallet on Base. Verified charities receive contributions directly on-chain into their own Base wallet; user-created bounty pages settle directly into the creator&rsquo;s wallet. Polytab is not a bank, a charity, or an insurer; micro-transactions settle on Base/Polygon and are non-refundable; see Terms.
+      </p>
+      <div class="flex flex-wrap justify-center gap-3 font-mono text-[11px] w-full">
+        <a href="https://www.youtube.com/@clairewineland" target="_blank" rel="noopener" class="text-zinc-300 hover:text-yellow-400">For Claire ♥</a>
+        <span>&bull;</span>
+        <a href="./faq.html" class="text-zinc-300 hover:text-yellow-400">FAQ &amp; How-Tos</a>
+        <span>&bull;</span>
+        <a href="./claim.html" class="text-zinc-300 hover:text-yellow-400">Claim Bounty Page</a>
+        <span>&bull;</span>
+        <a href="./terms.html" class="text-zinc-300 hover:text-yellow-400">Terms</a>
+        <span>&bull;</span>
+        <a href="./privacy.html" class="text-zinc-300 hover:text-yellow-400">Privacy</a>
+        <span>&bull;</span>
+        <a href="./feed.xml" class="text-zinc-300 hover:text-yellow-400">RSS 2.0</a>
+        <span>&bull;</span>
+        <a href="./feed.json" class="text-zinc-300 hover:text-yellow-400">JSON Feed</a>
+        <span>&bull;</span>
+        <a href="https://github.com/R03LV1S/Polytab" target="_blank" rel="noopener" class="text-zinc-300 hover:text-yellow-400">GitHub Repo</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Cloud endorsement backend (optional): set to your Cloudflare Worker URL, e.g. "https://polytab-endorsement-ledger.<subdomain>.workers.dev"
+    // Leave empty "" to keep using GitHub-issue endorsements only.
+    window.POLYTAB_ENDORSEMENT_API = window.POLYTAB_ENDORSEMENT_API || "";
+  </script>
+  <script>
+    (function () {
+      "use strict";
+      const GITHUB_OWNER = "R03LV1S";
+      const GITHUB_REPO = "Polytab";
+      const ENDORSEMENT_API = (window.POLYTAB_ENDORSEMENT_API || "").replace(/\/$/, "");
+      const BASE_CHAIN_ID = 8453;
+      let ethUsdSpot = 2800;
+      let baseGasWei = null;
+      function formatGasUsd(usd) {
+        if (!Number.isFinite(usd) || usd <= 0) return "Gas < $0.002";
+        if (usd < 0.0001) return "Gas < $0.0001";
+        if (usd < 0.01) return "Gas ~ $" + usd.toFixed(4).replace(/0+$/, "").replace(/\.$/, ".00");
+        return "Gas ~ $" + usd.toFixed(3);
+      }
+      function updateGasEstimate() {
+        const el = document.getElementById("statGasEstimate");
+        if (!el) return;
+        const gasLimit = 150000; // estimated tx gas units for typical micro-vote/payment
+        const priceWei = Number(baseGasWei);
+        const ethUsd = (typeof ethUsdSpot === "number" && ethUsdSpot > 0) ? ethUsdSpot : 2800;
+        if (Number.isFinite(priceWei) && priceWei > 0) {
+          const usd = (priceWei / 1e18) * gasLimit * ethUsd;
+          el.textContent = formatGasUsd(usd);
+          el.title = "Estimated gas cost for ~" + gasLimit.toLocaleString() + " gas on Base at current network conditions.";
+        } else {
+          el.textContent = "Gas < $0.002";
+          el.title = "Estimated gas cost on Base (live estimate unavailable).";
+        }
+      }
+      async function fetchEthUsdSpot() {
+        try {
+          const c = new AbortController(); const t = setTimeout(() => c.abort(), 2500);
+          const res = await fetch("https://api.coinbase.com/v2/prices/ETH-USD/spot", { signal: c.signal, cache: "no-store" });
+          clearTimeout(t);
+          if (res.ok) {
+            const data = await res.json();
+            const p = Number(data && data.data && data.data.amount);
+            if (Number.isFinite(p) && p > 0) { ethUsdSpot = p; }
+          }
+        } catch (_) {}
+        updateGasEstimate();
+      }
+      async function fetchBaseGasEstimate() {
+        try {
+          const c = new AbortController(); const t = setTimeout(() => c.abort(), 3500);
+          const res = await fetch("https://mainnet.base.org", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ jsonrpc: "2.0", id: 1, method: "eth_gasPrice", params: [] }),
+            signal: c.signal,
+            cache: "no-store"
+          });
+          clearTimeout(t);
+          if (res.ok) {
+            const data = await res.json();
+            const hex = data && data.result;
+            if (typeof hex === "string" && /^0x[0-9a-fA-F]+$/.test(hex)) {
+              baseGasWei = BigInt(hex).toString();
+            }
+          }
+        } catch (_) {}
+        updateGasEstimate();
+      }
+      fetchEthUsdSpot();
+      fetchBaseGasEstimate();
+      setInterval(fetchBaseGasEstimate, 60000);
+      // Bloc pipeline: IDs are bloc-assigned (Charities 10000-79999, etc.) and never renumbered.
+      // All auto-listed pages ship with a placeholder wallet and support buttons LOCKED until the
+      // named organization verifies (org-claim issue: registry + DNS TXT/official-domain email).
+      // Contributions settle directly on-chain into the verified organization's payout wallet — Polytab never custodies funds.
+      const ESCROW_WALLET = "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08";
+      // --- ID identification pipeline (scaffolded, bloc format) ---
+      // Parents/ranges: Charities 10000-79999. Speculative 80000-89999. Voting 90000-99999 (leaf blocs; gaps reserved).
+      // Bloc IDs: numeric id string, url /#<id>. Attribution only. Unclaimed pages stay locked; payments settle direct to the verified org's payout wallet. Never renumber existing IDs.
+      const PARENT_CHARITIES = "Charities";
+      const PARENT_SPECULATIVE = "Speculative";
+      const PARENT_VOTING = "Voting";
+      const CHARITY_CATEGORIES = ["Accessibility & Universal Design", "Environmental", "Civic Tech", "Classrooms", "Arts & Clubs", "Campus Grounds", "Athletics"];
+      const SPECULATIVE_CATEGORIES = ["Policy & Local Outcomes", "Elections & Civic Accountability", "Public Safety & Infrastructure", "Global & Humanitarian Outcomes"];
+      const VOTING_CATEGORIES = ["Community Referendums", "Public Office & Elections", "Policy & Governance Votes", "Global Outcome Votes"];
+      const CATEGORY_LABELS = {
+        "Accessibility & Universal Design": "Accessible Spaces & Equipment",
+        "Environmental": "Green Spaces & Cleanups",
+        "Civic Tech": "Community Tech Tools",
+        "Classrooms": "Schools & Learning",
+        "Arts & Clubs": "Arts, Culture & Clubs",
+        "Campus Grounds": "Campus Grounds & Yards",
+        "Athletics": "Sports & Fields",
+        "Policy & Local Outcomes": "Local Policy Wins",
+        "Elections & Civic Accountability": "Election Integrity",
+        "Public Safety & Infrastructure": "Safety & Public Infrastructure",
+        "Global & Humanitarian Outcomes": "Global Humanitarian Aid",
+        "Community Referendums": "Community Polls",
+        "Public Office & Elections": "Public Office Races",
+        "Policy & Governance Votes": "Policy & Governance Votes",
+        "Global Outcome Votes": "Global Outcome Votes"
+      };
+      const CATEGORY_BLOCKS = {
+        "Accessibility & Universal Design": 10000,
+        "Environmental": 20000,
+        "Civic Tech": 30000,
+        "Classrooms": 40000,
+        "Arts & Clubs": 45000,
+        "Campus Grounds": 60000,
+        "Athletics": 70000,
+        "Policy & Local Outcomes": 81000,
+        "Elections & Civic Accountability": 82000,
+        "Public Safety & Infrastructure": 83000,
+        "Global & Humanitarian Outcomes": 84000,
+        "Community Referendums": 91000,
+        "Public Office & Elections": 92000,
+        "Policy & Governance Votes": 93000,
+        "Global Outcome Votes": 94000
+      };
+      const CATEGORY_PARENT = {};
+      CHARITY_CATEGORIES.forEach((c) => { CATEGORY_PARENT[c] = PARENT_CHARITIES; });
+      SPECULATIVE_CATEGORIES.forEach((c) => { CATEGORY_PARENT[c] = PARENT_SPECULATIVE; });
+      VOTING_CATEGORIES.forEach((c) => { CATEGORY_PARENT[c] = PARENT_VOTING; });
+      function walletForId(_id) { return ESCROW_WALLET; }
+      function parentForCategory(cat) {
+        if (CATEGORY_PARENT[cat]) return CATEGORY_PARENT[cat];
+        const base = CATEGORY_BLOCKS[cat];
+        if (base == null) return PARENT_CHARITIES;
+        if (base >= 90000) return PARENT_VOTING;
+        if (base >= 80000) return PARENT_SPECULATIVE;
+        return PARENT_CHARITIES;
+      }
+      function nextIdForCategory(cat, proposals) {
+        const base = CATEGORY_BLOCKS[cat];
+        if (base == null) return null;
+        let maxOff = 0;
+        (proposals || []).forEach((p) => {
+          const n = parseInt(p.id, 10);
+          if (Number.isFinite(n) && n > base && n < base + 10000) { const off = n - base; if (off > maxOff) maxOff = off; }
+        });
+        const next = base + maxOff + 1;
+        return (next < base + 10000) ? String(next) : null;
+      }
+      const PARENTS = [PARENT_VOTING, PARENT_SPECULATIVE, PARENT_CHARITIES];
+      const PARENT_CATEGORIES = { [PARENT_CHARITIES]: CHARITY_CATEGORIES, [PARENT_SPECULATIVE]: SPECULATIVE_CATEGORIES, [PARENT_VOTING]: VOTING_CATEGORIES };
+      const CATEGORIES = ["ALL"].concat(CHARITY_CATEGORIES).concat(SPECULATIVE_CATEGORIES).concat(VOTING_CATEGORIES);
+      const PAGE_SIZE = 6;
+      const FALLBACK_PROPOSALS = [
+        { id: "1", title: "Science Lab Wheelchair-Accessible Station & Lowered Bench", parentCategory: "Charities", category: "Accessibility & Universal Design", location: "Science Wing / Room 204", summary: "Retrofit Station #1 in Chemistry Lab B with an adjustable-height ADA workbench, accessible sink controls, and clear knee clearance.", plainSummary: "Cause: Chemistry lab tables are too high for wheelchair users.\nResolution: Install a height-adjustable lab desk.\nProof: Photo of installed desk co-signed by student accessibility council.", campaignType: "fixed", votePriceUSD: 0.50, targetUSD: 65.00, fundedUSD: 0, votesCount: 0, wallet: "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08", status: "Active", lat: null, lng: null, website: null, socials: {}, datePublishedMs: 0 },
+        { id: "2", title: "North Stadium Bleacher Power-Wash & Handrail Repaint", parentCategory: "Charities", category: "Athletics", location: "North Field / Bleachers", summary: "Clear debris under visitor bleachers, pressure-wash aluminum benches, and apply rust-oleate safety yellow paint to stair handrails.", plainSummary: "Cause: Stadium bleachers are dirty and handrails are rusty.\nResolution: Power-wash seats and paint stair rails bright yellow.\nProof: Before and after photos posted to RSS feed.", campaignType: "fixed", votePriceUSD: 0.50, targetUSD: 45.00, fundedUSD: 0, votesCount: 0, wallet: "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08", status: "Active", lat: null, lng: null, website: null, socials: {}, datePublishedMs: 0 },
+        { id: "3", title: "East Entrance Tactile Paving & Curb-Cut Repair", parentCategory: "Charities", category: "Accessibility & Universal Design", location: "East Sidewalk / Bus Drop-off", summary: "Patch cracked concrete lip on the East sidewalk ramp and install high-visibility truncated dome tactile mats for blind and low-vision navigation.", plainSummary: "Cause: Cracked sidewalk ramp blocks wheelchairs and lacks textured bumps for cane users.\nResolution: Smooth concrete lip and bolt down yellow tactile dome mat.\nProof: Geo-tagged video test.", campaignType: "fixed", votePriceUSD: 0.25, targetUSD: 50.00, fundedUSD: 0, votesCount: 0, wallet: "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08", status: "Active", lat: null, lng: null, website: null, socials: {}, datePublishedMs: 0 },
+        { id: "4", title: "Art Studio Sink Trap Cleanout & Brush Restock", parentCategory: "Charities", category: "Classrooms", location: "North Wing / Art Room 108", summary: "Clear clay sediment from dual sink traps and purchase 24 synthetic acrylic brushes for shared student use.", plainSummary: "Cause: Art room sink drains slowly and shared brushes are worn out.\nResolution: Clean drain trap and buy 24 new brushes.\nProof: Receipt + photo of clean working sink.", campaignType: "fixed", votePriceUSD: 0.25, targetUSD: 25.00, fundedUSD: 0, votesCount: 0, wallet: "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08", status: "Active", lat: null, lng: null, website: null, socials: {}, datePublishedMs: 0 },
+        { id: "5", title: "Solar Pollinator Waystation & Native Milkweed Bed", parentCategory: "Charities", category: "Environmental", location: "South Courtyard", summary: "Convert 40 sq ft of neglected gravel beds into native milkweed and wildflower pollinator habitats with solar drip irrigation.", plainSummary: "Cause: South courtyard bed is weeds and gravel.\nResolution: Plant native flowers for bees and butterflies.\nProof: Time-lapse video of planting.", campaignType: "open_ended", votePriceUSD: 0.50, targetUSD: null, fundedUSD: 0, votesCount: 0, wallet: "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08", status: "Active", lat: null, lng: null, website: null, socials: {}, datePublishedMs: 0 },
+        { id: "6", title: "Open-Source Municipal & School Budget Visualizer", parentCategory: "Charities", category: "Civic Tech", location: "Global / Digital Commons", summary: "Convert annual PDF line-item expenditure tables into an open-source, screen-reader-accessible CSV and interactive chart repository.", plainSummary: "Cause: Budget reports are locked in hard-to-read PDF files.\nResolution: Build a free searchable web chart.\nProof: Public GitHub repository release.", campaignType: "fixed", votePriceUSD: 0.50, targetUSD: 60.00, fundedUSD: 0, votesCount: 0, wallet: "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08", status: "Active", lat: null, lng: null, website: null, socials: {}, datePublishedMs: 0 }
+      ];
+      function loadEndorsements() {
+        try { const v = JSON.parse(localStorage.getItem("polytab_endorsements") || "{}"); return (v && typeof v === "object" && !Array.isArray(v)) ? v : {}; } catch (_) { return {}; }
+      }
+      function saveEndorsements(map) {
+        try { localStorage.setItem("polytab_endorsements", JSON.stringify(map || {})); } catch (_) {}
+      }
+      function isEndorsed(id) { return !!state.endorsements[String(id)]; }
+      function toggleEndorsement(id) {
+        const k = String(id);
+        if (state.endorsements[k]) { delete state.endorsements[k]; } else { state.endorsements[k] = true; }
+        saveEndorsements(state.endorsements);
+      }
+      function formatLikeCount(n) {
+        const v = Number(n);
+        if (!Number.isFinite(v) || v < 0) return "0";
+        if (v < 1000) return String(Math.floor(v));
+        if (v < 1000000) return (v / 1000).toFixed(1).replace(/\.0$/, "") + "K";
+        return (v / 1000000).toFixed(1).replace(/\.0$/, "") + "M";
+      }
+      function verifiedEndorsementCount(id) {
+        const snap = state.verifiedEndorsements;
+        let gh = null;
+        if (snap && typeof snap === "object" && snap.totals) {
+          const t = snap.totals[String(id)];
+          gh = t ? (Number.isFinite(Number(t.count)) ? Number(t.count) : 0) : 0;
+        }
+        let cloud = 0;
+        const cs = state.cloudEndorsements;
+        if (cs && cs.projects && cs.projects[String(id)]) {
+          const n = Number(cs.projects[String(id)].total);
+          cloud = Number.isFinite(n) ? n : 0;
+        }
+        if (gh == null && !cs) return null;
+        return (gh == null ? 0 : gh) + cloud;
+      }
+      function endorsementIssueUrl(item) {
+        const pcat = item.parentCategory || parentForCategory(item.category) || PARENT_CHARITIES;
+        const payload = JSON.stringify({ bounty_id: String(item.id), parentCategory: pcat, category: item.category, title: item.title }, null, 2);
+        const fence = String.fromCharCode(96,96,96);
+        const params = new URLSearchParams({
+          title: "[Endorse]: #" + String(item.id),
+          labels: "endorsement",
+          body: "### Verified Bounty Endorsement (GitHub ledger)\n" +
+            "This issue is a verifiable endorsement. Global counts are derived from unique GitHub users per canonical bounty ID (deduped). No counts are fabricated.\n\n" +
+            fence + "json\n" + payload + "\n" + fence + "\n\n" +
+            "- Canonical project ID: " + String(item.id) + "\n" +
+            "- Parent: " + pcat + "\n- Category: " + item.category + "\n" +
+            "- Note: One endorsement counted per unique GitHub account per bounty in the aggregated snapshot."
+        });
+        return "https://github.com/" + GITHUB_OWNER + "/" + GITHUB_REPO + "/issues/new?" + params.toString();
+      }
+      function effectiveWalletFor(item) {
+        const direct = item && typeof item === "object" && (item._walletOverride || (item.id != null && orgWalletForId(item.id)));
+        if (direct) return String(direct);
+        return (item && item.wallet) || "";
+      }
+      function payableWalletFor(item) {
+        if (orgClaimBadgeFor(item) === "unclaimed") return null;
+        const w = String(effectiveWalletFor(item) || "").trim();
+        if (!isValidAddress(w)) return null;
+        if (w.toLowerCase() === ESCROW_WALLET.toLowerCase()) return null;
+        return w;
+      }
+      function orgWalletForId(id) {
+        const m = state.orgWallets;
+        if (m && typeof m.get === "function") { const e = m.get(String(id)); if (e && isValidAddress(e.wallet)) return e.wallet; }
+        return null;
+      }
+      function orgClaimIssueUrl(item) {
+        const params = new URLSearchParams({
+          title: "[Org Claim]: #" + String(item.id || "") + " - " + String(item.title || "").slice(0, 80),
+          labels: "org-claim",
+          body: "### Organization claim — bounty page #" + String(item.id || "") + "\n" +
+            "Claim this Polytab bounty page on behalf of an organization. Support buttons unlock on completion; funds settle directly into the payout wallet this issue provides.\n\n" +
+            "**Organization legal name:**\n" +
+            "**Organization website:**\n" +
+            "**Registry & ID (e.g. IRS EIN / CRA BN / Charity number):**\n" +
+            "**Registry lookup URL:**\n" +
+            "**First + last name of the requesting officer (must be on the org's public record):**\n" +
+            "**Official email (same domain as the org website):**\n" +
+            "**Payout wallet (0x, on Base chain ID 8453):**\n" +
+            "**Verification (required — pick one):** (a) add `polytab-verify=" + String(item.id || "<project-id>") + "` as a TXT record on your domain (fastest), or (b) reply from an email address on your organization's official domain confirming (registry record, officer, payout wallet). Self-asserted contact info is never sufficient.\n" +
+            "**Confirmation:** By submitting, you confirm that this wallet belongs to the organization and that contributed funds will be used for it.\n"
+        });
+        return "https://github.com/" + GITHUB_OWNER + "/" + GITHUB_REPO + "/issues/new?" + params.toString();
+      }
+      function orgClaimBadgeFor(item) {
+        const w = String(effectiveWalletFor(item) || "");
+        return w.toLowerCase() === ESCROW_WALLET.toLowerCase() ? "unclaimed" : "verified";
+      }
+      async function loadVerifiedEndorsements() {
+        const controller = new AbortController();
+        const timeout = setTimeout(() => controller.abort(), 2500);
+        try {
+          const res = await fetch("./data/endorsements.json", { signal: controller.signal, cache: "no-store" });
+          clearTimeout(timeout);
+          if (!res.ok) throw new Error("endorsements snapshot status not 200");
+          const data = await res.json();
+          state.verifiedEndorsements = data;
+          state.endorsementsSnapshotStatus = "loaded";
+        } catch (_) {
+          state.verifiedEndorsements = null;
+          state.endorsementsSnapshotStatus = "unavailable";
+        }
+        if (ENDORSEMENT_API) {
+          try {
+            const c = new AbortController(); const t2 = setTimeout(() => c.abort(), 2500);
+            const r2 = await fetch(ENDORSEMENT_API + "/api/endorsements.json", { signal: c.signal, cache: "no-store" });
+            clearTimeout(t2);
+            if (r2.ok) state.cloudEndorsements = await r2.json();
+          } catch (_) { state.cloudEndorsements = null; }
+        }
+        renderProposalsGrid();
+      }
+      let state = { orgWallets: new Map(), proposals: [], markets: [], selectedCategory: PARENT_VOTING, selectedStatus: "ALL", searchQuery: "", plainLanguageMode: false, highContrastMode: false, liteMode: false, connectedAddress: null, socialHandle: localStorage.getItem("polytab_handle") || "", activeModalProposal: null, mapInstance: null, expandedParents: { [PARENT_VOTING]: true, [PARENT_SPECULATIVE]: false, [PARENT_CHARITIES]: false }, showAllCategoriesSection: true, endorsements: loadEndorsements(), verifiedEndorsements: null, cloudEndorsements: null, endorsementsSnapshotStatus: "loading", page: 1, sortBy: "default", zipQuery: "", zipLat: null, zipLng: null, zipResolvedCode: null, locMode: "none", locKind: null, locCountry: null, locState: null, locCity: null, locLabel: "" };
+      function isValidAddress(addr) { return /^0x[a-fA-F0-9]{40}$/.test(String(addr || "").trim()); }
+      function isValidTxHash(hash) { return /^0x[a-fA-F0-9]{64}$/.test(String(hash || "").trim()); }
+      async function loadOverlayWallets() {
+        try {
+          const res = await fetch("./data/org-wallets.json", { cache: "no-store" });
+          if (!res.ok) return;
+          const data = await res.json();
+          const map = new Map();
+          const entries = (data && data.entries) || {};
+          for (const id of Object.keys(entries)) {
+            const e = entries[id] || {};
+            if (isValidAddress(e.wallet)) map.set(String(id), { wallet: e.wallet, org: String(e.org || ""), issue: Number(e.issue) || 0 });
+          }
+          state.orgWallets = map;
+        } catch (_) { state.orgWallets = new Map(); }
+      }
+      async function loadFeedState() {
+        const controller = new AbortController();
+        const timeout = setTimeout(() => controller.abort(), 2500);
+        try {
+          await loadOverlayWallets();
+          const res = await fetch("./feed.json", { signal: controller.signal });
+          clearTimeout(timeout);
+          if (!res.ok) throw new Error("Feed status not 200");
+          const feed = await res.json();
+          if (Array.isArray(feed.items) && feed.items.length > 0) {
+            state.proposals = feed.items.map((item, idx) => {
+              const meta = item._polytab || {};
+              const dp = (typeof item.date_published === "string" && item.date_published) ? Date.parse(item.date_published) : NaN;
+              const cTypeRaw = String(meta.campaignType || meta.campaign_type || "").toLowerCase();
+              const rawTarget = (meta.targetUSD === null || meta.targetUSD === undefined || meta.targetUSD === "") ? null : Number(meta.targetUSD);
+              const cType = cTypeRaw === "open_ended" ? "open_ended" : (cTypeRaw === "fixed" ? "fixed" : ((rawTarget == null) ? "open_ended" : "fixed"));
+              const fixedTarget = (rawTarget != null && Number.isFinite(rawTarget) && rawTarget > 0) ? rawTarget : 45.00;
+              return {
+                id: String(item.id || idx + 1),
+                title: String(item.title || "Untitled Action"),
+                parentCategory: String(meta.parentCategory || parentForCategory(String(meta.category || "Campus Grounds")) || PARENT_CHARITIES),
+                category: String(meta.category || "Campus Grounds"),
+                location: String(meta.location || "Community"),
+                summary: String(item.summary || item.content_text || ""),
+                plainSummary: String(meta.plainSummary || item.summary || ""),
+                campaignType: cType,
+                votePriceUSD: Number(meta.votePriceUSD) || 0.50,
+                targetUSD: cType === "open_ended" ? null : fixedTarget,
+                fundedUSD: Number(meta.fundedUSD) || 0.00,
+                votesCount: Number(meta.votesCount) || 0,
+                wallet: isValidAddress(meta.contract || meta.wallet) ? meta.contract || meta.wallet : "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+                status: String(meta.status || "Active"),
+                lat: (meta.lat === null || meta.lat === undefined || meta.lat === "") ? null : Number(meta.lat),
+                lng: (meta.lng === null || meta.lng === undefined || meta.lng === "") ? null : Number(meta.lng),
+                website: (typeof meta.website === "string" && /^https?:\/\//i.test(meta.website)) ? meta.website.trim() : null,
+                socials: (meta.socials && typeof meta.socials === "object" && !Array.isArray(meta.socials)) ? meta.socials : {},
+                datePublishedMs: Number.isFinite(dp) ? dp : 0
+              };
+            });
+          } else { state.proposals = FALLBACK_PROPOSALS; }
+        } catch (_) { state.proposals = FALLBACK_PROPOSALS; }
+        // Apply verified org overlays: claimed pages unlock with their wallet.
+        state.proposals = (state.proposals || []).map(p => {
+          const w = orgWalletForId(p.id);
+          return w ? Object.assign({}, p, { wallet: w, _walletOverride: w }) : p;
+        });
+        updateTelemetry();
+        renderCategoryPills();
+        renderProposalsGrid();
+        startRssTicker();
+      }
+      const FALLBACK_MARKETS = [];
+      async function loadMarkets() {
+        const controller = new AbortController();
+        const timeout = setTimeout(() => controller.abort(), 2500);
+        try {
+          const res = await fetch("./data/markets.json", { signal: controller.signal });
+          clearTimeout(timeout);
+          if (!res.ok) throw new Error("Markets status not 200");
+          const data = await res.json();
+          state.markets = Array.isArray(data.markets) ? data.markets.map((m) => ({
+            id: String(m.id || ""),
+            title: String(m.title || "Untitled Market"),
+            category: String(m.category || "Civic Tech"),
+            status: String(m.status || "Open"),
+            outcomes: Array.isArray(m.outcomes) ? m.outcomes.map((o) => ({
+              key: String(o.key || "A"),
+              label: String(o.label || "Outcome"),
+              organization: String(o.organization || ""),
+              beneficiaryBountyId: String(o.beneficiaryBountyId || ""),
+              escrowWallet: isValidAddress(o.escrowWallet) ? o.escrowWallet : ""
+            })) : [],
+            stakePriceUSD: Number(m.stakePriceUSD) || 0.50,
+            totalVolumeUSD: Number(m.totalVolumeUSD) || 0,
+            forecastSplit: m.forecastSplit || null,
+            resolutionRule: String(m.resolutionRule || ""),
+            oracleSource: String((m.oracle && m.oracle.source) || ""),
+            resolutionDeadline: String((m.oracle && m.oracle.resolutionDeadline) || ""),
+            disputeWindowHours: Number(m.oracle && m.oracle.disputeWindowHours) || 48,
+            fundingRule: String(m.fundingRule || ""),
+            reputationRule: String(m.reputationRule || ""),
+            plainSummary: String(m.plainSummary || "")
+          })) : FALLBACK_MARKETS;
+        } catch (_) { state.markets = FALLBACK_MARKETS; }
+        // Unlock outcomes whose beneficiary bounty page was claimed
+        state.markets = (state.markets || []).map(m => ({
+          ...m,
+          outcomes: (m.outcomes || []).map(o => {
+            const w = orgWalletForId(o.beneficiaryBountyId);
+            return w ? { ...o, escrowWallet: w } : o;
+          })
+        }));
+        renderMarketsGrid();
+      }
+      function renderMarketsGrid() {
+        const grid = document.getElementById("marketsGrid");
+        grid.replaceChildren();
+        if (state.markets.length === 0) {
+          const emptyBox = document.createElement("div");
+          emptyBox.className = "col-span-full bg-zinc-900/40 border border-zinc-800 rounded-2xl p-8 text-center text-zinc-400 text-sm";
+          emptyBox.textContent = "No open prediction markets. Markets are listed by the governance council from verified organizations in Browse Projects.";
+          grid.appendChild(emptyBox);
+          return;
+        }
+        state.markets.forEach((m) => {
+          const card = document.createElement("article");
+          card.className = "bg-zinc-900/60 border border-zinc-800 hover:border-zinc-700 rounded-2xl p-5 space-y-4 transition shadow-lg hc-card";
+          const badgeRow = document.createElement("div");
+          badgeRow.className = "flex items-center justify-between gap-2 flex-wrap";
+          const catBadge = document.createElement("span");
+          const isAccess = m.category.includes("Accessibility");
+          catBadge.className = isAccess ? "text-[11px] font-mono font-semibold px-2.5 py-0.5 rounded-md bg-amber-500/10 text-amber-300 border border-amber-500/30 hc-accent" : "text-[11px] font-mono font-semibold px-2.5 py-0.5 rounded-md bg-purple-500/10 text-yellow-300 border border-yellow-500/20";
+          catBadge.textContent = m.category;
+          const statusBadge = document.createElement("span");
+          statusBadge.className = "text-[11px] font-mono px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20";
+          statusBadge.textContent = m.status;
+          badgeRow.appendChild(catBadge);
+          badgeRow.appendChild(statusBadge);
+          const titleH3 = document.createElement("h3");
+          titleH3.className = "text-base font-bold text-white leading-snug";
+          titleH3.textContent = m.title;
+          const descP = document.createElement("p");
+          descP.className = "text-xs text-zinc-300 leading-relaxed whitespace-pre-line";
+          descP.textContent = state.plainLanguageMode ? m.plainSummary : [m.fundingRule, m.reputationRule].filter(Boolean).join("\n\n");
+          const volumeP = document.createElement("p");
+          volumeP.className = "text-[11px] text-zinc-400 font-mono";
+          volumeP.textContent = "Funded: $" + m.totalVolumeUSD.toFixed(2) + (m.forecastSplit ? " — Forecast split: " + m.forecastSplit : " — Forecast split: unset (no verified stakes yet)");
+          const outcomesDiv = document.createElement("div");
+          outcomesDiv.className = "space-y-2 pt-2 border-t border-zinc-800/80";
+          const outcomesLabel = document.createElement("p");
+          outcomesLabel.className = "text-[11px] text-zinc-500 font-mono uppercase tracking-wider";
+          outcomesLabel.textContent = "Stake an outcome";
+          outcomesDiv.appendChild(outcomesLabel);
+          m.outcomes.forEach((o) => {
+            const row = document.createElement("div");
+            row.className = "space-y-2";
+            const outcomeLocked = String(o.escrowWallet || "").toLowerCase() === ESCROW_WALLET.toLowerCase();
+            if (outcomeLocked) {
+              const btn = document.createElement("button");
+              btn.type = "button";
+              btn.className = "w-full py-2.5 px-4 bg-amber-500/10 hover:bg-amber-500/15 text-amber-200 font-bold rounded-xl text-xs border border-amber-500/40 transition hc-btn";
+              btn.textContent = "Locked — Funds unlock once " + o.organization + " verifies its bounty page";
+              btn.title = "Contributions are disabled until the beneficiary organization verifies (org-claim.yml).";
+              const lockedNote = document.createElement("p");
+              lockedNote.className = "text-[11px] text-amber-200/80 leading-snug pt-1";
+              lockedNote.textContent = "Contributions resume once the organization files its org-claim and verifies (registry + DNS TXT). Until then, nothing is collected and nothing transits Polytab.";
+              row.appendChild(btn);
+              row.appendChild(lockedNote);
+              outcomesDiv.appendChild(row);
+              return;
+            }
+            const btn = document.createElement("button");
+            btn.type = "button";
+            btn.className = "w-full py-2.5 px-4 bg-zinc-800 hover:bg-zinc-700 text-white font-bold rounded-xl text-xs transition hc-btn";
+            btn.textContent = "Fund $" + m.stakePriceUSD.toFixed(2) + " - " + o.label + " (" + o.organization + ")";
+            const panel = document.createElement("div");
+            panel.className = "hidden bg-black/40 border border-zinc-800 rounded-xl p-3 space-y-2";
+            const approxWei = String(Math.round((m.stakePriceUSD / 2800) * 1e18));
+            const eip681 = "ethereum:" + o.escrowWallet + "@" + BASE_CHAIN_ID + "?value=" + approxWei;
+            const qrBox = document.createElement("div");
+            qrBox.className = "p-2 bg-white rounded-xl mx-auto";
+            qrBox.setAttribute("role", "img");
+            qrBox.setAttribute("aria-label", "EIP-681 stake QR code for outcome " + o.label);
+            if (typeof QRCode !== "undefined") {
+              new QRCode(qrBox, { text: eip681, width: 110, height: 110, colorDark: "#000000", colorLight: "#ffffff", correctLevel: QRCode.CorrectLevel.M });
+            }
+            const uriP = document.createElement("p");
+            uriP.className = "text-[10px] text-zinc-400 font-mono break-all";
+            uriP.textContent = eip681;
+            const fundingNote = document.createElement("p");
+            fundingNote.className = "text-[10px] text-emerald-300/90 leading-relaxed";
+            fundingNote.textContent = "100% of this amount goes to " + o.organization + " (bounty #" + o.beneficiaryBountyId + "). No protocol fee and no payout to you.";
+            const recordBtn = document.createElement("button");
+            recordBtn.type = "button";
+            recordBtn.className = "w-full py-2 bg-purple-700 hover:bg-purple-600 text-white font-semibold rounded-xl text-[11px] transition hc-btn";
+            recordBtn.textContent = "Record Funding via GitHub Issue";
+            recordBtn.addEventListener("click", () => {
+              const params = new URLSearchParams({ title: "[Outcome Funding]: " + m.id + " Outcome " + o.key, labels: "outcome-funding,pending-rpc-check", body: ["### Futarchy Outcome Funding Submission", "- **Market:** " + m.id + " — " + m.title, "- **Outcome:** " + o.key + " — " + o.label + " (" + o.organization + ", bounty #" + o.beneficiaryBountyId + ")", "- **Payout Wallet (Beneficiary, Base):** `" + o.escrowWallet + "`", "- **Amount (USD):** " + m.stakePriceUSD, "- **TX Hash:** `0x...`", "", "100% of this amount funds the chosen project. No protocol fee, no redistribution, no payout."].join("\n") });
+              window.open("https://github.com/" + GITHUB_OWNER + "/" + GITHUB_REPO + "/issues/new?" + params.toString(), "_blank", "noopener");
+            });
+            panel.appendChild(qrBox);
+            panel.appendChild(uriP);
+            panel.appendChild(fundingNote);
+            panel.appendChild(recordBtn);
+            btn.addEventListener("click", () => { panel.classList.toggle("hidden"); });
+            row.appendChild(btn);
+            row.appendChild(panel);
+            outcomesDiv.appendChild(row);
+          });
+          const details = document.createElement("details");
+          const summary = document.createElement("summary");
+          summary.className = "text-[11px] text-zinc-400 cursor-pointer";
+          summary.textContent = "How this market settles";
+          const ruleP = document.createElement("p");
+          ruleP.className = "text-[11px] text-zinc-400 leading-relaxed mt-1";
+          ruleP.textContent = m.resolutionRule;
+          details.appendChild(summary);
+          details.appendChild(ruleP);
+          const oracleP = document.createElement("p");
+          oracleP.className = "text-[11px] text-zinc-500 font-mono";
+          oracleP.appendChild(document.createTextNode("Settles by " + (m.resolutionDeadline ? m.resolutionDeadline.slice(0, 10) : "TBD") + " • " + m.disputeWindowHours + "h dispute window • "));
+          const oracleA = document.createElement("a");
+          oracleA.href = m.oracleSource || "#";
+          oracleA.target = "_blank";
+          oracleA.rel = "noopener";
+          oracleA.className = "text-yellow-400 hover:text-yellow-300 underline";
+          oracleA.textContent = "Public data source";
+          oracleP.appendChild(oracleA);
+          card.appendChild(badgeRow);
+          card.appendChild(titleH3);
+          card.appendChild(descP);
+          card.appendChild(volumeP);
+          card.appendChild(outcomesDiv);
+          card.appendChild(details);
+          card.appendChild(oracleP);
+          grid.appendChild(card);
+        });
+      }
+      // Non-monetary forecast reputation board. Empty until the first market
+      // resolves and a forecast is verified — no invented leaderboard rows.
+      async function loadForecastBoard() {
+        const board = document.getElementById("forecastBoard");
+        const render = (ledger) => {
+          board.replaceChildren();
+          const forecasters = Array.isArray(ledger && ledger.forecasters) ? ledger.forecasters : [];
+          if (forecasters.length === 0) {
+            const empty = document.createElement("p");
+            empty.className = "text-[11px] text-zinc-500 font-mono";
+            empty.textContent = "Ledger empty — 0 resolved forecasts. Reputation starts at zero, like every other number on this site.";
+            board.appendChild(empty);
+          } else {
+            forecasters.forEach((f) => {
+              const row = document.createElement("div");
+              row.className = "flex items-center justify-between gap-3 text-[11px] font-mono text-zinc-300 border-b border-zinc-800/60 pb-1";
+              const name = document.createElement("span");
+              name.textContent = String(f.handle || "anonymous");
+              const score = document.createElement("span");
+              const correct = Number(f.correct) || 0;
+              const total = Number(f.total) || 0;
+              const rate = total > 0 ? Math.round((correct / total) * 100) : 0;
+              score.textContent = rate + "% (" + correct + "/" + total + ")";
+              row.appendChild(name);
+              row.appendChild(score);
+              board.appendChild(row);
+            });
+          }
+          const badges = Array.isArray(ledger && ledger.badges) ? ledger.badges : [];
+          if (badges.length > 0) {
+            const legend = document.createElement("p");
+            legend.className = "text-[10px] text-zinc-500 pt-1";
+            legend.textContent = "Badges: " + badges.map((b) => b.label).join(" · ");
+            board.appendChild(legend);
+          }
+        };
+        const controller = new AbortController();
+        const timeout = setTimeout(() => controller.abort(), 2500);
+        try {
+          const res = await fetch("./data/forecasters.json", { signal: controller.signal });
+          clearTimeout(timeout);
+          if (!res.ok) throw new Error("Forecast ledger status not 200");
+          render(await res.json());
+        } catch (_) {
+          render(null);
+        }
+      }
+      function updateTelemetry() {
+        const totalProjects = state.proposals.length;
+        const totalEscrow = state.proposals.reduce((acc, p) => acc + p.fundedUSD, 0);
+        const totalVotes = state.proposals.reduce((acc, p) => acc + p.votesCount, 0);
+        document.getElementById("statTotalProjects").textContent = String(totalProjects);
+        document.getElementById("statTotalEscrow").textContent = "$" + totalEscrow.toFixed(2);
+        document.getElementById("statTotalVotes").textContent = String(totalVotes);
+      }
+      function startRssTicker() {
+        const tickerEl = document.getElementById("rssTickerText");
+        let idx = 0;
+        const updateLine = () => {
+          if (state.proposals.length === 0) return;
+          const p = state.proposals[idx % state.proposals.length];
+          tickerEl.replaceChildren();
+          const link = document.createElement("a");
+          link.href = "./project.html?id=" + encodeURIComponent(String(p.id));
+          link.target = "_blank";
+          link.rel = "noopener noreferrer";
+          link.className = "text-zinc-300 hover:text-white hover:underline transition";
+          const isOpenEnded = p.campaignType === "open_ended" || p.targetUSD == null || p.targetUSD <= 0;
+          const amountText = isOpenEnded ? `$${Number(p.fundedUSD||0).toFixed(2)} raised (open-ended)` : `$${Number(p.fundedUSD||0).toFixed(2)} / $${Number(p.targetUSD).toFixed(2)}`;
+          link.textContent = `[#${p.id} ${p.status}] ${p.title} - ${amountText} (${Number(p.votesCount||0)} support units)`;
+          tickerEl.appendChild(link);
+          idx++;
+        };
+        updateLine();
+        setInterval(updateLine, 5000);
+      }
+      function renderCategoryPills() {
+        const bar = document.getElementById("categoryFilterBar");
+        bar.replaceChildren();
+        const isSelected = (value) => state.selectedCategory === value;
+        const btnClass = (selected) => selected
+          ? "px-3 py-1.5 rounded-xl text-xs font-bold bg-purple-700 text-white transition hc-btn"
+          : "px-3 py-1.5 rounded-xl text-xs font-medium bg-black hover:bg-zinc-800 text-zinc-300 border border-zinc-800 transition";
+        const mkBtn = (value, label, onClick) => {
+          const btn = document.createElement("button");
+          btn.type = "button";
+          btn.className = btnClass(isSelected(value));
+          btn.textContent = label;
+          btn.setAttribute("aria-pressed", String(isSelected(value)));
+          btn.addEventListener("click", onClick);
+          return btn;
+        };
+
+        // Parent toggles (top of box) with hide-able sub-sections beneath (compact layout)
+        const topSection = document.createElement("div");
+        topSection.className = "w-full flex flex-col gap-2";
+
+        const mainRow = document.createElement("div");
+        mainRow.className = "w-full flex flex-wrap items-center gap-2";
+
+        PARENTS.forEach((parent) => {
+          const expanded = !!state.expandedParents[parent];
+          const parentActive = state.selectedCategory === parent || ((PARENT_CATEGORIES[parent] || []).includes(state.selectedCategory));
+          const pbtn = document.createElement("button");
+          pbtn.type = "button";
+          pbtn.className = btnClass(parentActive);
+          pbtn.setAttribute("aria-pressed", String(parentActive));
+          pbtn.setAttribute("aria-expanded", String(expanded));
+          pbtn.textContent = parent;
+          pbtn.addEventListener("click", () => {
+            // Compartmentalized: selecting a parent shows only its sub-sections and only its projects.
+            // Clicking the already-expanded active parent hides its sub-sections (hide-able).
+            const isActiveExpanded = state.expandedParents[parent] && (state.selectedCategory === parent || (PARENT_CATEGORIES[parent] || []).includes(state.selectedCategory));
+            if (isActiveExpanded) {
+              state.expandedParents[parent] = false;
+            } else {
+              PARENTS.forEach((p) => { state.expandedParents[p] = (p === parent); });
+              state.selectedCategory = parent;
+            }
+            state.page = 1;
+            renderCategoryPills();
+            renderProposalsGrid();
+          });
+          mainRow.appendChild(pbtn);
+        });
+        topSection.appendChild(mainRow);
+
+        // Sub-sections for the expanded parent (hide-able), compact strip
+        PARENTS.forEach((parent) => {
+          if (!state.expandedParents[parent]) return;
+          const cats = PARENT_CATEGORIES[parent] || [];
+          const subWrap = document.createElement("div");
+          subWrap.className = "w-full flex flex-wrap items-center gap-1.5 p-2 rounded-lg bg-black/20 border border-zinc-800/70";
+          subWrap.appendChild(mkBtn(parent, "All " + parent, () => { state.selectedCategory = parent; state.page = 1; renderCategoryPills(); renderProposalsGrid(); }));
+          cats.forEach((c) => {
+            subWrap.appendChild(mkBtn(c, c, () => { state.selectedCategory = c; state.page = 1; renderCategoryPills(); renderProposalsGrid(); }));
+          });
+          topSection.appendChild(subWrap);
+        });
+        bar.appendChild(topSection);
+
+
+      }
+      function haversineMiles(lat1, lon1, lat2, lon2) {
+        const toRad = (d) => d * Math.PI / 180;
+        const R = 3958.7613;
+        const dLat = toRad(lat2 - lat1);
+        const dLon = toRad(lon2 - lon1);
+        const a = Math.sin(dLat / 2) ** 2 + Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLon / 2) ** 2;
+        return 2 * R * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+      }
+      function itemDistanceMiles(item) {
+        if (state.zipLat == null || state.zipLng == null) return null;
+        if (item.lat == null || item.lng == null || !Number.isFinite(Number(item.lat)) || !Number.isFinite(Number(item.lng))) return null;
+        return haversineMiles(state.zipLat, state.zipLng, Number(item.lat), Number(item.lng));
+      }
+      async function resolveZip(zipRaw, hint) {
+        const query = String(zipRaw || "").trim();
+        const statusEl = document.getElementById("zipStatus");
+        const clearLoc = () => { state.zipQuery=""; state.zipLat=null; state.zipLng=null; state.zipResolvedCode=null; state.locMode="none"; state.locKind=null; state.locCountry=null; state.locState=null; state.locCity=null; state.locLabel=""; };
+        if (!query) {
+          clearLoc();
+          if (statusEl) statusEl.textContent = "Enter Location to filter within 50 mi.";
+          state.page = 1; renderProposalsGrid();
+          return;
+        }
+        state.zipQuery = query; state.locLabel = query;
+        const queryLooksPostal = /^\d{5}(-\d{4})?$/.test(query) || (/^[A-Za-z0-9][A-Za-z0-9 -]{1,10}[A-Za-z0-9]?$/.test(query) && /\d/.test(query) && query.length <= 12 && !/^[A-Za-z]{2}$/.test(query));
+        // Suggestion-picked place: filter to that city/state/country (no radius), unless query is a postal/ZIP code (then use radius)
+        if (hint && hint.kind && hint.kind !== "zip" && !queryLooksPostal) {
+          clearLoc();
+          state.zipQuery = query; state.locLabel = hint.name || query;
+          state.locMode = "place"; state.locKind = hint.kind;
+          state.zipResolvedCode = hint.code || query;
+          if (hint.kind === "country") { state.locCountry = hint.name || query; state.locState = null; state.locCity = null; }
+          else if (hint.kind === "state" || hint.kind === "province") { state.locState = hint.name || query; state.locCountry = hint.country || null; state.locCity = null; }
+          else if (hint.kind === "city") { state.locCity = hint.name || query; state.locState = hint.state || null; state.locCountry = hint.country || null; }
+          else { state.locCountry = hint.country || null; state.locState = hint.state || null; state.locCity = hint.name || null; }
+          const disp = hint.name || query;
+          if (statusEl) statusEl.textContent = "Showing bounties in " + disp + (hint.code && (hint.kind === "state" || hint.kind === "province" || hint.kind === "country") ? " (" + hint.code + ")" : "") + ".";
+          state.page = 1; renderProposalsGrid();
+          return;
+        }
+        if (statusEl) statusEl.textContent = "Looking up location…";
+        try {
+          const controller = new AbortController();
+          const timeout = setTimeout(() => controller.abort(), 5000);
+          let lat = NaN, lng = NaN, label = query, mode = "zip", locKind = "zip", country = null, stName = null, city = null;
+          const isUsZip = /^\d{5}(-\d{4})?$/.test(query);
+          const looksPostal = isUsZip || (/^[A-Za-z0-9][A-Za-z0-9 -]{1,10}[A-Za-z0-9]?$/.test(query) && /\d/.test(query) && query.length <= 12);
+          let handled = false;
+          if (isUsZip) {
+            try {
+              const z5 = query.slice(0, 5);
+              const res = await fetch("https://api.zippopotam.us/us/" + z5, { signal: controller.signal });
+              if (res.ok) {
+                const data = await res.json();
+                const place = data && data.places && data.places[0];
+                lat = place ? parseFloat(place.latitude) : NaN;
+                lng = place ? parseFloat(place.longitude) : NaN;
+                if (Number.isFinite(lat) && Number.isFinite(lng)) {
+                  const placeName = place && (place["place name"] || "");
+                  const st = place && (place["state abbreviation"] || "");
+                  label = z5 + (placeName ? (" - " + placeName + (st ? (", " + st) : "")) : "");
+                  state.zipResolvedCode = z5; mode = "zip"; locKind = "zip"; country = "United States";
+                  handled = true;
+                }
+              }
+            } catch (_) { /* fall through to nominatim for non-US 5-digit codes */ }
+          }
+          if (!handled) {
+            const res = await fetch("https://nominatim.openstreetmap.org/search?format=json&limit=1&addressdetails=1&q=" + encodeURIComponent(query), {
+              signal: controller.signal, headers: { "Accept": "application/json" }
+            });
+            clearTimeout(timeout);
+            if (!res.ok) throw new Error("not found");
+            const data = await res.json();
+            const hit = Array.isArray(data) ? data[0] : null;
+            if (!hit) throw new Error("not found");
+            lat = parseFloat(hit.lat); lng = parseFloat(hit.lon);
+            const addr = hit.address || {};
+            country = addr.country || null;
+            stName = addr.state || addr.region || addr.province || addr.state_district || null;
+            city = addr.city || addr.town || addr.village || addr.municipality || addr.hamlet || null;
+            const aType = String(hit.addresstype || hit.type || hit.class || "").toLowerCase();
+            const isPostcode = aType === "postcode" || aType === "postal_code" || (queryLooksPostal && aType !== "country" && aType !== "state" && aType !== "region" && aType !== "province");
+            if (isPostcode || queryLooksPostal) {
+              mode = "zip"; locKind = "zip";
+              label = (addr.postcode || query) + (city ? (" - " + city) : (stName ? (" - " + stName) : "")) + (country ? (", " + country) : "");
+            } else if (aType === "country") {
+              mode = "place"; locKind = "country"; city = null; stName = null;
+              label = country || hit.display_name || query;
+            } else if (aType === "state" || aType === "region" || aType === "province" || aType === "state_district" || aType === "administrative") {
+              mode = "place"; locKind = "state";
+              label = (stName || query) + (country ? (", " + country) : "");
+              if (!stName) stName = query;
+            } else if (city || aType === "city" || aType === "town" || aType === "village" || aType === "municipality" || aType === "hamlet" || aType === "suburb" || aType === "county") {
+              mode = "place"; locKind = "city";
+              label = (city || query) + (stName ? (", " + stName) : "") + (country ? (", " + country) : "");
+              if (!city) city = query;
+            } else {
+              mode = "place"; locKind = stName ? "state" : "country";
+              label = hit.display_name ? String(hit.display_name).split(",").slice(0,3).join(",").trim() : query;
+            }
+            state.zipResolvedCode = query;
+          }
+          if (!Number.isFinite(lat) || !Number.isFinite(lng)) throw new Error("no coords");
+          state.zipLat = lat; state.zipLng = lng; state.locMode = mode; state.locKind = locKind; state.locLabel = label;
+          state.locCountry = country; state.locState = (mode === "zip" ? null : stName); state.locCity = (mode === "zip" ? null : city);
+          if (statusEl) {
+            if (mode === "zip") statusEl.textContent = "Showing bounties within 50 mi of " + label + ".";
+            else statusEl.textContent = "Showing bounties in " + (label || query) + ".";
+          }
+        } catch (_) {
+          clearLoc();
+          state.zipQuery = query;
+          if (statusEl) statusEl.textContent = "Could not resolve location. Showing all bounties.";
+        }
+        state.page = 1; renderProposalsGrid();
+      }
+      let _createLocSeq = 0;
+      async function resolveCreateLocation(query, hint) {
+        const seq = ++_createLocSeq;
+        const q = String(query || "").trim();
+        const locEl = document.getElementById("newLocation");
+        const coordsEl = document.getElementById("newCoords");
+        const isUsZip = /^\d{5}(-\d{4})?$/.test(q);
+        let lat = NaN, lng = NaN, label = q;
+        if (isUsZip) {
+          try {
+            const controller = new AbortController();
+            const timeout = setTimeout(() => controller.abort(), 5000);
+            const res = await fetch("https://api.zippopotam.us/us/" + q.slice(0, 5), { signal: controller.signal });
+            clearTimeout(timeout);
+            if (res.ok) {
+              const data = await res.json();
+              const place = data && data.places && data.places[0];
+              lat = place ? parseFloat(place.latitude) : NaN;
+              lng = place ? parseFloat(place.longitude) : NaN;
+              if (Number.isFinite(lat) && Number.isFinite(lng)) {
+                const placeName = place ? (place["place name"] || "") : "";
+                const st = place ? (place["state abbreviation"] || "") : "";
+                label = q + (placeName ? (" - " + placeName + (st ? (", " + st) : "")) : "");
+              }
+            }
+          } catch (_) { /* fall through to nominatim */ }
+        }
+        if (!Number.isFinite(lat) || !Number.isFinite(lng)) {
+          try {
+            const controller = new AbortController();
+            const timeout = setTimeout(() => controller.abort(), 5000);
+            const res = await fetch("https://nominatim.openstreetmap.org/search?format=json&limit=1&addressdetails=1&q=" + encodeURIComponent(q), { signal: controller.signal, headers: { "Accept": "application/json" } });
+            clearTimeout(timeout);
+            if (res.ok) {
+              const data = await res.json();
+              const hit = Array.isArray(data) ? data[0] : null;
+              if (hit) {
+                lat = parseFloat(hit.lat); lng = parseFloat(hit.lon);
+                if (Number.isFinite(lat) && Number.isFinite(lng)) {
+                  const addr = hit.address || {};
+                  const aType = String(hit.addresstype || hit.type || hit.class || "").toLowerCase();
+                  if (aType === "country") { label = addr.country || hit.display_name || q; }
+                  else if (aType === "state" || aType === "region" || aType === "province" || aType === "state_district" || aType === "administrative") { label = (addr.state || hit.display_name || q) + (addr.country ? (", " + addr.country) : ""); }
+                  else if (addr.city || addr.town || addr.village || addr.municipality || addr.hamlet) { label = (addr.city || addr.town || addr.village || addr.municipality || addr.hamlet) + (addr.state ? (", " + addr.state) : "") + (addr.country ? (", " + addr.country) : ""); }
+                  else { label = String(hit.display_name || q).split(",").slice(0, 3).join(",").trim(); }
+                }
+              }
+            }
+          } catch (_) { /* leave coordinates unset */ }
+        }
+        if (seq !== _createLocSeq) return false; // superseded by a newer location resolution
+        if (Number.isFinite(lat) && Number.isFinite(lng)) {
+          const coordsText = lat.toFixed(2) + " " + lng.toFixed(2);
+          if (locEl) locEl.value = label;
+          if (coordsEl) coordsEl.value = coordsText;
+          return true;
+        }
+        if (locEl) locEl.value = String(query || "").trim();
+        return false;
+      }
+      function compareIds(a, b) {
+        const ia = parseInt(a.id, 10), ib = parseInt(b.id, 10);
+        if (Number.isFinite(ia) && Number.isFinite(ib) && ia !== ib) return ia - ib;
+        return String(a.id).localeCompare(String(b.id));
+      }
+      function sortProposals(list) {
+        const mode = state.sortBy || "default";
+        const vaNf = (id) => { const v = verifiedEndorsementCount(id); return (v == null ? -1 : v); };
+        const local = (id) => isEndorsed(id) ? 1 : 0;
+        const arr = list.slice();
+        if (mode === "most_funded") {
+          arr.sort((a,b) => ((Number(b.fundedUSD)||0) - (Number(a.fundedUSD)||0)) || compareIds(a,b));
+        } else if (mode === "most_popular") {
+          arr.sort((a,b) => (vaNf(b.id) - vaNf(a.id)) || (local(b.id) - local(a.id)) || compareIds(a,b));
+        } else if (mode === "most_votes") {
+          arr.sort((a,b) => ((Number(b.votesCount)||0) - (Number(a.votesCount)||0)) || compareIds(a,b));
+        } else if (mode === "closest") {
+          arr.sort((a,b) => {
+            const da = itemDistanceMiles(a), db = itemDistanceMiles(b);
+            if (da == null && db == null) return compareIds(a,b);
+            if (da == null) return 1;
+            if (db == null) return -1;
+            if (da !== db) return da - db;
+            return compareIds(a,b);
+          });
+        } else if (mode === "newest") {
+          arr.sort((a,b) => ((Number(b.datePublishedMs)||0) - (Number(a.datePublishedMs)||0)) || compareIds(a,b));
+        } else if (mode === "oldest") {
+          arr.sort((a,b) => ((Number(a.datePublishedMs)||0) - (Number(b.datePublishedMs)||0)) || compareIds(a,b));
+        } else {
+          const rankOf = (item) => { const p = item.parentCategory || parentForCategory(item.category) || PARENT_CHARITIES; return p === PARENT_VOTING ? 0 : p === PARENT_SPECULATIVE ? 1 : 2; };
+          arr.sort((a,b) => (rankOf(a) - rankOf(b)) || (vaNf(b.id) - vaNf(a.id)) || (local(b.id) - local(a.id)) || compareIds(a,b));
+        }
+        return arr;
+      }
+      function matchesLocPlace(item) {
+        if (state.locMode !== "place") return true;
+        const loc = String(item.location || "").toLowerCase();
+        const ctry = String(state.locCountry || "").toLowerCase();
+        const st = String(state.locState || "").toLowerCase();
+        const city = String(state.locCity || "").toLowerCase();
+        const kind = state.locKind || "";
+        const has = (needle) => needle && loc.indexOf(needle) !== -1;
+        if (kind === "country") return has(ctry) || (ctry === "united states" && (has(", us") || has(" usa") || /,\s*[A-Z]{2}(\s|$|\()/.test(item.location||"")));
+        if (kind === "state" || kind === "province") {
+          if (has(st)) return true;
+          const code = String(state.zipResolvedCode || state.zipQuery || "").toUpperCase();
+          if (/^[A-Z]{2}$/.test(code) && new RegExp("(,|\s)"+code+"(\s|,|$|\))").test(item.location||"")) return true;
+          if (ctry) return has(ctry) && has(st);
+          return false;
+        }
+        if (kind === "city") {
+          if (!has(city)) return false;
+          if (st && !has(st)) { /* allow if not specified */ }
+          if (ctry && !has(ctry)) {
+            if (!(ctry === "united states" && /,\s*[A-Z]{2}(\s|$|\()/.test(item.location||""))) return false;
+          }
+          return true;
+        }
+        return has(city) || has(st) || has(ctry);
+      }
+      function renderProposalsGrid() {
+        const grid = document.getElementById("proposalsGrid");
+        grid.replaceChildren();
+        const filtered = sortProposals(state.proposals.filter((item) => {
+          const pcat = item.parentCategory || parentForCategory(item.category) || PARENT_CHARITIES;
+          const matchesCat = state.selectedCategory === "ALL" || item.category === state.selectedCategory || pcat === state.selectedCategory;
+          const matchesStatus = state.selectedStatus === "ALL" || item.status === state.selectedStatus;
+          const q = state.searchQuery.toLowerCase();
+          const matchesSearch = !q || item.title.toLowerCase().includes(q) || item.location.toLowerCase().includes(q) || item.category.toLowerCase().includes(q) || item.summary.toLowerCase().includes(q);
+          if (!(matchesCat && matchesStatus && matchesSearch)) return false;
+          if (state.locMode === "zip") {
+            if (state.zipLat == null || state.zipLng == null) return false;
+            const d = itemDistanceMiles(item);
+            if (d == null || d > 50) return false;
+          } else if (state.locMode === "place") {
+            if (!matchesLocPlace(item)) return false;
+          }
+          return true;
+        }));
+        const pager = document.getElementById("proposalsPagination");
+        if (pager) pager.replaceChildren();
+        const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+        if (!Number.isFinite(state.page) || state.page < 1) state.page = 1;
+        if (state.page > totalPages) state.page = totalPages;
+        if (filtered.length === 0) {
+          const emptyBox = document.createElement("div");
+          emptyBox.className = "col-span-full bg-zinc-900/40 border border-zinc-800 rounded-2xl p-8 text-center text-zinc-400 text-sm";
+          if (state.locMode === "zip" && state.zipLat != null && state.zipLng != null) {
+            emptyBox.textContent = "No bounties found within 50 miles of " + (state.zipResolvedCode || state.zipQuery || "location") + ". Try clearing the location filter or changing filters.";
+          } else if (state.locMode === "place") {
+            emptyBox.textContent = "No bounties found in " + (state.locLabel || state.zipQuery || "that location") + ". Try clearing the location filter or changing filters.";
+          } else {
+            emptyBox.textContent = "No matching civic action items found. Try clearing your category or search filter.";
+          }
+          grid.appendChild(emptyBox);
+          return;
+        }
+        const startIdx = (state.page - 1) * PAGE_SIZE;
+        const pageItems = filtered.slice(startIdx, startIdx + PAGE_SIZE);
+        pageItems.forEach((item) => {
+          const isOpenEnded = item.campaignType === "open_ended" || item.targetUSD == null || item.targetUSD <= 0;
+          const pct = isOpenEnded ? 100 : Math.min(Math.round((item.fundedUSD / item.targetUSD) * 100), 100);
+          const raisedLabel = isOpenEnded ? `$${item.fundedUSD.toFixed(2)} raised (open-ended)` : `$${item.fundedUSD.toFixed(2)} / $${item.targetUSD.toFixed(2)} (${pct}%)`;
+          const card = document.createElement("article");
+          card.className = "bg-zinc-900/60 border border-zinc-800 hover:border-zinc-700 rounded-2xl p-5 flex flex-col justify-between space-y-4 transition shadow-lg hc-card";
+          const topDiv = document.createElement("div");
+          topDiv.className = "space-y-2.5";
+          const badgeRow = document.createElement("div");
+          badgeRow.className = "flex items-start justify-between gap-2 flex-wrap";
+          const leftCol = document.createElement("div");
+          leftCol.className = "flex flex-col items-start gap-1.5 min-w-0";
+          const catBadge = document.createElement("span");
+          const pcat = item.parentCategory || parentForCategory(item.category) || PARENT_CHARITIES;
+          const isAccess = item.category.includes("Accessibility");
+          const isSpec = pcat === PARENT_SPECULATIVE;
+          const isVote = pcat === PARENT_VOTING;
+          catBadge.className = (isSpec || isVote)
+            ? "text-[11px] font-mono font-semibold px-2.5 py-0.5 rounded-md bg-cyan-500/10 text-cyan-300 border border-cyan-500/30 hc-accent"
+            : (isAccess ? "text-[11px] font-mono font-semibold px-2.5 py-0.5 rounded-md bg-amber-500/10 text-amber-300 border border-amber-500/30 hc-accent" : "text-[11px] font-mono font-semibold px-2.5 py-0.5 rounded-md bg-purple-500/10 text-yellow-300 border border-yellow-500/20");
+          catBadge.textContent = pcat + " · " + item.category;
+          const statusBadge = document.createElement("span");
+          statusBadge.className = item.status === "Active" ? "text-[11px] font-mono px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20" : "text-[11px] font-mono px-2 py-0.5 rounded bg-zinc-800 text-zinc-300 border border-zinc-700";
+          statusBadge.textContent = item.status;
+          const endorseBtn = document.createElement("button");
+          endorseBtn.type = "button";
+          endorseBtn.className = "inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-l-none rounded-r-lg text-[11px] font-semibold bg-pink-500/15 text-pink-300 border border-pink-500/30 hover:bg-pink-500/20 transition";
+          endorseBtn.textContent = "♥ Like";
+          endorseBtn.setAttribute("aria-label", "Like this project");
+          endorseBtn.title = "Like/support this project. Opens endorsement/share options.";
+          endorseBtn.addEventListener("click", (ev) => {
+            ev.stopPropagation();
+            openLikeOverlay(item);
+          });
+          const likeCountBox = document.createElement("span");
+          likeCountBox.className = "inline-flex items-center justify-center min-w-[2.25rem] px-2.5 py-1.5 rounded-l-lg rounded-r-none border-r-0 text-[11px] font-semibold bg-pink-500/15 text-pink-300 border border-pink-500/30 font-mono";
+          const vCountForLike = verifiedEndorsementCount(item.id);
+          likeCountBox.textContent = formatLikeCount(vCountForLike == null ? 0 : vCountForLike);
+          likeCountBox.title = (vCountForLike == null ? "0" : String(vCountForLike)) + " verified endorsement" + ((vCountForLike == 1) ? "" : "s");
+          likeCountBox.setAttribute("aria-label", (vCountForLike == null ? "0" : String(vCountForLike)) + " verified endorsements");
+          const likeRow = document.createElement("div");
+          likeRow.className = "flex items-center gap-0";
+          likeRow.appendChild(likeCountBox);
+          likeRow.appendChild(endorseBtn);
+          const shareBtn = document.createElement("button");
+          shareBtn.type = "button";
+          shareBtn.className = "inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-[11px] font-semibold bg-sky-200/10 text-sky-100 border border-sky-200/30 hover:bg-sky-200/20 hover:text-white transition";
+          shareBtn.textContent = "Share";
+          shareBtn.setAttribute("aria-label", "Share this project");
+          shareBtn.addEventListener("click", (ev) => {
+            ev.stopPropagation();
+            openLikeOverlay(item);
+            const sec = document.getElementById("shareSection");
+            if (sec && sec.scrollIntoView) sec.scrollIntoView({ block: "nearest" });
+          });
+          const statusCol = document.createElement("div");
+          statusCol.className = "flex flex-col items-end gap-1.5 shrink-0";
+          statusCol.appendChild(statusBadge);
+          statusCol.appendChild(likeRow);
+          statusCol.appendChild(shareBtn);
+          const locP = document.createElement("p");
+          locP.className = "text-xs text-zinc-400 font-mono";
+          locP.textContent = "📍 " + item.location;
+          leftCol.appendChild(catBadge);
+          leftCol.appendChild(locP);
+          badgeRow.appendChild(leftCol);
+          badgeRow.appendChild(statusCol);
+          const titleH3 = document.createElement("h3");
+          titleH3.className = "text-base font-bold text-[#7851A9] leading-snug text-center w-full";
+          const titleLink = document.createElement("a");
+          titleLink.href = "./project.html?id=" + encodeURIComponent(String(item.id));
+          titleLink.className = "underline underline-offset-4 decoration-[#7851A9]/60 hover:text-[#9370DB] hover:decoration-[#9370DB] transition";
+          titleLink.textContent = item.title;
+          titleH3.appendChild(titleLink);
+          const descP = document.createElement("p");
+          descP.className = "text-xs text-zinc-300 leading-relaxed whitespace-pre-line";
+          descP.textContent = state.plainLanguageMode ? item.plainSummary : item.summary;
+          topDiv.appendChild(badgeRow);
+          const linksRow = document.createElement("div");
+          linksRow.className = "flex items-center flex-wrap gap-2 text-[11px]";
+          const safeLink = (u) => (typeof u === "string" && /^https?:\/\//i.test(u.trim())) ? u.trim() : null;
+          const siteUrl = safeLink(item.website);
+          if (siteUrl) {
+            const a = document.createElement("a");
+            a.href = siteUrl;
+            a.target = "_blank";
+            a.rel = "noopener noreferrer";
+            a.className = "inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-zinc-800/80 border border-zinc-700 text-yellow-300 hover:text-yellow-200 hover:border-yellow-500/40 transition";
+            a.textContent = "Website ↗";
+            a.setAttribute("aria-label", "Open charity website for " + item.title);
+            linksRow.appendChild(a);
+          }
+          const socialDefs = [
+            ["x", "X", '<svg viewBox="0 0 24 24" class="w-3.5 h-3.5 fill-current" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.657l-5.214-6.817-5.965 6.817H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.45-6.231Zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77Z"/></svg>'],
+            ["twitter", "X", '<svg viewBox="0 0 24 24" class="w-3.5 h-3.5 fill-current" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.657l-5.214-6.817-5.965 6.817H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.45-6.231Zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77Z"/></svg>'],
+            ["facebook", "Facebook", '<svg viewBox="0 0 24 24" class="w-3.5 h-3.5 fill-current" aria-hidden="true"><path d="M22 12.06C22 6.504 17.523 2 12 2S2 6.504 2 12.06C2 17.083 5.657 21.245 10.438 22v-7.03H7.898v-2.91h2.54V9.845c0-2.522 1.492-3.915 3.777-3.915 1.094 0 2.238.197 2.238.197v2.476h-1.26c-1.243 0-1.63.775-1.63 1.57v1.888h2.773l-.443 2.91h-2.33V22C18.343 21.245 22 17.083 22 12.06Z"/></svg>'],
+            ["instagram", "Instagram", '<svg viewBox="0 0 24 24" class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>'],
+            ["linkedin", "LinkedIn", '<svg viewBox="0 0 24 24" class="w-3.5 h-3.5 fill-current" aria-hidden="true"><path d="M6.94 8.5H3.56V20h3.38V8.5ZM5.25 3A1.97 1.97 0 1 0 5.3 6.94 1.97 1.97 0 0 0 5.25 3ZM20.44 13.41c0-3.26-1.74-4.78-4.06-4.78-1.87 0-2.71 1.03-3.18 1.76V8.5H9.82c.04.92 0 11.5 0 11.5h3.38v-6.42c0-.34.02-.69.13-.94.28-.69.9-1.4 1.95-1.4 1.38 0 1.93 1.05 1.93 2.59V20h3.38l-.15-6.59Z"/></svg>'],
+            ["youtube", "YouTube", '<svg viewBox="0 0 24 24" class="w-3.5 h-3.5 fill-current" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.11-2.12C19.54 3.5 12 3.5 12 3.5s-7.54 0-9.39.58A3 3 0 0 0 .5 6.2 31.4 31.4 0 0 0 0 12a31.4 31.4 0 0 0 .5 5.8 3 3 0 0 0 2.11 2.12c1.85.58 9.39.58 9.39.58s7.54 0 9.39-.58a3 3 0 0 0 2.11-2.12A31.4 31.4 0 0 0 24 12a31.4 31.4 0 0 0-.5-5.8ZM9.75 15.5v-7L15.75 12l-6 3.5Z"/></svg>'],
+            ["github", "GitHub", '<svg viewBox="0 0 24 24" class="w-3.5 h-3.5 fill-current" aria-hidden="true"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.74.08-.74 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.5 1 .1-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.23-3.22-.12-.3-.53-1.52.12-3.17 0 0 1-.32 3.3 1.23a11.4 11.4 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.65.24 2.87.12 3.17.77.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.63-5.49 5.92.43.37.82 1.1.82 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5Z"/></svg>'],
+            ["tiktok", "TikTok", '<svg viewBox="0 0 24 24" class="w-3.5 h-3.5 fill-current" aria-hidden="true"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 1 1-2-2.75V9.4a6.34 6.34 0 1 0 5.45 6.27V8.74a8.2 8.2 0 0 0 4.78 1.53V6.84a4.84 4.84 0 0 1-1.01-.15Z"/></svg>'],
+            ["bluesky", "Bluesky", '<svg viewBox="0 0 24 24" class="w-3.5 h-3.5 fill-current" aria-hidden="true"><path d="M12 10.8c-1.09-2.12-4.06-6.07-6.82-8.02C2.53.92 1.5 1.42 1 1.64.43 1.9 0 2.78 0 3.3c0 .53.29 4.3.48 4.93.63 2.07 2.85 2.77 4.89 2.54.11-.01.21-.03.32-.04-.11.02-.21.03-.32.04-3 .44-5.66 1.53-2.17 5.42 3.84 4.02 5.26-.86 6.18-3.34.14-.37.28-.76.43-1.15.11-.28.2-.54.19-.68v.04c-.01.14.08.4.19.68.15.39.29.78.43 1.15.92 2.48 2.34 7.36 6.18 3.34 3.49-3.89.83-4.98-2.17-5.42-.11-.01-.21-.02-.32-.04.11.01.21.03.32.04 2.04.23 4.26-.47 4.89-2.54.19-.63.48-4.4.48-4.93 0-.52-.43-1.4-1-1.66-.5-.22-1.53-.72-4.18 1.14-2.76 1.95-5.73 5.9-6.82 8.02Z"/></svg>'],
+            ["discord", "Discord", '<svg viewBox="0 0 24 24" class="w-3.5 h-3.5 fill-current" aria-hidden="true"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03ZM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418Zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418Z"/></svg>'],
+            ["telegram", "Telegram", '<svg viewBox="0 0 24 24" class="w-3.5 h-3.5 fill-current" aria-hidden="true"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>']
+          ];
+          const seenSocial = new Set();
+          socialDefs.forEach(([key, label, svg]) => {
+            const url = safeLink(item.socials && item.socials[key]);
+            if (!url) return;
+            const norm = key === "twitter" ? "x" : key;
+            if (seenSocial.has(norm)) return;
+            seenSocial.add(norm);
+            const a = document.createElement("a");
+            a.href = url;
+            a.target = "_blank";
+            a.rel = "noopener noreferrer";
+            a.className = "inline-flex items-center justify-center w-7 h-7 rounded-md bg-zinc-800 border border-zinc-700 text-zinc-300 hover:text-white hover:border-purple-500/50 transition";
+            a.innerHTML = svg;
+            a.title = label;
+            a.setAttribute("aria-label", "Open " + label + " profile for " + item.title);
+            linksRow.appendChild(a);
+          });
+          if (linksRow.childNodes.length > 0) leftCol.appendChild(linksRow);
+          topDiv.appendChild(titleH3);
+          topDiv.appendChild(descP);
+          const bottomDiv = document.createElement("div");
+          bottomDiv.className = "space-y-3 pt-2 border-t border-zinc-800/80";
+          const statsRow = document.createElement("div");
+          statsRow.className = "flex items-center justify-between text-xs";
+          const raisedSpan = document.createElement("span");
+          raisedSpan.className = "font-bold text-white";
+          raisedSpan.textContent = raisedLabel;
+          const votesSpan = document.createElement("span");
+          votesSpan.className = "text-zinc-400 font-mono";
+          votesSpan.textContent = `${item.votesCount} votes`;
+          statsRow.appendChild(raisedSpan);
+          statsRow.appendChild(votesSpan);
+          const progressOuter = document.createElement("div");
+          progressOuter.className = "w-full h-2.5 bg-black rounded-full overflow-hidden border border-zinc-800";
+          progressOuter.setAttribute("role", "progressbar");
+          progressOuter.setAttribute("aria-valuenow", String(item.fundedUSD));
+          progressOuter.setAttribute("aria-valuemin", "0");
+          progressOuter.setAttribute("aria-valuemax", isOpenEnded ? String(item.fundedUSD || 0) : String(item.targetUSD));
+          progressOuter.setAttribute("aria-label", isOpenEnded ? `${item.title} open-ended campaign: $${item.fundedUSD.toFixed(2)} raised` : `${item.title} funding progress: ${pct}%`);
+          const progressInner = document.createElement("div");
+          progressInner.className = "h-full transition-all " + (isOpenEnded ? "bg-emerald-500" : (item.fundedUSD >= item.targetUSD ? "bg-emerald-500" : "bg-indigo-500"));
+          progressInner.style.width = `${Math.min(pct, 100)}%`;
+          progressOuter.appendChild(progressInner);
+          const walletRow = document.createElement("div");
+          walletRow.className = "flex items-center justify-between text-[11px] font-mono text-zinc-400";
+          const claimState = orgClaimBadgeFor(item);
+          const walletLabel = document.createElement("span");
+          if (claimState === "unclaimed") {
+            walletLabel.textContent = "Locked · org must verify to unlock";
+            walletLabel.className = "text-amber-400";
+          } else {
+            walletLabel.textContent = "Verified Org Direct: " + effectiveWalletFor(item).slice(0, 8) + "..." + effectiveWalletFor(item).slice(-6);
+          }
+          const priceLabel = document.createElement("span");
+          priceLabel.className = "text-yellow-400 hc-accent";
+          const isOpen = item.campaignType === "open_ended" || item.targetUSD == null || item.targetUSD <= 0;
+          priceLabel.textContent = `$${item.votePriceUSD.toFixed(2)} min / unit${isOpen ? " · Open-ended" : (item.fundedUSD >= item.targetUSD ? " · Goal reached (still accepting)" : "")}`;
+          walletRow.appendChild(walletLabel);
+          walletRow.appendChild(priceLabel);
+          const actionBtn = document.createElement("button");
+          actionBtn.type = "button";
+          if (orgClaimBadgeFor(item) === "unclaimed") {
+            actionBtn.className = "w-full py-2.5 px-4 bg-amber-500/10 hover:bg-amber-500/15 text-amber-200 font-bold rounded-xl text-xs border border-amber-500/40 transition hc-btn";
+            actionBtn.textContent = "Locked — Org Verification Pending \u2192";
+          } else {
+            actionBtn.className = "w-full py-2.5 px-4 bg-purple-700 hover:bg-purple-600 text-white font-bold rounded-xl text-xs shadow-md shadow-purple-700/20 transition hc-btn";
+            actionBtn.textContent = `Support / Contribute (min $${item.votePriceUSD.toFixed(2)}) \u2192`;
+          }
+          actionBtn.addEventListener("click", () => openActionModal(item));
+          bottomDiv.appendChild(statsRow);
+          bottomDiv.appendChild(progressOuter);
+          bottomDiv.appendChild(walletRow);
+          const endorseRow = document.createElement("div");
+          endorseRow.className = "flex flex-col gap-1.5";
+          const endorseTop = document.createElement("div");
+          endorseTop.className = "flex items-center justify-between gap-2 flex-wrap";
+          const vCount = verifiedEndorsementCount(item.id);
+          const verifiedBadge = document.createElement("span");
+          verifiedBadge.className = "text-[10px] font-mono px-2 py-0.5 rounded-md bg-emerald-500/10 text-emerald-300 border border-emerald-500/20 cursor-pointer";
+          if (vCount == null) {
+            verifiedBadge.textContent = "Verified Endorsements: unavailable";
+            verifiedBadge.title = "Verified endorsement count is not available right now.";
+          } else {
+            verifiedBadge.textContent = vCount + " verified endorsement" + (vCount === 1 ? "" : "s");
+            verifiedBadge.title = "People who endorsed this campaign with hands-on experience. One per person.";
+          }
+          verifiedBadge.onclick = () => window.location.href = "./project.html?id=" + encodeURIComponent(String(item.id));
+          endorseTop.appendChild(verifiedBadge);
+          const endorseBottom = document.createElement("div");
+          endorseBottom.className = "flex items-center justify-between gap-2 flex-wrap";
+          const ghLink = document.createElement("a");
+          ghLink.href = endorsementIssueUrl(item);
+          ghLink.target = "_blank";
+          ghLink.rel = "noopener noreferrer";
+          ghLink.className = "text-[10px] text-yellow-300 hover:text-yellow-200 underline underline-offset-2";
+          ghLink.textContent = "Like on GitHub (verified)";
+          ghLink.title = "Creates a prefilled GitHub issue to record a verified Like (legacy ledger label: endorsement) for this campaign's canonical ID. Counted as a unique GitHub user (deduped). $0, auditable.";
+          ghLink.addEventListener("click", (ev) => ev.stopPropagation());
+          endorseBottom.appendChild(ghLink);
+          if (orgClaimBadgeFor(item) === "unclaimed") {
+            const claimLink = document.createElement("a");
+            claimLink.href = orgClaimIssueUrl(item);
+            claimLink.target = "_blank";
+            claimLink.rel = "noopener noreferrer";
+            claimLink.className = "text-[10px] text-amber-300 hover:text-amber-200 underline underline-offset-2";
+            claimLink.textContent = "Is This Your Org? Claim This Page";
+            claimLink.title = "Claiming unlocks contributions for this page. Verify via GitHub issue: org name, website, registry ID, and the payout wallet to send contributions to.";
+            claimLink.addEventListener("click", (ev) => ev.stopPropagation());
+            endorseBottom.appendChild(claimLink);
+          } else {
+            const stewardSpan = document.createElement("span");
+            stewardSpan.className = "text-[10px] text-sky-300 font-mono flex items-center gap-1";
+            stewardSpan.textContent = "🛡️ Official Steward (verified)";
+            stewardSpan.title = "Official campaign steward/arbiter auto-assigned upon organization verification. Contributions settle directly to the verified payout wallet.";
+            endorseBottom.appendChild(stewardSpan);
+          }
+          endorseRow.appendChild(endorseTop);
+          endorseRow.appendChild(endorseBottom);
+          bottomDiv.appendChild(endorseRow);
+          bottomDiv.appendChild(actionBtn);
+          card.appendChild(topDiv);
+          card.appendChild(bottomDiv);
+          grid.appendChild(card);
+        });
+        if (pager && totalPages > 1) {
+          const makeBtn = (label, target, disabled, active) => {
+            const b = document.createElement("button");
+            b.type = "button";
+            b.textContent = label;
+            b.disabled = !!disabled;
+            b.className = active
+              ? "px-3 py-1.5 rounded-lg text-xs font-bold bg-purple-700 text-white hc-btn"
+              : "px-3 py-1.5 rounded-lg text-xs font-medium bg-black hover:bg-zinc-800 text-zinc-300 border border-zinc-800 transition disabled:opacity-40 disabled:cursor-not-allowed";
+            b.setAttribute("aria-label", typeof label === "string" ? label : "Page");
+            if (!disabled) b.addEventListener("click", () => { state.page = target; renderProposalsGrid(); const f = document.getElementById("proposalsFrame"); if (f) f.scrollIntoView({behavior:"smooth", block:"start"}); });
+            return b;
+          };
+          pager.appendChild(makeBtn("Prev", state.page - 1, state.page <= 1, false));
+          const windowSize = 5;
+          let sP = Math.max(1, state.page - Math.floor(windowSize / 2));
+          let eP = Math.min(totalPages, sP + windowSize - 1);
+          if (eP - sP + 1 < windowSize) sP = Math.max(1, eP - windowSize + 1);
+          const addDots = () => { const d=document.createElement("span"); d.className="text-zinc-600 px-1 text-xs"; d.textContent="…"; pager.appendChild(d); };
+          if (sP > 1) { pager.appendChild(makeBtn("1", 1, false, state.page === 1)); if (sP > 2) addDots(); }
+          for (let p = sP; p <= eP; p++) { pager.appendChild(makeBtn(String(p), p, false, state.page === p)); }
+          if (eP < totalPages) { if (eP < totalPages - 1) addDots(); pager.appendChild(makeBtn(String(totalPages), totalPages, false, state.page === totalPages)); }
+          pager.appendChild(makeBtn("Next", state.page + 1, state.page >= totalPages, false));
+          const info = document.createElement("span");
+          info.className = "text-[11px] text-zinc-400 font-mono px-2";
+          info.textContent = "Page " + state.page + " of " + totalPages + " (" + filtered.length + " bounties)";
+          pager.appendChild(info);
+        }
+      }
+      function currentSupportSelection() {
+        const p = state.activeModalProposal;
+        const minUnit = Number(p && p.votePriceUSD) > 0 ? Number(p.votePriceUSD) : 0.5;
+        const input = document.getElementById("supportUnitsInput");
+        let units = Math.max(1, parseInt(input && input.value ? input.value : "1", 10) || 1);
+        if (input) input.value = String(units);
+        const totalUsd = +(units * minUnit).toFixed(8);
+        return { units, minUnit, totalUsd };
+      }
+      function updateSupportModalPayment() {
+        const p = state.activeModalProposal;
+        const payWallet = payableWalletFor(p);
+        const sendBtn = document.getElementById("sendEvmVoteBtn");
+        if (!p || !payWallet) {
+          const qrBox = document.getElementById("modalQrBox");
+          if (qrBox) qrBox.replaceChildren();
+          if (sendBtn) { sendBtn.disabled = true; sendBtn.textContent = "Payment unavailable (unverified or invalid wallet)"; }
+          return;
+        }
+        if (sendBtn) sendBtn.disabled = false;
+        const { units, minUnit, totalUsd } = currentSupportSelection();
+        const ethRate = (typeof ethUsdSpot === "number" && ethUsdSpot > 0) ? ethUsdSpot : 2800;
+        const approxEth = (totalUsd / ethRate).toFixed(6);
+        const approxWei = String(Math.round((totalUsd / ethRate) * 1e18));
+        const totalEl = document.getElementById("supportTotalText");
+        if (totalEl) totalEl.textContent = `Total: $${totalUsd.toFixed(2)} USD (${units} unit${units===1?"":"s"} × $${minUnit.toFixed(2)} min) ≈ ${approxEth} ETH (@ ~$${Math.round(ethRate)}/ETH spot). "Votes" are support units, not democratic votes. Native conversion is estimated — confirm exact amount in your wallet.`;
+        const eip681 = `ethereum:${payWallet}@${BASE_CHAIN_ID}?value=${approxWei}`;
+        const qrBox = document.getElementById("modalQrBox");
+        if (qrBox) {
+          qrBox.replaceChildren();
+          if (typeof QRCode !== "undefined") {
+            new QRCode(qrBox, { text: eip681, width: 140, height: 140, colorDark: "#000000", colorLight: "#ffffff", correctLevel: QRCode.CorrectLevel.M });
+          }
+        }
+        if (sendBtn) sendBtn.textContent = `1. Send $${totalUsd.toFixed(2)} Support via Browser Wallet`;
+      }
+      function openActionModal(proposal) {
+        state.activeModalProposal = proposal;
+        const unclaimed = orgClaimBadgeFor(proposal) === "unclaimed";
+        const payBlock = document.getElementById("modalPayBlock");
+        const lockBlock = document.getElementById("modalLockBlock");
+        if (payBlock) payBlock.classList.toggle("hidden", unclaimed);
+        if (lockBlock) lockBlock.classList.toggle("hidden", !unclaimed);
+        const pcat = proposal.parentCategory || parentForCategory(proposal.category) || PARENT_CHARITIES;
+        document.getElementById("modalCategoryBadge").textContent = pcat + " · " + proposal.category;
+        document.getElementById("modalTitle").textContent = proposal.title;
+        if (unclaimed) {
+          const idEl = document.getElementById("lockProjectId"); if (idEl) idEl.textContent = "#" + String(proposal.id);
+          const claimLink = document.getElementById("modalClaimLink");
+          if (claimLink) claimLink.href = orgClaimIssueUrl(proposal);
+        } else {
+          const payWallet = payableWalletFor(proposal);
+          document.getElementById("modalVotePrice").textContent = `$${proposal.votePriceUSD.toFixed(2)} USD minimum per unit (Base L2)`;
+          document.getElementById("modalWallet").textContent = payWallet || "Unavailable (invalid or unverified payout wallet)";
+          const unitsInput = document.getElementById("supportUnitsInput");
+          if (unitsInput) unitsInput.value = "1";
+          updateSupportModalPayment();
+        }
+        const modal = document.getElementById("actionModal");
+        modal.classList.remove("hidden");
+        modal.classList.add("flex");
+      }
+      function closeActionModal() {
+        const modal = document.getElementById("actionModal");
+        modal.classList.add("hidden");
+        modal.classList.remove("flex");
+      }
+      document.getElementById("closeModalBtn").addEventListener("click", closeActionModal);
+      document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeActionModal(); });
+      async function ensureBaseNetwork(provider) {
+        try {
+          const network = await provider.getNetwork();
+          if (network.chainId === BigInt(BASE_CHAIN_ID)) return true;
+        } catch (_) {}
+        const hexChainId = "0x" + Number(BASE_CHAIN_ID).toString(16);
+        try {
+          await window.ethereum.request({
+            method: "wallet_switchEthereumChain",
+            params: [{ chainId: hexChainId }],
+          });
+          return true;
+        } catch (switchError) {
+          if (switchError && (switchError.code === 4902 || switchError.data?.originalError?.code === 4902)) {
+            await window.ethereum.request({
+              method: "wallet_addEthereumChain",
+              params: [{
+                chainId: hexChainId,
+                chainName: "Base",
+                nativeCurrency: { name: "Ether", symbol: "ETH", decimals: 18 },
+                rpcUrls: ["https://mainnet.base.org"],
+                blockExplorerUrls: ["https://basescan.org"],
+              }],
+            });
+            return true;
+          }
+          throw new Error("Please switch your wallet to Base network (Chain ID " + BASE_CHAIN_ID + ") to contribute.");
+        }
+      }
+      document.getElementById("sendEvmVoteBtn").addEventListener("click", async () => {
+        const p = state.activeModalProposal;
+        if (!p) return;
+        if (orgClaimBadgeFor(p) === "unclaimed") { alert("Contributions are locked until the organization verifies this bounty page."); return; }
+        const to = payableWalletFor(p);
+        if (!to) { alert("Invalid or unverified payout wallet. Payment was blocked."); return; }
+        if (typeof window.ethereum === "undefined") { alert("No browser Web3 wallet detected. You can still contribute via QR codes, ZK-Email, or SMS!"); return; }
+        const btn = document.getElementById("sendEvmVoteBtn");
+        const origText = btn.textContent;
+        try {
+          const { units, totalUsd } = currentSupportSelection();
+          let provider = new ethers.BrowserProvider(window.ethereum);
+          btn.disabled = true;
+          btn.textContent = "Checking network...";
+          await ensureBaseNetwork(provider);
+          provider = new ethers.BrowserProvider(window.ethereum);
+          const signer = await provider.getSigner();
+          const ethRate = (typeof ethUsdSpot === "number" && ethUsdSpot > 0) ? ethUsdSpot : 2800;
+          const approxEth = (totalUsd / ethRate).toFixed(8);
+          btn.textContent = "Confirm in wallet...";
+          const tx = await signer.sendTransaction({ to, value: ethers.parseEther(approxEth) });
+          document.getElementById("txHashInput").value = tx.hash;
+          btn.textContent = "Awaiting confirmation...";
+          const receipt = await tx.wait(1);
+          if (receipt && receipt.status === 1) {
+            alert(`Support transaction confirmed on Base (${units} unit${units===1?"":"s"}, ~$${totalUsd.toFixed(2)} est., ${approxEth} ETH)!\n\nTX Hash: ${tx.hash}\n\nYour TX hash has been auto-filled below. Click 'Verify TX via GitHub Issue' to record it.`);
+          } else {
+            alert(`Transaction broadcast (${tx.hash}), but receipt indicated an unexpected status. Please verify on BaseScan.`);
+          }
+        } catch (err) {
+          alert("Transaction canceled or failed: " + (err && err.message ? err.message : "Unknown error"));
+        } finally {
+          btn.disabled = false;
+          btn.textContent = origText;
+        }
+      });
+      document.getElementById("printFlyerBtn").addEventListener("click", () => {
+        const p = state.activeModalProposal;
+        if (!p) return;
+        const to = payableWalletFor(p);
+        if (!to) { alert("This campaign is locked or has an invalid/unverified payout wallet. Printing a payment QR is disabled."); return; }
+        const { units, totalUsd } = currentSupportSelection();
+        const ethRate = (typeof ethUsdSpot === "number" && ethUsdSpot > 0) ? ethUsdSpot : 2800;
+        const approxEth = (totalUsd / ethRate).toFixed(6);
+        const isOpenEnded = p.campaignType === "open_ended" || p.targetUSD == null || p.targetUSD <= 0;
+        document.getElementById("printFlyerTitle").textContent = p.title;
+        document.getElementById("printFlyerMeta").textContent = `${p.category} • ${p.location} • ${isOpenEnded ? "Open-ended campaign" : "Target: $" + Number(p.targetUSD).toFixed(2)}`;
+        document.getElementById("printFlyerDesc").textContent = state.plainLanguageMode ? p.plainSummary : p.summary;
+        document.getElementById("printFlyerPrice").textContent = `Scan to contribute ~$${totalUsd.toFixed(2)} est. (~${approxEth} ETH, ${units} support unit${units===1?"":"s"}) on Base L2 (confirm exact amount in wallet)`;
+        document.getElementById("printFlyerWallet").textContent = `Payout Wallet (Base): ${to}`;
+        const printQr = document.getElementById("printFlyerQr");
+        printQr.replaceChildren();
+        const approxWei = String(Math.round((totalUsd / ethRate) * 1e18));
+        if (typeof QRCode !== "undefined") {
+          new QRCode(printQr, { text: `ethereum:${to}@${BASE_CHAIN_ID}?value=${approxWei}`, width: 200, height: 200, colorDark: "#000000", colorLight: "#ffffff", correctLevel: QRCode.CorrectLevel.M });
+        }
+        window.print();
+      });
+      document.getElementById("verifyVoteForm").addEventListener("submit", (e) => {
+        e.preventDefault();
+        const p = state.activeModalProposal;
+        if (!p) return;
+        const to = payableWalletFor(p);
+        if (!to) { alert("This campaign is locked or has an invalid/unverified payout wallet. Verification submission is disabled."); return; }
+        const txHash = document.getElementById("txHashInput").value.trim();
+        const handle = document.getElementById("voterHandleInput").value.trim() || state.socialHandle || "anonymous";
+        if (!isValidTxHash(txHash)) { alert("Invalid Transaction Hash. Must be 0x followed by 64 hexadecimal characters."); return; }
+        const { units, minUnit, totalUsd } = currentSupportSelection();
+        const ethRate = (typeof ethUsdSpot === "number" && ethUsdSpot > 0) ? ethUsdSpot : 2800;
+        const approxEth = +(totalUsd / ethRate).toFixed(8);
+        const payload = JSON.stringify({ project_id: p.id, project_wallet: to, tx_hash: txHash, voter_handle: handle, support_units: units, amount_usd: totalUsd, amount_usd_estimate_ui: totalUsd, eth_usd_spot_rate: ethRate, amount_eth_estimate: approxEth, min_unit_price_usd: minUnit, campaign_type: (p.campaignType || "fixed") }, null, 2);
+        const params = new URLSearchParams({ title: `[Vote]: #${p.id} (${units}u, ${txHash.slice(0, 10)}...)`, labels: "cast-vote,pending-rpc-check", body: `### Automated Support/Vote Verification Queue\n\`\`\`json\n${payload}\n\`\`\`\n\n"Votes" are support units (not democratic votes). Contributions may continue beyond fixed targets and for open-ended campaigns. USD/native amounts in UI may be estimates; on-chain tx is authoritative.` });
+        window.open(`https://github.com/${GITHUB_OWNER}/${GITHUB_REPO}/issues/new?${params.toString()}`, "_blank", "noopener");
+      });
+      document.getElementById("supportUnitsInput").addEventListener("input", updateSupportModalPayment);
+      document.getElementById("supportUnitsInput").addEventListener("change", updateSupportModalPayment);
+      document.getElementById("openProofSubmissionBtn").addEventListener("click", () => {
+        const p = state.activeModalProposal;
+        if (!p) return;
+        if (orgClaimBadgeFor(p) === "unclaimed") { alert("This campaign is locked until organization verification is completed."); return; }
+        const to = payableWalletFor(p) || (isValidAddress(effectiveWalletFor(p)) ? String(effectiveWalletFor(p)) : "unavailable");
+        const params = new URLSearchParams({ title: `[Proof of Completion]: #${p.id} - ${p.title}`, labels: "proof-of-work,48h-challenge-window", body: [`### Proof-of-Completion Oracle Submission`, `- **Project ID:** ${p.id}`, `- **Payout Wallet (Beneficiary, Base):** \`${to}\``, `- **Worker Payout Address:** \`0x...\``, `- **IPFS / R2 / TikTok Proof Media URL:** \`https://...\``, `- **48h Public Dispute Window:** Yes`].join("\n") });
+        window.open(`https://github.com/${GITHUB_OWNER}/${GITHUB_REPO}/issues/new?${params.toString()}`, "_blank", "noopener");
+      });
+      const tabButtons = document.querySelectorAll(".nav-tab-btn");
+      const tabPanels = document.querySelectorAll(".tab-panel");
+      tabButtons.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const target = btn.getAttribute("data-tab");
+          tabButtons.forEach((b) => { b.className = "nav-tab-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold text-zinc-300 hover:text-white transition"; });
+          btn.className = "nav-tab-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-purple-700 text-white transition hc-btn";
+          tabPanels.forEach((panel) => panel.classList.add("hidden"));
+          const activePanel = document.getElementById(`tab-${target}`);
+          if (activePanel) activePanel.classList.remove("hidden");
+          if (target === "map") initGeoRssMap();
+        });
+      });
+      function initGeoRssMap() {
+        if (typeof L === "undefined") return;
+        if (!state.mapInstance) {
+          state.mapInstance = L.map("polytabMap").setView([20, 0], 2);
+          L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19, attribution: "&copy; OpenStreetMap contributors | Polytab GeoRSS" }).addTo(state.mapInstance);
+        }
+        setTimeout(() => state.mapInstance.invalidateSize(), 150);
+        state.proposals.forEach((p) => {
+          if (p.lat == null || p.lng == null) return;
+          const marker = L.marker([p.lat, p.lng]).addTo(state.mapInstance);
+          const popupDiv = document.createElement("div");
+          const strong = document.createElement("strong");
+          strong.textContent = p.title;
+          const meta = document.createElement("p");
+          const isOpenEndedM = p.campaignType === "open_ended" || p.targetUSD == null || p.targetUSD <= 0;
+          meta.textContent = isOpenEndedM ? `${p.category} • $${Number(p.fundedUSD||0).toFixed(2)} raised (open-ended)` : `${p.category} • $${Number(p.fundedUSD||0).toFixed(2)} / $${Number(p.targetUSD).toFixed(2)}`;
+          popupDiv.appendChild(strong);
+          popupDiv.appendChild(meta);
+          marker.bindPopup(popupDiv);
+        });
+      }
+      const newWalletInput = document.getElementById("newWallet");
+      const newVoteInput = document.getElementById("newVoteUSD");
+      function updateCreateQr() {
+        const addr = newWalletInput.value.trim();
+        const votePrice = parseFloat(newVoteInput.value) || 0.50;
+        const previewBox = document.getElementById("createQrPreview");
+        const uriText = document.getElementById("createUriPreview");
+        if (!isValidAddress(addr)) {
+          previewBox.replaceChildren();
+          const span = document.createElement("span");
+          span.className = "text-xs text-zinc-500 font-mono";
+          span.textContent = "Enter valid 0x address";
+          previewBox.appendChild(span);
+          uriText.textContent = "ethereum:0x...@8453";
+          return;
+        }
+        const approxWei = String(Math.round((votePrice / 2800) * 1e18));
+        const uri = `ethereum:${addr}@${BASE_CHAIN_ID}?value=${approxWei}`;
+        uriText.textContent = uri;
+        previewBox.replaceChildren();
+        if (typeof QRCode !== "undefined") {
+          new QRCode(previewBox, { text: uri, width: 150, height: 150, colorDark: "#000000", colorLight: "#ffffff", correctLevel: QRCode.CorrectLevel.M });
+        }
+      }
+      newWalletInput.addEventListener("input", updateCreateQr);
+      newVoteInput.addEventListener("input", updateCreateQr);
+      function syncCreateSubcategories() {
+        const parent = (document.getElementById("newParentCategory") || {}).value || PARENT_CHARITIES;
+        const sub = document.getElementById("newCategory");
+        if (!sub) return;
+        const cats = PARENT_CATEGORIES[parent] || CHARITY_CATEGORIES;
+        sub.replaceChildren();
+        cats.forEach((c) => { const o = document.createElement("option"); o.value = c; o.textContent = CATEGORY_LABELS[c] || c; sub.appendChild(o); });
+      }
+      const parentSel = document.getElementById("newParentCategory");
+      if (parentSel) parentSel.addEventListener("change", syncCreateSubcategories);
+      syncCreateSubcategories();
+      document.getElementById("createProjectForm").addEventListener("submit", async (e) => {
+        e.preventDefault();
+        const wallet = newWalletInput.value.trim();
+        if (!isValidAddress(wallet)) { alert("Please provide a valid 42-character hexadecimal EVM wallet address starting with 0x."); return; }
+        const title = document.getElementById("newTitle").value.trim();
+        const parentCategory = (document.getElementById("newParentCategory") || {}).value || PARENT_CHARITIES;
+        const category = document.getElementById("newCategory").value;
+        let location = document.getElementById("newLocation").value.trim();
+        const targetUSD = parseFloat(document.getElementById("newTargetUSD").value) || 45.00;
+        const votePriceUSD = parseFloat(document.getElementById("newVoteUSD").value) || 0.50;
+        const coordsEl = document.getElementById("newCoords");
+        let coords = coordsEl ? coordsEl.value.trim() : "";
+        const summary = document.getElementById("newSummary").value.trim();
+        const plainSummary = summary;
+        if (!coords) { await resolveCreateLocation(location); coords = coordsEl ? coordsEl.value.trim() : ""; location = document.getElementById("newLocation") ? document.getElementById("newLocation").value.trim() : location; }
+        if (!coords) { alert("We couldn't geocode that location yet. Try a city, ZIP, or street address and submit again."); return; }
+        const assignedId = nextIdForCategory(category, state.proposals);
+        const assignedWallet = assignedId ? walletForId(assignedId) : null;
+        const payload = JSON.stringify({ title, parentCategory: (CATEGORY_PARENT[category] || parentCategory), category, location, targetUSD, votePriceUSD, payoutWallet: wallet, georssPoint: coords, plainSummary, status: "Active", suggestedBlocId: assignedId, suggestedBlocWallet: assignedWallet }, null, 2);
+        const params = new URLSearchParams({ title: `[Proposal]: ${title}`, labels: "proposal,pending-verification", body: `### Project Proposal Metadata\n\`\`\`json\n${payload}\n\`\`\`\n\n### Action Scope & Proof Deliverable\n${summary}\n\n### ID Pipeline (bloc format)\n- Parent: ${CATEGORY_PARENT[category] || parentCategory}\n- Subcategory bloc: ${category}\n- Suggested bloc ID: ${assignedId || "n/a"}\n- Payout Wallet (user-supplied): funds for this project settle directly into the creator's wallet after verified proof-of-work. Attribution via bloc ID (never renumbered).` });
+        window.open(`https://github.com/${GITHUB_OWNER}/${GITHUB_REPO}/issues/new?${params.toString()}`, "_blank", "noopener");
+      });
+      document.getElementById("ussdSendBtn").addEventListener("click", () => {
+        const inputEl = document.getElementById("ussdInput");
+        const screenEl = document.getElementById("ussdScreen");
+        const rawCmd = inputEl.value.trim().toUpperCase();
+        if (!rawCmd) return;
+        if (rawCmd === "LIST") {
+          screenEl.textContent = state.proposals.slice(0, 3).map((p) => {
+            const oe = p.campaignType === "open_ended" || p.targetUSD == null || p.targetUSD <= 0;
+            const amt = oe ? `$${Number(p.fundedUSD||0).toFixed(2)} open-ended` : `$${Number(p.fundedUSD||0).toFixed(2)}/$${Number(p.targetUSD).toFixed(2)}`;
+            return `#${p.id}: ${p.title.slice(0, 26)}.. (${amt})`;
+          }).join("\n") + "\nReply VOTE [ID] or STATUS [ID]";
+        } else if (rawCmd.startsWith("VOTE")) {
+          const id = rawCmd.split(/\s+/)[1] || "1";
+          screenEl.textContent = `[ERC-4337 Paymaster Sponsored]\nRecorded 1 support unit for Action #${id}.\n"Votes" are support units, not democratic votes.`;
+        } else if (rawCmd.startsWith("STATUS")) {
+          const id = rawCmd.split(/\s+/)[1] || "1";
+          const found = state.proposals.find((p) => p.id === id) || state.proposals[0];
+          const oe = found && (found.campaignType === "open_ended" || found.targetUSD == null || found.targetUSD <= 0);
+          const amt = oe ? `Raised $${Number(found.fundedUSD||0).toFixed(2)} (open-ended)` : `Raised $${Number(found.fundedUSD||0).toFixed(2)} of $${Number(found.targetUSD).toFixed(2)}`;
+          screenEl.textContent = `Action #${found.id} (${found.status}):\n${amt} (${Number(found.votesCount||0)} support units).`;
+        } else {
+          screenEl.textContent = `Unknown command "${rawCmd}".\nValid SMS commands: LIST, VOTE 1, STATUS 1`;
+        }
+        inputEl.value = "";
+      });
+      document.getElementById("toggleSimpleBtn").addEventListener("click", (e) => {
+        state.plainLanguageMode = !state.plainLanguageMode;
+        e.currentTarget.setAttribute("aria-pressed", String(state.plainLanguageMode));
+        e.currentTarget.classList.toggle("bg-pink-300/20", state.plainLanguageMode);
+        e.currentTarget.classList.toggle("border-pink-300/60", state.plainLanguageMode);
+        e.currentTarget.classList.toggle("text-pink-100", state.plainLanguageMode);
+        e.currentTarget.classList.toggle("shadow-[0_0_14px_rgba(249,168,212,0.55)]", state.plainLanguageMode);
+        renderProposalsGrid();
+      });
+      document.getElementById("toggleContrastBtn").addEventListener("click", (e) => {
+        state.highContrastMode = !state.highContrastMode;
+        e.currentTarget.setAttribute("aria-pressed", String(state.highContrastMode));
+        document.body.classList.toggle("high-contrast", state.highContrastMode);
+      });
+      document.getElementById("toggleLiteBtn").addEventListener("click", (e) => {
+        state.liteMode = !state.liteMode;
+        e.currentTarget.setAttribute("aria-pressed", String(state.liteMode));
+        document.body.classList.toggle("lite-mode", state.liteMode);
+      });
+      document.getElementById("searchInput").addEventListener("input", (e) => { state.searchQuery = e.target.value; state.page = 1; renderProposalsGrid(); });
+      document.getElementById("statusFilter").addEventListener("change", (e) => { state.selectedStatus = e.target.value; state.page = 1; renderProposalsGrid(); });
+      const sortSel = document.getElementById("sortBySelect");
+      if (sortSel) {
+        sortSel.value = state.sortBy || "default";
+        sortSel.addEventListener("change", (e) => { state.sortBy = e.target.value || "default"; state.page = 1; renderProposalsGrid(); });
+      }
+      // Location suggestions: static index (generated daily by GitHub Actions from free GeoNames) + adaptive live Nominatim
+      let _LOC_UNIQ = [];
+      function _buildLocItemsFromIndex(idx) {
+        const items = [];
+        if (!idx) return items;
+        (idx.countries || []).forEach(c => {
+          const code = String(c.c||"").toUpperCase(); const name = String(c.n||"");
+          if (!code || !name) return;
+          items.push({label: code+" - "+name, value: code, code, name, kind:"country", country:name});
+          items.push({label: name, value: name, code, name, kind:"country", country:name});
+        });
+        (idx.admin1 || []).forEach(a => {
+          const code = String(a.c||""); const name = String(a.n||""); const ascii = String(a.a||name); const cc = String(a.cc||"").toUpperCase(); const cn = String(a.cn||cc);
+          if (!name || !cc) return;
+          const disp = name + (cn ? (", "+cn) : "");
+          if (code) items.push({label: code+" - "+disp, value: name, code, name, kind:"state", country:cn, countryCode:cc});
+          items.push({label: disp, value: name, code, name, kind:"state", country:cn, countryCode:cc});
+          if (ascii && ascii !== name) items.push({label: ascii+", "+cn, value: ascii, code, name:ascii, kind:"state", country:cn, countryCode:cc});
+        });
+        (idx.cities || []).forEach(c => {
+          const name = String(c.n||""); const ascii = String(c.a||name); const cc = String(c.cc||"").toUpperCase(); const cn = String(c.cn||cc); const st = String(c.s||"");
+          if (!name) return;
+          const tail = (st ? (", "+st) : "") + (cn ? (", "+cn) : "");
+          items.push({label: name+tail, value: name, code:"", name, kind:"city", country:cn, countryCode:cc, state:st});
+          if (ascii && ascii !== name) items.push({label: ascii+tail, value: ascii, code:"", name:ascii, kind:"city", country:cn, countryCode:cc, state:st});
+        });
+        const seen = new Set();
+        return items.filter(it => { const k = String(it.label||"").toLowerCase(); if (seen.has(k)) return false; seen.add(k); return true; });
+      }
+      async function _loadLocationIndex() {
+        try {
+          const res = await fetch("./data/location-index.json", { cache: "no-store" });
+          if (!res.ok) return;
+          const idx = await res.json();
+          const built = _buildLocItemsFromIndex(idx);
+          if (built.length) _LOC_UNIQ = built;
+        } catch (_) { /* live API suggestions still work */ }
+      }
+      _loadLocationIndex();
+      function _locSuggestLocal(q) {
+        const raw = String(q || "").trim();
+        if (!raw || !_LOC_UNIQ.length) return [];
+        const ql = raw.toLowerCase(); const qu = raw.toUpperCase();
+        const scored = [];
+        for (const it of _LOC_UNIQ) {
+          const nameL = String(it.name||"").toLowerCase();
+          const asciiL = String(it.ascii||"").toLowerCase();
+          const codeU = String(it.code||"").toUpperCase();
+          const labelL = String(it.label||"").toLowerCase();
+          let score = 99;
+          if (codeU && codeU === qu) score = 0;
+          else if (codeU && codeU.startsWith(qu) && raw.length <= 3) score = 1;
+          else if (nameL.startsWith(ql) || (asciiL && asciiL.startsWith(ql))) score = 2;
+          else if (labelL.startsWith(ql)) score = 2;
+          else if (codeU && codeU.startsWith(qu)) score = 3;
+          else continue;
+          scored.push({it, score});
+        }
+        scored.sort((a,b) => a.score - b.score || a.it.label.localeCompare(b.it.label));
+        const out = []; const seenVal = new Set();
+        for (const sc of scored) { const vk = (String(sc.it.value||sc.it.label)).toLowerCase()+"|"+sc.it.kind; if (seenVal.has(vk)) continue; seenVal.add(vk); out.push(sc.it); }
+        return out;
+      }
+      let _sugSeq = 0, _sugTimer = null, _sugCache = new Map(), _sugSelecting = false;
+      function _mergeSug(local, remote) {
+        const out = []; const seen = new Set();
+        const add = (it) => { if(!it) return; const k = (String(it.label||"")+"|"+String(it.value||"")+"|"+String(it.kind||"")).toLowerCase(); if(seen.has(k)) return; seen.add(k); out.push(it); };
+        local.forEach(add); remote.forEach(add);
+        return out.slice(0,5);
+      }
+      function _renderLocSuggest(items, boxId = "zipSuggest", inputId = "zipInput") {
+        const box = document.getElementById(boxId);
+        if (!box) return;
+        box.replaceChildren();
+        if (!items || !items.length) { box.classList.add("hidden"); return; }
+        items.forEach(it => {
+          const btn = document.createElement("button");
+          btn.type = "button";
+          btn.className = "w-full text-left px-3 py-2 text-xs text-zinc-200 hover:bg-zinc-800 border-b border-zinc-800 last:border-b-0";
+          btn.textContent = it.label;
+          btn.addEventListener("mousedown", (ev) => { ev.preventDefault(); _sugSelecting = true; });
+          btn.addEventListener("click", async () => {
+            const inp = document.getElementById(inputId);
+            const typed = inp ? String(inp.value || "").trim() : "";
+            const pickedVal = it.value || it.name || it.label;
+            const typedPostal = /^\d{5}(-\d{4})?$/.test(typed) || (/^[A-Za-z0-9][A-Za-z0-9 -]{1,10}[A-Za-z0-9]?$/.test(typed) && /\d/.test(typed) && typed.length <= 12 && !/^[A-Za-z]{2}$/.test(typed));
+            const resolveVal = typedPostal ? typed : pickedVal;
+            const resolveHint = typedPostal ? { kind: "zip", name: it.name || it.label || typed, code: typed } : it;
+            if (inp) inp.value = typedPostal ? typed : pickedVal;
+            box.classList.add("hidden");
+            if (inp && inp.id === "newLocation") { await resolveCreateLocation(resolveVal, resolveHint); } else { resolveZip(resolveVal, resolveHint); }
+            setTimeout(() => { _sugSelecting = false; }, 0);
+          });
+          box.appendChild(btn);
+        });
+        box.classList.remove("hidden");
+      }
+      function _normSug(it) {
+        if (!it) return null;
+        const label = String(it.label||"").trim(); const value = String(it.value||it.name||label).trim();
+        if (!label && !value) return null;
+        return { label: label||value, value, code: String(it.code||""), name: String(it.name||value||label), kind: it.kind||"place", country: it.country||null, state: it.state||null };
+      }
+      async function _fetchNominatimSug(raw, seq) {
+        try {
+          const controller = new AbortController();
+          const to = setTimeout(() => controller.abort(), 3500);
+          const url = "https://nominatim.openstreetmap.org/search?format=json&addressdetails=1&limit=5&q=" + encodeURIComponent(raw);
+          const res = await fetch(url, { signal: controller.signal, headers: { "Accept": "application/json" } });
+          clearTimeout(to);
+          if (seq !== _sugSeq || !res.ok) return [];
+          const data = await res.json();
+          return (Array.isArray(data)?data:[]).map(hit => {
+            const a = hit.address || {};
+            const country = a.country || ""; const cc = (a.country_code||"").toUpperCase();
+            const st = a.state || a.region || a.province || a.state_district || "";
+            const city = a.city || a.town || a.village || a.municipality || a.hamlet || "";
+            const t = String(hit.addresstype || hit.type || "").toLowerCase();
+            let kind="place", name="", code="", label="", value="";
+            if (t === "country") { kind="country"; name=country || hit.name || raw; code=cc; label=(cc?cc+" - ":"")+name; value=cc||name; }
+            else if (t === "state" || t === "region" || t === "province" || t === "state_district" || t === "administrative") { kind="state"; name=st || hit.name || raw; label=name+(country?(", "+country):""); value=name; }
+            else if (city || t==="city"||t==="town"||t==="village"||t==="municipality"||t==="hamlet"||t==="suburb"||t==="county") { kind="city"; name=city || hit.name || raw; label=name+(st?(", "+st):"")+(country?(", "+country):""); value=name; }
+            else { kind="place"; name=hit.name || String(hit.display_name||raw).split(",")[0]; label=String(hit.display_name||name).split(",").slice(0,3).join(",").trim(); value=name; }
+            return _normSug({label, value, code, name, kind, country, state: st});
+          }).filter(Boolean);
+        } catch (_) { return []; }
+      }
+      async function _fetchPhotonSug(raw, seq) {
+        try {
+          const controller = new AbortController();
+          const to = setTimeout(() => controller.abort(), 3500);
+          const url = "https://photon.komoot.io/api/?q=" + encodeURIComponent(raw) + "&limit=5&lang=en";
+          const res = await fetch(url, { signal: controller.signal, headers: { "Accept": "application/json" } });
+          clearTimeout(to);
+          if (seq !== _sugSeq || !res.ok) return [];
+          const data = await res.json();
+          const feats = Array.isArray(data && data.features) ? data.features : [];
+          return feats.map(f => {
+            const p = f.properties || {};
+            const country = p.country || ""; const cc = (p.countrycode||"").toUpperCase();
+            const st = p.state || p.county || "";
+            const city = p.city || p.town || p.village || p.name || "";
+            const osmType = String(p.osm_value || p.type || "").toLowerCase();
+            let kind="place", name="", code="", label="", value="";
+            if (osmType === "country" || p.type === "country") { kind="country"; name=country || p.name || raw; code=cc; label=(cc?cc+" - ":"")+name; value=cc||name; }
+            else if (p.type === "state" || osmType === "state" || osmType === "province" || osmType === "region") { kind="state"; name=p.name || st || raw; label=name+(country?(", "+country):""); value=name; }
+            else if (p.type === "city" || p.type === "town" || p.type === "village" || p.type === "district" || p.type === "locality") { kind="city"; name=p.name || city || raw; label=name+(st?(", "+st):"")+(country?(", "+country):""); value=name; }
+            else { name=p.name || city || raw; label=[name, st, country].filter(Boolean).join(", ") || name; value=name; }
+            return _normSug({label, value, code, name, kind, country, state: st});
+          }).filter(Boolean);
+        } catch (_) { return []; }
+      }
+      async function _remoteLocSuggest(q, seq) {
+        const raw = String(q||"").trim();
+        if (raw.length < 2) return [];
+        const key = raw.toLowerCase();
+        if (_sugCache.has(key)) return _sugCache.get(key);
+        const [a, b] = await Promise.all([_fetchNominatimSug(raw, seq), _fetchPhotonSug(raw, seq)]);
+        if (seq !== _sugSeq) return [];
+        const merged = _mergeSug(a, b); // dedupe across providers
+        _sugCache.set(key, merged);
+        return merged;
+      }
+      function _updateLocSuggest(inputId = "zipInput", boxId = "zipSuggest") {
+        const inp = document.getElementById(inputId); if (!inp) return;
+        const q = inp.value || "";
+        const raw = String(q).trim();
+        const local = _locSuggestLocal(q);
+        let initial = local.slice(0,5);
+        const isPostal = /^\d{5}(-\d{4})?$/.test(raw) || (/^[A-Za-z0-9][A-Za-z0-9 -]{1,10}[A-Za-z0-9]?$/.test(raw) && /\d/.test(raw) && raw.length <= 12 && !/^[A-Za-z]{2}$/.test(raw));
+        if (isPostal && raw) {
+          const zipOpt = { label: raw + " — search within 50 mi", value: raw, code: raw, name: raw, kind: "zip" };
+          initial = _mergeSug([zipOpt], initial);
+        }
+        _renderLocSuggest(initial, boxId, inputId);
+        if (raw.length < 2) return;
+        const seq = ++_sugSeq;
+        if (_sugTimer) clearTimeout(_sugTimer);
+        _sugTimer = setTimeout(async () => {
+          const remote = await _remoteLocSuggest(q, seq);
+          if (seq !== _sugSeq) return;
+          if (document.activeElement !== inp) return;
+          let merged = _mergeSug(_locSuggestLocal(q), remote);
+          if (isPostal) merged = _mergeSug([{ label: raw + " — search within 50 mi", value: raw, code: raw, name: raw, kind: "zip" }], merged);
+          _renderLocSuggest(merged, boxId, inputId);
+        }, 250);
+      }
+      const zipInputEl = document.getElementById("zipInput");
+      const zipSuggestEl = document.getElementById("zipSuggest");
+      if (zipInputEl) {
+        zipInputEl.value = state.zipQuery || "";
+        zipInputEl.addEventListener("input", _updateLocSuggest);
+        zipInputEl.addEventListener("focus", _updateLocSuggest);
+        zipInputEl.addEventListener("change", () => { if (_sugSelecting) return; resolveZip(zipInputEl.value); });
+        zipInputEl.addEventListener("keydown", (e) => {
+          if (e.key === "Enter") { e.preventDefault(); if (zipSuggestEl) zipSuggestEl.classList.add("hidden"); resolveZip(zipInputEl.value); }
+          if (e.key === "Escape") { if (zipSuggestEl) zipSuggestEl.classList.add("hidden"); }
+        });
+        zipInputEl.addEventListener("blur", () => { setTimeout(() => { if (zipSuggestEl) zipSuggestEl.classList.add("hidden"); }, 120); });
+      }
+
+      const zipClearBtn = document.getElementById("zipClearBtn");
+      if (zipClearBtn) {
+        zipClearBtn.addEventListener("click", () => {
+          if (zipInputEl) zipInputEl.value = "";
+          if (zipSuggestEl) zipSuggestEl.classList.add("hidden");
+          resolveZip("");
+        });
+      }
+      const newLocationInput = document.getElementById("newLocation");
+      const newSuggestEl = document.getElementById("newSuggest");
+      if (newLocationInput) {
+        const syncNewLocSuggest = () => _updateLocSuggest("newLocation", "newSuggest");
+        newLocationInput.addEventListener("input", syncNewLocSuggest);
+        newLocationInput.addEventListener("focus", syncNewLocSuggest);
+        newLocationInput.addEventListener("keydown", (e) => {
+          if (e.key === "Enter") {
+            e.preventDefault();
+            if (newSuggestEl) newSuggestEl.classList.add("hidden");
+            resolveCreateLocation(newLocationInput.value);
+          }
+          if (e.key === "Escape") { if (newSuggestEl) newSuggestEl.classList.add("hidden"); }
+        });
+        newLocationInput.addEventListener("blur", () => { setTimeout(() => { if (newSuggestEl) newSuggestEl.classList.add("hidden"); }, 150); });
+      }
+      document.getElementById("connectWalletBtn").addEventListener("click", async (e) => {
+        const btn = e.currentTarget;
+        if (typeof window.ethereum === "undefined") { alert("No browser Web3 wallet detected. You can still vote via QR codes, ZK-Email, or SMS!"); return; }
+        try {
+          const provider = new ethers.BrowserProvider(window.ethereum);
+          const signer = await provider.getSigner();
+          const addr = await signer.getAddress();
+          state.connectedAddress = addr;
+          btn.textContent = addr.slice(0, 6) + "..." + addr.slice(-4);
+          newWalletInput.value = addr;
+          updateCreateQr();
+        } catch (err) { console.error("Wallet connection error:", err); }
+      });
+      document.getElementById("socialIdentityBtn").addEventListener("click", (e) => {
+        const handle = prompt("Enter your Discord, Telegram, or GitHub handle for the public voter ledger:", state.socialHandle || "@");
+        if (handle !== null) {
+          const clean = handle.trim().slice(0, 40);
+          state.socialHandle = clean;
+          localStorage.setItem("polytab_handle", clean);
+          e.currentTarget.textContent = clean || "Link Handle";
+        }
+      });
+      if (state.socialHandle) { document.getElementById("socialIdentityBtn").textContent = state.socialHandle; }
+
+      // Like/endorse/share overlay (opens on main page)
+      function openLikeOverlay(item) {
+        if (!item) return;
+        const overlay = document.getElementById("likeOverlay");
+        const titleEl = document.getElementById("likeOverlayTitle");
+        const likeGithub = document.getElementById("likeGithubLink");
+        const providerContainer = document.getElementById("providerButtons");
+        const providerNote = document.getElementById("providerNote");
+        if (titleEl) titleEl.textContent = item.title || "Project";
+        const issue = endorsementIssueUrl(item);
+        if (likeGithub) likeGithub.href = issue;
+        if (providerContainer) {
+          providerContainer.replaceChildren();
+          if (ENDORSEMENT_API) {
+            const providers = [["github","GitHub"],["google","Google"],["discord","Discord"],["facebook","Facebook"],["tiktok","TikTok"]];
+            providers.forEach(([prov,label]) => {
+              const a = document.createElement("a");
+              a.href = ENDORSEMENT_API + "/auth/start?provider=" + encodeURIComponent(prov) + "&project_id=" + encodeURIComponent(String(item.id));
+              a.className = "flex items-center w-full px-4 py-2.5 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-200 hover:bg-emerald-500/15 transition text-sm";
+              a.innerHTML = '<span class="font-semibold">' + label + '</span>';
+              providerContainer.appendChild(a);
+            });
+            if (providerNote) providerNote.textContent = "Choose a platform to endorse this project.";
+          } else {
+            if (providerNote) providerNote.textContent = "Choose a platform to endorse this project.";
+          }
+        }
+        const shareUrl = (location.origin && location.origin !== "null" ? location.origin : "https://polytab.store") + "/project.html?id=" + encodeURIComponent(String(item.id));
+        const shareText = "Support this project on Polytab: " + (item.title || "Project");
+        const setShare = (id, url) => { const a = document.getElementById(id); if (a) a.href = url; };
+        const setShareBtn = (id, url) => { const b = document.getElementById(id); if (b) b.onclick = () => window.open(url, "_blank", "noopener,noreferrer"); };
+        setShare("shareX", "https://twitter.com/intent/tweet?text=" + encodeURIComponent(shareText) + "&url=" + encodeURIComponent(shareUrl));
+        setShareBtn("shareFb", "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(shareUrl));
+        setShare("shareLinkedIn", "https://www.linkedin.com/sharing/share-offsite/?url=" + encodeURIComponent(shareUrl));
+        setShare("shareWhatsApp", "https://wa.me/?text=" + encodeURIComponent(shareText + " " + shareUrl));
+        setShare("shareTelegram", "https://t.me/share/url?url=" + encodeURIComponent(shareUrl) + "&text=" + encodeURIComponent(shareText));
+        setShareBtn("shareRd", "https://www.reddit.com/submit?url=" + encodeURIComponent(shareUrl) + "&title=" + encodeURIComponent(shareText));
+        setShare("shareBluesky", "https://bsky.app/intent/compose?text=" + encodeURIComponent(shareText + " " + shareUrl));
+        setShare("shareEmail", "mailto:?subject=" + encodeURIComponent(shareText) + "&body=" + encodeURIComponent(shareText + "\n\n" + shareUrl));
+        const copyBtn = document.getElementById("likeCopyLink");
+        if (copyBtn) copyBtn.onclick = async () => { try { await navigator.clipboard.writeText(shareUrl); copyBtn.textContent = "Link copied"; setTimeout(()=>copyBtn.textContent="Copy link",1500);} catch(_){ try { prompt("Copy link:", shareUrl); } catch(__){} } };
+        const ig = document.getElementById("shareInstagram");
+        if (ig) ig.onclick = async () => { try { await navigator.clipboard.writeText(shareUrl); ig.textContent = "Link copied"; setTimeout(()=>ig.textContent="Instagram",1500);} catch(_){ } window.open("https://www.instagram.com/","_blank","noopener,noreferrer"); };
+        const tt = document.getElementById("shareTikTok");
+        if (tt) tt.onclick = async () => { try { await navigator.clipboard.writeText(shareUrl); tt.textContent = "Link copied"; setTimeout(()=>tt.textContent="TikTok",1500);} catch(_){ } window.open("https://www.tiktok.com/upload?lang=en","_blank","noopener,noreferrer"); };
+        const dc = document.getElementById("shareDiscord");
+        if (dc) dc.onclick = async () => { try { await navigator.clipboard.writeText(shareUrl); dc.textContent = "Link copied"; setTimeout(()=>dc.textContent="Discord",1500);} catch(_){ } window.open("https://discord.com/app","_blank","noopener,noreferrer"); };
+        if (overlay) {
+          overlay.classList.remove("hidden");
+          overlay.classList.add("flex");
+          overlay.style.display = "flex";
+          overlay.setAttribute("aria-hidden","false");
+        }
+      }
+      function closeLikeOverlay() {
+        const overlay = document.getElementById("likeOverlay");
+        if (overlay) {
+          overlay.classList.add("hidden");
+          overlay.classList.remove("flex");
+          overlay.style.display = "none";
+          overlay.setAttribute("aria-hidden","true");
+        }
+      }
+      document.addEventListener("click", (e) => {
+        const overlay = document.getElementById("likeOverlay");
+        if (!overlay || overlay.classList.contains("hidden")) return;
+        const closeBtn = e.target.closest("#closeLikeOverlay");
+        if (closeBtn) { e.preventDefault(); e.stopPropagation(); closeLikeOverlay(); return; }
+        const dialog = overlay.querySelector('[role="dialog"]');
+        if (dialog && !dialog.contains(e.target)) closeLikeOverlay();
+      });
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") {
+          const overlay = document.getElementById("likeOverlay");
+          if (overlay && !overlay.classList.contains("hidden")) closeLikeOverlay();
+        }
+      });
+
+      loadFeedState();
+      loadVerifiedEndorsements();
+      loadMarkets();
+      loadForecastBoard();
+    })();
+  </script>
+
+  <div id="likeOverlay" class="hidden fixed inset-0 z-50 bg-black/70 backdrop-blur-sm items-center justify-center p-4" aria-hidden="true" style="display:none">
+    <div class="w-full max-w-md bg-zinc-950 border border-zinc-800 rounded-2xl p-5 space-y-4 shadow-2xl mx-auto max-h-[90vh] overflow-y-auto" role="dialog" aria-modal="true" aria-label="Support this campaign">
+      <div class="flex items-start justify-between gap-3">
+        <div>
+          <h3 class="text-lg font-bold text-white">Support this campaign</h3>
+          <p id="likeOverlayTitle" class="text-xs text-zinc-400 mt-1"></p>
+        </div>
+        <button id="closeLikeOverlay" type="button" class="text-zinc-400 hover:text-white text-xl leading-none" aria-label="Close">&times;</button>
+      </div>
+      <div class="space-y-2">
+        <div class="text-[10px] uppercase tracking-wider text-zinc-500 font-semibold">Like (social support)</div>
+        <p class="text-[11px] text-zinc-400">Likes are like social media or YouTube likes — a simple way to say “I like this campaign.” Likes are not votes, payments, or trust endorsements.</p>
+        <div id="providerButtons" class="space-y-2"></div>
+        <a id="likeGithubLink" href="#" target="_blank" rel="noopener noreferrer" class="flex flex-col items-start w-full px-4 py-3 rounded-xl bg-[#FFD8B5]/15 border border-[#FFD8B5]/40 text-[#FFE8D6] hover:bg-[#FFD8B5]/25 transition">
+          <span class="font-semibold">Like on GitHub (verified)</span>
+        </a>
+      </div>
+      <div class="space-y-2 border-t border-zinc-800 pt-3">
+        <div class="text-[10px] uppercase tracking-wider text-zinc-500 font-semibold">Trust Endorsements (reputation)</div>
+        <p class="text-[11px] text-zinc-400">Endorsements are for community volunteers, active participants, or beneficiaries with hands-on experience. A trust endorsement can add a reputation/trust badge showing “this campaign/org is legitimate; I’ve worked with them.”</p>
+        <p class="text-[11px] text-zinc-500">Steward/endorsed members: when an organization is verified and unlocks a campaign, the unlocker becomes the campaign steward/arbiter. Other org members can become endorsed members via the endorsement verification process or a steward vouch.</p>
+        <a href="./CAMPAIGN_FRAMEWORK.md" target="_blank" rel="noopener noreferrer" class="inline-flex text-[11px] text-sky-300 hover:text-sky-200 underline">View campaign framework &amp; rules</a>
+      </div>
+      <div id="shareSection" class="space-y-2">
+        <div class="text-[10px] uppercase tracking-wider text-zinc-500 font-semibold">Share</div>
+        <div class="grid grid-cols-2 gap-2 text-sm">
+          <button id="shareFb" type="button" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white text-center">Facebook</button>
+          <button id="shareRd" type="button" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white text-center">Reddit</button>
+          <button id="shareInstagram" type="button" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white text-center">Instagram</button>
+          <button id="shareTikTok" type="button" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white text-center">TikTok</button>
+          <button id="shareDiscord" type="button" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white text-center">Discord</button>
+          <a id="shareBluesky" href="#" target="_blank" rel="noopener noreferrer" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white text-center">Bluesky</a>
+          <a id="shareEmail" href="#" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white text-center">Email</a>
+          <button id="likeCopyLink" type="button" class="px-3 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-200 hover:text-white">Copy link</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

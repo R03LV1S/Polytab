@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "updated_at": null,
+  "source": { "type": "github_issues", "repository": "R03LV1S/Polytab", "label": "involvement" },
+  "integrity": { "counts_fabricated": false, "note": "Entries are sourced from public GitHub submissions. Review linked issues for details." },
+  "stats": { "issues_considered": 0, "entries_accepted": 0, "invalid_or_unmatched": 0, "projects_with_people": 0 },
+  "projects": {}
+}

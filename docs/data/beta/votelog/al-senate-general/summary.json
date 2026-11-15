@@ -1,0 +1,106 @@
+{
+  "generatedAt": "2026-11-13T22:32:23.778Z",
+  "dataCurrentThrough": {
+    "independentExpenditures": "2026-10-27",
+    "campaignFinances": "2026-10-14",
+    "campaignFinancesByCandidate": {
+      "moore": "2026-10-14",
+      "wess": "2026-10-14"
+    },
+    "superPacDonors": {
+      "C00875039": "2026-10-14",
+      "C00448696": "2026-10-14",
+      "C00524181": "2026-10-14",
+      "C00934877": "2026-09-30"
+    },
+    "aipacEarmarks": "2026-10-14",
+    "donorNetwork": {
+      "moore": "2026-06-30",
+      "wess": "2026-09-28",
+      "network": "2026-10-14"
+    },
+    "filingsProcessed": "2026-11-13"
+  },
+  "summary": {
+    "moore": {
+      "totalReceiptsCents": 463592574,
+      "transfersFromAuthCents": 63170282,
+      "totalDisbursementsCents": 429385811,
+      "cashOnHandCents": 46719929,
+      "candidateContribCents": 0,
+      "candidateLoansCents": 5000000,
+      "totalIndividualCents": 285776950,
+      "otherCommitteeContribCents": 108909783,
+      "coverageEnd": "2026-10-14",
+      "individualRefundsCents": 3785769,
+      "outsideSupportingCents": 38755673,
+      "outsideOpposingCents": 0,
+      "outsideBenefitingCents": 38755673
+    },
+    "wess": {
+      "totalReceiptsCents": 12857016,
+      "transfersFromAuthCents": 0,
+      "totalDisbursementsCents": 11802737,
+      "cashOnHandCents": 1054279,
+      "candidateContribCents": 0,
+      "candidateLoansCents": 7064323,
+      "totalIndividualCents": 5792693,
+      "otherCommitteeContribCents": 0,
+      "coverageEnd": "2026-10-14",
+      "individualRefundsCents": 0,
+      "outsideSupportingCents": 0,
+      "outsideOpposingCents": 0,
+      "outsideBenefitingCents": 0
+    }
+  },
+  "outsideByCommittee": [
+    {
+      "committeeId": "C00875039",
+      "committee": "High Plains PAC",
+      "fecType": "O",
+      "forMoore": 26500000,
+      "againstMoore": 0,
+      "forWess": 0,
+      "againstWess": 0,
+      "total": 26500000,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610079908556342",
+      "latestDate": "2026-10-05"
+    },
+    {
+      "committeeId": "C00448696",
+      "committee": "Senate Conservatives Fund",
+      "fecType": "W",
+      "forMoore": 7704212,
+      "againstMoore": 0,
+      "forWess": 0,
+      "againstWess": 0,
+      "total": 7704212,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610219928485661",
+      "latestDate": "2026-10-20"
+    },
+    {
+      "committeeId": "C00524181",
+      "committee": "Senate Conservatives Action",
+      "fecType": "O",
+      "forMoore": 3487181,
+      "againstMoore": 0,
+      "forWess": 0,
+      "againstWess": 0,
+      "total": 3487181,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159908872803",
+      "latestDate": "2026-10-15"
+    },
+    {
+      "committeeId": "C00934877",
+      "committee": "Stop Communism PAC",
+      "fecType": "Q",
+      "forMoore": 1064280,
+      "againstMoore": 0,
+      "forWess": 0,
+      "againstWess": 0,
+      "total": 1064280,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945298740",
+      "latestDate": "2026-10-27"
+    }
+  ]
+}

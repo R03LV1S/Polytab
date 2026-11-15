@@ -1,0 +1,20 @@
+candidate,donor,city,state,zip5,employer,occupation,direct_total_cents,contributions,first_date,last_date,match_tier,same_employer_string,aipac_pac_total_cents,aipac_pac_rows,aipac_pac_recipient_committees,aipac_pac_cycles
+Kurt Alme,Esther Chouake,Englewood,NJ,07631,Self-Employed,Md,350000,1,2026-06-30,2026-06-30,zip,false,500000,1,1,2024
+Kurt Alme,Larry A. Mizel,Greenwood Village,CO,80111,Retired,Retired,350000,1,2026-06-30,2026-06-30,state,false,1980000,6,6,2024
+Kurt Alme,Jack Sutton,Englewood,NJ,07631,Cudlie Accessories LLC,Real Estate,300000,1,2026-06-30,2026-06-30,state,true,275000,4,3,2026
+Kurt Alme,Allen Friedman,Teaneck,NJ,07666,Jp Morgan Chase,Attorney,250000,1,2026-06-30,2026-06-30,zip,false,960000,3,3,2024
+Kurt Alme,David Scherl,Scottsdale,AZ,85262,Retired,Retired,250000,1,2026-03-10,2026-03-10,zip,false,480000,7,5,2024
+Kurt Alme,Adam Milstein,Encino,CA,91436,Self Employed,Self Employed,200000,1,2026-06-16,2026-06-16,zip,false,10270000,30,24,2024/2026
+Kurt Alme,Gila Milstein,Encino,CA,91436,Self Employed,Self Employed,200000,1,2026-06-16,2026-06-16,zip,false,11220000,32,24,2024/2026
+Kurt Alme,Harold Diamond,Bal Harbour,FL,33154,Retired,Retired,200000,1,2026-06-30,2026-06-30,zip,false,900000,8,4,2026
+Kurt Alme,Jack Halpern,New York,NY,10023,Atlantic Realty,Real Estate,200000,1,2026-06-30,2026-06-30,zip,true,4980000,31,30,2024/2026
+Kurt Alme,Nina Rosenwald,East Hampton,NY,11937,Self-Employed,Investor,100000,1,2026-05-26,2026-05-26,zip,false,100000,1,1,2024
+Kurt Alme,Ben Siscovick,Englewood,NJ,07631,Spaxel,Real Estate,50000,1,2026-06-30,2026-06-30,zip,true,136000,2,2,2024
+Seth Bodnar,Jeffrey Gural,New York,NY,10024,Gfp Real Estate,Chairman,700000,2,2026-05-28,2026-05-28,zip,true,1660000,6,6,2024/2026
+Seth Bodnar,Ronald Abramson,Washington,DC,20006,Buchanan Ingersoll & Rooney,Attorney,700000,2,2026-04-27,2026-05-05,zip,false,200000,1,1,2026
+Seth Bodnar,Mark Abelson,San Mateo,CA,94402,Not Employed,Not Employed,250000,1,2026-06-26,2026-06-26,zip,false,1221500,7,6,2026
+Seth Bodnar,Ann Bardacke,Vancouver,WA,98660,"Ml Financial, Inc",Executive,100000,1,2026-06-04,2026-06-04,zip,true,2285000,27,18,2024/2026
+Seth Bodnar,Robert Newman,Beverly Hills,CA,90212,Wme Group,Agent,100000,1,2026-04-13,2026-04-13,zip,false,5000,1,1,2024
+Seth Bodnar,Steven Winoker,Narragansett,RI,02882,Paypal,Svice President,100000,1,2026-03-07,2026-03-07,zip,true,100000,1,0,2024
+Seth Bodnar,Michael Horowitz,Farmington Hills,MI,48334,Not Employed,Not Employed,36000,1,2026-03-17,2026-03-17,zip,false,50000,2,1,2026
+Seth Bodnar,Ronald Cohn,Carmel Valley,CA,93924,Self Employed,Investment Management,25000,1,2026-03-26,2026-03-26,zip,false,3150000,16,14,2024/2026

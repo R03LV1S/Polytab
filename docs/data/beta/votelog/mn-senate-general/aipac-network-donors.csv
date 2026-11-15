@@ -1,0 +1,28 @@
+candidate,donor,city,state,zip5,employer,occupation,direct_total_cents,contributions,first_date,last_date,match_tier,same_employer_string,aipac_pac_total_cents,aipac_pac_rows,aipac_pac_recipient_committees,aipac_pac_cycles
+Michele Tafoya,Bryan Badzin,Minnetonka,MN,55305,Superclean,President,1400000,2,2026-01-29,2026-02-03,zip,true,60000,2,2,2024
+Michele Tafoya,Elliott M. Badzin,Minneapolis,MN,55410,Factory Motor Parts,Owner,700000,1,2026-02-20,2026-02-20,zip,false,550000,2,2,2024/2026
+Michele Tafoya,Peter Zieve,Mukilteo,WA,98275,Electroimpact,Engineer,350000,1,2026-05-19,2026-05-19,zip,true,100000,1,1,2024
+Michele Tafoya,Kent Wellish,Henderson,NV,89014,Eye Associates Of Nevada,Physician,300000,3,2026-05-08,2026-07-08,zip,false,250000,1,0,2024
+Michele Tafoya,Michael Barry,Minnetonka,MN,55305,Twin City Fan Companies,Executive,250000,1,2026-03-31,2026-03-31,zip,true,2460000,16,11,2024/2026
+Michele Tafoya,Mikhail Zabezhinsky,Hopkins,MN,55305,Oceantech,Entrepreneur,150000,1,2026-05-23,2026-05-23,zip,true,750000,5,4,2024/2026
+Michele Tafoya,Gary Erlbaum,Ardmore,PA,19003,Self-Employed,Real Estate Investor,100000,1,2026-06-16,2026-06-16,zip,false,7900000,49,30,2024/2026
+Michele Tafoya,Joel Tilsner,Minnetonka,MN,55305,Tilsner Carton Co.,President,100000,1,2026-03-31,2026-03-31,zip,true,1600000,12,7,2024/2026
+Michele Tafoya,Rich K. Pogin,Ft Myers,FL,33908,Retired,Retired,100000,1,2026-06-18,2026-06-18,zip,false,100000,1,1,2026
+Michele Tafoya,Marc Hurwitz,Miami Beach,FL,33139,Self,Investments,50000,1,2026-05-14,2026-05-14,state,false,350000,5,4,2024/2026
+Michele Tafoya,Barry Kanel,Mill Valley,CA,94942,Retired,Retired,27700,4,2026-04-25,2026-05-28,zip,false,25000,3,1,2024/2026
+Michele Tafoya,Dean Faracchio,Lake Mary,FL,32746,Retired,Retired,25000,1,2026-02-16,2026-02-16,zip,false,280000,3,2,2024
+Michele Tafoya,Keith J. Mr Roland,Slingerlands,NY,12159,Roland Low From,Attorney,25000,1,2026-07-17,2026-07-17,zip,false,725000,6,4,2024/2026
+Michele Tafoya,Paul Anderson,Minneapolis,MN,55401,Retired,Retired,25000,1,2026-07-16,2026-07-16,state,false,75000,3,3,2026
+Michele Tafoya,Todd Johnson,Hallock,MN,56728,Johnson Oil Company,Trucking,22500,3,2026-02-05,2026-02-13,state,false,100000,1,1,2024
+Michele Tafoya,Daniel Miller,Las Vegas,NV,89135,Retired,Retired,15000,3,2026-04-25,2026-06-25,zip,false,480000,10,8,2024/2026
+Michele Tafoya,Richard Domercq,Houston,TX,77019,Retired,Retired,15000,2,2026-04-21,2026-06-29,zip,false,60000,2,0,2026
+Michele Tafoya,Edward N Robinson,Saint George,UT,84770,Retired,Retired,10000,1,2026-07-01,2026-07-01,zip,false,180000,3,0,2026
+Peggy Flanagan,Arnold Richman,Baltimore,MD,21201,Brightview Senior Living,Senior Living,350000,1,2026-01-24,2026-01-24,zip,false,50000,1,1,2026
+Peggy Flanagan,Brian Rice,Bannockburn,IL,60015,Ever.Ag,Advisor,50000,1,2026-04-29,2026-04-29,zip,true,400000,4,4,2026
+Peggy Flanagan,Susan Miller,Piedmont,CA,94611,Self Employed,Self Employed,50000,1,2026-02-19,2026-02-19,state,false,125000,5,5,2024
+Peggy Flanagan,Todd Becker,San Jose,CA,95136,Self Employed,Preschool Owner,50000,1,2026-03-13,2026-03-13,state,false,7785000,42,35,2024/2026
+Peggy Flanagan,Al Kamen,New York,NY,10022,Not Employed,Not Employed,45000,8,2025-06-22,2025-08-23,zip,false,100000,1,1,2024
+Peggy Flanagan,Jonathan Pollack,Pelham,NY,10803,Beldock Levine & Hoffman LLP,Attorney,25000,1,2025-09-19,2025-09-19,state,false,1250000,2,2,2026
+Peggy Flanagan,Vicki Hood,Chicago,IL,60611,Not Employed,Not Employed,25000,1,2025-05-22,2025-05-22,zip,false,25000,1,1,2026
+Peggy Flanagan,Gary Rappaport,Wayzata,MN,55391,Not Employed,Not Employed,20000,2,2026-01-27,2026-01-29,zip,false,100000,2,2,2024/2026
+Peggy Flanagan,Jacquie Bayley,Bellevue,WA,98005,Not Employed,Not Employed,10000,1,2026-05-15,2026-05-15,zip,false,450000,7,6,2024/2026

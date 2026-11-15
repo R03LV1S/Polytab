@@ -1,0 +1,290 @@
+candidate,donor,city,state,zip5,employer,occupation,direct_total_cents,contributions,first_date,last_date,match_tier,same_employer_string,aipac_pac_total_cents,aipac_pac_rows,aipac_pac_recipient_committees,aipac_pac_cycles
+Shelley Moore Capito,Bianca Peskin,Brookline,MA,02446,Not Employed,Not Employed,700000,1,2026-02-20,2026-02-20,zip,false,30130000,54,45,2024/2026
+Shelley Moore Capito,Edward Levy,Birmingham,MI,48009,Edw C Levy Co,Chairman,700000,1,2025-10-01,2025-10-01,zip,true,35510000,67,51,2024/2026
+Shelley Moore Capito,Iris Ms. Smith,Broomfield,CO,80021,Self,Creative Arts,700000,1,2026-04-07,2026-04-07,zip,false,14460000,24,21,2024/2026
+Shelley Moore Capito,Joseph Weinberg,Baltimore,MD,21202,Cordish Companies,Real Estate,700000,1,2025-07-23,2025-07-23,zip,true,21950000,35,34,2026
+Shelley Moore Capito,Larry A. Mizel,Greenwood Village,CO,80111,Mdc Holdings,Chairman/Ceo,700000,2,2026-05-12,2026-05-12,state,true,1980000,6,6,2024
+Shelley Moore Capito,Linda Dresner,Birmingham,MI,48009,Retired,Retired,700000,1,2025-10-01,2025-10-01,zip,false,11630000,21,18,2024/2026
+Shelley Moore Capito,Michael Mr. Smith,Broomfield,CO,80021,Kaitar Resources,Consultant,700000,1,2026-04-07,2026-04-07,zip,true,15450000,26,23,2024/2026
+Shelley Moore Capito,Ronald Wilheim,Cincinnati,OH,45237,Communicare Long Term Care Div,President,700000,2,2026-05-06,2026-05-06,zip,false,1400000,8,6,2024/2026
+Shelley Moore Capito,David Cordish,Baltimore,MD,21202,Cordish Companies,President,500000,1,2025-07-23,2025-07-23,zip,true,1330000,3,3,2024/2026
+Shelley Moore Capito,Jaime Peisach,Miami,FL,33122,Passion Growers,Manager,500000,1,2026-03-18,2026-03-18,zip,true,12615000,37,31,2024/2026
+Shelley Moore Capito,Robert Klyman,Los Angeles,CA,90004,Dla Piper,Attorney,500000,1,2026-03-09,2026-03-09,zip,true,8030000,29,24,2024/2026
+Shelley Moore Capito,Ronald Bakalarz,Aventura,FL,33180,Rote Corp,Ceo,500000,1,2026-03-20,2026-03-20,zip,false,8724900,40,32,2024/2026
+Shelley Moore Capito,Jorey Chernett,Bloomfield Hills,MI,48301,Authentic,Entrepreneur,400000,2,2025-09-15,2025-10-06,zip,false,1410000,8,7,2026
+Shelley Moore Capito,Lawrence Macks,Naples,FL,34102,Chesapeake Realty Partners,Real Estate/Owner,400000,1,2025-07-23,2025-07-23,zip,true,6340000,43,26,2024/2026
+Shelley Moore Capito,Lisa Alpern,Los Angeles,CA,90064,Not Employed,Not Employed,400000,1,2026-03-27,2026-03-27,zip,false,5420000,20,16,2026
+Shelley Moore Capito,Allyn R. Mr. Kramer,Dallas,TX,75248,Retired,Retired,350000,1,2025-08-11,2025-08-11,zip,false,7690000,26,22,2024/2026
+Shelley Moore Capito,Ann Ms. Margolin,Dallas,TX,75219,Retired,Retired,350000,1,2025-08-11,2025-08-11,zip,false,2800000,13,12,2024/2026
+Shelley Moore Capito,Avi Friedman,White Plains,NY,10606,Retired,Retired,350000,1,2025-07-21,2025-07-21,zip,false,15830000,49,40,2024/2026
+Shelley Moore Capito,Barak Raviv,Beverly Hills,CA,90210,Wells Fargo,Financial Advisor,350000,1,2026-03-03,2026-03-03,zip,true,19402300,79,55,2024/2026
+Shelley Moore Capito,Brad Mindlin,Incline Village,NV,89451,Oro Capital Advisors,Managing Partner,350000,1,2026-03-06,2026-03-06,zip,true,16460000,45,36,2024/2026
+Shelley Moore Capito,Curtis Lane,New York,NY,10023,Mts Health Partners,Founder/Ceo,350000,1,2025-07-21,2025-07-21,zip,true,6000000,24,22,2024/2026
+Shelley Moore Capito,Darren Mr. Schackman,Dallas,TX,75230,Mill Creek Residential Trust,Real Estate,350000,1,2025-08-12,2025-08-12,zip,true,4200000,22,19,2024/2026
+Shelley Moore Capito,David Mr. Veeder,Dallas,TX,75230,Ryan LLC,Cpa,350000,1,2025-09-02,2025-09-02,zip,true,4500000,17,13,2024/2026
+Shelley Moore Capito,Doris Davis,Los Gatos,CA,95032,Retired,Retired,350000,1,2026-03-30,2026-03-30,zip,false,6920000,22,22,2024/2026
+Shelley Moore Capito,Eugene Fooksman,Menlo Park,CA,94025,Altopass Inc.,Ceo,350000,1,2026-03-17,2026-03-17,zip,false,16060000,54,45,2024/2026
+Shelley Moore Capito,Evan H. Mr. Zucker,Denver,CO,80218,Academy Partners Group,Executive,350000,1,2026-04-15,2026-04-15,zip,true,2380000,7,7,2024/2026
+Shelley Moore Capito,Frank Mr. Risch,Dallas,TX,75225,Retired,Retired,350000,1,2025-08-11,2025-08-11,zip,false,4420000,16,13,2024/2026
+Shelley Moore Capito,George Solich,Denver,CO,80206,Fourpoint Energy,Chairman & Ceo,350000,1,2026-03-23,2026-03-23,zip,true,3770000,11,11,2024/2026
+Shelley Moore Capito,Harlan Mr. Korenvaes,Dallas,TX,75220,Korenvaes Management LLC,Investment Manager,350000,1,2025-08-20,2025-08-20,zip,false,4040000,14,12,2024/2026
+Shelley Moore Capito,James Mr. Johnson,Greenbrae,CA,94904,Retired,Retired,350000,1,2026-04-01,2026-04-01,zip,false,6425000,28,25,2024/2026
+Shelley Moore Capito,Jeff Chapman,Dallas,TX,75229,Gibson Dunn & Crutcher,Attorney,350000,1,2025-09-09,2025-09-09,zip,true,400000,4,4,2024
+Shelley Moore Capito,Lillian Pinkus,Dallas,TX,75230,Retired,Retired,350000,1,2025-09-11,2025-09-11,zip,false,7820000,35,30,2024/2026
+Shelley Moore Capito,Mark Rubin,Palm Beach Gardens,FL,33410,Retired,Retired,350000,1,2026-02-17,2026-02-17,zip,false,15164000,61,45,2024/2026
+Shelley Moore Capito,Michael Mr. Cohen,Dallas,TX,75229,Kellis Gift Shop Supplies,Executive,350000,1,2025-08-11,2025-08-11,zip,false,7370000,26,21,2024/2026
+Shelley Moore Capito,Michelle Ms. Lobel,Dallas,TX,75220,Ideal Fastner Corporation,Vice President,350000,1,2025-09-05,2025-09-05,zip,true,5200000,23,19,2024/2026
+Shelley Moore Capito,Norm Brownstein,Denver,CO,80202,Brownstein,Chairman,350000,1,2026-04-08,2026-04-08,zip,true,2800000,4,4,2026
+Shelley Moore Capito,Patricia L. Ms. Glaser,Los Angeles,CA,90067,Glaserweilfinkjacobshoward LLP,Attorney,350000,1,2026-03-03,2026-03-03,zip,false,330000,1,1,2024
+Shelley Moore Capito,Paul Candau,El Cerrito,CA,94530,Marble Bridge Funding Group,Ceo,350000,1,2026-03-03,2026-03-03,zip,true,3000000,9,9,2026
+Shelley Moore Capito,Randall Mccallum,New York,NY,10021,Btig,Salestrader,350000,1,2025-07-31,2025-07-31,zip,true,4800000,17,17,2024/2026
+Shelley Moore Capito,Richard Mr. Genirberg,Stateline,NV,89449,Retired,Retired,350000,2,2026-03-10,2026-03-10,zip,false,6240000,22,22,2024/2026
+Shelley Moore Capito,Robert Mr. Swartz,Dallas,TX,75229,Retired,Retired,350000,1,2025-08-11,2025-08-11,zip,false,3200000,15,13,2024/2026
+Shelley Moore Capito,Sarah Biser,Holmdel,NJ,07733,Fox Rothschild LLP,Attorney,350000,1,2025-07-24,2025-07-24,zip,true,5650000,19,18,2024/2026
+Shelley Moore Capito,Solomon Moshkevich,Atherton,CA,94027,Natera,President,350000,1,2026-03-24,2026-03-24,zip,true,3950000,12,12,2024/2026
+Shelley Moore Capito,Stanley Mr. Rabin,Dallas,TX,75230,Retired,Retired,350000,1,2025-08-11,2025-08-11,zip,false,7090000,25,21,2024/2026
+Shelley Moore Capito,Todd Mr. Platt,Dallas,TX,75219,Hillwood,Ceo,350000,1,2025-08-20,2025-08-20,zip,true,9610000,30,26,2024/2026
+Shelley Moore Capito,Tony Davis,Chicago,IL,60610,Linden Capital Partners,Investor,350000,1,2025-12-22,2025-12-22,zip,true,19964400,76,56,2024/2026
+Shelley Moore Capito,Andrew Mr. Schleimer,City Center,NV,89158,Tko Group Holdings,Cfo,300000,1,2025-09-01,2025-09-01,zip,true,3080000,11,11,2024/2026
+Shelley Moore Capito,Barry Stoler,Owings Mills,MD,21117,Stoler Auto,Car Dealer,300000,1,2025-07-14,2025-07-14,zip,false,300000,1,1,2026
+Shelley Moore Capito,Joel Eidelstein,North Miami Beach,FL,33160,New Wave Loans,Executive,300000,1,2026-03-13,2026-03-13,zip,true,3955000,23,18,2024/2026
+Shelley Moore Capito,Moses Libitzky,Emeryville,CA,94608,Lpc Real Estate Corp,Principal,300000,1,2026-03-06,2026-03-06,zip,true,4950000,34,31,2024/2026
+Shelley Moore Capito,Noah Mr. Breakstone,Aventura,FL,33160,Bti Partners,Real Estate,300000,1,2026-03-04,2026-03-04,zip,true,7890000,34,28,2024/2026
+Shelley Moore Capito,Philip Solomon,Golden Beach,FL,33160,Palladio Beauty Group,Ceo,300000,1,2026-03-03,2026-03-03,zip,true,3830000,16,13,2024/2026
+Shelley Moore Capito,Richard A Kresch,Sharon,CT,06069,Us Healthvest,Physician/Businessman,300000,1,2025-07-21,2025-07-21,zip,true,950000,3,3,2026
+Shelley Moore Capito,Steven Demby,Denver,CO,80209,Brownstein Hyatt Farber Schreck LLP,Attorney,300000,1,2026-03-26,2026-03-26,zip,false,6075000,24,24,2024/2026
+Shelley Moore Capito,Brent Morse,Englewood,CO,80113,Morenergy Exploration,Landman,250000,1,2026-04-02,2026-04-02,zip,false,500000,5,5,2024/2026
+Shelley Moore Capito,David Schwartzman,Los Angeles,CA,90067,Harridge Development Group,Ceo,250000,1,2026-03-10,2026-03-10,zip,true,3530000,15,14,2026
+Shelley Moore Capito,Ellen Ms. Calmas,Chestnut Hill,MA,02467,Retired,Retired,250000,2,2025-12-29,2026-02-12,zip,false,3487000,40,28,2024/2026
+Shelley Moore Capito,Guy Zaczepinski,Santa Monica,CA,90402,Century Park,Investor,250000,1,2026-03-10,2026-03-10,zip,true,4200000,20,17,2024/2026
+Shelley Moore Capito,Ira Kharasch,Los Angeles,CA,90045,Pachulski Stang Ziehl & Jones,Attorney,250000,1,2026-03-09,2026-03-09,zip,false,6120000,29,25,2024/2026
+Shelley Moore Capito,Isaac Mendal,Golden Beach,FL,33160,Select Pet Products,President,250000,1,2026-03-13,2026-03-13,zip,true,2850000,16,11,2024/2026
+Shelley Moore Capito,Yonatan Mr. Bursztyn,Hollywood,FL,33019,Totto,Founder & Ceo,250000,1,2026-03-18,2026-03-18,zip,false,3225000,19,14,2024/2026
+Shelley Moore Capito,Alfredo Frohlich,Aventura,FL,33160,Retired,Retired,203000,2,2026-03-05,2026-04-16,zip,false,2350000,21,16,2024/2026
+Shelley Moore Capito,Abbe Aron,Miami Beach,FL,33109,Retired,Retired,200000,1,2025-04-29,2025-04-29,zip,false,1150000,8,8,2024/2026
+Shelley Moore Capito,Alain R'Bibo,North Hollywood,CA,91606,Allen Matkins,Attorney,200000,1,2026-03-10,2026-03-10,zip,true,3400000,25,24,2024/2026
+Shelley Moore Capito,Alan Franco,Metairie,LA,70005,Magnolia Marketing LLC,Partner,200000,1,2026-03-31,2026-03-31,zip,true,13650000,30,27,2024/2026
+Shelley Moore Capito,Alan Zekelman,Bloomfield Hills,MI,48301,Retired,Retired,200000,1,2025-09-24,2025-09-24,zip,false,1500000,11,11,2024/2026
+Shelley Moore Capito,Alison Ms. Wolfson,New York,NY,10128,Credit Asset Management,Managing Director,200000,1,2025-05-04,2025-05-04,zip,false,3450000,18,16,2024/2026
+Shelley Moore Capito,Alyse Millstein,Ridgewood,NJ,07450,The Stro Companies,Real Estate,200000,1,2025-07-21,2025-07-21,zip,true,7320000,23,21,2024/2026
+Shelley Moore Capito,Amelia Ms. Katzen,Newton,MA,02458,Retired,Retired,200000,2,2026-01-07,2026-02-10,zip,false,800000,8,6,2024/2026
+Shelley Moore Capito,Andrew Sussman,New Yo,NY,10474,Plymouth Beef,Executive,200000,1,2025-07-21,2025-07-21,zip,true,1284700,4,3,2026
+Shelley Moore Capito,Avi Benus,Pikesville,MD,21208,Crossland LLC,Ceo,200000,1,2025-07-23,2025-07-23,zip,true,5750100,34,26,2024/2026
+Shelley Moore Capito,Bruce Etkin,Aspen,CO,81611,Etkin Johnson Real Estate Partners,Chairman,200000,1,2026-03-18,2026-03-18,zip,true,2600000,20,20,2024/2026
+Shelley Moore Capito,Bruce Jacobson,New York,NY,10021,Self,Health Care Advisory,200000,1,2025-07-21,2025-07-21,zip,false,5310000,28,24,2024/2026
+Shelley Moore Capito,Carole Kushnir,Woodside,CA,94062,Hk Enterprises Inc,Partner,200000,1,2026-03-17,2026-03-17,zip,true,1500000,12,12,2024/2026
+Shelley Moore Capito,Claudio Dombey,Hallandale Beach,FL,33009,Accesso Partners,Managing Partner,200000,1,2026-03-13,2026-03-13,zip,true,2125000,18,15,2024/2026
+Shelley Moore Capito,Daryl Mr. Simon,New York,NY,10075,Not Employed,Not Employed,200000,1,2025-04-09,2025-04-09,zip,false,1800000,10,10,2024/2026
+Shelley Moore Capito,David Cohen,Pacific Palisades,CA,90272,Karlin,Ceo,200000,1,2026-03-10,2026-03-10,zip,true,2300000,10,9,2024/2026
+Shelley Moore Capito,Debbi Weinberg,Austin,TX,78701,Retired,Retired,200000,1,2025-07-23,2025-07-23,zip,false,600000,3,3,2026
+Shelley Moore Capito,Ellen Aschendorf,New York,NY,10036,Self,Business,200000,1,2025-04-30,2025-04-30,zip,false,1900000,9,9,2024/2026
+Shelley Moore Capito,Eric Waxman,Los Angeles,CA,90049,Ares Management,Partner,200000,1,2026-03-03,2026-03-03,zip,true,5350000,33,27,2024/2026
+Shelley Moore Capito,Gail Ms. Perl,New York,NY,10028,Jbs Holding Corp,Real Estate,200000,1,2025-04-09,2025-04-09,zip,false,4690600,26,19,2024/2026
+Shelley Moore Capito,Gary E. Dr. Applebaum,Pasadena,MD,21122,Self,Physician,200000,1,2025-06-18,2025-06-18,zip,false,1468000,16,14,2024/2026
+Shelley Moore Capito,Gary Goodman,Oak Park,MI,48237,Eaton Steel Bar Company,Steel Business.,200000,1,2025-09-18,2025-09-18,zip,true,1130000,5,5,2024/2026
+Shelley Moore Capito,Jerry Wolasky,Deerfield Beach,FL,33442,Healthsource Distributors,Executive,200000,1,2025-07-23,2025-07-23,zip,true,4050000,23,22,2024/2026
+Shelley Moore Capito,Jody Forchheimer,Brookline,MA,02446,Fidelity Investments,Lawyer,200000,2,2026-01-03,2026-02-10,zip,false,38475500,150,96,2024/2026
+Shelley Moore Capito,Jone Mrs. Dalezman,Newtonville,MA,02460,Homemaker,Homemaker,200000,2,2026-01-07,2026-02-10,zip,false,8121666,64,43,2024/2026
+Shelley Moore Capito,Joseph Mark Mr. Schapiro,Owings Mills,MD,21117,Continental Reality Corp,Co-Chairman,200000,1,2025-07-02,2025-07-02,state,false,1400000,13,12,2024/2026
+Shelley Moore Capito,Julie Bernstein,New York,NY,10065,Retired,Retired,200000,1,2025-04-29,2025-04-29,zip,false,700000,4,4,2026
+Shelley Moore Capito,Kenneth Levy,Los Gatos,CA,95030,Glen Una Investments,Real Estate Investor,200000,1,2026-03-19,2026-03-19,zip,true,4450000,19,17,2024/2026
+Shelley Moore Capito,Kim Hartman,New York,NY,10028,Retired,Retired,200000,1,2025-04-23,2025-04-23,zip,false,2550000,13,13,2024/2026
+Shelley Moore Capito,Kim Ms. Dickstein,New York,NY,10014,Retired,Retired,200000,1,2025-04-16,2025-04-16,zip,false,2950000,17,16,2024/2026
+Shelley Moore Capito,Laura Stein,Beverly Hills,CA,90210,Robbins Geller,Attorney,200000,1,2026-03-03,2026-03-03,zip,true,2792500,24,22,2024/2026
+Shelley Moore Capito,Lauren Schor,New York,NY,10075,Not Employed,Not Employed,200000,1,2025-04-16,2025-04-16,zip,false,2410000,10,9,2024/2026
+Shelley Moore Capito,Leonid Mezhvinsky,Hillsborough,CA,94010,Retired,Retired,200000,1,2026-03-17,2026-03-17,zip,false,2200000,13,13,2024/2026
+Shelley Moore Capito,Leslie Dezer Salmon,Sunny Isles Beach,FL,33160,Dezer Development,Finance,200000,1,2025-04-24,2025-04-24,zip,true,1420000,10,9,2024/2026
+Shelley Moore Capito,Lewis Rudzki,Los Angeles,CA,90035,Canon Equity Partners,Real Estate,200000,1,2026-03-10,2026-03-10,zip,true,1600000,14,14,2024/2026
+Shelley Moore Capito,Lisa Mrs. Wallack,Weston,MA,02493,Homemaker,Homemaker,200000,2,2025-12-16,2026-02-10,zip,false,6060000,42,30,2024/2026
+Shelley Moore Capito,Liza Berman,New York,NY,10128,Not Employed,Not Employed,200000,1,2025-04-09,2025-04-09,zip,false,1300000,6,6,2024/2026
+Shelley Moore Capito,Lori Sidman,Boston,MA,02115,Not Employed,Not Employed,200000,1,2026-02-09,2026-02-09,zip,false,1600000,15,14,2024/2026
+Shelley Moore Capito,Marjorie Harris,Miami Beach,FL,33140,Not Employed,Not Employed,200000,1,2025-05-02,2025-05-02,zip,false,600000,3,3,2024/2026
+Shelley Moore Capito,Marjorie Loeb,New York,NY,10021,Self,Jewelry,200000,1,2025-05-10,2025-05-10,zip,false,3110000,23,17,2024/2026
+Shelley Moore Capito,Mark Schwartzman,Glen Burnie,MD,21061,Glen Burnie Transmissions,President,200000,1,2025-07-23,2025-07-23,zip,true,1400000,8,8,2026
+Shelley Moore Capito,Marshall Klein,Baltimore,MD,21230,Self Employed,Retail Grocery,200000,1,2025-07-23,2025-07-23,zip,false,1600000,13,11,2024/2026
+Shelley Moore Capito,Michelle Domb,New York,NY,10069,Retired,Retired,200000,1,2025-04-29,2025-04-29,zip,false,800000,5,5,2024/2026
+Shelley Moore Capito,Mitchell Mr. Julis,Los Angeles,CA,90067,Canyon Partners LLC,Ceo,200000,1,2025-08-04,2025-08-04,zip,true,4300000,19,15,2024/2026
+Shelley Moore Capito,Mitchell Roberts,Boston,MA,02116,Pr Restaurants,Restaurants,200000,1,2026-02-11,2026-02-11,zip,true,5030000,38,29,2024/2026
+Shelley Moore Capito,Patricia Mcweeney,Boxford,MA,01921,Retired,Retired,200000,2,2026-02-04,2026-02-10,zip,false,1000000,15,13,2024/2026
+Shelley Moore Capito,Patricia Ms. Silverstein,New York,NY,10075,Not Employed,Not Employed,200000,1,2025-04-16,2025-04-16,zip,false,400000,2,2,2024/2026
+Shelley Moore Capito,Rachel Dalton,White Plains,NY,10605,Self,Attorney,200000,1,2025-04-29,2025-04-29,zip,false,1800000,11,11,2024/2026
+Shelley Moore Capito,Randy Mr. Ginsburg,East Hampton,NY,11937,Not Employed,Not Employed,200000,1,2025-04-23,2025-04-23,zip,false,1350000,9,9,2024/2026
+Shelley Moore Capito,Randye Kwait,New York,NY,10011,Odyssey,Investments,200000,1,2025-04-30,2025-04-30,zip,false,2000000,10,10,2024/2026
+Shelley Moore Capito,Rena Hoffman,New York,NY,10021,Retired,Retired,200000,1,2025-04-24,2025-04-24,zip,false,2200000,12,12,2024/2026
+Shelley Moore Capito,Robert Grossman,West Orange,NJ,07052,Retired,Retired,200000,1,2025-07-24,2025-07-24,zip,false,4170000,19,17,2024/2026
+Shelley Moore Capito,Ross Partrich,West Bloomfield,MI,48323,Rhp Staffing Co,Ceo,200000,1,2025-09-25,2025-09-25,zip,true,1350000,8,8,2024/2026
+Shelley Moore Capito,S. Evan Mr. Weiner,Franklin,MI,48025,Ed Levy & Co,President,200000,1,2025-11-14,2025-11-14,zip,false,550000,3,3,2024/2026
+Shelley Moore Capito,Sandra Hoffen,New York,NY,10023,Not Employed,Not Employed,200000,1,2025-05-04,2025-05-04,zip,false,1800000,8,8,2024/2026
+Shelley Moore Capito,Sharon Podolsky,New York,NY,10023,Not Employed,Not Employed,200000,1,2025-04-24,2025-04-24,zip,false,2000000,10,8,2024/2026
+Shelley Moore Capito,Sheera Eckstein,New York,NY,10075,Retired,Retired,200000,1,2025-05-01,2025-05-01,zip,false,1400000,8,7,2026
+Shelley Moore Capito,Stacey Silverstein,New York,NY,10128,Self,Not For Profit / Attorney,200000,1,2025-04-29,2025-04-29,zip,false,1000000,5,5,2026
+Shelley Moore Capito,Stephen Harris,Walnut Creek,CA,94595,Lawrence Berkeley National Lab,Chemist,200000,1,2026-03-05,2026-03-05,zip,true,10201992,92,58,2024/2026
+Shelley Moore Capito,Stuart Oremland,Portola Valley,CA,94028,Retired,Retired,200000,1,2026-03-19,2026-03-19,zip,false,3245000,32,31,2024/2026
+Shelley Moore Capito,Tami Schneider,New York,NY,10075,Retired,Retired,200000,1,2025-04-29,2025-04-29,zip,false,2000000,8,8,2024/2026
+Shelley Moore Capito,Teri Mrs. Volpert,New York,NY,10128,Volpert Foundation,President,200000,1,2025-04-16,2025-04-16,zip,true,1900000,5,5,2024/2026
+Shelley Moore Capito,Tina Weinstock,New York,NY,10022,Not Employed,Not Employed,200000,1,2025-07-21,2025-07-21,zip,false,4150000,24,19,2024/2026
+Shelley Moore Capito,Valerie Cohen,Darien,CT,06820,Not Employed,Not Employed,200000,1,2025-07-21,2025-07-21,zip,false,6700000,32,29,2024/2026
+Shelley Moore Capito,Yehuda Neuberger,Baltimore,MD,21208,Self,Financial Professional,200000,1,2025-07-23,2025-07-23,zip,false,26695000,143,105,2024/2026
+Shelley Moore Capito,Zipora Arison,Pompano Beach,FL,33062,Self Employed,Medical Doctor,200000,1,2026-03-09,2026-03-09,zip,false,7690000,56,41,2024/2026
+Shelley Moore Capito,Corey Curnutte,Bingham Farms,MI,48025,Edw C Levy Co,Vp,180000,1,2025-09-10,2025-09-10,zip,true,180000,1,1,2026
+Shelley Moore Capito,Robert Haber,Miami,FL,33133,Proficio Capital Partners,Cfa,180000,1,2026-03-30,2026-03-30,zip,true,496400,3,3,2026
+Shelley Moore Capito,Abe Malkin,Los Angeles,CA,90048,Self-Employed,Physician,150000,1,2026-03-09,2026-03-09,zip,false,600000,4,4,2026
+Shelley Moore Capito,Adam Rosenfeld,West Hollywood,CA,90069,The Agency,Real Estate Broker,150000,1,2026-03-10,2026-03-10,zip,true,1800000,12,12,2026
+Shelley Moore Capito,Burt Levine,New York,NY,10065,Levine Organization LLC,Real Estate,150000,1,2025-07-24,2025-07-24,zip,true,2150000,13,11,2024/2026
+Shelley Moore Capito,Cindy Leibovitch,New York,NY,10014,Alisha Levin Memorial Fund,Co-Founder,150000,1,2025-07-21,2025-07-21,zip,true,900000,7,7,2024/2026
+Shelley Moore Capito,Daniel Rose,New York,NY,10012,Kreindler & Kreindler LLP,Attorney,150000,1,2025-07-21,2025-07-21,zip,true,3222000,25,20,2024/2026
+Shelley Moore Capito,Elan Schultz,Brooklyn,NY,11238,Trispan LLP,Investor,150000,1,2025-07-22,2025-07-22,zip,true,950000,7,7,2024/2026
+Shelley Moore Capito,Fran Szczesny,East Petersburg,PA,17520,Retired,Retired,150000,1,2025-07-29,2025-07-29,zip,false,1050000,9,9,2024/2026
+Shelley Moore Capito,Harry Tchira,Miami Beach,FL,33140,Crescent Garden Company,President,150000,1,2026-03-12,2026-03-12,zip,true,3425000,38,30,2024/2026
+Shelley Moore Capito,Jacqueline Ms. Muss,Hewlett,NY,11557,Self,Art Advisor,150000,1,2025-08-05,2025-08-05,zip,false,700000,5,5,2024/2026
+Shelley Moore Capito,James Miller,Los Angeles,CA,90049,Miller Barondess,Managing Partner,150000,1,2026-03-10,2026-03-10,zip,true,200000,2,2,2026
+Shelley Moore Capito,Jamie Kotler,Brookline,MA,02445,Retired,Retired,150000,1,2026-02-17,2026-02-17,zip,false,3110000,20,13,2024/2026
+Shelley Moore Capito,Jubin Niahmer,Los Angeles,CA,90024,Jacoby & Meyers,Attorney,150000,1,2026-03-09,2026-03-09,zip,true,1412500,8,7,2026
+Shelley Moore Capito,Katya Sverdlov,Brooklyn,NY,11218,Sverdlov Law Pllc,Lawyer,150000,1,2025-07-22,2025-07-22,zip,true,1160000,9,9,2024/2026
+Shelley Moore Capito,Lee Spies,New York,NY,10028,Not Employed,Not Employed,150000,1,2025-07-22,2025-07-22,zip,false,2000000,11,10,2026
+Shelley Moore Capito,Loryn Arkow,Los Angeles,CA,90064,Hogan Lovells,Attorney,150000,1,2026-03-05,2026-03-05,zip,true,750000,5,5,2026
+Shelley Moore Capito,Marc Paley,Bridgehampton,NY,11932,Hightechlending  Inc.,Chairman,150000,1,2025-07-25,2025-07-25,zip,true,2350000,12,12,2024/2026
+Shelley Moore Capito,Mayer Bick,Los Angeles,CA,90035,Sb Advisors,Investment Banker,150000,1,2026-03-06,2026-03-06,zip,true,2550000,15,15,2024/2026
+Shelley Moore Capito,Michael Newman,Golden Beach,FL,33160,Nwc Properties,Manager,150000,1,2026-03-11,2026-03-11,zip,true,3574900,24,19,2024/2026
+Shelley Moore Capito,Michael Zusman,Sunny Isles Beach,FL,33160,Not Employed,Not Employed,150000,1,2026-03-17,2026-03-17,zip,false,2150000,17,15,2024/2026
+Shelley Moore Capito,Niv Davidovich,Valley Glen,CA,91606,Davidovich Law,Attorney,150000,1,2026-03-05,2026-03-05,zip,true,1850000,10,10,2026
+Shelley Moore Capito,Raphy Nissel,Beverly Hills,CA,90210,Retired,Retired,150000,1,2026-03-09,2026-03-09,zip,false,2600000,15,14,2024/2026
+Shelley Moore Capito,S. Eliot Weiner,Birmingham,MI,48009,Edw. C. Levy Co,Executive,150000,1,2025-09-10,2025-09-10,state,true,550000,3,3,2024/2026
+Shelley Moore Capito,Sam Tramiel,Palo Alto,CA,94306,Entrepreneur,Entrepreneur,150000,1,2026-03-27,2026-03-27,zip,false,2200000,15,11,2024/2026
+Shelley Moore Capito,Shana Glassman,Tarzana,CA,91356,Not Employed,Not Employed,150000,1,2026-03-06,2026-03-06,zip,false,1625000,17,17,2024/2026
+Shelley Moore Capito,Adam Bleznak,Bloomfield Hills,MI,48301,Woodbury Management Inc.,Property Management,100000,1,2025-10-06,2025-10-06,zip,false,100000,1,1,2026
+Shelley Moore Capito,Adam Miller,Lutherville,MD,21093,Klnb LLC,Real Estate,100000,1,2025-07-23,2025-07-23,zip,false,800000,7,7,2026
+Shelley Moore Capito,Alan J. Mr. Hyatt,Annapolis,MD,21401,Hyatt & Weber,Attorney,100000,1,2025-07-23,2025-07-23,zip,true,1900000,15,13,2024/2026
+Shelley Moore Capito,Alex Stotland,Birmingham,MI,48009,Stotland Craig,Attorney,100000,1,2025-10-03,2025-10-03,zip,true,150000,2,2,2026
+Shelley Moore Capito,Amy Friedkin,San Francisco,CA,94104,Not Employed,Not Employed,100000,1,2026-03-09,2026-03-09,zip,false,6665000,53,43,2024/2026
+Shelley Moore Capito,Andrew Lipton,Atherton,CA,94027,Retired,Retired,100000,1,2026-03-17,2026-03-17,zip,false,900000,9,8,2024/2026
+Shelley Moore Capito,Andrew Mr. Jagoda,Scarsdale,NY,10583,Katten Muchin Rosenman LLP,Attorney,100000,1,2025-07-25,2025-07-25,zip,true,3300000,28,23,2024/2026
+Shelley Moore Capito,Anita Wornick,San Francisco,CA,94103,Retired,Retired,100000,1,2026-03-05,2026-03-05,zip,false,3300000,34,30,2024/2026
+Shelley Moore Capito,Anna Kanovich,New York,NY,10023,Not Employed,Not Employed,100000,1,2025-07-21,2025-07-21,zip,false,300000,3,3,2024/2026
+Shelley Moore Capito,Arthur Howard Mr. Adler,Owings Mills,MD,21117,Caves Valley Partners,Real Estate,100000,1,2025-07-23,2025-07-23,zip,true,1700000,13,12,2024/2026
+Shelley Moore Capito,Barbara Ms. Kopans,Waban,MA,02468,Retired,Retired,100000,1,2026-02-16,2026-02-16,zip,false,2350000,31,28,2024/2026
+Shelley Moore Capito,Benjamin Friend,San Francisco,CA,94102,Howard Properties,Real Estate,100000,1,2026-03-20,2026-03-20,zip,true,7222500,48,38,2024/2026
+Shelley Moore Capito,Brenda Haynes,Wellesley Hills,MA,02481,Retired,Retired,100000,1,2026-02-17,2026-02-17,zip,false,2590000,18,15,2024/2026
+Shelley Moore Capito,Brent Morse,Denver,CO,80206,Morenergy Exploration,Landman,100000,1,2026-03-31,2026-03-31,zip,false,1200000,6,6,2024/2026
+Shelley Moore Capito,Bruce Sholk,Miami Beach,FL,33141,Self Employed,Private Investor,100000,1,2025-07-23,2025-07-23,zip,false,1800000,13,12,2024/2026
+Shelley Moore Capito,Daniel Klein,Englewood,NJ,07631,Metropolitan Management,President/Real Estate,100000,1,2025-07-23,2025-07-23,zip,true,600000,5,5,2026
+Shelley Moore Capito,Danielle Darish,Needham,MA,02492,Not Employed,Not Employed,100000,1,2026-01-26,2026-01-26,zip,false,2000000,21,18,2024/2026
+Shelley Moore Capito,David Colman,Birmingham,MI,48009,Acme Residential,Real Estate,100000,1,2025-09-22,2025-09-22,zip,true,450000,5,5,2026
+Shelley Moore Capito,David Mr. Merage,Englewood,CO,80112,Consolidated Investments,Founder,100000,1,2026-03-31,2026-03-31,zip,false,750000,6,6,2024/2026
+Shelley Moore Capito,David Mr. Zwillinger,New York,NY,10028,Desri,Ceo,100000,1,2025-06-20,2025-06-20,zip,true,1310000,5,5,2024/2026
+Shelley Moore Capito,Dean Mr. Schuckman,New York,NY,10021,Retired,Retired,100000,1,2025-08-04,2025-08-04,zip,false,960000,17,13,2024/2026
+Shelley Moore Capito,Deborah Shalom,Boston,MA,02116,Not Employed,Not Employed,100000,1,2026-02-09,2026-02-09,zip,false,1000000,10,9,2026
+Shelley Moore Capito,Delia Mrs. Perlov,Newton,MA,02459,Tufts University,Physicist,100000,1,2026-01-26,2026-01-26,zip,false,1825000,20,17,2024/2026
+Shelley Moore Capito,Dirk Wallinger,Cherry Hills Villa,CO,80113,York Space Systems,Ceo,100000,1,2026-03-26,2026-03-26,zip,true,1350000,6,6,2026
+Shelley Moore Capito,Donny Friend,San Francisco,CA,94121,Self,Real Estate Investor,100000,1,2026-03-23,2026-03-23,zip,false,3725000,26,24,2024/2026
+Shelley Moore Capito,Dov Horowitz,Belle Harbor,NY,11694,Wwts,Owner,100000,1,2025-07-21,2025-07-21,zip,true,1200000,12,11,2024/2026
+Shelley Moore Capito,Elisa Silverman,West Newton,MA,02465,Entrepreneur,Entrepreneur,100000,1,2026-02-17,2026-02-17,zip,false,1898800,20,18,2024/2026
+Shelley Moore Capito,Elizabeth Schultz,New York,NY,10022,Retired,Retired,100000,1,2025-07-21,2025-07-21,zip,false,1200000,22,21,2024/2026
+Shelley Moore Capito,Gordon Mr. Horwitz,Baltimore,MD,21215,Retired,Retired,100000,1,2025-07-23,2025-07-23,zip,false,1300000,12,11,2024/2026
+Shelley Moore Capito,Harry Woldenberg,Bal Harbour,FL,33154,Postermedia,Ceo,100000,1,2026-03-23,2026-03-23,zip,true,4500300,27,21,2024/2026
+Shelley Moore Capito,Herta Amir,Beverly Hills,CA,90211,Amir Development,Real Estate,100000,1,2026-03-05,2026-03-05,zip,true,6500000,95,72,2024/2026
+Shelley Moore Capito,Howard Fingeroot,Sylvan Lake,MI,48320,Sylvan Crest Partners,Real Estate Developer,100000,1,2025-09-15,2025-09-15,zip,true,1400000,10,9,2024/2026
+Shelley Moore Capito,Howard Rich,Marblehead,MA,01945,Retired,Retired,100000,1,2026-02-13,2026-02-13,zip,false,2600000,16,14,2024/2026
+Shelley Moore Capito,Igor Lotsvin,Emerald Hills,CA,94062,Sage Rhino Capital,Managing Partner,100000,1,2026-03-25,2026-03-25,zip,true,2700000,45,39,2024/2026
+Shelley Moore Capito,Jacob Cohen,Detroit,MI,48203,Detroit Venture Partners,Investor,100000,1,2025-09-16,2025-09-16,zip,true,600000,5,4,2026
+Shelley Moore Capito,Jacques Bessoudo,Miami,FL,33179,Galium Capital LLC,Managing Partner,100000,1,2026-03-20,2026-03-20,zip,true,3039800,26,21,2024/2026
+Shelley Moore Capito,Jared Friedman,Birmingham,MI,48009,Friedman Real Estate,Real Estate,100000,1,2025-09-14,2025-09-14,zip,true,400000,4,4,2026
+Shelley Moore Capito,Jason Friend,San Francisco,CA,94102,Howard Properties,Real Estate,100000,1,2026-04-10,2026-04-10,zip,true,5775000,39,36,2024/2026
+Shelley Moore Capito,Jeffrey Schostak,Birmingham,MI,48009,Schostak Brothers & Company,Commercial Real Estate,100000,1,2025-10-01,2025-10-01,zip,true,1000000,6,5,2026
+Shelley Moore Capito,Jeremy Abelson,Cherry Hills Villa,CO,80113,Irving Investors,Principal,100000,1,2026-03-24,2026-03-24,zip,true,1850000,15,15,2024/2026
+Shelley Moore Capito,Jessica Myers,Weston,MA,02493,Retired,Retired,100000,1,2026-02-10,2026-02-10,zip,false,1450000,15,12,2024/2026
+Shelley Moore Capito,Jill Mrs. Roberts,Boston,MA,02116,Not Employed,Not Employed,100000,1,2026-01-16,2026-01-16,zip,false,2200000,22,17,2024/2026
+Shelley Moore Capito,Jodi Boockvar,Scarsdale,NY,10583,Not Employed,Not Employed,100000,1,2025-08-01,2025-08-01,zip,false,900000,8,8,2026
+Shelley Moore Capito,Joe Ackerman,Golden Beach,FL,33160,Pensam,Founding Partner,100000,1,2026-03-19,2026-03-19,zip,true,1600000,17,13,2024/2026
+Shelley Moore Capito,Joel Appel,Denver,CO,80209,Zaidy'S,Owner,100000,1,2026-03-30,2026-03-30,zip,true,1830000,13,13,2024/2026
+Shelley Moore Capito,Jonathan Aaron,Bloomfield Hills,MI,48301,Self,Attorney,100000,1,2025-09-20,2025-09-20,zip,false,900000,5,4,2024/2026
+Shelley Moore Capito,Jonathan Shelon,Scarsdale,NY,10583,Krane Funds Advisory,Coo,100000,1,2025-07-30,2025-07-30,zip,false,900000,8,8,2024/2026
+Shelley Moore Capito,Joseph Kavana,Aventura,FL,33180,K Group Holdings Inc,Ceo,100000,1,2026-03-22,2026-03-22,zip,true,2250000,18,13,2024/2026
+Shelley Moore Capito,Joshua Opperer,Huntington Woods,MI,48070,Honigman,Attorney,100000,1,2025-09-14,2025-09-14,zip,true,3407800,20,16,2024/2026
+Shelley Moore Capito,Julie Altman,Cambridge,MA,02138,Self,Consultant,100000,1,2026-02-09,2026-02-09,zip,false,1100000,11,9,2024/2026
+Shelley Moore Capito,Julie Ovadia,Lafayette,CA,94549,Retired,Retired,100000,1,2026-03-04,2026-03-04,zip,false,2790000,22,18,2024/2026
+Shelley Moore Capito,Leland Alpert,Cherry Hills Villa,CO,80113,Lee Alpert And Company,Ceo,100000,1,2026-03-26,2026-03-26,zip,true,2400000,13,13,2026
+Shelley Moore Capito,Leo Ghitis,Golden Beach,FL,33160,Ghitis Company,Business,100000,1,2026-03-08,2026-03-08,zip,true,2350000,21,15,2024/2026
+Shelley Moore Capito,Lesley Bodzy,Houston,TX,77004,Retired,Retired,100000,1,2025-07-21,2025-07-21,zip,false,4755000,32,27,2024/2026
+Shelley Moore Capito,Leslie Rosenberg,Birmingham,MI,48009,Howard And Howard Attorneys Pllc,Attorney,100000,1,2025-09-29,2025-09-29,zip,true,100000,1,1,2026
+Shelley Moore Capito,Lowell Hutson,Denver,CO,80202,Hrm Resources IV LLC,Ceo,100000,1,2026-03-31,2026-03-31,zip,false,1650000,9,9,2024/2026
+Shelley Moore Capito,Mark Neumann,Owings Mills,MD,21117,Self Employed,Investor,100000,1,2025-06-17,2025-06-17,zip,false,1770000,20,18,2024/2026
+Shelley Moore Capito,Marty Glick,Piedmont,CA,94611,Golden State LLC,Advisor,100000,1,2026-03-02,2026-03-02,zip,true,3320000,31,28,2024/2026
+Shelley Moore Capito,Mary Millman,New York,NY,10075,Independent Contractor,Real Estate,100000,1,2025-07-21,2025-07-21,zip,true,650000,6,6,2024/2026
+Shelley Moore Capito,Meyer Markovitz,New York,NY,10012,Daroma Restaurant Equipment Corp,Owner,100000,1,2025-07-24,2025-07-24,zip,true,850000,7,7,2024/2026
+Shelley Moore Capito,Michael Feiner,Greenwood Village,CO,80111,Fei,Real Estate,100000,1,2026-03-08,2026-03-08,zip,true,4080000,36,30,2024/2026
+Shelley Moore Capito,Michael H. Dr. Renbaum,Owings Mills,MD,21117,Custom Holding Inc,Executive,100000,1,2025-07-23,2025-07-23,zip,false,600000,5,5,2024/2026
+Shelley Moore Capito,Michael Rosner,West Bloomfield,MI,48323,Raymond James,Financial Advisor,100000,1,2025-09-24,2025-09-24,zip,true,2150000,17,15,2024/2026
+Shelley Moore Capito,Mitchell Gold,Owings Mills,MD,21117,Gold And Company,Real Estate,100000,1,2025-07-23,2025-07-23,zip,true,600000,6,6,2026
+Shelley Moore Capito,Myrna Freedman,Wellesley,MA,02482,Not Employed,Not Employed,100000,1,2026-01-26,2026-01-26,zip,false,3600000,37,20,2024/2026
+Shelley Moore Capito,Nathan Cook,Magnolia,TX,77354,Rice University,Senior Director Of Government Relation,100000,1,2026-04-07,2026-04-07,zip,true,60000,4,3,2024
+Shelley Moore Capito,Philip Rosenfeld,West Palm Beach,FL,33401,Asiaquest Journeys,Travel Consulting,100000,1,2025-07-22,2025-07-22,zip,true,500000,5,5,2026
+Shelley Moore Capito,Randall Kessler,Alameda,CA,94501,Kessler & Kessler LLC,Property Anager,100000,1,2026-03-05,2026-03-05,zip,true,1300000,28,27,2024/2026
+Shelley Moore Capito,Raquel Herz,New York,NY,10023,Retired,Retired,100000,1,2025-07-22,2025-07-22,zip,false,1300000,12,11,2024/2026
+Shelley Moore Capito,Richard Scheiner,New York,NY,10065,Retired,Retired,100000,1,2025-07-21,2025-07-21,zip,false,1325000,10,10,2024/2026
+Shelley Moore Capito,Risa Gewurz,Brookline,MA,02445,Not Employed,Not Employed,100000,1,2026-02-17,2026-02-17,zip,false,1500000,19,18,2024/2026
+Shelley Moore Capito,Robert Hanasab,Los Angeles,CA,90014,Robhana Group Inc,President,100000,1,2026-03-09,2026-03-09,zip,true,2500000,25,23,2024/2026
+Shelley Moore Capito,Ron Kaufman,San Francisco,CA,94133,Self,Real Estate,100000,1,2026-03-20,2026-03-20,zip,false,1750000,21,21,2024/2026
+Shelley Moore Capito,Ronald Lieberman,New York,NY,10011,Capital One,Attorney,100000,1,2025-07-21,2025-07-21,zip,true,1720800,9,8,2024/2026
+Shelley Moore Capito,Ronit Setton,New York,NY,10128,Retired,Retired,100000,1,2025-07-21,2025-07-21,zip,false,3280000,27,18,2024/2026
+Shelley Moore Capito,Rosalind Gorin,Boston,MA,02116,H.N. Gorin Inc.,Real Estate,100000,1,2026-01-29,2026-01-29,zip,false,500000,5,4,2024/2026
+Shelley Moore Capito,Sharon Mishkin,Brookline,MA,02445,Not Employed,Not Employed,100000,1,2026-01-12,2026-01-12,zip,false,1300000,10,10,2024/2026
+Shelley Moore Capito,Shelly Baldwin,New York,NY,10023,Triangle Capital Group,Business Development,100000,1,2025-08-01,2025-08-01,zip,true,1520000,9,8,2024/2026
+Shelley Moore Capito,Shlomo Baruch,Lawrence,NY,11559,Self-Employed,Attorney,100000,1,2025-07-21,2025-07-21,zip,false,400000,4,4,2026
+Shelley Moore Capito,Shoshana Farb,Chestnut,MA,02167,Not Employed,Not Employed,100000,1,2026-02-28,2026-02-28,state,false,1150000,10,10,2024/2026
+Shelley Moore Capito,Steven J. Mr. Sibel,Cockeysville,MD,21030,Sjs Enterprises,Real Estate,100000,1,2025-07-23,2025-07-23,zip,false,3200000,30,25,2024/2026
+Shelley Moore Capito,Steven Solomon,Incline Village,NV,89451,Uc Berkeley,Professor,100000,1,2026-03-05,2026-03-05,zip,true,3100000,25,22,2024/2026
+Shelley Moore Capito,Sue Maltiel,Saratoga,CA,95070,Retired,Retired,100000,1,2026-03-19,2026-03-19,zip,false,650000,4,4,2024/2026
+Shelley Moore Capito,Susan Siegel,Beverly Hills,CA,90210,Retired,Retired,100000,1,2025-12-24,2025-12-24,zip,false,870000,7,7,2024/2026
+Shelley Moore Capito,Suzanne Cohen,Newton,MA,02459,Retired,Retired,100000,1,2026-01-15,2026-01-15,zip,false,1050000,13,13,2026
+Shelley Moore Capito,Tina Kasimer,Sharon,MA,02067,Retired,Retired,100000,1,2026-02-19,2026-02-19,zip,false,750000,9,7,2024/2026
+Shelley Moore Capito,Vera Markowitz,Beverly Hills,CA,90210,Retired,Retired,100000,1,2026-03-02,2026-03-02,zip,false,15205000,116,71,2024/2026
+Shelley Moore Capito,Yana Lukeman,New York,NY,10019,Self,Consulting,100000,1,2025-07-21,2025-07-21,zip,false,3400000,34,25,2024/2026
+Shelley Moore Capito,Lianne Leventhal,Brookline,MA,02445,Self-Employed,Interior Designer,75000,1,2026-02-04,2026-02-04,zip,false,225000,3,3,2026
+Shelley Moore Capito,Alan Nussenblatt,Calabasas,CA,91302,Retired,Retired,50000,1,2026-03-18,2026-03-18,zip,false,1600000,30,29,2024/2026
+Shelley Moore Capito,Amy Mrs. Bloomstone,West Newton,MA,02465,Catholic Charities Of Boston,Attorney,50000,1,2026-01-12,2026-01-12,zip,false,1650000,26,22,2024/2026
+Shelley Moore Capito,Barry Topol,Danville,CA,94526,Assessment Solutions Group,Consultant,50000,1,2026-03-04,2026-03-04,zip,true,1721000,37,33,2024/2026
+Shelley Moore Capito,Beny Rub,Golden Beach,FL,33160,Rub Pediatrics Md Pa,Pediatrician,50000,1,2026-03-23,2026-03-23,zip,true,725000,5,4,2024/2026
+Shelley Moore Capito,Christopher Mccannell,Washington,DC,20001,Gray Robinson,Deputy Managing Director,50000,1,2025-03-26,2025-03-26,zip,false,10662500,136,81,2024/2026
+Shelley Moore Capito,Claudia Gordon Felson,Castro Valley,CA,94546,None,None,50000,1,2026-03-02,2026-03-02,zip,false,1775000,29,26,2024/2026
+Shelley Moore Capito,Daniel Goldstein,North Miami Beach,FL,33179,Accesso,Real Estate,50000,1,2026-03-03,2026-03-03,zip,true,1125000,20,15,2024/2026
+Shelley Moore Capito,David Cohen,Bethesda,MD,20817,Brownstein,Attorney,50000,1,2025-09-24,2025-09-24,zip,true,100000,1,1,2026
+Shelley Moore Capito,David Garfinkle,Aventura,FL,33180,Self,Real Estate,50000,1,2026-03-16,2026-03-16,zip,false,1300000,11,9,2024/2026
+Shelley Moore Capito,David Hartford,Oakland,CA,94611,Retired,Retired,50000,1,2026-03-05,2026-03-05,zip,false,700000,12,12,2024/2026
+Shelley Moore Capito,David Marinoff,Oakland,CA,94611,Bay Children'S Medical Group,Physician,50000,1,2026-03-05,2026-03-05,zip,false,1560000,17,16,2024/2026
+Shelley Moore Capito,Dennis Albers,Aspen,CO,81611,Self,Real Estate Investments,50000,1,2026-03-02,2026-03-02,zip,false,3285000,57,45,2024/2026
+Shelley Moore Capito,Ernest Kornmehl,West Newton,MA,02465,Kornmehl Laser Eye Associates,Ophthalmologist,50000,1,2026-02-13,2026-02-13,zip,true,210000,7,2,2026
+Shelley Moore Capito,Igal Elyassi,Los Angeles,CA,90048,Dr. Dentist,Dentist,50000,1,2026-03-05,2026-03-05,zip,true,1550000,26,23,2024/2026
+Shelley Moore Capito,Ivan Facianof,Aventura,FL,33160,Next Terra Capital,General Partner,50000,1,2026-03-06,2026-03-06,zip,true,100000,2,2,2026
+Shelley Moore Capito,Jaime Guttman,Miami,FL,33180,Scale Law,Attorney,50000,1,2026-03-08,2026-03-08,zip,true,3249900,22,17,2024/2026
+Shelley Moore Capito,James Holtz,Pleasanton,CA,94566,Retired,Retired,50000,1,2026-03-06,2026-03-06,zip,false,1350000,22,22,2024/2026
+Shelley Moore Capito,James Mr. Schreier,Los Angeles,CA,90067,Glaserweilfinkjacobshoward LLP,Attorney,50000,1,2026-03-30,2026-03-30,zip,false,50000,1,1,2026
+Shelley Moore Capito,Jamie Grossman,Newton,MA,02465,Mgs Group Re,Real Estate Broker,50000,1,2026-01-14,2026-01-14,zip,true,100000,2,2,2026
+Shelley Moore Capito,Jeffrey Frantz,Miami,FL,33179,Timeshares Direct,Ceo,50000,1,2026-03-11,2026-03-11,zip,true,536000,15,15,2024/2026
+Shelley Moore Capito,Jeffrey Kaftan,Birmingham,MI,48009,Kaftan Companies,Business,50000,1,2025-09-30,2025-09-30,zip,true,150000,3,3,2026
+Shelley Moore Capito,Kenneth Goldman,Orinda,CA,94563,Eso Management Services,Finance,50000,1,2026-03-03,2026-03-03,zip,false,650000,12,12,2026
+Shelley Moore Capito,Kornfeld Thomas,Denver,CO,80222,Self,Real Estate,50000,1,2026-03-31,2026-03-31,zip,false,100000,2,2,2026
+Shelley Moore Capito,Laurie Gliklichh,Weston,MA,02493,Not Employed,Not Employed,50000,1,2026-02-28,2026-02-28,zip,false,50000,1,1,2026
+Shelley Moore Capito,Lisa P. Mrs. Coll,Auburndale,MA,02466,Self Employed,Consultant,50000,1,2026-01-12,2026-01-12,zip,false,2230000,28,22,2024/2026
+Shelley Moore Capito,Marina Hirsch,New York,NY,10013,Mah Coach,Owner,50000,1,2025-07-22,2025-07-22,zip,true,600000,7,6,2024/2026
+Shelley Moore Capito,Martin Mr. Seaton,Los Angeles,CA,90024,Retired,Retired,50000,1,2026-03-17,2026-03-17,zip,false,2020000,56,44,2024/2026
+Shelley Moore Capito,Michael Mr. Geller,Aurora,CO,80011,Beverage Distributors Co.,Ceo,50000,1,2026-04-29,2026-04-29,zip,false,450000,8,8,2024/2026
+Shelley Moore Capito,Michael W. Mr. Smith,Morrison,CO,80465,Antero,Vp Of Logistics,50000,1,2025-09-30,2025-09-30,state,false,15450000,26,23,2024/2026
+Shelley Moore Capito,Michael Wolf,West Bloomfield,MI,48323,Arches Senior Living,Owner,50000,1,2025-10-06,2025-10-06,zip,true,50000,1,1,2026
+Shelley Moore Capito,Michel Benarrosh,Aventura,FL,33180,Not Employed,Not Employed,50000,1,2026-03-22,2026-03-22,zip,false,700000,12,10,2024/2026
+Shelley Moore Capito,Naz Moinian,New York,NY,10065,Not Employed,Not Employed,50000,1,2025-05-06,2025-05-06,zip,false,50000,1,1,2026
+Shelley Moore Capito,Paul Sanderson,Alamo,CA,94507,Retired,Retired,50000,1,2026-03-12,2026-03-12,zip,false,1683000,39,29,2024/2026
+Shelley Moore Capito,Phoebe Nir,Rockville Centre,NY,11570,Self,Filmmaker,50000,1,2026-03-21,2026-03-21,zip,false,200000,4,4,2026
+Shelley Moore Capito,Rachael Marcus,Newton,MA,02458,Retired,Retired,50000,1,2026-02-22,2026-02-22,zip,false,750000,11,11,2024/2026
+Shelley Moore Capito,Rita Weiner,Chestnut Hill,MA,02467,Retired,Retired,50000,1,2026-01-27,2026-01-27,zip,false,400000,7,7,2026
+Shelley Moore Capito,Roberta Zucker,Tiburon,CA,94920,Retired,Retired,50000,1,2026-03-30,2026-03-30,zip,false,865000,14,13,2024/2026
+Shelley Moore Capito,Robin Spiegelman,Alamo,CA,94507,Self,Teacher,50000,1,2026-03-02,2026-03-02,zip,false,550000,10,10,2024/2026
+Shelley Moore Capito,Sara Aronson,Newton,MA,02468,Retired,Retired,50000,1,2026-02-10,2026-02-10,zip,false,600000,12,12,2024/2026
+Shelley Moore Capito,Sebastian Guejman,Surfside,FL,33154,18mgmt,Manager,50000,1,2026-03-11,2026-03-11,zip,true,450000,6,6,2026
+Shelley Moore Capito,Shiri Segev,Newton,MA,02459,Not Employed,Not Employed,50000,1,2026-02-16,2026-02-16,zip,false,780000,20,17,2024/2026
+Shelley Moore Capito,Steven Mr. Scheck,North Miami Beach,FL,33179,Network Of Independent Communities,Chair,50000,1,2026-03-03,2026-03-03,zip,false,950000,17,13,2024/2026
+Shelley Moore Capito,Trish Erwin,San Antonio,TX,78230,Service Wire,Coo,50000,1,2026-04-03,2026-04-03,zip,false,36000,1,0,2026
+Shelley Moore Capito,Andrew Weitz,Bloomfield Hills,MI,48304,Wls Investments,Investor,36000,1,2025-09-26,2025-09-26,zip,true,536000,6,6,2026
+Shelley Moore Capito,Abraham Seno Bril,Miami,FL,33180,Retired,Retired,25000,1,2026-03-03,2026-03-03,zip,false,575000,23,17,2024/2026
+Shelley Moore Capito,Jay Koppelman,Pleasant Hill,CA,94523,Retired,Retired,25000,1,2026-03-06,2026-03-06,zip,false,450000,18,17,2024/2026
+Shelley Moore Capito,Michael Sosebee,Oakland,CA,94610,Equipmentshare Inc.,Senior Operations Manager,25000,1,2026-03-09,2026-03-09,zip,false,1325000,13,12,2024/2026

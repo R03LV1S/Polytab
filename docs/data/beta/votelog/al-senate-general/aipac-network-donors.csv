@@ -1,0 +1,24 @@
+candidate,donor,city,state,zip5,employer,occupation,direct_total_cents,contributions,first_date,last_date,match_tier,same_employer_string,aipac_pac_total_cents,aipac_pac_rows,aipac_pac_recipient_committees,aipac_pac_cycles
+Barry Moore,Larry Silver,Boca Raton,FL,33431,Silver Companies,Real Estate,1000000,1,2026-06-15,2026-06-15,zip,true,7200000,20,16,2024/2026
+Barry Moore,Maya Gabbay,Dallas,TX,75229,Self-Employed,Business Owner,700000,2,2025-09-26,2025-09-26,zip,false,850000,2,2,2026
+Barry Moore,Joe Weinberg,Baltimore,MD,21202,Cordish,Ceo,350000,1,2026-02-26,2026-02-26,zip,false,2850000,9,9,2026
+Barry Moore,Yehuda Neuberger,Baltimore,MD,21208,Sim Holdings,Principal,350000,1,2026-02-26,2026-02-26,zip,false,26695000,143,105,2024/2026
+Barry Moore,Lawrence Macks,Naples,FL,34102,Chesapeake Realty,Ceo,300000,1,2026-02-26,2026-02-26,zip,false,6340000,43,26,2024/2026
+Barry Moore,Alan Hyatt,Annapolis,MD,21401,Self,Attorney,200000,1,2026-02-26,2026-02-26,zip,false,1900000,15,13,2024/2026
+Barry Moore,Andrew Pollak,Ownings Mills,MD,21117,Um Som,Doctor,200000,1,2026-02-26,2026-02-26,zip,false,400000,2,2,2026
+Barry Moore,Arthur Adler,Owings Mills,MD,21117,Caves Valley Partners,Real Estate Developer,200000,2,2026-03-02,2026-03-02,zip,true,1700000,13,12,2024/2026
+Barry Moore,Avi Benus,Pikesville,MD,21208,Crossland,Ceo,200000,1,2026-02-26,2026-02-26,zip,true,5750100,34,26,2024/2026
+Barry Moore,Debbi Weinberg,Austin,TX,78701,Girls Empoerment Mission,Director,200000,1,2026-02-28,2026-02-28,zip,false,600000,3,3,2026
+Barry Moore,Jerry Wolasky,Deerfield Beach,FL,33442,Health Source,Exec,200000,1,2026-02-26,2026-02-26,zip,false,4050000,23,22,2024/2026
+Barry Moore,Mark Schwartzman,Glen Burnie,MD,21061,Glen Burnie Transmissions,President,200000,1,2026-02-26,2026-02-26,zip,true,1400000,8,8,2026
+Barry Moore,Marshall Klein,Baltimore,MD,21230,Klein Markets,President,200000,1,2026-02-26,2026-02-26,zip,false,1600000,13,11,2024/2026
+Barry Moore,Adam Basner,Stevenson,MD,21153,Self,Doctor,100000,1,2026-02-26,2026-02-26,zip,false,500000,3,3,2026
+Barry Moore,Adam Miller,Lutherville,MD,21093,Miller Financial,President,100000,1,2026-02-26,2026-02-26,zip,false,800000,7,7,2026
+Barry Moore,Daniel Klein,Englewood,NJ,07631,Klein Enterprises,President,100000,1,2026-02-26,2026-02-26,zip,false,600000,5,5,2026
+Barry Moore,Gordon Horwitz,Baltimore,MD,21215,Sage,Owner,100000,1,2026-02-26,2026-02-26,zip,false,1300000,12,11,2024/2026
+Barry Moore,Marc Cohen,Pikesville,MD,21208,,,100000,1,2026-02-26,2026-02-26,zip,false,275000,3,3,2024/2026
+Barry Moore,Mark Neumann,Bethesda,MD,20814,,,100000,1,2026-02-24,2026-02-24,zip,false,700000,7,7,2026
+Barry Moore,Mitchell Gold,Owings Mills,MD,21117,Gold And Co,President,100000,1,2026-02-26,2026-02-26,zip,false,600000,6,6,2026
+Barry Moore,Steve Sibel,Cockeysville,MD,21030,Caves Valley,Partner,100000,1,2026-02-26,2026-02-26,zip,false,800000,8,8,2024/2026
+Barry Moore,Tara Brown,Pikesville,MD,21208,Momentum,Ceo,100000,1,2026-02-26,2026-02-26,zip,false,550000,7,7,2026
+Barry Moore,Merle Flowers,Southaven,MS,38671,"Flowers Properties, LLC",Real Estate,50000,1,2026-05-21,2026-05-21,zip,true,125000,2,2,2024

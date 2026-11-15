@@ -1,0 +1,170 @@
+{
+  "template_version": "pol-vote-beta-2",
+  "bounty_id": "2026-us_senate-us-tn-regular",
+  "office_type": "us_senate",
+  "election_year": 2026,
+  "jurisdiction": {
+    "level": "federal",
+    "state": "US-TN",
+    "district": null,
+    "race_type": "regular",
+    "senate_class": 2
+  },
+  "subject": {
+    "name": "Bill Hagerty",
+    "party": "R",
+    "incumbent": true,
+    "won_race": true,
+    "votelog": {
+      "listed": true,
+      "member_id_or_slug": "hagerty",
+      "profile_url": "https://votelog.org/members/hagerty"
+    },
+    "identifiers": {
+      "bioguide_id": "H000601",
+      "fec_candidate_ids": [
+        "S0TN00169"
+      ],
+      "fec_principal_committee_id_cycle": "C00718627",
+      "fec_principal_committee_ids_cycle": [
+        "C00718627"
+      ],
+      "opensecrets_cid": "N00045369"
+    }
+  },
+  "finance": {
+    "career_total_receipts_usd": 32999539,
+    "career_net_contributions_usd": 22263023,
+    "career_total_note": "Sum of FEC reported full-election receipts/net contributions across candidate IDs and authorized committees (source-linked).",
+    "cycle": 2026,
+    "cycle_window": "full_term_6yr",
+    "cycle_total_receipts_usd": 17226961,
+    "coverage_end_date": "2026-10-14",
+    "top_donors_cycle": [
+      {
+        "rank": 1,
+        "name": "Leading The Future",
+        "committee_id": "C00916692",
+        "amount_usd": 22500000,
+        "type": "superpac_donor_via_votelog",
+        "source_url": "https://votelog.org/data/tn-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 2,
+        "name": "Summit Ridge Media Group LLC",
+        "committee_id": "C00916692",
+        "amount_usd": 1126872,
+        "type": "superpac_donor_via_votelog",
+        "source_url": "https://votelog.org/data/tn-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 3,
+        "name": "Michael Rydin",
+        "committee_id": null,
+        "amount_usd": 543500,
+        "type": "superpac_donor_via_votelog",
+        "employer": "Retired",
+        "occupation": "Retired",
+        "source_url": "https://votelog.org/data/tn-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 4,
+        "name": "Lonsdale Enterprises Inc.",
+        "committee_id": "C00916692",
+        "amount_usd": 250000,
+        "type": "superpac_donor_via_votelog",
+        "source_url": "https://votelog.org/data/tn-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 5,
+        "name": "Arthur B. Choate",
+        "committee_id": "C00524181",
+        "amount_usd": 155000,
+        "type": "superpac_donor_via_votelog",
+        "employer": "Self",
+        "occupation": "Investor",
+        "source_url": "https://votelog.org/data/tn-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      }
+    ],
+    "sources": [
+      {
+        "label": "OpenFEC candidate totals (election_full=true, S0TN00169)",
+        "url": "https://api.open.fec.gov/v1/candidate/S0TN00169/totals/?election_full=true",
+        "as_of": "2026-11-15"
+      }
+    ]
+  },
+  "opponents_nov_general": [
+    {
+      "name": "Marquita Bradshaw",
+      "party": "D",
+      "cycle": 2026,
+      "cycle_total_receipts_usd": 35195,
+      "coverage_end_date": "2026-10-14",
+      "fec_candidate_id": "S4TN00542",
+      "fec_candidate_ids": [
+        "S4TN00542"
+      ],
+      "sources": [
+        {
+          "label": "OpenFEC candidate totals (election_full=true, S4TN00542)",
+          "url": "https://api.open.fec.gov/v1/candidate/S4TN00542/totals/?election_full=true",
+          "as_of": "2026-11-15"
+        }
+      ]
+    }
+  ],
+  "vote": {
+    "question": "[BETA_VOTE_QUESTION_PLACEHOLDER for Bill Hagerty | career reported receipts: $32,999,539]",
+    "question_vars": {
+      "subject_name": "Bill Hagerty",
+      "career_total_receipts_usd": 32999539
+    },
+    "type": "advisory_yes_no",
+    "options": [
+      "Yes",
+      "No",
+      "Abstain"
+    ]
+  },
+  "bounty_if_passed": {
+    "description": "[BETA_BOUNTY_OUTCOME_PLACEHOLDER for US-TN]",
+    "destination_type": "tip_jar",
+    "destination_criteria": "[BETA_CRITERIA_PLACEHOLDER for US-TN]",
+    "state": "US-TN"
+  },
+  "location": {
+    "label": "United States Capitol",
+    "address": "First St SE, Washington, DC 20004, USA",
+    "lat": 38.8899,
+    "lng": -77.0091
+  },
+  "payment": {
+    "chain": "base",
+    "chain_id": 8453,
+    "token": "USDC",
+    "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+    "qr_asset": "docs/escrow-qr.png",
+    "note": "Uses existing project wallet/QR; subject to current claim-first/support-locked routing rules unless overridden for this beta item.",
+    "payment_memo_or_slug": "2026-us_senate-us-tn-regular"
+  },
+  "provenance": {
+    "status": "beta_template_draft",
+    "generated_at": "2026-11-15T22:12:13.822Z",
+    "generator": "pol-vote-template",
+    "review_required": true
+  },
+  "_review": {
+    "missing": [],
+    "placeholders": [
+      "vote.question",
+      "bounty_if_passed.description",
+      "bounty_if_passed.destination_criteria"
+    ]
+  }
+}

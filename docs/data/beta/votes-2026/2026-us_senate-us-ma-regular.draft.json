@@ -1,0 +1,181 @@
+{
+  "template_version": "pol-vote-beta-2",
+  "bounty_id": "2026-us_senate-us-ma-regular",
+  "office_type": "us_senate",
+  "election_year": 2026,
+  "jurisdiction": {
+    "level": "federal",
+    "state": "US-MA",
+    "district": null,
+    "race_type": "regular",
+    "senate_class": 2
+  },
+  "subject": {
+    "name": "Edward Sen. Markey",
+    "party": "D",
+    "incumbent": true,
+    "won_race": true,
+    "votelog": {
+      "listed": true,
+      "member_id_or_slug": "markey",
+      "profile_url": "https://votelog.org/members/markey"
+    },
+    "identifiers": {
+      "bioguide_id": "M000133",
+      "fec_candidate_ids": [
+        "S4MA00028",
+        "H6MA07101"
+      ],
+      "fec_principal_committee_id_cycle": "C00196774",
+      "fec_principal_committee_ids_cycle": [
+        "C00196774",
+        "C00196774"
+      ],
+      "opensecrets_cid": "N00000270"
+    }
+  },
+  "finance": {
+    "career_total_receipts_usd": 51462465,
+    "career_net_contributions_usd": 38950383,
+    "career_total_note": "Sum of FEC reported full-election receipts/net contributions across candidate IDs and authorized committees (source-linked).",
+    "cycle": 2026,
+    "cycle_window": "full_term_6yr",
+    "cycle_total_receipts_usd": 8685207,
+    "coverage_end_date": "2026-10-14",
+    "top_donors_cycle": [
+      {
+        "rank": 1,
+        "name": "Ripple Labs Inc",
+        "committee_id": "C00924183",
+        "amount_usd": 1000000,
+        "type": "superpac_donor_via_votelog",
+        "source_url": "https://votelog.org/data/ma-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 2,
+        "name": "James Alwin Murphy",
+        "committee_id": "C00924183",
+        "amount_usd": 40000,
+        "type": "superpac_donor_via_votelog",
+        "employer": "Ludlow Street Advisors, LLC",
+        "occupation": "Consultant",
+        "source_url": "https://votelog.org/data/ma-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 3,
+        "name": "James A. Murphy",
+        "committee_id": "C00924183",
+        "amount_usd": 20000,
+        "type": "superpac_donor_via_votelog",
+        "employer": "Ludlow Street Advisors LLC",
+        "occupation": "Consultant",
+        "source_url": "https://votelog.org/data/ma-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 4,
+        "name": "Joe Zajac",
+        "committee_id": "C00924183",
+        "amount_usd": 11500,
+        "type": "superpac_donor_via_votelog",
+        "employer": "Vertical Skyline",
+        "occupation": "Sales",
+        "source_url": "https://votelog.org/data/ma-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 5,
+        "name": "Joseph Zajac",
+        "committee_id": "C00924183",
+        "amount_usd": 10000,
+        "type": "superpac_donor_via_votelog",
+        "employer": "Vertical Skyline",
+        "occupation": "Consultant",
+        "source_url": "https://votelog.org/data/ma-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      }
+    ],
+    "sources": [
+      {
+        "label": "OpenFEC candidate totals (election_full=true, S4MA00028)",
+        "url": "https://api.open.fec.gov/v1/candidate/S4MA00028/totals/?election_full=true",
+        "as_of": "2026-11-15"
+      },
+      {
+        "label": "OpenFEC candidate totals (election_full=true, H6MA07101)",
+        "url": "https://api.open.fec.gov/v1/candidate/H6MA07101/totals/?election_full=true",
+        "as_of": "2026-11-15"
+      }
+    ]
+  },
+  "opponents_nov_general": [
+    {
+      "name": "John Deaton",
+      "party": "R",
+      "cycle": 2026,
+      "cycle_total_receipts_usd": 1674460,
+      "coverage_end_date": "2026-10-14",
+      "fec_candidate_id": "S6MA00304",
+      "fec_candidate_ids": [
+        "S6MA00304"
+      ],
+      "sources": [
+        {
+          "label": "OpenFEC candidate totals (election_full=true, S6MA00304)",
+          "url": "https://api.open.fec.gov/v1/candidate/S6MA00304/totals/?election_full=true",
+          "as_of": "2026-11-15"
+        }
+      ]
+    }
+  ],
+  "vote": {
+    "question": "[BETA_VOTE_QUESTION_PLACEHOLDER for Edward Sen. Markey | career reported receipts: $51,462,465]",
+    "question_vars": {
+      "subject_name": "Edward Sen. Markey",
+      "career_total_receipts_usd": 51462465
+    },
+    "type": "advisory_yes_no",
+    "options": [
+      "Yes",
+      "No",
+      "Abstain"
+    ]
+  },
+  "bounty_if_passed": {
+    "description": "[BETA_BOUNTY_OUTCOME_PLACEHOLDER for US-MA]",
+    "destination_type": "tip_jar",
+    "destination_criteria": "[BETA_CRITERIA_PLACEHOLDER for US-MA]",
+    "state": "US-MA"
+  },
+  "location": {
+    "label": "United States Capitol",
+    "address": "First St SE, Washington, DC 20004, USA",
+    "lat": 38.8899,
+    "lng": -77.0091
+  },
+  "payment": {
+    "chain": "base",
+    "chain_id": 8453,
+    "token": "USDC",
+    "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+    "qr_asset": "docs/escrow-qr.png",
+    "note": "Uses existing project wallet/QR; subject to current claim-first/support-locked routing rules unless overridden for this beta item.",
+    "payment_memo_or_slug": "2026-us_senate-us-ma-regular"
+  },
+  "provenance": {
+    "status": "beta_template_draft",
+    "generated_at": "2026-11-15T22:10:21.702Z",
+    "generator": "pol-vote-template",
+    "review_required": true
+  },
+  "_review": {
+    "missing": [],
+    "placeholders": [
+      "vote.question",
+      "bounty_if_passed.description",
+      "bounty_if_passed.destination_criteria"
+    ]
+  }
+}

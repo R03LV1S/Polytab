@@ -1,0 +1,171 @@
+{
+  "generatedAt": "2026-11-13T22:38:46.613Z",
+  "dataCurrentThrough": {
+    "independentExpenditures": "2026-11-01",
+    "campaignFinances": "2026-10-14",
+    "campaignFinancesByCandidate": {
+      "rounds": "2026-10-14",
+      "bengs": "2026-10-14"
+    },
+    "superPacDonors": {
+      "C00876482": "2026-10-14",
+      "C00904797": "2026-10-14",
+      "C00962704": "2026-10-14",
+      "C00916692": "2026-10-14",
+      "C00961995": "2026-09-30",
+      "C00959353": "2026-11-11",
+      "C00888958": "2026-10-14",
+      "C00950733": "2026-10-14",
+      "C00418897": "2026-10-14"
+    },
+    "aipacEarmarks": "2026-10-14",
+    "donorNetwork": {
+      "rounds": "2026-06-30",
+      "bengs": "2026-09-30",
+      "network": "2026-10-14"
+    },
+    "filingsProcessed": "2026-11-13"
+  },
+  "summary": {
+    "rounds": {
+      "totalReceiptsCents": 381074834,
+      "transfersFromAuthCents": 43547117,
+      "totalDisbursementsCents": 438523449,
+      "cashOnHandCents": 129554292,
+      "candidateContribCents": 0,
+      "candidateLoansCents": 0,
+      "totalIndividualCents": 158554759,
+      "otherCommitteeContribCents": 163460001,
+      "coverageEnd": "2026-10-14",
+      "individualRefundsCents": 1510000,
+      "outsideSupportingCents": 22974722,
+      "outsideOpposingCents": 118721798,
+      "outsideBenefitingCents": 121508622
+    },
+    "bengs": {
+      "totalReceiptsCents": 185576343,
+      "transfersFromAuthCents": 0,
+      "totalDisbursementsCents": 178605497,
+      "cashOnHandCents": 6970846,
+      "candidateContribCents": 0,
+      "candidateLoansCents": 0,
+      "totalIndividualCents": 180644922,
+      "otherCommitteeContribCents": 4300000,
+      "coverageEnd": "2026-10-14",
+      "individualRefundsCents": 2434660,
+      "outsideSupportingCents": 88000432,
+      "outsideOpposingCents": 98533900,
+      "outsideBenefitingCents": 206722230
+    }
+  },
+  "outsideByCommittee": [
+    {
+      "committeeId": "C00876482",
+      "committee": "Retire Career Politicians",
+      "fecType": "V",
+      "forRounds": 0,
+      "againstRounds": 36455329,
+      "forBengs": 75533598,
+      "againstBengs": 0,
+      "total": 111988927,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945299796",
+      "latestDate": "2026-10-28"
+    },
+    {
+      "committeeId": "C00904797",
+      "committee": "South Dakota Conservative PAC",
+      "fecType": "O",
+      "forRounds": 0,
+      "againstRounds": 0,
+      "forBengs": 0,
+      "againstBengs": 98533900,
+      "total": 98533900,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945300372",
+      "latestDate": "2026-10-30"
+    },
+    {
+      "committeeId": "C00962704",
+      "committee": "Freedom From Politics, Inc.",
+      "fecType": "O",
+      "forRounds": 0,
+      "againstRounds": 77266469,
+      "forBengs": 0,
+      "againstBengs": 0,
+      "total": 77266469,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610229944824254",
+      "latestDate": "2026-10-21"
+    },
+    {
+      "committeeId": "C00916692",
+      "committee": "American Mission",
+      "fecType": "O",
+      "forRounds": 22974722,
+      "againstRounds": 0,
+      "forBengs": 0,
+      "againstBengs": 0,
+      "total": 22974722,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202609289908481759",
+      "latestDate": "2026-09-28"
+    },
+    {
+      "committeeId": "C00961995",
+      "committee": "Great Plains Voices PAC",
+      "fecType": "V",
+      "forRounds": 0,
+      "againstRounds": 5000000,
+      "forBengs": 5000000,
+      "againstBengs": 0,
+      "total": 10000000,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945261337",
+      "latestDate": "2026-10-26"
+    },
+    {
+      "committeeId": "C00959353",
+      "committee": "Bison PAC",
+      "fecType": "O",
+      "forRounds": 0,
+      "againstRounds": 0,
+      "forBengs": 4630000,
+      "againstBengs": 0,
+      "total": 4630000,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945271709",
+      "latestDate": "2026-10-27"
+    },
+    {
+      "committeeId": "C00888958",
+      "committee": "United Independents Campaign Fund",
+      "fecType": "O",
+      "forRounds": 0,
+      "againstRounds": 0,
+      "forBengs": 1600000,
+      "againstBengs": 0,
+      "total": 1600000,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610269945222474",
+      "latestDate": "2026-10-25"
+    },
+    {
+      "committeeId": "C00950733",
+      "committee": "Forward Party Victory Fund Inc",
+      "fecType": "O",
+      "forRounds": 0,
+      "againstRounds": 0,
+      "forBengs": 1200000,
+      "againstBengs": 0,
+      "total": 1200000,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610209916434103",
+      "latestDate": "2026-10-20"
+    },
+    {
+      "committeeId": "C00418897",
+      "committee": "Votevets",
+      "fecType": "W",
+      "forRounds": 0,
+      "againstRounds": 0,
+      "forBengs": 36834,
+      "againstBengs": 0,
+      "total": 36834,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202611029945322094",
+      "latestDate": "2026-11-01"
+    }
+  ]
+}

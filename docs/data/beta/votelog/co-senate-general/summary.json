@@ -1,0 +1,80 @@
+{
+  "generatedAt": "2026-11-13T22:32:31.092Z",
+  "dataCurrentThrough": {
+    "independentExpenditures": "2026-11-02",
+    "campaignFinances": "2026-10-14",
+    "campaignFinancesByCandidate": {
+      "baisley": "2026-10-14",
+      "hickenlooper": "2026-10-14"
+    },
+    "superPacDonors": {
+      "C00800995": "2026-09-30",
+      "C00930321": "2026-10-14"
+    },
+    "aipacEarmarks": "2026-10-14",
+    "donorNetwork": {
+      "baisley": "2026-06-30",
+      "hickenlooper": "2026-06-30",
+      "network": "2026-10-14"
+    },
+    "filingsProcessed": "2026-11-13"
+  },
+  "summary": {
+    "baisley": {
+      "totalReceiptsCents": 13821047,
+      "transfersFromAuthCents": 0,
+      "totalDisbursementsCents": 11083745,
+      "cashOnHandCents": 2770993,
+      "candidateContribCents": 0,
+      "candidateLoansCents": 220000,
+      "totalIndividualCents": 13493530,
+      "otherCommitteeContribCents": 0,
+      "coverageEnd": "2026-10-14",
+      "individualRefundsCents": 350000,
+      "outsideSupportingCents": 0,
+      "outsideOpposingCents": 0,
+      "outsideBenefitingCents": 0
+    },
+    "hickenlooper": {
+      "totalReceiptsCents": 952927687,
+      "transfersFromAuthCents": 150474607,
+      "totalDisbursementsCents": 940608195,
+      "cashOnHandCents": 155882790,
+      "candidateContribCents": 0,
+      "candidateLoansCents": 0,
+      "totalIndividualCents": 666575810,
+      "otherCommitteeContribCents": 106819577,
+      "coverageEnd": "2026-10-14",
+      "individualRefundsCents": 7386811,
+      "outsideSupportingCents": 1259375,
+      "outsideOpposingCents": 0,
+      "outsideBenefitingCents": 1259375
+    }
+  },
+  "outsideByCommittee": [
+    {
+      "committeeId": "C00800995",
+      "committee": "Democratic Messaging Project",
+      "fecType": "O",
+      "forBaisley": 0,
+      "againstBaisley": 0,
+      "forHickenlooper": 1015000,
+      "againstHickenlooper": 0,
+      "total": 1015000,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610149908817694",
+      "latestDate": "2026-09-30"
+    },
+    {
+      "committeeId": "C00930321",
+      "committee": "Neighbor Voices PAC",
+      "fecType": "O",
+      "forBaisley": 0,
+      "againstBaisley": 0,
+      "forHickenlooper": 244375,
+      "againstHickenlooper": 0,
+      "total": 244375,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202611039945330623",
+      "latestDate": "2026-11-02"
+    }
+  ]
+}

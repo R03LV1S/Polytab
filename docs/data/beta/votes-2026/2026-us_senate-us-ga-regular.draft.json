@@ -1,0 +1,172 @@
+{
+  "template_version": "pol-vote-beta-2",
+  "bounty_id": "2026-us_senate-us-ga-regular",
+  "office_type": "us_senate",
+  "election_year": 2026,
+  "jurisdiction": {
+    "level": "federal",
+    "state": "US-GA",
+    "district": null,
+    "race_type": "regular",
+    "senate_class": 2
+  },
+  "subject": {
+    "name": "T. Jonathan Ossoff",
+    "party": "D",
+    "incumbent": true,
+    "won_race": true,
+    "votelog": {
+      "listed": true,
+      "member_id_or_slug": "ossoff",
+      "profile_url": "https://votelog.org/members/ossoff"
+    },
+    "identifiers": {
+      "bioguide_id": "O000174",
+      "fec_candidate_ids": [
+        "S8GA00180",
+        "H8GA06195"
+      ],
+      "fec_principal_committee_id_cycle": "C00718866",
+      "fec_principal_committee_ids_cycle": [
+        "C00718866"
+      ],
+      "opensecrets_cid": "N00040675"
+    }
+  },
+  "finance": {
+    "career_total_receipts_usd": 324362591,
+    "career_net_contributions_usd": 293753033,
+    "career_total_note": "Sum of FEC reported full-election receipts/net contributions across candidate IDs and authorized committees (source-linked).",
+    "cycle": 2026,
+    "cycle_window": "full_term_6yr",
+    "cycle_total_receipts_usd": 136610982,
+    "coverage_end_date": "2026-10-14",
+    "top_donors_cycle": [
+      {
+        "rank": 1,
+        "name": "SMP",
+        "committee_id": null,
+        "amount_usd": 38500000,
+        "type": "superpac_donor_via_votelog",
+        "source_url": "https://votelog.org/data/ga-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 2,
+        "name": "FF PAC",
+        "committee_id": "C00961276",
+        "amount_usd": 20000000,
+        "type": "superpac_donor_via_votelog",
+        "source_url": "https://votelog.org/data/ga-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 3,
+        "name": "AB Foundation",
+        "committee_id": "C00492140",
+        "amount_usd": 18701877,
+        "type": "superpac_donor_via_votelog",
+        "source_url": "https://votelog.org/data/ga-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 4,
+        "name": "Democracy Matters",
+        "committee_id": "C00492140",
+        "amount_usd": 14010000,
+        "type": "superpac_donor_via_votelog",
+        "source_url": "https://votelog.org/data/ga-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 5,
+        "name": "Pave The Way Inc",
+        "committee_id": "C00492140",
+        "amount_usd": 12500000,
+        "type": "superpac_donor_via_votelog",
+        "source_url": "https://votelog.org/data/ga-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      }
+    ],
+    "sources": [
+      {
+        "label": "OpenFEC candidate totals (election_full=true, S8GA00180)",
+        "url": "https://api.open.fec.gov/v1/candidate/S8GA00180/totals/?election_full=true",
+        "as_of": "2026-11-15"
+      },
+      {
+        "label": "OpenFEC candidate totals (election_full=true, H8GA06195)",
+        "url": "https://api.open.fec.gov/v1/candidate/H8GA06195/totals/?election_full=true",
+        "as_of": "2026-11-15"
+      }
+    ]
+  },
+  "opponents_nov_general": [
+    {
+      "name": "Michael A Collins Jr",
+      "party": "R",
+      "cycle": 2026,
+      "cycle_total_receipts_usd": 10687028,
+      "coverage_end_date": "2026-10-14",
+      "fec_candidate_id": "S6GA00390",
+      "fec_candidate_ids": [
+        "S6GA00390"
+      ],
+      "sources": [
+        {
+          "label": "OpenFEC candidate totals (election_full=true, S6GA00390)",
+          "url": "https://api.open.fec.gov/v1/candidate/S6GA00390/totals/?election_full=true",
+          "as_of": "2026-11-15"
+        }
+      ]
+    }
+  ],
+  "vote": {
+    "question": "[BETA_VOTE_QUESTION_PLACEHOLDER for T. Jonathan Ossoff | career reported receipts: $324,362,591]",
+    "question_vars": {
+      "subject_name": "T. Jonathan Ossoff",
+      "career_total_receipts_usd": 324362591
+    },
+    "type": "advisory_yes_no",
+    "options": [
+      "Yes",
+      "No",
+      "Abstain"
+    ]
+  },
+  "bounty_if_passed": {
+    "description": "[BETA_BOUNTY_OUTCOME_PLACEHOLDER for US-GA]",
+    "destination_type": "tip_jar",
+    "destination_criteria": "[BETA_CRITERIA_PLACEHOLDER for US-GA]",
+    "state": "US-GA"
+  },
+  "location": {
+    "label": "United States Capitol",
+    "address": "First St SE, Washington, DC 20004, USA",
+    "lat": 38.8899,
+    "lng": -77.0091
+  },
+  "payment": {
+    "chain": "base",
+    "chain_id": 8453,
+    "token": "USDC",
+    "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+    "qr_asset": "docs/escrow-qr.png",
+    "note": "Uses existing project wallet/QR; subject to current claim-first/support-locked routing rules unless overridden for this beta item.",
+    "payment_memo_or_slug": "2026-us_senate-us-ga-regular"
+  },
+  "provenance": {
+    "status": "beta_template_draft",
+    "generated_at": "2026-11-15T22:09:06.694Z",
+    "generator": "pol-vote-template",
+    "review_required": true
+  },
+  "_review": {
+    "missing": [],
+    "placeholders": [
+      "vote.question",
+      "bounty_if_passed.description",
+      "bounty_if_passed.destination_criteria"
+    ]
+  }
+}

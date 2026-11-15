@@ -1,0 +1,243 @@
+candidate,donor,city,state,zip5,employer,occupation,direct_total_cents,contributions,first_date,last_date,match_tier,same_employer_string,aipac_pac_total_cents,aipac_pac_rows,aipac_pac_recipient_committees,aipac_pac_cycles
+Mark Baisley,Stephanie Piko,Centennial,CO,80016,Intelinet Imaging,Office Manager,26000,1,2026-06-30,2026-06-30,zip,false,50000,1,1,2026
+John Hickenlooper,Cintra Pollack,Denver,CO,80209,Race Street Management,Investment Manager,760000,3,2025-01-24,2025-05-22,zip,true,750000,5,4,2024/2026
+John Hickenlooper,Bianca Peskin,Brookline,MA,02446,Not Employed,Not Employed,700000,2,2025-10-11,2025-10-11,zip,false,30130000,54,45,2024/2026
+John Hickenlooper,David Merage,Greenwood Village,CO,80111,Consolidated Investment Group,Principal,700000,2,2026-01-16,2026-01-16,zip,true,200000,2,2,2026
+John Hickenlooper,John Shapiro,New York,NY,10024,Chieftain Capital Management,Investments,700000,2,2026-03-08,2026-03-08,zip,true,660000,1,1,2024
+John Hickenlooper,Sunny Brownstein,Englewood,CO,80113,Not Employed,Not Employed,700000,2,2025-03-29,2025-03-29,state,false,350000,1,1,2026
+John Hickenlooper,Andrew Milgram,Greenwich,CT,06831,Marblegate,Investment Management,625000,2,2025-05-30,2025-05-30,zip,true,2927600,11,10,2024/2026
+John Hickenlooper,Andrew Snyder,New York,NY,10013,Cambridge Information Group,Ceo,625000,2,2025-05-14,2025-05-14,zip,true,4350000,7,6,2026
+John Hickenlooper,Brett Barth,New York,NY,10128,Bbr Partners,Ceo,625000,2,2025-04-30,2025-04-30,zip,true,8375000,36,25,2026
+John Hickenlooper,David Blitzer,New York,NY,10022,Blackstone,Chairman,625000,2,2025-05-06,2025-05-06,zip,true,3125000,5,5,2026
+John Hickenlooper,David Stonberg,Scarsdale,NY,10583,Neuberger Berman,Investor,625000,2,2025-04-30,2025-04-30,zip,true,1250000,2,2,2026
+John Hickenlooper,Eric Schwartz,New York,NY,10023,Not Employed,Retired,625000,2,2025-06-02,2025-06-02,zip,false,625000,1,1,2026
+John Hickenlooper,Evan Roth,New York,NY,10013,Bbr Partners,Co-Ceo,625000,2,2025-05-28,2025-05-28,zip,true,4715000,8,7,2024/2026
+John Hickenlooper,Jonathan Pollack,New York,NY,10013,Starwood Capital,Real Estate,625000,2,2025-05-27,2025-05-27,zip,true,1250000,2,2,2026
+John Hickenlooper,Shawn Levy,New York,NY,10013,21 Laps Entertainment,Director,625000,2,2025-05-04,2025-05-04,zip,true,625000,1,1,2026
+John Hickenlooper,Robert Brooks Price,Denver,CO,80220,Brooks,Executive,500000,2,2026-06-28,2026-06-28,zip,true,200000,2,2,2024
+John Hickenlooper,Stephanie Donner,Denver,CO,80246,The Nuclear Company,Attorney,500000,2,2026-05-23,2026-05-23,zip,true,200000,1,1,2026
+John Hickenlooper,Alexander Heckler,Miami Beach,FL,33140,Lsn Firm,Treasurer,350000,1,2026-06-30,2026-06-30,zip,false,1520000,5,5,2024
+John Hickenlooper,Alexis Bednyak,Glencoe,IL,60022,Alexis Bednyak Design,Owner,350000,1,2025-08-25,2025-08-25,zip,true,8543300,36,21,2024/2026
+John Hickenlooper,Alice Baker,Tucson,AZ,85716,Not Employed,Not Employed,350000,1,2026-03-23,2026-03-23,zip,false,3450000,8,6,2024/2026
+John Hickenlooper,Andrew Feinstein,Denver,CO,80205,Exdo Management,Real Estate And Hospitality,350000,1,2026-06-23,2026-06-23,zip,true,300000,1,1,2026
+John Hickenlooper,Bradley Bloom,Wellesley Hills,MA,02481,Not Employed,Retired,350000,1,2025-10-08,2025-10-08,zip,false,3200000,10,9,2024/2026
+John Hickenlooper,Brett Schreiber,San Diego,CA,92107,"Singleton Schreiber, LLP",Founding Partner,350000,1,2025-10-14,2025-10-14,zip,true,2800000,9,9,2026
+John Hickenlooper,Daniel Kraft,Foxborough,MA,02035,The Kraft Group,International President,350000,1,2025-10-20,2025-10-20,zip,true,10700000,22,22,2024/2026
+John Hickenlooper,Dorus Davis,Los Gatos,CA,95032,Not Employed,Retired,350000,1,2025-06-10,2025-06-10,zip,false,1050000,3,3,2026
+John Hickenlooper,Elliot Lepler,Mountain View,CA,94041,Not Employed,Retired,350000,1,2025-05-19,2025-05-19,zip,false,4856000,25,20,2024/2026
+John Hickenlooper,Eugene Fooksman,Menlo Park,CA,94025,"Altopass, Inc.",Ceo,350000,1,2025-06-05,2025-06-05,zip,true,16060000,54,45,2024/2026
+John Hickenlooper,Gary Lauder,New York,NY,10153,Lauder Partners,Investor,350000,2,2025-01-23,2025-07-18,state,true,100000,1,1,2024
+John Hickenlooper,Jacob Brodie,Haverford,PA,19041,Brodie Generational Capital Partners,Executive,350000,1,2026-03-22,2026-03-22,zip,true,25435000,78,60,2024/2026
+John Hickenlooper,James Miller,Greenwood Village,CO,80111,Miller Global Properties,President & Ceo,350000,2,2025-03-31,2026-02-27,zip,true,100000,1,1,2026
+John Hickenlooper,James Sprayregen,Glencoe,IL,60022,Kirkland & Ellis LLP,Vice Chairman,350000,1,2025-08-25,2025-08-25,zip,true,12434283,68,54,2024/2026
+John Hickenlooper,Larry Greenberg,Weston,MA,02493,Not Employed,Not Employed,350000,1,2025-09-07,2025-09-07,zip,false,20090000,62,43,2024/2026
+John Hickenlooper,Larry Margolis,Basalt,CO,81621,Not Employed,Retired,350000,1,2025-12-12,2025-12-12,zip,false,11510000,35,29,2024/2026
+John Hickenlooper,Laura Lauder,New York,NY,10153,Lauder Partners,Philanthropist,350000,2,2025-01-23,2025-07-18,zip,true,430000,2,2,2024
+John Hickenlooper,Mark Gerstein,Highland Park,IL,60035,Not Employed,Retired,350000,1,2025-12-26,2025-12-26,zip,false,9170000,48,34,2024/2026
+John Hickenlooper,Paul Baker,Tucson,AZ,85716,University Of Arizona,Professor,350000,1,2026-03-23,2026-03-23,zip,false,11930000,34,26,2024/2026
+John Hickenlooper,Rachel Jonas,Bronx,NY,10463,Not Employed,Not Employed,350000,1,2026-04-27,2026-04-27,state,false,25000,1,0,2026
+John Hickenlooper,Solomon Moshkevich,Atherton,CA,94027,Natera,President,350000,1,2025-06-09,2025-06-09,zip,true,3950000,12,12,2024/2026
+John Hickenlooper,Stacy Rosenberg,La Jolla,CA,92037,Not Employed,Retired,350000,1,2025-10-21,2025-10-21,zip,false,3700000,22,18,2024/2026
+John Hickenlooper,Steven Demby,Denver,CO,80209,"Brownstein Hyatt Farber Schreck, LLP",Attorney,350000,1,2026-01-15,2026-01-15,zip,true,6075000,24,24,2024/2026
+John Hickenlooper,Steven Rosenblum,Denver,CO,80210,Millennium,Head Of Rates And Macro Risk,350000,1,2026-01-16,2026-01-16,zip,true,5720000,32,28,2024/2026
+John Hickenlooper,Tony Davis,Chicago,IL,60610,Linden,Investor,350000,2,2025-09-11,2025-12-22,zip,true,19964400,76,56,2024/2026
+John Hickenlooper,Dana Zeff,La Jolla,CA,92037,Unitleader,Managing Partner,330000,1,2025-10-23,2025-10-23,zip,true,6400000,28,23,2024/2026
+John Hickenlooper,Eli Reinhard,San Jose,CA,95150,Arcadia Development Co.,Executive,330000,1,2025-06-17,2025-06-17,zip,true,830000,6,6,2024/2026
+John Hickenlooper,Anthony Toranto,San Diego,CA,92127,Sheppard Mullin,Attorney,300000,1,2025-11-12,2025-11-12,zip,true,3250000,23,20,2024/2026
+John Hickenlooper,Daniel Cohan,Wilmette,IL,60091,Not Employed,Retired,300000,1,2025-08-27,2025-08-27,zip,false,2840000,25,21,2024/2026
+John Hickenlooper,Jeff Seiden,Highland Park,IL,60035,Self Employed,Psychologist,300000,2,2025-12-08,2025-12-09,zip,false,3195000,49,41,2024/2026
+John Hickenlooper,Kevin Shalon,San Diego,CA,92131,Merchant Associates,Manager,300000,1,2025-11-11,2025-11-11,zip,true,950000,11,11,2024/2026
+John Hickenlooper,Scott Weiner,New York,NY,10075,Apollo Global Management,Partner,300000,1,2025-05-06,2025-05-06,zip,true,330000,1,1,2024
+John Hickenlooper,Paul Segal,San Diego,CA,92130,Not Employed,Retired,250000,1,2025-11-11,2025-11-11,zip,false,2861000,25,22,2024/2026
+John Hickenlooper,Jonathan Reiner,Glencoe,IL,60022,Rt Specialty,Ceo,225000,1,2025-09-20,2025-09-20,zip,true,2395000,21,19,2024/2026
+John Hickenlooper,David W Foster,Denver,CO,80230,"Foster, Graham, Milstein & Calisher",Attorney,223100,1,2025-07-18,2025-07-18,zip,false,50000,1,1,2026
+John Hickenlooper,Alexander Sears,Tucson,AZ,85718,Sears Financial Corporation,President,200000,1,2026-03-25,2026-03-25,zip,true,1100000,6,6,2024/2026
+John Hickenlooper,Allen Friedman,Teaneck,NJ,07666,Jp Morgan Chase,Attorney,200000,1,2025-12-31,2025-12-31,zip,false,960000,3,3,2024
+John Hickenlooper,Boris Shekhter,San Diego,CA,92103,Helix Electric,Engineer,200000,1,2025-11-11,2025-11-11,zip,true,1155000,12,11,2024/2026
+John Hickenlooper,Brian Friedman,Denver,CO,80230,"Ghp Investment Advisors, Inc.",Investment Advisors,200000,1,2026-01-12,2026-01-12,zip,true,6137500,36,27,2024/2026
+John Hickenlooper,Chuck Bellock,Boulder,CO,80302,Community Development Group,Real Estate,200000,1,2026-01-15,2026-01-15,zip,true,3550000,18,16,2024/2026
+John Hickenlooper,Clifford Long,Newton,MA,02465,Long Term Capital LLC,Real Estate Investor,200000,1,2025-09-21,2025-09-21,zip,true,2900000,16,14,2024/2026
+John Hickenlooper,David Shteremberg,La Jolla,CA,92037,"Steren Electronics International, LLC",Ceo,200000,1,2025-10-29,2025-10-29,zip,true,3480000,18,17,2024/2026
+John Hickenlooper,Diana Anderson,Denver,CO,80206,Not Employed,Retired,200000,1,2025-12-18,2025-12-18,zip,false,8680000,42,29,2024/2026
+John Hickenlooper,Edward Shapiro,Needham,MA,02492,The Shapiro Foundation,Philanthropist,200000,1,2025-09-07,2025-09-07,zip,true,380000,2,2,2024/2026
+John Hickenlooper,Esther Michan,San Diego,CA,92130,Strata Equity Global,Real Estate,200000,1,2025-10-16,2025-10-16,zip,true,1900000,11,10,2024/2026
+John Hickenlooper,Jonathan Davis,Chestnut Hill,MA,02467,The Davis Companies,Chief Executive Officer,200000,2,2025-09-09,2025-09-30,zip,true,2250000,23,18,2024/2026
+John Hickenlooper,Joshua Epel,Denver,CO,80237,Not Employed,Retired,200000,1,2026-01-11,2026-01-11,zip,false,300000,2,2,2026
+John Hickenlooper,Julie Candau,Walnut Creek,CA,94595,Marble Bridge Funding Group,Hr Manager,200000,1,2025-06-09,2025-06-09,zip,true,4580000,26,23,2024/2026
+John Hickenlooper,Leland Alpert,Englewood,CO,80113,Lee Alpert And Company,Ceo,200000,1,2026-01-15,2026-01-15,zip,true,2400000,13,13,2026
+John Hickenlooper,Michael A. Feiner,Englewood,CO,80113,Fei,Real Estate,200000,1,2025-12-19,2025-12-19,state,true,4080000,36,30,2024/2026
+John Hickenlooper,Michael Sperling,Boston,MA,02116,Baupost,Investor,200000,1,2025-10-06,2025-10-06,zip,true,5350000,26,22,2024/2026
+John Hickenlooper,Mike Krigel,Palo Alto,CA,94306,Morgan Stanley,Financial Advisor,200000,1,2025-05-27,2025-05-27,zip,true,2100000,9,9,2024/2026
+John Hickenlooper,Myron M. Miller,Greenwood Village,CO,80111,Not Employed,Not Employed,200000,1,2026-02-27,2026-02-27,zip,false,100000,1,1,2026
+John Hickenlooper,Ronald Cohn,Carmel Valley,CA,93924,Not Employed,Retired,200000,1,2025-05-20,2025-05-20,zip,false,3150000,16,14,2024/2026
+John Hickenlooper,Stephen Malkin,Northbrook,IL,60062,Ranger Capital Management,President,200000,1,2025-08-26,2025-08-26,zip,true,3390000,22,22,2024/2026
+John Hickenlooper,Stuart Levy,Florham Park,NJ,07932,Not Employed,Retired,200000,1,2025-05-21,2025-05-21,zip,false,850000,5,5,2026
+John Hickenlooper,Vivian Saper,Los Altos,CA,94022,Stanford University,Physician,200000,1,2025-06-12,2025-06-12,zip,true,1650000,10,10,2024/2026
+John Hickenlooper,Deborah Oseran,Tucson,AZ,85716,Not Employed,Retired,150000,1,2026-03-19,2026-03-19,zip,false,1359000,15,12,2024/2026
+John Hickenlooper,Evi Makovsky,Denver,CO,80230,Not Employed,Retired,150000,1,2026-01-11,2026-01-11,zip,false,600000,12,9,2024/2026
+John Hickenlooper,Jeremy Abelson,Cherry Hills Village,CO,80113,Irving Investors,Principal,150000,1,2026-01-14,2026-01-14,zip,true,1850000,15,15,2024/2026
+John Hickenlooper,Jeremy Sharpe,Tucson,AZ,85750,Rancho Sahuarita,Real Estate,150000,1,2026-03-20,2026-03-20,zip,true,150000,1,1,2026
+John Hickenlooper,Kenneth Goldman,Menlo Park,CA,94025,Not Employed,Not Employed,150000,1,2025-10-19,2025-10-19,state,false,650000,12,12,2026
+John Hickenlooper,Kimberly Sanner,San Francisco,CA,94118,Not Employed,Not Employed,150000,1,2025-06-03,2025-06-03,zip,false,3780000,26,21,2024/2026
+John Hickenlooper,Steven Segal,Chestnut Hill,MA,02467,Not Employed,Retired,150000,1,2025-09-12,2025-09-12,zip,false,8977777,44,32,2024/2026
+John Hickenlooper,William Schnoor,Chestnut Hill,MA,02467,Goodwin Procter LLP,Attorney,150000,1,2025-10-08,2025-10-08,zip,true,450000,3,3,2024/2026
+John Hickenlooper,Norman Brownstein,Denver,CO,80202,Brownstein Hyatt Farber Schreck,Chairman,120000,2,2025-03-29,2025-03-29,zip,true,13450000,33,31,2024/2026
+John Hickenlooper,Alex Sagan,Cambridge,MA,02138,Not Employed,Not Employed,100000,1,2025-10-08,2025-10-08,zip,false,2150000,20,17,2024/2026
+John Hickenlooper,Amy Friedkin,San Francisco,CA,94104,Not Employed,Not Employed,100000,1,2025-05-14,2025-05-14,zip,false,6665000,53,43,2024/2026
+John Hickenlooper,Andrew Lappin,Glencoe,IL,60022,Not Employed,Retired,100000,1,2025-08-26,2025-08-26,zip,false,8325000,48,44,2024/2026
+John Hickenlooper,Ariel Cudkowicz,Newton,MA,02458,Seyfarth Shaw,Attorney,100000,1,2025-08-15,2025-08-15,zip,true,7081600,50,33,2024/2026
+John Hickenlooper,Arthur Black,Swampscott,MA,01907,Not Employed,Retired,100000,1,2025-10-08,2025-10-08,zip,false,536400,5,5,2026
+John Hickenlooper,Arthur Klitofsky,La Jolla,CA,92037,Above All Advertising,Coo,100000,1,2025-10-21,2025-10-21,zip,true,935000,15,14,2024/2026
+John Hickenlooper,Avi Davidoff,Glencoe,IL,60022,Goldman Sachs,Wealth Management,100000,1,2025-09-19,2025-09-19,zip,true,1682000,32,25,2024/2026
+John Hickenlooper,Barry Finegold,Andover,MA,01810,Dalton & Finegold,Attorney,100000,1,2025-10-09,2025-10-09,zip,true,400000,4,4,2026
+John Hickenlooper,Ben Bloomstone,West Newton,MA,02465,Cross Shore Capital Management,Fund Manager,100000,1,2025-09-29,2025-09-29,zip,true,1300000,13,13,2024/2026
+John Hickenlooper,Benjamin Friend,San Francisco,CA,94102,Howard Properties,Real Estate,100000,1,2025-06-05,2025-06-05,zip,true,7222500,48,38,2024/2026
+John Hickenlooper,Charles Myers,Weston,MA,02493,Not Employed,Retired,100000,1,2025-09-07,2025-09-07,zip,false,5490000,28,24,2024/2026
+John Hickenlooper,Claudia Gordon Felson,Castro Valley,CA,94546,Not Employed,Not Employed,100000,1,2025-06-06,2025-06-06,zip,false,1775000,29,26,2024/2026
+John Hickenlooper,Clifford Boro,San Diego,CA,92106,Boro Ventures,Owner,100000,1,2025-12-03,2025-12-03,zip,true,200000,3,3,2026
+John Hickenlooper,Daniel Weiner,San Diego,CA,92130,Self Employed,Attorney,100000,1,2025-10-16,2025-10-16,zip,false,575000,11,9,2024/2026
+John Hickenlooper,David Bark,San Diego,CA,92109,First American Title,Underwriter,100000,1,2025-10-10,2025-10-10,zip,true,1400000,21,17,2024/2026
+John Hickenlooper,David Brown,Chicago,IL,60606,Much,Attorney,100000,1,2025-09-11,2025-09-11,zip,true,3435000,22,17,2024/2026
+John Hickenlooper,David Goodtree,Needham,MA,02492,Foodgraph,Ceo,100000,1,2025-10-08,2025-10-08,zip,true,2230000,19,15,2024/2026
+John Hickenlooper,David Hameroff,Tucson,AZ,85718,"Hameroff Law Group, PC",Attorney,100000,1,2026-03-25,2026-03-25,zip,true,2515400,23,15,2024/2026
+John Hickenlooper,David Kramer,Englewood,NJ,07631,Self Employed,Real Estate,100000,1,2025-12-31,2025-12-31,state,false,300000,2,2,2024
+John Hickenlooper,David Michan,San Diego,CA,92130,Strata Equity Group,Real Estate,100000,1,2025-10-12,2025-10-12,zip,true,925000,14,12,2024/2026
+John Hickenlooper,Donny Friend,San Francisco,CA,94121,Self Employed,Real Estate Investor,100000,1,2025-06-12,2025-06-12,zip,false,3725000,26,24,2024/2026
+John Hickenlooper,Douglas Gessner,Glenview,IL,60025,Kirkland & Ellis LLP,Attorney,100000,1,2025-09-09,2025-09-09,zip,true,12500000,44,38,2024/2026
+John Hickenlooper,E. Olivia Lurie,Chicago,IL,60647,Class Choreography,Co Founder,100000,1,2025-12-28,2025-12-28,zip,true,594000,10,9,2024/2026
+John Hickenlooper,Eric Forman,Delray Beach,FL,33483,Eric Forman Enterprises,Consultant,100000,1,2025-09-19,2025-09-19,zip,true,650000,7,6,2026
+John Hickenlooper,Estee Portnoy,Telluride,CO,81435,Jump Management LLC,Sports Marketing,100000,2,2026-06-23,2026-06-23,zip,true,150000,2,2,2024/2026
+John Hickenlooper,Gabriel Erle,San Diego,CA,92130,C3 Risk And Insurance Services,Insurance Broker,100000,1,2025-11-11,2025-11-11,zip,true,625000,11,11,2024/2026
+John Hickenlooper,Gad Zeilingold,San Diego,CA,92130,Not Employed,Not Employed,100000,1,2025-10-12,2025-10-12,zip,false,500000,6,6,2026
+John Hickenlooper,Gerald Bekkerman,Chicago,IL,60606,Taxman Pollock Murray & Bekkerman,Attorney,100000,1,2025-09-13,2025-09-13,zip,true,200000,2,1,2024/2026
+John Hickenlooper,Gordon Owades,Lexington,MA,02420,Not Employed,Retired,100000,1,2025-10-08,2025-10-08,zip,false,2750000,17,14,2024/2026
+John Hickenlooper,Graeme Gabriel,San Diego,CA,92103,Colrich,Real Estate Investor,100000,1,2025-10-17,2025-10-17,zip,true,2215000,18,15,2024/2026
+John Hickenlooper,Guy Reggev,San Diego,CA,92103,Not Employed,Retired,100000,1,2025-10-13,2025-10-13,zip,false,700000,10,8,2024/2026
+John Hickenlooper,Harvey B. Allon,Denver,CO,80246,Braddock Holdings,Chairman,100000,1,2026-01-16,2026-01-16,zip,true,615000,8,7,2024/2026
+John Hickenlooper,Howard May,Los Gatos,CA,95032,Not Employed,Retired,100000,1,2025-06-09,2025-06-09,zip,false,300000,3,3,2024/2026
+John Hickenlooper,Ilan Grinberg,Wilmette,IL,60091,Ctc,Finance,100000,1,2025-09-22,2025-09-22,zip,true,525000,7,5,2026
+John Hickenlooper,James Ginsburg,Glencoe,IL,60022,Vernon & Park Capital,Asset Manager,100000,1,2025-09-14,2025-09-14,zip,true,900000,10,9,2024/2026
+John Hickenlooper,Jason Friend,San Francisco,CA,94102,Howard Properties,Real Estate,100000,1,2025-06-11,2025-06-11,zip,true,5775000,39,36,2024/2026
+John Hickenlooper,Jason Muss,New York,NY,10128,Muss Development LLC,Real Estate,100000,1,2025-12-31,2025-12-31,state,true,3085000,17,13,2024/2026
+John Hickenlooper,Jeff Schindler,San Diego,CA,92120,Not Employed,Retired,100000,1,2025-11-07,2025-11-07,zip,false,500000,8,8,2024/2026
+John Hickenlooper,Jeffrey Wolk,Chestnut Hill,MA,02467,The Cross Country Group,Executive,100000,1,2025-10-07,2025-10-07,zip,true,4210000,36,30,2024/2026
+John Hickenlooper,Jerry Gumpel,San Diego,CA,92130,Not Employed,Retired,100000,1,2025-10-14,2025-10-14,zip,false,725000,14,12,2024/2026
+John Hickenlooper,Jody Forchheimer,Brookline,MA,02446,Not Employed,Retired,100000,1,2025-09-07,2025-09-07,zip,false,38475500,150,96,2024/2026
+John Hickenlooper,Jordan Sharf,Denver,CO,80230,Arileus Capital,Real Estate,100000,1,2026-01-15,2026-01-15,zip,true,800000,5,5,2026
+John Hickenlooper,Joseph Mark,Garden City,NY,11530,Hambro America Inc,Investment Banker,100000,1,2025-12-31,2025-12-31,zip,false,330000,1,1,2024
+John Hickenlooper,Joshua Epel,Greenwood Village,CO,80111,Not Employed,Retired,100000,1,2025-07-16,2025-07-16,zip,false,1145000,17,12,2024/2026
+John Hickenlooper,Joshua Feder,San Diego,CA,92130,Self Employed,Physician,100000,1,2025-10-23,2025-10-23,zip,false,4580000,35,28,2024/2026
+John Hickenlooper,Joshua Muss,Forest Hills,NY,11375,Self Employed,Real Estate,100000,1,2025-12-31,2025-12-31,zip,false,1980000,13,11,2024/2026
+John Hickenlooper,Keith Radner,Glencoe,IL,60022,Goldberg Kohn Ltd,Attorney,100000,1,2025-08-25,2025-08-25,zip,true,600000,6,5,2024/2026
+John Hickenlooper,Kenneth Novack,Boston,MA,02108,Not Employed,Retired,100000,1,2025-10-08,2025-10-08,zip,false,100000,1,1,2026
+John Hickenlooper,Larry Gerber,Wilmette,IL,60091,Not Employed,Retired,100000,1,2025-08-26,2025-08-26,zip,false,1825000,31,26,2024/2026
+John Hickenlooper,Larry Kugler,Delray Beach,FL,33483,Lk Dayton Investments,Manager,100000,1,2025-08-25,2025-08-25,zip,true,5083000,39,35,2024/2026
+John Hickenlooper,Lee Miller,Chicago,IL,60611,Abundant Venture Partners,Operating Partner/Board Member,100000,1,2025-08-26,2025-08-26,zip,true,7240000,43,32,2024/2026
+John Hickenlooper,Margaret Sue Allon,Denver,CO,80246,Not Employed,Not Employed,100000,1,2025-01-26,2025-01-26,zip,false,50000,1,1,2026
+John Hickenlooper,Mark Gleiberman,San Diego,CA,92121,Mg Properties,Founder & Ceo,100000,1,2025-10-09,2025-10-09,zip,true,9810000,13,10,2024/2026
+John Hickenlooper,Matt Bayer,Chicago,IL,60614,Mj Holding,Ceo,100000,1,2025-08-25,2025-08-25,zip,true,4000000,15,14,2026
+John Hickenlooper,Michael Bernstein,Weston,MA,02493,Not Employed,Retired,100000,1,2025-10-12,2025-10-12,zip,false,1450000,13,12,2024/2026
+John Hickenlooper,Michael Horvitz,Cleveland,OH,44114,Not Employed,Not Employed,100000,1,2025-07-30,2025-07-30,zip,false,100000,1,1,2026
+John Hickenlooper,Michael Ruderman,Chicago,IL,60661,Private Company,Attorney,100000,1,2025-09-04,2025-09-04,zip,true,100000,1,1,2026
+John Hickenlooper,Mike Stratton,Denver,CO,80209,"Brownstein Hyatt Farber Schreck, LLP",Shareholder,100000,1,2025-03-31,2025-03-31,zip,false,100000,1,1,2026
+John Hickenlooper,Mitchell Roberts,Boston,MA,02116,Pr Restaurants,Restaurants,100000,1,2025-09-07,2025-09-07,zip,true,5030000,38,29,2024/2026
+John Hickenlooper,Mitchell Siegler,San Diego,CA,92106,Pathfinder Partners,Real Estate,100000,1,2025-10-10,2025-10-10,zip,false,650000,11,11,2024/2026
+John Hickenlooper,Neal Price,Deerfield,IL,60015,Kovitz Investment Group,Chief Wealth Officer,100000,1,2025-12-16,2025-12-16,zip,true,1275000,15,13,2024/2026
+John Hickenlooper,Pamela Kaufman Wagoner,Afton,VA,22920,Upstream Insights,Leadership Coach,100000,1,2026-03-03,2026-03-03,zip,true,2810000,26,21,2024/2026
+John Hickenlooper,Patti Felker,Snowmass Village,CO,81615,Self Employed,Attorney,100000,1,2026-01-13,2026-01-13,zip,false,2750000,39,32,2024/2026
+John Hickenlooper,Paul Meister,Chicago,IL,60610,Gcm Grosvenor,Vice Chairman,100000,1,2025-09-19,2025-09-19,zip,true,4600000,31,20,2024/2026
+John Hickenlooper,Paul Robbins,Palo Alto,CA,94306,Not Employed,Retired,100000,1,2025-05-21,2025-05-21,zip,false,1000000,7,7,2024/2026
+John Hickenlooper,Peter Wexler,Palo Alto,CA,94301,Self Employed,Entrepreneur,100000,1,2025-05-21,2025-05-21,zip,false,2200000,19,17,2024/2026
+John Hickenlooper,Rachel Avraham,Chicago,IL,60614,Self Employed,Therapist,100000,1,2025-09-13,2025-09-13,zip,false,550000,5,5,2024/2026
+John Hickenlooper,Rich Benenson,Denver,CO,80202,"Brownstein Hyatt Farber Schreck, LLP",Attorney,100000,1,2025-03-25,2025-03-25,state,false,350000,6,6,2024/2026
+John Hickenlooper,Rich Brownstein,Newton Center,MA,02459,Not Employed,Retired,100000,1,2025-10-10,2025-10-10,zip,false,700000,6,6,2024/2026
+John Hickenlooper,Richard Fiedotin,Corte Madera,CA,94925,Not Employed,Not Employed,100000,1,2025-06-06,2025-06-06,zip,false,2350000,24,19,2024/2026
+John Hickenlooper,Richard Goodman,Walnut Creek,CA,94595,Not Employed,Retired,100000,1,2025-06-12,2025-06-12,zip,false,1650000,25,25,2024/2026
+John Hickenlooper,Rita Heller,San Diego,CA,92130,Not Employed,Not Employed,100000,1,2025-11-07,2025-11-07,zip,false,725000,9,9,2024/2026
+John Hickenlooper,Robert Huebscher,Lexington,MA,02420,Not Employed,Not Employed,100000,1,2025-10-04,2025-10-04,zip,false,2250000,25,21,2024/2026
+John Hickenlooper,Robert Kaufmann,Denver,CO,80220,Brownstein,Attorney,100000,1,2025-12-31,2025-12-31,zip,true,1400000,15,12,2024/2026
+John Hickenlooper,Rod Shale,West Newton,MA,02465,Not Employed,Retired,100000,1,2025-09-20,2025-09-20,zip,false,350000,3,3,2026
+John Hickenlooper,Roger Klein,Waban,MA,02468,Not Employed,Not Employed,100000,1,2025-09-07,2025-09-07,zip,false,4000000,34,23,2024/2026
+John Hickenlooper,Ruth Fletcher,Los Gatos,CA,95032,Not Employed,Not Employed,100000,1,2025-05-21,2025-05-21,zip,false,500000,5,5,2024/2026
+John Hickenlooper,Samuel Umansky,San Diego,CA,92130,S M International Trading Corp,Owner,100000,1,2025-11-10,2025-11-10,zip,true,350000,6,6,2024/2026
+John Hickenlooper,Scott Becker,Glencoe,IL,60022,Beckers Healthcare And Mcguirewoods,Attorney,100000,2,2025-08-21,2025-10-30,zip,true,7930000,98,64,2024/2026
+John Hickenlooper,Stephen Cohen,Palm Beach Gardens,FL,33410,Not Employed,Retired,100000,1,2025-10-09,2025-10-09,zip,false,600000,6,6,2024/2026
+John Hickenlooper,Steven Sisselman,Needham,MA,02492,Not Employed,Retired,100000,1,2025-10-09,2025-10-09,zip,false,1800000,17,17,2024/2026
+John Hickenlooper,Stuart Lewtan,Boston,MA,02110,Not Employed,Retired,100000,1,2025-10-08,2025-10-08,zip,false,300000,3,3,2024/2026
+John Hickenlooper,Stuart Oremland,Portola Valley,CA,94028,Not Employed,Retired,100000,1,2025-05-22,2025-05-22,zip,false,3245000,32,31,2024/2026
+John Hickenlooper,Tom Fellman,Omaha,NE,68114,Broadmoor,Real Estate,100000,1,2026-01-28,2026-01-28,zip,true,1350000,7,7,2024/2026
+John Hickenlooper,William Silverstein,Highland Park,IL,60035,Beal,Real Estate Investments,100000,1,2025-09-10,2025-09-10,zip,true,2240000,12,10,2024/2026
+John Hickenlooper,Wolf Bielas,San Diego,CA,92101,Wolfpack Ventures,Managers,100000,1,2025-11-07,2025-11-07,zip,true,900000,15,15,2024/2026
+John Hickenlooper,Bruce Werner,Lincolnshire,IL,60069,Kona Advisors,Managing Director,75000,1,2025-08-26,2025-08-26,zip,false,2648000,62,48,2024/2026
+John Hickenlooper,Thomas Warne,Tucson,AZ,85750,Self Employed,Commerical Real Estate Developer-Inves,75000,1,2026-03-24,2026-03-24,zip,false,75000,1,1,2026
+John Hickenlooper,Ben Silverman,Tucson,AZ,85715,Starfish Care Homes,Business Owner,60000,1,2026-03-20,2026-03-20,zip,true,395000,10,9,2024/2026
+John Hickenlooper,Adam Laser,Chicago,IL,60614,Goldberg Kohn Ltd,Attorney,50000,1,2025-08-26,2025-08-26,zip,true,1162500,21,21,2024/2026
+John Hickenlooper,Alan Nussenblatt,Calabasas,CA,91302,Not Employed,Retired,50000,1,2026-01-28,2026-01-28,zip,false,1600000,30,29,2024/2026
+John Hickenlooper,Barbara Grossman,Boston,MA,02116,Not Employed,Not Employed,50000,1,2025-10-12,2025-10-12,state,false,50000,1,1,2024
+John Hickenlooper,Barry Topol,Danville,CA,94526,Assessment Solutions Group,Consultant,50000,1,2025-06-09,2025-06-09,zip,true,1721000,37,33,2024/2026
+John Hickenlooper,Benjamin Pozez,Tucson,AZ,85719,Bp Diversified Investments,Principal,50000,1,2026-03-19,2026-03-19,zip,true,405000,10,8,2024/2026
+John Hickenlooper,Bruce Weininger,Kamas,UT,84036,Kovitz Investment Group,Consultant,50000,1,2025-08-26,2025-08-26,zip,true,3422000,65,47,2024/2026
+John Hickenlooper,Carol Traeger,Bel Tiburon,CA,94920,Not Employed,Retired,50000,1,2025-06-11,2025-06-11,zip,false,150000,2,2,2026
+John Hickenlooper,Christopher Mccannell,Washington,DC,20001,Grayrobinson,Deputy Managing Director,50000,1,2025-09-13,2025-09-13,zip,true,10662500,136,81,2024/2026
+John Hickenlooper,Daniel Shkolnik,San Diego,CA,92101,Atlas West Group,Real Estate,50000,1,2025-12-08,2025-12-08,zip,true,175000,4,4,2024/2026
+John Hickenlooper,David Atkins,Winnetka,IL,60093,Yardstick,Ceo,50000,1,2025-09-12,2025-09-12,zip,true,415000,9,9,2026
+John Hickenlooper,David Becker,Kentfield,CA,94904,Becker Charitable Trust,Executive,50000,1,2025-06-09,2025-06-09,zip,true,2650000,23,20,2024/2026
+John Hickenlooper,David Bramzon,San Diego,CA,92130,Self Employed,Real Estate Investor,50000,1,2025-11-17,2025-11-17,zip,false,2913000,36,29,2024/2026
+John Hickenlooper,Gary Friedman,Scarsdale,NY,10583,Self Employed,Attorney,50000,1,2026-01-28,2026-01-28,zip,false,1000000,17,15,2024/2026
+John Hickenlooper,Gary Gershony,San Francisco,CA,94109,Self Employed,Venture Capitalist,50000,1,2025-06-04,2025-06-04,zip,false,475000,8,8,2024/2026
+John Hickenlooper,Gene Rosenberg,Teaneck,NJ,07666,Not Employed,Retired,50000,1,2025-12-31,2025-12-31,zip,false,1147474,204,199,2024/2026
+John Hickenlooper,Gerald Yanowitz,Moraga,CA,94556,Not Employed,Retired,50000,1,2025-06-10,2025-06-10,zip,false,450000,7,7,2024/2026
+John Hickenlooper,Gerald Zoldan,Chicago,IL,60611,Not Employed,Retired,50000,1,2025-08-24,2025-08-24,zip,false,3405000,48,35,2024/2026
+John Hickenlooper,Grant Bagan,Highland Park,IL,60035,Not Employed,Retired,50000,1,2025-08-25,2025-08-25,zip,false,750000,12,11,2024/2026
+John Hickenlooper,Gregory Berger,Denver,CO,80218,"Brownstein Hyatt Farber Schreck, LLP",Attorney,50000,1,2025-03-24,2025-03-24,zip,false,500000,1,1,2026
+John Hickenlooper,Harmon Shragge,San Francisco,CA,94108,Self Employed,Real Estate,50000,1,2025-06-09,2025-06-09,zip,false,3227500,29,23,2024/2026
+John Hickenlooper,Jason Altberger,Cherry Hills Village,CO,80113,Sage Hospitality Group,Cfo,50000,1,2026-01-15,2026-01-15,zip,true,50000,1,1,2026
+John Hickenlooper,Jeffrey Halbrecht,Kentfield,CA,94904,Self Employed,Physician,50000,1,2025-06-17,2025-06-17,zip,false,1450000,21,19,2024/2026
+John Hickenlooper,Jeffrey Liber,San Diego,CA,92130,Not Employed,Retired,50000,1,2025-11-13,2025-11-13,zip,false,600000,13,11,2024/2026
+John Hickenlooper,Jeffrey Port,New York,NY,10013,Weill Cornell,Physician,50000,1,2025-06-12,2025-06-12,zip,true,625000,1,1,2026
+John Hickenlooper,Jonathan Henes,New York,NY,10075,C Street,Ceo,50000,1,2025-08-01,2025-08-01,zip,false,660000,1,1,2024
+John Hickenlooper,Jonathan Perlmutter,Denver,CO,80220,Jordon Perlmutter & Co.,Real Estate Developer,50000,1,2026-01-28,2026-01-28,zip,true,1070000,13,11,2024/2026
+John Hickenlooper,Justin Cohen,Bridgman,MI,49106,Petite Acres,Owner,50000,1,2025-09-25,2025-09-25,zip,true,125000,3,3,2026
+John Hickenlooper,Larry Stadtner,San Anselmo,CA,94960,Not Employed,Retired,50000,1,2025-06-18,2025-06-18,zip,false,1475000,23,21,2024/2026
+John Hickenlooper,Mark Gilfix,San Francisco,CA,94131,Gilfix & La Poll Associates,Attorney,50000,1,2025-06-09,2025-06-09,zip,true,700000,14,14,2024/2026
+John Hickenlooper,Marty Glick,Piedmont,CA,94611,Gs Holdings,Advisor,50000,1,2025-06-24,2025-06-24,zip,true,3320000,31,28,2024/2026
+John Hickenlooper,Marvin Moskowitz,Belvedere Tiburon,CA,94920,Not Employed,Retired,50000,1,2025-06-09,2025-06-09,zip,false,1350000,24,19,2024/2026
+John Hickenlooper,Maury Fertig,Deerfield,IL,60015,"Rvp, LLC",Investment Advisor,50000,1,2025-08-27,2025-08-27,zip,true,1050000,12,9,2024/2026
+John Hickenlooper,Melanie Jayo,Chicago,IL,60612,Not Employed,Retired,50000,1,2025-08-25,2025-08-25,zip,false,251200,14,12,2024/2026
+John Hickenlooper,Michael Sheinkop,Glencoe,IL,60022,Hilco Global,Real Estate,50000,1,2025-09-12,2025-09-12,zip,true,1405000,19,17,2024/2026
+John Hickenlooper,Michael Stratton,Denver,CO,80207,Self Employed,Consultant,50000,1,2026-01-11,2026-01-11,zip,false,50000,1,1,2026
+John Hickenlooper,Miles Holden,San Anselmo,CA,94960,Hanson Bridgett LLP,Attorney,50000,1,2025-06-11,2025-06-11,zip,true,254000,7,6,2024/2026
+John Hickenlooper,Peter Colussy,Denver,CO,80220,Nextera Energy Resources,Executive Directorr,50000,1,2026-01-14,2026-01-14,zip,true,50000,1,1,2026
+John Hickenlooper,Roberta Zucker,Tiburon,CA,94920,Not Employed,Retired,50000,1,2025-06-18,2025-06-18,zip,false,865000,14,13,2024/2026
+John Hickenlooper,Rosalyn Silverman,Tucson,AZ,85750,Not Employed,Retired,50000,1,2026-03-20,2026-03-20,zip,false,150000,3,3,2024/2026
+John Hickenlooper,Russell Holdstein,Kentfield,CA,94904,Not Employed,Not Employed,50000,1,2025-06-04,2025-06-04,zip,false,3300000,42,33,2024/2026
+John Hickenlooper,Sheldon Friedstein,Aspen,CO,81611,Not Employed,Retired,50000,1,2025-12-28,2025-12-28,zip,false,250000,5,5,2024/2026
+John Hickenlooper,Silvanus Osborn Erickson,San Francisco,CA,94104,Emerald Fund Inc.,Real Estate Developer,50000,1,2025-06-07,2025-06-07,zip,true,400000,8,8,2024/2026
+John Hickenlooper,Stephen Harris,Walnut Creek,CA,94595,Lawrence Berkeley National Lab,Chemist,50000,1,2025-06-09,2025-06-09,zip,true,10201992,92,58,2024/2026
+John Hickenlooper,Stephen Miller,San Francisco,CA,94121,Not Employed,Retired,50000,1,2025-06-03,2025-06-03,zip,false,1200000,25,22,2024/2026
+John Hickenlooper,Scott Lieber,Glencoe,IL,60022,Marsh,Insurance,35000,1,2025-09-13,2025-09-13,zip,true,405000,13,11,2024/2026
+John Hickenlooper,Betty Anne Sarver,Paradise Valley,AZ,85253,Not Employed,Not Employed,30000,1,2026-03-19,2026-03-19,zip,false,615000,17,14,2024/2026
+John Hickenlooper,David Fish,Chicago,IL,60610,Workplace Law Partners PC,Attorney,30000,1,2025-09-15,2025-09-15,zip,true,80000,3,3,2026
+John Hickenlooper,George Frankenstein,San Francisco,CA,94127,Not Employed,Retired,30000,1,2025-06-09,2025-06-09,zip,false,741000,21,20,2026
+John Hickenlooper,Meredith Kirshenbaum,Deerfield,IL,60015,Goldberg Kohn,Attorney,30000,1,2025-09-12,2025-09-12,zip,true,565000,16,13,2024/2026
+John Hickenlooper,Patricia N Berman,Boca Raton,FL,33433,Not Employed,Not Employed,28200,9,2025-08-19,2026-06-14,zip,false,50000,2,2,2024
+John Hickenlooper,Al Kamen,New York,NY,10022,Not Employed,Not Employed,25000,1,2025-01-13,2025-01-13,zip,false,100000,1,1,2024
+John Hickenlooper,Alexandra Metzl,Denver,CO,80210,Brownstein Hyatt Farber Schreck LLP,Attorney,25000,1,2026-03-24,2026-03-24,zip,true,1655000,11,10,2024/2026
+John Hickenlooper,Daniel Kramer,Washington,DC,20009,Ch Management Corp,Ceo,25000,1,2026-02-06,2026-02-06,zip,true,675000,16,14,2024/2026
+John Hickenlooper,Helaine Levy,Tucson,AZ,85750,Diamond Ventures,Principal,25000,1,2026-03-19,2026-03-19,zip,true,450000,9,7,2024/2026
+John Hickenlooper,Irv Kempner,Sharon,MA,02067,New England Friends March Of The Livin,Chairman Non Profit,25000,1,2025-10-08,2025-10-08,zip,true,160000,7,7,2024/2026
+John Hickenlooper,Lawrence Frriedman,Skokie,IL,60076,Self Employed,Director,25000,1,2025-08-28,2025-08-28,zip,false,225000,6,5,2026
+John Hickenlooper,Lisa Henry,Fort Lauderdale,FL,33306,Not Employed,Retired,25000,1,2026-05-20,2026-05-20,zip,false,900000,36,36,2026
+John Hickenlooper,Marjorie Blatt,Beverly Hills,CA,90212,Blatt Realty,Property Manager,25000,1,2026-04-15,2026-04-15,zip,true,475000,11,10,2024/2026
+John Hickenlooper,Matt Most,Denver,CO,80220,Shefa Innovation Foundry,Ceo,25000,1,2026-01-16,2026-01-16,zip,true,425000,3,3,2026
+John Hickenlooper,Melanie Jayo,Skokie,IL,60076,Not Employed,Retired,25000,1,2025-12-18,2025-12-18,zip,false,50000,2,2,2026
+John Hickenlooper,Morton Denlow,Evanston,IL,60201,Jams,Mediator,25000,1,2025-12-18,2025-12-18,zip,true,1300000,34,26,2024/2026
+John Hickenlooper,Paul Sanderson,Alamo,CA,94507,Not Employed,Retired,25000,1,2025-06-09,2025-06-09,zip,false,1683000,39,29,2024/2026
+John Hickenlooper,Richard Courtheoux,Glencoe,IL,60022,Not Employed,Not Employed,25000,1,2025-09-15,2025-09-15,zip,false,1162500,39,29,2024/2026
+John Hickenlooper,Ronald Rubenstein,Piedmont,CA,94611,Self Employed,Physician,25000,1,2025-06-09,2025-06-09,zip,false,125000,5,5,2024/2026
+John Hickenlooper,Thomas Newman,Tucson,AZ,85750,Not Employed,Retired,25000,1,2026-03-17,2026-03-17,zip,false,315000,10,7,2024/2026
+John Hickenlooper,Arlene Bender,Carlsbad,CA,92009,Not Employed,Not Employed,15000,1,2025-10-26,2025-10-26,zip,false,30000,1,0,2026
+John Hickenlooper,Steven Harris,Breckenridge,CO,80424,Not Employed,Not Employed,15000,3,2026-04-16,2026-06-22,zip,false,125000,5,5,2024
+John Hickenlooper,Carol Foster-Breeze,Englewood,CO,80111,University Of Colorado,Physician,10000,1,2025-03-26,2025-03-26,zip,false,100000,1,1,2024
+John Hickenlooper,Michael David,New York,NY,10025,Dodger Properties,Theatrical Producer,10000,1,2026-04-16,2026-04-16,state,false,18000,1,0,2024
+John Hickenlooper,Michael Krul,Delray Beach,FL,33446,Greenspoon Marder LLP,Attorney,10000,1,2026-01-26,2026-01-26,zip,true,110000,10,9,2026

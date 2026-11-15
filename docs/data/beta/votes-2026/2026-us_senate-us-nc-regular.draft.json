@@ -1,0 +1,170 @@
+{
+  "template_version": "pol-vote-beta-2",
+  "bounty_id": "2026-us_senate-us-nc-regular",
+  "office_type": "us_senate",
+  "election_year": 2026,
+  "jurisdiction": {
+    "level": "federal",
+    "state": "US-NC",
+    "district": null,
+    "race_type": "regular",
+    "senate_class": 2
+  },
+  "subject": {
+    "name": "Michael Whatley",
+    "party": "R",
+    "incumbent": false,
+    "won_race": true,
+    "votelog": {
+      "listed": true,
+      "member_id_or_slug": "whatley",
+      "profile_url": "https://votelog.org/members/whatley"
+    },
+    "identifiers": {
+      "bioguide_id": null,
+      "fec_candidate_ids": [
+        "S6NC00415"
+      ],
+      "fec_principal_committee_id_cycle": "C00913996",
+      "fec_principal_committee_ids_cycle": [
+        "C00913996"
+      ],
+      "opensecrets_cid": null
+    }
+  },
+  "finance": {
+    "career_total_receipts_usd": 13668468,
+    "career_net_contributions_usd": 8260380,
+    "career_total_note": "Sum of FEC reported full-election receipts/net contributions across candidate IDs and authorized committees (source-linked).",
+    "cycle": 2026,
+    "cycle_window": "full_term_6yr",
+    "cycle_total_receipts_usd": 13668468,
+    "coverage_end_date": "2026-10-14",
+    "top_donors_cycle": [
+      {
+        "rank": 1,
+        "name": "MAGA Inc.",
+        "committee_id": "C00960435",
+        "amount_usd": 200000000,
+        "type": "superpac_donor_via_votelog",
+        "source_url": "https://votelog.org/data/nc-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 2,
+        "name": "Elon Musk",
+        "committee_id": "C00571703",
+        "amount_usd": 168000000,
+        "type": "superpac_donor_via_votelog",
+        "employer": "Space Exploration Technologies Corp.",
+        "occupation": "CEO",
+        "source_url": "https://votelog.org/data/nc-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 3,
+        "name": "One Nation",
+        "committee_id": "C00571703",
+        "amount_usd": 132907000,
+        "type": "superpac_donor_via_votelog",
+        "source_url": "https://votelog.org/data/nc-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 4,
+        "name": "Miriam Adelson",
+        "committee_id": "C00571703",
+        "amount_usd": 30000000,
+        "type": "superpac_donor_via_votelog",
+        "employer": "Adelson Drug Clinic",
+        "occupation": "Physician",
+        "source_url": "https://votelog.org/data/nc-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 5,
+        "name": "Koch Inc.",
+        "committee_id": "C00687103",
+        "amount_usd": 30000000,
+        "type": "superpac_donor_via_votelog",
+        "source_url": "https://votelog.org/data/nc-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      }
+    ],
+    "sources": [
+      {
+        "label": "OpenFEC candidate totals (election_full=true, S6NC00415)",
+        "url": "https://api.open.fec.gov/v1/candidate/S6NC00415/totals/?election_full=true",
+        "as_of": "2026-11-15"
+      }
+    ]
+  },
+  "opponents_nov_general": [
+    {
+      "name": "Roy Cooper",
+      "party": "D",
+      "cycle": 2026,
+      "cycle_total_receipts_usd": 49585341,
+      "coverage_end_date": "2026-10-14",
+      "fec_candidate_id": "S6NC00407",
+      "fec_candidate_ids": [
+        "S6NC00407"
+      ],
+      "sources": [
+        {
+          "label": "OpenFEC candidate totals (election_full=true, S6NC00407)",
+          "url": "https://api.open.fec.gov/v1/candidate/S6NC00407/totals/?election_full=true",
+          "as_of": "2026-11-15"
+        }
+      ]
+    }
+  ],
+  "vote": {
+    "question": "[BETA_VOTE_QUESTION_PLACEHOLDER for Michael Whatley | career reported receipts: $13,668,468]",
+    "question_vars": {
+      "subject_name": "Michael Whatley",
+      "career_total_receipts_usd": 13668468
+    },
+    "type": "advisory_yes_no",
+    "options": [
+      "Yes",
+      "No",
+      "Abstain"
+    ]
+  },
+  "bounty_if_passed": {
+    "description": "[BETA_BOUNTY_OUTCOME_PLACEHOLDER for US-NC]",
+    "destination_type": "tip_jar",
+    "destination_criteria": "[BETA_CRITERIA_PLACEHOLDER for US-NC]",
+    "state": "US-NC"
+  },
+  "location": {
+    "label": "United States Capitol",
+    "address": "First St SE, Washington, DC 20004, USA",
+    "lat": 38.8899,
+    "lng": -77.0091
+  },
+  "payment": {
+    "chain": "base",
+    "chain_id": 8453,
+    "token": "USDC",
+    "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+    "qr_asset": "docs/escrow-qr.png",
+    "note": "Uses existing project wallet/QR; subject to current claim-first/support-locked routing rules unless overridden for this beta item.",
+    "payment_memo_or_slug": "2026-us_senate-us-nc-regular"
+  },
+  "provenance": {
+    "status": "beta_template_draft",
+    "generated_at": "2026-11-15T22:11:04.272Z",
+    "generator": "pol-vote-template",
+    "review_required": true
+  },
+  "_review": {
+    "missing": [],
+    "placeholders": [
+      "vote.question",
+      "bounty_if_passed.description",
+      "bounty_if_passed.destination_criteria"
+    ]
+  }
+}

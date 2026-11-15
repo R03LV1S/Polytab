@@ -1,0 +1,92 @@
+{
+  "generatedAt": "2026-11-13T22:32:29.516Z",
+  "dataCurrentThrough": {
+    "independentExpenditures": "2026-11-01",
+    "campaignFinances": "2026-10-14",
+    "campaignFinancesByCandidate": {
+      "cotton": "2026-10-14",
+      "shoffner": "2026-10-14"
+    },
+    "superPacDonors": {
+      "C00728667": "2026-10-14",
+      "C00930966": "2026-08-25"
+    },
+    "aipacEarmarks": "2026-10-14",
+    "donorNetwork": {
+      "cotton": "2026-06-30",
+      "shoffner": "2026-06-30",
+      "network": "2026-10-14"
+    },
+    "filingsProcessed": "2026-11-13"
+  },
+  "summary": {
+    "cotton": {
+      "totalReceiptsCents": 714964347,
+      "transfersFromAuthCents": 159135502,
+      "totalDisbursementsCents": 947058549,
+      "cashOnHandCents": 512992781,
+      "candidateContribCents": 0,
+      "candidateLoansCents": 0,
+      "totalIndividualCents": 358986247,
+      "otherCommitteeContribCents": 132450000,
+      "coverageEnd": "2026-10-14",
+      "individualRefundsCents": 7048500,
+      "outsideSupportingCents": 0,
+      "outsideOpposingCents": 0,
+      "outsideBenefitingCents": 461376503
+    },
+    "shoffner": {
+      "totalReceiptsCents": 404281083,
+      "transfersFromAuthCents": 0,
+      "totalDisbursementsCents": 328587913,
+      "cashOnHandCents": 75693170,
+      "candidateContribCents": 0,
+      "candidateLoansCents": 0,
+      "totalIndividualCents": 395272244,
+      "otherCommitteeContribCents": 6851000,
+      "coverageEnd": "2026-10-14",
+      "individualRefundsCents": 212427,
+      "outsideSupportingCents": 5687660,
+      "outsideOpposingCents": 461376503,
+      "outsideBenefitingCents": 5687660
+    }
+  },
+  "outsideByCommittee": [
+    {
+      "committeeId": "C00728667",
+      "committee": "America One",
+      "fecType": "O",
+      "forCotton": 0,
+      "againstCotton": 0,
+      "forShoffner": 0,
+      "againstShoffner": 450936503,
+      "total": 450936503,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945297604",
+      "latestDate": "2026-10-28"
+    },
+    {
+      "committeeId": "C00930966",
+      "committee": "Arkansans For Democracy And Justice",
+      "fecType": "O",
+      "forCotton": 0,
+      "againstCotton": 0,
+      "forShoffner": 0,
+      "againstShoffner": 10440000,
+      "total": 10440000,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202605109866914235",
+      "latestDate": "2026-05-08"
+    },
+    {
+      "committeeId": "C90023995",
+      "committee": "Freedom Project USA",
+      "fecType": "I",
+      "forCotton": 0,
+      "againstCotton": 0,
+      "forShoffner": 5687660,
+      "againstShoffner": 0,
+      "total": 5687660,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202611029945308462",
+      "latestDate": "2026-11-01"
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "generatedAt": "2026-11-13T22:38:04.045Z",
+  "dataCurrentThrough": {
+    "independentExpenditures": "2026-11-01",
+    "campaignFinances": "2026-10-14",
+    "campaignFinancesByCandidate": {
+      "alme": "2026-10-14",
+      "bodnar": "2026-10-14"
+    },
+    "superPacDonors": {
+      "C00884924": "2026-10-14",
+      "C00943910": "2026-10-14",
+      "C00693838": "2026-09-30",
+      "C00687103": "2026-10-14",
+      "C00875039": "2026-10-14",
+      "C00916692": "2026-10-14",
+      "C00492140": "2026-10-14",
+      "C00868604": "2026-10-14",
+      "C00541433": "2026-10-14",
+      "C00888958": "2026-10-14",
+      "C00957340": "2026-10-14",
+      "C00722025": "2026-10-14",
+      "C00741710": "2026-10-14",
+      "C00509893": "2026-10-14",
+      "C00955138": "2026-10-14"
+    },
+    "aipacEarmarks": "2026-10-14",
+    "donorNetwork": {
+      "alme": "2026-06-30",
+      "bodnar": "2026-06-30",
+      "network": "2026-10-14"
+    },
+    "filingsProcessed": "2026-11-13"
+  },
+  "summary": {
+    "alme": {
+      "totalReceiptsCents": 301368086,
+      "transfersFromAuthCents": 38891115,
+      "totalDisbursementsCents": 241094310,
+      "cashOnHandCents": 60273776,
+      "candidateContribCents": 0,
+      "candidateLoansCents": 0,
+      "totalIndividualCents": 174506973,
+      "otherCommitteeContribCents": 81769998,
+      "coverageEnd": "2026-10-14",
+      "individualRefundsCents": 1050000,
+      "outsideSupportingCents": 226277026,
+      "outsideOpposingCents": 81654087,
+      "outsideBenefitingCents": 417770506
+    },
+    "bodnar": {
+      "totalReceiptsCents": 491834125,
+      "transfersFromAuthCents": 0,
+      "totalDisbursementsCents": 433742034,
+      "cashOnHandCents": 58092091,
+      "candidateContribCents": 0,
+      "candidateLoansCents": 0,
+      "totalIndividualCents": 475015685,
+      "otherCommitteeContribCents": 16305000,
+      "coverageEnd": "2026-10-14",
+      "individualRefundsCents": 10197533,
+      "outsideSupportingCents": 1160532226,
+      "outsideOpposingCents": 191493480,
+      "outsideBenefitingCents": 1242186313
+    }
+  },
+  "outsideByCommittee": [
+    {
+      "committeeId": "C00884924",
+      "committee": "Independent PAC",
+      "fecType": "V",
+      "forAlme": 0,
+      "againstAlme": 0,
+      "forBodnar": 730407828,
+      "againstBodnar": 0,
+      "total": 730407828,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202611029945308468",
+      "latestDate": "2026-11-01"
+    },
+    {
+      "committeeId": "C00943910",
+      "committee": "Montana Freedom PAC",
+      "fecType": "O",
+      "forAlme": 0,
+      "againstAlme": 80968037,
+      "forBodnar": 403191401,
+      "againstBodnar": 0,
+      "total": 484159438,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202611019945308093",
+      "latestDate": "2026-10-31"
+    },
+    {
+      "committeeId": "C00693838",
+      "committee": "More Jobs, Less Government",
+      "fecType": "W",
+      "forAlme": 18289264,
+      "againstAlme": 0,
+      "forBodnar": 0,
+      "againstBodnar": 191493480,
+      "total": 209782744,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610289945260943",
+      "latestDate": "2026-10-26"
+    },
+    {
+      "committeeId": "C00687103",
+      "committee": "Americans for Prosperity Action (AFP Action)",
+      "fecType": "V",
+      "forAlme": 127726576,
+      "againstAlme": 0,
+      "forBodnar": 0,
+      "againstBodnar": 0,
+      "total": 127726576,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202608069899378408",
+      "latestDate": "2026-08-04"
+    },
+    {
+      "committeeId": "C00875039",
+      "committee": "High Plains PAC",
+      "fecType": "O",
+      "forAlme": 51500000,
+      "againstAlme": 0,
+      "forBodnar": 0,
+      "againstBodnar": 0,
+      "total": 51500000,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610079908556339",
+      "latestDate": "2026-10-05"
+    },
+    {
+      "committeeId": "C00916692",
+      "committee": "American Mission",
+      "fecType": "O",
+      "forAlme": 21046724,
+      "againstAlme": 0,
+      "forBodnar": 0,
+      "againstBodnar": 0,
+      "total": 21046724,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610039908512710",
+      "latestDate": "2026-10-01"
+    },
+    {
+      "committeeId": "C00492140",
+      "committee": "Ab PAC",
+      "fecType": "V",
+      "forAlme": 0,
+      "againstAlme": 0,
+      "forBodnar": 8095402,
+      "againstBodnar": 0,
+      "total": 8095402,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610079908568572",
+      "latestDate": "2026-10-05"
+    },
+    {
+      "committeeId": "C00868604",
+      "committee": "Montanans For Public Lands",
+      "fecType": "O",
+      "forAlme": 0,
+      "againstAlme": 0,
+      "forBodnar": 7500076,
+      "againstBodnar": 0,
+      "total": 7500076,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159909664021",
+      "latestDate": "2026-10-15"
+    },
+    {
+      "committeeId": "C00541433",
+      "committee": "Hunter Action Fund (Haf)",
+      "fecType": "O",
+      "forAlme": 6100000,
+      "againstAlme": 0,
+      "forBodnar": 0,
+      "againstBodnar": 0,
+      "total": 6100000,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610109908600684",
+      "latestDate": "2026-10-08"
+    },
+    {
+      "committeeId": "C90019993",
+      "committee": "Wild Montana Action Fund",
+      "fecType": "I",
+      "forAlme": 0,
+      "againstAlme": 673850,
+      "forBodnar": 4768432,
+      "againstBodnar": 0,
+      "total": 5442282,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945297646",
+      "latestDate": "2026-10-27"
+    },
+    {
+      "committeeId": "C00888958",
+      "committee": "United Independents Campaign Fund",
+      "fecType": "O",
+      "forAlme": 0,
+      "againstAlme": 0,
+      "forBodnar": 4100000,
+      "againstBodnar": 0,
+      "total": 4100000,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202611029945310096",
+      "latestDate": "2026-11-01"
+    },
+    {
+      "committeeId": "C00957340",
+      "committee": "Moving Montana Forward",
+      "fecType": "O",
+      "forAlme": 0,
+      "againstAlme": 0,
+      "forBodnar": 2469087,
+      "againstBodnar": 0,
+      "total": 2469087,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610259945202574",
+      "latestDate": "2026-10-19"
+    },
+    {
+      "committeeId": "C00722025",
+      "committee": "Seal PAC USA",
+      "fecType": "O",
+      "forAlme": 1000000,
+      "againstAlme": 0,
+      "forBodnar": 0,
+      "againstBodnar": 0,
+      "total": 1000000,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610149908761732",
+      "latestDate": "2026-10-13"
+    },
+    {
+      "committeeId": "C00741710",
+      "committee": "NRA Victory Fund, Inc.",
+      "fecType": "O",
+      "forAlme": 467502,
+      "againstAlme": 0,
+      "forBodnar": 0,
+      "againstBodnar": 0,
+      "total": 467502,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202609089904111080",
+      "latestDate": "2026-09-06"
+    },
+    {
+      "committeeId": "C00509893",
+      "committee": "National Right To Life Victory Fund",
+      "fecType": "O",
+      "forAlme": 146960,
+      "againstAlme": 0,
+      "forBodnar": 0,
+      "againstBodnar": 0,
+      "total": 146960,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306930",
+      "latestDate": "2026-10-30"
+    },
+    {
+      "committeeId": "C00955138",
+      "committee": "Building Together",
+      "fecType": "V",
+      "forAlme": 0,
+      "againstAlme": 12200,
+      "forBodnar": 0,
+      "againstBodnar": 0,
+      "total": 12200,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610159915777364",
+      "latestDate": "2026-09-30"
+    }
+  ]
+}

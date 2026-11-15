@@ -1,0 +1,182 @@
+{
+  "template_version": "pol-vote-beta-2",
+  "bounty_id": "2026-us_senate-us-va-regular",
+  "office_type": "us_senate",
+  "election_year": 2026,
+  "jurisdiction": {
+    "level": "federal",
+    "state": "US-VA",
+    "district": null,
+    "race_type": "regular",
+    "senate_class": 2
+  },
+  "subject": {
+    "name": "Mark Robert Warner",
+    "party": "D",
+    "incumbent": true,
+    "won_race": true,
+    "votelog": {
+      "listed": true,
+      "member_id_or_slug": "warner",
+      "profile_url": "https://votelog.org/members/warner"
+    },
+    "identifiers": {
+      "bioguide_id": "W000805",
+      "fec_candidate_ids": [
+        "S6VA00093",
+        "P80003023"
+      ],
+      "fec_principal_committee_id_cycle": "C00438713",
+      "fec_principal_committee_ids_cycle": [
+        "C00438713"
+      ],
+      "opensecrets_cid": "N00002097"
+    }
+  },
+  "finance": {
+    "career_total_receipts_usd": 87294321,
+    "career_net_contributions_usd": 61616048,
+    "career_total_note": "Sum of FEC reported full-election receipts/net contributions across candidate IDs and authorized committees (source-linked).",
+    "cycle": 2026,
+    "cycle_window": "full_term_6yr",
+    "cycle_total_receipts_usd": 27493348,
+    "coverage_end_date": "2026-10-14",
+    "top_donors_cycle": [
+      {
+        "rank": 1,
+        "name": "Laure Woods",
+        "committee_id": "C00800995",
+        "amount_usd": 457000,
+        "type": "superpac_donor_via_votelog",
+        "employer": "Retired",
+        "occupation": "Retired",
+        "source_url": "https://votelog.org/data/va-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 2,
+        "name": "Dorothy Polash",
+        "committee_id": "C00800995",
+        "amount_usd": 31450,
+        "type": "superpac_donor_via_votelog",
+        "employer": "Retired",
+        "occupation": "Activist",
+        "source_url": "https://votelog.org/data/va-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 3,
+        "name": "Quinn Delaney",
+        "committee_id": "C00800995",
+        "amount_usd": 15000,
+        "type": "superpac_donor_via_votelog",
+        "employer": "Retired",
+        "occupation": "Retired",
+        "source_url": "https://votelog.org/data/va-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 4,
+        "name": "Terry Winograd",
+        "committee_id": "C00800995",
+        "amount_usd": 10000,
+        "type": "superpac_donor_via_votelog",
+        "employer": "Retired",
+        "occupation": "Retired",
+        "source_url": "https://votelog.org/data/va-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 5,
+        "name": "Judy Mullins",
+        "committee_id": "C00800995",
+        "amount_usd": 7000,
+        "type": "superpac_donor_via_votelog",
+        "employer": "Retired",
+        "occupation": "Retired",
+        "source_url": "https://votelog.org/data/va-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      }
+    ],
+    "sources": [
+      {
+        "label": "OpenFEC candidate totals (election_full=true, S6VA00093)",
+        "url": "https://api.open.fec.gov/v1/candidate/S6VA00093/totals/?election_full=true",
+        "as_of": "2026-11-15"
+      },
+      {
+        "label": "OpenFEC candidate totals (election_full=true, P80003023)",
+        "url": "https://api.open.fec.gov/v1/candidate/P80003023/totals/?election_full=true",
+        "as_of": "2026-11-15"
+      }
+    ]
+  },
+  "opponents_nov_general": [
+    {
+      "name": "Bert K Mizusawa",
+      "party": "R",
+      "cycle": 2026,
+      "cycle_total_receipts_usd": 1141130,
+      "coverage_end_date": "2026-10-14",
+      "fec_candidate_id": "S8VA00321",
+      "fec_candidate_ids": [
+        "S8VA00321"
+      ],
+      "sources": [
+        {
+          "label": "OpenFEC candidate totals (election_full=true, S8VA00321)",
+          "url": "https://api.open.fec.gov/v1/candidate/S8VA00321/totals/?election_full=true",
+          "as_of": "2026-11-15"
+        }
+      ]
+    }
+  ],
+  "vote": {
+    "question": "[BETA_VOTE_QUESTION_PLACEHOLDER for Mark Robert Warner | career reported receipts: $87,294,321]",
+    "question_vars": {
+      "subject_name": "Mark Robert Warner",
+      "career_total_receipts_usd": 87294321
+    },
+    "type": "advisory_yes_no",
+    "options": [
+      "Yes",
+      "No",
+      "Abstain"
+    ]
+  },
+  "bounty_if_passed": {
+    "description": "[BETA_BOUNTY_OUTCOME_PLACEHOLDER for US-VA]",
+    "destination_type": "tip_jar",
+    "destination_criteria": "[BETA_CRITERIA_PLACEHOLDER for US-VA]",
+    "state": "US-VA"
+  },
+  "location": {
+    "label": "United States Capitol",
+    "address": "First St SE, Washington, DC 20004, USA",
+    "lat": 38.8899,
+    "lng": -77.0091
+  },
+  "payment": {
+    "chain": "base",
+    "chain_id": 8453,
+    "token": "USDC",
+    "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+    "qr_asset": "docs/escrow-qr.png",
+    "note": "Uses existing project wallet/QR; subject to current claim-first/support-locked routing rules unless overridden for this beta item.",
+    "payment_memo_or_slug": "2026-us_senate-us-va-regular"
+  },
+  "provenance": {
+    "status": "beta_template_draft",
+    "generated_at": "2026-11-15T22:12:17.384Z",
+    "generator": "pol-vote-template",
+    "review_required": true
+  },
+  "_review": {
+    "missing": [],
+    "placeholders": [
+      "vote.question",
+      "bounty_if_passed.description",
+      "bounty_if_passed.destination_criteria"
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+name: Get Involved / Add Yourself
+description: Add yourself as a person involved in a project (organizer, partner, worker, volunteer). Public, $0 (GitHub).
+title: "[Involved]: #<project-id> - <your name>"
+labels: ["involvement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Add yourself to a project's "People Involved" list. Submissions are public on GitHub. Only share contact details you want to be public.
+  - type: input
+    id: project_id
+    attributes:
+      label: Project ID
+      description: Canonical project ID (from the project page)
+      placeholder: "10001"
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      placeholder: "Jane Doe"
+    validations:
+      required: true
+  - type: input
+    id: role
+    attributes:
+      label: Role / How you're involved
+      placeholder: "Organizer, Partner, Volunteer, Worker, Advisor..."
+    validations:
+      required: true
+  - type: input
+    id: github
+    attributes:
+      label: GitHub profile or username (optional)
+      placeholder: "https://github.com/username or @username"
+  - type: input
+    id: website
+    attributes:
+      label: Website or social profile (optional)
+      placeholder: "https://..."
+  - type: input
+    id: contact
+    attributes:
+      label: Public contact (optional)
+      description: Email or other contact you are comfortable making public
+      placeholder: "name@example.com"
+  - type: textarea
+    id: about
+    attributes:
+      label: Short note (optional)
+      placeholder: "How you contribute to this project"
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Consent
+      options:
+        - label: I consent to this information being public and shown on the project page if approved/published.
+          required: true

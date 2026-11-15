@@ -1,0 +1,68 @@
+name: Escrow Watchdog
+
+# COST SAFETY: public repo → GitHub Actions minutes are free. Polls Base mainnet every 30 minutes
+# for ANY outgoing movement of the shared Polytab escrow address (native ETH balance decrease or
+# outgoing nonce bump) and opens a hard alert. ERC20 inbound donations are logged informationally.
+#
+# NO API KEY REQUIRED. The script cascades free public endpoints (1rpc.io/base → base.publicnode.com
+# → mainnet.base.org). For faster/richer checks (unlimited getLogs, sub-minute), set repo secret
+# BASE_RPC_URL in Settings → Secrets → Actions — e.g., a free Alchemy endpoint — and you get a
+# single-endpoint run with no rate-limit caveats.
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: escrow-watchdog
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Poll Base RPC for escrow movement
+        id: poll
+        env:
+          # Optional: set repo secret BASE_RPC_URL (Alchemy / QuickNode / Infura free tier) for faster/richer checks.
+          BASE_RPC_URL: ${{ secrets.BASE_RPC_URL || '' }}
+        run: node scripts/escrow-watchdog.js
+      - name: Commit updated watch state
+        run: |
+          git config user.name "polytab-bot"
+          git config user.email "polytab-bot@users.noreply.github.com"
+          git add docs/data/escrow-state.json
+          if git diff --cached --quiet; then
+            echo "No state change"
+            exit 0
+          fi
+          git commit -m "Escrow watchdog: update baseline"
+          git pull --rebase --autostash origin main || true
+          git push origin HEAD:main
+      - name: Open hard alert issue
+        if: failure() && steps.poll.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          ALERTS=$(python3 -c "import json,sys; d=json.load(open('docs/data/escrow-alerts.json')); print(json.dumps(d[-1], indent=2)[:3000])" 2>/dev/null || cat docs/data/escrow-alerts.json)
+          {
+            echo '## 🚨 Escrow movement detected'
+            echo 'Any movement of the Polytab Base escrow (`0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08`) outside a documented sweep is a security incident.'
+            echo '```json'
+            echo "$ALERTS"
+            echo '```'
+            echo '**Do NOT ignore.** Acknowledge only after you confirm the movement, then commit the allowlisted tx hash to `docs/data/escrow-sweeps.json`.'
+          } > /tmp/escrow-alert.md
+          gh issue create --repo "$GITHUB_REPOSITORY" --title "[ESCROW ALERT] Movement of Polytab Base escrow" --body-file /tmp/escrow-alert.md

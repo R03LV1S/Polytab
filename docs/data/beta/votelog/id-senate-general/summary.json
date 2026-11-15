@@ -1,0 +1,106 @@
+{
+  "generatedAt": "2026-11-13T22:37:34.291Z",
+  "dataCurrentThrough": {
+    "independentExpenditures": "2026-11-02",
+    "campaignFinances": "2026-10-14",
+    "campaignFinancesByCandidate": {
+      "risch": "2026-10-14",
+      "achilles": "2026-10-14"
+    },
+    "superPacDonors": {
+      "C00950733": "2026-10-14",
+      "C00960625": "2026-09-30",
+      "C00888958": "2026-10-14",
+      "C00817122": "2026-09-30"
+    },
+    "aipacEarmarks": "2026-10-14",
+    "donorNetwork": {
+      "risch": "2026-06-30",
+      "achilles": "2026-09-30",
+      "network": "2026-10-14"
+    },
+    "filingsProcessed": "2026-11-13"
+  },
+  "summary": {
+    "risch": {
+      "totalReceiptsCents": 393551215,
+      "transfersFromAuthCents": 22860687,
+      "totalDisbursementsCents": 423364195,
+      "cashOnHandCents": 212223476,
+      "candidateContribCents": 0,
+      "candidateLoansCents": 0,
+      "totalIndividualCents": 240467721,
+      "otherCommitteeContribCents": 115803060,
+      "coverageEnd": "2026-10-14",
+      "individualRefundsCents": 5251732,
+      "outsideSupportingCents": 915175,
+      "outsideOpposingCents": 7735469,
+      "outsideBenefitingCents": 915175
+    },
+    "achilles": {
+      "totalReceiptsCents": 192113194,
+      "transfersFromAuthCents": 0,
+      "totalDisbursementsCents": 173360631,
+      "cashOnHandCents": 19581855,
+      "candidateContribCents": 1050000,
+      "candidateLoansCents": 2300000,
+      "totalIndividualCents": 176613194,
+      "otherCommitteeContribCents": 3300000,
+      "coverageEnd": "2026-10-14",
+      "individualRefundsCents": 1801916,
+      "outsideSupportingCents": 12980000,
+      "outsideOpposingCents": 0,
+      "outsideBenefitingCents": 20715469
+    }
+  },
+  "outsideByCommittee": [
+    {
+      "committeeId": "C00950733",
+      "committee": "Forward Party Victory Fund Inc",
+      "fecType": "O",
+      "forRisch": 0,
+      "againstRisch": 0,
+      "forAchilles": 11500000,
+      "againstAchilles": 0,
+      "total": 11500000,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202611039945331083",
+      "latestDate": "2026-11-02"
+    },
+    {
+      "committeeId": "C00960625",
+      "committee": "We The People Idaho",
+      "fecType": "O",
+      "forRisch": 0,
+      "againstRisch": 7735469,
+      "forAchilles": 0,
+      "againstAchilles": 0,
+      "total": 7735469,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202611019945308089",
+      "latestDate": "2026-10-28"
+    },
+    {
+      "committeeId": "C00888958",
+      "committee": "United Independents Campaign Fund",
+      "fecType": "O",
+      "forRisch": 0,
+      "againstRisch": 0,
+      "forAchilles": 1480000,
+      "againstAchilles": 0,
+      "total": 1480000,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610269945222474",
+      "latestDate": "2026-10-25"
+    },
+    {
+      "committeeId": "C00817122",
+      "committee": "Goa Victory Fund",
+      "fecType": "O",
+      "forRisch": 915175,
+      "againstRisch": 0,
+      "forAchilles": 0,
+      "againstAchilles": 0,
+      "total": 915175,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945300042",
+      "latestDate": "2026-10-26"
+    }
+  ]
+}

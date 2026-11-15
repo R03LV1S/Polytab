@@ -1,0 +1,352 @@
+candidate,donor,city,state,zip5,employer,occupation,direct_total_cents,contributions,first_date,last_date,match_tier,same_employer_string,aipac_pac_total_cents,aipac_pac_rows,aipac_pac_recipient_committees,aipac_pac_cycles
+Jim Risch,Steve Perles,Miami Beach,FL,33140,"The Perles Law Firm, PC",Attorney,850000,8,2025-09-18,2026-06-17,zip,true,1150000,13,13,2024/2026
+Jim Risch,Dawn Lavin,Highland Park,IL,60035,Not Employed,Not Employed,700000,2,2026-05-12,2026-05-12,zip,false,7350000,11,11,2026
+Jim Risch,Debra Black,New York,NY,10022,Not Employed,Not Employed,700000,2,2025-09-26,2025-09-26,zip,false,2430000,4,4,2024/2026
+Jim Risch,Esther Chouake,Englewood,NJ,07631,Self,Physician,700000,2,2025-06-01,2025-06-27,zip,false,500000,1,1,2024
+Jim Risch,Harold Levy,Boca Raton,FL,33432,Retired,Retired,700000,2,2025-11-16,2025-11-16,zip,false,2000000,5,5,2026
+Jim Risch,Iris Smith,Broomfield,CO,80021,Self,Creative Arts,700000,2,2025-09-09,2025-09-09,zip,false,14460000,24,21,2024/2026
+Jim Risch,Joel L. Brooks,Old Westbury,NY,11568,Retired,Retired,700000,3,2025-11-16,2026-06-02,zip,false,4425000,27,17,2024/2026
+Jim Risch,Larry A Mizel,Greenwood Village,CO,80111,C Ventures,Chairman,700000,2,2025-09-26,2025-09-26,state,false,1980000,6,6,2024
+Jim Risch,Maya Gabbay,Dallas,TX,75229,Self,Real Estate,700000,2,2025-12-11,2025-12-11,zip,false,850000,2,2,2026
+Jim Risch,Michael Smith,Broomfield,CO,80021,Kaitar Resources,Consultant,700000,2,2025-09-09,2025-09-09,zip,true,15450000,26,23,2024/2026
+Jim Risch,Norman Brownstein,Denver,CO,80202,Brownstein Hyatt Farber Schreck,Chairman,700000,2,2025-09-11,2025-09-11,zip,true,13450000,33,31,2024/2026
+Jim Risch,Philip De Toledo,Sherman Oaks,CA,91423,Capital Group,Manager,700000,2,2025-08-07,2025-08-07,zip,true,25410000,61,52,2024/2026
+Jim Risch,Steven Lavin,Highland Park,IL,60035,"Lavin & Gedville, PC",President,700000,2,2026-04-23,2026-04-23,zip,true,4900000,7,7,2026
+Jim Risch,Victor Kohn,Encino,CA,91436,Retired,Retired,700000,2,2025-07-31,2025-07-31,zip,false,39930000,89,67,2024/2026
+Jim Risch,Jack Halpern,New York,NY,10065,Crown Acquisitions,Investor,600000,2,2025-06-27,2025-06-27,state,false,4980000,31,30,2024/2026
+Jim Risch,Deborah Edell,New York,NY,10021,Not Employed,Not Employed,500000,2,2025-10-06,2025-10-06,zip,false,17306700,89,55,2024/2026
+Jim Risch,Harold Diamond,Miami Beach,FL,33154,Retired,Retired,500000,2,2026-04-24,2026-04-24,zip,false,900000,8,4,2026
+Jim Risch,Melissa Cifu,Jupiter,FL,33477,Retired,Retired,500000,2,2025-11-15,2025-11-15,zip,false,3370000,7,6,2024/2026
+Jim Risch,David Littman,Wappingers Falls,NY,12590,Hurston Valley Lighting,Executive,400000,2,2025-11-15,2025-11-15,zip,true,3300000,10,10,2026
+Jim Risch,David Swirnow,Baltimore,MD,21211,Retired,Retired,400000,2,2025-11-16,2025-11-16,zip,false,3300000,10,10,2026
+Jim Risch,Jacques Blinbaum,New York,NY,10022,Old Court Group,Executive,400000,2,2025-10-17,2025-10-17,zip,true,8320277,28,23,2024/2026
+Jim Risch,Jonathan Cherner,Jupiter,FL,33477,Retired,Retired,400000,2,2025-11-15,2025-11-15,zip,false,3350000,11,10,2024/2026
+Jim Risch,Joseph Lubeck,West Palm Beach,FL,33403,American Landmark,Real Estate,400000,2,2025-10-23,2025-10-23,zip,true,4900000,14,12,2024/2026
+Jim Risch,Kerry Vickar,Palm Beach,FL,33480,Retired,Retired,400000,2,2025-11-16,2025-11-16,zip,false,3600000,10,10,2026
+Jim Risch,Larry Lessans,Jupiter,FL,33477,Retired,Retired,400000,2,2025-11-15,2025-11-15,zip,false,3850000,21,19,2024/2026
+Jim Risch,Mats Lederhausen,Beaverton,OR,97008,Retired,Retired,400000,2,2025-11-15,2025-11-15,zip,false,3300000,10,10,2026
+Jim Risch,Richard Zulman,Jupiter,FL,33477,Retired,Retired,400000,2,2025-11-16,2025-11-16,zip,false,3400000,11,11,2026
+Jim Risch,Robert Heller,Montvale,NJ,07645,Retired,Retired,400000,2,2025-11-16,2025-11-16,zip,false,2690000,5,5,2026
+Jim Risch,Robert Samit,Jupiter,FL,33477,Retired,Retired,400000,2,2025-11-16,2025-11-16,zip,false,3200000,10,10,2026
+Jim Risch,Russ Fuchs,Palm Beach Gardens,FL,33410,Retired,Retired,400000,2,2025-11-15,2025-11-15,zip,false,2790000,7,7,2026
+Jim Risch,Darryl Schall,Encino,CA,91436,Retired,Retired,350000,1,2025-08-01,2025-08-01,zip,false,4520000,27,26,2024/2026
+Jim Risch,David Horowitz,Glen Head,NY,11545,Tasty Brands,Owner,350000,1,2026-06-01,2026-06-01,zip,true,9545000,43,33,2024/2026
+Jim Risch,David Sterling,Jericho,NY,11753,Sterlingrisk,Insurance,350000,1,2026-06-01,2026-06-01,zip,true,28990000,79,58,2024/2026
+Jim Risch,Donna Bender,Encino,CA,91436,Not Employed,Not Employed,350000,1,2025-08-01,2025-08-01,zip,false,12976000,58,39,2024/2026
+Jim Risch,Doris Davis,Los Gatos,CA,95032,Retired,Retired,350000,1,2025-11-14,2025-11-14,zip,false,6920000,22,22,2024/2026
+Jim Risch,Eugene Fooksman,Menlo Park,CA,94025,"Altopass, Inc.",Ceo,350000,1,2025-10-16,2025-10-16,zip,true,16060000,54,45,2024/2026
+Jim Risch,Eugene Schneur,Surfside,FL,33154,Sbv Re Investments,Real Estate Developer,350000,1,2025-04-16,2025-04-16,zip,true,4820000,15,14,2024/2026
+Jim Risch,Evan Zucker,Denver,CO,80218,Academy Partners Group,Principal,350000,1,2025-09-11,2025-09-11,zip,true,2380000,7,7,2024/2026
+Jim Risch,James Johnson,Greenbrae,CA,94904,Retired,Retired,350000,1,2025-10-19,2025-10-19,zip,false,6425000,28,25,2024/2026
+Jim Risch,James Mulvihill,Greenwood Village,CO,80121,"Academy Services, LLC",Real Estate Investment,350000,1,2025-09-16,2025-09-16,zip,true,2980000,9,9,2024/2026
+Jim Risch,Jon Held,Jericho,NY,11753,Js Held,Owner,350000,1,2026-06-08,2026-06-08,zip,true,2050000,14,13,2024/2026
+Jim Risch,Kenneth Orr,Old Westbury,NY,11568,Korr,Finance,350000,1,2026-06-11,2026-06-11,zip,true,700000,3,3,2026
+Jim Risch,Leslie Yoffie,Saint Louis,MO,63141,Retired,Retired,350000,1,2025-05-27,2025-05-27,zip,false,1630000,6,5,2024/2026
+Jim Risch,Mitchell Hochberg,New York,NY,10028,Lightstone Group,President Real Estate Investment Firm,350000,1,2025-05-01,2025-05-01,zip,true,3420000,9,8,2024/2026
+Jim Risch,Mona Sterling,Jericho,NY,11753,Eighteen Assoc,Real Estate,350000,1,2026-06-01,2026-06-01,zip,true,8440000,22,21,2024/2026
+Jim Risch,Paul Candau,El Cerrito,CA,94530,Marble Bridge Funding Group,Ceo,350000,1,2025-10-06,2025-10-06,zip,true,3000000,9,9,2026
+Jim Risch,Rick Cornfeld,Creve Coeur,MO,63141,Retired,Retired,350000,1,2025-06-20,2025-06-20,zip,false,2100000,10,9,2024/2026
+Jim Risch,Sanford Perl,Glencoe,IL,60022,Kirkland & Ellis LLP,Attorney,350000,1,2026-05-11,2026-05-11,zip,true,20270000,79,61,2024/2026
+Jim Risch,Scott Jaffee,Great Neck,NY,11021,Metropolitan Realty Group,Real Estate Developer,350000,1,2026-06-17,2026-06-17,zip,false,2210000,12,12,2024/2026
+Jim Risch,Solomon Moshkevich,Atherton,CA,94027,Natera,President,350000,1,2025-11-03,2025-11-03,zip,true,3950000,12,12,2024/2026
+Jim Risch,Stephen Ritchie,Glencoe,IL,60022,None,Retired,350000,1,2026-05-12,2026-05-12,zip,false,15490000,76,58,2024/2026
+Jim Risch,Yehuda Neuberger,Baltimore,MD,21208,Self,Finance Professional,350000,2,2025-04-01,2025-04-03,zip,false,26695000,143,105,2024/2026
+Jim Risch,David Cohen,Hobe Sound,FL,33455,Retired,Retired,300000,1,2025-11-15,2025-11-15,zip,false,3500000,11,11,2026
+Jim Risch,Eric Jaffee,North Palm Beach,FL,33408,Total Insurance,Executive,300000,1,2025-11-15,2025-11-15,zip,true,5050000,38,33,2024/2026
+Jim Risch,Joe Kaplan,Palm Beach Gardens,FL,33410,Retired,Retired,300000,1,2025-11-15,2025-11-15,zip,false,2600000,9,9,2026
+Jim Risch,Larry Lipsitz,Saint Louis,MO,63124,Retired,Retired,300000,2,2025-06-09,2025-06-20,zip,false,675000,7,4,2024/2026
+Jim Risch,Peter Morganstern,Palm Beach Gardens,FL,33418,Retired,Retired,300000,1,2025-11-15,2025-11-15,zip,false,300000,1,1,2026
+Jim Risch,Steve Fader Fader,Towson,MD,21204,Retired,Retired,300000,1,2025-11-15,2025-11-15,zip,false,2440000,6,6,2026
+Jim Risch,Steven Demby,Denver,CO,80209,"Brownstein Hyatt Farber Schreck, LLP",Attorney,300000,1,2025-09-09,2025-09-09,zip,true,6075000,24,24,2024/2026
+Jim Risch,Avner Gat,Woodland Hills,CA,91367,Self,Insurance,250000,1,2025-08-01,2025-08-01,zip,false,1250000,5,5,2026
+Jim Risch,Daniel Benedict,Garden City,NY,11530,Brg,Real Estate,250000,1,2025-05-02,2025-05-02,zip,true,2030000,8,8,2024/2026
+Jim Risch,Eric Becker,Jupiter,FL,33477,Cresset Capital,Ceo And Founder,250000,1,2025-11-11,2025-11-11,zip,true,3450000,9,9,2026
+Jim Risch,Jill Becker,Jupiter,FL,33477,Retired,Retired,250000,1,2025-11-11,2025-11-11,zip,false,250000,1,1,2026
+Jim Risch,Jonathan Schechter,Englewood,NJ,07631,Kirkland & Ellis LLP,Attorney,250000,1,2025-04-09,2025-04-09,zip,true,1425000,16,15,2024/2026
+Jim Risch,Larry Hochberg,Chicago,IL,60611,Retired,Retired,250000,1,2026-05-19,2026-05-19,zip,false,3816666,16,12,2024/2026
+Jim Risch,Nadav Gat,Woodland Hills,CA,91367,Avner Gat,Adjuster,250000,1,2025-07-08,2025-07-08,zip,true,425000,3,3,2026
+Jim Risch,Paul Millman,New York,NY,10023,Superstructures,Architect,250000,1,2025-04-07,2025-04-07,zip,true,550000,3,3,2024/2026
+Jim Risch,William Friedland,New York,NY,10075,Larstrand Corp,Real Estate Investor,250000,1,2025-04-23,2025-04-23,zip,true,850000,3,3,2024/2026
+Jim Risch,Alan Nemes,University City,MO,63130,Husch Blackwell,Attorney,200000,1,2025-05-16,2025-05-16,zip,true,2110000,12,8,2024/2026
+Jim Risch,Aliza Weissman,Lawrence,NY,11559,N/A,Homemaker,200000,1,2025-04-01,2025-04-01,zip,false,400000,2,2,2024/2026
+Jim Risch,Andrea Olshan,New York,NY,10021,Not Employed,Not Employed,200000,1,2025-10-07,2025-10-07,zip,false,200000,1,1,2026
+Jim Risch,Anita Wornick,San Francisco,CA,94103,Retired,Retired,200000,1,2025-10-09,2025-10-09,zip,false,3300000,34,30,2024/2026
+Jim Risch,Ari Dobkin,New York,NY,10010,Nexum Partners LLC,Founder,200000,1,2025-04-01,2025-04-01,zip,true,300000,2,2,2024/2026
+Jim Risch,Beth Levy,Saint Louis,MO,63141,Self,Physician,200000,1,2025-06-03,2025-06-03,zip,false,1850000,9,6,2024/2026
+Jim Risch,Brian Dror,Los Angeles,CA,90036,Self Employed,Cpa,200000,1,2025-04-01,2025-04-01,zip,false,5680000,24,21,2024/2026
+Jim Risch,Daniel Glaser,New York,NY,10013,Imperium Capital LLC,Real Estate,200000,1,2025-04-10,2025-04-10,zip,true,950000,6,6,2024/2026
+Jim Risch,David Miller,Stamford,CT,06902,Webster Security Service,Ceo,200000,2,2026-06-09,2026-06-09,zip,true,800000,9,8,2024/2026
+Jim Risch,David Sherman,Palm Beach Gardens,FL,33410,Retired,Retired,200000,1,2025-11-16,2025-11-16,zip,false,3750000,13,13,2024/2026
+Jim Risch,David W Lichtenstein,Lakewood,NJ,08701,Lightstone Group,Executive,200000,1,2025-04-01,2025-04-01,zip,true,1600000,8,8,2024/2026
+Jim Risch,Elliott Mandelbaum,Lawrence,NY,11559,Eagle Arc Partners LLC,Investment Management,200000,1,2025-04-01,2025-04-01,zip,true,800000,4,4,2024/2026
+Jim Risch,Eugene Ehrenfeld,Lawrence,NY,11559,Self,Real Estate,200000,1,2025-04-02,2025-04-02,zip,false,2000000,10,10,2024/2026
+Jim Risch,Gerald Platt,New York,NY,10128,Self,Investor,200000,1,2025-05-06,2025-05-06,zip,false,100000,1,1,2026
+Jim Risch,Haina Just-Michael,New York,NY,10128,Self,Consultant,200000,1,2025-09-17,2025-09-17,zip,false,3045000,23,17,2024/2026
+Jim Risch,Jared Hendler,Stowe,VT,05672,Ubs,Financial Advisor,200000,1,2026-06-09,2026-06-09,zip,true,1000000,5,4,2024/2026
+Jim Risch,Jennifer Lopata,Hidden Hills,CA,91302,Synergy Academics,President,200000,1,2025-07-27,2025-07-27,zip,true,3900000,37,33,2024/2026
+Jim Risch,Jeremy Lieberman,Flushing,NY,11367,Pomerantz LLP,Attorney,200000,1,2025-04-01,2025-04-01,zip,true,1250000,6,6,2024/2026
+Jim Risch,Jerry Wolasky,Deerfield Beach,FL,33442,Healthsource Distributors,Executive,200000,1,2025-04-01,2025-04-01,zip,true,4050000,23,22,2024/2026
+Jim Risch,Jim Vogel,Palm Beach Gardens,FL,33418,Retired,Retired,200000,1,2025-11-16,2025-11-16,zip,false,200000,1,1,2026
+Jim Risch,Joel Appel,Denver,CO,80209,Zaidy'S Deli,Owners,200000,1,2025-09-11,2025-09-11,zip,true,1830000,13,13,2024/2026
+Jim Risch,John Engelman,New York,NY,10003,Classic Media,Entertainment Executive,200000,1,2025-05-08,2025-05-08,state,false,1300000,7,3,2024/2026
+Jim Risch,Joshua Crane,New York,NY,10075,Spruce Capital Partners,Real Estate,200000,1,2025-09-18,2025-09-18,zip,true,3950000,20,18,2024/2026
+Jim Risch,Ken Levy,Saratoga,CA,95070,Glen Una Investments,Real Estate,200000,1,2025-10-17,2025-10-17,state,true,700000,5,4,2024
+Jim Risch,Leland Alpert,Cherry Hills Villa,CO,80113,Lee Alpert And Company,Ceo,200000,1,2025-09-03,2025-09-03,zip,true,2400000,13,13,2026
+Jim Risch,Marc Altheim,Lake Success,NY,11020,Retired,Retired,200000,1,2026-06-01,2026-06-01,zip,false,4240000,34,26,2024/2026
+Jim Risch,Mark Dunec,Livingston,NJ,07039,Fti Consulting,Real Estate Appraiser,200000,1,2025-04-03,2025-04-03,zip,true,800000,6,6,2026
+Jim Risch,Mark Engel,Bronx,NY,10462,Langsam Property Services,Real Estate,200000,1,2026-06-01,2026-06-01,zip,true,2175000,15,14,2026
+Jim Risch,Mark Silber,Lawrence,NY,11559,Renaissance Technologies,Executive,200000,1,2025-04-02,2025-04-02,zip,true,1600000,8,8,2024/2026
+Jim Risch,Martin Gross,Livingston,NJ,07039,Sandalwood Securities,President,200000,1,2025-05-07,2025-05-07,zip,false,1710000,7,7,2024/2026
+Jim Risch,Matthew Engel,Bronx,NY,10462,Langsam Property Services,Real Estate,200000,1,2026-06-01,2026-06-01,zip,true,900000,5,5,2026
+Jim Risch,Mattisyahu Rokowsky,Jackson,NJ,08527,Self Employed,Self Employed,200000,1,2025-04-01,2025-04-01,zip,false,1100000,5,5,2024/2026
+Jim Risch,Max Berlin,Detroit,MI,48226,Self Employed,Technology,200000,1,2025-04-01,2025-04-01,zip,false,2000000,10,10,2024/2026
+Jim Risch,Meir Levin,Los Angeles,CA,90004,"L&M Footwear, Inc",Ceo,200000,1,2025-04-01,2025-04-01,zip,true,2000000,10,9,2024/2026
+Jim Risch,Michael Doft,New York,NY,10021,Self-Employed,Investor,200000,1,2025-09-17,2025-09-17,zip,false,825000,6,6,2024/2026
+Jim Risch,Michael Kaplan,New York,NY,10028,Davis Polk & Wardwell LLP,Attorney,200000,1,2025-09-17,2025-09-17,zip,true,3300000,21,18,2024/2026
+Jim Risch,Michael Moskowitz,New York,NY,10016,President,Equity Now,200000,1,2025-05-06,2025-05-06,zip,false,300000,2,1,2024
+Jim Risch,Michael Netzer,Lakewood,NJ,08701,Medical Facilities Of America,Partner,200000,1,2025-04-01,2025-04-01,zip,true,1400000,7,7,2024/2026
+Jim Risch,Morris E Wolfson,New York,NY,10004,Self,Investments,200000,1,2025-04-01,2025-04-01,zip,false,2000000,10,9,2024/2026
+Jim Risch,Mory Barak,Encino,CA,91316,Lion Real Estate Group,Real Estate Investments,200000,2,2025-07-22,2025-08-01,zip,true,2200000,23,18,2024/2026
+Jim Risch,Moses Libitzky,Emeryville,CA,94608,Lpc Real Estate Corp,Principal,200000,1,2025-10-01,2025-10-01,zip,true,4950000,34,31,2024/2026
+Jim Risch,Nanette Wolf,Brooklyn,NY,11204,N/A,Housewife,200000,1,2025-04-01,2025-04-01,zip,false,2000000,10,10,2024/2026
+Jim Risch,Ralph Herzka,Brooklyn,NY,11210,Meridian Capital Group,Chairman,200000,1,2025-04-01,2025-04-01,zip,true,2000000,10,10,2024/2026
+Jim Risch,Rama Fakheri,Encino,CA,91436,Self,Psychologist,200000,1,2025-07-15,2025-07-15,zip,false,3366666,20,20,2024/2026
+Jim Risch,Rani Dishi,New York,NY,10033,Elysee Investments,Real Estate Attorney,200000,1,2025-04-22,2025-04-22,zip,false,400000,3,3,2026
+Jim Risch,Richard Kashnow,Menlo Park,CA,94025,Retired,Retired,200000,1,2025-11-04,2025-11-04,zip,false,1750000,10,10,2024/2026
+Jim Risch,Richard Linhart,New York,NY,10075,Morgan Stanley,Financial Adviser,200000,1,2025-09-15,2025-09-15,zip,true,3750000,23,19,2024/2026
+Jim Risch,Robert Ezrapour,Bronx,NY,10471,Robico Management,Real Estate Dev,200000,1,2025-05-02,2025-05-02,zip,true,1700000,15,9,2024/2026
+Jim Risch,Robert Hartman,Chicago,IL,60659,Nucare Services Corp,Healthcare,200000,1,2025-04-01,2025-04-01,zip,true,1800000,9,9,2024/2026
+Jim Risch,Robert Schwartz,New York,NY,10075,Spruce Capital Partners,Real Estate,200000,1,2025-09-18,2025-09-18,zip,true,3950000,20,18,2024/2026
+Jim Risch,Ron Wolfe,Hidden Hills,CA,91302,"Metropolitan Marketing, Inc",Cfo,200000,1,2025-08-02,2025-08-02,zip,true,3800000,37,34,2024/2026
+Jim Risch,Samuel Rieder,Brooklyn,NY,11210,Rieder Communities,Real Estate Investments,200000,1,2025-04-01,2025-04-01,zip,true,1800000,9,9,2024/2026
+Jim Risch,Stephanie Heyman,Encino,CA,91436,Daniel B Heyman Cpa,Secretary,200000,1,2025-07-28,2025-07-28,zip,true,2650000,15,13,2024/2026
+Jim Risch,Stephen Mendell,Jupiter,FL,33477,Retired,Retired,200000,1,2025-11-15,2025-11-15,zip,false,3270000,20,19,2024/2026
+Jim Risch,Stephen Rosedale,Cincinnati,OH,45237,Communicare,Executive,200000,1,2025-04-01,2025-04-01,zip,true,2850000,19,13,2024/2026
+Jim Risch,Steven Rosenblum,Denver,CO,80210,Not Employed,Not Employed,200000,1,2025-09-08,2025-09-08,zip,false,5720000,32,28,2024/2026
+Jim Risch,Steven Solomon,Incline Village,NV,89451,Uc Berkeley,Professor,200000,1,2025-10-31,2025-10-31,zip,true,3100000,25,22,2024/2026
+Jim Risch,Stuart Oremland,Portola Valley,CA,94028,Retired,Retired,200000,1,2025-11-05,2025-11-05,zip,false,3245000,32,31,2024/2026
+Jim Risch,Stuart Rosen,Scituate,MA,02066,Retired,Retired,200000,1,2025-11-16,2025-11-16,zip,false,200000,1,1,2026
+Jim Risch,Stuart Siegel,Hidden Hills,CA,91302,Indoor Swap,Real Estate,200000,1,2025-08-02,2025-08-02,zip,true,3600000,37,32,2024/2026
+Jim Risch,Yisroel Meir Wolmark,Lawrence,NY,11559,Golden Steps,Ceo,200000,1,2025-04-01,2025-04-01,zip,true,1400000,7,6,2024/2026
+Jim Risch,Yisroel Rothstein,Lakewood,NJ,08701,Madison Title,Executive,200000,1,2025-04-01,2025-04-01,zip,true,1600000,8,8,2024/2026
+Jim Risch,Julian Kiguel,New York,NY,10013,Reda Holdings,Managing Partner,180000,1,2025-04-14,2025-04-14,zip,true,180000,1,1,2026
+Jim Risch,Nathan Berman,New York,NY,10128,Metro Loft Management,Ceo,180000,1,2025-04-28,2025-04-28,zip,true,2100000,8,7,2024/2026
+Jim Risch,Richard Wieder,Chesterfield,MO,63017,Washington University In St Louis,Physician,180000,1,2025-06-02,2025-06-02,zip,true,1945000,13,7,2024/2026
+Jim Risch,Abe Schlisselfeld,Spring Valley,NY,10977,Cbiz,Accountant,150000,2,2025-04-03,2025-04-03,zip,true,1000000,13,13,2024/2026
+Jim Risch,Jill Harmatz Sanders,Chatsworth,CA,91311,Self Employed,Real Estate Investor,150000,1,2025-07-27,2025-07-27,zip,false,2500000,32,26,2024/2026
+Jim Risch,Leonid Mezhvinsky,Hillsborough,CA,94010,Retired,Retired,150000,1,2025-10-17,2025-10-17,zip,false,2200000,13,13,2024/2026
+Jim Risch,Mark Tavlarides,Washington,DC,20008,"Bgr Government Affairs, LLC",Vice President,150000,2,2025-02-04,2026-03-02,zip,true,200000,2,0,2024
+Jim Risch,Scott Howard,Woodland Hills,CA,91364,Baker Tilly,Cpa,150000,1,2025-07-27,2025-07-27,zip,true,2491800,34,31,2024/2026
+Jim Risch,Uri Kaufman,Lawrence,NY,11559,Uri Kaufman,Real Estate,150000,1,2025-04-03,2025-04-03,zip,true,1025000,13,13,2024/2026
+Jim Risch,Aaron De Toledo,Sherman Oaks,CA,91423,Servicetitan,Tech,100000,1,2025-07-13,2025-07-13,zip,true,2000000,26,23,2024/2026
+Jim Risch,Amir Goldman,Merion Station,PA,19066,Susquehanna International Group,Venture Capitalist,100000,1,2025-04-03,2025-04-03,zip,true,8060000,42,31,2024/2026
+Jim Risch,Amy Friedkin,San Francisco,CA,94104,Retired,Retired,100000,1,2025-11-13,2025-11-13,zip,false,6665000,53,43,2024/2026
+Jim Risch,Andrew Fine,New York,NY,10021,Shl Investment Group,Venture Capital,100000,1,2025-09-17,2025-09-17,zip,true,750000,7,7,2026
+Jim Risch,Andrew Lappin,Glencoe,IL,60022,Retired,Retired,100000,1,2026-04-26,2026-04-26,zip,false,8325000,48,44,2024/2026
+Jim Risch,Ariel Sebag,New York,NY,10075,Retired,Retired,100000,1,2025-10-12,2025-10-12,zip,false,2860000,18,15,2024/2026
+Jim Risch,Arielle Levi,Redwood City,CA,94061,Not Employed,Not Employed,100000,1,2025-11-04,2025-11-04,zip,false,1050000,10,10,2024/2026
+Jim Risch,Benjamin Friend,San Francisco,CA,94102,Howard Properties,Real Estate,100000,1,2025-11-07,2025-11-07,zip,true,7222500,48,38,2024/2026
+Jim Risch,Blair Richardson,Denver,CO,80206,Bowriver Capital,Owner,100000,1,2025-09-26,2025-09-26,state,false,100000,1,1,2026
+Jim Risch,Bonnie Siegel,Leawood,KS,66211,Ase Group,Consultant,100000,1,2025-06-23,2025-06-23,zip,true,6665000,33,27,2024/2026
+Jim Risch,Brent Morse,Englewood,CO,80113,Morenergy,Landman,100000,1,2025-09-26,2025-09-26,zip,false,500000,5,5,2024/2026
+Jim Risch,Chuck Bellock,Boulder,CO,80302,Self,Real Estate,100000,1,2025-09-08,2025-09-08,zip,false,3550000,18,16,2024/2026
+Jim Risch,Danielle Bar Nur,New York,NY,10022,Not Employed,Not Employed,100000,1,2025-10-07,2025-10-07,zip,false,1850000,11,11,2024/2026
+Jim Risch,David Merage,Englewood,CO,80112,Consolidated Investment,Ceo,100000,1,2025-09-26,2025-09-26,zip,false,750000,6,6,2024/2026
+Jim Risch,David Musher,New York,NY,10029,Retired,Retired,100000,1,2025-09-17,2025-09-17,zip,false,1000000,10,9,2024/2026
+Jim Risch,David Spies,Irvington,NY,10533,Sandhurst,Real Estate Investment / Management,100000,1,2025-04-21,2025-04-21,zip,true,900000,15,14,2024/2026
+Jim Risch,Diana Turk,Agoura,CA,91301,Miller Properties,Real Estate Investor,100000,2,2025-07-27,2025-08-02,zip,true,1600000,23,20,2024/2026
+Jim Risch,Donny Friend,San Francisco,CA,94102,Howard Properties,Real Estate,100000,1,2025-11-13,2025-11-13,state,true,3725000,26,24,2024/2026
+Jim Risch,Douglas Maguire,Washington,DC,20007,Bhfs,Director Econ Policy,100000,1,2025-11-04,2025-11-04,zip,true,200000,2,2,2026
+Jim Risch,Elizabeth Winter,New York,NY,10019,Not Employed,Not Employed,100000,1,2025-10-07,2025-10-07,zip,false,2450000,15,13,2024/2026
+Jim Risch,Eric Gomberg,New York,NY,10028,Odeon,Investment Banking,100000,1,2025-10-06,2025-10-06,zip,false,950000,9,8,2024/2026
+Jim Risch,Eric Rechtschaffen,New York,NY,10028,Sculptor Capital,Managing Director,100000,1,2025-10-08,2025-10-08,zip,true,800000,7,7,2024/2026
+Jim Risch,Evan Kantor Kantor,Woodland Hills,CA,91367,Kennedy Wilson,Pere,100000,1,2025-07-29,2025-07-29,zip,true,250000,3,3,2026
+Jim Risch,Fareed Kanani,Encino,CA,91316,Self,Development,100000,1,2025-07-30,2025-07-30,zip,false,250000,3,3,2026
+Jim Risch,Gail Propp,New York,NY,10028,Retired,Retired,100000,1,2025-10-12,2025-10-12,zip,false,1300000,7,7,2024/2026
+Jim Risch,Geri Schwartz,Westlake Village,CA,91361,Self Employed,Physician,100000,1,2025-08-02,2025-08-02,zip,false,1100000,13,11,2024/2026
+Jim Risch,Gila Bronner,Highland Park,IL,60035,Bronner Group,Consultant,100000,1,2026-05-11,2026-05-11,zip,true,1560000,26,25,2024/2026
+Jim Risch,Grace Latt,Encino,CA,91316,Retired,Retired,100000,1,2025-08-01,2025-08-01,zip,false,3100000,30,27,2024/2026
+Jim Risch,Greg Abrams,Calabasas,CA,91302,Retired,Retired,100000,1,2025-08-02,2025-08-02,zip,false,2420000,34,30,2024/2026
+Jim Risch,Greg Kalikow,Westbury,NY,11590,Kaled Management,Vp/Co Owner,100000,1,2026-05-29,2026-05-29,zip,true,1200000,12,12,2026
+Jim Risch,Harvey Dachs,Woodmere,NY,11598,Dachs Employer LLC,Insurance Broker,100000,1,2026-06-11,2026-06-11,zip,true,1310000,5,5,2024/2026
+Jim Risch,Howard Oppenheimer,Saint Louis,MO,63132,Delmar Gardens Management Services,Executive,100000,1,2025-06-01,2025-06-01,zip,true,1435000,15,11,2024/2026
+Jim Risch,Isaac Sudit,Calabasas,CA,91302,Not Employed,Not Employed,100000,1,2025-08-01,2025-08-01,zip,false,1100000,6,6,2024/2026
+Jim Risch,Jake Davidson,Sherman Oaks,CA,91423,J.R. Davidson And Co Inc.,Asset Manager,100000,1,2025-07-15,2025-07-15,zip,true,1517500,14,14,2024/2026
+Jim Risch,James Holtz,Pleasanton,CA,94566,Retired,Retired,100000,1,2025-10-05,2025-10-05,zip,false,1350000,22,22,2024/2026
+Jim Risch,Jason Friend,San Francisco,CA,94102,Howard Properties,Real Estate,100000,1,2025-11-11,2025-11-11,zip,true,5775000,39,36,2024/2026
+Jim Risch,Jay Steinberg,Huntington,NY,11743,Nyu Langone Health,Physician,100000,1,2026-06-07,2026-06-07,zip,true,1425000,21,17,2024/2026
+Jim Risch,Jeremy Abelson,Denver,CO,80206,Irving Investors,Principal,100000,1,2025-08-27,2025-08-27,zip,true,600000,5,5,2026
+Jim Risch,Jody Kriss,New York,NY,10011,Kriss Capital LLC,Real Estate Investment,100000,1,2025-04-03,2025-04-03,zip,true,500000,5,5,2026
+Jim Risch,Jon Witkin,Los Gatos,CA,95032,Retired,Retired,100000,1,2025-10-16,2025-10-16,zip,false,1950000,12,12,2024/2026
+Jim Risch,Jonathan Kolatch,Englewood,NJ,07631,Jasper Lake LLC,Investment Management,100000,1,2025-12-07,2025-12-07,zip,true,270000,2,2,2024
+Jim Risch,Judy Thomas,Glendale,CA,91207,Self,Sales,100000,1,2025-08-01,2025-08-01,zip,false,2400000,30,26,2024/2026
+Jim Risch,Julie Lobel,New York,NY,10128,Not Employed,Not Employed,100000,1,2025-09-17,2025-09-17,zip,false,2100000,20,16,2024/2026
+Jim Risch,Larry Gross,Encino,CA,91436,Structural Capital,Managing Partner,100000,1,2025-08-01,2025-08-01,zip,true,950000,7,7,2024/2026
+Jim Risch,Larry Kugler,Delray Beach,FL,33483,Lk Investments,Manager,100000,1,2026-04-23,2026-04-23,zip,true,5083000,39,35,2024/2026
+Jim Risch,Laura Younai,Calabasas,CA,91302,Pro Health Prof Services,Cfo,100000,1,2025-07-27,2025-07-27,zip,true,2300000,30,25,2024/2026
+Jim Risch,Linda Weisenberg,Lyndhurst,OH,44124,Retired,Retired,100000,1,2025-05-13,2025-05-13,zip,false,650000,6,6,2026
+Jim Risch,Marc Kwestel,Cedarhurst,NY,11516,Extell Development Company,Real Estate Finance,100000,1,2025-04-03,2025-04-03,zip,true,500000,4,4,2026
+Jim Risch,Mark Goldberg,Northridge,CA,91325,Usi Insurance,Executive,100000,1,2025-08-01,2025-08-01,zip,true,1051000,14,14,2024/2026
+Jim Risch,Mark Kanter,Calabasas,CA,91302,Self Employed,Real Estate,100000,1,2025-07-27,2025-07-27,zip,false,3200000,31,28,2024/2026
+Jim Risch,Michael Feiner,Greenwood Village,CO,80111,Fei,Real Estate,100000,1,2025-09-02,2025-09-02,zip,true,4080000,36,30,2024/2026
+Jim Risch,Michael Melnicke,Brooklyn,NY,11204,Regency Extended Care Center,Executive,100000,1,2026-04-28,2026-04-28,zip,false,300000,1,1,2026
+Jim Risch,Michael Rishty,New York,NY,10021,Davis Polk & Wardwell,Attorney,100000,1,2025-10-05,2025-10-05,zip,false,1875000,21,17,2024/2026
+Jim Risch,Michael Wienir,Encino,CA,91316,Retired,Retired,100000,1,2025-08-01,2025-08-01,zip,false,1350000,12,11,2026
+Jim Risch,Moshe Meppen,Encino,CA,91436,"Metadolce Technologies, Inc.",It,100000,1,2025-08-01,2025-08-01,zip,true,2800000,26,24,2024/2026
+Jim Risch,Nancy Beiser,Encino,CA,91436,Bynancy,Graphic Designer,100000,1,2025-08-01,2025-08-01,zip,true,5200000,45,35,2024/2026
+Jim Risch,Naomi Ickovitz,New York,NY,10128,N/A,N/A,100000,1,2025-10-06,2025-10-06,zip,false,2250000,18,15,2024/2026
+Jim Risch,Randall Kessler,Alameda,CA,94501,Self-Employed,Attorney,100000,1,2025-10-27,2025-10-27,zip,false,1300000,28,27,2024/2026
+Jim Risch,Randy Nichols,Denver,CO,80206,Nichols Partnership,Real Estate Developer,100000,1,2025-08-27,2025-08-27,zip,true,1500000,8,6,2024/2026
+Jim Risch,Richard Eisenberg,Lawrence,NY,11559,Physician,Self,100000,1,2026-04-24,2026-04-24,zip,false,25000,1,1,2024
+Jim Risch,Richard Genirberg,Stateline,NV,89449,Self,Lawyer,100000,1,2025-10-05,2025-10-05,zip,false,6240000,22,22,2024/2026
+Jim Risch,Rick Corleto,Encino,CA,91316,"Corleto, Ackerman & Nussbaum LLP",Attorney,100000,1,2025-08-01,2025-08-01,zip,true,600000,6,6,2024/2026
+Jim Risch,Robert Meer,Encino,CA,91426,Retired,Retired,100000,1,2025-08-07,2025-08-07,zip,false,100000,1,1,2026
+Jim Risch,Robert P. Boiarsky,Englewood,NJ,07631,Alex Brown,Director,100000,1,2025-12-31,2025-12-31,zip,false,100000,1,1,2024
+Jim Risch,Roger Hutson,Denver,CO,80202,"Hrm Resources IV, LLC",Ceo,100000,1,2025-09-13,2025-09-13,zip,true,100000,1,1,2026
+Jim Risch,Ron Kaufman,San Francisco,CA,94133,Self,Real Estate,100000,1,2025-10-22,2025-10-22,zip,false,1750000,21,21,2024/2026
+Jim Risch,Sandra Matthew,Agoura Hills,CA,91301,Self,Real Estate Property Manager,100000,1,2025-08-01,2025-08-01,zip,false,1300000,17,16,2024/2026
+Jim Risch,Sara Shemia,New York,NY,10028,Retired,Retired,100000,1,2025-10-06,2025-10-06,zip,false,1750000,16,14,2024/2026
+Jim Risch,Scott Donner,Old Westbury,NY,11568,Real Deal Decoration,Owner,100000,1,2026-06-01,2026-06-01,zip,true,900000,14,13,2024/2026
+Jim Risch,Scott Lerman,New York,NY,10021,Rialto Management Corp,Property Manager,100000,1,2025-04-06,2025-04-06,zip,true,1025000,10,10,2024/2026
+Jim Risch,Shana Glassman,Tarzana,CA,91356,Not Employed,Not Employed,100000,1,2025-08-01,2025-08-01,zip,false,1625000,17,17,2024/2026
+Jim Risch,Sharon Finkel,Syosset,NY,11791,Not Employed,Not Employed,100000,1,2026-05-29,2026-05-29,zip,false,400000,4,4,2026
+Jim Risch,Simon Ziff,New York,NY,10017,Ackman-Ziff Real Estate Group,President,100000,1,2025-04-28,2025-04-28,zip,true,100000,1,1,2026
+Jim Risch,Steven Dubb,New York,NY,10012,Beechwood Homes,Real Estate,100000,1,2026-06-01,2026-06-01,zip,true,700000,12,11,2024/2026
+Jim Risch,Steven Wildstein,Glen Head,NY,11545,Retired,Retired,100000,1,2026-05-29,2026-05-29,zip,false,2160000,42,29,2024/2026
+Jim Risch,Thomas Kornfeld,Denver,CO,80222,Self,Real Estate,100000,1,2025-09-12,2025-09-12,zip,false,1175000,14,14,2024/2026
+Jim Risch,Tom Heymann,Hidden Hills,CA,91302,Nna Services LLC,Manager,100000,1,2025-07-27,2025-07-27,zip,true,3250000,38,34,2024/2026
+Jim Risch,Tony Davis,Chicago,IL,60610,Linden Capital Partners,Investor,100000,1,2026-05-14,2026-05-14,zip,true,19964400,76,56,2024/2026
+Jim Risch,Varda Rabin,Tiburon,CA,94920,Retired,Retired,100000,1,2025-11-04,2025-11-04,zip,false,1320000,14,13,2024/2026
+Jim Risch,Zalman Jacobs,New York,NY,10075,York Capital Management,Investment Professional,100000,1,2025-09-18,2025-09-18,zip,true,600000,6,6,2026
+Jim Risch,Alex Kaplan,Scarsdale,NY,10583,Sidley Austin LLP,Attorney,75000,1,2025-10-17,2025-10-17,zip,true,1600000,14,11,2024/2026
+Jim Risch,David Kupfer,Valley Stream,NY,11581,King And Spalding,Attorney,75000,1,2025-04-29,2025-04-29,zip,true,575000,6,6,2024/2026
+Jim Risch,Dovid Frankel,West Hempstead,NY,11552,Ey,Accountant,75000,1,2025-04-03,2025-04-03,zip,true,475000,8,7,2024/2026
+Jim Risch,Kim Kushner,New York,NY,10021,Kim Kushner Cuisine,Cook,75000,1,2025-10-06,2025-10-06,zip,false,1600000,12,11,2024/2026
+Jim Risch,Robert Scharf,Teaneck,NJ,07666,Edison Properties,Real Estate,75000,1,2025-04-07,2025-04-07,zip,true,750000,14,13,2024/2026
+Jim Risch,Adam Pessin,Encino,CA,91316,Tokio Marine Hcc,Executive,50000,1,2025-07-31,2025-07-31,zip,true,450000,7,7,2026
+Jim Risch,Alan Nussenblatt,Calabasas,CA,91302,Retired,Retired,50000,1,2025-09-03,2025-09-03,zip,false,1600000,30,29,2024/2026
+Jim Risch,Andrew Goodman,Glenwood Landing,NY,11547,Sherwood,Business,50000,1,2026-06-10,2026-06-10,zip,true,835000,17,15,2024/2026
+Jim Risch,Andrew Koshner,Saint Louis,MO,63130,"Juristemps, Inc.",Owner,50000,1,2025-06-17,2025-06-17,zip,true,200000,3,3,2024/2026
+Jim Risch,Andrew Weiss,New York,NY,10022,Gantry,Commercial Mortgage Broker,50000,1,2025-05-02,2025-05-02,zip,true,150000,4,4,2024/2026
+Jim Risch,Ariel Grunberg,New York,NY,10024,Fanny Grunberg & Assoc. LLC,Real Estate,50000,1,2026-05-29,2026-05-29,zip,true,250000,4,4,2026
+Jim Risch,Arnold Jacobson,Alamo,CA,94507,Arnold Jacobson Md,Md,50000,1,2025-10-30,2025-10-30,zip,true,445000,12,12,2024/2026
+Jim Risch,Barry Topol,Danville,CA,94526,Assessment Solutions Group,Consultant,50000,1,2025-10-14,2025-10-14,zip,true,1721000,37,33,2024/2026
+Jim Risch,Billy Jacobs,Greenwich,CT,06831,White Lake,Srategic,50000,1,2025-05-04,2025-05-04,zip,true,50000,1,1,2026
+Jim Risch,Bruce Werner,Lincolnshire,IL,60069,Self,Business,50000,1,2026-05-06,2026-05-06,zip,false,2648000,62,48,2024/2026
+Jim Risch,Claudia Gordon Felson,Castro Valley,CA,94546,Not Employed,Not Employed,50000,1,2025-10-01,2025-10-01,zip,false,1775000,29,26,2024/2026
+Jim Risch,David Hartford,Oakland,CA,94611,Retired,Retired,50000,1,2025-10-01,2025-10-01,zip,false,700000,12,12,2024/2026
+Jim Risch,David Marinoff,Oakland,CA,94611,Bay Childrens Physicians Medical Group,Physician,50000,1,2025-10-01,2025-10-01,zip,true,1560000,17,16,2024/2026
+Jim Risch,Deborah Soffen,Princeton,NJ,08540,Self,Investor,50000,1,2025-12-07,2025-12-07,zip,false,50000,1,1,2024
+Jim Risch,Dennis Albers,Aspen,CO,81611,Self,Real Estate Investments,50000,1,2025-10-01,2025-10-01,zip,false,3285000,57,45,2024/2026
+Jim Risch,Diana Judovits,Encino,CA,91436,Self Employed,Consultant,50000,1,2025-07-27,2025-07-27,zip,false,1050000,17,16,2024/2026
+Jim Risch,Dov Kalton,New York,NY,10028,Integrated Solutions,Attorney,50000,1,2025-05-04,2025-05-04,zip,true,50000,1,1,2026
+Jim Risch,Drew Parker,Englewood,NJ,07631,Kingsbrook Investments,Real Estate,50000,1,2025-12-07,2025-12-07,zip,false,150000,3,3,2024
+Jim Risch,Ed Levy,Calabasas,CA,91302,Edward Levy,E,50000,1,2025-08-01,2025-08-01,zip,true,150000,2,2,2026
+Jim Risch,Elie Tawil,Sherman Oaks,CA,91423,"Magnite, Inc.",Deputy General Counsel,50000,1,2025-07-14,2025-07-14,zip,true,50000,1,1,2026
+Jim Risch,Emanuel Neuman,New York,NY,10017,Spandrel Development,Real Estate,50000,1,2025-04-10,2025-04-10,zip,true,1980000,11,10,2026
+Jim Risch,Erica Miller,Hidden Hills,CA,91302,Self Employed,Author; Mental Health Professional,50000,1,2025-07-27,2025-07-27,zip,false,1650000,31,27,2024/2026
+Jim Risch,Eva Yomtobian,Los Angeles,CA,90046,"Web Value, Inc",Administrator,50000,1,2025-08-01,2025-08-01,zip,true,1150000,21,21,2024/2026
+Jim Risch,Frances Michael,Eugene,OR,97405,Retired,Retired,50000,1,2025-12-31,2025-12-31,zip,false,500000,2,2,2026
+Jim Risch,Fred Gruber,Tarzana,CA,91356,First Rate Financial Group,Mortgage Loan Originator,50000,1,2025-08-01,2025-08-01,zip,true,700000,13,13,2024/2026
+Jim Risch,Gary Lazar,Encino,CA,91316,Self-Employed,Self-Employed,50000,1,2025-08-06,2025-08-06,zip,false,1925000,25,22,2024/2026
+Jim Risch,Gary Waldman,Encino,CA,91316,Retired,Retired,50000,1,2025-08-01,2025-08-01,zip,false,1300000,19,19,2024/2026
+Jim Risch,Gideon Naim,Penn Valley,PA,19072,Retired,Retired,50000,1,2025-04-03,2025-04-03,zip,false,2175000,36,32,2024/2026
+Jim Risch,Herb Donner,Manhasset,NY,11030,Adi,Real Estate,50000,1,2026-06-22,2026-06-22,zip,true,600000,8,7,2024/2026
+Jim Risch,Heschel Raskas,Saint Louis,MO,63130,Retired,Retired,50000,1,2025-06-16,2025-06-16,zip,false,350000,5,3,2026
+Jim Risch,Howard Cogan,Armonk,NY,10504,Gallo Vitucci Klar LLP,Attorney,50000,1,2026-06-01,2026-06-01,zip,true,300000,7,7,2026
+Jim Risch,Howard Rombom,Roslyn,NY,11576,Retired,Retired,50000,1,2026-05-30,2026-05-30,zip,false,1000000,14,12,2024/2026
+Jim Risch,Igor Lotsvin,Emerald Hills,CA,94062,Sage Rhino Capital,Managing Partner,50000,1,2025-10-10,2025-10-10,zip,true,2700000,45,39,2024/2026
+Jim Risch,Ilana Decker,Huntington,NY,11743,Not Employed,Not Employed,50000,1,2026-06-01,2026-06-01,zip,false,500000,10,10,2026
+Jim Risch,Jason Edelstein,Oakland,CA,94611,Self-Employed,Pr,50000,1,2025-10-29,2025-10-29,zip,false,200000,5,5,2024/2026
+Jim Risch,Jason Peltz,Glencoe,IL,60022,Bartlit Beck,Attorney,50000,1,2026-04-19,2026-04-19,zip,true,7632777,60,47,2024/2026
+Jim Risch,Jay Stieber,Prospect Heights,IL,60070,Lettuce Entertain You,Attorney,50000,1,2026-04-27,2026-04-27,zip,true,2675000,49,31,2024/2026
+Jim Risch,Jeff Seiden,Highland Park,IL,60035,Self,Psychologist,50000,1,2026-04-25,2026-04-25,zip,false,3195000,49,41,2024/2026
+Jim Risch,Jeffrey Fisher,New York,NY,10021,Touro University,Special Programs Administrator,50000,1,2025-03-11,2025-03-11,zip,true,16828326,293,202,2024/2026
+Jim Risch,Jerry Herz,Dix Hills,NY,11746,"Sterling Floor Designs, Ltd.",Vp,50000,1,2026-06-07,2026-06-07,zip,true,1950000,25,17,2024/2026
+Jim Risch,Jesse Appleton,Saint Louis,MO,63105,"Banner Public Affairs, LLC",Co-Founder,50000,1,2025-06-18,2025-06-18,zip,true,50000,1,1,2026
+Jim Risch,Jesse Bachsihan,Studio City,CA,91604,Self,Sales,50000,1,2025-07-13,2025-07-13,zip,false,300000,4,4,2026
+Jim Risch,Joel Renbaum,Ross,CA,94957,Self,Physician,50000,1,2025-11-03,2025-11-03,zip,false,500000,10,9,2024/2026
+Jim Risch,John Rockman,Encino,CA,91436,Self,Digital Advertising,50000,1,2025-07-29,2025-07-29,zip,false,350000,5,5,2026
+Jim Risch,Jonathan Goldstein,Saint Louis,MO,63131,Advantage Capital,Finance,50000,1,2025-06-18,2025-06-18,zip,true,50000,1,1,2026
+Jim Risch,Joseph Fingerman,Commack,NY,11725,Peapack Private,Banker,50000,1,2026-05-31,2026-05-31,zip,true,470000,8,8,2024/2026
+Jim Risch,Katrin Youdim,Encino,CA,91436,Independent,Physician,50000,1,2025-07-25,2025-07-25,zip,true,722600,14,12,2024/2026
+Jim Risch,Ken Gray,Cold Spring Harbor,NY,11724,Bushwick Potato,Owner,50000,1,2026-06-01,2026-06-01,zip,true,850000,15,14,2024/2026
+Jim Risch,Kenneth Segal,Englewood,NJ,07631,Segbro Construction Corp,Owner,50000,1,2025-12-07,2025-12-07,zip,false,50000,1,1,2024
+Jim Risch,Larry Rush,Syosset,NY,11791,Not Employed,Not Employed,50000,1,2026-05-29,2026-05-29,zip,false,1960000,30,19,2024/2026
+Jim Risch,Larry Stadtner,San Anselmo,CA,94960,Retired,Retired,50000,1,2025-10-31,2025-10-31,zip,false,1475000,23,21,2024/2026
+Jim Risch,Laurel Warner,Thousand Oaks,CA,91361,Retired,Retired,50000,1,2025-08-01,2025-08-01,zip,false,650000,13,12,2024/2026
+Jim Risch,Leonard Wagh,Brooklyn,NY,11230,Retired,Retired,50000,1,2025-05-07,2025-05-07,zip,false,150000,8,8,2024
+Jim Risch,Leonid Katz,Walnut Creek,CA,94598,Bridge Bio,Clinical Development Svp,50000,1,2025-10-31,2025-10-31,zip,true,150000,3,3,2024/2026
+Jim Risch,Lisa Fields Lewis,New York,NY,10075,,,50000,1,2025-10-06,2025-10-06,zip,false,650000,6,6,2024/2026
+Jim Risch,Louis Silfin,Sands Point,NY,11050,Retired,Retired,50000,1,2026-05-29,2026-05-29,zip,false,575000,12,12,2026
+Jim Risch,Marshall Goldberg,Calabasas,CA,91302,Glass & Goldberg Law,Lawyer,50000,1,2025-08-03,2025-08-03,zip,true,400000,8,7,2024/2026
+Jim Risch,Martin Roth,Chicago,IL,60614,Kirkland & Ellis,Attorney,50000,1,2026-04-21,2026-04-21,zip,true,1086000,24,22,2024/2026
+Jim Risch,Marty Evanson,Encino,CA,91436,Retired,Retired,50000,1,2025-08-01,2025-08-01,zip,false,1000000,13,12,2024/2026
+Jim Risch,Matthew Schmelzer,New York,NY,10021,Tryax Realty,Real Estate,50000,1,2026-05-31,2026-05-31,zip,true,450000,9,9,2024/2026
+Jim Risch,Michael Feldman,Encino,CA,91436,Komar Alliance,President,50000,1,2025-08-01,2025-08-01,zip,true,550000,10,10,2024/2026
+Jim Risch,Michael Mintz,New York,NY,10001,Md Squared Property Group,Real Estate,50000,1,2025-04-03,2025-04-03,zip,true,175000,5,5,2026
+Jim Risch,Michael Pollak,Denver,CO,80206,Not Employed,Not Employed,50000,1,2025-09-09,2025-09-09,zip,false,2200000,26,21,2024/2026
+Jim Risch,Michael Shaid,Brooklyn,NY,11201,The Vistria Group,Investor,50000,1,2025-04-14,2025-04-14,zip,true,750000,10,10,2024/2026
+Jim Risch,Michael Waterman,Encino,CA,91316,Pegasus Investments,Real Estate,50000,1,2025-08-01,2025-08-01,zip,true,1160000,17,16,2024/2026
+Jim Risch,Naftali Schuss,Englewood,NJ,07631,"Harper Capital Partners, LLC",Finance,50000,1,2025-12-07,2025-12-07,zip,true,440000,5,5,2024/2026
+Jim Risch,Neville Isaacson,Pacific Palisades,CA,90272,Retired,Retired,50000,1,2025-07-27,2025-07-27,zip,false,2100000,26,21,2024/2026
+Jim Risch,Noga Villalon,Boca Raton,FL,33432,Retired,Retired,50000,1,2026-05-12,2026-05-12,zip,false,1825000,29,27,2024/2026
+Jim Risch,Paul Sanderson,Alamo,CA,94507,Retired,Retired,50000,1,2025-10-05,2025-10-05,zip,false,1683000,39,29,2024/2026
+Jim Risch,Peter Greenspan,Tenafly,NJ,07670,Wework,Executive,50000,1,2025-04-25,2025-04-25,zip,true,775000,15,14,2024/2026
+Jim Risch,Peter Maier,Agoura Hills,CA,91301,Retired,Retired,50000,1,2025-07-27,2025-07-27,zip,false,1300000,21,20,2024/2026
+Jim Risch,Phoebe Nir,San Francisco,CA,94118,Self,Filmmaker,50000,1,2025-10-29,2025-10-29,zip,false,300000,6,6,2026
+Jim Risch,Rachel Eidelman,Saint Louis,MO,63105,Retired,Retired,50000,2,2025-06-19,2025-06-20,zip,false,285000,6,5,2024/2026
+Jim Risch,Randy Brust,Encino,CA,91316,Self,Crescent Realty Advisors,50000,1,2025-08-01,2025-08-01,zip,false,2250000,34,27,2024/2026
+Jim Risch,Richard Morse,Commack,NY,11725,Bofa/Merrill Lynch,Financial Advisor,50000,1,2026-06-02,2026-06-02,zip,true,1125000,14,14,2024/2026
+Jim Risch,Richard Ravitz,Walnut Creek,CA,94598,Retired,Retired,50000,1,2025-10-27,2025-10-27,zip,false,550000,11,11,2024/2026
+Jim Risch,Robert Rosenthal,Syosset,NY,11791,First Long Island Investors,Wealth Management,50000,1,2026-06-11,2026-06-11,zip,true,100000,2,2,2024/2026
+Jim Risch,Roger Becker,Alameda,CA,94501,Self,Investor,50000,1,2025-10-28,2025-10-28,zip,false,100000,2,2,2024/2026
+Jim Risch,Scott Becker,Glencoe,IL,60022,Beckers Healthcare And Mcguirewoods,Lawyer Entrepreneur,50000,1,2026-05-05,2026-05-05,zip,true,7930000,98,64,2024/2026
+Jim Risch,Scott Harris,Roslyn,NY,11576,Northwell,Medicine,50000,1,2026-05-31,2026-05-31,zip,true,600000,9,9,2026
+Jim Risch,Seth Gribetz,Englewood,NJ,07631,Walnut Court Capital,Investor,50000,1,2025-12-07,2025-12-07,zip,true,130000,1,1,2026
+Jim Risch,Sheri Fisch,Merrick,NY,11566,Retired,Retired,50000,1,2026-06-01,2026-06-01,zip,false,300000,5,5,2026
+Jim Risch,Sherry Raber,Northridge,CA,91326,Self Employed,Property Management,50000,1,2025-07-27,2025-07-27,zip,false,250000,5,5,2026
+Jim Risch,Sina Rabi,Beverly Hills,CA,90210,Sina Rabi Md Inc,Physician,50000,1,2025-07-14,2025-07-14,zip,true,250000,3,3,2026
+Jim Risch,Stacey Maimin,Malibu,CA,90265,Self Employed,Real Estate,50000,1,2025-08-02,2025-08-02,zip,false,750000,12,10,2024/2026
+Jim Risch,Stephen Harris,Walnut Creek,CA,94595,Lawrence Berkeley National Lab,Chemist,50000,1,2025-10-01,2025-10-01,zip,true,10201992,92,58,2024/2026
+Jim Risch,Stephen Miller,San Francisco,CA,94121,Retired,Retired,50000,1,2025-10-22,2025-10-22,zip,false,1200000,25,22,2024/2026
+Jim Risch,Steve Martini,Agoura Hills,CA,91301,Martini Cpas,Cpa,50000,1,2025-07-27,2025-07-27,zip,true,1450000,21,17,2024/2026
+Jim Risch,Stuart Brooks,Chatsworth,CA,91311,Self Employed,Physician,50000,1,2025-07-27,2025-07-27,zip,false,100000,2,2,2026
+Jim Risch,Thomas Meyers,Lantana,FL,33462,Stein Industries Inc.,Executive,50000,1,2025-05-30,2025-05-30,zip,true,1145000,15,12,2024/2026
+Jim Risch,Yehuda Blinder,Englewood,NJ,07631,Adar Investment Mgmt,Finance,50000,1,2025-12-07,2025-12-07,zip,false,178000,5,5,2024/2026
+Jim Risch,Zachary Kerr,New York,NY,10075,M&R Management,Real Estate,50000,1,2026-06-01,2026-06-01,zip,true,550000,9,8,2024/2026
+Jim Risch,Ariel Stern,New York,NY,10028,Self,Lending,40000,1,2025-10-13,2025-10-13,zip,false,1158000,15,13,2024/2026
+Jim Risch,Elissa Brenner,New York,NY,10021,Self,Gyrotonic Instructor,40000,1,2025-10-08,2025-10-08,zip,false,1215000,16,14,2024/2026
+Jim Risch,Erica Distenfeld,New York,NY,10075,Not Employed,Not Employed,40000,1,2025-10-16,2025-10-16,zip,false,665000,11,11,2026
+Jim Risch,Esther Kremer,New York,NY,10128,Print Nyc,Founder,40000,1,2025-10-12,2025-10-12,zip,false,2125000,23,20,2024/2026
+Jim Risch,Lauren Behfarin,New York,NY,10028,Self Employed,Interior Design,40000,1,2025-10-07,2025-10-07,zip,false,640000,11,11,2026
+Jim Risch,Lindsay Sklar,New York,NY,10075,Not Employed,Not Employed,40000,1,2025-10-09,2025-10-09,zip,false,800000,10,10,2026
+Jim Risch,Michele Lallouz Fisher,New York,NY,10021,Mt Sinai,Doctor,40000,1,2025-10-16,2025-10-16,zip,true,385000,7,7,2026
+Jim Risch,Mira Levenson,New York,NY,10075,Retired,Retired,40000,1,2025-10-16,2025-10-16,zip,false,1090000,12,11,2024/2026
+Jim Risch,Randi Sultan,New York,NY,10075,Not Employed,Not Employed,40000,1,2025-10-09,2025-10-09,zip,false,1165000,15,14,2024/2026
+Jim Risch,Rina Kestenbaum,New York,NY,10128,Buildinglink,Attorney,40000,1,2025-10-16,2025-10-16,zip,true,665000,10,10,2026
+Jim Risch,Samantha Rubenstein,New York,NY,10075,Warespace,Real Estate,40000,1,2025-10-09,2025-10-09,zip,true,605000,6,5,2024/2026
+Jim Risch,Sara Rubenstein,New York,NY,10128,Hogan Lovells Us LLP,Attorney,40000,1,2025-10-10,2025-10-10,zip,true,760000,16,14,2024/2026
+Jim Risch,Sarah Cohen,New York,NY,10128,N/A,N/A,40000,1,2025-10-06,2025-10-06,zip,false,330000,6,6,2026
+Jim Risch,Sharon Greengrass,New York,NY,10024,Not Employed,Not Employed,40000,1,2025-10-12,2025-10-12,zip,false,640000,11,11,2026
+Jim Risch,Talia Mann,New York,NY,10028,N/A,N/A,40000,1,2025-10-12,2025-10-12,zip,false,1345000,18,18,2024/2026
+Jim Risch,Tanya Zuckerbrot,New York,NY,10022,F-Factor,Rd,40000,1,2025-10-12,2025-10-12,zip,true,425000,7,7,2024/2026
+Jim Risch,Wendy Plaut,New York,NY,10011,Paramount,Talent Executive,40000,1,2025-10-07,2025-10-07,zip,false,500000,10,10,2024/2026
+Jim Risch,Ben Siscovick,Englewood,NJ,07631,Spaxel,Real Estate,36000,1,2025-12-07,2025-12-07,zip,true,136000,2,2,2024
+Jim Risch,Sam Sorokin,Orinda,CA,94563,Premium Properties,Property Management And Investments,35000,1,2025-11-02,2025-11-02,zip,true,75000,3,2,2024/2026
+Jim Risch,George Frankenstein,San Francisco,CA,94127,Retired,Retired,30800,1,2025-10-01,2025-10-01,zip,false,741000,21,20,2026
+Jim Risch,Lawrence Friedman,Skokie,IL,60076,Self,Director,30000,1,2026-05-03,2026-05-03,zip,false,2010000,70,52,2024/2026
+Jim Risch,Alan Molotsky,Skokie,IL,60076,"North Square Investments, LLC",Attorney,25000,1,2026-05-04,2026-05-04,zip,true,1620000,41,36,2024/2026
+Jim Risch,Andrew Hochberg,Skokie,IL,60077,Next Realty,"Ceo, Managing Principal",25000,1,2026-05-05,2026-05-05,zip,true,1475000,20,18,2024/2026
+Jim Risch,Bruce Weininger,Kamas,UT,84036,Kovitz Investment Group,Consultant,25000,1,2026-05-05,2026-05-05,zip,true,3422000,65,47,2024/2026
+Jim Risch,Daniel Ruben,Agoura Hills,CA,91376,Not Employed,Not Employed,25000,1,2025-08-01,2025-08-01,zip,false,575000,23,21,2024/2026
+Jim Risch,Gavriel Kahane,New York,NY,10069,Arkhouse,Investor,25000,1,2025-04-29,2025-04-29,zip,true,2986100,15,9,2024/2026
+Jim Risch,Janet Weinberg,Saint Louis,MO,63130,Retired,Retired,25000,1,2025-06-10,2025-06-10,zip,false,324000,9,4,2024/2026
+Jim Risch,Jay Koppelman,Pleasant Hill,CA,94523,Retired,Retired,25000,1,2025-10-01,2025-10-01,zip,false,450000,18,17,2024/2026
+Jim Risch,Jonas Katzoff,New York,NY,10016,Smbc,Real Estate Finance,25000,1,2025-05-04,2025-05-04,zip,true,75000,3,3,2026
+Jim Risch,Marissa Leitner,Encino,CA,91436,Self,School Psychologist,25000,1,2025-08-06,2025-08-06,zip,false,780000,16,15,2024/2026
+Jim Risch,Mark Levitats,Palmetto Bay,FL,33158,Lockton,Partner,25000,1,2025-04-28,2025-04-28,zip,true,290000,7,7,2024/2026
+Jim Risch,Orete Harkavy,Deerfield,IL,60015,,,25000,1,2026-04-28,2026-04-28,zip,false,925000,14,12,2026
+Jim Risch,Stephen Rush,Westhampton Beach,NY,11978,Usafr,Md,25000,1,2026-05-29,2026-05-29,zip,true,1100000,21,19,2024/2026
+Jim Risch,Vanessa Colman,Glencoe,IL,60022,Retired,Retired,25000,1,2026-05-07,2026-05-07,zip,false,2002800,27,21,2024/2026
+Todd Achilles,Gene Bernstein,Southampton,NY,11968,Northville Industries,Semiretired Executive,100000,1,2026-08-31,2026-08-31,zip,true,100000,1,1,2024

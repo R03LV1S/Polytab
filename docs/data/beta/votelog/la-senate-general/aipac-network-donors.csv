@@ -1,0 +1,90 @@
+candidate,donor,city,state,zip5,employer,occupation,direct_total_cents,contributions,first_date,last_date,match_tier,same_employer_string,aipac_pac_total_cents,aipac_pac_rows,aipac_pac_recipient_committees,aipac_pac_cycles
+Julia Letlow,Jeffrey Mr. Miller,Austin,TX,78731,"Miller Strategies, LLC",Ceo,500000,2,2026-06-10,2026-06-10,zip,true,710000,4,3,2024
+Julia Letlow,Alan Gindi,Culver City,CA,90232,Bag Investments,Real Estate,350000,1,2026-06-04,2026-06-04,zip,true,14295000,45,39,2024/2026
+Julia Letlow,Alex Von Furstenberg,Beverly Hills,CA,90210,Ranger Global Advisors LLC,Cio,350000,1,2026-06-12,2026-06-12,zip,true,2760000,5,5,2024/2026
+Julia Letlow,Barak Raviv,Beverly Hills,CA,90210,Wells Fargo,Financial Advisor,350000,1,2026-06-04,2026-06-04,zip,true,19402300,79,55,2024/2026
+Julia Letlow,Brad Mindlin,Incline Village,NV,89451,Oro Capital Advisors,Managing Partner,350000,1,2026-06-04,2026-06-04,zip,true,16460000,45,36,2024/2026
+Julia Letlow,Danny Sheena,Bellaire,TX,77401,Sheena Law Firm,Attorney,350000,1,2026-06-15,2026-06-15,zip,true,11947777,42,37,2024/2026
+Julia Letlow,Etella Marcovici,Lido Beach,NY,11561,Mindspring Associates,Self Employed,350000,1,2026-06-07,2026-06-07,zip,true,1430000,4,2,2024/2026
+Julia Letlow,Ethan Marcovici,New York,NY,10021,Blake Partners LLC,Self Employed,350000,1,2026-06-07,2026-06-07,zip,true,4899514,24,17,2024/2026
+Julia Letlow,Gary Rosenthal,Houston,TX,77046,The Sterling Group,Executive,350000,1,2026-06-04,2026-06-04,zip,true,14395000,41,33,2024/2026
+Julia Letlow,Geri Bishop,Houston,TX,77024,Not Employed,Not Employed,350000,1,2026-06-12,2026-06-12,zip,false,5120000,28,23,2024/2026
+Julia Letlow,Herb Shear,Palm Beach,FL,33480,Retired,Retired,350000,1,2026-05-27,2026-05-27,zip,false,4305000,13,11,2024/2026
+Julia Letlow,Jeffrey Raizner,Houston,TX,77005,Raizner Slania LLP,Attorney,350000,1,2026-06-15,2026-06-15,zip,true,3000000,28,25,2024/2026
+Julia Letlow,Joel Bender,Houston,TX,77024,Cactus Wellhead,Executive,350000,1,2026-06-11,2026-06-11,zip,true,3300000,11,10,2024/2026
+Julia Letlow,Lee Schwartz,Houston,TX,77025,The Methodist Hospital,Attorney,350000,1,2026-06-12,2026-06-12,zip,true,13545000,51,40,2024/2026
+Julia Letlow,Manny Mr. Panar,Silver Spring,MD,20904,Retired,Retired,350000,1,2026-05-28,2026-05-28,zip,false,49340000,110,72,2024/2026
+Julia Letlow,Matthew Ocko,Sugar Land,TX,77479,Matthew Ocko,Self-Employed,350000,1,2026-05-17,2026-05-17,zip,true,660000,2,2,2024
+Julia Letlow,Max Reichenthal,Houston,TX,77020,Texas Iron And Metal,Steel Distributor,350000,1,2026-06-15,2026-06-15,zip,true,4600000,22,20,2024/2026
+Julia Letlow,Patty Glaser,Los Angeles,CA,90067,Glaser Weil LLP,Attorney,350000,1,2026-06-04,2026-06-04,zip,true,5750000,28,24,2024/2026
+Julia Letlow,Russ Robinson,Houston,TX,77024,Global Steel Dust,Ceo,350000,1,2026-05-27,2026-05-27,zip,true,5080000,18,14,2024/2026
+Julia Letlow,Susan Bender,Houston,TX,77024,Not Employed,Not Employed,350000,1,2026-06-15,2026-06-15,zip,false,5500000,20,17,2024/2026
+Julia Letlow,Tivadar Marcovici,Lido Beach,NY,11561,Se Management Corp.,Self Employed,350000,1,2026-06-07,2026-06-07,zip,true,1530000,5,3,2024/2026
+Julia Letlow,Yehuda Neuberger,Baltimore,MD,21208,"Sim Holdings, LLC",Principal,350000,1,2026-06-18,2026-06-18,zip,false,26695000,143,105,2024/2026
+Julia Letlow,Jay Martus,Deerfield Beach,FL,33443,"Mfal Consulting, LLC",Managing Partner,300000,1,2026-06-14,2026-06-14,zip,true,6300000,30,25,2026
+Julia Letlow,Joanne Ms. Snow,Lawrenceville,NJ,08648,Aem,Healthcare,300000,1,2026-06-12,2026-06-12,zip,false,2837500,22,20,2024/2026
+Julia Letlow,David Schwartzman,Los Angeles,CA,90067,Harridge Development Group,Ceo,250000,1,2026-06-04,2026-06-04,zip,true,3530000,15,14,2026
+Julia Letlow,Guy Zaczepinski,Santa Monica,CA,90402,Century Park,Investor,250000,1,2026-06-04,2026-06-04,zip,true,4200000,20,17,2024/2026
+Julia Letlow,Ira Kharasch,Los Angeles,CA,90045,"Pachulski, Stang, Ziehl & Jones",Attorney,250000,1,2026-06-04,2026-06-04,zip,true,6120000,29,25,2024/2026
+Julia Letlow,Jason Rimokh,Beverly Hills,CA,90210,Signal Brands,Retail,250000,1,2026-06-04,2026-06-04,zip,true,6710000,25,21,2024/2026
+Julia Letlow,Robert Pincus,Wilmington,DE,19806,Retired,Retired,250000,1,2026-06-19,2026-06-19,zip,false,5400000,27,20,2024/2026
+Julia Letlow,Barry Kayne,Wilmington,DE,19807,Retired,Retired,200000,1,2026-06-19,2026-06-19,zip,false,2550000,23,19,2024/2026
+Julia Letlow,Hilary Smith Kapner,Bethesda,MD,20817,Hsk Consulting,Consultant,200000,1,2026-06-19,2026-06-19,zip,true,15190000,56,40,2024/2026
+Julia Letlow,Lew Rudzki,Los Angeles,CA,90035,Canon Equity Partners,Real Estate,200000,1,2026-06-04,2026-06-04,zip,true,2525000,19,17,2024/2026
+Julia Letlow,Robin Stein,Bellaire,TX,77401,Self Employed,Non-Practicing Attorney,200000,1,2026-06-19,2026-06-19,zip,false,1525000,14,10,2024/2026
+Julia Letlow,Terry Gardner,Houston,TX,77007,Retired,Retired,200000,1,2026-06-03,2026-06-03,zip,false,3650000,44,30,2024/2026
+Julia Letlow,Aaron Feldman,Bethesda,MD,20817,Fidelity,Advisor,187500,1,2026-05-28,2026-05-28,zip,true,1862500,13,12,2024/2026
+Julia Letlow,Adam Cohen,Miami Beach,FL,33140,Liscr,Chairman,187500,1,2026-06-19,2026-06-19,zip,true,1750000,8,7,2026
+Julia Letlow,Harvey Mr. Hanerfeld,Bethesda,MD,20817,Retired,Retired,187500,1,2026-06-01,2026-06-01,zip,false,4405000,28,20,2024/2026
+Julia Letlow,Jared Kassoff,Washington,DC,20007,Resolution Capitol Mgmt,Real Estate,187500,1,2026-06-21,2026-06-21,zip,true,912500,5,5,2026
+Julia Letlow,Julie Paris,Pittsburgh,PA,15217,Standwithus,Regional Director,187500,1,2026-06-05,2026-06-05,zip,true,3600000,23,14,2024/2026
+Julia Letlow,Karen Lehmann,Washington,DC,20037,Self,Consultant,187500,1,2026-05-27,2026-05-27,zip,false,2762500,15,9,2024/2026
+Julia Letlow,Max Gittelman,Miami,FL,33133,Anduril Industries,Software Engineer,187500,1,2026-05-27,2026-05-27,zip,true,750000,4,4,2026
+Julia Letlow,Abe Malkin,Los Angeles,CA,90048,Self-Employed,Physician,150000,1,2026-06-04,2026-06-04,zip,false,600000,4,4,2026
+Julia Letlow,Adam Reich,Los Angeles,CA,90035,Reich Brothers,Co-Ceo,150000,1,2026-06-04,2026-06-04,zip,true,3390000,17,15,2024/2026
+Julia Letlow,Adam Rosenfeld,West Hollywood,CA,90069,The Agency,Real Estate Broker,150000,1,2026-06-04,2026-06-04,zip,true,1800000,12,12,2026
+Julia Letlow,Ed Zimbler,Los Angeles,CA,90024,Berkadia,Sr. Managing Director,150000,1,2026-06-04,2026-06-04,zip,true,4780000,39,34,2024/2026
+Julia Letlow,Freddie Reiss,Santa Monica,CA,90402,Retired,Retired,150000,1,2026-06-04,2026-06-04,zip,false,3075000,29,26,2024/2026
+Julia Letlow,Jose Reines,Los Angeles,CA,90049,Retired,Retired,150000,1,2026-06-04,2026-06-04,zip,false,3222500,45,37,2024/2026
+Julia Letlow,Lee Samson,Los Angeles,CA,90067,Paladin Mgt.,Chairman,150000,1,2026-06-04,2026-06-04,zip,true,2250000,9,7,2026
+Julia Letlow,Loryn Arkow,Los Angeles,CA,90064,Hogan Lovells,Attorney,150000,1,2026-06-04,2026-06-04,zip,true,750000,5,5,2026
+Julia Letlow,Mayer Bick,Los Angeles,CA,90035,Sb Advisors,Investment Banker,150000,1,2026-06-04,2026-06-04,zip,true,2550000,15,15,2024/2026
+Julia Letlow,Niv Davidovich,Valley Glen,CA,91606,Davidovich Law,Attorney,150000,1,2026-06-04,2026-06-04,zip,true,1850000,10,10,2026
+Julia Letlow,Oren Lazar,North Hollywood,CA,91607,Lazar PC,Attorney,150000,1,2026-06-04,2026-06-04,zip,true,1025000,7,7,2026
+Julia Letlow,Raphy Nissel,Beverly Hills,CA,90210,Retired,Retired,150000,1,2026-06-04,2026-06-04,zip,false,2600000,15,14,2024/2026
+Julia Letlow,Richard Weintraub,Malibu,CA,90264,Weintraub Real Estate Group,President,150000,1,2026-06-04,2026-06-04,zip,true,3075000,24,22,2024/2026
+Julia Letlow,Shana Glassman,Tarzana,CA,91356,Not Employed,Not Employed,150000,1,2026-06-04,2026-06-04,zip,false,1625000,17,17,2024/2026
+Julia Letlow,Aaron Snyder,Rockville,MD,20850,"Us Health Partners, LLC",Ceo,100000,1,2026-05-29,2026-05-29,zip,true,700000,6,5,2024/2026
+Julia Letlow,Alan Robin,Houston,TX,77063,Alan Robin Law Pllc,Attorney,100000,1,2026-06-11,2026-06-11,zip,true,650000,9,9,2024/2026
+Julia Letlow,Albert Praw,Sherman Oaks,CA,91403,Kbhome,Executive,100000,1,2026-06-11,2026-06-11,zip,true,2050000,18,14,2024/2026
+Julia Letlow,Allan Quiat,Houston,TX,77082,Retired,Retired,100000,1,2026-06-12,2026-06-12,zip,false,1525000,16,15,2024/2026
+Julia Letlow,Amir M Goldman,Merion Station,PA,19066,Susquehanna International Group,Venture Capitalist,100000,1,2026-06-12,2026-06-12,zip,true,8060000,42,31,2024/2026
+Julia Letlow,Andy Weiner,Houston,TX,77008,Rockstep Capital,Real Estate Investments,100000,1,2026-05-30,2026-05-30,zip,true,100000,1,1,2026
+Julia Letlow,David Horne,Washington,DC,20016,Self,Consultant,100000,1,2026-06-11,2026-06-11,zip,false,1175000,9,6,2024/2026
+Julia Letlow,David Stern,Annapolis,MD,21403,Retired,Retired,100000,1,2026-06-11,2026-06-11,zip,false,1875000,20,19,2024/2026
+Julia Letlow,Eric Kassoff,Palm Beach Gardens,FL,33410,Wilkes Artis,Lawyer,100000,1,2026-06-19,2026-06-19,zip,false,350000,2,2,2024/2026
+Julia Letlow,Eric Rosin,Cherry Hill,NJ,08003,Self,Physician,100000,1,2026-06-19,2026-06-19,zip,false,1775000,21,20,2024/2026
+Julia Letlow,Herta Amir,Beverly Hills,CA,90211,Amir Development,Real Estate,100000,1,2026-06-04,2026-06-04,zip,true,6500000,95,72,2024/2026
+Julia Letlow,Irwin Panitch,Boca Raton,FL,33432,Retired,Retired,100000,1,2026-06-19,2026-06-19,zip,false,775000,7,7,2026
+Julia Letlow,Jacob Mr. Slone,Baltimore,MD,21209,Harbor Group International,Investor,100000,1,2026-06-22,2026-06-22,zip,true,4465000,30,23,2024/2026
+Julia Letlow,Jacqueline Shulman,Rydal,PA,19046,Retired,Retired,100000,1,2026-05-30,2026-05-30,zip,false,2375000,23,21,2024/2026
+Julia Letlow,James Ramenofsky,Oakton,VA,22124,Virginia Hospital Center,Doctor,100000,1,2026-05-29,2026-05-29,zip,true,535000,10,8,2024/2026
+Julia Letlow,Jesse Klein,Blue Bell,PA,19422,Klein Hersh,Exec Search,100000,1,2026-06-11,2026-06-11,zip,true,850000,4,4,2026
+Julia Letlow,Larry Gordon,Ellicott City,MD,21042,Gordon Financial Services,Financial Advisor,100000,1,2026-05-28,2026-05-28,zip,true,375000,3,3,2024/2026
+Julia Letlow,Michael Brooks,Palm Beach Gardens,FL,33418,Retired,Retired,100000,1,2026-06-19,2026-06-19,zip,false,1100000,18,14,2024/2026
+Julia Letlow,Mindy Gross,Sugar Land,TX,77478,Retired,Retired,100000,1,2026-06-17,2026-06-17,zip,false,3220000,25,18,2024/2026
+Julia Letlow,Robert Hanasab,Los Angeles,CA,90014,Robhana Group Inc,President,100000,1,2026-06-04,2026-06-04,zip,true,2500000,25,23,2024/2026
+Julia Letlow,Roberto Fischmann,Allentown,PA,18104,Retired,Retired,100000,1,2026-06-22,2026-06-22,zip,false,3950000,45,35,2024/2026
+Julia Letlow,Shay Kuperman,Bellaire,TX,77401,Vinson & Elkins,Lawyer,100000,1,2026-06-02,2026-06-02,zip,true,1325000,13,12,2026
+Julia Letlow,Stephen Crane,Philadelphia,PA,19130,Retired,Retired,100000,1,2026-06-19,2026-06-19,zip,false,1400000,25,18,2024/2026
+Julia Letlow,Vera Markowitz,Beverly Hills,CA,90210,Retired,Retired,100000,1,2026-06-11,2026-06-11,zip,false,15205000,116,71,2024/2026
+Julia Letlow,Anne Canfield,Alexandria,VA,22314,The Majority Group,Partner,50000,1,2026-05-29,2026-05-29,zip,true,250000,3,2,2024/2026
+Julia Letlow,Arnie Hiller,Potomac,MD,20854,U.S. Search LLC,Exec. Recruiter,50000,1,2026-05-28,2026-05-28,zip,true,450000,8,7,2024/2026
+Julia Letlow,Arnold Havens,Mclean,VA,22102,Retired,Retired,50000,1,2026-05-29,2026-05-29,zip,false,150000,2,2,2024/2026
+Julia Letlow,Austin Berg,Owings Mills,MD,21117,Greenspring Realty Partners,Executive,50000,1,2026-06-02,2026-06-02,zip,true,2065000,14,13,2026
+Julia Letlow,David Abramowitz,Mclean,VA,22101,Retired,Retired,50000,1,2026-05-29,2026-05-29,zip,false,400000,8,7,2024/2026
+Julia Letlow,Igal Elyassi,Los Angeles,CA,90048,Dr. Dentist,Dentist,50000,1,2026-06-04,2026-06-04,zip,true,1550000,26,23,2024/2026
+Julia Letlow,Jason Mr. Reitberger,Baltimore,MD,21215,Quest Holdings LLC,Real Estate,50000,1,2026-06-11,2026-06-11,zip,true,5940000,38,28,2024/2026
+Julia Letlow,Martin Seaton,Los Angeles,CA,90024,Retired,Retired,50000,1,2026-06-23,2026-06-23,zip,false,2020000,56,44,2024/2026
+Julia Letlow,Marvin Shapiro,Los Angeles,CA,90049,Retired,Retired,50000,1,2026-06-04,2026-06-04,zip,false,900000,4,4,2026
+Julia Letlow,Edward Kutler,Columbia,MD,21045,Retired,Retired,25000,1,2026-06-11,2026-06-11,zip,false,50000,2,2,2026

@@ -1,0 +1,444 @@
+candidate,donor,city,state,zip5,employer,occupation,direct_total_cents,contributions,first_date,last_date,match_tier,same_employer_string,aipac_pac_total_cents,aipac_pac_rows,aipac_pac_recipient_committees,aipac_pac_cycles
+Jon Husted,David Chaimovitz,Glencoe,IL,60022,Setna Io,Ceo,1050000,2,2026-02-26,2026-06-18,zip,true,2800000,5,4,2026
+Jon Husted,David Heller,Boca Raton,FL,33432,The Nrp Group LLC,Real Estate,1050000,2,2025-05-28,2026-02-10,zip,true,8670000,39,28,2024/2026
+Jon Husted,Rachel Chaimovitz,Glencoe,IL,60022,Retired,Retired,1050000,2,2026-02-26,2026-06-18,zip,false,1750000,3,2,2026
+Jon Husted,Tracy Conrad,Dallas,TX,75205,Retired,Retired,850000,2,2025-08-18,2026-02-23,zip,false,3480000,15,15,2024/2026
+Jon Husted,Aliza Rosman,Merion Station,PA,19066,Retired,Retired,700000,1,2026-05-01,2026-05-01,zip,false,700000,1,1,2026
+Jon Husted,Amir M. Goldman,Merion Station,PA,19066,Susquehanna International Group,Venture Capitalist,700000,1,2026-05-01,2026-05-01,zip,true,8060000,42,31,2024/2026
+Jon Husted,Ari Adlerstein,Merion Station,PA,19066,T7 Capital,Finance,700000,1,2026-05-04,2026-05-04,zip,true,3500000,6,6,2026
+Jon Husted,Barry Volpert,New York,NY,10128,Crestview Partners,Finance,700000,1,2026-01-28,2026-01-28,zip,true,550000,2,2,2026
+Jon Husted,Daniel Setzman,New York,NY,10014,Jane Street,Finance,700000,2,2025-08-27,2026-04-22,zip,true,1660000,11,11,2024
+Jon Husted,Dawn Lavin,Highland Park,IL,60035,Homemaker,Homemaker,700000,1,2026-04-23,2026-04-23,zip,false,7350000,11,11,2026
+Jon Husted,Edward C. Levy,Birmingham,MI,48009,Edward C. Levy Co.,Chairman,700000,1,2026-06-08,2026-06-08,zip,true,35510000,67,51,2024/2026
+Jon Husted,Erica Gerson,New York,NY,10024,Homemaker,Homemaker,700000,1,2025-12-11,2025-12-11,zip,false,3050000,11,10,2026
+Jon Husted,Iris Smith,Broomfield,CO,80021,Self-Employed,Creative Arts,700000,2,2026-05-12,2026-05-12,zip,false,14460000,24,21,2024/2026
+Jon Husted,Isabelle Nadler,Glencoe,IL,60022,Jafina,Vp,700000,1,2026-03-08,2026-03-08,zip,true,300000,3,3,2026
+Jon Husted,Jacob Brodie,Haverford,PA,19041,Brodie Generational Capital Partners,Executive,700000,2,2026-03-20,2026-06-01,zip,true,25435000,78,60,2024/2026
+Jon Husted,Loren Breslow,Fort Lauderdale,FL,33301,Command Marketing Innovations,Business Owner,700000,1,2025-11-26,2025-11-26,zip,true,12600000,18,18,2026
+Jon Husted,Mark Gerson,New York,NY,10024,Usip,Chairman,700000,1,2025-12-11,2025-12-11,zip,true,3550000,8,8,2024/2026
+Jon Husted,Michael S. Smith,Broomfield,CO,80021,Kaitar Resources,Consultant,700000,2,2026-05-12,2026-05-12,zip,true,15450000,26,23,2024/2026
+Jon Husted,Naava Grossman,Aspen,CO,81612,Retired,Retired,700000,1,2026-02-27,2026-02-27,zip,false,29410000,61,52,2024/2026
+Jon Husted,Rebecca Heller,Boca Raton,FL,33432,Retired,Retired,700000,1,2025-05-28,2025-05-28,zip,false,2620000,8,6,2024/2026
+Jon Husted,Richard A. Horvitz,Bal Harbour,FL,33154,Moreland Management Co.,Investor,700000,1,2025-05-21,2025-05-21,zip,true,2000000,6,6,2024/2026
+Jon Husted,Sanford Grossman,Glenwood Springs,CO,81601,Retired,Retired,700000,1,2026-02-27,2026-02-27,zip,false,8050000,13,13,2026
+Jon Husted,Sanford Perl,Glencoe,IL,60022,Kirkland & Ellis LLP,Attorney,700000,1,2026-04-24,2026-04-24,zip,true,20270000,79,61,2024/2026
+Jon Husted,Shyam Sankar,Denver,CO,80202,Palantir Technologies,Cto,700000,1,2025-09-06,2025-09-06,state,true,330000,1,1,2024
+Jon Husted,Steven Lavin,Highland Park,IL,60035,"Lavin & Gedville, PC",President,700000,1,2026-04-23,2026-04-23,zip,true,4900000,7,7,2026
+Jon Husted,Bruce Soll,Columbus,OH,43209,Soll Advisors LLC,Counselor,500000,1,2025-02-04,2025-02-04,zip,true,400000,2,2,2024
+Jon Husted,Carolann Cohen,Gates Mills,OH,44040,Retired,Retired,500000,1,2026-02-02,2026-02-02,zip,false,2500000,12,11,2024/2026
+Jon Husted,Esther Chouake,Englewood,NJ,07631,Self-Employed,Md,500000,1,2026-05-05,2026-05-05,zip,false,500000,1,1,2024
+Jon Husted,Gary L. Gross,Shaker Heights,OH,44122,I & Mj Gross Co.,Real Estate,500000,1,2026-02-17,2026-02-17,zip,true,3180000,13,12,2024/2026
+Jon Husted,Harley Gross,Shaker Heights,OH,44122,I & Mj Gross Co,Real Estate Developer,500000,1,2026-02-10,2026-02-10,zip,false,3380000,14,13,2024/2026
+Jon Husted,Holly S. Kastan,Columbus,OH,43209,Osu Medical Center,Consultant,500000,2,2025-02-26,2026-06-09,zip,false,875000,5,3,2024/2026
+Jon Husted,Jack N. Halpern,New York,NY,10023,Atlantic Realty,Vp,500000,1,2026-05-05,2026-05-05,zip,true,4980000,31,30,2024/2026
+Jon Husted,Jacob Cohen,Solon,OH,44139,Teamhealth,Physician,500000,1,2026-02-03,2026-02-03,zip,true,5980000,29,18,2024/2026
+Jon Husted,Jason A. Wuliger,Chagrin Falls,OH,44022,Nachshon Ventures LLC,President,500000,1,2026-02-16,2026-02-16,zip,true,9000000,45,32,2024/2026
+Jon Husted,Kenneth Eckstein,New York,NY,10075,Hsf Kramer,Lawyer,500000,1,2025-10-19,2025-10-19,zip,true,3950000,14,14,2024/2026
+Jon Husted,Marc Heimowitz,Delray Beach,FL,33483,Self-Employed,Consultant,500000,1,2025-10-07,2025-10-07,zip,false,850000,5,5,2026
+Jon Husted,Matthew Brandenburg,Chagrin Falls,OH,44022,Pi,Ceo,500000,1,2026-02-17,2026-02-17,zip,true,1200000,2,2,2026
+Jon Husted,Oscar Pinkas,Darien,CT,06820,Greenberg Traurig,Attorney,500000,1,2025-10-16,2025-10-16,zip,true,1300000,6,4,2026
+Jon Husted,Philip J. Wenzel,Powell,OH,43065,Ring Ltd,Marketing,500000,1,2025-03-31,2025-03-31,zip,true,50000,1,1,2024
+Jon Husted,Sam Olswanger,Washington,DC,20009,Akin Gump Strauss Hauer & Feld,Senior Policy Advisor,500000,2,2025-04-17,2025-11-12,zip,false,400000,5,5,2024
+Jon Husted,Timothy F. Wuliger,Chagrin Falls,OH,44022,"Mallard Investments, Inc.",President,500000,1,2026-02-11,2026-02-11,zip,true,14730000,47,35,2024/2026
+Jon Husted,Andrew O. Smith,Bexley,OH,43209,Ympc,Executive,450000,2,2025-02-26,2026-02-23,zip,true,4410000,24,13,2024/2026
+Jon Husted,Jaime Peisach,Miami,FL,33122,Passion Growers,Manager,450000,2,2026-01-20,2026-02-23,zip,true,12615000,37,31,2024/2026
+Jon Husted,Jesse Klein,Blue Bell,PA,19422,Klein Hersh,Executive Search,450000,2,2026-02-23,2026-05-13,zip,true,850000,4,4,2026
+Jon Husted,Adam Freede,Seal Beach,CA,90740,Madaluxe Group,Ceo,350000,1,2026-03-04,2026-03-04,zip,true,7350000,20,20,2026
+Jon Husted,Adam Garner,Greenwich,CT,06830,Drw,Partner,350000,1,2026-06-24,2026-06-24,zip,true,4000000,15,14,2024/2026
+Jon Husted,Andrew Rubinstein,Tenafly,NJ,07670,Oberland Capital,Healthcare Finance,350000,1,2026-02-23,2026-02-23,zip,true,14136500,47,37,2024/2026
+Jon Husted,Angela Horowitz,Dallas,TX,75220,Stevens Transport,Vice President,350000,1,2025-08-12,2025-08-12,zip,true,1400000,6,6,2026
+Jon Husted,Benjamin Weinstein,Dallas,TX,75248,Stride Healthcare,Executive,350000,1,2025-08-08,2025-08-08,zip,true,1600000,8,7,2026
+Jon Husted,Brian Landow,Bal Harbour,FL,33154,Embe,Executive,350000,1,2026-02-23,2026-02-23,zip,true,2430000,10,10,2026
+Jon Husted,Daniel Loeb,New York,NY,10001,Third Point LLC,Ceo/Cio,350000,1,2026-05-01,2026-05-01,zip,true,21220000,61,42,2024/2026
+Jon Husted,David Orlofsky,Hoboken,NJ,07030,Alix Partners,Consultant,350000,1,2025-10-17,2025-10-17,zip,true,4224900,18,17,2024/2026
+Jon Husted,Diane Franco,Metairie,LA,70005,Retired,Retired,350000,1,2025-03-29,2025-03-29,zip,false,3960000,11,9,2024/2026
+Jon Husted,Ephraim Wernick,Dallas,TX,75229,Vinson & Elkins LLP,Attorney,350000,1,2025-08-18,2025-08-18,zip,true,4950000,21,17,2024/2026
+Jon Husted,Eric Fleiss,Dallas,TX,75201,Regent Properties,Real Estate,350000,1,2025-08-18,2025-08-18,zip,true,4945000,19,16,2024/2026
+Jon Husted,George Solich,Denver,CO,80206,Fourpoint Energy,Chairman & Ceo,350000,1,2026-05-08,2026-05-08,zip,true,3770000,11,11,2024/2026
+Jon Husted,Haim Blecher,Princeton,NJ,08540,Self-Employed,Venture Capital,350000,1,2026-06-02,2026-06-02,zip,false,1440000,4,4,2024/2026
+Jon Husted,Ira Riklis,Atlantic Beach,NY,11509,Sutherland Capital Management,Executive,350000,1,2026-05-18,2026-05-18,zip,true,20020000,54,50,2024/2026
+Jon Husted,Irina Roller,New York,NY,10004,Law Offices Of Irina Roller Pllc,Attorney,350000,1,2026-02-23,2026-02-23,zip,true,4994600,26,21,2024/2026
+Jon Husted,Jacobo Azout,Sunny Isles Beach,FL,33160,Gilazo Management,Real Estate,350000,1,2026-02-20,2026-02-20,zip,false,850000,2,2,2026
+Jon Husted,James Mulvihill,Greenwood Village,CO,80121,"Academy Services, LLC",Real Estate Investment,350000,1,2026-05-04,2026-05-04,zip,true,2980000,9,9,2024/2026
+Jon Husted,Jarrod Beck,Dallas,TX,75230,United Texas Bank,Finance,350000,1,2025-08-08,2025-08-08,zip,true,4045000,15,11,2024/2026
+Jon Husted,Jay Weinstein,Bala Cynwyd,PA,19004,Eisneramper,Cpa,350000,1,2026-05-31,2026-05-31,zip,true,1060000,3,3,2026
+Jon Husted,Jeffrey Gleit,New York,NY,10021,Arentfox Schiff,Attorney,350000,1,2025-10-16,2025-10-16,zip,true,500000,1,1,2026
+Jon Husted,Jerry Bednyak,Glencoe,IL,60022,Skybox Capital,Cofounder,350000,1,2026-04-11,2026-04-11,zip,true,9240000,23,21,2024/2026
+Jon Husted,Jody Forchheimer,Brookline,MA,02446,Retired,Retired,350000,1,2026-05-15,2026-05-15,zip,false,38475500,150,96,2024/2026
+Jon Husted,Jon Diamond,Miami Beach,FL,33154,Parkview Capital Partners,Finance,350000,1,2026-02-02,2026-02-02,zip,true,2510000,11,10,2024/2026
+Jon Husted,Jordan Bryk,Scarsdale,NY,10583,Emc,Investor,350000,1,2025-10-19,2025-10-19,zip,false,650000,2,2,2026
+Jon Husted,Kevin Pailet,Dallas,TX,75254,Marshmclennan Agency,President,350000,1,2025-08-28,2025-08-28,zip,false,5005000,25,21,2024/2026
+Jon Husted,Larry A. Mizel,Greenwood Village,CO,80111,Retired,Retired,350000,1,2026-06-25,2026-06-25,state,false,1980000,6,6,2024
+Jon Husted,Larry Denbrock,Little Elm,TX,75068,Rowley Company,Vice Chairman,350000,1,2025-08-11,2025-08-11,zip,true,5895000,21,19,2024/2026
+Jon Husted,Larry Olschwanger,Dallas,TX,75230,Scrapsource,Founder,350000,1,2025-08-11,2025-08-11,zip,true,7005000,36,23,2024/2026
+Jon Husted,Laurie Klein,Blue Bell,PA,19422,Retired,Retired,350000,1,2026-06-01,2026-06-01,zip,false,350000,1,1,2026
+Jon Husted,Leora Short,Dallas,TX,75230,Skyrise Properties,Attorney,350000,1,2025-08-11,2025-08-11,zip,true,2500000,13,13,2024/2026
+Jon Husted,Leslie Salmon,Sunny Isles Beach,FL,33160,Dezer Development,Finance,350000,1,2026-02-23,2026-02-23,zip,true,3330000,19,16,2024/2026
+Jon Husted,Louis Kaplow,Brookline,MA,02446,Harvard,Academic,350000,1,2026-05-15,2026-05-15,zip,true,28100000,56,51,2024/2026
+Jon Husted,Manny Panar,Silver Spring,MD,20904,Retired,Retired,350000,1,2026-02-23,2026-02-23,zip,false,49340000,110,72,2024/2026
+Jon Husted,Manuel Rajunov,Dallas,TX,75248,Snell & Wilmer LLP,Lawyer,350000,1,2025-08-18,2025-08-18,zip,true,1600000,6,6,2026
+Jon Husted,Martin Geller,New York,NY,10075,Geller And Company,Founder,350000,1,2026-02-23,2026-02-23,zip,true,11140000,35,28,2024/2026
+Jon Husted,Michael Davidson,Sunny Isles Beach,FL,33160,New Amsterdam Pharma,Ceo,350000,1,2026-01-19,2026-01-19,zip,true,930000,8,5,2024/2026
+Jon Husted,Michael Leffell,Scarsdale,NY,10583,Portage Partners,Investor,350000,1,2026-05-11,2026-05-11,zip,true,16820000,57,37,2024/2026
+Jon Husted,Michael Levy,Dallas,TX,75201,Crow Holdings,Ceo,350000,1,2025-08-14,2025-08-14,zip,true,3300000,12,10,2026
+Jon Husted,Michael Zimmermann,Dallas,TX,75287,Green Earth Realty,Real Estate,350000,1,2025-08-18,2025-08-18,zip,true,5145000,20,16,2024/2026
+Jon Husted,Norman Brownstein,Denver,CO,80202,Brownstein,Chairman,350000,1,2026-05-07,2026-05-07,zip,true,13450000,33,31,2024/2026
+Jon Husted,Peter Zieve,Mukilteo,WA,98275,Electroimpact,Engineer,350000,1,2026-06-03,2026-06-03,zip,true,100000,1,1,2024
+Jon Husted,Richard Lipsey,Baton Rouge,LA,70809,Lipsey'S,Wholesale,350000,1,2026-02-23,2026-02-23,zip,true,6840000,42,34,2024/2026
+Jon Husted,Steven Price,Miami Beach,FL,33154,Townsquare Media,Business,350000,1,2026-01-26,2026-01-26,zip,true,1100000,3,2,2024/2026
+Jon Husted,Susan Diamond,Miami Beach,FL,33154,Js Diamond Enterprises,Manager,350000,1,2026-02-20,2026-02-20,zip,true,650000,2,2,2026
+Jon Husted,Tammam Obeid,Dallas,TX,75209,Stridecare,Vascular Surgeon,350000,1,2025-08-09,2025-08-09,zip,true,1500000,6,6,2026
+Jon Husted,Thomas Brener,New York,NY,10028,"Quadrant Capital Advisors, Inc.",Managing Director,350000,1,2025-09-16,2025-09-16,zip,true,2750000,9,9,2024/2026
+Jon Husted,Tony Davis,Chicago,IL,60610,Linden Capital Partners,Investor,350000,1,2026-06-05,2026-06-05,zip,true,19964400,76,56,2024/2026
+Jon Husted,Trevor Pearlman,Dallas,TX,75220,Tregan Partners,Venture Capital,350000,1,2025-08-11,2025-08-11,zip,true,6175000,24,15,2024/2026
+Jon Husted,William Glazer,Gladwyne,PA,19035,Keystone Property Group,Real Estate,350000,1,2026-05-04,2026-05-04,zip,false,300000,5,5,2026
+Jon Husted,Y. David Scharf,New York,NY,10024,Morrison Cohen LLP,Lawyer,350000,1,2025-11-28,2025-11-28,zip,true,3180000,17,15,2024
+Jon Husted,James Groch,Merion Station,PA,19066,"Groch Enterprises, LLC",Owner,300000,1,2026-06-04,2026-06-04,zip,true,500000,2,2,2024/2026
+Jon Husted,Joe Lieberman,Cedarhurst,NY,11516,Self-Employed,Lawyer,300000,2,2026-05-04,2026-05-04,zip,false,800000,5,4,2026
+Jon Husted,Michael Melnicke,Brooklyn,NY,11204,M2 Management,Healthcare,300000,1,2026-05-06,2026-05-06,zip,true,300000,1,1,2026
+Jon Husted,Paul Glazer,New York,NY,10024,"Glazer Capital, LLC",Ceo,300000,1,2026-05-04,2026-05-04,zip,true,300000,1,1,2026
+Jon Husted,Randy Nichols,Denver,CO,80202,Nichols Partnership,Real Estate Development,300000,1,2026-04-21,2026-04-21,zip,true,300000,1,1,2026
+Jon Husted,Robert Goldberg,Cleveland,OH,44124,Retired,Retired,300000,2,2026-02-12,2026-06-30,zip,false,1400000,10,9,2024/2026
+Jon Husted,Adam Steinberg,New York,NY,10022,Moelis & Company,Investment Bank,250000,1,2025-10-09,2025-10-09,zip,true,250000,1,1,2026
+Jon Husted,Adam Waldman,Irvington,NY,10533,Portage Point Partners,Investment Banker,250000,1,2025-10-16,2025-10-16,zip,true,1050000,7,7,2026
+Jon Husted,Alan Hilibrand,Merion Station,PA,19066,The Rothman Institute,Orthopaedic Surgeon,250000,1,2026-05-19,2026-05-19,zip,true,450000,2,2,2026
+Jon Husted,Alan Weissman,Rye,NY,10580,Awre,Real Estate,250000,1,2026-02-23,2026-02-23,zip,true,4791000,24,18,2024/2026
+Jon Husted,Ari Lefkovits,Greenwich,CT,06831,Delos Capital,Finance,250000,1,2025-10-01,2025-10-01,zip,true,2798400,15,11,2024/2026
+Jon Husted,Carl Cohen,Beachwood,OH,44122,Retired,Retired,250000,2,2026-01-23,2026-02-13,zip,false,5050000,36,29,2024/2026
+Jon Husted,David Chasen,New York,NY,10128,Self-Employed,Finance,250000,1,2025-10-16,2025-10-16,zip,false,1000000,4,4,2026
+Jon Husted,Jeffrey J. Wild,Beachwood,OH,44122,Benesch Attorneys At Law,Attorney,250000,1,2026-01-30,2026-01-30,zip,false,1280000,4,4,2024/2026
+Jon Husted,Kenneth Cohen,Cincinnati,OH,45237,Cohen Holdings Inc,Ceo,250000,1,2025-08-01,2025-08-01,zip,false,300000,3,3,2026
+Jon Husted,Robert Hirsh,Demarest,NJ,07627,Norton Rose Fulbright LLP,Attorney,250000,1,2025-10-09,2025-10-09,zip,true,250000,1,1,2026
+Jon Husted,Steven H. Erlbaum,Ardmore,PA,19003,Regency Group,Real Estate,250000,1,2026-03-31,2026-03-31,zip,false,750000,6,5,2024/2026
+Jon Husted,Steven Shenker,Englewood,NJ,07631,Portage Point Partners,Financial Advisor,250000,1,2025-10-07,2025-10-07,zip,true,400000,2,2,2026
+Jon Husted,Yale Baron,Teaneck,NJ,07666,Anchorage Capital,Finance,250000,1,2025-10-19,2025-10-19,zip,true,1550000,5,5,2026
+Jon Husted,Aaron Jungreis,Lawrence,NY,11559,Rosewood Realty Group Inc.,President,200000,1,2026-05-05,2026-05-05,zip,true,2130000,10,10,2024/2026
+Jon Husted,Aliza Schwab,Lawrence,NY,11559,Retired,Retired,200000,1,2026-05-04,2026-05-04,zip,false,600000,3,3,2026
+Jon Husted,Andrew Klein,Greenwood Village,CO,80111,Westside Investment Partners Inc,Ceo,200000,1,2026-04-20,2026-04-20,zip,true,450000,2,2,2026
+Jon Husted,Ari Dobkin,Lakewood,NJ,08701,Nexum Partners LLC,Founder,200000,1,2026-05-04,2026-05-04,zip,true,800000,4,4,2026
+Jon Husted,Bill Gray,Plantation,FL,33325,76undefeated,Manager,200000,1,2026-02-23,2026-02-23,zip,false,348100,13,13,2024
+Jon Husted,Brent Morse,Denver,CO,80206,Morenergy,Owner,200000,1,2026-05-08,2026-05-08,zip,true,1200000,6,6,2024/2026
+Jon Husted,Bret A. Caller,Cincinnati,OH,45236,Viking,Real Estate,200000,1,2025-08-13,2025-08-13,zip,false,3430000,22,18,2024/2026
+Jon Husted,Brian Dror,Los Angeles,CA,90036,Self-Employed,Cpa,200000,1,2026-05-04,2026-05-04,zip,false,5680000,24,21,2024/2026
+Jon Husted,Bruce Etkin,Aspen,CO,81611,Etkin Johnson Real Estate Partners,Chairman,200000,1,2026-05-07,2026-05-07,zip,true,2600000,20,20,2024/2026
+Jon Husted,Chuck Bellock,Boulder,CO,80302,Community Development Group,Real Estate,200000,1,2026-05-01,2026-05-01,zip,true,3550000,18,16,2024/2026
+Jon Husted,Daniel Dunkelman,Los Angeles,CA,90048,Cedars Towers Surgical Group Inc,Physician,200000,1,2026-02-23,2026-02-23,zip,true,1700000,9,9,2024/2026
+Jon Husted,David Amkraut,Los Angeles,CA,90041,Self-Employed,Attorney,200000,1,2026-02-23,2026-02-23,zip,false,1270000,9,9,2024/2026
+Jon Husted,David Lichtenstein,Lakewood,NJ,08701,Lightstone Group,Executive,200000,1,2026-05-04,2026-05-04,zip,true,1600000,8,8,2024/2026
+Jon Husted,Elliott Mandelbaum,Lawrence,NY,11559,Eagle Arc Partners LLC,Investment Management,200000,1,2026-05-06,2026-05-06,zip,true,800000,4,4,2024/2026
+Jon Husted,Eric Senderowicz,Great Neck,NY,11021,Reddy Raw Inc.,Ceo,200000,1,2026-02-23,2026-02-23,zip,true,6112500,20,19,2024/2026
+Jon Husted,Eugene Ehrenfeld,Lawrence,NY,11559,Self-Employed,Real Estate,200000,1,2026-05-04,2026-05-04,zip,false,2000000,10,10,2024/2026
+Jon Husted,Galina Moerdler,Fair Lawn,NJ,07410,Self-Employed,Consultant,200000,1,2026-05-11,2026-05-11,zip,false,1350000,8,7,2024/2026
+Jon Husted,Gary E. Erlbaum,Ardmore,PA,19003,Retired,Retired,200000,1,2026-03-31,2026-03-31,zip,false,7900000,49,30,2024/2026
+Jon Husted,Gittel Hilibrand,Merion Station,PA,19066,Mah Associates LLC,Attorney,200000,1,2026-06-08,2026-06-08,zip,true,1500000,6,6,2024/2026
+Jon Husted,Harrison Denman,New York,NY,10075,White & Case,Lawyer,200000,1,2025-09-12,2025-09-12,zip,true,820000,5,5,2024/2026
+Jon Husted,Herbert Donner,Manhasset,NY,11030,Adi Management Inc.,Real Estate Management,200000,1,2026-05-18,2026-05-18,zip,true,1000000,6,6,2024/2026
+Jon Husted,Jacques Blinbaum,New York,NY,10022,Old Court Group,Executive,200000,1,2026-02-23,2026-02-23,zip,true,8320277,28,23,2024/2026
+Jon Husted,James Sprayregen,Glencoe,IL,60022,Hilco Global,Vice Chairman,200000,1,2026-02-23,2026-02-23,zip,true,12434283,68,54,2024/2026
+Jon Husted,Jay Davis,Atlanta,GA,30327,Ndc,Executive,200000,1,2026-02-23,2026-02-23,zip,true,3710000,13,12,2024/2026
+Jon Husted,Jeffrey Weiskopf,Monsey,NY,10952,White Eagle Property,Ceo/Chairman,200000,1,2026-05-04,2026-05-04,zip,true,1800000,9,9,2024/2026
+Jon Husted,Jeremy Lieberman,Flushing,NY,11367,Pomerantz LLP,Attorney,200000,1,2026-05-04,2026-05-04,zip,true,1250000,6,6,2024/2026
+Jon Husted,Jon Banks,Beverly Hills,CA,90210,Retired,Retired,200000,1,2026-02-12,2026-02-12,zip,false,500000,2,2,2026
+Jon Husted,Jonathan Slass,Warren,NJ,07059,Rotor Clip,Manager,200000,1,2026-02-23,2026-02-23,zip,true,6989700,34,26,2024/2026
+Jon Husted,Ken Kahan,Los Angeles,CA,90025,California Landmark,Real Estate Developer,200000,1,2026-02-23,2026-02-23,zip,true,4500000,19,19,2026
+Jon Husted,Larry Genet,Fort Lauderdale,FL,33312,Cbre,Real Estate,200000,1,2026-02-23,2026-02-23,zip,true,8021300,44,33,2024/2026
+Jon Husted,Leland Alpert,Cherry Hills Villa,CO,80113,Lee Alpert And Company,Ceo,200000,1,2026-05-07,2026-05-07,zip,true,2400000,13,13,2026
+Jon Husted,Mark Silber,Lawrence,NY,11559,Renaissance Technologies,Executive,200000,1,2026-05-04,2026-05-04,zip,true,1600000,8,8,2024/2026
+Jon Husted,Max Berlin,Detroit,MI,48226,Self-Employed,Technology,200000,1,2026-05-11,2026-05-11,zip,false,2000000,10,10,2024/2026
+Jon Husted,Michael Feiner,Greenwood Village,CO,80111,Fei,Real Estate,200000,2,2026-04-21,2026-05-05,zip,true,4080000,36,30,2024/2026
+Jon Husted,Michael Netzer,Lakewood,NJ,08701,Concordia Properties,President,200000,1,2026-05-05,2026-05-05,zip,true,1400000,7,7,2024/2026
+Jon Husted,Nanette Wolf,Brooklyn,NY,11204,Retired,Retired,200000,1,2026-05-04,2026-05-04,zip,false,2000000,10,10,2024/2026
+Jon Husted,Ned Sadaka,Surfside,FL,33154,Retired,Retired,200000,1,2026-01-22,2026-01-22,zip,false,200000,1,1,2026
+Jon Husted,Ralph Herzka,Brooklyn,NY,11210,Meridian Capital Group,Chairman,200000,1,2026-05-04,2026-05-04,zip,true,2000000,10,10,2024/2026
+Jon Husted,Robert Hartman,Chicago,IL,60659,Nucare Services Corp,Healthcare,200000,1,2026-05-04,2026-05-04,zip,true,1800000,9,9,2024/2026
+Jon Husted,Ronald M. Rettner,Jacksonville,FL,32216,Rettner Management,President,200000,1,2026-03-28,2026-03-28,state,false,200000,1,1,2026
+Jon Husted,Ronald Wilheim,Cincinnati,OH,45237,Communicare,Vice President,200000,1,2026-05-04,2026-05-04,zip,true,1400000,8,6,2024/2026
+Jon Husted,Samuel Rieder,Brooklyn,NY,11210,Rieder Communities,Real Estate Investments,200000,1,2026-05-04,2026-05-04,zip,true,1800000,9,9,2024/2026
+Jon Husted,Shlomo Troodler,Merion Station,PA,19066,Blank Rome LLP,Attorney,200000,1,2026-05-25,2026-05-25,zip,true,1260000,6,6,2026
+Jon Husted,Solomon Werdiger,Rahway,NJ,07065,Outerstuff,President,200000,1,2026-05-04,2026-05-04,zip,true,2000000,10,9,2024/2026
+Jon Husted,Stephen Rosedale,Cincinnati,OH,45237,Communicare,Executive,200000,1,2026-05-04,2026-05-04,zip,true,2850000,19,13,2024/2026
+Jon Husted,Yehuda Neuberger,Pikesville,MD,21208,Self-Employed,Finance Professional,200000,1,2026-05-04,2026-05-04,zip,false,26695000,143,105,2024/2026
+Jon Husted,Yisroel Meir Wolmark,Lawrence,NY,11559,Golden Steps,Ceo,200000,1,2026-05-05,2026-05-05,zip,true,1400000,7,6,2024/2026
+Jon Husted,Yisroel Rothstein,Lakewood,NJ,08701,Madison Title,Executive,200000,1,2026-05-04,2026-05-04,zip,true,1600000,8,8,2024/2026
+Jon Husted,Adam Levin,Marina Del Rey,CA,90292,Fiesta Events Inc,Entrepreneur,150000,1,2026-02-23,2026-02-23,zip,true,550000,3,3,2026
+Jon Husted,Daniel Kessler,Solon,OH,44139,Csss LLC,Executive,150000,1,2026-02-13,2026-02-13,zip,true,3380000,20,15,2024/2026
+Jon Husted,Ezra Katz,Miami,FL,33133,Aztec Group Inc.,Real Estate,150000,1,2026-02-17,2026-02-17,zip,true,1250000,8,8,2024/2026
+Jon Husted,Gerald Zoldan,Chicago,IL,60611,Retired,Retired,150000,2,2026-02-23,2026-06-03,zip,false,3405000,48,35,2024/2026
+Jon Husted,Michael I. Siegal,Beachwood,OH,44122,"Olympic Steel, Inc.",Executive Chairman,150000,1,2026-02-09,2026-02-09,zip,true,200000,2,2,2026
+Jon Husted,Russ Robinson,Houston,TX,77024,Global Steel Dust,Ceo,150000,1,2026-02-23,2026-02-23,zip,true,5080000,18,14,2024/2026
+Jon Husted,Clara Miller,Greenwich,CT,06831,Clara Spalter Miller,Private Investments,125000,1,2026-02-23,2026-02-23,zip,true,1700000,11,11,2024/2026
+Jon Husted,Abbie Friedman,Las Vegas,NV,89135,Retired,Retired,100000,1,2026-02-23,2026-02-23,zip,false,2950000,16,11,2024/2026
+Jon Husted,Adele Jacobs,Fairfield,CT,06825,Jacobs & Wallace Pllc,Attorney,100000,1,2026-02-23,2026-02-23,zip,false,1564000,19,19,2024/2026
+Jon Husted,Alan Kuhel,Sunny Isles Beach,FL,33160,Retired,Retired,100000,1,2026-01-20,2026-01-20,zip,false,100000,1,1,2026
+Jon Husted,Alex Amin,Los Angeles,CA,90024,Casting Networks,Co-Ceo,100000,1,2026-02-23,2026-02-23,zip,true,1660000,6,5,2026
+Jon Husted,Alexander Goldstein,Coral Gables,FL,33146,"Eligo Energy, LLC",Executive Chairman,100000,1,2026-02-23,2026-02-23,zip,true,1475000,9,8,2024/2026
+Jon Husted,Amy Graiwer,Los Angeles,CA,90064,Retired,Retired,100000,1,2026-02-23,2026-02-23,zip,false,3290000,26,20,2024/2026
+Jon Husted,Andrew Lappin,Glencoe,IL,60022,Retired,Retired,100000,1,2026-04-28,2026-04-28,zip,false,8325000,48,44,2024/2026
+Jon Husted,Ann Pava,West Hartford,CT,06117,Retired,Retired,100000,1,2026-02-23,2026-02-23,zip,false,6200000,37,25,2024/2026
+Jon Husted,Anna Massion,Greenwich,CT,06830,Self-Employed,Self-Employed,100000,1,2026-02-23,2026-02-23,zip,false,2411600,15,14,2026
+Jon Husted,Barry Silverman,Aventura,FL,33180,Self-Employed,Md,100000,1,2026-01-23,2026-01-23,zip,false,3775000,28,27,2024/2026
+Jon Husted,Benjamin Diament,North Bend,WA,98045,Retired,Retired,100000,1,2026-02-23,2026-02-23,zip,false,2850000,18,15,2024/2026
+Jon Husted,Benjamin Genet,Hollywood,FL,33021,Self-Employed,Real Estate,100000,1,2026-01-30,2026-01-30,zip,false,9250000,17,15,2024/2026
+Jon Husted,Beth Kuhel,Sunny Isles Beach,FL,33160,Self-Employed,Executive Coach,100000,1,2026-01-20,2026-01-20,zip,false,100000,1,1,2026
+Jon Husted,Brett Hersh,Gladwyne,PA,19035,Empire Promos.Com,Executive,100000,1,2026-02-23,2026-02-23,zip,true,380000,4,4,2026
+Jon Husted,Bruce Ettelson,Glencoe,IL,60022,Kirkland & Ellis LLP,Attorney,100000,1,2026-06-15,2026-06-15,zip,true,7154400,46,37,2024/2026
+Jon Husted,Burton Katzen,West Palm Beach,FL,33412,Retired,Retired,100000,1,2026-02-23,2026-02-23,zip,false,700000,8,8,2026
+Jon Husted,Craig Zalk,Tulsa,OK,74114,Retired,Retired,100000,1,2026-02-23,2026-02-23,zip,false,200000,2,2,2026
+Jon Husted,Daniel Erlbaum,Merion Station,PA,19066,Finch Brands,Business,100000,1,2026-06-01,2026-06-01,zip,true,500000,4,4,2026
+Jon Husted,Daniel Hamburger,Sarasota,FL,34234,Retired,Retired,100000,1,2026-06-09,2026-06-09,zip,false,2805000,23,23,2024/2026
+Jon Husted,Daniel Och,Greenwich,CT,06830,Willoughby Capital Holdings,Founder,100000,1,2026-01-20,2026-01-20,zip,true,16010000,7,6,2024/2026
+Jon Husted,David Barish,Sugar Land,TX,77479,Chair King Backyard Store,Executive,100000,1,2026-03-23,2026-03-23,zip,true,1850000,20,14,2024/2026
+Jon Husted,David Kriesman,Highland Park,IL,60035,Retired,Retired,100000,1,2026-06-08,2026-06-08,zip,false,700000,6,6,2026
+Jon Husted,David Margules,Philadelphia,PA,19146,Ballard Spahr,Lawyer,100000,1,2026-02-23,2026-02-23,zip,true,4575000,38,27,2024/2026
+Jon Husted,David Merage,Englewood,CO,80111,Consolidated Investment Group,Ceo,100000,1,2026-04-29,2026-04-29,zip,true,200000,2,2,2026
+Jon Husted,David Ross,Winnetka,IL,60093,Compass Lexecon,Economist,100000,1,2026-06-05,2026-06-05,zip,true,3250000,30,27,2024/2026
+Jon Husted,David Weiner,Los Angeles,CA,90064,Js Held,Economist,100000,1,2026-02-23,2026-02-23,zip,true,1400000,8,6,2024/2026
+Jon Husted,Douglas Gessner,Glenview,IL,60025,Kirkland & Ellis LLP,Lawyer,100000,1,2026-02-23,2026-02-23,zip,true,12500000,44,38,2024/2026
+Jon Husted,Elizabeta Shacket,Coral Springs,FL,33065,Retired,Retired,100000,1,2026-02-23,2026-02-23,zip,false,2530000,21,14,2024/2026
+Jon Husted,Ellen Calmas,Chestnut Hill,MA,02467,Self-Employed,Marketing,100000,1,2026-02-23,2026-02-23,zip,false,3487000,40,28,2024/2026
+Jon Husted,Ellis Norsoph,Boca Raton,FL,33496,Self-Employed,Physician,100000,1,2026-02-23,2026-02-23,zip,false,1825000,23,21,2024/2026
+Jon Husted,Emily Reiner,Gladwyne,PA,19035,Retired,Retired,100000,1,2026-02-23,2026-02-23,zip,false,200000,2,2,2026
+Jon Husted,Eric Waxman,Los Angeles,CA,90049,Ares Management LLC,Partner,100000,1,2026-06-29,2026-06-29,zip,true,5350000,33,27,2024/2026
+Jon Husted,Gary Applebaum,Pasadena,MD,21122,Retired,Retired,100000,1,2026-02-23,2026-02-23,zip,false,1468000,16,14,2024/2026
+Jon Husted,Gary Greenberg,Cincinnati,OH,45208,Retired,Retired,100000,1,2026-02-23,2026-02-23,zip,false,1470000,17,12,2024/2026
+Jon Husted,Gary Javitch,Omaha,NE,68114,Retired,Retired,100000,1,2026-02-23,2026-02-23,zip,false,1110000,32,16,2024/2026
+Jon Husted,Gary Kaufman,New York,NY,10016,Self-Employed,Lawyer,100000,1,2026-05-06,2026-05-06,zip,false,75000,3,2,2024/2026
+Jon Husted,Gerald Greenspoon,Fort Lauderdale,FL,33301,"Greenspoon Marder, LLP",Lawyer,100000,1,2026-01-20,2026-01-20,zip,true,120000,2,2,2026
+Jon Husted,Gideon Naim,Penn Valley,PA,19072,Retired,Retired,100000,1,2026-02-23,2026-02-23,zip,false,2175000,36,32,2024/2026
+Jon Husted,Gregory Segall,Philadelphia,PA,19118,"Versa Capital Group, LLC",Chairman,100000,1,2026-05-11,2026-05-11,zip,true,200000,2,2,2026
+Jon Husted,Howard Draft,Sandy Springs,GA,30339,Retired,Retired,100000,1,2026-01-20,2026-01-20,zip,false,100000,1,1,2026
+Jon Husted,Howard Fingeroot,Sylvan Lake,MI,48320,Self-Employed,Real Estate Developer,100000,1,2026-02-23,2026-02-23,zip,false,1400000,10,9,2024/2026
+Jon Husted,Howard Oppenheimer,Saint Louis,MO,63132,Delmar Gardens Management Services,Exec,100000,1,2026-02-23,2026-02-23,zip,true,1435000,15,11,2024/2026
+Jon Husted,Jacob Diamond,Bay Harbor Islands,FL,33154,Self-Employed,Real Estate,100000,1,2026-02-24,2026-02-24,zip,false,1550000,7,6,2026
+Jon Husted,Jason Hersh,Maple Glen,PA,19002,Klein Hersh,Ceo,100000,1,2026-02-23,2026-02-23,zip,true,730000,5,4,2026
+Jon Husted,Jason Muss,Forest Hills,NY,11375,Muss Development LLC,Ceo,100000,1,2026-05-05,2026-05-05,zip,true,2535000,15,11,2024/2026
+Jon Husted,Jay Martus,Deerfield Beach,FL,33443,Mfal Consulting,Managing Partner,100000,1,2026-02-23,2026-02-23,zip,true,6300000,30,25,2026
+Jon Husted,Jeff Cohen,Chicago,IL,60645,Retired,Retired,100000,1,2026-01-23,2026-01-23,zip,false,4700000,35,27,2024/2026
+Jon Husted,Jeremy Abelson,Englewood,CO,80113,Irving Investors,Principal,100000,1,2026-05-04,2026-05-04,zip,true,1850000,15,15,2024/2026
+Jon Husted,Jesse Sharf,Santa Monica,CA,90402,Gibson,Attorney,100000,1,2026-02-23,2026-02-23,zip,true,6280000,26,23,2024/2026
+Jon Husted,Jillian Gliksberg,Fort Lauderdale,FL,33312,Retired,Retired,100000,1,2026-02-20,2026-02-20,zip,false,1371000,9,8,2024/2026
+Jon Husted,Jon Weber,New York,NY,10023,"Jon F Weber & Co., LLC",Managing Member,100000,1,2026-02-23,2026-02-23,zip,true,1986700,14,12,2024/2026
+Jon Husted,Jonathan Missner,Potomac,MD,20854,Stein Mitchell Beato & Missner,Attorney,100000,1,2026-02-23,2026-02-23,zip,true,2750000,24,22,2024/2026
+Jon Husted,Jordan Friedman,Los Angeles,CA,90064,Guard,Financial Advisor,100000,1,2026-02-23,2026-02-23,zip,true,200000,2,2,2026
+Jon Husted,Jordan Levy,Miami Beach,FL,33139,Softbank Capital Ny,Venture Capitalist,100000,1,2026-01-21,2026-01-21,zip,true,2940000,17,13,2024/2026
+Jon Husted,Jorey Chernett,Bloomfield Hills,MI,48301,Self-Employed,Executive,100000,1,2026-02-23,2026-02-23,zip,false,1410000,8,7,2026
+Jon Husted,Joseph Coughlin,North Palm,FL,33408,"Crs, LLC",Ceo,100000,1,2026-02-23,2026-02-23,zip,true,200000,2,2,2026
+Jon Husted,Joseph Czyzyk,Rolling Hills,CA,90274,Mercury Aviation Companies LLC,Ceo,100000,1,2026-02-23,2026-02-23,zip,true,1150000,6,4,2026
+Jon Husted,Josh Diamond,Bay Harbor Islands,FL,33154,Diamond Realty,Real Estate,100000,1,2026-02-20,2026-02-20,zip,false,200000,2,2,2026
+Jon Husted,Joshua Katzen,Newton,MA,02458,Self-Employed,Investor,100000,1,2026-02-23,2026-02-23,zip,false,1050000,11,10,2024/2026
+Jon Husted,Kaylen Silverberg,Austin,TX,78731,Tx Fertility,Doctor,100000,1,2026-02-23,2026-02-23,zip,true,1230000,7,7,2024/2026
+Jon Husted,Kerrin Behrend,Stamford,CT,06902,Retired,Retired,100000,1,2026-02-23,2026-02-23,zip,false,2050000,13,13,2024/2026
+Jon Husted,Lawrence Elins,Los Angeles,CA,90024,Retired,Retired,100000,1,2026-04-14,2026-04-14,zip,false,650000,3,3,2026
+Jon Husted,Linda Weisenberg,Lyndhurst,OH,44124,Retired,Retired,100000,1,2026-02-23,2026-02-23,zip,false,650000,6,6,2026
+Jon Husted,Liz Waters,Santa Monica,CA,90402,Retired,Retired,100000,1,2026-02-23,2026-02-23,zip,false,2040000,7,6,2026
+Jon Husted,Lowell Roger Hutson,Denver,CO,80202,"Hrm Resources IV, LLC",Ceo,100000,1,2026-05-07,2026-05-07,zip,true,1650000,9,9,2024/2026
+Jon Husted,Mark Aeder,Beachwood,OH,44122,University Hospitals,Physician,100000,1,2026-02-16,2026-02-16,zip,true,1050000,11,9,2024/2026
+Jon Husted,Mark Goldhaber,Raleigh,NC,27612,Retired,Retired,100000,1,2026-02-23,2026-02-23,zip,false,3125000,27,15,2024/2026
+Jon Husted,Mark Schwartzman,Glen Burnie,MD,21061,Glen Burnie Transmissions,Owner,100000,1,2026-02-23,2026-02-23,zip,true,1400000,8,8,2026
+Jon Husted,Martin Craig,Chicago,IL,60601,Retired,Retired,100000,1,2026-06-19,2026-06-19,zip,false,2860000,23,20,2024/2026
+Jon Husted,Martin Taylor,Owings Mills,MD,21117,"Nccc, LLC",Manager,100000,1,2026-02-23,2026-02-23,zip,false,150000,2,2,2026
+Jon Husted,Michael Cassel,New York,NY,10019,"Wachtell, Lipton, Rosen & Katz",Attorney,100000,1,2026-02-23,2026-02-23,zip,true,1250000,5,5,2026
+Jon Husted,Michael Haas,Pepper Pike,OH,44124,Latham & Watkins,Attorney,100000,1,2026-02-10,2026-02-10,zip,true,2010000,11,9,2024/2026
+Jon Husted,Michael Kassen,Westport,CT,06880,Self-Employed,Investor,100000,1,2026-02-23,2026-02-23,zip,false,17500000,78,61,2024/2026
+Jon Husted,Michael Zusman,Sunny Isles Beach,FL,33160,Retired,Retired,100000,1,2026-01-20,2026-01-20,zip,false,2150000,17,15,2024/2026
+Jon Husted,Naomi Hochman,Playa Del Rey,CA,90293,Self-Employed,Marketing Consultant,100000,1,2026-02-23,2026-02-23,zip,false,3397500,22,18,2024/2026
+Jon Husted,Neil A. Cooper,Conshohocken,PA,19428,Royer Cooper Cohen Braunfeld LLC,Attorney,100000,1,2026-06-02,2026-06-02,zip,true,530000,5,5,2024/2026
+Jon Husted,Norma Lerner,Chagrin Falls,OH,44022,Homemaker,Homemaker,100000,2,2026-05-22,2026-06-29,zip,false,200000,1,1,2024
+Jon Husted,Paul Meyer,Bexley,OH,43209,Self-Employed,Real Estate,100000,1,2026-04-16,2026-04-16,zip,false,648000,9,8,2024/2026
+Jon Husted,Peter Hochfelder,Miami Beach,FL,33140,Retired,Retired,100000,1,2026-01-20,2026-01-20,zip,false,100000,1,1,2026
+Jon Husted,Phil De Toledo,Sherman Oaks,CA,91423,"Capital Group Companies, Inc",Manager,100000,1,2026-02-23,2026-02-23,zip,true,16430000,33,32,2026
+Jon Husted,Philip Darivoff,Short Hills,NJ,07078,Vibrant Capital Partners,Chairman,100000,1,2026-02-23,2026-02-23,zip,true,43625000,90,65,2024/2026
+Jon Husted,Philip H. Cohen,Miami Beach,FL,33139,Retired,Retired,100000,1,2026-02-23,2026-02-23,zip,false,1166000,30,27,2024/2026
+Jon Husted,R. Stanton Dodge,Castle Rock,CO,80108,Draftkings,Attorney,100000,1,2026-05-07,2026-05-07,zip,true,350000,1,1,2026
+Jon Husted,Rachel Geller Groner,Baltimore,MD,21209,Retired,Retired,100000,1,2026-02-23,2026-02-23,zip,false,1250000,15,14,2024/2026
+Jon Husted,Rafi Gordon,Marina Del Rey,CA,90292,Casting Networks,Co-Ceo,100000,1,2026-02-23,2026-02-23,zip,true,5010000,22,19,2024/2026
+Jon Husted,Richard K. Pogin,Fort Myers,FL,33908,Retired,Retired,100000,1,2026-03-31,2026-03-31,zip,false,350000,4,4,2024/2026
+Jon Husted,Richard Porter,Northfield,IL,60093,Retired,Retired,100000,1,2026-06-17,2026-06-17,zip,false,1050000,11,9,2024/2026
+Jon Husted,Richard Porter,Chicago,IL,60654,Retired,Retired,100000,1,2026-03-16,2026-03-16,state,false,1050000,11,9,2024/2026
+Jon Husted,Rob Medway,Park City,UT,84060,Mflp,Investments,100000,1,2026-02-23,2026-02-23,zip,true,2730000,28,24,2024/2026
+Jon Husted,Robert Costrell,Fayetteville,AR,72704,Retired,Retired,100000,1,2026-02-23,2026-02-23,zip,false,650000,14,10,2024/2026
+Jon Husted,Robert Diener,Indian Creek Villa,FL,33154,Tfn,Executive,100000,1,2026-01-19,2026-01-19,zip,true,5802000,26,23,2024/2026
+Jon Husted,Ronnie Agami,Atlanta,GA,30327,Universal Diamonds,Sales,100000,1,2026-02-23,2026-02-23,zip,true,150000,1,1,2026
+Jon Husted,Ross Kogon,Atlanta,GA,30360,Pull-A-Part,Ceo,100000,1,2026-02-23,2026-02-23,zip,true,5650000,37,29,2024/2026
+Jon Husted,Scott Becker,Glencoe,IL,60022,Beckers Healthcare And Mcguirewoods,Lawyer Entrepreneur,100000,2,2026-05-05,2026-06-22,zip,true,7930000,98,64,2024/2026
+Jon Husted,Scott W. Schiff,Columbus,OH,43209,Schiff & Assoc. Co. Lpa,Attorney,100000,1,2026-01-23,2026-01-23,zip,false,100000,1,1,2026
+Jon Husted,Shelly Gerson,Cincinnati,OH,45237,Retired,Retired,100000,1,2026-02-23,2026-02-23,zip,false,2700000,14,8,2024/2026
+Jon Husted,Simeon Fensterheim,Boca Raton,FL,33433,Retired,Retired,100000,1,2026-02-23,2026-02-23,zip,false,1400000,18,16,2024/2026
+Jon Husted,Steve Baldinger,Mendota Heights,MN,55118,Retired,Retired,100000,1,2026-02-23,2026-02-23,zip,false,1480000,8,8,2024/2026
+Jon Husted,Steve Perles,Miami Beach,FL,33140,"The Perles Law Firm, PC",Attorney,100000,1,2025-05-16,2025-05-16,zip,true,1150000,13,13,2024/2026
+Jon Husted,Steven Wertheim,Atlanta,GA,30328,Retired,Retired,100000,1,2026-02-23,2026-02-23,zip,false,6230000,40,31,2024/2026
+Jon Husted,Steven Wildstein,Glen Head,NY,11545,Retired,Retired,100000,1,2026-06-22,2026-06-22,zip,false,2160000,42,29,2024/2026
+Jon Husted,Stuart Brod,Long Branch,NJ,07740,Self-Employed,Attorney,100000,1,2026-02-23,2026-02-23,zip,false,2250000,57,43,2024/2026
+Jon Husted,Susan Bender,Houston,TX,77024,Retired,Retired,100000,1,2026-02-23,2026-02-23,zip,false,5500000,20,17,2024/2026
+Jon Husted,Susan Feigenbaum,Chesterfield,MO,63017,Retired,Retired,100000,1,2026-02-20,2026-02-20,zip,false,1300000,9,4,2024/2026
+Jon Husted,Vera Markowitz,Beverly Hills,CA,90210,Retired,Retired,100000,1,2026-06-26,2026-06-26,zip,false,15205000,116,71,2024/2026
+Jon Husted,Victor Kohn,Encino,CA,91436,Retired,Retired,100000,1,2026-02-23,2026-02-23,zip,false,39930000,89,67,2024/2026
+Jon Husted,William H. Heller,Boca Raton,FL,33496,Retired,Retired,100000,1,2026-02-16,2026-02-16,zip,false,450000,5,5,2024/2026
+Jon Husted,Bruce Werner,Lincolnshire,IL,60069,Self-Employed,Self-Employed,75000,1,2026-06-24,2026-06-24,zip,false,2648000,62,48,2024/2026
+Jon Husted,Robert Nepple,Minneapolis,MN,55401,Retired,Retired,57600,22,2025-08-31,2026-05-17,zip,false,2500,1,1,2024
+Jon Husted,Alan Nussenblatt,Calabasas,CA,91302,Retired,Retired,50000,1,2026-05-07,2026-05-07,zip,false,1600000,30,29,2024/2026
+Jon Husted,Bruce Weininger,Heber City,UT,84036,Kovitz Investment Group,Consultant,50000,1,2026-06-23,2026-06-23,zip,true,3422000,65,47,2024/2026
+Jon Husted,Elliott Joseph,Jamaica,NY,11432,Retired,Retired,50000,1,2026-03-26,2026-03-26,zip,false,1350000,21,14,2024/2026
+Jon Husted,Eric Ingerman,Solon,OH,44139,Oxford Harriman,Financial Advisor,50000,1,2026-02-16,2026-02-16,zip,true,250000,5,5,2024/2026
+Jon Husted,Erik Cooper,Beachwood,OH,44122,Self-Employed,Doctor,50000,1,2026-01-26,2026-01-26,zip,false,850000,52,34,2024/2026
+Jon Husted,Isaac Jonas,New Rochelle,NY,10804,Loews Corp.,Investor,50000,1,2025-10-06,2025-10-06,zip,true,487500,11,11,2024/2026
+Jon Husted,Jack Levin,Winnetka,IL,60093,Kirkland & Ellis,Attorney,50000,1,2026-06-10,2026-06-10,zip,true,7530000,33,26,2024/2026
+Jon Husted,Jan Saperstein,Atlanta,GA,30342,Seam,Commercial Re Investor,50000,1,2026-02-23,2026-02-23,zip,true,1850000,19,17,2024/2026
+Jon Husted,Jason Peltz,Glencoe,IL,60022,Bartlit Beck,Attorney,50000,1,2026-06-09,2026-06-09,zip,true,7632777,60,47,2024/2026
+Jon Husted,Jason Rhodes,Newton,MA,02458,Atlas Venture,Biotech,50000,1,2026-05-14,2026-05-14,zip,true,2350000,16,15,2026
+Jon Husted,Jay Lipsey,Miami Beach,FL,33140,Parkview Capital Partners,Executive,50000,1,2026-02-20,2026-02-20,zip,true,50000,1,1,2026
+Jon Husted,Jay Stieber,Prospect Heights,IL,60070,Lettuce Entertain You,Attorney,50000,1,2026-06-16,2026-06-16,zip,true,2675000,49,31,2024/2026
+Jon Husted,Karen Leah Levin,New Albany,OH,43054,Goldman Sachs,Managing Director,50000,1,2025-08-14,2025-08-14,zip,true,380000,2,2,2024
+Jon Husted,Louis H. Katz,Cincinnati,OH,45237,Wood Lamping,Attorney,50000,1,2026-05-01,2026-05-01,zip,false,50000,1,1,2026
+Jon Husted,Martin Roth,Chicago,IL,60614,Kirkland & Ellis,Attorney,50000,1,2026-06-08,2026-06-08,zip,true,1086000,24,22,2024/2026
+Jon Husted,Michael Mintz,New York,NY,10001,Md Squared Property Group,Real Estate,50000,1,2026-02-23,2026-02-23,zip,true,175000,5,5,2026
+Jon Husted,Michael Ross,Raleigh,NC,27608,Retired,Retired,50000,1,2026-02-23,2026-02-23,zip,false,1345000,20,11,2024/2026
+Jon Husted,Noga Villalon,Boca Raton,FL,33432,Retired,Retired,50000,1,2026-06-04,2026-06-04,zip,false,1825000,29,27,2024/2026
+Jon Husted,Rafael Cohen,N Miami Beach,FL,33160,Osmium LLC,Manager,50000,1,2026-04-22,2026-04-22,zip,true,800000,37,34,2024/2026
+Jon Husted,Robert Miller,Syosset,NY,11791,Self-Employed,Real Estate,50000,1,2026-02-23,2026-02-23,zip,false,1500000,11,10,2026
+Jon Husted,Sanford Seiger,Solon,OH,44139,Retired,Retired,50000,2,2026-06-16,2026-06-30,zip,false,1229000,50,34,2024/2026
+Jon Husted,Shale Lapping,Chicago,IL,60601,"Ipex, Inc.",Investment Consultant,50000,1,2026-06-25,2026-06-25,zip,true,2360000,41,33,2024/2026
+Jon Husted,Sheldon Friedstein,Aspen,CO,81612,Retired,Retired,50000,1,2026-04-20,2026-04-20,zip,false,50000,1,1,2026
+Jon Husted,Sheldon Klapper,Portland,OR,97210,Retired,Retired,50000,1,2026-06-24,2026-06-24,zip,false,1409200,19,16,2024/2026
+Jon Husted,Thomas Schick,Brooklyn,NY,11210,Retired,Retired,50000,1,2026-05-11,2026-05-11,zip,false,1567000,24,15,2024/2026
+Jon Husted,Tim Williams,Douglasville,GA,30135,Retired,Retired,50000,1,2026-02-23,2026-02-23,zip,false,2400000,25,21,2024/2026
+Jon Husted,Harold Berenson,Parker,CO,80134,Retired,Retired,37000,1,2026-06-05,2026-06-05,zip,false,1110000,11,6,2024/2026
+Jon Husted,Karen Steinkruger,Tallula,IL,62688,Retired,Retired,34300,102,2025-12-02,2026-06-30,zip,false,600,2,2,2024
+Jon Husted,Sandy Seiger,Solon,OH,44139,Retired,Retired,30000,1,2026-02-16,2026-02-16,zip,false,306000,10,8,2024/2026
+Jon Husted,Antony Loebel,Larchmont,NY,10538,Retired,Retired,25000,1,2026-06-13,2026-06-13,zip,false,175000,5,5,2026
+Jon Husted,Barry Seiden,Northbrook,IL,60062,Bnb,Re,25000,1,2026-06-26,2026-06-26,zip,true,1160000,41,28,2024/2026
+Jon Husted,Chaya Slain,Beachwood,OH,44122,Virtera Partners,President,25000,1,2026-01-23,2026-01-23,zip,true,212000,7,6,2024/2026
+Jon Husted,Helene Berger,West Stockbridge,MA,01266,Retired,Retired,25000,1,2026-05-21,2026-05-21,zip,false,225000,8,8,2026
+Jon Husted,Michel Cohen,Miami,FL,33179,"Osmium, LLC",Director,25000,1,2026-06-11,2026-06-11,zip,true,490000,24,24,2024/2026
+Jon Husted,Miriam Scharf,Prairie Village,KS,66208,Retired,Retired,25000,1,2026-06-21,2026-06-21,zip,false,500000,13,10,2024/2026
+Jon Husted,Steven Schwarzwaelder,Sarasota,FL,34236,Retired,Retired,25000,1,2025-09-28,2025-09-28,zip,false,100000,2,1,2026
+Jon Husted,Brian Luntz,Shaker Hts,OH,44120,Truck Fax Inc,Manager,20000,1,2026-05-04,2026-05-04,zip,true,519900,9,4,2024/2026
+Jon Husted,Jeffrey Lipsky,Shawnee Mission,KS,66208,Retired,Retired,20000,1,2026-06-25,2026-06-25,zip,false,385000,12,7,2024/2026
+Jon Husted,Rodney P. Haas,Plano,TX,75023,Realpage Inc,Director,10400,2,2026-05-21,2026-06-21,zip,false,30000,6,4,2024
+Jon Husted,Janice Berger,Brentwood,TN,37027,Retired,Retired,8800,6,2026-05-20,2026-06-22,zip,false,2500,1,1,2024
+Sherrod Brown,Blair Effron,New York,NY,10075,Centerview Partners,Co-Founder Partner,700000,2,2025-08-15,2025-08-15,zip,true,2550000,13,13,2024/2026
+Sherrod Brown,Larry P Goldberg,Shaker Heights,OH,44118,"Goldberg Companies, Inc",Chief Executive Officer,700000,2,2025-09-17,2025-09-17,state,false,200000,1,1,2024
+Sherrod Brown,Matthew Bergman,Seattle,WA,98102,Social Media Victims Law Center,Attorney,700000,2,2025-08-18,2025-08-18,zip,true,1560000,6,5,2024/2026
+Sherrod Brown,Robert Klein,Los Altos Hills,CA,94022,Klein Financial Corporation,Chairman,700000,2,2026-03-31,2026-03-31,state,false,103600,4,2,2024/2026
+Sherrod Brown,Sunny Brownstein,Englewood,CO,80113,Not Employed,Not Employed,700000,2,2025-08-21,2025-08-21,state,false,350000,1,1,2026
+Sherrod Brown,Paul D Goldner,Toledo,OH,43623,Not Employed,Not Employed,600000,2,2025-10-24,2026-06-02,zip,false,200000,1,1,2024
+Sherrod Brown,Arnold Richman,Baltimore,MD,21201,Brightview Sr Living,Real Estae,500000,2,2025-10-28,2025-10-28,zip,false,50000,1,1,2026
+Sherrod Brown,Barbara Grossman,Boston,MA,02116,Not Employed,Not Employed,500000,5,2025-10-30,2026-05-28,state,false,50000,1,1,2024
+Sherrod Brown,Daniel Berger,Philadelphia,PA,19103,Berger Montague,Managing Partner,500000,2,2026-03-02,2026-03-02,state,false,100000,1,1,2024
+Sherrod Brown,Jordan Cohen,New York,NY,10019,Not Employed,Not Employed,500000,2,2025-11-08,2025-11-08,state,false,100000,2,2,2026
+Sherrod Brown,Amy R Kaplan,Cleveland,OH,44122,Jewish Federation Of Cleveland,Nonprofit Executive,450000,2,2025-09-12,2026-05-21,state,false,200000,4,2,2024/2026
+Sherrod Brown,Gary Elden,Chicago,IL,60606,Shook Hardy & Bacon LLP,Attorney,400000,2,2025-08-22,2025-10-25,state,false,50000,1,1,2024
+Sherrod Brown,Alan Rosskamm,Gates Mills,OH,44040,Volunteer,Non-Profit Boards,350000,1,2025-10-28,2025-10-28,zip,false,50000,1,1,2024
+Sherrod Brown,Bob Kerrey,New York,NY,10003,Allen And Company,Banker,350000,1,2025-08-18,2025-08-18,zip,true,330000,1,1,2024
+Sherrod Brown,Harley Ungar,Englewood,NJ,07631,Not Employed,Retired,350000,1,2025-11-19,2025-11-19,zip,false,460500,3,3,2024/2026
+Sherrod Brown,Jeffrey Davis,Miami Beach,FL,33139,Not Employed,Not Employed,350000,1,2025-09-19,2025-09-19,state,false,475000,10,9,2024/2026
+Sherrod Brown,Joseph S Kanfer,Beachwood,OH,44122,Walnut Ridge Mgmt,Management,350000,1,2025-11-07,2025-11-07,zip,false,100000,1,1,2026
+Sherrod Brown,Louis B Guttman,Cincinnati,OH,45242,Hills Developers Inc,Real Estate,350000,1,2025-12-09,2025-12-09,zip,false,100000,1,1,2024
+Sherrod Brown,Marc S Plonskier,West Newton,MA,02465,Gatehouse,Real Estate,350000,1,2025-09-24,2025-09-24,zip,true,6470000,20,19,2024/2026
+Sherrod Brown,Stephen D Lerner,Cincinnati,OH,45202,Squire Patton Boggs LLP,Attorney,300000,1,2026-01-06,2026-01-06,zip,false,50000,1,1,2024
+Sherrod Brown,Abe Friedman,Piedmont,CA,94611,Pjt Partners,Partner,280000,1,2025-10-29,2025-10-29,zip,true,100000,1,1,2024
+Sherrod Brown,Jennifer Friedman,Piedmont,CA,94611,Not Employed,Not Employed,280000,1,2025-10-29,2025-10-29,zip,false,200000,2,2,2024/2026
+Sherrod Brown,Howard Wohl,Mill Neck,NY,11765,Not Employed,Not Employed,275000,4,2026-02-17,2026-06-29,zip,false,325000,5,3,2024/2026
+Sherrod Brown,Christopher Buccini,Chadds Ford,PA,19317,Buccini Pollin Group,Co-President,250000,1,2025-11-18,2025-11-18,zip,true,50000,1,1,2026
+Sherrod Brown,Jerry Sue Thornton,Moreland Hills,OH,44022,Not Employed,Not Employed,250000,1,2025-08-18,2025-08-18,zip,false,100000,1,1,2024
+Sherrod Brown,Arlene Bender,Carlsbad,CA,92009,Not Employed,Not Employed,246000,23,2025-10-01,2026-06-19,zip,false,30000,1,0,2026
+Sherrod Brown,David M Fox,Wheaton,IL,60189,Not Employed,Retired,200000,4,2026-01-13,2026-06-03,state,false,50000,1,0,2026
+Sherrod Brown,Mark Miller,Orlando,FL,32804,Not Employed,Not Employed,154000,9,2025-08-18,2026-03-27,state,false,50000,1,1,2026
+Sherrod Brown,Carolyn Goldstein,Queens,NY,11360,Not Employed,Not Employed,137500,20,2025-10-12,2026-06-30,zip,false,5000,1,1,2024
+Sherrod Brown,Joel Gershenson,Farmington Hills,MI,48334,Not Employed,Not Employed,107500,9,2025-08-18,2026-06-30,zip,false,100000,1,0,2026
+Sherrod Brown,Andrew Feinberg,New York,NY,10022,Self Employed,Writer,100000,1,2026-06-27,2026-06-27,state,false,25000,1,1,2026
+Sherrod Brown,Arnold Richman,Baltimore,MD,21218,Brightview Sr Living,Real Estae,100000,1,2025-08-18,2025-08-18,state,false,50000,1,1,2026
+Sherrod Brown,Bruce Belsky,Roslyn Heights,NY,11577,Not Employed,Retired,100000,1,2026-05-04,2026-05-04,zip,false,200000,1,1,2026
+Sherrod Brown,David Goldberg,Shaker Heights,OH,44122,Not Employed,Retired,100000,1,2025-08-18,2025-08-18,zip,false,50000,1,1,2026
+Sherrod Brown,Gerald Bekkerman,Chicago,IL,60606,Taxman Pollock Murray & Bekkerman,Attorney,100000,1,2025-10-27,2025-10-27,zip,true,200000,2,1,2024/2026
+Sherrod Brown,Jeffrey Weiss,Lincoln,RI,02865,Self Employed,Finance,100000,1,2025-08-19,2025-08-19,zip,false,1650000,15,11,2024/2026
+Sherrod Brown,Julie Bercow,Miami Beach,FL,33140,Not Employed,Not Employed,100000,1,2026-04-26,2026-04-26,zip,false,150000,2,2,2024
+Sherrod Brown,Michael Feldman,San Francisco,CA,94115,Sff Realty Partners,Investor,100000,1,2026-05-02,2026-05-02,state,false,550000,10,10,2024/2026
+Sherrod Brown,Michael Koss,Los Angeles,CA,90025,Self Employed,Investor,100000,1,2026-04-07,2026-04-07,zip,false,9000000,67,40,2024/2026
+Sherrod Brown,Moise Zarouk,Wadsworth,OH,44281,Not Employed,Not Employed,100000,1,2025-11-24,2025-11-24,zip,false,250000,3,3,2024
+Sherrod Brown,Rick Kantor,Cincinnati,OH,45242,Victory Wholesale Group,Business Owner,100000,1,2026-01-20,2026-01-20,zip,true,50000,1,1,2024
+Sherrod Brown,Robert Katz,Oakland,CA,94618,Not Employed,Not Employed,100000,1,2026-01-27,2026-01-27,state,false,2500,1,1,2024
+Sherrod Brown,Stephen Seiden,Livingston,NJ,07039,Herrod Construction,Executive,100000,1,2026-06-15,2026-06-15,zip,true,570000,10,7,2024/2026
+Sherrod Brown,Susan Edelheit,Mercer Island,WA,98040,Not Employed,Not Employed,100000,1,2025-11-16,2025-11-16,zip,false,175000,3,3,2024
+Sherrod Brown,Rhea Bateman,Akron,OH,44313,Not Employed,Not Employed,87500,9,2025-10-16,2026-03-21,zip,false,2500,1,1,2026
+Sherrod Brown,Andrew B Cohen,Jersey City,NJ,07307,Not Employed,Retired,75000,3,2026-01-18,2026-06-22,state,false,365000,2,1,2024/2026
+Sherrod Brown,Sheldon Harris,Washington,DC,20003,Self Employed,Attorney,75000,2,2026-04-15,2026-04-26,zip,false,75000,8,8,2024/2026
+Sherrod Brown,Richard Steinberg,Scarsdale,NY,10583,Brandtsteinberglewis & Blond LLP,Attorney,70000,6,2026-01-05,2026-04-01,zip,false,150000,3,3,2024/2026
+Sherrod Brown,Jacquie Bayley,Bellevue,WA,98005,Not Employed,Not Employed,65000,2,2026-04-16,2026-05-22,zip,false,450000,7,6,2024/2026
+Sherrod Brown,Shelley Stile,Los Angeles,CA,90048,Not Employed,Retired,65000,8,2025-09-13,2026-06-13,zip,false,75000,3,0,2026
+Sherrod Brown,Jay Anderson,Mount Orab,OH,45154,Not Employed,Not Employed,62500,3,2025-10-21,2026-04-14,state,false,50000,1,1,2026
+Sherrod Brown,Alan Friedman,Margate City,NJ,08402,Atlantic Medical Imaging,Physician,60000,2,2026-06-21,2026-06-30,zip,false,2050000,27,24,2024/2026
+Sherrod Brown,Barry Wolf,Los Angeles,CA,90064,Self Employed,Attorney,60000,6,2026-01-12,2026-06-12,state,false,50000,1,1,2024
+Sherrod Brown,Gregory Hahn,Indianapolis,IN,46240,Bose Mckinney,Attorney,60000,3,2025-08-18,2026-06-29,zip,false,10000,1,1,2024
+Sherrod Brown,Marc Gordon,Evanston,IL,60203,Not Employed,Retired,60000,5,2026-01-28,2026-06-09,state,false,330000,1,1,2024
+Sherrod Brown,Lou Kling,New York,NY,10028,Not Employed,Not Employed,55000,4,2025-12-30,2026-06-30,zip,false,105000,4,2,2026
+Sherrod Brown,Anita Gray,Lyndhurst,OH,44124,Adl,Dev Director,50000,1,2026-03-29,2026-03-29,zip,false,250000,5,3,2024/2026
+Sherrod Brown,Beno Michel,Palm Beach Gardens,FL,33410,Not Employed,Not Employed,50000,1,2026-01-16,2026-01-16,zip,false,50000,1,1,2024
+Sherrod Brown,Bradford Cheney,Fairfax Station,VA,22039,The Majority Group,Government Relations,50000,1,2026-03-09,2026-03-09,zip,true,50000,1,1,2024
+Sherrod Brown,David Stern,Chevy Chase,MD,20815,Not Employed,Not Employed,50000,1,2026-03-31,2026-03-31,state,false,1875000,20,19,2024/2026
+Sherrod Brown,John Morris,New York,NY,10024,Skadden Arps,Editor,50000,1,2026-06-24,2026-06-24,state,false,150000,1,1,2026
+Sherrod Brown,Julien Teitelbaum,Cincinnati,OH,45241,Not Employed,Not Employed,50000,1,2026-06-30,2026-06-30,zip,false,100000,1,1,2024
+Sherrod Brown,Martin Cohen,Bethlehem,PA,18020,Cfar,Attorney,50000,2,2025-11-20,2025-11-20,state,false,5000,1,1,2026
+Sherrod Brown,Michael Baron,Lighthouse Point,FL,33064,Not Employed,Not Employed,50000,1,2026-05-03,2026-05-03,zip,false,36000,1,0,2026
+Sherrod Brown,Norman H Levine,Santa Monica,CA,90402,Greenberg Glusker,Attorney,50000,1,2026-05-18,2026-05-18,zip,true,825000,12,10,2024/2026
+Sherrod Brown,Siddhartha Banerjee,Washington,DC,20007,Medallia,Chief Strategy Officer,50000,1,2025-09-10,2025-09-10,zip,true,25000,1,1,2026
+Sherrod Brown,Andrew Wexler,Pacific Palisades,CA,90272,Not Employed,Not Employed,45000,2,2026-05-07,2026-06-21,state,false,4781666,33,30,2024/2026
+Sherrod Brown,Richard Goldenhersh,Belleville,IL,62223,Not Employed,Not Employed,41200,9,2026-01-11,2026-05-13,zip,false,1003000,25,11,2024/2026
+Sherrod Brown,Alan Kaplan,Deerfield,IL,60015,Not Employed,Not Employed,40000,4,2025-11-30,2026-06-30,state,false,270000,6,6,2026
+Sherrod Brown,David Smith,Van Nuys,CA,91406,Not Employed,Retired,40000,2,2026-05-05,2026-06-19,state,false,750000,13,11,2024/2026
+Sherrod Brown,Cintra Pollack,Denver,CO,80209,Race Street Management,Investment Manager,36000,1,2025-08-18,2025-08-18,zip,true,750000,5,4,2024/2026
+Sherrod Brown,Daniel Cohen,Denver,CO,80203,Not Employed,Retired,35000,2,2026-05-27,2026-06-27,state,false,2000,1,1,2024
+Sherrod Brown,Steven Goldberg,San Francisco,CA,94115,Self Employed,Physician,35000,2,2026-03-31,2026-06-21,state,false,10000,1,1,2024
+Sherrod Brown,Al Kamen,New York,NY,10022,Not Employed,Not Employed,33900,9,2025-08-18,2025-09-20,zip,false,100000,1,1,2024
+Sherrod Brown,David Smith,Hutchinson Island,FL,34949,Not Employed,Not Employed,32500,4,2026-04-27,2026-06-27,state,false,125000,2,2,2026
+Sherrod Brown,Barbara S Berger,Naples,FL,34113,Not Employed,Not Employed,30000,3,2026-05-06,2026-06-30,state,false,2900000,10,10,2026
+Sherrod Brown,David Cohen,Bethesda,MD,20814,Not Employed,Not Employed,30000,1,2026-02-13,2026-02-13,state,false,100000,1,1,2026
+Sherrod Brown,David Goldberg,Cleveland,OH,44120,,,30000,1,2026-01-12,2026-01-12,state,false,50000,1,1,2026
+Sherrod Brown,Alan Bernstein,Oakland,CA,94611,Not Employed,Not Employed,25000,1,2025-12-29,2025-12-29,state,false,100000,5,3,2024/2026
+Sherrod Brown,Anne Oppenheimer,Chicago,IL,60661,Not Employed,Not Employed,25000,1,2026-06-30,2026-06-30,zip,false,1345000,46,30,2024/2026
+Sherrod Brown,Barry Weiss,Murrieta,CA,92563,Not Employed,Not Employed,25000,4,2026-04-11,2026-06-15,state,false,400000,2,0,2026
+Sherrod Brown,David Brint,Highland Park,IL,60035,Brinshore,Real Estate,25000,1,2025-09-16,2025-09-16,zip,true,50000,2,2,2024/2026
+Sherrod Brown,David Rosen,Carmel,IN,46032,Ami,Executive,25000,1,2026-03-31,2026-03-31,zip,true,75000,2,2,2024
+Sherrod Brown,Eugenie Rosenthal,Scarsdale,NY,10583,Not Employed,Not Employed,25000,1,2026-03-25,2026-03-25,zip,false,1300000,5,5,2024/2026
+Sherrod Brown,Herbert Pruzan,Seattle,WA,98109,Not Employed,Retired,25000,1,2026-02-10,2026-02-10,zip,false,300000,4,4,2026
+Sherrod Brown,Howard Wallick,Brooklyn,NY,11226,Self Employed,Real Estate Investor,25000,1,2025-12-01,2025-12-01,zip,false,48000,4,4,2026
+Sherrod Brown,Jacob I Melamed,Chevy Chase,MD,20815,Not Employed,Retired,25000,1,2026-02-09,2026-02-09,zip,false,25000,1,0,2024
+Sherrod Brown,Jane Novick,New York,NY,10024,Not Employed,Not Employed,25000,1,2026-03-13,2026-03-13,state,false,300000,2,2,2026
+Sherrod Brown,Janet Bell,Mamaroneck,NY,10543,Self Employed,Attorney,25000,1,2025-08-28,2025-08-28,zip,false,10000,1,1,2024
+Sherrod Brown,Leslie Gail Ungar,Wadsworth,OH,44281,Self Employed,Coach/ Consultant,25000,2,2026-02-03,2026-02-19,state,false,25000,1,1,2024
+Sherrod Brown,Marjorie Blatt,Beverly Hills,CA,90212,Blatt Realty,Property Manager,25000,1,2026-04-15,2026-04-15,zip,true,475000,11,10,2024/2026
+Sherrod Brown,Marvin Moskowitz,Belvedere Tiburon,CA,94920,Not Employed,Not Employed,25000,1,2025-08-19,2025-08-19,zip,false,1350000,24,19,2024/2026
+Sherrod Brown,Maxine Clark,Saint Louis,MO,63105,Not Employed,Not Employed,25000,1,2025-08-18,2025-08-18,zip,false,15000,1,1,2024
+Sherrod Brown,Robert Greenberg,Tucson,AZ,85715,Not Employed,Not Employed,25000,1,2025-10-30,2025-10-30,zip,false,100000,1,0,2026
+Sherrod Brown,Ruth Zommick,Los Angeles,CA,90067,Harvey Capital Corp,Real Estate And Finance,25000,1,2026-06-30,2026-06-30,zip,true,450000,9,8,2024/2026
+Sherrod Brown,Susan Hammer,Livingston,NJ,07039,Not Employed,Not Employed,25000,1,2026-05-31,2026-05-31,zip,false,2499800,34,19,2024/2026
+Sherrod Brown,Warren L Wolfson,Solon,OH,44139,Not Employed,Retired,25000,1,2025-11-03,2025-11-03,state,false,45000,2,2,2026
+Sherrod Brown,Janet Newman,Pepper Pike,OH,44124,Highway Transport,National Account Executive,21600,6,2026-01-31,2026-06-30,zip,true,18000,1,1,2024
+Sherrod Brown,Daniel Bernstein,El Granada,CA,94018,Not Employed,Not Employed,20500,12,2026-01-13,2026-06-21,state,false,100000,1,1,2024
+Sherrod Brown,Daniel Brown,Rosemead,CA,91770,Not Employed,Retired,20000,1,2026-05-15,2026-05-15,state,false,2500,1,1,2024
+Sherrod Brown,David Smith,San Diego,CA,92105,Not Employed,Retired,20000,2,2026-05-05,2026-05-21,state,false,750000,13,11,2024/2026
+Sherrod Brown,James Miller,Poway,CA,92064,Not Employed,Not Employed,20000,2,2026-04-04,2026-04-06,state,false,200000,2,2,2026
+Sherrod Brown,Nancy Cohen,Takoma Park,MD,20912,Holy Cross Hospital,Pediatrician,20000,1,2026-05-26,2026-05-26,state,false,1250000,8,6,2024/2026
+Sherrod Brown,Richard Steinberg,New York,NY,10019,Brandtsteinberglewis & Blond LLP,Attorney,20000,2,2026-05-27,2026-06-05,state,false,150000,3,3,2024/2026
+Sherrod Brown,Steven Miller,Columbus,OH,43235,Not Employed,Not Employed,20000,2,2026-04-02,2026-05-17,state,false,900000,11,8,2024/2026
+Sherrod Brown,William Fox,Gaithersburg,MD,20877,Not Employed,Retired,20000,2,2026-05-30,2026-06-05,state,false,650000,14,13,2024/2026
+Sherrod Brown,Michael Krul,Delray Beach,FL,33446,Greenspoon Marder LLP,Attorney,19000,3,2026-05-04,2026-05-20,zip,true,110000,10,9,2026
+Sherrod Brown,Andrew Goodman,New York,NY,10022,Self Employed,Psychotherapist,15000,3,2026-05-24,2026-06-24,state,false,835000,17,15,2024/2026
+Sherrod Brown,Seth Goldberg,New Hyde Park,NY,11042,Not Employed,Not Employed,15000,3,2026-01-13,2026-03-28,state,false,125000,1,1,2024
+Sherrod Brown,Steven Denker,Solon,OH,44139,Temple Emanu El Orange Oh,Clergy,12500,1,2026-04-26,2026-04-26,state,false,157500,7,6,2024
+Sherrod Brown,Ken Solomon,Pilot Point,TX,76258,Envoy Media,President Ceo,12100,1,2026-06-29,2026-06-29,zip,false,200000,2,2,2026
+Sherrod Brown,Alexander Lewin,Sandy Spring,MD,20860,Not Employed,Not Employed,10000,1,2026-04-30,2026-04-30,zip,false,40100,1,0,2024
+Sherrod Brown,Barbara Cohen,Walnut Creek,CA,94595,Not Employed,Not Employed,10000,1,2026-02-13,2026-02-13,state,false,100000,1,0,2024
+Sherrod Brown,Barbara Sommer,Tarzana,CA,91356,Not Employed,Not Employed,10000,1,2026-02-18,2026-02-18,state,false,1230000,5,5,2024/2026
+Sherrod Brown,David W Kramer,Palm Springs,CA,92262,Not Employed,Not Employed,10000,1,2026-05-29,2026-05-29,state,false,1945000,26,22,2024/2026
+Sherrod Brown,Emilie Roth,Stanford,CA,94305,Self Employed,Human Factors Consultant,10000,1,2026-01-06,2026-01-06,zip,false,100000,1,0,2026
+Sherrod Brown,Michael Stein,Clovis,CA,93619,Not Employed,Not Employed,10000,1,2026-03-30,2026-03-30,state,false,25000,1,0,2026
+Sherrod Brown,Robert Meyers,Oakland,CA,94611,Not Employed,Not Employed,10000,1,2026-04-04,2026-04-04,state,false,10000,1,1,2026
+Sherrod Brown,Adrienne Young,Sewickley,PA,15143,Not Employed,Not Employed,9900,5,2026-04-26,2026-06-17,zip,false,7200,2,2,2024
+Sherrod Brown,Peter Tuschak,Wilmington,DE,19803,Not Employed,Not Employed,7500,3,2026-05-03,2026-06-08,zip,false,2500,1,1,2026
+Sherrod Brown,Seth Goldberg,Roslyn,NY,11576,Not Employed,Not Employed,7500,1,2026-04-30,2026-04-30,state,false,125000,1,1,2024
+Sherrod Brown,Nancy Goldberg,Los Angeles,CA,90066,Not Employed,Not Employed,6900,7,2026-04-26,2026-06-29,state,false,20000,1,1,2024
+Sherrod Brown,David Schwartz,Ardsley On Hudson,NY,10503,Not Employed,Not Employed,5000,1,2026-04-29,2026-04-29,state,false,1750000,18,16,2024/2026
+Sherrod Brown,Jane Novick,New York,NY,10069,Not Employed,Not Employed,5000,1,2026-05-29,2026-05-29,zip,false,300000,2,2,2026
+Sherrod Brown,Morris Allen,Columbus,OH,43209,Not Employed,Retired,5000,2,2026-05-12,2026-06-22,zip,false,10000,1,1,2024
+Sherrod Brown,Tyrone K Yates,Cincinnati,OH,45241,Not Employed,Retired,3000,3,2026-01-10,2026-01-31,zip,false,1000,1,1,2024

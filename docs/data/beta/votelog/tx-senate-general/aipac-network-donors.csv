@@ -1,0 +1,137 @@
+candidate,donor,city,state,zip5,employer,occupation,direct_total_cents,contributions,first_date,last_date,match_tier,same_employer_string,aipac_pac_total_cents,aipac_pac_rows,aipac_pac_recipient_committees,aipac_pac_cycles
+Ken Paxton,Maya Gabbay,Dallas,TX,75229,Retired,Retired,1050000,2,2025-05-22,2026-06-09,zip,false,850000,2,2,2026
+Ken Paxton,Adam Loewy,Austin,TX,78731,Loewy Law Firm,Law,700000,1,2025-06-30,2025-06-30,zip,true,6190000,21,17,2024/2026
+Ken Paxton,Joe Lieberman,Cedarhurst,NY,11516,Lieberman And Klestzick LLP,Lawyer,700000,1,2025-06-04,2025-06-04,zip,true,800000,5,4,2026
+Ken Paxton,Angela Horowitz,Dallas,TX,75220,Stevens Transport,Vice President,350000,1,2026-06-18,2026-06-18,zip,true,1400000,6,6,2026
+Ken Paxton,Ani Nosnik,Dallas,TX,75219,Self-Employed,Realtor,350000,1,2025-08-22,2025-08-22,zip,false,330000,1,1,2024
+Ken Paxton,Ephraim Wernick,Dallas,TX,75229,Vinson & Elkins LLP,Attorney,350000,1,2026-06-18,2026-06-18,zip,true,4950000,21,17,2024/2026
+Ken Paxton,Eric Fleiss,Dallas,TX,75201,Regent Properties,Ceo,350000,1,2026-06-18,2026-06-18,zip,true,4945000,19,16,2024/2026
+Ken Paxton,Jarrod Beck,Dallas,TX,75230,United Texas Bank,Finance,350000,1,2026-06-09,2026-06-09,zip,true,4045000,15,11,2024/2026
+Ken Paxton,Ken Goldberg,Dallas,TX,75230,Retired,Retired,350000,1,2026-06-16,2026-06-16,zip,false,8220000,73,24,2024/2026
+Ken Paxton,Larry Denbrock,Little Elm,TX,75068,U. S. Cabinet Depot,Ceo,350000,1,2026-06-18,2026-06-18,zip,false,5895000,21,19,2024/2026
+Ken Paxton,Larry Olschwanger,Dallas,TX,75230,Scrapsource,Founder,350000,1,2026-06-09,2026-06-09,zip,true,7005000,36,23,2024/2026
+Ken Paxton,Lee Raphael,Dallas,TX,75230,Self,Self,350000,1,2026-06-15,2026-06-15,zip,false,4645000,17,14,2024/2026
+Ken Paxton,Leonard Holzman,San Antonio,TX,78230,Liverpool Enterprises,Managment,350000,1,2026-06-05,2026-06-05,zip,true,250000,1,1,2026
+Ken Paxton,Leora Short,Dallas,TX,75230,Skyrise Properties,Attny,350000,1,2026-06-10,2026-06-10,zip,true,2500000,13,13,2024/2026
+Ken Paxton,Michael Cohen,Dallas,TX,75229,Kelli'S,Executive,350000,1,2026-06-22,2026-06-22,zip,true,7370000,26,21,2024/2026
+Ken Paxton,Mindy Gross,Sugar Land,TX,77478,Retired,Retired,350000,1,2026-06-17,2026-06-17,zip,false,3220000,25,18,2024/2026
+Ken Paxton,Pedro Nosnik,Dallas,TX,75219,Self-Employed,M.D.,350000,1,2025-08-22,2025-08-22,zip,false,1630000,9,8,2024/2026
+Ken Paxton,Peter Zieve,Mukilteo,WA,98275,Electroimpact,Engineer,350000,1,2026-03-13,2026-03-13,zip,true,100000,1,1,2024
+Ken Paxton,Rick Guttman,Houston,TX,77096,Dakota Properties,Real Estate,350000,1,2026-06-25,2026-06-25,zip,true,650000,3,3,2026
+Ken Paxton,Robert Efroymson,Santa Fe,NM,87501,Retired,Retired,350000,1,2026-06-12,2026-06-12,zip,false,6800000,17,16,2024/2026
+Ken Paxton,Stacey Burke,Houston,TX,77056,Stacey E. Burke P.C.,Lawyer,350000,1,2026-06-29,2026-06-29,zip,false,1700000,12,12,2024/2026
+Ken Paxton,Tammam Obeid,Dallas,TX,75209,Private Practicr,Vascular Surgeon,350000,1,2026-06-15,2026-06-15,zip,false,1500000,6,6,2026
+Ken Paxton,Todd Platt,Dallas,TX,75219,Hillwood,Ceo,350000,1,2026-06-15,2026-06-15,zip,true,9610000,30,26,2024/2026
+Ken Paxton,Tracy Conrad,Highland Park,TX,75205,,,350000,1,2026-06-09,2026-06-09,zip,false,3480000,15,15,2024/2026
+Ken Paxton,Trevor Pearlman,Dallas,TX,75220,Tregan Property,Real Estate,350000,1,2026-06-09,2026-06-09,zip,false,6175000,24,15,2024/2026
+Ken Paxton,William Posten,Dallas,TX,75225,Self,Investor,350000,1,2026-06-18,2026-06-18,zip,false,200000,1,1,2026
+Ken Paxton,Barry Gleichenhaus,Greenwood Village,CO,80121,Retired,Retired,200000,1,2026-06-17,2026-06-17,zip,false,1450000,12,11,2024/2026
+Ken Paxton,Katherine Dietze,Palm Beach,FL,33480,Retired,Retired,107800,2,2026-05-27,2026-06-25,state,false,100000,2,2,2024
+Ken Paxton,Anne C. Canfield,Alexandria,VA,22314,The Majority Group,Consultant,100000,1,2026-06-30,2026-06-30,zip,true,250000,3,2,2024/2026
+Ken Paxton,David Barish,Sugar Land,TX,77479,Chair King,Executive,100000,1,2026-06-16,2026-06-16,zip,true,1850000,20,14,2024/2026
+Ken Paxton,Dennis Mr. Dunn,Naples,FL,34105,Self-Employed,Outdoor Writer Author,100000,1,2026-05-28,2026-05-28,zip,false,50000,1,1,2026
+Ken Paxton,Grant Dorfman,Bellaire,TX,77401,State Of Texas,Visiting Judge/Mediator,100000,2,2026-05-01,2026-05-28,zip,true,2850000,24,20,2024/2026
+Ken Paxton,Keith Roland,Albany,NY,12203,Roland Law Firm,Attorney,52000,1,2026-06-15,2026-06-15,state,true,725000,6,4,2024/2026
+Ken Paxton,Arie Zweig,Glenview,IL,60025,R.A.Zweiginc,President,50000,1,2026-06-10,2026-06-10,zip,false,800000,4,4,2024/2026
+Ken Paxton,Peter Farrell,Houston,TX,77019,Red Med,Founder Of Board,50000,1,2025-08-07,2025-08-07,zip,false,50000,1,1,2024
+Ken Paxton,Stephen Simcox,Southlake,TX,76092,Stinson,Attorney,50000,1,2025-04-19,2025-04-19,zip,false,20000,1,1,2024
+Ken Paxton,Edward N. Mr. Robinson,Saint George,UT,84770,Retired,Retired,45000,3,2026-05-27,2026-06-19,zip,false,180000,3,0,2026
+Ken Paxton,Laura Gutman,Durham,NC,27701,Retired,Retired,37800,4,2026-03-09,2026-06-30,zip,false,300000,2,1,2024/2026
+Ken Paxton,Nate Schatzline,Fort Worth,TX,76161,House Of Representatives,Representative,25000,1,2025-05-23,2025-05-23,state,false,5000,1,1,2024
+Ken Paxton,Joseph Bons,Silsbee,TX,77656,Retired,Retired,12800,5,2026-04-01,2026-06-17,zip,false,1500,1,1,2026
+James Talarico,Leslie Gilstrap,Houston,TX,77098,Cerulean Advisory,Telecom,750000,4,2025-09-12,2026-05-16,zip,true,25000,1,1,2026
+James Talarico,Brian Lidji,Dallas,TX,75209,"Jackson Walker, LLP",Attorney,700000,2,2025-09-28,2025-09-28,zip,false,850000,6,6,2024/2026
+James Talarico,Jacob Heydemann,El Paso,TX,79902,Self Employed,Physician,505000,10,2025-09-09,2026-06-06,state,false,25000,1,1,2024
+James Talarico,Alan Greenspan,Dallas,TX,75248,Southern Glazer'S,Attorney,500000,2,2025-12-25,2025-12-25,zip,false,950000,10,7,2024/2026
+James Talarico,Brian Bloom,Austin,TX,78721,Korn Ferry,Vice President,350000,1,2026-05-19,2026-05-19,state,false,108000,2,2,2024
+James Talarico,Elizabeth Nelson,Austin,TX,78703,Not Employed,Not Employed,350000,1,2025-11-05,2025-11-05,zip,false,330000,1,1,2024
+James Talarico,Jeannie Lavine,Wellesley,MA,02482,Not Employed,Not Employed,350000,1,2026-06-26,2026-06-26,state,false,16570000,34,30,2024/2026
+James Talarico,Jeffrey Gural,New York,NY,10024,Gfp Real Estate,Chairman,350000,1,2025-12-11,2025-12-11,zip,true,1660000,6,6,2024/2026
+James Talarico,Jonathan Lavine,Wellesley,MA,02482,Bain Capital,Investor,350000,1,2026-06-26,2026-06-26,state,true,10840000,16,16,2024/2026
+James Talarico,Laura Lauder,New York,NY,10153,Lauder Partners,Philanthropist,350000,1,2026-04-14,2026-04-14,zip,true,430000,2,2,2024
+James Talarico,Mark Katz,Piedmont,CA,94611,Not Employed,Not Employed,350000,2,2026-06-02,2026-06-25,state,false,50000,1,0,2026
+James Talarico,Peter Cohen,Irvine,CA,92623,Not Employed,Not Employed,350000,1,2026-05-27,2026-05-27,state,false,550000,9,8,2024/2026
+James Talarico,Ronald Heller,Dallas,TX,75205,Self Employed,Car Dealer,350000,1,2026-03-11,2026-03-11,state,false,5000,2,2,2026
+James Talarico,Jeff Weiss,Pasadena,CA,91103,Caltech,Engineer,202600,1,2026-04-21,2026-04-21,state,false,1500000,21,19,2024/2026
+James Talarico,Michael Koss,Los Angeles,CA,90025,Self Employed,Investor,200000,2,2026-02-18,2026-03-23,zip,false,9000000,67,40,2024/2026
+James Talarico,David May,New York,NY,10016,Superstructures,Architect,150000,2,2026-06-18,2026-06-29,zip,true,25000,1,1,2024
+James Talarico,Michael Lewis,Lockhart,TX,78644,Walkme,Account Executive,150000,2,2025-09-09,2026-01-10,state,false,8600,2,2,2024
+James Talarico,Armando Rodriguez,Canutillo,TX,79835,Hellas,Bdm,100800,10,2025-10-10,2026-06-14,zip,false,10000,1,1,2024
+James Talarico,Andrew Feinberg,New York,NY,10022,Self Employed,Writer,100000,1,2026-06-27,2026-06-27,state,false,25000,1,1,2026
+James Talarico,Barbara Wallace Grossman,Newton,MA,02458,Tufts University,Professor,100000,2,2026-06-30,2026-06-30,zip,true,50000,1,1,2024
+James Talarico,Blair Effron,New York,NY,10075,Centerview Partners,Partner,100000,1,2026-03-18,2026-03-18,zip,true,2550000,13,13,2024/2026
+James Talarico,Carmela Pasternak,Palo Alto,CA,94301,Not Employed,Not Employed,100000,1,2026-06-19,2026-06-19,zip,false,100000,2,2,2024
+James Talarico,Ellen Lautenberg,Westport,CT,06880,Not Employed,Retired,100000,1,2026-04-01,2026-04-01,zip,false,1335000,12,11,2024/2026
+James Talarico,Elyssa Friedland,New York,NY,10075,Self Employed,Writer,100000,1,2026-03-22,2026-03-22,zip,false,500000,2,2,2024/2026
+James Talarico,Harry Jacobs,Longwood,FL,32779,Not Employed,Not Employed,100000,1,2026-05-27,2026-05-27,zip,false,180000,1,1,2024
+James Talarico,Howard Friedman,Walnut Creek,CA,94595,Self Employed,Neuropsychologist,100000,2,2026-03-06,2026-06-30,state,false,3500,3,2,2024
+James Talarico,Randy Goldstein,Petaluma,CA,94952,Not Employed,Retired,100000,1,2026-04-15,2026-04-15,zip,false,30000,2,2,2024
+James Talarico,Richard Josephson,Houston,TX,77056,Not Employed,Not Employed,100000,1,2026-03-17,2026-03-17,zip,false,25000,1,0,2024
+James Talarico,Robert Feldman,Dallas,TX,75229,Not Employed,Not Employed,100000,1,2026-05-27,2026-05-27,zip,false,1150000,9,8,2024/2026
+James Talarico,Robert Friedman,San Mateo,CA,94402,Not Employed,Not Employed,100000,2,2026-01-13,2026-01-31,state,false,1250000,9,8,2024/2026
+James Talarico,Steven Gerber,Westport,CT,06880,Zeta Global,President,100000,1,2026-02-20,2026-02-20,zip,true,550000,4,4,2026
+James Talarico,Vicki Hood,Chicago,IL,60611,Not Employed,Retired,100000,1,2026-03-31,2026-03-31,zip,false,25000,1,1,2026
+James Talarico,Andrew B. Cohen,Jersey City,NJ,07307,Not Employed,Retired,80000,3,2026-01-23,2026-03-06,state,false,365000,2,1,2024/2026
+James Talarico,Mark Ross,Austin,TX,78737,"Terra Ecoservices, LLC",Environmental Consulting,75000,3,2025-10-16,2026-03-30,state,false,125000,3,2,2024/2026
+James Talarico,Michael David,New York,NY,10025,Dodger Properties,Theatrical Producer,60000,2,2026-02-22,2026-02-28,state,false,18000,1,0,2024
+James Talarico,Michael Davis,Bronx,NY,10463,Not Employed,Not Employed,55000,6,2026-02-17,2026-06-13,state,false,250000,1,1,2024
+James Talarico,Alan Friedman,Margate City,NJ,08402,Atlantic Medical Imaging,Physician,50000,1,2026-06-30,2026-06-30,zip,false,2050000,27,24,2024/2026
+James Talarico,Barbara S. Goldfield,Houston,TX,77007,Not Employed,Not Employed,50000,1,2026-01-29,2026-01-29,zip,false,250000,3,2,2024
+James Talarico,Beryl Hoffman,Needham,MA,02492,Not Employed,Not Employed,50000,1,2026-04-15,2026-04-15,zip,false,586000,7,6,2026
+James Talarico,Dan Shapiro,San Francisco,CA,94115,Wells Fargo,Banking,50000,1,2026-04-03,2026-04-03,state,false,50000,2,2,2024
+James Talarico,David Becker,Santa Monica,CA,90402,Not Employed,Not Employed,50000,1,2026-02-17,2026-02-17,state,false,2650000,23,20,2024/2026
+James Talarico,David Cohen,Bethesda,MD,20814,Not Employed,Not Employed,50000,1,2026-03-22,2026-03-22,state,false,100000,1,1,2026
+James Talarico,David Stern,Chevy Chase,MD,20815,Not Employed,Not Employed,50000,2,2026-05-26,2026-06-16,state,false,1875000,20,19,2024/2026
+James Talarico,Howard A. Tullman,Chicago,IL,60614,Not Employed,Not Employed,50000,1,2026-06-25,2026-06-25,zip,false,20000,2,2,2024
+James Talarico,Howard Weiner,Dallas,TX,75230,University Of Texas,Physician,50000,1,2026-06-01,2026-06-01,state,false,100000,1,1,2024
+James Talarico,Karen Kalish,Seattle,WA,98121,Not Employed,Not Employed,50000,1,2026-04-25,2026-04-25,zip,false,25000,1,1,2024
+James Talarico,Lisa Ring,Saint Louis,MO,63105,Not Employed,Not Employed,50000,1,2026-05-29,2026-05-29,zip,false,425000,5,2,2024/2026
+James Talarico,Mark Hackner,Santa Barbara,CA,93103,Not Employed,Not Employed,50000,1,2026-05-27,2026-05-27,zip,false,100000,1,1,2024
+James Talarico,Matthew Taylor,Durango,CO,81301,Not Employed,Not Employed,50000,1,2026-03-24,2026-03-24,state,false,75000,2,0,2026
+James Talarico,Michael Baron,Lighthouse Point,FL,33064,Self Employed,Sales,50000,1,2026-05-03,2026-05-03,zip,false,36000,1,0,2026
+James Talarico,Richard Herman,Chicago,IL,60606,Not Employed,Not Employed,50000,4,2026-02-17,2026-06-24,zip,false,50000,1,0,2026
+James Talarico,Robert Colton,Boca Raton,FL,33431,Self Employed,Physician,50000,1,2026-02-21,2026-02-21,zip,false,900000,11,8,2024/2026
+James Talarico,Scott Cohen,New York,NY,10012,Newlab,Artist,50000,1,2026-02-02,2026-02-02,state,false,800000,12,11,2024/2026
+James Talarico,Siddhartha Banerjee,Washington,DC,20007,Medallia,Chief Strategy Officer,50000,1,2025-09-09,2025-09-09,zip,true,25000,1,1,2026
+James Talarico,William Goebel,Greensboro,NC,27410,Mpact Solutions LLC,Ceo,50000,1,2026-05-25,2026-05-25,zip,false,75000,2,2,2024
+James Talarico,David Tobin,Houston,TX,77035,Not Employed,Not Employed,42000,6,2026-06-09,2026-06-29,state,false,300000,3,3,2024
+James Talarico,Richard Steinberg,New York,NY,10019,"Brandtsteinberglewis & Blond, LLP",Attorney,37500,5,2026-03-02,2026-05-27,state,false,150000,3,3,2024/2026
+James Talarico,Adam Harris,Irving,TX,75061,Ccmh,It Project Manager,35000,6,2026-02-13,2026-06-30,state,false,1025000,11,9,2024/2026
+James Talarico,David Rosen,Carmel,IN,46032,Ami,Executive,35000,2,2026-03-31,2026-05-19,zip,true,75000,2,2,2024
+James Talarico,Gregory Hahn,Indianapolis,IN,46240,"Bose Mckinney & Evans, LLP",Attorney,35000,2,2026-02-28,2026-03-29,zip,false,10000,1,1,2024
+James Talarico,Adam Schwartz,Redwood City,CA,94062,"Apple, Inc.",Engineer,30000,1,2026-05-27,2026-05-27,zip,false,35000,2,2,2024/2026
+James Talarico,Ann Tettlebaum,California,MO,65018,Not Employed,Not Employed,25000,1,2026-06-11,2026-06-11,zip,false,10000,1,1,2026
+James Talarico,Barbara Joan Sommer,Tarzana,CA,91356,Not Employed,Retired,25000,1,2026-06-15,2026-06-15,state,false,1230000,5,5,2024/2026
+James Talarico,Cintra Pollack,Denver,CO,80209,Race Street Management,Investment Manager,25000,1,2026-05-27,2026-05-27,zip,true,750000,5,4,2024/2026
+James Talarico,David Cohen,Potomac,MD,20854,Investment Company Institute,Attorney,25000,1,2026-06-07,2026-06-07,state,false,100000,1,1,2026
+James Talarico,David Schwartz,Ardsley On Hudson,NY,10503,Not Employed,Not Employed,25000,1,2026-06-16,2026-06-16,state,false,1750000,18,16,2024/2026
+James Talarico,Ilene Engel,Atlanta,GA,30305,Not Employed,Not Employed,25000,1,2025-12-18,2025-12-18,zip,false,3955000,18,13,2024/2026
+James Talarico,Jonathan Pollack,Pelham,NY,10803,"Beldock Levine & Hoffman, LLP",Attorney,25000,1,2025-12-31,2025-12-31,state,false,1250000,2,2,2026
+James Talarico,Katherine Roberts,Truckee,CA,96161,Not Employed,Not Employed,25000,1,2026-06-03,2026-06-03,state,false,5000,2,2,2024
+James Talarico,Michael Gold,Canyon Country,CA,91387,Self Employed,Consultant,25000,1,2026-03-08,2026-03-08,state,false,200000,3,3,2024/2026
+James Talarico,Michael J. Shapiro,Ojai,CA,93023,Not Employed,Not Employed,25000,1,2026-01-27,2026-01-27,state,false,325000,9,7,2024/2026
+James Talarico,Nelson Block,Houston,TX,77096,Not Employed,Not Employed,25000,1,2026-05-28,2026-05-28,zip,false,25000,1,1,2024
+James Talarico,Stuart Schwartz,El Paso,TX,79912,Scotthulse PC,Attorney,25000,1,2026-05-26,2026-05-26,zip,true,500000,7,6,2024/2026
+James Talarico,Susan Hammer,Livingston,NJ,07039,Not Employed,Not Employed,25000,1,2026-02-17,2026-02-17,zip,false,2499800,34,19,2024/2026
+James Talarico,Susan Stone,Santa Monica,CA,90403,Self Employed,Merchant,25000,1,2026-05-27,2026-05-27,state,false,10500,2,2,2024
+James Talarico,Ken Solomon,Pilot Point,TX,76258,Envoy Media,Tv,22100,1,2026-06-29,2026-06-29,zip,false,200000,2,2,2026
+James Talarico,Mark Weiss,Austin,TX,78703,Not Employed,Not Employed,20000,3,2026-03-05,2026-06-24,state,false,5000,1,1,2026
+James Talarico,Peter W. Miller,Piedmont,CA,94610,Not Employed,Not Employed,20000,4,2026-02-17,2026-03-27,state,false,100000,1,1,2026
+James Talarico,Ross Federgreen,Jensen Beach,FL,34957,Csr Services,Business Owner,20000,2,2026-05-27,2026-06-27,zip,false,225000,9,0,2024
+James Talarico,Steven Johnston,Houston,TX,77030,Not Employed,Not Employed,18000,5,2026-05-12,2026-06-28,state,false,40000,2,2,2024
+James Talarico,Andrew Paul,New York,NY,10014,Not Employed,Not Employed,15000,2,2026-01-28,2026-02-04,zip,false,100000,1,1,2024
+James Talarico,David Levy,Topanga,CA,90290,Major Chord Media,Film And Tv Producer,15000,2,2026-04-20,2026-06-28,state,false,150000,1,1,2026
+James Talarico,Mark Wilson,Houston,TX,77006,Not Employed,Not Employed,15000,2,2026-03-07,2026-03-28,state,false,5000,2,2,2024
+James Talarico,Michael Cohen,San Carlos,CA,94070,General Motors,Developer,15000,2,2026-05-19,2026-05-27,state,false,360000,1,0,2026
+James Talarico,Steven Hartman,Maplewood,NJ,07040,Not Employed,Not Employed,15000,2,2026-05-31,2026-06-20,state,false,5000,2,2,2024
+James Talarico,Dana Frank,Austin,TX,78735,Self Employed,Writer,14800,4,2026-05-06,2026-05-30,state,false,400000,2,2,2026
+James Talarico,Michael Moore,Plano,TX,75074,Ght Metal,Metal Worker,13800,4,2026-04-13,2026-06-30,state,false,500000,7,7,2024/2026
+James Talarico,Linda Rush,Pasadena,CA,91107,Not Employed,Not Employed,11500,6,2026-04-04,2026-06-30,state,false,100000,1,1,2026
+James Talarico,Alan Levine,Boca Raton,FL,33496,Not Employed,Not Employed,10000,2,2026-02-01,2026-04-06,state,false,65000,7,5,2024/2026
+James Talarico,Michael Sussman,Bedford,NY,10506,Michael Sussman,Attorney,10000,1,2026-04-29,2026-04-29,state,false,15000,2,0,2026
+James Talarico,Philip Katz,Plainview,NY,11803,Self Employed,Attorney,10000,1,2026-06-10,2026-06-10,state,false,100000,1,1,2024
+James Talarico,Sarah Brown,Brownwood,TX,76801,Not Employed,Not Employed,10000,1,2026-03-07,2026-03-07,state,false,3600,2,2,2024
+James Talarico,Michael Moore,Cleburne,TX,76033,Provident Travel,Travel Advisor,5500,4,2026-04-18,2026-06-27,state,false,500000,7,7,2024/2026
+James Talarico,David Rosenberg,Brookline,MA,02446,Self Employed,Psychologist,5000,1,2026-05-31,2026-05-31,state,false,5500000,26,21,2024/2026
+James Talarico,Mark S. Wilson,Richardson,TX,75082,Not Employed,Not Employed,5000,1,2026-05-20,2026-05-20,state,false,5000,2,2,2024
+James Talarico,Marshall Brass,West Palm Beach,FL,33401,Not Employed,Not Employed,5000,2,2026-05-28,2026-06-29,zip,false,2500,1,1,2024

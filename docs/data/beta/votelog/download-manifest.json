@@ -1,0 +1,1230 @@
+{
+  "downloaded_at": "2026-11-14T18:16:04.409Z",
+  "races": [
+    {
+      "slug": "al-senate-general",
+      "files": {
+        "summary.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 3106
+        },
+        "snapshot.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 2431392
+        },
+        "superpac-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 1391269
+        },
+        "expenditure-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 12094
+        },
+        "pre-primary-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 43756
+        },
+        "aipac-network-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 3141
+        }
+      }
+    },
+    {
+      "slug": "ak-senate-general",
+      "files": {
+        "summary.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 22210
+        },
+        "snapshot.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 1464168
+        },
+        "superpac-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 171317
+        },
+        "expenditure-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 188066
+        },
+        "pre-primary-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 25739
+        },
+        "aipac-network-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 67498
+        }
+      }
+    },
+    {
+      "slug": "ar-senate-general",
+      "files": {
+        "summary.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 2756
+        },
+        "snapshot.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 374487
+        },
+        "superpac-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 4441
+        },
+        "expenditure-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 6656
+        },
+        "pre-primary-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 911
+        },
+        "aipac-network-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 76221
+        }
+      }
+    },
+    {
+      "slug": "co-senate-general",
+      "files": {
+        "summary.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 2401
+        },
+        "snapshot.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 228729
+        },
+        "superpac-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 7613
+        },
+        "expenditure-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 5854
+        },
+        "pre-primary-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 3831
+        },
+        "aipac-network-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 34399
+        }
+      }
+    },
+    {
+      "slug": "de-senate-general",
+      "files": {
+        "summary.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 1932
+        },
+        "snapshot.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 256826
+        },
+        "superpac-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 30339
+        },
+        "expenditure-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 836
+        },
+        "pre-primary-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 1243
+        },
+        "aipac-network-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 35144
+        }
+      }
+    },
+    {
+      "slug": "fl-senate-general",
+      "files": {
+        "summary.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 16059
+        },
+        "snapshot.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 7231858
+        },
+        "superpac-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 4779498
+        },
+        "expenditure-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 57347
+        },
+        "pre-primary-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 37898
+        },
+        "aipac-network-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 36980
+        }
+      }
+    },
+    {
+      "slug": "ga-senate-general",
+      "files": {
+        "summary.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 23336
+        },
+        "snapshot.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 921814
+        },
+        "superpac-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 82497
+        },
+        "expenditure-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 138615
+        },
+        "pre-primary-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 18059
+        },
+        "aipac-network-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 32793
+        }
+      }
+    },
+    {
+      "slug": "id-senate-general",
+      "files": {
+        "summary.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 3195
+        },
+        "snapshot.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 254889
+        },
+        "superpac-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 10088
+        },
+        "expenditure-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 3233
+        },
+        "pre-primary-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 179
+        },
+        "aipac-network-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 45897
+        }
+      }
+    },
+    {
+      "slug": "il-senate-general",
+      "files": {
+        "summary.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 1554
+        },
+        "snapshot.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 177353
+        },
+        "superpac-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 60
+        },
+        "expenditure-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 179
+        },
+        "pre-primary-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 10858
+        },
+        "aipac-network-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 40818
+        }
+      }
+    },
+    {
+      "slug": "ia-senate-general",
+      "files": {
+        "summary.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 27639
+        },
+        "snapshot.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 2654247
+        },
+        "superpac-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 694508
+        },
+        "expenditure-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 260610
+        },
+        "pre-primary-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 14790
+        },
+        "aipac-network-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 40478
+        }
+      }
+    },
+    {
+      "slug": "ks-senate-general",
+      "files": {
+        "summary.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 18898
+        },
+        "snapshot.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 1130921
+        },
+        "superpac-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 167922
+        },
+        "expenditure-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 113867
+        },
+        "pre-primary-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 35036
+        },
+        "aipac-network-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 22562
+        }
+      }
+    },
+    {
+      "slug": "ky-senate-general",
+      "files": {
+        "summary.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 4011
+        },
+        "snapshot.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 2591754
+        },
+        "superpac-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 1967463
+        },
+        "expenditure-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 6551
+        },
+        "pre-primary-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 20473
+        },
+        "aipac-network-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 32822
+        }
+      }
+    },
+    {
+      "slug": "la-senate-general",
+      "files": {
+        "summary.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 5155
+        },
+        "snapshot.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 1630647
+        },
+        "superpac-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 901062
+        },
+        "expenditure-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 5100
+        },
+        "pre-primary-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 22269
+        },
+        "aipac-network-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 12218
+        }
+      }
+    },
+    {
+      "slug": "me-senate-general",
+      "files": {
+        "summary.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 27468
+        },
+        "snapshot.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 1932843
+        },
+        "superpac-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 116076
+        },
+        "expenditure-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 182334
+        },
+        "pre-primary-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 30021
+        },
+        "aipac-network-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 184550
+        }
+      }
+    },
+    {
+      "slug": "ma-senate-general",
+      "files": {
+        "summary.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 1993
+        },
+        "snapshot.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 64889
+        },
+        "superpac-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 503
+        },
+        "expenditure-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 2310
+        },
+        "pre-primary-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 3397
+        },
+        "aipac-network-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 855
+        }
+      }
+    },
+    {
+      "slug": "mi-senate-general",
+      "files": {
+        "summary.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 47367
+        },
+        "snapshot.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 3147566
+        },
+        "superpac-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 508615
+        },
+        "expenditure-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 415720
+        },
+        "pre-primary-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 51716
+        },
+        "aipac-network-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 221994
+        }
+      }
+    },
+    {
+      "slug": "mn-senate-general",
+      "files": {
+        "summary.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 8425
+        },
+        "snapshot.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 3103926
+        },
+        "superpac-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 1857278
+        },
+        "expenditure-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 23800
+        },
+        "pre-primary-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 16821
+        },
+        "aipac-network-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 3780
+        }
+      }
+    },
+    {
+      "slug": "ms-senate-general",
+      "files": {
+        "summary.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 10978
+        },
+        "snapshot.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 4711389
+        },
+        "superpac-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 2789686
+        },
+        "expenditure-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 46859
+        },
+        "pre-primary-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 2540
+        },
+        "aipac-network-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 23555
+        }
+      }
+    },
+    {
+      "slug": "mt-senate-general",
+      "files": {
+        "summary.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 7841
+        },
+        "snapshot.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 505054
+        },
+        "superpac-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 165249
+        },
+        "expenditure-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 36032
+        },
+        "pre-primary-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 5100
+        },
+        "aipac-network-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 2676
+        }
+      }
+    },
+    {
+      "slug": "ne-senate-general",
+      "files": {
+        "summary.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 16933
+        },
+        "snapshot.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 3452130
+        },
+        "superpac-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 1838333
+        },
+        "expenditure-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 121606
+        },
+        "pre-primary-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 3552
+        },
+        "aipac-network-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 13840
+        }
+      }
+    },
+    {
+      "slug": "nh-senate-general",
+      "files": {
+        "summary.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 13214
+        },
+        "snapshot.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 2857161
+        },
+        "superpac-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 1228560
+        },
+        "expenditure-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 105870
+        },
+        "pre-primary-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 30567
+        },
+        "aipac-network-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 61117
+        }
+      }
+    },
+    {
+      "slug": "nj-senate-general",
+      "files": {
+        "summary.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 3623
+        },
+        "snapshot.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 941684
+        },
+        "superpac-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 703440
+        },
+        "expenditure-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 2546
+        },
+        "pre-primary-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 1302
+        },
+        "aipac-network-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 56396
+        }
+      }
+    },
+    {
+      "slug": "nm-senate-general",
+      "files": {
+        "summary.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 2315
+        },
+        "snapshot.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 156497
+        },
+        "superpac-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 30636
+        },
+        "expenditure-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 3813
+        },
+        "pre-primary-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 2038
+        },
+        "aipac-network-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 1456
+        }
+      }
+    },
+    {
+      "slug": "nc-senate-general",
+      "files": {
+        "summary.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 24123
+        },
+        "snapshot.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 4382278
+        },
+        "superpac-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 2296416
+        },
+        "expenditure-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 166099
+        },
+        "pre-primary-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 12588
+        },
+        "aipac-network-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 55693
+        }
+      }
+    },
+    {
+      "slug": "oh-senate-general",
+      "files": {
+        "summary.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 34174
+        },
+        "snapshot.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 2558075
+        },
+        "superpac-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 478795
+        },
+        "expenditure-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 323816
+        },
+        "pre-primary-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 12280
+        },
+        "aipac-network-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 58688
+        }
+      }
+    },
+    {
+      "slug": "ok-senate-general",
+      "files": {
+        "summary.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 2733
+        },
+        "snapshot.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 2242491
+        },
+        "superpac-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 1355714
+        },
+        "expenditure-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 5574
+        },
+        "pre-primary-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 15017
+        },
+        "aipac-network-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 4696
+        }
+      }
+    },
+    {
+      "slug": "or-senate-general",
+      "files": {
+        "summary.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 1534
+        },
+        "snapshot.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 28050
+        },
+        "superpac-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 60
+        },
+        "expenditure-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 179
+        },
+        "pre-primary-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 766
+        },
+        "aipac-network-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 862
+        }
+      }
+    },
+    {
+      "slug": "ri-senate-general",
+      "files": {
+        "summary.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 1527
+        },
+        "snapshot.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 119187
+        },
+        "superpac-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 60
+        },
+        "expenditure-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 179
+        },
+        "pre-primary-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 370
+        },
+        "aipac-network-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 18243
+        }
+      }
+    },
+    {
+      "slug": "sc-senate-general",
+      "files": {
+        "summary.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 14112
+        },
+        "snapshot.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 755749
+        },
+        "superpac-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 63995
+        },
+        "expenditure-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 69431
+        },
+        "pre-primary-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 13694
+        },
+        "aipac-network-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 3346
+        }
+      }
+    },
+    {
+      "slug": "sd-senate-general",
+      "files": {
+        "summary.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 5146
+        },
+        "snapshot.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 1247519
+        },
+        "superpac-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 503159
+        },
+        "expenditure-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 12916
+        },
+        "pre-primary-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 2511
+        },
+        "aipac-network-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 20323
+        }
+      }
+    },
+    {
+      "slug": "tn-senate-general",
+      "files": {
+        "summary.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 3144
+        },
+        "snapshot.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 2352842
+        },
+        "superpac-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 1355202
+        },
+        "expenditure-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 7942
+        },
+        "pre-primary-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 40473
+        },
+        "aipac-network-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 12969
+        }
+      }
+    },
+    {
+      "slug": "tx-senate-general",
+      "files": {
+        "summary.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 38583
+        },
+        "snapshot.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 2127965
+        },
+        "superpac-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 113583
+        },
+        "expenditure-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 330293
+        },
+        "pre-primary-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 27536
+        },
+        "aipac-network-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 18061
+        }
+      }
+    },
+    {
+      "slug": "va-senate-general",
+      "files": {
+        "summary.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 2369
+        },
+        "snapshot.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 309601
+        },
+        "superpac-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 7070
+        },
+        "expenditure-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 2357
+        },
+        "pre-primary-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 570
+        },
+        "aipac-network-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 49811
+        }
+      }
+    },
+    {
+      "slug": "wv-senate-general",
+      "files": {
+        "summary.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 2398
+        },
+        "snapshot.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 231833
+        },
+        "superpac-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 945
+        },
+        "expenditure-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 1138
+        },
+        "pre-primary-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 1631
+        },
+        "aipac-network-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 41685
+        }
+      }
+    },
+    {
+      "slug": "wy-senate-general",
+      "files": {
+        "summary.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 2348
+        },
+        "snapshot.json": {
+          "ok": true,
+          "status": 200,
+          "bytes": 2267768
+        },
+        "superpac-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 1354893
+        },
+        "expenditure-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 7022
+        },
+        "pre-primary-ledger.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 18261
+        },
+        "aipac-network-donors.csv": {
+          "ok": true,
+          "status": 200,
+          "bytes": 4086
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+candidate,donor,city,state,zip5,employer,occupation,direct_total_cents,contributions,first_date,last_date,match_tier,same_employer_string,aipac_pac_total_cents,aipac_pac_rows,aipac_pac_recipient_committees,aipac_pac_cycles
+Ashley Hinson,Michael Leffell,Scarsdale,NY,10583,Portage Partners,Investor,950000,3,2025-04-17,2025-11-19,zip,true,16820000,57,37,2024/2026
+Ashley Hinson,Susan Siegel,Beverly Hills,CA,90210,Retired,Retired,850000,2,2025-12-19,2026-01-19,zip,false,870000,7,7,2024/2026
+Ashley Hinson,Adam Milstein,Encino,CA,91436,Entrepreneur,Entrepreneur,700000,2,2025-11-26,2025-12-04,zip,false,10270000,30,24,2024/2026
+Ashley Hinson,Baruch Glaubach,Lawrence,NY,11559,Self,Trader,700000,2,2026-03-31,2026-03-31,zip,false,1860000,3,3,2026
+Ashley Hinson,David Blumberg,Golden Beach,FL,33160,Blumberg Capital,Venture Capital,700000,1,2025-09-30,2025-09-30,zip,true,100000,1,1,2026
+Ashley Hinson,Edward C. Levy,Birmingham,MI,48009,Edward C Levy Co,Executive Chaiman,700000,2,2025-06-30,2025-06-30,zip,false,35510000,67,51,2024/2026
+Ashley Hinson,Gila Milstein,Encino,CA,91436,Entrepreneur,Entrepreneur,700000,2,2025-11-26,2025-12-04,zip,false,11220000,32,24,2024/2026
+Ashley Hinson,Hillary Krouse,Boca Raton,FL,33486,Not Employed,Not Employed,700000,1,2026-02-11,2026-02-11,zip,false,3030000,11,10,2024/2026
+Ashley Hinson,Marc Lipschultz,New York,NY,10128,Blue Owl Capital,Co Ceo,700000,1,2025-09-25,2025-09-25,zip,true,1980000,3,3,2024
+Ashley Hinson,Mark Gerson,New York,NY,10024,Usip,Managing Member,700000,2,2025-09-30,2025-12-22,zip,true,3550000,8,8,2024/2026
+Ashley Hinson,Naava Grossman,Aspen,CO,81612,Retired,Retired,700000,2,2026-03-10,2026-03-10,zip,false,29410000,61,52,2024/2026
+Ashley Hinson,Rodger Krouse,Boca Raton,FL,33486,Sun Capital Partners,Co-Ceo,700000,1,2026-02-11,2026-02-11,zip,true,9630000,21,19,2024/2026
+Ashley Hinson,Sanford Grossman,Aspen,CO,81612,Retired,Retired,700000,2,2026-03-10,2026-03-10,zip,false,22060000,50,43,2024/2026
+Ashley Hinson,Sarah Biser,Holmdel,NJ,07733,Fox Rothschild,Attorney,700000,2,2026-04-29,2026-04-29,zip,true,5650000,19,18,2024/2026
+Ashley Hinson,Yehuda David Scharf,New York,NY,10024,Morrison Cohen LLP,Attorney,700000,1,2025-09-18,2025-09-18,zip,true,700000,3,3,2024/2026
+Ashley Hinson,Hal Messer,Demarest,NJ,07627,Messer Real Estate Ventures Inc,Real Estate,574300,2,2025-09-18,2025-09-18,zip,true,2228600,15,13,2024/2026
+Ashley Hinson,Allison Kanders,Palm Beach,FL,33480,Not Employed,Not Employed,550000,2,2026-01-16,2026-02-11,zip,false,1243000,7,7,2024/2026
+Ashley Hinson,David Schwartzman,Los Angeles,CA,90067,Harridge Development Group,Ceo,420000,2,2025-12-19,2026-01-18,zip,true,3530000,15,14,2026
+Ashley Hinson,Stephen Ritchie,Glencoe,IL,60022,Retired,Retired,400000,2,2025-06-19,2026-06-22,zip,true,15490000,76,58,2024/2026
+Ashley Hinson,Tina Weinstock,Palm Beach,FL,33480,Not Employed,Not Employed,400000,2,2026-01-16,2026-04-13,zip,false,2520000,10,9,2024/2026
+Ashley Hinson,Ahuva Gross,Livingston,NJ,07039,Retired,Retired,350000,1,2026-06-23,2026-06-23,zip,false,700000,1,1,2026
+Ashley Hinson,Barak Raviv,Beverly Hills,CA,90210,Wells Fargo,Financial Advisor,350000,1,2026-02-20,2026-02-20,zip,true,19402300,79,55,2024/2026
+Ashley Hinson,Betsy Korn,Pompano Beach,FL,33062,Bvision,Sports,350000,2,2026-01-18,2026-02-06,zip,true,9386500,52,38,2024/2026
+Ashley Hinson,Bianca Peskin,Brookline,MA,02446,Homemaker,Homemaker,350000,1,2025-12-15,2025-12-15,zip,false,30130000,54,45,2024/2026
+Ashley Hinson,Brad Mindlin,Incline Village,NV,89451,Oro Capital Advisors,Managing Partner,350000,1,2026-02-20,2026-02-20,zip,true,16460000,45,36,2024/2026
+Ashley Hinson,Brian Schall,Los Angeles,CA,90067,Attorney,Attorney,350000,1,2026-02-19,2026-02-19,zip,false,11220000,26,25,2024/2026
+Ashley Hinson,Courtney Tofsky,New York,NY,10021,Self-Employed,Marketing Strategist,350000,1,2026-05-03,2026-05-03,zip,false,550000,2,2,2026
+Ashley Hinson,Daniel Loeb,New York,NY,10001,Third Point LLC,Ceo/Cio,350000,1,2026-05-06,2026-05-06,zip,true,21220000,61,42,2024/2026
+Ashley Hinson,Daniel Setzman,New York,NY,10014,Jane Street,Broker,350000,1,2025-08-27,2025-08-27,zip,true,1660000,11,11,2024
+Ashley Hinson,David Chaimovitz,Glencoe,IL,60022,Setna Io,Ceo,350000,1,2026-06-18,2026-06-18,zip,true,2800000,5,4,2026
+Ashley Hinson,Doris Davis,Los Gatos,CA,95032,Retired,Retired,350000,1,2026-02-18,2026-02-18,zip,false,6920000,22,22,2024/2026
+Ashley Hinson,Eugene Fooksman,Menlo Park,CA,94025,Altopass Inc.,Ceo,350000,1,2026-02-03,2026-02-03,zip,false,16060000,54,45,2024/2026
+Ashley Hinson,James C. Baker,New York,NY,10128,Neuberger Berman,Investment Management,350000,1,2026-03-31,2026-03-31,zip,true,1050000,3,3,2026
+Ashley Hinson,Jeffrey Miller,Austin,TX,78731,Miller Strategies LLC,Ceo,350000,1,2026-01-20,2026-01-20,zip,false,710000,4,3,2024
+Ashley Hinson,Joan Violin,Wellington,FL,33414,Retired,Retired,350000,1,2025-12-18,2025-12-18,zip,false,5450000,33,23,2024/2026
+Ashley Hinson,Julie Candau,El Cerrito,CA,94530,Marble Bridge Funding Group,Hr Manager,350000,1,2026-01-28,2026-01-28,zip,true,2700000,11,10,2026
+Ashley Hinson,Marina Jacobson,Palm Beach,FL,33480,Retired,Retired,350000,1,2026-02-05,2026-02-05,zip,false,9529200,45,32,2024/2026
+Ashley Hinson,Martin Gross,Palm Beach Gardens,FL,33418,Sandalwood Securities Inc.,Founder & President,350000,1,2026-06-23,2026-06-23,zip,false,350000,1,1,2026
+Ashley Hinson,Michael Tuchin,Los Angeles,CA,90067,Ktbs Law LLP,Attorney,350000,1,2026-02-27,2026-02-27,zip,true,8910000,35,28,2024/2026
+Ashley Hinson,Patty Glaser,Los Angeles,CA,90067,Glaser Weil LLP,Attorney,350000,1,2026-02-12,2026-02-12,zip,true,5750000,28,24,2024/2026
+Ashley Hinson,Roger Hertog,West Palm Beach,FL,33401,Retired,Retired,350000,1,2026-06-04,2026-06-04,zip,false,100000,1,1,2024
+Ashley Hinson,Sam Olswanger,Washington,DC,20009,Akin Gump Strauss Hauer  Feld LLP,Senior Policy Advisor,350000,1,2025-03-17,2025-03-17,zip,false,400000,5,5,2024
+Ashley Hinson,Simone Levinson,Palm Beach,FL,33480,Homemaker,Homemaker,350000,2,2026-01-16,2026-02-06,zip,false,600000,5,5,2024/2026
+Ashley Hinson,Solomon Moshkevich,Atherton,CA,94027,Natera,President,350000,1,2026-02-17,2026-02-17,zip,true,3950000,12,12,2024/2026
+Ashley Hinson,Andrew Lappin,Glencoe,IL,60022,Retired,Retired,300000,3,2025-06-12,2026-06-11,zip,false,8325000,48,44,2024/2026
+Ashley Hinson,Andrew Schleimer,Las Vegas,NV,89158,Tko,Cfo,300000,1,2026-04-13,2026-04-13,zip,true,3080000,11,11,2024/2026
+Ashley Hinson,Douglas Skolnick,Franklin Lakes,NJ,07417,Retired,Retired,300000,1,2026-04-19,2026-04-19,zip,false,600000,3,3,2026
+Ashley Hinson,Jan Zakowski,Los Angeles,CA,90024,Americal Management Co. Inc.,C.E.O.,300000,1,2026-06-18,2026-06-18,zip,true,7940000,45,32,2024/2026
+Ashley Hinson,Jeffrey Feig,New York,NY,10106,Jedor Capital,Investor,300000,1,2026-04-12,2026-04-12,zip,true,700000,2,2,2026
+Ashley Hinson,Laura Stein,Beverly Hills,CA,90210,Robbins Geller,Attorney,300000,2,2026-01-29,2026-02-12,zip,true,2792500,24,22,2024/2026
+Ashley Hinson,Lesley Bodzy,Houston,TX,77004,Retired,Retired,300000,1,2026-04-13,2026-04-13,zip,false,4755000,32,27,2024/2026
+Ashley Hinson,Martin Craig,Chicago,IL,60601,Self,Investing.,300000,2,2025-06-26,2026-06-19,zip,false,2860000,23,20,2024/2026
+Ashley Hinson,Richard A. Kresch,Sharon,CT,06069,Us Healthvest,Physician/Businessman,300000,1,2026-04-14,2026-04-14,zip,true,1300000,7,6,2024/2026
+Ashley Hinson,Robert Grossman,New York,NY,10280,Retired,Retired,300000,1,2026-04-12,2026-04-12,zip,false,1200000,5,5,2026
+Ashley Hinson,Daniel Dunkelman,Beverly Hills,CA,90210,Self-Employed,Physician,250000,1,2026-06-12,2026-06-12,zip,false,2350000,15,12,2024/2026
+Ashley Hinson,Daniel Hamburger,Sarasota,FL,34234,Retired,Retired,250000,2,2025-06-12,2026-06-09,zip,false,2805000,23,23,2024/2026
+Ashley Hinson,Scott Eisner,Northridge,CA,91326,Ascend Advisors,Cpa,250000,1,2026-02-20,2026-02-20,zip,true,850000,9,9,2024/2026
+Ashley Hinson,Andrew Kent,Tenafly,NJ,07670,Glass Gardens Inc.,Supermarket Exec,214300,1,2025-09-18,2025-09-18,zip,true,6775800,35,21,2024/2026
+Ashley Hinson,Batya Klein,Englewood,NJ,07631,Self-Employed,Designer,214300,1,2025-09-18,2025-09-18,zip,false,1807300,9,8,2024/2026
+Ashley Hinson,David Opper,Englewood,NJ,07631,Cbre,Broker,214300,1,2025-09-18,2025-09-18,zip,true,3421500,17,11,2024/2026
+Ashley Hinson,Greg Karzhevsky,Blauvelt,NY,10913,Sss Education Inc,Owner,214300,1,2025-09-18,2025-09-18,zip,false,4327900,17,11,2024/2026
+Ashley Hinson,Jason Cuttler,Englewood,NJ,07631,Hudson Bay Capital,Analyst,214300,1,2025-09-18,2025-09-18,zip,true,2325600,11,9,2024/2026
+Ashley Hinson,Tzipora Cohen,Englewood,NJ,07631,Self-Employed,Marketing,214300,1,2025-09-18,2025-09-18,zip,false,1673600,15,12,2024/2026
+Ashley Hinson,Andrei Iancu,Washington,DC,20008,Sullivan &!Cromwell LLP,Attorney,200000,1,2026-06-11,2026-06-11,zip,false,200000,1,1,2024
+Ashley Hinson,Ann Schneiderman,Northbrook,IL,60062,Moriah Early Childhood,Substitute,200000,1,2026-06-22,2026-06-22,zip,true,550000,4,4,2026
+Ashley Hinson,Barry Richter,Guilford,CT,06437,Retired,Retired,200000,1,2026-01-16,2026-01-16,zip,false,375000,4,3,2024/2026
+Ashley Hinson,Bruce Jacobson,New York,NY,10021,Retired,Retired,200000,1,2026-04-12,2026-04-12,zip,false,5310000,28,24,2024/2026
+Ashley Hinson,Burt Levine,New York,NY,10065,Levine Organizaton LLC,Real Estate Development/Investment,200000,1,2026-04-13,2026-04-13,zip,true,2150000,13,11,2024/2026
+Ashley Hinson,Cindy Leibovitch,New York,NY,10014,Retired,Retired,200000,1,2026-04-15,2026-04-15,zip,false,900000,7,7,2024/2026
+Ashley Hinson,Daniel Rose,New York,NY,10012,Kreindler & Kreindler LLP,Attorney,200000,2,2025-09-18,2026-04-12,zip,true,3222000,25,20,2024/2026
+Ashley Hinson,David Kriesman,Highland Park,IL,60035,Retired,Retired,200000,1,2026-06-08,2026-06-08,zip,false,700000,6,6,2026
+Ashley Hinson,Donna Snow,Palm Beach,FL,33480,Retired,Retired,200000,1,2026-01-30,2026-01-30,zip,false,500000,2,2,2026
+Ashley Hinson,Ed Evans,Scottsdale,AZ,85255,Consumer Cellular Inc,Chairman And Ceo,200000,1,2025-06-12,2025-06-12,zip,false,200000,1,1,2026
+Ashley Hinson,Eric Waxman,Los Angeles,CA,90049,Ares Management,Partner,200000,1,2026-02-12,2026-02-12,zip,true,5350000,33,27,2024/2026
+Ashley Hinson,Eveline Shekhman,Farmington,CT,06032,Homemaker,Homemaker,200000,2,2025-12-16,2026-01-25,zip,false,4879700,56,19,2024/2026
+Ashley Hinson,Harold Diamond,Bal Harbour,FL,33154,Retired,Retired,200000,1,2026-03-31,2026-03-31,zip,false,900000,8,4,2026
+Ashley Hinson,Harvey Bines,Rye,NH,03870,Sullivan & Worcester LLP,Lawyer,200000,1,2026-01-16,2026-01-16,zip,true,3475000,20,14,2024/2026
+Ashley Hinson,Jack Halpern,New York,NY,10023,Atlantic Realty,Real Estate,200000,1,2026-03-31,2026-03-31,zip,true,4980000,31,30,2024/2026
+Ashley Hinson,Jacob Kupietzky,Skokie,IL,60076,Self-Employed,Executive,200000,2,2025-06-19,2026-06-16,zip,false,7460000,33,23,2024/2026
+Ashley Hinson,Jacques Stambouli,Beverly Hills,CA,90210,Via Trading Corporation,Ceo,200000,1,2026-06-08,2026-06-08,zip,true,4050000,29,23,2024/2026
+Ashley Hinson,James Sprayregen,Glencoe,IL,60022,Hilco Global,Vice Chairman,200000,1,2025-06-12,2025-06-12,zip,true,12434283,68,54,2024/2026
+Ashley Hinson,Jan Zubrow,West Palm Beach,FL,33401,Not Employed,Not Employed,200000,1,2026-02-10,2026-02-10,zip,false,200000,1,1,2026
+Ashley Hinson,Jason Peltz,Glencoe,IL,60022,Bartlit Beck LLP,Attorney,200000,3,2025-06-12,2026-06-09,zip,true,7632777,60,47,2024/2026
+Ashley Hinson,Jill Schecter,Palm Beach,FL,33480,Retired,Retired,200000,1,2026-01-16,2026-01-16,zip,false,250000,2,2,2026
+Ashley Hinson,Joseph Marvizi,Beverly Hills,CA,90210,Self-Employed,Dentist,200000,1,2026-06-12,2026-06-12,zip,false,1600000,13,11,2024/2026
+Ashley Hinson,Kenneth Levy,Los Gatos,CA,95030,Glen Una Investments,Real Estate,200000,1,2026-02-06,2026-02-06,zip,true,4450000,19,17,2024/2026
+Ashley Hinson,Leon Biederman,Los Angeles,CA,90077,Retired,Retired,200000,1,2026-06-09,2026-06-09,zip,false,2575000,31,21,2024/2026
+Ashley Hinson,Leonid Mezhvinsky,Hillsborough,CA,94010,Retired,Retired,200000,1,2026-02-06,2026-02-06,zip,false,2200000,13,13,2024/2026
+Ashley Hinson,Mark Darwish,Los Angeles,CA,90024,Emr,Real Estate,200000,1,2026-06-12,2026-06-12,zip,true,400000,3,3,2026
+Ashley Hinson,Michael Kassen,Westport,CT,06880,Self-Employed,Investor,200000,1,2026-06-11,2026-06-11,zip,false,17500000,78,61,2024/2026
+Ashley Hinson,Moses Libitzky,Emeryville,CA,94608,Lpc Real Estate Corp,Chairman,200000,1,2026-02-08,2026-02-08,zip,true,4950000,34,31,2024/2026
+Ashley Hinson,Myrna Freedman,Wellesley,MA,02482,Retired,Retired,200000,2,2026-01-07,2026-01-16,zip,false,3600000,37,20,2024/2026
+Ashley Hinson,Neil Kadisha,Beverly Hills,CA,90212,Omninet,Ceo,200000,1,2026-06-12,2026-06-12,zip,false,4300000,21,20,2024/2026
+Ashley Hinson,Nelson Obus,Princeton,NJ,08540,Self-Employed,Finance,200000,1,2026-01-29,2026-01-29,zip,false,250000,3,3,2024
+Ashley Hinson,Patricia Mcweeney,Boxford,MA,01921,Retired,Retired,200000,2,2025-12-16,2026-01-19,zip,false,1000000,15,13,2024/2026
+Ashley Hinson,Richard Benkin,Mt Prospect,IL,60056,Retired,Retired,200000,2,2025-06-19,2026-06-16,zip,false,950000,11,9,2024/2026
+Ashley Hinson,Richard Eisenberg,Lawrence,NY,11559,Self,Inv,200000,1,2026-03-31,2026-03-31,zip,false,25000,1,1,2024
+Ashley Hinson,Richard Kashnow,Menlo Park,CA,94025,Retired,Retired,200000,1,2026-02-06,2026-02-06,zip,false,1750000,10,10,2024/2026
+Ashley Hinson,Richard W. Porter,Northfield,IL,60093,Retired,Retired,200000,2,2025-09-25,2026-06-17,zip,false,1050000,11,9,2024/2026
+Ashley Hinson,Sheryl Sorbaro,Greenwich,CT,06831,Retired,Retired,200000,1,2026-02-02,2026-02-02,zip,false,4782700,25,18,2024/2026
+Ashley Hinson,Stephen Harris,Walnut Creek,CA,94595,Lawrence Berkeley National Lab,X,200000,1,2026-01-28,2026-01-28,zip,true,10201992,92,58,2024/2026
+Ashley Hinson,Stuart Oremland,Portola Valley,CA,94028,Retired,Retired,200000,1,2026-02-06,2026-02-06,zip,false,3245000,32,31,2024/2026
+Ashley Hinson,Richard Genirberg,Stateline,NV,89449,Retired,Retired,175000,1,2026-02-05,2026-02-05,zip,false,6240000,22,22,2024/2026
+Ashley Hinson,Adam Reich,Los Angeles,CA,90035,Reich Brothers,Co-Ceo,150000,1,2026-02-20,2026-02-20,zip,true,3390000,17,15,2024/2026
+Ashley Hinson,Andrew Jagoda,Scarsdale,NY,10583,Katten Muchin Rosenman LLP,Attorney,150000,1,2026-04-19,2026-04-19,zip,true,3300000,28,23,2024/2026
+Ashley Hinson,Benjamin Friend,San Francisco,CA,94102,Howard Properties,Real Estate,150000,1,2026-02-11,2026-02-11,zip,true,7222500,48,38,2024/2026
+Ashley Hinson,Bruce Ettelson,Glencoe,IL,60022,Kirkland & Ellis LLP,Attorney,150000,2,2025-06-26,2026-06-15,zip,true,7154400,46,37,2024/2026
+Ashley Hinson,Donna Sternberg,New York,NY,10021,Retired,Retired,150000,1,2026-04-14,2026-04-14,zip,false,2200000,15,15,2026
+Ashley Hinson,Donny Friend,San Francisco,CA,94121,Retired,Retired,150000,1,2026-02-11,2026-02-11,zip,false,3725000,26,24,2024/2026
+Ashley Hinson,Jack Levin,Winnetka,IL,60093,Kirkland & Ellis,Attorney,150000,1,2026-06-10,2026-06-10,zip,true,7530000,33,26,2024/2026
+Ashley Hinson,Jamie Kotler,Brookline,MA,02445,Retired,Retired,150000,1,2026-01-20,2026-01-20,zip,false,3110000,20,13,2024/2026
+Ashley Hinson,Jason Friend,San Francisco,CA,94102,Howard Properties,Real Estate,150000,1,2026-02-11,2026-02-11,zip,true,5775000,39,36,2024/2026
+Ashley Hinson,Jeffrey Fisher,New York,NY,10021,Touro University,Special Programs Administrator,150000,2,2025-09-18,2026-04-12,zip,true,16828326,293,202,2024/2026
+Ashley Hinson,Jody Forchheimer,Brookline,MA,02446,Retired,Retired,150000,2,2025-12-11,2026-01-26,zip,false,38475500,150,96,2024/2026
+Ashley Hinson,Lee Spies,New York,NY,10028,Not Employed,Not Employed,150000,1,2026-04-16,2026-04-16,zip,false,2000000,11,10,2026
+Ashley Hinson,Limore Torbati,Los Angeles,CA,90049,Self-Employed,Property Mgmg,150000,1,2026-06-07,2026-06-07,zip,false,850000,8,8,2024/2026
+Ashley Hinson,Lisa Korbatov,Beverly Hills,CA,90210,Fisch Properties,Principal,150000,1,2025-11-14,2025-11-14,zip,true,100000,1,1,2026
+Ashley Hinson,Lisa Wallack,Weston,MA,02493,Homemaker,Homemaker,150000,2,2025-12-10,2026-01-26,zip,false,6060000,42,30,2024/2026
+Ashley Hinson,Mayer Bick,Los Angeles,CA,90035,Sb Advisors,Investment Banker,150000,1,2026-02-20,2026-02-20,zip,true,2550000,15,15,2024/2026
+Ashley Hinson,Niv Davidovich,Valley Glen,CA,91606,Attorney,Davidovich Law,150000,1,2026-01-18,2026-01-18,zip,false,1850000,10,10,2026
+Ashley Hinson,Raphy Nissel,Beverly Hills,CA,90210,Retired,Retired,150000,1,2026-01-18,2026-01-18,zip,false,2600000,15,14,2024/2026
+Ashley Hinson,Scott Becker,Glencoe,IL,60022,Beckers Healthcare And Mcguirewoods,Lawyer Entrepreneur,150000,2,2025-06-12,2026-06-22,zip,true,7930000,98,64,2024/2026
+Ashley Hinson,Steven Rothke,Morton Grove,IL,60053,Steven E Rothke Phd PC,Neuropsychologist,150000,3,2025-06-19,2026-06-23,zip,false,295000,9,8,2024/2026
+Ashley Hinson,Stuart Goldstein,Los Angeles,CA,90049,Moelis,Managing Director,150000,1,2026-02-06,2026-02-06,zip,true,2000000,10,8,2026
+Ashley Hinson,Yana Lukeman,New York,NY,10019,Self,Consultant,150000,1,2026-04-29,2026-04-29,zip,false,3400000,34,25,2024/2026
+Ashley Hinson,Lawrence Friedman,Skokie,IL,60076,Self-Employed,Director,105000,3,2025-06-19,2026-06-16,zip,false,2010000,70,52,2024/2026
+Ashley Hinson,Aaron Cohen,New York,NY,10025,Focus Partners Wealth,Wealth Advisor,100000,1,2026-04-13,2026-04-13,zip,true,2400000,19,16,2024/2026
+Ashley Hinson,Aaron De Toledo,Sherman Oaks,CA,91423,Servicetitan,Tech,100000,1,2026-06-07,2026-06-07,zip,true,2000000,26,23,2024/2026
+Ashley Hinson,Aaron Jungreis,Woodmere,NY,11598,Shearman & Sterling,Enterprise Architect,100000,1,2026-03-31,2026-03-31,state,false,2130000,10,10,2024/2026
+Ashley Hinson,Alan Franco,Metairie,LA,70005,Magnolia Marketing LLC,Partenr,100000,1,2025-06-26,2025-06-26,zip,true,13650000,30,27,2024/2026
+Ashley Hinson,Alex Fleischman,Los Angeles,CA,90077,Self-Employed,Consultant,100000,1,2026-06-07,2026-06-07,zip,false,850000,10,10,2024/2026
+Ashley Hinson,Allison Ross,New York,NY,10029,Retired,Retired,100000,1,2026-04-19,2026-04-19,zip,false,1225000,13,11,2024/2026
+Ashley Hinson,Amelia Katzen,Newton,MA,02458,Retired,Retired,100000,1,2026-01-18,2026-01-18,zip,false,800000,8,6,2024/2026
+Ashley Hinson,Amitai Raziel,Los Angeles,CA,90035,Saban,Cos,100000,1,2026-06-15,2026-06-15,zip,true,550000,6,6,2026
+Ashley Hinson,Andrea N. Donfeld,Malibu,CA,90265,Jeffrey Donfeld PC,Office Manager,100000,1,2026-06-12,2026-06-12,zip,false,1150000,12,10,2024/2026
+Ashley Hinson,Anita Wornick,San Francisco,CA,94103,Retired,Retired,100000,1,2026-02-02,2026-02-02,zip,false,3300000,34,30,2024/2026
+Ashley Hinson,Ann Pava,West Hartford,CT,06117,Homemaker,Homemaker,100000,1,2025-12-16,2025-12-16,zip,false,6200000,37,25,2024/2026
+Ashley Hinson,Auriel Streit,Los Angeles,CA,90025,Streit Lending,Real Estate,100000,1,2026-06-10,2026-06-10,zip,true,1500000,10,10,2024/2026
+Ashley Hinson,Barry Topol,Danville,CA,94526,Assessment Solutions Group,Consultant,100000,1,2026-02-03,2026-02-03,zip,true,1721000,37,33,2024/2026
+Ashley Hinson,Ber Oberfeld,Beverly Hills,CA,90210,Self-Employed,Investor,100000,1,2026-06-14,2026-06-14,zip,false,1500000,16,13,2024/2026
+Ashley Hinson,Brenda Haynes,Wellesley Hills,MA,02481,Retired,Retired,100000,1,2025-12-11,2025-12-11,zip,false,2590000,18,15,2024/2026
+Ashley Hinson,Brian Gurtman,Woodmere,NY,11598,Sheppard Mullin,Attorney,100000,1,2026-03-31,2026-03-31,zip,true,150000,3,3,2026
+Ashley Hinson,Carl Cohen,Beachwood,OH,44122,Retired,Retired,100000,1,2026-06-17,2026-06-17,zip,false,5050000,36,29,2024/2026
+Ashley Hinson,Curt Biren,Los Angeles,CA,90049,Kayne Anderson Rudnick,Investment Advisor,100000,1,2026-06-12,2026-06-12,zip,true,1515000,17,13,2024/2026
+Ashley Hinson,Daniel Kessler,Solon,OH,44139,Csms LLC,Executive,100000,1,2025-09-18,2025-09-18,zip,true,3380000,20,15,2024/2026
+Ashley Hinson,Danielle Darish,Needham,MA,02492,Retired,Retired,100000,1,2026-01-13,2026-01-13,zip,false,2000000,21,18,2024/2026
+Ashley Hinson,David Barish,Sugar Land,TX,77479,Chair King Backyard Store,Executive,100000,1,2025-02-27,2025-02-27,zip,true,1850000,20,14,2024/2026
+Ashley Hinson,David Halberg,New York,NY,10128,Self Employed,Insurance Broker,100000,1,2026-04-14,2026-04-14,zip,false,750000,7,7,2026
+Ashley Hinson,David Ross,Winnetka,IL,60093,Compass Lexecon,Economist,100000,1,2026-06-06,2026-06-06,zip,true,3250000,30,27,2024/2026
+Ashley Hinson,David Stern,Los Angeles,CA,90077,Ktbs Law LLP,Attorney,100000,1,2026-02-27,2026-02-27,zip,true,1800000,22,18,2024/2026
+Ashley Hinson,Dean Neiger,La,CA,90034,Entrepreneur,Entrepreneur,100000,1,2026-06-15,2026-06-15,zip,false,550000,3,3,2026
+Ashley Hinson,Deborah Shalom,Boston,MA,02116,Retired,Retired,100000,1,2026-01-20,2026-01-20,zip,false,1000000,10,9,2026
+Ashley Hinson,Delia Perlov,Newton,MA,02459,Retired,Retired,100000,1,2026-01-07,2026-01-07,zip,false,1825000,20,17,2024/2026
+Ashley Hinson,Douglas Gessner,Glenview,IL,60025,Kirkland & Ellis LLP,Lawyer,100000,1,2025-06-19,2025-06-19,zip,true,12500000,44,38,2024/2026
+Ashley Hinson,Douglas Maguire,Washington,DC,20007,Bhfs,Econ And Policy Advisor,100000,1,2025-09-16,2025-09-16,zip,true,200000,2,2,2026
+Ashley Hinson,Elisa Silverman,Newton,MA,02465,Self-Employed,Owner,100000,1,2026-01-02,2026-01-02,zip,false,1898800,20,18,2024/2026
+Ashley Hinson,Elizabeth Schultz,New York,NY,10022,Retired,Retired,100000,1,2026-04-12,2026-04-12,zip,false,1200000,22,21,2024/2026
+Ashley Hinson,Ellen Calmas,Chestnut Hill,MA,02467,Retired,Retired,100000,1,2025-12-12,2025-12-12,zip,false,3487000,40,28,2024/2026
+Ashley Hinson,Ellyn Bank,West Palm Beach,FL,33401,Law Offices Of Ellyn Bank,Attorney,100000,1,2026-01-29,2026-01-29,zip,false,1100000,12,8,2024/2026
+Ashley Hinson,Emily Hoffman,Chicago,IL,60657,Learsi,Real Estate,100000,1,2026-04-30,2026-04-30,zip,true,430000,4,2,2026
+Ashley Hinson,Fabian Oberfeld,Beverly Hills,CA,90210,La Mamba LLC,Ceo,100000,1,2026-06-12,2026-06-12,zip,true,1350000,15,13,2024/2026
+Ashley Hinson,George Douglas,Los Angeles,CA,90272,Ssi Investment Mgt,Investment Management,100000,1,2026-06-11,2026-06-11,zip,false,1900000,14,12,2024/2026
+Ashley Hinson,Gerald Zoldan,Chicago,IL,60611,Retired,Retired,100000,2,2025-06-12,2026-05-20,zip,false,3405000,48,35,2024/2026
+Ashley Hinson,Harriet Blank,New Hope,PA,18938,Retired,Retired,100000,1,2025-09-25,2025-09-25,zip,false,1000000,2,0,2024
+Ashley Hinson,Helen Loewenstein,Pleasant Hill,CA,94523,Retired,Retired,100000,1,2026-01-28,2026-01-28,zip,false,1180000,13,10,2024/2026
+Ashley Hinson,Herta Amir,Beverly Hills,CA,90211,Amir Development,Real Estate,100000,1,2026-02-27,2026-02-27,zip,true,6500000,95,72,2024/2026
+Ashley Hinson,Igor Lotsvin,Emerald Hills,CA,94062,Sage Rhino Capital LLC,Managing Partner,100000,1,2026-02-16,2026-02-16,zip,false,2700000,45,39,2024/2026
+Ashley Hinson,James Holtz,Pleasanton,CA,94566,Retired,Retired,100000,1,2026-01-27,2026-01-27,zip,false,1350000,22,22,2024/2026
+Ashley Hinson,James Rosenfield,New Castle,NH,03854,S&P Global,Executive,100000,1,2025-12-28,2025-12-28,zip,true,7320000,52,36,2024/2026
+Ashley Hinson,Jamie Albers,Aspen,CO,81611,Mento,Ceo,100000,1,2026-06-16,2026-06-16,zip,true,100000,1,1,2024
+Ashley Hinson,Jeffrey Cohen,Chicago,IL,60645,Retired,Retired,100000,1,2026-06-05,2026-06-05,zip,false,700000,4,4,2024
+Ashley Hinson,Jeffrey Halbrecht,Kentfield,CA,94904,Jeffrey Halbrecht,Physician,100000,1,2026-02-07,2026-02-07,zip,true,1450000,21,19,2024/2026
+Ashley Hinson,Jeremy Pava,West Hartford,CT,06117,Johnson Real Estate,Board Member,100000,1,2026-01-13,2026-01-13,zip,true,5650000,21,18,2024/2026
+Ashley Hinson,Jessica Myers,Weston,MA,02493,Retired,Retired,100000,1,2025-12-16,2025-12-16,zip,false,1450000,15,12,2024/2026
+Ashley Hinson,Jill Cunniff,Highland Park,IL,60035,Retired,Retired,100000,1,2026-05-20,2026-05-20,zip,false,285000,4,4,2026
+Ashley Hinson,Jill Roberts,Boston,MA,02116,Not Employed,Not Employed,100000,1,2026-01-16,2026-01-16,zip,false,2200000,22,17,2024/2026
+Ashley Hinson,Jodi Boockvar,Scarsdale,NY,10583,Not Employed,Not Employed,100000,1,2026-04-12,2026-04-12,zip,false,900000,8,8,2026
+Ashley Hinson,Joel Krischer,Beverly Hills,CA,90212,Retired,Retired,100000,1,2026-02-06,2026-02-06,zip,false,2590000,23,16,2024/2026
+Ashley Hinson,Jonah Meer,Atlantic Beach,NY,11509,Qrons,Ceo,100000,1,2026-03-31,2026-03-31,zip,false,420000,4,4,2024
+Ashley Hinson,Jone Dalezman,Newton,MA,02460,Retired,Retired,100000,1,2026-01-07,2026-01-07,zip,false,8121666,64,43,2024/2026
+Ashley Hinson,Joshua Muss,Forest Hills,NY,11375,Principal,Muss Realty,100000,1,2026-03-31,2026-03-31,zip,false,1980000,13,11,2024/2026
+Ashley Hinson,Julie Ovadia,Lafayette,CA,94549,Retired,Retired,100000,1,2026-01-30,2026-01-30,zip,false,2790000,22,18,2024/2026
+Ashley Hinson,Kara Felson,West Hollywood,CA,90069,Private,Private,100000,1,2026-06-08,2026-06-08,zip,false,400000,5,5,2024/2026
+Ashley Hinson,Kenneth Goldman,Orinda,CA,94563,Eso Fund,Finance,100000,1,2026-01-29,2026-01-29,zip,true,650000,12,12,2026
+Ashley Hinson,Larry Kugler,Delray Beach,FL,33483,Lk Dayton Investments,Manager,100000,2,2025-06-26,2026-04-23,zip,true,5083000,39,35,2024/2026
+Ashley Hinson,Lauren Feldman,East Hampton,NY,11937,Self,Actress,100000,1,2026-04-13,2026-04-13,zip,false,100000,1,1,2026
+Ashley Hinson,Marc Paley,Bridgehampton,NY,11932,Hightechlending,Executive,100000,1,2026-04-14,2026-04-14,zip,true,2350000,12,12,2024/2026
+Ashley Hinson,Marla Curtis,Boxford,MA,01921,Marla Glanzer Curtis Aia,Architect,100000,1,2026-01-23,2026-01-23,zip,true,1700000,17,15,2024/2026
+Ashley Hinson,Marty Glick,Piedmont,CA,94611,Golden State LLC,Advisor,100000,1,2026-02-01,2026-02-01,zip,true,3320000,31,28,2024/2026
+Ashley Hinson,Mary Millman,New York,NY,10075,Independent Contractor,Real Estate,100000,1,2026-04-13,2026-04-13,zip,true,650000,6,6,2024/2026
+Ashley Hinson,Michael Glick,New York,NY,10003,Retired,Retired,100000,1,2025-09-18,2025-09-18,zip,false,1470000,10,8,2024/2026
+Ashley Hinson,Morgan Simon,Chicago,IL,60614,Assured,Sales,100000,1,2026-06-23,2026-06-23,zip,false,200000,3,3,2024/2026
+Ashley Hinson,Naphtali Nektalov,Los Angeles,CA,90035,Axle Homes,Builder/Developer,100000,1,2026-06-11,2026-06-11,zip,true,1375000,16,13,2024/2026
+Ashley Hinson,Noga Villalon,Boca Raton,FL,33432,Retired,Retired,100000,2,2026-05-20,2026-06-04,zip,false,1825000,29,27,2024/2026
+Ashley Hinson,Oren Lazar,North Hollywood,CA,91607,Lazar PC,Attorney,100000,1,2026-02-20,2026-02-20,zip,true,1025000,7,7,2026
+Ashley Hinson,Paul Isaac,Larchmont,NY,10538,Arbiter Partners,Analyst,100000,1,2025-12-10,2025-12-10,zip,true,1050000,7,7,2024/2026
+Ashley Hinson,Rachel Albert,Middlebury,CT,06762,Retired,Retired,100000,1,2025-12-26,2025-12-26,zip,false,125000,2,1,2024/2026
+Ashley Hinson,Rich Benenson,Aspen,CO,81611,Brownstein LLP,Managing Partner,100000,1,2025-09-12,2025-09-12,zip,false,50000,1,1,2026
+Ashley Hinson,Risa Gewurz,Brookline,MA,02445,Homemaker,Homemaker,100000,1,2025-12-10,2025-12-10,zip,false,1500000,19,18,2024/2026
+Ashley Hinson,Roberta Zucker,Tiburon,CA,94920,Retired,Retired,100000,1,2026-03-11,2026-03-11,zip,false,865000,14,13,2024/2026
+Ashley Hinson,Robin Santiago,West Hartford,CT,06117,Retired,Retired,100000,1,2026-01-22,2026-01-22,zip,false,900000,13,11,2024/2026
+Ashley Hinson,Rosalind Gorin,Boston,MA,02116,H.N. Gorin Inc.,Real Estate,100000,1,2026-01-29,2026-01-29,zip,false,500000,5,4,2024/2026
+Ashley Hinson,Ruth Binder,Sherwood Forest,CA,91325,Retired,Retired,100000,1,2026-06-12,2026-06-12,zip,false,1000000,8,8,2024/2026
+Ashley Hinson,Sanford Perl,Glencoe,IL,60022,Kirkland & Ellis LLP,Attorney,100000,1,2025-06-19,2025-06-19,zip,true,20270000,79,61,2024/2026
+Ashley Hinson,Shale Lapping,Chicago,IL,60601,Ipex Inc.,Investment Consultant,100000,2,2025-06-12,2026-06-25,zip,false,2360000,41,33,2024/2026
+Ashley Hinson,Sharon Mishkin,Brookline,MA,02445,Not Employed,Not Employed,100000,1,2026-01-12,2026-01-12,zip,false,1300000,10,10,2024/2026
+Ashley Hinson,Steven Solomon,Incline Village,NV,89451,Uc Berkeley,Professor,100000,1,2026-02-17,2026-02-17,zip,true,3100000,25,22,2024/2026
+Ashley Hinson,Suzanne Cohen,Newton,MA,02459,Retired,Retired,100000,1,2026-01-15,2026-01-15,zip,false,1050000,13,13,2026
+Ashley Hinson,Tina Kasimer,Sharon,MA,02067,Retired,Retired,100000,1,2026-01-15,2026-01-15,zip,false,750000,9,7,2024/2026
+Ashley Hinson,Vera Markowitz,Beverly Hills,CA,90210,Retired,Retired,100000,1,2026-06-15,2026-06-15,zip,false,15205000,116,71,2024/2026
+Ashley Hinson,Yana Moser,Culver City,CA,90232,Self-Employed,Marketing,100000,1,2026-06-12,2026-06-12,zip,false,50000,1,1,2026
+Ashley Hinson,Yoni Fife,Los Angeles,CA,90034,Athene,Svp Legal,100000,1,2026-06-11,2026-06-11,zip,true,750000,9,9,2024/2026
+Ashley Hinson,Paul Bachow,Aventura,FL,33180,Retired,Retired,88200,18,2025-01-06,2026-06-02,zip,false,25000,1,1,2024
+Ashley Hinson,Bruce Weininger,Kamas,UT,84036,Focus Partners,Investment Advisor,75000,2,2025-06-12,2026-06-23,zip,true,3422000,65,47,2024/2026
+Ashley Hinson,Jay Stieber,Prospect Heights,IL,60070,Lettuce Entertain You,Attorney,75000,2,2026-04-27,2026-06-16,zip,true,2675000,49,31,2024/2026
+Ashley Hinson,Nathan Lichtenstein,Skokie,IL,60076,Aronberg Goldgehn,Attorney,75000,2,2025-06-19,2026-06-10,zip,true,275000,7,7,2026
+Ashley Hinson,Susan Janosky,Newton,MA,02465,Retired,Retired,75000,1,2026-01-13,2026-01-13,zip,false,800000,11,9,2024/2026
+Ashley Hinson,Nicole Hayavi,Beverly Hills,CA,90210,,,60000,1,2026-06-20,2026-06-20,zip,false,60000,1,1,2026
+Ashley Hinson,Sandra Mendell,Los Angeles,CA,90025,Levitch Stanley Mendell,Lawyer,60000,1,2026-06-09,2026-06-09,zip,false,521205,188,132,2024/2026
+Ashley Hinson,Alan Kaplan,Wilmette,IL,60091,Retired,Retired,50000,1,2025-06-19,2025-06-19,zip,false,270000,6,6,2026
+Ashley Hinson,Alan Molotsky,Skokie,IL,60076,North Square Investments,Attorney,50000,1,2026-06-05,2026-06-05,zip,true,1620000,41,36,2024/2026
+Ashley Hinson,Alan Solinsky,West Hartford,CT,06117,Solinsky Eyecare,Ophthalmologist,50000,1,2026-01-18,2026-01-18,zip,false,70000,3,3,2024
+Ashley Hinson,Amy Bloomstone,West Newton,MA,02465,Retired,Retired,50000,1,2026-01-12,2026-01-12,zip,false,1650000,26,22,2024/2026
+Ashley Hinson,Amy Graiwer,Los Angeles,CA,90064,Homemaker,Homemaker,50000,1,2026-06-09,2026-06-09,zip,false,3290000,26,20,2024/2026
+Ashley Hinson,Arthur Sinensky,Fort Lee,NJ,07024,Retired,Retired,50000,1,2025-09-18,2025-09-18,zip,false,2100000,22,14,2024/2026
+Ashley Hinson,Azadeh Afari,Los Angeles,CA,90024,Self-Employed,Psychotherapist,50000,1,2026-06-17,2026-06-17,zip,false,125000,3,2,2024/2026
+Ashley Hinson,Barbara Kopans,Newton,MA,02468,Retired,Retired,50000,1,2026-01-20,2026-01-20,zip,false,2350000,31,28,2024/2026
+Ashley Hinson,Ben Nortman,Winnetka,IL,60093,Hilco,Business,50000,1,2025-06-19,2025-06-19,zip,true,361000,11,11,2024/2026
+Ashley Hinson,Bobby Meth,Marina Del Rey,CA,90292,Retired,Retired,50000,1,2026-06-08,2026-06-08,zip,false,774000,21,14,2024/2026
+Ashley Hinson,Brandon Fikhman,Tarzana,CA,91356,Mountain Pacific Opportunity Partners,Real Estate,50000,1,2026-06-07,2026-06-07,zip,true,50000,1,1,2026
+Ashley Hinson,Bruce Werner,Lincolnshire,IL,60069,Self-Employed,Business,50000,1,2026-06-24,2026-06-24,zip,false,2648000,62,48,2024/2026
+Ashley Hinson,Bruce Zessar,Highland Park,IL,60035,Advisory Research Inc.,Investment Management,50000,1,2025-06-19,2025-06-19,zip,false,1245000,20,20,2024/2026
+Ashley Hinson,Calvin Moffie,Wallingford,CT,06492,The Guilford House,Health Care Development,50000,1,2026-01-14,2026-01-14,zip,false,50000,1,1,2026
+Ashley Hinson,Claudia Gilman Eisenbaum,Newton Center,MA,02459,Novara Global Consulting LLC,Founder And Principal,50000,1,2025-12-12,2025-12-12,zip,true,400000,7,7,2026
+Ashley Hinson,Daniel Gottfried,Avon,CT,06001,Enfinity Global,Attorney,50000,1,2026-01-16,2026-01-16,zip,true,200000,3,3,2024/2026
+Ashley Hinson,David Hartford,Oakland,CA,94611,Retired,Retired,50000,1,2026-02-09,2026-02-09,zip,false,700000,12,12,2024/2026
+Ashley Hinson,David Marinoff,Oakland,CA,94611,Bay Children'S Medical Group,Physician,50000,1,2026-02-04,2026-02-04,zip,false,1560000,17,16,2024/2026
+Ashley Hinson,Dennis Albers,Aspen,CO,81611,Self-Employed,Real Estate Investments,50000,1,2026-01-27,2026-01-27,zip,false,3285000,57,45,2024/2026
+Ashley Hinson,George Frankenstein,San Francisco,CA,94127,Retired,Retired,50000,1,2026-01-27,2026-01-27,zip,false,741000,21,20,2026
+Ashley Hinson,Greg Fishman,Santa Monica,CA,90402,Greenberg Traurig LLP,Attorney,50000,1,2026-06-16,2026-06-16,zip,true,200000,4,4,2026
+Ashley Hinson,Igal Elyassi,Los Angeles,CA,90048,Dr. Dentist,Dentist,50000,1,2026-01-18,2026-01-18,zip,true,1550000,26,23,2024/2026
+Ashley Hinson,Ilene Adler,Chicago,IL,60611,Retired,Retired,50000,1,2025-06-26,2025-06-26,zip,false,150000,3,3,2026
+Ashley Hinson,Jamie Grossman,Newton,MA,02465,Mgs Group Re,Real Estate Broker,50000,1,2026-01-14,2026-01-14,zip,true,100000,2,2,2026
+Ashley Hinson,Jay Nadel,Demarest,NJ,07627,Self-Employed,Consultant,50000,1,2025-09-18,2025-09-18,zip,false,175000,5,4,2024/2026
+Ashley Hinson,Jeffrey Drake,Evanston,IL,60201,Litwin Kach,Attorney,50000,1,2025-06-19,2025-06-19,zip,true,375000,10,9,2024/2026
+Ashley Hinson,Jennifer Gordon,Marina Del Rey,CA,90292,Self-Employed,Educational Therapist,50000,1,2026-06-09,2026-06-09,zip,false,962500,11,10,2024/2026
+Ashley Hinson,Jeremy Lowenstein,West Hollywood,CA,90046,New Milani Cosmetics LLC,Cmo,50000,1,2026-06-07,2026-06-07,zip,false,950000,13,12,2024/2026
+Ashley Hinson,Larry Stadtner,San Anselmo,CA,94960,Retired,Retired,50000,1,2026-02-19,2026-02-19,zip,false,1475000,23,21,2024/2026
+Ashley Hinson,Lee Ziff,Beverly Hills,CA,90210,Sequoia Realty,Realtor,50000,1,2026-06-07,2026-06-07,zip,true,2987300,43,33,2024/2026
+Ashley Hinson,Lev Katz,Skokie,IL,60076,Dell,Sales,50000,1,2025-06-19,2025-06-19,zip,true,150000,2,2,2026
+Ashley Hinson,Lisa Coll,Auburndale,MA,02466,Self Employed,Consultant,50000,1,2026-01-12,2026-01-12,zip,false,2230000,28,22,2024/2026
+Ashley Hinson,Lyle Green,Los Angeles,CA,90025,Retired,Retired,50000,1,2026-06-12,2026-06-12,zip,false,200000,4,4,2026
+Ashley Hinson,Marcus Leher,Los Angeles,CA,90034,Morgan Stanley,Investment Banker,50000,1,2026-06-09,2026-06-09,zip,true,425000,11,9,2024/2026
+Ashley Hinson,Martin Roth,Chicago,IL,60614,Kirkland & Ellis,Attorney,50000,1,2026-06-08,2026-06-08,zip,true,1086000,24,22,2024/2026
+Ashley Hinson,Martin Seaton,Los Angeles,CA,90024,Retired,Retired,50000,1,2026-02-19,2026-02-19,zip,false,2020000,56,44,2024/2026
+Ashley Hinson,Mauricio Oberfeld,Los Angeles,CA,90069,Oberfeld Development Corporation,Real Estate,50000,1,2026-06-10,2026-06-10,zip,true,825000,15,12,2024/2026
+Ashley Hinson,Miles Holden,San Anselmo,CA,94960,Hanson Bridgett LLP,Attorney,50000,1,2026-03-11,2026-03-11,zip,true,254000,7,6,2024/2026
+Ashley Hinson,Morton Friedkin,San Francisco,CA,94104,Friedkin Property,Real Estate Investor,50000,1,2026-01-30,2026-01-30,zip,true,980000,8,8,2024/2026
+Ashley Hinson,Moshe Friedman,Skokie,IL,60076,Becker Gurian,Attorney,50000,1,2025-06-26,2025-06-26,zip,true,1480000,14,12,2024/2026
+Ashley Hinson,Naomi Hochman,Playa Del Rey,CA,90293,Self-Employed,Marketing Consultant,50000,1,2026-06-10,2026-06-10,zip,false,3397500,22,18,2024/2026
+Ashley Hinson,Orete Harkavy,Deerfield,IL,60015,Retired,Retired,50000,1,2026-04-28,2026-04-28,zip,false,925000,14,12,2026
+Ashley Hinson,Paul Sanderson,Alamo,CA,94507,Retired,Retired,50000,1,2026-02-10,2026-02-10,zip,false,1683000,39,29,2024/2026
+Ashley Hinson,Peter C. Farrell,Houston,TX,77019,Red Med Inc.,Founder,50000,1,2025-05-09,2025-05-09,zip,false,50000,1,1,2024
+Ashley Hinson,Peter Cohen,Beverly Hills,CA,90211,Cardinal Equities,Investor/Attorney,50000,1,2026-06-07,2026-06-07,zip,true,550000,9,8,2024/2026
+Ashley Hinson,Phoebe Nir,Rockville Centre,NY,11570,Self,Filmmaker,50000,1,2026-02-10,2026-02-10,zip,false,200000,4,4,2026
+Ashley Hinson,Ramin Younessi,Beverly Hills,CA,90210,Self-Employed,Attorney,50000,1,2026-06-12,2026-06-12,zip,false,700000,14,12,2024/2026
+Ashley Hinson,Randall Kessler,Alameda,CA,94501,Self-Employed,Attorney,50000,1,2026-02-06,2026-02-06,zip,false,1300000,28,27,2024/2026
+Ashley Hinson,Shaina Simhaee,Beverly Hills,CA,90210,Self-Employed,Holistic Nutrition,50000,1,2026-06-18,2026-06-18,zip,false,550000,6,6,2026
+Ashley Hinson,Sheila Bolour,Beverly Hills,CA,90210,Self-Employed,Consultant,50000,1,2026-06-10,2026-06-10,zip,false,7000000,46,29,2024/2026
+Ashley Hinson,Susan Benyowitz,Los Angeles,CA,90035,Retired,Retired,50000,1,2026-06-12,2026-06-12,zip,false,1400000,15,11,2024/2026
+Ashley Hinson,Toby Waldorf,Los Angeles,CA,90024,Retired,Retired,50000,1,2026-06-22,2026-06-22,zip,false,400000,8,7,2024/2026
+Ashley Hinson,Yoel Neman,Los Angeles,CA,90015,Neman Brothers & Assoc. Inc.,President,50000,1,2026-06-08,2026-06-08,zip,false,650000,12,9,2024/2026
+Ashley Hinson,Michael Wasserman,Niles,IL,60714,Self,Physician,40000,2,2025-06-19,2025-06-26,zip,false,290000,6,5,2024/2026
+Ashley Hinson,Vivien Lowy,Marina Del Rey,CA,90292,Retired,Retired,40000,1,2026-06-07,2026-06-07,zip,false,777500,24,20,2024/2026
+Ashley Hinson,Arnold Jacobson,Alamo,CA,94507,Retired,Retired,35000,1,2026-01-27,2026-01-27,zip,false,445000,12,12,2024/2026
+Ashley Hinson,Sharon Efron,West Hartford,CT,06107,Goodwin University,Professor,35000,1,2025-12-12,2025-12-12,zip,true,1137500,31,23,2024/2026
+Ashley Hinson,Donna Goldfarb,Los Angeles,CA,90024,Volunteer,Retired,30000,1,2026-06-09,2026-06-09,zip,true,150000,2,2,2026
+Ashley Hinson,Sarah Farzan,Los Angeles,CA,90024,Retired,Retired,30000,1,2026-06-10,2026-06-10,zip,false,250000,3,3,2026
+Ashley Hinson,Andrew Hochberg,Skokie,IL,60077,Next Realty LLC,Ceo,25000,1,2026-05-05,2026-05-05,zip,false,1475000,20,18,2024/2026
+Ashley Hinson,Barry Seiden,Northbrook,IL,60062,Att,Misc,25000,1,2026-06-26,2026-06-26,zip,false,1160000,41,28,2024/2026
+Ashley Hinson,Bradley Alter,Skokie,IL,60076,Rcc LLC,Business Manager,25000,1,2025-06-19,2025-06-19,zip,true,305000,12,8,2024/2026
+Ashley Hinson,Bruce Leon,Chicago,IL,60645,Retired,Retired,25000,1,2025-06-26,2025-06-26,zip,false,68000,3,3,2024/2026
+Ashley Hinson,Howard Rosenburg,Evanston,IL,60203,Kopecky Schumacher Rosenburg LLC,Attorney,25000,1,2025-06-19,2025-06-19,zip,true,195000,6,5,2024/2026
+Ashley Hinson,Jay Koppelman,Pleasant Hill,CA,94523,Retired,Retired,25000,1,2026-02-03,2026-02-03,zip,false,450000,18,17,2024/2026
+Ashley Hinson,Jeff Kaplan,Glencoe,IL,60022,303 Capital Partners,Options Trader,25000,1,2025-06-26,2025-06-26,zip,true,150000,5,5,2024/2026
+Ashley Hinson,Michael Weiss,Lawrence,NY,11559,Self,Inv,25000,1,2026-03-31,2026-03-31,state,false,25000,1,0,2026
+Ashley Hinson,Patrick Feigelson,Oakland,CA,94611,Not Employed,Not Employed,25000,1,2026-02-03,2026-02-03,zip,false,155000,6,6,2024/2026
+Ashley Hinson,Richard Lakin,Northbrook,IL,60062,Iron,Advisor,25000,1,2025-06-19,2025-06-19,zip,true,175000,5,5,2024/2026
+Ashley Hinson,Ethel C. Fenig,Chicago,IL,60645,Retired,Retired,15000,1,2025-07-19,2025-07-19,zip,false,138000,4,4,2026
+Josh Turek,Peter Cohen,Irvine,CA,92623,Not Employed,Not Employed,350000,1,2026-06-09,2026-06-09,state,false,550000,9,8,2024/2026
+Josh Turek,Chester Black,Wayland,MA,01778,Not Employed,Not Employed,100000,1,2026-04-19,2026-04-19,zip,false,500000,1,0,2026
+Josh Turek,Cintra Pollack,Denver,CO,80209,Race Street Management,Investment Manager,50000,1,2025-09-15,2025-09-15,zip,true,750000,5,4,2024/2026
+Josh Turek,David Cohen,Chevy Chase,MD,20815,Not Employed,Not Employed,50000,1,2026-06-30,2026-06-30,state,false,100000,1,1,2026
+Josh Turek,David May,New York,NY,10016,Superstructures,Architect,50000,1,2026-06-29,2026-06-29,zip,true,25000,1,1,2024
+Josh Turek,Gary Elden,Chicago,IL,60606,Shook Hardy & Bacon L.L.P,Attorney,33300,1,2025-11-13,2025-11-13,state,false,50000,1,1,2024
+Josh Turek,Andrew Cohen,Jersey City,NJ,07307,Retired,Retired,30000,1,2026-06-22,2026-06-22,state,false,365000,2,1,2024/2026
+Josh Turek,Daniel Cohen,Denver,CO,80203,Retired,Retired,27500,1,2026-06-10,2026-06-10,state,false,2000,1,1,2024
+Josh Turek,David Smith,Berkeley,CA,94709,Not Employed,Not Employed,25000,1,2025-12-04,2025-12-04,state,false,750000,13,11,2024/2026
+Josh Turek,John Somorjai,Hillsborough,CA,94010,Salesforce Inc,President Corporate Development,25000,1,2026-06-02,2026-06-02,zip,false,400000,2,2,2024/2026
+Josh Turek,Michael Baron,Lighthouse Point,FL,33064,Self Employed,Sales,25000,1,2026-05-03,2026-05-03,zip,false,36000,1,0,2026
+Josh Turek,Vicki Hood,Chicago,IL,60611,Not Employed,Not Employed,25000,1,2025-08-24,2025-08-24,zip,false,25000,1,1,2026
+Josh Turek,Robert Goldstein,Boca Raton,FL,33487,Not Employed,Not Employed,2500,1,2025-12-30,2025-12-30,state,false,500000,1,0,2026

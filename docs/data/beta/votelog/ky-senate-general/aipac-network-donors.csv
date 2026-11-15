@@ -1,0 +1,256 @@
+candidate,donor,city,state,zip5,employer,occupation,direct_total_cents,contributions,first_date,last_date,match_tier,same_employer_string,aipac_pac_total_cents,aipac_pac_rows,aipac_pac_recipient_committees,aipac_pac_cycles
+Andy Barr,Linda Dresner,Birmingham,MI,48009,,Retail Owner,1400000,2,2025-06-20,2025-09-29,zip,false,11630000,21,18,2024/2026
+Andy Barr,Alan I. Franco,Metairie,LA,70005,Magnolia Marketing LLC,Partner,700000,2,2025-03-20,2025-03-20,zip,true,13650000,30,27,2024/2026
+Andy Barr,David Blumberg,Golden Beach,FL,33160,Blumberg Capital,Vc,700000,1,2025-03-31,2025-03-31,zip,true,100000,1,1,2026
+Andy Barr,Diane Franco,Metairie,LA,70005,,,700000,2,2025-03-20,2025-03-20,zip,false,3960000,11,9,2024/2026
+Andy Barr,Elizabeth May Stern,Scarsdale,NY,10583,Retired,Retired,700000,2,2025-09-30,2025-09-30,zip,false,500000,1,0,2024
+Andy Barr,Evan Smiedt,San Diego,CA,92130,"The Fundworks, LLC",Owner,700000,1,2026-03-13,2026-03-13,zip,true,1417500,7,7,2024
+Andy Barr,Jorge Woldenberg,Bal Harbour,FL,33154,Corpac Group,Executive,700000,2,2025-03-20,2025-03-20,zip,true,13019100,41,33,2024/2026
+Andy Barr,Edward Jr. Levy,Birmingham,MI,48009,Edw C Levy Co,Edw C Levy,698500,8,2025-09-03,2025-09-07,zip,true,35510000,67,51,2024/2026
+Andy Barr,David Kurzweil,Scarsdale,NY,10583,Latham & Watkins LLP,Attorney,500000,1,2025-05-29,2025-05-29,zip,true,5390000,18,15,2024/2026
+Andy Barr,Dean Faracchio,Lake Mary,FL,32746,None,Retired,500000,3,2025-01-20,2025-04-28,zip,false,280000,3,2,2024
+Andy Barr,Jeffrey S Stein,New Canaan,CT,06840,Stein Advisors LLC,Managing Partner,500000,1,2025-06-02,2025-06-02,zip,true,3881108,12,12,2024/2026
+Andy Barr,Martin Oliner,Lawrence,NY,11559,None,Retired,500000,2,2026-05-15,2026-05-15,zip,false,1450000,5,4,2026
+Andy Barr,Thomas Brener,New York,NY,10028,"Quadrant Capital Advisors, Inc.",Investment Manager,500000,1,2025-05-28,2025-05-28,zip,true,2750000,9,9,2024/2026
+Andy Barr,Albert Goldstein,Coral Gables,FL,33143,"Stoiclane, Inc.",Ceo,450000,3,2025-03-28,2026-01-13,zip,true,2720900,11,8,2024/2026
+Andy Barr,Ryan Mackenzie Brumberg,Greenwich,CT,06831,A Priori,Finance,416400,1,2026-03-20,2026-03-20,zip,true,2765400,13,11,2024/2026
+Andy Barr,Andrea Olshan,New York,NY,10021,None,Unemployed,400000,1,2026-03-12,2026-03-12,zip,false,200000,1,1,2026
+Andy Barr,Jacques Blinbaum,New York,NY,10022,Old Court Group,Executive,400000,1,2026-03-23,2026-03-23,zip,true,8320277,28,23,2024/2026
+Andy Barr,Laurence Cohen,Miami Beach,FL,33139,Merus Global Investments LLC,Partner,400000,2,2025-12-30,2026-01-17,zip,true,1280000,17,15,2024/2026
+Andy Barr,Bradley Smiedt,Los Angeles,CA,90064,The Fundworks,Finance,364300,1,2026-03-09,2026-03-09,zip,false,300000,2,2,2024
+Andy Barr,Alan Gindi,Culver City,CA,90232,,,350000,1,2025-08-13,2025-08-13,zip,false,14295000,45,39,2024/2026
+Andy Barr,Allan Schweitzer,Los Angeles,CA,90077,Beachpoint Capital,Portfolio Manager,350000,1,2025-08-04,2025-08-04,zip,true,8190000,26,24,2024/2026
+Andy Barr,Andrew S. Milgram,Greenwich,CT,06831,Marblegate,Investment Management,350000,1,2025-06-01,2025-06-01,zip,true,2927600,11,10,2024/2026
+Andy Barr,Barak Raviv,Beverly Hills,CA,90210,,,350000,1,2025-08-13,2025-08-13,zip,false,19402300,79,55,2024/2026
+Andy Barr,Brad Mindlin,Incline Village,NV,89451,Oro Capital Advisors,Managing Partner,350000,1,2025-08-04,2025-08-04,zip,true,16460000,45,36,2024/2026
+Andy Barr,Gila Milstein,Encino,CA,91436,,,350000,1,2025-08-13,2025-08-13,zip,false,11220000,32,24,2024/2026
+Andy Barr,Henry Miller,Palm Beach,FL,33480,Marblegate Asset Management LLC,Exec,350000,1,2025-05-30,2025-05-30,zip,true,1750000,5,5,2026
+Andy Barr,Michael Tuchin,Los Angeles,CA,90067,Ktbs Law LLP,Attorney,350000,1,2025-08-04,2025-08-04,zip,true,8910000,35,28,2024/2026
+Andy Barr,Patty Glaser,Los Angeles,CA,90067,Glaser Weil,Attorney,350000,1,2025-08-13,2025-08-13,zip,true,5750000,28,24,2024/2026
+Andy Barr,Robert Klyman,Los Angeles,CA,90004,,,350000,1,2025-08-13,2025-08-13,zip,false,8030000,29,24,2024/2026
+Andy Barr,Ron Meisler,Northbrook,IL,60062,Skadden,Lawyer,350000,2,2025-06-05,2025-06-05,zip,true,4833500,43,31,2024/2026
+Andy Barr,Elizabeth Winter,New York,NY,10019,Unemployed,None,300000,1,2026-03-17,2026-03-17,zip,false,2450000,15,13,2024/2026
+Andy Barr,Rod Loewenthal,Highland Park,IL,60035,Ubs,Financial Advisor,270000,2,2025-05-28,2025-06-05,zip,true,6601100,44,31,2024/2026
+Andy Barr,Vanessa Colman,Glencoe,IL,60022,None,Retired,260000,2,2025-05-28,2025-06-05,zip,false,2002800,27,21,2024/2026
+Andy Barr,Jason Rimokh,Beverly Hills,CA,90210,Signal Brands,Retail,250000,1,2025-08-04,2025-08-04,zip,true,6710000,25,21,2024/2026
+Andy Barr,Aaron Nagiel,Santa Monica,CA,90402,Usc,Physician,200000,1,2026-02-21,2026-02-21,zip,true,900000,9,9,2026
+Andy Barr,Adam Reich,Los Angeles,CA,90035,Reich Brothers,Co-Ceo,200000,1,2025-08-04,2025-08-04,zip,true,3390000,17,15,2024/2026
+Andy Barr,Adam Struck,Beverly Hills,CA,90210,,,200000,1,2026-03-02,2026-03-02,zip,false,1750000,19,16,2024/2026
+Andy Barr,Alexander Goldstein,Coral Gables,FL,33146,Eligo Energy,Executive,200000,1,2025-04-04,2025-04-04,zip,true,1475000,9,8,2024/2026
+Andy Barr,Amos Meron,Los Angeles,CA,90067,Empyrean Capital,Finance,200000,1,2026-04-06,2026-04-06,zip,false,150000,1,1,2024
+Andy Barr,Andrew Fiske,Pembroke Pines,FL,33024,City First Mortgage Corp,Finance,200000,2,2025-01-31,2026-03-31,zip,false,50000,1,1,2026
+Andy Barr,Ari Ryan,Santa Barbara,CA,93108,Self Employed,Investor,200000,1,2026-02-25,2026-02-25,zip,false,1350000,10,9,2024
+Andy Barr,Arthur Penn,Miami Beach,FL,33140,Pennant Park Investments,Investment Management,200000,1,2025-12-29,2025-12-29,zip,false,10265000,47,40,2024/2026
+Andy Barr,Avery Kastin,Atlanta,GA,30308,,,200000,1,2026-04-14,2026-04-14,zip,false,500000,5,4,2024/2026
+Andy Barr,Ben Tausig,Los Angeles,CA,90035,Pwc Us Tax LLP,Tax Partner,200000,1,2026-03-01,2026-03-01,zip,true,1275000,15,14,2024/2026
+Andy Barr,Daniel Och,Greenwich,CT,06830,Willoughby Capital Holdings,Founder,200000,1,2026-02-06,2026-02-06,zip,true,16010000,7,6,2024/2026
+Andy Barr,Daron Tooch,Los Angeles,CA,90064,King & Spalding,Attorney,200000,1,2026-02-22,2026-02-22,zip,true,1000000,12,12,2026
+Andy Barr,David Horowitz,Glen Head,NY,11545,Tasty Brands,Owner,200000,1,2026-03-18,2026-03-18,zip,true,9545000,43,33,2024/2026
+Andy Barr,David Miller,Stamford,CT,06902,Webster Lock Co,Business Owner,200000,1,2026-03-11,2026-03-11,zip,true,800000,9,8,2024/2026
+Andy Barr,Elizabeth Davis,Atlanta,GA,30336,Rndc,Pr/Exec,200000,1,2026-03-19,2026-03-19,zip,true,6780000,37,30,2024/2026
+Andy Barr,Hugo Rose,Los Angeles,CA,90035,Televix,Ceo,200000,1,2026-02-21,2026-02-21,zip,true,950000,7,7,2026
+Andy Barr,James Sprayregen,Glencoe,IL,60022,Hilco Global,Vice Chairman,200000,1,2025-06-06,2025-06-06,zip,true,12434283,68,54,2024/2026
+Andy Barr,Jared Hendler,Stowe,VT,05672,Ubs,Financial Advisor,200000,1,2026-03-22,2026-03-22,zip,true,1000000,5,4,2024/2026
+Andy Barr,Jason Milner,Los Angeles,CA,90064,None,Unemployed,200000,1,2026-03-15,2026-03-15,zip,false,2000000,12,9,2024/2026
+Andy Barr,Joel Brooks,Old Westbury,NY,11568,None,Retired,200000,1,2026-03-12,2026-03-12,zip,false,4425000,27,17,2024/2026
+Andy Barr,Joel Tilsner,Minnetonka,MN,55305,Tilsner Carton Co.,President,200000,1,2025-09-16,2025-09-16,zip,true,1600000,12,7,2024/2026
+Andy Barr,Jonathan Held,Jericho,NY,11753,Js Held,Owner,200000,1,2026-03-11,2026-03-11,zip,true,250000,1,1,2026
+Andy Barr,Lisa Fields Lewis,New York,NY,10075,None,Unemployed,200000,1,2026-03-11,2026-03-11,zip,false,650000,6,6,2024/2026
+Andy Barr,Marc Altheim,Lake Success,NY,11020,Retired,Retired,200000,1,2026-03-18,2026-03-18,zip,false,4240000,34,26,2024/2026
+Andy Barr,Margo Cohen,Surfside,FL,33154,,,200000,1,2026-01-12,2026-01-12,zip,false,2800000,14,13,2024/2026
+Andy Barr,Mark Horowitz,Los Angeles,CA,90035,None,Retired,200000,1,2026-02-25,2026-02-25,zip,false,1520000,17,14,2024/2026
+Andy Barr,Michael Barry,Minnetonka,MN,55305,Twin City Fan Companies Ltd,Executive,200000,1,2025-09-05,2025-09-05,zip,true,2460000,16,11,2024/2026
+Andy Barr,Michael Woronoff,Los Angeles,CA,90049,None,Retired,200000,1,2026-03-04,2026-03-04,zip,false,2775000,19,16,2024/2026
+Andy Barr,Philip Amoils,Santa Monica,CA,90402,Physician,Self,200000,1,2026-03-04,2026-03-04,zip,false,685000,7,6,2024/2026
+Andy Barr,Raphy Nissel,Beverly Hills,CA,90210,,,200000,1,2025-08-13,2025-08-13,zip,false,2600000,15,14,2024/2026
+Andy Barr,Raviv Surpin,Los Angeles,CA,90035,None,Retired,200000,1,2026-03-04,2026-03-04,zip,false,1525000,19,15,2024/2026
+Andy Barr,Reed Rayman,New York,NY,10021,Apollo Management,Private Equity,200000,1,2025-08-14,2025-08-14,zip,true,2615000,7,4,2024/2026
+Andy Barr,Richard Davis,Atlanta,GA,30342,Ndc,Evp,200000,1,2026-03-31,2026-03-31,zip,false,5030000,32,26,2024/2026
+Andy Barr,Robb Watters,Great Falls,VA,22066,The Madison Group,Managing Partner,200000,3,2025-03-26,2026-05-14,zip,true,25000,1,1,2024
+Andy Barr,Stanley Sonenshine,Sandy Springs,GA,30350,None,Retired,200000,1,2026-03-20,2026-03-20,zip,false,3760000,35,32,2024/2026
+Andy Barr,Stephen Fiske,Pembroke Pines,FL,33024,City First,Banking,200000,2,2025-01-31,2026-03-31,zip,true,450000,7,7,2024/2026
+Andy Barr,Steve Hendry,Beverly Hills,CA,90212,Access Entertainment,Attorney,200000,1,2026-02-25,2026-02-25,zip,true,1800000,14,14,2026
+Andy Barr,Stuart Sara Meyers,Dunwoody,GA,30338,None,Retired,200000,1,2026-03-31,2026-03-31,zip,false,4275000,31,24,2024/2026
+Andy Barr,Sylvia Shapiro,Bal Harbour,FL,33154,Classy App,Coo,200000,1,2026-03-02,2026-03-02,zip,false,400000,4,4,2026
+Andy Barr,Tim Williams,Douglasville,GA,30135,None,Retired,200000,1,2026-03-20,2026-03-20,zip,false,2400000,25,21,2024/2026
+Andy Barr,Chase Berger,Bay Harbor Islands,FL,33154,Gb,Attorney,180000,1,2025-12-28,2025-12-28,zip,true,2022600,12,11,2026
+Andy Barr,David Menche,Miami Beach,FL,33140,Self Employed,Surgeon,180000,1,2025-12-28,2025-12-28,zip,false,2460000,12,12,2024/2026
+Andy Barr,Adam Berkowitz,Los Angeles,CA,90067,"Lenore Entertainment Group, LLC",Talent Manager,150000,1,2026-03-02,2026-03-02,zip,true,1700000,29,24,2024/2026
+Andy Barr,Adam Rosenfeld,West Hollywood,CA,90069,The Agency,Real Estate Broker,150000,1,2025-08-04,2025-08-04,zip,true,1800000,12,12,2026
+Andy Barr,Alain R'Bibo,North Hollywood,CA,91606,Allen Matkins,Attorney,150000,1,2025-08-04,2025-08-04,zip,true,3400000,25,24,2024/2026
+Andy Barr,Daniel Cohen,New York,NY,10019,Apollo,Partner,150000,1,2025-08-04,2025-08-04,state,false,675000,2,2,2024/2026
+Andy Barr,Deborah Edell,New York,NY,10021,None,Unemployed,150000,1,2026-03-15,2026-03-15,zip,false,17306700,89,55,2024/2026
+Andy Barr,Eric Edell,New York,NY,10021,22c Capital,Investor,150000,1,2026-03-19,2026-03-19,zip,true,4840000,13,9,2024/2026
+Andy Barr,Eric Rechtschaffen,New York,NY,10028,Sculptor Capital Management,Managing Director,150000,1,2026-03-10,2026-03-10,zip,true,800000,7,7,2024/2026
+Andy Barr,Freddie Reiss,Santa Monica,CA,90402,None,Retired,150000,1,2025-08-04,2025-08-04,zip,false,3075000,29,26,2024/2026
+Andy Barr,Herta Amir,Beverly Hills,CA,90211,,,150000,1,2025-08-13,2025-08-13,zip,false,6500000,95,72,2024/2026
+Andy Barr,Jamie Resin,Los Angeles,CA,90035,Goldman Sachs,Investment Management,150000,1,2026-02-26,2026-02-26,zip,true,2260000,30,23,2024/2026
+Andy Barr,Jason Bergsman,Santa Monica,CA,90402,Meateater,Ceo,150000,1,2026-03-06,2026-03-06,zip,true,150000,2,2,2026
+Andy Barr,Jesse Appleton,Saint Louis,MO,63105,Banner Public Affairs,Partner,150000,1,2025-12-08,2025-12-08,zip,false,50000,1,1,2026
+Andy Barr,Jim Miller,Los Angeles,CA,90067,,,150000,1,2025-08-13,2025-08-13,zip,false,1050000,7,7,2026
+Andy Barr,Jose Reines,Los Angeles,CA,90049,None,Retired,150000,1,2025-08-04,2025-08-04,zip,false,3222500,45,37,2024/2026
+Andy Barr,Jubin Niahmer,Los Angeles,CA,90024,,,150000,1,2025-08-13,2025-08-13,zip,false,1412500,8,7,2026
+Andy Barr,Laura Stein,Beverly Hills,CA,90210,Robbins Geller,Attorney,150000,1,2025-08-04,2025-08-04,zip,true,2792500,24,22,2024/2026
+Andy Barr,Lew Rudzki,Los Angeles,CA,90035,Canon Equity Partners,Real Estate,150000,1,2025-08-04,2025-08-04,zip,true,2525000,19,17,2024/2026
+Andy Barr,Matt Engel,Bronx,NY,10462,Langsam Property Services,Real Estate,150000,1,2026-03-23,2026-03-23,zip,true,2350000,17,17,2026
+Andy Barr,Mayer Bick,Los Angeles,CA,90035,,,150000,1,2025-08-13,2025-08-13,zip,false,2550000,15,15,2024/2026
+Andy Barr,Mikhail L Zabezhinsky,Hopkins,MN,55305,,,150000,1,2025-09-16,2025-09-16,zip,false,750000,5,4,2024/2026
+Andy Barr,Mort Weinstein,Miami Beach,FL,33141,None,Retired,150000,1,2025-12-28,2025-12-28,zip,false,2925000,21,18,2024/2026
+Andy Barr,Sanford E. Perl,Glencoe,IL,60022,Kirkland & Ellis LLP,Attorney,150000,1,2025-06-15,2025-06-15,zip,true,20270000,79,61,2024/2026
+Andy Barr,Stacy Nerenstone,Miami Beach,FL,33141,None,Retired,150000,1,2025-12-28,2025-12-28,zip,false,4850000,39,31,2024/2026
+Andy Barr,Kevin Finkel,Wilmette,IL,60091,Providence Real Estate,Real Estate Private Equity,140000,1,2025-06-05,2025-06-05,zip,true,1102000,11,11,2024/2026
+Andy Barr,Philip H. Cohen,Miami Beach,FL,33139,None,Retired,140000,2,2025-01-31,2026-01-08,zip,false,1166000,30,27,2024/2026
+Andy Barr,Alexis Bednyak,Glencoe,IL,60022,Alexis Bednyak Design,Interior Designer,130000,1,2025-05-28,2025-05-28,zip,true,8543300,36,21,2024/2026
+Andy Barr,Brian Price,Highland Park,IL,60035,Mesirow,Finance,130000,1,2025-05-27,2025-05-27,zip,true,3476400,23,18,2024/2026
+Andy Barr,Bruce Ettelson,Glencoe,IL,60022,Kirkland & Ellis LLP,Attorney,130000,1,2025-06-10,2025-06-10,zip,true,7154400,46,37,2024/2026
+Andy Barr,Douglas Gessner,Glenview,IL,60025,Kirkland & Ellis LLP,Lawyer,130000,1,2025-05-28,2025-05-28,zip,true,12500000,44,38,2024/2026
+Andy Barr,Guy Lakonishok,Chicago,IL,60614,Lsv,Investor,130000,1,2025-06-06,2025-06-06,zip,true,8880000,59,42,2024/2026
+Andy Barr,James Berger,Chicago,IL,60610,Magellan Development,Real Estate,130000,1,2025-06-09,2025-06-09,zip,true,222200,2,2,2024
+Andy Barr,Robert M. Wolfberg,Glencoe,IL,60022,Pls Financial Servoces,Executive,130000,1,2025-05-29,2025-05-29,zip,false,4950000,33,28,2024/2026
+Andy Barr,Tony Davis,Chicago,IL,60610,Linden Capital Partners,Investor,130000,1,2025-05-28,2025-05-28,zip,true,19964400,76,56,2024/2026
+Andy Barr,Steven Korol,Buffalo Grove,IL,60089,Leon Korol Co,Rodeo Clown,120000,1,2025-06-05,2025-06-05,zip,true,1300000,14,13,2024/2026
+Andy Barr,Adam Tiktin,Miami Beach,FL,33139,United Capital,Real Estate,100000,1,2026-01-16,2026-01-16,zip,false,180000,1,0,2026
+Andy Barr,Andrew Goodman,Glenwood Landing,NY,11547,,,100000,1,2026-03-22,2026-03-22,zip,false,835000,17,15,2024/2026
+Andy Barr,Andy Lappin,Glencoe,IL,60022,None,Retired,100000,1,2025-06-05,2025-06-05,zip,false,2710000,10,10,2024/2026
+Andy Barr,Ann Davis,Atlanta,GA,30327,None,Retired,100000,1,2026-01-16,2026-01-16,zip,false,3930000,17,16,2024/2026
+Andy Barr,Ariel Grunberg,East Rockaway,NY,11518,Grunberg Realty,Owner,100000,1,2026-03-16,2026-03-16,zip,true,850000,14,12,2024/2026
+Andy Barr,Ariel Sebag,New York,NY,10075,None,Unemployed,100000,1,2026-03-13,2026-03-13,zip,false,2860000,18,15,2024/2026
+Andy Barr,Barry Silverman,Aventura,FL,33180,Self,Md,100000,1,2026-01-15,2026-01-15,zip,false,3775000,28,27,2024/2026
+Andy Barr,Bill Gray,Plantation,FL,33325,76 Undefeated,Manager,100000,1,2025-11-26,2025-11-26,zip,false,348100,13,13,2024
+Andy Barr,Brad Birnberg,Plymouth,MN,55441,Good Domus,Real Estate Owner,100000,1,2025-09-04,2025-09-04,zip,false,650000,5,5,2024
+Andy Barr,Charles Nauen,Saint Paul,MN,55108,Lgn,Attorney,100000,1,2025-09-05,2025-09-05,zip,true,1250000,9,8,2024
+Andy Barr,Charles Shor,Cincinnati,OH,45208,None,Retired,100000,1,2026-06-29,2026-06-29,zip,false,50000,1,1,2024
+Andy Barr,Courtney Mizel,Los Angeles,CA,90024,Cventures,Physician,100000,1,2026-02-21,2026-02-21,zip,true,775000,8,8,2026
+Andy Barr,Craig Emanuel,Beverly Hills,CA,90210,The Kid From Downunder Inc.,Executive,100000,1,2026-02-22,2026-02-22,zip,true,1390000,30,25,2024/2026
+Andy Barr,Daniel Hamburger,Sarasota,FL,34234,None,Retired,100000,1,2025-06-06,2025-06-06,zip,false,2805000,23,23,2024/2026
+Andy Barr,Daniel Tenenblatt,Los Angeles,CA,90048,Matchmaster,Attorney,100000,1,2026-02-22,2026-02-22,zip,true,4600000,37,26,2024/2026
+Andy Barr,David Kekst,Beverly Hills,CA,90210,None,Unemployed,100000,1,2026-02-23,2026-02-23,zip,false,6740000,43,31,2024/2026
+Andy Barr,David Kramer,Los Angeles,CA,90035,Greenberg Glusker,Attorney,100000,1,2026-02-25,2026-02-25,zip,true,1945000,26,22,2024/2026
+Andy Barr,David Kreisman,Highland Park,IL,60035,None,Not Employed,100000,1,2025-06-09,2025-06-09,zip,false,1600000,9,8,2026
+Andy Barr,Ephraim Greenwall,Miami Beach,FL,33141,"Talcott Holdings, Inc.",Activist,100000,1,2025-12-28,2025-12-28,zip,true,8020000,48,35,2024/2026
+Andy Barr,Eric Mendelson,Miami Beach,FL,33141,Heico Corporation,Co-Chairman And Co-Ceo,100000,1,2026-01-15,2026-01-15,zip,true,250000,1,1,2026
+Andy Barr,Eugene Hirsh,Atlanta,GA,30327,None,Retired,100000,1,2026-04-01,2026-04-01,zip,false,1450000,12,10,2024/2026
+Andy Barr,Evan Schlessinger,Los Angeles,CA,90024,Springboard Company,Market Research,100000,1,2026-02-24,2026-02-24,zip,true,949000,29,24,2024/2026
+Andy Barr,Fernando Szew,Beverly Hills,CA,90210,,,100000,1,2026-02-21,2026-02-21,zip,false,1525000,29,23,2024/2026
+Andy Barr,Gary Erlbaum,Ardmore,PA,19003,Self-Employed,Real Estate Investor,100000,1,2025-09-29,2025-09-29,zip,false,7900000,49,30,2024/2026
+Andy Barr,Greg Kalikow,Westbury,NY,11590,Kaled Management,Vp/Co Owner,100000,1,2026-03-16,2026-03-16,zip,true,1200000,12,12,2026
+Andy Barr,Harold Goldfine,Minnetonka,MN,55305,None,Retired,100000,1,2025-09-04,2025-09-04,zip,false,1600000,22,16,2024/2026
+Andy Barr,Herbert Rosenberg,Atlanta,GA,30327,National Distributing Company,Executive,100000,1,2026-03-19,2026-03-19,zip,true,1100000,11,11,2024/2026
+Andy Barr,Isaac Frank,Atlanta,GA,30327,Self,Real Estate,100000,1,2026-03-31,2026-03-31,zip,false,6230000,43,32,2024/2026
+Andy Barr,James J. Butera,Chester,MD,21619,"Butera, Israel And Becker",Attorney,100000,2,2025-05-08,2026-04-29,zip,false,100000,1,1,2024
+Andy Barr,James Tate,North Miami,FL,33181,Tate Development Corp.,President,100000,1,2025-12-29,2025-12-29,zip,true,1730000,15,15,2024/2026
+Andy Barr,Jason Peltz,Glencoe,IL,60022,Bartlit Beck LLP,Attorney,100000,1,2025-06-05,2025-06-05,zip,true,7632777,60,47,2024/2026
+Andy Barr,Jay Davis,Atlanta,GA,30327,Ndc,Executive,100000,1,2026-01-16,2026-01-16,zip,true,3710000,13,12,2024/2026
+Andy Barr,Jay Steinberg,Huntington,NY,11743,Nyu Langone Health,Physician,100000,1,2026-03-11,2026-03-11,zip,true,1425000,21,17,2024/2026
+Andy Barr,John Sullivan,Naperville,IL,60563,Jdrc Managed Services,Executive Vice President,100000,1,2025-01-31,2025-01-31,state,false,100000,1,1,2024
+Andy Barr,Jon Diamond,Bal Harbour,FL,33154,Diamond Family Office,Finance,100000,1,2025-03-25,2025-03-25,zip,true,2510000,11,10,2024/2026
+Andy Barr,Joshua F. Opperer,Huntington Woods,MI,48070,Honigman Miller,Attorney,100000,1,2025-06-10,2025-06-10,zip,false,3407800,20,16,2024/2026
+Andy Barr,Joy Musry,Los Angeles,CA,90024,Unemployed,None,100000,1,2026-03-01,2026-03-01,zip,false,775000,26,21,2024/2026
+Andy Barr,Keith Singer,Boca Raton,FL,33432,Singer Wealth,Attorney,100000,1,2026-01-16,2026-01-16,zip,true,700000,8,8,2024/2026
+Andy Barr,Kenneth Gray,Cold Spring Harbor,NY,11724,Bushwick Potato,Owner,100000,1,2026-03-13,2026-03-13,zip,true,450000,6,6,2026
+Andy Barr,Kenneth Skolnik,Glencoe,IL,60022,"Penmark Industries, Inc",Vice President,100000,1,2025-06-09,2025-06-09,zip,false,410000,3,3,2024/2026
+Andy Barr,Larry Kugler,Delray Beach,FL,33483,Lk Dayton Investments,Manager,100000,1,2025-07-21,2025-07-21,zip,true,5083000,39,35,2024/2026
+Andy Barr,Mark Cohen,Bay Harbor Islands,FL,33154,Stone House Partners,Investor,100000,1,2025-12-30,2025-12-30,state,true,2525000,25,22,2024/2026
+Andy Barr,Mark Engel,Bronx,NY,10462,Langsam Property Services,Real Estate,100000,1,2026-03-23,2026-03-23,zip,true,2175000,15,14,2026
+Andy Barr,Mark Savin,Saint Paul,MN,55116,Fredrikson,Attorney,100000,1,2025-09-08,2025-09-08,zip,true,1100000,9,6,2024/2026
+Andy Barr,Peter Feinberg,North Miami Beach,FL,33160,Self Employed,Investor,100000,1,2026-01-16,2026-01-16,zip,false,1000000,10,10,2024/2026
+Andy Barr,Peter Weitzner,Atlanta,GA,30328,Retail Management Services,Attorney,100000,1,2026-03-30,2026-03-30,zip,true,100000,2,2,2024
+Andy Barr,Phillip Jaffe,Plymouth,MN,55447,Provident Real Estate Ventures,Ceo,100000,1,2025-09-23,2025-09-23,zip,true,50000,1,1,2026
+Andy Barr,Reuben Berman,Los Angeles,CA,90064,Entrada Partners,Real Estate,100000,1,2026-03-15,2026-03-15,zip,true,1450000,29,24,2024/2026
+Andy Barr,Richard Pogin,Fort Myers,FL,33908,None,Retired,100000,1,2025-08-29,2025-08-29,zip,false,350000,4,4,2024/2026
+Andy Barr,Richard W. Porter,Northfield,IL,60093,None,Retired,100000,1,2025-06-08,2025-06-08,zip,false,1050000,11,9,2024/2026
+Andy Barr,Robert Finvarb,Miami,FL,33180,Robert Finvarb Companies,Real Estate,100000,1,2025-12-29,2025-12-29,zip,true,650000,7,6,2026
+Andy Barr,Ross Kogon,Atlanta,GA,30360,Pull A Part,Ceo,100000,1,2026-03-19,2026-03-19,zip,true,5650000,37,29,2024/2026
+Andy Barr,Scott Bohrer,Sandy Springs,GA,30350,Hd Supply,Finance,100000,1,2026-03-31,2026-03-31,zip,true,3230000,24,17,2024/2026
+Andy Barr,Scott Jaffee,Great Neck,NY,11021,Metro Realty,Real Estate,100000,1,2026-03-11,2026-03-11,zip,true,2210000,12,12,2024/2026
+Andy Barr,Sharon Finkel,Syosset,NY,11791,Unemployed,None,100000,1,2026-03-11,2026-03-11,zip,false,400000,4,4,2026
+Andy Barr,Sheila Schwartz,Atlanta,GA,30327,None,Retired,100000,1,2026-03-30,2026-03-30,zip,false,2225000,20,17,2024/2026
+Andy Barr,Stephen Nimer,Miami Beach,FL,33139,University Of Miami,Physician,100000,1,2026-01-16,2026-01-16,zip,true,850000,7,7,2026
+Andy Barr,Stephen Philipson,Charlotte,NC,28207,Us Bancorp,Bank Executive,100000,1,2025-06-21,2025-06-21,zip,true,50000,1,1,2026
+Andy Barr,Steve Baldinger,Mendota Heights,MN,55118,Chg,Management,100000,1,2025-10-24,2025-10-24,zip,true,1480000,8,8,2024/2026
+Andy Barr,Steve Perles,Heathsville,FL,22473,"The Perles Law Firm, PC",Attorney,100000,1,2026-01-15,2026-01-15,state,true,1150000,13,13,2024/2026
+Andy Barr,Steven Miller,Cincinnati,OH,45241,Viking Partners,Real Estate,100000,1,2025-03-24,2025-03-24,zip,false,450000,5,4,2024/2026
+Andy Barr,Steven Wertheim,Atlanta,GA,30328,None,Retired,100000,1,2026-03-31,2026-03-31,zip,false,6230000,40,31,2024/2026
+Andy Barr,Travis Putnam,Los Angeles,CA,90034,Navitas Capital,Venture Capital,100000,2,2026-03-17,2026-03-17,zip,true,310000,7,6,2024/2026
+Andy Barr,Vera Markowitz,Beverly Hills,CA,90210,None,Retired,100000,1,2025-08-13,2025-08-13,zip,false,15205000,116,71,2024/2026
+Andy Barr,Viktor Goldenberg,North Miami Beach,FL,33160,Self Employed,Real Estate Development,100000,1,2026-01-13,2026-01-13,zip,false,896000,15,14,2024/2026
+Andy Barr,Yigal Dakar,Los Angeles,CA,90034,Binah Enterprises,President,100000,1,2026-02-22,2026-02-22,zip,false,1445000,30,24,2024/2026
+Andy Barr,Zipora Arison,Pompano Beach,FL,33062,Self Employed,Physician,100000,1,2025-12-28,2025-12-28,zip,false,7690000,56,41,2024/2026
+Andy Barr,Daniel Bussel,Los Angeles,CA,90067,,,75000,1,2025-08-13,2025-08-13,zip,false,925000,14,13,2024/2026
+Andy Barr,Howard Cogan,Armonk,NY,10504,Gallo Vitucci Klar LLP,Attorney,75000,1,2026-03-12,2026-03-12,zip,true,300000,7,7,2026
+Andy Barr,Richard Weintraub,Malibu,CA,90264,Weintraub Real Estate Group,President,75000,1,2025-08-04,2025-08-04,zip,true,3075000,24,22,2024/2026
+Andy Barr,Chuck Goldberg,Glenview,IL,60026,None,Retired,70000,1,2025-06-05,2025-06-05,zip,false,1209000,15,13,2024/2026
+Andy Barr,David Wolle,Highland Park,IL,60035,Kos Services LLC,Coo,70000,1,2025-06-04,2025-06-04,zip,true,1012000,14,14,2024/2026
+Andy Barr,Jordan Feiger,Highland Park,IL,60035,None,Retired,70000,1,2025-06-06,2025-06-06,zip,false,2437000,32,27,2024/2026
+Andy Barr,Scott Lederman,Highland Park,IL,60035,Gcm Grosvenor,Executive,70000,1,2025-06-07,2025-06-07,zip,true,1105000,11,11,2024/2026
+Andy Barr,Alan Molotsky,Skokie,IL,60076,"North Square Investments, LLC",Attorney,50000,1,2025-06-03,2025-06-03,zip,true,1620000,41,36,2024/2026
+Andy Barr,Alex Kaplan,Scarsdale,NY,10583,Sidley Austin LLP,Attorney,50000,1,2026-03-12,2026-03-12,zip,true,1600000,14,11,2024/2026
+Andy Barr,Andrew Parker,Minneapolis,MN,55413,Parker Daniels Kibort,Attorney,50000,1,2025-09-05,2025-09-05,zip,true,525000,6,6,2024/2026
+Andy Barr,Brian Landow,Bal Harbour,FL,33154,Self-Employed,Executive,50000,1,2026-01-15,2026-01-15,zip,false,2430000,10,10,2026
+Andy Barr,Bruce Zessar,Highland Park,IL,60035,"Advisory Research, Inc.",Investment Management,50000,1,2025-06-09,2025-06-09,zip,true,1245000,20,20,2024/2026
+Andy Barr,Charles Ganz,Atlanta,GA,30328,None,Retired,50000,1,2026-03-20,2026-03-20,zip,false,706000,14,14,2024/2026
+Andy Barr,Daniel Cosgrove,Los Angeles,CA,90077,Daniel J Cosgrove Md Inc,Physician,50000,1,2026-02-24,2026-02-24,zip,true,750000,39,30,2024/2026
+Andy Barr,Daniel Diazbalart,Key Biscayne,FL,33149,"Tsg Advocates, Inc.",Lobbyist,50000,1,2026-03-30,2026-03-30,zip,false,50000,1,1,2026
+Andy Barr,Danielle Anderman,New York,NY,10022,Bespoke Fashion,Ceo,50000,1,2026-03-18,2026-03-18,state,true,480000,3,3,2026
+Andy Barr,Esther Kremer,New York,NY,10128,Print/The Book Agency,Founder,50000,1,2026-03-15,2026-03-15,zip,true,2125000,23,20,2024/2026
+Andy Barr,Harry A Frankman,Minneapolis,MN,55415,Frankman Law,Attorney,50000,1,2025-09-04,2025-09-04,zip,true,200000,4,3,2024/2026
+Andy Barr,Herb Donner,Manhasset,NY,11030,Adi Management,Real Estate,50000,1,2026-03-16,2026-03-16,zip,true,600000,8,7,2024/2026
+Andy Barr,Howard Rombom,Roslyn,NY,11576,None,Retired,50000,1,2026-03-12,2026-03-12,zip,false,1000000,14,12,2024/2026
+Andy Barr,Ilana Decker,Huntington,NY,11743,None,Unemployed,50000,1,2026-03-12,2026-03-12,zip,false,500000,10,10,2026
+Andy Barr,Jennifer Michaels,New York,NY,10028,Jb Consulting,Owner,50000,1,2026-03-12,2026-03-12,zip,true,1075000,12,10,2024/2026
+Andy Barr,Jerry Herz,Dix Hills,NY,11746,"Sterling Floor Designs, Ltd.",Vp,50000,1,2026-03-11,2026-03-11,zip,true,1950000,25,17,2024/2026
+Andy Barr,Jonathan Awner,Miami,FL,33133,,,50000,1,2026-03-31,2026-03-31,zip,false,100000,2,2,2024
+Andy Barr,Jonathan Barry,Marietta,GA,30067,Spectrum Maintenance Services,Real Estate,50000,1,2026-04-01,2026-04-01,zip,true,1600000,20,18,2024/2026
+Andy Barr,Jonathan Baruch,Hideout,UT,84036,Rain,Media,50000,1,2026-03-16,2026-03-16,zip,true,1255000,25,20,2024/2026
+Andy Barr,Joseph Fingerman,Commack,NY,11725,Peapack Private,Banker,50000,1,2026-03-13,2026-03-13,zip,true,470000,8,8,2024/2026
+Andy Barr,Keith Singer,Sunny Isles Beach,FL,33160,Singer Wealth Advisors,Managing Director,50000,1,2025-01-31,2025-01-31,state,true,725000,9,9,2024/2026
+Andy Barr,Larry Rush,Syosset,NY,11791,None,Unemployed,50000,1,2026-03-21,2026-03-21,zip,false,1960000,30,19,2024/2026
+Andy Barr,Lindsay Sklar,New York,NY,10075,None,Unemployed,50000,1,2026-03-12,2026-03-12,zip,false,800000,10,10,2026
+Andy Barr,Lorraine Gold,New York,NY,10128,Delta,Marketing,50000,1,2026-03-10,2026-03-10,zip,true,130000,3,3,2026
+Andy Barr,Louis Silfin,Sands Point,NY,11050,Retired,Retired,50000,1,2026-03-16,2026-03-16,zip,false,575000,12,12,2026
+Andy Barr,Marlene Baron,New York,NY,10024,None,Unemployed,50000,1,2026-03-12,2026-03-12,zip,false,350000,3,3,2026
+Andy Barr,Martin Roth,Chicago,IL,60614,Kirkland & Ellis LLP,Partner,50000,1,2025-06-04,2025-06-04,zip,true,1086000,24,22,2024/2026
+Andy Barr,Matthew Schmelzer,New York,NY,10021,Tryax Realty,Real Estate,50000,1,2026-03-11,2026-03-11,zip,true,450000,9,9,2024/2026
+Andy Barr,Mayra Lichter,North Miami,FL,33181,Lichter Law Firmn,Attorney,50000,1,2026-03-28,2026-03-28,zip,false,1225000,9,8,2024/2026
+Andy Barr,Megan Englander,New York,NY,10021,None,Unemployed,50000,1,2026-03-19,2026-03-19,zip,false,350000,3,3,2026
+Andy Barr,Mitchell Kopelman,Inlet Beach,FL,32461,Aprio,Cpa,50000,1,2026-03-19,2026-03-19,zip,false,1050000,11,11,2026
+Andy Barr,Sara Shemia,New York,NY,10028,None,Retired,50000,1,2026-03-12,2026-03-12,zip,false,1750000,16,14,2024/2026
+Andy Barr,Scott Becker,Glencoe,IL,60022,Mcguirewoods,Attorney,50000,1,2025-05-28,2025-05-28,zip,true,7930000,98,64,2024/2026
+Andy Barr,Scott Donner,Old Westbury,NY,11568,Real Deal Decoration,Owner,50000,1,2026-03-11,2026-03-11,zip,true,900000,14,13,2024/2026
+Andy Barr,Scott Harris,Roslyn,NY,11576,Northwell,Healthcare,50000,1,2026-03-11,2026-03-11,zip,true,600000,9,9,2026
+Andy Barr,Shale Lapping,Chicago,IL,60601,"Ipex, Inc.",Investment Consultant,50000,1,2025-06-08,2025-06-08,zip,true,2360000,41,33,2024/2026
+Andy Barr,Sheri Fisch,Merrick,NY,11566,None,Retired,50000,1,2026-03-22,2026-03-22,zip,false,300000,5,5,2026
+Andy Barr,Steven Dubb,New York,NY,10012,Beechwood Homes,Real Estate,50000,1,2026-03-11,2026-03-11,zip,true,700000,12,11,2024/2026
+Andy Barr,Steven Unger,Brooklyn,NY,11230,Unger Realty,Consultant,50000,1,2026-03-23,2026-03-23,zip,true,400000,8,7,2024/2026
+Andy Barr,Steven Wildstein,Glen Head,NY,11545,None,Retired,50000,1,2026-03-11,2026-03-11,zip,false,2160000,42,29,2024/2026
+Andy Barr,Tanya Zuckerbrot,New York,NY,10022,F-Factor,Registered Dietitian,50000,1,2026-03-19,2026-03-19,zip,true,425000,7,7,2024/2026
+Andy Barr,Toby Waldorf,Los Angeles,CA,90024,None,Retired,50000,1,2026-03-18,2026-03-18,zip,false,400000,8,7,2024/2026
+Andy Barr,Zachary Kerr,New York,NY,10075,M&R Management,Real Estate,50000,1,2026-03-11,2026-03-11,zip,true,550000,9,8,2024/2026
+Andy Barr,Ariel Stern,New York,NY,10028,Self,Lending,30000,1,2026-03-11,2026-03-11,zip,false,1158000,15,13,2024/2026
+Andy Barr,Chloe Epstein,New York,NY,10075,Iron Gate Holdings,Business Owner,30000,1,2026-03-10,2026-03-10,zip,false,1140000,14,13,2024/2026
+Andy Barr,David Ecanow,Highland Park,IL,60035,Endeavor Health,Physician,30000,1,2025-06-05,2025-06-05,zip,true,565000,13,13,2024/2026
+Andy Barr,David Ephraim,Highland Park,IL,60035,"Ephraim And Associates, PC",Attorney,30000,1,2025-06-05,2025-06-05,zip,false,939000,21,20,2024/2026
+Andy Barr,David Rappaport,Fontana,WI,53125,Rappaport Reiches Capital Management,Financial Advisor,30000,1,2025-06-05,2025-06-05,zip,true,530000,12,11,2024/2026
+Andy Barr,Elissa Brenner,New York,NY,10021,Self Employed,Gyrotonic Instructor,30000,1,2026-03-12,2026-03-12,zip,false,1215000,16,14,2024/2026
+Andy Barr,Erica Distenfeld,New York,NY,10075,Amazon,Buyer,30000,1,2026-03-12,2026-03-12,zip,true,665000,11,11,2026
+Andy Barr,Jennifer Zeller,New York,NY,10001,Eden Street,Music Consultant,30000,1,2026-03-12,2026-03-12,zip,false,225000,3,3,2026
+Andy Barr,Karen Nochimowski,Chicago,IL,60603,Self-Employed,Dnr,30000,1,2025-07-21,2025-07-21,state,false,25000,1,1,2024
+Andy Barr,Lauren Behfarin,New York,NY,10028,,,30000,1,2026-03-14,2026-03-14,zip,false,640000,11,11,2026
+Andy Barr,Lindsay Kraus,New York,NY,10021,None,Unemployed,30000,1,2026-03-20,2026-03-20,zip,false,665000,11,11,2026
+Andy Barr,Michele Lallouz Fisher,New York,NY,10021,Mt Sinai,Doctor,30000,1,2026-03-20,2026-03-20,zip,true,385000,7,7,2026
+Andy Barr,Mira Levenson,New York,NY,10075,None,Retired,30000,1,2026-03-10,2026-03-10,zip,false,1090000,12,11,2024/2026
+Andy Barr,Randi Sultan,New York,NY,10075,None,Unemployed,30000,1,2026-03-11,2026-03-11,zip,false,1165000,15,14,2024/2026
+Andy Barr,Rina Kestenbaum,New York,NY,10128,Buildinglink,Attorney,30000,1,2026-03-19,2026-03-19,zip,true,665000,10,10,2026
+Andy Barr,Samantha Epstein,New York,NY,10075,Warespace,Real Estate,30000,1,2026-03-16,2026-03-16,zip,true,635000,9,8,2024/2026
+Andy Barr,Sarah Cohen,New York,NY,10128,,,30000,1,2026-03-19,2026-03-19,zip,false,330000,6,6,2026
+Andy Barr,Sharon Greengrass,New York,NY,10024,None,Unemployed,30000,1,2026-03-11,2026-03-11,zip,false,640000,11,11,2026
+Andy Barr,Steve Loewenthal,Skokie,IL,60077,None,Retired,30000,1,2025-06-05,2025-06-05,zip,false,838000,21,16,2024/2026
+Andy Barr,Talia Mann,New York,NY,10028,,,30000,1,2026-03-12,2026-03-12,zip,false,1345000,18,18,2024/2026
+Andy Barr,Bruce Weininger,Kamas,UT,84036,Kovitz,Consultant,25000,1,2025-06-06,2025-06-06,zip,false,3422000,65,47,2024/2026
+Andy Barr,David Schimberg,Cincinnati,OH,45209,Livewell Capital,Financial Advisor,25000,1,2026-02-17,2026-02-17,state,true,100000,2,2,2024/2026
+Andy Barr,Don Steigman,Miami Beach,FL,33139,,,25000,1,2025-02-03,2025-02-03,zip,false,350000,1,1,2026
+Andy Barr,Ila Muller,Chicago,IL,60618,,,25000,1,2025-06-08,2025-06-08,zip,false,96000,4,4,2024/2026
+Andy Barr,Stephen Rush,Westhampton Beach,NY,11978,Usafr,Md,25000,1,2026-03-12,2026-03-12,zip,true,1100000,21,19,2024/2026
+Andy Barr,Karen Steinkruger,Tallula,IL,62688,None,Retired,1900,7,2025-12-05,2025-12-18,zip,false,600,2,2,2024
+Charles Booker,Julie Rose,Orlando,FL,32810,Not Employed,Not Employed,50000,1,2026-05-14,2026-05-14,state,false,10000,2,2,2024
+Charles Booker,Jacquie Bayley,Bellevue,WA,98005,Not Employed,Not Employed,25000,1,2026-06-02,2026-06-02,zip,false,450000,7,6,2024/2026

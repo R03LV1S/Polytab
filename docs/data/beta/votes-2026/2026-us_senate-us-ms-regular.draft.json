@@ -1,0 +1,172 @@
+{
+  "template_version": "pol-vote-beta-2",
+  "bounty_id": "2026-us_senate-us-ms-regular",
+  "office_type": "us_senate",
+  "election_year": 2026,
+  "jurisdiction": {
+    "level": "federal",
+    "state": "US-MS",
+    "district": null,
+    "race_type": "regular",
+    "senate_class": 2
+  },
+  "subject": {
+    "name": "Cindy Hyde-smith",
+    "party": "R",
+    "incumbent": true,
+    "won_race": true,
+    "votelog": {
+      "listed": true,
+      "member_id_or_slug": "hydesmith",
+      "profile_url": "https://votelog.org/members/hydesmith"
+    },
+    "identifiers": {
+      "bioguide_id": "H001079",
+      "fec_candidate_ids": [
+        "S8MS00261"
+      ],
+      "fec_principal_committee_id_cycle": "C00675348",
+      "fec_principal_committee_ids_cycle": [
+        "C00675348"
+      ],
+      "opensecrets_cid": "N00043298"
+    }
+  },
+  "finance": {
+    "career_total_receipts_usd": 15232692,
+    "career_net_contributions_usd": 13550720,
+    "career_total_note": "Sum of FEC reported full-election receipts/net contributions across candidate IDs and authorized committees (source-linked).",
+    "cycle": 2026,
+    "cycle_window": "full_term_6yr",
+    "cycle_total_receipts_usd": 6279659,
+    "coverage_end_date": "2026-10-14",
+    "top_donors_cycle": [
+      {
+        "rank": 1,
+        "name": "Elon Musk",
+        "committee_id": "C00571703",
+        "amount_usd": 168000000,
+        "type": "superpac_donor_via_votelog",
+        "employer": "Space Exploration Technologies Corp.",
+        "occupation": "CEO",
+        "source_url": "https://votelog.org/data/ms-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 2,
+        "name": "One Nation",
+        "committee_id": "C00571703",
+        "amount_usd": 132907000,
+        "type": "superpac_donor_via_votelog",
+        "source_url": "https://votelog.org/data/ms-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 3,
+        "name": "Miriam Adelson",
+        "committee_id": "C00571703",
+        "amount_usd": 30000000,
+        "type": "superpac_donor_via_votelog",
+        "employer": "Adelson Drug Clinic",
+        "occupation": "Physician",
+        "source_url": "https://votelog.org/data/ms-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 4,
+        "name": "Leading The Future",
+        "committee_id": "C00916692",
+        "amount_usd": 22500000,
+        "type": "superpac_donor_via_votelog",
+        "source_url": "https://votelog.org/data/ms-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 5,
+        "name": "Stephen A. Schwarzman",
+        "committee_id": "C00571703",
+        "amount_usd": 20000000,
+        "type": "superpac_donor_via_votelog",
+        "employer": "Blackstone",
+        "occupation": "Chairman & CEO",
+        "source_url": "https://votelog.org/data/ms-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      }
+    ],
+    "sources": [
+      {
+        "label": "OpenFEC candidate totals (election_full=true, S8MS00261)",
+        "url": "https://api.open.fec.gov/v1/candidate/S8MS00261/totals/?election_full=true",
+        "as_of": "2026-11-15"
+      }
+    ]
+  },
+  "opponents_nov_general": [
+    {
+      "name": "Scott Colom",
+      "party": "D",
+      "cycle": 2026,
+      "cycle_total_receipts_usd": 4400890,
+      "coverage_end_date": "2026-10-14",
+      "fec_candidate_id": "S6MS00133",
+      "fec_candidate_ids": [
+        "S6MS00133"
+      ],
+      "sources": [
+        {
+          "label": "OpenFEC candidate totals (election_full=true, S6MS00133)",
+          "url": "https://api.open.fec.gov/v1/candidate/S6MS00133/totals/?election_full=true",
+          "as_of": "2026-11-15"
+        }
+      ]
+    }
+  ],
+  "vote": {
+    "question": "[BETA_VOTE_QUESTION_PLACEHOLDER for Cindy Hyde-smith | career reported receipts: $15,232,692]",
+    "question_vars": {
+      "subject_name": "Cindy Hyde-smith",
+      "career_total_receipts_usd": 15232692
+    },
+    "type": "advisory_yes_no",
+    "options": [
+      "Yes",
+      "No",
+      "Abstain"
+    ]
+  },
+  "bounty_if_passed": {
+    "description": "[BETA_BOUNTY_OUTCOME_PLACEHOLDER for US-MS]",
+    "destination_type": "tip_jar",
+    "destination_criteria": "[BETA_CRITERIA_PLACEHOLDER for US-MS]",
+    "state": "US-MS"
+  },
+  "location": {
+    "label": "United States Capitol",
+    "address": "First St SE, Washington, DC 20004, USA",
+    "lat": 38.8899,
+    "lng": -77.0091
+  },
+  "payment": {
+    "chain": "base",
+    "chain_id": 8453,
+    "token": "USDC",
+    "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+    "qr_asset": "docs/escrow-qr.png",
+    "note": "Uses existing project wallet/QR; subject to current claim-first/support-locked routing rules unless overridden for this beta item.",
+    "payment_memo_or_slug": "2026-us_senate-us-ms-regular"
+  },
+  "provenance": {
+    "status": "beta_template_draft",
+    "generated_at": "2026-11-15T22:10:42.637Z",
+    "generator": "pol-vote-template",
+    "review_required": true
+  },
+  "_review": {
+    "missing": [],
+    "placeholders": [
+      "vote.question",
+      "bounty_if_passed.description",
+      "bounty_if_passed.destination_criteria"
+    ]
+  }
+}

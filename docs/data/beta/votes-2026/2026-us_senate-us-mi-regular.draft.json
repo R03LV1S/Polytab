@@ -1,0 +1,166 @@
+{
+  "template_version": "pol-vote-beta-2",
+  "bounty_id": "2026-us_senate-us-mi-regular",
+  "office_type": "us_senate",
+  "election_year": 2026,
+  "jurisdiction": {
+    "level": "federal",
+    "state": "US-MI",
+    "district": null,
+    "race_type": "regular",
+    "senate_class": 2
+  },
+  "subject": {
+    "name": "Abdul El-sayed",
+    "party": "D",
+    "incumbent": false,
+    "won_race": true,
+    "votelog": {
+      "listed": true,
+      "member_id_or_slug": "elsayed",
+      "profile_url": "https://votelog.org/members/elsayed"
+    },
+    "identifiers": {
+      "bioguide_id": null,
+      "fec_candidate_ids": [
+        "S6MI00418"
+      ],
+      "fec_principal_committee_id_cycle": "C00902668",
+      "fec_principal_committee_ids_cycle": [
+        "C00902668"
+      ],
+      "opensecrets_cid": null
+    }
+  },
+  "finance": {
+    "career_total_receipts_usd": 53830872,
+    "career_net_contributions_usd": 47398718,
+    "career_total_note": "Sum of FEC reported full-election receipts/net contributions across candidate IDs and authorized committees (source-linked).",
+    "cycle": 2026,
+    "cycle_window": "full_term_6yr",
+    "cycle_total_receipts_usd": 53830872,
+    "coverage_end_date": "2026-10-14",
+    "top_donors_cycle": [
+      {
+        "rank": 1,
+        "name": "Smp",
+        "committee_id": null,
+        "amount_usd": 182790000,
+        "type": "superpac_donor_via_votelog",
+        "source_url": "https://votelog.org/data/mi-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 2,
+        "name": "Defend The Vote Action Fund",
+        "committee_id": "C00764233",
+        "amount_usd": 901060,
+        "type": "superpac_donor_via_votelog",
+        "source_url": "https://votelog.org/data/mi-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 3,
+        "name": "Uaw - V - Cap (Uaw Voluntary Community Action Program) 'Int'L Union United Automobile Aerospace & Agricultural Implement Workers Of America Uaw",
+        "committee_id": "C00919373",
+        "amount_usd": 900000,
+        "type": "superpac_donor_via_votelog",
+        "source_url": "https://votelog.org/data/mi-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 4,
+        "name": "Waterfront Strategies",
+        "committee_id": "C00865444",
+        "amount_usd": 813549,
+        "type": "superpac_donor_via_votelog",
+        "source_url": "https://votelog.org/data/mi-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 5,
+        "name": "Working For Working Americans - Federal",
+        "committee_id": "C00919373",
+        "amount_usd": 500000,
+        "type": "superpac_donor_via_votelog",
+        "source_url": "https://votelog.org/data/mi-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      }
+    ],
+    "sources": [
+      {
+        "label": "OpenFEC candidate totals (election_full=true, S6MI00418)",
+        "url": "https://api.open.fec.gov/v1/candidate/S6MI00418/totals/?election_full=true",
+        "as_of": "2026-11-15"
+      }
+    ]
+  },
+  "opponents_nov_general": [
+    {
+      "name": "Michael J Rogers",
+      "party": "R",
+      "cycle": 2026,
+      "cycle_total_receipts_usd": 23016439,
+      "coverage_end_date": "2026-10-22",
+      "fec_candidate_id": "S4MI00595",
+      "fec_candidate_ids": [
+        "S4MI00595"
+      ],
+      "sources": [
+        {
+          "label": "OpenFEC candidate totals (election_full=true, S4MI00595)",
+          "url": "https://api.open.fec.gov/v1/candidate/S4MI00595/totals/?election_full=true",
+          "as_of": "2026-11-15"
+        }
+      ]
+    }
+  ],
+  "vote": {
+    "question": "[BETA_VOTE_QUESTION_PLACEHOLDER for Abdul El-sayed | career reported receipts: $53,830,872]",
+    "question_vars": {
+      "subject_name": "Abdul El-sayed",
+      "career_total_receipts_usd": 53830872
+    },
+    "type": "advisory_yes_no",
+    "options": [
+      "Yes",
+      "No",
+      "Abstain"
+    ]
+  },
+  "bounty_if_passed": {
+    "description": "[BETA_BOUNTY_OUTCOME_PLACEHOLDER for US-MI]",
+    "destination_type": "tip_jar",
+    "destination_criteria": "[BETA_CRITERIA_PLACEHOLDER for US-MI]",
+    "state": "US-MI"
+  },
+  "location": {
+    "label": "United States Capitol",
+    "address": "First St SE, Washington, DC 20004, USA",
+    "lat": 38.8899,
+    "lng": -77.0091
+  },
+  "payment": {
+    "chain": "base",
+    "chain_id": 8453,
+    "token": "USDC",
+    "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+    "qr_asset": "docs/escrow-qr.png",
+    "note": "Uses existing project wallet/QR; subject to current claim-first/support-locked routing rules unless overridden for this beta item.",
+    "payment_memo_or_slug": "2026-us_senate-us-mi-regular"
+  },
+  "provenance": {
+    "status": "beta_template_draft",
+    "generated_at": "2026-11-15T22:10:22.874Z",
+    "generator": "pol-vote-template",
+    "review_required": true
+  },
+  "_review": {
+    "missing": [],
+    "placeholders": [
+      "vote.question",
+      "bounty_if_passed.description",
+      "bounty_if_passed.destination_criteria"
+    ]
+  }
+}

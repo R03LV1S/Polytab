@@ -1,0 +1,500 @@
+candidate,donor,city,state,zip5,employer,occupation,direct_total_cents,contributions,first_date,last_date,match_tier,same_employer_string,aipac_pac_total_cents,aipac_pac_rows,aipac_pac_recipient_committees,aipac_pac_cycles
+Dan Sullivan,Alex Von Furstenberg,Beverly Hills,CA,90210,"Ranger Global Advisors, LLC",Cio,700000,2,2026-07-17,2026-07-17,zip,true,2760000,5,5,2024/2026
+Dan Sullivan,Andrew Rubinstein,Tenafly,NJ,07670,Oberland Capital,Healthcare Finance,700000,2,2026-03-04,2026-06-10,zip,true,14136500,47,37,2024/2026
+Dan Sullivan,Benjamin Lopata,Lawrence,NY,11559,Retired,Retired,700000,2,2025-03-31,2026-03-04,zip,false,975000,8,6,2024/2026
+Dan Sullivan,Brad Mindlin,Incline Village,NV,89451,Oro Capital Advisors,Managing Partner,700000,2,2026-06-30,2026-06-30,zip,true,16460000,45,36,2024/2026
+Dan Sullivan,Brian Dror,Los Angeles,CA,90036,Brian Dror Cpa Inc,Cpa,700000,2,2026-07-15,2026-07-15,zip,true,5680000,24,21,2024/2026
+Dan Sullivan,David Sterling,Muttontown,NY,11753,Sterling Risk,Insurance,700000,1,2025-04-12,2025-04-12,zip,true,28990000,79,58,2024/2026
+Dan Sullivan,Dawn Lavin,Highland Park,IL,60035,Not Employed,Not Employed,700000,2,2025-06-18,2025-06-18,zip,false,7350000,11,11,2026
+Dan Sullivan,Eric Becker,Jupiter,FL,33477,Cresset Capital,Executive,700000,2,2026-01-28,2026-01-28,zip,true,3450000,9,9,2026
+Dan Sullivan,Iris Smith,Broomfield,CO,80021,Homemaker,Creative Arts,700000,2,2026-04-15,2026-04-15,zip,false,14460000,24,21,2024/2026
+Dan Sullivan,Jerry Bednyak,Glencoe,IL,60022,Skybox Capital,Founder,700000,1,2025-06-06,2025-06-06,zip,true,9240000,23,21,2024/2026
+Dan Sullivan,Jody Forchheimer,Brookline,MA,02446,Retired,Retired,700000,2,2026-05-20,2026-05-20,zip,false,38475500,150,96,2024/2026
+Dan Sullivan,Kerry Vickar,Palm Beach,FL,33480,Retired,Retired,700000,2,2026-01-28,2026-01-28,zip,false,3600000,10,10,2026
+Dan Sullivan,Larry Hochberg,Chicago,IL,60611,Retired,Retired,700000,3,2025-06-18,2025-06-18,zip,false,3816666,16,12,2024/2026
+Dan Sullivan,Louis Kaplow,Brookline,MA,02446,Harvard,Academic,700000,2,2026-05-20,2026-05-20,zip,true,28100000,56,51,2024/2026
+Dan Sullivan,Melissa Cifu,Jupiter,FL,33477,Retired,Retired,700000,2,2026-01-28,2026-01-28,zip,false,3370000,7,6,2024/2026
+Dan Sullivan,Michael Smith,Broomfield,CO,80021,Kaitar Resources,Consultant,700000,2,2026-04-15,2026-04-15,zip,true,15450000,26,23,2024/2026
+Dan Sullivan,Naava Grossman,Aspen,CO,81612,Retired,Retired,700000,2,2026-03-04,2026-03-04,zip,false,29410000,61,52,2024/2026
+Dan Sullivan,Robert Klyman,Los Angeles,CA,90004,Dla Piper,Attorney,700000,2,2026-07-08,2026-07-08,zip,true,8030000,29,24,2024/2026
+Dan Sullivan,Ronald Weiser,Ann Arbor,MI,48104,Mckinley Associates Inc,Founder-Ceo,700000,1,2026-02-24,2026-02-24,zip,true,2850000,11,11,2024/2026
+Dan Sullivan,Sanford Grossman,Glenwood Springs,CO,81601,Retired,Retired,700000,2,2026-03-04,2026-03-04,zip,false,8050000,13,13,2026
+Dan Sullivan,Steve Lavin,Highland Park,IL,60035,"Lavin & Gedville, PC",President,700000,2,2025-06-18,2025-06-18,zip,true,7570000,18,17,2024/2026
+Dan Sullivan,Todd Kantor,Rye,NY,10580,Encompass Capital Advisors,Hedge Fund Manager,700000,2,2025-02-05,2025-02-05,zip,false,1630000,4,4,2024/2026
+Dan Sullivan,Edward C. Levy,Birmingham,MI,48009,Edward C. Levy,Chairman,671800,7,2025-04-18,2025-09-02,zip,false,35510000,67,51,2024/2026
+Dan Sullivan,Jason Rimokh,Beverly Hills,CA,90210,Signal Brands,Ceo,630000,3,2025-05-01,2026-07-08,zip,true,6710000,25,21,2024/2026
+Dan Sullivan,Eric Senderowicz,Great Neck,NY,11021,Reddy Raw Inc.,Ceo,550000,2,2025-04-28,2026-03-04,zip,true,6112500,20,19,2024/2026
+Dan Sullivan,Jonathan Slass,Warren,NJ,07059,Rotor Clip,Manager,550000,2,2025-04-10,2026-03-04,zip,true,6989700,34,26,2024/2026
+Dan Sullivan,Sanford Perl,Glencoe,IL,60022,Kirkland & Ellis LLP,Attorney,550000,2,2025-06-06,2026-03-04,zip,true,20270000,79,61,2024/2026
+Dan Sullivan,Andrew Lappin,Glencoe,IL,60022,Retired,Retired,500000,1,2025-06-05,2025-06-05,zip,false,8325000,48,44,2024/2026
+Dan Sullivan,Jack Miller,Buffalo Grove,IL,60089,Retired,Retired,500000,2,2025-06-18,2025-06-18,zip,false,1350000,3,3,2026
+Dan Sullivan,Tracy Conrad,Dallas,TX,75205,Unemployed,Unemployed,500000,2,2026-03-04,2026-03-04,zip,false,3480000,15,15,2024/2026
+Dan Sullivan,David Littman,Wappingers Falls,NY,12590,Hudson Valley Mnfg,Executive,450000,2,2026-01-28,2026-01-28,zip,false,3300000,10,10,2026
+Dan Sullivan,David Sherman,Palm Beach Gardens,FL,33410,Retired,Retired,450000,2,2026-01-28,2026-01-28,zip,false,3750000,13,13,2024/2026
+Dan Sullivan,David Swirnow,Baltimore,MD,21211,Retired,Retired,450000,2,2026-02-04,2026-02-04,zip,false,3300000,10,10,2026
+Dan Sullivan,Douglas Gessner,Glenview,IL,60025,Kirkland & Ellis LLP,Lawyer,450000,2,2025-06-08,2026-03-04,zip,true,12500000,44,38,2024/2026
+Dan Sullivan,Elizabeth M Stern,Scarsdale,NY,10583,Retired,Retired,450000,2,2025-09-22,2025-09-22,zip,false,500000,1,0,2024
+Dan Sullivan,Joseph Lubeck,West Palm Beach,FL,33403,American Landmark,Real Estate,450000,2,2026-01-21,2026-01-21,zip,true,4900000,14,12,2024/2026
+Dan Sullivan,Mats Lederhausen,Beaverton,OR,97008,Retired,Retired,450000,2,2026-01-28,2026-01-28,zip,false,3300000,10,10,2026
+Dan Sullivan,Philip Darivoff,Short Hills,NJ,07078,Vibrant Capital Partners,Chairman,450000,2,2025-04-07,2026-03-04,zip,true,43625000,90,65,2024/2026
+Dan Sullivan,Richard Zulman,Jupiter,FL,33477,Retired,Retired,450000,2,2026-02-04,2026-02-04,zip,false,3400000,11,11,2026
+Dan Sullivan,Robert Heller,Montvale,NJ,07645,Retired,Retired,450000,2,2026-02-04,2026-02-04,zip,false,2690000,5,5,2026
+Dan Sullivan,Jack Halpern,New York,NY,10023,Atlantic Realty,Real Estate,400000,1,2025-03-31,2025-03-31,zip,true,4980000,31,30,2024/2026
+Dan Sullivan,Joel Brooks,Old Westbury,NY,11568,Self Employed,Lawyer,400000,3,2025-04-21,2026-01-28,zip,false,4425000,27,17,2024/2026
+Dan Sullivan,Jonathan Cherner,Jupiter,FL,33477,Retired,Retired,400000,2,2026-01-28,2026-01-28,zip,false,3350000,11,10,2024/2026
+Dan Sullivan,Lisa Alpern,Los Angeles,CA,90064,Unemployed,Unemployed,400000,2,2026-04-01,2026-04-01,zip,false,5420000,20,16,2026
+Dan Sullivan,Alan Kleinman,Encino,CA,91436,Elevado Group Inc,Real Estate Developer,380000,2,2025-04-18,2025-04-18,zip,true,4260000,14,13,2024/2026
+Dan Sullivan,Alex Weingarten,Sherman Oaks,CA,91403,Willkie Farr & Gallagher LLP,Attorney,380000,1,2025-04-07,2025-04-07,zip,true,1270000,4,4,2026
+Dan Sullivan,Brad Conroy,Beverly Hills,CA,90212,Conroy Commercial,Real Estate,380000,2,2025-04-18,2025-04-18,zip,true,4340000,11,10,2024/2026
+Dan Sullivan,Brandon Shainfeld,Beverly Hills,CA,90210,Platinum Mile,Venture Capital,380000,2,2025-05-01,2025-05-01,zip,true,3100000,10,9,2024/2026
+Dan Sullivan,Daniel Yomtobian,Beverly Hills,CA,90210,"Web Value, Inc.",Ceo,380000,1,2025-04-08,2025-04-08,zip,true,3310000,10,9,2024/2026
+Dan Sullivan,Fred Bernstein,Beverly Hills,CA,90210,The Derf Company,Real Estate,380000,2,2025-05-01,2025-05-01,zip,true,2735000,9,9,2024/2026
+Dan Sullivan,Gary Gilbert,Beverly Hills,CA,90210,Self Employed,Producer,380000,1,2025-05-13,2025-05-13,zip,false,3115000,25,24,2024/2026
+Dan Sullivan,Grant Ross,Encino,CA,91436,Orbis,Real Estate,380000,1,2025-05-08,2025-05-08,zip,true,380000,1,1,2026
+Dan Sullivan,Joli Altshule,Pacific Palisades,CA,90272,Goldman Sachs,Financial Services,380000,1,2025-05-05,2025-05-05,zip,true,4040000,12,12,2024/2026
+Dan Sullivan,Kara Slater,Los Angeles,CA,90067,Self Employed,Travel Agent,380000,2,2025-05-01,2025-05-01,zip,false,1570000,4,4,2024/2026
+Dan Sullivan,Kourosh Moghadam,Los Angeles,CA,90049,"Bd&J, PC",Attorney/President/Ceo,380000,2,2025-04-22,2025-04-22,zip,false,500000,1,1,2024
+Dan Sullivan,Michael Cohanzad,Los Angeles,CA,90025,Self Employed,Real Estate Investments,380000,1,2025-05-05,2025-05-05,zip,false,3360000,11,11,2024/2026
+Dan Sullivan,Stephen Samuel,Beverly Hills,CA,90212,J & S Realty And Deveopment,Ceo,380000,1,2025-04-07,2025-04-07,zip,false,3980000,12,10,2024/2026
+Dan Sullivan,Norman Brownstein,Denver,CO,80202,Brownstein Hyatt Farber Schreck,Chairman,370000,2,2026-04-15,2026-04-15,zip,true,13450000,33,31,2024/2026
+Dan Sullivan,Adam Freede,Seal Beach,CA,90740,Madaluxe Group,Ceo,350000,1,2026-03-11,2026-03-11,zip,true,7350000,20,20,2026
+Dan Sullivan,Adam Garner,Greenwich,CT,06830,Drw,Partner,350000,1,2026-06-30,2026-06-30,zip,true,4000000,15,14,2024/2026
+Dan Sullivan,Adam Milstein,Encino,CA,91436,Hager Pacific Properties,Partner,350000,1,2025-09-18,2025-09-18,zip,false,10270000,30,24,2024/2026
+Dan Sullivan,Allan Janoff,Short Hills,NJ,07078,Crystal Plaza Group,Caterer,350000,2,2025-04-07,2025-04-09,zip,true,650000,6,6,2024
+Dan Sullivan,Avi Friedman,White Plains,NY,10606,Retired,Retired,350000,1,2026-06-10,2026-06-10,zip,false,15830000,49,40,2024/2026
+Dan Sullivan,Ben Plotkin,Jupiter,FL,33477,Stiffel,Executive,350000,1,2026-01-28,2026-01-28,zip,false,5530000,27,23,2024/2026
+Dan Sullivan,Brent Morse,Englewood,CO,80113,Self Employed,Morenergy Exploration Company,350000,2,2026-04-01,2026-04-08,zip,false,500000,5,5,2024/2026
+Dan Sullivan,Brian Landow,Miami Beach,FL,33154,Embe,Executive,350000,1,2026-03-04,2026-03-04,zip,true,2430000,10,10,2026
+Dan Sullivan,Daniel S Loeb,New York,NY,10001,Third Point LLC,Ceo,350000,1,2026-05-13,2026-05-13,zip,true,21220000,61,42,2024/2026
+Dan Sullivan,David Horowitz,Oyster Bay,NY,11771,Tpky,Admin,350000,1,2025-04-14,2025-04-14,zip,false,250000,2,2,2024/2026
+Dan Sullivan,Dirk Wallinger,Cherry Hills Villa,CO,80113,York Space Systems,Ceo,350000,1,2026-04-01,2026-04-01,zip,true,1350000,6,6,2026
+Dan Sullivan,Doris Davis,Los Gatos,CA,95032,Retired,Retired,350000,1,2025-11-20,2025-11-20,zip,false,6920000,22,22,2024/2026
+Dan Sullivan,Eric Seaman,Short Hills,NJ,07078,Summit Health,Physcian,350000,1,2025-04-12,2025-04-12,zip,true,930000,6,4,2024/2026
+Dan Sullivan,Eugene Fooksman,Menlo Park,CA,94025,"Altopass, Inc.",Ceo,350000,1,2025-11-20,2025-11-20,zip,true,16060000,54,45,2024/2026
+Dan Sullivan,George H Solich,Denver,CO,80206,"Energy IV, LLC",President/Ceo,350000,1,2026-04-01,2026-04-01,zip,false,3770000,11,11,2024/2026
+Dan Sullivan,Ira Riklis,Atlantic Beach,NY,11509,Sutherland Capital Management,Executive,350000,1,2026-05-27,2026-05-27,zip,true,20020000,54,50,2024/2026
+Dan Sullivan,Irina Roller,New York,NY,10004,Law Offices Of Irina Roller Pllc,Attorney,350000,1,2026-03-04,2026-03-04,zip,true,4994600,26,21,2024/2026
+Dan Sullivan,Jacob Brodie,Haverford,PA,19041,Brodie Generational Capital Partners,Executive,350000,1,2026-03-25,2026-03-25,zip,true,25435000,78,60,2024/2026
+Dan Sullivan,James Baker,New York,NY,10128,Newberger Berman,Investment Management,350000,1,2026-03-31,2026-03-31,zip,false,1050000,3,3,2026
+Dan Sullivan,James Johnson,Greenbrae,CA,94904,Retired,Retired,350000,1,2025-12-11,2025-12-11,zip,false,6425000,28,25,2024/2026
+Dan Sullivan,Jeffrey Feig,New York,NY,10106,Jedor Capital,Investor,350000,1,2026-05-27,2026-05-27,zip,true,700000,2,2,2026
+Dan Sullivan,Jeremy Halpern,Livingston,NJ,07039,Atlantic Realty Development Co,Real Estate Development And Management,350000,1,2025-04-27,2025-04-27,zip,true,3260000,11,9,2024/2026
+Dan Sullivan,Kenneth Goldberg,Dallas,TX,75230,Retired,Retired,350000,1,2025-11-20,2025-11-20,zip,false,300000,1,1,2024
+Dan Sullivan,Larry Lessans,Jupiter,FL,33477,Retired,Retired,350000,1,2026-01-28,2026-01-28,zip,false,3850000,21,19,2024/2026
+Dan Sullivan,Leslie Salmon,Sunny Isles Beach,FL,33160,Dezer Development,Finance,350000,1,2026-03-04,2026-03-04,zip,true,3330000,19,16,2024/2026
+Dan Sullivan,Manny Panar,Silver Spring,MD,20904,Retired,Retired,350000,1,2026-03-04,2026-03-04,zip,false,49340000,110,72,2024/2026
+Dan Sullivan,Martin Geller,New York,NY,10075,Geller And Company,Founder,350000,1,2026-03-04,2026-03-04,zip,true,11140000,35,28,2024/2026
+Dan Sullivan,Martin Oliner,Lawrence,NY,11559,Lawrence Financial LLC,Investor,350000,1,2025-04-01,2025-04-01,zip,false,1450000,5,4,2026
+Dan Sullivan,Michael J Leffell,Scarsdale,NY,10583,Portage Advisors,Investor,350000,1,2026-03-25,2026-03-25,zip,false,16820000,57,37,2024/2026
+Dan Sullivan,Patty Glaser,Los Angeles,CA,90067,Glaser Weil LLP,Attorney,350000,1,2026-07-08,2026-07-08,zip,true,5750000,28,24,2024/2026
+Dan Sullivan,Richard Genirberg,Stateline,NV,89449,Self Employed,Lawyer,350000,1,2025-11-28,2025-11-28,zip,false,6240000,22,22,2024/2026
+Dan Sullivan,Richard Lipsey,Baton Rouge,LA,70809,Lipsey'S,Wholesale,350000,1,2026-03-04,2026-03-04,zip,true,6840000,42,34,2024/2026
+Dan Sullivan,Robert Samit,Jupiter,FL,33477,Retired,Retired,350000,1,2026-01-28,2026-01-28,zip,false,3200000,10,10,2026
+Dan Sullivan,Russ Fuchs,Palm Beach Gardens,FL,33410,Retired,Retired,350000,1,2026-02-04,2026-02-04,zip,false,2790000,7,7,2026
+Dan Sullivan,Sarah Biser,Holmdel,NJ,07733,Fox Rothschild,Attorney,350000,1,2026-06-10,2026-06-10,zip,true,5650000,19,18,2024/2026
+Dan Sullivan,Sarit Catz,Basking Ridge,NJ,07920,Athos Pr,Media Strategist,350000,1,2025-04-07,2025-04-07,zip,true,3070000,17,13,2024/2026
+Dan Sullivan,Solomon Moshkevich,Atherton,CA,94027,Natera,President,350000,1,2025-12-04,2025-12-04,zip,true,3950000,12,12,2024/2026
+Dan Sullivan,Stephen Ritchie,Glencoe,IL,60022,Kirkland & Ellis LLP,Attorney,350000,1,2025-06-18,2025-06-18,zip,true,15490000,76,58,2024/2026
+Dan Sullivan,Steve Kimmelman,Pepper Pike,OH,44124,Redwood Living,Ceo,350000,1,2026-07-15,2026-07-15,zip,true,8890000,31,28,2024/2026
+Dan Sullivan,Steven Fader,Towson,MD,21204,Mile One,Executive,350000,1,2026-01-28,2026-01-28,zip,false,4540000,18,16,2024/2026
+Dan Sullivan,Steven Klinghoffer,Short Hills,NJ,07078,Valcor Engineering Corp.,Executive,350000,1,2025-04-22,2025-04-22,zip,false,6900000,29,22,2024/2026
+Dan Sullivan,Timothy Wuliger,Moreland Hills,OH,44022,"Mallard Investments, Inc.",President,350000,1,2026-06-30,2026-06-30,zip,true,14730000,47,35,2024/2026
+Dan Sullivan,Valerie Cohen,Darien,CT,06820,Unemployed,Unemployed,350000,1,2026-05-27,2026-05-27,zip,false,6700000,32,29,2024/2026
+Dan Sullivan,Andrew Schleimer,New York,NY,10010,Tko,Cfo,300000,1,2026-05-27,2026-05-27,zip,true,600000,2,2,2026
+Dan Sullivan,Bruce Ettelson,Glencoe,IL,60022,Kirkland & Ellis LLP,Attorney,300000,1,2025-06-16,2025-06-16,zip,true,7154400,46,37,2024/2026
+Dan Sullivan,David Cohen,Hobe Sound,FL,33455,Retired,Retired,300000,1,2026-01-28,2026-01-28,zip,false,3500000,11,11,2026
+Dan Sullivan,Gary E. Erlbaum,Ardmore,PA,19003,Self-Employed,Real Estate Investor,300000,2,2025-09-29,2026-07-15,zip,false,7900000,49,30,2024/2026
+Dan Sullivan,Jan Zakowski,Los Angeles,CA,90024,"Americal Management Co., Inc.",Ceo,300000,1,2025-05-08,2025-05-08,zip,true,7940000,45,32,2024/2026
+Dan Sullivan,Kenneth Orr,Old Westbury,NY,11568,Korr Value,Finance,300000,1,2025-04-25,2025-04-25,zip,false,700000,3,3,2026
+Dan Sullivan,Larry Kugler,Delray Beach,FL,33483,Lk Dayton Investments,Manager,300000,1,2025-06-17,2025-06-17,zip,true,5083000,39,35,2024/2026
+Dan Sullivan,Matt Bayer,Chicago,IL,60614,Mj Holding,Ceo,300000,1,2025-06-18,2025-06-18,zip,true,4000000,15,14,2026
+Dan Sullivan,Steven Demby,Denver,CO,80209,Brownstein Hyatt Farber Schreck,Attorney,300000,1,2026-04-01,2026-04-01,zip,false,6075000,24,24,2024/2026
+Dan Sullivan,Vera Markowitz,Beverly Hills,CA,90210,Retired,Retired,300000,2,2026-06-30,2026-07-15,zip,false,15205000,116,71,2024/2026
+Dan Sullivan,James Sprayregen,Glencoe,IL,60022,Hilco Global,Vice Chairman,266600,2,2025-06-18,2026-03-04,zip,true,12434283,68,54,2024/2026
+Dan Sullivan,Alan Weissman,Rye,NY,10580,Awre,Real Estate,250000,1,2026-03-04,2026-03-04,zip,true,4791000,24,18,2024/2026
+Dan Sullivan,Baruch Glaubach,Lawrence,NY,11559,Self Employed,Trader,250000,1,2025-03-31,2025-03-31,zip,false,1860000,3,3,2026
+Dan Sullivan,Curtis Lane,New York,NY,10023,Mts Health Partners,Founder,250000,1,2026-06-10,2026-06-10,zip,true,6000000,24,22,2024/2026
+Dan Sullivan,David Schwartzman,Los Angeles,CA,90067,Harridge Development Group,Ceo,250000,1,2026-07-08,2026-07-08,zip,true,3530000,15,14,2026
+Dan Sullivan,Ira Kharasch,Los Angeles,CA,90045,"Pachulski, Stang, Ziehl & Jones",Attorney,250000,1,2026-07-08,2026-07-08,zip,true,6120000,29,25,2024/2026
+Dan Sullivan,James Vogel,Palm Beach Gardens,FL,33418,Retired,Retired,250000,1,2026-01-28,2026-01-28,zip,false,1850000,8,8,2024/2026
+Dan Sullivan,Joe Kaplan,Palm Beach Gardens,FL,33410,Retired,Retired,250000,1,2026-01-28,2026-01-28,zip,false,2600000,9,9,2026
+Dan Sullivan,John Benvent,Morristown,NJ,07960,Benvent Properties LLC,Managing Partner,250000,1,2025-04-21,2025-04-21,zip,true,1025000,18,16,2024/2026
+Dan Sullivan,Ken Kahan,Los Angeles,CA,90004,California Landmark,Real Estate Development,250000,1,2025-04-09,2025-04-09,state,true,4500000,19,19,2026
+Dan Sullivan,Marty Gross,Livingston,NJ,07039,Sandalwood Securities,Investment Advisor,250000,1,2025-04-27,2025-04-27,zip,true,250000,1,1,2026
+Dan Sullivan,Michael W. Goldberg,Livingston,NJ,07039,Goldberg Realty Assoc.,Real Estate,250000,1,2025-04-23,2025-04-23,zip,true,700000,5,5,2024/2026
+Dan Sullivan,Peter Morgenstern,Palm Beach Gardens,FL,33418,Retired,Retired,250000,1,2026-01-28,2026-01-28,zip,false,2050000,8,8,2024/2026
+Dan Sullivan,Stephen Mendell,Jupiter,FL,33477,Hei Hotels,Executive,250000,1,2026-01-28,2026-01-28,zip,true,3270000,20,19,2024/2026
+Dan Sullivan,Stewart Rosen,Scituate,MA,02066,Retired,Retired,250000,1,2026-01-28,2026-01-28,zip,false,1850000,8,8,2024/2026
+Dan Sullivan,Stuart Kuntz,Short Hills,NJ,07078,Foot Locker,Attorney,250000,1,2025-04-22,2025-04-22,zip,true,3939700,23,17,2024/2026
+Dan Sullivan,Tina Weinstock,Palm Beach,FL,33480,Unemployed,Unemployed,250000,1,2026-05-27,2026-05-27,zip,false,2520000,10,9,2024/2026
+Dan Sullivan,Tony Davis,Chicago,IL,60610,Linden Capital Partners,Investor,250000,1,2025-06-18,2025-06-18,zip,true,19964400,76,56,2024/2026
+Dan Sullivan,Stuart Brod,Long Branch,NJ,07740,Self-Employed,Attorney,225000,3,2025-04-10,2026-03-04,zip,false,2250000,57,43,2024/2026
+Dan Sullivan,Jariel Bortnick,Short Hills,NJ,07078,Quad Property Group,Real Estate,220000,1,2025-04-15,2025-04-15,zip,true,570000,3,3,2026
+Dan Sullivan,Alan Franco,Metairie,LA,70005,Magnolia Marketing LLC,Partner,200000,1,2026-04-01,2026-04-01,zip,true,13650000,30,27,2024/2026
+Dan Sullivan,Bill Gray,Plantation,FL,33325,76undefeated,Mgr,200000,1,2026-03-04,2026-03-04,zip,false,348100,13,13,2024
+Dan Sullivan,Bruce Etkin,Aspen,CO,81611,Etkin Johnson Real Estate Partners,Chairman,200000,1,2026-03-25,2026-03-25,zip,true,2600000,20,20,2024/2026
+Dan Sullivan,Carl Cohen,Beachwood,OH,44122,Retired,Retired,200000,1,2025-04-04,2025-04-04,zip,false,5050000,36,29,2024/2026
+Dan Sullivan,Chuck Bellock,Boulder,CO,80302,Bellock Construction Inc,Real Estate,200000,1,2026-04-01,2026-04-01,zip,true,3550000,18,16,2024/2026
+Dan Sullivan,Daniel Dunkelman,Los Angeles,CA,90048,Cedars Towers Surgical Group Inc,Physcian,200000,2,2026-03-04,2026-03-04,zip,true,1700000,9,9,2024/2026
+Dan Sullivan,Daniel Dunkelman,Beverly Hills,CA,90210,Self Employed,Physcian,200000,1,2025-04-09,2025-04-09,zip,false,2350000,15,12,2024/2026
+Dan Sullivan,Daniel Hamburger,Sarasota,FL,34234,Retired,Retired,200000,1,2025-06-06,2025-06-06,zip,false,2805000,23,23,2024/2026
+Dan Sullivan,David Amkraut,Los Angeles,CA,90041,Self Employed,Attorney,200000,1,2026-03-04,2026-03-04,zip,false,1270000,9,9,2024/2026
+Dan Sullivan,David Rothberg,Branford,CT,06405,Laticrete,Exec Chairman,200000,2,2026-01-05,2026-03-25,zip,true,50000,1,1,2026
+Dan Sullivan,Dora I Mossanen,Los Angeles,CA,90024,Self Employed,Author,200000,1,2025-04-09,2025-04-09,zip,false,2450000,12,11,2024/2026
+Dan Sullivan,Irving Weintraub,Los Angeles,CA,90024,Retired,Retired,200000,1,2025-04-25,2025-04-25,zip,false,4084000,27,21,2024/2026
+Dan Sullivan,Jacques Blinbaum,New York,NY,10022,Old Court Group,Executive,200000,1,2026-03-04,2026-03-04,zip,true,8320277,28,23,2024/2026
+Dan Sullivan,James D. Daniels,Short Hills,NJ,07078,Retired,Retired,200000,1,2025-04-28,2025-04-28,zip,false,900000,8,7,2024/2026
+Dan Sullivan,James J Butera,Stevensville,MD,21666,"Meeks, Butera & Israel",Partner,200000,2,2026-04-06,2026-06-26,state,true,100000,1,1,2024
+Dan Sullivan,Jay Davis,Atlanta,GA,30327,National Distribution Co.,Executive,200000,1,2026-03-04,2026-03-04,zip,false,3710000,13,12,2024/2026
+Dan Sullivan,Jeff Cohen,Chicago,IL,60645,Retired,Retired,200000,1,2025-04-03,2025-04-03,zip,false,4700000,35,27,2024/2026
+Dan Sullivan,Joel Saltz,Long Beach,NY,11561,Stony Brook University,Professor,200000,2,2025-04-17,2025-05-01,zip,true,1070000,9,8,2024/2026
+Dan Sullivan,Jon Held,Jericho,NY,11753,Js Held,Principal,200000,1,2025-04-22,2025-04-22,zip,true,2050000,14,13,2024/2026
+Dan Sullivan,Jon Witkin,Los Gatos,CA,95032,Retired,Sales,200000,1,2025-11-20,2025-11-20,zip,false,1950000,12,12,2024/2026
+Dan Sullivan,Kenneth Levy,Los Gatos,CA,95030,Glen Una Investments,Real Estate,200000,1,2025-11-20,2025-11-20,zip,true,4450000,19,17,2024/2026
+Dan Sullivan,Larry Genet,Fort Lauderdale,FL,33312,Cbre,Real Estate,200000,1,2026-03-04,2026-03-04,zip,true,8021300,44,33,2024/2026
+Dan Sullivan,Laura Stein,Beverly Hills,CA,90210,Robbins Geller,Attorney,200000,1,2026-07-08,2026-07-08,zip,true,2792500,24,22,2024/2026
+Dan Sullivan,Lesley Bodzy,New York,NY,10001,Self Employed,Artist,200000,1,2026-05-27,2026-05-27,zip,false,750000,4,3,2026
+Dan Sullivan,Lew Rudzki,Los Angeles,CA,90035,Canon Equity Partners,Real Estate,200000,1,2026-07-08,2026-07-08,zip,true,2525000,19,17,2024/2026
+Dan Sullivan,Lowell Roger Hutson,Denver,CO,80202,"Hrm Resources IV, LLC",Ceo,200000,1,2026-04-01,2026-04-01,zip,true,1650000,9,9,2024/2026
+Dan Sullivan,Marc Altheim,Lake Success,NY,11020,Unemployed,Unemployed,200000,1,2025-04-21,2025-04-21,zip,false,4240000,34,26,2024/2026
+Dan Sullivan,Marc Heimowitz,Delray Beach,FL,33483,Self Employed,Consultant,200000,1,2026-03-04,2026-03-04,zip,false,850000,5,5,2026
+Dan Sullivan,Marc Paley,Bridgehampton,NY,11932,Hightechlending,Executive,200000,1,2026-05-27,2026-05-27,zip,true,2350000,12,12,2024/2026
+Dan Sullivan,Mitchell Julis,Los Angeles,CA,90067,Canyon Partners LLC,Ceo,200000,1,2025-04-28,2025-04-28,zip,true,4300000,19,15,2024/2026
+Dan Sullivan,Neil Kadisha,Beverly Hills,CA,90212,Omninet Capitol,Ceo,200000,1,2025-04-09,2025-04-09,zip,false,4300000,21,20,2024/2026
+Dan Sullivan,Paul Candau,El Cerrito,CA,94530,Marble Bridge Funding Group,Ceo,200000,1,2025-11-28,2025-11-28,zip,true,3000000,9,9,2026
+Dan Sullivan,Richard Kashnow,Menlo Park,CA,94025,Retired,Retired,200000,1,2025-11-20,2025-11-20,zip,false,1750000,10,10,2024/2026
+Dan Sullivan,Ronald M Rettner,Jacksonville,FL,32216,Rettner Management,President,200000,1,2026-03-31,2026-03-31,state,false,200000,1,1,2026
+Dan Sullivan,Roneet Kahan,Los Angeles,CA,90025,California Landmark,Real Estate Developer,200000,1,2026-03-04,2026-03-04,zip,true,200000,1,1,2026
+Dan Sullivan,Shelly Baldwin,New York,NY,10023,Triangle Capital,Head Of Business Development,200000,1,2026-06-03,2026-06-03,zip,true,1520000,9,8,2024/2026
+Dan Sullivan,Stephen Rasch,Short Hills,NJ,07078,"Loeb, Block & Partners LLP",Lawyer,200000,2,2025-04-07,2025-04-18,zip,true,2500000,24,16,2024/2026
+Dan Sullivan,Stuart Oremland,Portola Valley,CA,94028,Retired,Retired,200000,1,2025-11-28,2025-11-28,zip,false,3245000,32,31,2024/2026
+Dan Sullivan,Yvette Pomerantz,New York,NY,10028,Self Employed,Photography,200000,1,2026-06-10,2026-06-10,zip,false,1400000,7,7,2026
+Dan Sullivan,Adam Reich,Los Angeles,CA,90035,Reich Brothers,Co-Ceo,150000,1,2026-07-08,2026-07-08,zip,true,3390000,17,15,2024/2026
+Dan Sullivan,Adam Rosenfeld,West Hollywood,CA,90069,The Agency,Real Estate Broker,150000,1,2026-07-08,2026-07-08,zip,true,1800000,12,12,2026
+Dan Sullivan,Andrew Jagoda,Scarsdale,NY,10583,Katten Muchin Rosenman LLP,Attorney,150000,1,2026-06-03,2026-06-03,zip,true,3300000,28,23,2024/2026
+Dan Sullivan,Donna Sternberg,New York,NY,10021,Retired,Retired,150000,1,2026-06-03,2026-06-03,zip,false,2200000,15,15,2026
+Dan Sullivan,Freddie Reiss,Santa Monica,CA,90402,Retired,Retired,150000,1,2026-07-08,2026-07-08,zip,false,3075000,29,26,2024/2026
+Dan Sullivan,James Fogelman,Beverly Hills,CA,90211,Gibson Dunn,Attorney,150000,1,2025-05-02,2025-05-02,zip,true,3380000,13,11,2024/2026
+Dan Sullivan,Jim Miller,Los Angeles,CA,90067,Miller Barondess,Attorney,150000,1,2026-07-08,2026-07-08,zip,true,1050000,7,7,2026
+Dan Sullivan,Jose Reines,Los Angeles,CA,90049,Retired,Retired,150000,1,2026-07-08,2026-07-08,zip,false,3222500,45,37,2024/2026
+Dan Sullivan,Lee Samson,Los Angeles,CA,90067,Paladin Mgt.,Chairman,150000,1,2026-07-08,2026-07-08,zip,true,2250000,9,7,2026
+Dan Sullivan,Lindsay Cooper,New York,NY,10010,Self Employed,Attorney,150000,1,2026-06-03,2026-06-03,zip,false,350000,3,3,2024/2026
+Dan Sullivan,Loryn Arkow,Los Angeles,CA,90064,Hogan Lovells,Attorney,150000,1,2026-07-08,2026-07-08,zip,true,750000,5,5,2026
+Dan Sullivan,Mayer Bick,Los Angeles,CA,90035,Sb Advisors,Investment Banker,150000,1,2026-07-08,2026-07-08,zip,true,2550000,15,15,2024/2026
+Dan Sullivan,Oren Lazar,North Hollywood,CA,91607,Lazar PC,Attorney,150000,1,2026-07-08,2026-07-08,zip,true,1025000,7,7,2026
+Dan Sullivan,Paula Etra,New York,NY,10028,Retired,Retired,150000,1,2026-06-03,2026-06-03,zip,false,1800000,18,15,2024/2026
+Dan Sullivan,Raphy Nissel,Beverly Hills,CA,90210,Retired,Retired,150000,1,2026-07-08,2026-07-08,zip,false,2600000,15,14,2024/2026
+Dan Sullivan,Richard Eisenberg,Lawrence,NY,11559,Retired,Retired,150000,1,2025-03-31,2025-03-31,zip,false,25000,1,1,2024
+Dan Sullivan,Richard Weintraub,Malibu,CA,90264,Weintraub Real Estate Group,President,150000,1,2026-07-08,2026-07-08,zip,true,3075000,24,22,2024/2026
+Dan Sullivan,Russ Robinson,Houston,TX,77024,Global Steel Dust,Ceo,150000,1,2026-03-04,2026-03-04,zip,true,5080000,18,14,2024/2026
+Dan Sullivan,Stephen Harris,Walnut Creek,CA,94595,Lawrence Berkeley National Lab,Chemist,150000,1,2025-11-28,2025-11-28,zip,true,10201992,92,58,2024/2026
+Dan Sullivan,Stephen Malkin,Northbrook,IL,60062,Ranger Capital Management,President,150000,1,2025-06-18,2025-06-18,zip,true,3390000,22,22,2024/2026
+Dan Sullivan,Benjamin Friend,San Francisco,CA,94102,Howard Properties,Real Estate,125000,1,2025-11-28,2025-11-28,zip,true,7222500,48,38,2024/2026
+Dan Sullivan,Clara Miller,Greenwich,CT,06831,Clara Spalter Miller,Private Investments,125000,1,2026-03-04,2026-03-04,zip,true,1700000,11,11,2024/2026
+Dan Sullivan,Donny Friend,San Francisco,CA,94121,Self Employed,Real Estate,125000,1,2025-11-28,2025-11-28,zip,false,3725000,26,24,2024/2026
+Dan Sullivan,Jason Friend,San Francisco,CA,94102,Howard Properties,Real Estate,125000,1,2025-12-04,2025-12-04,zip,true,5775000,39,36,2024/2026
+Dan Sullivan,Mark Miller,Livingston,NJ,07039,Summit Health,Urologist,125000,1,2025-04-10,2025-04-10,zip,true,600000,12,10,2024/2026
+Dan Sullivan,Gila Bronner,Highland Park,IL,60035,Bronner Group LLC,Consultant,120000,1,2025-06-16,2025-06-16,zip,false,1560000,26,25,2024/2026
+Dan Sullivan,Aaron Cohen,New York,NY,10025,Focus Partners Wealth,Wealth Advisor,100000,1,2026-05-27,2026-05-27,zip,true,2400000,19,16,2024/2026
+Dan Sullivan,Aaron Jungreis,Lawrence,NY,11559,"Rosewood Realty Group, Inc.",Real Estate Broker,100000,1,2025-03-31,2025-03-31,zip,false,2130000,10,10,2024/2026
+Dan Sullivan,Abbie Friedman,Las Vegas,NV,89135,Retired,Retired,100000,1,2026-03-04,2026-03-04,zip,false,2950000,16,11,2024/2026
+Dan Sullivan,Adele Jacobs,Fairfield,CT,06825,Jacobs & Wallace Pllc,Atty,100000,1,2026-03-04,2026-03-04,zip,false,1564000,19,19,2024/2026
+Dan Sullivan,Alex Amin,Los Angeles,CA,90024,Casting Networks,Co-Ceo,100000,1,2026-03-04,2026-03-04,zip,true,1660000,6,5,2026
+Dan Sullivan,Alexander Goldstein,Coral Gables,FL,33146,"Eligo Energy, LLC",Executive Chairman,100000,1,2026-03-04,2026-03-04,zip,true,1475000,9,8,2024/2026
+Dan Sullivan,Amy Graiwer,Los Angeles,CA,90064,Unemployed,Unemployed,100000,1,2026-03-04,2026-03-04,zip,false,3290000,26,20,2024/2026
+Dan Sullivan,Andrea N. Donfeld,Malibu,CA,90265,"Jeffrey Donfeld, PC",Office Manager,100000,1,2025-04-09,2025-04-09,zip,true,1150000,12,10,2024/2026
+Dan Sullivan,Andrew Lipton,Atherton,CA,94027,Retired,Retired,100000,1,2025-12-04,2025-12-04,zip,false,900000,9,8,2024/2026
+Dan Sullivan,Andrew Smith,Columbus,OH,43209,Opc Polymers,Executive,100000,1,2026-03-04,2026-03-04,zip,true,4410000,24,13,2024/2026
+Dan Sullivan,Angelina Swenson,New York,NY,10128,Ays Tutoring And Consulting,Founder And Principal/Educator,100000,1,2026-06-10,2026-06-10,zip,true,300000,3,3,2026
+Dan Sullivan,Anita Wornick,San Francisco,CA,94103,Retired,Retired,100000,1,2025-11-28,2025-11-28,zip,false,3300000,34,30,2024/2026
+Dan Sullivan,Ann Pava,West Hartford,CT,06117,Unemployed,Unemployed,100000,1,2026-03-04,2026-03-04,zip,false,6200000,37,25,2024/2026
+Dan Sullivan,Anna Massion,Greenwich,CT,06830,Self Employed,Ned,100000,1,2026-03-04,2026-03-04,zip,false,2411600,15,14,2026
+Dan Sullivan,Anna Tenenblatt,Beverly Hills,CA,90210,Matchmaster Inc,Vice President,100000,1,2025-04-24,2025-04-24,zip,true,3250000,24,20,2024/2026
+Dan Sullivan,Arielle Levi,Redwood City,CA,94061,Unemployed,Unemployed,100000,1,2025-11-20,2025-11-20,zip,false,1050000,10,10,2024/2026
+Dan Sullivan,Barry Swidler,Boca Raton,FL,33496,"American Fire Restoration, LLC",President,100000,1,2025-04-16,2025-04-16,zip,true,3550000,32,22,2024/2026
+Dan Sullivan,Benjamin Diament,North Bend,WA,98045,Retired,Retired,100000,1,2026-03-04,2026-03-04,zip,false,2850000,18,15,2024/2026
+Dan Sullivan,Ber Oberfeld,Beverly Hills,CA,90210,Self Employeed,Investor,100000,1,2025-04-28,2025-04-28,zip,false,1500000,16,13,2024/2026
+Dan Sullivan,Bob Kaufman,Anchorage,AK,99510,Alaska Channel,Self-Employed,100000,1,2026-03-04,2026-03-04,zip,true,100000,1,1,2026
+Dan Sullivan,Bob Wolfberg,Glencoe,IL,60022,Pls Financial Services,Executive,100000,1,2025-06-17,2025-06-17,zip,true,732800,4,4,2024/2026
+Dan Sullivan,Brad Berger,Beverly Hills,CA,90210,Robert Martin Co.,Ceo,100000,1,2025-04-25,2025-04-25,zip,true,3100000,27,19,2024/2026
+Dan Sullivan,Bret Caller,Cincinnati,OH,45236,Viking Partners,Real Estate,100000,1,2025-11-20,2025-11-20,zip,true,3430000,22,18,2024/2026
+Dan Sullivan,Brett Hersh,Gladwyne,PA,19035,Empire Promos.Com,Executive,100000,1,2026-03-04,2026-03-04,zip,true,380000,4,4,2026
+Dan Sullivan,Brian Gurtman,Woodmere,NY,11598,Sheppard Mullin,Attorney,100000,1,2025-03-31,2025-03-31,zip,true,150000,3,3,2026
+Dan Sullivan,Burton Katzen,West Palm Beach,FL,33412,Retired,Retired,100000,1,2026-03-04,2026-03-04,zip,false,700000,8,8,2026
+Dan Sullivan,Carole Kushnir,Woodside,CA,94062,"Hk Enterprises, Inc.",Manager,100000,1,2025-11-20,2025-11-20,zip,false,1500000,12,12,2024/2026
+Dan Sullivan,Craig Zalk,Tulsa,OK,74114,Retired,Retired,100000,1,2026-03-04,2026-03-04,zip,false,200000,2,2,2026
+Dan Sullivan,Curt Biren,Los Angeles,CA,90049,Kayne Anderson Rudnick,Senior Wealth Advisor,100000,1,2025-04-11,2025-04-11,zip,true,1515000,17,13,2024/2026
+Dan Sullivan,Dafna Schmerin,New York,NY,10024,Retired,Retired,100000,1,2026-05-27,2026-05-27,zip,false,950000,10,10,2024/2026
+Dan Sullivan,David Friedman,New York,NY,10023,Retired,Retired,100000,1,2026-05-27,2026-05-27,zip,false,236000,4,4,2024/2026
+Dan Sullivan,David Horne,Washington,DC,20016,Self Employed,Consultant,100000,1,2026-06-17,2026-06-17,zip,false,1175000,9,6,2024/2026
+Dan Sullivan,David Kerdell,New York,NY,10025,Retired,Retired,100000,1,2026-05-27,2026-05-27,zip,false,725000,9,9,2024/2026
+Dan Sullivan,David Kimmel,San Francisco,CA,94122,Retired,Retired,100000,1,2025-05-02,2025-05-02,zip,false,700000,9,9,2024/2026
+Dan Sullivan,David Kreisman,Highland Park,IL,60035,Not Employed,Not Employed,100000,1,2025-06-18,2025-06-18,zip,false,1600000,9,8,2026
+Dan Sullivan,David Margules,Philadelphia,PA,19146,Ballard Spahr,Lawyer,100000,1,2026-03-04,2026-03-04,zip,true,4575000,38,27,2024/2026
+Dan Sullivan,David Ross,Winnetka,IL,60093,Compass Lexecon,Economist,100000,1,2025-06-18,2025-06-18,zip,true,3250000,30,27,2024/2026
+Dan Sullivan,David Weiner,Los Angeles,CA,90064,Js Held,Economist,100000,1,2026-03-04,2026-03-04,zip,true,1400000,8,6,2024/2026
+Dan Sullivan,David Wolle,Highland Park,IL,60035,Kos Services LLC,Coo,100000,1,2025-06-18,2025-06-18,zip,true,1012000,14,14,2024/2026
+Dan Sullivan,Deborah Schwartz,Beverly Hills,CA,90212,Retired,Retired,100000,1,2025-04-25,2025-04-25,zip,false,1600000,16,10,2024/2026
+Dan Sullivan,Dov Horowitz,Belle Harbor,NY,11694,Wwts,Self-Employed,100000,1,2026-05-27,2026-05-27,zip,true,1200000,12,11,2024/2026
+Dan Sullivan,Eliot Lauer,Lawrence,NY,11559,"Curtis, Mallet-Prevost",Attorney,100000,1,2025-03-31,2025-03-31,zip,false,50000,1,1,2024
+Dan Sullivan,Elizabeta Shacket,Coral Springs,FL,33065,Retired,Retired,100000,1,2026-03-04,2026-03-04,zip,false,2530000,21,14,2024/2026
+Dan Sullivan,Elizabeth Schultz,New York,NY,10022,Retired,Retired,100000,1,2026-05-27,2026-05-27,zip,false,1200000,22,21,2024/2026
+Dan Sullivan,Ellen Calmas,Chestnut Hill,MA,02467,Self,Marketing,100000,1,2026-03-04,2026-03-04,zip,false,3487000,40,28,2024/2026
+Dan Sullivan,Ellis Norsoph,Boca Raton,FL,33496,Self Employed,Physician,100000,1,2026-03-04,2026-03-04,zip,false,1825000,23,21,2024/2026
+Dan Sullivan,Emily Reiner,Gladwyne,PA,19035,Unemployed,Unemployed,100000,1,2026-03-04,2026-03-04,zip,false,200000,2,2,2026
+Dan Sullivan,Eric Kanter,Short Hills,NJ,07078,Retina Vitreous Consultants,Physcian,100000,1,2025-04-09,2025-04-09,zip,true,900000,10,10,2024/2026
+Dan Sullivan,Eric Waxman,Los Angeles,CA,90049,Ares Management LLC,Partner,100000,1,2026-06-30,2026-06-30,zip,true,5350000,33,27,2024/2026
+Dan Sullivan,Fabian Oberfeld,Beverly Hills,CA,90210,La Mamba LLC,Ceo,100000,1,2025-05-02,2025-05-02,zip,true,1350000,15,13,2024/2026
+Dan Sullivan,Franklin Zuckerbrot,Roslyn,NY,11576,Sholom & Zuckerbrot Realty LLC,Real Estate,100000,1,2025-04-25,2025-04-25,zip,true,325000,5,5,2024/2026
+Dan Sullivan,Gary Applebaum,Pasadena,MD,21122,Retired,Retired,100000,1,2026-03-04,2026-03-04,zip,false,1468000,16,14,2024/2026
+Dan Sullivan,Gary Greenberg,Cincinnati,OH,45208,Retired,Retired,100000,1,2026-03-04,2026-03-04,zip,false,1470000,17,12,2024/2026
+Dan Sullivan,Gary Javitch,Omaha,NE,68114,Retired,Retired,100000,1,2026-03-04,2026-03-04,zip,false,1110000,32,16,2024/2026
+Dan Sullivan,Gary Zimmerman,Pompano Beach,FL,33062,Not Employed,Not Employed,100000,1,2025-04-22,2025-04-22,zip,false,200000,2,2,2024/2026
+Dan Sullivan,George Fischmann,Tarzana,CA,91356,Self Employeed,Doctor,100000,1,2025-05-02,2025-05-02,zip,false,1025000,9,9,2024/2026
+Dan Sullivan,Gerald Zoldan,Chicago,IL,60611,Retired,Retired,100000,1,2026-03-04,2026-03-04,zip,false,3405000,48,35,2024/2026
+Dan Sullivan,Gideon Naim,Penn Valley,PA,19072,Retired,Retired,100000,1,2026-03-04,2026-03-04,zip,false,2175000,36,32,2024/2026
+Dan Sullivan,Greg Kalikow,Westbury,NY,11590,Kaled Management,Co-Owner,100000,1,2025-04-15,2025-04-15,zip,true,1200000,12,12,2026
+Dan Sullivan,Harry Kotowitz,Woodmere,NY,11598,Hk Organization,Co-Founder,100000,1,2025-03-31,2025-03-31,zip,false,200000,2,2,2024
+Dan Sullivan,Herb Donner,Manhasset,NY,11030,Adi Management,Owner,100000,1,2025-04-21,2025-04-21,zip,true,600000,8,7,2024/2026
+Dan Sullivan,Herbert Heflich,Martinsville,NJ,08836,Retired,Retired,100000,1,2025-04-07,2025-04-07,zip,false,2175000,21,15,2024/2026
+Dan Sullivan,Herta Amir,Beverly Hills,CA,90211,Amir Development,Real Estate,100000,1,2026-07-08,2026-07-08,zip,true,6500000,95,72,2024/2026
+Dan Sullivan,Hilary Auerbach,New York,NY,10128,Retired,Retired,100000,1,2026-06-03,2026-06-03,zip,false,1060000,14,14,2024/2026
+Dan Sullivan,Howard Fingeroot,Sylvan Lake,MI,48320,Self Employed,Real Estate Developer,100000,1,2026-03-04,2026-03-04,zip,false,1400000,10,9,2024/2026
+Dan Sullivan,Howard Kohr,Washington,DC,20037,Retired,Retired,100000,1,2026-03-04,2026-03-04,zip,false,1750000,14,10,2026
+Dan Sullivan,Howard Oppenheimer,Saint Louis,MO,63132,Delmar Gardens Management Services,Exec,100000,1,2026-03-04,2026-03-04,zip,true,1435000,15,11,2024/2026
+Dan Sullivan,Howard Rombom,Roslyn,NY,11576,Retired,Retired,100000,1,2025-04-14,2025-04-14,zip,false,1000000,14,12,2024/2026
+Dan Sullivan,Howard Szabo,Beverly Hills,CA,90212,Self Employed,Real Estate,100000,1,2025-04-25,2025-04-25,zip,false,2360000,25,17,2024/2026
+Dan Sullivan,Howard Tepper,New York,NY,10023,Retired,Retired,100000,1,2025-04-14,2025-04-14,zip,false,625000,9,9,2024/2026
+Dan Sullivan,Igor Lotsvin,Emerald Hills,CA,94062,Sage Rhino Capital,Managing Partner,100000,1,2025-11-28,2025-11-28,zip,true,2700000,45,39,2024/2026
+Dan Sullivan,Ilya Lisansky,Millburn,NJ,07041,Self Employed,Finance,100000,1,2025-04-27,2025-04-27,zip,false,800000,9,9,2024/2026
+Dan Sullivan,Iris Langman,Mercer Island,FL,34114,Retired,Retired,100000,1,2025-04-10,2025-04-10,zip,false,850000,16,15,2024/2026
+Dan Sullivan,Isabelle Teplitsky,Glencoe,IL,60022,Jafina,Deputy Head Of North America,100000,1,2025-06-18,2025-06-18,zip,true,1500000,9,9,2026
+Dan Sullivan,Jacques Stambouli,Beverly Hills,CA,90210,Via Trading Corporation,Business Executive,100000,1,2025-04-07,2025-04-07,zip,true,4050000,29,23,2024/2026
+Dan Sullivan,Jaime Peisach,Miami,FL,33122,Passion Growers,Manager,100000,1,2026-03-04,2026-03-04,zip,true,12615000,37,31,2024/2026
+Dan Sullivan,Jason Hersh,Maple Glen,PA,19002,Klein Hersh,Ceo,100000,1,2026-03-04,2026-03-04,zip,true,730000,5,4,2026
+Dan Sullivan,Jason Peltz,Glencoe,IL,60022,Bartlit Beck LLP,Attorney,100000,1,2025-06-05,2025-06-05,zip,true,7632777,60,47,2024/2026
+Dan Sullivan,Jay Gould,New York,NY,10021,Majestic Property,Consultant,100000,1,2026-06-24,2026-06-24,zip,true,1950000,23,19,2024/2026
+Dan Sullivan,Jay Martus,Deerfield Beach,FL,33443,Mfal Consulting,Managing Partner,100000,1,2026-03-04,2026-03-04,zip,true,6300000,30,25,2026
+Dan Sullivan,Jay Pepose,Chesterfield,MO,63017,Self Employed,Ophthalmologist,100000,1,2026-02-25,2026-02-25,zip,false,1025000,7,3,2024/2026
+Dan Sullivan,Jay Steinberg,Huntington,NY,11743,Nyu Langone Health Huntington,Physcian,100000,1,2025-04-09,2025-04-09,zip,true,1425000,21,17,2024/2026
+Dan Sullivan,Jeremy Abelson,Englewood,CO,80113,Irving Investors,Principal,100000,1,2026-04-01,2026-04-01,zip,true,1850000,15,15,2024/2026
+Dan Sullivan,Jesse Sharf,Santa Monica,CA,90402,Gibson,Attorney,100000,1,2026-03-04,2026-03-04,zip,true,6280000,26,23,2024/2026
+Dan Sullivan,Joel Appel,Denver,CO,80209,Zaidy'S,Owner,100000,1,2026-04-01,2026-04-01,zip,true,1830000,13,13,2024/2026
+Dan Sullivan,Joel Fogel,Los Angeles,CA,90034,Gallatin Property Holdings,Real Estate,100000,1,2025-04-25,2025-04-25,zip,true,2850000,30,23,2024/2026
+Dan Sullivan,Joel Mandel,Beverly Hills,CA,90210,Self Employed,Business Manager,100000,1,2025-04-25,2025-04-25,zip,false,3000000,30,23,2024/2026
+Dan Sullivan,John Rachlin,Los Angeles,CA,90025,Self Employed,Court Reciever,100000,1,2025-04-22,2025-04-22,zip,false,1550000,15,13,2024/2026
+Dan Sullivan,Jon Weber,New York,NY,10023,"Jon F Weber & Co., LLC",Managing Member,100000,1,2026-03-04,2026-03-04,zip,true,1986700,14,12,2024/2026
+Dan Sullivan,Jonah Meer,Atlantic Beach,NY,11509,Qrons,Ceo,100000,1,2025-03-31,2025-03-31,zip,false,420000,4,4,2024
+Dan Sullivan,Jonathan Missner,Potomac,MD,20854,Stein Mitchell Beato & Missner,Attorney,100000,1,2026-03-04,2026-03-04,zip,true,2750000,24,22,2024/2026
+Dan Sullivan,Jonathan Nemeth,Lebanon,NJ,08833,Retired,Retired,100000,1,2025-04-09,2025-04-09,zip,false,1840000,21,18,2024/2026
+Dan Sullivan,Jordan Feiger,Highland Park,IL,60035,Retired,Retired,100000,1,2025-06-16,2025-06-16,zip,false,2437000,32,27,2024/2026
+Dan Sullivan,Jordan Friedman,Los Angeles,CA,90064,Guard,Financial Advisor,100000,1,2026-03-04,2026-03-04,zip,true,200000,2,2,2026
+Dan Sullivan,Jorey Chernett,Bloomfield Hills,MI,48301,Self Employed,Executive,100000,1,2026-03-04,2026-03-04,zip,false,1410000,8,7,2026
+Dan Sullivan,Joseph Coughlin,North Palm Beach,FL,33408,"Crs, LLC",Ceo,100000,1,2026-03-04,2026-03-04,zip,true,200000,2,2,2026
+Dan Sullivan,Joseph Czyzyk,Rolling Hills,CA,90274,Mercury Aviation Companies LLC,Ceo,100000,1,2026-03-04,2026-03-04,zip,true,1150000,6,4,2026
+Dan Sullivan,Joseph Marvizi,Beverly Hills,CA,90210,Self Employed,Dentist,100000,1,2025-04-09,2025-04-09,zip,false,1600000,13,11,2024/2026
+Dan Sullivan,Joshua Katzen,Newton,MA,02458,Self Employed,Investor,100000,1,2026-03-04,2026-03-04,zip,false,1050000,11,10,2024/2026
+Dan Sullivan,Kaylen Silverberg,Austin,TX,78731,Tx Fertility,Doctor,100000,1,2026-03-04,2026-03-04,zip,true,1230000,7,7,2024/2026
+Dan Sullivan,Ken Gray,Cold Spring Harbor,NY,11724,Bushwick,Owner,100000,1,2025-04-12,2025-04-12,zip,true,850000,15,14,2024/2026
+Dan Sullivan,Kenneth Skolnik,Glencoe,IL,60022,Penmark,Vp,100000,1,2025-06-17,2025-06-17,zip,false,410000,3,3,2024/2026
+Dan Sullivan,Kerrin Behrend,Stamford,CT,06902,Retired,Retired,100000,1,2026-03-04,2026-03-04,zip,false,2050000,13,13,2024/2026
+Dan Sullivan,Kevin Finkel,Wilmette,IL,60091,Providence Real Estate,Executive,100000,1,2025-06-18,2025-06-18,zip,true,1102000,11,11,2024/2026
+Dan Sullivan,L Roger Hutson,Denver,CO,80202,"Hrm Resources IV, LLC",President,100000,1,2025-09-27,2025-09-27,zip,true,350000,2,1,2026
+Dan Sullivan,Larry Gross,Encino,CA,91436,Structural Capital,Executive,100000,1,2025-10-01,2025-10-01,zip,true,950000,7,7,2024/2026
+Dan Sullivan,Larry Rush,Syosset,NY,11791,Rush Car Wash,Owner,100000,1,2025-04-12,2025-04-12,zip,false,1960000,30,19,2024/2026
+Dan Sullivan,Lee Ziff,Beverly Hills,CA,90210,Sequoia Realty,Realtor,100000,1,2026-06-30,2026-06-30,zip,true,2987300,43,33,2024/2026
+Dan Sullivan,Leland Alpert,Cherry Hills Villa,CO,80113,Lee Alpert And Company,Ceo,100000,1,2026-04-01,2026-04-01,zip,true,2400000,13,13,2026
+Dan Sullivan,Leon Biederman,Los Angeles,CA,90077,Retired,Retired,100000,1,2025-04-06,2025-04-06,zip,false,2575000,31,21,2024/2026
+Dan Sullivan,Lillian Lieber,Los Angeles,CA,90025,Self Employed,Real Estate,100000,1,2025-04-28,2025-04-28,zip,false,1150000,12,10,2024/2026
+Dan Sullivan,Linda Cahn,Sarasota,FL,34234,Pharmacy Benefit Consultants,Lawyer/Consultant,100000,1,2025-04-24,2025-04-24,zip,true,150000,2,2,2024
+Dan Sullivan,Linda Weisenberg,Lyndhurst,OH,44124,Unemployed,Unemployed,100000,1,2026-03-04,2026-03-04,zip,false,650000,6,6,2026
+Dan Sullivan,Liz Waters,Santa Monica,CA,90402,Unemployed,Unemployed,100000,1,2026-03-04,2026-03-04,zip,false,2040000,7,6,2026
+Dan Sullivan,Mark Engel,Sands Point,NY,11050,Langsam Property Services,Real Estate,100000,1,2025-04-12,2025-04-12,zip,true,4930000,28,24,2024/2026
+Dan Sullivan,Mark Goldhaber,Raleigh,NC,27612,Retired,Retired,100000,1,2026-03-04,2026-03-04,zip,false,3125000,27,15,2024/2026
+Dan Sullivan,Mark Schwartzman,Glen Burnie,MD,21061,Glen Burnie Transmissions,Owner,100000,1,2026-03-04,2026-03-04,zip,true,1400000,8,8,2026
+Dan Sullivan,Martin Craig,Chicago,IL,60601,Retired,Retired,100000,1,2025-06-06,2025-06-06,zip,false,2860000,23,20,2024/2026
+Dan Sullivan,Martin Taylor,Owings Mills,MD,21117,"Nccc, LLC",Manager,100000,1,2026-03-04,2026-03-04,zip,false,150000,2,2,2026
+Dan Sullivan,Marty Glick,Piedmont,CA,94611,Self-Employed,Investor,100000,1,2025-12-04,2025-12-04,zip,false,3320000,31,28,2024/2026
+Dan Sullivan,Matt Engel,Sands Point,NY,11050,Langsam Property Services,Real Estate,100000,1,2025-04-12,2025-04-12,zip,true,4265000,22,16,2024/2026
+Dan Sullivan,Meredith Gotlin,New York,NY,10016,Unemployed,Unemployed,100000,1,2026-05-27,2026-05-27,zip,false,900000,7,7,2024/2026
+Dan Sullivan,Michael Cassel,New York,NY,10019,"Wachtell, Lipton, Rosen & Katz",Attorney,100000,1,2026-03-04,2026-03-04,zip,true,1250000,5,5,2026
+Dan Sullivan,Michael Feiner,Greenwood Village,CO,80111,Feiner Enterprises Fei,President/Real Estate,100000,1,2026-03-11,2026-03-11,zip,false,4080000,36,30,2024/2026
+Dan Sullivan,Michael Kassen,Westport,CT,06880,Self,Investor,100000,1,2026-03-04,2026-03-04,zip,false,17500000,78,61,2024/2026
+Dan Sullivan,Michael Steifman,Carolina,PR,00979,Self Employed,Consultant,100000,1,2025-04-23,2025-04-23,zip,false,400000,4,4,2026
+Dan Sullivan,Moses Libitzky,Emeryville,CA,94608,Lpc Real Estate Corp,Principal,100000,1,2025-11-28,2025-11-28,zip,true,4950000,34,31,2024/2026
+Dan Sullivan,Moshe Sassover,Beverly Hills,CA,90210,Self Employeed,Real Estate,100000,1,2025-05-02,2025-05-02,zip,false,1805000,14,13,2024/2026
+Dan Sullivan,Naomi Hochman,Playa Del Rey,CA,90293,Self Employed,Marketing Consultant,100000,1,2026-03-04,2026-03-04,zip,false,3397500,22,18,2024/2026
+Dan Sullivan,Neil Cooper,Conshohocken,PA,19428,Royer Cooper Cohen Braunfeld LLC,Lawyer,100000,1,2026-07-27,2026-07-27,zip,true,530000,5,5,2024/2026
+Dan Sullivan,Neil Klein,Chicago,IL,60618,Aip,Coo,100000,1,2025-05-28,2025-05-28,zip,true,980000,7,7,2024/2026
+Dan Sullivan,Patti Felker,Snowmass Village,CO,81615,Felker Toczek,Attorney,100000,1,2025-04-09,2025-04-09,zip,true,2750000,39,32,2024/2026
+Dan Sullivan,Phil De Toledo,Sherman Oaks,CA,91423,"Capital Group Companies, Inc",Manager,100000,1,2026-03-04,2026-03-04,zip,true,16430000,33,32,2026
+Dan Sullivan,Philip H Cohen,Miami Beach,FL,33139,Retired,Retired,100000,1,2026-03-04,2026-03-04,zip,false,1166000,30,27,2024/2026
+Dan Sullivan,Rachel Geller Groner,Baltimore,MD,21209,Retired,Retired,100000,1,2026-03-04,2026-03-04,zip,false,610000,12,9,2024/2026
+Dan Sullivan,Rafi Gordon,Marina Del Rey,CA,90292,Casting Networks,Co-Ceo,100000,1,2026-03-04,2026-03-04,zip,true,5010000,22,19,2024/2026
+Dan Sullivan,Rama Fakheri,Encino,CA,91436,Self Employed,Psychologist,100000,1,2025-04-18,2025-04-18,zip,false,3366666,20,20,2024/2026
+Dan Sullivan,Richard Porter,Northfield,IL,60093,Retired,Retired,100000,1,2025-06-19,2025-06-19,zip,false,1050000,11,9,2024/2026
+Dan Sullivan,Rob Medway,Park City,UT,84060,Mflp,Investments,100000,1,2026-03-04,2026-03-04,zip,true,2730000,28,24,2024/2026
+Dan Sullivan,Robert Costrell,Fayetteville,AR,72704,Retired,Retired,100000,1,2026-03-04,2026-03-04,zip,false,650000,14,10,2024/2026
+Dan Sullivan,Rod Loewenthal,Highland Park,IL,60035,Ubs,Advisor,100000,1,2025-06-18,2025-06-18,zip,true,6601100,44,31,2024/2026
+Dan Sullivan,Ron Kaufman,San Francisco,CA,94133,Self Employed,Real Estate,100000,1,2025-11-28,2025-11-28,zip,false,1750000,21,21,2024/2026
+Dan Sullivan,Ron Meisler,Northbrook,IL,60062,Skadden,Lawyer,100000,1,2025-06-18,2025-06-18,zip,true,4833500,43,31,2024/2026
+Dan Sullivan,Ronnie Agami,Atlanta,GA,30327,Universal Diamonds,Sales,100000,1,2026-03-04,2026-03-04,zip,true,150000,1,1,2026
+Dan Sullivan,Ross Kogon,Atlanta,GA,30360,Pull-A-Part,Ceo,100000,1,2026-03-04,2026-03-04,zip,true,5650000,37,29,2024/2026
+Dan Sullivan,Ruth Binder,Sherwood Forest,CA,91325,Retired,Retired,100000,1,2025-04-22,2025-04-22,zip,false,1000000,8,8,2024/2026
+Dan Sullivan,Samuel Pepper,West Orange,NJ,07052,Metropolitan Mortgage And Realtors,Real Estate,100000,1,2025-04-21,2025-04-21,zip,false,1950000,20,15,2024/2026
+Dan Sullivan,Sarah Isaac,Los Angeles,CA,90024,Continental Computers,Cfo,100000,1,2025-04-25,2025-04-25,zip,true,3055000,33,23,2024/2026
+Dan Sullivan,Scott Becker,Glencoe,IL,60022,Beckers Healthcare And Mcguirewoods,Lawyer Entrepreneur,100000,1,2025-06-04,2025-06-04,zip,true,7930000,98,64,2024/2026
+Dan Sullivan,Scott Donner,Old Westbury,NY,11568,Real Deal Decoration,Owner,100000,1,2025-04-21,2025-04-21,zip,true,900000,14,13,2024/2026
+Dan Sullivan,Scott Harris,Roslyn,NY,11576,Northwell,Healthcare,100000,1,2025-05-01,2025-05-01,zip,true,600000,9,9,2026
+Dan Sullivan,Scott Jaffee,Great Neck,NY,11021,Metropolitan Realty Group,Real Estate Development And,100000,1,2025-04-16,2025-04-16,zip,false,2210000,12,12,2024/2026
+Dan Sullivan,Scott Lederman,Highland Park,IL,60035,Gcm Grosvenor,Executive,100000,1,2025-06-17,2025-06-17,zip,true,1105000,11,11,2024/2026
+Dan Sullivan,Shale Lapping,Chicago,IL,60601,"Ipex, Inc.",Investment Consultant,100000,1,2025-06-08,2025-06-08,zip,true,2360000,41,33,2024/2026
+Dan Sullivan,Shelly Gerson,Cincinnati,OH,45237,Retired,Retired,100000,1,2026-03-04,2026-03-04,zip,false,2700000,14,8,2024/2026
+Dan Sullivan,Simeon Fensterheim,Boca Raton,FL,33433,Retired,Retired,100000,1,2026-03-04,2026-03-04,zip,false,1400000,18,16,2024/2026
+Dan Sullivan,Steve Baldinger,Mendota Heights,MN,55118,Retired,Retired,100000,1,2026-03-04,2026-03-04,zip,false,1480000,8,8,2024/2026
+Dan Sullivan,Steve R. Perles,Miami Beach,FL,33140,The Perles Law Firm,Attorney,100000,1,2026-06-02,2026-06-02,zip,false,1150000,13,13,2024/2026
+Dan Sullivan,Steven Korol,Buffalo Grove,IL,60089,Leon Korol Co,Dj,100000,1,2025-06-16,2025-06-16,zip,true,1300000,14,13,2024/2026
+Dan Sullivan,Steven Mitchell,Roslyn,NY,11576,Self Employed,Board Advisor,100000,1,2025-04-14,2025-04-14,zip,false,1301100,7,7,2024/2026
+Dan Sullivan,Steven Solomon,Incline Village,NV,94707,Uc Berkeley,Professor,100000,1,2025-12-04,2025-12-04,zip,true,830000,6,6,2024
+Dan Sullivan,Steven Wertheim,Atlanta,GA,30328,Retired,Retired,100000,1,2026-03-04,2026-03-04,zip,false,6230000,40,31,2024/2026
+Dan Sullivan,Susan Bender,Houston,TX,77024,Unemployed,Unemployed,100000,1,2026-03-04,2026-03-04,zip,false,5500000,20,17,2024/2026
+Dan Sullivan,Susan Benyowitz,Los Angeles,CA,90035,Retired,Retired,100000,1,2025-04-10,2025-04-10,zip,false,1400000,15,11,2024/2026
+Dan Sullivan,Susan Wein,Chicago,IL,60640,Retired,Retired,100000,1,2025-06-16,2025-06-16,zip,false,740000,12,7,2024/2026
+Dan Sullivan,Victor Kohn,Encino,CA,91436,Retired,Retired,100000,1,2026-03-04,2026-03-04,zip,false,39930000,89,67,2024/2026
+Dan Sullivan,Zachary Bier,Short Hills,NJ,07078,Richards Manufacturing,Gm,100000,1,2025-04-11,2025-04-11,zip,true,400000,6,6,2024/2026
+Dan Sullivan,Zachary Kerr,New York,NY,10075,M&R Management,Real Estate,100000,1,2025-04-13,2025-04-13,zip,true,550000,9,8,2024/2026
+Dan Sullivan,James J Butera,Chester,MD,21619,"Meeks, Butera & Israel",Partner,75000,2,2025-03-19,2025-06-18,zip,true,100000,1,1,2024
+Dan Sullivan,Adam Levin,Marina Del Rey,CA,90292,Fiesta Events Inc,Entrepreneur,50000,1,2026-03-04,2026-03-04,zip,true,550000,3,3,2026
+Dan Sullivan,Alan Nussenblatt,Calabasas,CA,91302,Retired,Retired,50000,1,2026-03-25,2026-03-25,zip,false,1600000,30,29,2024/2026
+Dan Sullivan,Allison Nagelberg,East Brunswick,NJ,08816,Jnf,Planned Giving,50000,1,2025-04-15,2025-04-15,zip,true,750000,17,12,2024/2026
+Dan Sullivan,Andrew Goodman,Glenwood Landing,NY,11547,Sherwood Lumber,President/Ceo,50000,1,2025-04-22,2025-04-22,zip,true,835000,17,15,2024/2026
+Dan Sullivan,Ariel Grunberg,East Rockaway,NY,11518,Grunberg Realty,Property Owner,50000,1,2025-04-14,2025-04-14,zip,true,850000,14,12,2024/2026
+Dan Sullivan,Barry Topol,Danville,CA,94526,Assessment Solutions Group,Consultant,50000,1,2025-11-28,2025-11-28,zip,true,1721000,37,33,2024/2026
+Dan Sullivan,Bryan Bier,West Orange,NJ,07052,Richards Manufacturing,Manager,50000,1,2025-04-10,2025-04-10,zip,true,400000,4,4,2024/2026
+Dan Sullivan,Daniel Zakowski,Sherman Oaks,CA,91423,Ready Set Food,Ceo,50000,1,2025-04-18,2025-04-18,zip,true,300000,4,4,2026
+Dan Sullivan,David Hartford,Oakland,CA,94611,Retired,Retired,50000,1,2025-11-28,2025-11-28,zip,false,700000,12,12,2024/2026
+Dan Sullivan,David Lerner,Boca Raton,FL,33496,"David Lerner Associates, Inc.",Owner,50000,1,2026-03-04,2026-03-04,zip,false,180000,1,0,2026
+Dan Sullivan,David Marinoff,Oakland,CA,94611,Bay Childrens Physician Group,Physician,50000,1,2025-12-04,2025-12-04,zip,true,1560000,17,16,2024/2026
+Dan Sullivan,Debra Tantleff,Guttenberg,NJ,07093,Tantum Real Estate,Real Estate Developer,50000,1,2025-04-22,2025-04-22,zip,true,600000,11,8,2024/2026
+Dan Sullivan,Dennis Albers,Aspen,CO,81611,Self Employed,Real Estate,50000,1,2025-11-28,2025-11-28,zip,false,3285000,57,45,2024/2026
+Dan Sullivan,Dory Altmann,Westfield,NJ,07090,Rwjpe,Physician,50000,1,2025-04-27,2025-04-27,zip,true,173000,8,6,2024/2026
+Dan Sullivan,Edward Mazer,Millburn,NJ,07041,Retired,Retired,50000,1,2025-04-14,2025-04-14,zip,false,800000,16,12,2024/2026
+Dan Sullivan,Elie Haymovitz,Madison,NJ,07940,Cibc,Attonrey,50000,1,2025-04-09,2025-04-09,zip,true,1220000,20,17,2024/2026
+Dan Sullivan,Eric Lavitsky,Bridgewater,NJ,08807,"Lavitsky Computer Laboratories, Inc.",Consultant,50000,1,2025-04-11,2025-04-11,zip,true,5225000,36,29,2024/2026
+Dan Sullivan,Eric Sackler,Los Angeles,CA,90049,Cb Commercial,Real Estate,50000,1,2025-04-20,2025-04-20,zip,true,400000,8,8,2024/2026
+Dan Sullivan,Fareed Kanani,Encino,CA,91316,Self Employed,Commercial Real Estate,50000,1,2025-04-22,2025-04-22,zip,false,250000,3,3,2026
+Dan Sullivan,Garry Rayant,San Francisco,CA,94123,Retired,Retired,50000,1,2025-11-28,2025-11-28,zip,false,3816000,36,31,2024/2026
+Dan Sullivan,Gary Gershony,San Francisco,CA,94109,Self-Employed,Investor/Venture Capitalist,50000,1,2025-11-28,2025-11-28,zip,false,475000,8,8,2024/2026
+Dan Sullivan,Harold Diamond,Bal Harbour,FL,33154,Retired,Retired,50000,1,2025-03-31,2025-03-31,zip,false,900000,8,4,2026
+Dan Sullivan,Helen Loewenstein,Pleasant Hill,CA,94523,Retired,Retired,50000,1,2025-11-28,2025-11-28,zip,false,1180000,13,10,2024/2026
+Dan Sullivan,Ilana Decker,Huntington,NY,11743,Unemployed,Unemployed,50000,1,2025-04-14,2025-04-14,zip,false,500000,10,10,2026
+Dan Sullivan,Jan Saperstein,Atlanta,GA,30342,Seam,Commercial Re Investor,50000,1,2026-03-04,2026-03-04,zip,true,1850000,19,17,2024/2026
+Dan Sullivan,Jason Griffith,Stamford,CT,06907,Caketech,Ceo,50000,1,2025-04-13,2025-04-13,zip,true,425000,8,8,2024/2026
+Dan Sullivan,Jeffrey Fisher,New York,NY,10021,Touro University,Special Programs Administrator,50000,1,2025-03-20,2025-03-20,zip,true,16828326,293,202,2024/2026
+Dan Sullivan,Jerry Herz,Dix Hills,NY,11746,"Sterling Floor Designs, Ltd.",Flooring Contractor,50000,1,2025-04-14,2025-04-14,zip,true,1950000,25,17,2024/2026
+Dan Sullivan,Jessica Hochman,Studio City,CA,91604,Starfield,Physician,50000,1,2025-04-18,2025-04-18,zip,true,750000,12,11,2024/2026
+Dan Sullivan,Joel Ritch,Kentfield,CA,94904,Tag,Ecob,50000,1,2025-12-04,2025-12-04,zip,true,2364000,16,15,2024/2026
+Dan Sullivan,Jonathan S. Caplan,Short Hills,NJ,07078,Self Employed,Attorney,50000,1,2025-04-23,2025-04-23,zip,false,2146800,16,15,2024/2026
+Dan Sullivan,Jonathan Wornick,Lafayette,CA,94549,Self Employed,Investor,50000,1,2025-11-28,2025-11-28,zip,false,3134000,30,22,2024/2026
+Dan Sullivan,Julie Ovadia,Lafayette,CA,94549,Retired,Retired,50000,1,2025-11-28,2025-11-28,zip,false,2790000,22,18,2024/2026
+Dan Sullivan,Katrin Youdim,Encino,CA,91436,Physician 37,Partner,50000,1,2025-04-21,2025-04-21,zip,false,722600,14,12,2024/2026
+Dan Sullivan,Kornfeld Thomas,Denver,CO,80222,Self Employed,Real Estate,50000,1,2026-04-01,2026-04-01,zip,false,100000,2,2,2026
+Dan Sullivan,Larry Stadtner,San Anselmo,CA,94960,Retired,Retired,50000,1,2025-11-20,2025-11-20,zip,false,1475000,23,21,2024/2026
+Dan Sullivan,Marissa Leitner,Encino,CA,91436,Self Employed,School Psychologist,50000,1,2025-04-18,2025-04-18,zip,false,780000,16,15,2024/2026
+Dan Sullivan,Martin Baum,Glen Ridge,NJ,07028,Edgewood Consulting Group,Consultant,50000,1,2025-04-25,2025-04-25,zip,true,650000,13,11,2024/2026
+Dan Sullivan,Matthew Schmelzer,New York,NY,10021,"Tryax Realty Management, Inc.",Real Estate,50000,1,2025-04-13,2025-04-13,zip,true,450000,9,9,2024/2026
+Dan Sullivan,Mauricio Oberfeld,Los Angeles,CA,90069,"Dugally Oberfeld, Inc",Real Estate,50000,1,2025-04-08,2025-04-08,zip,false,825000,15,12,2024/2026
+Dan Sullivan,Michael Cantor,Encino,CA,91436,Umg Recordings,Attorney,50000,1,2025-04-18,2025-04-18,zip,true,350000,5,5,2026
+Dan Sullivan,Michael Geller,Aurora,CO,80011,"Beverage Distributors Company, LLC",Ceo,50000,1,2026-05-06,2026-05-06,zip,true,450000,8,8,2024/2026
+Dan Sullivan,Michael Mintz,New York,NY,10001,Md Squared Property Group,Real Estate,50000,1,2026-03-04,2026-03-04,zip,true,175000,5,5,2026
+Dan Sullivan,Michael Ross,Raleigh,NC,27608,Retired,Retired,50000,1,2026-03-04,2026-03-04,zip,false,1345000,20,11,2024/2026
+Dan Sullivan,Michael Schechner,Short Hills,NJ,07078,Schechner Lifson Corp,Insurance Broker,50000,1,2025-04-07,2025-04-07,zip,true,800000,12,10,2024/2026
+Dan Sullivan,Michael Sosebee,Oakland,CA,94610,Jeffries & Co.,Broker,50000,1,2025-12-04,2025-12-04,zip,false,1325000,13,12,2024/2026
+Dan Sullivan,Mitchell Barkley,Short Hills,NJ,07078,The Vision Council,Vp,50000,1,2025-04-08,2025-04-08,zip,true,520000,16,16,2024/2026
+Dan Sullivan,Mitchell Parver,Los Angeles,CA,90034,Retired,Retired,50000,1,2025-05-02,2025-05-02,zip,false,275000,5,5,2024/2026
+Dan Sullivan,Paul Sanderson,Alamo,CA,94507,Retired,Investment Advisor,50000,1,2025-11-28,2025-11-28,zip,false,1683000,39,29,2024/2026
+Dan Sullivan,Phoebe Nir,San Francisco,CA,94118,Self Employed,Filmmaker,50000,1,2025-11-28,2025-11-28,zip,false,300000,6,6,2026
+Dan Sullivan,Ramin Younessi,Beverly Hills,CA,90210,Self Employed,Attonrey,50000,1,2025-04-09,2025-04-09,zip,false,700000,14,12,2024/2026
+Dan Sullivan,Randall Kessler,Alameda,CA,94501,Kessler & Kessler,Attorney,50000,1,2025-12-04,2025-12-04,zip,true,1300000,28,27,2024/2026
+Dan Sullivan,Richard Morse,Commack,NY,11725,Merrill Lynch/Bank Of America,Financial Advisor,50000,1,2025-04-25,2025-04-25,zip,true,1125000,14,14,2024/2026
+Dan Sullivan,Robert Lipson,East Brunswick,NJ,08816,Berkadia Commercial Mortgage LLC,Mortgage Banker,50000,1,2025-04-18,2025-04-18,zip,false,2877500,48,36,2024/2026
+Dan Sullivan,Robert Miller,Syosset,NY,11791,Self Employed,Real Estate,50000,1,2026-03-04,2026-03-04,zip,false,1500000,11,10,2026
+Dan Sullivan,Robert Spitalnick,Great Neck,NY,11024,Birchwood Properties LLC,Real Estate,50000,1,2025-05-01,2025-05-01,zip,true,2130000,18,16,2024/2026
+Dan Sullivan,Ronnie Mandler,Valley Stream,NY,11581,Best Energy Power (Bep),Manager,50000,1,2025-04-12,2025-04-12,zip,true,775000,15,14,2024/2026
+Dan Sullivan,Sheldon Klapper,Portland,OR,97210,Retired,Retired,50000,1,2026-06-30,2026-06-30,zip,false,1409200,19,16,2024/2026
+Dan Sullivan,Stephanie Heyman,Encino,CA,91436,Daniel B Heyman Cpa,Assistant,50000,1,2025-04-18,2025-04-18,zip,true,2650000,15,13,2024/2026
+Dan Sullivan,Stephen Miller,San Francisco,CA,94121,Retired,Retired,50000,1,2025-11-28,2025-11-28,zip,false,1200000,25,22,2024/2026
+Dan Sullivan,Steve Unger,Brooklyn,NY,11230,Unger Realty,Owner,50000,1,2025-04-25,2025-04-25,zip,true,100000,2,2,2024/2026
+Dan Sullivan,Steven Dubb,Jericho,NY,11753,Beechwood Homes,Construction,50000,1,2025-04-14,2025-04-14,state,true,700000,12,11,2024/2026
+Dan Sullivan,Steven Wildstein,Glen Head,NY,11545,Retired,Retired,50000,1,2025-04-12,2025-04-12,zip,false,2160000,42,29,2024/2026
+Dan Sullivan,Susan Bruch,West Caldwell,NJ,07006,Retired,Retired,50000,1,2025-04-10,2025-04-10,zip,false,300000,6,6,2026
+Dan Sullivan,Susan Hirsch,Watchung,NJ,07069,Retired,Retired,50000,1,2025-04-18,2025-04-18,zip,false,100000,2,2,2026
+Dan Sullivan,Taro Meyer,Redondo Beach,CA,90277,Self Employed,Writer/Editor,50000,1,2025-04-28,2025-04-28,zip,false,150000,3,3,2026
+Dan Sullivan,Tim Williams,Douglasville,GA,30135,Retired,Retired,50000,1,2026-03-04,2026-03-04,zip,false,2400000,25,21,2024/2026
+Dan Sullivan,Timothy Punke,Mercer Island,WA,98040,Monument Advocacy,Consultant,50000,1,2025-04-19,2025-04-19,zip,true,2425000,17,11,2024/2026
+Dan Sullivan,Yoel Neman,Los Angeles,CA,90015,"Neman Brothers & Assoc., Inc.",Vice President,50000,1,2025-04-09,2025-04-09,zip,true,650000,12,9,2024/2026
+Dan Sullivan,David Ephraim,Highland Park,IL,60035,Ephraim And Associates PC,Lawyer,40000,1,2025-06-16,2025-06-16,zip,true,939000,21,20,2024/2026
+Dan Sullivan,David Rappaport,Fontana,WI,53125,Rappaport Reiches Capital Management,Financial Advisor,40000,1,2025-06-13,2025-06-13,zip,true,530000,12,11,2024/2026
+Dan Sullivan,Adam Grodman,Maplewood,NJ,07040,Magnite,Technology,36000,1,2025-04-27,2025-04-27,zip,true,252000,7,7,2026
+Dan Sullivan,Steve Loewenthal,Skokie,IL,60077,Retired,Retired,36000,1,2025-06-18,2025-06-18,zip,false,838000,21,16,2024/2026
+Dan Sullivan,Steven Kirshblum,West Orange,NJ,07052,Kessler Institute For Rehabilitation,Physician,36000,1,2025-04-18,2025-04-18,zip,true,388000,11,10,2024/2026
+Dan Sullivan,David Ecanow,Highland Park,IL,60035,Endeavor Health,Physician,35000,1,2025-06-18,2025-06-18,zip,true,565000,13,13,2024/2026
+Dan Sullivan,George Frankenstein,San Francisco,CA,94127,Retired,Retired,30300,1,2025-11-28,2025-11-28,zip,false,741000,21,20,2026
+Dan Sullivan,Allan Rauch,Florham Park,NJ,07932,Retired,Retired,25000,1,2025-04-08,2025-04-08,zip,false,455000,19,14,2024/2026
+Dan Sullivan,Antony Loebel,Larchmont,NY,10538,Retired,Retired,25000,1,2026-06-17,2026-06-17,zip,false,175000,5,5,2026
+Dan Sullivan,Brandon Oberfeld,Los Angeles,CA,90069,Not Employed,Not Employed,25000,1,2025-04-07,2025-04-07,zip,false,290000,12,11,2024/2026
+Dan Sullivan,Francine Tajfel,East Brunswick,NJ,08816,"Hotels Unlimited, Inc.",Attorney,25000,1,2025-04-08,2025-04-08,zip,true,275000,10,8,2024/2026
+Dan Sullivan,Jay Koppelman,Pleasant Hill,CA,94523,Retired,Retired,25000,1,2025-11-28,2025-11-28,zip,false,450000,18,17,2024/2026
+Dan Sullivan,Katherine Dietze,Palm Beach,FL,33480,Retired,Retired,25000,1,2026-07-11,2026-07-11,state,false,100000,2,2,2024
+Dan Sullivan,Lisa Henry,Fort Lauderdale,FL,33306,Retired,Retired,25000,1,2026-05-20,2026-05-20,zip,false,900000,36,36,2026
+Dan Sullivan,Nelson Obus,Princeton,NJ,08540,Self,Finance,25000,1,2026-07-12,2026-07-12,zip,false,250000,3,3,2024
+Dan Sullivan,Stephen Rush,Westhampton Beach,NY,11978,Usaf Reserve,Md,25000,1,2025-04-14,2025-04-14,zip,true,1100000,21,19,2024/2026
+Dan Sullivan,Steven Bier,Monroe Township,NJ,08831,Urg,Md,25000,1,2025-04-16,2025-04-16,zip,true,75000,2,2,2024/2026
+Dan Sullivan,David R. Gottstein,Anchorage,AK,99501,Efficient Tax & Dynamic Capital,Founder/Ceo,20000,1,2025-11-05,2025-11-05,zip,false,100000,1,1,2024
+Dan Sullivan,David Levine,New York,NY,10028,Retired,Retired,7500,8,2025-06-25,2026-06-29,state,false,3093300,17,13,2024/2026
+Mary Peltola,Robert Klein,Los Altos Hills,CA,94022,Klein Financial Corporation,Chairman,700000,2,2026-03-31,2026-03-31,state,false,103600,4,2,2024/2026
+Mary Peltola,Laura Lauder,New York,NY,10153,Self Employed,Philanthropist,330000,1,2026-02-12,2026-02-12,zip,false,430000,2,2,2024
+Mary Peltola,Jacqueline K. Carr,Anchorage,AK,99501,Carr & Family Properties LLC,Business Owner,300000,3,2026-01-13,2026-06-30,zip,false,100000,1,1,2024
+Mary Peltola,Diane Wohl,Mill Neck,NY,11765,Not Employed,Not Employed,225000,4,2026-02-17,2026-06-29,zip,false,175000,2,1,2024/2026
+Mary Peltola,Jacquie Bayley,Bellevue,WA,98005,Not Employed,Not Employed,150000,3,2026-06-12,2026-07-29,zip,false,450000,7,6,2024/2026
+Mary Peltola,Andrew Feinberg,New York,NY,10022,Self Employed,Writer,100000,1,2026-06-27,2026-06-27,state,false,25000,1,1,2026
+Mary Peltola,Barbara Grossman,Boston,MA,02116,Not Employed,Not Employed,100000,1,2026-03-11,2026-03-11,state,false,50000,1,1,2024
+Mary Peltola,Bruce Belsky,Roslyn Heights,NY,11577,Not Employed,Not Employed,100000,1,2026-04-23,2026-04-23,zip,false,200000,1,1,2026
+Mary Peltola,David May,New York,NY,10016,Superstructures,Architect,100000,2,2026-06-18,2026-06-29,zip,true,25000,1,1,2024
+Mary Peltola,Gary Elden,Chicago,IL,60606,Shook Hardy & Bacon L.L.P.,Attorney,100000,1,2026-02-12,2026-02-12,state,false,50000,1,1,2024
+Mary Peltola,Roger Klein,Waban,MA,02468,Not Employed,Not Employed,100000,1,2026-02-06,2026-02-06,zip,false,4000000,34,23,2024/2026
+Mary Peltola,Stephen Seiden,Livingston,NJ,07039,Herrod Construction,Executive,100000,1,2026-07-10,2026-07-10,zip,true,570000,10,7,2024/2026
+Mary Peltola,Daniel Cohen,Denver,CO,80203,Not Employed,Retired,90000,3,2026-05-27,2026-07-27,state,false,2000,1,1,2024
+Mary Peltola,Michael Baron,Lighthouse Point,FL,33064,Not Employed,Not Employed,90000,2,2026-05-03,2026-07-06,zip,false,36000,1,0,2026
+Mary Peltola,David Stern,Chevy Chase,MD,20815,Not Employed,Not Employed,75000,2,2026-01-13,2026-03-31,state,false,1875000,20,19,2024/2026
+Mary Peltola,Carmela Pasternak,Palo Alto,CA,94301,Not Employed,Not Employed,50000,1,2026-06-19,2026-06-19,zip,false,100000,2,2,2024
+Mary Peltola,David Cohen,Bethesda,MD,20814,Not Employed,Not Employed,50000,1,2026-07-23,2026-07-23,state,false,100000,1,1,2026
+Mary Peltola,David Cohen,Chevy Chase,MD,20815,Not Employed,Not Employed,50000,1,2026-06-30,2026-06-30,state,false,100000,1,1,2026
+Mary Peltola,Michael J. Shapiro,Ojai,CA,93023,Self Employed,Tv Producer,50000,2,2026-01-12,2026-02-17,state,false,325000,9,7,2024/2026
+Mary Peltola,Robert Friedman,San Mateo,CA,94402,Not Employed,Not Employed,50000,1,2026-01-12,2026-01-12,state,false,1250000,9,8,2024/2026
+Mary Peltola,Ruth Zommick,Los Angeles,CA,90067,Harvey Capital Corp,Real Estate And Finance,50000,2,2026-04-23,2026-06-30,zip,true,450000,9,8,2024/2026
+Mary Peltola,Shelley Goldseker,Owings Mills,MD,21117,Not Employed,Not Employed,50000,1,2026-06-04,2026-06-04,zip,false,700000,6,5,2024/2026
+Mary Peltola,Jane Gale,Las Vegas,NV,89131,Not Employed,Not Employed,35000,2,2026-06-17,2026-06-27,zip,false,50000,1,1,2024
+Mary Peltola,Joel Levy,Parkland,FL,33076,Not Employed,Not Employed,35000,1,2026-05-29,2026-05-29,zip,false,85000,3,2,2024/2026
+Mary Peltola,David Levine,Brewster,NY,10509,Self Employed,Attorney,30000,3,2026-04-27,2026-07-12,state,false,3093300,17,13,2024/2026
+Mary Peltola,Gary Elden,Chicago,IL,60613,"Shook, Hardy & Bacon LLP",Attorney,26900,1,2026-07-23,2026-07-23,zip,false,50000,1,1,2024
+Mary Peltola,Ronald Abramson,Washington,DC,20006,Buchanan Ingersoll And Rooney,Attorney,26200,2,2026-01-12,2026-03-29,zip,false,200000,1,1,2026
+Mary Peltola,Alice Baker,Tucson,AZ,85716,Not Employed,Not Employed,25000,1,2026-07-29,2026-07-29,zip,false,3450000,8,6,2024/2026
+Mary Peltola,Eugenie Rosenthal,Scarsdale,NY,10583,Not Employed,Not Employed,25000,1,2026-03-26,2026-03-26,zip,false,1300000,5,5,2024/2026
+Mary Peltola,John Somorjai,Hillsborough,CA,94010,Salesforce Inc,President Corporate,25000,1,2026-06-02,2026-06-02,zip,false,400000,2,2,2024/2026
+Mary Peltola,Michael David,New York,NY,10025,Dodger Properties,Theatrical Producer,25000,1,2026-06-11,2026-06-11,state,false,18000,1,0,2024
+Mary Peltola,Susan Miller,Piedmont,CA,94611,Not Employed,Not Employed,25000,1,2026-03-31,2026-03-31,state,false,125000,5,5,2024
+Mary Peltola,Andrew B. Cohen,Jersey City,NJ,07307,Not Employed,Retired,20000,2,2026-05-21,2026-06-22,state,false,365000,2,1,2024/2026
+Mary Peltola,David Smith,San Diego,CA,92105,Not Employed,Retired,20000,2,2026-05-21,2026-07-13,state,false,750000,13,11,2024/2026
+Mary Peltola,David Smith,Van Nuys,CA,91406,Not Employed,Retired,20000,1,2026-06-23,2026-06-23,state,false,750000,13,11,2024/2026
+Mary Peltola,Stephen Lieberman,Edina,MN,55436,Not Employed,Not Employed,14400,2,2026-04-28,2026-07-04,zip,false,200000,2,2,2024
+Mary Peltola,Barbara S. Berger,Naples,FL,34113,Not Employed,Not Employed,10000,1,2026-06-30,2026-06-30,state,false,2900000,10,10,2026
+Mary Peltola,David Cohen,Potomac,MD,20854,Ici,Attorney,10000,1,2026-06-28,2026-06-28,state,false,100000,1,1,2026
+Mary Peltola,Richard Steinberg,New York,NY,10019,Brandt Steinberg Lewis & Blond LLP,Attorney,10000,1,2026-07-23,2026-07-23,state,false,150000,3,3,2024/2026
+Mary Peltola,Steve Lewis,Lincoln,CA,95648,Not Employed,Not Employed,10000,1,2026-06-09,2026-06-09,state,false,150000,1,1,2026
+Mary Peltola,William Fox,Gaithersburg,MD,20877,Not Employed,Retired,10000,1,2026-07-24,2026-07-24,state,false,650000,14,13,2024/2026
+Mary Peltola,Karen Allen,Anniston,AL,36206,Not Employed,Not Employed,9500,5,2026-05-06,2026-07-27,state,false,200000,8,7,2024/2026
+Mary Peltola,Adrienne Young,Sewickley,PA,15143,Not Employed,Not Employed,7200,4,2026-06-30,2026-07-24,zip,false,7200,2,2,2024
+Mary Peltola,Steven Cohen,Prides Crossing,MA,01965,Not Employed,Not Employed,7200,1,2026-06-27,2026-06-27,state,false,180000,10,10,2024
+Mary Peltola,Susan Miller,Carmel,CA,93923,Not Employed,Not Employed,2500,1,2026-07-22,2026-07-22,state,false,125000,5,5,2024
+Mary Peltola,Susan Miller,Pasadena,CA,91104,Delphi Academy Of La,Educator,2000,1,2026-07-26,2026-07-26,state,false,125000,5,5,2024

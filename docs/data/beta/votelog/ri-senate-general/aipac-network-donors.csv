@@ -1,0 +1,137 @@
+candidate,donor,city,state,zip5,employer,occupation,direct_total_cents,contributions,first_date,last_date,match_tier,same_employer_string,aipac_pac_total_cents,aipac_pac_rows,aipac_pac_recipient_committees,aipac_pac_cycles
+Raymond McKay,Reuben Auspitz,Pittsford,NY,14534,Retired,Retired,700000,2,2026-05-14,2026-05-14,zip,false,500000,1,1,2024
+Raymond McKay,Peter Zieve,Mukilteo,WA,98275,Electroimpact,Engineer,350000,1,2026-08-16,2026-08-16,zip,true,100000,1,1,2024
+Jack Reed,Norman Brownstein,Denver,CO,80202,Brownstein Hyatt Farber Schreck,Chairman,800000,3,2025-07-16,2025-12-03,zip,true,13450000,33,31,2024/2026
+Jack Reed,Bob Kerrey,New York,NY,10003,Allen And Co.,Banker,700000,2,2025-02-11,2025-02-11,zip,false,330000,1,1,2024
+Jack Reed,Brian Steinwurtzel,Hastings On Hudson,NY,10706,Gfp Development,Principal,700000,2,2026-06-03,2026-06-11,zip,true,750000,3,2,2026
+Jack Reed,Casey Wasserman,Los Angeles,CA,90024,Wasserman,Chairman,700000,2,2026-01-27,2026-01-27,zip,true,1400000,2,2,2026
+Jack Reed,Jonathan S. Lavine,Boston,MA,02116,Bain Capital,Investor,700000,2,2025-12-23,2025-12-23,zip,true,10840000,16,16,2024/2026
+Jack Reed,Matthew Kaplan,Summit,NJ,07901,Neuberger,Real Estate Investor,700000,2,2026-06-22,2026-06-22,zip,true,4600000,8,8,2026
+Jack Reed,Michael Hackman,Los Angeles,CA,90049,Hackman Capital Partners,Ceo,700000,2,2026-05-04,2026-05-04,zip,true,32485000,72,50,2024/2026
+Jack Reed,Benjamin S. Chouake,Englewood,NJ,07631,Self-Employed,Physician,666300,3,2025-10-05,2025-10-05,zip,false,510000,2,2,2024
+Jack Reed,Allen Friedman,Teaneck,NJ,07666,Jp Morgan Chase,Attorney,500000,2,2025-10-05,2025-10-05,zip,false,960000,3,3,2024
+Jack Reed,Esther Chouake,Englewood,NJ,07631,Self-Employed,Physician,500000,2,2025-10-05,2025-10-05,zip,false,500000,1,1,2024
+Jack Reed,Moshael J. Straus,Englewood,NJ,07631,Multicare Management,Executive,500000,2,2025-10-05,2025-10-05,state,false,200000,2,2,2024
+Jack Reed,Skip Miller,Los Angeles,CA,90067,Miller Barondess,Attorney,500000,2,2026-05-15,2026-05-15,zip,true,22990000,56,43,2024/2026
+Jack Reed,Todd Cooper,Oyster Bay,NY,11771,Ripco,Real Estate,500000,2,2026-07-07,2026-07-07,zip,true,4720000,16,13,2024/2026
+Jack Reed,Ariel Cudkowicz,Newton,MA,02458,Seyfarth Shaw,Attorney,400000,3,2026-01-31,2026-02-13,zip,true,7081600,50,33,2024/2026
+Jack Reed,Alex Von Furstenberg,Beverly Hills,CA,90210,"Ranger Global Advisors, LLC",Cio,350000,1,2025-10-30,2025-10-30,zip,true,2760000,5,5,2024/2026
+Jack Reed,Blair W. Effron,New York,NY,10075,Centerview Partners,Partner,350000,1,2025-10-28,2025-10-28,zip,true,2550000,13,13,2024/2026
+Jack Reed,Bruce Stachenfeld,Chatham,NJ,07928,Adler & Stachenfeld LLP,Attorney,350000,1,2026-07-07,2026-07-07,zip,true,2020000,8,8,2024/2026
+Jack Reed,Julie Platt,Los Angeles,CA,90024,Not Employed,Not Employed,350000,1,2026-04-23,2026-04-23,zip,false,19612500,51,38,2024/2026
+Jack Reed,Keenan Wolens,Beverly Hills,CA,90210,Amir Development Co.,Real Estate,350000,1,2026-04-23,2026-04-23,zip,false,7842500,36,30,2024/2026
+Jack Reed,Larry D. Greenberg,Weston,MA,02493,Not Employed,Not Employed,350000,1,2026-01-22,2026-01-22,zip,false,20090000,62,43,2024/2026
+Jack Reed,Mark Rubin,Palm Beach Gardens,FL,33410,Not Employed,Retired,350000,1,2026-02-17,2026-02-17,zip,false,15164000,61,45,2024/2026
+Jack Reed,Mitchell Hochberg,New York,NY,10028,Lightstone,President,350000,1,2026-06-08,2026-06-08,zip,true,3420000,9,8,2024/2026
+Jack Reed,Phil De Toledo,Sherman Oaks,CA,91423,"Capital Group Companies, Inc",Manager,350000,1,2026-05-11,2026-05-11,zip,true,16430000,33,32,2026
+Jack Reed,Robert Gach,Los Angeles,CA,90069,Ubs Wealth Management,Private Wealth Advisor,350000,1,2026-04-24,2026-04-24,zip,true,4960000,24,20,2024/2026
+Jack Reed,Victor Kohn,Encino,CA,91436,Not Employed,Retired,350000,1,2026-05-11,2026-05-11,zip,false,39930000,89,67,2024/2026
+Jack Reed,Alan Gindi,Culver City,CA,90232,Bag Investments,Real Estate,300000,1,2026-05-04,2026-05-04,zip,true,14295000,45,39,2024/2026
+Jack Reed,Ron Squarer,Boulder,CO,80304,Adct,Director,300000,1,2026-05-27,2026-05-27,zip,true,7916000,45,36,2024/2026
+Jack Reed,Steven Demby,Denver,CO,80209,Brownstein Hyatt Farber Schreck,Attorney,300000,1,2026-06-29,2026-06-29,zip,false,6075000,24,24,2024/2026
+Jack Reed,Andrew Klein,Greenwood Village,CO,80111,Westside,Investor,250000,1,2026-05-22,2026-05-22,zip,true,450000,2,2,2026
+Jack Reed,David Levy,Roslyn,NY,11576,Self-Employed,Real Estate,250000,1,2026-06-04,2026-06-04,zip,false,350000,2,2,2024/2026
+Jack Reed,Dora Mossanen,Los Angeles,CA,90024,Self-Employed,Author,250000,1,2026-05-10,2026-05-10,zip,false,2450000,12,11,2024/2026
+Jack Reed,Gary Frischling,Santa Monica,CA,90402,Ohs,Attorney,250000,1,2026-05-18,2026-05-18,zip,true,1150000,5,5,2024/2026
+Jack Reed,Steven Fishman,Encino,CA,91436,"Fishman, Block And Diamond",Cpa,250000,1,2026-05-14,2026-05-14,zip,true,10790600,52,37,2024/2026
+Jack Reed,Barbara Kopans,Waban,MA,02468,Not Employed,Retired,200000,1,2026-01-22,2026-01-22,zip,false,2350000,31,28,2024/2026
+Jack Reed,Brian L. Greenspun,Henderson,NV,89014,Las Vegas Sun,Publisher,200000,1,2026-05-22,2026-05-22,zip,true,200000,1,1,2026
+Jack Reed,Bruce Etkin,Aspen,CO,81611,Etkin Johnson Real Estate Partners,Chairman,200000,1,2026-05-13,2026-05-13,zip,true,2600000,20,20,2024/2026
+Jack Reed,Charles Gwirtsman,Denver,CO,80203,Krg Capital,Private Equity,200000,1,2026-05-31,2026-05-31,zip,true,1090000,8,8,2024/2026
+Jack Reed,Chuck Bellock,Boulder,CO,80302,Bellock Construction Inc.,Real Estate,200000,1,2026-05-18,2026-05-18,zip,false,3550000,18,16,2024/2026
+Jack Reed,David Cohen,Pacific Palisades,CA,90272,Karlin,Ceo,200000,1,2026-04-29,2026-04-29,zip,true,2300000,10,9,2024/2026
+Jack Reed,David Rosenberg,Marblehead,MA,01945,Dsr Motor Group,Auto Dealer,200000,1,2026-01-21,2026-01-21,zip,true,5500000,26,21,2024/2026
+Jack Reed,Ed Shapiro,Needham,MA,02492,Not Employed,Retired,200000,1,2026-02-11,2026-02-11,zip,false,400000,2,2,2026
+Jack Reed,James J. Butera,Chester,MD,21619,"Meeks, Butera & Israel Pllc",Partner,200000,2,2025-03-26,2026-03-18,zip,false,100000,1,1,2024
+Jack Reed,James Rosenfield,New Castle,NH,03854,S&P,Executive,200000,1,2026-02-11,2026-02-11,zip,true,7320000,52,36,2024/2026
+Jack Reed,Jeffrey Wolk,Chestnut Hill,MA,02467,The Cross Country Group,Executive,200000,1,2026-01-21,2026-01-21,zip,true,4210000,36,30,2024/2026
+Jack Reed,Jeremy Abelson,Cherry Hills Village,CO,80113,Irving Investors,Principal,200000,1,2026-05-21,2026-05-21,zip,true,1850000,15,15,2024/2026
+Jack Reed,Jody Forchheimer,Brookline,MA,02446,Not Employed,Retired,200000,1,2026-01-22,2026-01-22,zip,false,38475500,150,96,2024/2026
+Jack Reed,Leland Alpert,Cherry Hills Village,CO,80113,Lee Alpert And Company,Ceo,200000,1,2026-05-13,2026-05-13,zip,true,2400000,13,13,2026
+Jack Reed,Mark Dunec,Livingston,NJ,07039,Fti Consulting,Real Estate Appraiser,200000,1,2026-06-03,2026-06-03,zip,true,800000,6,6,2026
+Jack Reed,Michael A. Feiner,Greenwood Village,CO,80111,Fei,Real Estate,200000,2,2025-10-03,2026-05-14,zip,true,4080000,36,30,2024/2026
+Jack Reed,Michael Bernstein,Palm Beach Gardens,FL,33410,Not Employed,Retired,200000,1,2026-01-22,2026-01-22,zip,false,1250000,10,9,2026
+Jack Reed,Michael Sperling,Boston,MA,02116,The Baupost Group,Investor,200000,1,2026-01-21,2026-01-21,zip,true,5350000,26,22,2024/2026
+Jack Reed,Mitchell Roberts,Boston,MA,02116,Pr Restaurants,Restaurateur,200000,1,2026-01-23,2026-01-23,zip,true,5030000,38,29,2024/2026
+Jack Reed,Norman Horowitz,Bayside,NY,11361,"Register Abstract Co., Inc.",President,200000,1,2026-07-02,2026-07-02,zip,false,550000,4,4,2026
+Jack Reed,Steven Rosenblum,Denver,CO,80210,Millennium,Finance,200000,1,2026-05-15,2026-05-15,zip,true,5720000,32,28,2024/2026
+Jack Reed,Steven Segal,Chestnut Hill,MA,02467,Not Employed,Retired,200000,1,2026-01-22,2026-01-22,zip,false,8977777,44,32,2024/2026
+Jack Reed,Steven Winoker,Narragansett,RI,02882,Paypal,Executive,200000,1,2025-06-02,2025-06-02,zip,true,100000,1,0,2024
+Jack Reed,Ben Heller,Moreland Hills,OH,44022,H.I.G. Capital,Private Equity,150000,1,2026-06-25,2026-06-25,zip,true,150000,1,1,2026
+Jack Reed,Daniel Miller,Santa Monica,CA,90402,Miller Barondess,Attorney,150000,1,2026-05-15,2026-05-15,zip,true,1800000,12,11,2026
+Jack Reed,Michael Koss,Los Angeles,CA,90025,Self-Employed,Investor,150000,1,2026-02-04,2026-02-04,zip,false,9000000,67,40,2024/2026
+Jack Reed,Michael Sopher,Los Angeles,CA,90049,U.C. Regents,Anesthesiologist,150000,1,2026-05-20,2026-05-20,zip,true,2000000,19,17,2024/2026
+Jack Reed,Scott Edelman,Beverly Hills,CA,90212,Signature Resolution,Mediator,150000,1,2026-05-04,2026-05-04,zip,true,2850000,14,14,2024/2026
+Jack Reed,Simon Ziff,Armonk,NY,10504,Ackman-Ziff Real Estate Group,President,150000,1,2026-07-07,2026-07-07,zip,true,3180000,22,18,2024/2026
+Jack Reed,William Schnoor,Chestnut Hill,MA,02467,Goodwin Procter LLP,Attorney,150000,1,2026-01-30,2026-01-30,zip,true,450000,3,3,2024/2026
+Jack Reed,Abe Schlisselfeld,Spring Valley,NY,10977,Cbiz,Accountant,100000,1,2026-06-04,2026-06-04,zip,true,1000000,13,13,2024/2026
+Jack Reed,Alan J. Nussenblatt,Calabasas,CA,91302,Not Employed,Retired,100000,2,2025-11-24,2026-05-13,zip,false,1600000,30,29,2024/2026
+Jack Reed,Alan Leifer,Newton,MA,02458,"Leifer Capital Advisers, LLC",Investments,100000,1,2026-02-11,2026-02-11,zip,true,11240000,45,26,2024/2026
+Jack Reed,Alan Marcus,Newton,MA,02461,Boston College,Professor,100000,1,2026-02-06,2026-02-06,zip,true,2790000,27,19,2024/2026
+Jack Reed,Allen Dalezman,Newton,MA,02460,Ab Initio,Coo,100000,1,2026-01-22,2026-01-22,zip,true,4200000,32,26,2024/2026
+Jack Reed,Anna Tenenblatt,Beverly Hills,CA,90210,Matchmaster,Vp,100000,1,2026-05-09,2026-05-09,zip,true,3250000,24,20,2024/2026
+Jack Reed,Brian Fagan,Encino,CA,91316,Selective Real Estate Investments,Real Estate,100000,1,2026-03-06,2026-03-06,zip,true,1800000,13,12,2024/2026
+Jack Reed,Charles Myers,Weston,MA,02493,Not Employed,Retired,100000,1,2026-01-21,2026-01-21,zip,false,5490000,28,24,2024/2026
+Jack Reed,Cliff Bochner,Beverly Hills,CA,90210,Not Employed,Retired,100000,1,2026-05-08,2026-05-08,zip,false,900000,10,9,2024/2026
+Jack Reed,Dale Okonow,Needham,MA,02492,The Watermill Group,Senior Partner,100000,1,2026-02-11,2026-02-11,zip,true,1800000,17,17,2024/2026
+Jack Reed,Daniel Caine,Brooklyn,NY,11218,Centerbase LLC,Product Manager,100000,1,2026-02-08,2026-02-08,zip,true,4520000,36,21,2024/2026
+Jack Reed,David Farahi,Denver,CO,80206,Self-Employed,Executive,100000,1,2026-05-26,2026-05-26,zip,false,1975000,21,20,2024/2026
+Jack Reed,David Manning,Islip,NY,11751,Brookhaven Science Assoc.,"Director, Stakeholders",100000,1,2025-11-28,2025-11-28,state,false,5000,1,1,2024
+Jack Reed,Eric Waxman,Los Angeles,CA,90049,Ares Management LLC,Partner,100000,1,2026-05-21,2026-05-21,zip,true,5350000,33,27,2024/2026
+Jack Reed,Gary Cohen,Ipswich,MA,01938,Endicott College,Professor,100000,1,2026-02-12,2026-02-12,zip,true,730000,10,8,2024/2026
+Jack Reed,Gordon Owades,Lexington,MA,02420,Not Employed,Retired,100000,1,2026-02-01,2026-02-01,zip,false,2750000,17,14,2024/2026
+Jack Reed,Howard S. Welinsky,Toluca Lake,CA,91602,Not Employed,Retired,100000,1,2026-05-08,2026-05-08,zip,false,10155000,368,303,2024/2026
+Jack Reed,James Flood,Reston,VA,20190,Brownstein Hyatt Farber Schreck,Attorney,100000,1,2025-07-14,2025-07-14,zip,false,100000,1,1,2024
+Jack Reed,Jared Wisen,New York,NY,10021,Real Estate Investor,Cim Group,100000,1,2026-06-04,2026-06-04,zip,false,400000,6,6,2026
+Jack Reed,Jay Schulman,Encino,CA,91436,Not Employed,Retired,100000,1,2026-05-14,2026-05-14,zip,false,4500000,37,31,2024/2026
+Jack Reed,Jeffrey Weiss,Lincoln,RI,02865,Self-Employed,Finance,100000,1,2026-02-07,2026-02-07,zip,false,1650000,15,11,2024/2026
+Jack Reed,Jon Pardew,Castle Pines,CO,80108,Self-Employed,Executive,100000,1,2026-05-14,2026-05-14,zip,false,200000,2,2,2026
+Jack Reed,Jonathan Davis,Boston,MA,02110,The Davis Companies,Chief Executive Officer,100000,1,2026-01-23,2026-01-23,zip,true,250000,3,3,2024
+Jack Reed,Joseph Paley,Waban,MA,02468,Not Employed,Not Employed,100000,1,2026-02-08,2026-02-08,zip,false,200000,2,2,2026
+Jack Reed,Lee Ziff,Beverly Hills,CA,90210,Sequoia Realty,Realtor,100000,1,2026-05-08,2026-05-08,zip,true,2987300,43,33,2024/2026
+Jack Reed,Marc Kwestel,Cedarhurst,NY,11516,Extell Development Company,Real Estate Finance,100000,1,2026-07-07,2026-07-07,zip,true,500000,4,4,2026
+Jack Reed,Margot Trotter Davis,Chestnut Hill,MA,02467,Brandeis University,Research Scientist,100000,1,2026-01-23,2026-01-23,zip,true,300000,4,4,2024/2026
+Jack Reed,Michael Needle,Melrose,MA,02176,Not Employed,Retired,100000,1,2026-02-12,2026-02-12,zip,false,1500000,15,14,2024/2026
+Jack Reed,Michael Pollak,Bal Harbour,FL,33154,Not Employed,Not Employed,100000,1,2026-05-27,2026-05-27,zip,false,100000,3,3,2026
+Jack Reed,Nancy Beiser,Encino,CA,91436,Self-Employed,Graphic Designer,100000,1,2026-05-14,2026-05-14,zip,false,5200000,45,35,2024/2026
+Jack Reed,Patti Felker,Snowmass Village,CO,81615,Felker Toczek,Attorney,100000,1,2026-05-20,2026-05-20,zip,true,2750000,39,32,2024/2026
+Jack Reed,Rani Dishi,New York,NY,10033,Self-Employed,Attorney,100000,1,2026-06-26,2026-06-26,zip,false,400000,3,3,2026
+Jack Reed,Robert Huebscher,Lexington,MA,02420,Not Employed,Retired,100000,1,2026-01-21,2026-01-21,zip,false,2250000,25,21,2024/2026
+Jack Reed,Robin Chotin,Englewood,CO,80112,The Chotin Group,Ceo,100000,1,2025-10-07,2025-10-07,zip,false,100000,1,1,2024
+Jack Reed,Roger Klein,Waban,MA,02468,Not Employed,Not Employed,100000,1,2026-01-25,2026-01-25,zip,false,4000000,34,23,2024/2026
+Jack Reed,Ronald Gluck,Newton,MA,02458,Breakstone White & Gluck,Attorney,100000,1,2026-02-11,2026-02-11,zip,true,330000,5,5,2024/2026
+Jack Reed,Russell Holdstein,Kentfield,CA,94904,Growth Strategies,Investor,100000,1,2026-06-04,2026-06-04,zip,false,3300000,42,33,2024/2026
+Jack Reed,Scott Lerman,New York,NY,10021,Rialto Management Corp.,Property Manager,100000,1,2026-06-26,2026-06-26,zip,false,1025000,10,10,2024/2026
+Jack Reed,Steven Nelson,Wayzata,MN,55391,Cvs Health / Aetna,Executive,100000,1,2025-06-16,2025-06-16,zip,false,25000,1,1,2026
+Jack Reed,Steven Sisselman,Needham,MA,02492,Not Employed,Retired,100000,1,2026-01-31,2026-01-31,zip,false,1800000,17,17,2024/2026
+Jack Reed,Uri Kaufman,Lawrence,NY,11559,Self-Employed,Real Estate,100000,1,2026-06-04,2026-06-04,zip,false,1025000,13,13,2024/2026
+Jack Reed,David Spies,Irvington,NY,10533,Self-Employed,Real Estate,75000,1,2026-06-04,2026-06-04,zip,false,900000,15,14,2024/2026
+Jack Reed,Dovid Frankel,New York,NY,10022,Ey,Accountant,75000,1,2026-06-08,2026-06-08,zip,true,425000,7,7,2024/2026
+Jack Reed,Michael Shaid,Brooklyn,NY,11201,The Vistria Group,Real Estate,75000,1,2026-06-09,2026-06-09,zip,true,750000,10,10,2024/2026
+Jack Reed,Stephen Palmese,New York,NY,10022,Integras Capital,Managing Principal,75000,1,2026-07-09,2026-07-09,zip,false,75000,1,1,2026
+Jack Reed,Barry Pressman,Beverly Hills,CA,90210,Csimg,Physician,50000,1,2026-05-08,2026-05-08,zip,true,1250000,22,19,2024/2026
+Jack Reed,Cameron Koffman,New York,NY,10021,Hackberry Lane,Coo,50000,1,2026-06-04,2026-06-04,zip,true,200000,4,4,2026
+Jack Reed,David Smith,Los Angeles,CA,90024,Not Employed,Retired,50000,1,2026-05-20,2026-05-20,zip,false,750000,13,11,2024/2026
+Jack Reed,Debbie Feinerman,Los Angeles,CA,90077,Not Employed,Retired,50000,1,2026-05-04,2026-05-04,zip,false,850000,17,16,2024/2026
+Jack Reed,Earl Goldberg,Los Angeles,CA,90049,Not Employed,Retired,50000,1,2026-05-16,2026-05-16,zip,false,1565000,22,20,2024/2026
+Jack Reed,Etan Bluman,Fair Lawn,NJ,07410,Urban Edge Properties,Real Estate Investment,50000,1,2026-06-09,2026-06-09,zip,true,50000,1,1,2026
+Jack Reed,Isabelle Hochberg,New York,NY,10028,Lightstone,Director,50000,1,2026-06-04,2026-06-04,zip,true,100000,2,2,2026
+Jack Reed,James Lustig,New York,NY,10075,Silverstein Properties,Real Estate,50000,1,2026-07-06,2026-07-06,zip,true,25000,1,1,2026
+Jack Reed,Jonah Nagrotsky,Bronx,NY,10463,Jns,Chief Development Officer,50000,1,2026-06-13,2026-06-13,zip,true,300000,6,6,2026
+Jack Reed,Justin Rubin,Washington,DC,20012,Kasowitz Benson Torres,Attorney,50000,1,2025-02-25,2025-02-25,zip,false,25000,1,1,2024
+Jack Reed,Kenneth Rosenblatt,Pacific Palisades,CA,90272,Not Employed,Retired,50000,1,2026-05-13,2026-05-13,zip,false,200000,4,4,2026
+Jack Reed,Mark Levitats,Palmetto Bay,FL,33158,Lockton,Senior Vice President,50000,1,2026-06-04,2026-06-04,zip,true,290000,7,7,2024/2026
+Jack Reed,Melody Malekan,Mineola,NY,11501,Malachite Group,Real Estate,50000,1,2026-07-08,2026-07-08,zip,true,150000,3,3,2026
+Jack Reed,Michael A. Geller,Aurora,CO,80011,Not Employed,Retired,50000,1,2026-05-27,2026-05-27,zip,false,450000,8,8,2024/2026
+Jack Reed,Michael Cypers,Los Angeles,CA,90067,Glaser Weil,Attorney,50000,1,2026-05-11,2026-05-11,zip,true,1825000,29,23,2024/2026
+Jack Reed,Michelle Kleger,New York,NY,10010,Kensington Vanguard,Managing Director,50000,1,2026-06-08,2026-06-08,zip,true,50000,1,1,2026
+Jack Reed,Mike J. Stratton,Denver,CO,80209,Brownstein Hyatt Farber Schreck,Shareholder,50000,1,2025-07-14,2025-07-14,zip,false,100000,1,1,2026
+Jack Reed,Noah Greenbaum,New York,NY,10014,Russo Development Company,Cre Professional,50000,1,2026-06-04,2026-06-04,zip,true,50000,1,1,2026
+Jack Reed,Samuel Heller,New York,NY,10001,Blackstone,Real Estate,50000,1,2026-06-04,2026-06-04,zip,true,50000,1,1,2026
+Jack Reed,Sheldon Friedstein,Aspen,CO,81611,Not Employed,Retired,50000,1,2025-10-01,2025-10-01,zip,false,250000,5,5,2024/2026
+Jack Reed,Stephen Shraiberg,Greenwood Village,CO,80111,Not Employed,Retired,50000,1,2026-05-27,2026-05-27,zip,false,50000,1,1,2026
+Jack Reed,Suzanne Schweitzer,Playa Vista,CA,90094,Not Employed,Retired,50000,1,2026-05-09,2026-05-09,zip,false,550000,11,9,2024/2026
+Jack Reed,Ryan Finvarb,New York,NY,10010,Robert Finvarb Companies,Principal,30000,1,2026-07-07,2026-07-07,zip,true,30000,1,1,2026
+Jack Reed,Kyle Sharaf,Roslyn,NY,11576,Baron Property Group,Vice President,25000,1,2026-07-07,2026-07-07,zip,false,75000,2,2,2026
+Jack Reed,Michael Mintz,New York,NY,10001,Md Squared Property Group,Real Estate,25000,1,2026-07-08,2026-07-08,zip,true,175000,5,5,2026
+Jack Reed,Sarah Kaminetsky Jonas,New Rochelle,NY,10804,Morrison Cohen LLP,Attorney,25000,1,2026-06-08,2026-06-08,zip,true,50000,2,2,2024/2026

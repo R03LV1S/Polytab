@@ -1,0 +1,48 @@
+name: Build Proofs Snapshot
+
+# COST SAFETY: free/public GitHub API + standard runners. Keep repo public and billing spending limit at $0.
+# If any action may incur charges, stop runs and wait for free quota/tokens to replenish.
+
+on:
+  schedule:
+    - cron: "53 */6 * * *"  # staggered, free-tier friendly
+  workflow_dispatch:
+  issues:
+    types: [opened, edited, closed, reopened, labeled, unlabeled]
+
+permissions:
+  contents: write
+  issues: read
+
+concurrency:
+  group: build-proofs
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Build proofs snapshot (GitHub issues labeled "proof")
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/build-proofs.js
+      - name: Commit proofs snapshot
+        run: |
+          git config user.name "polytab-bot"
+          git config user.email "polytab-bot@users.noreply.github.com"
+          git add docs/data/proofs.json
+          if git diff --cached --quiet; then
+            echo "No proof changes"
+            exit 0
+          fi
+          git commit -m "Proofs: update spending/progress snapshot (GitHub issues, honest)"
+          git pull --rebase --autostash origin main || true
+          git push origin HEAD:main

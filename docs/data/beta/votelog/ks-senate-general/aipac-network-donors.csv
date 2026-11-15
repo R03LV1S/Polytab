@@ -1,0 +1,167 @@
+candidate,donor,city,state,zip5,employer,occupation,direct_total_cents,contributions,first_date,last_date,match_tier,same_employer_string,aipac_pac_total_cents,aipac_pac_rows,aipac_pac_recipient_committees,aipac_pac_cycles
+Roger Marshall,Dennis Mr. Dunn,Naples,FL,34105,Self,Author,880000,17,2025-03-28,2026-05-28,zip,false,50000,1,1,2026
+Roger Marshall,Adam Gerchen,Naples,FL,34102,Keller Postman,Attorney,700000,1,2025-11-21,2025-11-21,zip,false,350000,1,1,2026
+Roger Marshall,Daniel Setzman,New York,NY,10014,Jane Street,Finance,700000,1,2025-08-29,2025-08-29,zip,true,1660000,11,11,2024
+Roger Marshall,David Chaimovitz,Glencoe,IL,60022,Setna Io,Ceo,700000,1,2026-01-22,2026-01-22,zip,true,2800000,5,4,2026
+Roger Marshall,Dawn Lavin,Highland Park,IL,60035,Not Employed,Not Employed,700000,1,2025-10-16,2025-10-16,zip,false,7350000,11,11,2026
+Roger Marshall,Jonathan Jonas,Glencoe,IL,60022,Self Employed,Investments,700000,1,2025-10-15,2025-10-15,zip,false,700000,1,1,2026
+Roger Marshall,Nathan Lindenbaum,Teaneck,NJ,07666,Propane Power Corp.,Exectuive,700000,1,2025-08-25,2025-08-25,zip,true,8384000,26,23,2024/2026
+Roger Marshall,Rachel Chaimovitz,Glencoe,IL,60022,Retired,Retired,700000,1,2026-01-22,2026-01-22,zip,false,1750000,3,2,2026
+Roger Marshall,Steven Lavin,Highland Park,IL,60035,Lavin & Gedville PC,President,700000,1,2025-10-16,2025-10-16,zip,false,4900000,7,7,2026
+Roger Marshall,Jay Stone,Glencoe,IL,60022,Hilco Global,Business Owner,500000,1,2025-10-13,2025-10-13,zip,true,800000,4,3,2024/2026
+Roger Marshall,Daniel Walzman,Teaneck,NJ,07666,Njbs,Physician,450000,2,2025-09-10,2025-09-14,zip,true,1900000,7,6,2024/2026
+Roger Marshall,Marvin Dennis,Cresskill,NJ,07626,Retired,Retired,450000,2,2025-09-02,2025-09-08,zip,false,2194200,141,64,2024/2026
+Roger Marshall,Michael Merlin,Atlanta,GA,30328,Rockefeller Capital Managment,Managing Director,375000,1,2025-10-10,2025-10-10,zip,false,1680000,5,5,2024/2026
+Roger Marshall,Avi Katz,Teaneck,NJ,07666,Agam Capital,Finance,350000,1,2025-08-25,2025-08-25,zip,true,1500000,10,8,2024/2026
+Roger Marshall,David Jonas,Paramus,NJ,07652,Idw,Ceo,350000,1,2025-09-13,2025-09-13,zip,true,3200000,15,14,2024/2026
+Roger Marshall,Sanford Perl,Glencoe,IL,60022,Kirkland & Ellis,Attorney,350000,1,2025-10-01,2025-10-01,zip,false,20270000,79,61,2024/2026
+Roger Marshall,Shari Lindenbaum,Teaneck,NJ,07666,Not Employed,Not Employed,350000,1,2025-09-08,2025-09-08,zip,false,1690000,4,4,2024/2026
+Roger Marshall,Steven Wertheim,Atlanta,GA,30328,Resurgens,M.D.,350000,1,2025-10-01,2025-10-01,zip,true,6230000,40,31,2024/2026
+Roger Marshall,Tony Davis,Chicago,IL,60610,Linden Capital Partners,Investor,300000,1,2025-10-10,2025-10-10,zip,true,19964400,76,56,2024/2026
+Roger Marshall,Cathy Gottlieb,Atlanta,GA,30327,Not Employed,Not Employed,250000,1,2025-10-09,2025-10-09,zip,false,1100000,7,6,2024/2026
+Roger Marshall,Hillel Caplan,Teaneck,NJ,07666,Deloitte,Cpa,250000,1,2025-09-11,2025-09-11,zip,true,925000,9,9,2024/2026
+Roger Marshall,Pace Cooper,Memphis,TN,38120,Cooper Hotels,Development,250000,1,2025-10-10,2025-10-10,zip,true,2350000,11,7,2024/2026
+Roger Marshall,Philip Goldschmiedt,Teaneck,NJ,07666,Pro Israel,Chair,250000,1,2025-09-13,2025-09-13,zip,true,1179500,12,10,2024/2026
+Roger Marshall,Steve Weinstein,Boca Raton,FL,33496,Not Employed,Not Employed,250000,1,2025-10-09,2025-10-09,zip,false,1580000,7,7,2024/2026
+Roger Marshall,Aaron Jungreis,Lawrence,NY,11559,Rosewood Realty Group Inc,President,200000,1,2025-09-14,2025-09-14,zip,false,2130000,10,10,2024/2026
+Roger Marshall,Aliza Weissman,Lawrence,NY,11559,N/A,Homemaker,200000,1,2025-09-14,2025-09-14,zip,false,400000,2,2,2024/2026
+Roger Marshall,Allen Pfeiffer,Teaneck,NJ,07666,Kroll,Corp Finance,200000,1,2025-09-12,2025-09-12,zip,true,1900000,15,14,2024/2026
+Roger Marshall,Andy Lappin,Glencoe,IL,60022,Retired,Retired,200000,2,2025-10-08,2026-01-22,zip,false,2710000,10,10,2024/2026
+Roger Marshall,Ari Dobkin,Lakewood,NJ,08701,Chc Group,Executive,200000,1,2025-10-28,2025-10-28,zip,true,800000,4,4,2026
+Roger Marshall,Brian Dror,Los Angeles,CA,90036,Self Employed,Cpa,200000,1,2025-09-13,2025-09-13,zip,false,5680000,24,21,2024/2026
+Roger Marshall,Daniel Hamburger,Sarasota,FL,34234,Retired,Retired,200000,1,2025-10-08,2025-10-08,zip,false,2805000,23,23,2024/2026
+Roger Marshall,David Lichtenstein,Lakewood,NJ,08701,Lightstone Group,Executive,200000,1,2025-09-15,2025-09-15,zip,true,1600000,8,8,2024/2026
+Roger Marshall,David Safier,Lawrence,NY,11559,Self-Employed,Finance,200000,1,2025-09-16,2025-09-16,zip,false,200000,1,1,2026
+Roger Marshall,Deborah Beran,Tenafly,NJ,07670,Advocate LLP,Attorney,200000,1,2025-09-09,2025-09-09,zip,true,1050000,10,10,2024/2026
+Roger Marshall,Elliot Mandelbaum,Lawrence,NY,11559,Eagle Arc Partners LLC,Investment Management,200000,1,2025-09-14,2025-09-14,zip,true,200000,1,1,2026
+Roger Marshall,Elliot Siegel,Atlanta,GA,30084,Vision Metals LLC,Managing Member,200000,1,2025-10-08,2025-10-08,state,true,900000,6,6,2024/2026
+Roger Marshall,Eugene Ehrenfeld,Lawrence,NY,11559,Self,Real Estate,200000,1,2025-09-14,2025-09-14,zip,false,2000000,10,10,2024/2026
+Roger Marshall,Howard Friedman,Baltimore,MD,21209,Self,Investor,200000,1,2025-09-14,2025-09-14,zip,false,4270000,26,22,2024/2026
+Roger Marshall,Jeffrey Weiskopf,Monsey,NY,10952,White Eagle Property,Ceo/Chairman,200000,1,2025-09-14,2025-09-14,zip,true,1800000,9,9,2024/2026
+Roger Marshall,Jeremy Lieberman,Flushing,NY,11367,Pomerantz LLP,Attorney,200000,1,2025-09-14,2025-09-14,zip,true,1250000,6,6,2024/2026
+Roger Marshall,Jerry Wolasky,Deerfield Beach,FL,33442,Healthsource Distributors,Executive,200000,1,2025-09-14,2025-09-14,zip,true,4050000,23,22,2024/2026
+Roger Marshall,Lyons Jr Heyman,Marietta,GA,30067,Retired,Retired,200000,1,2025-10-10,2025-10-10,zip,false,1400000,11,9,2024/2026
+Roger Marshall,Mark Silber,Lawrence,NY,11559,Renaissance Technologies,Executive,200000,1,2025-09-14,2025-09-14,zip,true,1600000,8,8,2024/2026
+Roger Marshall,Mattisyahu Rokowsky,Jackson,NJ,08527,Self Employed,Self Employed,200000,1,2025-09-14,2025-09-14,zip,false,1100000,5,5,2024/2026
+Roger Marshall,Max Berlin,Detroit,MI,48226,Self Employed,Technology,200000,1,2025-09-13,2025-09-13,zip,false,2000000,10,10,2024/2026
+Roger Marshall,Meir Levin,Los Angeles,CA,90004,L&M Footwear Inc,Ceo,200000,1,2025-09-13,2025-09-13,zip,false,2000000,10,9,2024/2026
+Roger Marshall,Michael Netzer,Lakewood,NJ,08701,Medical Facilities Of America,Executive,200000,1,2025-09-15,2025-09-15,zip,true,1400000,7,7,2024/2026
+Roger Marshall,Morris Wolfson,New York,NY,10004,Self,Investments,200000,1,2025-09-14,2025-09-14,zip,false,2000000,10,9,2024/2026
+Roger Marshall,Nanette Wolf,Brooklyn,NY,11204,Homemaker,Homemaker,200000,1,2025-09-14,2025-09-14,zip,false,2000000,10,10,2024/2026
+Roger Marshall,Paul Steinfeld,Atlanta,GA,30309,Retired,Retired,200000,1,2025-10-08,2025-10-08,zip,false,600000,3,3,2026
+Roger Marshall,Ralph Herzka,Brooklyn,NY,11210,Meridian Capital Group,Chairman And Ceo,200000,1,2025-09-13,2025-09-13,zip,true,2000000,10,10,2024/2026
+Roger Marshall,Robert Hartman,Chicago,IL,60659,Nucare Services Corp,Healthcare,200000,1,2025-09-14,2025-09-14,zip,true,1800000,9,9,2024/2026
+Roger Marshall,Ronald Wilheim,Cincinnati,OH,45237,Communicare,Vice President,200000,1,2025-09-15,2025-09-15,zip,true,1400000,8,6,2024/2026
+Roger Marshall,Samuel Rieder,Brooklyn,NY,11210,Rieder Communities,Real Estate Investments,200000,1,2025-09-14,2025-09-14,zip,true,1800000,9,9,2024/2026
+Roger Marshall,Solomon Werdiger,Rahway,NJ,07065,Outerstuff,President,200000,1,2025-09-15,2025-09-15,zip,true,2000000,10,9,2024/2026
+Roger Marshall,Stephen Rosedale,Cincinnati,OH,45237,Communicare,Chairman,200000,1,2025-09-13,2025-09-13,zip,true,2850000,19,13,2024/2026
+Roger Marshall,Stuart Sara Meyers,Dunwoody,GA,30338,Retired,Retired,200000,2,2025-10-06,2025-10-06,zip,false,4275000,31,24,2024/2026
+Roger Marshall,Yehuda Neuberger,Baltimore,MD,21208,Self,Finance Professional,200000,1,2025-09-14,2025-09-14,zip,false,26695000,143,105,2024/2026
+Roger Marshall,Yehuda Wolmark,Lakewood,NJ,08701,Cch Healthcare,Executive,200000,1,2025-09-15,2025-09-15,zip,true,1000000,5,5,2024/2026
+Roger Marshall,Yisroel Meir Wolmark,Lawrence,NY,11559,Golden Steps,Ceo,200000,1,2025-09-14,2025-09-14,zip,true,1400000,7,6,2024/2026
+Roger Marshall,Yisroel Rothstein,Lakewood,NJ,08701,Madison Title,Real Estate,200000,1,2025-09-15,2025-09-15,zip,true,1600000,8,8,2024/2026
+Roger Marshall,Andrew Kent,Tenafly,NJ,07670,Glass Gardens Inc,Supermarket Executive,185000,2,2025-08-25,2026-04-20,zip,true,6775800,35,21,2024/2026
+Roger Marshall,Brad Bernstein,Wayne,NJ,07470,Jump Operations,Software Engineer,150000,1,2025-08-26,2025-08-26,zip,true,700000,15,12,2024/2026
+Roger Marshall,David Rubenstein,Atlanta,GA,30328,Savills,Commercial Real Estate Broker,150000,1,2025-10-09,2025-10-09,zip,true,750000,14,12,2024/2026
+Roger Marshall,Edward Reed,Virginia Beach,VA,23455,Givens Group,Management,150000,1,2025-10-10,2025-10-10,zip,true,2250000,25,17,2024/2026
+Roger Marshall,Elliot Grodko,New Milford,NJ,07646,Jf Capital Advisors,Consultant,150000,1,2025-08-25,2025-08-25,zip,true,2199871,16,15,2024/2026
+Roger Marshall,Jordan Stavsky,Teaneck,NJ,07666,Bestart,Business,150000,1,2025-09-04,2025-09-04,zip,true,1100000,11,10,2024/2026
+Roger Marshall,Steven Weil,Teaneck,NJ,07666,Not Employed,Not Employed,150000,1,2025-08-25,2025-08-25,zip,false,100000,1,1,2024
+Roger Marshall,Alan Levow,Atlanta,GA,30326,Crowne Partners Inc,Real Estate Developrt,100000,1,2025-10-07,2025-10-07,zip,true,10410000,54,37,2024/2026
+Roger Marshall,Aleksander Szlam,Alpharetta,GA,30022,Retired,Retired,100000,1,2025-10-08,2025-10-08,zip,false,2700000,22,20,2024/2026
+Roger Marshall,Ann Davis,Atlanta,GA,30327,Retired,Retired,100000,1,2025-10-02,2025-10-02,zip,false,3930000,17,16,2024/2026
+Roger Marshall,Barry Pavel,Teaneck,NJ,07666,Riskspan,Fintech,100000,1,2025-09-10,2025-09-10,zip,true,200000,3,3,2026
+Roger Marshall,Charles Ganz,Atlanta,GA,30328,Retired,Retired,100000,1,2025-10-03,2025-10-03,zip,false,706000,14,14,2024/2026
+Roger Marshall,Chuck Berk,Atlanta,GA,30327,Bcr Properties LLC,Business Owner,100000,1,2025-10-09,2025-10-09,zip,true,900000,8,8,2026
+Roger Marshall,Dalit Gal,Atlanta,GA,30350,Not Employed,Not Employed,100000,1,2025-10-07,2025-10-07,zip,false,1200000,12,11,2024/2026
+Roger Marshall,David Keil,Atlanta,GA,30305,Resurgens,Operating Partner,100000,1,2025-10-08,2025-10-08,zip,true,350000,2,2,2026
+Roger Marshall,David Ross,Winnetka,IL,60093,Compass Lexecon,Economist,100000,1,2026-01-25,2026-01-25,zip,true,3250000,30,27,2024/2026
+Roger Marshall,Elaine Bram,Bergenfield,NJ,07621,Retired,Retired,100000,1,2025-09-09,2025-09-09,zip,false,100000,1,1,2026
+Roger Marshall,Elizabeth Davis,Atlanta,GA,30336,Rndc,Pr/Exec,100000,1,2025-10-01,2025-10-01,zip,true,6780000,37,30,2024/2026
+Roger Marshall,Eric Wilensky,Atlanta,GA,30327,Nelson Mullins,Attorney,100000,1,2025-10-06,2025-10-06,zip,true,1600000,10,8,2024/2026
+Roger Marshall,Gary Applebaum,Pasadena,MD,21122,Retired,Retired,100000,1,2026-07-09,2026-07-09,zip,false,1468000,16,14,2024/2026
+Roger Marshall,Herbert Rosenberg,Atlanta,GA,30327,National Distributing Company,Executive,100000,1,2025-10-03,2025-10-03,zip,true,1100000,11,11,2024/2026
+Roger Marshall,Isaac Frank,Atlanta,GA,30327,Self,Real Estate,100000,1,2025-10-01,2025-10-01,zip,false,6230000,43,32,2024/2026
+Roger Marshall,Jan Saperstein,Atlanta,GA,30342,Retired,Retired,100000,1,2025-10-09,2025-10-09,zip,false,1850000,19,17,2024/2026
+Roger Marshall,Jerry Bednyak,Glencoe Il,IL,60022,Skybox Capital,Co Founder,100000,1,2025-10-07,2025-10-07,zip,true,9240000,23,21,2024/2026
+Roger Marshall,Jonathan Barry,Marietta,GA,30067,Spectrum Maintenance Services,Real Estate,100000,1,2025-10-04,2025-10-04,zip,true,1600000,20,18,2024/2026
+Roger Marshall,Larry Hochberg,Chicago,IL,60611,Retired,Retired,100000,1,2025-10-09,2025-10-09,zip,false,3816666,16,12,2024/2026
+Roger Marshall,Larry Kugler,Delray Beach,FL,33483,Lk Dayton Investments,Manager,100000,1,2025-10-11,2025-10-11,zip,true,5083000,39,35,2024/2026
+Roger Marshall,Mark Silberman,Atlanta,GA,30327,Retired,Retired,100000,1,2025-09-11,2025-09-11,zip,false,2600000,26,21,2024/2026
+Roger Marshall,Martha Miller,Marietta,GA,30068,Retired,Retired,100000,1,2025-09-27,2025-09-27,zip,false,700000,4,4,2026
+Roger Marshall,Michael Strulowitz,Englewood,NJ,07631,Self,Attorney,100000,1,2025-08-29,2025-08-29,zip,false,280000,3,3,2026
+Roger Marshall,Murray Leben,Bergenfield,NJ,07621,Murray J. Leben Dmd Pa,Dentist,100000,1,2025-09-04,2025-09-04,zip,false,250000,2,2,2026
+Roger Marshall,Orete Harkavy,Deerfield,IL,60015,Kellogg School Of Business,Admissions,100000,1,2025-10-08,2025-10-08,zip,true,925000,14,12,2026
+Roger Marshall,Rella Feldman,Teaneck,NJ,07666,Lpz Management,Real Estate,100000,1,2025-08-25,2025-08-25,zip,true,1925000,18,15,2024/2026
+Roger Marshall,Richard Davis,Atlanta,GA,30342,Rndc,Board Member,100000,1,2025-10-01,2025-10-01,zip,true,5030000,32,26,2024/2026
+Roger Marshall,Ron Meisler,Chicago,IL,60606,Skadden Arps Slate Meagher & Flom L,Partner,100000,1,2025-10-07,2025-10-07,state,false,4833500,43,31,2024/2026
+Roger Marshall,Ross Kogon,Atlanta,GA,30360,Pull A Part,Ceo,100000,1,2025-10-01,2025-10-01,zip,true,5650000,37,29,2024/2026
+Roger Marshall,Scott Bohrer,Sandy Springs,GA,30350,Hd Supply,Cfo,100000,1,2025-10-01,2025-10-01,zip,true,3230000,24,17,2024/2026
+Roger Marshall,Scott Horowitz,Atlanta,GA,30305,Lavista,Commercial Real Estate,100000,1,2025-10-06,2025-10-06,zip,true,600000,6,6,2026
+Roger Marshall,Sheila Schwartz,Atlanta,GA,30327,Retired,Retired,100000,1,2025-10-03,2025-10-03,zip,false,2225000,20,17,2024/2026
+Roger Marshall,Shmuel Wolf,Marietta,GA,30068,B Wolf And Sons,Real Estate,100000,1,2025-10-10,2025-10-10,zip,true,1450000,18,17,2024/2026
+Roger Marshall,Stan Sonenshine,Atlanta,GA,30350,Retired,Retired,100000,1,2025-10-06,2025-10-06,zip,false,500000,4,4,2024/2026
+Roger Marshall,Steven Tennenbaum,Teaneck,NJ,07666,Self,Nuclear Hydrologist,100000,1,2025-09-07,2025-09-07,zip,false,1125000,13,10,2024/2026
+Roger Marshall,William Medof,Roswell,GA,30075,Self-Employed,Investor,100000,1,2025-10-09,2025-10-09,zip,false,1500000,11,9,2024/2026
+Roger Marshall,Ezra Lightman,Bergenfield,NJ,07621,Bofa Securities,Investment Banker,90000,1,2025-09-15,2025-09-15,zip,true,515000,7,7,2024/2026
+Roger Marshall,Jordan Feiger,Highland Park,IL,60035,Retired,Retired,80000,1,2025-10-10,2025-10-10,zip,false,2437000,32,27,2024/2026
+Roger Marshall,Steve Korol,Buffalo Grove,IL,60089,Leon Korol Co,Opera Singer,60000,1,2025-10-09,2025-10-09,zip,true,867000,10,10,2024/2026
+Roger Marshall,Cathy Selig,Atlanta,GA,30309,Selig Enterprises,Real Estate,50000,1,2025-10-12,2025-10-12,zip,true,825000,10,9,2024/2026
+Roger Marshall,Charles Goldberg,Glenview Nas,IL,60026,Retired,Retired,50000,1,2025-10-09,2025-10-09,zip,false,491000,6,5,2024/2026
+Roger Marshall,Jason Peltz,Glencoe,IL,60022,Bartlit Beck LLP,Attorney,50000,1,2025-10-08,2025-10-08,zip,true,7632777,60,47,2024/2026
+Roger Marshall,Jeffrey Fisher,New York,NY,10021,Touro University,Special Programs Administrator,50000,1,2025-03-25,2025-03-25,zip,true,16828326,293,202,2024/2026
+Roger Marshall,Kevin Finkel,Wilmette,IL,60091,Providence Real Estate,Principal,50000,1,2025-10-07,2025-10-07,zip,true,1102000,11,11,2024/2026
+Roger Marshall,Lawrence Friedman,Skokie,IL,60076,Self,Attorney,50000,2,2025-10-05,2026-01-20,zip,false,2010000,70,52,2024/2026
+Roger Marshall,Mark Cohen,Atlanta,GA,30342,Pull A Part,Manager,50000,1,2025-10-10,2025-10-10,zip,true,80000,3,3,2024/2026
+Roger Marshall,Mitchell Kopelman,Inlet Beach,FL,32461,Aprio LLP,Cpa,50000,1,2025-10-01,2025-10-01,zip,false,1050000,11,11,2026
+Roger Marshall,Nancy Sonenshine,Columbia,SC,29223,Retired,Retired,50000,1,2025-10-06,2025-10-06,zip,false,1600000,17,14,2024/2026
+Roger Marshall,Neil Book,Chicago,IL,60610,Jssi,Executive,50000,1,2025-10-08,2025-10-08,zip,true,1530000,9,8,2024/2026
+Roger Marshall,Robert Wolfberg,Glencoe,IL,60022,Pls,President,50000,1,2025-10-07,2025-10-07,zip,false,4950000,33,28,2024/2026
+Roger Marshall,Scott Becker,Glencoe,IL,60022,Beckers Healthcare And Mcguirewoods,Lawyer Entrepreneur,50000,1,2025-10-01,2025-10-01,zip,true,7930000,98,64,2024/2026
+Roger Marshall,Shale Lapping,Chicago,IL,60601,Ipex Inc.,Investment Consultant,50000,1,2025-10-08,2025-10-08,zip,false,2360000,41,33,2024/2026
+Roger Marshall,David Rappaport,Fontana-On-Geneva,WI,53125,Ep Wealth Advisors,Wealth Management,40000,1,2025-10-09,2025-10-09,zip,true,530000,12,11,2024/2026
+Roger Marshall,Scott Lederman,Highland Park,IL,60035,Gcm Grosvenor,Executive,40000,1,2025-10-28,2025-10-28,zip,true,1105000,11,11,2024/2026
+Roger Marshall,David Ephraim,Highland Park,IL,60035,Ephraim And Associates PC,Lawyer,30000,1,2025-10-08,2025-10-08,zip,true,939000,21,20,2024/2026
+Roger Marshall,David Wolle,Highland Park,IL,60035,Kos Services LLC,Coo,30000,1,2025-10-07,2025-10-07,zip,true,1012000,14,14,2024/2026
+Roger Marshall,Steve Loewenthal,Evanston,IL,60201,Retired,Retired,30000,1,2025-10-07,2025-10-07,zip,false,280000,6,5,2026
+Roger Marshall,Barry Seiden,Northbrook,IL,60062,Bnb,Re,25000,1,2026-01-19,2026-01-19,zip,true,1160000,41,28,2024/2026
+Roger Marshall,Ben Nortman,Winnetka,IL,60093,Hilco,Business,25000,1,2025-10-07,2025-10-07,zip,true,361000,11,11,2024/2026
+Roger Marshall,Bruce Weininger,Kamas,UT,84036,Kovitz Investment Group,Consultant,25000,1,2026-01-23,2026-01-23,zip,true,3422000,65,47,2024/2026
+Roger Marshall,Richard A. Lipsey,Baton Rouge,LA,70809,Lipsey'S LLC,Wholesale,2500,1,2025-12-17,2025-12-17,zip,true,6840000,42,34,2024/2026
+Adam Hamilton,Ann Slegman Isenberg,Mission Hills,KS,66208,Not Employed,Not Employed,1223500,5,2026-05-06,2026-09-21,zip,false,430000,6,6,2024
+Adam Hamilton,Ronald Abramson,Washington,DC,20006,Buchanan Ingersoll & Rooney,Attorney,750000,3,2026-07-15,2026-08-17,zip,false,200000,1,1,2026
+Adam Hamilton,Barnett Helzberg,Kansas City,MO,64111,Not Employed,Retired,700000,2,2026-05-18,2026-05-18,zip,false,500000,1,0,2024
+Adam Hamilton,David Cohen,Delray Beach,FL,33483,Simcah,Investor,700000,2,2026-04-21,2026-05-06,state,false,4790000,15,13,2024/2026
+Adam Hamilton,Michael Fishman,Leawood,KS,66206,Not Employed,Not Employed,501800,3,2026-05-01,2026-08-16,zip,false,500000,1,0,2024
+Adam Hamilton,Chad Asarch,Denver,CO,80224,Monroe Group,Real Estate,350000,1,2026-09-24,2026-09-24,zip,true,100000,1,1,2024
+Adam Hamilton,John Isenberg,Prairie Village,KS,66207,Not Employed,Not Employed,340400,3,2026-06-03,2026-07-15,zip,false,4393000,40,33,2024/2026
+Adam Hamilton,Howard Jacobson,Prairie Village,KS,66207,Paragon Capital Management,Founder,257400,3,2026-06-08,2026-09-10,zip,false,50000,1,1,2026
+Adam Hamilton,Barbara Palan,Overland Park,KS,66212,Self Employed,Attorney,250000,1,2026-09-18,2026-09-18,zip,false,100000,1,1,2024
+Adam Hamilton,Hal Levinson,Charlotte,NC,28207,Moore & Van Allen Pllc,Attorney,207400,2,2026-08-11,2026-08-25,zip,true,275000,7,6,2024/2026
+Adam Hamilton,David Miller,Waban,MA,02468,Clean Energy Ventures,Investor,180000,1,2026-09-28,2026-09-28,state,false,100000,1,0,2024
+Adam Hamilton,Loren Berenbom,Prairie Village,KS,66207,Not Employed,Not Employed,160000,3,2026-05-01,2026-06-04,zip,false,350000,4,3,2024/2026
+Adam Hamilton,Stewart Stein,Leawood,KS,66206,Not Employed,Not Employed,150000,1,2026-08-25,2026-08-25,zip,false,5000,1,1,2024
+Adam Hamilton,Gregory Hahn,Indianapolis,IN,46240,Bose Public Affairs Group,Attorney,110000,2,2026-05-01,2026-09-20,zip,false,10000,1,1,2024
+Adam Hamilton,James Ellis,Overland Park,KS,66223,"Ellis Enterprises, Inc.",Real Estate,103700,1,2026-06-09,2026-06-09,zip,false,75000,2,1,2026
+Adam Hamilton,Alana Muller,Overland Park,KS,66223,Self Employed,Consultant,100000,1,2026-05-29,2026-05-29,zip,false,30000,1,1,2024
+Adam Hamilton,Bradford Cheney,Fairfax Station,VA,22039,The Majority Group,Government Relations,100000,2,2026-06-30,2026-09-30,zip,true,50000,1,1,2024
+Adam Hamilton,Bruce Levenson,Potomac,MD,20854,Revolution Cooking,Businessman,100000,1,2026-09-28,2026-09-28,zip,true,350000,1,1,2026
+Adam Hamilton,Howard Wohl,Mill Neck,NY,11765,Not Employed,Not Employed,100000,2,2026-08-14,2026-09-24,zip,false,325000,5,3,2024/2026
+Adam Hamilton,Ira Stolzer,Leawood,KS,66224,Not Employed,Not Employed,100000,1,2026-05-27,2026-05-27,zip,false,500000,5,4,2024/2026
+Adam Hamilton,Leonard Simon,La Jolla,CA,92037,Not Employed,Not Employed,100000,1,2026-09-10,2026-09-10,state,false,150000,3,2,2024
+Adam Hamilton,Paul Fingersh,Prairie Village,KS,66207,Nolan Real Estate,Business Analyst,100000,1,2026-09-15,2026-09-15,zip,true,760000,4,4,2024/2026
+Adam Hamilton,Leslie Mark,Mission Hills,KS,66208,Not Employed,Not Employed,60000,2,2026-08-07,2026-09-14,zip,false,10000,1,1,2024
+Adam Hamilton,Michael Shapiro,Sacramento,CA,95831,Not Employed,Not Employed,60000,3,2026-08-08,2026-09-26,state,false,325000,9,7,2024/2026
+Adam Hamilton,Ellis Landau,Las Vegas,NV,89117,Not Employed,Not Employed,51900,1,2026-08-11,2026-08-11,zip,false,300000,4,3,2024/2026
+Adam Hamilton,Jeffrey Kramer,Kansas City,MO,64112,Univ Of Kansas Health System,Physician Executive,51900,1,2026-09-15,2026-09-15,zip,true,260200,5,4,2024/2026
+Adam Hamilton,Harry Himmelstein,Leawood,KS,66224,Not Employed,Not Employed,50900,2,2026-08-27,2026-09-30,zip,false,35000,3,3,2024/2026
+Adam Hamilton,David Root,Somerville,MA,02143,Not Employed,Not Employed,50000,1,2026-09-03,2026-09-03,state,false,25000,1,0,2026
+Adam Hamilton,Jonathan Silver,Washington,DC,20007,Self Employed,Financial Consultant,50000,1,2026-09-14,2026-09-14,zip,false,240000,1,1,2024
+Adam Hamilton,Andrew B Cohen,Jersey City,NJ,07307,Not Employed,Retired,40000,2,2026-09-20,2026-09-24,state,false,365000,2,1,2024/2026
+Adam Hamilton,Robert Levy,Leawood,KS,66211,Self Employed,Attorney,40000,1,2026-08-31,2026-08-31,zip,false,50000,1,1,2024
+Adam Hamilton,Barry Kaseff,Mission Hills,KS,66208,Not Employed,Not Employed,36000,1,2026-09-13,2026-09-13,zip,false,2300000,17,11,2024/2026
+Adam Hamilton,Barbara Cohen,Piedmont,CA,94611,Self Employed,Psychotherapist,30000,1,2026-09-28,2026-09-28,state,false,100000,1,0,2024
+Adam Hamilton,John Rosenberg,Berkeley,CA,94704,Self Employed,Physician,30000,1,2026-09-28,2026-09-28,state,false,25000,1,1,2024
+Adam Hamilton,Andrew Kaplan,Overland Park,KS,66207,Not Employed,Not Employed,25000,1,2026-08-11,2026-08-11,zip,false,60000,2,2,2024
+Adam Hamilton,David Rosen,Carmel,IN,46032,Ami,Executive,25000,1,2026-09-20,2026-09-20,zip,true,75000,2,2,2024
+Adam Hamilton,Josh Ross,Palo Alto,CA,94301,Trilogy Interactive,Consultant,25000,1,2026-09-29,2026-09-29,state,false,3600,1,0,2024

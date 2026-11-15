@@ -1,0 +1,582 @@
+candidate,donor,city,state,zip5,employer,occupation,direct_total_cents,contributions,first_date,last_date,match_tier,same_employer_string,aipac_pac_total_cents,aipac_pac_rows,aipac_pac_recipient_committees,aipac_pac_cycles
+Tom Cotton,Adam Milstein,Encino,CA,91436,Liberty West Inc.,Management,700000,1,2026-03-03,2026-03-03,zip,true,10270000,30,24,2024/2026
+Tom Cotton,Adam T. Garner,Greenwich,CT,06830,Drw,Partner,700000,1,2025-09-09,2025-09-09,zip,true,4000000,15,14,2024/2026
+Tom Cotton,Alan Franco,Metairie,LA,70005,Republic National Dist,Vice President,700000,1,2025-03-20,2025-03-20,zip,false,13650000,30,27,2024/2026
+Tom Cotton,Alex Von Furstenberg,Beverly Hills,CA,90210,Ranger Global Advisors LLC,Cio,700000,1,2025-10-30,2025-10-30,zip,true,2760000,5,5,2024/2026
+Tom Cotton,Amir Goldman,Merion Station,PA,19066,Susquehanna Growth Equity,Venture Capitalist,700000,1,2025-05-19,2025-05-19,zip,true,8060000,42,31,2024/2026
+Tom Cotton,Ari Adlerstein,Merion Station,PA,19066,T7 Capital,Finance,700000,1,2025-04-27,2025-04-27,zip,true,3500000,6,6,2026
+Tom Cotton,Bob Duran,Bellaire,TX,77401,Retired,Retired,700000,1,2025-09-24,2025-09-24,zip,false,700000,1,1,2026
+Tom Cotton,Danny Sheena,Bellaire,TX,77401,The Sheena Law Firm,Attorney,700000,1,2025-06-30,2025-06-30,zip,true,11947777,42,37,2024/2026
+Tom Cotton,Dawn Lavin,Highland Park,IL,60035,Homemaker,Homemaker,700000,1,2025-07-30,2025-07-30,zip,false,7350000,11,11,2026
+Tom Cotton,Debra Black,New York,NY,10022,Philanthropist,Philanthropist,700000,1,2025-11-12,2025-11-12,zip,false,2430000,4,4,2024/2026
+Tom Cotton,Gila Milstein,Encino,CA,91436,Self Employed,Self Employed,700000,1,2026-03-03,2026-03-03,zip,false,11220000,32,24,2024/2026
+Tom Cotton,Gittel Hilibrand,Merion Station,PA,19066,Mah Associates LLC,Attorney,700000,1,2025-05-06,2025-05-06,zip,true,1500000,6,6,2024/2026
+Tom Cotton,Herb Shear,Pittsburgh,PA,15238,Retired,Retired,700000,1,2025-03-17,2025-03-17,zip,false,3110000,13,9,2024/2026
+Tom Cotton,Iris Smith,Broomfield,CO,80021,Self-Employed,Creative Arts,700000,1,2025-11-04,2025-11-04,zip,false,14460000,24,21,2024/2026
+Tom Cotton,Jay Martus,Deerfield Beach,FL,33443,Mfal Consulting LLC,Managing Partner,700000,2,2025-09-09,2025-12-30,zip,true,6300000,30,25,2026
+Tom Cotton,Josh Rosman,Merion Station,PA,19066,Self-Employed,Business,700000,1,2025-05-28,2025-05-28,zip,false,1400000,3,3,2026
+Tom Cotton,Larry A. Mizel,Greenwood Village,CO,80111,Cventures Inc.,Chairman,700000,1,2025-12-01,2025-12-01,state,false,1980000,6,6,2024
+Tom Cotton,Michael Lavin,Chicago,IL,60607,Germin8 Ventures,Financial Services,700000,1,2025-09-09,2025-09-09,zip,true,700000,1,1,2026
+Tom Cotton,Michael Smith,Broomfield,CO,80021,Kaitar Resources,Consultant,700000,1,2025-11-04,2025-11-04,zip,true,15450000,26,23,2024/2026
+Tom Cotton,Norman Brownstein,Denver,CO,80202,Brownstein Hyatt Farber Schreck,Chairman,700000,1,2025-11-14,2025-11-14,zip,true,13450000,33,31,2024/2026
+Tom Cotton,Philip Darivoff,Short Hills,NJ,07078,Goldman Sachs,Investment Banker,700000,1,2025-04-10,2025-04-10,zip,false,43625000,90,65,2024/2026
+Tom Cotton,Scott Feldman,Princeton,NJ,08540,Sig,Finance,700000,1,2025-04-27,2025-04-27,zip,true,3910000,8,8,2024/2026
+Tom Cotton,Steven Berenson,Miami Beach,FL,33141,Berenson Partners,Manufacturing,700000,1,2026-02-18,2026-02-18,zip,false,3900000,7,7,2026
+Tom Cotton,Steven H. Mr. Lavin,Highland Park,IL,60035,Lavin Law PC,Entrepreneur,700000,1,2025-07-30,2025-07-30,zip,false,4900000,7,7,2026
+Tom Cotton,Susan L Bender,Houston,TX,77024,Not Employed,Not Employed,700000,1,2025-09-17,2025-09-17,zip,false,5500000,20,17,2024/2026
+Tom Cotton,Arie Zweig,Glenview,IL,60025,R.A.Zweig Inc.,President,500000,1,2025-08-11,2025-08-11,zip,false,800000,4,4,2024/2026
+Tom Cotton,Blair Frank,Park City,UT,84098,Capital Group,Portfolio Manager,500000,1,2025-09-10,2025-09-10,zip,true,7940000,21,19,2024/2026
+Tom Cotton,Howard Freedberg,Northbrook,IL,60062,Suburban Orthopaedics,M.D.,500000,1,2025-08-17,2025-08-17,zip,true,510000,2,2,2024/2026
+Tom Cotton,Jim Groch,Merion Station,PA,19066,Groch Enterprises LLC,Owner,500000,1,2025-05-16,2025-05-16,zip,false,1800000,6,6,2026
+Tom Cotton,Joseph Allerhand,New York,NY,10128,Alllerhand & Odoner,Lawyer,500000,1,2025-04-09,2025-04-09,zip,false,2530000,9,9,2024/2026
+Tom Cotton,Mark Rosen,Cos Cob,CT,06807,Advection Growth Capital,Broker Dealer,500000,1,2025-04-07,2025-04-07,zip,true,3450000,16,15,2024/2026
+Tom Cotton,Michael Mr. Woronoff,Los Angeles,CA,90049,Retired,Retired,500000,2,2026-02-25,2026-06-22,zip,false,2775000,19,16,2024/2026
+Tom Cotton,Sanford Perl,Glencoe,IL,60022,Kirkland & Ellis LLP,Attorney,500000,1,2025-09-09,2025-09-09,zip,true,20270000,79,61,2024/2026
+Tom Cotton,Amy Graiwer,Los Angeles,CA,90064,Homemaker,Homemaker,450000,2,2025-07-29,2025-07-29,zip,false,3290000,26,20,2024/2026
+Tom Cotton,Ephraim Greenwall,Miami Beach,FL,33141,Talcott Holdings Inc,Social Activist,450000,2,2025-09-09,2026-01-22,zip,false,8020000,48,35,2024/2026
+Tom Cotton,Paul L. Baker,Tucson,AZ,85716,Retired,Retired,450000,1,2025-09-10,2025-09-10,zip,false,11930000,34,26,2024/2026
+Tom Cotton,Rafi Gordon,Marina Del Rey,CA,90292,Casting Networks,Co-Ceo,450000,1,2025-07-29,2025-07-29,zip,true,5010000,22,19,2024/2026
+Tom Cotton,Daniel Feiner,Los Angeles,CA,90064,Fei,Real Estate,410000,1,2025-07-28,2025-07-28,zip,true,2420000,10,9,2024/2026
+Tom Cotton,David Bolour,Los Angeles,CA,90069,And Asset Management,Real Estate Asset Management,410000,1,2025-07-29,2025-07-29,zip,true,2570000,7,6,2026
+Tom Cotton,Debby Fogelman,Beverly Hills,CA,90211,Self-Employed,Psychologists,410000,1,2025-08-01,2025-08-01,zip,false,410000,1,1,2026
+Tom Cotton,James Fogelman,Beverly Hills,CA,90211,Gibson Dunn & Crutcher,Lawyer,410000,2,2025-08-01,2025-08-01,zip,true,3380000,13,11,2024/2026
+Tom Cotton,Jesse Sharf,Santa Monica,CA,90402,Gibson Dunn,Attorney,410000,1,2025-08-01,2025-08-01,zip,true,6280000,26,23,2024/2026
+Tom Cotton,L. Mark Osher,Santa Monica,CA,90402,Gibson Dunn & Crutcher LLP,Attorney,410000,1,2025-08-05,2025-08-05,zip,false,400000,3,3,2024
+Tom Cotton,Meredith Murad,Los Angeles,CA,90024,Retired,Retired,410000,1,2025-07-29,2025-07-29,zip,false,1110000,3,3,2026
+Tom Cotton,Naomi Hochman,Playa Del Rey,CA,90293,Self-Employed,Marketing Consultant,410000,1,2025-08-04,2025-08-04,zip,false,3397500,22,18,2024/2026
+Tom Cotton,Sheila Bolour,Beverly Hills,CA,90210,Self-Employed,Consultant,410000,1,2025-07-31,2025-07-31,zip,false,7000000,46,29,2024/2026
+Tom Cotton,Stuart Graiwer,Los Angeles,CA,90064,Gibson Dunn & Crutcher LLP,Attorney,410000,1,2025-07-29,2025-07-29,zip,false,2225000,11,10,2024/2026
+Tom Cotton,Anthony Toranto,San Diego,CA,92127,Sheppard Mullin,Attorney,400000,1,2025-08-05,2025-08-05,zip,true,3250000,23,20,2024/2026
+Tom Cotton,David Shteremberg,La Jolla,CA,92037,Steren Electronics International LLC,Ceo,400000,1,2025-08-06,2025-08-06,zip,true,3480000,18,17,2024/2026
+Tom Cotton,Esther Michan,San Diego,CA,92130,Strat Equity Global,Real Estate,400000,1,2025-07-26,2025-07-26,zip,true,1900000,11,10,2024/2026
+Tom Cotton,Margo Cohen,Surfside,FL,33154,Unemployed,Na,400000,2,2026-01-25,2026-02-18,zip,true,2800000,14,13,2024/2026
+Tom Cotton,Sheldon Stein,Dallas,TX,75220,Glazers Beer,Ceo,400000,2,2025-03-19,2025-12-26,zip,true,7225000,41,24,2024/2026
+Tom Cotton,Michael J. Mr. Leffell,Scarsdale,NY,10583,Portage Advisors,Investor,370000,1,2026-01-14,2026-01-14,zip,false,16820000,57,37,2024/2026
+Tom Cotton,Shlomo Troodler,Merion Station,PA,19066,Blank Rome LLP,Attorney,360000,1,2025-05-05,2025-05-05,zip,true,1260000,6,6,2026
+Tom Cotton,Abraham Chesed,Calabasas,CA,91302,Self-Employed,Investor,350000,1,2026-04-27,2026-04-27,zip,false,2249500,12,11,2026
+Tom Cotton,Adam Solomon,Los Angeles,CA,90077,Prolific Electronics LLC.,Owner/Ceo,350000,1,2026-05-04,2026-05-04,zip,false,650000,3,3,2026
+Tom Cotton,Allyn Kramer,Dallas,TX,75248,Retired,Retired,350000,1,2025-03-11,2025-03-11,zip,false,7690000,26,22,2024/2026
+Tom Cotton,Arthur Penn,Miami Beach,FL,33140,Pennantpark,Investments,350000,1,2026-01-22,2026-01-22,zip,true,10265000,47,40,2024/2026
+Tom Cotton,Arthur Stark,Livingston,NJ,07039,Stark Enterprises LLC,Advisory Practice,350000,1,2025-04-24,2025-04-24,zip,true,5960000,10,10,2024/2026
+Tom Cotton,Brian Toll,Los Angeles,CA,90049,Hwood Group,President,350000,1,2026-04-27,2026-04-27,zip,true,1900000,10,9,2026
+Tom Cotton,Candice Haas,Los Angeles,CA,90049,Not Employed,Not Employed,350000,1,2025-09-09,2025-09-09,zip,false,950000,5,5,2024/2026
+Tom Cotton,Daniel S. Mr. Loeb,New York,NY,10001,Third Point LLC,Hedge Fund Manager,350000,1,2026-05-06,2026-05-06,zip,true,21220000,61,42,2024/2026
+Tom Cotton,David Rosen,New York,NY,10583,Rubric Capital,Analyst,350000,1,2026-06-29,2026-06-29,zip,true,5960000,24,20,2024/2026
+Tom Cotton,Ephraim Rudman,Lawrence,NY,11559,Apollo,Finance,350000,1,2025-09-09,2025-09-09,zip,true,725000,4,4,2024/2026
+Tom Cotton,Ephraim Wernick,Dallas,TX,75229,Vinson & Elkins LLP,Attorney,350000,1,2025-03-11,2025-03-11,zip,true,4950000,21,17,2024/2026
+Tom Cotton,Eric Fleiss,Dallas,TX,75201,Regent Properties,Real Estate,350000,1,2025-03-11,2025-03-11,zip,true,4945000,19,16,2024/2026
+Tom Cotton,Eugene Fooksman,Menlo Park,CA,94025,Altopass Inc.,Ceo,350000,1,2026-04-24,2026-04-24,zip,false,16060000,54,45,2024/2026
+Tom Cotton,Gadi Slade,Westport,CT,06880,Retired,Retired,350000,2,2025-04-19,2026-06-23,zip,false,5336700,35,24,2024/2026
+Tom Cotton,Gary L. Mr. Rosenthal,Houston,TX,77019,Heaney And Rosenthal,Executive,350000,1,2025-07-02,2025-07-02,zip,false,1150000,5,5,2026
+Tom Cotton,George Solich,Denver,CO,80206,Energy IV LLC,President & Ceo,350000,1,2025-11-13,2025-11-13,zip,false,3770000,11,11,2024/2026
+Tom Cotton,Gregg Levy,Lantana,FL,33462,Retired,Retired,350000,1,2025-03-17,2025-03-17,zip,false,1950000,8,8,2024/2026
+Tom Cotton,Herb Shear,Palm Beach,FL,33480,Retired,Retired,350000,1,2026-03-15,2026-03-15,zip,false,4305000,13,11,2024/2026
+Tom Cotton,Jacob Shure,Los Angeles,CA,90058,Hwood,Coo,350000,1,2026-04-27,2026-04-27,state,false,650000,3,3,2026
+Tom Cotton,James Mulvihill,Littleton,CO,80121,Academy Services LLC,Real Estate Investment,350000,1,2025-11-05,2025-11-05,zip,false,2980000,9,9,2024/2026
+Tom Cotton,Jarrod Beck,Dallas,TX,75230,United Texas Bank,Finance,350000,1,2025-03-04,2025-03-04,zip,true,4045000,15,11,2024/2026
+Tom Cotton,Jeffrey Chapman,Dallas,TX,75229,Vinson & Elkins,Partner,350000,1,2025-03-14,2025-03-14,zip,false,4000000,12,11,2024/2026
+Tom Cotton,Jerry Bednyak,Glencoe,IL,60022,Skybox Capital,Founder,350000,1,2025-08-13,2025-08-13,zip,true,9240000,23,21,2024/2026
+Tom Cotton,Jim O. Mr. Baker,New York,NY,10128,Neuberger Berman,Investment Management,350000,1,2025-04-10,2025-04-10,zip,true,1050000,2,2,2026
+Tom Cotton,Joel Bender,Houston,TX,77024,Cactus Wellhead,Executive,350000,1,2025-06-30,2025-06-30,zip,true,3300000,11,10,2024/2026
+Tom Cotton,Kevin Mr. Pailet,Dallas,TX,75254,Marsh & Mclennan,Senior Vice President,350000,1,2025-03-11,2025-03-11,zip,false,5005000,25,21,2024/2026
+Tom Cotton,Larry Denbrock,Little Elm,TX,75068,,Vice Chairman,350000,1,2025-03-08,2025-03-08,zip,false,5895000,21,19,2024/2026
+Tom Cotton,Larry Olschwanger,Dallas,TX,75230,Scrapsource,Ceo,350000,1,2025-03-07,2025-03-07,zip,true,7005000,36,23,2024/2026
+Tom Cotton,Larry Rothenberg,Livingston,NJ,07039,Merrill Lynch,Finance,350000,1,2026-06-29,2026-06-29,zip,false,2900000,9,9,2026
+Tom Cotton,Larry Silver,Boca Raton,FL,33431,Silver Companies,Real Estate,350000,1,2026-01-09,2026-01-09,zip,true,7200000,20,16,2024/2026
+Tom Cotton,Lee C. Mr. Samson,Los Angeles,CA,90067,Paladin Management LLC,C.E.O.,350000,1,2025-09-09,2025-09-09,zip,false,2250000,9,7,2026
+Tom Cotton,Lee Raphael,Dallas,TX,75230,Entrepreneur,Entrepreneur,350000,1,2025-03-11,2025-03-11,zip,false,4645000,17,14,2024/2026
+Tom Cotton,Leora Short,Dallas,TX,75230,Skyrise Properties,Owner,350000,1,2025-03-04,2025-03-04,zip,true,2500000,13,13,2024/2026
+Tom Cotton,Linda Cahn,Morristown,NJ,07960,Pharmacy Benefit Consultants,Lawyer,350000,1,2025-09-09,2025-09-09,zip,true,550000,3,3,2026
+Tom Cotton,Lisa Kantor,Rye,NY,10580,Retired,Retired,350000,1,2026-06-26,2026-06-26,zip,false,4620000,15,12,2024/2026
+Tom Cotton,Mackenzie Brumberg,Greenwich,CT,06831,Homemaker,Homemaker,350000,1,2025-02-11,2025-02-11,zip,false,750000,2,2,2026
+Tom Cotton,Manuel Rajunov,Dallas,TX,75248,Snell And Wilmer LLP,Attorney,350000,1,2025-03-08,2025-03-08,zip,true,1600000,6,6,2026
+Tom Cotton,Marina Jacobson,Palm Beach,FL,33480,Homemaker,Homemaker,350000,1,2025-03-20,2025-03-20,zip,false,9529200,45,32,2024/2026
+Tom Cotton,Mark Levy,Las Vegas,NV,89135,Glen Una Dr,Executive,350000,1,2025-09-09,2025-09-09,zip,true,650000,4,4,2024/2026
+Tom Cotton,Max Blankfeld,Houston,TX,77056,Retired,Retired,350000,1,2025-07-18,2025-07-18,zip,false,5495000,35,28,2024/2026
+Tom Cotton,Max Reichenthal,Houston,TX,77020,Texas Iron And Metal,President,350000,1,2025-07-21,2025-07-21,zip,true,4600000,22,20,2024/2026
+Tom Cotton,Michael Cohen,San Francisco,CA,94110,Uc Berkeley,Postdoctoral Fellow,350000,1,2026-06-15,2026-06-15,state,false,360000,1,0,2026
+Tom Cotton,Michael Hurst,Dallas,TX,75201,Lynn Pinker Hurst,Attorney,350000,1,2025-03-07,2025-03-07,zip,true,3725000,23,18,2024/2026
+Tom Cotton,Michael Levy,Dallas,TX,75201,Crow Holdings,Ceo,350000,1,2025-03-12,2025-03-12,zip,true,3300000,12,10,2026
+Tom Cotton,Moses Libitzky,Emeryville,CA,94608,Lpc Real Estate Corp,Principal,350000,1,2026-04-28,2026-04-28,zip,true,4950000,34,31,2024/2026
+Tom Cotton,Paul Candau,El Cerrito,CA,94530,Marble Bridge Funding Group,Ceo,350000,1,2026-04-28,2026-04-28,zip,true,3000000,9,9,2026
+Tom Cotton,Robert M. Rosenthal,Burbank,CA,91505,Spirit Of America Tour,Founder,350000,1,2025-08-28,2025-08-28,zip,false,500000,1,0,2026
+Tom Cotton,Ruth Kohen,Mercer Island,WA,98040,Retired,Retired,350000,1,2025-09-09,2025-09-09,zip,false,9101000,41,29,2024/2026
+Tom Cotton,Ryan Brumberg,Greenwich,CT,06831,A Priori,Investor,350000,1,2025-02-11,2025-02-11,zip,true,2765400,13,11,2024/2026
+Tom Cotton,Solomon Moshkevich,Atherton,CA,94027,Natera,President,350000,1,2026-04-22,2026-04-22,zip,true,3950000,12,12,2024/2026
+Tom Cotton,Stanley A. Rabin,Dallas,TX,75230,Retired,Retired,350000,1,2025-03-07,2025-03-07,zip,false,7090000,25,21,2024/2026
+Tom Cotton,Stewart Satter,Manalapan,FL,33462,Retired,Retired,350000,1,2025-03-17,2025-03-17,zip,false,1410000,5,5,2024/2026
+Tom Cotton,Trevor Pearlman,Dallas,TX,75220,Tregan Partners,Venture Capital,350000,1,2025-03-08,2025-03-08,zip,true,6175000,24,15,2024/2026
+Tom Cotton,Vivek Raj,Houston,TX,77056,Geneses Capital Management,Partner,350000,1,2025-09-23,2025-09-23,zip,true,700000,3,3,2026
+Tom Cotton,Albert Gahfi,Miami,FL,33154,Newco Capital Group,Ceo,330000,1,2026-01-28,2026-01-28,zip,true,4690000,10,10,2024/2026
+Tom Cotton,Alex Shack,Miami Beach,FL,33139,Braman Management Association,Executive,300000,1,2025-09-11,2025-09-11,zip,true,2150000,17,17,2026
+Tom Cotton,Amy Sylvetsky,Boca Raton,FL,33496,Retired,Retired,300000,1,2026-01-05,2026-01-05,zip,false,300000,1,1,2026
+Tom Cotton,Andy Lappin,Glencoe,IL,60022,Retired,Retired,300000,1,2025-08-08,2025-08-08,zip,false,2710000,10,10,2024/2026
+Tom Cotton,Basheva Goldberg,Boca Raton,FL,33433,Retired,Retired,300000,1,2026-01-07,2026-01-07,zip,false,3990000,23,19,2024/2026
+Tom Cotton,Bruce Ettelson,Glencoe,IL,60022,Kirkland & Ellis LLP,Attorney,300000,1,2025-08-12,2025-08-12,zip,true,7154400,46,37,2024/2026
+Tom Cotton,Dan Feder,La Jolla,CA,92037,Fnf Inc,Ceo,300000,1,2025-08-06,2025-08-06,zip,true,1850000,13,13,2024/2026
+Tom Cotton,Dana Zeff,La Jolla,CA,92037,Unitleader,Managing Partner,300000,1,2025-07-21,2025-07-21,zip,true,6400000,28,23,2024/2026
+Tom Cotton,Daniel Farahi,Los Angeles,CA,90024,Self-Employed,Real Estate Developer And Venture Inve,300000,1,2026-05-05,2026-05-05,zip,false,500000,2,2,2026
+Tom Cotton,David Rosenberg,Marblehead,MA,01945,Dsr Motor Group,Auto Dealer,300000,1,2025-09-09,2025-09-09,zip,true,5500000,26,21,2024/2026
+Tom Cotton,Ira Feinswog,La Jolla,CA,92037,Thrive Pet Healthcare,Veterinarian,300000,1,2025-07-23,2025-07-23,zip,true,2750000,15,14,2024/2026
+Tom Cotton,Joe Lieberman,Cedarhurst,NY,11516,Self-Employed,Lawyer,300000,1,2026-02-18,2026-02-18,zip,false,800000,5,4,2026
+Tom Cotton,Joel M. Greenblatt,Palm Beach,FL,33480,Retired,Retired,300000,1,2025-03-17,2025-03-17,zip,false,900000,4,4,2024/2026
+Tom Cotton,Joel Reinstein,Boca Raton,FL,33433,Retired,Retired,300000,1,2026-01-05,2026-01-05,zip,false,7890000,35,25,2024/2026
+Tom Cotton,John Kohan,Beverly Hills,CA,90212,Rockpoint Funding,Partner,300000,1,2026-04-29,2026-04-29,zip,true,750000,5,5,2026
+Tom Cotton,Jordan Rothstein,Los Angeles,CA,90064,King Tide,Ceo,300000,1,2026-04-30,2026-04-30,zip,true,350000,2,2,2026
+Tom Cotton,Joshua Gorin,Los Angeles,CA,90017,Savills,Corp Real Estate,300000,1,2026-04-30,2026-04-30,zip,false,300000,1,1,2026
+Tom Cotton,Kirk Gellin,Palm Beach,FL,33480,Self-Employed,Real Estate,300000,1,2025-03-17,2025-03-17,zip,false,2130000,10,10,2024/2026
+Tom Cotton,Leeor Maciborski,Los Angeles,CA,90210,Rom Investment,Developer,300000,1,2026-04-27,2026-04-27,zip,true,600000,3,3,2026
+Tom Cotton,Mark Chudacoff,Pbg,FL,33418,Self-Employed,Real Estate,300000,1,2025-03-17,2025-03-17,zip,false,2440000,14,13,2024/2026
+Tom Cotton,Martin Silver,Pb,FL,33480,Retired,Retired,300000,1,2025-03-17,2025-03-17,zip,false,3700000,19,16,2024/2026
+Tom Cotton,Mikey Lev,Los Angeles,CA,90048,Audible Artists,Owner,300000,1,2026-05-04,2026-05-04,zip,true,300000,1,1,2026
+Tom Cotton,Saul Rostamian,Los Angeles,CA,90077,Sheppard,Attorney,300000,1,2026-05-05,2026-05-05,zip,true,300000,1,1,2026
+Tom Cotton,Sol Boucai,Wpb,FL,33401,Retired,Retired,300000,1,2025-03-17,2025-03-17,zip,false,1200000,6,6,2024/2026
+Tom Cotton,Steven Mr. Demby,Denver,CO,80209,Brownstein Hyatt Farber Schreck LLP,Attorney,300000,1,2025-11-11,2025-11-11,zip,false,6075000,24,24,2024/2026
+Tom Cotton,Yehuda Avganim,Encino,CA,91316,Retired,Retired,300000,1,2026-04-27,2026-04-27,zip,false,850000,4,4,2026
+Tom Cotton,Michael Cohn,Marietta,GA,30067,Overline,Venture Capital,275000,2,2025-09-09,2026-01-14,zip,true,250000,1,1,2026
+Tom Cotton,Brad Shusman,Philadelphia,PA,19102,Goldman Sachs,Investment Advisor,250000,1,2025-09-09,2025-09-09,zip,true,1680000,9,8,2024/2026
+Tom Cotton,Brian Rosenzweig,Brookhaven,GA,30319,Joule Ventures LLC,Finance,250000,1,2026-01-15,2026-01-15,zip,true,620000,6,6,2024/2026
+Tom Cotton,David Kosloff,Merion Station,PA,19066,Roosevelt Paper,Sales4147182096768868,250000,1,2025-05-01,2025-05-01,zip,true,600000,2,2,2026
+Tom Cotton,David Kurzweil,Scarsdale,NY,10583,Latham And Watkins,Attorney,250000,1,2026-06-24,2026-06-24,zip,true,5390000,18,15,2024/2026
+Tom Cotton,Drew Parker,Englewood,NJ,07631,Kingsbrook Investments,Real Estate,250000,1,2025-12-29,2025-12-29,zip,false,150000,3,3,2024
+Tom Cotton,Elizabeth M. Stern,Scarsdale,NY,10583,Retired,Retired,250000,1,2025-12-22,2025-12-22,zip,false,500000,1,0,2024
+Tom Cotton,Eric Mendelson,Miami Beach,FL,33141,Heico Corporation,Executive,250000,1,2026-02-18,2026-02-18,zip,true,250000,1,1,2026
+Tom Cotton,Eric Riesenberg,Atlanta,GA,30327,Entrepreneur,Entrepreneur,250000,1,2026-03-20,2026-03-20,zip,false,500000,2,2,2026
+Tom Cotton,Gary Erlbaum,Ardmore,PA,19003,Self-Employed,Businessman Real Estate Developer,250000,1,2025-05-06,2025-05-06,zip,false,7900000,49,30,2024/2026
+Tom Cotton,Gregory Segall,Philadelphia,PA,19103,Versa Capital Group LLC,Ceo,250000,1,2025-06-04,2025-06-04,zip,false,350000,2,2,2024/2026
+Tom Cotton,Jared Ament,Encino,CA,91316,Jared Ament Md Mph PC,Neurosurgeon,250000,1,2026-05-05,2026-05-05,zip,false,350000,2,2,2026
+Tom Cotton,Jason Muss,New York,NY,10128,Muss Development LLC,Real Estate,250000,1,2025-12-29,2025-12-29,state,true,3085000,17,13,2024/2026
+Tom Cotton,Justin Bier,Sandy Springs,GA,30328,Cox Enterprises,Corporate Development,250000,1,2026-03-27,2026-03-27,zip,true,500000,2,2,2026
+Tom Cotton,Kenneth Eckstein,New York,NY,10075,Self,Inv,250000,1,2025-12-29,2025-12-29,zip,false,3950000,14,14,2024/2026
+Tom Cotton,Kenneth Schwartz,Stamford,CT,06902,Retired,Retired,250000,1,2025-04-15,2025-04-15,zip,false,2600000,19,17,2024/2026
+Tom Cotton,Kerrin Behrend,Stamford,CT,06902,Retired,Retired,250000,1,2025-04-15,2025-04-15,zip,false,2050000,13,13,2024/2026
+Tom Cotton,Larry J. Hochberg,Chicago,IL,60611,Retired,Retired,250000,1,2025-08-13,2025-08-13,zip,false,3816666,16,12,2024/2026
+Tom Cotton,Larry Kugler,Delray Beach,FL,33483,Retired,Retired,250000,1,2025-03-17,2025-03-17,zip,false,5083000,39,35,2024/2026
+Tom Cotton,Leonard Mr. Friedman,Houston,TX,77019,Retired,Retired,250000,1,2025-07-08,2025-07-08,zip,false,550000,4,4,2024/2026
+Tom Cotton,Marlene Cohn,Marietta,GA,30067,Retired,Retired,250000,1,2026-01-16,2026-01-16,zip,false,500000,2,2,2026
+Tom Cotton,Mieca Levy,Marietta,GA,30062,Aja,College Counselor,250000,1,2026-01-15,2026-01-15,zip,true,500000,2,2,2026
+Tom Cotton,Mort Weinstein,Miami Beach,FL,33141,Retired,Retired,250000,1,2026-01-21,2026-01-21,zip,false,2925000,21,18,2024/2026
+Tom Cotton,Philip Rosen,Davie,FL,33328,Shutts & Bowen LLP,Attorney,250000,1,2025-09-09,2025-09-09,zip,true,1000000,6,6,2024/2026
+Tom Cotton,Raphy Nissel,Beverly Hills,CA,90210,Retired,Retired,250000,1,2025-09-09,2025-09-09,zip,false,2600000,15,14,2024/2026
+Tom Cotton,Robert Kargman,Boston,MA,02111,Retired,Retired,250000,1,2025-03-17,2025-03-17,zip,false,1100000,5,5,2024/2026
+Tom Cotton,Samuel Porat,Mamaroneck,NY,10543,Neuberger,Investments,250000,1,2026-06-26,2026-06-26,zip,true,3600400,20,15,2024/2026
+Tom Cotton,Sean Belnick,Atlanta,GA,30342,Acadia.Io LLC,Manager,250000,1,2026-01-16,2026-01-16,zip,true,500000,2,2,2026
+Tom Cotton,Shachar Oren,Atlanta,GA,30327,Sound Media Ventures,Founding Ceo,250000,1,2026-02-06,2026-02-06,zip,true,500000,2,2,2026
+Tom Cotton,Sherman Frager,Bala Cynwyd,PA,19004,Sherman Frager,Finance,250000,1,2025-06-13,2025-06-13,zip,true,250000,1,1,2026
+Tom Cotton,Shlomo Storch,Atlanta,GA,30329,Self-Employed,Consultant,250000,1,2026-03-20,2026-03-20,zip,false,250000,1,1,2026
+Tom Cotton,Shmuel Wolf,Marietta,GA,30068,B Wolf And Sons,Real Estate,250000,1,2026-01-16,2026-01-16,zip,true,1450000,18,17,2024/2026
+Tom Cotton,Simon Rosenberg,Los Angeles,CA,90049,Guterman & Rosenberg,Business Manager,250000,1,2026-05-05,2026-05-05,zip,true,250000,1,1,2026
+Tom Cotton,Stacy Nerenstone,Miami Beach,FL,33141,Retired,Retired,250000,1,2026-01-21,2026-01-21,zip,false,4850000,39,31,2024/2026
+Tom Cotton,Steve Weinstein,Boca Raton,FL,33496,Retired,Retired,250000,1,2025-09-09,2025-09-09,zip,false,1580000,7,7,2024/2026
+Tom Cotton,Sylvia Golden,Wpb,FL,33401,Retired,Retired,250000,1,2025-03-17,2025-03-17,zip,false,11920000,38,28,2024/2026
+Tom Cotton,Vincenzo La Ruffa,Haverford,PA,19041,Aquiline,Managing Partner,250000,1,2025-06-12,2025-06-12,zip,true,250000,1,1,2026
+Tom Cotton,Yehuda Scharf,New York,NY,10024,Morrison Cohen LLP,Lawyer,250000,1,2026-06-25,2026-06-25,zip,true,700000,3,3,2024/2026
+Tom Cotton,Zachary Stern,Greenwich,CT,06831,Pwc Us,Lawyer,250000,1,2025-02-22,2025-02-22,zip,true,1425000,10,9,2024/2026
+Tom Cotton,Aaron Jungreis,Lawrence,NY,11559,Rosewood Realty Group Inc.,President,200000,1,2026-02-18,2026-02-18,zip,true,2130000,10,10,2024/2026
+Tom Cotton,Aliza Schwab,Lawrence,NY,11559,,,200000,1,2026-02-18,2026-02-18,zip,false,600000,3,3,2026
+Tom Cotton,Alyse Vishnick,New York,NY,10021,Artisan Partners,Distribution,200000,1,2025-03-31,2025-03-31,zip,true,2180000,12,12,2024/2026
+Tom Cotton,Ann Davis,Atlanta,GA,30327,Retired,Retired,200000,1,2026-01-14,2026-01-14,zip,false,3930000,17,16,2024/2026
+Tom Cotton,Ari Dobkin,Lakewood,NJ,08701,Chc Group,Executive,200000,1,2026-02-18,2026-02-18,zip,true,800000,4,4,2026
+Tom Cotton,Arielle Levi,Redwood City,CA,94061,Not Employed,Not Employed,200000,1,2026-04-22,2026-04-22,zip,false,1050000,10,10,2024/2026
+Tom Cotton,Avi Avidan,Highland Beach,FL,33487,Retired,Retired,200000,1,2026-01-05,2026-01-05,zip,false,3300000,27,24,2024/2026
+Tom Cotton,Benjamin Genet,Hollywood,FL,33021,Self,Real Estate,200000,1,2025-09-09,2025-09-09,zip,false,9250000,17,15,2024/2026
+Tom Cotton,Brett Hyman,Los Angeles,CA,90046,Global Experience Group,Self-Employed,200000,1,2026-05-06,2026-05-06,zip,false,800000,3,3,2026
+Tom Cotton,Brian Mr. Dror,Los Angeles,CA,90036,Self-Employed,C.P.A.,200000,1,2026-02-18,2026-02-18,zip,false,5680000,24,21,2024/2026
+Tom Cotton,Charles Wax,Rancho Santa Fe,CA,92067,Retired,Retired,200000,1,2025-07-30,2025-07-30,zip,false,550000,3,3,2024/2026
+Tom Cotton,Chuck Bellock,Boulder,CO,80302,Community Development Group,Real Estate,200000,1,2025-12-05,2025-12-05,zip,true,3550000,18,16,2024/2026
+Tom Cotton,Clara Miller,Greenwich,CT,06831,Clara Spalter Miller,Private Investments,200000,1,2025-04-15,2025-04-15,zip,true,1700000,11,11,2024/2026
+Tom Cotton,Dan Mr. Bartfeld,Ny,NY,10024,Milbank,Attorney,200000,1,2025-04-22,2025-04-22,zip,true,596500,5,5,2024/2026
+Tom Cotton,Daniel Kramer,Captiva,FL,33924,Equiniti,Ceo,200000,1,2025-03-31,2025-03-31,zip,true,200000,1,1,2026
+Tom Cotton,David Mandelbaum,Weston,CT,06883,Bleakley Financial Group,Investment Management,200000,1,2025-04-21,2025-04-21,zip,true,470000,5,5,2026
+Tom Cotton,David Mr. Lichtenstein,Lakewood,NJ,08701,Lightstone Real Estate Partners,Partner,200000,1,2026-02-18,2026-02-18,zip,false,1600000,8,8,2024/2026
+Tom Cotton,David Ross,Winnetka,IL,60093,Compass Lexecon,Economist,200000,1,2025-08-14,2025-08-14,zip,true,3250000,30,27,2024/2026
+Tom Cotton,Denise Farkas,Chagrin Falls,OH,44022,Sigma Investments,Executive Vp,200000,1,2025-09-09,2025-09-09,zip,true,1420000,11,11,2024/2026
+Tom Cotton,Douglas Gessner,Glenview,IL,60025,Kirkland & Ellis LLP,Lawyer,200000,1,2025-08-08,2025-08-08,zip,true,12500000,44,38,2024/2026
+Tom Cotton,Elizabeth Davis,Atlanta,GA,30336,Rndc,Pr/Exec,200000,1,2026-01-14,2026-01-14,zip,true,6780000,37,30,2024/2026
+Tom Cotton,Ellen Calmas,Chestnut Hill,MA,02467,Retired,Retired,200000,1,2025-09-09,2025-09-09,zip,false,3487000,40,28,2024/2026
+Tom Cotton,Elliott Mandelbaum,Lawrence,NY,11559,Eagle Arc Partners LLC,Investment Management,200000,1,2026-02-18,2026-02-18,zip,true,800000,4,4,2024/2026
+Tom Cotton,Eugene Ehrenfeld,Lawrence,NY,11559,Self-Employed,Real Estate,200000,1,2026-02-18,2026-02-18,zip,false,2000000,10,10,2024/2026
+Tom Cotton,Geri Bishop,Houston,TX,77024,Retired,Retired,200000,1,2025-07-01,2025-07-01,zip,false,5120000,28,23,2024/2026
+Tom Cotton,Harold Diamond,Bal Harbour,FL,33154,Retired,Retired,200000,1,2025-12-29,2025-12-29,zip,false,900000,8,4,2026
+Tom Cotton,Henry Swieca,New York,NY,10022,Talpion,Founder And Ceo,200000,1,2025-04-09,2025-04-09,zip,true,965000,6,6,2024/2026
+Tom Cotton,Ivan Ross,Scarsdale,NY,10583,Ardea Partners,Finance,200000,1,2025-04-07,2025-04-07,zip,true,2560000,15,11,2024/2026
+Tom Cotton,Jay Mr. Davis,Atlanta,GA,30327,National Distributing,President,200000,1,2026-01-14,2026-01-14,zip,false,3710000,13,12,2024/2026
+Tom Cotton,Jean Cohen,Lantana,FL,33462,Retired,Retired,200000,1,2025-03-17,2025-03-17,zip,false,2075000,9,9,2024/2026
+Tom Cotton,Jeff Cohen,Chicago,IL,60645,Retired,Retired,200000,2,2025-08-10,2026-02-25,zip,false,4700000,35,27,2024/2026
+Tom Cotton,Jeffrey Snyder,Boca Raton,FL,33432,Retired,Retired,200000,1,2026-01-07,2026-01-07,zip,false,9705000,61,53,2024/2026
+Tom Cotton,Jeffrey Weiskopf,Monsey,NY,10952,White Eagle Property,Ceo/Chairman,200000,1,2026-02-18,2026-02-18,zip,true,1800000,9,9,2024/2026
+Tom Cotton,Jeremy Lieberman,Flushing,NY,11367,Pomerantz LLP,Attorney,200000,1,2026-02-18,2026-02-18,zip,true,1250000,6,6,2024/2026
+Tom Cotton,Jerry Wolasky,Deerfield Beach,FL,33442,Healthsource Distributors,Executive,200000,1,2026-02-18,2026-02-18,zip,true,4050000,23,22,2024/2026
+Tom Cotton,Joan Cohen,Katonah,NY,10536,Self-Employed,Real Estate Mgt,200000,1,2026-02-18,2026-02-18,zip,false,200000,1,1,2026
+Tom Cotton,John Koren,Southport,CT,06890,Self-Employed,Investor,200000,1,2025-04-22,2025-04-22,zip,false,1500000,10,10,2024/2026
+Tom Cotton,Kenneth Levy,Los Gatos,CA,95030,Glen Una Investments,Real Estate Investor,200000,1,2026-04-22,2026-04-22,zip,true,4450000,19,17,2024/2026
+Tom Cotton,Lee Schwartz,Houston,TX,77025,The Methodist Hospital,Attorney,200000,1,2025-07-21,2025-07-21,zip,true,13545000,51,40,2024/2026
+Tom Cotton,Leland Alpert,Cherry Hills Villa,CO,80113,Lee Alpert And Company,Ceo,200000,1,2025-11-11,2025-11-11,zip,true,2400000,13,13,2026
+Tom Cotton,Leonid Mezhvinsky,Hillsborough,CA,94010,Retired,Retired,200000,1,2026-04-22,2026-04-22,zip,false,2200000,13,13,2024/2026
+Tom Cotton,Leonid Vayner,Brooklyn,NY,11235,Elliott Investment Management Lp,Professional,200000,1,2025-03-31,2025-03-31,zip,true,2815000,18,16,2024/2026
+Tom Cotton,Marc Rothenberg,New York,NY,10069,Goldman Sachs & Co,Finance,200000,1,2025-04-10,2025-04-10,zip,true,1175000,8,8,2024/2026
+Tom Cotton,Marc Silber,Lawrence,NY,11559,Renaissance Technologies,Executive,200000,1,2026-02-18,2026-02-18,zip,true,400000,2,2,2026
+Tom Cotton,Margie Fiverson,Noah Hills,NY,11040,Homemaker,Homemaker,200000,1,2025-04-01,2025-04-01,zip,false,4080000,23,20,2024/2026
+Tom Cotton,Mark Schostak,Livonia,MI,48152,Schostak Family Enterprise,Executive Chairman,200000,1,2025-08-18,2025-08-18,zip,true,3240000,12,11,2024/2026
+Tom Cotton,Marshall Cooper,Greenwich,CT,06830,Entrepreneur,Entrepreneur,200000,1,2025-04-15,2025-04-15,zip,false,800000,5,5,2024/2026
+Tom Cotton,Marshall Lerner,Houston,TX,77096,Primary Arms LLC,Owner,200000,2,2025-07-01,2025-09-25,zip,false,1350000,16,13,2024/2026
+Tom Cotton,Max Berlin,Detroit,MI,48226,Self-Employed,Technology,200000,1,2026-02-18,2026-02-18,zip,false,2000000,10,10,2024/2026
+Tom Cotton,Meir Levin,Los Angeles,CA,90004,L&M Footwear Inc,Ceo,200000,1,2026-02-18,2026-02-18,zip,false,2000000,10,9,2024/2026
+Tom Cotton,Michael Lorence,Dallas,TX,75244,Private,Speaker,200000,1,2025-04-20,2025-04-20,zip,true,1500000,8,8,2026
+Tom Cotton,Michael Nechamkin,Passaic,NJ,07055,Octagon Credit Investors,Investment Management,200000,1,2025-04-01,2025-04-01,zip,true,950000,7,7,2024/2026
+Tom Cotton,Michael Netzer,Lakewood,NJ,08701,Medical Facilities Of America,Ceo,200000,1,2026-02-18,2026-02-18,zip,true,1400000,7,7,2024/2026
+Tom Cotton,Michael Wienir,Encino,CA,91316,Self,Physician,200000,2,2025-09-09,2025-09-09,zip,false,1350000,12,11,2026
+Tom Cotton,Miguel Leff,San Diego,CA,92130,Law Office Of Miguel Leff,Attorney,200000,1,2025-08-14,2025-08-14,zip,true,300000,2,2,2026
+Tom Cotton,Mindy Gross,Sugar Land,TX,77478,Retired,Retired,200000,1,2025-06-30,2025-06-30,zip,false,3220000,25,18,2024/2026
+Tom Cotton,Mitchell Jacobson,New York,NY,10022,Msc Industrial Direct Inc.,Non Executive Chairman,200000,1,2025-03-31,2025-03-31,zip,true,2340000,10,10,2026
+Tom Cotton,Mitchell Steir,Water Mill,NY,11976,Retired,Retired,200000,1,2025-04-16,2025-04-16,zip,false,2300000,18,17,2024/2026
+Tom Cotton,Morris Wolfson,New York,NY,10004,Self-Employed,Investments,200000,1,2026-02-18,2026-02-18,zip,false,2000000,10,9,2024/2026
+Tom Cotton,Nancy Brown,Teaneck,NJ,07666,Retired,Retired,200000,1,2025-03-17,2025-03-17,zip,false,4060000,22,19,2024/2026
+Tom Cotton,Nanette Wolf,Brooklyn,NY,11204,Homemaker,Homemaker,200000,1,2026-02-18,2026-02-18,zip,false,2000000,10,10,2024/2026
+Tom Cotton,Orete Harkavy,Deerfield,IL,60015,,,200000,1,2025-08-14,2025-08-14,zip,false,925000,14,12,2026
+Tom Cotton,Paul Steinfeld,Atlanta,GA,30309,Retired,Retired,200000,1,2026-01-15,2026-01-15,zip,false,600000,3,3,2026
+Tom Cotton,Pedro Nosnik,Dallas,TX,75219,Self-Employed,M.D.,200000,1,2025-03-07,2025-03-07,zip,false,1630000,9,8,2024/2026
+Tom Cotton,Ralph Herzka,Brooklyn,NY,11210,Meridian Capital Group,Chairman,200000,1,2026-02-18,2026-02-18,zip,true,2000000,10,10,2024/2026
+Tom Cotton,Randy Brust,Encino,CA,91316,Self-Employed,Crescent Realty Advisors,200000,1,2025-09-09,2025-09-09,zip,false,2250000,34,27,2024/2026
+Tom Cotton,Richard Davis,Atlanta,GA,30342,Rndc,Evp,200000,1,2026-01-14,2026-01-14,zip,true,5030000,32,26,2024/2026
+Tom Cotton,Rob Medway,Park City,UT,84060,Mflp,Investments,200000,1,2025-03-31,2025-03-31,zip,true,2730000,28,24,2024/2026
+Tom Cotton,Robert E. Miller,Franklin Lakes,NJ,07417,Stifel,Wealth Advisor,200000,1,2025-04-15,2025-04-15,zip,false,500000,3,3,2026
+Tom Cotton,Robert Grossman,West Orange,NJ,07052,Retired,Retired,200000,1,2025-03-31,2025-03-31,zip,false,4170000,19,17,2024/2026
+Tom Cotton,Robert Hartman,Chicago,IL,60659,Nucare Services Corp,Healthcare,200000,1,2026-02-18,2026-02-18,zip,true,1800000,9,9,2024/2026
+Tom Cotton,Ross Kogon,Atlanta,GA,30360,Pull A Part,Ceo,200000,1,2026-01-16,2026-01-16,zip,true,5650000,37,29,2024/2026
+Tom Cotton,Samuel Rieder,Brooklyn,NY,11210,Rieder Communities,Real Estate Investments,200000,1,2026-02-18,2026-02-18,zip,true,1800000,9,9,2024/2026
+Tom Cotton,Shelly Baldwin,New York,NY,10023,Triangle Capital Group,Head Of Business Development,200000,1,2025-04-16,2025-04-16,zip,true,1520000,9,8,2024/2026
+Tom Cotton,Solomon Werdiger,Rahway,NJ,07065,Outerstuff,President,200000,1,2026-02-18,2026-02-18,zip,true,2000000,10,9,2024/2026
+Tom Cotton,Stephen Mr. Prince,New York,NY,10014,Tetragon,Ceo And Head Of Asset Management,200000,1,2025-04-04,2025-04-04,zip,true,200000,1,1,2026
+Tom Cotton,Stephen Siderow,New York,NY,10028,Siderofsky Strategic Advisors LLC,Founder And Principal,200000,1,2025-04-02,2025-04-02,zip,false,2750000,17,16,2024/2026
+Tom Cotton,Steven Brickman,Birmingham,AL,35205,Dentons Sirote,Lawyer,200000,1,2025-09-09,2025-09-09,zip,true,350000,3,3,2024/2026
+Tom Cotton,Steven Feiger,Hollywood,FL,33019,Charger Water,Businessman,200000,1,2025-07-30,2025-07-30,zip,true,300000,2,2,2026
+Tom Cotton,Steven Shenker,Englewood,NJ,07631,Portage Point Partners,Managing Director,200000,1,2025-04-10,2025-04-10,zip,true,400000,2,2,2026
+Tom Cotton,Stuart Oremland,Portola Valley,CA,94028,Retired,Retired,200000,1,2026-04-22,2026-04-22,zip,false,3245000,32,31,2024/2026
+Tom Cotton,Vered Links,Stamford,CT,06905,Chabad Of Stamford,Manager,200000,1,2025-04-17,2025-04-17,zip,true,1300000,8,8,2024/2026
+Tom Cotton,Wayne Cohen,New York,NY,10019,Sculptor Capital,Finance,200000,1,2025-04-23,2025-04-23,zip,true,4030000,17,17,2024/2026
+Tom Cotton,William Lewin,Paradise Valley,AZ,85253,Retired,Retired,200000,1,2025-08-14,2025-08-14,zip,false,200000,1,1,2026
+Tom Cotton,Yehuda Wolmark,Lakewood,NJ,08701,Millennium Healthcare,Ceo,200000,1,2026-02-18,2026-02-18,zip,true,1000000,5,5,2024/2026
+Tom Cotton,Yisroel Meir Wolmark,Lawrence,NY,11559,Golden Steps,Ceo,200000,1,2026-02-18,2026-02-18,zip,true,1400000,7,6,2024/2026
+Tom Cotton,Yisroel Rothstein,Lakewood,NJ,08701,Madison Title,Real Estate,200000,1,2026-02-18,2026-02-18,zip,true,1600000,8,8,2024/2026
+Tom Cotton,Zachary Mendelsohn,Calabasas,CA,91302,The Liquid Opportunity Inc,Consulting,200000,1,2026-04-29,2026-04-29,zip,false,550000,3,3,2026
+Tom Cotton,Chase Berger,Bay Harbor Islands,FL,33154,Gb,Attorney,180000,1,2026-01-21,2026-01-21,zip,true,2022600,12,11,2026
+Tom Cotton,David Menche,Miami Beach,FL,33140,Self,Orthopedic Surgeon,180000,1,2026-01-21,2026-01-21,zip,false,2460000,12,12,2024/2026
+Tom Cotton,Doron Friedman,Miami Beach,FL,33141,Spoton,Chief Innovation Officer,180000,1,2026-02-25,2026-02-25,zip,true,180000,1,1,2026
+Tom Cotton,Nathan Berman,New York,NY,10128,Metro Loft Management,Ceo,180000,1,2025-09-09,2025-09-09,zip,true,2100000,8,7,2024/2026
+Tom Cotton,Richard Genirberg,Stateline,NV,89449,Retired,Retired,175000,1,2026-04-28,2026-04-28,zip,false,6240000,22,22,2024/2026
+Tom Cotton,Joel Saltz,Long Beach,NY,11561,Stony Brook University,Professor,170000,1,2025-09-09,2025-09-09,zip,true,1070000,9,8,2024/2026
+Tom Cotton,Leora R. Mrs. Levy,Greenwich,CT,06831,Retired,Retired,150100,2,2025-04-15,2026-05-24,zip,false,150000,1,1,2026
+Tom Cotton,Adele Jacobs,Fairfield,CT,06825,Jacobs&Wallace,Attorney,150000,1,2025-04-23,2025-04-23,zip,true,1564000,19,19,2024/2026
+Tom Cotton,Alain R'Bibo,North Hollywood,CA,91606,Allen Matkins,Attorney,150000,1,2025-09-14,2025-09-14,zip,true,3400000,25,24,2024/2026
+Tom Cotton,Alec Ellison,Greenwich,CT,06830,Houlihan Lokey,Investment Banking,150000,1,2025-04-11,2025-04-11,zip,true,6580000,33,29,2024/2026
+Tom Cotton,Benjamin Lanson,New Canaan,CT,06840,Self-Employed,Consultant,150000,1,2025-04-20,2025-04-20,zip,false,1400000,9,8,2024/2026
+Tom Cotton,David Levy,Los Angeles,CA,90049,Openap,Ceo,150000,1,2026-05-04,2026-05-04,zip,true,150000,1,1,2026
+Tom Cotton,Herta Amir,Beverly Hills,CA,90211,Amir Development,Real Estate,150000,1,2025-09-09,2025-09-09,zip,true,6500000,95,72,2024/2026
+Tom Cotton,Jason Friend,San Francisco,CA,94102,Howard Properties,Real Estate,150000,1,2026-05-14,2026-05-14,zip,true,5775000,39,36,2024/2026
+Tom Cotton,Jeffrey Raizner,Houston,TX,77005,Raizner Slania LLP,Attorney,150000,1,2025-07-03,2025-07-03,zip,true,3000000,28,25,2024/2026
+Tom Cotton,Jeremy Abelson,Cherry Hills Villa,CO,80113,Irving Investors,Principal,150000,1,2025-10-23,2025-10-23,zip,true,1850000,15,15,2024/2026
+Tom Cotton,Leonard Wagh,Brooklyn,NY,11230,Retired,Retired,150000,3,2025-04-29,2026-03-03,zip,false,150000,8,8,2024
+Tom Cotton,Miles Schlosberg,Seattle,WA,98199,Auke Bay Company,General Mgr,150000,1,2025-09-30,2025-09-30,zip,true,4880000,24,15,2024/2026
+Tom Cotton,Ori Hampel,Bellaire,TX,77401,Ori Hampel Md Pa,Physician,150000,1,2025-06-30,2025-06-30,zip,true,2430000,13,12,2024/2026
+Tom Cotton,Peter Silverman,Toledo,OH,43617,Shumaker Loop & Kendrick,Lawyer,150000,1,2025-09-09,2025-09-09,zip,true,460000,4,4,2024/2026
+Tom Cotton,Russell J. Mr. Greenberg,Westport,CT,06880,Altus Capital Partners Inc,Investment Management,150000,1,2025-04-21,2025-04-21,zip,false,3050000,21,19,2024/2026
+Tom Cotton,Scott Packman,New York,NY,10028,Ssp Partners & Associates LLC,Consultant,150000,1,2025-04-21,2025-04-21,zip,true,3190000,26,25,2024/2026
+Tom Cotton,Seth Damski,Clifton,NJ,07014,Old Aly Capital,Finance,150000,1,2025-04-09,2025-04-09,zip,false,5353000,25,20,2024/2026
+Tom Cotton,Stephen Ritchie,Glencoe,IL,60022,Kirkland & Ellis LLP,Attorney,150000,1,2025-09-09,2025-09-09,zip,true,15490000,76,58,2024/2026
+Tom Cotton,Tyler Asherian,Beverly Hills,CA,90210,Platinum Commerce,Owner/Ceo,150000,1,2026-05-04,2026-05-04,zip,true,450000,3,3,2026
+Tom Cotton,Zipora Arison,Pompano Beach,FL,33062,Self Employed,Medical Doctor,150000,1,2026-01-21,2026-01-21,zip,false,7690000,56,41,2024/2026
+Tom Cotton,Nina Rosenwald,East Hampton,NY,11937,Retired,Retired,120000,3,2025-04-11,2026-06-28,zip,false,100000,1,1,2024
+Tom Cotton,Irving Stern,Houston,TX,77056,Spencer Fane,Attorney,117900,4,2025-06-15,2025-07-15,zip,true,3400000,25,19,2024/2026
+Tom Cotton,Aaron Brown,Dallas,TX,75229,Nfi Industries,Executive,100000,1,2025-03-18,2025-03-18,zip,true,450000,4,4,2024/2026
+Tom Cotton,Alan Mr. Robin,Houston,TX,77063,Vinson & Elkins,Attorney,100000,1,2025-08-27,2025-08-27,zip,false,650000,9,9,2024/2026
+Tom Cotton,Alan Tolmas,Dallas,TX,75248,Retired,Retired,100000,1,2025-03-09,2025-03-09,zip,false,1084000,12,11,2024/2026
+Tom Cotton,Alisa Savitz,Miami Beach,FL,33139,Retired,Retired,100000,1,2026-02-18,2026-02-18,zip,false,1600000,15,15,2024/2026
+Tom Cotton,Allan Janoff,Livingston,NJ,07039,Crystal Plaza Group,Caterer,100000,1,2025-09-09,2025-09-09,zip,true,1550000,14,13,2024/2026
+Tom Cotton,Allan Quiat,Houston,TX,77082,Retired,Retired,100000,1,2025-06-30,2025-06-30,zip,false,1525000,16,15,2024/2026
+Tom Cotton,Allen Friedman,Teaneck,NJ,07666,Jp Morgan Chase,Attorney,100000,1,2025-12-29,2025-12-29,zip,false,960000,3,3,2024
+Tom Cotton,Andrew Smith,Columbus,OH,43209,Opc Polymers,Executive,100000,1,2025-08-06,2025-08-06,zip,true,4410000,24,13,2024/2026
+Tom Cotton,Andy Weiner,Houston,TX,77008,Rockstep Capital,Real Estate Investments,100000,1,2025-09-25,2025-09-25,zip,true,100000,1,1,2026
+Tom Cotton,Anita Wornick,San Francisco,CA,94103,Retired,Retired,100000,1,2026-04-30,2026-04-30,zip,false,3300000,34,30,2024/2026
+Tom Cotton,Arthur Klitofsky,San Diego,CA,92037,Above All Advertising,Coo,100000,1,2025-07-22,2025-07-22,zip,true,935000,15,14,2024/2026
+Tom Cotton,Barry Labell,Boca Raton,FL,33496,Seed And Smith,Owner Founder,100000,1,2026-01-04,2026-01-04,zip,true,2680000,25,20,2024/2026
+Tom Cotton,Barry Silverman,Aventura,FL,33180,Self-Employed,M.D.,100000,1,2026-02-18,2026-02-18,zip,false,3775000,28,27,2024/2026
+Tom Cotton,Benjamin Diament,North Bend,WA,98045,Retired,Retired,100000,1,2025-09-09,2025-09-09,zip,false,2850000,18,15,2024/2026
+Tom Cotton,Benjamin Metzger,Boca Raton,FL,33496,Bbr,Investment,100000,1,2026-01-21,2026-01-21,zip,true,2000000,23,21,2024/2026
+Tom Cotton,Blaine Land,Houston,TX,77056,Self-Employed,Cpa,100000,1,2025-06-30,2025-06-30,zip,false,1350000,12,12,2026
+Tom Cotton,Blake Zale,Dallas,TX,75225,Zale Properties,Real Estate,100000,1,2025-03-18,2025-03-18,zip,true,1000000,11,9,2024/2026
+Tom Cotton,Bonnie Ashman,Westport,CT,06880,Retired,Retired,100000,1,2025-04-18,2025-04-18,zip,false,1220000,12,11,2024/2026
+Tom Cotton,Boris Shekhter,San Diego,CA,92121,Helix Electric,Engineer,100000,1,2025-08-05,2025-08-05,zip,true,1100000,9,9,2024/2026
+Tom Cotton,Brian Landow,Bal Harbour,FL,33154,Embe,Executive,100000,1,2026-02-25,2026-02-25,zip,true,2430000,10,10,2026
+Tom Cotton,Brian Lidji,Dallas,TX,75209,Jackson Walker,Attorney,100000,1,2025-03-07,2025-03-07,zip,true,850000,6,6,2024/2026
+Tom Cotton,Brian Schreiber,New York,NY,10128,The Carlyle Group,Asset Management,100000,1,2025-04-06,2025-04-06,zip,true,1550000,15,12,2024/2026
+Tom Cotton,Brian Shack,Miami,FL,33133,Braman Management,Attorney,100000,1,2025-09-09,2025-09-09,zip,true,2670000,12,9,2024/2026
+Tom Cotton,Carl Youngman,Newton,MA,02458,Retired,Retired,100000,1,2026-01-15,2026-01-15,zip,false,2500000,23,15,2024/2026
+Tom Cotton,Charles Ganz,Sandy Springs,GA,30328,Retired,Retired,100000,1,2026-01-14,2026-01-14,zip,false,706000,14,14,2024/2026
+Tom Cotton,Chuck Berk,Atlanta,GA,30327,Retired,Retired,100000,1,2026-01-14,2026-01-14,zip,false,900000,8,8,2026
+Tom Cotton,Dalit Gal,Atlanta,GA,30350,Not Employed,Not Employed,100000,1,2026-01-16,2026-01-16,zip,false,1200000,12,11,2024/2026
+Tom Cotton,Daniel Desantis,Los Angeles,CA,90048,Morgan & Morgan,Trial Attorney,100000,1,2026-05-05,2026-05-05,zip,true,100000,1,1,2026
+Tom Cotton,Daniel Weiner,San Diego,CA,92130,Weiner Law,Attorney,100000,1,2025-07-21,2025-07-21,zip,true,575000,11,9,2024/2026
+Tom Cotton,David A. Mr. Barish,Sugar Land,TX,77479,Chair King,Executive,100000,1,2025-07-19,2025-07-19,zip,true,1850000,20,14,2024/2026
+Tom Cotton,David Adler,New York,NY,10003,Tag Developments Ltd.,Executive Chairman,100000,1,2026-01-22,2026-01-22,zip,true,880000,8,7,2024/2026
+Tom Cotton,David Bark,San Diego,CA,92109,First American Title,Underwriter,100000,1,2025-07-18,2025-07-18,zip,true,1400000,21,17,2024/2026
+Tom Cotton,David Bramzon,San Diego,CA,92130,Self-Employed,Real Estate Investor,100000,1,2025-08-06,2025-08-06,zip,false,2913000,36,29,2024/2026
+Tom Cotton,David Cohen,Fairfield,CT,06824,Standard Oil Of Connecticut Inc.,Executive,100000,1,2025-04-21,2025-04-21,zip,false,1500000,18,18,2024/2026
+Tom Cotton,David Farahi,Denver,CO,80206,Self-Employed,Executive,100000,1,2025-10-23,2025-10-23,zip,false,1975000,21,20,2024/2026
+Tom Cotton,David Hennes,New York,NY,10021,Ropes & Gray LLP,Lawyer,100000,1,2025-04-05,2025-04-05,zip,true,850000,9,8,2024/2026
+Tom Cotton,David Lewin,Chicago,IL,60611,Goldman Sachs,Investment Advisor,100000,1,2025-08-16,2025-08-16,zip,true,325000,8,8,2024/2026
+Tom Cotton,David Michan,San Diego,CA,92130,Strata Equity Group,Real Estate,100000,1,2025-07-18,2025-07-18,zip,true,925000,14,12,2024/2026
+Tom Cotton,David Mindell,Highland Park,IL,60035,Edelson PC,Lawyer,100000,1,2025-07-30,2025-07-30,zip,true,1000000,17,15,2024/2026
+Tom Cotton,David Mr. Merage,Englewood,CO,80112,Consolidated Investment Group,Principal,100000,1,2025-12-01,2025-12-01,zip,true,750000,6,6,2024/2026
+Tom Cotton,David Porush,San Mateo,CA,94402,Retired,Retired,100000,1,2026-04-29,2026-04-29,zip,false,800000,6,6,2024/2026
+Tom Cotton,David Zweig,Fort Lauderdale,FL,33301,Retired,Retired,100000,1,2025-09-09,2025-09-09,zip,false,2350000,18,17,2024/2026
+Tom Cotton,Douglas Cohn,Tampa,FL,33609,Retired,Retired,100000,1,2026-06-08,2026-06-08,state,false,4520000,27,21,2024
+Tom Cotton,Elizabeth Kaner,Westport,CT,06880,Retired,Retired,100000,1,2025-04-21,2025-04-21,zip,false,4086700,29,19,2024/2026
+Tom Cotton,Elliott Joseph,Jamaica,NY,11432,Retired,Retired,100000,1,2025-09-09,2025-09-09,zip,false,1350000,21,14,2024/2026
+Tom Cotton,Etta Novick,Boca Raton,FL,33434,Retired,Retired,100000,1,2026-01-12,2026-01-12,zip,false,1600000,17,15,2024/2026
+Tom Cotton,Eugene Hirsh,Atlanta,GA,30327,Retired,Retired,100000,1,2026-01-18,2026-01-18,zip,false,1450000,12,10,2024/2026
+Tom Cotton,Gene Light,Carlsbad,CA,92009,Retired,Retired,100000,1,2025-07-22,2025-07-22,zip,false,500000,7,7,2024/2026
+Tom Cotton,Glenn Reicin,Stamford,CT,06905,Eccogene,Cfo,100000,1,2025-04-18,2025-04-18,zip,true,4236700,33,22,2024/2026
+Tom Cotton,Gordon Godfred,Chehalis,WA,98532,Retired,Retired,100000,1,2025-09-09,2025-09-09,zip,false,100000,1,1,2026
+Tom Cotton,Graeme Gabriel,San Diego,CA,92103,Colrich,Real Estate Investor,100000,1,2025-07-31,2025-07-31,zip,true,2215000,18,15,2024/2026
+Tom Cotton,Grant Dorfman,Bellaire,TX,77401,State Of Texas,Judge,100000,1,2025-06-30,2025-06-30,zip,true,2850000,24,20,2024/2026
+Tom Cotton,Grant Herlitz,Dallas,TX,75229,Irongate,Real Estate,100000,1,2025-03-21,2025-03-21,zip,true,700000,7,6,2024/2026
+Tom Cotton,Harry Reidler,Englewood,NJ,07631,Self,Attorney,100000,1,2025-12-29,2025-12-29,zip,false,10000,1,1,2024
+Tom Cotton,Harry Traub,Delray Beach,FL,33446,Retired,Retired,100000,1,2026-01-06,2026-01-06,zip,false,530000,5,4,2024/2026
+Tom Cotton,Helene Behar,Seattle,WA,98118,Behar Company,Commercial Real Estate,100000,1,2025-09-09,2025-09-09,zip,true,650000,7,7,2024/2026
+Tom Cotton,Herbert Rosenberg,Atlanta,GA,30327,National Distributing Company,Executive,100000,1,2026-01-16,2026-01-16,zip,true,1100000,11,11,2024/2026
+Tom Cotton,Hy Saporta,Westport,CT,06880,Steward Partners,Co-Founder,100000,1,2025-04-21,2025-04-21,zip,true,4661700,37,25,2024/2026
+Tom Cotton,Igor Lotsvin,Emerald Hills,CA,94062,Sage Rhino Capital,Managing Partner,100000,1,2026-05-14,2026-05-14,zip,true,2700000,45,39,2024/2026
+Tom Cotton,Irwin Panitch,Potomac,MD,20854,Deloitte Tax LLP,Tax Advisor,100000,1,2026-02-04,2026-02-04,zip,true,1935000,16,14,2024/2026
+Tom Cotton,Isaac Frank,Atlanta,GA,30327,Self,Real Estate,100000,1,2026-01-18,2026-01-18,zip,false,6230000,43,32,2024/2026
+Tom Cotton,Isabelle Teplitsky,Glencoe,IL,60022,Jafi,Nonprofit,100000,1,2025-07-29,2025-07-29,zip,true,1500000,9,9,2026
+Tom Cotton,Ititchko Ezratti,Sunrise,FL,33323,Gl Homes,Founder,100000,1,2026-01-22,2026-01-22,zip,true,100000,1,1,2026
+Tom Cotton,Jacob Kupietzky,Skokie,IL,60076,Self-Employed,Executive,100000,1,2025-08-18,2025-08-18,zip,false,7460000,33,23,2024/2026
+Tom Cotton,James Rubenstein,Fort Myers,FL,33907,Advocate Radiation,Physician,100000,1,2025-09-10,2025-09-10,zip,true,450000,4,4,2026
+Tom Cotton,James Tate,North Miami,FL,33181,Tate Development Corp.,President,100000,1,2026-01-22,2026-01-22,zip,true,1730000,15,15,2024/2026
+Tom Cotton,Jay Eisenberg,Coral Springs,FL,33067,Eisenberg Inv Group,Executive,100000,1,2026-01-04,2026-01-04,zip,false,1250000,20,15,2024/2026
+Tom Cotton,Jeffrey Becker,Gladwyne,PA,19035,Jhw,Investor,100000,1,2025-04-19,2025-04-19,zip,true,100000,1,1,2026
+Tom Cotton,Jeffrey Parker,Englewood,NJ,07631,Parker Lamm,Real Estate,100000,1,2025-12-29,2025-12-29,zip,false,430000,6,4,2024/2026
+Tom Cotton,Jerald Goldstein,Dallas,TX,75230,Fertility Specialist  Of Texas,Physician,100000,1,2025-03-06,2025-03-06,zip,true,100000,1,1,2026
+Tom Cotton,Jeremy Goldstein,Miami Beach,FL,33140,Tierramano LLC,Real Estate Investments,100000,1,2026-01-25,2026-01-25,zip,false,1800000,18,18,2024/2026
+Tom Cotton,Joel Ritch,Kentfield,CA,94914,Fragilepak,Executive Chairman Of The Board,100000,1,2026-05-17,2026-05-17,zip,true,1275000,13,13,2024/2026
+Tom Cotton,Jon Diamond,Bal Harbour,FL,33154,Js Diamond Enterprises,Executive,100000,1,2026-01-21,2026-01-21,zip,true,2510000,11,10,2024/2026
+Tom Cotton,Jonathan Barry,Marietta,GA,30067,Spectrum Maintenance Services,Real Estate,100000,1,2026-01-17,2026-01-17,zip,true,1600000,20,18,2024/2026
+Tom Cotton,Jonathan Mr. Sandler,Wayland,MA,01778,Retired,Retired,100000,1,2025-09-09,2025-09-09,zip,false,593000,11,10,2024/2026
+Tom Cotton,Jonathan Schechter,Englewood,NJ,07631,Kirkland & Ellis,Attorney,100000,1,2025-12-29,2025-12-29,zip,true,1425000,16,15,2024/2026
+Tom Cotton,Jonathan Stern,Skokie,IL,60076,Enfield Private Credit LLC,Finance,100000,1,2025-08-13,2025-08-13,zip,true,125000,2,2,2026
+Tom Cotton,Jose Smith,Miami Beach,FL,33141,Self-Employed,Attorney/ Mediator/ Special Magistrate,100000,1,2026-02-18,2026-02-18,zip,false,300000,3,2,2026
+Tom Cotton,Joshua Muss,Forest Hills,NY,11375,Self,Real Estate,100000,1,2025-12-29,2025-12-29,zip,false,1980000,13,11,2024/2026
+Tom Cotton,Jules Laser,Chicago,IL,60654,,,100000,1,2025-08-19,2025-08-19,zip,false,100000,1,1,2026
+Tom Cotton,Kari Goldberg,Plano,TX,75093,Ubs,Senior Vp,100000,1,2025-03-19,2025-03-19,zip,false,800000,7,7,2024/2026
+Tom Cotton,Keith Singer,Boca Raton,FL,33432,Singer Wealth,Managing Director,100000,1,2026-02-18,2026-02-18,zip,true,700000,8,8,2024/2026
+Tom Cotton,Ken Goldberg,Dallas,TX,75230,Retired,Retired,100000,1,2025-03-12,2025-03-12,zip,false,8220000,73,24,2024/2026
+Tom Cotton,Kenneth Arfa,Houston,TX,77096,Self-Employed,Physician,100000,1,2025-06-30,2025-06-30,zip,false,1150000,14,12,2024/2026
+Tom Cotton,Kenneth Katz,Bellaire,TX,77401,Baker Katz,Real Estate,100000,1,2025-06-30,2025-06-30,zip,true,1600000,20,18,2024/2026
+Tom Cotton,Kevin Shalon,San Diego,CA,92131,Merchant Associates,Manager,100000,1,2025-08-05,2025-08-05,zip,true,950000,11,11,2024/2026
+Tom Cotton,Laura Rose,Golden Beach,FL,33160,Retired,Retired,100000,1,2026-02-18,2026-02-18,zip,false,813000,11,8,2024/2026
+Tom Cotton,Laurence Cohen,Miami Beach,FL,33139,Merus Global Investments LLC,Partner,100000,1,2026-02-18,2026-02-18,zip,true,1280000,17,15,2024/2026
+Tom Cotton,Leonard Russ,Westport,CT,06880,Retired,Retired,100000,1,2025-04-22,2025-04-22,zip,false,900000,9,8,2024/2026
+Tom Cotton,Lesley Bodzy,Houston,TX,77004,Retired,Retired,100000,1,2025-06-30,2025-06-30,zip,false,4755000,32,27,2024/2026
+Tom Cotton,Lisa Bensmihen,Deerfield Beach,FL,33441,United Elder Care Services,Home Care,100000,1,2026-01-04,2026-01-04,zip,true,5200000,46,34,2024/2026
+Tom Cotton,Marcos Mr. Hoffman,Houston,TX,77057,Tfc,Dir,100000,1,2025-09-25,2025-09-25,zip,true,450000,6,4,2024/2026
+Tom Cotton,Mark Cohen,Miami Beach,FL,33141,Self,Self,100000,1,2026-01-21,2026-01-21,zip,false,1950000,23,22,2024/2026
+Tom Cotton,Mark Futrovsky,Delray Beach,FL,33483,Retired,Retired,100000,1,2025-03-09,2025-03-09,zip,false,450000,2,2,2026
+Tom Cotton,Mark Sanders,Houston,TX,77024,Sanders Clinic,Surgeon,100000,1,2025-07-23,2025-07-23,zip,true,1800000,14,12,2024/2026
+Tom Cotton,Mayra Lichter,North Miami,FL,33181,Lichter Law Firm,Attorney,100000,1,2026-02-18,2026-02-18,zip,true,1225000,9,8,2024/2026
+Tom Cotton,Meryl Sitver,Palm Beach Gardens,FL,33418,Retired,Retired,100000,1,2025-09-09,2025-09-09,zip,false,650000,8,8,2024/2026
+Tom Cotton,Michael A. Feiner,Greenwood Village,CO,80111,Feiner Enterprises LLC,President/Ceo,100000,1,2025-10-30,2025-10-30,zip,false,4080000,36,30,2024/2026
+Tom Cotton,Michael Carter,Weston,CT,06883,Carter Morse & Goodrich,Managing Director,100000,1,2025-04-21,2025-04-21,zip,true,1180000,11,10,2024/2026
+Tom Cotton,Michael Grossfeld,Dallas,TX,75230,Retired,Retired,100000,1,2025-03-18,2025-03-18,zip,false,700000,7,7,2026
+Tom Cotton,Michael Kassen,Westport,CT,06880,Self-Employed,Investor,100000,1,2025-04-21,2025-04-21,zip,false,17500000,78,61,2024/2026
+Tom Cotton,Michael Kliegman,Westport,CT,06880,Akin Gump Strauss Hauer & Feld LLP,Attorney,100000,1,2025-04-18,2025-04-18,zip,true,1200000,14,14,2024/2026
+Tom Cotton,Michael Rosner,West Bloomfield,MI,48323,Raymond James,Fa,100000,1,2025-08-19,2025-08-19,zip,true,2150000,17,15,2024/2026
+Tom Cotton,Mitch Siegler,San Diego,CA,92106,Pathfinder Partners,Real Estate,100000,1,2025-07-18,2025-07-18,zip,true,628000,16,12,2024/2026
+Tom Cotton,Morris Kaplan,Newtown,PA,18940,Retired,Retired,100000,1,2025-09-09,2025-09-09,zip,false,2375000,26,16,2024/2026
+Tom Cotton,Mort Friedkin,San Francisco,CA,94104,Friedkin Property,Real Estate Investor,100000,1,2026-04-30,2026-04-30,zip,true,400000,4,4,2024
+Tom Cotton,Nir Maoz,Palo Alto,CA,94306,Ktbs Law LLP,Attorney,100000,1,2026-04-22,2026-04-22,zip,true,300000,3,3,2026
+Tom Cotton,Norman Silvers,Pbg,FL,33418,Retired,Retired,100000,1,2025-09-09,2025-09-09,zip,false,2150000,26,22,2024/2026
+Tom Cotton,Paul Meyer,Bexley,OH,43209,Self,Real Estate,100000,1,2025-09-09,2025-09-09,zip,false,648000,9,8,2024/2026
+Tom Cotton,Paul Segal,San Diego,CA,92130,Retired,Retired,100000,1,2025-07-18,2025-07-18,zip,false,2861000,25,22,2024/2026
+Tom Cotton,Paula Norman,Henderson,NV,89052,Brennan & Roland,Paralegal,100000,1,2025-08-04,2025-08-04,zip,true,450000,7,7,2024/2026
+Tom Cotton,Peter Burnim,Fairfield,CT,06824,Retired,Retired,100000,1,2025-04-18,2025-04-18,zip,false,1650000,16,16,2024/2026
+Tom Cotton,Randy T. Nichols,Denver,CO,80206,Nichols Partnership,Real Estate Developer,100000,1,2025-10-23,2025-10-23,zip,true,1500000,8,6,2024/2026
+Tom Cotton,Rena Stern,Chicago,IL,60645,Retired,Retired,100000,1,2025-08-15,2025-08-15,zip,false,100000,1,1,2026
+Tom Cotton,Rhoda Schneider,Boca Raton,FL,33498,Retired,Retired,100000,1,2026-01-07,2026-01-07,zip,false,2332500,29,23,2024/2026
+Tom Cotton,Rhonda Bass,Bellaire,TX,77401,Homemaker,Homemaker,100000,1,2025-06-30,2025-06-30,zip,false,1700000,18,16,2024/2026
+Tom Cotton,Richard Benkin,Mount Prospect,IL,60056,Retired,Retired,100000,1,2025-08-08,2025-08-08,zip,false,950000,11,9,2024/2026
+Tom Cotton,Richard Bloom,Franklin,MI,48025,Bloom Advisors,Attorney/Financial Advisor,100000,1,2025-09-09,2025-09-09,zip,true,100000,1,1,2026
+Tom Cotton,Richard Gumpert,Kirkland,WA,98034,Self,Real Estate,100000,1,2025-09-09,2025-09-09,zip,false,200000,2,2,2024/2026
+Tom Cotton,Richard Massman,Dallas,TX,75229,Retired,Retired,100000,1,2025-03-11,2025-03-11,zip,false,1300000,13,12,2024/2026
+Tom Cotton,Richard Romanoff,Norwalk,CT,06855,Nebraskaland,Sales,100000,1,2025-04-23,2025-04-23,zip,true,1250000,8,8,2024/2026
+Tom Cotton,Robert Finvarb,Aventura,FL,33180,Robert Finvarb Companies,Real Estate Development,100000,1,2026-01-21,2026-01-21,zip,true,650000,7,6,2026
+Tom Cotton,Robert Hanasab,Los Angeles,CA,90014,Robhana Group Inc,President,100000,1,2025-09-09,2025-09-09,zip,true,2500000,25,23,2024/2026
+Tom Cotton,Robert P. Boiarsky,Englewood,NJ,07631,Alex Brown,Director,100000,1,2025-12-29,2025-12-29,zip,false,100000,1,1,2024
+Tom Cotton,Robert Pincus,Wilmington,DE,19807,Retired,Retired,100000,1,2025-04-08,2025-04-08,zip,false,9340000,54,36,2024/2026
+Tom Cotton,Ron Kaufman,San Francisco,CA,94133,Self-Employed,Real Estate,100000,1,2026-05-14,2026-05-14,zip,false,1750000,21,21,2024/2026
+Tom Cotton,Ronald Scheinzeit,Marietta,GA,30068,Retired,Retired,100000,1,2026-01-23,2026-01-23,zip,false,772500,38,29,2024/2026
+Tom Cotton,Samuel Levine,Yardley,PA,19067,Princeton Oral And Maxillofacial Surge,Oral Surgeon,100000,1,2025-09-09,2025-09-09,zip,true,1000000,15,13,2024/2026
+Tom Cotton,Sarit Catz,Basking Ridge,NJ,07920,Athos Pr,Media Strategist,100000,1,2025-09-09,2025-09-09,zip,true,3070000,17,13,2024/2026
+Tom Cotton,Scott Bohrer,Sandy Springs,GA,30350,Hd Supply,Finance,100000,1,2026-01-18,2026-01-18,zip,true,3230000,24,17,2024/2026
+Tom Cotton,Shay Kuperman,Bellaire,TX,77401,Vinson & Elkins,Lawyer,100000,1,2025-06-30,2025-06-30,zip,true,1325000,13,12,2026
+Tom Cotton,Sheila Schwartz,Atlanta,GA,30327,Retired,Retired,100000,1,2026-01-17,2026-01-17,zip,false,2225000,20,17,2024/2026
+Tom Cotton,Shira Jacobs,Englewood,NJ,07631,Self,Self,100000,1,2025-12-29,2025-12-29,zip,false,80000,3,3,2024
+Tom Cotton,Sidney Ferenc,Boca Raton,FL,33496,Retired,Retired,100000,1,2026-01-08,2026-01-08,zip,false,1350000,10,9,2026
+Tom Cotton,Stanley Sonenshine,Atlanta,GA,30350,Retired,Retired,100000,1,2026-01-20,2026-01-20,zip,false,3760000,35,32,2024/2026
+Tom Cotton,Stephen Waldman,Dallas,TX,75230,Retired,Retired,100000,1,2025-03-11,2025-03-11,zip,false,650000,6,5,2024/2026
+Tom Cotton,Steven Blum,San Diego,CA,92130,Self-Employed,Anesthesiologist,100000,1,2025-07-23,2025-07-23,zip,false,364000,9,8,2024/2026
+Tom Cotton,Steven Caller,Lexington,KY,40502,Retired,Retired,100000,1,2026-01-22,2026-01-22,zip,false,2130000,17,17,2024/2026
+Tom Cotton,Steven Finkelman,Houston,TX,77096,Scope Imports Inc.,Cfo,100000,1,2025-06-30,2025-06-30,zip,false,1860000,28,21,2024/2026
+Tom Cotton,Steven Katz,Short Hills,NJ,07078,Sterling Properties,Real Estate Developer,100000,1,2025-04-10,2025-04-10,zip,true,100000,1,1,2026
+Tom Cotton,Steven Kushner,Atlanta,GA,30306,Fellows Labriola LLP,Attorney,100000,1,2026-01-16,2026-01-16,zip,true,2775000,24,22,2024/2026
+Tom Cotton,Steven R. Mr. Perles,Miami Beach,FL,33140,The Perles Law Firm P.C.,Attorney,100000,1,2026-02-25,2026-02-25,zip,false,100000,1,1,2024
+Tom Cotton,Steven Rosenblum,Denver,CO,80210,Not Employed,Not Employed,100000,1,2025-11-05,2025-11-05,zip,false,5720000,32,28,2024/2026
+Tom Cotton,Steven Solomon,Incline Village,NV,89451,Sas LLC,Consultant,100000,1,2026-04-29,2026-04-29,zip,false,3100000,25,22,2024/2026
+Tom Cotton,Steven Wertheim,Atlanta,GA,30328,Retired,Retired,100000,1,2026-01-16,2026-01-16,zip,false,6230000,40,31,2024/2026
+Tom Cotton,Stuart Meyers,Dunwoody,GA,30338,Retired,Retired,100000,1,2026-01-16,2026-01-16,zip,false,4275000,31,24,2024/2026
+Tom Cotton,Terry Gardner,Houston,TX,77007,Retired,Retired,100000,1,2025-07-21,2025-07-21,zip,false,3650000,44,30,2024/2026
+Tom Cotton,Tim Williams,Douglasville,GA,30135,Retired,Retired,100000,1,2026-01-16,2026-01-16,zip,false,2400000,25,21,2024/2026
+Tom Cotton,Tyler Ross,New York,NY,10013,Reverence Capital Partners,Private Equity Investor,100000,1,2025-04-21,2025-04-21,zip,true,200000,2,2,2026
+Tom Cotton,Viktor Litvinov,Stamford,CT,06903,Emp,Occ,100000,1,2025-09-09,2025-09-09,zip,true,299489,197,196,2024/2026
+Tom Cotton,William Gray,Plantation,FL,33325,76undefeated,Mgr,100000,1,2026-01-27,2026-01-27,zip,true,5721400,37,31,2024/2026
+Tom Cotton,Wolf Bielas,San Diego,CA,92101,Downtownworks,Manager,100000,1,2025-08-01,2025-08-01,zip,true,900000,15,15,2024/2026
+Tom Cotton,Yaniv Reeis,New York,NY,10004,,,100000,1,2025-07-19,2025-07-19,zip,false,100000,1,1,2026
+Tom Cotton,Yehuda Blinder,Englewood,NJ,07631,Adar Investment Management LLC,Money Management,100000,1,2025-12-29,2025-12-29,zip,false,178000,5,5,2024/2026
+Tom Cotton,Yehuda Neuberger,Baltimore,MD,21208,Self-Employed,Finance Professional,100000,1,2026-02-18,2026-02-18,zip,false,26695000,143,105,2024/2026
+Tom Cotton,Bill Kleinman,Plano,TX,75093,Haynesboone,Attorney,80000,2,2025-03-19,2025-11-03,zip,true,1575000,23,20,2024/2026
+Tom Cotton,Alan Nussenblatt,Calabasas,CA,91302,Retired,Retired,75000,1,2025-11-14,2025-11-14,zip,false,1600000,30,29,2024/2026
+Tom Cotton,Bruce Werner,Lincolnshire,IL,60069,Self-Employed,Business,75000,1,2025-08-12,2025-08-12,zip,false,2648000,62,48,2024/2026
+Tom Cotton,James Holtz,Pleasanton,CA,94566,Retired,Retired,75000,1,2026-05-02,2026-05-02,zip,false,1350000,22,22,2024/2026
+Tom Cotton,Jeffrey Liber,San Diego,CA,92130,Retired,Retired,75000,1,2025-07-30,2025-07-30,zip,false,600000,13,11,2024/2026
+Tom Cotton,Gilat Englanoff,Henderson,NV,89074,,,62500,1,2025-05-16,2025-05-16,zip,false,250000,4,4,2026
+Tom Cotton,Scott Fane,Delray Beach,FL,33483,Scott Fane Cpa Pa,Cpa,60000,2,2026-01-21,2026-06-28,zip,true,1945000,72,41,2024/2026
+Tom Cotton,Abraham Boskovitz,Piedmont,CA,94610,Self-Employed,Md,50000,1,2026-05-05,2026-05-05,zip,false,50000,1,1,2026
+Tom Cotton,Alan Kaplan,Wilmette,IL,60091,Retired,Retired,50000,1,2025-08-08,2025-08-08,zip,false,270000,6,6,2026
+Tom Cotton,Alison Pure-Slovin,Skokie,IL,60076,Simon Wiesenthal Center,Director Social Action And Partnershi,50000,1,2025-08-19,2025-08-19,zip,true,200000,4,4,2026
+Tom Cotton,Amy Goldman,Boca Raton,FL,33496,Retired,Retired,50000,1,2026-01-08,2026-01-08,zip,false,2608200,19,17,2024/2026
+Tom Cotton,Andrew Ernstein,Overland Park,KS,66212,Primary Systems Inc.,Sales,50000,1,2025-09-09,2025-09-09,zip,false,725000,12,9,2024/2026
+Tom Cotton,Arnold Mars,Pompano Beach,FL,33062,Retired,Retired,50000,1,2026-01-04,2026-01-04,zip,false,1142000,26,20,2024/2026
+Tom Cotton,Barbara Osband,Boca Raton,FL,33433,Retired,Retired,50000,1,2026-01-09,2026-01-09,zip,false,850000,17,14,2024/2026
+Tom Cotton,Barry Topol,Danville,CA,94526,Assessment Solutions Group,Consultant,50000,1,2026-04-29,2026-04-29,zip,true,1721000,37,33,2024/2026
+Tom Cotton,Benjamin Freedman,Boca Raton,FL,33433,Radiology Associates Of Hollywood,Physician,50000,1,2026-01-04,2026-01-04,zip,true,550000,10,9,2026
+Tom Cotton,Benjamin Tripp,Boca Raton,FL,33433,Benjamin Tripp Md PC,Physician,50000,1,2026-01-09,2026-01-09,zip,false,500000,10,9,2024/2026
+Tom Cotton,Bret Maxwell,Northbrook,IL,60062,Mk Capital,Venture Capital,50000,1,2025-08-14,2025-08-14,zip,true,900000,17,15,2024/2026
+Tom Cotton,Brian Doppelt,Boca Raton,FL,33496,Bainbridge Companies,Executive,50000,1,2026-01-12,2026-01-12,zip,true,3396800,27,20,2024/2026
+Tom Cotton,Bruce Weininger,Kamas,UT,84036,Kovitz Investment Group,Consultant,50000,1,2025-08-18,2025-08-18,zip,true,3422000,65,47,2024/2026
+Tom Cotton,Bryan Wax,San Diego,CA,92130,Bw Angel Investments,President,50000,1,2025-08-05,2025-08-05,zip,true,625000,9,9,2024/2026
+Tom Cotton,Cary Subel,Rancho Santa Fe,CA,92067,Self-Employed,Ceo,50000,1,2025-08-12,2025-08-12,zip,false,230000,3,3,2024/2026
+Tom Cotton,Cindy Miranda,Bonita Springs,FL,34134,Retired,Retired,50000,1,2026-02-18,2026-02-18,zip,false,50000,1,1,2026
+Tom Cotton,Claudia Felson,Castro Valley,CA,94546,Not Employed,Not Employed,50000,1,2026-04-28,2026-04-28,zip,false,1775000,29,26,2024/2026
+Tom Cotton,Daniel Shkolnik,San Diego,CA,92101,Atlas West Group,Real Estate,50000,1,2025-08-15,2025-08-15,zip,true,175000,4,4,2024/2026
+Tom Cotton,David Chaifetz,Fl - Sarasota,FL,34236,Retired,Retired,50000,1,2025-09-09,2025-09-09,zip,false,3975000,24,15,2024/2026
+Tom Cotton,David Hirsch,Greenwich,CT,06830,Umergence,Investment Banking,50000,1,2025-04-17,2025-04-17,zip,true,850000,10,10,2024/2026
+Tom Cotton,David Kay,Boca Raton,FL,33433,Elevate Ent,Physician,50000,1,2026-01-06,2026-01-06,zip,true,700000,14,12,2024/2026
+Tom Cotton,Dawn Pray,Miami,FL,33169,Se Chiro,Consultant,50000,1,2026-04-21,2026-04-21,zip,true,520000,10,5,2026
+Tom Cotton,Debbie Groyer,Leander,TX,78641,Retired,Retired,50000,1,2025-07-23,2025-07-23,zip,false,125000,3,3,2026
+Tom Cotton,Edward Reed,Virginia Beach,VA,23455,Givens Group,Management,50000,1,2025-09-09,2025-09-09,zip,true,2250000,25,17,2024/2026
+Tom Cotton,Ellen Stu Morris,Delray Beach,FL,33483,Cozen O'Connor,Attorney,50000,1,2026-01-20,2026-01-20,zip,true,1970000,24,18,2024/2026
+Tom Cotton,Ellis Norsoph,Boca Raton,FL,33496,Self,Physician,50000,1,2026-01-06,2026-01-06,zip,false,1825000,23,21,2024/2026
+Tom Cotton,Elyse Litwack,Chicago,IL,60645,Wayfarer Pathways,President,50000,1,2025-08-08,2025-08-08,zip,false,50000,1,1,2026
+Tom Cotton,Emil Bernstein,Boca Raton,FL,33496,Retired,Retired,50000,1,2026-01-05,2026-01-05,zip,false,725000,14,11,2024/2026
+Tom Cotton,Ethel C. Fenig,Chicago,IL,60645,Retired,Retired,50000,1,2025-08-08,2025-08-08,zip,false,138000,4,4,2026
+Tom Cotton,Evan Borenstein,Englewood,NJ,07631,Katten Muchin Rosenman LLP,Attorney,50000,1,2025-12-29,2025-12-29,zip,true,120000,12,12,2024/2026
+Tom Cotton,Fred Nasseri,Solana Beach,CA,92075,Unicorn,Retail Sales,50000,1,2025-08-06,2025-08-06,zip,true,275000,6,6,2024/2026
+Tom Cotton,Gary Hertzberg,Boca Raton,FL,33496,Retired,Retired,50000,1,2026-01-04,2026-01-04,zip,false,1510000,27,22,2024/2026
+Tom Cotton,Geoff Bohne,Poway,CA,92064,Self-Employed,Construction,50000,1,2025-08-11,2025-08-11,zip,false,50000,1,1,2026
+Tom Cotton,George Frankenstein,San Francisco,CA,94127,Retired,Retired,50000,1,2026-04-28,2026-04-28,zip,false,741000,21,20,2026
+Tom Cotton,George W. Mr. Blank,New Hope,PA,18938,Retired,Retired,50000,1,2025-02-27,2025-02-27,zip,false,2199900,18,9,2024/2026
+Tom Cotton,Graham Miller,Boca Raton,FL,33486,The Bloom Organization,Banker,50000,1,2026-01-10,2026-01-10,zip,true,575000,8,8,2026
+Tom Cotton,Guy Reggev,San Diego,CA,92103,Self-Employed,Nursing Home,50000,1,2025-08-04,2025-08-04,zip,false,700000,10,8,2024/2026
+Tom Cotton,Hank Finesilver,Rancho Mirage,CA,92270,,Lawyer,50000,1,2025-08-06,2025-08-06,zip,false,200000,5,5,2024/2026
+Tom Cotton,Hannah Jarson,Rancho Santa Fe,CA,92067,Retired,Retired,50000,1,2025-07-22,2025-07-22,zip,false,550000,10,9,2024/2026
+Tom Cotton,Helen Loewenstein,Pleasant Hill,CA,94523,Retired,Retired,50000,1,2026-04-29,2026-04-29,zip,false,1180000,13,10,2024/2026
+Tom Cotton,Irina Lyapis,San Francisco,CA,94117,Atlassian,Attorney,50000,1,2026-05-12,2026-05-12,zip,true,200000,4,4,2026
+Tom Cotton,Irwin Barg,Bellaire,TX,77401,Schlanger Silver LLP,Attorney,50000,1,2025-09-14,2025-09-14,zip,false,600000,8,8,2026
+Tom Cotton,Jack Levin,Winnetka,IL,60093,Kirkland & Ellis,Attorney,50000,1,2025-08-19,2025-08-19,zip,true,7530000,33,26,2024/2026
+Tom Cotton,James J. Butera,Stevensville,MD,21666,,,50000,1,2025-05-02,2025-05-02,state,false,100000,1,1,2024
+Tom Cotton,Jeff Schindler,San Diego,CA,92120,Retired,Retired,50000,1,2025-08-06,2025-08-06,zip,false,500000,8,8,2024/2026
+Tom Cotton,Jeffrey Elfont,Danville,CA,94526,Pinnacle Capital Management,Investments,50000,1,2026-04-29,2026-04-29,zip,true,150000,3,3,2026
+Tom Cotton,Jeffrey Fisher,New York,NY,10021,Touro University,Special Programs Administrator,50000,1,2025-03-11,2025-03-11,zip,true,16828326,293,202,2024/2026
+Tom Cotton,Jeffrey Goldberg,Boca Raton,FL,33431,The Milestone Group,Real Estate,50000,1,2026-01-12,2026-01-12,zip,true,3660000,28,22,2024/2026
+Tom Cotton,Jonathan H. Wornick,Lafayette,CA,94549,Self-Employed,Investor,50000,1,2026-05-15,2026-05-15,zip,false,3134000,30,22,2024/2026
+Tom Cotton,Joseph A. Mr. Czyzyk,Rolling Hills,CA,90274,Mercury Aviation LLC,Ceo,50000,1,2026-06-16,2026-06-16,zip,false,1150000,6,4,2026
+Tom Cotton,Joshua Feder,San Diego,CA,92130,Self-Employed,Physician,50000,1,2025-07-30,2025-07-30,zip,false,4580000,35,28,2024/2026
+Tom Cotton,Julie Ovadia,Lafayette,CA,94549,Retired,Retired,50000,1,2026-04-29,2026-04-29,zip,false,2790000,22,18,2024/2026
+Tom Cotton,Justin Hertzberg,Delray Beach,FL,33446,Fpfx Technologies,Ceo,50000,1,2026-01-11,2026-01-11,zip,true,1100000,18,15,2024/2026
+Tom Cotton,Karen Lombart,Boca Raton,FL,33496,Retired,Retired,50000,1,2026-01-04,2026-01-04,zip,false,275000,6,6,2024/2026
+Tom Cotton,Keith J. Roland,Slingerlands,NY,12159,Roland Law Firm,Attorney,50000,1,2025-09-16,2025-09-16,zip,true,725000,6,4,2024/2026
+Tom Cotton,Kenneth Blatt,Boca Raton,FL,33496,Cpg Real Estate,Businessman,50000,1,2026-01-12,2026-01-12,zip,true,1900000,18,15,2024/2026
+Tom Cotton,Kenneth Goldman,Orinda,CA,94563,Eso Fund,Finance,50000,1,2026-04-29,2026-04-29,zip,true,650000,12,12,2026
+Tom Cotton,Kenneth Segal,Englewood,NJ,07631,Segbro Construction Corp,Owner,50000,1,2025-12-29,2025-12-29,zip,false,50000,1,1,2024
+Tom Cotton,Kevin Von Neuschatz,Miami,FL,33131,Stanhope Financial,Executive,50000,1,2026-02-18,2026-02-18,zip,true,3125100,22,18,2024/2026
+Tom Cotton,Kevin Wexler,Carlsbad,CA,92011,Reliant Parking Solutions,Ceo,50000,1,2025-07-31,2025-07-31,zip,true,275000,9,8,2026
+Tom Cotton,Lary R. Kupor,Bellaire,TX,77401,Self-Employed,Doctor,50000,1,2025-07-01,2025-07-01,zip,false,960000,20,13,2024/2026
+Tom Cotton,Lawrence D. Mr. Finder,Houston,TX,77081,Baker & Mckenzie LLP,Attorney,50000,1,2025-09-25,2025-09-25,zip,false,217500,6,5,2024/2026
+Tom Cotton,Leonard Grunstein,Boca Raton,FL,33433,Retired,Retired,50000,1,2026-01-04,2026-01-04,zip,false,1000000,14,13,2024/2026
+Tom Cotton,Lisa Philipson,Boca Raton,FL,33496,Retired,Retired,50000,1,2026-01-08,2026-01-08,zip,false,450000,7,6,2024/2026
+Tom Cotton,Mark Horn,Boca Raton,FL,33432,Retired,Retired,50000,1,2026-01-06,2026-01-06,zip,false,900000,18,15,2024/2026
+Tom Cotton,Marty Glick,Piedmont,CA,94611,Golden State LLC,Advisor,50000,1,2026-04-29,2026-04-29,zip,true,3320000,31,28,2024/2026
+Tom Cotton,Matthew Kahn,Delray Beach,FL,33444,Mrsakahn II LLC,Consultant,50000,1,2026-01-21,2026-01-21,zip,false,1250000,21,19,2024/2026
+Tom Cotton,Michael Geller,Aurora,CO,80011,Beverage Distributors Company LLC,Ceo,50000,1,2025-11-14,2025-11-14,zip,false,450000,8,8,2024/2026
+Tom Cotton,Michael Rose,Boca Raton,FL,33432,Rose Real Estate Services Inc.,Real Estate,50000,1,2026-01-22,2026-01-22,zip,false,2775000,30,21,2024/2026
+Tom Cotton,Michael Sosebee,Oakland,CA,94610,Equipmentshare,Senior Operations Manager,50000,1,2026-04-28,2026-04-28,zip,true,1325000,13,12,2024/2026
+Tom Cotton,Mitchell Kopelman,Inlet Beach,FL,32461,Aprio LLP,Cpa,50000,1,2026-01-18,2026-01-18,zip,false,1050000,11,11,2026
+Tom Cotton,Mitchell Weitzner,Englewood,NJ,07631,Self,Inv,50000,1,2025-12-29,2025-12-29,zip,false,10000,1,1,2024
+Tom Cotton,Naomi Richman,Princeton,NJ,08540,Moody Investors Service,Svp,50000,1,2025-12-29,2025-12-29,zip,false,50000,1,1,2024
+Tom Cotton,Nathan Lichtenstein,Skokie,IL,60076,Aronberg Goldgehn,Of Counsel,50000,1,2025-08-11,2025-08-11,zip,true,275000,7,7,2026
+Tom Cotton,Noam Lotan,Boynton Beach,FL,33473,Retired,Retired,50000,1,2026-01-06,2026-01-06,zip,false,390000,8,8,2026
+Tom Cotton,Paul Rosenberg,Hollywood,FL,33312,Self,Attorney,50000,1,2025-09-09,2025-09-09,zip,false,2180000,14,12,2024/2026
+Tom Cotton,Perri Wittgrove,San Diego,CA,92120,Retired,Retired,50000,1,2025-07-30,2025-07-30,zip,false,460000,14,10,2024/2026
+Tom Cotton,Phoebe Nir,San Francisco,CA,94118,Self-Employed,Filmmaker,50000,1,2026-04-30,2026-04-30,zip,false,300000,6,6,2026
+Tom Cotton,Rand Schwartzwald,Boca Raton,FL,33434,One Oncology,Administrator,50000,1,2026-01-16,2026-01-16,zip,true,1935000,34,24,2024/2026
+Tom Cotton,Randall Kessler,Piedmont,CA,94611,Kessler & Kessler,Attorney,50000,1,2026-04-28,2026-04-28,zip,true,250000,4,4,2026
+Tom Cotton,Randee Rubenstein,Delray Beach,FL,33446,Retired,Retired,50000,1,2026-01-13,2026-01-13,zip,false,700000,14,12,2024/2026
+Tom Cotton,Richard Linevsky,Ft. Lauderdale,FL,33331,Not Employed,Not Employed,50000,1,2025-09-09,2025-09-09,zip,false,950000,10,10,2024/2026
+Tom Cotton,Robert Cohen,Boca Raton,FL,33496,Retired,Retired,50000,1,2026-01-09,2026-01-09,zip,false,450000,8,7,2026
+Tom Cotton,Robin Struhl,Boca Raton,FL,33433,Self,Interior Designer,50000,1,2026-01-28,2026-01-28,zip,false,850000,11,11,2024/2026
+Tom Cotton,Samuel Dwek,Delray Beach,FL,33483,Self,Consultant,50000,1,2026-01-04,2026-01-04,zip,false,1375000,17,12,2024/2026
+Tom Cotton,Samuel Umansky,San Diego,CA,92130,Sm Internationalt Trading Corp,Owner,50000,1,2025-08-05,2025-08-05,zip,true,350000,6,6,2024/2026
+Tom Cotton,Simeon Fensterheim,Boca Raton,FL,33433,Retired,Retired,50000,1,2026-01-05,2026-01-05,zip,false,1400000,18,16,2024/2026
+Tom Cotton,Sonya Jinich,La Jolla,CA,92037,Homemaker,Homemaker,50000,1,2025-07-31,2025-07-31,zip,false,550000,10,8,2024/2026
+Tom Cotton,Steven Rothke,Morton Grove,IL,60053,Steven E Rothke Phd PC,Neuropsychologist,50000,1,2025-08-10,2025-08-10,zip,false,295000,9,8,2024/2026
+Tom Cotton,Stuart Cohn,Winnetka,IL,60093,Law Offices Of Stuart A. Cohn,Lawyer,50000,1,2025-08-19,2025-08-19,zip,true,50000,1,1,2026
+Tom Cotton,Vickie Sachs,Delray Beach,FL,33483,Retired,Retired,50000,1,2026-01-05,2026-01-05,zip,false,925000,19,17,2024/2026
+Tom Cotton,Viktor Goldenberg,North Miami Beach,FL,33160,Self-Employed,Real Estated Development,50000,1,2026-02-18,2026-02-18,zip,false,896000,15,14,2024/2026
+Tom Cotton,William Epstein,Piedmont,CA,94611,Retired,Retired,50000,1,2026-05-02,2026-05-02,zip,false,350000,9,9,2024/2026
+Tom Cotton,William Miranda,Bonita Springs,FL,34134,Retired,Retired,50000,1,2026-02-18,2026-02-18,zip,false,50000,1,1,2026
+Tom Cotton,Yaakov Kronfeld,Boca Raton,FL,33433,Retired,Retired,50000,1,2026-01-04,2026-01-04,zip,false,825000,18,15,2024/2026
+Tom Cotton,Zorik Spektor,Boca Raton,FL,33433,Florida Ent Associates,Physician,50000,1,2026-01-21,2026-01-21,zip,true,250000,6,6,2024/2026
+Tom Cotton,Gary Roberts,Lake Havasu City,AZ,86404,Retired,Retired,36500,5,2025-01-07,2025-03-06,zip,false,10000,1,1,2024
+Tom Cotton,Josh Hunegs,Bloomfield Hills,MI,48304,H.W. Kaufman,Cio,36000,1,2025-08-13,2025-08-13,zip,true,85800,3,3,2026
+Tom Cotton,Peggy Shapiro,Deerfield,IL,60015,Exec Director,Educator,36000,1,2025-08-15,2025-08-15,zip,true,61000,2,2,2024/2026
+Tom Cotton,Arnold Jacobson,Alamo,CA,94507,Retired,Retired,25000,1,2026-04-30,2026-04-30,zip,false,445000,12,12,2024/2026
+Tom Cotton,Bradley Alter,Skokie,IL,60076,Self-Employed,Consultant,25000,1,2025-08-19,2025-08-19,zip,false,305000,12,8,2024/2026
+Tom Cotton,Howard Schneider,Glenview,IL,60026,Retired,Retired,25000,1,2025-08-14,2025-08-14,zip,false,35000,2,2,2024/2026
+Tom Cotton,Jay Koppelman,Pleasant Hill,CA,94523,Retired,Retired,25000,1,2026-04-28,2026-04-28,zip,false,450000,18,17,2024/2026
+Tom Cotton,Kevin Fisher,Atlanta,GA,30309,Kevin R. Fisher Esq,Attorney,25000,1,2026-01-18,2026-01-18,zip,false,118000,3,3,2024
+Tom Cotton,Lawrence Friedman,Skokie,IL,60076,Self-Employed,Director,25000,1,2025-08-08,2025-08-08,zip,false,2010000,70,52,2024/2026
+Tom Cotton,Miriam Friedman,Skokie,IL,60076,Homemaker,Homemaker,25000,1,2025-08-19,2025-08-19,zip,false,83000,6,6,2024/2026
+Tom Cotton,Moshe Friedman,Skokie,IL,60076,Becker Gurian,Attorney,25000,1,2025-08-20,2025-08-20,zip,true,1480000,14,12,2024/2026
+Tom Cotton,Sidney Mathias,Highland Park,IL,60035,Retired,Retired,25000,1,2025-08-17,2025-08-17,zip,false,35000,2,2,2024/2026
+Tom Cotton,Stephen Epstein,Palm Beach Gardens,FL,33410,Retired,Retired,25000,1,2026-03-15,2026-03-15,zip,false,500000,16,9,2024/2026
+Tom Cotton,Steven Lavenda,Chicago,IL,60645,Retired,Retired,25000,1,2025-08-12,2025-08-12,zip,false,50000,2,2,2026
+Tom Cotton,William Weiss,Englewood,NJ,07631,Paperclip Software,Executive,25000,1,2025-12-29,2025-12-29,zip,false,275000,13,10,2024/2026
+Tom Cotton,Yefim Kotlyar,Skokie,IL,60077,Retired,Retired,25000,1,2025-08-11,2025-08-11,zip,false,40000,3,3,2024/2026
+Tom Cotton,Yossi Chai Held,Chicago,IL,60645,Standwithus,Executive Director Midwest,25000,1,2025-08-13,2025-08-13,zip,true,75000,2,2,2026
+Tom Cotton,Richard Cohen,New York,NY,10025,Retired,Retired,23200,7,2025-04-12,2026-06-19,zip,false,10000,1,1,2024
+Tom Cotton,Michael M. Dr. Rosen,Teaneck,NJ,07666,Retired,Retired,20000,2,2025-06-05,2025-08-08,zip,false,90000,6,2,2024/2026
+Tom Cotton,Edward G. Mr. Lewis,Los Angeles,CA,90067,Retired,Retired,15600,2,2025-04-23,2026-02-03,zip,false,10000,1,1,2024
+Tom Cotton,Michael Friedman,Boca Raton,FL,33496,Retired,Retired,10400,1,2026-01-08,2026-01-08,zip,false,1000000,2,0,2024
+Tom Cotton,Edward N. Mr. Robinson,Saint George,UT,84770,Retired,Retired,10000,1,2025-02-25,2025-02-25,zip,false,180000,3,0,2026
+Tom Cotton,Evan Ellman,Chicago,IL,60640,Retired,Retired,10000,1,2025-12-31,2025-12-31,zip,false,20000,2,1,2026
+Tom Cotton,Herbert Heflich,Martinsville,NJ,08836,Retired,Retired,10000,1,2025-02-26,2025-02-26,zip,false,2175000,21,15,2024/2026
+Tom Cotton,Paul Lubetkin,Brooklyn,NY,11201,Retired,Retired,10000,1,2026-02-18,2026-02-18,zip,false,345000,94,55,2024/2026
+Tom Cotton,Sandra Hunt,Glendora,CA,91741,Arc West Coast,Broker,6400,3,2025-01-29,2025-12-29,zip,false,6500,3,2,2024/2026
+Tom Cotton,Peter Farrell,Houston,TX,77019,Resmed Inc.,Chairman,6000,9,2025-04-18,2025-08-15,zip,false,50000,1,1,2024
+Tom Cotton,Steven Berlin,St Thomas,VI,00802,Retired,Retired,5000,1,2025-12-11,2025-12-11,zip,false,10000,2,2,2024/2026
+Tom Cotton,Susan Shabsels,Brooklyn,NY,11215,Retired,Retired,4700,1,2025-02-18,2025-02-18,zip,false,90000,5,3,2024/2026
+Tom Cotton,Irving Jacobs,Beverly Hills,CA,90211,Retired,Retired,3000,1,2026-03-03,2026-03-03,zip,false,50000,1,0,2026
+Hallie Shoffner,Steven Reisman,Port Washington,NY,11050,Katten,Attorney,230500,1,2025-12-19,2025-12-19,zip,false,200200,1,1,2024
+Hallie Shoffner,Craig Smith,Glenwood,FL,33324,Not Employed,Not Employed,50000,1,2026-03-18,2026-03-18,state,false,100000,1,1,2026
+Hallie Shoffner,David Smith,Hutchinson Island,FL,34949,Not Employed,Not Employed,25000,1,2025-09-12,2025-09-12,state,false,125000,2,2,2026
+Hallie Shoffner,Karen Sherwood,Sherman Oaks,CA,91403,Self,Producer,2500,1,2026-06-09,2026-06-09,state,false,20000,1,1,2026

@@ -1,0 +1,119 @@
+{
+  "generatedAt": "2026-11-13T22:38:20.769Z",
+  "dataCurrentThrough": {
+    "independentExpenditures": "2026-11-02",
+    "campaignFinances": "2026-10-14",
+    "campaignFinancesByCandidate": {
+      "murphy": "2026-10-14",
+      "booker": "2026-10-14"
+    },
+    "superPacDonors": {
+      "C00800995": "2026-09-30",
+      "C00881011": "2026-10-14",
+      "C00684258": "2026-10-14",
+      "C00260331": "2026-10-14",
+      "C00032979": "2026-10-14"
+    },
+    "aipacEarmarks": "2026-10-14",
+    "donorNetwork": {
+      "murphy": "2026-06-30",
+      "booker": "2026-06-30",
+      "network": "2026-10-14"
+    },
+    "filingsProcessed": "2026-11-13"
+  },
+  "summary": {
+    "murphy": {
+      "totalReceiptsCents": 6818887,
+      "transfersFromAuthCents": 0,
+      "totalDisbursementsCents": 5710219,
+      "cashOnHandCents": 1019062,
+      "candidateContribCents": 0,
+      "candidateLoansCents": 493196,
+      "totalIndividualCents": 5678076,
+      "otherCommitteeContribCents": 257000,
+      "coverageEnd": "2026-10-14",
+      "individualRefundsCents": 100000,
+      "outsideSupportingCents": 105961,
+      "outsideOpposingCents": 585144,
+      "outsideBenefitingCents": 105961
+    },
+    "booker": {
+      "totalReceiptsCents": 2127516252,
+      "transfersFromAuthCents": 441046314,
+      "totalDisbursementsCents": 956823779,
+      "cashOnHandCents": 2289941072,
+      "candidateContribCents": 0,
+      "candidateLoansCents": 0,
+      "totalIndividualCents": 1567500116,
+      "otherCommitteeContribCents": 51278000,
+      "coverageEnd": "2026-10-14",
+      "individualRefundsCents": 22444635,
+      "outsideSupportingCents": 1332897,
+      "outsideOpposingCents": 0,
+      "outsideBenefitingCents": 1918041
+    }
+  },
+  "outsideByCommittee": [
+    {
+      "committeeId": "C00800995",
+      "committee": "Democratic Messaging Project",
+      "fecType": "O",
+      "forMurphy": 0,
+      "againstMurphy": 0,
+      "forBooker": 1015000,
+      "againstBooker": 0,
+      "total": 1015000,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610149908817702",
+      "latestDate": "2026-09-30"
+    },
+    {
+      "committeeId": "C00881011",
+      "committee": "Unity & Justice Fund",
+      "fecType": "O",
+      "forMurphy": 0,
+      "againstMurphy": 585144,
+      "forBooker": 0,
+      "againstBooker": 0,
+      "total": 585144,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202611039945324465",
+      "latestDate": "2026-11-02"
+    },
+    {
+      "committeeId": "C00684258",
+      "committee": "Unidosus Action PAC",
+      "fecType": "O",
+      "forMurphy": 0,
+      "againstMurphy": 0,
+      "forBooker": 300000,
+      "againstBooker": 0,
+      "total": 300000,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306941",
+      "latestDate": "2026-10-30"
+    },
+    {
+      "committeeId": "C00260331",
+      "committee": "New Jersey Right To  Life Committee Federal PAC",
+      "fecType": "Q",
+      "forMurphy": 105961,
+      "againstMurphy": 0,
+      "forBooker": 0,
+      "againstBooker": 0,
+      "total": 105961,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610069908543853",
+      "latestDate": "2026-10-05"
+    },
+    {
+      "committeeId": "C00032979",
+      "committee": "D.r.i.v.e. - Dem, Rep, Ind Voter Ed (The PAC Of The Int'l BRHD Of Teamsters)",
+      "fecType": "Q",
+      "forMurphy": 0,
+      "againstMurphy": 0,
+      "forBooker": 17897,
+      "againstBooker": 0,
+      "total": 17897,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945298659",
+      "latestDate": "2026-10-27"
+    }
+  ]
+}

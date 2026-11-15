@@ -1,0 +1,32 @@
+name: Resolve Futarchy Markets
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"  # Weekly Monday 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: resolve-markets
+  cancel-in-progress: false
+
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Check market resolutions (3-tier oracle)
+        run: node scripts/resolve-markets.js
+      - name: Commit settled markets
+        run: |
+          git config user.name "polytab-bot"
+          git config user.email "polytab-bot@users.noreply.github.com"
+          git add docs/data/markets.json
+          if git diff --cached --quiet; then echo "No market state changes"; else git commit -m "Market oracle: resolution state update"; git pull --rebase origin main; git push; fi

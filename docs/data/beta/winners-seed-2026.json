@@ -1,0 +1,1230 @@
+{
+  "_comment": "Auto-generated seed for 2026 US Senate races (VoteLog snapshots + OpenFEC + congress-legislators). won_race=true enables draft emission; review/verify certified winners and opponent sets before finalizing. Vote/bounty text remains placeholders in generated outputs.",
+  "generated_at": "2026-11-15T22:08:52.367Z",
+  "races": [
+    {
+      "office_type": "us_senate",
+      "election_year": 2026,
+      "state": "US-AL",
+      "district": null,
+      "race_type": "regular",
+      "senate_class": 2,
+      "subject": {
+        "name": "Felix Barry Moore",
+        "party": "R",
+        "incumbent": true,
+        "won_race": true,
+        "fec_candidate_ids": [
+          "S6AL00476",
+          "H8AL02171"
+        ],
+        "votelog_slug": "moore",
+        "votelog_listed": true,
+        "bioguide_id": "M001212",
+        "opensecrets_cid": "N00041295"
+      },
+      "opponents_nov_general": [
+        {
+          "name": "Everett W Wess",
+          "party": "D",
+          "fec_candidate_id": "S6AL00518"
+        }
+      ],
+      "_seed_meta": {
+        "source": "auto-generated from VoteLog race snapshots + OpenFEC candidates + congress-legislators",
+        "votelog_data_slug": "al-senate-general",
+        "votelog_race_slug": "alabama-senate-general-money",
+        "special": false,
+        "note": "won_race set true for draft emission; verify certified winner/opponent set before finalizing."
+      }
+    },
+    {
+      "office_type": "us_senate",
+      "election_year": 2026,
+      "state": "US-AK",
+      "district": null,
+      "race_type": "regular",
+      "senate_class": 2,
+      "subject": {
+        "name": "Dan Sullivan",
+        "party": "R",
+        "incumbent": true,
+        "won_race": true,
+        "fec_candidate_ids": [
+          "S4AK00214"
+        ],
+        "votelog_slug": "sullivan",
+        "votelog_listed": true,
+        "bioguide_id": "S001198",
+        "opensecrets_cid": "N00035774"
+      },
+      "opponents_nov_general": [
+        {
+          "name": "Mary Peltola",
+          "party": "D",
+          "fec_candidate_id": "S6AK00276"
+        }
+      ],
+      "_seed_meta": {
+        "source": "auto-generated from VoteLog race snapshots + OpenFEC candidates + congress-legislators",
+        "votelog_data_slug": "ak-senate-general",
+        "votelog_race_slug": "alaska-senate-general-money",
+        "special": false,
+        "note": "won_race set true for draft emission; verify certified winner/opponent set before finalizing."
+      }
+    },
+    {
+      "office_type": "us_senate",
+      "election_year": 2026,
+      "state": "US-AR",
+      "district": null,
+      "race_type": "regular",
+      "senate_class": 2,
+      "subject": {
+        "name": "Thomas Cotton",
+        "party": "R",
+        "incumbent": true,
+        "won_race": true,
+        "fec_candidate_ids": [
+          "S4AR00103",
+          "H2AR04083"
+        ],
+        "votelog_slug": "cotton",
+        "votelog_listed": true,
+        "bioguide_id": "C001095",
+        "opensecrets_cid": "N00033363"
+      },
+      "opponents_nov_general": [
+        {
+          "name": "Hallie Shoffner",
+          "party": "D",
+          "fec_candidate_id": "S6AR00199"
+        }
+      ],
+      "_seed_meta": {
+        "source": "auto-generated from VoteLog race snapshots + OpenFEC candidates + congress-legislators",
+        "votelog_data_slug": "ar-senate-general",
+        "votelog_race_slug": "arkansas-senate-general-money",
+        "special": false,
+        "note": "won_race set true for draft emission; verify certified winner/opponent set before finalizing."
+      }
+    },
+    {
+      "office_type": "us_senate",
+      "election_year": 2026,
+      "state": "US-CO",
+      "district": null,
+      "race_type": "regular",
+      "senate_class": 2,
+      "subject": {
+        "name": "John W. Hickenlooper",
+        "party": "D",
+        "incumbent": true,
+        "won_race": true,
+        "fec_candidate_ids": [
+          "S0CO00575"
+        ],
+        "votelog_slug": "hickenlooper",
+        "votelog_listed": true,
+        "bioguide_id": "H000273",
+        "opensecrets_cid": "N00044206"
+      },
+      "opponents_nov_general": [
+        {
+          "name": "Mark Baisley",
+          "party": "R",
+          "fec_candidate_id": "S6CO00507"
+        }
+      ],
+      "_seed_meta": {
+        "source": "auto-generated from VoteLog race snapshots + OpenFEC candidates + congress-legislators",
+        "votelog_data_slug": "co-senate-general",
+        "votelog_race_slug": "colorado-senate-general-money",
+        "special": false,
+        "note": "won_race set true for draft emission; verify certified winner/opponent set before finalizing."
+      }
+    },
+    {
+      "office_type": "us_senate",
+      "election_year": 2026,
+      "state": "US-DE",
+      "district": null,
+      "race_type": "regular",
+      "senate_class": 2,
+      "subject": {
+        "name": "Christopher A. Coons",
+        "party": "D",
+        "incumbent": true,
+        "won_race": true,
+        "fec_candidate_ids": [
+          "S0DE00092"
+        ],
+        "votelog_slug": "coons",
+        "votelog_listed": true,
+        "bioguide_id": "C001088",
+        "opensecrets_cid": "N00031820"
+      },
+      "opponents_nov_general": [
+        {
+          "name": "Michael S Dr. Katz",
+          "party": "R",
+          "fec_candidate_id": "S6DE00206"
+        }
+      ],
+      "_seed_meta": {
+        "source": "auto-generated from VoteLog race snapshots + OpenFEC candidates + congress-legislators",
+        "votelog_data_slug": "de-senate-general",
+        "votelog_race_slug": "delaware-senate-general-money",
+        "special": false,
+        "note": "won_race set true for draft emission; verify certified winner/opponent set before finalizing."
+      }
+    },
+    {
+      "office_type": "us_senate",
+      "election_year": 2026,
+      "state": "US-FL",
+      "district": null,
+      "race_type": "special",
+      "senate_class": 3,
+      "subject": {
+        "name": "Ashley Moody",
+        "party": "R",
+        "incumbent": true,
+        "won_race": true,
+        "fec_candidate_ids": [
+          "S6FL00640"
+        ],
+        "votelog_slug": "moody",
+        "votelog_listed": true,
+        "bioguide_id": "M001244"
+      },
+      "opponents_nov_general": [
+        {
+          "name": "Angela Nixon",
+          "party": "D",
+          "fec_candidate_id": "S6FL00830"
+        }
+      ],
+      "_seed_meta": {
+        "source": "auto-generated from VoteLog race snapshots + OpenFEC candidates + congress-legislators",
+        "votelog_data_slug": "fl-senate-general",
+        "votelog_race_slug": "florida-senate-general-money",
+        "special": true,
+        "note": "won_race set true for draft emission; verify certified winner/opponent set before finalizing."
+      }
+    },
+    {
+      "office_type": "us_senate",
+      "election_year": 2026,
+      "state": "US-GA",
+      "district": null,
+      "race_type": "regular",
+      "senate_class": 2,
+      "subject": {
+        "name": "T. Jonathan Ossoff",
+        "party": "D",
+        "incumbent": true,
+        "won_race": true,
+        "fec_candidate_ids": [
+          "S8GA00180",
+          "H8GA06195"
+        ],
+        "votelog_slug": "ossoff",
+        "votelog_listed": true,
+        "bioguide_id": "O000174",
+        "opensecrets_cid": "N00040675"
+      },
+      "opponents_nov_general": [
+        {
+          "name": "Michael A Collins Jr",
+          "party": "R",
+          "fec_candidate_id": "S6GA00390"
+        }
+      ],
+      "_seed_meta": {
+        "source": "auto-generated from VoteLog race snapshots + OpenFEC candidates + congress-legislators",
+        "votelog_data_slug": "ga-senate-general",
+        "votelog_race_slug": "georgia-senate-general-money",
+        "special": false,
+        "note": "won_race set true for draft emission; verify certified winner/opponent set before finalizing."
+      }
+    },
+    {
+      "office_type": "us_senate",
+      "election_year": 2026,
+      "state": "US-ID",
+      "district": null,
+      "race_type": "regular",
+      "senate_class": 2,
+      "subject": {
+        "name": "James E Mr. Risch",
+        "party": "R",
+        "incumbent": true,
+        "won_race": true,
+        "fec_candidate_ids": [
+          "S8ID00092"
+        ],
+        "votelog_slug": "risch",
+        "votelog_listed": true,
+        "bioguide_id": "R000584",
+        "opensecrets_cid": "N00029441"
+      },
+      "opponents_nov_general": [
+        {
+          "name": "Todd Baker Achilles",
+          "party": "I",
+          "fec_candidate_id": "S6ID00146"
+        }
+      ],
+      "_seed_meta": {
+        "source": "auto-generated from VoteLog race snapshots + OpenFEC candidates + congress-legislators",
+        "votelog_data_slug": "id-senate-general",
+        "votelog_race_slug": "idaho-senate-general-money",
+        "special": false,
+        "note": "won_race set true for draft emission; verify certified winner/opponent set before finalizing."
+      }
+    },
+    {
+      "office_type": "us_senate",
+      "election_year": 2026,
+      "state": "US-IL",
+      "district": null,
+      "race_type": "regular",
+      "senate_class": 2,
+      "subject": {
+        "name": "Don Tracy",
+        "party": "R",
+        "incumbent": false,
+        "won_race": true,
+        "fec_candidate_ids": [
+          "S6IL00615"
+        ],
+        "votelog_slug": "tracy",
+        "votelog_listed": false
+      },
+      "opponents_nov_general": [
+        {
+          "name": "Juliana Stratton",
+          "party": "D",
+          "fec_candidate_id": "S6IL00458"
+        }
+      ],
+      "_seed_meta": {
+        "source": "auto-generated from VoteLog race snapshots + OpenFEC candidates + congress-legislators",
+        "votelog_data_slug": "il-senate-general",
+        "votelog_race_slug": "illinois-senate-general-money",
+        "special": false,
+        "note": "won_race set true for draft emission; verify certified winner/opponent set before finalizing."
+      }
+    },
+    {
+      "office_type": "us_senate",
+      "election_year": 2026,
+      "state": "US-IA",
+      "district": null,
+      "race_type": "regular",
+      "senate_class": 2,
+      "subject": {
+        "name": "Ashley Hinson Arenholz",
+        "party": "R",
+        "incumbent": true,
+        "won_race": true,
+        "fec_candidate_ids": [
+          "S6IA00314",
+          "H0IA01174"
+        ],
+        "votelog_slug": "hinson",
+        "votelog_listed": true,
+        "bioguide_id": "H001091",
+        "opensecrets_cid": "N00044521"
+      },
+      "opponents_nov_general": [
+        {
+          "name": "Joshua Turek",
+          "party": "D",
+          "fec_candidate_id": "S6IA00298"
+        }
+      ],
+      "_seed_meta": {
+        "source": "auto-generated from VoteLog race snapshots + OpenFEC candidates + congress-legislators",
+        "votelog_data_slug": "ia-senate-general",
+        "votelog_race_slug": "iowa-senate-general-money",
+        "special": false,
+        "note": "won_race set true for draft emission; verify certified winner/opponent set before finalizing."
+      }
+    },
+    {
+      "office_type": "us_senate",
+      "election_year": 2026,
+      "state": "US-KS",
+      "district": null,
+      "race_type": "regular",
+      "senate_class": 2,
+      "subject": {
+        "name": "Roger W Marshall",
+        "party": "R",
+        "incumbent": true,
+        "won_race": true,
+        "fec_candidate_ids": [
+          "S0KS00315",
+          "H6KS01179"
+        ],
+        "votelog_slug": "marshall",
+        "votelog_listed": true,
+        "bioguide_id": "M001198",
+        "opensecrets_cid": "N00037034"
+      },
+      "opponents_nov_general": [
+        {
+          "name": "Adam Hamilton",
+          "party": "D",
+          "fec_candidate_id": "S6KS00312"
+        }
+      ],
+      "_seed_meta": {
+        "source": "auto-generated from VoteLog race snapshots + OpenFEC candidates + congress-legislators",
+        "votelog_data_slug": "ks-senate-general",
+        "votelog_race_slug": "kansas-senate-general-money",
+        "special": false,
+        "note": "won_race set true for draft emission; verify certified winner/opponent set before finalizing."
+      }
+    },
+    {
+      "office_type": "us_senate",
+      "election_year": 2026,
+      "state": "US-KY",
+      "district": null,
+      "race_type": "regular",
+      "senate_class": 2,
+      "subject": {
+        "name": "Garland Andy Barr",
+        "party": "R",
+        "incumbent": true,
+        "won_race": true,
+        "fec_candidate_ids": [
+          "S6KY00286",
+          "H0KY06104"
+        ],
+        "votelog_slug": "barr",
+        "votelog_listed": true,
+        "bioguide_id": "B001282",
+        "opensecrets_cid": "N00031233"
+      },
+      "opponents_nov_general": [
+        {
+          "name": "Charles Booker",
+          "party": "D",
+          "fec_candidate_id": "S6KY00385"
+        }
+      ],
+      "_seed_meta": {
+        "source": "auto-generated from VoteLog race snapshots + OpenFEC candidates + congress-legislators",
+        "votelog_data_slug": "ky-senate-general",
+        "votelog_race_slug": "kentucky-senate-general-money",
+        "special": false,
+        "note": "won_race set true for draft emission; verify certified winner/opponent set before finalizing."
+      }
+    },
+    {
+      "office_type": "us_senate",
+      "election_year": 2026,
+      "state": "US-LA",
+      "district": null,
+      "race_type": "regular",
+      "senate_class": 2,
+      "subject": {
+        "name": "Julia Letlow",
+        "party": "R",
+        "incumbent": true,
+        "won_race": true,
+        "fec_candidate_ids": [
+          "S6LA00664",
+          "H2LA05126"
+        ],
+        "votelog_slug": "letlow",
+        "votelog_listed": true,
+        "bioguide_id": "L000595",
+        "opensecrets_cid": "N00047972"
+      },
+      "opponents_nov_general": [
+        {
+          "name": "Jamie Davis",
+          "party": "D",
+          "fec_candidate_id": "S6LA00615"
+        }
+      ],
+      "_seed_meta": {
+        "source": "auto-generated from VoteLog race snapshots + OpenFEC candidates + congress-legislators",
+        "votelog_data_slug": "la-senate-general",
+        "votelog_race_slug": "louisiana-senate-general-money",
+        "special": false,
+        "note": "won_race set true for draft emission; verify certified winner/opponent set before finalizing."
+      }
+    },
+    {
+      "office_type": "us_senate",
+      "election_year": 2026,
+      "state": "US-ME",
+      "district": null,
+      "race_type": "regular",
+      "senate_class": 2,
+      "subject": {
+        "name": "Susan M. Collins",
+        "party": "R",
+        "incumbent": true,
+        "won_race": true,
+        "fec_candidate_ids": [
+          "S6ME00159"
+        ],
+        "votelog_slug": "collins",
+        "votelog_listed": true,
+        "bioguide_id": "C001035",
+        "opensecrets_cid": "N00000491"
+      },
+      "opponents_nov_general": [
+        {
+          "name": "Troy Dale Jackson",
+          "party": "D",
+          "fec_candidate_id": "S6ME00464"
+        }
+      ],
+      "_seed_meta": {
+        "source": "auto-generated from VoteLog race snapshots + OpenFEC candidates + congress-legislators",
+        "votelog_data_slug": "me-senate-general",
+        "votelog_race_slug": "maine-senate-general-money",
+        "special": false,
+        "note": "won_race set true for draft emission; verify certified winner/opponent set before finalizing."
+      }
+    },
+    {
+      "office_type": "us_senate",
+      "election_year": 2026,
+      "state": "US-MA",
+      "district": null,
+      "race_type": "regular",
+      "senate_class": 2,
+      "subject": {
+        "name": "Edward Sen. Markey",
+        "party": "D",
+        "incumbent": true,
+        "won_race": true,
+        "fec_candidate_ids": [
+          "S4MA00028"
+        ],
+        "votelog_slug": "markey",
+        "votelog_listed": true,
+        "bioguide_id": "M000133",
+        "opensecrets_cid": "N00000270"
+      },
+      "opponents_nov_general": [
+        {
+          "name": "John Deaton",
+          "party": "R",
+          "fec_candidate_id": "S6MA00304"
+        }
+      ],
+      "_seed_meta": {
+        "source": "auto-generated from VoteLog race snapshots + OpenFEC candidates + congress-legislators",
+        "votelog_data_slug": "ma-senate-general",
+        "votelog_race_slug": "massachusetts-senate-general-money",
+        "special": false,
+        "note": "won_race set true for draft emission; verify certified winner/opponent set before finalizing."
+      }
+    },
+    {
+      "office_type": "us_senate",
+      "election_year": 2026,
+      "state": "US-MI",
+      "district": null,
+      "race_type": "regular",
+      "senate_class": 2,
+      "subject": {
+        "name": "Abdul El-sayed",
+        "party": "D",
+        "incumbent": false,
+        "won_race": true,
+        "fec_candidate_ids": [
+          "S6MI00418"
+        ],
+        "votelog_slug": "elsayed",
+        "votelog_listed": false
+      },
+      "opponents_nov_general": [
+        {
+          "name": "Michael J Rogers",
+          "party": "R",
+          "fec_candidate_id": "S4MI00595"
+        }
+      ],
+      "_seed_meta": {
+        "source": "auto-generated from VoteLog race snapshots + OpenFEC candidates + congress-legislators",
+        "votelog_data_slug": "mi-senate-general",
+        "votelog_race_slug": null,
+        "special": false,
+        "note": "won_race set true for draft emission; verify certified winner/opponent set before finalizing."
+      }
+    },
+    {
+      "office_type": "us_senate",
+      "election_year": 2026,
+      "state": "US-MN",
+      "district": null,
+      "race_type": "regular",
+      "senate_class": 2,
+      "subject": {
+        "name": "Margaret Flanagan",
+        "party": "D",
+        "incumbent": false,
+        "won_race": true,
+        "fec_candidate_ids": [
+          "S6MN00440",
+          "H8MN05155"
+        ],
+        "votelog_slug": "flanagan",
+        "votelog_listed": false
+      },
+      "opponents_nov_general": [
+        {
+          "name": "Michele Tafoya",
+          "party": "R",
+          "fec_candidate_id": "S6MN00556"
+        }
+      ],
+      "_seed_meta": {
+        "source": "auto-generated from VoteLog race snapshots + OpenFEC candidates + congress-legislators",
+        "votelog_data_slug": "mn-senate-general",
+        "votelog_race_slug": "minnesota-senate-general-money",
+        "special": false,
+        "note": "won_race set true for draft emission; verify certified winner/opponent set before finalizing."
+      }
+    },
+    {
+      "office_type": "us_senate",
+      "election_year": 2026,
+      "state": "US-MS",
+      "district": null,
+      "race_type": "regular",
+      "senate_class": 2,
+      "subject": {
+        "name": "Cindy Hyde-smith",
+        "party": "R",
+        "incumbent": true,
+        "won_race": true,
+        "fec_candidate_ids": [
+          "S8MS00261"
+        ],
+        "votelog_slug": "hydesmith",
+        "votelog_listed": true,
+        "bioguide_id": "H001079",
+        "opensecrets_cid": "N00043298"
+      },
+      "opponents_nov_general": [
+        {
+          "name": "Scott Colom",
+          "party": "D",
+          "fec_candidate_id": "S6MS00133"
+        }
+      ],
+      "_seed_meta": {
+        "source": "auto-generated from VoteLog race snapshots + OpenFEC candidates + congress-legislators",
+        "votelog_data_slug": "ms-senate-general",
+        "votelog_race_slug": "mississippi-senate-general-money",
+        "special": false,
+        "note": "won_race set true for draft emission; verify certified winner/opponent set before finalizing."
+      }
+    },
+    {
+      "office_type": "us_senate",
+      "election_year": 2026,
+      "state": "US-MT",
+      "district": null,
+      "race_type": "regular",
+      "senate_class": 2,
+      "subject": {
+        "name": "Kurt Alme",
+        "party": "R",
+        "incumbent": false,
+        "won_race": true,
+        "fec_candidate_ids": [
+          "S6MT00295"
+        ],
+        "votelog_slug": "alme",
+        "votelog_listed": false
+      },
+      "opponents_nov_general": [
+        {
+          "name": "Seth Bodnar",
+          "party": "I",
+          "fec_candidate_id": "S6MT00287"
+        }
+      ],
+      "_seed_meta": {
+        "source": "auto-generated from VoteLog race snapshots + OpenFEC candidates + congress-legislators",
+        "votelog_data_slug": "mt-senate-general",
+        "votelog_race_slug": "montana-senate-general-money",
+        "special": false,
+        "note": "won_race set true for draft emission; verify certified winner/opponent set before finalizing."
+      }
+    },
+    {
+      "office_type": "us_senate",
+      "election_year": 2026,
+      "state": "US-NE",
+      "district": null,
+      "race_type": "regular",
+      "senate_class": 2,
+      "subject": {
+        "name": "Pete Ricketts",
+        "party": "R",
+        "incumbent": true,
+        "won_race": true,
+        "fec_candidate_ids": [
+          "S6NE00129",
+          "S6NE00130",
+          "S4NE00173"
+        ],
+        "votelog_slug": "ricketts",
+        "votelog_listed": true,
+        "bioguide_id": "R000618",
+        "opensecrets_cid": "N00027695"
+      },
+      "opponents_nov_general": [
+        {
+          "name": "Dan Osborn",
+          "party": "I",
+          "fec_candidate_id": "S4NE00207"
+        }
+      ],
+      "_seed_meta": {
+        "source": "auto-generated from VoteLog race snapshots + OpenFEC candidates + congress-legislators",
+        "votelog_data_slug": "ne-senate-general",
+        "votelog_race_slug": "nebraska-senate-general-money",
+        "special": false,
+        "note": "won_race set true for draft emission; verify certified winner/opponent set before finalizing."
+      }
+    },
+    {
+      "office_type": "us_senate",
+      "election_year": 2026,
+      "state": "US-NH",
+      "district": null,
+      "race_type": "regular",
+      "senate_class": 2,
+      "subject": {
+        "name": "Chris Pappas",
+        "party": "D",
+        "incumbent": true,
+        "won_race": true,
+        "fec_candidate_ids": [
+          "S6NH00141",
+          "H8NH01210"
+        ],
+        "votelog_slug": "pappas",
+        "votelog_listed": true,
+        "bioguide_id": "P000614",
+        "opensecrets_cid": "N00042161"
+      },
+      "opponents_nov_general": [
+        {
+          "name": "John E Sununu",
+          "party": "R",
+          "fec_candidate_id": "S6NH00208"
+        }
+      ],
+      "_seed_meta": {
+        "source": "auto-generated from VoteLog race snapshots + OpenFEC candidates + congress-legislators",
+        "votelog_data_slug": "nh-senate-general",
+        "votelog_race_slug": "new-hampshire-senate-general-money",
+        "special": false,
+        "note": "won_race set true for draft emission; verify certified winner/opponent set before finalizing."
+      }
+    },
+    {
+      "office_type": "us_senate",
+      "election_year": 2026,
+      "state": "US-NJ",
+      "district": null,
+      "race_type": "regular",
+      "senate_class": 2,
+      "subject": {
+        "name": "Cory A. Booker",
+        "party": "D",
+        "incumbent": true,
+        "won_race": true,
+        "fec_candidate_ids": [
+          "S4NJ00185"
+        ],
+        "votelog_slug": "booker",
+        "votelog_listed": true,
+        "bioguide_id": "B001288",
+        "opensecrets_cid": "N00035267"
+      },
+      "opponents_nov_general": [
+        {
+          "name": "Justin Michael Ll.m. Murphy",
+          "party": "R",
+          "fec_candidate_id": "S4NJ00532"
+        }
+      ],
+      "_seed_meta": {
+        "source": "auto-generated from VoteLog race snapshots + OpenFEC candidates + congress-legislators",
+        "votelog_data_slug": "nj-senate-general",
+        "votelog_race_slug": "new-jersey-senate-general-money",
+        "special": false,
+        "note": "won_race set true for draft emission; verify certified winner/opponent set before finalizing."
+      }
+    },
+    {
+      "office_type": "us_senate",
+      "election_year": 2026,
+      "state": "US-NM",
+      "district": null,
+      "race_type": "regular",
+      "senate_class": 2,
+      "subject": {
+        "name": "Ben Ray Lujan",
+        "party": "D",
+        "incumbent": true,
+        "won_race": true,
+        "fec_candidate_ids": [
+          "S0NM00058",
+          "H8NM03196"
+        ],
+        "votelog_slug": "lujan",
+        "votelog_listed": true,
+        "bioguide_id": "L000570",
+        "opensecrets_cid": "N00029562"
+      },
+      "opponents_nov_general": [
+        {
+          "name": "Larry E Marker",
+          "party": "R",
+          "fec_candidate_id": "S6NM01186"
+        }
+      ],
+      "_seed_meta": {
+        "source": "auto-generated from VoteLog race snapshots + OpenFEC candidates + congress-legislators",
+        "votelog_data_slug": "nm-senate-general",
+        "votelog_race_slug": "new-mexico-senate-general-money",
+        "special": false,
+        "note": "won_race set true for draft emission; verify certified winner/opponent set before finalizing."
+      }
+    },
+    {
+      "office_type": "us_senate",
+      "election_year": 2026,
+      "state": "US-NC",
+      "district": null,
+      "race_type": "regular",
+      "senate_class": 2,
+      "subject": {
+        "name": "Michael Whatley",
+        "party": "R",
+        "incumbent": false,
+        "won_race": true,
+        "fec_candidate_ids": [
+          "S6NC00415"
+        ],
+        "votelog_slug": "whatley",
+        "votelog_listed": false
+      },
+      "opponents_nov_general": [
+        {
+          "name": "Roy Cooper",
+          "party": "D",
+          "fec_candidate_id": "S6NC00407"
+        }
+      ],
+      "_seed_meta": {
+        "source": "auto-generated from VoteLog race snapshots + OpenFEC candidates + congress-legislators",
+        "votelog_data_slug": "nc-senate-general",
+        "votelog_race_slug": "north-carolina-senate-general-money",
+        "special": false,
+        "note": "won_race set true for draft emission; verify certified winner/opponent set before finalizing."
+      }
+    },
+    {
+      "office_type": "us_senate",
+      "election_year": 2026,
+      "state": "US-OH",
+      "district": null,
+      "race_type": "special",
+      "senate_class": 3,
+      "subject": {
+        "name": "Jon Husted",
+        "party": "R",
+        "incumbent": true,
+        "won_race": true,
+        "fec_candidate_ids": [
+          "S6OH00304"
+        ],
+        "votelog_slug": "husted",
+        "votelog_listed": true,
+        "bioguide_id": "H001104"
+      },
+      "opponents_nov_general": [
+        {
+          "name": "Sherrod Brown",
+          "party": "D",
+          "fec_candidate_id": "S6OH00163"
+        }
+      ],
+      "_seed_meta": {
+        "source": "auto-generated from VoteLog race snapshots + OpenFEC candidates + congress-legislators",
+        "votelog_data_slug": "oh-senate-general",
+        "votelog_race_slug": "ohio-senate-general-money",
+        "special": true,
+        "note": "won_race set true for draft emission; verify certified winner/opponent set before finalizing."
+      }
+    },
+    {
+      "office_type": "us_senate",
+      "election_year": 2026,
+      "state": "US-OK",
+      "district": null,
+      "race_type": "regular",
+      "senate_class": 2,
+      "subject": {
+        "name": "Kevin Hern",
+        "party": "R",
+        "incumbent": true,
+        "won_race": true,
+        "fec_candidate_ids": [
+          "S6OK04247",
+          "H8OK01157"
+        ],
+        "votelog_slug": "hern",
+        "votelog_listed": true,
+        "bioguide_id": "H001082",
+        "opensecrets_cid": "N00040829"
+      },
+      "opponents_nov_general": [
+        {
+          "name": "N'kiyla Jasmine - Ann Thomas",
+          "party": "D",
+          "fec_candidate_id": "S6OK04163"
+        }
+      ],
+      "_seed_meta": {
+        "source": "auto-generated from VoteLog race snapshots + OpenFEC candidates + congress-legislators",
+        "votelog_data_slug": "ok-senate-general",
+        "votelog_race_slug": "oklahoma-senate-general-money",
+        "special": false,
+        "note": "won_race set true for draft emission; verify certified winner/opponent set before finalizing."
+      }
+    },
+    {
+      "office_type": "us_senate",
+      "election_year": 2026,
+      "state": "US-OR",
+      "district": null,
+      "race_type": "regular",
+      "senate_class": 2,
+      "subject": {
+        "name": "Jeffrey Alan Merkley",
+        "party": "D",
+        "incumbent": true,
+        "won_race": true,
+        "fec_candidate_ids": [
+          "S8OR00207"
+        ],
+        "votelog_slug": "merkley",
+        "votelog_listed": true,
+        "bioguide_id": "M001176",
+        "opensecrets_cid": "N00029303"
+      },
+      "opponents_nov_general": [
+        {
+          "name": "David Brock Smith",
+          "party": "R",
+          "fec_candidate_id": "S6OR05218"
+        }
+      ],
+      "_seed_meta": {
+        "source": "auto-generated from VoteLog race snapshots + OpenFEC candidates + congress-legislators",
+        "votelog_data_slug": "or-senate-general",
+        "votelog_race_slug": "oregon-senate-general-money",
+        "special": false,
+        "note": "won_race set true for draft emission; verify certified winner/opponent set before finalizing."
+      }
+    },
+    {
+      "office_type": "us_senate",
+      "election_year": 2026,
+      "state": "US-RI",
+      "district": null,
+      "race_type": "regular",
+      "senate_class": 2,
+      "subject": {
+        "name": "John F. Reed",
+        "party": "D",
+        "incumbent": true,
+        "won_race": true,
+        "fec_candidate_ids": [
+          "S6RI00163"
+        ],
+        "votelog_slug": "reed",
+        "votelog_listed": true,
+        "bioguide_id": "R000122",
+        "opensecrets_cid": "N00000362"
+      },
+      "opponents_nov_general": [
+        {
+          "name": "Raymond Tyler MR Mckay",
+          "party": "R",
+          "fec_candidate_id": "S4RI00051"
+        }
+      ],
+      "_seed_meta": {
+        "source": "auto-generated from VoteLog race snapshots + OpenFEC candidates + congress-legislators",
+        "votelog_data_slug": "ri-senate-general",
+        "votelog_race_slug": "rhode-island-senate-general-money",
+        "special": false,
+        "note": "won_race set true for draft emission; verify certified winner/opponent set before finalizing."
+      }
+    },
+    {
+      "office_type": "us_senate",
+      "election_year": 2026,
+      "state": "US-SC",
+      "district": null,
+      "race_type": "regular",
+      "senate_class": 2,
+      "subject": {
+        "name": "Annie Andrews",
+        "party": "D",
+        "incumbent": false,
+        "won_race": true,
+        "fec_candidate_ids": [
+          "S6SC04239",
+          "H2SC01127"
+        ],
+        "votelog_slug": "andrews",
+        "votelog_listed": false
+      },
+      "opponents_nov_general": [
+        {
+          "name": "Darline Graham",
+          "party": "R",
+          "fec_candidate_id": "S6SC04437"
+        }
+      ],
+      "_seed_meta": {
+        "source": "auto-generated from VoteLog race snapshots + OpenFEC candidates + congress-legislators",
+        "votelog_data_slug": "sc-senate-general",
+        "votelog_race_slug": "south-carolina-senate-general-money",
+        "special": false,
+        "note": "won_race set true for draft emission; verify certified winner/opponent set before finalizing."
+      }
+    },
+    {
+      "office_type": "us_senate",
+      "election_year": 2026,
+      "state": "US-SD",
+      "district": null,
+      "race_type": "regular",
+      "senate_class": 2,
+      "subject": {
+        "name": "Mike Rounds",
+        "party": "R",
+        "incumbent": true,
+        "won_race": true,
+        "fec_candidate_ids": [
+          "S4SD00049"
+        ],
+        "votelog_slug": "rounds",
+        "votelog_listed": true,
+        "bioguide_id": "R000605",
+        "opensecrets_cid": "N00035187"
+      },
+      "opponents_nov_general": [
+        {
+          "name": "Brian Bengs",
+          "party": "I",
+          "fec_candidate_id": "S6SD01117"
+        }
+      ],
+      "_seed_meta": {
+        "source": "auto-generated from VoteLog race snapshots + OpenFEC candidates + congress-legislators",
+        "votelog_data_slug": "sd-senate-general",
+        "votelog_race_slug": "south-dakota-senate-general-money",
+        "special": false,
+        "note": "won_race set true for draft emission; verify certified winner/opponent set before finalizing."
+      }
+    },
+    {
+      "office_type": "us_senate",
+      "election_year": 2026,
+      "state": "US-TN",
+      "district": null,
+      "race_type": "regular",
+      "senate_class": 2,
+      "subject": {
+        "name": "Bill Hagerty",
+        "party": "R",
+        "incumbent": true,
+        "won_race": true,
+        "fec_candidate_ids": [
+          "S0TN00169"
+        ],
+        "votelog_slug": "hagerty",
+        "votelog_listed": true,
+        "bioguide_id": "H000601",
+        "opensecrets_cid": "N00045369"
+      },
+      "opponents_nov_general": [
+        {
+          "name": "Marquita Bradshaw",
+          "party": "D",
+          "fec_candidate_id": "S4TN00542"
+        }
+      ],
+      "_seed_meta": {
+        "source": "auto-generated from VoteLog race snapshots + OpenFEC candidates + congress-legislators",
+        "votelog_data_slug": "tn-senate-general",
+        "votelog_race_slug": "tennessee-senate-general-money",
+        "special": false,
+        "note": "won_race set true for draft emission; verify certified winner/opponent set before finalizing."
+      }
+    },
+    {
+      "office_type": "us_senate",
+      "election_year": 2026,
+      "state": "US-TX",
+      "district": null,
+      "race_type": "regular",
+      "senate_class": 2,
+      "subject": {
+        "name": "James Talarico",
+        "party": "D",
+        "incumbent": false,
+        "won_race": true,
+        "fec_candidate_ids": [
+          "S6TX00479"
+        ],
+        "votelog_slug": "talarico",
+        "votelog_listed": false
+      },
+      "opponents_nov_general": [
+        {
+          "name": "Warren Kenneth Paxton Jr",
+          "party": "R",
+          "fec_candidate_id": "S6TX00388"
+        }
+      ],
+      "_seed_meta": {
+        "source": "auto-generated from VoteLog race snapshots + OpenFEC candidates + congress-legislators",
+        "votelog_data_slug": "tx-senate-general",
+        "votelog_race_slug": "texas-senate-general-money",
+        "special": false,
+        "note": "won_race set true for draft emission; verify certified winner/opponent set before finalizing."
+      }
+    },
+    {
+      "office_type": "us_senate",
+      "election_year": 2026,
+      "state": "US-VA",
+      "district": null,
+      "race_type": "regular",
+      "senate_class": 2,
+      "subject": {
+        "name": "Mark Robert Warner",
+        "party": "D",
+        "incumbent": true,
+        "won_race": true,
+        "fec_candidate_ids": [
+          "S6VA00093"
+        ],
+        "votelog_slug": "warner",
+        "votelog_listed": true,
+        "bioguide_id": "W000805",
+        "opensecrets_cid": "N00002097"
+      },
+      "opponents_nov_general": [
+        {
+          "name": "Bert K Mizusawa",
+          "party": "R",
+          "fec_candidate_id": "S8VA00321"
+        }
+      ],
+      "_seed_meta": {
+        "source": "auto-generated from VoteLog race snapshots + OpenFEC candidates + congress-legislators",
+        "votelog_data_slug": "va-senate-general",
+        "votelog_race_slug": "virginia-senate-general-money",
+        "special": false,
+        "note": "won_race set true for draft emission; verify certified winner/opponent set before finalizing."
+      }
+    },
+    {
+      "office_type": "us_senate",
+      "election_year": 2026,
+      "state": "US-WV",
+      "district": null,
+      "race_type": "regular",
+      "senate_class": 2,
+      "subject": {
+        "name": "Shelley Moore Capito",
+        "party": "R",
+        "incumbent": true,
+        "won_race": true,
+        "fec_candidate_ids": [
+          "S4WV00159"
+        ],
+        "votelog_slug": "capito",
+        "votelog_listed": true,
+        "bioguide_id": "C001047",
+        "opensecrets_cid": "N00009771"
+      },
+      "opponents_nov_general": [
+        {
+          "name": "Rachel Lee Fetty Anderson",
+          "party": "D",
+          "fec_candidate_id": "S6WV00188"
+        }
+      ],
+      "_seed_meta": {
+        "source": "auto-generated from VoteLog race snapshots + OpenFEC candidates + congress-legislators",
+        "votelog_data_slug": "wv-senate-general",
+        "votelog_race_slug": "west-virginia-senate-general-money",
+        "special": false,
+        "note": "won_race set true for draft emission; verify certified winner/opponent set before finalizing."
+      }
+    },
+    {
+      "office_type": "us_senate",
+      "election_year": 2026,
+      "state": "US-WY",
+      "district": null,
+      "race_type": "regular",
+      "senate_class": 2,
+      "subject": {
+        "name": "Harriet Hageman",
+        "party": "R",
+        "incumbent": true,
+        "won_race": true,
+        "fec_candidate_ids": [
+          "S6WY00209",
+          "H2WY00166"
+        ],
+        "votelog_slug": "hageman",
+        "votelog_listed": true,
+        "bioguide_id": "H001096",
+        "opensecrets_cid": "N00049197"
+      },
+      "opponents_nov_general": [
+        {
+          "name": "James Willard Mr. Byrd",
+          "party": "D",
+          "fec_candidate_id": "S6WY00217"
+        }
+      ],
+      "_seed_meta": {
+        "source": "auto-generated from VoteLog race snapshots + OpenFEC candidates + congress-legislators",
+        "votelog_data_slug": "wy-senate-general",
+        "votelog_race_slug": "wyoming-senate-general-money",
+        "special": false,
+        "note": "won_race set true for draft emission; verify certified winner/opponent set before finalizing."
+      }
+    }
+  ]
+}

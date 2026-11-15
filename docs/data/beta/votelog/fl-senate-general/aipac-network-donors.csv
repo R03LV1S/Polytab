@@ -1,0 +1,279 @@
+candidate,donor,city,state,zip5,employer,occupation,direct_total_cents,contributions,first_date,last_date,match_tier,same_employer_string,aipac_pac_total_cents,aipac_pac_rows,aipac_pac_recipient_committees,aipac_pac_cycles
+Ashley Moody,Arthur Penn,Miami Beach,FL,33140,Pennantpark,Investments,700000,1,2025-10-01,2025-10-01,zip,true,10265000,47,40,2024/2026
+Ashley Moody,Barry Volpert,New York,NY,10128,Crestview Partners,Finance,700000,1,2026-01-28,2026-01-28,zip,true,550000,2,2,2026
+Ashley Moody,Brad Mindlin,Incline Village,NV,89451,Oro Capital Advisors,Managing Partner,700000,1,2026-04-21,2026-04-21,zip,true,16460000,45,36,2024/2026
+Ashley Moody,Elizabeth Brodie,Miami Beach,FL,33109,Retired,Retired,700000,1,2025-09-11,2025-09-11,zip,false,100000,1,1,2024
+Ashley Moody,Iris Smith,Broomfield,CO,80021,Self Employed,Creative Arts,700000,1,2026-02-07,2026-02-07,zip,false,14460000,24,21,2024/2026
+Ashley Moody,Michael Smith,Broomfield,CO,80021,Kaitar Resources,Consultant,700000,1,2026-02-06,2026-02-06,zip,true,15450000,26,23,2024/2026
+Ashley Moody,Naava Grossman,Aspen,CO,81612,Retired,Retired,700000,1,2026-02-27,2026-02-27,zip,false,29410000,61,52,2024/2026
+Ashley Moody,Sanford Grossman,Glenwood Springs,CO,81601,Retired,Retired,700000,1,2026-02-27,2026-02-27,zip,false,8050000,13,13,2026
+Ashley Moody,Adam Garner,Greenwich,CT,06830,Drw,Partner,550000,2,2026-04-30,2026-06-24,zip,true,4000000,15,14,2024/2026
+Ashley Moody,Eric Mendelson,Miami Beach,FL,33141,Heico Corporation,Executive,500000,1,2025-11-06,2025-11-06,zip,true,250000,1,1,2026
+Ashley Moody,Isaac Mendal,Miami,FL,33180,Select Pet Products,Executive,500000,1,2025-09-15,2025-09-15,zip,false,300000,2,2,2024/2026
+Ashley Moody,Joel Eidelstein,North Miami Beach,FL,33160,Alerica Inc,Executive,500000,1,2025-09-02,2025-09-02,zip,true,3955000,23,18,2024/2026
+Ashley Moody,Lee Samson,Los Angeles,CA,90067,Paladin Mgt.,Chairman,500000,2,2026-04-21,2026-05-15,zip,true,2250000,9,7,2026
+Ashley Moody,Noah Breakstone,North Miami Beach,FL,33160,Bti Partners,Real Estate,500000,1,2025-09-02,2025-09-02,zip,true,7890000,34,28,2024/2026
+Ashley Moody,Norman Brownstein,Denver,CO,80202,Brownstein Hyatt Farber Schreck,Chairman,500000,2,2025-03-10,2026-02-10,zip,true,13450000,33,31,2024/2026
+Ashley Moody,Philip Solomon,Golden Beach,FL,33160,Self Employed,Ceo,500000,1,2025-09-08,2025-09-08,zip,false,3830000,16,13,2024/2026
+Ashley Moody,Steven Berenson,Miami Beach,FL,33141,"Berenson Partners, LLC.",Business Development,500000,1,2025-12-16,2025-12-16,zip,true,3900000,7,7,2026
+Ashley Moody,Yonatan Bursztyn,Hollywood,FL,33019,Nalsani Usa Inc,President,500000,1,2025-08-29,2025-08-29,zip,true,3225000,19,14,2024/2026
+Ashley Moody,Dennis Dunn,Naples,FL,34105,Self,"Author, Outdoor Writer",400000,3,2025-10-24,2026-04-11,zip,false,50000,1,1,2026
+Ashley Moody,Jessie Harris,Denver,CO,80206,Not Employed,Not Employed,400000,1,2026-05-26,2026-05-26,zip,false,2150000,8,8,2026
+Ashley Moody,Laura Merage,Englewood,CO,80111,Self Employed,Artist,400000,2,2026-04-30,2026-06-22,zip,false,1800000,10,8,2026
+Ashley Moody,Rachel Goldhamer,Denver,CO,80246,Not Employed,Not Employed,400000,1,2026-05-21,2026-05-21,zip,false,1800000,9,9,2024/2026
+Ashley Moody,Susan Mark,Stamford,CT,06905,Retired,Retired,400000,2,2026-05-01,2026-05-03,zip,false,1250000,8,7,2024/2026
+Ashley Moody,Alyse Millstein,Ridgewood,NJ,07450,The Stro Companies,Real Estate,350000,1,2026-07-06,2026-07-06,zip,true,7320000,23,21,2024/2026
+Ashley Moody,Brian Landow,Bal Harbour,FL,33154,Canyon,Executive,350000,1,2025-12-11,2025-12-11,zip,false,2430000,10,10,2026
+Ashley Moody,Courtney Tofsky,New York,NY,10021,Self-Employed,Marketing Strategist,350000,1,2026-07-21,2026-07-21,zip,false,550000,2,2,2026
+Ashley Moody,Curtis Lane,New York,NY,10022,Mts Partners,Founder,350000,1,2026-07-07,2026-07-07,zip,false,1250000,4,4,2026
+Ashley Moody,Daniel Loeb,New York,NY,10001,Third Point LLC,Ceo/Cio,350000,1,2026-05-06,2026-05-06,zip,true,21220000,61,42,2024/2026
+Ashley Moody,David Mcreynolds,Denver,CO,80202,Columbine Health Plan,President,350000,1,2026-02-18,2026-02-18,zip,true,350000,1,1,2026
+Ashley Moody,Dirk Wallinger,Englewood,CO,80113,York Space Systems,Ceo,350000,1,2026-02-09,2026-02-09,zip,true,1350000,6,6,2026
+Ashley Moody,Edward Levy,Birmingham,MI,48009,Edward C. Levy,Chairman,350000,1,2026-05-19,2026-05-19,zip,false,35510000,67,51,2024/2026
+Ashley Moody,Evan Zucker,Denver,CO,80218,Academy Partners Group,Executive,350000,1,2026-02-10,2026-02-10,zip,true,2380000,7,7,2024/2026
+Ashley Moody,Ira Riklis,Atlantic Beach,NY,11509,Sutherland Capital Management,Executive,350000,1,2026-05-18,2026-05-18,zip,true,20020000,54,50,2024/2026
+Ashley Moody,Jacob Brodie,Haverford,PA,19041,Brodie Generational Capital Partners,Executive,350000,1,2026-03-20,2026-03-20,zip,true,25435000,78,60,2024/2026
+Ashley Moody,James Mulvihill,Greenwood Village,CO,80121,"Academy Services, LLC",Real Estate Investment,350000,1,2026-02-08,2026-02-08,zip,true,2980000,9,9,2024/2026
+Ashley Moody,Jeffrey Feig,New York,NY,10106,Jedor Capital,Finance,350000,1,2026-07-06,2026-07-06,zip,true,700000,2,2,2026
+Ashley Moody,Jody Forchheimer,Brookline,MA,02446,Retired,Retired,350000,1,2026-05-15,2026-05-15,zip,false,38475500,150,96,2024/2026
+Ashley Moody,L Roger Hutson,Denver,CO,80202,"Hrm Resources IV, LLC",Ceo,350000,2,2026-02-13,2026-02-14,zip,true,350000,2,1,2026
+Ashley Moody,Larry Silver,Boca Raton,FL,33431,Silver Companies,Real Estate,350000,1,2026-07-29,2026-07-29,zip,true,7200000,20,16,2024/2026
+Ashley Moody,Louis Kaplow,Brookline,MA,02446,Harvard,Professor,350000,1,2026-05-15,2026-05-15,zip,true,28100000,56,51,2024/2026
+Ashley Moody,Maayan Kaufman,New York,NY,10019,,,350000,1,2026-07-15,2026-07-15,zip,false,350000,1,1,2026
+Ashley Moody,Michael Leffell,Scarsdale,NY,10583,Portage Partners,Investor,350000,1,2026-06-17,2026-06-17,zip,true,16820000,57,37,2024/2026
+Ashley Moody,Patty Glaser,Los Angeles,CA,90067,Glaser Weil LLP,Attorney,350000,1,2026-05-04,2026-05-04,zip,true,5750000,28,24,2024/2026
+Ashley Moody,Robert Klyman,Los Angeles,CA,90004,Dla Piper,Attorney,350000,1,2026-05-15,2026-05-15,zip,true,8030000,29,24,2024/2026
+Ashley Moody,Sarah Biser,Holmdel,NJ,07733,Fox Rothschild,Attorney,350000,1,2026-07-11,2026-07-11,zip,true,5650000,19,18,2024/2026
+Ashley Moody,Stanton Dodge,Castle Rock,CO,80108,Draftkings,Attorney,350000,1,2026-01-27,2026-01-27,zip,true,1730000,11,11,2024/2026
+Ashley Moody,Steven Demby,Denver,CO,80209,"Brownstein Hyatt Farber Schreck, LLP",Attorney,350000,1,2026-02-05,2026-02-05,zip,true,6075000,24,24,2024/2026
+Ashley Moody,Steven Rosenblum,Denver,NY,80210,Millenium,Finance,350000,1,2026-01-29,2026-01-29,zip,true,5720000,32,28,2024/2026
+Ashley Moody,Tamara Stark,New York,NY,10128,Retired,Retired,350000,1,2026-07-15,2026-07-15,zip,false,1250000,5,5,2026
+Ashley Moody,Valerie Cohen,Darien,CT,06820,Not Employed,Not Employed,350000,1,2026-05-10,2026-05-10,zip,false,6700000,32,29,2024/2026
+Ashley Moody,Albert Gahfi,Bal Harbour,FL,33154,Newco Capital Group,Ceo,300000,1,2025-11-06,2025-11-06,zip,true,4690000,10,10,2024/2026
+Ashley Moody,Claudio Dombey,Hallandale Beach,FL,33009,Accesso Partners LLC,Principal,300000,1,2025-09-15,2025-09-15,zip,true,2125000,18,15,2024/2026
+Ashley Moody,Daniel Diazbalart,Key Biscayne,FL,33149,Tsg Advocates,Lobbyist,300000,2,2025-03-29,2025-11-11,zip,true,50000,1,1,2026
+Ashley Moody,David Bukzin,Purchase,NY,10577,Retired,Retired,300000,1,2026-05-11,2026-05-11,zip,false,3950000,14,13,2024/2026
+Ashley Moody,Jaime Peisach,Miami,FL,33122,Passion Growers,Manager,300000,1,2025-09-25,2025-09-25,zip,true,12615000,37,31,2024/2026
+Ashley Moody,Morton Weinstein,Miami Beach,FL,33141,Retired,Retired,300000,1,2025-09-30,2025-09-30,zip,false,1575000,13,13,2024/2026
+Ashley Moody,Robert Efroymson,Santa Fe,NM,87501,Retired,Retired,300000,1,2026-05-26,2026-05-26,zip,false,6800000,17,16,2024/2026
+Ashley Moody,Ronald Bakalarz,Miami,FL,33180,Self Employed,Investments,300000,1,2025-09-19,2025-09-19,zip,false,8724900,40,32,2024/2026
+Ashley Moody,Russ Robinson,Houston,TX,77024,Global Steel Dust,Ceo,300000,1,2026-05-26,2026-05-26,zip,true,5080000,18,14,2024/2026
+Ashley Moody,Stacy Nerenstone,Miami Beach,FL,33141,Retired,Retired,300000,1,2025-09-30,2025-09-30,zip,false,4850000,39,31,2024/2026
+Ashley Moody,Tamara Picache,Cherry Hills Villa,CO,80111,The Flatiron Grp,Investor,300000,2,2026-02-12,2026-05-26,zip,true,5670000,37,30,2024/2026
+Ashley Moody,Yoav Cohen,Aventura,FL,33180,Channel Factory,Md Latam,300000,2,2025-08-21,2025-12-15,zip,true,400000,4,4,2024/2026
+Ashley Moody,Zipora Arison,Pompano Beach,FL,33062,Self Employed,Medical Doctor,300000,2,2025-08-26,2025-10-30,zip,false,7690000,56,41,2024/2026
+Ashley Moody,David Cohen,New York,NY,10019,Apollo Global Management,Partner,260200,1,2026-07-14,2026-07-14,state,false,98600,5,5,2024/2026
+Ashley Moody,Amy Taylor,Atlanta,GA,30327,Lexicon Strategies,Partner,250000,1,2026-05-14,2026-05-14,zip,true,1000000,4,4,2026
+Ashley Moody,Andrew Sussman,New York,NY,10021,Plymouth Beef Company,President,250000,1,2026-07-11,2026-07-11,zip,true,3601400,20,20,2024/2026
+Ashley Moody,Arin Tritt,Atlanta,GA,30327,Retired,Retired,250000,1,2026-05-15,2026-05-15,zip,false,250000,1,1,2026
+Ashley Moody,Blake Leiber,Atlanta,GA,30328,Not Employed,Not Employed,250000,1,2026-05-12,2026-05-12,zip,false,500000,2,2,2026
+Ashley Moody,David Schwartzman,Los Angeles,CA,90067,Harridge Development Group,Ceo,250000,1,2026-05-15,2026-05-15,zip,true,3530000,15,14,2026
+Ashley Moody,Diana Cohen,Atlanta,GA,30329,Gwe,Vp,250000,1,2026-05-11,2026-05-11,zip,true,500000,2,2,2026
+Ashley Moody,Eliyahu Wolfe,Decatur,GA,30033,"Wolfe Law, LLC",Attorney,250000,1,2026-05-17,2026-05-17,zip,true,600000,3,3,2026
+Ashley Moody,Erica Gal,Atlanta,GA,30329,Not Employed,Not Employed,250000,1,2026-05-12,2026-05-12,zip,false,500000,2,2,2026
+Ashley Moody,Ira Kharasch,Los Angeles,CA,90045,"Pachulski, Stang, Ziehl & Jones",Attorney,250000,1,2026-05-15,2026-05-15,zip,true,6120000,29,25,2024/2026
+Ashley Moody,Justine Cohen,Atlanta,GA,30327,Self Employed,Cpa,250000,1,2026-05-17,2026-05-17,zip,false,500000,2,2,2026
+Ashley Moody,Leah Davis,Atlanta,GA,30342,Self-Employed,Attorney,250000,1,2026-05-12,2026-05-12,zip,false,2200000,7,5,2024/2026
+Ashley Moody,Meredith Blechman,Palmetto,GA,30268,Archive Resale,Marketing,250000,1,2026-05-18,2026-05-18,zip,true,1000000,4,4,2026
+Ashley Moody,Oren Lazar,North Hollywood,CA,91607,Lazar PC,Attorney,250000,1,2026-05-15,2026-05-15,zip,true,1025000,7,7,2026
+Ashley Moody,Rochelle Lipsky,Atlanta,GA,30329,Burlington Stores,Strategy,250000,1,2026-05-15,2026-05-15,zip,true,500000,2,2,2026
+Ashley Moody,Shelly Satisky,Atlanta,GA,30327,Not Employed,Not Employed,250000,1,2026-05-14,2026-05-14,zip,false,500000,2,2,2026
+Ashley Moody,Adam Reich,Los Angeles,CA,90035,Reich Brothers,Co-Ceo,200000,1,2026-05-15,2026-05-15,zip,true,3390000,17,15,2024/2026
+Ashley Moody,Alfredo Frohlich,North Miami Beach,FL,33160,Retired,Retired,200000,1,2025-09-04,2025-09-04,zip,false,2350000,21,16,2024/2026
+Ashley Moody,Alli Medof,Roswell,GA,30075,Not Employed,Not Employed,200000,1,2026-05-14,2026-05-14,zip,false,1100000,7,7,2026
+Ashley Moody,Ann Davis,Atlanta,GA,30327,Retired,Retired,200000,1,2026-05-14,2026-05-14,zip,false,3930000,17,16,2024/2026
+Ashley Moody,Barbra Hirsh,Atlanta,GA,30327,Retired,Retired,200000,1,2026-05-15,2026-05-15,zip,false,1350000,7,7,2024/2026
+Ashley Moody,Benjamin Lanson,New Canaan,CT,06840,Stakeholders Vr,Management,200000,1,2026-05-09,2026-05-09,zip,true,1400000,9,8,2024/2026
+Ashley Moody,Bruce Jacobson,New York,NY,10021,Retired,Retired,200000,1,2026-07-03,2026-07-03,zip,false,5310000,28,24,2024/2026
+Ashley Moody,Carl Cohen,Beachwood,OH,44122,Retired,Retired,200000,1,2026-03-24,2026-03-24,zip,false,5050000,36,29,2024/2026
+Ashley Moody,Chuck Bellock,Boulder,CO,80302,Community Development Group,Real Estate,200000,1,2026-01-26,2026-01-26,zip,true,3550000,18,16,2024/2026
+Ashley Moody,Daniel Green,Greenwood Village,CO,80121,Jagreen Development,Real Estate Developer,200000,1,2026-05-07,2026-05-07,zip,true,400000,2,2,2026
+Ashley Moody,David Cohen,Pacific Palisades,CA,90272,Karlin,Ceo,200000,1,2026-04-29,2026-04-29,zip,true,2300000,10,9,2024/2026
+Ashley Moody,David Cohen,Fairfield,CT,06824,"Standard Oil Of Connecticut, Inc.",Executive,200000,1,2026-05-04,2026-05-04,zip,true,1500000,18,18,2024/2026
+Ashley Moody,David Garfinkle,Miami,FL,33180,Biscayne Atlantic,Real Estate,200000,1,2025-09-15,2025-09-15,zip,true,1300000,11,9,2024/2026
+Ashley Moody,Elizabeth Davis,Atlanta,GA,30336,Rndc,Pr/Exec,200000,1,2026-05-14,2026-05-14,zip,true,6780000,37,30,2024/2026
+Ashley Moody,Elliot Siegel,Atlanta,GA,30342,Vision Metals LLC,Managing Member,200000,1,2026-05-26,2026-05-26,zip,true,900000,6,6,2024/2026
+Ashley Moody,Geoffrey Erickson,Old Greenwich,CT,06870,Immunis.Ai,Professional,200000,1,2026-05-06,2026-05-06,zip,true,5226700,33,23,2024/2026
+Ashley Moody,Harry Tchira,Miami Beach,FL,33140,Crescent Garden Company,Executive,200000,1,2025-09-08,2025-09-08,zip,true,3425000,38,30,2024/2026
+Ashley Moody,Jay Landauer,Stamford,CT,06902,Union Capital Associates,Finance,200000,1,2026-05-01,2026-05-01,zip,true,1000000,7,7,2024/2026
+Ashley Moody,Jeff Cohen,Chicago,IL,60645,Retired,Retired,200000,1,2026-03-24,2026-03-24,zip,false,4700000,35,27,2024/2026
+Ashley Moody,Jeffrey Maron,Stamford,CT,06905,7ridge,Manager,200000,1,2026-05-12,2026-05-12,zip,true,1975000,13,13,2024/2026
+Ashley Moody,Jennifer Malkin,Beverly Hills,CA,90212,Retired,Retired,200000,1,2026-05-14,2026-05-14,zip,false,650000,3,3,2026
+Ashley Moody,Jonathan Luttwak,Denver,CO,80220,Dhc Real Estate Services,Commercial Real Estate,200000,1,2026-05-26,2026-05-26,zip,true,200000,1,1,2026
+Ashley Moody,Jordan Sharf,Denver,CO,80230,Arileus Capital,Real Estate,200000,1,2026-05-27,2026-05-27,zip,true,800000,5,5,2026
+Ashley Moody,Julie Stonberg,New York,NY,10023,Self-Employed,Clinical Social Worker,200000,1,2026-07-07,2026-07-07,zip,false,1050000,8,7,2026
+Ashley Moody,Kenneth Picache,Cherry Hills Villa,CO,80111,Chelan Advisors LLC,Investor,200000,1,2026-05-25,2026-05-25,zip,true,400000,2,2,2026
+Ashley Moody,Laura Stein,Beverly Hills,CA,90210,Robbins Geller,Attorney,200000,1,2026-05-15,2026-05-15,zip,true,2792500,24,22,2024/2026
+Ashley Moody,Lee Spies,New York,NY,10028,,,200000,1,2026-07-05,2026-07-05,zip,false,2000000,11,10,2026
+Ashley Moody,Leland Alpert,Cherry Hills Villa,CO,80113,Lee Alpert And Company,Ceo,200000,1,2026-02-04,2026-02-04,zip,true,2400000,13,13,2026
+Ashley Moody,Marc Paley,Bridgehampton,NY,11932,Hightechlending,Executive,200000,1,2026-07-12,2026-07-12,zip,true,2350000,12,12,2024/2026
+Ashley Moody,Marjory Abrams,Stamford,CT,06905,Self-Employed,Tutor,200000,1,2026-05-05,2026-05-05,zip,false,400000,2,2,2026
+Ashley Moody,Matt Most,Denver,CO,80220,Shefa Innovation Foundry,Ceo,200000,1,2026-05-26,2026-05-26,zip,true,425000,3,3,2026
+Ashley Moody,Michael Clain,Riverside,CT,06878,Ons,Md,200000,1,2026-05-05,2026-05-05,zip,true,1300000,8,8,2024/2026
+Ashley Moody,Michael Lorence,Dallas,TX,75244,Private,Private,200000,1,2026-05-03,2026-05-03,zip,true,1500000,8,8,2026
+Ashley Moody,Michael Newman,Golden Beach,FL,33160,Newtech,Self Employed,200000,1,2025-08-28,2025-08-28,zip,true,3574900,24,19,2024/2026
+Ashley Moody,Michael Zusman,Sunny Isles Beach,FL,33160,Retired,Retired,200000,1,2025-08-27,2025-08-27,zip,false,2150000,17,15,2024/2026
+Ashley Moody,Paula Katz,Greenwich,CT,06830,Self Employed,Attorney,200000,1,2026-05-01,2026-05-01,zip,false,1750000,10,10,2024/2026
+Ashley Moody,Peter Feinberg,North Miami Beach,FL,33160,Self Employed,Investor,200000,2,2025-11-05,2025-12-15,zip,false,1000000,10,10,2024/2026
+Ashley Moody,Randy Brunschwig,Denver,CO,80231,B2m2,Business Man,200000,1,2026-05-20,2026-05-20,zip,true,2235000,14,12,2024/2026
+Ashley Moody,Richard Fain,Miami,FL,33156,Retired,Retired,200000,1,2025-04-24,2025-04-24,zip,false,2400000,6,5,2024/2026
+Ashley Moody,Richard Lipsey,Baton Rouge,LA,70809,Lipsey'S,Wholesale,200000,1,2026-01-27,2026-01-27,zip,true,6840000,42,34,2024/2026
+Ashley Moody,Richard Yulman,Coral Gables,FL,33146,Retired,Retired,200000,1,2025-05-15,2025-05-15,zip,false,3650000,19,16,2024/2026
+Ashley Moody,Robert Grossman,New York,NY,10280,Retired,Retired,200000,1,2026-07-03,2026-07-03,zip,false,1200000,5,5,2026
+Ashley Moody,Ron Squarer,Boulder,CO,80304,Adc,Director,200000,1,2026-01-26,2026-01-26,zip,true,7916000,45,36,2024/2026
+Ashley Moody,Ross Kogon,Atlanta,GA,30360,Pull A Part,Ceo,200000,1,2026-05-26,2026-05-26,zip,true,5650000,37,29,2024/2026
+Ashley Moody,Russell Greenberg,Westport,CT,06880,"Altus Capital Partners, Inc.",Investment Management,200000,1,2026-05-12,2026-05-12,zip,true,3050000,21,19,2024/2026
+Ashley Moody,Sara Meyers,Dunwoody,GA,30338,Retired,Retired,200000,1,2026-05-14,2026-05-14,zip,false,1875000,15,14,2024/2026
+Ashley Moody,Sheila Schwartz,Atlanta,GA,30327,Retired,Retired,200000,1,2026-05-15,2026-05-15,zip,false,2225000,20,17,2024/2026
+Ashley Moody,Shelly Baldwin,New York,NY,10023,Triangle Capital,Head Of Business Development,200000,1,2026-07-10,2026-07-10,zip,true,1520000,9,8,2024/2026
+Ashley Moody,Suzette Diamond,Bal Harbour,FL,33154,Diamond Chemical,Chief Philanthropy Officer,200000,1,2025-11-07,2025-11-07,zip,false,780000,5,5,2024/2026
+Ashley Moody,Tiffany Appel,Denver,CO,80209,Real Estate,Real Estate,200000,1,2026-05-22,2026-05-22,zip,true,1780000,9,9,2024/2026
+Ashley Moody,Tina Weinstock,Palm Beach,FL,33480,,,200000,1,2026-07-04,2026-07-04,zip,false,2520000,10,9,2024/2026
+Ashley Moody,Tomas Haendler,Stamford,CT,06902,Self Employed,Economist,200000,1,2026-05-06,2026-05-06,zip,false,700000,5,5,2026
+Ashley Moody,Warren Ashenmil,Greenwood Vlg,CO,80121,Retired,Retired,200000,1,2026-05-20,2026-05-20,zip,false,418000,3,3,2024/2026
+Ashley Moody,Willa Fawer,Denver,CO,80209,Retired,Retired,200000,1,2026-05-24,2026-05-24,zip,false,1600000,8,8,2026
+Ashley Moody,David Menche,Miami Beach,FL,33140,Self Employed,Orthopedic Surgeon,180000,1,2025-10-01,2025-10-01,zip,false,2460000,12,12,2024/2026
+Ashley Moody,Ross Kestin,Pinecrest,FL,33156,Aliya Capital Partners,Co-Founder/Ceo,180000,1,2025-11-07,2025-11-07,zip,true,200000,2,2,2024
+Ashley Moody,Abe Malkin,Los Angeles,CA,90048,Physician,Self Employed,150000,1,2026-05-15,2026-05-15,zip,true,600000,4,4,2026
+Ashley Moody,Alan Nadler,Bal Harbour,FL,33154,Reldan Metals,Self Employed,150000,1,2026-04-27,2026-04-27,zip,true,350000,2,2,2026
+Ashley Moody,Albert Goldstein,Coral Gables,FL,33143,Stoiclane Inc.,Chairman And Ceo,150000,1,2025-04-17,2025-04-17,zip,true,2720900,11,8,2024/2026
+Ashley Moody,Amy Goldman,Boca Raton,FL,33496,Retired,Retired,150000,1,2026-04-21,2026-04-21,zip,false,2608200,19,17,2024/2026
+Ashley Moody,Barry Labell,Boca Raton,FL,33496,Seed And Smith,Founder Owner,150000,1,2026-04-02,2026-04-02,zip,true,2680000,25,20,2024/2026
+Ashley Moody,Barry Swidler,Boca Raton,FL,33496,"American Fire Restoration, LLC",President,150000,1,2026-04-03,2026-04-03,zip,true,3550000,32,22,2024/2026
+Ashley Moody,Benjamin Genet,Hollywood,FL,33021,Self Employed,Real Estate,150000,1,2025-05-22,2025-05-22,zip,false,9250000,17,15,2024/2026
+Ashley Moody,Dan Schwab,Boca Raton,FL,33496,D&H,Mgr,150000,1,2026-04-04,2026-04-04,zip,true,950000,6,5,2026
+Ashley Moody,Daniel Rose,New York,NY,10012,Kreindler & Kreindler LLP,Attorney,150000,1,2026-07-03,2026-07-03,zip,true,3222000,25,20,2024/2026
+Ashley Moody,Darren Roberts,Boca Raton,FL,33496,Self Employed,Investor,150000,1,2026-04-15,2026-04-15,zip,false,1150000,9,8,2026
+Ashley Moody,David Beth,Boca Raton,FL,33496,Wallachbeth Capital,Owner Broker Dealer,150000,1,2026-04-22,2026-04-22,zip,true,1350000,14,11,2024/2026
+Ashley Moody,David Friedman,Boca Raton,FL,33432,Gulf Atlantic Holdings,Investment Management,150000,1,2026-05-03,2026-05-03,zip,false,900000,6,6,2026
+Ashley Moody,David Gallo,Boca Raton,FL,33496,"Valinor Management, L.P.",Investment Management,150000,1,2026-04-09,2026-04-09,zip,true,950000,7,7,2026
+Ashley Moody,David Ochs,Boca Raton,FL,33496,Not Employed,Not Employed,150000,1,2026-04-21,2026-04-21,zip,false,1000000,7,7,2026
+Ashley Moody,Donna Sternberg,New York,NY,10021,Retired,Retired,150000,1,2026-07-03,2026-07-03,zip,false,2200000,15,15,2026
+Ashley Moody,Emily Adler,New York,NY,10021,Retired,Retired,150000,1,2026-07-03,2026-07-03,zip,false,1555200,16,14,2024/2026
+Ashley Moody,Eugene Poverni,Boca Raton,FL,33434,Psg,Real Estate,150000,1,2026-04-02,2026-04-02,zip,true,350000,3,3,2026
+Ashley Moody,Jeff Cohen,Boca Raton,FL,33496,Self Employed,Developer,150000,1,2026-04-22,2026-04-22,zip,false,150000,1,1,2026
+Ashley Moody,Jeffrey Smith,Boca Raton,FL,33496,Starboard Value Lp,Fund Principal/Ceo,150000,1,2026-04-09,2026-04-09,zip,true,550000,4,3,2026
+Ashley Moody,Jim Miller,Los Angeles,CA,90049,Miller Barondess,Attorney,150000,1,2026-05-15,2026-05-15,zip,true,2210000,11,10,2024/2026
+Ashley Moody,Jodi Boockvar,Scarsdale,NY,10583,Retired,Retired,150000,1,2026-07-12,2026-07-12,zip,false,900000,8,8,2026
+Ashley Moody,John Koren,Southport,CT,06890,Hardwood Partners,Loafer,150000,1,2026-05-18,2026-05-18,zip,true,1500000,10,10,2024/2026
+Ashley Moody,Jose Reines,Los Angeles,CA,90049,Retired,Retired,150000,1,2026-05-15,2026-05-15,zip,false,3222500,45,37,2024/2026
+Ashley Moody,Jubin Niahmer,Los Angeles,CA,90024,Jacoby & Meyers,Attorney,150000,1,2026-05-15,2026-05-15,zip,true,1412500,8,7,2026
+Ashley Moody,Loryn Arkow,Los Angeles,CA,90064,Hogan Lovells,Attorney,150000,1,2026-05-04,2026-05-04,zip,true,750000,5,5,2026
+Ashley Moody,Mara Kraushaar,Boca Raton,FL,33496,Not Employed,Not Employed,150000,1,2026-04-21,2026-04-21,zip,false,400000,4,4,2024/2026
+Ashley Moody,Mayer Bick,Los Angeles,CA,90035,Sb Advisors,Investment Banker,150000,1,2026-05-04,2026-05-04,zip,true,2550000,15,15,2024/2026
+Ashley Moody,Michael Faren,Boca Raton,FL,33431,Stellar Aviation,Shareholder/Cfo,150000,1,2026-04-15,2026-04-15,zip,true,800000,6,6,2026
+Ashley Moody,Michael Grunberg,Aventura,FL,33160,Grunberg Real Estate,Investor,150000,1,2026-04-30,2026-04-30,zip,true,1100000,9,9,2024/2026
+Ashley Moody,Michael Leven,Boca Raton,FL,33496,Retired,Retired,150000,1,2026-04-28,2026-04-28,zip,false,850000,8,7,2026
+Ashley Moody,Michael Teitelbaum,Monroe,MD,06468,R-Pac International Corp,Chief Executive Officer,150000,1,2026-04-22,2026-04-22,zip,true,900000,6,6,2026
+Ashley Moody,Morty Schaja,Boca Raton,FL,33496,Riverpark Capital,Investment,150000,1,2026-04-23,2026-04-23,zip,true,950000,6,6,2026
+Ashley Moody,Murry Gunty,Boca Raton,FL,33496,Blackstreet,Investments,150000,1,2026-04-02,2026-04-02,zip,true,700000,5,5,2026
+Ashley Moody,Niv Davidovich,Valley Glen,CA,91606,Davidovich Law,Att,150000,1,2026-05-04,2026-05-04,zip,true,1850000,10,10,2026
+Ashley Moody,Rami Rotkopf,Coral Springs,FL,33065,Blue Gallery,Owner,150000,1,2026-04-06,2026-04-06,zip,true,350000,3,3,2026
+Ashley Moody,Raphy Nissel,Beverly Hills,CA,90210,Retired,Retired,150000,1,2026-05-15,2026-05-15,zip,false,2600000,15,14,2024/2026
+Ashley Moody,Richard Greenblatt,Boca Raton,FL,33496,Self Employed,Finance,150000,1,2026-04-21,2026-04-21,zip,false,1100000,8,7,2026
+Ashley Moody,Robert Spass,Boca Raton,FL,33496,Retired,Retired,150000,1,2026-04-14,2026-04-14,zip,false,600000,4,4,2026
+Ashley Moody,Sam Olswanger,Washington,DC,20009,Akin Gump Strauss Hauer And Feld,Senior Policy Advisor,150000,2,2025-03-31,2025-06-10,zip,false,400000,5,5,2024
+Ashley Moody,Shana Glassman,Tarzana,CA,91356,Not Employed,Not Employed,150000,1,2026-05-04,2026-05-04,zip,false,1625000,17,17,2024/2026
+Ashley Moody,Sidney Ferenc,Boca Raton,FL,33496,Retired,Retired,150000,1,2026-04-02,2026-04-02,zip,false,1350000,10,9,2026
+Ashley Moody,Stephen Liebowitz,Stamford,CT,06902,Impact Advisors,Healthcare Administrator,150000,1,2026-05-13,2026-05-13,zip,true,600000,3,3,2026
+Ashley Moody,Steven Berger,Boca Raton,FL,33496,Not Employed,Not Employed,150000,1,2026-04-28,2026-04-28,zip,false,850000,6,6,2026
+Ashley Moody,Stewart Hescheles,Boca Raton,FL,33496,Self Employed,Sales,150000,1,2026-04-21,2026-04-21,zip,false,1587500,14,14,2024/2026
+Ashley Moody,Steven Peisach,Miami Beach,FL,33139,Passion Growers,Manager,104100,1,2025-03-12,2025-03-12,state,true,36000,1,1,2026
+Ashley Moody,Aaron Cohen,New York City,NY,10025,Focus Partners Wealth,Investment Manager,100000,1,2026-07-13,2026-07-13,zip,true,2400000,19,16,2024/2026
+Ashley Moody,Abraham Marcadis,Tampa,FL,33629,Retired,Retired,100000,1,2026-01-09,2026-01-09,zip,false,675000,8,8,2024/2026
+Ashley Moody,Adele Jacobs,Bridgeport,CT,06604,Jacobs&Wallace,Attorney,100000,1,2026-05-04,2026-05-04,zip,true,1000000,7,7,2024/2026
+Ashley Moody,Allison Ross,New York,NY,10029,,,100000,1,2026-07-14,2026-07-14,zip,false,1225000,13,11,2024/2026
+Ashley Moody,Andrew Jagoda,Scarsdale,NY,10583,Katten Muchin Rosenman LLP,Attorney,100000,1,2026-07-12,2026-07-12,zip,true,3300000,28,23,2024/2026
+Ashley Moody,Barry Silverman,Aventura,FL,33180,Self Employed,Md,100000,1,2025-11-04,2025-11-04,zip,false,3775000,28,27,2024/2026
+Ashley Moody,Beny Marta Rub,Golden Beach,FL,33160,Rub Pediatrics Md Pa,Pediatrician,100000,1,2025-08-28,2025-08-28,zip,true,725000,5,4,2024/2026
+Ashley Moody,Bonnie Berk,Atlanta,GA,30327,Retired,Retired,100000,1,2026-05-27,2026-05-27,zip,false,100000,1,1,2026
+Ashley Moody,Brian Bilzin,Miami,FL,33131,Bilzin Sumberg,Attorney,100000,1,2025-04-30,2025-04-30,zip,true,250000,3,3,2024/2026
+Ashley Moody,Dave Litman,Dallas,TX,75229,Tfn,Executive,100000,1,2025-11-06,2025-11-06,zip,true,100000,1,1,2026
+Ashley Moody,David Glick,White Plains,NY,10606,Arc Hospice,Ceo,100000,1,2025-05-02,2025-05-02,zip,false,780000,6,5,2024/2026
+Ashley Moody,David Goldman,Boca Raton,FL,33496,Retired,Retired,100000,1,2026-04-28,2026-04-28,zip,false,550000,4,4,2026
+Ashley Moody,David Halberg,New York,NY,10128,Self Employed,Insurance Broker,100000,1,2026-07-04,2026-07-04,zip,false,750000,7,7,2026
+Ashley Moody,David Meshberg,Milford,CT,06460,Packaging Concepts,Ceo,100000,1,2026-05-01,2026-05-01,zip,true,350000,3,3,2026
+Ashley Moody,David Sussman,Westport,CT,06880,Pfp,Business Owner,100000,1,2026-05-13,2026-05-13,zip,true,950000,9,9,2024/2026
+Ashley Moody,Deborah Baker,Miami,FL,33138,Greenspoon Marder,Attorney,100000,1,2025-11-05,2025-11-05,zip,true,450000,5,5,2026
+Ashley Moody,Deborah Hamui,Aventura,FL,33180,,,100000,1,2025-11-09,2025-11-09,zip,false,100000,1,1,2026
+Ashley Moody,Elizabeth Schultz,New York,NY,10022,Retired,Retired,100000,1,2026-07-05,2026-07-05,zip,false,1200000,22,21,2024/2026
+Ashley Moody,Ephraim Greenwall,Miami Beach,FL,33141,"Talcott Holdings, Inc",Very Woke Investing,100000,1,2025-10-04,2025-10-04,zip,true,8020000,48,35,2024/2026
+Ashley Moody,Erwin Sokol,Los Angeles,CA,90049,Marina Pacific Hotel & Suites,Hotel Operations,100000,1,2026-05-15,2026-05-15,zip,true,2225000,21,20,2024/2026
+Ashley Moody,Gadi Slade,Westport,CT,06880,Retired,Retired,100000,1,2026-05-03,2026-05-03,zip,false,5336700,35,24,2024/2026
+Ashley Moody,Gil Bonwitt,Miami,FL,33179,Scheck Group,Principal,100000,1,2025-09-07,2025-09-07,zip,true,1675000,21,18,2024/2026
+Ashley Moody,Harry Feder,Bal Harbour,FL,33154,Retired,Retired,100000,1,2025-12-14,2025-12-14,zip,false,725000,11,10,2024/2026
+Ashley Moody,Herta Amir,Beverly Hills,CA,90211,Amir Development,Real Estate,100000,1,2026-04-21,2026-04-21,zip,true,6500000,95,72,2024/2026
+Ashley Moody,Hy Saporta,Westport,CT,06880,Steward Partners,Co-Founder,100000,1,2026-05-02,2026-05-02,zip,true,4661700,37,25,2024/2026
+Ashley Moody,Igal Elyassi,Los Angeles,CA,90048,Dr. Dentist,Dentist,100000,1,2026-05-04,2026-05-04,zip,true,1550000,26,23,2024/2026
+Ashley Moody,Isaac K Fisher,Coral Gables,FL,33146,Capital Realty,Real Estate Executive,100000,1,2025-05-09,2025-05-09,zip,false,400000,3,3,2026
+Ashley Moody,Itchko Ezratti,Sunrise,FL,33323,Gl Homes,Founder,100000,1,2025-10-07,2025-10-07,zip,true,500000,5,5,2024
+Ashley Moody,J Levine,Glencoe,IL,60022,Self Employed,Real Estate,100000,1,2025-09-16,2025-09-16,zip,false,50000,1,1,2026
+Ashley Moody,Jonathan Shelon,Boca Raton,FL,33487,Krane Funds Advisors,Chief Operating Officer,100000,1,2026-07-15,2026-07-15,zip,true,100000,1,1,2026
+Ashley Moody,Joseph Kavana,Miami,FL,33180,K Group Holdings,Owner/Ceo,100000,1,2025-09-25,2025-09-25,zip,true,2250000,18,13,2024/2026
+Ashley Moody,Josh Cohen,Fairfield,CT,06824,Investor,Investor,100000,1,2026-05-18,2026-05-18,zip,true,500000,5,5,2026
+Ashley Moody,Keith Singer,Hollywood,FL,33019,Singer Wealth,Attorney,100000,1,2025-11-05,2025-11-05,zip,false,25000,1,1,2024
+Ashley Moody,Laurence Cohen,Miami Beach,FL,33139,Merus Global Investments LLC,Partner,100000,1,2025-10-15,2025-10-15,zip,true,1280000,17,15,2024/2026
+Ashley Moody,Leonard Russ,Westport,CT,06880,Bayberry Care Center,Nursing Facility Owner,100000,1,2026-05-13,2026-05-13,zip,true,900000,9,8,2024/2026
+Ashley Moody,Marc Hurwitz,Miami Beach,FL,33119,Self Employed,Investments,100000,1,2025-11-10,2025-11-10,zip,false,350000,5,4,2024/2026
+Ashley Moody,Marilyn Altman Fider,Norwalk,CT,06853,Retired,Retired,100000,1,2026-05-16,2026-05-16,zip,false,200000,2,2,2026
+Ashley Moody,Mark Cohen,Miami Beach,FL,33141,Self Employed,Investor,100000,1,2025-09-30,2025-09-30,zip,false,1950000,23,22,2024/2026
+Ashley Moody,Mark Dreyfus,Virginia Beach,VA,23462,Ecpi University,Education Manager,100000,1,2025-03-24,2025-03-24,zip,true,100000,1,1,2026
+Ashley Moody,Martin Kogon,Atlanta,GA,30328,Pull-A-Part,Manager,100000,1,2026-05-18,2026-05-18,zip,true,650000,5,5,2024/2026
+Ashley Moody,Matthew Landau,Westport,CT,06880,"Ls Property Group, LLC",Real Estate Investing,100000,1,2026-05-20,2026-05-20,zip,true,1446500,27,26,2024/2026
+Ashley Moody,Melinda Wertheim,Atlanta,GA,30328,Retired,Retired,100000,1,2026-05-17,2026-05-17,zip,false,700000,3,2,2024/2026
+Ashley Moody,Michael Feiner,Greenwood Village,CO,80111,Fei,Real Estate,100000,1,2026-01-26,2026-01-26,zip,true,4080000,36,30,2024/2026
+Ashley Moody,Michael Kliegman,Westport,CT,06880,Akin Gump Strauss Hauer & Feld LLP,Attorney,100000,1,2026-05-02,2026-05-02,zip,true,1200000,14,14,2024/2026
+Ashley Moody,Mony Rueven,Westport,CT,06880,Kintegral Asset Managment,Ceo,100000,1,2026-05-10,2026-05-10,zip,true,2000000,16,16,2024/2026
+Ashley Moody,Nick Wigoda,Surfside,FL,33154,Nicholas M Wigoda Pa,Real Estate,100000,1,2025-11-05,2025-11-05,zip,true,850000,11,11,2024/2026
+Ashley Moody,Ori Tamuz,Miami Beach,FL,33140,Doorloop Inc.,Ceo,100000,1,2025-11-09,2025-11-09,zip,true,100000,1,1,2026
+Ashley Moody,Reuben Daniels,Bal Harbour,FL,33154,Chatham Financial,Finance,100000,1,2025-11-08,2025-11-08,zip,true,1185000,9,9,2024/2026
+Ashley Moody,Richard Romanoff,Norwalk,CT,06855,Nebraskaland,Sales,100000,1,2026-05-02,2026-05-02,zip,true,1250000,8,8,2024/2026
+Ashley Moody,Robert Berrin,Coral Gables,FL,33146,Capital Realty Services,Real Estate,100000,1,2025-04-27,2025-04-27,zip,true,250000,2,2,2024/2026
+Ashley Moody,Robert Hanasab,Los Angeles,CA,90014,Robhana Group Inc,President,100000,1,2026-05-04,2026-05-04,zip,true,2500000,25,23,2024/2026
+Ashley Moody,Shlomoh Ben-David,Sunny Isles Beach,FL,33160,"Aer Services, Inc.",Manager,100000,2,2025-09-19,2025-09-29,zip,true,2689000,26,16,2024/2026
+Ashley Moody,Stanley Weinstein,Miami Beach,FL,33140,Retired,Retired,100000,1,2025-04-21,2025-04-21,zip,false,4060000,27,22,2024/2026
+Ashley Moody,Stephen Nimer,Miami Beach,FL,33139,University Of Miami,Physician,100000,1,2025-09-21,2025-09-21,zip,true,850000,7,7,2026
+Ashley Moody,Steve Perles,Miami Beach,FL,33140,"The Perles Law Firm, PC",Attorney,100000,1,2025-11-05,2025-11-05,zip,true,1150000,13,13,2024/2026
+Ashley Moody,Steven Brodie,Coral Gables,FL,33133,Carlton Fields,Attorney,100000,1,2025-04-21,2025-04-21,zip,true,2150000,16,10,2024/2026
+Ashley Moody,Steven Caller,Lexington,KY,40502,Retired,Retired,100000,1,2025-11-02,2025-11-02,zip,false,2130000,17,17,2024/2026
+Ashley Moody,Tamar Roodner,Miami Beach,FL,33109,Retired,Retired,100000,1,2025-04-28,2025-04-28,zip,false,375000,4,4,2024/2026
+Ashley Moody,Alan Nussenblatt,Calabasas,CA,97302,Retired,Retired,50000,1,2026-01-28,2026-01-28,state,false,1600000,30,29,2024/2026
+Ashley Moody,Antony Loebel,Larchmont,NY,10538,Retired,Retired,50000,1,2026-06-13,2026-06-13,zip,false,175000,5,5,2026
+Ashley Moody,Daniel Goldstein,Miami,FL,33179,Accesso,Real Estate,50000,1,2025-08-26,2025-08-26,zip,true,1125000,20,15,2024/2026
+Ashley Moody,Gary Mars,Miami,FL,33180,Siegfried Rivera,Attorney,50000,1,2025-05-30,2025-05-30,zip,true,750000,7,6,2024/2026
+Ashley Moody,Harry Woldenberg,Bal Harbour,FL,33154,Postermedia,Founder & Ceo,50000,1,2025-09-22,2025-09-22,zip,true,4500300,27,21,2024/2026
+Ashley Moody,Harvey Bines,Rye,NH,03870,Sullivan & Worcester LLP,Lawyer,50000,1,2026-04-23,2026-04-23,zip,true,3475000,20,14,2024/2026
+Ashley Moody,Jeffrey Fisher,New York,NY,10021,Touro University,Special Programs Administrator,50000,1,2026-07-03,2026-07-03,zip,true,16828326,293,202,2024/2026
+Ashley Moody,Jeffrey Gut,Surfside,FL,33154,Ideal Fastener Corp,President,50000,1,2025-10-20,2025-10-20,zip,true,2884300,19,13,2024/2026
+Ashley Moody,Jeffrey Scheck,Miami,FL,33179,Scheck Group,Vp,50000,1,2025-09-03,2025-09-03,zip,true,600000,8,8,2024/2026
+Ashley Moody,Jonathan Barry,Marietta,GA,30067,Spectrum Maintenance Services,Real Estate,50000,1,2026-05-26,2026-05-26,zip,true,1600000,20,18,2024/2026
+Ashley Moody,Josef Loeffler,Leawood,KS,66211,Self Employed,Finance,50000,1,2025-10-20,2025-10-20,zip,false,2647900,22,16,2024/2026
+Ashley Moody,Kevin Von Neuschatz,Miami,FL,33131,Stanhope Financial,Executive,50000,1,2025-10-20,2025-10-20,zip,true,3125100,22,18,2024/2026
+Ashley Moody,Marissa Amuial,Miami,FL,33131,Akerman LLP,Attorney,50000,1,2025-08-26,2025-08-26,zip,true,169000,5,5,2024
+Ashley Moody,Martin Seaton,Los Angeles,CA,90024,Retired,Retired,50000,1,2026-05-26,2026-05-26,zip,false,2020000,56,44,2024/2026
+Ashley Moody,Michael Friedman,Coral Gables,FL,33143,Cf Properties,Real Estate,50000,1,2025-04-24,2025-04-24,state,false,1000000,2,0,2024
+Ashley Moody,Michel Benarrosh,Miami,FL,33180,Retired,Retired,50000,1,2025-09-15,2025-09-15,zip,false,700000,12,10,2024/2026
+Ashley Moody,Michel Cohen,Miami,FL,33179,"Osmium, LLC",Director,50000,1,2026-06-11,2026-06-11,zip,true,490000,24,24,2024/2026
+Ashley Moody,Mitchell Kopelman,Inlet Beach,FL,32461,Aprio,Cpa,50000,1,2026-06-14,2026-06-14,zip,false,1050000,11,11,2026
+Ashley Moody,Neal Goldman,Boca Raton,FL,33496,Retired,Retired,50000,1,2026-04-27,2026-04-27,zip,false,600000,7,7,2026
+Ashley Moody,Philip Cohen,Miami Beach,FL,33139,Retired,Retired,50000,1,2025-09-25,2025-09-25,zip,false,1166000,30,27,2024/2026
+Ashley Moody,Rich Benenson,Denver,CO,80206,Bhfs,Lawyer,50000,1,2025-03-02,2025-03-02,zip,false,300000,5,5,2024
+Ashley Moody,Robert Finvarb,Miami,FL,33180,Robert Finvarb Companies,Real Estate Development,50000,1,2025-10-01,2025-10-01,zip,true,650000,7,6,2026
+Ashley Moody,Samuel Dwek,Delray Beach,FL,33483,Self Employed,Consultant,50000,1,2026-02-11,2026-02-11,zip,false,1375000,17,12,2024/2026
+Ashley Moody,Sheldon Klapper,Portland,OR,97210,Retired,Retired,50000,1,2026-06-24,2026-06-24,zip,false,1409200,19,16,2024/2026
+Ashley Moody,Steven Scheck,Miami,FL,33179,Scheck Group,Family Office,50000,1,2025-08-28,2025-08-28,zip,true,950000,17,13,2024/2026
+Ashley Moody,Viktor Goldenberg,North Miami Beach,FL,33160,Self Employed,Real Estate,50000,1,2025-10-22,2025-10-22,zip,false,896000,15,14,2024/2026
+Ashley Moody,Bernardo Stein,Belleair,FL,33756,Ccc,Physician,35000,3,2026-01-14,2026-07-07,zip,true,185000,5,5,2024/2026
+Ashley Moody,Edward N. Robinson,Saint George,UT,84770,Retired,Retired,35000,2,2025-04-30,2025-07-14,zip,false,180000,3,0,2026
+Ashley Moody,Robert Selig,Bloomfield,CT,06002,Retired,Retired,34800,28,2026-05-17,2026-06-29,zip,false,50000,1,0,2026
+Ashley Moody,Carol Lee Lasek,Fort Lauderdale,FL,33312,Retired,Retired,30000,1,2026-07-10,2026-07-10,zip,false,73000,2,2,2024
+Ashley Moody,David Doney,Tampa,FL,33611,Akerman LLP,Lawyer,26000,1,2025-08-14,2025-08-14,zip,true,125000,2,2,2024
+Ashley Moody,Abraham Seno Bril,Miami,FL,33180,Retired,Retired,25000,1,2025-09-17,2025-09-17,zip,false,575000,23,17,2024/2026
+Ashley Moody,Alan Levine,Sarasota,FL,34231,Retired,Retired,25000,1,2026-03-10,2026-03-10,zip,false,65000,7,5,2024/2026
+Ashley Moody,Charles Kramer,West Palm Beach,FL,33412,,,25000,1,2025-12-10,2025-12-10,zip,false,1800000,21,15,2026
+Ashley Moody,Gerald Cohen,Highland Beach,FL,33487,Greenley,Investor,25000,1,2026-06-23,2026-06-23,zip,false,25000,1,1,2026
+Ashley Moody,Joel Altman,Boca Raton,FL,33432,Altman Co.,R.E. Dev.,25000,1,2025-11-20,2025-11-20,zip,false,100000,1,1,2024
+Ashley Moody,Lisa Henry,Fort Lauderdale,FL,33306,Retired,Retired,25000,1,2026-05-17,2026-05-17,zip,false,900000,36,36,2026
+Ashley Moody,Semyon Friedman,Miami Beach,FL,33139,Retired,Retired,24700,1,2025-08-10,2025-08-10,zip,false,10000,1,1,2024
+Ashley Moody,Jose Diaz,Miami,FL,33126,Florida Power & Light Company,Reliability Engineering Mgr,15500,4,2025-12-15,2026-06-17,state,false,175000,3,2,2024/2026
+Angela Nixon,Elizabeth Corwin,Tampa,FL,33629,Not Employed,Not Employed,50000,1,2026-01-23,2026-01-23,zip,false,26800,2,1,2024/2026

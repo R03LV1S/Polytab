@@ -1,0 +1,52 @@
+{
+  "generatedAt": "2026-11-13T22:38:43.206Z",
+  "dataCurrentThrough": {
+    "independentExpenditures": "",
+    "campaignFinances": "2026-10-14",
+    "campaignFinancesByCandidate": {
+      "mckay": "2026-10-14",
+      "reed": "2026-10-14"
+    },
+    "superPacDonors": {},
+    "aipacEarmarks": "2026-10-14",
+    "donorNetwork": {
+      "mckay": "2026-08-20",
+      "reed": "2026-08-20",
+      "network": "2026-10-14"
+    },
+    "filingsProcessed": "2026-11-13"
+  },
+  "summary": {
+    "mckay": {
+      "totalReceiptsCents": 20723098,
+      "transfersFromAuthCents": 0,
+      "totalDisbursementsCents": 19921220,
+      "cashOnHandCents": 835731,
+      "candidateContribCents": 11600,
+      "candidateLoansCents": 0,
+      "totalIndividualCents": 20228742,
+      "otherCommitteeContribCents": 335000,
+      "coverageEnd": "2026-10-14",
+      "individualRefundsCents": 646959,
+      "outsideSupportingCents": 0,
+      "outsideOpposingCents": 0,
+      "outsideBenefitingCents": 0
+    },
+    "reed": {
+      "totalReceiptsCents": 372736844,
+      "transfersFromAuthCents": 3956281,
+      "totalDisbursementsCents": 343202832,
+      "cashOnHandCents": 188353216,
+      "candidateContribCents": 0,
+      "candidateLoansCents": 0,
+      "totalIndividualCents": 227625006,
+      "otherCommitteeContribCents": 132695000,
+      "coverageEnd": "2026-10-14",
+      "individualRefundsCents": 2621176,
+      "outsideSupportingCents": 0,
+      "outsideOpposingCents": 0,
+      "outsideBenefitingCents": 0
+    }
+  },
+  "outsideByCommittee": []
+}

@@ -1,0 +1,171 @@
+{
+  "generatedAt": "2026-11-13T22:37:47.601Z",
+  "dataCurrentThrough": {
+    "independentExpenditures": "2026-11-03",
+    "campaignFinances": "2026-10-14",
+    "campaignFinancesByCandidate": {
+      "letlow": "2026-10-14",
+      "davis": "2026-10-14"
+    },
+    "superPacDonors": {
+      "C00940957": "2026-10-14",
+      "C00916692": "2026-10-14",
+      "C00875039": "2026-10-14",
+      "C00819508": "2026-10-14",
+      "C00634774": "2026-10-14",
+      "C00571703": "2026-10-14",
+      "C00753277": "2026-10-14",
+      "C00862094": "2026-10-14",
+      "C00829432": "2026-10-14"
+    },
+    "aipacEarmarks": "2026-10-14",
+    "donorNetwork": {
+      "letlow": "2026-06-30",
+      "davis": "2026-06-30",
+      "network": "2026-10-14"
+    },
+    "filingsProcessed": "2026-11-13"
+  },
+  "summary": {
+    "letlow": {
+      "totalReceiptsCents": 706206851,
+      "transfersFromAuthCents": 418428151,
+      "totalDisbursementsCents": 661889857,
+      "cashOnHandCents": 44316994,
+      "candidateContribCents": 0,
+      "candidateLoansCents": 0,
+      "totalIndividualCents": 157028145,
+      "otherCommitteeContribCents": 124360000,
+      "coverageEnd": "2026-10-14",
+      "individualRefundsCents": 4225621,
+      "outsideSupportingCents": 294828381,
+      "outsideOpposingCents": 0,
+      "outsideBenefitingCents": 294828381
+    },
+    "davis": {
+      "totalReceiptsCents": 501988828,
+      "transfersFromAuthCents": 0,
+      "totalDisbursementsCents": 376495976,
+      "cashOnHandCents": 125492852,
+      "candidateContribCents": 0,
+      "candidateLoansCents": 5400000,
+      "totalIndividualCents": 494923533,
+      "otherCommitteeContribCents": 1000000,
+      "coverageEnd": "2026-10-14",
+      "individualRefundsCents": 3170109,
+      "outsideSupportingCents": 12861900,
+      "outsideOpposingCents": 0,
+      "outsideBenefitingCents": 12861900
+    }
+  },
+  "outsideByCommittee": [
+    {
+      "committeeId": "C00940957",
+      "committee": "Accountability Project Inc",
+      "fecType": "O",
+      "forLetlow": 146798728,
+      "againstLetlow": 0,
+      "forDavis": 0,
+      "againstDavis": 0,
+      "total": 146798728,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202611069945350348",
+      "latestDate": "2026-11-03"
+    },
+    {
+      "committeeId": "C00916692",
+      "committee": "American Mission",
+      "fecType": "O",
+      "forLetlow": 50619733,
+      "againstLetlow": 0,
+      "forDavis": 0,
+      "againstDavis": 0,
+      "total": 50619733,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202609199904430404",
+      "latestDate": "2026-09-17"
+    },
+    {
+      "committeeId": "C00875039",
+      "committee": "High Plains PAC",
+      "fecType": "O",
+      "forLetlow": 36500000,
+      "againstLetlow": 0,
+      "forDavis": 0,
+      "againstDavis": 0,
+      "total": 36500000,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610079908556342",
+      "latestDate": "2026-10-05"
+    },
+    {
+      "committeeId": "C00819508",
+      "committee": "Save American Freedom",
+      "fecType": "O",
+      "forLetlow": 20000100,
+      "againstLetlow": 0,
+      "forDavis": 0,
+      "againstDavis": 0,
+      "total": 20000100,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610319945306510",
+      "latestDate": "2026-10-31"
+    },
+    {
+      "committeeId": "C00634774",
+      "committee": "Common Sense For America PAC",
+      "fecType": "Q",
+      "forLetlow": 17837200,
+      "againstLetlow": 0,
+      "forDavis": 0,
+      "againstDavis": 0,
+      "total": 17837200,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945304426",
+      "latestDate": "2026-10-30"
+    },
+    {
+      "committeeId": "C00571703",
+      "committee": "Senate Leadership Fund (SLF PAC)",
+      "fecType": "O",
+      "forLetlow": 16950980,
+      "againstLetlow": 0,
+      "forDavis": 0,
+      "againstDavis": 0,
+      "total": 16950980,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202611039945330559",
+      "latestDate": "2026-11-03"
+    },
+    {
+      "committeeId": "C00753277",
+      "committee": "Black Voters Matter Action PAC",
+      "fecType": "O",
+      "forLetlow": 0,
+      "againstLetlow": 0,
+      "forDavis": 12861900,
+      "againstDavis": 0,
+      "total": 12861900,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202611029945322689",
+      "latestDate": "2026-11-01"
+    },
+    {
+      "committeeId": "C00862094",
+      "committee": "Great Opportunity PAC, Inc.",
+      "fecType": "O",
+      "forLetlow": 5621640,
+      "againstLetlow": 0,
+      "forDavis": 0,
+      "againstDavis": 0,
+      "total": 5621640,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610309945303845",
+      "latestDate": "2026-10-29"
+    },
+    {
+      "committeeId": "C00829432",
+      "committee": "Defending America's Future",
+      "fecType": "O",
+      "forLetlow": 500000,
+      "againstLetlow": 0,
+      "forDavis": 0,
+      "againstDavis": 0,
+      "total": 500000,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945297793",
+      "latestDate": "2026-10-29"
+    }
+  ]
+}

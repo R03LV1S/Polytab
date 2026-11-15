@@ -1,0 +1,132 @@
+{
+  "generatedAt": "2026-11-13T22:37:44.838Z",
+  "dataCurrentThrough": {
+    "independentExpenditures": "2026-11-02",
+    "campaignFinances": "2026-10-14",
+    "campaignFinancesByCandidate": {
+      "barr": "2026-10-14",
+      "booker": "2026-10-14"
+    },
+    "superPacDonors": {
+      "C00896365": "2026-10-14",
+      "C00916692": "2026-10-14",
+      "C00030718": "2026-10-14",
+      "C00053553": "2026-10-14",
+      "C00489252": "2026-10-14",
+      "C00509893": "2026-10-14"
+    },
+    "aipacEarmarks": "2026-10-14",
+    "donorNetwork": {
+      "barr": "2026-06-30",
+      "booker": "2026-12-09",
+      "network": "2026-10-14"
+    },
+    "filingsProcessed": "2026-11-13"
+  },
+  "summary": {
+    "barr": {
+      "totalReceiptsCents": 1254135016,
+      "transfersFromAuthCents": 282810951,
+      "totalDisbursementsCents": 1468057070,
+      "cashOnHandCents": 155385710,
+      "candidateContribCents": 0,
+      "candidateLoansCents": 0,
+      "totalIndividualCents": 693121269,
+      "otherCommitteeContribCents": 248954854,
+      "coverageEnd": "2026-10-14",
+      "individualRefundsCents": 7511570,
+      "outsideSupportingCents": 173667409,
+      "outsideOpposingCents": 0,
+      "outsideBenefitingCents": 198667409
+    },
+    "booker": {
+      "totalReceiptsCents": 193632382,
+      "transfersFromAuthCents": 0,
+      "totalDisbursementsCents": 163272493,
+      "cashOnHandCents": 30359889,
+      "candidateContribCents": 0,
+      "candidateLoansCents": 0,
+      "totalIndividualCents": 189597184,
+      "otherCommitteeContribCents": 4015000,
+      "coverageEnd": "2026-10-14",
+      "individualRefundsCents": 612500,
+      "outsideSupportingCents": 328536,
+      "outsideOpposingCents": 25000000,
+      "outsideBenefitingCents": 328536
+    }
+  },
+  "outsideByCommittee": [
+    {
+      "committeeId": "C00896365",
+      "committee": "Keep America Great PAC, Inc.",
+      "fecType": "O",
+      "forBarr": 150000000,
+      "againstBarr": 0,
+      "forBooker": 0,
+      "againstBooker": 25000000,
+      "total": 175000000,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945297477",
+      "latestDate": "2026-10-29"
+    },
+    {
+      "committeeId": "C00916692",
+      "committee": "American Mission",
+      "fecType": "O",
+      "forBarr": 20703422,
+      "againstBarr": 0,
+      "forBooker": 0,
+      "againstBooker": 0,
+      "total": 20703422,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610039908512711",
+      "latestDate": "2026-10-01"
+    },
+    {
+      "committeeId": "C00030718",
+      "committee": "National Association Of Realtors Political Action Committee",
+      "fecType": "Q",
+      "forBarr": 2231400,
+      "againstBarr": 0,
+      "forBooker": 0,
+      "againstBooker": 0,
+      "total": 2231400,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610169916113156",
+      "latestDate": "2026-10-16"
+    },
+    {
+      "committeeId": "C00053553",
+      "committee": "National Rifle Association Of America Political Victory Fund",
+      "fecType": "Q",
+      "forBarr": 632347,
+      "againstBarr": 0,
+      "forBooker": 0,
+      "againstBooker": 0,
+      "total": 632347,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202610299945297810",
+      "latestDate": "2026-10-26"
+    },
+    {
+      "committeeId": "C00489252",
+      "committee": "New Power PAC",
+      "fecType": "O",
+      "forBarr": 0,
+      "againstBarr": 0,
+      "forBooker": 328536,
+      "againstBooker": 0,
+      "total": 328536,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202611029945308397",
+      "latestDate": "2026-11-01"
+    },
+    {
+      "committeeId": "C00509893",
+      "committee": "National Right To Life Victory Fund",
+      "fecType": "O",
+      "forBarr": 100240,
+      "againstBarr": 0,
+      "forBooker": 0,
+      "againstBooker": 0,
+      "total": 100240,
+      "latestFilingUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202611039945331048",
+      "latestDate": "2026-11-02"
+    }
+  ]
+}

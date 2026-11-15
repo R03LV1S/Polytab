@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "description": "Polytab Forecast Reputation Ledger. Non-monetary only: accuracy rate, resolution record, and badges. An entry is added only after a market resolves and that staker's forecast is verified against the resolution. No balances, no payouts, no contact details, and no location data are stored here.",
+  "updatedAt": null,
+  "payoutPolicy": "none — reputation is never redeemable, transferable, or paid in money.",
+  "badges": [
+    {
+      "key": "first-forecast",
+      "label": "First Forecast",
+      "rule": "Backed at least one outcome in a resolved market."
+    },
+    {
+      "key": "correct-call",
+      "label": "Correct Call",
+      "rule": "Backed the credited intervention in a resolved market."
+    },
+    {
+      "key": "correct-call-3",
+      "label": "Three Correct Calls",
+      "rule": "Backed the credited intervention in three resolved markets."
+    },
+    {
+      "key": "long-horizon",
+      "label": "Long Horizon",
+      "rule": "Forecast placed at least 180 days before the resolution deadline and correct."
+    },
+    {
+      "key": "perfect-season",
+      "label": "Perfect Season",
+      "rule": "Five resolved forecasts with no incorrect calls."
+    }
+  ],
+  "forecasters": []
+}
