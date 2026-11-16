@@ -3,6 +3,151 @@
   "description": "Polytab Event Radar queue. Current events (last 21 days) surfaced from free public feeds (GDELT, CDC Newsroom, GDACS, USGS) as candidate civic-action blocks in the exact Polytab block format. All metrics are honest-zero (fundedUSD=0, votesCount=0). Items are PROPOSED — promotion to the Projects (feed.json) requires a verified organization pairing and governance sign-off, never automatic. Wallet series: 0x71E + ID (601+). No coordinates are stored (lat/lng null); locations are public place-name strings only.",
   "items": [
     {
+      "id": "615",
+      "title": "Im still trying to find out who I am : the little - understood plight of Forgotten Australians | Child protection",
+      "category": "Accessibility & Universal Design",
+      "organization": "Plan International",
+      "location": "United Kingdom",
+      "summary": "Community Radar current event: \"Im still trying to find out who I am : the little - understood plight of Forgotten Australians | Child protection\" (GDELT (theguardian.com), 2026-11-14). Proposed pairing with verified organization Plan International (Projects bounty #506) — pending governance verification.",
+      "plainSummary": "• Cause: Im still trying to find out who I am : the little - understood plight of Forgotten Australians | Child protection\n• Resolution: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://www.theguardian.com/society/ng-interactive/2026/nov/15/forgotten-australians-trauma-childrens-homes-orphanages-ntwnfb (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "GDELT (theguardian.com)",
+        "sourceUrl": "https://www.theguardian.com/society/ng-interactive/2026/nov/15/forgotten-australians-trauma-childrens-homes-orphanages-ntwnfb",
+        "publishedAt": "2026-11-14T20:00:00.000Z",
+        "discoveredAt": "2026-11-16T04:44:46.023Z",
+        "proposedPairing": {
+          "bountyId": "506",
+          "organization": "Plan International",
+          "keywordMatches": 11
+        },
+        "dedupeHash": "d24c61689b3add8b53be593b5d3f0256a736d35a438eeb04e8e11080c78e3da3"
+      }
+    },
+    {
+      "id": "616",
+      "title": "The US Has Officially Lost Its Measles Elimination Status",
+      "category": "Civic Tech",
+      "organization": "Fisher House Foundation",
+      "location": "United States",
+      "summary": "Community Radar current event: \"The US Has Officially Lost Its Measles Elimination Status\" (GDELT (truthout.org), 2026-11-14). Proposed pairing with verified organization Fisher House Foundation (Projects bounty #507) — pending governance verification.",
+      "plainSummary": "• Cause: The US Has Officially Lost Its Measles Elimination Status\n• Resolution: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://truthout.org/articles/the-us-has-officially-lost-its-measles-elimination-status/ (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "GDELT (truthout.org)",
+        "sourceUrl": "https://truthout.org/articles/the-us-has-officially-lost-its-measles-elimination-status/",
+        "publishedAt": "2026-11-14T20:00:00.000Z",
+        "discoveredAt": "2026-11-16T04:44:46.079Z",
+        "proposedPairing": {
+          "bountyId": "507",
+          "organization": "Fisher House Foundation",
+          "keywordMatches": 6
+        },
+        "dedupeHash": "7e551289f028cfd0ca2f33e18dd52da4e36f27776cb215a518b13e6cdeb53cf4"
+      }
+    },
+    {
+      "id": "617",
+      "title": "Bury Lions collecting donations for Children in Need",
+      "category": "Accessibility & Universal Design",
+      "organization": "Theirworld",
+      "location": "United Kingdom",
+      "summary": "Community Radar current event: \"Bury Lions collecting donations for Children in Need\" (GDELT (burytimes.co.uk), 2026-11-12). Proposed pairing with verified organization Theirworld (Projects bounty #508) — pending governance verification.",
+      "plainSummary": "• Cause: Bury Lions collecting donations for Children in Need\n• Resolution: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://www.burytimes.co.uk/news/26718153.bury-lions-collecting-donations-children-need/ (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "GDELT (burytimes.co.uk)",
+        "sourceUrl": "https://www.burytimes.co.uk/news/26718153.bury-lions-collecting-donations-children-need/",
+        "publishedAt": "2026-11-12T06:45:00.000Z",
+        "discoveredAt": "2026-11-16T04:44:46.130Z",
+        "proposedPairing": {
+          "bountyId": "508",
+          "organization": "Theirworld",
+          "keywordMatches": 6
+        },
+        "dedupeHash": "e827caf8288dd8b08321ac88f913457be5f958d641244962113a41864fc8a875"
+      }
+    },
+    {
+      "id": "618",
+      "title": "Childhood cancer survival reaches nearly 90 %, yet disparities remain",
+      "category": "Accessibility & Universal Design",
+      "organization": "Fisher House Foundation",
+      "location": "United States",
+      "summary": "Community Radar current event: \"Childhood cancer survival reaches nearly 90 %, yet disparities remain\" (GDELT (news-medical.net), 2026-11-12). Proposed pairing with verified organization Fisher House Foundation (Projects bounty #509) — pending governance verification.",
+      "plainSummary": "• Cause: Childhood cancer survival reaches nearly 90 %, yet disparities remain\n• Resolution: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://www.news-medical.net/news/20261111/Childhood-cancer-survival-reaches-nearly-9025-yet-disparities-remain.aspx (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "GDELT (news-medical.net)",
+        "sourceUrl": "https://www.news-medical.net/news/20261111/Childhood-cancer-survival-reaches-nearly-9025-yet-disparities-remain.aspx",
+        "publishedAt": "2026-11-12T05:30:00.000Z",
+        "discoveredAt": "2026-11-16T04:44:46.193Z",
+        "proposedPairing": {
+          "bountyId": "509",
+          "organization": "Fisher House Foundation",
+          "keywordMatches": 9
+        },
+        "dedupeHash": "4b85f59a3817ab516d6d982c90befc788ce9276a3177342a4e923055a487dcad"
+      }
+    },
+    {
+      "id": "619",
+      "title": "Kura Oncology ( KURA ) Q3 2026 Earnings Call Transcript",
+      "category": "Accessibility & Universal Design",
+      "organization": "Fisher House Foundation",
+      "location": "United States",
+      "summary": "Community Radar current event: \"Kura Oncology ( KURA ) Q3 2026 Earnings Call Transcript\" (GDELT (fool.com), 2026-11-11). Proposed pairing with verified organization Fisher House Foundation (Projects bounty #510) — pending governance verification.",
+      "plainSummary": "• Cause: Kura Oncology ( KURA ) Q3 2026 Earnings Call Transcript\n• Resolution: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://www.fool.com/earnings/call-transcripts/2026/11/11/kura-oncology-kura-q3-2026-earnings-call-transcript/?source=iedfolrf0000001 (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "GDELT (fool.com)",
+        "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/11/11/kura-oncology-kura-q3-2026-earnings-call-transcript/?source=iedfolrf0000001",
+        "publishedAt": "2026-11-11T05:30:00.000Z",
+        "discoveredAt": "2026-11-16T04:44:46.249Z",
+        "proposedPairing": {
+          "bountyId": "510",
+          "organization": "Fisher House Foundation",
+          "keywordMatches": 5
+        },
+        "dedupeHash": "596d0bb5f700d8c8fe1bd341af4d39c12383cf431f3ee37a3496144535d791c7"
+      }
+    },
+    {
       "id": "613",
       "title": "Child abuse in the home : The Royal Commission we need .",
       "category": "Accessibility & Universal Design",
@@ -415,7 +560,12 @@
     "a58ef3b99cae92c8ba9a0bc05b28647f886b348d1617ab8b70ccd7188be095e7",
     "e6d025d8223f937cf7f2696130c95c9655a63c322306b7233d33f20386810d75",
     "45a7313fbafcb1ff5c21df80cf3403a067668173ddd1ed0442c1278fcdadc672",
-    "d5adb3cce05de48e0d545e2abb024cb469859e2be00a034a36ab1debe04df757"
+    "d5adb3cce05de48e0d545e2abb024cb469859e2be00a034a36ab1debe04df757",
+    "d24c61689b3add8b53be593b5d3f0256a736d35a438eeb04e8e11080c78e3da3",
+    "7e551289f028cfd0ca2f33e18dd52da4e36f27776cb215a518b13e6cdeb53cf4",
+    "e827caf8288dd8b08321ac88f913457be5f958d641244962113a41864fc8a875",
+    "4b85f59a3817ab516d6d982c90befc788ce9276a3177342a4e923055a487dcad",
+    "596d0bb5f700d8c8fe1bd341af4d39c12383cf431f3ee37a3496144535d791c7"
   ],
-  "nextId": 615
+  "nextId": 620
 }
