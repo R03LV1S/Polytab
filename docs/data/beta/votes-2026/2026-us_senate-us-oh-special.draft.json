@@ -1,5 +1,5 @@
 {
-  "template_version": "pol-vote-beta-2",
+  "template_version": "pol-vote-beta-3-futarchy",
   "bounty_id": "2026-us_senate-us-oh-special",
   "office_type": "us_senate",
   "election_year": 2026,
@@ -25,21 +25,19 @@
       "fec_candidate_ids": [
         "S6OH00304"
       ],
-      "fec_principal_committee_id_cycle": "C00896019",
-      "fec_principal_committee_ids_cycle": [
-        "C00896019"
-      ],
+      "fec_principal_committee_id_cycle": null,
+      "fec_principal_committee_ids_cycle": [],
       "opensecrets_cid": null
     }
   },
   "finance": {
-    "career_total_receipts_usd": 19894786,
-    "career_net_contributions_usd": 12276687,
+    "career_total_receipts_usd": 0,
+    "career_net_contributions_usd": 0,
     "career_total_note": "Sum of FEC reported full-election receipts/net contributions across candidate IDs and authorized committees (source-linked).",
     "cycle": 2026,
     "cycle_window": "full_term_6yr",
-    "cycle_total_receipts_usd": 19894786,
-    "coverage_end_date": "2026-10-22",
+    "cycle_total_receipts_usd": 0,
+    "coverage_end_date": null,
     "top_donors_cycle": [
       {
         "rank": 1,
@@ -91,51 +89,76 @@
         "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
       }
     ],
-    "sources": [
-      {
-        "label": "OpenFEC candidate totals (election_full=true, S6OH00304)",
-        "url": "https://api.open.fec.gov/v1/candidate/S6OH00304/totals/?election_full=true",
-        "as_of": "2026-11-15"
-      }
-    ]
+    "sources": []
   },
   "opponents_nov_general": [
     {
       "name": "Sherrod Brown",
       "party": "D",
       "cycle": 2026,
-      "cycle_total_receipts_usd": 68409200,
-      "coverage_end_date": "2026-10-14",
+      "cycle_total_receipts_usd": 0,
+      "coverage_end_date": null,
       "fec_candidate_id": "S6OH00163",
       "fec_candidate_ids": [
         "S6OH00163"
       ],
-      "sources": [
-        {
-          "label": "OpenFEC candidate totals (election_full=true, S6OH00163)",
-          "url": "https://api.open.fec.gov/v1/candidate/S6OH00163/totals/?election_full=true",
-          "as_of": "2026-11-15"
-        }
-      ]
+      "sources": []
     }
   ],
+  "controversy_hook": {
+    "archetype_id": "WALL_STREET_CRYPTO_REAL_ESTATE",
+    "archetype_label": "Private Equity, Speculative Finance & Real Estate Syndicate",
+    "career_war_chest_usd": 0,
+    "cycle_war_chest_usd": 0,
+    "top_5_donors_cycle_usd": 636907000,
+    "lead_patron": {
+      "name": "MAGA Inc.",
+      "amount_usd": 200000000,
+      "type": "superpac_donor_via_votelog"
+    },
+    "opponent_funding_disparity_ratio": null,
+    "primary_harm_thesis": "housing financialization, consumer debt deregulation, and tax-code arbitrage"
+  },
   "vote": {
-    "question": "[BETA_VOTE_QUESTION_PLACEHOLDER for Jon Husted | career reported receipts: $19,894,786]",
+    "question": "FUTARCHY CONDITIONAL RESOLUTION [US-OH U.S. Senate]: Jon Husted (R) has accumulated $0 in career FEC-reported receipts (anchored this cycle by MAGA Inc. ($200,000,000) and $636,907,000 from top-5 patrons)—exhibiting the \"Private Equity, Speculative Finance & Real Estate Syndicate\" profile. Will independent constituent & oracle review confirm that this private-interest capital concentration compromises public representation in US-OH, thereby executing the OH Corrective Restitution Pool toward affordable housing trusts, predatory-lending legal aid, and household debt relief?",
+    "futarchy_thesis": "Private campaign financing treats US-OH representation as an investable asset class. When Jon Husted's campaign apparatus absorbs $0 (anchored this cycle by MAGA Inc. ($200,000,000) and $636,907,000 from top-5 patrons), policy incentives skew toward housing financialization, consumer debt deregulation, and tax-code arbitrage. This futarchy market converts spectator outrage into direct fiscal counter-leverage.",
     "question_vars": {
       "subject_name": "Jon Husted",
-      "career_total_receipts_usd": 19894786
+      "career_total_receipts_usd": 0,
+      "capture_archetype": "Private Equity, Speculative Finance & Real Estate Syndicate",
+      "lead_patron_name": "MAGA Inc.",
+      "lead_patron_usd": 200000000
     },
-    "type": "advisory_yes_no",
+    "type": "futarchy_conditional_restitution",
     "options": [
-      "Yes",
-      "No",
-      "Abstain"
+      "Yes — Confirm Capture & Execute State Restitution Bounty",
+      "No — Veto Capture Claim & Roll Escrow Pool",
+      "Abstain — Log On-Chain Constituent Dissent Only"
     ]
   },
+  "futarchy_pole_mechanics": {
+    "model": "conditional_restitution_futarchy",
+    "escrow_chain": "base_mainnet_8453",
+    "escrow_token": "USDC",
+    "outcomes": {
+      "YES_EXECUTE_RESTITUTION": "Confirms special-interest capture; releases 100% of escrowed pool to audited state 501(c)(3) restitution beneficiaries — direct corrective remediation of the captured constituent impact.",
+      "NO_VETO_BENEFICIAL_COMMONS": "Finds representation uncompromised by top-donor concentration; redirects 100% of escrowed pool to a bipartisan, district-wide beneficial common good (e.g., voter-protection legal defense, disaster-relief matching fund, or civic-infrastructure project) where both sides of the political divide can agree that the community as a whole is strengthened — countering zero-sum capture politics with positive-sum community investment.",
+      "ABSTAIN_AUDIT_ONLY": "Logs cryptographic constituent dissent on-chain without shifting conditional odds; preserves the pool for future cycle reconsideration."
+    },
+    "leverage_ratio_statement": "Every $10 USDC staked in the US-OH Restitution Pool directly counter-programs $200,000 of top-patron political capital. If the Yes option wins, funds fund front-line affordable housing trusts, predatory-lending legal aid, and household debt relief restitution beneficiaries. If the No option wins, funds redirect to a bipartisan district-wide common good that strengthens the entire community — denying special interests the ability to commandeer the bounty and promoting positive-sum governance over zero-sum subjugation."
+  },
   "bounty_if_passed": {
-    "description": "[BETA_BOUNTY_OUTCOME_PLACEHOLDER for US-OH]",
-    "destination_type": "tip_jar",
-    "destination_criteria": "[BETA_CRITERIA_PLACEHOLDER for US-OH]",
+    "description": "Direct Corrective Restitution for US-OH: Routes 100% of settled Base USDC bounty funds to independently audited, IRS-verified 501(c)(3) public charities operating inside OH dedicated to affordable housing trusts, predatory-lending legal aid, and household debt relief—directly remediating the constituent impact of Private Equity, Speculative Finance & Real Estate Syndicate ($0 career receipts). If the futarchy market resolves affirmatively, funds execute the restitution pool. If the No option wins, funds veto the capture claim and redirect to a bipartisan district-wide common good (voter protection, disaster relief, or civic infrastructure) where both sides of the political divide benefit — protecting the bounty from Special Interest capture and promoting positive-sum community investment over zero-sum oppression.",
+    "destination_type": "audited_501c3_restitution_escrow",
+    "destination_criteria": "MUST satisfy all 4 Zero-Trust Restitution Gates: (1) Active 501(c)(3) statutory registration in US-OH verified via IRS EO BMF & clean against IRS Automatic Revocation + OpenSanctions; (2) Verified Form 990 financial filing (Housing Shelter, Legal Aid & Economic Relief (NTEE L/I/P)); (3) Zero corporate PAC or political committee affiliation; (4) Pre-indexed Eligible Beneficiaries in US-OH: Top-ranked IRS Form 990-audited, revocation-clean 501(c)(3) organizations domiciled in US-OH under Housing Shelter, Legal Aid & Economic Relief (NTEE L/I/P). Note on Resolution Outcome: If the Yes option wins, eligible beneficiaries receive direct restitution. If the No option wins, the bounty pool redirects to a bipartisan district-wide common good (voter protection, disaster relief, or civic infrastructure) — ensuring the bounty cannot be commandeered by special interests and promoting positive-sum community investment over zero-sum subjugation.",
+    "resolution_oracle": {
+      "trigger_conditions": [
+        "Condition A (Financial Capture Threshold): OpenFEC coverage_end_date (current cycle) confirms career receipts >= $0 or top-5 patron concentration >= $636,907,000.",
+        "Condition B (Constituent Futarchy Quorum): Community vote reaches >= 60% 'Yes' supermajority across verified cycle participants before the settlement epoch.",
+        "Condition C (Zero-Trust Beneficiary Audit): Recipient 501(c)(3) passes automated SHA-256 Merkle verification in docs/data/verified-orgs.json at execution time."
+      ],
+      "eligible_audited_beneficiaries": {}
+    },
     "state": "US-OH"
   },
   "location": {
@@ -150,21 +173,20 @@
     "token": "USDC",
     "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
     "qr_asset": "docs/escrow-qr.png",
-    "note": "Uses existing project wallet/QR; subject to current claim-first/support-locked routing rules unless overridden for this beta item.",
+    "note": "Conditional Futarchy Escrow: Funds route to verified state 501(c)(3) restitution targets upon Quorum + Oracle Resolution.",
     "payment_memo_or_slug": "2026-us_senate-us-oh-special"
   },
   "provenance": {
     "status": "beta_template_draft",
-    "generated_at": "2026-11-15T22:11:10.866Z",
-    "generator": "pol-vote-template",
+    "generated_at": "2026-11-16T17:07:37.141Z",
+    "generator": "pol-vote-futarchy-v3",
     "review_required": true
   },
   "_review": {
-    "missing": [],
-    "placeholders": [
-      "vote.question",
-      "bounty_if_passed.description",
-      "bounty_if_passed.destination_criteria"
-    ]
+    "missing": [
+      "finance.career_total_receipts_usd (0 - check API/key/IDs)",
+      "finance.coverage_end_date"
+    ],
+    "placeholders": []
   }
 }
