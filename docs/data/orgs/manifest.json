@@ -1,0 +1,34 @@
+{
+  "schema_version": "3.0.0",
+  "generated_at_utc": "2026-11-16T16:05:11.624Z",
+  "total_verified_orgs": 10434,
+  "total_shards": 3,
+  "summary_metrics": {
+    "added_this_cycle": 10434,
+    "updated_this_cycle": 0,
+    "irs_revoked_purged_this_cycle": 0
+  },
+  "shards": [
+    {
+      "shard": "orgs/GB/ENG-WLS.json",
+      "country_iso2": "GB",
+      "admin1_state_province": "ENG-WLS",
+      "count": 5000,
+      "sha256": "d43d37110d4504ef95d9d27adc39eb5f58c6ff71b9383906d1d583eb3c9f270f"
+    },
+    {
+      "shard": "orgs/NL/NATIONAL.json",
+      "country_iso2": "NL",
+      "admin1_state_province": "NATIONAL",
+      "count": 4902,
+      "sha256": "4c9c2c6e6ca4da93aa73212dd6c07a1c63cda134c90cf9a89bb9072b00978389"
+    },
+    {
+      "shard": "orgs/PR/PR.json",
+      "country_iso2": "PR",
+      "admin1_state_province": "PR",
+      "count": 532,
+      "sha256": "8a7892b4a0ee745f71fb3ad64092fdb4558dfc2ad5cf8af2ab3b9083b80decab"
+    }
+  ]
+}
