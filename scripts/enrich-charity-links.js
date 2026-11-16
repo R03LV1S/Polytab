@@ -14,7 +14,7 @@ const GLOBAL_PATH = path.join(__dirname, '..', 'docs', 'data', 'global-charities
 const VERIFIED_PATH = path.join(__dirname, '..', 'docs', 'data', 'verified-orgs.json');
 
 const USER_AGENT = 'Polytab-LinkEnrichment/1.0 (+https://github.com/R03LV1S/Polytab)';
-const MAX_FETCHES_PER_RUN = Number(process.env.MAX_ENRICH_FETCHES || 120);
+const MAX_FETCHES_PER_RUN = Number(process.env.MAX_ENRICH_FETCHES || 500);
 const REQUEST_DELAY_MS = Number(process.env.ENRICH_DELAY_MS || 350);
 const FETCH_TIMEOUT_MS = 12000;
 

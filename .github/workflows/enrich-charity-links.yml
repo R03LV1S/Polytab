@@ -29,7 +29,7 @@ jobs:
           node-version: 20
       - name: Enrich charity website/social links ($0, free sources)
         env:
-          MAX_ENRICH_FETCHES: "120"
+          MAX_ENRICH_FETCHES: "500"
           ENRICH_DELAY_MS: "350"
         run: node scripts/enrich-charity-links.js
       - name: Generate feeds (if changed)
