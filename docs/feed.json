@@ -1198,8 +1198,13 @@
         "status": "Active",
         "lat": 43.3442,
         "lng": -73.8348,
-        "website": null,
-        "socials": {},
+        "website": "https://seriousfun.org/",
+        "socials": {
+          "facebook": "https://www.facebook.com/SeriousFunCamps/",
+          "x": "https://twitter.com/SeriousFunCamps",
+          "instagram": "https://www.instagram.com/seriousfun_camps/",
+          "youtube": "https://www.youtube.com/user/SeriousFunCamps"
+        },
         "parentCategory": "Charities"
       }
     },
@@ -1223,8 +1228,14 @@
         "status": "Active",
         "lat": 28.3078,
         "lng": -81.4428,
-        "website": null,
-        "socials": {},
+        "website": "https://www.gktw.org/",
+        "socials": {
+          "facebook": "https://www.facebook.com/gktwvillage/",
+          "x": "https://x.com/gktwvillage",
+          "instagram": "https://www.instagram.com/gktwvillage/",
+          "youtube": "https://www.youtube.com/user/GiveKidsTheWorld",
+          "linkedin": "https://www.linkedin.com/company/give-kids-the-world/"
+        },
         "parentCategory": "Charities"
       }
     },
@@ -1248,8 +1259,14 @@
         "status": "Active",
         "lat": 36.5298,
         "lng": -87.3595,
-        "website": null,
-        "socials": {},
+        "website": "https://amputee-coalition.org/",
+        "socials": {
+          "facebook": "https://www.facebook.com/AmputeeCoalition/",
+          "x": "http://twitter.com/AmputeesUSA",
+          "linkedin": "https://www.linkedin.com/company/amputee-coalition-of-america",
+          "youtube": "https://www.youtube.com/user/AmputeeCoalition",
+          "instagram": "https://www.instagram.com/amputeecoalition/"
+        },
         "parentCategory": "Charities"
       }
     },
@@ -212634,5 +212651,6 @@
         "socials": {}
       }
     }
-  ]
+  ],
+  "updated_at": "2026-11-16T12:23:45.042Z"
 }

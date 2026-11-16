@@ -5,7 +5,7 @@
     <link>https://polytab.store/#map</link>
     <description>geoRSS mirror of the Polytab Projects. 8475 of 8475 actions publish organization coordinates, rounded to two decimal places (~1 km, neighborhood-level) to prevent PII/doxing. Organizations without a public location are listed in feed.xml only.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Nov 2026 11:36:37 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 12:24:28 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://polytab.store/feeds/global.xml" rel="self" type="application/rss+xml" />
   <item>
@@ -841,7 +841,8 @@ Location: Lake Luzerne, NY (Double H Ranch)
 Vote price: $1.00 · Target: $1000.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Contributions: locked — org must verify (registry + DNS TXT) to unlock its page</description>
+Contributions: locked — org must verify (registry + DNS TXT) to unlock its page
+Website: https://seriousfun.org/</description>
     <category>Accessibility &amp; Universal Design</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>43.34 -73.83</georss:point>
@@ -860,7 +861,8 @@ Location: Kissimmee, FL
 Vote price: $0.50 · Target: $500.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Contributions: locked — org must verify (registry + DNS TXT) to unlock its page</description>
+Contributions: locked — org must verify (registry + DNS TXT) to unlock its page
+Website: https://www.gktw.org/</description>
     <category>Accessibility &amp; Universal Design</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>28.31 -81.44</georss:point>
@@ -879,7 +881,8 @@ Location: Clarksville, TN (Paddy Run)
 Vote price: $0.50 · Target: $450.00
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
-Contributions: locked — org must verify (registry + DNS TXT) to unlock its page</description>
+Contributions: locked — org must verify (registry + DNS TXT) to unlock its page
+Website: https://amputee-coalition.org/</description>
     <category>Accessibility &amp; Universal Design</category>
     <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
     <georss:point>36.53 -87.36</georss:point>
