@@ -3,6 +3,60 @@
   "description": "Polytab Event Radar queue. Current events (last 21 days) surfaced from free public feeds (GDELT, CDC Newsroom, GDACS, USGS) as candidate civic-action blocks in the exact Polytab block format. All metrics are honest-zero (fundedUSD=0, votesCount=0). Items are PROPOSED — promotion to the Projects (feed.json) requires a verified organization pairing and governance sign-off, never automatic. Wallet series: 0x71E + ID (601+). No coordinates are stored (lat/lng null); locations are public place-name strings only.",
   "items": [
     {
+      "id": "620",
+      "title": "Magnitude 6.6 earthquake — 148 km WSW of Tual, Indonesia",
+      "category": "Environmental",
+      "organization": "Verification Pending",
+      "location": "148 km WSW of Tual, Indonesia",
+      "summary": "Community Radar current event: \"Magnitude 6.6 earthquake — 148 km WSW of Tual, Indonesia\" (USGS Significant Earthquakes, 2026-11-16). Awaiting a verified 501(c)(3) partner pairing before Projects listing.",
+      "plainSummary": "• Cause: Magnitude 6.6 earthquake — 148 km WSW of Tual, Indonesia\n• Resolution: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://earthquake.usgs.gov/earthquakes/eventpage/us7000tymu (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "USGS Significant Earthquakes",
+        "sourceUrl": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tymu",
+        "publishedAt": "2026-11-16T21:11:20.515Z",
+        "discoveredAt": "2026-11-17T01:35:23.624Z",
+        "proposedPairing": null,
+        "dedupeHash": "d2ee3b0ca3f78e36fbbcc47b047187dddc8cbe4314eb3d1eb305335117550686"
+      }
+    },
+    {
+      "id": "621",
+      "title": "Orange notification for tropical cyclone AKVAN-26. Population affected by Category 1 (120 km/h) wind speeds or higher i…",
+      "category": "Environmental",
+      "organization": "Education Cannot Wait",
+      "location": "Tropical Storm).",
+      "summary": "Community Radar current event: \"Orange notification for tropical cyclone AKVAN-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (20.826 million in Tropical Storm).\" (GDACS (EU JRC), 2026-11-16). Proposed pairing with verified organization Education Cannot Wait (Projects bounty #40004) — pending governance verification.",
+      "plainSummary": "• Cause: Orange notification for tropical cyclone AKVAN-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (20.826 million in Tropical Storm).\n• Resolution: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001351 (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "GDACS (EU JRC)",
+        "sourceUrl": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001351",
+        "publishedAt": "2026-11-16T20:06:39.000Z",
+        "discoveredAt": "2026-11-17T01:35:23.688Z",
+        "proposedPairing": {
+          "bountyId": "40004",
+          "organization": "Education Cannot Wait",
+          "keywordMatches": 2
+        },
+        "dedupeHash": "73558cc2f72e0befe6b545de5953ddce8dfd70d64543f3395d132bd40d2e9cb6"
+      }
+    },
+    {
       "id": "615",
       "title": "Im still trying to find out who I am : the little - understood plight of Forgotten Australians | Child protection",
       "category": "Accessibility & Universal Design",
@@ -565,7 +619,9 @@
     "7e551289f028cfd0ca2f33e18dd52da4e36f27776cb215a518b13e6cdeb53cf4",
     "e827caf8288dd8b08321ac88f913457be5f958d641244962113a41864fc8a875",
     "4b85f59a3817ab516d6d982c90befc788ce9276a3177342a4e923055a487dcad",
-    "596d0bb5f700d8c8fe1bd341af4d39c12383cf431f3ee37a3496144535d791c7"
+    "596d0bb5f700d8c8fe1bd341af4d39c12383cf431f3ee37a3496144535d791c7",
+    "d2ee3b0ca3f78e36fbbcc47b047187dddc8cbe4314eb3d1eb305335117550686",
+    "73558cc2f72e0befe6b545de5953ddce8dfd70d64543f3395d132bd40d2e9cb6"
   ],
-  "nextId": 620
+  "nextId": 622
 }
