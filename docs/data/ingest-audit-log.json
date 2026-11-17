@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-17T07:58:59.932Z",
+  "timestamp": "2026-11-17T20:58:33.536Z",
   "merkle_root_sha256": "314c93074a1cbecc9a2bd06bc25dc1918d1c2dd6a95f2e5ad4093613d8dc5f0a",
   "sources": [
     {
@@ -8,15 +8,15 @@
       "fetched": 5000,
       "added": 0,
       "updated": 0,
-      "duration_ms": 1506
+      "duration_ms": 2353
     },
     {
       "source": "NL-Belastingdienst-ANBI-ZIP-XML",
       "status": "OK",
       "fetched": 5000,
-      "added": 567,
-      "updated": 4414,
-      "duration_ms": 1095
+      "added": 0,
+      "updated": 0,
+      "duration_ms": 1740
     },
     {
       "source": "US-IRS-EO-BMF-CrossChecked",

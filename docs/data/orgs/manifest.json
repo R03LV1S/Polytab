@@ -1,11 +1,11 @@
 {
   "schema_version": "3.0.0",
-  "generated_at_utc": "2026-11-17T07:58:59.911Z",
+  "generated_at_utc": "2026-11-17T20:58:33.516Z",
   "total_verified_orgs": 22204,
   "total_shards": 4,
   "summary_metrics": {
-    "added_this_cycle": 567,
-    "updated_this_cycle": 4414,
+    "added_this_cycle": 0,
+    "updated_this_cycle": 0,
     "irs_revoked_purged_this_cycle": 0
   },
   "shards": [
