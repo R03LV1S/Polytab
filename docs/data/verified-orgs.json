@@ -2,14 +2,14 @@
   "schema_version": "3.0.0",
   "sharded": true,
   "manifest_path": "docs/data/orgs/manifest.json",
-  "merkle_root_sha256": "8a5f0e08cab7305cea3a9d79db63472b514e2ddbc6db542e69a3775b760b95fc",
-  "generated_at_utc": "2026-11-17T01:07:00.395Z",
+  "merkle_root_sha256": "314c93074a1cbecc9a2bd06bc25dc1918d1c2dd6a95f2e5ad4093613d8dc5f0a",
+  "generated_at_utc": "2026-11-17T07:58:59.911Z",
   "cost_policy": "ZERO_COST_KEYLESS_PUBLIC_REGISTRIES_ONLY",
-  "total_verified_orgs": 21637,
+  "total_verified_orgs": 22204,
   "total_shards": 4,
   "summary_metrics": {
-    "added_this_cycle": 3,
-    "updated_this_cycle": 11,
+    "added_this_cycle": 567,
+    "updated_this_cycle": 4414,
     "irs_revoked_purged_this_cycle": 0
   },
   "organizations": [
