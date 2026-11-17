@@ -22528,7 +22528,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.dotnetklubben.org/",
-        "socials": {},
+        "socials": {
+          "facebook": "https://www.facebook.com/dotnetklubben"
+        },
         "parentCategory": "Charities"
       }
     },
@@ -22778,7 +22780,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.1egersund.no/",
-        "socials": {},
+        "socials": {
+          "facebook": "https://www.facebook.com/1egersund/?modal=admin_todo_tour"
+        },
         "parentCategory": "Charities"
       }
     },
@@ -22928,7 +22932,11 @@
         "lat": null,
         "lng": null,
         "website": "https://www.tanangerspeiderne.no/",
-        "socials": {},
+        "socials": {
+          "x": "https://twitter.com/speiding",
+          "facebook": "https://www.facebook.com/1tanangersjo",
+          "instagram": "https://www.instagram.com/1.tananger_sjo/"
+        },
         "parentCategory": "Charities"
       }
     },
@@ -22953,7 +22961,12 @@
         "lat": null,
         "lng": null,
         "website": "https://speiding.no/district/salten-og-helgeland-krets",
-        "socials": {},
+        "socials": {
+          "x": "https://www.twitter.com/speiding",
+          "facebook": "https://www.facebook.com/speiding",
+          "instagram": "https://www.instagram.com/speiding",
+          "youtube": "https://www.youtube.com/user/NorgesSpeiderforbund"
+        },
         "parentCategory": "Charities"
       }
     },
@@ -23053,7 +23066,11 @@
         "lat": null,
         "lng": null,
         "website": "https://aas.speiding.no/",
-        "socials": {},
+        "socials": {
+          "x": "https://twitter.com/speiding",
+          "facebook": "https://www.facebook.com/speiding/",
+          "instagram": "http://www.instagram.com/speiding/"
+        },
         "parentCategory": "Charities"
       }
     },
@@ -23128,7 +23145,11 @@
         "lat": null,
         "lng": null,
         "website": "https://speidergruppa.org/",
-        "socials": {},
+        "socials": {
+          "x": "https://twitter.com/speiding",
+          "facebook": "https://www.facebook.com/speiding/",
+          "instagram": "http://www.instagram.com/speiding/"
+        },
         "parentCategory": "Charities"
       }
     },
@@ -23528,7 +23549,11 @@
         "lat": null,
         "lng": null,
         "website": "https://gullaug.speiding.no/",
-        "socials": {},
+        "socials": {
+          "x": "https://twitter.com/speiding",
+          "facebook": "https://www.facebook.com/groups/130557173661377",
+          "instagram": "http://www.instagram.com/speiding/"
+        },
         "parentCategory": "Charities"
       }
     },
@@ -23703,7 +23728,11 @@
         "lat": null,
         "lng": null,
         "website": "https://jeloy.speiding.no/",
-        "socials": {},
+        "socials": {
+          "x": "http://twitter.com/speiding",
+          "facebook": "https://www.facebook.com/jeloyspeider/",
+          "instagram": "http://www.instagram.com/speiding/"
+        },
         "parentCategory": "Charities"
       }
     },
@@ -24053,7 +24082,11 @@
         "lat": null,
         "lng": null,
         "website": "https://www.ovsttun.org/",
-        "socials": {},
+        "socials": {
+          "x": "https://twitter.com/speiding",
+          "facebook": "https://www.facebook.com/groups/1226663959752",
+          "instagram": "http://www.instagram.com/1ovsttunspeidergruppe/"
+        },
         "parentCategory": "Charities"
       }
     },
@@ -24353,7 +24386,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.skjoldspeider.org/",
-        "socials": {},
+        "socials": {
+          "facebook": "https://www.facebook.com/1.skjoldspeidergruppe",
+          "instagram": "https://instagram.com/1.skjold_speidergruppe"
+        },
         "parentCategory": "Charities"
       }
     },
@@ -24478,7 +24514,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.1slattum.org/",
-        "socials": {},
+        "socials": {
+          "facebook": "https://www.facebook.com/1slattum",
+          "instagram": "https://www.instagram.com/1.slattum"
+        },
         "parentCategory": "Charities"
       }
     },
@@ -24653,7 +24692,11 @@
         "lat": null,
         "lng": null,
         "website": "https://1tanum.speiding.no/",
-        "socials": {},
+        "socials": {
+          "x": "https://twitter.com/speiding",
+          "facebook": "https://www.facebook.com/speiding/",
+          "instagram": "http://www.instagram.com/speiding/"
+        },
         "parentCategory": "Charities"
       }
     },
@@ -25053,7 +25096,11 @@
         "lat": null,
         "lng": null,
         "website": "https://1lone.speiding.no/",
-        "socials": {},
+        "socials": {
+          "x": "https://twitter.com/speiding",
+          "facebook": "https://www.facebook.com/1.LoneSpeider",
+          "instagram": "http://www.instagram.com/speiding/"
+        },
         "parentCategory": "Charities"
       }
     },
@@ -26153,7 +26200,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.17-mai.no/",
-        "socials": {},
+        "socials": {
+          "facebook": "https://www.facebook.com/17.maikomiteen/",
+          "instagram": "https://www.instagram.com/17maibergen/"
+        },
         "parentCategory": "Charities"
       }
     },
@@ -26928,7 +26978,9 @@
         "lat": null,
         "lng": null,
         "website": "https://1vennesla.no/",
-        "socials": {},
+        "socials": {
+          "facebook": "https://www.facebook.com/1.vennesla/?fref=ts"
+        },
         "parentCategory": "Charities"
       }
     },
@@ -27178,7 +27230,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.2notteroy.no/",
-        "socials": {},
+        "socials": {
+          "facebook": "https://www.facebook.com/Speiderbo/"
+        },
         "parentCategory": "Charities"
       }
     },
@@ -27378,7 +27432,11 @@
         "lat": null,
         "lng": null,
         "website": "https://oslospeiderne.no/grupper/bestum-sjo/",
-        "socials": {},
+        "socials": {
+          "x": "http://twitter.com/speiding",
+          "facebook": "https://www.facebook.com/speiding/",
+          "instagram": "http://www.instagram.com/speiding/"
+        },
         "parentCategory": "Charities"
       }
     },
@@ -32804,7 +32862,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.vcfs.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/groups/vcfs.no"
+        }
       }
     },
     {
@@ -33054,7 +33114,11 @@
         "lat": null,
         "lng": null,
         "website": "https://www.2dance.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/dk2dance",
+          "instagram": "https://www.instagram.com/2dance_danseklubb/",
+          "tiktok": "https://www.tiktok.com/@2dance_danseklubb?lang=en"
+        }
       }
     },
     {
@@ -33154,7 +33218,9 @@
         "lat": null,
         "lng": null,
         "website": "https://2toms4.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/events/359798059719192/?ref=newsfeed"
+        }
       }
     },
     {
@@ -33279,7 +33345,11 @@
         "lat": null,
         "lng": null,
         "website": "https://3drammen.speiding.no/",
-        "socials": {}
+        "socials": {
+          "x": "http://twitter.com/speiding",
+          "facebook": "http://www.facebook.com/speiding",
+          "instagram": "http://www.instagram.com/speiding"
+        }
       }
     },
     {
@@ -33329,7 +33399,9 @@
         "lat": null,
         "lng": null,
         "website": "https://3e1.kmspeider.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/groups/2333599889"
+        }
       }
     },
     {
@@ -33354,7 +33426,9 @@
         "lat": null,
         "lng": null,
         "website": "https://nb-no.facebook.com/Aureosen/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/Aureosen/"
+        }
       }
     },
     {
@@ -33429,7 +33503,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.3notteroy.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/tredjenotteroy/"
+        }
       }
     },
     {
@@ -34254,7 +34330,10 @@
         "lat": null,
         "lng": null,
         "website": "https://4h.no/agder/",
-        "socials": {}
+        "socials": {
+          "facebook": "http://www.facebook.com/4HAgder",
+          "instagram": "https://www.instagram.com/4hagder"
+        }
       }
     },
     {
@@ -34279,7 +34358,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.4h.no/akershus-og-oslo/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/4Hakershus",
+          "instagram": "https://www.instagram.com/4hakershusogoslo/"
+        }
       }
     },
     {
@@ -34304,7 +34386,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.4h.no/buskerud",
-        "socials": {}
+        "socials": {
+          "facebook": "http://www.facebook.com/4Hbuskerud",
+          "instagram": "https://www.instagram.com/4hbuskerud/"
+        }
       }
     },
     {
@@ -34354,7 +34439,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.4h.no/Finnmark",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/4HFinnmark",
+          "instagram": "https://www.instagram.com/4hnorge"
+        }
       }
     },
     {
@@ -34379,7 +34467,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.4h.no/hedmark",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/4HHedmark",
+          "instagram": "https://www.instagram.com/4hnorge"
+        }
       }
     },
     {
@@ -34429,7 +34520,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.4h.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/4HNorge",
+          "instagram": "https://www.instagram.com/4hnorge/"
+        }
       }
     },
     {
@@ -34504,7 +34598,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.4h.no/nordland",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/4HNordland",
+          "instagram": "https://www.instagram.com/4hnordland"
+        }
       }
     },
     {
@@ -34529,7 +34626,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.4h.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/4HNorge",
+          "instagram": "https://www.instagram.com/4hnorge/"
+        }
       }
     },
     {
@@ -34554,7 +34654,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.4h.no/oppland",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/4HOppland",
+          "instagram": "https://www.instagram.com/4hoppland/"
+        }
       }
     },
     {
@@ -34579,7 +34682,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.4h.no/ostfold",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/4Hostfold",
+          "instagram": "https://www.instagram.com/4hostfold"
+        }
       }
     },
     {
@@ -34604,7 +34710,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.4h.no/rogaland",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/4hrogaland",
+          "instagram": "https://www.instagram.com/4hrogaland"
+        }
       }
     },
     {
@@ -34679,7 +34788,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.4h.no/telemark",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/4htelemark",
+          "instagram": "https://www.instagram.com/4htelemark/"
+        }
       }
     },
     {
@@ -34704,7 +34816,10 @@
         "lat": null,
         "lng": null,
         "website": "https://4h.no/troms/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/4HTroms",
+          "instagram": "https://www.instagram.com/4htroms"
+        }
       }
     },
     {
@@ -34879,7 +34994,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.4mnor.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/4MNorge/",
+          "instagram": "https://www.instagram.com/4m_norge/"
+        }
       }
     },
     {
@@ -34904,7 +35022,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.4p.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/4pforpeople/",
+          "instagram": "https://www.instagram.com/4p_for_people/"
+        }
       }
     },
     {
@@ -42904,7 +43025,9 @@
         "lat": null,
         "lng": null,
         "website": "https://667elr.com/",
-        "socials": {}
+        "socials": {
+          "instagram": "https://www.instagram.com/avoll_lr/"
+        }
       }
     },
     {
@@ -42954,7 +43077,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.syvende.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/groups/149592091818516"
+        }
       }
     },
     {
@@ -43054,7 +43179,11 @@
         "lat": null,
         "lng": null,
         "website": "https://7oslo.no/",
-        "socials": {}
+        "socials": {
+          "x": "http://twitter.com/speiding",
+          "facebook": "https://www.facebook.com/7oslo",
+          "instagram": "https://www.instagram.com/7.oslo.kanaljene/"
+        }
       }
     },
     {
@@ -43154,7 +43283,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.facebook.com/730racing/?ref=bookmarks",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/730racing"
+        }
       }
     },
     {
@@ -43854,7 +43985,11 @@
         "lat": null,
         "lng": null,
         "website": "https://acapp.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/acappellissimo/",
+          "instagram": "https://www.instagram.com/acappellissimo/",
+          "youtube": "https://www.youtube.com/@acappellissimo"
+        }
       }
     },
     {
@@ -43904,7 +44039,12 @@
         "lat": null,
         "lng": null,
         "website": "https://www.amillionvoices.no/",
-        "socials": {}
+        "socials": {
+          "x": "https://twitter.com/AMillVoices?s=20",
+          "facebook": "https://www.facebook.com/amillionvoicesamv",
+          "instagram": "http://instagram.com/amillionvoices",
+          "linkedin": "https://www.linkedin.com/company/3312709"
+        }
       }
     },
     {
@@ -43954,7 +44094,12 @@
         "lat": null,
         "lng": null,
         "website": "https://www.astepcloser.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/Astepcloser/",
+          "instagram": "https://www.instagram.com/ascnorway/",
+          "linkedin": "https://www.linkedin.com/company/a-step-closer-norway/",
+          "tiktok": "https://www.tiktok.com/@ascnorway"
+        }
       }
     },
     {
@@ -44054,7 +44199,11 @@
         "lat": null,
         "lng": null,
         "website": "https://www.a-larm.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/alarm.norge/",
+          "instagram": "https://www.instagram.com/a_larm_norge/",
+          "linkedin": "https://linkedin.com/company/a-larm"
+        }
       }
     },
     {
@@ -44204,7 +44353,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.alfnorge.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/alfnorge.no/?fref=ts"
+        }
       }
     },
     {
@@ -44279,7 +44430,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.a1gambia.org/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/a1gambia",
+          "instagram": "https://www.instagram.com/a1gambia/"
+        }
       }
     },
     {
@@ -44354,7 +44508,11 @@
         "lat": null,
         "lng": null,
         "website": "https://www.abakus.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/AbakusNTNU/",
+          "instagram": "https://www.instagram.com/AbakusNTNU/",
+          "linkedin": "https://www.linkedin.com/company/abakus_3/"
+        }
       }
     },
     {
@@ -44954,7 +45112,9 @@
         "lat": null,
         "lng": null,
         "website": "https://abelvaer.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/groups/454145974616246"
+        }
       }
     },
     {
@@ -45054,7 +45214,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.abildso.org/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/Abilds%C3%B8-G%C3%A5rd-465712313575354",
+          "instagram": "https://www.instagram.com/abildsogaard/?hl=nb"
+        }
       }
     },
     {
@@ -45079,7 +45242,9 @@
         "lat": null,
         "lng": null,
         "website": "https://abildsonms.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/profile.php?id=100087328605488"
+        }
       }
     },
     {
@@ -53179,7 +53344,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.acannorge.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/acannorge/",
+          "instagram": "https://www.instagram.com/acannorge"
+        }
       }
     },
     {
@@ -53229,7 +53397,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.acch.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/groups/116733951707"
+        }
       }
     },
     {
@@ -53454,7 +53624,9 @@
         "lat": null,
         "lng": null,
         "website": "https://achillesnorway.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/groups/198288286849408"
+        }
       }
     },
     {
@@ -53579,7 +53751,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.facebook.com/groups/acroyogakrs/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjo1LCJjcmVhdGlvbl90aW1lIjoxNzk0OTE3MDYxfQ%3D%3D&amp;ars=facebook_login&amp;next=https%3A%2F%2Fwww.facebook.com%2Fgroups%2Facroyogakrs%2F"
+        }
       }
     },
     {
@@ -53604,7 +53778,9 @@
         "lat": null,
         "lng": null,
         "website": "https://m.facebook.com/groups/555836787773655",
-        "socials": {}
+        "socials": {
+          "facebook": "https://m.facebook.com/data/manifest/?is_workplace_mobile_pwa_dogfooding=0"
+        }
       }
     },
     {
@@ -53754,7 +53930,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.norkirkenskedsmo.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/norkirkenskedsmo",
+          "instagram": "https://www.instagram.com/norkirkenskedsmo/"
+        }
       }
     },
     {
@@ -53979,7 +54158,11 @@
         "lat": null,
         "lng": null,
         "website": "https://www.actis.no/",
-        "socials": {}
+        "socials": {
+          "x": "https://twitter.com/actis?lang=en",
+          "facebook": "https://www.facebook.com/ActisRusfeltet",
+          "instagram": "https://www.instagram.com/actisorg/?hl=en"
+        }
       }
     },
     {
@@ -54054,7 +54237,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.activelebanon.org/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/activelebanon",
+          "instagram": "https://www.instagram.com/activelebanon"
+        }
       }
     },
     {
@@ -54229,7 +54415,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.adlibjazzklubb.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/Adlibjazzklubb",
+          "instagram": "https://www.instagram.com/adlibjazzklubb/"
+        }
       }
     },
     {
@@ -54504,7 +54693,11 @@
         "lat": null,
         "lng": null,
         "website": "https://www.adhdnorge.no/",
-        "socials": {}
+        "socials": {
+          "x": "https://twitter.com/adhdnorge",
+          "instagram": "https://www.instagram.com/adhdnorge/",
+          "youtube": "https://www.youtube.com/channel/UC5hETePiwb8H_xceZewle9A"
+        }
       }
     },
     {
@@ -54554,7 +54747,11 @@
         "lat": null,
         "lng": null,
         "website": "https://www.adhdnorge.no/",
-        "socials": {}
+        "socials": {
+          "x": "https://twitter.com/adhdnorge",
+          "instagram": "https://www.instagram.com/adhdnorge/",
+          "youtube": "https://www.youtube.com/channel/UC5hETePiwb8H_xceZewle9A"
+        }
       }
     },
     {
@@ -54604,7 +54801,12 @@
         "lat": null,
         "lng": null,
         "website": "https://www.adhdnorge.no/fylkes-og-lokallag/bergen",
-        "socials": {}
+        "socials": {
+          "x": "https://twitter.com/adhdnorge",
+          "facebook": "https://www.facebook.com/adhdbergen",
+          "instagram": "https://www.instagram.com/adhdnorge/",
+          "youtube": "https://www.youtube.com/channel/UC5hETePiwb8H_xceZewle9A"
+        }
       }
     },
     {
@@ -54754,7 +54956,11 @@
         "lat": null,
         "lng": null,
         "website": "https://www.adhdnorge.no/",
-        "socials": {}
+        "socials": {
+          "x": "https://twitter.com/adhdnorge",
+          "instagram": "https://www.instagram.com/adhdnorge/",
+          "youtube": "https://www.youtube.com/channel/UC5hETePiwb8H_xceZewle9A"
+        }
       }
     },
     {
@@ -54779,7 +54985,11 @@
         "lat": null,
         "lng": null,
         "website": "https://www.adhdnorge.no/",
-        "socials": {}
+        "socials": {
+          "x": "https://twitter.com/adhdnorge",
+          "instagram": "https://www.instagram.com/adhdnorge/",
+          "youtube": "https://www.youtube.com/channel/UC5hETePiwb8H_xceZewle9A"
+        }
       }
     },
     {
@@ -54804,7 +55014,11 @@
         "lat": null,
         "lng": null,
         "website": "https://www.adhdnorge.no/",
-        "socials": {}
+        "socials": {
+          "x": "https://twitter.com/adhdnorge",
+          "instagram": "https://www.instagram.com/adhdnorge/",
+          "youtube": "https://www.youtube.com/channel/UC5hETePiwb8H_xceZewle9A"
+        }
       }
     },
     {
@@ -54879,7 +55093,11 @@
         "lat": null,
         "lng": null,
         "website": "https://www.adhdnorge.no/",
-        "socials": {}
+        "socials": {
+          "x": "https://twitter.com/adhdnorge",
+          "instagram": "https://www.instagram.com/adhdnorge/",
+          "youtube": "https://www.youtube.com/channel/UC5hETePiwb8H_xceZewle9A"
+        }
       }
     },
     {
@@ -54954,7 +55172,11 @@
         "lat": null,
         "lng": null,
         "website": "https://www.adhdnorge.no/",
-        "socials": {}
+        "socials": {
+          "x": "https://twitter.com/adhdnorge",
+          "instagram": "https://www.instagram.com/adhdnorge/",
+          "youtube": "https://www.youtube.com/channel/UC5hETePiwb8H_xceZewle9A"
+        }
       }
     },
     {
@@ -54979,7 +55201,12 @@
         "lat": null,
         "lng": null,
         "website": "https://www.adhdnorge.no/fylkes-og-lokallag/namdal",
-        "socials": {}
+        "socials": {
+          "x": "https://twitter.com/adhdnorge",
+          "facebook": "https://www.facebook.com/groups/1653999881514245",
+          "instagram": "https://www.instagram.com/adhdnorge/",
+          "youtube": "https://www.youtube.com/channel/UC5hETePiwb8H_xceZewle9A"
+        }
       }
     },
     {
@@ -55004,7 +55231,11 @@
         "lat": null,
         "lng": null,
         "website": "https://www.adhdnorge.no/",
-        "socials": {}
+        "socials": {
+          "x": "https://twitter.com/adhdnorge",
+          "instagram": "https://www.instagram.com/adhdnorge/",
+          "youtube": "https://www.youtube.com/channel/UC5hETePiwb8H_xceZewle9A"
+        }
       }
     },
     {
@@ -55104,7 +55335,11 @@
         "lat": null,
         "lng": null,
         "website": "https://www.adhdnorge.no/",
-        "socials": {}
+        "socials": {
+          "x": "https://twitter.com/adhdnorge",
+          "instagram": "https://www.instagram.com/adhdnorge/",
+          "youtube": "https://www.youtube.com/channel/UC5hETePiwb8H_xceZewle9A"
+        }
       }
     },
     {
@@ -55129,7 +55364,11 @@
         "lat": null,
         "lng": null,
         "website": "https://www.adhdnorge.no/",
-        "socials": {}
+        "socials": {
+          "x": "https://twitter.com/adhdnorge",
+          "instagram": "https://www.instagram.com/adhdnorge/",
+          "youtube": "https://www.youtube.com/channel/UC5hETePiwb8H_xceZewle9A"
+        }
       }
     },
     {
@@ -55154,7 +55393,11 @@
         "lat": null,
         "lng": null,
         "website": "https://www.adhdnorge.no/index.asp?id=26162&open=26162",
-        "socials": {}
+        "socials": {
+          "x": "https://twitter.com/adhdnorge",
+          "instagram": "https://www.instagram.com/adhdnorge/",
+          "youtube": "https://www.youtube.com/channel/UC5hETePiwb8H_xceZewle9A"
+        }
       }
     },
     {
@@ -63654,7 +63897,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.afrikahjelpen.com/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/profile.php?id=100080363324614",
+          "instagram": "https://www.instagram.com/steinarvikestad/"
+        }
       }
     },
     {
@@ -64304,7 +64550,12 @@
         "lat": null,
         "lng": null,
         "website": "https://www.afry.com/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/afryofficial/",
+          "instagram": "https://www.instagram.com/afry.official/",
+          "linkedin": "https://www.linkedin.com/company/afry/",
+          "youtube": "https://www.youtube.com/channel/UC0QELj2U5xnAsS-36t7osfA"
+        }
       }
     },
     {
@@ -64429,7 +64680,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.afs.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/AFSNorge/",
+          "instagram": "https://www.instagram.com/afsnorge/"
+        }
       }
     },
     {
@@ -65354,7 +65608,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.agderbrass.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/AgderBrass",
+          "instagram": "https://www.instagram.com/agderbrass/"
+        }
       }
     },
     {
@@ -65579,7 +65836,12 @@
         "lat": null,
         "lng": null,
         "website": "https://fpu.no/",
-        "socials": {}
+        "socials": {
+          "x": "https://twitter.com/fpu_no",
+          "facebook": "https://www.facebook.com/FpUno",
+          "instagram": "https://www.instagram.com/fpu_no/",
+          "tiktok": "https://www.tiktok.com/@fpunorge"
+        }
       }
     },
     {
@@ -65629,7 +65891,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.agderfuglehundklubb.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/Agder-Fuglehund-Klubb-100310916680146/",
+          "instagram": "https://www.instagram.com/agderfuglehundklubb/"
+        }
       }
     },
     {
@@ -65929,7 +66194,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.inpartiet.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/inpartiet.no/",
+          "instagram": "https://www.instagram.com/inp_sentralt"
+        }
       }
     },
     {
@@ -66004,7 +66272,9 @@
         "lat": null,
         "lng": null,
         "website": "https://agder.kmspeider.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/agderkmspeider"
+        }
       }
     },
     {
@@ -66029,7 +66299,11 @@
         "lat": null,
         "lng": null,
         "website": "https://sorlandetkrets.speiding.no/",
-        "socials": {}
+        "socials": {
+          "x": "https://twitter.com/speiding",
+          "facebook": "https://www.facebook.com/speiding/",
+          "instagram": "http://www.instagram.com/speiding/"
+        }
       }
     },
     {
@@ -66154,7 +66428,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.facebook.com/groups/138204329532457",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjo1LCJjcmVhdGlvbl90aW1lIjoxNzk0OTE3MTI2fQ%3D%3D&amp;ars=facebook_login&amp;next=https%3A%2F%2Fwww.facebook.com%2Fgroups%2F138204329532457"
+        }
       }
     },
     {
@@ -66179,7 +66455,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.agder-modellfly.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/groups/208686905809100"
+        }
       }
     },
     {
@@ -66279,7 +66557,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.musikk.no/agder",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/agder.musikkrad/",
+          "instagram": "https://www.instagram.com/agdermusikkrad/"
+        }
       }
     },
     {
@@ -66454,7 +66735,11 @@
         "lat": null,
         "lng": null,
         "website": "https://agderokrets.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/groups/1678314085765227",
+          "instagram": "https://www.instagram.com/golfforbundet/",
+          "youtube": "https://www.youtube.com/user/NorgesGolfforbund"
+        }
       }
     },
     {
@@ -66479,7 +66764,12 @@
         "lat": null,
         "lng": null,
         "website": "https://www.parkinson.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/NorgesParkinsonforbund",
+          "instagram": "https://www.instagram.com/norgesparkinsonforbund/",
+          "linkedin": "https://www.linkedin.com/company/22825085/admin/feed/posts/",
+          "youtube": "https://www.youtube.com/channel/UCi4nmj6sZJ4uwmjj3RU2aGA"
+        }
       }
     },
     {
@@ -66929,7 +67219,9 @@
         "lat": null,
         "lng": null,
         "website": "https://agdersymfoniorkester.com/",
-        "socials": {}
+        "socials": {
+          "facebook": "http://www.facebook.com/AgderSymfoniorkester?ref=ts&fref=ts"
+        }
       }
     },
     {
@@ -67104,7 +67396,11 @@
         "lat": null,
         "lng": null,
         "website": "https://uv.no/agder",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/ungevenstre",
+          "instagram": "https://www.instagram.com/ungevenstre/?hl=nb",
+          "tiktok": "https://www.tiktok.com/@norgesungevenstre"
+        }
       }
     },
     {
@@ -67129,7 +67425,12 @@
         "lat": null,
         "lng": null,
         "website": "https://venstre.no/agder",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/venstre.ingvild",
+          "instagram": "https://www.instagram.com/ingvildwt",
+          "linkedin": "https://www.linkedin.com/in/ingvild-wetrhus-thorsvik/",
+          "youtube": "https://www.youtube.com/@venstreno"
+        }
       }
     },
     {
@@ -67204,7 +67505,11 @@
         "lat": null,
         "lng": null,
         "website": "https://agdervikinglag.no/",
-        "socials": {}
+        "socials": {
+          "x": "https://x.com/",
+          "facebook": "https://www.facebook.com/",
+          "instagram": "https://www.instagram.com/"
+        }
       }
     },
     {
@@ -67904,7 +68209,12 @@
         "lat": null,
         "lng": null,
         "website": "https://www.ahmadiyya.no/",
-        "socials": {}
+        "socials": {
+          "x": "https://x.com/amj_norge",
+          "facebook": "https://www.facebook.com/amjnorge/",
+          "instagram": "https://www.instagram.com/amjnorge/",
+          "youtube": "https://www.youtube.com/c/MTANorway"
+        }
       }
     },
     {
@@ -67929,7 +68239,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.instagram.com/amwsanorge/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/help/instagram/261704639352628",
+          "instagram": "https://www.instagram.com/"
+        }
       }
     },
     {
@@ -68054,7 +68367,11 @@
         "lat": null,
         "lng": null,
         "website": "https://www.aibel.com/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/AibelAS",
+          "instagram": "https://www.instagram.com/aibelnorway",
+          "linkedin": "https://www.linkedin.com/company/aibel/"
+        }
       }
     },
     {
@@ -72704,7 +73021,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.akershus-atr.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/vikenteaterrad/?ref=embed_page#",
+          "instagram": "https://www.instagram.com/akershusteaterrad/"
+        }
       }
     },
     {
@@ -73104,7 +73424,10 @@
         "lat": null,
         "lng": null,
         "website": "https://akks.no/bergen",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/AKKSBergen/",
+          "instagram": "https://www.instagram.com/akksbergen/"
+        }
       }
     },
     {
@@ -73604,7 +73927,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.facebook.com/profile.php?id=61580287153762",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/people/Aksjon-Boligkrise-Stavanger/61580287153762/"
+        }
       }
     },
     {
@@ -73804,7 +74129,12 @@
         "lat": null,
         "lng": null,
         "website": "https://www.akslail.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/AkslaIL",
+          "instagram": "https://www.instagram.com/akslail/#",
+          "linkedin": "https://www.linkedin.com/company/aksla-idrettslag/",
+          "youtube": "https://www.youtube.com/channel/UCvHcTZae7NJWTKcyNDh-pHQ?view_as=subscriber"
+        }
       }
     },
     {
@@ -74629,7 +74959,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.aktivsk.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/Is-til-alle-tak-over-Valle-143678239014182/"
+        }
       }
     },
     {
@@ -82979,7 +83311,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.facebook.com/#!/groups/forde.aktivitet/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/"
+        }
       }
     },
     {
@@ -84829,7 +85163,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.al-noor.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/groups/1412407798983916/?fref=ts"
+        }
       }
     },
     {
@@ -93554,7 +93890,10 @@
         "lat": null,
         "lng": null,
         "website": "https://aldrialene.org/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/groups/219305950794397",
+          "instagram": "https://www.instagram.com/aldrialene_frivillig_org/"
+        }
       }
     },
     {
@@ -93729,7 +94068,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.affo.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/aleneforeldreforeningen/"
+        }
       }
     },
     {
@@ -93754,7 +94095,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.affo.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/aleneforeldreforeningen/"
+        }
       }
     },
     {
@@ -93879,7 +94222,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.affo.no/affo-rogaland/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/aleneforeldreforeningen/"
+        }
       }
     },
     {
@@ -94029,7 +94374,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.alexbrass.com/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/alexanderbrassband"
+        }
       }
     },
     {
@@ -94129,7 +94476,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.alfnorge.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/alfnorge.no/?fref=ts"
+        }
       }
     },
     {
@@ -94954,7 +95303,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.all-ears.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/AllEarsFestival",
+          "instagram": "https://www.instagram.com/allearsfestival/"
+        }
       }
     },
     {
@@ -95104,7 +95456,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.facebook.com/koretallabreve/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/koretallabreve/"
+        }
       }
     },
     {
@@ -103029,7 +103383,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.arodpolicies.org/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/groups/333221977310002/?ref=bookmarks"
+        }
       }
     },
     {
@@ -103179,7 +103535,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.arnemusikforening.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/groups/123744327700878/"
+        }
       }
     },
     {
@@ -103454,7 +103812,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.alltidlittsterkere.org/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/groups/269144579819107",
+          "instagram": "https://www.instagram.com/alltidlittsterkere/"
+        }
       }
     },
     {
@@ -104204,7 +104565,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.frp.no/ditt-fylke/oslo/alna",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/fremskrittspartiet",
+          "instagram": "https://www.instagram.com/fremskrittspartiet"
+        }
       }
     },
     {
@@ -104254,7 +104618,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.facebook.com/storbandalna/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/storbandalna/"
+        }
       }
     },
     {
@@ -104279,7 +104645,13 @@
         "lat": null,
         "lng": null,
         "website": "https://www.venstre.no/lokal/oslo/alna/",
-        "socials": {}
+        "socials": {
+          "x": "https://twitter.com/cjherzog",
+          "facebook": "https://www.facebook.com/venstre.no",
+          "instagram": "https://instagram.com/venstre.no",
+          "linkedin": "https://linkedin.com/company/venstreno",
+          "youtube": "https://www.youtube.com/@venstreno"
+        }
       }
     },
     {
@@ -104454,7 +104826,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.alopecia.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/alopeciaforeningennorge",
+          "instagram": "https://www.instagram.com/alopeciaforeningen/"
+        }
       }
     },
     {
@@ -104604,7 +104979,11 @@
         "lat": null,
         "lng": null,
         "website": "https://alphanorge.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/alphanorge",
+          "instagram": "https://www.instagram.com/alphanorge/",
+          "youtube": "https://www.youtube.com/@AlphaCourse"
+        }
       }
     },
     {
@@ -104804,7 +105183,9 @@
         "lat": null,
         "lng": null,
         "website": "https://rimfakse.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/#%21/RedaksjonRimfakse"
+        }
       }
     },
     {
@@ -104854,7 +105235,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.facebook.com/alstavocali",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/alstavocali/"
+        }
       }
     },
     {
@@ -113229,7 +113612,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.altabf.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/altabf.no"
+        }
       }
     },
     {
@@ -113329,7 +113714,9 @@
         "lat": null,
         "lng": null,
         "website": "https://alta.bokseklubb.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/Alta-Bokseklubb-641293345888471"
+        }
       }
     },
     {
@@ -113454,7 +113841,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.altadykkerklubb.com/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/groups/116342151730507"
+        }
       }
     },
     {
@@ -113579,7 +113968,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.frp.no/ditt-fylke/finnmark/alta",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/fremskrittspartiet",
+          "instagram": "https://www.instagram.com/fremskrittspartiet"
+        }
       }
     },
     {
@@ -113904,7 +114296,9 @@
         "lat": null,
         "lng": null,
         "website": "https://altakajakk.wordpress.com/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/groups/152296753986"
+        }
       }
     },
     {
@@ -113954,7 +114348,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.altakarateklubb.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/altakarateklubb/",
+          "instagram": "https://www.instagram.com/altakarateklubb/"
+        }
       }
     },
     {
@@ -114504,7 +114901,12 @@
         "lat": null,
         "lng": null,
         "website": "https://www.fpu.no/",
-        "socials": {}
+        "socials": {
+          "x": "https://twitter.com/fpu_no",
+          "facebook": "https://www.facebook.com/FpUno",
+          "instagram": "https://www.instagram.com/fpu_no/",
+          "tiktok": "https://www.tiktok.com/@fpunorge"
+        }
       }
     },
     {
@@ -114679,7 +115081,13 @@
         "lat": null,
         "lng": null,
         "website": "https://www.rodekors.no/lokalforeninger/finnmark/alta/",
-        "socials": {}
+        "socials": {
+          "x": "https://x.com/rodekorsnorge",
+          "facebook": "https://www.facebook.com/Altahjelpekorps/",
+          "instagram": "https://www.instagram.com/rodekorsnorge/",
+          "linkedin": "https://www.linkedin.com/company/715852/",
+          "youtube": "https://www.youtube.com/user/rodekorsnorge"
+        }
       }
     },
     {
@@ -114804,7 +115212,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.altasjakk.no/",
-        "socials": {}
+        "socials": {
+          "youtube": "https://www.youtube.com/@GingerGM/videos"
+        }
       }
     },
     {
@@ -115004,7 +115414,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.altask.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/altasvommeklubb"
+        }
       }
     },
     {
@@ -115179,7 +115591,10 @@
         "lat": null,
         "lng": null,
         "website": "https://altavolley.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/groups/771192774446692/",
+          "instagram": "https://www.instagram.com/altavolleyballklubb/?igsh=OXZ1MGx4eHAyOTBq&#038;fbclid=IwY2xjawIlHXVleHRuA2FlbQIxMAABHUiFXghoOD6XGpmtCCXomlVURZu6OMZU6swzK0nmW1VxoZ6lq6ACGFNb-w_aem_BJw2ZapjG4AAiPqq3wig-w#"
+        }
       }
     },
     {
@@ -122904,7 +123319,9 @@
         "lat": null,
         "lng": null,
         "website": "https://altifrem.wordpress.com/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/OFNScandinavia/"
+        }
       }
     },
     {
@@ -123029,7 +123446,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.facebook.com/groups/110198485663250/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjo1LCJjcmVhdGlvbl90aW1lIjoxNzk0OTE3Mzg2fQ%3D%3D&amp;ars=facebook_login&amp;next=https%3A%2F%2Fwww.facebook.com%2Fgroups%2F110198485663250%2F"
+        }
       }
     },
     {
@@ -123129,7 +123548,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.nsr.no/sameforeninger/alta-sameforening/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/groups/99252130261",
+          "instagram": "https://www.instagram.com/nsr_org/"
+        }
       }
     },
     {
@@ -123304,7 +123726,10 @@
         "lat": null,
         "lng": null,
         "website": "https://alvera.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/alveramisjonssenter",
+          "instagram": "https://www.instagram.com/alveramisjonssenter/"
+        }
       }
     },
     {
@@ -123879,7 +124304,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.turforening.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/Alvdal-Turforening-238723326198584/"
+        }
       }
     },
     {
@@ -123904,7 +124331,10 @@
         "lat": null,
         "lng": null,
         "website": "https://tynsetjanitsjar.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/AlvdalTynsetJanitsjarkorps",
+          "instagram": "https://instagram.com/alvdaltynsetjanitsjar"
+        }
       }
     },
     {
@@ -124004,7 +124434,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.facebook.com/AlverFrP/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/AlverFrP/"
+        }
       }
     },
     {
@@ -124079,7 +124511,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.alverklatreklubb.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/alverklatreklubb"
+        }
       }
     },
     {
@@ -124129,7 +124563,9 @@
         "lat": null,
         "lng": null,
         "website": "https://alver.foreningsportal.no/forening?alver-kulturrad&id=306809",
-        "socials": {}
+        "socials": {
+          "facebook": "http://www.facebook.com/profile.php?id=61550795416330"
+        }
       }
     },
     {
@@ -124279,7 +124715,10 @@
         "lat": null,
         "lng": null,
         "website": "https://kor.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/Korforbundet/",
+          "instagram": "https://www.instagram.com/korforbundet/"
+        }
       }
     },
     {
@@ -124429,7 +124868,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.facebook.com/Alversund-KFUK-KFUM-speidere-138889829539107/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjo1LCJjcmVhdGlvbl90aW1lIjoxNzk0OTE3NDA5fQ%3D%3D&amp;ars=facebook_login&amp;next=https%3A%2F%2Fwww.facebook.com%2FAlversund-KFUK-KFUM-speidere-138889829539107%2F"
+        }
       }
     },
     {
@@ -125204,7 +125645,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.facebook.com/amasingfredrikstad",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjo1LCJjcmVhdGlvbl90aW1lIjoxNzk0OTE3NDI1fQ%3D%3D&amp;ars=facebook_login&amp;next=https%3A%2F%2Fwww.facebook.com%2Famasingfredrikstad"
+        }
       }
     },
     {
@@ -132929,7 +133372,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.amatorkultur.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/AmatorkulturraadetiBergen/",
+          "instagram": "https://instagram.com/amatorkulturradet"
+        }
       }
     },
     {
@@ -133154,7 +133600,11 @@
         "lat": null,
         "lng": null,
         "website": "https://www.amazonfk.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/AmazonGrimstad/",
+          "instagram": "https://www.instagram.com/amazongrimstadfk/",
+          "tiktok": "https://www.tiktok.com/@amazongrimstad"
+        }
       }
     },
     {
@@ -133454,7 +133904,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.amcarelverum.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/groups/112872438745750/"
+        }
       }
     },
     {
@@ -133479,7 +133931,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.amcarfollo.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/groups/164529355498"
+        }
       }
     },
     {
@@ -133529,7 +133983,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.gacc.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "http://www.facebook.com/"
+        }
       }
     },
     {
@@ -133554,7 +134010,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.amcargrenland.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/amcargrenland/"
+        }
       }
     },
     {
@@ -133604,7 +134062,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.amcarharstad.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/groups/116733951707"
+        }
       }
     },
     {
@@ -133629,7 +134089,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.amcarhonefoss.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "http://www.facebook.com/groups/346195777189"
+        }
       }
     },
     {
@@ -133904,7 +134366,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.facebook.com/amcarrana",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjo1LCJjcmVhdGlvbl90aW1lIjoxNzk0OTE3NDQ1fQ%3D%3D&amp;ars=facebook_login&amp;next=https%3A%2F%2Fwww.facebook.com%2Famcarrana"
+        }
       }
     },
     {
@@ -134429,7 +134893,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.amcar.no/klubber/finn+din+lokalklubb/1019/lokalklubber+i+midt-norge.html",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/amcarnorge"
+        }
       }
     },
     {
@@ -134529,7 +134995,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.acctrondheim.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/acctrondheim"
+        }
       }
     },
     {
@@ -134854,7 +135322,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.asca.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/groups/1301741479837057/"
+        }
       }
     },
     {
@@ -134879,7 +135349,11 @@
         "lat": null,
         "lng": null,
         "website": "https://www.awcoslo.org/",
-        "socials": {}
+        "socials": {
+          "x": "https://x.com/wildapricot",
+          "facebook": "https://www.facebook.com/AWCOslo/",
+          "instagram": "https://www.instagram.com/awcoslo/"
+        }
       }
     },
     {
@@ -135004,7 +135478,11 @@
         "lat": null,
         "lng": null,
         "website": "https://www.amigitos.org/",
-        "socials": {}
+        "socials": {
+          "x": "https://twitter.com/Amigitos_friend",
+          "facebook": "https://www.facebook.com/AmigitosDR/",
+          "instagram": "https://www.instagram.com/amigitos_friends/"
+        }
       }
     },
     {
@@ -135154,7 +135632,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.ammefri.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/groups/785395609151933",
+          "instagram": "https://www.instagram.com/ammefri.no/"
+        }
       }
     },
     {
@@ -135179,7 +135660,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.ammehjelpen.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/groups/629563863875269/"
+        }
       }
     },
     {
@@ -135254,7 +135737,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.ammehjelpen.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/groups/629563863875269/"
+        }
       }
     },
     {
@@ -142779,7 +143264,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.ammehjelpen.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/groups/629563863875269/"
+        }
       }
     },
     {
@@ -142854,7 +143341,10 @@
         "lat": null,
         "lng": null,
         "website": "https://ammerudbasket.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/Ammerudbasket/",
+          "instagram": "https://www.instagram.com/ammerudbasket/"
+        }
       }
     },
     {
@@ -143154,7 +143644,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.facebook.com/groups/228946715298",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjo1LCJjcmVhdGlvbl90aW1lIjoxNzk0OTE3NDg0fQ%3D%3D&amp;ars=facebook_login&amp;next=https%3A%2F%2Fwww.facebook.com%2Fgroups%2F228946715298"
+        }
       }
     },
     {
@@ -143729,7 +144221,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.andebarkji.com/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/andebarkjitsk",
+          "instagram": "https://www.instagram.com/andebarkji_tsk/?__d=1%2F"
+        }
       }
     },
     {
@@ -144129,7 +144624,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.andelva.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/Andelva.Baatforening/"
+        }
       }
     },
     {
@@ -144529,7 +145026,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.andersdal-kristofferjord.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/groups/1045461505473431"
+        }
       }
     },
     {
@@ -153073,7 +153572,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.njff.no/nordland/andoy",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/And%C3%B8y-Jeger-Fisk-30411175622",
+          "instagram": "https://www.instagram.com/andoy_jff/"
+        }
       }
     },
     {
@@ -153223,7 +153725,12 @@
         "lat": null,
         "lng": null,
         "website": "https://revmatiker.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/revmatikerforbundet",
+          "instagram": "https://instagram.com/revmatikerforbundet/",
+          "linkedin": "https://www.linkedin.com/company/norsk-revmatikerforbund/",
+          "youtube": "https://www.youtube.com/user/Revmatikerforbundet"
+        }
       }
     },
     {
@@ -153373,7 +153880,13 @@
         "lat": null,
         "lng": null,
         "website": "https://www.venstre.no/nordland/andoy",
-        "socials": {}
+        "socials": {
+          "x": "https://twitter.com/gardlm",
+          "facebook": "https://www.facebook.com/gardlm/",
+          "instagram": "https://instagram.com/gardlm",
+          "linkedin": "https://linkedin.com/company/venstreno",
+          "youtube": "https://www.youtube.com/@venstreno"
+        }
       }
     },
     {
@@ -153548,7 +154061,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.anga-fk.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/angafk/"
+        }
       }
     },
     {
@@ -153723,7 +154238,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.facebook.com/AngstringenAalesund",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjo1LCJjcmVhdGlvbl90aW1lIjoxNzk0OTE3NTM1fQ%3D%3D&amp;ars=facebook_login&amp;next=https%3A%2F%2Fwww.facebook.com%2FAngstringenAalesund"
+        }
       }
     },
     {
@@ -153773,7 +154290,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.angstringen.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/Angstringen-Norge-315048361852663",
+          "instagram": "https://www.instagram.com/angstringennorge/"
+        }
       }
     },
     {
@@ -153798,7 +154318,10 @@
         "lat": null,
         "lng": null,
         "website": "https://angstforeningen.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/Angstringen-Norge-315048361852663",
+          "instagram": "https://www.instagram.com/angstringennorge/"
+        }
       }
     },
     {
@@ -154223,7 +154746,9 @@
         "lat": null,
         "lng": null,
         "website": "https://aniarasff.wordpress.com/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/groups/2304807242/"
+        }
       }
     },
     {
@@ -154248,7 +154773,13 @@
         "lat": null,
         "lng": null,
         "website": "https://stoppdyremishandling.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/animanorge/",
+          "instagram": "https://www.instagram.com/animanorge/",
+          "linkedin": "https://www.linkedin.com/company/animanorge/",
+          "youtube": "https://www.youtube.com/@animanorge",
+          "tiktok": "https://www.tiktok.com/@animanorge"
+        }
       }
     },
     {
@@ -154398,7 +154929,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.aniridi.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/AniridiNorge/"
+        }
       }
     },
     {
@@ -154598,7 +155131,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.ankenesrodekors.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/AnkenesRodeKorsHjelpekorps/"
+        }
       }
     },
     {
@@ -154648,7 +155183,11 @@
         "lat": null,
         "lng": null,
         "website": "https://ankenes.korps.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/p/Ankenes-Skolekorps-100046352922816",
+          "instagram": "https://www.instagram.com/ankenesskolekorps",
+          "tiktok": "https://www.tiktok.com/@ankenesskolekorps?_r=1&amp;_t=ZN-91eQVSzjPOw"
+        }
       }
     },
     {
@@ -154823,7 +155362,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.ankerplassen.com/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/Ankerplassen/?fref=ts"
+        }
       }
     },
     {
@@ -155073,7 +155614,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.annaministries.com/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/p/Anna-Ministries-100064675006669/"
+        }
       }
     },
     {
@@ -155123,7 +155666,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.annarogde150.no/anna-rogdes-venner",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/groups/64661273689/"
+        }
       }
     },
     {
@@ -163198,7 +163743,12 @@
         "lat": null,
         "lng": null,
         "website": "https://ansa.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/ANSA.student/",
+          "instagram": "https://www.instagram.com/ansastudent/",
+          "linkedin": "https://www.linkedin.com/company/238151",
+          "youtube": "https://www.youtube.com/channel/UC97OmEMUr_xkvqNhybSjmOg"
+        }
       }
     },
     {
@@ -163698,7 +164248,12 @@
         "lat": null,
         "lng": null,
         "website": "https://www.antikrigsinitiativet.no/",
-        "socials": {}
+        "socials": {
+          "x": "https://twitter.com/antikrigs",
+          "facebook": "https://www.facebook.com/antikrig/?epa=SEARCH_BOX",
+          "instagram": "https://www.instagram.com/antikrigs_initiativet/",
+          "youtube": "https://www.youtube.com/@Antikrigs-Initiativet/videos"
+        }
       }
     },
     {
@@ -163723,7 +164278,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.facebook.com/Antirasistisk-Front-Stavanger-204109132937977/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjo1LCJjcmVhdGlvbl90aW1lIjoxNzk0OTE3NTY3fQ%3D%3D&amp;ars=facebook_login&amp;next=https%3A%2F%2Fwww.facebook.com%2FAntirasistisk-Front-Stavanger-204109132937977%2F"
+        }
       }
     },
     {
@@ -163773,7 +164330,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.antirasistisk-senter.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://facebook.com/arsnorge",
+          "instagram": "https://instagram.com/antirasistisksenter"
+        }
       }
     },
     {
@@ -164323,7 +164883,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.facebook.com/profile.php?id=61559247218256",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/p/Apoteosens-Teater-61559247218256/"
+        }
       }
     },
     {
@@ -164673,7 +165235,11 @@
         "lat": null,
         "lng": null,
         "website": "https://www.bergenbyspill.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/bergenbyspill",
+          "instagram": "https://www.instagram.com/apropos_teater?utm_source=ig_web_button_share_sheet&amp;igsh=ZDNlZDc0MzIxNw==",
+          "youtube": "https://youtube.com/@venpalamanigua?si=IWp-0JlMPvPBmFKJ"
+        }
       }
     },
     {
@@ -164823,7 +165389,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.aquariaas.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/aquariaas",
+          "instagram": "https://www.instagram.com/aquariaasnmbu/"
+        }
       }
     },
     {
@@ -164923,7 +165492,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.arabiskfilmfest.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/ArabiskFilmfest",
+          "instagram": "http://instagram.com/arabiskfilmfest"
+        }
       }
     },
     {
@@ -165423,7 +165995,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.arbef.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/AEF1932"
+        }
       }
     },
     {
@@ -173473,7 +174047,11 @@
         "lat": null,
         "lng": null,
         "website": "https://www.auf.no/",
-        "socials": {}
+        "socials": {
+          "x": "https://x.com/aufnorge",
+          "facebook": "https://www.facebook.com/ArbeidernesUngdomsfylking",
+          "instagram": "https://www.instagram.com/aufnorge/"
+        }
       }
     },
     {
@@ -173623,7 +174201,9 @@
         "lat": null,
         "lng": null,
         "website": "https://arbeiderpartietsuniversitetslag.arbeiderpartiet.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/groups/1379238305718143/"
+        }
       }
     },
     {
@@ -232652,5 +233232,5 @@
       }
     }
   ],
-  "updated_at": "2026-11-16T12:23:45.042Z"
+  "updated_at": "2026-11-17T12:13:23.078Z"
 }
