@@ -1,0 +1,416 @@
+{
+  "template_version": "pol-vote-beta-4-positive-sum",
+  "bounty_id": "2026-us_senate-us-nj-regular",
+  "office_type": "us_senate",
+  "election_year": 2026,
+  "jurisdiction": {
+    "level": "federal",
+    "state": "US-NJ",
+    "district": null,
+    "race_type": "regular",
+    "senate_class": 2
+  },
+  "subject": {
+    "name": "Cory A. Booker",
+    "party": "D",
+    "incumbent": true,
+    "won_race": true,
+    "votelog": {
+      "listed": true,
+      "member_id_or_slug": "booker",
+      "profile_url": "https://votelog.org/members/booker"
+    },
+    "identifiers": {
+      "bioguide_id": "B001288",
+      "fec_candidate_ids": [
+        "S4NJ00185"
+      ],
+      "fec_principal_committee_id_cycle": "C00540500",
+      "fec_principal_committee_ids_cycle": [
+        "C00540500"
+      ],
+      "opensecrets_cid": "N00035267"
+    }
+  },
+  "finance": {
+    "career_total_receipts_usd": 52529215,
+    "career_net_contributions_usd": 36832084,
+    "career_total_note": "Sum of FEC reported full-election receipts/net contributions across candidate IDs and authorized committees (source-linked).",
+    "cycle": 2026,
+    "cycle_window": "full_term_6yr",
+    "cycle_total_receipts_usd": 21275163,
+    "coverage_end_date": "2026-10-14",
+    "top_donors_cycle": [
+      {
+        "rank": 1,
+        "name": "Laure Woods",
+        "committee_id": "C00800995",
+        "amount_usd": 457000,
+        "type": "superpac_donor_via_votelog",
+        "employer": "Retired",
+        "occupation": "Retired",
+        "source_url": "https://votelog.org/data/nj-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 2,
+        "name": "UnidosUS Action Fund",
+        "committee_id": "C00684258",
+        "amount_usd": 200000,
+        "type": "superpac_donor_via_votelog",
+        "source_url": "https://votelog.org/data/nj-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 3,
+        "name": "CAIR Action",
+        "committee_id": "C00881011",
+        "amount_usd": 185000,
+        "type": "superpac_donor_via_votelog",
+        "source_url": "https://votelog.org/data/nj-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 4,
+        "name": "SEIU Cope (Service Employees International Union Committee On Political Education)",
+        "committee_id": "C00684258",
+        "amount_usd": 165000,
+        "type": "superpac_donor_via_votelog",
+        "source_url": "https://votelog.org/data/nj-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 5,
+        "name": "American Committee for Middle East Rights",
+        "committee_id": "C00881011",
+        "amount_usd": 100000,
+        "type": "superpac_donor_via_votelog",
+        "source_url": "https://votelog.org/data/nj-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      }
+    ],
+    "sources": [
+      {
+        "label": "FEC bulk candidate summary (weball/cn, S4NJ00185)",
+        "url": "https://www.fec.gov/files/bulk-downloads/2026/weball26.zip",
+        "as_of": "2026-11-17"
+      }
+    ]
+  },
+  "opponents_nov_general": [
+    {
+      "name": "Justin Michael Ll.m. Murphy",
+      "party": "R",
+      "cycle": 2026,
+      "cycle_total_receipts_usd": 68189,
+      "coverage_end_date": "2026-10-14",
+      "fec_candidate_id": "S4NJ00532",
+      "fec_candidate_ids": [
+        "S4NJ00532"
+      ],
+      "sources": [
+        {
+          "label": "FEC bulk candidate summary (weball/cn, S4NJ00532)",
+          "url": "https://www.fec.gov/files/bulk-downloads/2026/weball26.zip",
+          "as_of": "2026-11-17"
+        }
+      ]
+    }
+  ],
+  "controversy_hook": {
+    "archetype_id": "SUPERPAC_OLIGARCH_SWARM",
+    "archetype_label": "Outside Super PAC & Megadonor Swarm",
+    "career_war_chest_usd": 52529215,
+    "cycle_war_chest_usd": 21275163,
+    "top_5_donors_cycle_usd": 1107000,
+    "candidate_self_funding_usd": 0,
+    "lead_patron": {
+      "name": "Laure Woods",
+      "amount_usd": 457000,
+      "type": "superpac_donor_via_votelog"
+    },
+    "opponent_funding_disparity_ratio": 770.35,
+    "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
+  },
+  "vote": {
+    "question": "FUTARCHY CONDITIONAL RESOLUTION [US-NJ U.S. Senate]: Cory A. Booker (D) has accumulated $52,529,215 in career FEC-reported receipts (anchored this cycle by Laure Woods ($457,000) and $1,107,000 from top-5 patrons)—out-raising general opponent Justin Michael Ll.m. Murphy ($68,189) by 770.35x—exhibiting the \"Outside Super PAC & Megadonor Swarm\" profile. Will independent constituent & oracle review confirm that this private-interest capital concentration compromises public representation in US-NJ, thereby executing the NJ Corrective Restitution Pool toward non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
+    "futarchy_thesis": "Private campaign financing treats US-NJ representation as an investable asset class. When Cory A. Booker's campaign apparatus absorbs $52,529,215 (anchored this cycle by Laure Woods ($457,000) and $1,107,000 from top-5 patrons), policy incentives skew toward dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers. This futarchy market converts spectator outrage into direct fiscal counter-leverage.",
+    "question_vars": {
+      "subject_name": "Cory A. Booker",
+      "career_total_receipts_usd": 52529215,
+      "capture_archetype": "Outside Super PAC & Megadonor Swarm",
+      "lead_patron_name": "Laure Woods",
+      "lead_patron_usd": 457000
+    },
+    "type": "futarchy_conditional_restitution",
+    "options": [
+      "Yes — Confirm Capture & Execute State Restitution Bounty",
+      "No — Veto Capture Claim & Roll Escrow Pool to Bipartisan Commons",
+      "Abstain — Log On-Chain Constituent Dissent Only"
+    ]
+  },
+  "futarchy_pole_mechanics": {
+    "model": "conditional_restitution_futarchy",
+    "escrow_chain": "base_mainnet_8453",
+    "escrow_token": "USDC",
+    "outcomes": {
+      "YES_EXECUTE_RESTITUTION": "Confirms special-interest capture; releases 100% of escrowed pool to audited state 501(c)(3) restitution beneficiaries — direct corrective remediation of the captured constituent impact.",
+      "NO_VETO_BENEFICIAL_COMMONS": "Finds representation uncompromised by top-donor concentration; redirects 100% of escrowed pool to a bipartisan, district-wide beneficial common good (e.g., voter-protection legal defense, disaster-relief matching fund, or civic-infrastructure project) where both sides of the political divide can agree that the community as a whole is strengthened — countering zero-sum capture politics with positive-sum community investment.",
+      "ABSTAIN_AUDIT_ONLY": "Logs cryptographic constituent dissent on-chain without shifting conditional odds; preserves the pool for future cycle reconsideration."
+    },
+    "leverage_ratio_statement": "Every $10 USDC staked in the US-NJ Restitution Pool directly counter-programs $1,000 of top-patron political capital. If the Yes option wins, funds fund front-line non-partisan civic accountability, investigative public-interest journalism, and voter legal defense restitution beneficiaries. If the No option wins, funds redirect to a bipartisan district-wide common good that strengthens the entire community — denying special interests the ability to commandeer the bounty and promoting positive-sum governance over zero-sum subjugation."
+  },
+  "bounty_if_passed": {
+    "winning_option": "YES_EXECUTE_RESTITUTION",
+    "description": "Direct Corrective Restitution for US-NJ: Routes 100% of settled Base USDC bounty funds to independently audited, IRS-verified 501(c)(3) public charities operating inside NJ dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense—directly remediating the constituent impact of Outside Super PAC & Megadonor Swarm ($52,529,215 career receipts). Named restitution beneficiaries: LEGAL SERVICES OF NEW JERSEY INC (US-EIN:222059939); SOUTH JERSEY LEGAL SERVICES INC (US-EIN:221843254); NORTHEAST NEW JERSEY LEGAL SERVICES CORPORATION (US-EIN:221898061); CENTRAL JERSEY LEGAL SERVICES INC (US-EIN:210684259); DISABILITY RIGHTS NEW JERSEY A NEW JERSEY NONPROFIT CORPORATION (US-EIN:223317146). If the futarchy market resolves affirmatively, funds execute the restitution pool. If the No option wins, funds veto the capture claim and redirect to the bipartisan state commons listed in bounty_if_no_wins.",
+    "destination_type": "audited_501c3_restitution_escrow",
+    "destination_criteria": "MUST satisfy all 4 Zero-Trust Restitution Gates: (1) Active 501(c)(3) statutory registration in US-NJ verified via IRS EO BMF & clean against IRS Automatic Revocation; (2) NTEE-coded mission fit (Civil Rights, Public Policy & Voter Education (NTEE R/W)); (3) Zero corporate PAC or political committee affiliation; (4) Pre-indexed Eligible Beneficiaries in US-NJ: LEGAL SERVICES OF NEW JERSEY INC (US-EIN:222059939); SOUTH JERSEY LEGAL SERVICES INC (US-EIN:221843254); NORTHEAST NEW JERSEY LEGAL SERVICES CORPORATION (US-EIN:221898061); CENTRAL JERSEY LEGAL SERVICES INC (US-EIN:210684259); DISABILITY RIGHTS NEW JERSEY A NEW JERSEY NONPROFIT CORPORATION (US-EIN:223317146). Note on Resolution Outcome: If the Yes option wins, the restitution beneficiaries receive direct disbursement. If the No option wins, the pool redirects to the disjoint bipartisan commons pool in bounty_if_no_wins.",
+    "resolution_oracle": {
+      "trigger_conditions": [
+        "Condition A (Financial Capture Threshold): FEC coverage_end_date (2026-10-14) confirms career receipts >= $52,529,215 or top-5 patron concentration >= $1,107,000.",
+        "Condition B (Constituent Futarchy Quorum): Community vote reaches >= 60% 'Yes' supermajority across verified cycle participants before the settlement epoch.",
+        "Condition C (Zero-Trust Beneficiary Audit): Recipient 501(c)(3) passes sha256 shard-integrity verification in docs/data/orgs/manifest.json and IRS Automatic Revocation re-check at execution time."
+      ],
+      "eligible_audited_beneficiaries": [
+        {
+          "registry_id": "US-EIN:222059939",
+          "ein": "222059939",
+          "name": "LEGAL SERVICES OF NEW JERSEY INC",
+          "city": "EDISON",
+          "state": "NJ",
+          "ntee_code": "I80Z",
+          "revenue_amt": 117795789,
+          "asset_amt": 89932408,
+          "verification_tier": "TIER_1_AUDITED",
+          "independently_audited": true,
+          "audit_signals": [
+            "IRS_EO_BMF_ACTIVE_501C3",
+            "IRS_AUTO_REVOCATION_CLEAN",
+            "IRS_BMF_NTEE_I80Z",
+            "IRS_BMF_REVENUE_REPORTED",
+            "IRS_BMF_ASSETS_REPORTED"
+          ],
+          "source_authority": "IRS EO BMF (eo_nj.csv)"
+        },
+        {
+          "registry_id": "US-EIN:221843254",
+          "ein": "221843254",
+          "name": "SOUTH JERSEY LEGAL SERVICES INC",
+          "city": "CAMDEN",
+          "state": "NJ",
+          "ntee_code": "I80",
+          "revenue_amt": 20912732,
+          "asset_amt": 12945122,
+          "verification_tier": "TIER_1_AUDITED",
+          "independently_audited": true,
+          "audit_signals": [
+            "IRS_EO_BMF_ACTIVE_501C3",
+            "IRS_AUTO_REVOCATION_CLEAN",
+            "IRS_BMF_NTEE_I80",
+            "IRS_BMF_REVENUE_REPORTED",
+            "IRS_BMF_ASSETS_REPORTED"
+          ],
+          "source_authority": "IRS EO BMF (eo_nj.csv)"
+        },
+        {
+          "registry_id": "US-EIN:221898061",
+          "ein": "221898061",
+          "name": "NORTHEAST NEW JERSEY LEGAL SERVICES CORPORATION",
+          "city": "JERSEY CITY",
+          "state": "NJ",
+          "ntee_code": "I80",
+          "revenue_amt": 16390149,
+          "asset_amt": 12248388,
+          "verification_tier": "TIER_1_AUDITED",
+          "independently_audited": true,
+          "audit_signals": [
+            "IRS_EO_BMF_ACTIVE_501C3",
+            "IRS_AUTO_REVOCATION_CLEAN",
+            "IRS_BMF_NTEE_I80",
+            "IRS_BMF_REVENUE_REPORTED",
+            "IRS_BMF_ASSETS_REPORTED"
+          ],
+          "source_authority": "IRS EO BMF (eo_nj.csv)"
+        },
+        {
+          "registry_id": "US-EIN:210684259",
+          "ein": "210684259",
+          "name": "CENTRAL JERSEY LEGAL SERVICES INC",
+          "city": "NEW BRUNSWICK",
+          "state": "NJ",
+          "ntee_code": "I80",
+          "revenue_amt": 15047866,
+          "asset_amt": 6640692,
+          "verification_tier": "TIER_1_AUDITED",
+          "independently_audited": true,
+          "audit_signals": [
+            "IRS_EO_BMF_ACTIVE_501C3",
+            "IRS_AUTO_REVOCATION_CLEAN",
+            "IRS_BMF_NTEE_I80",
+            "IRS_BMF_REVENUE_REPORTED",
+            "IRS_BMF_ASSETS_REPORTED"
+          ],
+          "source_authority": "IRS EO BMF (eo_nj.csv)"
+        },
+        {
+          "registry_id": "US-EIN:223317146",
+          "ein": "223317146",
+          "name": "DISABILITY RIGHTS NEW JERSEY A NEW JERSEY NONPROFIT CORPORATION",
+          "city": "TRENTON",
+          "state": "NJ",
+          "ntee_code": "I83",
+          "revenue_amt": 5089130,
+          "asset_amt": 2407836,
+          "verification_tier": "TIER_1_AUDITED",
+          "independently_audited": true,
+          "audit_signals": [
+            "IRS_EO_BMF_ACTIVE_501C3",
+            "IRS_AUTO_REVOCATION_CLEAN",
+            "IRS_BMF_NTEE_I83",
+            "IRS_BMF_REVENUE_REPORTED",
+            "IRS_BMF_ASSETS_REPORTED"
+          ],
+          "source_authority": "IRS EO BMF (eo_nj.csv)"
+        }
+      ]
+    },
+    "state": "US-NJ"
+  },
+  "bounty_if_no_wins": {
+    "winning_option": "NO_VETO_BENEFICIAL_COMMONS",
+    "description": "Positive-Sum Bipartisan Commons for US-NJ: Constituents reject the capture framing for Cory A. Booker. 100% of escrowed Base USDC routes to non-political, universally beneficial 501(c)(3) infrastructure in US-NJ (Volunteer Fire/EMS, Veterans' Care, Food Banks, and Disaster Relief) where both sides of the political divide demonstrably benefit, with an on-chain Constituent Mandate Vindication credit. Named commons beneficiaries: HATZOLAH EMERGENCY MEDICAL SERVICES INC (US-EIN:223219824); COMMUNITY FOOD BANK OF NEW JERSEY INC (US-EIN:222423882); HACKENSACK MERIDIAN HEALTH INC (US-EIN:010649794); METROPOLITAN YMCA OF THE ORANGES INC (US-EIN:221487387); RWJ BARNABAS HEALTH INC (US-EIN:851296795). Any attempt to brigade this outcome converts zero-sum capture money into positive-sum community investment.",
+    "destination_type": "audited_501c3_bipartisan_commons_escrow",
+    "candidate_benefit_attestation": "Issues immutable on-chain 'CONSTITUENT_MANDATE_VINDICATED' attestation for Cory A. Booker (US-NJ) and credits the constituency's defense of the candidate for funding front-line state humanitarian & emergency infrastructure.",
+    "destination_criteria": "MUST be an IRS-audited 501(c)(3) public charity in US-NJ operating in non-ideological universal commons (NTEE M24 Fire & Rescue, M20 Disaster Relief, W30 Veterans, K31 Food Banks, E20/E22 Community Hospitals, O Youth Development) with zero partisan lobbying, chosen only where both sides of the political divide benefit. Eligible commons beneficiaries: HATZOLAH EMERGENCY MEDICAL SERVICES INC (US-EIN:223219824); COMMUNITY FOOD BANK OF NEW JERSEY INC (US-EIN:222423882); HACKENSACK MERIDIAN HEALTH INC (US-EIN:010649794); METROPOLITAN YMCA OF THE ORANGES INC (US-EIN:221487387); RWJ BARNABAS HEALTH INC (US-EIN:851296795).",
+    "eligible_commons_beneficiaries": [
+      {
+        "registry_id": "US-EIN:223219824",
+        "ein": "223219824",
+        "name": "HATZOLAH EMERGENCY MEDICAL SERVICES INC",
+        "city": "LAKEWOOD",
+        "state": "NJ",
+        "ntee_code": "M20Z",
+        "revenue_amt": 7543936,
+        "asset_amt": 11071559,
+        "verification_tier": "TIER_1_AUDITED",
+        "independently_audited": true,
+        "audit_signals": [
+          "IRS_EO_BMF_ACTIVE_501C3",
+          "IRS_AUTO_REVOCATION_CLEAN",
+          "IRS_BMF_NTEE_M20Z",
+          "IRS_BMF_REVENUE_REPORTED",
+          "IRS_BMF_ASSETS_REPORTED"
+        ],
+        "source_authority": "IRS EO BMF (eo_nj.csv)"
+      },
+      {
+        "registry_id": "US-EIN:222423882",
+        "ein": "222423882",
+        "name": "COMMUNITY FOOD BANK OF NEW JERSEY INC",
+        "city": "HILLSIDE",
+        "state": "NJ",
+        "ntee_code": "K31Z",
+        "revenue_amt": 214145989,
+        "asset_amt": 125218242,
+        "verification_tier": "TIER_1_AUDITED",
+        "independently_audited": true,
+        "audit_signals": [
+          "IRS_EO_BMF_ACTIVE_501C3",
+          "IRS_AUTO_REVOCATION_CLEAN",
+          "IRS_BMF_NTEE_K31Z",
+          "IRS_BMF_REVENUE_REPORTED",
+          "IRS_BMF_ASSETS_REPORTED"
+        ],
+        "source_authority": "IRS EO BMF (eo_nj.csv)"
+      },
+      {
+        "registry_id": "US-EIN:010649794",
+        "ein": "010649794",
+        "name": "HACKENSACK MERIDIAN HEALTH INC",
+        "city": "EDISON",
+        "state": "NJ",
+        "ntee_code": "E21",
+        "revenue_amt": 8846442863,
+        "asset_amt": 7606228788,
+        "verification_tier": "TIER_1_AUDITED",
+        "independently_audited": true,
+        "audit_signals": [
+          "IRS_EO_BMF_ACTIVE_501C3",
+          "IRS_AUTO_REVOCATION_CLEAN",
+          "IRS_BMF_NTEE_E21",
+          "IRS_BMF_REVENUE_REPORTED",
+          "IRS_BMF_ASSETS_REPORTED"
+        ],
+        "source_authority": "IRS EO BMF (eo_nj.csv)"
+      },
+      {
+        "registry_id": "US-EIN:221487387",
+        "ein": "221487387",
+        "name": "METROPOLITAN YMCA OF THE ORANGES INC",
+        "city": "LIVINGSTON",
+        "state": "NJ",
+        "ntee_code": null,
+        "revenue_amt": 52708402,
+        "asset_amt": 68318893,
+        "verification_tier": "TIER_1_AUDITED",
+        "independently_audited": true,
+        "audit_signals": [
+          "IRS_EO_BMF_ACTIVE_501C3",
+          "IRS_AUTO_REVOCATION_CLEAN",
+          "IRS_BMF_REVENUE_REPORTED",
+          "IRS_BMF_ASSETS_REPORTED"
+        ],
+        "source_authority": "IRS EO BMF (eo_nj.csv)"
+      },
+      {
+        "registry_id": "US-EIN:851296795",
+        "ein": "851296795",
+        "name": "RWJ BARNABAS HEALTH INC",
+        "city": "OCEANPORT",
+        "state": "NJ",
+        "ntee_code": "E22",
+        "revenue_amt": 7777256607,
+        "asset_amt": 9708652084,
+        "verification_tier": "TIER_1_AUDITED",
+        "independently_audited": true,
+        "audit_signals": [
+          "IRS_EO_BMF_ACTIVE_501C3",
+          "IRS_AUTO_REVOCATION_CLEAN",
+          "IRS_BMF_NTEE_E22",
+          "IRS_BMF_REVENUE_REPORTED",
+          "IRS_BMF_ASSETS_REPORTED"
+        ],
+        "source_authority": "IRS EO BMF (eo_nj.csv)"
+      }
+    ],
+    "state": "US-NJ"
+  },
+  "anti_commandeering_guard": {
+    "invariant": "NON_EXTRACTABLE_PUBLIC_COMMONS_LOCK",
+    "whale_vote_formula": "quadratic_sqrt_usdc_with_5pct_wallet_cap",
+    "max_single_wallet_vote_share_pct": 5,
+    "dark_money_firewall": "IRS_SUBSECTION_03_PUBLIC_CHARITY_ONLY_NO_501C4_OR_PAC_CONDUITS",
+    "plutocrat_trap_clause": "If Laure Woods ($457,000 cycle patron) or aligned whales attempt to brigade the 'NO' outcome to manufacture candidate exoneration, 100% of their injected USDC is irrevocably locked into US-NJ Bipartisan Universal Commons (volunteer fire/EMS, veterans' care, food banks, and disaster relief), while their voting weight is quadratically dampened at 5% max share."
+  },
+  "location": {
+    "label": "United States Capitol",
+    "address": "First St SE, Washington, DC 20004, USA",
+    "lat": 38.8899,
+    "lng": -77.0091
+  },
+  "payment": {
+    "chain": "base",
+    "chain_id": 8453,
+    "token": "USDC",
+    "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+    "qr_asset": "docs/escrow-qr.png",
+    "note": "Conditional Futarchy Escrow: Funds route to verified state 501(c)(3) restitution targets upon Quorum + Oracle Resolution.",
+    "payment_memo_or_slug": "2026-us_senate-us-nj-regular"
+  },
+  "provenance": {
+    "status": "beta_template_verified",
+    "generated_at": "2026-11-17T01:06:16.875Z",
+    "generator": "pol-vote-futarchy-v4",
+    "review_required": false
+  }
+}

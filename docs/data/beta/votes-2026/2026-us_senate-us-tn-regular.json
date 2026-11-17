@@ -1,0 +1,419 @@
+{
+  "template_version": "pol-vote-beta-4-positive-sum",
+  "bounty_id": "2026-us_senate-us-tn-regular",
+  "office_type": "us_senate",
+  "election_year": 2026,
+  "jurisdiction": {
+    "level": "federal",
+    "state": "US-TN",
+    "district": null,
+    "race_type": "regular",
+    "senate_class": 2
+  },
+  "subject": {
+    "name": "Bill Hagerty",
+    "party": "R",
+    "incumbent": true,
+    "won_race": true,
+    "votelog": {
+      "listed": true,
+      "member_id_or_slug": "hagerty",
+      "profile_url": "https://votelog.org/members/hagerty"
+    },
+    "identifiers": {
+      "bioguide_id": "H000601",
+      "fec_candidate_ids": [
+        "S0TN00169"
+      ],
+      "fec_principal_committee_id_cycle": "C00718627",
+      "fec_principal_committee_ids_cycle": [
+        "C00718627"
+      ],
+      "opensecrets_cid": "N00045369"
+    }
+  },
+  "finance": {
+    "career_total_receipts_usd": 32999539,
+    "career_net_contributions_usd": 29786814,
+    "career_total_note": "Sum of FEC reported full-election receipts/net contributions across candidate IDs and authorized committees (source-linked).",
+    "cycle": 2026,
+    "cycle_window": "full_term_6yr",
+    "cycle_total_receipts_usd": 8422211,
+    "coverage_end_date": "2026-10-14",
+    "top_donors_cycle": [
+      {
+        "rank": 1,
+        "name": "Leading The Future",
+        "committee_id": "C00916692",
+        "amount_usd": 22500000,
+        "type": "superpac_donor_via_votelog",
+        "source_url": "https://votelog.org/data/tn-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 2,
+        "name": "Summit Ridge Media Group LLC",
+        "committee_id": "C00916692",
+        "amount_usd": 1126872,
+        "type": "superpac_donor_via_votelog",
+        "source_url": "https://votelog.org/data/tn-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 3,
+        "name": "Michael Rydin",
+        "committee_id": null,
+        "amount_usd": 543500,
+        "type": "superpac_donor_via_votelog",
+        "employer": "Retired",
+        "occupation": "Retired",
+        "source_url": "https://votelog.org/data/tn-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 4,
+        "name": "Lonsdale Enterprises Inc.",
+        "committee_id": "C00916692",
+        "amount_usd": 250000,
+        "type": "superpac_donor_via_votelog",
+        "source_url": "https://votelog.org/data/tn-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 5,
+        "name": "Arthur B. Choate",
+        "committee_id": "C00524181",
+        "amount_usd": 155000,
+        "type": "superpac_donor_via_votelog",
+        "employer": "Self",
+        "occupation": "Investor",
+        "source_url": "https://votelog.org/data/tn-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      }
+    ],
+    "sources": [
+      {
+        "label": "FEC bulk candidate summary (weball/cn, S0TN00169)",
+        "url": "https://www.fec.gov/files/bulk-downloads/2026/weball26.zip",
+        "as_of": "2026-11-17"
+      }
+    ]
+  },
+  "opponents_nov_general": [
+    {
+      "name": "Marquita Bradshaw",
+      "party": "D",
+      "cycle": 2026,
+      "cycle_total_receipts_usd": 35195,
+      "coverage_end_date": "2026-10-14",
+      "fec_candidate_id": "S4TN00542",
+      "fec_candidate_ids": [
+        "S4TN00542"
+      ],
+      "sources": [
+        {
+          "label": "FEC bulk candidate summary (weball/cn, S4TN00542)",
+          "url": "https://www.fec.gov/files/bulk-downloads/2026/weball26.zip",
+          "as_of": "2026-11-17"
+        }
+      ]
+    }
+  ],
+  "controversy_hook": {
+    "archetype_id": "SUPERPAC_OLIGARCH_SWARM",
+    "archetype_label": "Outside Super PAC & Megadonor Swarm",
+    "career_war_chest_usd": 32999539,
+    "cycle_war_chest_usd": 8422211,
+    "top_5_donors_cycle_usd": 24575372,
+    "candidate_self_funding_usd": 0,
+    "lead_patron": {
+      "name": "Leading The Future",
+      "amount_usd": 22500000,
+      "type": "superpac_donor_via_votelog"
+    },
+    "opponent_funding_disparity_ratio": 937.62,
+    "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
+  },
+  "vote": {
+    "question": "FUTARCHY CONDITIONAL RESOLUTION [US-TN U.S. Senate]: Bill Hagerty (R) has accumulated $32,999,539 in career FEC-reported receipts (anchored this cycle by Leading The Future ($22,500,000) and $24,575,372 from top-5 patrons)—out-raising general opponent Marquita Bradshaw ($35,195) by 937.62x—exhibiting the \"Outside Super PAC & Megadonor Swarm\" profile. Will independent constituent & oracle review confirm that this private-interest capital concentration compromises public representation in US-TN, thereby executing the TN Corrective Restitution Pool toward non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
+    "futarchy_thesis": "Private campaign financing treats US-TN representation as an investable asset class. When Bill Hagerty's campaign apparatus absorbs $32,999,539 (anchored this cycle by Leading The Future ($22,500,000) and $24,575,372 from top-5 patrons), policy incentives skew toward dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers. This futarchy market converts spectator outrage into direct fiscal counter-leverage.",
+    "question_vars": {
+      "subject_name": "Bill Hagerty",
+      "career_total_receipts_usd": 32999539,
+      "capture_archetype": "Outside Super PAC & Megadonor Swarm",
+      "lead_patron_name": "Leading The Future",
+      "lead_patron_usd": 22500000
+    },
+    "type": "futarchy_conditional_restitution",
+    "options": [
+      "Yes — Confirm Capture & Execute State Restitution Bounty",
+      "No — Veto Capture Claim & Roll Escrow Pool to Bipartisan Commons",
+      "Abstain — Log On-Chain Constituent Dissent Only"
+    ]
+  },
+  "futarchy_pole_mechanics": {
+    "model": "conditional_restitution_futarchy",
+    "escrow_chain": "base_mainnet_8453",
+    "escrow_token": "USDC",
+    "outcomes": {
+      "YES_EXECUTE_RESTITUTION": "Confirms special-interest capture; releases 100% of escrowed pool to audited state 501(c)(3) restitution beneficiaries — direct corrective remediation of the captured constituent impact.",
+      "NO_VETO_BENEFICIAL_COMMONS": "Finds representation uncompromised by top-donor concentration; redirects 100% of escrowed pool to a bipartisan, district-wide beneficial common good (e.g., voter-protection legal defense, disaster-relief matching fund, or civic-infrastructure project) where both sides of the political divide can agree that the community as a whole is strengthened — countering zero-sum capture politics with positive-sum community investment.",
+      "ABSTAIN_AUDIT_ONLY": "Logs cryptographic constituent dissent on-chain without shifting conditional odds; preserves the pool for future cycle reconsideration."
+    },
+    "leverage_ratio_statement": "Every $10 USDC staked in the US-TN Restitution Pool directly counter-programs $22,500 of top-patron political capital. If the Yes option wins, funds fund front-line non-partisan civic accountability, investigative public-interest journalism, and voter legal defense restitution beneficiaries. If the No option wins, funds redirect to a bipartisan district-wide common good that strengthens the entire community — denying special interests the ability to commandeer the bounty and promoting positive-sum governance over zero-sum subjugation."
+  },
+  "bounty_if_passed": {
+    "winning_option": "YES_EXECUTE_RESTITUTION",
+    "description": "Direct Corrective Restitution for US-TN: Routes 100% of settled Base USDC bounty funds to independently audited, IRS-verified 501(c)(3) public charities operating inside TN dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense—directly remediating the constituent impact of Outside Super PAC & Megadonor Swarm ($32,999,539 career receipts). Named restitution beneficiaries: TENNESSEE IMMIGRANT AND REFUGEE RIGHTS COALITION (US-EIN:200121100); TENNESSEE ALLIANCE FOR LEGAL SERVICES (US-EIN:620979831); ONE GENERATION AWAY (US-EIN:462741214); MEN OF VALOR (US-EIN:621836815); REGIONAL ORGANIZED CRIME INFORMATION CENTER (US-EIN:621046640). If the futarchy market resolves affirmatively, funds execute the restitution pool. If the No option wins, funds veto the capture claim and redirect to the bipartisan state commons listed in bounty_if_no_wins.",
+    "destination_type": "audited_501c3_restitution_escrow",
+    "destination_criteria": "MUST satisfy all 4 Zero-Trust Restitution Gates: (1) Active 501(c)(3) statutory registration in US-TN verified via IRS EO BMF & clean against IRS Automatic Revocation; (2) NTEE-coded mission fit (Civil Rights, Public Policy & Voter Education (NTEE R/W)); (3) Zero corporate PAC or political committee affiliation; (4) Pre-indexed Eligible Beneficiaries in US-TN: TENNESSEE IMMIGRANT AND REFUGEE RIGHTS COALITION (US-EIN:200121100); TENNESSEE ALLIANCE FOR LEGAL SERVICES (US-EIN:620979831); ONE GENERATION AWAY (US-EIN:462741214); MEN OF VALOR (US-EIN:621836815); REGIONAL ORGANIZED CRIME INFORMATION CENTER (US-EIN:621046640). Note on Resolution Outcome: If the Yes option wins, the restitution beneficiaries receive direct disbursement. If the No option wins, the pool redirects to the disjoint bipartisan commons pool in bounty_if_no_wins.",
+    "resolution_oracle": {
+      "trigger_conditions": [
+        "Condition A (Financial Capture Threshold): FEC coverage_end_date (2026-10-14) confirms career receipts >= $32,999,539 or top-5 patron concentration >= $24,575,372.",
+        "Condition B (Constituent Futarchy Quorum): Community vote reaches >= 60% 'Yes' supermajority across verified cycle participants before the settlement epoch.",
+        "Condition C (Zero-Trust Beneficiary Audit): Recipient 501(c)(3) passes sha256 shard-integrity verification in docs/data/orgs/manifest.json and IRS Automatic Revocation re-check at execution time."
+      ],
+      "eligible_audited_beneficiaries": [
+        {
+          "registry_id": "US-EIN:200121100",
+          "ein": "200121100",
+          "name": "TENNESSEE IMMIGRANT AND REFUGEE RIGHTS COALITION",
+          "city": "NASHVILLE",
+          "state": "TN",
+          "ntee_code": "R20",
+          "revenue_amt": 7891819,
+          "asset_amt": 9540114,
+          "verification_tier": "TIER_1_AUDITED",
+          "independently_audited": true,
+          "audit_signals": [
+            "IRS_EO_BMF_ACTIVE_501C3",
+            "IRS_AUTO_REVOCATION_CLEAN",
+            "IRS_BMF_NTEE_R20",
+            "IRS_BMF_REVENUE_REPORTED",
+            "IRS_BMF_ASSETS_REPORTED"
+          ],
+          "source_authority": "IRS EO BMF (eo_tn.csv)"
+        },
+        {
+          "registry_id": "US-EIN:620979831",
+          "ein": "620979831",
+          "name": "TENNESSEE ALLIANCE FOR LEGAL SERVICES",
+          "city": "NASHVILLE",
+          "state": "TN",
+          "ntee_code": "I80I",
+          "revenue_amt": 6634954,
+          "asset_amt": 2602771,
+          "verification_tier": "TIER_1_AUDITED",
+          "independently_audited": true,
+          "audit_signals": [
+            "IRS_EO_BMF_ACTIVE_501C3",
+            "IRS_AUTO_REVOCATION_CLEAN",
+            "IRS_BMF_NTEE_I80I",
+            "IRS_BMF_REVENUE_REPORTED",
+            "IRS_BMF_ASSETS_REPORTED"
+          ],
+          "source_authority": "IRS EO BMF (eo_tn.csv)"
+        },
+        {
+          "registry_id": "US-EIN:462741214",
+          "ein": "462741214",
+          "name": "ONE GENERATION AWAY",
+          "city": "FRANKLIN",
+          "state": "TN",
+          "ntee_code": "R12",
+          "revenue_amt": 32455272,
+          "asset_amt": 3190958,
+          "verification_tier": "TIER_1_AUDITED",
+          "independently_audited": true,
+          "audit_signals": [
+            "IRS_EO_BMF_ACTIVE_501C3",
+            "IRS_AUTO_REVOCATION_CLEAN",
+            "IRS_BMF_NTEE_R12",
+            "IRS_BMF_REVENUE_REPORTED",
+            "IRS_BMF_ASSETS_REPORTED"
+          ],
+          "source_authority": "IRS EO BMF (eo_tn.csv)"
+        },
+        {
+          "registry_id": "US-EIN:621836815",
+          "ein": "621836815",
+          "name": "MEN OF VALOR",
+          "city": "ANTIOCH",
+          "state": "TN",
+          "ntee_code": "I43",
+          "revenue_amt": 11590154,
+          "asset_amt": 29036802,
+          "verification_tier": "TIER_1_AUDITED",
+          "independently_audited": true,
+          "audit_signals": [
+            "IRS_EO_BMF_ACTIVE_501C3",
+            "IRS_AUTO_REVOCATION_CLEAN",
+            "IRS_BMF_NTEE_I43",
+            "IRS_BMF_REVENUE_REPORTED",
+            "IRS_BMF_ASSETS_REPORTED"
+          ],
+          "source_authority": "IRS EO BMF (eo_tn.csv)"
+        },
+        {
+          "registry_id": "US-EIN:621046640",
+          "ein": "621046640",
+          "name": "REGIONAL ORGANIZED CRIME INFORMATION CENTER",
+          "city": "NASHVILLE",
+          "state": "TN",
+          "ntee_code": "I2XL",
+          "revenue_amt": 11563035,
+          "asset_amt": 173416,
+          "verification_tier": "TIER_1_AUDITED",
+          "independently_audited": true,
+          "audit_signals": [
+            "IRS_EO_BMF_ACTIVE_501C3",
+            "IRS_AUTO_REVOCATION_CLEAN",
+            "IRS_BMF_NTEE_I2XL",
+            "IRS_BMF_REVENUE_REPORTED",
+            "IRS_BMF_ASSETS_REPORTED"
+          ],
+          "source_authority": "IRS EO BMF (eo_tn.csv)"
+        }
+      ]
+    },
+    "state": "US-TN"
+  },
+  "bounty_if_no_wins": {
+    "winning_option": "NO_VETO_BENEFICIAL_COMMONS",
+    "description": "Positive-Sum Bipartisan Commons for US-TN: Constituents reject the capture framing for Bill Hagerty. 100% of escrowed Base USDC routes to non-political, universally beneficial 501(c)(3) infrastructure in US-TN (Volunteer Fire/EMS, Veterans' Care, Food Banks, and Disaster Relief) where both sides of the political divide demonstrably benefit, with an on-chain Constituent Mandate Vindication credit. Named commons beneficiaries: WASHINGTON COUNTY-JOHNSON CITY EMERGENCY MEDICAL SERVICES INC (US-EIN:621141186); SECOND HARVEST FOOD BANK OF MIDDLE TENNESSEE INC (US-EIN:621049447); CHURCHES OF CHRIST DISASTER RELIEF EFFORT INC (US-EIN:621560072); VANDERBILT UNIVERSITY MEDICAL CENTER (US-EIN:352528741); YMCA OF MEMPHIS & THE MID-SOUTH (US-EIN:620476304). Any attempt to brigade this outcome converts zero-sum capture money into positive-sum community investment.",
+    "destination_type": "audited_501c3_bipartisan_commons_escrow",
+    "candidate_benefit_attestation": "Issues immutable on-chain 'CONSTITUENT_MANDATE_VINDICATED' attestation for Bill Hagerty (US-TN) and credits the constituency's defense of the candidate for funding front-line state humanitarian & emergency infrastructure.",
+    "destination_criteria": "MUST be an IRS-audited 501(c)(3) public charity in US-TN operating in non-ideological universal commons (NTEE M24 Fire & Rescue, M20 Disaster Relief, W30 Veterans, K31 Food Banks, E20/E22 Community Hospitals, O Youth Development) with zero partisan lobbying, chosen only where both sides of the political divide benefit. Eligible commons beneficiaries: WASHINGTON COUNTY-JOHNSON CITY EMERGENCY MEDICAL SERVICES INC (US-EIN:621141186); SECOND HARVEST FOOD BANK OF MIDDLE TENNESSEE INC (US-EIN:621049447); CHURCHES OF CHRIST DISASTER RELIEF EFFORT INC (US-EIN:621560072); VANDERBILT UNIVERSITY MEDICAL CENTER (US-EIN:352528741); YMCA OF MEMPHIS & THE MID-SOUTH (US-EIN:620476304).",
+    "eligible_commons_beneficiaries": [
+      {
+        "registry_id": "US-EIN:621141186",
+        "ein": "621141186",
+        "name": "WASHINGTON COUNTY-JOHNSON CITY EMERGENCY MEDICAL SERVICES INC",
+        "city": "JOHNSON CITY",
+        "state": "TN",
+        "ntee_code": "E63Z",
+        "revenue_amt": 18628682,
+        "asset_amt": 18388977,
+        "verification_tier": "TIER_1_AUDITED",
+        "independently_audited": true,
+        "audit_signals": [
+          "IRS_EO_BMF_ACTIVE_501C3",
+          "IRS_AUTO_REVOCATION_CLEAN",
+          "IRS_BMF_NTEE_E63Z",
+          "IRS_BMF_REVENUE_REPORTED",
+          "IRS_BMF_ASSETS_REPORTED"
+        ],
+        "source_authority": "IRS EO BMF (eo_tn.csv)"
+      },
+      {
+        "registry_id": "US-EIN:621049447",
+        "ein": "621049447",
+        "name": "SECOND HARVEST FOOD BANK OF MIDDLE TENNESSEE INC",
+        "city": "NASHVILLE",
+        "state": "TN",
+        "ntee_code": "K300",
+        "revenue_amt": 156647104,
+        "asset_amt": 88329813,
+        "verification_tier": "TIER_1_AUDITED",
+        "independently_audited": true,
+        "audit_signals": [
+          "IRS_EO_BMF_ACTIVE_501C3",
+          "IRS_AUTO_REVOCATION_CLEAN",
+          "IRS_BMF_NTEE_K300",
+          "IRS_BMF_REVENUE_REPORTED",
+          "IRS_BMF_ASSETS_REPORTED"
+        ],
+        "source_authority": "IRS EO BMF (eo_tn.csv)"
+      },
+      {
+        "registry_id": "US-EIN:621560072",
+        "ein": "621560072",
+        "name": "CHURCHES OF CHRIST DISASTER RELIEF EFFORT INC",
+        "city": "NASHVILLE",
+        "state": "TN",
+        "ntee_code": "X99",
+        "revenue_amt": 24805317,
+        "asset_amt": 85805088,
+        "verification_tier": "TIER_1_AUDITED",
+        "independently_audited": true,
+        "audit_signals": [
+          "IRS_EO_BMF_ACTIVE_501C3",
+          "IRS_AUTO_REVOCATION_CLEAN",
+          "IRS_BMF_NTEE_X99",
+          "IRS_BMF_REVENUE_REPORTED",
+          "IRS_BMF_ASSETS_REPORTED"
+        ],
+        "source_authority": "IRS EO BMF (eo_tn.csv)"
+      },
+      {
+        "registry_id": "US-EIN:352528741",
+        "ein": "352528741",
+        "name": "VANDERBILT UNIVERSITY MEDICAL CENTER",
+        "city": "NASHVILLE",
+        "state": "TN",
+        "ntee_code": "E20",
+        "revenue_amt": 8674383028,
+        "asset_amt": 7794199229,
+        "verification_tier": "TIER_1_AUDITED",
+        "independently_audited": true,
+        "audit_signals": [
+          "IRS_EO_BMF_ACTIVE_501C3",
+          "IRS_AUTO_REVOCATION_CLEAN",
+          "IRS_BMF_NTEE_E20",
+          "IRS_BMF_REVENUE_REPORTED",
+          "IRS_BMF_ASSETS_REPORTED"
+        ],
+        "source_authority": "IRS EO BMF (eo_tn.csv)"
+      },
+      {
+        "registry_id": "US-EIN:620476304",
+        "ein": "620476304",
+        "name": "YMCA OF MEMPHIS & THE MID-SOUTH",
+        "city": "CORDOVA",
+        "state": "TN",
+        "ntee_code": "P27Z",
+        "revenue_amt": 62721668,
+        "asset_amt": 75998761,
+        "verification_tier": "TIER_1_AUDITED",
+        "independently_audited": true,
+        "audit_signals": [
+          "IRS_EO_BMF_ACTIVE_501C3",
+          "IRS_AUTO_REVOCATION_CLEAN",
+          "IRS_BMF_NTEE_P27Z",
+          "IRS_BMF_REVENUE_REPORTED",
+          "IRS_BMF_ASSETS_REPORTED"
+        ],
+        "source_authority": "IRS EO BMF (eo_tn.csv)"
+      }
+    ],
+    "state": "US-TN"
+  },
+  "anti_commandeering_guard": {
+    "invariant": "NON_EXTRACTABLE_PUBLIC_COMMONS_LOCK",
+    "whale_vote_formula": "quadratic_sqrt_usdc_with_5pct_wallet_cap",
+    "max_single_wallet_vote_share_pct": 5,
+    "dark_money_firewall": "IRS_SUBSECTION_03_PUBLIC_CHARITY_ONLY_NO_501C4_OR_PAC_CONDUITS",
+    "plutocrat_trap_clause": "If Leading The Future ($22,500,000 cycle patron) or aligned whales attempt to brigade the 'NO' outcome to manufacture candidate exoneration, 100% of their injected USDC is irrevocably locked into US-TN Bipartisan Universal Commons (volunteer fire/EMS, veterans' care, food banks, and disaster relief), while their voting weight is quadratically dampened at 5% max share."
+  },
+  "location": {
+    "label": "United States Capitol",
+    "address": "First St SE, Washington, DC 20004, USA",
+    "lat": 38.8899,
+    "lng": -77.0091
+  },
+  "payment": {
+    "chain": "base",
+    "chain_id": 8453,
+    "token": "USDC",
+    "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+    "qr_asset": "docs/escrow-qr.png",
+    "note": "Conditional Futarchy Escrow: Funds route to verified state 501(c)(3) restitution targets upon Quorum + Oracle Resolution.",
+    "payment_memo_or_slug": "2026-us_senate-us-tn-regular"
+  },
+  "provenance": {
+    "status": "beta_template_verified",
+    "generated_at": "2026-11-17T01:06:16.916Z",
+    "generator": "pol-vote-futarchy-v4",
+    "review_required": false
+  }
+}

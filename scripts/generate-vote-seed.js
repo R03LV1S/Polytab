@@ -165,7 +165,7 @@ function partyCode(p) {
   }
 
   const out = {
-    _comment: 'Auto-generated seed for 2026 US Senate races (VoteLog snapshots + OpenFEC + congress-legislators). won_race=true enables draft emission; review/verify certified winners and opponent sets before finalizing. Vote/bounty text remains placeholders in generated outputs.',
+    _comment: 'Auto-generated seed for 2026 US Senate races (VoteLog snapshots + OpenFEC + congress-legislators). won_race=true enables draft emission; review/verify certified winners and opponent sets before finalizing. Vote/bounty text is fully synthesized by generate-vote-template.js from FEC finance data and IRS EO BMF charity shards.',
     generated_at: new Date().toISOString(),
     races: deduped
   };

@@ -1,0 +1,428 @@
+{
+  "template_version": "pol-vote-beta-4-positive-sum",
+  "bounty_id": "2026-us_senate-us-al-regular",
+  "office_type": "us_senate",
+  "election_year": 2026,
+  "jurisdiction": {
+    "level": "federal",
+    "state": "US-AL",
+    "district": null,
+    "race_type": "regular",
+    "senate_class": 2
+  },
+  "subject": {
+    "name": "Felix Barry Moore",
+    "party": "R",
+    "incumbent": true,
+    "won_race": true,
+    "votelog": {
+      "listed": true,
+      "member_id_or_slug": "moore",
+      "profile_url": "https://votelog.org/members/moore"
+    },
+    "identifiers": {
+      "bioguide_id": "M001212",
+      "fec_candidate_ids": [
+        "S6AL00476",
+        "H8AL02171"
+      ],
+      "fec_principal_committee_id_cycle": "C00954974",
+      "fec_principal_committee_ids_cycle": [
+        "C00954974",
+        "C00720375"
+      ],
+      "opensecrets_cid": "N00041295"
+    }
+  },
+  "finance": {
+    "career_total_receipts_usd": 11440101,
+    "career_net_contributions_usd": 10485625,
+    "career_total_note": "Sum of FEC reported full-election receipts/net contributions across candidate IDs and authorized committees (source-linked).",
+    "cycle": 2026,
+    "cycle_window": "full_term_6yr",
+    "cycle_total_receipts_usd": 8425840,
+    "coverage_end_date": "2026-10-14",
+    "top_donors_cycle": [
+      {
+        "rank": 1,
+        "name": "Senate Opportunity Fund",
+        "committee_id": "C00875039",
+        "amount_usd": 2820000,
+        "type": "superpac_donor_via_votelog",
+        "source_url": "https://votelog.org/data/al-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 2,
+        "name": "Michael Rydin",
+        "committee_id": null,
+        "amount_usd": 543500,
+        "type": "superpac_donor_via_votelog",
+        "employer": "Retired",
+        "occupation": "Retired",
+        "source_url": "https://votelog.org/data/al-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 3,
+        "name": "Tim Dunn",
+        "committee_id": "C00875039",
+        "amount_usd": 500000,
+        "type": "superpac_donor_via_votelog",
+        "employer": "CrownQuest Operating",
+        "occupation": "CEO",
+        "source_url": "https://votelog.org/data/al-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 4,
+        "name": "William F. Austin",
+        "committee_id": "C00875039",
+        "amount_usd": 300000,
+        "type": "superpac_donor_via_votelog",
+        "employer": "Starkey Hearing Technologies",
+        "occupation": "Chairman & CEO",
+        "source_url": "https://votelog.org/data/al-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      },
+      {
+        "rank": 5,
+        "name": "Energy Transfer LP",
+        "committee_id": "C00875039",
+        "amount_usd": 200000,
+        "type": "superpac_donor_via_votelog",
+        "source_url": "https://votelog.org/data/al-senate-general/superpac-donors.csv",
+        "source_note": "From local VoteLog donors backup (super PAC/outside-group donors, cycle-wide)."
+      }
+    ],
+    "sources": [
+      {
+        "label": "FEC bulk candidate summary (weball/cn, S6AL00476)",
+        "url": "https://www.fec.gov/files/bulk-downloads/2026/weball26.zip",
+        "as_of": "2026-11-17"
+      },
+      {
+        "label": "FEC bulk candidate summary (weball/cn, H8AL02171)",
+        "url": "https://www.fec.gov/files/bulk-downloads/2026/weball26.zip",
+        "as_of": "2026-11-17"
+      }
+    ]
+  },
+  "opponents_nov_general": [
+    {
+      "name": "Everett W Wess",
+      "party": "D",
+      "cycle": 2026,
+      "cycle_total_receipts_usd": 128570,
+      "coverage_end_date": "2026-10-14",
+      "fec_candidate_id": "S6AL00518",
+      "fec_candidate_ids": [
+        "S6AL00518"
+      ],
+      "sources": [
+        {
+          "label": "FEC bulk candidate summary (weball/cn, S6AL00518)",
+          "url": "https://www.fec.gov/files/bulk-downloads/2026/weball26.zip",
+          "as_of": "2026-11-17"
+        }
+      ]
+    }
+  ],
+  "controversy_hook": {
+    "archetype_id": "EXTRACTIVE_ENERGY_INDUSTRIAL",
+    "archetype_label": "Extractive Energy & Petrochemical Capture",
+    "career_war_chest_usd": 11440101,
+    "cycle_war_chest_usd": 8425840,
+    "top_5_donors_cycle_usd": 4363500,
+    "candidate_self_funding_usd": 0,
+    "lead_patron": {
+      "name": "Senate Opportunity Fund",
+      "amount_usd": 2820000,
+      "type": "superpac_donor_via_votelog"
+    },
+    "opponent_funding_disparity_ratio": 88.98,
+    "primary_harm_thesis": "regulatory leniency toward industrial emissions, grid monopolies, and watershed externalities"
+  },
+  "vote": {
+    "question": "FUTARCHY CONDITIONAL RESOLUTION [US-AL U.S. Senate]: Felix Barry Moore (R) has accumulated $11,440,101 in career FEC-reported receipts (anchored this cycle by Senate Opportunity Fund ($2,820,000) and $4,363,500 from top-5 patrons)—out-raising general opponent Everett W Wess ($128,570) by 88.98x—exhibiting the \"Extractive Energy & Petrochemical Capture\" profile. Will independent constituent & oracle review confirm that this private-interest capital concentration compromises public representation in US-AL, thereby executing the AL Corrective Restitution Pool toward clean water remediation, community grid resilience, and environmental health clinics?",
+    "futarchy_thesis": "Private campaign financing treats US-AL representation as an investable asset class. When Felix Barry Moore's campaign apparatus absorbs $11,440,101 (anchored this cycle by Senate Opportunity Fund ($2,820,000) and $4,363,500 from top-5 patrons), policy incentives skew toward regulatory leniency toward industrial emissions, grid monopolies, and watershed externalities. This futarchy market converts spectator outrage into direct fiscal counter-leverage.",
+    "question_vars": {
+      "subject_name": "Felix Barry Moore",
+      "career_total_receipts_usd": 11440101,
+      "capture_archetype": "Extractive Energy & Petrochemical Capture",
+      "lead_patron_name": "Senate Opportunity Fund",
+      "lead_patron_usd": 2820000
+    },
+    "type": "futarchy_conditional_restitution",
+    "options": [
+      "Yes — Confirm Capture & Execute State Restitution Bounty",
+      "No — Veto Capture Claim & Roll Escrow Pool to Bipartisan Commons",
+      "Abstain — Log On-Chain Constituent Dissent Only"
+    ]
+  },
+  "futarchy_pole_mechanics": {
+    "model": "conditional_restitution_futarchy",
+    "escrow_chain": "base_mainnet_8453",
+    "escrow_token": "USDC",
+    "outcomes": {
+      "YES_EXECUTE_RESTITUTION": "Confirms special-interest capture; releases 100% of escrowed pool to audited state 501(c)(3) restitution beneficiaries — direct corrective remediation of the captured constituent impact.",
+      "NO_VETO_BENEFICIAL_COMMONS": "Finds representation uncompromised by top-donor concentration; redirects 100% of escrowed pool to a bipartisan, district-wide beneficial common good (e.g., voter-protection legal defense, disaster-relief matching fund, or civic-infrastructure project) where both sides of the political divide can agree that the community as a whole is strengthened — countering zero-sum capture politics with positive-sum community investment.",
+      "ABSTAIN_AUDIT_ONLY": "Logs cryptographic constituent dissent on-chain without shifting conditional odds; preserves the pool for future cycle reconsideration."
+    },
+    "leverage_ratio_statement": "Every $10 USDC staked in the US-AL Restitution Pool directly counter-programs $2,820 of top-patron political capital. If the Yes option wins, funds fund front-line clean water remediation, community grid resilience, and environmental health clinics restitution beneficiaries. If the No option wins, funds redirect to a bipartisan district-wide common good that strengthens the entire community — denying special interests the ability to commandeer the bounty and promoting positive-sum governance over zero-sum subjugation."
+  },
+  "bounty_if_passed": {
+    "winning_option": "YES_EXECUTE_RESTITUTION",
+    "description": "Direct Corrective Restitution for US-AL: Routes 100% of settled Base USDC bounty funds to independently audited, IRS-verified 501(c)(3) public charities operating inside AL dedicated to clean water remediation, community grid resilience, and environmental health clinics—directly remediating the constituent impact of Extractive Energy & Petrochemical Capture ($11,440,101 career receipts). Named restitution beneficiaries: ALABAMA RESOURCE CONSERVATION AND DEVELOPMENT COUNCIL INC (US-EIN:631134289); GEORGIA-ALABAMA LAND TRUST INC (US-EIN:582069352); THE LAND TRUST OF NORTH ALABAMA INC (US-EIN:630974278); FRESHWATER LAND TRUST (US-EIN:721387424); CAWACO RESOURCE CONSERVATION AND DEVELOPMENT AREA (US-EIN:631027283). If the futarchy market resolves affirmatively, funds execute the restitution pool. If the No option wins, funds veto the capture claim and redirect to the bipartisan state commons listed in bounty_if_no_wins.",
+    "destination_type": "audited_501c3_restitution_escrow",
+    "destination_criteria": "MUST satisfy all 4 Zero-Trust Restitution Gates: (1) Active 501(c)(3) statutory registration in US-AL verified via IRS EO BMF & clean against IRS Automatic Revocation; (2) NTEE-coded mission fit (Environmental Quality, Clean Water & Public Health (NTEE C/E)); (3) Zero corporate PAC or political committee affiliation; (4) Pre-indexed Eligible Beneficiaries in US-AL: ALABAMA RESOURCE CONSERVATION AND DEVELOPMENT COUNCIL INC (US-EIN:631134289); GEORGIA-ALABAMA LAND TRUST INC (US-EIN:582069352); THE LAND TRUST OF NORTH ALABAMA INC (US-EIN:630974278); FRESHWATER LAND TRUST (US-EIN:721387424); CAWACO RESOURCE CONSERVATION AND DEVELOPMENT AREA (US-EIN:631027283). Note on Resolution Outcome: If the Yes option wins, the restitution beneficiaries receive direct disbursement. If the No option wins, the pool redirects to the disjoint bipartisan commons pool in bounty_if_no_wins.",
+    "resolution_oracle": {
+      "trigger_conditions": [
+        "Condition A (Financial Capture Threshold): FEC coverage_end_date (2026-10-14) confirms career receipts >= $11,440,101 or top-5 patron concentration >= $4,363,500.",
+        "Condition B (Constituent Futarchy Quorum): Community vote reaches >= 60% 'Yes' supermajority across verified cycle participants before the settlement epoch.",
+        "Condition C (Zero-Trust Beneficiary Audit): Recipient 501(c)(3) passes sha256 shard-integrity verification in docs/data/orgs/manifest.json and IRS Automatic Revocation re-check at execution time."
+      ],
+      "eligible_audited_beneficiaries": [
+        {
+          "registry_id": "US-EIN:631134289",
+          "ein": "631134289",
+          "name": "ALABAMA RESOURCE CONSERVATION AND DEVELOPMENT COUNCIL INC",
+          "city": "MONTGOMERY",
+          "state": "AL",
+          "ntee_code": "C300",
+          "revenue_amt": 15708769,
+          "asset_amt": 3907939,
+          "verification_tier": "TIER_1_AUDITED",
+          "independently_audited": true,
+          "audit_signals": [
+            "IRS_EO_BMF_ACTIVE_501C3",
+            "IRS_AUTO_REVOCATION_CLEAN",
+            "IRS_BMF_NTEE_C300",
+            "IRS_BMF_REVENUE_REPORTED",
+            "IRS_BMF_ASSETS_REPORTED"
+          ],
+          "source_authority": "IRS EO BMF (eo_al.csv)"
+        },
+        {
+          "registry_id": "US-EIN:582069352",
+          "ein": "582069352",
+          "name": "GEORGIA-ALABAMA LAND TRUST INC",
+          "city": "PIEDMONT",
+          "state": "AL",
+          "ntee_code": "C340",
+          "revenue_amt": 11187062,
+          "asset_amt": 171400860,
+          "verification_tier": "TIER_1_AUDITED",
+          "independently_audited": true,
+          "audit_signals": [
+            "IRS_EO_BMF_ACTIVE_501C3",
+            "IRS_AUTO_REVOCATION_CLEAN",
+            "IRS_BMF_NTEE_C340",
+            "IRS_BMF_REVENUE_REPORTED",
+            "IRS_BMF_ASSETS_REPORTED"
+          ],
+          "source_authority": "IRS EO BMF (eo_al.csv)"
+        },
+        {
+          "registry_id": "US-EIN:630974278",
+          "ein": "630974278",
+          "name": "THE LAND TRUST OF NORTH ALABAMA INC",
+          "city": "HUNTSVILLE",
+          "state": "AL",
+          "ntee_code": "C340",
+          "revenue_amt": 5670693,
+          "asset_amt": 58568181,
+          "verification_tier": "TIER_1_AUDITED",
+          "independently_audited": true,
+          "audit_signals": [
+            "IRS_EO_BMF_ACTIVE_501C3",
+            "IRS_AUTO_REVOCATION_CLEAN",
+            "IRS_BMF_NTEE_C340",
+            "IRS_BMF_REVENUE_REPORTED",
+            "IRS_BMF_ASSETS_REPORTED"
+          ],
+          "source_authority": "IRS EO BMF (eo_al.csv)"
+        },
+        {
+          "registry_id": "US-EIN:721387424",
+          "ein": "721387424",
+          "name": "FRESHWATER LAND TRUST",
+          "city": "BIRMINGHAM",
+          "state": "AL",
+          "ntee_code": "C320",
+          "revenue_amt": 4678840,
+          "asset_amt": 46746277,
+          "verification_tier": "TIER_1_AUDITED",
+          "independently_audited": true,
+          "audit_signals": [
+            "IRS_EO_BMF_ACTIVE_501C3",
+            "IRS_AUTO_REVOCATION_CLEAN",
+            "IRS_BMF_NTEE_C320",
+            "IRS_BMF_REVENUE_REPORTED",
+            "IRS_BMF_ASSETS_REPORTED"
+          ],
+          "source_authority": "IRS EO BMF (eo_al.csv)"
+        },
+        {
+          "registry_id": "US-EIN:631027283",
+          "ein": "631027283",
+          "name": "CAWACO RESOURCE CONSERVATION AND DEVELOPMENT AREA",
+          "city": "BIRMINGHAM",
+          "state": "AL",
+          "ntee_code": "C300",
+          "revenue_amt": 3128438,
+          "asset_amt": 2467975,
+          "verification_tier": "TIER_1_AUDITED",
+          "independently_audited": true,
+          "audit_signals": [
+            "IRS_EO_BMF_ACTIVE_501C3",
+            "IRS_AUTO_REVOCATION_CLEAN",
+            "IRS_BMF_NTEE_C300",
+            "IRS_BMF_REVENUE_REPORTED",
+            "IRS_BMF_ASSETS_REPORTED"
+          ],
+          "source_authority": "IRS EO BMF (eo_al.csv)"
+        }
+      ]
+    },
+    "state": "US-AL"
+  },
+  "bounty_if_no_wins": {
+    "winning_option": "NO_VETO_BENEFICIAL_COMMONS",
+    "description": "Positive-Sum Bipartisan Commons for US-AL: Constituents reject the capture framing for Felix Barry Moore. 100% of escrowed Base USDC routes to non-political, universally beneficial 501(c)(3) infrastructure in US-AL (Volunteer Fire/EMS, Veterans' Care, Food Banks, and Disaster Relief) where both sides of the political divide demonstrably benefit, with an on-chain Constituent Mandate Vindication credit. Named commons beneficiaries: ENTERPRISE RESCUE SQUAD INC (US-EIN:630621090); VETERANS RECOVERY RESOURCES (US-EIN:474013431); FEEDING THE GULF COAST (US-EIN:630821997); CHILDRENS HOSPITAL OF ALABAMA (US-EIN:630307306); GULF HEALTH HOSPITALS INC (US-EIN:630891904). Any attempt to brigade this outcome converts zero-sum capture money into positive-sum community investment.",
+    "destination_type": "audited_501c3_bipartisan_commons_escrow",
+    "candidate_benefit_attestation": "Issues immutable on-chain 'CONSTITUENT_MANDATE_VINDICATED' attestation for Felix Barry Moore (US-AL) and credits the constituency's defense of the candidate for funding front-line state humanitarian & emergency infrastructure.",
+    "destination_criteria": "MUST be an IRS-audited 501(c)(3) public charity in US-AL operating in non-ideological universal commons (NTEE M24 Fire & Rescue, M20 Disaster Relief, W30 Veterans, K31 Food Banks, E20/E22 Community Hospitals, O Youth Development) with zero partisan lobbying, chosen only where both sides of the political divide benefit. Eligible commons beneficiaries: ENTERPRISE RESCUE SQUAD INC (US-EIN:630621090); VETERANS RECOVERY RESOURCES (US-EIN:474013431); FEEDING THE GULF COAST (US-EIN:630821997); CHILDRENS HOSPITAL OF ALABAMA (US-EIN:630307306); GULF HEALTH HOSPITALS INC (US-EIN:630891904).",
+    "eligible_commons_beneficiaries": [
+      {
+        "registry_id": "US-EIN:630621090",
+        "ein": "630621090",
+        "name": "ENTERPRISE RESCUE SQUAD INC",
+        "city": "ENTERPRISE",
+        "state": "AL",
+        "ntee_code": "E620",
+        "revenue_amt": 13837699,
+        "asset_amt": 9925007,
+        "verification_tier": "TIER_1_AUDITED",
+        "independently_audited": true,
+        "audit_signals": [
+          "IRS_EO_BMF_ACTIVE_501C3",
+          "IRS_AUTO_REVOCATION_CLEAN",
+          "IRS_BMF_NTEE_E620",
+          "IRS_BMF_REVENUE_REPORTED",
+          "IRS_BMF_ASSETS_REPORTED"
+        ],
+        "source_authority": "IRS EO BMF (eo_al.csv)"
+      },
+      {
+        "registry_id": "US-EIN:474013431",
+        "ein": "474013431",
+        "name": "VETERANS RECOVERY RESOURCES",
+        "city": "MOBILE",
+        "state": "AL",
+        "ntee_code": "W30",
+        "revenue_amt": 4952306,
+        "asset_amt": 17583150,
+        "verification_tier": "TIER_1_AUDITED",
+        "independently_audited": true,
+        "audit_signals": [
+          "IRS_EO_BMF_ACTIVE_501C3",
+          "IRS_AUTO_REVOCATION_CLEAN",
+          "IRS_BMF_NTEE_W30",
+          "IRS_BMF_REVENUE_REPORTED",
+          "IRS_BMF_ASSETS_REPORTED"
+        ],
+        "source_authority": "IRS EO BMF (eo_al.csv)"
+      },
+      {
+        "registry_id": "US-EIN:630821997",
+        "ein": "630821997",
+        "name": "FEEDING THE GULF COAST",
+        "city": "THEODORE",
+        "state": "AL",
+        "ntee_code": "K31",
+        "revenue_amt": 79098658,
+        "asset_amt": 34011194,
+        "verification_tier": "TIER_1_AUDITED",
+        "independently_audited": true,
+        "audit_signals": [
+          "IRS_EO_BMF_ACTIVE_501C3",
+          "IRS_AUTO_REVOCATION_CLEAN",
+          "IRS_BMF_NTEE_K31",
+          "IRS_BMF_REVENUE_REPORTED",
+          "IRS_BMF_ASSETS_REPORTED"
+        ],
+        "source_authority": "IRS EO BMF (eo_al.csv)"
+      },
+      {
+        "registry_id": "US-EIN:630307306",
+        "ein": "630307306",
+        "name": "CHILDRENS HOSPITAL OF ALABAMA",
+        "city": "BIRMINHGAM",
+        "state": "AL",
+        "ntee_code": "E240",
+        "revenue_amt": 953214153,
+        "asset_amt": 988226337,
+        "verification_tier": "TIER_1_AUDITED",
+        "independently_audited": true,
+        "audit_signals": [
+          "IRS_EO_BMF_ACTIVE_501C3",
+          "IRS_AUTO_REVOCATION_CLEAN",
+          "IRS_BMF_NTEE_E240",
+          "IRS_BMF_REVENUE_REPORTED",
+          "IRS_BMF_ASSETS_REPORTED"
+        ],
+        "source_authority": "IRS EO BMF (eo_al.csv)"
+      },
+      {
+        "registry_id": "US-EIN:630891904",
+        "ein": "630891904",
+        "name": "GULF HEALTH HOSPITALS INC",
+        "city": "MOBILE",
+        "state": "AL",
+        "ntee_code": "E21Z",
+        "revenue_amt": 429649803,
+        "asset_amt": 411925818,
+        "verification_tier": "TIER_1_AUDITED",
+        "independently_audited": true,
+        "audit_signals": [
+          "IRS_EO_BMF_ACTIVE_501C3",
+          "IRS_AUTO_REVOCATION_CLEAN",
+          "IRS_BMF_NTEE_E21Z",
+          "IRS_BMF_REVENUE_REPORTED",
+          "IRS_BMF_ASSETS_REPORTED"
+        ],
+        "source_authority": "IRS EO BMF (eo_al.csv)"
+      }
+    ],
+    "state": "US-AL"
+  },
+  "anti_commandeering_guard": {
+    "invariant": "NON_EXTRACTABLE_PUBLIC_COMMONS_LOCK",
+    "whale_vote_formula": "quadratic_sqrt_usdc_with_5pct_wallet_cap",
+    "max_single_wallet_vote_share_pct": 5,
+    "dark_money_firewall": "IRS_SUBSECTION_03_PUBLIC_CHARITY_ONLY_NO_501C4_OR_PAC_CONDUITS",
+    "plutocrat_trap_clause": "If Senate Opportunity Fund ($2,820,000 cycle patron) or aligned whales attempt to brigade the 'NO' outcome to manufacture candidate exoneration, 100% of their injected USDC is irrevocably locked into US-AL Bipartisan Universal Commons (volunteer fire/EMS, veterans' care, food banks, and disaster relief), while their voting weight is quadratically dampened at 5% max share."
+  },
+  "location": {
+    "label": "United States Capitol",
+    "address": "First St SE, Washington, DC 20004, USA",
+    "lat": 38.8899,
+    "lng": -77.0091
+  },
+  "payment": {
+    "chain": "base",
+    "chain_id": 8453,
+    "token": "USDC",
+    "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+    "qr_asset": "docs/escrow-qr.png",
+    "note": "Conditional Futarchy Escrow: Funds route to verified state 501(c)(3) restitution targets upon Quorum + Oracle Resolution.",
+    "payment_memo_or_slug": "2026-us_senate-us-al-regular"
+  },
+  "provenance": {
+    "status": "beta_template_verified",
+    "generated_at": "2026-11-17T01:06:16.099Z",
+    "generator": "pol-vote-futarchy-v4",
+    "review_required": false
+  }
+}

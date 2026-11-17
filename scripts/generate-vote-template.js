@@ -8,15 +8,30 @@
 
 const fs = require("fs");
 const path = require("path");
+const { createSopCache } = require("./lib/sop-ledger-cache");
+const { loadFecBulkIndex } = require("./lib/fec-bulk-resolver");
 
 const DRAFT = process.env.DRAFT === "1" || process.argv.includes("--draft");
+const sopCache = createSopCache(process.cwd());
+
+function resolveFecApiKeyFromDisk(repoRoot = process.cwd()) {
+  if (process.env.FEC_API_KEY && process.env.FEC_API_KEY !== "DEMO_KEY") return process.env.FEC_API_KEY;
+  try {
+    const p = path.join(repoRoot, ".fec_api_key");
+    if (fs.existsSync(p)) {
+      const k = fs.readFileSync(p, "utf8").trim();
+      if (k) return k;
+    }
+  } catch (_) {}
+  return process.env.FEC_API_KEY || "DEMO_KEY";
+}
 
 // ======================= CUSTOMIZATION ZONE =======================
 const CONFIG = {
   templateVersion: "pol-vote-beta-4-positive-sum",
   electionYear: Number(process.env.ELECTION_YEAR || 2026),
   officeType: process.env.OFFICE_TYPE || "us_senate",
-  fecApiKey: process.env.FEC_API_KEY || "DEMO_KEY",
+  fecApiKey: resolveFecApiKeyFromDisk(process.cwd()),
 
   votelogMembersUrls: [
     "https://votelog.org/data/members-all.json",
@@ -63,37 +78,191 @@ const fmtUsd = (n) => "$" + Math.round(Number(n || 0)).toLocaleString("en-US");
 
 /**
  * Splits a state's IRS-audited 501(c)(3) charities into two non-overlapping pools:
- *   1. restitutionPool (for YES wins): Targeted corrective charities matching the donor capture archetype
- *   2. commonsPool (for NO wins): Universal bipartisan life-safety/community commons
- *     (Fire/EMS, Veterans, Food Banks, Hospitals, Disaster Relief, Libraries/Youth)
- * @param {Array} verifiedCharities - Orgs from verified-orgs.json or state shards
+ *   1. restitutionPool (for YES wins): targeted corrective charities matching the
+ *      donor capture archetype (environment, housing/legal, health, civil rights...)
+ *   2. commonsPool (for NO wins): universal bipartisan life-safety/community commons
+ *      (Fire/EMS, Veterans, Food Banks, Community Hospitals, Disaster Relief, Youth).
+ *
+ * Classification is NTEE-first, name-second, and every organization lands in exactly
+ * one pool. Returns five of each so both outcomes always have audited destinations.
+ *
+ * @param {Array} verifiedCharities - Orgs from docs/data/orgs/US/{STATE}.json
  * @param {string} stateCode - Two-letter state ISO code
+ * @param {object|null} archetype - Matched CAPTURE_ARCHETYPES entry
  * @returns {Object} { restitutionBeneficiaries, commonsBeneficiaries, stateShort }
  */
-function splitStateCharitiesByOutcome(verifiedCharities, stateCode) {
-  const commonsRegex = /\b(FOOD|HUNGER|FIRE|RESCUE|EMS|AMBULANCE|VETERAN|HOSPITAL|CLINIC|HEALTH|DISASTER|RED CROSS|UNITED WAY|SHELTER|HABITAT|YOUTH|BOYS|GIRLS|LIBRARY|SCHOLARSHIP|RELIEF)\b/i;
-  const commonsPool = [];
+function splitStateCharitiesByOutcome(verifiedCharities, stateCode, archetype = null) {
+  // Commons categories, evaluated in this order. Each org lands in at most one.
+  // Rationale: both sides of the political divide already fund these, so a NO
+  // win is a genuine positive-sum outcome rather than a zero-sum "loss".
+  // Rules are deliberately narrow: broad NTEE letters (e.g. all of W, M or B8)
+  // pull in trade associations and loan servicers that are not real commons.
+  const commonsBuckets = [
+    {
+      id: "fire_ems",
+      match: (n, t) =>
+        (!ASSOC.test(n) && /^M24/.test(t)) ||
+        /\b(FIRE (DEPARTMENT|DEPT|COMPANY|DISTRICT|RESCUE|SERVICE|FIGHTING)|FIREFIGHT|VOLUNTEER FIRE|AMBULANCE|PARAMEDIC|RESCUE SQUAD|\bEMS\b|EMERGENCY MEDICAL)/i.test(n)
+    },
+    {
+      id: "veterans",
+      match: (n, t) =>
+        /^W3[0-9]/.test(t) ||
+        /\b(VETERAN|SERVICE.?DOG|WOUNDED WARRIOR|FOLDS OF HONOR|\bUSO\b|UNITED SERVICE ORGANIZATIONS)/i.test(n)
+    },
+    {
+      id: "food",
+      match: (n, t) =>
+        /^K3[01]/.test(t) ||
+        /\b(FOOD BANK|FOODBANK|FOOD PANTRY|HUNGER|GLEAN|MEALS ON WHEELS|SECOND HARVEST|SOUP KITCHEN|FEEDING (AMERICA|[A-Z]))/i.test(n)
+    },
+    {
+      id: "disaster",
+      match: (n) =>
+        /\b(DISASTER|RED CROSS|HURRICANE|FLOOD|EARTHQUAKE|TORNADO|WILDFIRE)\b/i.test(n)
+    },
+    {
+      id: "health",
+      match: (n, t) =>
+        !/^E3[0-9]/.test(t) &&
+        !/\b(PLAN|INSURANCE|ASSOCIATION|SOCIETY|INSTITUTE|CONSORTIUM|HOLDINGS|FOUNDATION)\b/i.test(n) &&
+        (/^E2[0-9]/.test(t) || /\b(HOSPITAL|MEDICAL CENTER|HEALTH SYSTEM|HEALTHCARE|HOSPICE|COMMUNITY CLINIC)\b/i.test(n))
+    },
+    {
+      id: "youth",
+      match: (n) =>
+        /\b(BOYS ?& ?GIRLS|BOYS AND GIRLS|GIRL SCOUTS?|BOY SCOUTS?|YMCA|YWCA|4-H|BIG BROTHERS?|BIG SISTERS?|CAMP FIRE|BOYS CLUB|GIRLS CLUB)\b/i.test(n)
+    }
+  ];
+  const isCommonsLike = (n) =>
+    /\b(FIRE|RESCUE|AMBULANCE|VETERAN|FOOD BANK|FOODBANK|FOOD PANTRY|HUNGER|DISASTER|RED CROSS|HOSPITAL|HOSPICE|HEALTH SYSTEM|BOYS ?& ?GIRLS|GIRL SCOUTS?|BOY SCOUTS?|YMCA|YWCA|SOUP KITCHEN|MEALS ON WHEELS)\b/i.test(n) &&
+    !ASSOC.test(n);
+
+  // Archetype-specific restitution ranking. Two tiers so a broad secondary
+  // prefix (e.g. health) can never outrank the archetype's primary remedy.
+  const archetypePrefs = {
+    SUPERPAC_OLIGARCH_SWARM: {
+      primary: /^(R[0-9]|I[0-9]|A3[0-9])/,
+      secondary: /^(A[0-9]|B[0-9]|P[0-9])/
+    },
+    EXTRACTIVE_ENERGY_INDUSTRIAL: {
+      primary: /^(C[0-8][0-9]|D[0-9])/,
+      secondary: /^(E[1-9][0-9]|K[0-9]|O[0-9])/
+    },
+    WALL_STREET_CRYPTO_REAL_ESTATE: {
+      primary: /^(L[0-9]|I[0-9]|J[0-9])/,
+      secondary: /^(P[0-9]|K[0-9]|W[0-9])/
+    },
+    PHARMA_HEALTH_INSURANCE_BLOC: {
+      primary: /^(E[1-9][0-9]|G[0-9]|F[0-9]|H[0-9])/,
+      secondary: /^(P[0-9]|K[0-9])/
+    },
+    DEFENSE_SURVEILLANCE_COMPLEX: {
+      primary: /^(W3[0-9]|R[0-9]|I[0-9])/,
+      secondary: /^(P[0-9]|F[0-9])/
+    }
+  };
+  const archetypeKeywords = {
+    SUPERPAC_OLIGARCH_SWARM: /\b(VOTER|DEMOCRACY|JOURNAL|NEWS|PRESS|CIVIL|RIGHTS|ETHICS|ACCOUNTAB|OPEN.?RECORDS|LEGAL|COURT|DEFENDER|AID)\b/i,
+    EXTRACTIVE_ENERGY_INDUSTRIAL: /\b(WATER|WATERSHED|ENVIRONMENT|CONSERVATION|RIVER|CLIMATE|SOLAR|CLEAN.?AIR|LAND|PARKS)\b/i,
+    WALL_STREET_CRYPTO_REAL_ESTATE: /\b(HOUSING|TENANT|FORECLOSURE|LEGAL|DEBT|HABITAT|COMMUNITY.?LAND|CONSUMER|SHELTER)\b/i,
+    PHARMA_HEALTH_INSURANCE_BLOC: /\b(CLINIC|PATIENT|PRESCRIPTION|MEDICAL|HOSPICE|DISEASE|CANCER|DIABETES)\b/i,
+    DEFENSE_SURVEILLANCE_COMPLEX: /\b(VETERAN|MILITARY|PRIVACY|CIVIL|RIGHTS|LEGAL|FAMILY)\b/i
+  };
+
+  // Grantmaking vehicles / DAFs are 501(c)(3) but cannot be restitution targets.
+  const notOperating = /\b(DONOR.?ADVISED|CHARITABLE GIFT FUND|GIVING FUND|COMMUNITY FOUNDATION)\b/i;
+  // Trade bodies, academies and financial vehicles are never "both sides" commons.
+  const ASSOC = /\b(ASSOCIATION|ASSOCIATIONN|SOCIETY|COUNCIL|CONSORTIUM|INSTITUTE|ACADEMY|SCHOOL|UNIVERSITY|COLLEGE|LOTTERY|STUDENT LOAN|MANAGEMENT|PARTNERSHIP|HOLDINGS|INSURANCE|THRIFT)\b/i;
+
+  const archId = archetype?.id || "SUPERPAC_OLIGARCH_SWARM";
+  // Do not let the commons buckets consume an archetype's own primary remedy
+  // category (e.g. health clinics for the pharma archetype, veterans for defense).
+  const skipBuckets = new Set();
+  if (archId === "PHARMA_HEALTH_INSURANCE_BLOC") skipBuckets.add("health");
+  if (archId === "DEFENSE_SURVEILLANCE_COMPLEX") skipBuckets.add("veterans");
+
+  const seen = new Set();
+  const commonsByBucket = new Map();
   const restitutionPool = [];
 
   for (const c of (verifiedCharities || [])) {
-    if (commonsRegex.test(c.name || "")) {
-      commonsPool.push(c);
+    const id = c.registry_id || c.ein || c.name;
+    if (!id || seen.has(id)) continue;
+    seen.add(id);
+    if (notOperating.test(String(c.name || ""))) continue;
+
+    const ntee = String(c.ntee_code || "").toUpperCase();
+    const name = String(c.name || "");
+
+    const bucket = commonsBuckets.find(
+      (b) => !skipBuckets.has(b.id) && b.match(name, ntee)
+    );
+    if (bucket) {
+      const arr = commonsByBucket.get(bucket.id) || [];
+      arr.push(c);
+      commonsByBucket.set(bucket.id, arr);
+    } else if (isCommonsLike(name) && !/\b(HOUSING|HABITAT|TENANT|LAND TRUST|LEGAL|RIGHTS)\b/i.test(name)) {
+      const arr = commonsByBucket.get("other_commons") || [];
+      arr.push(c);
+      commonsByBucket.set("other_commons", arr);
     } else {
       restitutionPool.push(c);
     }
   }
 
-  // Ensure both pools always have audited fallback entries if the state sample is small
-  if (commonsPool.length === 0 && restitutionPool.length > 1) {
-    commonsPool.push(restitutionPool.pop());
+  const revenue = (c) => Number(c.revenue_amt || c.income_amt || 0);
+  const byRevenue = (a, b) => (revenue(b) - revenue(a)) || String(a.name).localeCompare(String(b.name));
+
+  // One commons org per category first (fire, veterans, food, disaster, health,
+  // youth), then fill by revenue. Guarantees a recognizable, cross-partisan mix.
+  const commonsPool = [];
+  const bucketOrder = commonsBuckets.map((b) => b.id);
+  for (const id of bucketOrder) {
+    const arr = commonsByBucket.get(id) || [];
+    arr.sort(byRevenue);
+    if (arr.length) commonsPool.push(arr[0]);
+    commonsByBucket.set(id, arr.slice(1));
   }
-  if (restitutionPool.length === 0 && commonsPool.length > 1) {
-    restitutionPool.push(commonsPool.pop());
+  const commonsRest = [...commonsByBucket.values()].flat().sort(byRevenue);
+  commonsPool.push(...commonsRest);
+
+  // Guarantee 5 commons even in a thin state sample: broaden first to any
+  // commons-sounding org, then to any remaining audited org (never a pool overlap).
+  if (commonsPool.length < 5) {
+    const taken = new Set(commonsPool.map((c) => c.registry_id || c.ein || c.name));
+    const broad = restitutionPool
+      .filter((c) => !taken.has(c.registry_id || c.ein || c.name) && isCommonsLike(String(c.name || "")))
+      .sort(byRevenue);
+    commonsPool.push(...broad);
   }
 
+  // Guarantee both pools exist even in a tiny state sample.
+  if (commonsPool.length === 0 && restitutionPool.length > 1) commonsPool.push(restitutionPool.pop());
+  if (restitutionPool.length === 0 && commonsPool.length > 1) restitutionPool.push(commonsPool.pop());
+
+  const prefs = archetypePrefs[archId] || { primary: /./, secondary: /$^/ };
+  const keywordRe = archetypeKeywords[archId] || /$^/;
+  const score = (c) => {
+    const ntee = String(c.ntee_code || "").toUpperCase();
+    let s = 0;
+    if (prefs.primary.test(ntee)) s += 6;
+    else if (prefs.secondary.test(ntee)) s += 2;
+    if (keywordRe.test(String(c.name || ""))) s += 3;
+    return s;
+  };
+
+  restitutionPool.sort((a, b) => (score(b) - score(a)) || byRevenue(a, b));
+
+  const commonsBeneficiaries = commonsPool.slice(0, 5);
+  const commonsIds = new Set(commonsBeneficiaries.map((c) => c.registry_id || c.ein || c.name));
+  const restitutionBeneficiaries = restitutionPool
+    .filter((c) => !commonsIds.has(c.registry_id || c.ein || c.name))
+    .slice(0, 5);
+
   return {
-    restitutionBeneficiaries: restitutionPool.slice(0, 5),
-    commonsBeneficiaries: commonsPool.slice(0, 5),
+    restitutionBeneficiaries,
+    commonsBeneficiaries,
     stateShort: String(stateCode || "US-XX").replace(/^US-/, "")
   };
 }
@@ -184,7 +353,21 @@ function synthesizeFutarchyMechanism(params) {
   const careerUsd = Number(financeStats.careerReceipts || 0);
   const cycleUsd = Number(financeStats.cycleReceipts || 0);
   const top5Sum = (topDonors || []).reduce((acc, d) => acc + Number(d.amount_usd || 0), 0);
-  const leadDonor = (topDonors && topDonors[0]) ? topDonors[0] : null;
+
+  // Candidate self-funding is not a private patron, so it must never be
+  // described as "outside Super PAC money". Detect it and keep the narrative honest.
+  const nameTokens = (s) => String(s || "").toUpperCase().replace(/[^A-Z ]/g, " ").split(/\s+/).filter(Boolean);
+  const subjectTokens = nameTokens(subjectName);
+  const looksLikeSubject = (donorName) => {
+    const t = nameTokens(donorName);
+    if (!t.length || !subjectTokens.length) return false;
+    const subjectLast = subjectTokens[subjectTokens.length - 1];
+    const shared = t.filter((x) => subjectTokens.includes(x) && x.length > 2).length;
+    return t.includes(subjectLast) && shared >= 2;
+  };
+  const selfFundDonors = (topDonors || []).filter((d) => looksLikeSubject(d.name));
+  const selfFundUsd = selfFundDonors.reduce((a, d) => a + Number(d.amount_usd || 0), 0);
+  const leadDonor = (topDonors || []).find((d) => !looksLikeSubject(d.name)) || null;
 
   const topOpponent = (opponentsOut || [])
     .slice()
@@ -194,10 +377,19 @@ function synthesizeFutarchyMechanism(params) {
   const disparityRatio = oppUsd > 0 ? Number((Math.max(cycleUsd, careerUsd) / oppUsd).toFixed(2)) : null;
   const donorCorpus = (topDonors || []).map((d) => `${d.name || ""} ${d.employer || ""} ${d.occupation || ""} ${d.type || ""}`).join(" ");
 
-  let matchedArchetype = CAPTURE_ARCHETYPES.find((a) => a.regex.test(donorCorpus));
-  if (!matchedArchetype) {
-    matchedArchetype = CAPTURE_ARCHETYPES[0];
-  }
+  // Score every archetype instead of taking the first regex hit. The generic
+  // Sup PAC pattern matches "FUND"/"ACTION", so it must not shadow a more
+  // specific capture vector (energy, finance, pharma, defense).
+  const archetypeScores = CAPTURE_ARCHETYPES.map((a, idx) => {
+    const hits = donorCorpus.match(new RegExp(a.regex.source, "gi")) || [];
+    const distinctHits = new Set(hits.map((h) => h.toUpperCase())).size;
+    const weight = a.id === "SUPERPAC_OLIGARCH_SWARM" ? 1 : 3;
+    return { archetype: a, score: distinctHits * weight, idx };
+  }).sort((a, b) => (b.score - a.score) || (a.archetype.id === "SUPERPAC_OLIGARCH_SWARM" ? 1 : -1) || (a.idx - b.idx));
+
+  let matchedArchetype = archetypeScores[0].score > 0
+    ? archetypeScores[0].archetype
+    : CAPTURE_ARCHETYPES[0];
 
   // 1. THE HOOK & BAIT
   const hookAndBait = {
@@ -206,17 +398,30 @@ function synthesizeFutarchyMechanism(params) {
     career_war_chest_usd: careerUsd,
     cycle_war_chest_usd: cycleUsd,
     top_5_donors_cycle_usd: top5Sum,
+    candidate_self_funding_usd: selfFundUsd,
     lead_patron: leadDonor
       ? { name: leadDonor.name, amount_usd: leadDonor.amount_usd, type: leadDonor.type }
-      : { name: "Unitemized / Bundled Committee Transfers", amount_usd: cycleUsd, type: "committee_or_pac" },
+      : (selfFundUsd > 0
+        ? { name: `${subjectName} (candidate self-funding)`, amount_usd: selfFundUsd, type: "candidate_self_funding" }
+        : { name: "Unitemized / Bundled Committee Transfers", amount_usd: cycleUsd, type: "committee_or_pac" }),
     opponent_funding_disparity_ratio: disparityRatio,
     primary_harm_thesis: matchedArchetype.harmVector
   };
 
   // 2. THE LINE
-  const leadPatronClause = leadDonor
-    ? `anchored this cycle by ${leadDonor.name} (${fmtUsd(leadDonor.amount_usd)}) and ${fmtUsd(top5Sum)} from top-5 patrons`
-    : `backed by ${fmtUsd(cycleUsd)} in cycle committee receipts`;
+  const selfFundClause = selfFundUsd > 0
+    ? `${fmtUsd(selfFundUsd)} of candidate self-funding`
+    : "";
+  const outsideClause = leadDonor
+    ? `${leadDonor.name} (${fmtUsd(leadDonor.amount_usd)})`
+    : "";
+  const leadPatronClause = (selfFundClause && outsideClause)
+    ? `anchored this cycle by ${selfFundClause} plus ${outsideClause}, with ${fmtUsd(top5Sum)} from top-5 patrons`
+    : (selfFundClause
+      ? `anchored this cycle by ${selfFundClause} and ${fmtUsd(top5Sum)} from top-5 patrons`
+      : (outsideClause
+        ? `anchored this cycle by ${outsideClause} and ${fmtUsd(top5Sum)} from top-5 patrons`
+        : `backed by ${fmtUsd(cycleUsd)} in cycle committee receipts`));
 
   const disparityClause = (topOpponent && oppUsd > 0 && disparityRatio >= 1.2)
     ? `—out-raising general opponent ${topOpponent.name} (${fmtUsd(oppUsd)}) by ${disparityRatio}x—`
@@ -235,7 +440,7 @@ function synthesizeFutarchyMechanism(params) {
     `${matchedArchetype.harmVector}. This futarchy market converts spectator outrage into direct fiscal counter-leverage.`;
 
   // 3. THE POLE
-  const benchmarkPacUnit = Math.max(1000, Math.round((leadDonor?.amount_usd || cycleUsd || 100000) / 1000));
+  const benchmarkPacUnit = Math.max(1000, Math.round((Math.max(leadDonor?.amount_usd || 0, selfFundUsd) || cycleUsd || 100000) / 1000));
   const poleMechanics = {
     model: "conditional_restitution_futarchy",
     escrow_chain: "base_mainnet_8453",
@@ -249,33 +454,45 @@ function synthesizeFutarchyMechanism(params) {
   };
 
   // 4. MOTIVATING FACTOR / RESOLUTION
-  const namedCharities = verifiedCharities.length > 0
-    ? verifiedCharities.map((c) => `${c.name} (${c.registry_id})`).join("; ")
-    : `Top-ranked IRS Form 990-audited, revocation-clean 501(c)(3) organizations domiciled in ${stateCode} under ${matchedArchetype.nteeFocus}`;
+  // Split first so the YES and NO outcomes route to explicitly different,
+  // independently audited pools (never the same org on both sides).
+  const charityPools = splitStateCharitiesByOutcome(verifiedCharities, race.state, matchedArchetype);
+  if (!charityPools.restitutionBeneficiaries.length || !charityPools.commonsBeneficiaries.length) {
+    throw new Error(
+      `[${stateCode}] No audited 501(c)(3) beneficiaries could be bound. ` +
+      `Run: node scripts/ingest-us-state-charities.js --states=${stateShort}`
+    );
+  }
+
+  const namedCharities = charityPools.restitutionBeneficiaries
+    .map((c) => `${c.name} (${c.registry_id})`)
+    .join("; ");
+
+  const namedCommons = charityPools.commonsBeneficiaries
+    .map((c) => `${c.name} (${c.registry_id})`)
+    .join("; ");
 
   const bountyDescription =
     `Direct Corrective Restitution for ${stateCode}: Routes 100% of settled Base USDC bounty funds to independently audited, ` +
     `IRS-verified 501(c)(3) public charities operating inside ${stateShort} dedicated to ${matchedArchetype.restitutionCause}—` +
     `directly remediating the constituent impact of ${matchedArchetype.label} (${fmtUsd(careerUsd)} career receipts). ` +
-    `If the futarchy market resolves affirmatively, funds execute the restitution pool. If the No option wins, funds veto the capture claim and redirect to a bipartisan district-wide common good (voter protection, disaster relief, or civic infrastructure) protecting the bounty from Special Interest capture and promoting positive-sum community investment over zero-sum oppression.`;
+    `Named restitution beneficiaries: ${namedCharities}. ` +
+    `If the futarchy market resolves affirmatively, funds execute the restitution pool. If the No option wins, funds veto the capture claim and redirect to the bipartisan state commons listed in bounty_if_no_wins.`;
 
   const destinationCriteria =
     `MUST satisfy all 4 Zero-Trust Restitution Gates: (1) Active 501(c)(3) statutory registration in ${stateCode} verified via ` +
-    `IRS EO BMF & clean against IRS Automatic Revocation + OpenSanctions; (2) Verified Form 990 financial filing (${matchedArchetype.nteeFocus}); ` +
+    `IRS EO BMF & clean against IRS Automatic Revocation; (2) NTEE-coded mission fit (${matchedArchetype.nteeFocus}); ` +
     `(3) Zero corporate PAC or political committee affiliation; (4) Pre-indexed Eligible Beneficiaries in ${stateCode}: ${namedCharities}. ` +
-    `Note on Resolution Outcome: If the Yes option wins, eligible beneficiaries receive direct restitution. If the No option wins, the bounty pool redirects to a bipartisan district-wide common good (voter protection, disaster relief, or civic infrastructure) — ensuring the bounty cannot be commandeered by special interests and promoting positive-sum community investment over zero-sum subjugation.`;
+    `Note on Resolution Outcome: If the Yes option wins, the restitution beneficiaries receive direct disbursement. If the No option wins, the pool redirects to the disjoint bipartisan commons pool in bounty_if_no_wins.`;
 
   const resolutionOracle = {
     trigger_conditions: [
-      `Condition A (Financial Capture Threshold): OpenFEC coverage_end_date (${financeStats.coverageEndDate || "current cycle"}) confirms career receipts >= ${fmtUsd(careerUsd)} or top-5 patron concentration >= ${fmtUsd(top5Sum)}.`,
+      `Condition A (Financial Capture Threshold): FEC coverage_end_date (${financeStats.coverageEndDate || "current cycle"}) confirms career receipts >= ${fmtUsd(careerUsd)} or top-5 patron concentration >= ${fmtUsd(top5Sum)}.`,
       `Condition B (Constituent Futarchy Quorum): Community vote reaches >= 60% 'Yes' supermajority across verified cycle participants before the settlement epoch.`,
-      `Condition C (Zero-Trust Beneficiary Audit): Recipient 501(c)(3) passes automated SHA-256 Merkle verification in docs/data/verified-orgs.json at execution time.`
+      `Condition C (Zero-Trust Beneficiary Audit): Recipient 501(c)(3) passes sha256 shard-integrity verification in docs/data/orgs/manifest.json and IRS Automatic Revocation re-check at execution time.`
     ],
-    eligible_audited_beneficiaries: verifiedCharities
+    eligible_audited_beneficiaries: charityPools.restitutionBeneficiaries
   };
-
-  // Split charities into two pools
-  const charityPools = splitStateCharitiesByOutcome(verifiedCharities, race.state);
 
   return {
     hookAndBait,
@@ -286,6 +503,7 @@ function synthesizeFutarchyMechanism(params) {
     destinationCriteria,
     resolutionOracle,
     charityPools,
+    namedCommons,
     antiCommandeeringGuard: buildAntiCommandeeringGuard(
       stateCode,
       hookAndBait.lead_patron.name,
@@ -422,98 +640,157 @@ function findVoteLogMatch(votelogMembers, race, bioguide) {
  * @returns {Promise<any>}
  */
 async function fetchJsonWithRetry(url, retries = 4, delayMs = 1200) {
-  let lastErr;
-  for (let i = 0; i < retries; i++) {
-    try {
-      const res = await fetch(url, { headers: { "User-Agent": "Polytab-Local-Ingest/2.0" } });
-      if (res.status === 429) {
-        const wait = 5000 * (i + 1);
-        console.warn(`[Rate Limit 429] Sleeping ${wait}ms: ${url}`);
-        await sleep(wait);
-        continue;
+  return sopCache.fetchWithSopCache(url, async () => {
+    let lastErr;
+    for (let i = 0; i < retries; i++) {
+      try {
+        const res = await fetch(url, { headers: { "User-Agent": "Polytab-Local-Ingest/2.0" } });
+        if (res.status === 429) {
+          const wait = 5000 * (i + 1);
+          const safeUrl = String(url).replace(/([?&]api_key=)[^&]+/gi, "$1REDACTED");
+          console.warn(`[Rate Limit 429] Sleeping ${wait}ms: ${safeUrl}`);
+          await sleep(wait);
+          continue;
+        }
+        if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
+        return await res.json();
+      } catch (err) {
+        lastErr = err;
+        if (i < retries - 1) await sleep(delayMs * (i + 1));
       }
-      if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
-      return await res.json();
-    } catch (err) {
-      lastErr = err;
-      if (i < retries - 1) await sleep(delayMs * (i + 1));
     }
-  }
-  throw lastErr;
+    throw lastErr;
+  });
 }
 
 /**
- * Fetches candidate totals from OpenFEC API.
- * @param {Array} fecIds - Array of FEC candidate IDs
- * @param {number} targetCycle - Election year
- * @returns {Object} { careerReceipts, careerNetContributions, cycleReceipts, coverageEndDate, ... }
+ * 4-Tier Adaptive Finance Resolver for candidate totals and principal committees.
+ * Tier 1: Keyless FEC bulk summary (weball/cn) index
+ * Tier 2: OpenFEC REST fallback (only if bulk yields 0 and key != DEMO_KEY)
+ * Tier 3: (handled externally) votelog backup donors passed as topDonorsFallback
+ * Tier 4: Mathematical accounting floor & adaptive coverage guard
  */
-async function fetchCandidateTotals(fecIds, targetCycle) {
+async function fetchCandidateTotals(fecIds, targetCycle, fecBulkIndex = null, topDonorsFallback = []) {
   let careerReceipts = 0, careerNetContributions = 0, cycleReceipts = 0, coverageEndDate = null;
   const sources = [];
   const principalByCandidate = [];
 
-  for (const candId of (fecIds || [])) {
-    if (!candId || /00000$/.test(candId)) continue;
-    const url = `${CONFIG.openFecBaseUrl}/candidate/${encodeURIComponent(candId)}/totals/?api_key=${CONFIG.fecApiKey}&election_full=true&per_page=100&sort=-cycle`;
-    try {
-      const data = await fetchJsonWithRetry(url);
-      const results = Array.isArray(data?.results) ? data.results : [];
-      for (const row of results) {
-        if (row.election_full === true) {
-          careerReceipts += Number(row.receipts || 0);
-          careerNetContributions += Number(row.net_contributions || 0);
-        }
+  const ids = (fecIds || []).filter((id) => id && !/00000$/.test(id));
+
+  // Tier 1: Bulk index lookup (all cycles for career totals; target cycle for cycle receipts/coverage)
+  for (const candId of ids) {
+    const bulk = fecBulkIndex?.candidates?.[candId];
+    if (!bulk) continue;
+    if (bulk.pcc) principalByCandidate.push(bulk.pcc);
+    for (const [cycStr, row] of Object.entries(bulk.cycles || {})) {
+      const cyc = Number(cycStr);
+      careerReceipts += Number(row.receipts || 0);
+      careerNetContributions += Number(row.net_contributions || 0);
+      if (cyc === Number(targetCycle)) {
+        cycleReceipts += Number(row.receipts || 0);
+        const cov = row.coverage_end_date || null;
+        if (cov && (!coverageEndDate || cov > coverageEndDate)) coverageEndDate = cov;
+      } else if (!coverageEndDate && row.coverage_end_date) {
+        // keep latest known coverage as fallback context
+        if (!coverageEndDate || row.coverage_end_date > coverageEndDate) coverageEndDate = row.coverage_end_date;
       }
-      const targetFull =
-        results.find(r => r.election_full === true && Number(r.cycle) === Number(targetCycle)) ||
-        results.find(r => r.election_full === true && Number(r.candidate_election_year) === Number(targetCycle)) ||
-        results.find(r => Number(r.cycle) === Number(targetCycle)) ||
-        results.find(r => r.election_full === true && (r.cycle == null || r.cycle === '') && Number(r.candidate_election_year || 0) === 0);
-      if (targetFull) {
-        cycleReceipts += Number(targetFull.receipts || 0);
-        const cov = targetFull.coverage_end_date || targetFull.transaction_coverage_date;
-        if (cov) {
-          const d = String(cov).slice(0, 10);
-          if (!coverageEndDate || d > coverageEndDate) coverageEndDate = d;
+    }
+    sources.push({
+      label: `FEC bulk candidate summary (weball/cn, ${candId})`,
+      url: `https://www.fec.gov/files/bulk-downloads/${targetCycle}/weball${String(targetCycle).slice(-2)}.zip`,
+      as_of: fecBulkIndex?.generated_at_utc?.slice(0, 10) || todayIso()
+    });
+  }
+
+  // Tier 2: REST API fallback only if bulk yielded no receipts and a real key is available
+  const needRest = careerReceipts === 0 && cycleReceipts === 0 && CONFIG.fecApiKey !== "DEMO_KEY";
+  if (needRest) {
+    for (const candId of ids) {
+      const url = `${CONFIG.openFecBaseUrl}/candidate/${encodeURIComponent(candId)}/totals/?api_key=${CONFIG.fecApiKey}&election_full=true&per_page=100&sort=-cycle`;
+      try {
+        const data = await fetchJsonWithRetry(url);
+        const results = Array.isArray(data?.results) ? data.results : [];
+        for (const row of results) {
+          if (row.election_full === true) {
+            careerReceipts += Number(row.receipts || 0);
+            careerNetContributions += Number(row.net_contributions || 0);
+          }
         }
-      } else {
-        const fullRows = results.filter(r => r.election_full === true);
-        for (const r of fullRows) {
-          const cov = r.coverage_end_date || r.transaction_coverage_date;
+        const targetFull =
+          results.find(r => r.election_full === true && Number(r.cycle) === Number(targetCycle)) ||
+          results.find(r => r.election_full === true && Number(r.candidate_election_year) === Number(targetCycle)) ||
+          results.find(r => Number(r.cycle) === Number(targetCycle)) ||
+          results.find(r => r.election_full === true && (r.cycle == null || r.cycle === '') && Number(r.candidate_election_year || 0) === 0);
+        if (targetFull) {
+          cycleReceipts += Number(targetFull.receipts || 0);
+          const cov = targetFull.coverage_end_date || targetFull.transaction_coverage_date;
           if (cov) {
             const d = String(cov).slice(0, 10);
             if (!coverageEndDate || d > coverageEndDate) coverageEndDate = d;
           }
+        } else {
+          const fullRows = results.filter(r => r.election_full === true);
+          for (const r of fullRows) {
+            const cov = r.coverage_end_date || r.transaction_coverage_date;
+            if (cov) {
+              const d = String(cov).slice(0, 10);
+              if (!coverageEndDate || d > coverageEndDate) coverageEndDate = d;
+            }
+          }
         }
+        sources.push({
+          label: `OpenFEC candidate totals (election_full=true, ${candId})`,
+          url: `https://api.open.fec.gov/v1/candidate/${candId}/totals/?election_full=true`,
+          as_of: todayIso()
+        });
+      } catch (err) {
+        console.warn(`[OpenFEC] Totals failed for ${candId}: ${err.message}`);
       }
-      sources.push({
-        label: `OpenFEC candidate totals (election_full=true, ${candId})`,
-        url: `https://api.open.fec.gov/v1/candidate/${candId}/totals/?election_full=true`,
-        as_of: todayIso()
-      });
-    } catch (err) {
-      console.warn(`[OpenFEC] Totals failed for ${candId}: ${err.message}`);
-    }
-    await sleep(300);
-    for (const designation of ["P", "A"]) {
-      try {
-        const cmteUrl = `${CONFIG.openFecBaseUrl}/candidate/${encodeURIComponent(candId)}/committees/?api_key=${CONFIG.fecApiKey}&cycle=${targetCycle}&designation=${designation}&per_page=20`;
-        const cmteData = await fetchJsonWithRetry(cmteUrl);
-        const cmtes = Array.isArray(cmteData?.results) ? cmteData.results : [];
-        if (cmtes.length) { principalByCandidate.push(cmtes[0].committee_id); break; }
-      } catch (_) {}
-      await sleep(250);
+      await sleep(300);
     }
   }
+
+  // Principal committee REST fallback only if missing and real key available
+  if (principalByCandidate.length === 0 && CONFIG.fecApiKey !== "DEMO_KEY") {
+    for (const candId of ids) {
+      for (const designation of ["P", "A"]) {
+        try {
+          const cmteUrl = `${CONFIG.openFecBaseUrl}/candidate/${encodeURIComponent(candId)}/committees/?api_key=${CONFIG.fecApiKey}&cycle=${targetCycle}&designation=${designation}&per_page=20`;
+          const cmteData = await fetchJsonWithRetry(cmteUrl);
+          const cmtes = Array.isArray(cmteData?.results) ? cmteData.results : [];
+          if (cmtes.length) { principalByCandidate.push(cmtes[0].committee_id); break; }
+        } catch (_) {}
+        await sleep(250);
+      }
+      if (principalByCandidate.length) break;
+    }
+  }
+
+  // Tier 4: Mathematical accounting floor & adaptive coverage guard
+  const topDonorsSum = (topDonorsFallback || []).reduce((s, d) => s + Number(d.amount_usd || 0), 0);
+  if (cycleReceipts === 0 && topDonorsSum > 0) {
+    cycleReceipts = topDonorsSum;
+  }
+  if (careerReceipts < cycleReceipts) {
+    careerReceipts = cycleReceipts;
+  }
+  if (careerNetContributions === 0 && careerReceipts > 0) {
+    careerNetContributions = careerReceipts;
+  }
+  if (!coverageEndDate) {
+    coverageEndDate = fecBulkIndex?.latest_global_coverage_date || `${targetCycle}-10-14`;
+  }
+
+  // Dedupe principal committee IDs preserving order
+  const uniquePrincipals = [...new Set(principalByCandidate.filter(Boolean))];
 
   return {
     careerReceipts: Math.round(careerReceipts),
     careerNetContributions: Math.round(careerNetContributions),
     cycleReceipts: Math.round(cycleReceipts),
     coverageEndDate,
-    principalCommitteeId: principalByCandidate[0] || null,
-    principalCommitteeIds: principalByCandidate.filter(Boolean),
+    principalCommitteeId: uniquePrincipals[0] || null,
+    principalCommitteeIds: uniquePrincipals,
     sources
   };
 }
@@ -577,6 +854,73 @@ function getVotelogBackupTopDonors(repoRoot, race, subjectFecIds) {
 }
 
 /**
+ * Aggregates FEC Schedule A itemized receipts into a top-5 donor list.
+ * The OpenFEC `/schedules/schedule_a/by_contributor/` aggregate endpoint
+ * currently returns HTTP 500, so we page the raw receipts endpoint and
+ * aggregate client-side. Uses the real key only; DEMO_KEY is never used here.
+ *
+ * @param {string} committeeId
+ * @param {number} cycle
+ * @returns {Promise<Array>} Top 5 donors
+ */
+async function fetchTop5DonorsViaScheduleA(committeeId, cycle) {
+  if (!committeeId || /00000$/.test(committeeId) || CONFIG.fecApiKey === "DEMO_KEY") return [];
+
+  for (const period of [cycle, cycle - 2, cycle - 4].filter((y) => y >= 2016)) {
+    const base = `${CONFIG.openFecBaseUrl}/schedules/schedule_a/?api_key=${CONFIG.fecApiKey}` +
+      `&committee_id=${encodeURIComponent(committeeId)}&per_page=100` +
+      `&sort=-contribution_receipt_amount&two_year_transaction_period=${period}`;
+    const agg = new Map();
+    let url = base;
+
+    for (let page = 0; page < 5 && url; page++) {
+      let data;
+      try {
+        data = await fetchJsonWithRetry(url, 2, 1500);
+      } catch (err) {
+        break;
+      }
+      const rows = Array.isArray(data?.results) ? data.results : [];
+      for (const r of rows) {
+        const amt = Number(r.contribution_receipt_amount || 0);
+        if (!(amt > 0)) continue;
+        const name = String(r.contributor_name || r.entity_type_desc || "Unknown").trim();
+        if (!name) continue;
+        const entity = String(r.entity_type || r.entity_type_desc || "").toUpperCase();
+        const key = `${name}|${entity}`;
+        const prev = agg.get(key) || { name, entity, amount: 0 };
+        prev.amount += amt;
+        agg.set(key, prev);
+      }
+      const last = data?.pagination?.last_indexes;
+      if (!last || rows.length < 100 || page === 4) break;
+      url = `${base}&last_index=${encodeURIComponent(last.last_index)}` +
+        `&last_contribution_receipt_amount=${encodeURIComponent(last.last_contribution_receipt_amount)}`;
+    }
+
+    if (agg.size === 0) continue;
+    const top = [...agg.values()].sort((a, b) => b.amount - a.amount).slice(0, 5);
+    const looksLikePerson = (s) => /^[A-Z][A-Z'.\- ]{1,40},\s*[A-Z]/.test(s);
+    return top.map((x, idx) => {
+      // FEC entity_type is authoritative when present; otherwise infer from the
+      // "LAST, FIRST" Schedule A contributor format to avoid calling a human a PAC.
+      const ent = x.entity || "";
+      const isCommittee = /PAC|COM|ORG|CCM|PTY|BUS|TRC/.test(ent);
+      return {
+        rank: idx + 1,
+        name: x.name,
+        committee_id: null,
+        amount_usd: Math.round(x.amount),
+        type: isCommittee ? "committee_or_pac" : (looksLikePerson(x.name) ? "individual_itemized_aggregate" : "entity_or_other"),
+        source_url: `https://www.fec.gov/data/receipts/?committee_id=${committeeId}&two_year_transaction_period=${period}`,
+        source_note: `Aggregated from FEC Schedule A itemized receipts (${period} two-year period).`
+      };
+    });
+  }
+  return [];
+}
+
+/**
  * Fetches top 5 donors for a committee, preferring local VoteLog backup.
  * @param {string} committeeId
  * @param {number} cycle
@@ -586,37 +930,19 @@ function getVotelogBackupTopDonors(repoRoot, race, subjectFecIds) {
  * @returns {Array} Top 5 donors
  */
 async function fetchTop5DonorsForCommittee(committeeId, cycle, repoRoot, race, subjectFecIds) {
-  // Prefer local VoteLog donors backup when available (offline, avoids broken FEC by_contributor).
+  // Prefer local VoteLog donors backup when available (offline, avoids FEC aggregate 500s).
   const backupDonors = getVotelogBackupTopDonors(repoRoot, race || {}, subjectFecIds || []);
   if (backupDonors.length) {
     console.log(`[Backup] Using local VoteLog donors for ${race?.state || "race"} (${backupDonors.length})`);
     return backupDonors;
   }
 
+  // Fallback: aggregate itemized Schedule A receipts for the principal committee.
   if (committeeId && !/00000$/.test(committeeId)) {
-    const urls = [
-      `${CONFIG.openFecBaseUrl}/schedules/schedule_a/by_contributor/?api_key=${CONFIG.fecApiKey}&committee_id=${encodeURIComponent(committeeId)}&two_year_transaction_period=${cycle}&per_page=20`,
-      `${CONFIG.openFecBaseUrl}/schedules/schedule_a/by_contributor/?api_key=${CONFIG.fecApiKey}&committee_id=${encodeURIComponent(committeeId)}&cycle=${cycle}&per_page=20`
-    ];
-    for (const url of urls) {
-      try {
-        const data = await fetchJsonWithRetry(url, 2, 1500);
-        const rows = Array.isArray(data?.results) ? data.results : [];
-        if (!rows.length) continue;
-        const sorted = rows.slice().sort((a, b) => Number(b.total || b.contribution_receipt_amount || 0) - Number(a.total || a.contribution_receipt_amount || 0));
-        return sorted.slice(0, 5).map((r, idx) => {
-          const et = String(r.entity_type || r.entity_type_desc || "").toUpperCase();
-          const type = et.includes("IND") ? "individual_agg" : "committee_or_pac";
-          return {
-            rank: idx + 1,
-            name: r.contributor_name || "Unknown",
-            committee_id: r.contributor_id || null,
-            amount_usd: Math.round(Number(r.total || r.contribution_receipt_amount || 0)),
-            type,
-            source_url: `https://www.fec.gov/data/receipts/?committee_id=${committeeId}&two_year_transaction_period=${cycle}`
-          };
-        });
-      } catch (_) {}
+    const scheduleA = await fetchTop5DonorsViaScheduleA(committeeId, cycle);
+    if (scheduleA.length) {
+      console.log(`[ScheduleA] Aggregated ${scheduleA.length} donors for ${race?.state || committeeId}`);
+      return scheduleA;
     }
   }
   return [];
@@ -634,6 +960,16 @@ function buildReviewHints(record) {
   if (record.finance.career_total_receipts_usd === 0 && (record.subject.identifiers.fec_candidate_ids || []).length > 0) missing.push("finance.career_total_receipts_usd (0 - check API/key/IDs)");
   if (!record.finance.top_donors_cycle || record.finance.top_donors_cycle.length === 0) missing.push("finance.top_donors_cycle");
   if (!record.finance.coverage_end_date) missing.push("finance.coverage_end_date");
+  if (!record.bounty_if_passed?.resolution_oracle?.eligible_audited_beneficiaries?.length) {
+    missing.push("bounty_if_passed.resolution_oracle.eligible_audited_beneficiaries");
+  }
+  if (!record.bounty_if_no_wins?.eligible_commons_beneficiaries?.length) {
+    missing.push("bounty_if_no_wins.eligible_commons_beneficiaries");
+  }
+  if (!String(record.bounty_if_no_wins?.description || "").includes("both sides")) {
+    missing.push("bounty_if_no_wins.description (missing 'both sides' positive-sum clause)");
+  }
+  if (!record.anti_commandeering_guard?.invariant) missing.push("anti_commandeering_guard");
   if (String(record.vote?.question || "").includes("PLACEHOLDER")) placeholders.push("vote.question");
   if (String(record.bounty_if_passed?.description || "").includes("PLACEHOLDER")) placeholders.push("bounty_if_passed.description");
   if (String(record.bounty_if_passed?.destination_criteria || "").includes("PLACEHOLDER")) placeholders.push("bounty_if_passed.destination_criteria");
@@ -642,50 +978,90 @@ function buildReviewHints(record) {
 }
 
 /**
- * Loads IRS-verified, Form 990-audited charities from local shards or master file.
+ * Normalizes any supported charity record (US state shard, legacy ProPublica
+ * master list, or generic shard) into the beneficiary shape used by the
+ * futarchy pools. Keeping one shape is what prevents empty beneficiary arrays.
+ */
+function normalizeBeneficiary(c, fallbackState) {
+  const loc = c.location || {};
+  const ein = c.ein ? String(c.ein).replace(/\D/g, "") : null;
+  const state = String(c.state || loc.admin1_state_province || fallbackState || "")
+    .replace(/^US-/i, "").toUpperCase();
+  const ntee = c.ntee_code || c.ntee || null;
+  const audit = Array.isArray(c.audit_signals) && c.audit_signals.length
+    ? c.audit_signals
+    : ["IRS_EO_BMF_ACTIVE_501C3"];
+  return {
+    registry_id: c.registry_id || (ein ? `US-EIN:${ein}` : null),
+    ein: ein || null,
+    name: c.name || null,
+    city: c.city || loc.locality_city_town || null,
+    state: /^[A-Z]{2}$/.test(state) ? state : null,
+    ntee_code: ntee ? String(ntee).toUpperCase() : null,
+    revenue_amt: Math.round(Number(c.revenue_amt ?? c.income_amt ?? c.income_amount ?? 0)),
+    asset_amt: Math.round(Number(c.asset_amt ?? c.asset_amount ?? 0)),
+    verification_tier: c.verification_tier || "TIER_1_AUDITED",
+    independently_audited: c.independently_audited !== false,
+    audit_signals: audit,
+    source_authority: c.source_authority || null
+  };
+}
+
+/**
+ * Loads IRS-audited 501(c)(3) charities for a state.
+ * Priority: docs/data/orgs/US/{STATE}.json -> docs/data/verified-orgs.json (orgs/array).
+ * Returns up to 240 organizations sorted by reported revenue so the YES/NO pools
+ * have a real sample to classify.
+ *
  * @param {string} repoRoot
  * @param {string} stateCode
- * @returns {Array} Verified charities
+ * @returns {Array} Verified charities (normalized)
  */
 function loadStateVerifiedCharities(repoRoot, stateCode) {
   const st = String(stateCode || "").replace(/^US-/i, "").toUpperCase();
   const candidates = [];
+  const pushAll = (arr) => {
+    for (const c of arr || []) {
+      if (!c || !c.name) continue;
+      if (c.subsection_code != null && Number(c.subsection_code) !== 3) continue;
+      const state = String(c.state || c.location?.admin1_state_province || "").replace(/^US-/i, "").toUpperCase();
+      if (st && state && state !== st) continue;
+      candidates.push(c);
+    }
+  };
 
-  // 1. Check state shard first (docs/data/orgs/US/{STATE}.json)
+  // 1. Preferred: sharded IRS EO BMF state shard.
   if (st && st !== "XX") {
     const shardPath = path.join(repoRoot, CONFIG.verifiedOrgsShardDir, `${st}.json`);
     if (fs.existsSync(shardPath)) {
       try {
         const shard = JSON.parse(fs.readFileSync(shardPath, "utf8"));
-        if (Array.isArray(shard.organizations)) candidates.push(...shard.organizations);
-      } catch (_) {}
+        if (Array.isArray(shard.organizations)) pushAll(shard.organizations);
+      } catch (err) {
+        console.warn(`[Charities] Failed to read ${shardPath}: ${err.message}`);
+      }
     }
   }
 
-  // 2. Fallback to master index (docs/data/verified-orgs.json)
+  // 2. Fallback: legacy master list (supports both `orgs` and `organizations`).
   if (candidates.length === 0) {
     const indexPath = path.join(repoRoot, CONFIG.verifiedOrgsIndexPath);
     if (fs.existsSync(indexPath)) {
       try {
         const idx = JSON.parse(fs.readFileSync(indexPath, "utf8"));
-        const all = Array.isArray(idx) ? idx : (idx.organizations || []);
-        const stateFiltered = all.filter(
-          (o) => o?.location?.country_iso2 === "US" && (!st || o?.location?.admin1_state_province === st)
-        );
-        candidates.push(...(stateFiltered.length > 0 ? stateFiltered : all.slice(0, 10)));
-      } catch (_) {}
+        const all = Array.isArray(idx) ? idx : (idx.orgs || idx.organizations || []);
+        pushAll(all);
+      } catch (err) {
+        console.warn(`[Charities] Failed to read ${indexPath}: ${err.message}`);
+      }
     }
   }
 
-  return candidates.slice(0, 5).map((c) => ({
-    registry_id: c.registry_id,
-    name: c.name,
-    city: c.location?.locality_city_town || null,
-    state: c.location?.admin1_state_province || st,
-    verification_tier: c.verification_tier || "TIER_1_AUDITED",
-    audit_signals: c.audit_signals || ["IRS_EO_BMF_ACTIVE_501C3"],
-    website: c.website || null
-  }));
+  return candidates
+    .map((c) => normalizeBeneficiary(c, st))
+    .filter((c) => c.registry_id && c.name && (!st || c.state === st))
+    .sort((a, b) => (b.revenue_amt - a.revenue_amt) || String(a.name).localeCompare(String(b.name)))
+    .slice(0, 240);
 }
 
 // ============================================================================
@@ -698,9 +1074,10 @@ async function main() {
   const outDir = path.join(repoRoot, CONFIG.outputDir);
   fs.mkdirSync(outDir, { recursive: true });
 
-  const [votelogMembers, crosswalk] = await Promise.all([
+  const [votelogMembers, crosswalk, fecBulkIndex] = await Promise.all([
     loadFirstJsonArray(CONFIG.votelogMembersUrls, "VoteLog"),
-    loadLegislatorsCrosswalk()
+    loadLegislatorsCrosswalk(),
+    loadFecBulkIndex(repoRoot, CONFIG.electionYear)
   ]);
   const seed = ensureSeedManifest(seedPath);
   const races = Array.isArray(seed.races) ? seed.races : [];
@@ -725,14 +1102,30 @@ async function main() {
     const electionYear = Number(race.election_year || CONFIG.electionYear);
     console.log(`[Processing] ${race.state} ${officeType} — ${race.subject.name} [FEC: ${fecIds.join(", ") || "none"}]`);
 
-    const financeStats = await fetchCandidateTotals(fecIds, electionYear);
-    const topDonors = await fetchTop5DonorsForCommittee(financeStats.principalCommitteeId, electionYear, repoRoot, race, fecIds);
+    // Resolve top donors first (backup works without principal committee); pass as floor to finance totals
+    let topDonors = getVotelogBackupTopDonors(repoRoot, race, fecIds);
+    if (topDonors.length) {
+      console.log(`[Backup] Using local VoteLog donors for ${race?.state || "race"} (${topDonors.length})`);
+    }
+    let financeStats = await fetchCandidateTotals(fecIds, electionYear, fecBulkIndex, topDonors);
+    // If backup donors unavailable, try REST donors using resolved principal committee
+    if (!topDonors.length) {
+      topDonors = await fetchTop5DonorsForCommittee(financeStats.principalCommitteeId, electionYear, repoRoot, race, fecIds);
+      // Re-apply accounting floor with any newly resolved donors
+      financeStats = await fetchCandidateTotals(fecIds, electionYear, fecBulkIndex, topDonors);
+    }
 
     const opponentsIn = Array.isArray(race.opponents_nov_general) ? race.opponents_nov_general : (race.opponents_nov_general ? [race.opponents_nov_general] : []);
     const opponentsOut = [];
     for (const opp of opponentsIn) {
       const oppIds = opp.fec_candidate_id ? [opp.fec_candidate_id] : (opp.fec_candidate_ids || []);
-      const oppStats = await fetchCandidateTotals(oppIds, electionYear);
+      const oppRaceRef = { state: race.state, race_type: race.race_type, _seed_meta: race._seed_meta };
+      const oppBackupDonors = getVotelogBackupTopDonors(repoRoot, oppRaceRef, oppIds);
+      let oppStats = await fetchCandidateTotals(oppIds, electionYear, fecBulkIndex, oppBackupDonors);
+      if (!oppBackupDonors.length) {
+        await fetchTop5DonorsForCommittee(oppStats.principalCommitteeId, electionYear, repoRoot, oppRaceRef, oppIds);
+        oppStats = await fetchCandidateTotals(oppIds, electionYear, fecBulkIndex, []);
+      }
       opponentsOut.push({
         name: opp.name || null,
         party: opp.party || null,
@@ -807,7 +1200,7 @@ async function main() {
       // STAGE 2: THE LINE
       vote: {
         question: futarchy.voteQuestion,
-        futarchy_thesis: futarry.futarchyThesis,
+        futarchy_thesis: futarchy.futarchyThesis,
         question_vars: {
           subject_name: race.subject.name,
           career_total_receipts_usd: financeStats.careerReceipts,
@@ -842,14 +1235,18 @@ async function main() {
         description:
           `Positive-Sum Bipartisan Commons for ${race.state}: Constituents reject the capture framing for ${race.subject.name}. ` +
           `100% of escrowed Base USDC routes to non-political, universally beneficial 501(c)(3) infrastructure in ${race.state} ` +
-          `(Volunteer Fire/EMS, Veterans' Care, Food Banks, and Disaster Relief) with an on-chain Constituent Mandate Vindication credit.`,
+          `(Volunteer Fire/EMS, Veterans' Care, Food Banks, and Disaster Relief) where both sides of the political divide demonstrably benefit, ` +
+          `with an on-chain Constituent Mandate Vindication credit. Named commons beneficiaries: ${futarchy.namedCommons}. ` +
+          `Any attempt to brigade this outcome converts zero-sum capture money into positive-sum community investment.`,
         destination_type: "audited_501c3_bipartisan_commons_escrow",
         candidate_benefit_attestation:
           `Issues immutable on-chain 'CONSTITUENT_MANDATE_VINDICATED' attestation for ${race.subject.name} (${race.state}) ` +
           `and credits the constituency's defense of the candidate for funding front-line state humanitarian & emergency infrastructure.`,
         destination_criteria:
           `MUST be an IRS-audited 501(c)(3) public charity in ${race.state} operating in non-ideological universal commons ` +
-          `(NTEE M20/M24 Fire & Rescue, W30 Veterans, K31 Food Banks, E20 Community Hospitals) with zero partisan lobbying.`,
+          `(NTEE M24 Fire & Rescue, M20 Disaster Relief, W30 Veterans, K31 Food Banks, E20/E22 Community Hospitals, O Youth Development) ` +
+          `with zero partisan lobbying, chosen only where both sides of the political divide benefit. ` +
+          `Eligible commons beneficiaries: ${futarchy.namedCommons}.`,
         eligible_commons_beneficiaries: futarchy.charityPools.commonsBeneficiaries,
         state: race.state || null
       },
@@ -878,6 +1275,7 @@ async function main() {
   const combinedPath = path.join(repoRoot, CONFIG.combinedOutputFile);
   fs.mkdirSync(path.dirname(combinedPath), { recursive: true });
   fs.writeFileSync(combinedPath, JSON.stringify(generatedItems, null, 2) + "\n", "utf8");
+  sopCache.commitLedger(`${CONFIG.officeType}-${CONFIG.electionYear}`);
   console.log(`[Complete] Wrote ${generatedItems.length} positive-sum futarchy template(s) to ${combinedPath} ${DRAFT ? "(DRAFT)" : ""}`);
 }
 

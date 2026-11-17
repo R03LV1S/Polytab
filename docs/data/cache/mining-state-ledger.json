@@ -1,0 +1,424 @@
+{
+  "$sop_instructions": {
+    "DO_NOT_REMOVE": "Hard-encoded machine-readable SOP header for Polytab incremental data mining.",
+    "schema_version": "1.0.0",
+    "ordering_invariant": "lifo_delta_log[0] is ALWAYS the newest mining event (prepended via unshift). Never append to bottom.",
+    "security_invariant": "All URLs must have api_key query parameters redacted prior to indexing or logging.",
+    "ttl_policy": "Historical legislators: 720h | OpenFEC totals/committees/donors: 72h | VoteLog & Current legislators: 24h"
+  },
+  "last_updated_utc": "2026-11-17T01:06:16.926Z",
+  "lifo_delta_log": [
+    {
+      "timestamp_utc": "2026-11-17T00:58:43.976Z",
+      "action": "MINED_NEW",
+      "endpoint": "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00827964&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4051220261510071984&last_contribution_receipt_amount=50.00",
+      "payload_sha256": "4f18d0f25ddd1d5c"
+    },
+    {
+      "timestamp_utc": "2026-11-17T00:58:43.492Z",
+      "action": "MINED_NEW",
+      "endpoint": "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00827964&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4030620261411492287&last_contribution_receipt_amount=95.00",
+      "payload_sha256": "3fbf2f7fe13d5425"
+    },
+    {
+      "timestamp_utc": "2026-11-17T00:58:42.568Z",
+      "action": "MINED_NEW",
+      "endpoint": "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00827964&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4123020251299767648&last_contribution_receipt_amount=100.00",
+      "payload_sha256": "1068f45b0c7a9f1e"
+    },
+    {
+      "timestamp_utc": "2026-11-17T00:58:42.015Z",
+      "action": "MINED_NEW",
+      "endpoint": "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00827964&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4071520251208479553&last_contribution_receipt_amount=350.00",
+      "payload_sha256": "246668a2a34cd5ff"
+    },
+    {
+      "timestamp_utc": "2026-11-17T00:58:40.919Z",
+      "action": "MINED_NEW",
+      "endpoint": "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00827964&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026",
+      "payload_sha256": "619778d1a1c8f455"
+    },
+    {
+      "timestamp_utc": "2026-11-17T00:58:40.572Z",
+      "action": "MINED_NEW",
+      "endpoint": "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00238907&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4042420251186606514&last_contribution_receipt_amount=3500.00",
+      "payload_sha256": "b9bf5aeeaa97f065"
+    },
+    {
+      "timestamp_utc": "2026-11-17T00:58:40.039Z",
+      "action": "MINED_NEW",
+      "endpoint": "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00238907&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4051820261510596721&last_contribution_receipt_amount=3500.00",
+      "payload_sha256": "dbba7a9ad8b3e6c7"
+    },
+    {
+      "timestamp_utc": "2026-11-17T00:58:39.573Z",
+      "action": "MINED_NEW",
+      "endpoint": "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00238907&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4082520261584701217&last_contribution_receipt_amount=3500.00",
+      "payload_sha256": "a757b92e6684e550"
+    },
+    {
+      "timestamp_utc": "2026-11-17T00:58:39.034Z",
+      "action": "MINED_NEW",
+      "endpoint": "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00238907&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4030220261360518761&last_contribution_receipt_amount=5000.00",
+      "payload_sha256": "85f7f811a4aafd59"
+    },
+    {
+      "timestamp_utc": "2026-11-17T00:58:38.318Z",
+      "action": "MINED_NEW",
+      "endpoint": "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00238907&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026",
+      "payload_sha256": "5d99e8aaa684f8f4"
+    },
+    {
+      "timestamp_utc": "2026-11-17T00:58:37.974Z",
+      "action": "MINED_NEW",
+      "endpoint": "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00941559&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4073020261539816622&last_contribution_receipt_amount=250.00",
+      "payload_sha256": "033444d016637ec0"
+    },
+    {
+      "timestamp_utc": "2026-11-17T00:58:37.637Z",
+      "action": "MINED_NEW",
+      "endpoint": "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00941559&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026",
+      "payload_sha256": "c4ac4b694cea06fb"
+    },
+    {
+      "timestamp_utc": "2026-11-17T00:58:32.755Z",
+      "action": "MINED_NEW",
+      "endpoint": "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00437277&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4031020261420617332&last_contribution_receipt_amount=3500.00",
+      "payload_sha256": "41a7b008ada81f99"
+    },
+    {
+      "timestamp_utc": "2026-11-17T00:58:32.340Z",
+      "action": "MINED_NEW",
+      "endpoint": "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00437277&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4043020261485211369&last_contribution_receipt_amount=3500.00",
+      "payload_sha256": "7b7b3288f19f30ec"
+    },
+    {
+      "timestamp_utc": "2026-11-17T00:58:31.960Z",
+      "action": "MINED_NEW",
+      "endpoint": "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00437277&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4080620261570343111&last_contribution_receipt_amount=3500.00",
+      "payload_sha256": "abe6c604f9a10b00"
+    },
+    {
+      "timestamp_utc": "2026-11-17T00:58:27.814Z",
+      "action": "MINED_NEW",
+      "endpoint": "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00437277&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4031020261420613512&last_contribution_receipt_amount=4950.00",
+      "payload_sha256": "99bdc59fd6176380"
+    },
+    {
+      "timestamp_utc": "2026-11-17T00:58:21.903Z",
+      "action": "MINED_NEW",
+      "endpoint": "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00437277&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026",
+      "payload_sha256": "3b9c96c135bea7d9"
+    },
+    {
+      "timestamp_utc": "2026-11-17T00:58:20.870Z",
+      "action": "MINED_NEW",
+      "endpoint": "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00903252&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4031220261421106920&last_contribution_receipt_amount=3500.00",
+      "payload_sha256": "05131996893a0129"
+    },
+    {
+      "timestamp_utc": "2026-11-17T00:58:19.172Z",
+      "action": "MINED_NEW",
+      "endpoint": "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00903252&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4073020261539933656&last_contribution_receipt_amount=3500.00",
+      "payload_sha256": "433f0a420a002da3"
+    },
+    {
+      "timestamp_utc": "2026-11-17T00:58:18.831Z",
+      "action": "MINED_NEW",
+      "endpoint": "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00903252&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4073120261540034089&last_contribution_receipt_amount=3500.00",
+      "payload_sha256": "617fa121778c4af0"
+    },
+    {
+      "timestamp_utc": "2026-11-17T00:58:17.244Z",
+      "action": "MINED_NEW",
+      "endpoint": "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00903252&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4123120251299830063&last_contribution_receipt_amount=3500.00",
+      "payload_sha256": "70e6e4decf8a39b8"
+    },
+    {
+      "timestamp_utc": "2026-11-17T00:58:15.904Z",
+      "action": "MINED_NEW",
+      "endpoint": "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00903252&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026",
+      "payload_sha256": "913c4a3672fd4b96"
+    },
+    {
+      "timestamp_utc": "2026-11-17T00:58:15.718Z",
+      "action": "MINED_NEW",
+      "endpoint": "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00917120&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4060820261520548300&last_contribution_receipt_amount=75.00",
+      "payload_sha256": "9b97e948ff6c9dbf"
+    },
+    {
+      "timestamp_utc": "2026-11-17T00:58:15.391Z",
+      "action": "MINED_NEW",
+      "endpoint": "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00917120&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4060820261520548336&last_contribution_receipt_amount=260.25",
+      "payload_sha256": "ddf08818667b106c"
+    },
+    {
+      "timestamp_utc": "2026-11-17T00:58:15.108Z",
+      "action": "MINED_NEW",
+      "endpoint": "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00917120&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4062320261522298416&last_contribution_receipt_amount=520.51",
+      "payload_sha256": "612ff9882357281c"
+    },
+    {
+      "timestamp_utc": "2026-11-17T00:58:14.751Z",
+      "action": "MINED_NEW",
+      "endpoint": "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00917120&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4060820261520548437&last_contribution_receipt_amount=1500.00",
+      "payload_sha256": "fe7767e655481589"
+    },
+    {
+      "timestamp_utc": "2026-11-17T00:58:13.584Z",
+      "action": "MINED_NEW",
+      "endpoint": "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00917120&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026",
+      "payload_sha256": "1eb346189e6d9b9d"
+    },
+    {
+      "timestamp_utc": "2026-11-17T00:30:37.532Z",
+      "action": "MINED_NEW",
+      "endpoint": "https://api.open.fec.gov/v1/candidate/S6MN00556/committees/?api_key=REDACTED&cycle=2026&designation=A&per_page=20",
+      "payload_sha256": "48cdc49d29f92db2"
+    },
+    {
+      "timestamp_utc": "2026-11-17T00:30:28.386Z",
+      "action": "MINED_NEW",
+      "endpoint": "https://unitedstates.github.io/congress-legislators/legislators-historical.json",
+      "payload_sha256": "9593df0af8cd0a1f"
+    },
+    {
+      "timestamp_utc": "2026-11-17T00:30:28.094Z",
+      "action": "MINED_NEW",
+      "endpoint": "https://unitedstates.github.io/congress-legislators/legislators-current.json",
+      "payload_sha256": "050122eb6b793a83"
+    },
+    {
+      "timestamp_utc": "2026-11-17T00:30:28.071Z",
+      "action": "MINED_NEW",
+      "endpoint": "https://votelog.org/data/members-all.json",
+      "payload_sha256": "39a73d88abc211ec"
+    }
+  ],
+  "endpoints": {
+    "https://votelog.org/data/members-all.json": {
+      "mined_at_utc": "2026-11-17T00:30:28.071Z",
+      "expires_at_utc": "2026-11-18T00:30:28.071Z",
+      "payload_sha256": "39a73d88abc211ec",
+      "non_empty": true,
+      "blob": "docs/data/cache/blobs/db17734bd7a13940570f9294.json"
+    },
+    "https://unitedstates.github.io/congress-legislators/legislators-current.json": {
+      "mined_at_utc": "2026-11-17T00:30:28.094Z",
+      "expires_at_utc": "2026-11-18T00:30:28.094Z",
+      "payload_sha256": "050122eb6b793a83",
+      "non_empty": true,
+      "blob": "docs/data/cache/blobs/cf60e9e3d7f8060bfea8e8db.json"
+    },
+    "https://unitedstates.github.io/congress-legislators/legislators-historical.json": {
+      "mined_at_utc": "2026-11-17T00:30:28.386Z",
+      "expires_at_utc": "2026-12-17T00:30:28.386Z",
+      "payload_sha256": "9593df0af8cd0a1f",
+      "non_empty": true,
+      "blob": "docs/data/cache/blobs/383b44a38564523cbde75b2e.json"
+    },
+    "https://api.open.fec.gov/v1/candidate/S6MN00556/committees/?api_key=REDACTED&cycle=2026&designation=P&per_page=20": {
+      "mined_at_utc": "2026-11-17T01:06:16.144Z",
+      "expires_at_utc": "2026-11-17T07:06:16.144Z",
+      "payload_sha256": "f7c5762009004c0b",
+      "non_empty": false,
+      "blob": "docs/data/cache/blobs/8689839030555d081961bbc9.json"
+    },
+    "https://api.open.fec.gov/v1/candidate/S6MN00556/committees/?api_key=REDACTED&cycle=2026&designation=A&per_page=20": {
+      "mined_at_utc": "2026-11-17T00:30:37.532Z",
+      "expires_at_utc": "2026-11-20T00:30:37.532Z",
+      "payload_sha256": "48cdc49d29f92db2",
+      "non_empty": true,
+      "blob": "docs/data/cache/blobs/b06e5ca4e49f20cd1ec2884f.json"
+    },
+    "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00917120&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026": {
+      "mined_at_utc": "2026-11-17T00:58:13.584Z",
+      "expires_at_utc": "2026-11-20T00:58:13.584Z",
+      "payload_sha256": "1eb346189e6d9b9d",
+      "non_empty": true,
+      "blob": "docs/data/cache/blobs/bc8a018e6d03260638b1413c.json"
+    },
+    "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00917120&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4060820261520548437&last_contribution_receipt_amount=1500.00": {
+      "mined_at_utc": "2026-11-17T00:58:14.751Z",
+      "expires_at_utc": "2026-11-20T00:58:14.751Z",
+      "payload_sha256": "fe7767e655481589",
+      "non_empty": true,
+      "blob": "docs/data/cache/blobs/49e2a3700c9316555c6a1351.json"
+    },
+    "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00917120&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4062320261522298416&last_contribution_receipt_amount=520.51": {
+      "mined_at_utc": "2026-11-17T00:58:15.108Z",
+      "expires_at_utc": "2026-11-20T00:58:15.108Z",
+      "payload_sha256": "612ff9882357281c",
+      "non_empty": true,
+      "blob": "docs/data/cache/blobs/5f6063db2f964bac4f90a73a.json"
+    },
+    "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00917120&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4060820261520548336&last_contribution_receipt_amount=260.25": {
+      "mined_at_utc": "2026-11-17T00:58:15.391Z",
+      "expires_at_utc": "2026-11-20T00:58:15.391Z",
+      "payload_sha256": "ddf08818667b106c",
+      "non_empty": true,
+      "blob": "docs/data/cache/blobs/5dea7bfbec014a01fa901f7a.json"
+    },
+    "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00917120&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4060820261520548300&last_contribution_receipt_amount=75.00": {
+      "mined_at_utc": "2026-11-17T00:58:15.718Z",
+      "expires_at_utc": "2026-11-20T00:58:15.718Z",
+      "payload_sha256": "9b97e948ff6c9dbf",
+      "non_empty": true,
+      "blob": "docs/data/cache/blobs/21e8ba93baa3f6abbe687483.json"
+    },
+    "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00903252&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026": {
+      "mined_at_utc": "2026-11-17T00:58:15.904Z",
+      "expires_at_utc": "2026-11-20T00:58:15.904Z",
+      "payload_sha256": "913c4a3672fd4b96",
+      "non_empty": true,
+      "blob": "docs/data/cache/blobs/0ad1db13acb9726c11a68f27.json"
+    },
+    "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00903252&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4123120251299830063&last_contribution_receipt_amount=3500.00": {
+      "mined_at_utc": "2026-11-17T00:58:17.244Z",
+      "expires_at_utc": "2026-11-20T00:58:17.244Z",
+      "payload_sha256": "70e6e4decf8a39b8",
+      "non_empty": true,
+      "blob": "docs/data/cache/blobs/8b78449981cc10ad982e79c9.json"
+    },
+    "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00903252&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4073120261540034089&last_contribution_receipt_amount=3500.00": {
+      "mined_at_utc": "2026-11-17T00:58:18.831Z",
+      "expires_at_utc": "2026-11-20T00:58:18.831Z",
+      "payload_sha256": "617fa121778c4af0",
+      "non_empty": true,
+      "blob": "docs/data/cache/blobs/ba9fd82eab83f4892051c9ed.json"
+    },
+    "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00903252&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4073020261539933656&last_contribution_receipt_amount=3500.00": {
+      "mined_at_utc": "2026-11-17T00:58:19.172Z",
+      "expires_at_utc": "2026-11-20T00:58:19.172Z",
+      "payload_sha256": "433f0a420a002da3",
+      "non_empty": true,
+      "blob": "docs/data/cache/blobs/d6448881c43b1396fe8a23e2.json"
+    },
+    "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00903252&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4031220261421106920&last_contribution_receipt_amount=3500.00": {
+      "mined_at_utc": "2026-11-17T00:58:20.870Z",
+      "expires_at_utc": "2026-11-20T00:58:20.870Z",
+      "payload_sha256": "05131996893a0129",
+      "non_empty": true,
+      "blob": "docs/data/cache/blobs/93ab821f97ac8135e14f5cfc.json"
+    },
+    "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00437277&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026": {
+      "mined_at_utc": "2026-11-17T00:58:21.903Z",
+      "expires_at_utc": "2026-11-20T00:58:21.903Z",
+      "payload_sha256": "3b9c96c135bea7d9",
+      "non_empty": true,
+      "blob": "docs/data/cache/blobs/8f483f406e130e57473a8f37.json"
+    },
+    "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00437277&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4031020261420613512&last_contribution_receipt_amount=4950.00": {
+      "mined_at_utc": "2026-11-17T00:58:27.814Z",
+      "expires_at_utc": "2026-11-20T00:58:27.814Z",
+      "payload_sha256": "99bdc59fd6176380",
+      "non_empty": true,
+      "blob": "docs/data/cache/blobs/d7d9795a76a6b04853a92a2d.json"
+    },
+    "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00437277&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4080620261570343111&last_contribution_receipt_amount=3500.00": {
+      "mined_at_utc": "2026-11-17T00:58:31.960Z",
+      "expires_at_utc": "2026-11-20T00:58:31.960Z",
+      "payload_sha256": "abe6c604f9a10b00",
+      "non_empty": true,
+      "blob": "docs/data/cache/blobs/f16f9b2c2b4d81fedaa48740.json"
+    },
+    "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00437277&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4043020261485211369&last_contribution_receipt_amount=3500.00": {
+      "mined_at_utc": "2026-11-17T00:58:32.340Z",
+      "expires_at_utc": "2026-11-20T00:58:32.340Z",
+      "payload_sha256": "7b7b3288f19f30ec",
+      "non_empty": true,
+      "blob": "docs/data/cache/blobs/2f56bc97a809cb5494f973d1.json"
+    },
+    "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00437277&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4031020261420617332&last_contribution_receipt_amount=3500.00": {
+      "mined_at_utc": "2026-11-17T00:58:32.755Z",
+      "expires_at_utc": "2026-11-20T00:58:32.755Z",
+      "payload_sha256": "41a7b008ada81f99",
+      "non_empty": true,
+      "blob": "docs/data/cache/blobs/a6d8b860a6c117e3c1ee40cf.json"
+    },
+    "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00941559&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026": {
+      "mined_at_utc": "2026-11-17T00:58:37.637Z",
+      "expires_at_utc": "2026-11-20T00:58:37.637Z",
+      "payload_sha256": "c4ac4b694cea06fb",
+      "non_empty": true,
+      "blob": "docs/data/cache/blobs/408bda42828172a9bf665cd6.json"
+    },
+    "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00941559&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4073020261539816622&last_contribution_receipt_amount=250.00": {
+      "mined_at_utc": "2026-11-17T00:58:37.974Z",
+      "expires_at_utc": "2026-11-20T00:58:37.974Z",
+      "payload_sha256": "033444d016637ec0",
+      "non_empty": true,
+      "blob": "docs/data/cache/blobs/6632f859b16287412fdbb329.json"
+    },
+    "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00238907&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026": {
+      "mined_at_utc": "2026-11-17T00:58:38.318Z",
+      "expires_at_utc": "2026-11-20T00:58:38.318Z",
+      "payload_sha256": "5d99e8aaa684f8f4",
+      "non_empty": true,
+      "blob": "docs/data/cache/blobs/fad51d4472dc8ef9a02e1b56.json"
+    },
+    "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00238907&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4030220261360518761&last_contribution_receipt_amount=5000.00": {
+      "mined_at_utc": "2026-11-17T00:58:39.034Z",
+      "expires_at_utc": "2026-11-20T00:58:39.034Z",
+      "payload_sha256": "85f7f811a4aafd59",
+      "non_empty": true,
+      "blob": "docs/data/cache/blobs/37425bf989963bc611fcfbf4.json"
+    },
+    "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00238907&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4082520261584701217&last_contribution_receipt_amount=3500.00": {
+      "mined_at_utc": "2026-11-17T00:58:39.573Z",
+      "expires_at_utc": "2026-11-20T00:58:39.573Z",
+      "payload_sha256": "a757b92e6684e550",
+      "non_empty": true,
+      "blob": "docs/data/cache/blobs/f1ed7ec9b0eb4014dc6f4631.json"
+    },
+    "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00238907&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4051820261510596721&last_contribution_receipt_amount=3500.00": {
+      "mined_at_utc": "2026-11-17T00:58:40.039Z",
+      "expires_at_utc": "2026-11-20T00:58:40.039Z",
+      "payload_sha256": "dbba7a9ad8b3e6c7",
+      "non_empty": true,
+      "blob": "docs/data/cache/blobs/1adbf3f60cff9f408c1f233e.json"
+    },
+    "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00238907&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4042420251186606514&last_contribution_receipt_amount=3500.00": {
+      "mined_at_utc": "2026-11-17T00:58:40.572Z",
+      "expires_at_utc": "2026-11-20T00:58:40.572Z",
+      "payload_sha256": "b9bf5aeeaa97f065",
+      "non_empty": true,
+      "blob": "docs/data/cache/blobs/173aa77bf521f5ead29d6c4a.json"
+    },
+    "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00827964&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026": {
+      "mined_at_utc": "2026-11-17T00:58:40.919Z",
+      "expires_at_utc": "2026-11-20T00:58:40.919Z",
+      "payload_sha256": "619778d1a1c8f455",
+      "non_empty": true,
+      "blob": "docs/data/cache/blobs/623e16ae80751e1111cd3eac.json"
+    },
+    "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00827964&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4071520251208479553&last_contribution_receipt_amount=350.00": {
+      "mined_at_utc": "2026-11-17T00:58:42.015Z",
+      "expires_at_utc": "2026-11-20T00:58:42.015Z",
+      "payload_sha256": "246668a2a34cd5ff",
+      "non_empty": true,
+      "blob": "docs/data/cache/blobs/e27145ad419297e84d9914b5.json"
+    },
+    "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00827964&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4123020251299767648&last_contribution_receipt_amount=100.00": {
+      "mined_at_utc": "2026-11-17T00:58:42.568Z",
+      "expires_at_utc": "2026-11-20T00:58:42.568Z",
+      "payload_sha256": "1068f45b0c7a9f1e",
+      "non_empty": true,
+      "blob": "docs/data/cache/blobs/dc287be85cd8e379969062c7.json"
+    },
+    "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00827964&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4030620261411492287&last_contribution_receipt_amount=95.00": {
+      "mined_at_utc": "2026-11-17T00:58:43.492Z",
+      "expires_at_utc": "2026-11-20T00:58:43.492Z",
+      "payload_sha256": "3fbf2f7fe13d5425",
+      "non_empty": true,
+      "blob": "docs/data/cache/blobs/3fe2cad761d5bd434116f783.json"
+    },
+    "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=REDACTED&committee_id=C00827964&per_page=100&sort=-contribution_receipt_amount&two_year_transaction_period=2026&last_index=4051220261510071984&last_contribution_receipt_amount=50.00": {
+      "mined_at_utc": "2026-11-17T00:58:43.976Z",
+      "expires_at_utc": "2026-11-20T00:58:43.976Z",
+      "payload_sha256": "4f18d0f25ddd1d5c",
+      "non_empty": true,
+      "blob": "docs/data/cache/blobs/1fb3d15fbd15be31b706f02f.json"
+    }
+  }
+}

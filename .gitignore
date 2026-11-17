@@ -1,3 +1,8 @@
 node_modules/
 out/
 .env
+.fec_api_key
+docs/data/cache/blobs/
+docs/data/cache/fec-bulk-index.json
+docs/data/cache/irs-revoked-eins.txt
+docs/data/beta/votes-2026/*.draft.json
