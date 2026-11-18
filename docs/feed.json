@@ -807042,6 +807042,606 @@
         "socials": {},
         "parentCategory": "Voting"
       }
+    },
+    {
+      "id": "93005",
+      "title": "H. Res. 1665: Providing for consideration of H.R. 3495 and H.R. 5267 (rule)",
+      "content_html": "<p><strong>H. Res. 1665 (119th)</strong> — Providing for consideration of H.R. 3495 and H.R. 5267 (rule)</p><p>Sets the terms of House debate for H.R. 3495 (Direct Seller and Real Estate Agent Harmonization Act) and H.R. 5267 (American Franchise Act), including amendment and procedural rules for floor consideration.</p><p><strong>Status:</strong> Rule reported/updated Nov 18, 2026; scheduled for House floor consideration (week of Nov 16, 2026)</p><p><strong>Window:</strong> Scheduled/updated Nov 16-18, 2026 (House floor week of Nov 16); vote possible in Nov 16-Dec 31 window</p><p><strong>Community vote (litmus test):</strong> [LITMUS TEST] H. Res. 1665 (119th): \"Providing for consideration of H.R. 3495 and H.R. 5267 (rule)\" — Should this measure pass? Cast a community vote (without middlemen) to compare community will with how representatives vote.</p><p><strong>Campaign:</strong> Open-ended; timer begins once $10,000 is funded. Honest-zero (funded $0.00, 0 votes) until real on-chain activity is recorded.</p><p><strong>Bounty beneficiaries:</strong> Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).</p><p><strong>Source:</strong> <a href=\"https://docs.house.gov/floor/\">https://docs.house.gov/floor/</a></p>",
+      "url": "https://polytab.store/#93005",
+      "date_published": "2026-11-18T00:00:00Z",
+      "_polytab": {
+        "category": "Policy & Governance Votes",
+        "parentCategory": "Voting",
+        "organization": "Polytab Community — Policy & Governance Votes",
+        "location": "United States Capitol, Washington, DC (federal measure)",
+        "summary": "H. Res. 1665: Sets the terms of House debate for H.R. 3495 (Direct Seller and Real Estate Agent Harmonization Act) and H.R. 5267 (American Franchise Act), including amendment and procedural rules for floor consideration.",
+        "plainSummary": "Cause: Sets the terms of House debate for H.R. 3495 (Direct Seller and Real Estate Agent Harmonization Act) and H.R. 5267 (American Franchise Act), including amendment and procedural rules for floor consideration.\nResolution: Community members vote Yes/No/Abstain on H. Res. 1665 as a middleman-free litmus test, then compare results with official House/Senate representative votes.\nFunding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).\nBeneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).\nWindow/Status: Scheduled/updated Nov 16-18, 2026 (House floor week of Nov 16); vote possible in Nov 16-Dec 31 window. Status: Rule reported/updated Nov 18, 2026; scheduled for House floor consideration (week of Nov 16, 2026)\nProof/Sources: https://docs.house.gov/floor/\nIncentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 10000,
+        "campaignType": "open_ended",
+        "fundingActivationUSD": 10000,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "status": "Active",
+        "lat": 38.8899,
+        "lng": -77.0091,
+        "website": "https://docs.house.gov/floor/",
+        "socials": {},
+        "legislation": {
+          "congress": 119,
+          "bill_type": "house_resolution",
+          "number": 1665,
+          "display_id": "H. Res. 1665",
+          "title": "Providing for consideration of H.R. 3495 and H.R. 5267 (rule)",
+          "status": "Rule reported/updated Nov 18, 2026; scheduled for House floor consideration (week of Nov 16, 2026)",
+          "window": "Scheduled/updated Nov 16-18, 2026 (House floor week of Nov 16); vote possible in Nov 16-Dec 31 window",
+          "source_url": "https://docs.house.gov/floor/"
+        },
+        "litmusTest": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (middleman-free).",
+          "representative_votes": {
+            "house": null,
+            "senate": null,
+            "roll_calls": []
+          }
+        },
+        "bounty": {
+          "beneficiary_scope": "national",
+          "eligible_beneficiaries": [],
+          "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification."
+        }
+      }
+    },
+    {
+      "id": "93006",
+      "title": "H.R. 3495: Direct Seller and Real Estate Agent Harmonization Act",
+      "content_html": "<p><strong>H.R. 3495 (119th)</strong> — Direct Seller and Real Estate Agent Harmonization Act</p><p>Amends the Fair Labor Standards Act to clarify employee/independent-contractor treatment for direct sellers and real estate agents, affecting labor classification and related protections.</p><p><strong>Status:</strong> Scheduled for House floor consideration pursuant to rule (week of Nov 16, 2026)</p><p><strong>Window:</strong> House floor consideration scheduled week of Nov 16, 2026; vote expected in Nov 16-Dec 31 window</p><p><strong>Community vote (litmus test):</strong> [LITMUS TEST] H.R. 3495 (119th): \"Direct Seller and Real Estate Agent Harmonization Act\" — Should this measure pass? Cast a community vote (without middlemen) to compare community will with how representatives vote.</p><p><strong>Campaign:</strong> Open-ended; timer begins once $10,000 is funded. Honest-zero (funded $0.00, 0 votes) until real on-chain activity is recorded.</p><p><strong>Bounty beneficiaries:</strong> Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).</p><p><strong>Source:</strong> <a href=\"https://docs.house.gov/floor/\">https://docs.house.gov/floor/</a></p>",
+      "url": "https://polytab.store/#93006",
+      "date_published": "2026-11-18T00:00:00Z",
+      "_polytab": {
+        "category": "Policy & Governance Votes",
+        "parentCategory": "Voting",
+        "organization": "Polytab Community — Policy & Governance Votes",
+        "location": "United States Capitol, Washington, DC (federal measure)",
+        "summary": "H.R. 3495: Amends the Fair Labor Standards Act to clarify employee/independent-contractor treatment for direct sellers and real estate agents, affecting labor classification and related protections.",
+        "plainSummary": "Cause: Amends the Fair Labor Standards Act to clarify employee/independent-contractor treatment for direct sellers and real estate agents, affecting labor classification and related protections.\nResolution: Community members vote Yes/No/Abstain on H.R. 3495 as a middleman-free litmus test, then compare results with official House/Senate representative votes.\nFunding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).\nBeneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).\nWindow/Status: House floor consideration scheduled week of Nov 16, 2026; vote expected in Nov 16-Dec 31 window. Status: Scheduled for House floor consideration pursuant to rule (week of Nov 16, 2026)\nProof/Sources: https://docs.house.gov/floor/\nIncentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 10000,
+        "campaignType": "open_ended",
+        "fundingActivationUSD": 10000,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "status": "Active",
+        "lat": 38.8899,
+        "lng": -77.0091,
+        "website": "https://docs.house.gov/floor/",
+        "socials": {},
+        "legislation": {
+          "congress": 119,
+          "bill_type": "house_bill",
+          "number": 3495,
+          "display_id": "H.R. 3495",
+          "title": "Direct Seller and Real Estate Agent Harmonization Act",
+          "status": "Scheduled for House floor consideration pursuant to rule (week of Nov 16, 2026)",
+          "window": "House floor consideration scheduled week of Nov 16, 2026; vote expected in Nov 16-Dec 31 window",
+          "source_url": "https://docs.house.gov/floor/"
+        },
+        "litmusTest": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (middleman-free).",
+          "representative_votes": {
+            "house": null,
+            "senate": null,
+            "roll_calls": []
+          }
+        },
+        "bounty": {
+          "beneficiary_scope": "national",
+          "eligible_beneficiaries": [],
+          "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification."
+        }
+      }
+    },
+    {
+      "id": "93007",
+      "title": "H.R. 5267: American Franchise Act",
+      "content_html": "<p><strong>H.R. 5267 (119th)</strong> — American Franchise Act</p><p>Defines \"joint employer\" in franchise relationships under federal labor and employment laws, aiming to preserve the franchise business model by limiting when franchisors are treated as joint employers.</p><p><strong>Status:</strong> Scheduled for House floor consideration pursuant to rule (week of Nov 16, 2026)</p><p><strong>Window:</strong> House floor consideration scheduled week of Nov 16, 2026; vote expected in Nov 16-Dec 31 window</p><p><strong>Community vote (litmus test):</strong> [LITMUS TEST] H.R. 5267 (119th): \"American Franchise Act\" — Should this measure pass? Cast a community vote (without middlemen) to compare community will with how representatives vote.</p><p><strong>Campaign:</strong> Open-ended; timer begins once $10,000 is funded. Honest-zero (funded $0.00, 0 votes) until real on-chain activity is recorded.</p><p><strong>Bounty beneficiaries:</strong> Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).</p><p><strong>Source:</strong> <a href=\"https://docs.house.gov/floor/\">https://docs.house.gov/floor/</a></p>",
+      "url": "https://polytab.store/#93007",
+      "date_published": "2026-11-18T00:00:00Z",
+      "_polytab": {
+        "category": "Policy & Governance Votes",
+        "parentCategory": "Voting",
+        "organization": "Polytab Community — Policy & Governance Votes",
+        "location": "United States Capitol, Washington, DC (federal measure)",
+        "summary": "H.R. 5267: Defines \"joint employer\" in franchise relationships under federal labor and employment laws, aiming to preserve the franchise business model by limiting when franchisors are treated as joint employers.",
+        "plainSummary": "Cause: Defines \"joint employer\" in franchise relationships under federal labor and employment laws, aiming to preserve the franchise business model by limiting when franchisors are treated as joint employers.\nResolution: Community members vote Yes/No/Abstain on H.R. 5267 as a middleman-free litmus test, then compare results with official House/Senate representative votes.\nFunding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).\nBeneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).\nWindow/Status: House floor consideration scheduled week of Nov 16, 2026; vote expected in Nov 16-Dec 31 window. Status: Scheduled for House floor consideration pursuant to rule (week of Nov 16, 2026)\nProof/Sources: https://docs.house.gov/floor/\nIncentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 10000,
+        "campaignType": "open_ended",
+        "fundingActivationUSD": 10000,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "status": "Active",
+        "lat": 38.8899,
+        "lng": -77.0091,
+        "website": "https://docs.house.gov/floor/",
+        "socials": {},
+        "legislation": {
+          "congress": 119,
+          "bill_type": "house_bill",
+          "number": 5267,
+          "display_id": "H.R. 5267",
+          "title": "American Franchise Act",
+          "status": "Scheduled for House floor consideration pursuant to rule (week of Nov 16, 2026)",
+          "window": "House floor consideration scheduled week of Nov 16, 2026; vote expected in Nov 16-Dec 31 window",
+          "source_url": "https://docs.house.gov/floor/"
+        },
+        "litmusTest": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (middleman-free).",
+          "representative_votes": {
+            "house": null,
+            "senate": null,
+            "roll_calls": []
+          }
+        },
+        "bounty": {
+          "beneficiary_scope": "national",
+          "eligible_beneficiaries": [],
+          "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification."
+        }
+      }
+    },
+    {
+      "id": "93008",
+      "title": "H.R. 9640: Earth MRI Reauthorization Act",
+      "content_html": "<p><strong>H.R. 9640 (119th)</strong> — Earth MRI Reauthorization Act</p><p>Reauthorizes the Earth Mapping Resources Initiative (Earth MRI) to support geologic mapping and assessment of critical mineral resources.</p><p><strong>Status:</strong> Passed House (Roll Call 326, Nov 18, 2026, 396-14) under suspension of the rules, as amended</p><p><strong>Window:</strong> House vote held Nov 18, 2026 (within Nov 16-Dec 31 window); subsequent Senate action possible</p><p><strong>Community vote (litmus test):</strong> [LITMUS TEST] H.R. 9640 (119th): \"Earth MRI Reauthorization Act\" — Should this measure pass? Cast a community vote (without middlemen) to compare community will with how representatives vote.</p><p><strong>Campaign:</strong> Open-ended; timer begins once $10,000 is funded. Honest-zero (funded $0.00, 0 votes) until real on-chain activity is recorded.</p><p><strong>Bounty beneficiaries:</strong> Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).</p><p><strong>Source:</strong> <a href=\"https://clerk.house.gov/Votes/2026326\">https://clerk.house.gov/Votes/2026326</a></p>",
+      "url": "https://polytab.store/#93008",
+      "date_published": "2026-11-18T00:00:00Z",
+      "_polytab": {
+        "category": "Policy & Governance Votes",
+        "parentCategory": "Voting",
+        "organization": "Polytab Community — Policy & Governance Votes",
+        "location": "United States Capitol, Washington, DC (federal measure)",
+        "summary": "H.R. 9640: Reauthorizes the Earth Mapping Resources Initiative (Earth MRI) to support geologic mapping and assessment of critical mineral resources.",
+        "plainSummary": "Cause: Reauthorizes the Earth Mapping Resources Initiative (Earth MRI) to support geologic mapping and assessment of critical mineral resources.\nResolution: Community members vote Yes/No/Abstain on H.R. 9640 as a middleman-free litmus test, then compare results with official House/Senate representative votes.\nFunding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).\nBeneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).\nWindow/Status: House vote held Nov 18, 2026 (within Nov 16-Dec 31 window); subsequent Senate action possible. Status: Passed House (Roll Call 326, Nov 18, 2026, 396-14) under suspension of the rules, as amended\nProof/Sources: https://clerk.house.gov/Votes/2026326\nIncentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 10000,
+        "campaignType": "open_ended",
+        "fundingActivationUSD": 10000,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "status": "Active",
+        "lat": 38.8899,
+        "lng": -77.0091,
+        "website": "https://clerk.house.gov/Votes/2026326",
+        "socials": {},
+        "legislation": {
+          "congress": 119,
+          "bill_type": "house_bill",
+          "number": 9640,
+          "display_id": "H.R. 9640",
+          "title": "Earth MRI Reauthorization Act",
+          "status": "Passed House (Roll Call 326, Nov 18, 2026, 396-14) under suspension of the rules, as amended",
+          "window": "House vote held Nov 18, 2026 (within Nov 16-Dec 31 window); subsequent Senate action possible",
+          "source_url": "https://clerk.house.gov/Votes/2026326"
+        },
+        "litmusTest": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (middleman-free).",
+          "representative_votes": {
+            "house": null,
+            "senate": null,
+            "roll_calls": []
+          }
+        },
+        "bounty": {
+          "beneficiary_scope": "national",
+          "eligible_beneficiaries": [],
+          "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification."
+        }
+      }
+    },
+    {
+      "id": "93009",
+      "title": "H.R. 9600: Common Sense 250 Act",
+      "content_html": "<p><strong>H.R. 9600 (119th)</strong> — Common Sense 250 Act</p><p>Supports planning and activities related to the United States Semiquincentennial (250th anniversary) commemoration.</p><p><strong>Status:</strong> Passed House (Roll Call 325, Nov 17, 2026, 365-36) under suspension of the rules</p><p><strong>Window:</strong> House vote held Nov 17, 2026 (within Nov 16-Dec 31 window); subsequent Senate action possible</p><p><strong>Community vote (litmus test):</strong> [LITMUS TEST] H.R. 9600 (119th): \"Common Sense 250 Act\" — Should this measure pass? Cast a community vote (without middlemen) to compare community will with how representatives vote.</p><p><strong>Campaign:</strong> Open-ended; timer begins once $10,000 is funded. Honest-zero (funded $0.00, 0 votes) until real on-chain activity is recorded.</p><p><strong>Bounty beneficiaries:</strong> Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).</p><p><strong>Source:</strong> <a href=\"https://clerk.house.gov/Votes/2026325\">https://clerk.house.gov/Votes/2026325</a></p>",
+      "url": "https://polytab.store/#93009",
+      "date_published": "2026-11-18T00:00:00Z",
+      "_polytab": {
+        "category": "Policy & Governance Votes",
+        "parentCategory": "Voting",
+        "organization": "Polytab Community — Policy & Governance Votes",
+        "location": "United States Capitol, Washington, DC (federal measure)",
+        "summary": "H.R. 9600: Supports planning and activities related to the United States Semiquincentennial (250th anniversary) commemoration.",
+        "plainSummary": "Cause: Supports planning and activities related to the United States Semiquincentennial (250th anniversary) commemoration.\nResolution: Community members vote Yes/No/Abstain on H.R. 9600 as a middleman-free litmus test, then compare results with official House/Senate representative votes.\nFunding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).\nBeneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).\nWindow/Status: House vote held Nov 17, 2026 (within Nov 16-Dec 31 window); subsequent Senate action possible. Status: Passed House (Roll Call 325, Nov 17, 2026, 365-36) under suspension of the rules\nProof/Sources: https://clerk.house.gov/Votes/2026325\nIncentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 10000,
+        "campaignType": "open_ended",
+        "fundingActivationUSD": 10000,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "status": "Active",
+        "lat": 38.8899,
+        "lng": -77.0091,
+        "website": "https://clerk.house.gov/Votes/2026325",
+        "socials": {},
+        "legislation": {
+          "congress": 119,
+          "bill_type": "house_bill",
+          "number": 9600,
+          "display_id": "H.R. 9600",
+          "title": "Common Sense 250 Act",
+          "status": "Passed House (Roll Call 325, Nov 17, 2026, 365-36) under suspension of the rules",
+          "window": "House vote held Nov 17, 2026 (within Nov 16-Dec 31 window); subsequent Senate action possible",
+          "source_url": "https://clerk.house.gov/Votes/2026325"
+        },
+        "litmusTest": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (middleman-free).",
+          "representative_votes": {
+            "house": null,
+            "senate": null,
+            "roll_calls": []
+          }
+        },
+        "bounty": {
+          "beneficiary_scope": "national",
+          "eligible_beneficiaries": [],
+          "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification."
+        }
+      }
+    },
+    {
+      "id": "93010",
+      "title": "H.R. 8483: Barona Group of Capitan Grande Band of Mission Indians Land Transfer Act",
+      "content_html": "<p><strong>H.R. 8483 (119th)</strong> — Barona Group of Capitan Grande Band of Mission Indians Land Transfer Act</p><p>Transfers specified land into trust for the Barona Group of Capitan Grande Band of Mission Indians, addressing tribal land holdings.</p><p><strong>Status:</strong> Passed House (Roll Call 324, Nov 17, 2026, 398-0) under suspension of the rules, as amended</p><p><strong>Window:</strong> House vote held Nov 17, 2026 (within Nov 16-Dec 31 window); subsequent Senate action possible</p><p><strong>Community vote (litmus test):</strong> [LITMUS TEST] H.R. 8483 (119th): \"Barona Group of Capitan Grande Band of Mission Indians Land Transfer Act\" — Should this measure pass? Cast a community vote (without middlemen) to compare community will with how representatives vote.</p><p><strong>Campaign:</strong> Open-ended; timer begins once $10,000 is funded. Honest-zero (funded $0.00, 0 votes) until real on-chain activity is recorded.</p><p><strong>Bounty beneficiaries:</strong> Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).</p><p><strong>Source:</strong> <a href=\"https://clerk.house.gov/Votes/2026324\">https://clerk.house.gov/Votes/2026324</a></p>",
+      "url": "https://polytab.store/#93010",
+      "date_published": "2026-11-18T00:00:00Z",
+      "_polytab": {
+        "category": "Policy & Governance Votes",
+        "parentCategory": "Voting",
+        "organization": "Polytab Community — Policy & Governance Votes",
+        "location": "United States Capitol, Washington, DC (federal measure)",
+        "summary": "H.R. 8483: Transfers specified land into trust for the Barona Group of Capitan Grande Band of Mission Indians, addressing tribal land holdings.",
+        "plainSummary": "Cause: Transfers specified land into trust for the Barona Group of Capitan Grande Band of Mission Indians, addressing tribal land holdings.\nResolution: Community members vote Yes/No/Abstain on H.R. 8483 as a middleman-free litmus test, then compare results with official House/Senate representative votes.\nFunding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).\nBeneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).\nWindow/Status: House vote held Nov 17, 2026 (within Nov 16-Dec 31 window); subsequent Senate action possible. Status: Passed House (Roll Call 324, Nov 17, 2026, 398-0) under suspension of the rules, as amended\nProof/Sources: https://clerk.house.gov/Votes/2026324\nIncentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 10000,
+        "campaignType": "open_ended",
+        "fundingActivationUSD": 10000,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "status": "Active",
+        "lat": 38.8899,
+        "lng": -77.0091,
+        "website": "https://clerk.house.gov/Votes/2026324",
+        "socials": {},
+        "legislation": {
+          "congress": 119,
+          "bill_type": "house_bill",
+          "number": 8483,
+          "display_id": "H.R. 8483",
+          "title": "Barona Group of Capitan Grande Band of Mission Indians Land Transfer Act",
+          "status": "Passed House (Roll Call 324, Nov 17, 2026, 398-0) under suspension of the rules, as amended",
+          "window": "House vote held Nov 17, 2026 (within Nov 16-Dec 31 window); subsequent Senate action possible",
+          "source_url": "https://clerk.house.gov/Votes/2026324"
+        },
+        "litmusTest": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (middleman-free).",
+          "representative_votes": {
+            "house": null,
+            "senate": null,
+            "roll_calls": []
+          }
+        },
+        "bounty": {
+          "beneficiary_scope": "national",
+          "eligible_beneficiaries": [],
+          "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification."
+        }
+      }
+    },
+    {
+      "id": "93011",
+      "title": "H.R. 4464: Preventive Health Savings Act",
+      "content_html": "<p><strong>H.R. 4464 (119th)</strong> — Preventive Health Savings Act</p><p>Directs analysis of long-term budgetary savings from preventive health services in federal health programs, to inform scoring and policy decisions.</p><p><strong>Status:</strong> Listed for House floor consideration under suspension of the rules (week of Nov 16, 2026)</p><p><strong>Window:</strong> House floor consideration scheduled week of Nov 16, 2026; vote possible in Nov 16-Dec 31 window</p><p><strong>Community vote (litmus test):</strong> [LITMUS TEST] H.R. 4464 (119th): \"Preventive Health Savings Act\" — Should this measure pass? Cast a community vote (without middlemen) to compare community will with how representatives vote.</p><p><strong>Campaign:</strong> Open-ended; timer begins once $10,000 is funded. Honest-zero (funded $0.00, 0 votes) until real on-chain activity is recorded.</p><p><strong>Bounty beneficiaries:</strong> Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).</p><p><strong>Source:</strong> <a href=\"https://docs.house.gov/floor/\">https://docs.house.gov/floor/</a></p>",
+      "url": "https://polytab.store/#93011",
+      "date_published": "2026-11-18T00:00:00Z",
+      "_polytab": {
+        "category": "Policy & Governance Votes",
+        "parentCategory": "Voting",
+        "organization": "Polytab Community — Policy & Governance Votes",
+        "location": "United States Capitol, Washington, DC (federal measure)",
+        "summary": "H.R. 4464: Directs analysis of long-term budgetary savings from preventive health services in federal health programs, to inform scoring and policy decisions.",
+        "plainSummary": "Cause: Directs analysis of long-term budgetary savings from preventive health services in federal health programs, to inform scoring and policy decisions.\nResolution: Community members vote Yes/No/Abstain on H.R. 4464 as a middleman-free litmus test, then compare results with official House/Senate representative votes.\nFunding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).\nBeneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).\nWindow/Status: House floor consideration scheduled week of Nov 16, 2026; vote possible in Nov 16-Dec 31 window. Status: Listed for House floor consideration under suspension of the rules (week of Nov 16, 2026)\nProof/Sources: https://docs.house.gov/floor/\nIncentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 10000,
+        "campaignType": "open_ended",
+        "fundingActivationUSD": 10000,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "status": "Active",
+        "lat": 38.8899,
+        "lng": -77.0091,
+        "website": "https://docs.house.gov/floor/",
+        "socials": {},
+        "legislation": {
+          "congress": 119,
+          "bill_type": "house_bill",
+          "number": 4464,
+          "display_id": "H.R. 4464",
+          "title": "Preventive Health Savings Act",
+          "status": "Listed for House floor consideration under suspension of the rules (week of Nov 16, 2026)",
+          "window": "House floor consideration scheduled week of Nov 16, 2026; vote possible in Nov 16-Dec 31 window",
+          "source_url": "https://docs.house.gov/floor/"
+        },
+        "litmusTest": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (middleman-free).",
+          "representative_votes": {
+            "house": null,
+            "senate": null,
+            "roll_calls": []
+          }
+        },
+        "bounty": {
+          "beneficiary_scope": "national",
+          "eligible_beneficiaries": [],
+          "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification."
+        }
+      }
+    },
+    {
+      "id": "93012",
+      "title": "H.R. 5490: Dismantle Foreign Scam Syndicates Act",
+      "content_html": "<p><strong>H.R. 5490 (119th)</strong> — Dismantle Foreign Scam Syndicates Act</p><p>Targets transnational scam syndicates through sanctions, enforcement coordination, and related measures to disrupt large-scale fraud operations.</p><p><strong>Status:</strong> Listed for House floor consideration under suspension of the rules, as amended (week of Nov 16, 2026)</p><p><strong>Window:</strong> House floor consideration scheduled week of Nov 16, 2026; vote possible in Nov 16-Dec 31 window</p><p><strong>Community vote (litmus test):</strong> [LITMUS TEST] H.R. 5490 (119th): \"Dismantle Foreign Scam Syndicates Act\" — Should this measure pass? Cast a community vote (without middlemen) to compare community will with how representatives vote.</p><p><strong>Campaign:</strong> Open-ended; timer begins once $10,000 is funded. Honest-zero (funded $0.00, 0 votes) until real on-chain activity is recorded.</p><p><strong>Bounty beneficiaries:</strong> Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).</p><p><strong>Source:</strong> <a href=\"https://docs.house.gov/floor/\">https://docs.house.gov/floor/</a></p>",
+      "url": "https://polytab.store/#93012",
+      "date_published": "2026-11-18T00:00:00Z",
+      "_polytab": {
+        "category": "Policy & Governance Votes",
+        "parentCategory": "Voting",
+        "organization": "Polytab Community — Policy & Governance Votes",
+        "location": "United States Capitol, Washington, DC (federal measure)",
+        "summary": "H.R. 5490: Targets transnational scam syndicates through sanctions, enforcement coordination, and related measures to disrupt large-scale fraud operations.",
+        "plainSummary": "Cause: Targets transnational scam syndicates through sanctions, enforcement coordination, and related measures to disrupt large-scale fraud operations.\nResolution: Community members vote Yes/No/Abstain on H.R. 5490 as a middleman-free litmus test, then compare results with official House/Senate representative votes.\nFunding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).\nBeneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).\nWindow/Status: House floor consideration scheduled week of Nov 16, 2026; vote possible in Nov 16-Dec 31 window. Status: Listed for House floor consideration under suspension of the rules, as amended (week of Nov 16, 2026)\nProof/Sources: https://docs.house.gov/floor/\nIncentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 10000,
+        "campaignType": "open_ended",
+        "fundingActivationUSD": 10000,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "status": "Active",
+        "lat": 38.8899,
+        "lng": -77.0091,
+        "website": "https://docs.house.gov/floor/",
+        "socials": {},
+        "legislation": {
+          "congress": 119,
+          "bill_type": "house_bill",
+          "number": 5490,
+          "display_id": "H.R. 5490",
+          "title": "Dismantle Foreign Scam Syndicates Act",
+          "status": "Listed for House floor consideration under suspension of the rules, as amended (week of Nov 16, 2026)",
+          "window": "House floor consideration scheduled week of Nov 16, 2026; vote possible in Nov 16-Dec 31 window",
+          "source_url": "https://docs.house.gov/floor/"
+        },
+        "litmusTest": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (middleman-free).",
+          "representative_votes": {
+            "house": null,
+            "senate": null,
+            "roll_calls": []
+          }
+        },
+        "bounty": {
+          "beneficiary_scope": "national",
+          "eligible_beneficiaries": [],
+          "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification."
+        }
+      }
+    },
+    {
+      "id": "93013",
+      "title": "H.R. 10136: Crossett Experimental Forest Act of 2026",
+      "content_html": "<p><strong>H.R. 10136 (119th)</strong> — Crossett Experimental Forest Act of 2026</p><p>Addresses management/designation matters related to the Crossett Experimental Forest to support forestry research and conservation objectives.</p><p><strong>Status:</strong> Listed for House floor consideration under suspension of the rules, as amended (week of Nov 16, 2026)</p><p><strong>Window:</strong> House floor consideration scheduled week of Nov 16, 2026; vote possible in Nov 16-Dec 31 window</p><p><strong>Community vote (litmus test):</strong> [LITMUS TEST] H.R. 10136 (119th): \"Crossett Experimental Forest Act of 2026\" — Should this measure pass? Cast a community vote (without middlemen) to compare community will with how representatives vote.</p><p><strong>Campaign:</strong> Open-ended; timer begins once $10,000 is funded. Honest-zero (funded $0.00, 0 votes) until real on-chain activity is recorded.</p><p><strong>Bounty beneficiaries:</strong> Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).</p><p><strong>Source:</strong> <a href=\"https://docs.house.gov/floor/\">https://docs.house.gov/floor/</a></p>",
+      "url": "https://polytab.store/#93013",
+      "date_published": "2026-11-18T00:00:00Z",
+      "_polytab": {
+        "category": "Policy & Governance Votes",
+        "parentCategory": "Voting",
+        "organization": "Polytab Community — Policy & Governance Votes",
+        "location": "United States Capitol, Washington, DC (federal measure)",
+        "summary": "H.R. 10136: Addresses management/designation matters related to the Crossett Experimental Forest to support forestry research and conservation objectives.",
+        "plainSummary": "Cause: Addresses management/designation matters related to the Crossett Experimental Forest to support forestry research and conservation objectives.\nResolution: Community members vote Yes/No/Abstain on H.R. 10136 as a middleman-free litmus test, then compare results with official House/Senate representative votes.\nFunding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).\nBeneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).\nWindow/Status: House floor consideration scheduled week of Nov 16, 2026; vote possible in Nov 16-Dec 31 window. Status: Listed for House floor consideration under suspension of the rules, as amended (week of Nov 16, 2026)\nProof/Sources: https://docs.house.gov/floor/\nIncentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 10000,
+        "campaignType": "open_ended",
+        "fundingActivationUSD": 10000,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "status": "Active",
+        "lat": 38.8899,
+        "lng": -77.0091,
+        "website": "https://docs.house.gov/floor/",
+        "socials": {},
+        "legislation": {
+          "congress": 119,
+          "bill_type": "house_bill",
+          "number": 10136,
+          "display_id": "H.R. 10136",
+          "title": "Crossett Experimental Forest Act of 2026",
+          "status": "Listed for House floor consideration under suspension of the rules, as amended (week of Nov 16, 2026)",
+          "window": "House floor consideration scheduled week of Nov 16, 2026; vote possible in Nov 16-Dec 31 window",
+          "source_url": "https://docs.house.gov/floor/"
+        },
+        "litmusTest": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (middleman-free).",
+          "representative_votes": {
+            "house": null,
+            "senate": null,
+            "roll_calls": []
+          }
+        },
+        "bounty": {
+          "beneficiary_scope": "national",
+          "eligible_beneficiaries": [],
+          "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification."
+        }
+      }
+    },
+    {
+      "id": "93014",
+      "title": "H.R. 9269: Renewing the African American Civil Rights Network Act",
+      "content_html": "<p><strong>H.R. 9269 (119th)</strong> — Renewing the African American Civil Rights Network Act</p><p>Renews/reauthorizes the African American Civil Rights Network to preserve and recognize sites and programs significant to civil rights history.</p><p><strong>Status:</strong> Listed for House floor consideration under suspension of the rules, as amended (week of Nov 16, 2026)</p><p><strong>Window:</strong> House floor consideration scheduled week of Nov 16, 2026; vote possible in Nov 16-Dec 31 window</p><p><strong>Community vote (litmus test):</strong> [LITMUS TEST] H.R. 9269 (119th): \"Renewing the African American Civil Rights Network Act\" — Should this measure pass? Cast a community vote (without middlemen) to compare community will with how representatives vote.</p><p><strong>Campaign:</strong> Open-ended; timer begins once $10,000 is funded. Honest-zero (funded $0.00, 0 votes) until real on-chain activity is recorded.</p><p><strong>Bounty beneficiaries:</strong> Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).</p><p><strong>Source:</strong> <a href=\"https://docs.house.gov/floor/\">https://docs.house.gov/floor/</a></p>",
+      "url": "https://polytab.store/#93014",
+      "date_published": "2026-11-18T00:00:00Z",
+      "_polytab": {
+        "category": "Policy & Governance Votes",
+        "parentCategory": "Voting",
+        "organization": "Polytab Community — Policy & Governance Votes",
+        "location": "United States Capitol, Washington, DC (federal measure)",
+        "summary": "H.R. 9269: Renews/reauthorizes the African American Civil Rights Network to preserve and recognize sites and programs significant to civil rights history.",
+        "plainSummary": "Cause: Renews/reauthorizes the African American Civil Rights Network to preserve and recognize sites and programs significant to civil rights history.\nResolution: Community members vote Yes/No/Abstain on H.R. 9269 as a middleman-free litmus test, then compare results with official House/Senate representative votes.\nFunding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).\nBeneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).\nWindow/Status: House floor consideration scheduled week of Nov 16, 2026; vote possible in Nov 16-Dec 31 window. Status: Listed for House floor consideration under suspension of the rules, as amended (week of Nov 16, 2026)\nProof/Sources: https://docs.house.gov/floor/\nIncentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 10000,
+        "campaignType": "open_ended",
+        "fundingActivationUSD": 10000,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "status": "Active",
+        "lat": 38.8899,
+        "lng": -77.0091,
+        "website": "https://docs.house.gov/floor/",
+        "socials": {},
+        "legislation": {
+          "congress": 119,
+          "bill_type": "house_bill",
+          "number": 9269,
+          "display_id": "H.R. 9269",
+          "title": "Renewing the African American Civil Rights Network Act",
+          "status": "Listed for House floor consideration under suspension of the rules, as amended (week of Nov 16, 2026)",
+          "window": "House floor consideration scheduled week of Nov 16, 2026; vote possible in Nov 16-Dec 31 window",
+          "source_url": "https://docs.house.gov/floor/"
+        },
+        "litmusTest": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (middleman-free).",
+          "representative_votes": {
+            "house": null,
+            "senate": null,
+            "roll_calls": []
+          }
+        },
+        "bounty": {
+          "beneficiary_scope": "national",
+          "eligible_beneficiaries": [],
+          "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification."
+        }
+      }
+    },
+    {
+      "id": "93015",
+      "title": "H.R. 2347: Energy Infrastructure Permitting Reform (legislative vehicle)",
+      "content_html": "<p><strong>H.R. 2347 (119th)</strong> — Energy Infrastructure Permitting Reform (legislative vehicle)</p><p>Energy infrastructure and permitting reform measure serving as an active legislative vehicle in the Senate for provisions to modify federal permitting for energy projects.</p><p><strong>Status:</strong> Currently active in the Senate (119th Congress; vehicle for permitting provisions, incl. S.5653 context)</p><p><strong>Window:</strong> Active in Senate as of Nov 2026; floor action/votes possible in Nov 16-Dec 31 window</p><p><strong>Community vote (litmus test):</strong> [LITMUS TEST] H.R. 2347 (119th): \"Energy Infrastructure Permitting Reform (legislative vehicle)\" — Should this measure pass? Cast a community vote (without middlemen) to compare community will with how representatives vote.</p><p><strong>Campaign:</strong> Open-ended; timer begins once $10,000 is funded. Honest-zero (funded $0.00, 0 votes) until real on-chain activity is recorded.</p><p><strong>Bounty beneficiaries:</strong> Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).</p><p><strong>Source:</strong> <a href=\"https://www.senate.gov/legislative/active_leg_page.htm\">https://www.senate.gov/legislative/active_leg_page.htm</a></p>",
+      "url": "https://polytab.store/#93015",
+      "date_published": "2026-11-18T00:00:00Z",
+      "_polytab": {
+        "category": "Policy & Governance Votes",
+        "parentCategory": "Voting",
+        "organization": "Polytab Community — Policy & Governance Votes",
+        "location": "United States Capitol, Washington, DC (federal measure)",
+        "summary": "H.R. 2347: Energy infrastructure and permitting reform measure serving as an active legislative vehicle in the Senate for provisions to modify federal permitting for energy projects.",
+        "plainSummary": "Cause: Energy infrastructure and permitting reform measure serving as an active legislative vehicle in the Senate for provisions to modify federal permitting for energy projects.\nResolution: Community members vote Yes/No/Abstain on H.R. 2347 as a middleman-free litmus test, then compare results with official House/Senate representative votes.\nFunding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).\nBeneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).\nWindow/Status: Active in Senate as of Nov 2026; floor action/votes possible in Nov 16-Dec 31 window. Status: Currently active in the Senate (119th Congress; vehicle for permitting provisions, incl. S.5653 context)\nProof/Sources: https://www.senate.gov/legislative/active_leg_page.htm\nIncentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 10000,
+        "campaignType": "open_ended",
+        "fundingActivationUSD": 10000,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "status": "Active",
+        "lat": 38.8899,
+        "lng": -77.0091,
+        "website": "https://www.senate.gov/legislative/active_leg_page.htm",
+        "socials": {},
+        "legislation": {
+          "congress": 119,
+          "bill_type": "house_bill",
+          "number": 2347,
+          "display_id": "H.R. 2347",
+          "title": "Energy Infrastructure Permitting Reform (legislative vehicle)",
+          "status": "Currently active in the Senate (119th Congress; vehicle for permitting provisions, incl. S.5653 context)",
+          "window": "Active in Senate as of Nov 2026; floor action/votes possible in Nov 16-Dec 31 window",
+          "source_url": "https://www.senate.gov/legislative/active_leg_page.htm"
+        },
+        "litmusTest": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (middleman-free).",
+          "representative_votes": {
+            "house": null,
+            "senate": null,
+            "roll_calls": []
+          }
+        },
+        "bounty": {
+          "beneficiary_scope": "national",
+          "eligible_beneficiaries": [],
+          "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification."
+        }
+      }
+    },
+    {
+      "id": "93016",
+      "title": "S. 1383 / H.R. 7296: SAVE America Act (voter/citizenship documentation requirements)",
+      "content_html": "<p><strong>S. 1383 / H.R. 7296 (119th)</strong> — SAVE America Act (voter/citizenship documentation requirements)</p><p>Would establish documentary proof-of-citizenship and related requirements for voter registration in federal elections (commonly known as the SAVE/SAVE America Act).</p><p><strong>Status:</strong> Active/commonly tracked legislation in 119th Congress (Senate and House measures)</p><p><strong>Window:</strong> Active in 119th Congress; potential floor action/votes possible in Nov 16-Dec 31 window (timing subject to chamber scheduling)</p><p><strong>Community vote (litmus test):</strong> [LITMUS TEST] S. 1383 / H.R. 7296 (119th): \"SAVE America Act (voter/citizenship documentation requirements)\" — Should this measure pass? Cast a community vote (without middlemen) to compare community will with how representatives vote.</p><p><strong>Campaign:</strong> Open-ended; timer begins once $10,000 is funded. Honest-zero (funded $0.00, 0 votes) until real on-chain activity is recorded.</p><p><strong>Bounty beneficiaries:</strong> Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).</p><p><strong>Source:</strong> <a href=\"https://www.senate.gov/legislative/active_leg_page.htm\">https://www.senate.gov/legislative/active_leg_page.htm</a></p>",
+      "url": "https://polytab.store/#93016",
+      "date_published": "2026-11-18T00:00:00Z",
+      "_polytab": {
+        "category": "Policy & Governance Votes",
+        "parentCategory": "Voting",
+        "organization": "Polytab Community — Policy & Governance Votes",
+        "location": "United States Capitol, Washington, DC (federal measure)",
+        "summary": "S. 1383 / H.R. 7296: Would establish documentary proof-of-citizenship and related requirements for voter registration in federal elections (commonly known as the SAVE/SAVE America Act).",
+        "plainSummary": "Cause: Would establish documentary proof-of-citizenship and related requirements for voter registration in federal elections (commonly known as the SAVE/SAVE America Act).\nResolution: Community members vote Yes/No/Abstain on S. 1383 / H.R. 7296 as a middleman-free litmus test, then compare results with official House/Senate representative votes.\nFunding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).\nBeneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).\nWindow/Status: Active in 119th Congress; potential floor action/votes possible in Nov 16-Dec 31 window (timing subject to chamber scheduling). Status: Active/commonly tracked legislation in 119th Congress (Senate and House measures)\nProof/Sources: https://www.senate.gov/legislative/active_leg_page.htm\nIncentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 10000,
+        "campaignType": "open_ended",
+        "fundingActivationUSD": 10000,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "status": "Active",
+        "lat": 38.8899,
+        "lng": -77.0091,
+        "website": "https://www.senate.gov/legislative/active_leg_page.htm",
+        "socials": {},
+        "legislation": {
+          "congress": 119,
+          "bill_type": "senate_bill",
+          "number": 1383,
+          "display_id": "S. 1383 / H.R. 7296",
+          "title": "SAVE America Act (voter/citizenship documentation requirements)",
+          "status": "Active/commonly tracked legislation in 119th Congress (Senate and House measures)",
+          "window": "Active in 119th Congress; potential floor action/votes possible in Nov 16-Dec 31 window (timing subject to chamber scheduling)",
+          "source_url": "https://www.senate.gov/legislative/active_leg_page.htm"
+        },
+        "litmusTest": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (middleman-free).",
+          "representative_votes": {
+            "house": null,
+            "senate": null,
+            "roll_calls": []
+          }
+        },
+        "bounty": {
+          "beneficiary_scope": "national",
+          "eligible_beneficiaries": [],
+          "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification."
+        }
+      }
     }
   ],
   "updated_at": "2026-11-18T18:28:04.776Z"
