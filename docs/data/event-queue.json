@@ -3,6 +3,64 @@
   "description": "Polytab Event Radar queue. Current events (last 21 days) surfaced from free public feeds (GDELT, CDC Newsroom, GDACS, USGS) as candidate civic-action blocks in the exact Polytab block format. All metrics are honest-zero (fundedUSD=0, votesCount=0). Items are PROPOSED — promotion to the Projects (feed.json) requires a verified organization pairing and governance sign-off, never automatic. Wallet series: 0x71E + ID (601+). No coordinates are stored (lat/lng null); locations are public place-name strings only.",
   "items": [
     {
+      "id": "623",
+      "title": "Joint Statement: Loss of U.S. Measles Elimination Status",
+      "category": "Civic Tech",
+      "organization": "Fisher House Foundation",
+      "location": "United States",
+      "summary": "Community Radar current event: \"Joint Statement: Loss of U.S. Measles Elimination Status\" (CDC Online Newsroom, 2026-11-17). Proposed pairing with verified organization Fisher House Foundation (Projects bounty #507) — pending governance verification.",
+      "plainSummary": "• Cause: Joint Statement: Loss of U.S. Measles Elimination Status\n• Resolution: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=766843 (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "CDC Online Newsroom",
+        "sourceUrl": "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=766843",
+        "publishedAt": "2026-11-17T16:10:00.000Z",
+        "discoveredAt": "2026-11-18T00:31:51.324Z",
+        "proposedPairing": {
+          "bountyId": "507",
+          "organization": "Fisher House Foundation",
+          "keywordMatches": 5
+        },
+        "dedupeHash": "10f90dd3533547f88d82bc6dc757c708eca38557ee12fc3ced1927afa7f02653"
+      }
+    },
+    {
+      "id": "624",
+      "title": "Orange notification for tropical cyclone AKVAN-26. Population affected by Category 1 (120 km/h) wind speeds or higher i…",
+      "category": "Environmental",
+      "organization": "Education Cannot Wait",
+      "location": "Tropical Storm).",
+      "summary": "Community Radar current event: \"Orange notification for tropical cyclone AKVAN-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (11.577 million in Tropical Storm).\" (GDACS (EU JRC), 2026-11-16). Proposed pairing with verified organization Education Cannot Wait (Projects bounty #40004) — pending governance verification.",
+      "plainSummary": "• Cause: Orange notification for tropical cyclone AKVAN-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (11.577 million in Tropical Storm).\n• Resolution: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001351 (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "GDACS (EU JRC)",
+        "sourceUrl": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001351",
+        "publishedAt": "2026-11-16T20:06:39.000Z",
+        "discoveredAt": "2026-11-18T00:31:51.392Z",
+        "proposedPairing": {
+          "bountyId": "40004",
+          "organization": "Education Cannot Wait",
+          "keywordMatches": 2
+        },
+        "dedupeHash": "416d84588059a403266ad2e9dd6dbb8393ef888ee53c7b50cbfabf09574ce7a6"
+      }
+    },
+    {
       "id": "622",
       "title": "Orange notification for tropical cyclone AKVAN-26. Population affected by Category 1 (120 km/h) wind speeds or higher i…",
       "category": "Environmental",
@@ -651,7 +709,9 @@
     "596d0bb5f700d8c8fe1bd341af4d39c12383cf431f3ee37a3496144535d791c7",
     "d2ee3b0ca3f78e36fbbcc47b047187dddc8cbe4314eb3d1eb305335117550686",
     "73558cc2f72e0befe6b545de5953ddce8dfd70d64543f3395d132bd40d2e9cb6",
-    "1a4b7b742c7f23aaa3dc5eb19bcec3069000608384f40cf21c758291379c032c"
+    "1a4b7b742c7f23aaa3dc5eb19bcec3069000608384f40cf21c758291379c032c",
+    "10f90dd3533547f88d82bc6dc757c708eca38557ee12fc3ced1927afa7f02653",
+    "416d84588059a403266ad2e9dd6dbb8393ef888ee53c7b50cbfabf09574ce7a6"
   ],
-  "nextId": 623
+  "nextId": 625
 }
