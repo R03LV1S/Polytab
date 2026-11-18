@@ -5,7 +5,7 @@
     <link>https://polytab.store/#map</link>
     <description>geoRSS mirror of the Polytab Projects. 32207 of 32207 actions publish organization coordinates, rounded to two decimal places (~1 km, neighborhood-level) to prevent PII/doxing. Organizations without a public location are listed in feed.xml only.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Nov 2026 17:59:33 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 18:30:36 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://polytab.store/feeds/global.xml" rel="self" type="application/rss+xml" />
   <item>
@@ -615829,7 +615829,7 @@ Honest-zero: no on-chain votes have been recorded for this action yet.
 Contributions: locked — org must verify (registry + DNS TXT) to unlock its page
 Website: https://polytab.store/project.html?id=93005</description>
     <category>Public Office &amp; Elections</category>
-    <pubDate>Wed, 18 Nov 2026 17:54:04 GMT</pubDate>
+    <pubDate>Wed, 18 Nov 2026 18:28:04 GMT</pubDate>
     <georss:point>0.00 0.00</georss:point>
   </item>
   <item>
@@ -615849,7 +615849,7 @@ Honest-zero: no on-chain votes have been recorded for this action yet.
 Contributions: locked — org must verify (registry + DNS TXT) to unlock its page
 Website: https://polytab.store/project.html?id=93006</description>
     <category>Public Office &amp; Elections</category>
-    <pubDate>Wed, 18 Nov 2026 17:54:04 GMT</pubDate>
+    <pubDate>Wed, 18 Nov 2026 18:28:04 GMT</pubDate>
     <georss:point>0.00 0.00</georss:point>
   </item>
   <item>
@@ -615869,7 +615869,7 @@ Honest-zero: no on-chain votes have been recorded for this action yet.
 Contributions: locked — org must verify (registry + DNS TXT) to unlock its page
 Website: https://polytab.store/project.html?id=93007</description>
     <category>Public Office &amp; Elections</category>
-    <pubDate>Wed, 18 Nov 2026 17:54:04 GMT</pubDate>
+    <pubDate>Wed, 18 Nov 2026 18:28:04 GMT</pubDate>
     <georss:point>0.00 0.00</georss:point>
   </item>
   <item>
@@ -615889,7 +615889,7 @@ Honest-zero: no on-chain votes have been recorded for this action yet.
 Contributions: locked — org must verify (registry + DNS TXT) to unlock its page
 Website: https://polytab.store/project.html?id=93008</description>
     <category>Public Office &amp; Elections</category>
-    <pubDate>Wed, 18 Nov 2026 17:54:04 GMT</pubDate>
+    <pubDate>Wed, 18 Nov 2026 18:28:04 GMT</pubDate>
     <georss:point>0.00 0.00</georss:point>
   </item>
   </channel>

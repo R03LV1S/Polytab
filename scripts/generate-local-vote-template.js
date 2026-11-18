@@ -26,21 +26,39 @@ function fmtUSD(n) {
   return "$" + Number(n).toLocaleString("en-US");
 }
 
+function isGrassrootsCommunity(org) {
+  const name = ' ' + (org.name || '').toUpperCase() + ' ';
+  const ntee = (org.ntee_code || '').toUpperCase();
+  
+  // Strictly filter OUT institutional mega-hospital conglomerates, physician groups, and elite private universities
+  if (/HEALTH SYSTEM|HOSPITAL|PHYSICIAN|MEDICAL GROUP|MEDICAL CENTER|PHARMACY|UNIVERSITY|COLLEGE OF MEDICINE/i.test(name)) return false;
+  if (/^E2|^E3|^B4|^B5/.test(ntee)) return false;
+
+  // Strictly target grassroot civic action: food banks, legal aid, conservation/water, homeless shelters, volunteer fire/EMS, neighborhood commons
+  const isTargetNtee = /^[CKLMPR]|E62|M24|I7|I8/.test(ntee);
+  const isTargetName = /FOOD BANK|FOOD DEPOSITORY|FEEDING|COMMUNITY|RESCUE|VOLUNTEER FIRE|LEGAL AID|CONSERVANCY|SHELTER|NEIGHBORHOOD|ADVOCACY|ENVIRONMENTAL/i.test(name);
+  
+  return isTargetNtee || isTargetName;
+}
+
 function getLocalCharities(stateCode, city, limit = 5) {
   const stateFile = path.join(ORGS_DIR, `${stateCode.toUpperCase()}.json`);
   if (!fs.existsSync(stateFile)) return [];
   try {
     const raw = JSON.parse(fs.readFileSync(stateFile, "utf8"));
     const list = Array.isArray(raw) ? raw : (raw.organizations || []);
+    
+    // Filter strictly for verified grassroots community programs
+    const communityList = list.filter(isGrassrootsCommunity);
+
     let matches = [];
     if (city) {
       const cNorm = city.trim().toLowerCase();
-      matches = list.filter(o => o.city && o.city.trim().toLowerCase() === cNorm);
+      matches = communityList.filter(o => o.city && o.city.trim().toLowerCase() === cNorm);
     }
     if (matches.length < limit) {
-      // Fallback to top revenue orgs in state
       const existingEin = new Set(matches.map(m => m.ein || m.registry_id));
-      for (const o of list) {
+      for (const o of communityList) {
         if (!existingEin.has(o.ein || o.registry_id)) {
           matches.push(o);
           if (matches.length >= limit) break;
