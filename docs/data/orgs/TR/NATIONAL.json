@@ -1,0 +1,52 @@
+{
+  "schema_version": "3.0.0",
+  "country_iso2": "TR",
+  "admin1_state_province": "NATIONAL",
+  "count": 2,
+  "organizations": [
+    {
+      "registry_id": "IATI-TR:TR-MOI-27-018-163",
+      "name": "Local Development and Small Projects Support",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "TR",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.360Z",
+      "integrity_sha256": "bd3a930850b53e944f4c7ceac5545d6c1cef4cd90960172fc5e72ef8eee2de6e"
+    },
+    {
+      "registry_id": "IATI-TR:TR-MOI-27-019-074",
+      "name": "Emissa",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "TR",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.358Z",
+      "integrity_sha256": "f2eb9b4c520348f2eecc74b2f82a8933e599cffdbf23484ffc1bb9cb85d1fc30"
+    }
+  ]
+}

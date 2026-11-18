@@ -1,0 +1,183 @@
+{
+  "schema_version": "3.0.0",
+  "country_iso2": "AF",
+  "admin1_state_province": "NATIONAL",
+  "count": 8,
+  "organizations": [
+    {
+      "registry_id": "IATI-AF:AF-MOE-118",
+      "name": "Swedish Committee for Afghanistan",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "AF",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.361Z",
+      "integrity_sha256": "fa298aa9c664a639e488aca802e34ac9e7f45bb37f72c6950bba82a7121ca3ce"
+    },
+    {
+      "registry_id": "IATI-AF:AF-MOE-1212",
+      "name": "Afghanistan Public Policy Research Organization (APPRO)",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_80",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "AF",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.357Z",
+      "integrity_sha256": "e6e60c5121ad12cc93b271aae7c21226b3bb13d58d5340c86f3d692ce941de1b"
+    },
+    {
+      "registry_id": "IATI-AF:AF-MOE-138",
+      "name": "Aga Khan Foundation Afghanistan",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_60",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "AF",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.356Z",
+      "integrity_sha256": "9e4fc7562e049f58906365ea84f3866dea378bfc5bf8372fec9da7fb26e667a1"
+    },
+    {
+      "registry_id": "IATI-AF:AF-MOE-22",
+      "name": "CARE International Afghanistan",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "AF",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.357Z",
+      "integrity_sha256": "aca70d08d9c3646faf0a3aca4f7b1a55e4be7640bf5811be113064abb3116102"
+    },
+    {
+      "registry_id": "IATI-AF:AF-MOE-5798",
+      "name": "Afghanistan Bridging Initiative",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "AF",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.356Z",
+      "integrity_sha256": "9523b5011af03e35a8999f2029f7425241c6489de82b116f75d6e1c42f10c369"
+    },
+    {
+      "registry_id": "IATI-AF:AF-MOE-611",
+      "name": "The Liaison Office",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_3"
+      ],
+      "location": {
+        "country_iso2": "AF",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.362Z",
+      "integrity_sha256": "5ac39b7afc804a9f8e9b7c359e113d70f08b9aa83ee8249940216aac1d942b95"
+    },
+    {
+      "registry_id": "IATI-AF:AF-MOE-947",
+      "name": "Human Rights Research and Advocacy Consortium",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22"
+      ],
+      "location": {
+        "country_iso2": "AF",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.356Z",
+      "integrity_sha256": "0721156f621b083806cacbbfd088318ade737ac83f3148c7a2a3e2926267d3aa"
+    },
+    {
+      "registry_id": "IATI-AF:AF-MOE-956",
+      "name": "Accessibility Organization for Afghan Disabled",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "AF",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.357Z",
+      "integrity_sha256": "fe9c3930f2c4c5f032f67c490050a7771526743c830a5f5b69cf7c9460f68afa"
+    }
+  ]
+}

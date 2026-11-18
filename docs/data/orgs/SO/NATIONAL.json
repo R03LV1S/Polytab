@@ -1,0 +1,226 @@
+{
+  "schema_version": "3.0.0",
+  "country_iso2": "SO",
+  "admin1_state_province": "NATIONAL",
+  "count": 10,
+  "organizations": [
+    {
+      "registry_id": "IATI-SO:KE-NGC-663",
+      "name": "Adventist Development and Relief Agency (ADRA Somalia)",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SO",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.356Z",
+      "integrity_sha256": "01f4b39e8669c930a39c7ddf1258fa1163be3a3b1a0026758ad297b11f6e5231"
+    },
+    {
+      "registry_id": "IATI-SO:SO-COA-107-0079-2025",
+      "name": "Kaalmo Relief and Development Organization (KARDO AID)",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "SO",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.360Z",
+      "integrity_sha256": "551665b134ae2e564af9a21ab29169bd86149317a1309ae902cdfb702bc6eb24"
+    },
+    {
+      "registry_id": "IATI-SO:SO-COA-107-0081-2023",
+      "name": "Iftiin Foundation",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SO",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.359Z",
+      "integrity_sha256": "6ae46dbabd291955c15c24207fcfe3f667ad8e7e6221d02a9793454a03122479"
+    },
+    {
+      "registry_id": "IATI-SO:SO-COA-107-0290-2025",
+      "name": "Humanitarian Umbrella for Relief and Development Organization (HURDO)",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "SO",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.359Z",
+      "integrity_sha256": "6680925eceb666f76ae66ec99fdd104772f6538aea9c3ff54631745c4657c53a"
+    },
+    {
+      "registry_id": "IATI-SO:SO-MPND-L43135002018MJ",
+      "name": "NAGAAD",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SO",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.360Z",
+      "integrity_sha256": "511ac1aefac16362962c84a4386dab31c827630ae6144700807cf364a5e6c045"
+    },
+    {
+      "registry_id": "IATI-SO:XM-OCHA-HPC10477",
+      "name": "Somali Women Vision",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "SO",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.362Z",
+      "integrity_sha256": "7df18610be386b2ba46281cc4b9eca9a3c579ed9bc60a85f738fdaf2ca4ca700"
+    },
+    {
+      "registry_id": "IATI-SO:XM-OCHA-HPC1888",
+      "name": "Rainwater Association of Somalia-RAAS",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22"
+      ],
+      "location": {
+        "country_iso2": "SO",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.359Z",
+      "integrity_sha256": "8141e64b0fef8fd81f4b1fd5d7818de25848a608677f9b356da3c5b5e79b6b18"
+    },
+    {
+      "registry_id": "IATI-SO:XM-OCHA-HPC3382",
+      "name": "Somali Community Concern",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "SO",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.361Z",
+      "integrity_sha256": "47da323a9333ea3ebaf6480fa12a488b44067f664f089cdd676083b077b208ff"
+    },
+    {
+      "registry_id": "IATI-SO:XM-OCHA-HPC5902",
+      "name": "PHYSICIANS ACROSS CONTINENTS (PAC)",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "SO",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.361Z",
+      "integrity_sha256": "aa49b7c8a356c371bd4ce380e7f738a74eba49b086837e9c53094494bd9bdc31"
+    },
+    {
+      "registry_id": "IATI-SO:XM-OCHA-HPC6052",
+      "name": "Himilo Relief and Development Association （HIRDA Somalia）",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22"
+      ],
+      "location": {
+        "country_iso2": "SO",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.359Z",
+      "integrity_sha256": "706fa4b31f8d1966908520e282f2a8365b6a11a779e062b48eee4e818a427ca0"
+    }
+  ]
+}

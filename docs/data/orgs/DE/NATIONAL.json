@@ -1,0 +1,359 @@
+{
+  "schema_version": "3.0.0",
+  "country_iso2": "DE",
+  "admin1_state_province": "NATIONAL",
+  "count": 16,
+  "organizations": [
+    {
+      "registry_id": "IATI-DE:DE-AG-VR7795",
+      "name": "Fairtrade Labelling Organizations International e.V.",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "DE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.358Z",
+      "integrity_sha256": "241a922a17587011310a05150282b7127ce69073cc60028b94748dc5e30b0fae"
+    },
+    {
+      "registry_id": "IATI-DE:DE-CR-BONNVR8726",
+      "name": "IFOAM - Organics International",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "DE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.359Z",
+      "integrity_sha256": "4435ce42b32123f3821aabcb41d0141c51d0a7c548e91eb874874c11f9fd47dd"
+    },
+    {
+      "registry_id": "IATI-DE:DE-CR-RA000209-VR1207",
+      "name": "World Vision Germany",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21"
+      ],
+      "location": {
+        "country_iso2": "DE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.363Z",
+      "integrity_sha256": "eff198a948a9291a7f108da6dd7c2d063e6b8989fd1b9b989d2b5a8460aa1af6"
+    },
+    {
+      "registry_id": "IATI-DE:DE-CR-RA000217-HRB109333",
+      "name": "International Civil Society Centre",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "DE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.359Z",
+      "integrity_sha256": "f0b69f2f4d602b91ed9a876a1d793917ef628852030171b0272f319a44c5b77b"
+    },
+    {
+      "registry_id": "IATI-DE:DE-CR-RA000217-HRB121747B",
+      "name": "Democracy Reporting International gGmbH",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_3"
+      ],
+      "location": {
+        "country_iso2": "DE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.358Z",
+      "integrity_sha256": "b93ed7e904530288571d8e02262a0b4b8a3281ed653c9b8041e39781b240b36a"
+    },
+    {
+      "registry_id": "IATI-DE:DE-CR-RA000217-HRB157125B",
+      "name": "Wayamo Foundation",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "DE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.363Z",
+      "integrity_sha256": "21502db61042b780b7ee465cd390eaf5e50640b11a567b88cb3a76430d8c0161"
+    },
+    {
+      "registry_id": "IATI-DE:DE-CR-RA000217-HRB196905",
+      "name": "Mnemonic gUG",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_23",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "DE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.362Z",
+      "integrity_sha256": "1807cbab40ad90298543ae4b8d3b3ac44d630d50d09b628eee530da1a436e15d"
+    },
+    {
+      "registry_id": "IATI-DE:DE-CR-RA000220-HRB7745",
+      "name": "Forschungsinstitut zur Zukunft der Arbeit GmbH (IZA)",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_80",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "DE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.359Z",
+      "integrity_sha256": "4ca39299c0c7450bfeca39d2e2a5d57040f6396fe7ee1a19c086030923e96052"
+    },
+    {
+      "registry_id": "IATI-DE:DE-CR-RA000220-VR3810",
+      "name": "Welthungerhilfe",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_4"
+      ],
+      "location": {
+        "country_iso2": "DE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.363Z",
+      "integrity_sha256": "6943787aaa5bdecdcc3ff84be495a891e1f6b6789b602c72b1a5e0e0a4e6a2d0"
+    },
+    {
+      "registry_id": "IATI-DE:DE-CR-RA000220-VR9971",
+      "name": "CARPO - Center for Applied Research in Partnership with the Orient",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "DE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.357Z",
+      "integrity_sha256": "1378ce91a6af815ca62a72a8b7ee171cdbd28508d4af67681e4c77229e1e2f36"
+    },
+    {
+      "registry_id": "IATI-DE:DE-CR-RA000243-HRB5459",
+      "name": "Particip GmbH",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_70",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "DE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.361Z",
+      "integrity_sha256": "f58dbea3fbe59337f87ec4fe12adab31faaecd9cff893d1cde37f6e005edd73a"
+    },
+    {
+      "registry_id": "IATI-DE:DE-CR-RA000299-HRB20002",
+      "name": "Solar Cooling Engineering GmbH",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_70",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "DE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.361Z",
+      "integrity_sha256": "107106b9521c034289a3389a0b1ec9f48ba137e6a515c8fc28a91c27c853852f"
+    },
+    {
+      "registry_id": "IATI-DE:DE-CR-RA000355-HRB726528",
+      "name": "Fosera Solarsystems GmbH & Co. KG aA",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_80",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "DE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.358Z",
+      "integrity_sha256": "d3cc93d271667dab82b3d7bb16d16350ef4b3dd515c390e711218052a7e1d54d"
+    },
+    {
+      "registry_id": "IATI-DE:DE-CR-VR32914",
+      "name": "Water Integrity Network Association",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "DE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.363Z",
+      "integrity_sha256": "06e75467277dd94885e2e5e387edab44fc6fb513ac6d216559ad5c28c1cd6c68"
+    },
+    {
+      "registry_id": "IATI-DE:XI-LEI-529900SKOVW9DANRVO17",
+      "name": "Legacy Landscapes Fund",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_60",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "DE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.360Z",
+      "integrity_sha256": "5a21d7b29e1eb0fdba1341c4377817aecded7d265f52b4df58bdf9fe857097cb"
+    },
+    {
+      "registry_id": "IATI-DE:XM-DAC-21033",
+      "name": "Transparency International Secretariat",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "DE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.362Z",
+      "integrity_sha256": "6e97f6231b866447dd5450e6849a2c93621dd0605083a4adc9771f7bfd8d824a"
+    }
+  ]
+}

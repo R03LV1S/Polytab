@@ -1,0 +1,117 @@
+{
+  "schema_version": "3.0.0",
+  "country_iso2": "BI",
+  "admin1_state_province": "NATIONAL",
+  "count": 5,
+  "organizations": [
+    {
+      "registry_id": "IATI-BI:BI-NIF-4000039331",
+      "name": "Twitezimbere",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "BI",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.362Z",
+      "integrity_sha256": "5673da81e34bebc887ae4c044e631f8a8ffad2c77c10447d1148a8519a93aacc"
+    },
+    {
+      "registry_id": "IATI-BI:BI-NIF-4000450306",
+      "name": "Burundi Leadership Training Programme",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22"
+      ],
+      "location": {
+        "country_iso2": "BI",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.357Z",
+      "integrity_sha256": "d5f10deba2831471cddaf6367662f365a8654caae54861d40d0f70572340b55d"
+    },
+    {
+      "registry_id": "IATI-BI:BI-NIF-4000742330",
+      "name": "AUXFIN Burundi",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_70",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "BI",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.357Z",
+      "integrity_sha256": "8415ab22f215af5a3911755c555c5171df37dda68355b1a30860b96e336b4072"
+    },
+    {
+      "registry_id": "IATI-BI:BI-NIF-4001055070",
+      "name": "Association des Editeurs du Magazine Jimbere",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "BI",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.359Z",
+      "integrity_sha256": "0a920bf8426e77491d8d62e2f303948686c4f99188bc3a1fed6e867d27413764"
+    },
+    {
+      "registry_id": "IATI-BI:BI-NIF-4001458845",
+      "name": "Association des Jeunes Burundais pour le Développement Inclusif (AJEBUDI-YAGA)",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "BI",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.356Z",
+      "integrity_sha256": "556fc147a3e90fc2b7bb128156d3700c5793ab57fd225ee813d6ac6c00462202"
+    }
+  ]
+}

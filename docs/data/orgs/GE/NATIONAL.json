@@ -1,0 +1,74 @@
+{
+  "schema_version": "3.0.0",
+  "country_iso2": "GE",
+  "admin1_state_province": "NATIONAL",
+  "count": 3,
+  "organizations": [
+    {
+      "registry_id": "IATI-GE:GE-NAPR-204861970",
+      "name": "Ilia State University",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_80",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "GE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.359Z",
+      "integrity_sha256": "5fb3e1573758b5d164bc0c540d6ec5f9112308b023477093b99ba65b6246e487"
+    },
+    {
+      "registry_id": "IATI-GE:GE-NAPR-367",
+      "name": "Curatio International Foundation",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "GE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.358Z",
+      "integrity_sha256": "425f06b59ba8aa7098244769228231c785110e4bdd81e1074f3bd775ff7291cf"
+    },
+    {
+      "registry_id": "IATI-GE:GE-RS-406061513",
+      "name": "Center for Participation and Development",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "GE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.358Z",
+      "integrity_sha256": "9b386e8fdd55835ff63e690e747198226e8bb9e2873905bee918635dc38dec86"
+    }
+  ]
+}

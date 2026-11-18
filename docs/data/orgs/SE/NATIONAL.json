@@ -1,0 +1,1878 @@
+{
+  "schema_version": "3.0.0",
+  "country_iso2": "SE",
+  "admin1_state_province": "NATIONAL",
+  "count": 85,
+  "organizations": [
+    {
+      "registry_id": "IATI-SE:SE-ON-202100-2817",
+      "name": "Swedish University of Agricultural Sciences",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_80",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.362Z",
+      "integrity_sha256": "035172ddf92839f94e87821ab0582f6eccab55161fb90fae4c398ef54672fe70"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-202100-3062",
+      "name": "Stockholm University",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_80",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.362Z",
+      "integrity_sha256": "15c3a32be9ba062be7277798e1d9d6a1bc6b35a5d2bd6f2949490dfde69ffb4e"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-252002-6564",
+      "name": "PMU, Pingst ffs",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.361Z",
+      "integrity_sha256": "bc73b2bce7e148f1c6e82704085a5ef23f0e77329e603c30d621edd78efc3fe8"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-252004-7131",
+      "name": "Equmeniakyrkan",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.362Z",
+      "integrity_sha256": "414e2356b81dedeeb42fa7354bad6d4ac47af0a96b0bc1dbedfc7eb6ee325a05"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802001-6047",
+      "name": "Internationella Kvinnoförbundet för Fred och Frihet",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.359Z",
+      "integrity_sha256": "6e12c52958687a2717b116005e762416824fafb74b5d86e3f025243dcd1c161c"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802002-3209",
+      "name": "SMC-Faith in Development",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.362Z",
+      "integrity_sha256": "49352e42867819b7bbce362c7e2c68e56f19a1a943952e97b2a8b258023563c1"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802002-4280",
+      "name": "Swedish Society for Nature Conservation (SSNC)",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.362Z",
+      "integrity_sha256": "a7a050e003753624c05d4c80b7434783f71e3bc1380955a7bb86fa93ea82c316"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802002-8711",
+      "name": "Swedish Red Cross",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.362Z",
+      "integrity_sha256": "ce56e9a27f9fe39b519b48841e68f5495b3aa1456af4b94956fdca40a8e9ef9f"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-8020028133",
+      "name": "RFSU",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.361Z",
+      "integrity_sha256": "3f7355677edf5c051e1b416335e8e0bb4e6821e0a01a6bf01a43ed6338e654fa"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802003-3083",
+      "name": "Svalorna Latinamerika",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.362Z",
+      "integrity_sha256": "d923647510ffac62c2d5f3f6f7fbfb826bd37a75e0c7b3420ef62e4ecc5c9ea6"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802004-1524",
+      "name": "We Effect",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.363Z",
+      "integrity_sha256": "2fd23800ecab1e50e090aa9f7fd19230045c10d31e2047c814fa3ac03cf5a4f2"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802004-5681",
+      "name": "Latinamerikagrupperna",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.360Z",
+      "integrity_sha256": "d5f1d20b4e746db4b696238036948b899b95ba3ed077569783264c490bd344f0"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802004-7737",
+      "name": "Föräldralösa Barn, en del av Adoptionscentrum",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.358Z",
+      "integrity_sha256": "c2386185b06826c9bd356eb7203c81c2434f82c60e64f9c2546ee773bc712a6e"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802005-9823",
+      "name": "WWF Sweden",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.363Z",
+      "integrity_sha256": "4bd7536fcc66bbdb9ba254d5b24cf02c66b670a31a06dffc21d98b7aa9bb3ea2"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802007-2446",
+      "name": "Afrikagrupperna Sweden",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.356Z",
+      "integrity_sha256": "0ae8152bff3548149ceb4aeb8a9604cdba516c7b5c0017cb69ea7cd7d8406ea2"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802007-5290",
+      "name": "International Council of Swedish Industry, NIR",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.360Z",
+      "integrity_sha256": "f3ffb517c9e7811c1949bb43b20fa63f6868e9d3859c73b64af03255ab3fa385"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802009-9258",
+      "name": "Palestinagrupperna i Sverige (PGS)",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.361Z",
+      "integrity_sha256": "00492674e76a491be317f7feaeba3f7f544ab442ec3ed01821afd645c663f8fd"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802010-4850",
+      "name": "Solidarity Committee for Afghanistan",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.362Z",
+      "integrity_sha256": "02e50efd5458ea98b879d7e1d400a84577d6a938880f7578495f03be35d195a7"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802010-8315",
+      "name": "The Hunger Project Sweden",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.362Z",
+      "integrity_sha256": "782c5ae209051655e7c22d8bf27b168e02377c190ca0946b5af222304f06ce89"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802011-1442",
+      "name": "Civil Rights Defenders",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.358Z",
+      "integrity_sha256": "603f66b2135ca78a67bf2800b15f4bb235997c72c835a102ca2d1360bc1210d4"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802011-1582",
+      "name": "Fryshuset",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_60",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.358Z",
+      "integrity_sha256": "20463891a0cb741bf48eb28d8d73537c729628bc61565d78abe085a68b8a7283"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802011-9353",
+      "name": "RFSL Forbundet",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.361Z",
+      "integrity_sha256": "395c349ee658cbc5751c5ec855d5cc8603b025d1b6b5feb6cf6e03cf31286d5a"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802012-8081",
+      "name": "Insamlingsstiftelsen Vi Planterar Träd - Vi-skogen",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.363Z",
+      "integrity_sha256": "fb4e85500026490cef846c8fe19a595022729ef7ac4fc5e155b398fc940aecd1"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802013-1333",
+      "name": "Olof Palmes Internationella Center",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.360Z",
+      "integrity_sha256": "afd46e87edaa2f03d7f0273816ec3e79be725788f67665cf0e0a1adc5be27175"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802013-3420",
+      "name": "Bris, Barnens rätt i samhället",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.357Z",
+      "integrity_sha256": "a21e01aa73bd9e4d3b52d53e8bf3f2bebfc84372a642d0d9ebdc9a116dae9c24"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802014-0763",
+      "name": "Stiftelsen The Stockholm Environment Institute (SEI)",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_60",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.361Z",
+      "integrity_sha256": "507b5c517eae31fa32eb2f1f8eed60dc1f711b457702951637380ec81ab2e95f"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802014-4294",
+      "name": "Union to Union",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.362Z",
+      "integrity_sha256": "161a52986d4b4da9d80a45322308380a5a70f5153311f960ae2bfa85062687c3"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802015-1281",
+      "name": "Coalition Clean Baltic",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_23",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.357Z",
+      "integrity_sha256": "bc3a74cadb13b536a3260d3ff68df4a83b839a527997f73773eafc4388ba9cde"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802016-0654",
+      "name": "Swedish Foundation for Human Rights",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.361Z",
+      "integrity_sha256": "ec80e87bfd322d38fdb898b14a74d8d026750938b7cdf9bf09f493126600aee4"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802016-9846",
+      "name": "Artikel2",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.357Z",
+      "integrity_sha256": "1dc2377cdbbd6750634d61a83db8dfc7ca66a71db5e3685ab78be42fa1f2ba30"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802017-3517",
+      "name": "Diakonia (Sweden)",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.358Z",
+      "integrity_sha256": "b45ff181d72f4c27cb289741383c94b19df81c2abfe71af857c4c0951554d72f"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802400-5046",
+      "name": "Framtidsjorden",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.358Z",
+      "integrity_sha256": "75d5803ba678346a41ac4ad77830eac076ea5ef32a5001aa1b7d8e7e634dc8ca"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802400-5418",
+      "name": "Reporters Without Borders Sweden",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.361Z",
+      "integrity_sha256": "67bb3ad2c2b77d08f03e867c0a2419bc02ef2910ff9773e60c096e7f94b4bc92"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802400-7620",
+      "name": "ForumCiv",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.358Z",
+      "integrity_sha256": "363b8c8f81c826c98641d4545fbc5fc7efb2acd319671590cac83c8c57b1b861"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802401-6134",
+      "name": "The Kvinna till Kvinna Foundation - Head Office",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.360Z",
+      "integrity_sha256": "ee7a61f46e62675e50c9b0d93ed6064bbc06cbefccb72aa15a40b7f31656b179"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-8024010855",
+      "name": "CONCORD Sweden",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.357Z",
+      "integrity_sha256": "ae34725759de170a432cf81449dd0bddc932d79b3f5a7700ab75f8ca9e8779c9"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802402-5143",
+      "name": "Fairtrade Sweden",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.358Z",
+      "integrity_sha256": "d639f03ccbb2367a45691bff6665683565f750f6575232d8f71a6a972df10365"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802402-6521",
+      "name": "Clowns Without Borders Sweden",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.358Z",
+      "integrity_sha256": "139e7b83806fc3dc169b6dbc66017af3e2f386b82aaf74b3b758f5ea8cc32b87"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802402-9376",
+      "name": "MyRight - Empowers People with Disabilities",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.360Z",
+      "integrity_sha256": "4948aaa25118f000b02fc7968105ffd77e78880ee7eeda16ef3950ba59c2a4d9"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802404-9150",
+      "name": "Plan International Sweden",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.361Z",
+      "integrity_sha256": "3b894e13879b92a54d395a222f2d489940e655d4fc63d317cc00f6fe6c9b62d2"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802405-7815",
+      "name": "SOS Barnbyar",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.362Z",
+      "integrity_sha256": "88b0092c8af7fa92e1c085d7d2949a1eb068ba225b059856eea8e0b6e3f229cb"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802406-2047",
+      "name": "Centre Party International Foundation",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_60",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.357Z",
+      "integrity_sha256": "4036b684df8d1ed9ffca50406078ba8b53f0b8186c0b2fe1d9cac5554c1f592d"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802407-6419",
+      "name": "Swedish International Liberal Centre",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_60",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.362Z",
+      "integrity_sha256": "48caaf8b2e2939feb53042956c545b0f3f62d5d7b6863b87a9fe663774bc7822"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802415-4737",
+      "name": "SWEDWATCH",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.362Z",
+      "integrity_sha256": "2be0b553e63ddecf29897d0ae04d5c08fea4578ec109cd382248cb508c288567"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802416-0262",
+      "name": "Fredens Hus",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.358Z",
+      "integrity_sha256": "0e5e57f84b6a660c24de6848781a171f060c404e6826beb7b0687f4c12910760"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802416-4280",
+      "name": "Engineers Without Borders Sweden",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.358Z",
+      "integrity_sha256": "7456d8eb9042f0a37a7073d13ce42974a9aabd9f59390ed3803f77cbb1a5ca6f"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802422-2336",
+      "name": "Christian Democratic International Center",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.360Z",
+      "integrity_sha256": "e829cb449ea3cfc71633faff3e08406cd5b9d727d0af87061ff0209585ba5c1c"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802425-8702",
+      "name": "Stockholm International Water Institute",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.362Z",
+      "integrity_sha256": "c60fe31114c3e438224e58a71eabcd495fa150ecf33c386db9883991c1e0b5df"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802426-0807",
+      "name": "Worlds Childrens Prize Foundation",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_60",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.363Z",
+      "integrity_sha256": "d2237297b033b5e0d43f1ff616ac51927c483761cca53a6f50160b08512e63aa"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802426-1268",
+      "name": "WaterAid Sweden",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.363Z",
+      "integrity_sha256": "ed9623ede2b8d641eb5a6d2128ebcbd6a8d22e0601a865d800e5008e085544fe"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802426-1664",
+      "name": "The Foundation Support for Development",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_60",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.358Z",
+      "integrity_sha256": "3403583d214fe701d836ce17b9d458d29ae43989ed75704e4855b85dc8d253a9"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802428-9103",
+      "name": "Bukobahjälpen",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.357Z",
+      "integrity_sha256": "5d3489b7471af3c159515b17983b0a926ea2491ff9195fffe2b673dc92b797d8"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802431-3044",
+      "name": "ActionAid International Sweden",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.356Z",
+      "integrity_sha256": "13af9558f221a572ebdc206e589a3e674803f07a8091b4084e8ca87d73bcf9a8"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802435-6613",
+      "name": "Save the Orangutan",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.362Z",
+      "integrity_sha256": "07aceacd41ce0a8f23fb8414d060d351e03a54d6284c1595e122b2ba5b77e10a"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802452-8500",
+      "name": "Regnskogsföreningen",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.361Z",
+      "integrity_sha256": "4d0b1ca322ae8e71996a7a72ac8a00bfaacd93e6a987f944618e26d2d9d99b45"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802457-8950",
+      "name": "Asov Stockholm",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.357Z",
+      "integrity_sha256": "f9ffea2af68eba6bf7649d5a44d662bb92954efdd3a5d9108ddbef7d72043a39"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802465-2987",
+      "name": "Kids of Uganda",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.360Z",
+      "integrity_sha256": "d58eef2bcb7e51edd372e768229f0801aaf7f25ebb74af5d16a70565a0dd35d7"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802467-0195",
+      "name": "Centralasiengrupperna",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_NGO",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.357Z",
+      "integrity_sha256": "e7fbf39080ac168241049dd6a47ac5a89cd8c48d7843bc32ee64ce75494851f2"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802473-4892",
+      "name": "Inclusive Business Partners",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.359Z",
+      "integrity_sha256": "427329c019caf4e03638dceccf7781e793b9f495912b6e60a203bd2d0140b537"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802477-9269",
+      "name": "Insamlingsstiftelsen Oxfam Sverige",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_60",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.361Z",
+      "integrity_sha256": "b017f1dc1363e021bc9c976df293c539527a2a012bae4a6e3967d6cc8d819c5a"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802478-1141",
+      "name": "Insamlingsstiftelsen Regnbågsfonden",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_60",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.361Z",
+      "integrity_sha256": "ee755f88734eef39609e207fcddedfa676262216ab54a6d98c0712ad43467fa2"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802481-2953",
+      "name": "International Rescue Committee Sverige Insamlingsstiftelse",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_60",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.359Z",
+      "integrity_sha256": "2a4896e611d6440f76876cd5ec25323410015c3f306fca12a027ce98fee1a68b"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802489-3680",
+      "name": "Contribution to opportunities",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.358Z",
+      "integrity_sha256": "9246bf77399c57f1fec30d986c3378de76913e47646a728d0ab72fc2b22db092"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802490-6953",
+      "name": "Acting for Change",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.356Z",
+      "integrity_sha256": "cc8c505864e40a7016cbe06237dbb95e8d062b9a5b1f31dce7ccc00f1242b35a"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802494-7882",
+      "name": "Lyktan Sweden",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.360Z",
+      "integrity_sha256": "a29b359e6542ff935dfb6b702bb437d779d2140565c68310dc6cf7c54315bdeb"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802497-7434",
+      "name": "IOGT-NTO-rorelsen Ideell Forening",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.359Z",
+      "integrity_sha256": "67f7eb7c519d158e7d4b6f2b978bb816f6f8b7f21ddce989e494e9a5256799a0"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802501-4732",
+      "name": "Unite 2 Learn",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.362Z",
+      "integrity_sha256": "bedd24ac333880d11aec3441111cecf2393c756949244010bddc8bfe4278ce46"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802521-8119",
+      "name": "Pediatric Health Initiative",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_24",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.361Z",
+      "integrity_sha256": "107f44e145f181aea85cd4edb9fbbac7927410ea320ff19ca637db30e09800f2"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802528-0002",
+      "name": "Ethical Trade Sweden",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.358Z",
+      "integrity_sha256": "dbd78ede10d668f9ca09f5adcc7f5066cf1cfda304e3735d07f7a44defe68873"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802536-7759",
+      "name": "Beredskapslyftet Ideell Förening",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.357Z",
+      "integrity_sha256": "2e24b555b6fb3eac5f9b83dea91cc11e4e68450f2607bb14dc589bddd6f5d6b5"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802539-4035",
+      "name": "ADRA Sweden",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.356Z",
+      "integrity_sha256": "593e53048fcad36f3c014aec18ac2e91b0081726bf7dea4900c63cc0aa603f8f"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-802546-9514",
+      "name": "SfL International",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.361Z",
+      "integrity_sha256": "46b6f61447d0e2e30ba43f17eddf567b4be795b5a2753ac12371738812b11c3d"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-814000-8643",
+      "name": "Hand in Hand Sweden",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.359Z",
+      "integrity_sha256": "810f9ac3d31e01465d7956dc372c2d6910c996b659d615abdec8596a981a556d"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-817602-2302",
+      "name": "Life & Peace Institute (Stiftelsen Liv- och Fred-institutet)",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_60",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.360Z",
+      "integrity_sha256": "b66a5ec7d6ea161262270c81877d7bb1c83292368b4e14ee7eb9170b7935bddf"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-826000-8696",
+      "name": "The Swedish Fellowship of Reconciliation",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.362Z",
+      "integrity_sha256": "c05439fbe3f4a0ae43014cea391ef81b9c60a103cfde31e3d446400171d50574"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-845000-0768",
+      "name": "IM Swedish Development Partner",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.359Z",
+      "integrity_sha256": "47fe4d18bc09ede6d60c73a76ea30ff8146635fb123be4825c2c77ed84c6cd07"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-845000-4240",
+      "name": "Föreningen Svalorna Indien Bangladesh",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.361Z",
+      "integrity_sha256": "dde2c881c63b9440545be23f2a39e5defc14e97e5a07d262aa8149620c5847a3"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-846003-9020",
+      "name": "Barnfonden",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.357Z",
+      "integrity_sha256": "17b035e15ff84d38746d58827208b0837ac28928d758d4d3fec78f1fe819c1ea"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-855100-9882",
+      "name": "Jordens Vänner / Friends of the Earth Sweden",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.359Z",
+      "integrity_sha256": "70ef10f30e738f354ae5c9bcd3077a66a0e5d1d882b424bc17cc37c88b72cf9a"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-857205-8694",
+      "name": "Praktisk Solidaritet",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.361Z",
+      "integrity_sha256": "e93eb1e99e730447de87d77d2b9963a12fc8572730370932634717f06642da8a"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-857206-6689",
+      "name": "Luft- och klimatsekretariatet",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.356Z",
+      "integrity_sha256": "672d1b9cab41cc9cf8066569cbed87d75800873cb499a67f23976ea40fa34ec6"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-875002-7271",
+      "name": "Evangeliska Frikyrkan",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.358Z",
+      "integrity_sha256": "f83fbefac83a0afd655ecedc899535b2c2b546f2bc2e4e8c5be66f77c8907386"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-875003-0846",
+      "name": "Intacts Vänner",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.359Z",
+      "integrity_sha256": "017ef46d2925807fa9c16e8193b403eb0d08b6c8d9d7fd07980ac35d7ee64669"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-886500-3910",
+      "name": "ABF Hälsingland",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_23",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.356Z",
+      "integrity_sha256": "0fe05aacc27c0d8fc6e2bd9a30071eb8876eacf852fbee233d9b87abdb57bbf0"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-902000-3845",
+      "name": "Global Water Partnership",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.359Z",
+      "integrity_sha256": "0087d18481b49a75536bd39076f203b63703d4378eec19d512afbb4fe6b0b460"
+    }
+  ]
+}

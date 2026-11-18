@@ -1,0 +1,796 @@
+{
+  "schema_version": "3.0.0",
+  "country_iso2": "IN",
+  "admin1_state_province": "NATIONAL",
+  "count": 36,
+  "organizations": [
+    {
+      "registry_id": "IATI-IN:CIKS",
+      "name": "Centre for Indian Knowledge Systems",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_80",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "IN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.357Z",
+      "integrity_sha256": "049208f67fea51e5a45d1ebf459130e2fd31cd7d33e37d5fae90a68ab420e300"
+    },
+    {
+      "registry_id": "IATI-IN:HK-CR-1494242",
+      "name": "Solidaridad South & South-East Asia",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "IN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.362Z",
+      "integrity_sha256": "0594ef5ef091dc883a36a5ddfdf6d8fe564056a91da95c8f343a4a3f0c4432fc"
+    },
+    {
+      "registry_id": "IATI-IN:IN-",
+      "name": "MAMTA - Health Institute for Mother and Child",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "IN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.360Z",
+      "integrity_sha256": "a99e23b396d96819da1cbb9fc3396854a3c50c19b7af61e39dc1bbebc7323965"
+    },
+    {
+      "registry_id": "IATI-IN:IN-AR-775",
+      "name": "Pragya India",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "IN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.361Z",
+      "integrity_sha256": "4347c9cd623e1553cc869dc909381a0d483d0a07f4aa780f00be7f1234f60e0b"
+    },
+    {
+      "registry_id": "IATI-IN:IN-ITA-1886",
+      "name": "Micro Insurance Academy",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_80",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "IN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.360Z",
+      "integrity_sha256": "c35fdf5110907450ba7e16359ab13b9f7220b86875496352acf4b90779ba1a72"
+    },
+    {
+      "registry_id": "IATI-IN:IN-MCA-AAE-8458",
+      "name": "Deloitte Touche Tohmatsu India LLP",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_70",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "IN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.358Z",
+      "integrity_sha256": "3512c75628154ef985e381471ee4989fb91c605906ac0aace8cac4343cb24122"
+    },
+    {
+      "registry_id": "IATI-IN:IN-MCA-ACH-1007",
+      "name": "DMKM Community Healthcare Initiatives and Priorities (CHIP) LLP",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_70",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "IN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.357Z",
+      "integrity_sha256": "b834e3ded912a50f9bf09edad9168434218614fd926211fc7b28e2b27e473527"
+    },
+    {
+      "registry_id": "IATI-IN:IN-MCA-U74140DL1998PLC097579",
+      "name": "IPE Global Limited",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_70",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "IN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.359Z",
+      "integrity_sha256": "5926428f141ca46b968ca232e8086f35f17548ed46e3f9431e152303de5a8c2b"
+    },
+    {
+      "registry_id": "IATI-IN:IN-MCA-U74140WB1983PTC036093",
+      "name": "PricewaterhouseCoopers Private Limited India",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_70",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "IN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.361Z",
+      "integrity_sha256": "bbddce50c779e716d691f5b3d0c1c3c571dacc276b989c321cf6809398fb6c74"
+    },
+    {
+      "registry_id": "IATI-IN:IN-MCA-U74900TG2007NPL055085",
+      "name": "George Institute for Global Health",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_80",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "IN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.362Z",
+      "integrity_sha256": "ccc2267930a1366a26008422f5a2af6905b1695e74b58b11896d6f31044e0b4c"
+    },
+    {
+      "registry_id": "IATI-IN:IN-MCA-U74900TN2013PTC093426",
+      "name": "Basil Energetics Private Limited",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_70",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "IN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.357Z",
+      "integrity_sha256": "bcc2bae6a64a8e881a70c1c73e7bb0882a017c8ceea45c7820ad8dc1f064ad5f"
+    },
+    {
+      "registry_id": "IATI-IN:IN-MCA-U74999DL2004NPL131340",
+      "name": "Oxfam India",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22"
+      ],
+      "location": {
+        "country_iso2": "IN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.361Z",
+      "integrity_sha256": "161ef3a68d37d62250ab0c6c1c6233ea7cfe98015fa50f09f6dbc6a4f5a25af4"
+    },
+    {
+      "registry_id": "IATI-IN:IN-MCA-U74999MH2015PTC264094",
+      "name": "Devidayal Solar Solutions Private Limited",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_70",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "IN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.358Z",
+      "integrity_sha256": "9b67dc0f3c2bb11736ebdd5dfc99b0899c0e33d805b3640cce5a85c15230d6cd"
+    },
+    {
+      "registry_id": "IATI-IN:IN-MCA-U74999TN2010PTC076608",
+      "name": "Athena Infonomics India Private Limited",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_70",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "IN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.357Z",
+      "integrity_sha256": "03288f14ac57b1699dab2a45876b7d3cc3b59c6afff34eef2c33fa7b11f897b8"
+    },
+    {
+      "registry_id": "IATI-IN:IN-MHA-010260407",
+      "name": "NewBeginnings Charitable Trust",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "IN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.360Z",
+      "integrity_sha256": "7e2b60de9c17298987c87408747f71858380a3addf7be8142b7bec12957c7993"
+    },
+    {
+      "registry_id": "IATI-IN:IN-MHA-083780010",
+      "name": "Society For Promotion of Area Resource Centres",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "IN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.362Z",
+      "integrity_sha256": "7b9e984b46087e2f8d44764bcf92970cd343156d55b6bc41c20b0a275b5b120b"
+    },
+    {
+      "registry_id": "IATI-IN:IN-MHA-083781496",
+      "name": "Fight Hunger Foundation",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "IN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.358Z",
+      "integrity_sha256": "242f22932b69aa7cdb37e197cad4e61ded8caad7d882f063aae39f15129bb2e9"
+    },
+    {
+      "registry_id": "IATI-IN:IN-MHA-083930308",
+      "name": "Mahila Sarvangeen Utkarsh Mandal, Pune, India",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "IN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.360Z",
+      "integrity_sha256": "7869a02c7a4874bd875f400908b576f16c78f327252b89f8ea568c0158c682a4"
+    },
+    {
+      "registry_id": "IATI-IN:IN-MHA-094421114",
+      "name": "IT for Change",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_80",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "IN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.359Z",
+      "integrity_sha256": "3b71863b66d07fbaf26b6022a241a9a7fa7baceade6fa66dfd22bab628116217"
+    },
+    {
+      "registry_id": "IATI-IN:IN-MHA-094421947",
+      "name": "Institute of Public Health Bengaluru",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_24",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "IN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.359Z",
+      "integrity_sha256": "5ac52122900e64c7e01708d129ef858128e26becd343166e1c7c95b7239b94c2"
+    },
+    {
+      "registry_id": "IATI-IN:IN-MHA-1070-99-2000",
+      "name": "CIVIL INITIATIVES FOR DEVELOPMENT AND PEACE INDIA",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "IN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.357Z",
+      "integrity_sha256": "86c35e3d81b2bdde45a30044b87d98ab3c3ae1f42758a0b1fbe01a2a7523cb48"
+    },
+    {
+      "registry_id": "IATI-IN:IN-MHA-147110006",
+      "name": "CINI",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22"
+      ],
+      "location": {
+        "country_iso2": "IN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.357Z",
+      "integrity_sha256": "48f616af9c7b5b77cfab52a907449f70431085f03c537596aecd2c992e3f4c9a"
+    },
+    {
+      "registry_id": "IATI-IN:IN-MHA-147120028",
+      "name": "Lutheran World Service India Trust",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22"
+      ],
+      "location": {
+        "country_iso2": "IN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.360Z",
+      "integrity_sha256": "b8d5865e0d0cfe9898a350591213b571ed3d0bd3cf62c51043c77a17954072e8"
+    },
+    {
+      "registry_id": "IATI-IN:IN-MHA-231650010",
+      "name": "HelpAge India",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "IN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.359Z",
+      "integrity_sha256": "b5731df0157444bbfa392bdb4521973486380b9aadda952005f0bb55d1fc13f6"
+    },
+    {
+      "registry_id": "IATI-IN:IN-MHA-231660424",
+      "name": "Integrated Research and Action For Developement",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_23",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "IN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.359Z",
+      "integrity_sha256": "75fdf04e4c1beedf8301fa49326eda992ed2305070ede9703df25ac9cdd380ca"
+    },
+    {
+      "registry_id": "IATI-IN:IN-MHA-231660448",
+      "name": "CENTRE FOR CHRONIC DISEASE CONTROL",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "IN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.357Z",
+      "integrity_sha256": "a603e27f38c5f604dc188a805967fdd7ff094d3076b297a505c6deafe5b0d06d"
+    },
+    {
+      "registry_id": "IATI-IN:IN-MHA-231660927",
+      "name": "Public Health Foundation of India",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "IN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.361Z",
+      "integrity_sha256": "7a8ddf6ff263f0269c8d1cbdc3294a675fff3c16f75c31f8d36e4d6b637a47f2"
+    },
+    {
+      "registry_id": "IATI-IN:IN-MHA-271820001",
+      "name": "Sangath",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_23",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "IN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.362Z",
+      "integrity_sha256": "fcf9e61303f26425d2b1c850037804c7d19b982601fee35206cee0f585bdde6b"
+    },
+    {
+      "registry_id": "IATI-IN:IN-MHA-337680017",
+      "name": "Network For Enterprise Enhancement and Development Support",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22"
+      ],
+      "location": {
+        "country_iso2": "IN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.360Z",
+      "integrity_sha256": "4aa2514204a37c62300f7c1482517125419969db80d2a56b85e660918558b4a9"
+    },
+    {
+      "registry_id": "IATI-IN:IN-MHA-5897",
+      "name": "The Leprosy Mission Trust India",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "IN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.362Z",
+      "integrity_sha256": "9526afeeca17a0893e7a6b355ec7d98999f07d6cbdfaf6befb5d46e355f7d5ec"
+    },
+    {
+      "registry_id": "IATI-IN:IN-PAN-AAATN2786N",
+      "name": "Nightingales Medical Trust",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "IN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.360Z",
+      "integrity_sha256": "1bc6d4fb284a416fff847ab5cb4bc686f01a507ac75efc8ed907bffc7bb0e084"
+    },
+    {
+      "registry_id": "IATI-IN:IN-PAN-AAETN9841L",
+      "name": "National Scouts and Guide Organization",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "IN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.360Z",
+      "integrity_sha256": "4885fe19d646e2da0a582649d1b940d4b3dbc8be5f1925a042f5d51b97cd5cc2"
+    },
+    {
+      "registry_id": "IATI-IN:US-EIN-31-1812979",
+      "name": "CREA",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "IN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.358Z",
+      "integrity_sha256": "27705c5e3190e0daf9b1616618bdff2fbfd9473f9781e9f735b65957e37923a6"
+    },
+    {
+      "registry_id": "IATI-IN:XI-ROR-008SSZM38",
+      "name": "M S Swaminathan Research Foundation",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "IN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.360Z",
+      "integrity_sha256": "87c03014abce92b6729dada12e4b779f00fa4915c5062df80a2608bf04c3f47b"
+    },
+    {
+      "registry_id": "IATI-IN:XI-ROR-026A3NK20",
+      "name": "Sitaram Bhartia institute of Science and Research",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_80",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "IN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.361Z",
+      "integrity_sha256": "76b34bab93afb47572772edc857e68ede35a0a714f86ea5ca81594b1dcd2bc56"
+    },
+    {
+      "registry_id": "IATI-IN:XI-ROR-05E15A779",
+      "name": "All India Institute of Medical Sciences Jodhpur",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_80",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "IN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.356Z",
+      "integrity_sha256": "2b660f8557811b60613e22385e9d16f308d26914ead8de12a4e73a5ef06871eb"
+    }
+  ]
+}

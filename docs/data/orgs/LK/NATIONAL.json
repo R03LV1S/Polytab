@@ -1,0 +1,96 @@
+{
+  "schema_version": "3.0.0",
+  "country_iso2": "LK",
+  "admin1_state_province": "NATIONAL",
+  "count": 4,
+  "organizations": [
+    {
+      "registry_id": "IATI-LK:LK-DRC-GA139",
+      "name": "Women's Fund Asia",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_23",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "LK",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.363Z",
+      "integrity_sha256": "4a8d3e7b04ac0829aa8b6cb50b887ac40a8f22bbac62b419e770f9deed95d11b"
+    },
+    {
+      "registry_id": "IATI-LK:LK-DRC-GA635",
+      "name": "Institute for Research and Development in Health & Social Care",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_80",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "LK",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.359Z",
+      "integrity_sha256": "9a40afe6d66487e37517c22047328cac93f346f3cde1d53b3136af4e1394413c"
+    },
+    {
+      "registry_id": "IATI-LK:XI-ROR-02PHN5242",
+      "name": "University of Colombo",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_80",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "LK",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.362Z",
+      "integrity_sha256": "0e9d0803e5fd26c0b05a6d99fa216fa3d42020593f8d3320eb14fa5de4fe3d18"
+    },
+    {
+      "registry_id": "IATI-LK:XI-ROR-02R91MY29",
+      "name": "University of Kelaniya",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_80",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "LK",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.358Z",
+      "integrity_sha256": "e8226eb399bab347d66a0173c0346a26dd2fc25ba07f66f951a3377bcb495a18"
+    }
+  ]
+}

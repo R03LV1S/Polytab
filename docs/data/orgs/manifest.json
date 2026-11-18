@@ -1,20 +1,272 @@
 {
   "schema_version": "3.0.0",
-  "generated_at_utc": "2026-11-17T20:58:33.516Z",
-  "total_verified_orgs": 22204,
-  "total_shards": 4,
+  "generated_at_utc": "2026-11-18T00:24:43.474Z",
+  "total_verified_orgs": 24058,
+  "total_shards": 108,
   "summary_metrics": {
-    "added_this_cycle": 0,
-    "updated_this_cycle": 0,
+    "added_this_cycle": 1854,
+    "updated_this_cycle": 2,
     "irs_revoked_purged_this_cycle": 0
   },
   "shards": [
+    {
+      "shard": "orgs/AE/NATIONAL.json",
+      "country_iso2": "AE",
+      "admin1_state_province": "NATIONAL",
+      "count": 2,
+      "sha256": "a05fdbe94db08eee637657e30ffac4c57004d7ddd0ebceac413b9ee350b1ea9e"
+    },
+    {
+      "shard": "orgs/AF/NATIONAL.json",
+      "country_iso2": "AF",
+      "admin1_state_province": "NATIONAL",
+      "count": 8,
+      "sha256": "e65604c333c8dbef385104d461699310a61be7493a3370388498de457b20b218"
+    },
+    {
+      "shard": "orgs/AM/NATIONAL.json",
+      "country_iso2": "AM",
+      "admin1_state_province": "NATIONAL",
+      "count": 3,
+      "sha256": "dd7759ea4252cc4a575f460387b74fd8d715bd05dd0309ae5709d42c44a6b4d4"
+    },
+    {
+      "shard": "orgs/AN/NATIONAL.json",
+      "country_iso2": "AN",
+      "admin1_state_province": "NATIONAL",
+      "count": 1,
+      "sha256": "aec68bb1f90a9c9bc461317fb9fed736a1b372ef59abf33df492624e048ae1fe"
+    },
+    {
+      "shard": "orgs/AR/NATIONAL.json",
+      "country_iso2": "AR",
+      "admin1_state_province": "NATIONAL",
+      "count": 2,
+      "sha256": "235485270d35d15e94e5c15e0a37f078d6a16965bbaea4e85a22f0de326047b9"
+    },
+    {
+      "shard": "orgs/AT/NATIONAL.json",
+      "country_iso2": "AT",
+      "admin1_state_province": "NATIONAL",
+      "count": 3,
+      "sha256": "7a027c4c57361dcdbab557dc9d534ac4bf129494a6dde63aa4c485f9937b8e0b"
+    },
+    {
+      "shard": "orgs/AU/NATIONAL.json",
+      "country_iso2": "AU",
+      "admin1_state_province": "NATIONAL",
+      "count": 10,
+      "sha256": "f1283f5d4775cd886977df465a38fa2f661b5e4494c5f153d4cf98771bac44ba"
+    },
+    {
+      "shard": "orgs/BA/NATIONAL.json",
+      "country_iso2": "BA",
+      "admin1_state_province": "NATIONAL",
+      "count": 1,
+      "sha256": "aeaf8444e5b065a9e1d2fd04c0d3654d06ed0a71f90a615b8190b77be32a2565"
+    },
+    {
+      "shard": "orgs/BD/NATIONAL.json",
+      "country_iso2": "BD",
+      "admin1_state_province": "NATIONAL",
+      "count": 25,
+      "sha256": "0b51d48a17d61ec82e9ae649d79166c29296b25231605f16af34c273f81c9a23"
+    },
+    {
+      "shard": "orgs/BE/NATIONAL.json",
+      "country_iso2": "BE",
+      "admin1_state_province": "NATIONAL",
+      "count": 89,
+      "sha256": "6f19e839a78e3b7fbabacbbf4add9e4ae0e74e49d346ca884ec779f98430998b"
+    },
+    {
+      "shard": "orgs/BF/NATIONAL.json",
+      "country_iso2": "BF",
+      "admin1_state_province": "NATIONAL",
+      "count": 7,
+      "sha256": "b13da4812ea0a7061fda45e3bab55debaf84fcd0c752a6586bb2829f10c828f5"
+    },
+    {
+      "shard": "orgs/BI/NATIONAL.json",
+      "country_iso2": "BI",
+      "admin1_state_province": "NATIONAL",
+      "count": 5,
+      "sha256": "7898a580288fb0c6b1b0096332d2950d7a5ed45d0f652fc5f4ef2476e598575d"
+    },
+    {
+      "shard": "orgs/BJ/NATIONAL.json",
+      "country_iso2": "BJ",
+      "admin1_state_province": "NATIONAL",
+      "count": 10,
+      "sha256": "469dbc7e570881f2a54b29ed3360c56c55e274e9ccc68d9a140059191346d0d6"
+    },
+    {
+      "shard": "orgs/BO/NATIONAL.json",
+      "country_iso2": "BO",
+      "admin1_state_province": "NATIONAL",
+      "count": 3,
+      "sha256": "14e1d52a0a4144214464bf3c96eeeb989bab76e0a693fd0cb1b34eb63f637e3d"
+    },
+    {
+      "shard": "orgs/BR/NATIONAL.json",
+      "country_iso2": "BR",
+      "admin1_state_province": "NATIONAL",
+      "count": 11,
+      "sha256": "f437a9c9978f95dfa9a298ba34db795685b5ae8393373025698958a11a17dd27"
+    },
+    {
+      "shard": "orgs/BW/NATIONAL.json",
+      "country_iso2": "BW",
+      "admin1_state_province": "NATIONAL",
+      "count": 2,
+      "sha256": "6e1460a2176529139d455206125bbd57b7a79a988cb0cddd7167fb6155e0265f"
+    },
+    {
+      "shard": "orgs/CA/NATIONAL.json",
+      "country_iso2": "CA",
+      "admin1_state_province": "NATIONAL",
+      "count": 19,
+      "sha256": "d83fa4ecccef5295ab46922eb698a7f67645267494342063b90259154b9d02c3"
+    },
+    {
+      "shard": "orgs/CD/NATIONAL.json",
+      "country_iso2": "CD",
+      "admin1_state_province": "NATIONAL",
+      "count": 5,
+      "sha256": "002410c78c6fb2cb2910709d232b9ee108b8ffa6b730019784818aef0f682d3d"
+    },
+    {
+      "shard": "orgs/CF/NATIONAL.json",
+      "country_iso2": "CF",
+      "admin1_state_province": "NATIONAL",
+      "count": 2,
+      "sha256": "132bce14b92935ef4b745145dddf55c33ad3b7f7fc935ba98429982d991e844c"
+    },
+    {
+      "shard": "orgs/CH/NATIONAL.json",
+      "country_iso2": "CH",
+      "admin1_state_province": "NATIONAL",
+      "count": 41,
+      "sha256": "520b3e5e25f074b5946256200ee8fe59aa8767a42f4dffb3b2f46b91700ad92c"
+    },
+    {
+      "shard": "orgs/CI/NATIONAL.json",
+      "country_iso2": "CI",
+      "admin1_state_province": "NATIONAL",
+      "count": 1,
+      "sha256": "62cb4645590ed15444ab924e512b9250efdc389285c9f8dc59d44e7a585304b7"
+    },
+    {
+      "shard": "orgs/CN/NATIONAL.json",
+      "country_iso2": "CN",
+      "admin1_state_province": "NATIONAL",
+      "count": 1,
+      "sha256": "600efe29c51b6ab7a1a4daf03978cf2f6f5051857e4ef4f6b1b4ae841afcfd45"
+    },
+    {
+      "shard": "orgs/CO/NATIONAL.json",
+      "country_iso2": "CO",
+      "admin1_state_province": "NATIONAL",
+      "count": 20,
+      "sha256": "c596696ce6a561260c67eddef13677ad1b6755bc85f45e84803a136423eaf633"
+    },
+    {
+      "shard": "orgs/CR/NATIONAL.json",
+      "country_iso2": "CR",
+      "admin1_state_province": "NATIONAL",
+      "count": 3,
+      "sha256": "854bcca04cbd713096186d837b491ae71f69ea1792ae6943c0b032e975b3ef56"
+    },
+    {
+      "shard": "orgs/CZ/NATIONAL.json",
+      "country_iso2": "CZ",
+      "admin1_state_province": "NATIONAL",
+      "count": 2,
+      "sha256": "e073e7a76667c307138f6060182c7e6c9e4dc886ebac291f0dfb6d5b7e720fcc"
+    },
+    {
+      "shard": "orgs/DE/NATIONAL.json",
+      "country_iso2": "DE",
+      "admin1_state_province": "NATIONAL",
+      "count": 16,
+      "sha256": "10bf8bb3e071669e1f03ecef6d6c3d9ae54013ac62e7a9c2ac037a3f87297634"
+    },
+    {
+      "shard": "orgs/DK/NATIONAL.json",
+      "country_iso2": "DK",
+      "admin1_state_province": "NATIONAL",
+      "count": 28,
+      "sha256": "dc19ff2b06a2612513d46dadd270cfe21b0ed1dbc3fba780e121af6d2865e6bd"
+    },
+    {
+      "shard": "orgs/EC/NATIONAL.json",
+      "country_iso2": "EC",
+      "admin1_state_province": "NATIONAL",
+      "count": 2,
+      "sha256": "f4043a1f893ea52ceaf2250712c19719453b7a541881a539912ba04b40ddd3d1"
+    },
+    {
+      "shard": "orgs/EG/NATIONAL.json",
+      "country_iso2": "EG",
+      "admin1_state_province": "NATIONAL",
+      "count": 3,
+      "sha256": "86ab5ef829428ab06fed0f84f16b306f08290dd15d83d60d93f3a063045853c9"
+    },
+    {
+      "shard": "orgs/ES/NATIONAL.json",
+      "country_iso2": "ES",
+      "admin1_state_province": "NATIONAL",
+      "count": 3,
+      "sha256": "d675feb480aeafe8ec3f9aecb8f5fe63fb40f811be1b7a0285cf42117ebb0b96"
+    },
+    {
+      "shard": "orgs/ET/NATIONAL.json",
+      "country_iso2": "ET",
+      "admin1_state_province": "NATIONAL",
+      "count": 25,
+      "sha256": "a68fdef7d719af58606c45fb6595cfbc215956f553e57d93e6d19b53c1b0241e"
+    },
+    {
+      "shard": "orgs/FI/NATIONAL.json",
+      "country_iso2": "FI",
+      "admin1_state_province": "NATIONAL",
+      "count": 6,
+      "sha256": "0f8eb6b4c126d8fab41e8b25c504b6ef32b4ea8fe2a72981ee82b36f260a2152"
+    },
+    {
+      "shard": "orgs/FR/NATIONAL.json",
+      "country_iso2": "FR",
+      "admin1_state_province": "NATIONAL",
+      "count": 15,
+      "sha256": "8fbbd282b98325fb89bb30e96d2a2c12ea8bb16a88a3a111769b8330a86e93d7"
+    },
     {
       "shard": "orgs/GB/ENG-WLS.json",
       "country_iso2": "GB",
       "admin1_state_province": "ENG-WLS",
       "count": 5003,
       "sha256": "538816ccc6354e4e068101aca4cd98d55a1ba96bbc9ea37f1f670fcafc646fc8"
+    },
+    {
+      "shard": "orgs/GB/NATIONAL.json",
+      "country_iso2": "GB",
+      "admin1_state_province": "NATIONAL",
+      "count": 447,
+      "sha256": "15ab858be4c4e9d9fba2f9a1f28a3e292c39a310a2a57fde5bb72ced0cedd639"
+    },
+    {
+      "shard": "orgs/GE/NATIONAL.json",
+      "country_iso2": "GE",
+      "admin1_state_province": "NATIONAL",
+      "count": 3,
+      "sha256": "265728814ec1f4980c5107dfa2b2300c33b25a94368f7a88c37a6af3882cdcdb"
+    },
+    {
+      "shard": "orgs/GH/NATIONAL.json",
+      "country_iso2": "GH",
+      "admin1_state_province": "NATIONAL",
+      "count": 31,
+      "sha256": "130ab38ad4495be4c5d3798b00625bb41b88a24e29771b821124de7dd190de1a"
     },
     {
       "shard": "orgs/GLOBAL/_NATIONAL.json",
@@ -24,11 +276,291 @@
       "sha256": "2f87839f138f5e576b4b6e42ff183eb1a0f3002445b00d23e769aef55b48133a"
     },
     {
+      "shard": "orgs/GT/NATIONAL.json",
+      "country_iso2": "GT",
+      "admin1_state_province": "NATIONAL",
+      "count": 2,
+      "sha256": "29801bc2e9631502026c51a5d642307e368b0c84f3e971fcd55594164f552e50"
+    },
+    {
+      "shard": "orgs/GW/NATIONAL.json",
+      "country_iso2": "GW",
+      "admin1_state_province": "NATIONAL",
+      "count": 1,
+      "sha256": "d9a0b7907768bec2226875556bef98dc22a5f525bd5586691ef9d503314ca7de"
+    },
+    {
+      "shard": "orgs/HK/NATIONAL.json",
+      "country_iso2": "HK",
+      "admin1_state_province": "NATIONAL",
+      "count": 3,
+      "sha256": "9a8538cca9316d00080a1938b0efb35ea893f430a8d9e94c5be49ffe9b6f1349"
+    },
+    {
+      "shard": "orgs/ID/NATIONAL.json",
+      "country_iso2": "ID",
+      "admin1_state_province": "NATIONAL",
+      "count": 19,
+      "sha256": "ba31817d2f57cdc3c7037f73a4cb2ed3e16d2e4c290a3ca40fc364cfa1e6c67a"
+    },
+    {
+      "shard": "orgs/IE/NATIONAL.json",
+      "country_iso2": "IE",
+      "admin1_state_province": "NATIONAL",
+      "count": 9,
+      "sha256": "bf3d6404a562e3b8e61786ecc27bc0c3dcb362ffadd18c763c43b19208b44082"
+    },
+    {
+      "shard": "orgs/IL/NATIONAL.json",
+      "country_iso2": "IL",
+      "admin1_state_province": "NATIONAL",
+      "count": 2,
+      "sha256": "3dd5753a0ffe4bd340f5d86a0b8c7e5ec4288f57e8c567287a03b7b827b37e8e"
+    },
+    {
+      "shard": "orgs/IM/NATIONAL.json",
+      "country_iso2": "IM",
+      "admin1_state_province": "NATIONAL",
+      "count": 1,
+      "sha256": "2d17983d3192746df7de44fcc09840039f5bbb513a4226185eea8abf043e37cd"
+    },
+    {
+      "shard": "orgs/IN/NATIONAL.json",
+      "country_iso2": "IN",
+      "admin1_state_province": "NATIONAL",
+      "count": 36,
+      "sha256": "38cb438eef5574a343ebbc9a40c2fae09a7a544189521e7b990a8b65af5b14f8"
+    },
+    {
+      "shard": "orgs/IQ/NATIONAL.json",
+      "country_iso2": "IQ",
+      "admin1_state_province": "NATIONAL",
+      "count": 2,
+      "sha256": "12c39c761b617c6f4221b2008d496d32612cfa76fa84c331a5d69ee516a44d8a"
+    },
+    {
+      "shard": "orgs/IT/NATIONAL.json",
+      "country_iso2": "IT",
+      "admin1_state_province": "NATIONAL",
+      "count": 6,
+      "sha256": "714f98b9d0c5a1da4bd0ee7bdb3841effea5a9bb3d8b3f4559e1fa4a229f94af"
+    },
+    {
+      "shard": "orgs/JM/NATIONAL.json",
+      "country_iso2": "JM",
+      "admin1_state_province": "NATIONAL",
+      "count": 1,
+      "sha256": "279e25f301a562714fe7c18ff4031b94061e200aa30a58ec3324858da6132551"
+    },
+    {
+      "shard": "orgs/JO/NATIONAL.json",
+      "country_iso2": "JO",
+      "admin1_state_province": "NATIONAL",
+      "count": 18,
+      "sha256": "7919ae971c142249615f8f113b4aac60c073d3f61399c3a5aa22ac21aabc8df3"
+    },
+    {
+      "shard": "orgs/KE/NATIONAL.json",
+      "country_iso2": "KE",
+      "admin1_state_province": "NATIONAL",
+      "count": 74,
+      "sha256": "e933e31c901765bf85ca79ebfe0ce631cbf63453edfae4dcebaef41593779e22"
+    },
+    {
+      "shard": "orgs/KG/NATIONAL.json",
+      "country_iso2": "KG",
+      "admin1_state_province": "NATIONAL",
+      "count": 1,
+      "sha256": "8ee94655de01b5df8e4d54100c0a1fd663f71aa1a5f70b5232a003e429b4d544"
+    },
+    {
+      "shard": "orgs/KH/NATIONAL.json",
+      "country_iso2": "KH",
+      "admin1_state_province": "NATIONAL",
+      "count": 2,
+      "sha256": "89f2c2379c3d3bacaccd8f234ded535a4daf6bfb3c224ceb0136ff7d09c86814"
+    },
+    {
+      "shard": "orgs/LB/NATIONAL.json",
+      "country_iso2": "LB",
+      "admin1_state_province": "NATIONAL",
+      "count": 17,
+      "sha256": "2a9f8817953faabfc02f225d56a253f82c7885a8521404caf2c45d4cf45bf7c1"
+    },
+    {
+      "shard": "orgs/LK/NATIONAL.json",
+      "country_iso2": "LK",
+      "admin1_state_province": "NATIONAL",
+      "count": 4,
+      "sha256": "595a47a06c351c48a21cf4037959c2829ce24c77eb005dbe54a77952b1f5858b"
+    },
+    {
+      "shard": "orgs/LR/NATIONAL.json",
+      "country_iso2": "LR",
+      "admin1_state_province": "NATIONAL",
+      "count": 2,
+      "sha256": "b83cb5df1f36188fc35c079b9164011a7f1be9a7f13f8478fe8bb524bd3217d4"
+    },
+    {
+      "shard": "orgs/LU/NATIONAL.json",
+      "country_iso2": "LU",
+      "admin1_state_province": "NATIONAL",
+      "count": 1,
+      "sha256": "802ec261fac7d59937de5c5474987698aa35048aa25e569718ff9decac7622c4"
+    },
+    {
+      "shard": "orgs/MD/NATIONAL.json",
+      "country_iso2": "MD",
+      "admin1_state_province": "NATIONAL",
+      "count": 1,
+      "sha256": "cafe795ca03a73d60faddddadb3996ecd68d6a09a1c8fe8e19aee0ca730ed4c9"
+    },
+    {
+      "shard": "orgs/MG/NATIONAL.json",
+      "country_iso2": "MG",
+      "admin1_state_province": "NATIONAL",
+      "count": 2,
+      "sha256": "b337913c0d0b1500a2a8a7e2c299f4d2018ac1e9266ff26675d4cf86cce191a1"
+    },
+    {
+      "shard": "orgs/MK/NATIONAL.json",
+      "country_iso2": "MK",
+      "admin1_state_province": "NATIONAL",
+      "count": 1,
+      "sha256": "c0bea8db1df3040b3ac7f5ced3298a636b9529bb06787f751b59c51b37202c71"
+    },
+    {
+      "shard": "orgs/ML/NATIONAL.json",
+      "country_iso2": "ML",
+      "admin1_state_province": "NATIONAL",
+      "count": 5,
+      "sha256": "65253aac4d0b496b206612aec5d13a7f8413b9089cfc515e1745db87a27431b4"
+    },
+    {
+      "shard": "orgs/MM/NATIONAL.json",
+      "country_iso2": "MM",
+      "admin1_state_province": "NATIONAL",
+      "count": 3,
+      "sha256": "bc4f5584115ccc03236cce24b86f36d37406296ce270fcfa50783a401a500600"
+    },
+    {
+      "shard": "orgs/MU/NATIONAL.json",
+      "country_iso2": "MU",
+      "admin1_state_province": "NATIONAL",
+      "count": 3,
+      "sha256": "d54a02253b943508c4a36ae2d99f568c367af82a0546df612b2b97afff048419"
+    },
+    {
+      "shard": "orgs/MW/NATIONAL.json",
+      "country_iso2": "MW",
+      "admin1_state_province": "NATIONAL",
+      "count": 17,
+      "sha256": "2a9b0637a3a90058de585ecf5a38de8c00758748a640df67cc7949bb9d8887e2"
+    },
+    {
+      "shard": "orgs/MX/NATIONAL.json",
+      "country_iso2": "MX",
+      "admin1_state_province": "NATIONAL",
+      "count": 4,
+      "sha256": "1816cc62c4e70a9850e467a97838f46834d75f901a739ea77581674cc23cc0f1"
+    },
+    {
+      "shard": "orgs/MY/NATIONAL.json",
+      "country_iso2": "MY",
+      "admin1_state_province": "NATIONAL",
+      "count": 6,
+      "sha256": "138ef82b8678cec71ca49c6f9c8ac81a6e318c2be59863ad275394c5b4ff0705"
+    },
+    {
+      "shard": "orgs/MZ/NATIONAL.json",
+      "country_iso2": "MZ",
+      "admin1_state_province": "NATIONAL",
+      "count": 12,
+      "sha256": "4c896da1e8515ba464a72a24d5450cf1a380c93b8d377c43fc36a22855048d95"
+    },
+    {
+      "shard": "orgs/NA/NATIONAL.json",
+      "country_iso2": "NA",
+      "admin1_state_province": "NATIONAL",
+      "count": 3,
+      "sha256": "ab190707038749f474fef6703a20fb6cc6a49080afa8e1302f037ba4fd85d334"
+    },
+    {
+      "shard": "orgs/NE/NATIONAL.json",
+      "country_iso2": "NE",
+      "admin1_state_province": "NATIONAL",
+      "count": 1,
+      "sha256": "d6ea7aa77c6b9b5feb52ea6408a0d5e77c237107fb1aa76f3613f9fc93df79f3"
+    },
+    {
+      "shard": "orgs/NG/NATIONAL.json",
+      "country_iso2": "NG",
+      "admin1_state_province": "NATIONAL",
+      "count": 23,
+      "sha256": "6c967baffb8dccdc791a3f7d3b76d7474927803ef5c924f1b9d30da57a601a69"
+    },
+    {
+      "shard": "orgs/NI/NATIONAL.json",
+      "country_iso2": "NI",
+      "admin1_state_province": "NATIONAL",
+      "count": 1,
+      "sha256": "8a0432dca5d392f0382d9a5c45dfa31a8764883f7452237db023855fd5b7ae31"
+    },
+    {
       "shard": "orgs/NL/NATIONAL.json",
       "country_iso2": "NL",
       "admin1_state_province": "NATIONAL",
-      "count": 5469,
-      "sha256": "f439cda90e04d215f18e9f8f110e7627260d4fb6abe9a6e3ea355d63344b18d8"
+      "count": 5660,
+      "sha256": "6cd4b389e01a65f2c56061c57c4d432a24ccfbd2025e510c2ca875a0b09823f6"
+    },
+    {
+      "shard": "orgs/NO/NATIONAL.json",
+      "country_iso2": "NO",
+      "admin1_state_province": "NATIONAL",
+      "count": 5,
+      "sha256": "7d61cd73573a206674526dbd50d737756f15436e7706041be542908e176127f5"
+    },
+    {
+      "shard": "orgs/NP/NATIONAL.json",
+      "country_iso2": "NP",
+      "admin1_state_province": "NATIONAL",
+      "count": 25,
+      "sha256": "370114f4edbf2a45a12d22db54a50f14f3c90525447062b9d7fb6aead1185b3e"
+    },
+    {
+      "shard": "orgs/PA/NATIONAL.json",
+      "country_iso2": "PA",
+      "admin1_state_province": "NATIONAL",
+      "count": 1,
+      "sha256": "e1004e87c489df0443e93cdefd01531767db8ab41f54e22aaa0b1d726c79b49b"
+    },
+    {
+      "shard": "orgs/PE/NATIONAL.json",
+      "country_iso2": "PE",
+      "admin1_state_province": "NATIONAL",
+      "count": 5,
+      "sha256": "a0d1aced597c74ca38dfd66a7d2ec7f68e4a4c7b5f8f9c416bcb616b22f2f9ca"
+    },
+    {
+      "shard": "orgs/PH/NATIONAL.json",
+      "country_iso2": "PH",
+      "admin1_state_province": "NATIONAL",
+      "count": 6,
+      "sha256": "8048935b306446a81b5754410bab7c64f7beec42ff1b1311c1116e15897dc0d3"
+    },
+    {
+      "shard": "orgs/PK/NATIONAL.json",
+      "country_iso2": "PK",
+      "admin1_state_province": "NATIONAL",
+      "count": 16,
+      "sha256": "74ac45b5fc9cb99706864b3922e5138f20876576e5e7656d1146f286ae55f49e"
+    },
+    {
+      "shard": "orgs/PL/NATIONAL.json",
+      "country_iso2": "PL",
+      "admin1_state_province": "NATIONAL",
+      "count": 1,
+      "sha256": "fde19774ce0386ce9af1f8991963bee34390073ee9b513cedb3dff17f742934f"
     },
     {
       "shard": "orgs/PR/PR.json",
@@ -36,6 +568,202 @@
       "admin1_state_province": "PR",
       "count": 532,
       "sha256": "8a7892b4a0ee745f71fb3ad64092fdb4558dfc2ad5cf8af2ab3b9083b80decab"
+    },
+    {
+      "shard": "orgs/PS/NATIONAL.json",
+      "country_iso2": "PS",
+      "admin1_state_province": "NATIONAL",
+      "count": 8,
+      "sha256": "61131cb947cb976fa20aa5f6e2bd4c92e50f938c5ae7a050359093db8f385a98"
+    },
+    {
+      "shard": "orgs/PY/NATIONAL.json",
+      "country_iso2": "PY",
+      "admin1_state_province": "NATIONAL",
+      "count": 1,
+      "sha256": "26b30552523ad500950f1e37bc40acdb9a5814ed2a01b600453998f5c20ef0d4"
+    },
+    {
+      "shard": "orgs/RS/NATIONAL.json",
+      "country_iso2": "RS",
+      "admin1_state_province": "NATIONAL",
+      "count": 1,
+      "sha256": "6de70c530d976f8c9a7eb9764bd6fd2ddc767d5e2da2a41d537cc41d5240472c"
+    },
+    {
+      "shard": "orgs/RW/NATIONAL.json",
+      "country_iso2": "RW",
+      "admin1_state_province": "NATIONAL",
+      "count": 7,
+      "sha256": "37b6d4f3658e7181e1d007b120d717a76ed562aadd639f6d33de8a9913a28670"
+    },
+    {
+      "shard": "orgs/SD/NATIONAL.json",
+      "country_iso2": "SD",
+      "admin1_state_province": "NATIONAL",
+      "count": 2,
+      "sha256": "1b02d3b8435ba9041138ae09e4d0b1bb4a37ec7e3028ea78ce37eae92df0b4e2"
+    },
+    {
+      "shard": "orgs/SE/NATIONAL.json",
+      "country_iso2": "SE",
+      "admin1_state_province": "NATIONAL",
+      "count": 85,
+      "sha256": "59732c736ef9b55b65d1a893de4504940f7b9fc4ea69ef8b92c391fc8bf73656"
+    },
+    {
+      "shard": "orgs/SG/NATIONAL.json",
+      "country_iso2": "SG",
+      "admin1_state_province": "NATIONAL",
+      "count": 1,
+      "sha256": "bf0bb059e15f31336b9ebcc2846af22c0421b42f49ed4e3cdfd46a33bc78a9e0"
+    },
+    {
+      "shard": "orgs/SK/NATIONAL.json",
+      "country_iso2": "SK",
+      "admin1_state_province": "NATIONAL",
+      "count": 1,
+      "sha256": "542d284688b4cc0be74ea4cc0c4f58a4166cd114cdf784637797d96a89e1401a"
+    },
+    {
+      "shard": "orgs/SL/NATIONAL.json",
+      "country_iso2": "SL",
+      "admin1_state_province": "NATIONAL",
+      "count": 4,
+      "sha256": "7d508ed79eae14e9b80dd8d8399bbdb1f88482026544317643444dcd02fc53c7"
+    },
+    {
+      "shard": "orgs/SN/NATIONAL.json",
+      "country_iso2": "SN",
+      "admin1_state_province": "NATIONAL",
+      "count": 5,
+      "sha256": "fb8f3fc40cd7f0ef1ffba08b3cafa5aa8fc709fd2eb882455665ccc0da71cf8a"
+    },
+    {
+      "shard": "orgs/SO/NATIONAL.json",
+      "country_iso2": "SO",
+      "admin1_state_province": "NATIONAL",
+      "count": 10,
+      "sha256": "0467c9013c472e5c37dcbc115a2ebd62267c39fbda565051970d3105d1ca4022"
+    },
+    {
+      "shard": "orgs/SS/NATIONAL.json",
+      "country_iso2": "SS",
+      "admin1_state_province": "NATIONAL",
+      "count": 7,
+      "sha256": "c907c5626feaad95271ea9c41b7422e894007e7acd66e450c33769a7cb27ca68"
+    },
+    {
+      "shard": "orgs/SZ/NATIONAL.json",
+      "country_iso2": "SZ",
+      "admin1_state_province": "NATIONAL",
+      "count": 1,
+      "sha256": "2b2ca420e2c235b6aa26fc6647e1bceff0de673142c83d49e8f1f22e0b18dd4d"
+    },
+    {
+      "shard": "orgs/TG/NATIONAL.json",
+      "country_iso2": "TG",
+      "admin1_state_province": "NATIONAL",
+      "count": 1,
+      "sha256": "25df65c83eb7e885b5994790f549147e5fdb19e5a70699e6db3e3dcced262e01"
+    },
+    {
+      "shard": "orgs/TH/NATIONAL.json",
+      "country_iso2": "TH",
+      "admin1_state_province": "NATIONAL",
+      "count": 7,
+      "sha256": "0060d6a0cd7bed76b44a6fe69c4fa5261a0a2c2eccda219171f1117bf073752f"
+    },
+    {
+      "shard": "orgs/TJ/NATIONAL.json",
+      "country_iso2": "TJ",
+      "admin1_state_province": "NATIONAL",
+      "count": 1,
+      "sha256": "43cfb3c2da57859abe682f462fbc9c8eaa66aa09675feb65af30be225b6669ae"
+    },
+    {
+      "shard": "orgs/TN/NATIONAL.json",
+      "country_iso2": "TN",
+      "admin1_state_province": "NATIONAL",
+      "count": 3,
+      "sha256": "63c4b67d93f197ad512b2d0f6a253b18b675f5142e14b880f10db5d38bcaec0e"
+    },
+    {
+      "shard": "orgs/TR/NATIONAL.json",
+      "country_iso2": "TR",
+      "admin1_state_province": "NATIONAL",
+      "count": 2,
+      "sha256": "35c45236bd207bc2ba2f370886a711a4ba16c09be739358c6363a4c160c4338e"
+    },
+    {
+      "shard": "orgs/TW/NATIONAL.json",
+      "country_iso2": "TW",
+      "admin1_state_province": "NATIONAL",
+      "count": 1,
+      "sha256": "5686db0707aac611006406d22e5e4233c78808ef18a2682e2182f5eb99c382cd"
+    },
+    {
+      "shard": "orgs/TZ/NATIONAL.json",
+      "country_iso2": "TZ",
+      "admin1_state_province": "NATIONAL",
+      "count": 33,
+      "sha256": "224ea4306e8221c9c26110d1d67a1d8616108bd44a876cc4b3c4d2f9611af720"
+    },
+    {
+      "shard": "orgs/UA/NATIONAL.json",
+      "country_iso2": "UA",
+      "admin1_state_province": "NATIONAL",
+      "count": 13,
+      "sha256": "9ca13836edc3544ab034984fd05b383903ede4bef5a2b22d2bc821d2eedb66f3"
+    },
+    {
+      "shard": "orgs/UG/NATIONAL.json",
+      "country_iso2": "UG",
+      "admin1_state_province": "NATIONAL",
+      "count": 42,
+      "sha256": "fd36e8fda3e11d1e467014e10271e67979e8c98fa26aa14ac2b1611f40c549cb"
+    },
+    {
+      "shard": "orgs/US/NATIONAL.json",
+      "country_iso2": "US",
+      "admin1_state_province": "NATIONAL",
+      "count": 163,
+      "sha256": "4fdbedeca1749d9ebc724b7e876e1575d740b2b71624c94769ef3ec69a7d5ba1"
+    },
+    {
+      "shard": "orgs/VN/NATIONAL.json",
+      "country_iso2": "VN",
+      "admin1_state_province": "NATIONAL",
+      "count": 2,
+      "sha256": "669db7359db58fd7261a9fa995dd345b81408017db75a45eb09a14076b58a3d3"
+    },
+    {
+      "shard": "orgs/YE/NATIONAL.json",
+      "country_iso2": "YE",
+      "admin1_state_province": "NATIONAL",
+      "count": 10,
+      "sha256": "9b7b799ca40e92321345bb309d5eafaad448fe0f4a39c6bb4f1d5013e280c074"
+    },
+    {
+      "shard": "orgs/ZA/NATIONAL.json",
+      "country_iso2": "ZA",
+      "admin1_state_province": "NATIONAL",
+      "count": 38,
+      "sha256": "e3f8f82c4fd5e93f67bd1ceb7c50cc5ee589e8e3c7c76ad8bb81331d0f2c2a8f"
+    },
+    {
+      "shard": "orgs/ZM/NATIONAL.json",
+      "country_iso2": "ZM",
+      "admin1_state_province": "NATIONAL",
+      "count": 7,
+      "sha256": "a497fe47cb414b89d1257900228fa6aa68e2d3a0290cd8112a8645662c6f3332"
+    },
+    {
+      "shard": "orgs/ZW/NATIONAL.json",
+      "country_iso2": "ZW",
+      "admin1_state_province": "NATIONAL",
+      "count": 10,
+      "sha256": "f0942500f8681eed20e66d53f94a26916415a84d313989abd5a8ec1f23d0aec8"
     }
   ]
 }

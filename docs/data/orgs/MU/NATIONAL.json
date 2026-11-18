@@ -1,0 +1,74 @@
+{
+  "schema_version": "3.0.0",
+  "country_iso2": "MU",
+  "admin1_state_province": "NATIONAL",
+  "count": 3,
+  "organizations": [
+    {
+      "registry_id": "IATI-MU:MU-CR-C08077130",
+      "name": "Mauritius Institute of Directors",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "MU",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.360Z",
+      "integrity_sha256": "0e662ef4970f02f9f58366b0231a5657490bcf19df47e35246fefe15e076c8be"
+    },
+    {
+      "registry_id": "IATI-MU:MU-CR-C134274",
+      "name": "Shortlist Professionals Limited",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_70",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "MU",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.361Z",
+      "integrity_sha256": "baed01532a69be40333ae2007a073f6f4ea96cc7d2116346d3089eaab6b4a9a4"
+    },
+    {
+      "registry_id": "IATI-MU:MU-CR-C191439",
+      "name": "West Africa Blue",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_70",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "MU",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.357Z",
+      "integrity_sha256": "52aa813836f63fb59cadcf97905bc86b3c1c5a110164a66e743e623493688ffa"
+    }
+  ]
+}

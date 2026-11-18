@@ -1,0 +1,52 @@
+{
+  "schema_version": "3.0.0",
+  "country_iso2": "IL",
+  "admin1_state_province": "NATIONAL",
+  "count": 2,
+  "organizations": [
+    {
+      "registry_id": "IATI-IL:IL-RA-580166452",
+      "name": "Musalaha Ministry of Reconciliation",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_80",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "IL",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.360Z",
+      "integrity_sha256": "39615f84cb9d38fdcc38cb816e5862e047a090994a1305f9044407a0fba211eb"
+    },
+    {
+      "registry_id": "IATI-IL:IL-RA-580675486",
+      "name": "Tech2Peace",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "IL",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.362Z",
+      "integrity_sha256": "37ef6e361e7da88f98bc7efc9f4784ec2d0ac78bdbeb3c5e31632e9662099d20"
+    }
+  ]
+}

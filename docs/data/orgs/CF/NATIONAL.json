@@ -1,0 +1,51 @@
+{
+  "schema_version": "3.0.0",
+  "country_iso2": "CF",
+  "admin1_state_province": "NATIONAL",
+  "count": 2,
+  "organizations": [
+    {
+      "registry_id": "IATI-CF:XI-IATI-ACATBA",
+      "name": "Association Centrafricaine de Traduction de la Bible et Alphabetisation",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "CF",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.356Z",
+      "integrity_sha256": "49cc02bf15f7804b3b7e06d775a71fa1cc012e01ee8c0b217abc119834994255"
+    },
+    {
+      "registry_id": "IATI-CF:XM-OCHA-7482",
+      "name": "World Vision Central African Republic",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21"
+      ],
+      "location": {
+        "country_iso2": "CF",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.363Z",
+      "integrity_sha256": "49a9ec73991c91dc599e47503ce9b77b9ccf0ec6a8bc6756aece173814739242"
+    }
+  ]
+}

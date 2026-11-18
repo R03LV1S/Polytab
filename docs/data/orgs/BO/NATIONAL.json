@@ -1,0 +1,74 @@
+{
+  "schema_version": "3.0.0",
+  "country_iso2": "BO",
+  "admin1_state_province": "NATIONAL",
+  "count": 3,
+  "organizations": [
+    {
+      "registry_id": "IATI-BO:BO-NIT-1013209020",
+      "name": "World Wildlife Fund Inc, Bolivia Program Office",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "BO",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.363Z",
+      "integrity_sha256": "4e11ee0b6b6541ccdeea3d4a31fad9ba6d76b84527b2d2f54d8e02a0e2baeed2"
+    },
+    {
+      "registry_id": "IATI-BO:BO-NIT-1020347026",
+      "name": "Aldeas Infantiles SOS Bolivia",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "BO",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.362Z",
+      "integrity_sha256": "a4616a6b21831b09af9f70de8469fc4f83f2a916fb98c2090c7298ba03549702"
+    },
+    {
+      "registry_id": "IATI-BO:BO-NIT-351775028",
+      "name": "CONEXIÓN",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_23",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "BO",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.357Z",
+      "integrity_sha256": "3255d4c262c127666ee22f73947e55f9cdd7bfb232f38cf4a9e437cb46c6c760"
+    }
+  ]
+}

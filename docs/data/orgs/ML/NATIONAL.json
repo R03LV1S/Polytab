@@ -1,0 +1,118 @@
+{
+  "schema_version": "3.0.0",
+  "country_iso2": "ML",
+  "admin1_state_province": "NATIONAL",
+  "count": 5,
+  "organizations": [
+    {
+      "registry_id": "IATI-ML:ML-MAT-028-MAT-DNIC-DAG",
+      "name": "Secrétariat de Concertation des Organisations Non Gouvernementales Maliennes",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "ML",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.361Z",
+      "integrity_sha256": "0f371c9948ac0db8bf70dc48774e93b0674140867a705146b28105cf44f5f777"
+    },
+    {
+      "registry_id": "IATI-ML:ML-NIF-055000335T",
+      "name": "Near East Foundation Mali (NEF Mali)",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "ML",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.360Z",
+      "integrity_sha256": "43f5b68cc2bbeb10899f460a8356ef7f26e4d12028b2dd98be2064be6692afaf"
+    },
+    {
+      "registry_id": "IATI-ML:ML-NIF-082208943A",
+      "name": "Groupe Pivot Santé Population",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_80",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "ML",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.359Z",
+      "integrity_sha256": "7927cd4f15e31d219eecf34c8b3ed6322e788e0a731b8700b245b08356a3f2a1"
+    },
+    {
+      "registry_id": "IATI-ML:ML-NIF-084106436R",
+      "name": "Conseil et Appui pour l'Education à la Base Mali",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "ML",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.357Z",
+      "integrity_sha256": "dc1274e3c5767054ee90882d9222775388b1922b7bba48751980ac01bab7c0ff"
+    },
+    {
+      "registry_id": "IATI-ML:ML-NIF-086108989R",
+      "name": "Association de Soutien au Développement des Activités de Population",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_3"
+      ],
+      "location": {
+        "country_iso2": "ML",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.357Z",
+      "integrity_sha256": "4acfc865a74fc6a5a5e57adbe79668d931e775ae1d58e5ccef5625dbfbf64564"
+    }
+  ]
+}

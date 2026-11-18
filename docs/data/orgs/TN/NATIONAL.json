@@ -1,0 +1,73 @@
+{
+  "schema_version": "3.0.0",
+  "country_iso2": "TN",
+  "admin1_state_province": "NATIONAL",
+  "count": 3,
+  "organizations": [
+    {
+      "registry_id": "IATI-TN:TN-RNE-1027578P",
+      "name": "Centre des Etudes Méditerranéennes et Internationales",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22"
+      ],
+      "location": {
+        "country_iso2": "TN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.357Z",
+      "integrity_sha256": "adf3e59508101af0b6823d11d39a8cf5f0a89ba3d167e54ffb43c531a3d21409"
+    },
+    {
+      "registry_id": "IATI-TN:TN-RNE-1526532C",
+      "name": "Wallah We Can",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "TN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.363Z",
+      "integrity_sha256": "733b9bde93d943e5a79291f02e46cb55a63bd0ce39ad9335d86f45a840705d32"
+    },
+    {
+      "registry_id": "IATI-TN:TN-RNE-1540791FPN000",
+      "name": "WWF Tunisia",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_3"
+      ],
+      "location": {
+        "country_iso2": "TN",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.363Z",
+      "integrity_sha256": "23039c37849b864f928675b9b822333b7fc22defb2a99ec237726ee7be23a302"
+    }
+  ]
+}

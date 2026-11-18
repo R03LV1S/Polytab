@@ -1,0 +1,52 @@
+{
+  "schema_version": "3.0.0",
+  "country_iso2": "SD",
+  "admin1_state_province": "NATIONAL",
+  "count": 2,
+  "organizations": [
+    {
+      "registry_id": "IATI-SD:XI-IATI-3435",
+      "name": "SOS Sahel Sudan",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SD",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.362Z",
+      "integrity_sha256": "0ae90324567849982fd5abb278d4b46799a80c141a447311067eda3d7bfe5cda"
+    },
+    {
+      "registry_id": "IATI-SD:XM-OCHA-HPC8568",
+      "name": "CARE international foundation Switzerland in Sudan",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SD",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.357Z",
+      "integrity_sha256": "ea172c591e1686e5688e9243fd69c35c76586126444780aa083a0af0a0d03511"
+    }
+  ]
+}

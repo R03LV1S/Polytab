@@ -1,0 +1,52 @@
+{
+  "schema_version": "3.0.0",
+  "country_iso2": "CZ",
+  "admin1_state_province": "NATIONAL",
+  "count": 2,
+  "organizations": [
+    {
+      "registry_id": "IATI-CZ:CZ-ICO-25755277",
+      "name": "People in Need",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "CZ",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.361Z",
+      "integrity_sha256": "4f3b529c40d7fd5b80cc95818864513ace7c763905905c325c4b1c4c9ad253b8"
+    },
+    {
+      "registry_id": "IATI-CZ:CZ-ICO-68406258",
+      "name": "CEE Bankwatch Network",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "CZ",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.357Z",
+      "integrity_sha256": "df5569bd6395ad8006d76cac3be659ac35f673f73910586160e194eb8b25631c"
+    }
+  ]
+}

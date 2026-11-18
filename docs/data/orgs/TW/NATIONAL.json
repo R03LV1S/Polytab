@@ -1,0 +1,30 @@
+{
+  "schema_version": "3.0.0",
+  "country_iso2": "TW",
+  "admin1_state_province": "NATIONAL",
+  "count": 1,
+  "organizations": [
+    {
+      "registry_id": "IATI-TW:XM-DAC-47008",
+      "name": "World Vegetable Center",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "TW",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.363Z",
+      "integrity_sha256": "0ed2590e3e6b77df3ea9b45fb7282924a54a8fea36cd22bea57c0e2a5f0d8912"
+    }
+  ]
+}

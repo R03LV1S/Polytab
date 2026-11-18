@@ -1,0 +1,74 @@
+{
+  "schema_version": "3.0.0",
+  "country_iso2": "HK",
+  "admin1_state_province": "NATIONAL",
+  "count": 3,
+  "organizations": [
+    {
+      "registry_id": "IATI-HK:HK-CR-2091642",
+      "name": "Farsight Global",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_70",
+        "IATI_DATASETS_PUBLISHED_4"
+      ],
+      "location": {
+        "country_iso2": "HK",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.361Z",
+      "integrity_sha256": "3800a2439854c2fb5a4149b25a0cd8cbca8751e3dd4e0cb523a48c18bded0ddd"
+    },
+    {
+      "registry_id": "IATI-HK:HK-CR-2288921",
+      "name": "ELEVATE Hong Kong Holdings Limited",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_70",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "HK",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.358Z",
+      "integrity_sha256": "cbe38fa3e3c95bdc011c0c4f1ead1915b6953242e4f060c0f263e1855daacc70"
+    },
+    {
+      "registry_id": "IATI-HK:HK-CR-2436455",
+      "name": "Agsol Limited",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_70",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "HK",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.356Z",
+      "integrity_sha256": "aee87bf565e9ea3f59038dd1326cb263267042f0e62854007d7713bf75ff0fc8"
+    }
+  ]
+}

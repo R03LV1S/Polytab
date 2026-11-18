@@ -1,0 +1,30 @@
+{
+  "schema_version": "3.0.0",
+  "country_iso2": "PA",
+  "admin1_state_province": "NATIONAL",
+  "count": 1,
+  "organizations": [
+    {
+      "registry_id": "IATI-PA:PA-PRP-5789",
+      "name": "Fundación Avina",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_60",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "PA",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.358Z",
+      "integrity_sha256": "4990ef202e2a3682f102233b862a5f6f7a087517341667330c33632d7f109d4b"
+    }
+  ]
+}

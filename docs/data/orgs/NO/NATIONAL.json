@@ -1,0 +1,118 @@
+{
+  "schema_version": "3.0.0",
+  "country_iso2": "NO",
+  "admin1_state_province": "NATIONAL",
+  "count": 5,
+  "organizations": [
+    {
+      "registry_id": "IATI-NO:NO-BRC-871033552",
+      "name": "Norwegian People's Aid",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_8"
+      ],
+      "location": {
+        "country_iso2": "NO",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.360Z",
+      "integrity_sha256": "a2ac71df8d5a4c9e60c2a61c75159ae4223badb3ed208f61579d9576da8b8928"
+    },
+    {
+      "registry_id": "IATI-NO:NO-BRC-917687811",
+      "name": "Coalition for Epidemic Preparedness Innovations",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "NO",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.357Z",
+      "integrity_sha256": "40ce9ad368f7297cf34cdde19f2246de89c732e53d48af2acd53fdfb60fd67b0"
+    },
+    {
+      "registry_id": "IATI-NO:NO-BRC-951434353",
+      "name": "Norwegian Church Aid",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "NO",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.360Z",
+      "integrity_sha256": "0e17d2b29eb811890707c2e6ebce766210ab418a8cb8181dd467f5eff2867ef0"
+    },
+    {
+      "registry_id": "IATI-NO:NO-BRC-977538319",
+      "name": "Norwegian Refugee Council",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_8"
+      ],
+      "location": {
+        "country_iso2": "NO",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.360Z",
+      "integrity_sha256": "d8726cc1ab857e1a53b698a510b35ceac6021338396bf643be7c83edacba6a9e"
+    },
+    {
+      "registry_id": "IATI-NO:NO-BRC-980997278",
+      "name": "INTOSAI Development Initiative",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "NO",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.359Z",
+      "integrity_sha256": "54e9d60e9369f5fd5301f399d50692c8a0e8c584781ef2a958ec29a6947af221"
+    }
+  ]
+}

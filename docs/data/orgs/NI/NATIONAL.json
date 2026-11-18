@@ -1,0 +1,30 @@
+{
+  "schema_version": "3.0.0",
+  "country_iso2": "NI",
+  "admin1_state_province": "NATIONAL",
+  "count": 1,
+  "organizations": [
+    {
+      "registry_id": "IATI-NI:NI-MIGOB-3602",
+      "name": "Fondo Centroamericano de Mujeres",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_60",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "NI",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.358Z",
+      "integrity_sha256": "e78ade386ce51ec9e1e06ea238fd312b3afcb82b87c0c6e1a4a842a0d8e033d7"
+    }
+  ]
+}

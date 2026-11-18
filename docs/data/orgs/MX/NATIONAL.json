@@ -1,0 +1,96 @@
+{
+  "schema_version": "3.0.0",
+  "country_iso2": "MX",
+  "admin1_state_province": "NATIONAL",
+  "count": 4,
+  "organizations": [
+    {
+      "registry_id": "IATI-MX:MX-RFC-ICM160118IZ1",
+      "name": "Iniciativa Climatica de Mexico",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "MX",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.359Z",
+      "integrity_sha256": "9cf5603e4ec0fb6c66e5bf1c91c34bebf0540bf03696f499b0ef3c4d1ea95c6f"
+    },
+    {
+      "registry_id": "IATI-MX:MX-RFC-IIN920701G55",
+      "name": "IDOM INGENIERIA",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_70",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "MX",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.359Z",
+      "integrity_sha256": "f3542115b7e5b38a537c92a17ca59e1ae58c0f85e614822c3822b31fe6db78c5"
+    },
+    {
+      "registry_id": "IATI-MX:MX-RFC-SLP1412039F3",
+      "name": "Soluciones en Legislación y Política Ambiental AC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "MX",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.361Z",
+      "integrity_sha256": "046227507d09c7cc0836ab7921bc1f4becdfa84b80eb6b03e578286bdda1b69f"
+    },
+    {
+      "registry_id": "IATI-MX:MX-RFC-UAQ510111MQ9",
+      "name": "Universidad Autonoma de Queretaro",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_80",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "MX",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.362Z",
+      "integrity_sha256": "916295318955d58732c38c8cee8b1f53d338cba8e2a5b70384aa8e8d9c77f255"
+    }
+  ]
+}

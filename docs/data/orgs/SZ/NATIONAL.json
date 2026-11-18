@@ -1,0 +1,30 @@
+{
+  "schema_version": "3.0.0",
+  "country_iso2": "SZ",
+  "admin1_state_province": "NATIONAL",
+  "count": 1,
+  "organizations": [
+    {
+      "registry_id": "IATI-SZ:SZ-CIT-201710132021804",
+      "name": "Women Unlimited Eswatini",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "SZ",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.363Z",
+      "integrity_sha256": "fd0480e8dd182ddcc074bc583db36b122d73136b9787c8585f1f1ff83c8820ca"
+    }
+  ]
+}

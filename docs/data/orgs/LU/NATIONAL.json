@@ -1,0 +1,29 @@
+{
+  "schema_version": "3.0.0",
+  "country_iso2": "LU",
+  "admin1_state_province": "NATIONAL",
+  "count": 1,
+  "organizations": [
+    {
+      "registry_id": "IATI-LU:LU-RCS-A39060",
+      "name": "IPMC Humanitaire International (IPMC Luxembourg)",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21"
+      ],
+      "location": {
+        "country_iso2": "LU",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-18T00:24:43.359Z",
+      "integrity_sha256": "058bccfe8582796e08f0e3f65ba195f3a9ea710d44fbe8b98fa47d56b6623351"
+    }
+  ]
+}
