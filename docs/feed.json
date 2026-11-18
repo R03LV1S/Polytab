@@ -114087,7 +114087,10 @@
         "lat": null,
         "lng": null,
         "website": "https://altagolf.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/groups/112430008956952",
+          "instagram": "https://www.instagram.com/altagolfklubb/"
+        }
       }
     },
     {
@@ -234313,5 +234316,5 @@
       }
     }
   ],
-  "updated_at": "2026-11-18T03:44:35.655Z"
+  "updated_at": "2026-11-18T09:50:11.616Z"
 }
