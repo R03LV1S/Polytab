@@ -133,8 +133,8 @@
     "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
   },
   "vote": {
-    "question": "Community Accountability Resolution [US-NJ U.S. Senate]: Cory A. Booker (D) has received $52,529,215 in career campaign contributions (with $21,275,163 this cycle, alongside $457,000 in outside Super PAC support led by Laure Woods)—out-raising general opponent Justin Michael Ll.m. Murphy ($68,189) by 312x—linked to \"Outside Super PAC & Megadonor Swarm\". Should NJ release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Cory A. Booker receives $52,529,215 (with $21,275,163 this cycle, alongside $457,000 in outside Super PAC support led by Laure Woods), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+    "question": "[US-NJ - U.S. Senate]: Cory A. Booker (D) has received $52,529,215 in career campaign contributions (with $21,275,163 this cycle, alongside $19,180 in outside Super PAC support led by Democratic Messaging Project)—linked to \"Outside Super PAC & Megadonor Swarm\". Do you vote to formally rebuke Cory A. Booker for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+    "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Cory A. Booker has amassed $52,529,215 in career contributions (with $21,275,163 this cycle, alongside $19,180 in outside Super PAC support led by Democratic Messaging Project)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Cory A. Booker on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
     "question_vars": {
       "subject_name": "Cory A. Booker",
       "career_total_receipts_usd": 52529215,
@@ -145,8 +145,8 @@
     },
     "type": "community_restitution_vote",
     "options": [
-      "Yes — Send Fund to Local Charities",
-      "No — Send Fund to Essential Community Services",
+      "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+      "No — Reject Rebuke & Direct Escrow to Public Commons",
       "Abstain — Record Feedback Only"
     ]
   },

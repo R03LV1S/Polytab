@@ -135,8 +135,8 @@
     "primary_harm_thesis": "housing financialization, consumer debt deregulation, and tax-code arbitrage"
   },
   "vote": {
-    "question": "Community Accountability Resolution [US-OH U.S. Senate]: Jon Husted (R) has received $19,894,786 in career campaign contributions (with $19,894,786 this cycle, alongside $200,000,000 in outside Super PAC support led by MAGA Inc.)—linked to \"Private Equity, Speculative Finance & Real Estate Syndicate\". Should OH release the community fund to local charities working on affordable housing trusts, predatory-lending legal aid, and household debt relief?",
-    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Jon Husted receives $19,894,786 (with $19,894,786 this cycle, alongside $200,000,000 in outside Super PAC support led by MAGA Inc.), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+    "question": "[US-OH - U.S. Senate]: Jon Husted (R) has received $19,894,786 in career campaign contributions (with $19,894,786 this cycle, alongside $257,906,617 in outside Super PAC support led by Senate Leadership Fund (SLF PAC))—linked to \"Private Equity, Speculative Finance & Real Estate Syndicate\". Do you vote to formally rebuke Jon Husted for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+    "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Jon Husted has amassed $19,894,786 in career contributions (with $19,894,786 this cycle, alongside $257,906,617 in outside Super PAC support led by Senate Leadership Fund (SLF PAC))—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Jon Husted on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
     "question_vars": {
       "subject_name": "Jon Husted",
       "career_total_receipts_usd": 19894786,
@@ -147,8 +147,8 @@
     },
     "type": "community_restitution_vote",
     "options": [
-      "Yes — Send Fund to Local Charities",
-      "No — Send Fund to Essential Community Services",
+      "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+      "No — Reject Rebuke & Direct Escrow to Public Commons",
       "Abstain — Record Feedback Only"
     ]
   },

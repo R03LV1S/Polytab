@@ -133,8 +133,8 @@
     "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
   },
   "vote": {
-    "question": "Community Accountability Resolution [US-SD U.S. Senate]: Mike Rounds (R) has received $9,957,529 in career campaign contributions (with $3,810,748 this cycle, alongside $22,500,000 in outside Super PAC support led by Leading The Future)—out-raising general opponent Brian Bengs ($1,855,763) by 2.05x—linked to \"Outside Super PAC & Megadonor Swarm\". Should SD release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Mike Rounds receives $9,957,529 (with $3,810,748 this cycle, alongside $22,500,000 in outside Super PAC support led by Leading The Future), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+    "question": "[US-SD - U.S. Senate]: Mike Rounds (R) has received $9,957,529 in career campaign contributions (with $3,810,748 this cycle, alongside $1,215,086 in outside Super PAC support led by South Dakota Conservative PAC)—linked to \"Outside Super PAC & Megadonor Swarm\". Do you vote to formally rebuke Mike Rounds for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+    "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Mike Rounds has amassed $9,957,529 in career contributions (with $3,810,748 this cycle, alongside $1,215,086 in outside Super PAC support led by South Dakota Conservative PAC)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Mike Rounds on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
     "question_vars": {
       "subject_name": "Mike Rounds",
       "career_total_receipts_usd": 9957529,
@@ -145,8 +145,8 @@
     },
     "type": "community_restitution_vote",
     "options": [
-      "Yes — Send Fund to Local Charities",
-      "No — Send Fund to Essential Community Services",
+      "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+      "No — Reject Rebuke & Direct Escrow to Public Commons",
       "Abstain — Record Feedback Only"
     ]
   },

@@ -139,8 +139,8 @@
     "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
   },
   "vote": {
-    "question": "Community Accountability Resolution [US-NH U.S. Senate]: Chris Pappas (D) has received $62,081,553 in career campaign contributions (with $47,407,296 this cycle, alongside $171,120,000 in outside Super PAC support led by SMP)—out-raising general opponent John E Sununu ($5,681,528) by 8.34x—linked to \"Outside Super PAC & Megadonor Swarm\". Should NH release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Chris Pappas receives $62,081,553 (with $47,407,296 this cycle, alongside $171,120,000 in outside Super PAC support led by SMP), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+    "question": "[US-NH - U.S. Senate]: Chris Pappas (D) has received $62,081,553 in career campaign contributions (with $47,407,296 this cycle, alongside $22,908,631 in outside Super PAC support led by WinSenate)—linked to \"Outside Super PAC & Megadonor Swarm\". Do you vote to formally rebuke Chris Pappas for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+    "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Chris Pappas has amassed $62,081,553 in career contributions (with $47,407,296 this cycle, alongside $22,908,631 in outside Super PAC support led by WinSenate)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Chris Pappas on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
     "question_vars": {
       "subject_name": "Chris Pappas",
       "career_total_receipts_usd": 62081553,
@@ -151,8 +151,8 @@
     },
     "type": "community_restitution_vote",
     "options": [
-      "Yes — Send Fund to Local Charities",
-      "No — Send Fund to Essential Community Services",
+      "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+      "No — Reject Rebuke & Direct Escrow to Public Commons",
       "Abstain — Record Feedback Only"
     ]
   },

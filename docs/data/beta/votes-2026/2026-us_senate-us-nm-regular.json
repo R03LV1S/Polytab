@@ -139,8 +139,8 @@
     "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
   },
   "vote": {
-    "question": "Community Accountability Resolution [US-NM U.S. Senate]: Ben Ray Lujan (D) has received $40,886,655 in career campaign contributions (with $12,921,044 this cycle, alongside $18,701,877 in outside Super PAC support led by AB Foundation)—out-raising general opponent Larry E Marker ($99,230) by 130.21x—linked to \"Outside Super PAC & Megadonor Swarm\". Should NM release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Ben Ray Lujan receives $40,886,655 (with $12,921,044 this cycle, alongside $18,701,877 in outside Super PAC support led by AB Foundation), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+    "question": "[US-NM - U.S. Senate]: Ben Ray Lujan (D) has received $40,886,655 in career campaign contributions (with $12,921,044 this cycle, alongside $274,429 in outside Super PAC support led by Ab PAC)—linked to \"Outside Super PAC & Megadonor Swarm\". Do you vote to formally rebuke Ben Ray Lujan for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+    "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Ben Ray Lujan has amassed $40,886,655 in career contributions (with $12,921,044 this cycle, alongside $274,429 in outside Super PAC support led by Ab PAC)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Ben Ray Lujan on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
     "question_vars": {
       "subject_name": "Ben Ray Lujan",
       "career_total_receipts_usd": 40886655,
@@ -151,8 +151,8 @@
     },
     "type": "community_restitution_vote",
     "options": [
-      "Yes — Send Fund to Local Charities",
-      "No — Send Fund to Essential Community Services",
+      "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+      "No — Reject Rebuke & Direct Escrow to Public Commons",
       "Abstain — Record Feedback Only"
     ]
   },

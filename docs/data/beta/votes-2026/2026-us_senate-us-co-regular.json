@@ -135,8 +135,8 @@
     "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
   },
   "vote": {
-    "question": "Community Accountability Resolution [US-CO U.S. Senate]: John W. Hickenlooper (D) has received $55,941,391 in career campaign contributions (with $9,529,277 this cycle, alongside $2,000,000 in outside Super PAC support led by American Federation of State, County and Municipal Employees)—out-raising general opponent Mark Baisley ($138,210) by 68.95x—linked to \"Outside Super PAC & Megadonor Swarm\". Should CO release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When John W. Hickenlooper receives $55,941,391 (with $9,529,277 this cycle, alongside $2,000,000 in outside Super PAC support led by American Federation of State, County and Municipal Employees), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+    "question": "[US-CO - U.S. Senate]: John W. Hickenlooper (D) has received $55,941,391 in career campaign contributions (with $9,529,277 this cycle, alongside $12,594 in outside Super PAC support led by Democratic Messaging Project)—linked to \"Outside Super PAC & Megadonor Swarm\". Do you vote to formally rebuke John W. Hickenlooper for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+    "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet John W. Hickenlooper has amassed $55,941,391 in career contributions (with $9,529,277 this cycle, alongside $12,594 in outside Super PAC support led by Democratic Messaging Project)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure John W. Hickenlooper on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
     "question_vars": {
       "subject_name": "John W. Hickenlooper",
       "career_total_receipts_usd": 55941391,
@@ -147,8 +147,8 @@
     },
     "type": "community_restitution_vote",
     "options": [
-      "Yes — Send Fund to Local Charities",
-      "No — Send Fund to Essential Community Services",
+      "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+      "No — Reject Rebuke & Direct Escrow to Public Commons",
       "Abstain — Record Feedback Only"
     ]
   },

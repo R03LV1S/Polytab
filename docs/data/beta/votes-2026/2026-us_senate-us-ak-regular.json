@@ -135,8 +135,8 @@
     "primary_harm_thesis": "regulatory leniency toward industrial emissions, grid monopolies, and watershed externalities"
   },
   "vote": {
-    "question": "Community Accountability Resolution [US-AK U.S. Senate]: Dan Sullivan (R) has received $24,726,126 in career campaign contributions (with $11,508,274 this cycle, alongside $200,000,000 in outside Super PAC support led by MAGA Inc.)—linked to \"Extractive Energy & Petrochemical Capture\". Should AK release the community fund to local charities working on clean water remediation, community grid resilience, and environmental health clinics?",
-    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Dan Sullivan receives $24,726,126 (with $11,508,274 this cycle, alongside $200,000,000 in outside Super PAC support led by MAGA Inc.), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+    "question": "[US-AK - U.S. Senate]: Dan Sullivan (R) has received $24,726,126 in career campaign contributions (with $11,508,274 this cycle, alongside $47,145,763 in outside Super PAC support led by Senate Leadership Fund (SLF PAC))—linked to \"Extractive Energy & Petrochemical Capture\". Do you vote to formally rebuke Dan Sullivan for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+    "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Dan Sullivan has amassed $24,726,126 in career contributions (with $11,508,274 this cycle, alongside $47,145,763 in outside Super PAC support led by Senate Leadership Fund (SLF PAC))—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Dan Sullivan on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
     "question_vars": {
       "subject_name": "Dan Sullivan",
       "career_total_receipts_usd": 24726126,
@@ -147,8 +147,8 @@
     },
     "type": "community_restitution_vote",
     "options": [
-      "Yes — Send Fund to Local Charities",
-      "No — Send Fund to Essential Community Services",
+      "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+      "No — Reject Rebuke & Direct Escrow to Public Commons",
       "Abstain — Record Feedback Only"
     ]
   },

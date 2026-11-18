@@ -144,8 +144,8 @@
     "primary_harm_thesis": "regulatory leniency toward industrial emissions, grid monopolies, and watershed externalities"
   },
   "vote": {
-    "question": "Community Accountability Resolution [US-AL U.S. Senate]: Felix Barry Moore (R) has received $11,440,101 in career campaign contributions (with $8,425,840 this cycle, alongside $2,820,000 in outside Super PAC support led by Senate Opportunity Fund)—out-raising general opponent Everett W Wess ($128,570) by 65.54x—linked to \"Extractive Energy & Petrochemical Capture\". Should AL release the community fund to local charities working on clean water remediation, community grid resilience, and environmental health clinics?",
-    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Felix Barry Moore receives $11,440,101 (with $8,425,840 this cycle, alongside $2,820,000 in outside Super PAC support led by Senate Opportunity Fund), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+    "question": "[US-AL - U.S. Senate]: Felix Barry Moore (R) has received $11,440,101 in career campaign contributions (with $8,425,840 this cycle, alongside $387,557 in outside Super PAC support led by High Plains PAC)—linked to \"Extractive Energy & Petrochemical Capture\". Do you vote to formally rebuke Felix Barry Moore for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+    "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Felix Barry Moore has amassed $11,440,101 in career contributions (with $8,425,840 this cycle, alongside $387,557 in outside Super PAC support led by High Plains PAC)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Felix Barry Moore on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
     "question_vars": {
       "subject_name": "Felix Barry Moore",
       "career_total_receipts_usd": 11440101,
@@ -156,8 +156,8 @@
     },
     "type": "community_restitution_vote",
     "options": [
-      "Yes — Send Fund to Local Charities",
-      "No — Send Fund to Essential Community Services",
+      "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+      "No — Reject Rebuke & Direct Escrow to Public Commons",
       "Abstain — Record Feedback Only"
     ]
   },

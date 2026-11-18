@@ -133,8 +133,8 @@
     "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
   },
   "vote": {
-    "question": "Community Accountability Resolution [US-DE U.S. Senate]: Christopher A. Coons (D) has received $14,902,846 in career campaign contributions (with $4,956,015 this cycle, alongside $18,701,877 in outside Super PAC support led by AB Foundation)—out-raising general opponent Michael S Dr. Katz ($190,416) by 26.03x—linked to \"Outside Super PAC & Megadonor Swarm\". Should DE release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Christopher A. Coons receives $14,902,846 (with $4,956,015 this cycle, alongside $18,701,877 in outside Super PAC support led by AB Foundation), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+    "question": "[US-DE - U.S. Senate]: Christopher A. Coons (D) has received $14,902,846 in career campaign contributions (with $4,956,015 this cycle, alongside $231,764 in outside Super PAC support led by Ab PAC)—linked to \"Outside Super PAC & Megadonor Swarm\". Do you vote to formally rebuke Christopher A. Coons for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+    "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Christopher A. Coons has amassed $14,902,846 in career contributions (with $4,956,015 this cycle, alongside $231,764 in outside Super PAC support led by Ab PAC)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Christopher A. Coons on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
     "question_vars": {
       "subject_name": "Christopher A. Coons",
       "career_total_receipts_usd": 14902846,
@@ -145,8 +145,8 @@
     },
     "type": "community_restitution_vote",
     "options": [
-      "Yes — Send Fund to Local Charities",
-      "No — Send Fund to Essential Community Services",
+      "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+      "No — Reject Rebuke & Direct Escrow to Public Commons",
       "Abstain — Record Feedback Only"
     ]
   },

@@ -145,8 +145,8 @@
       "primary_harm_thesis": "regulatory leniency toward industrial emissions, grid monopolies, and watershed externalities"
     },
     "vote": {
-      "question": "Community Accountability Resolution [US-AL U.S. Senate]: Felix Barry Moore (R) has received $11,440,101 in career campaign contributions (with $8,425,840 this cycle, alongside $2,820,000 in outside Super PAC support led by Senate Opportunity Fund)—out-raising general opponent Everett W Wess ($128,570) by 65.54x—linked to \"Extractive Energy & Petrochemical Capture\". Should AL release the community fund to local charities working on clean water remediation, community grid resilience, and environmental health clinics?",
-      "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Felix Barry Moore receives $11,440,101 (with $8,425,840 this cycle, alongside $2,820,000 in outside Super PAC support led by Senate Opportunity Fund), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+      "question": "[US-AL - U.S. Senate]: Felix Barry Moore (R) has received $11,440,101 in career campaign contributions (with $8,425,840 this cycle, alongside $387,557 in outside Super PAC support led by High Plains PAC)—linked to \"Extractive Energy & Petrochemical Capture\". Do you vote to formally rebuke Felix Barry Moore for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+      "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Felix Barry Moore has amassed $11,440,101 in career contributions (with $8,425,840 this cycle, alongside $387,557 in outside Super PAC support led by High Plains PAC)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Felix Barry Moore on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
       "question_vars": {
         "subject_name": "Felix Barry Moore",
         "career_total_receipts_usd": 11440101,
@@ -157,8 +157,8 @@
       },
       "type": "community_restitution_vote",
       "options": [
-        "Yes — Send Fund to Local Charities",
-        "No — Send Fund to Essential Community Services",
+        "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+        "No — Reject Rebuke & Direct Escrow to Public Commons",
         "Abstain — Record Feedback Only"
       ]
     },
@@ -569,8 +569,8 @@
       "primary_harm_thesis": "regulatory leniency toward industrial emissions, grid monopolies, and watershed externalities"
     },
     "vote": {
-      "question": "Community Accountability Resolution [US-AK U.S. Senate]: Dan Sullivan (R) has received $24,726,126 in career campaign contributions (with $11,508,274 this cycle, alongside $200,000,000 in outside Super PAC support led by MAGA Inc.)—linked to \"Extractive Energy & Petrochemical Capture\". Should AK release the community fund to local charities working on clean water remediation, community grid resilience, and environmental health clinics?",
-      "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Dan Sullivan receives $24,726,126 (with $11,508,274 this cycle, alongside $200,000,000 in outside Super PAC support led by MAGA Inc.), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+      "question": "[US-AK - U.S. Senate]: Dan Sullivan (R) has received $24,726,126 in career campaign contributions (with $11,508,274 this cycle, alongside $47,145,763 in outside Super PAC support led by Senate Leadership Fund (SLF PAC))—linked to \"Extractive Energy & Petrochemical Capture\". Do you vote to formally rebuke Dan Sullivan for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+      "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Dan Sullivan has amassed $24,726,126 in career contributions (with $11,508,274 this cycle, alongside $47,145,763 in outside Super PAC support led by Senate Leadership Fund (SLF PAC))—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Dan Sullivan on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
       "question_vars": {
         "subject_name": "Dan Sullivan",
         "career_total_receipts_usd": 24726126,
@@ -581,8 +581,8 @@
       },
       "type": "community_restitution_vote",
       "options": [
-        "Yes — Send Fund to Local Charities",
-        "No — Send Fund to Essential Community Services",
+        "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+        "No — Reject Rebuke & Direct Escrow to Public Commons",
         "Abstain — Record Feedback Only"
       ]
     },
@@ -999,8 +999,8 @@
       "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
     },
     "vote": {
-      "question": "Community Accountability Resolution [US-AR U.S. Senate]: Thomas Cotton (R) has received $55,014,579 in career campaign contributions (with $14,299,286 this cycle, alongside $2,050,000 in outside Super PAC support led by America One Policies)—out-raising general opponent Hallie Shoffner ($4,042,811) by 3.54x—linked to \"Outside Super PAC & Megadonor Swarm\". Should AR release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-      "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Thomas Cotton receives $55,014,579 (with $14,299,286 this cycle, alongside $2,050,000 in outside Super PAC support led by America One Policies), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+      "question": "[US-AR - U.S. Senate]: Thomas Cotton (R) has received $55,014,579 in career campaign contributions (with $14,299,286 this cycle, alongside $4,613,765 in outside Super PAC support led by America One)—linked to \"Outside Super PAC & Megadonor Swarm\". Do you vote to formally rebuke Thomas Cotton for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+      "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Thomas Cotton has amassed $55,014,579 in career contributions (with $14,299,286 this cycle, alongside $4,613,765 in outside Super PAC support led by America One)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Thomas Cotton on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
       "question_vars": {
         "subject_name": "Thomas Cotton",
         "career_total_receipts_usd": 55014579,
@@ -1011,8 +1011,8 @@
       },
       "type": "community_restitution_vote",
       "options": [
-        "Yes — Send Fund to Local Charities",
-        "No — Send Fund to Essential Community Services",
+        "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+        "No — Reject Rebuke & Direct Escrow to Public Commons",
         "Abstain — Record Feedback Only"
       ]
     },
@@ -1423,8 +1423,8 @@
       "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
     },
     "vote": {
-      "question": "Community Accountability Resolution [US-CO U.S. Senate]: John W. Hickenlooper (D) has received $55,941,391 in career campaign contributions (with $9,529,277 this cycle, alongside $2,000,000 in outside Super PAC support led by American Federation of State, County and Municipal Employees)—out-raising general opponent Mark Baisley ($138,210) by 68.95x—linked to \"Outside Super PAC & Megadonor Swarm\". Should CO release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-      "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When John W. Hickenlooper receives $55,941,391 (with $9,529,277 this cycle, alongside $2,000,000 in outside Super PAC support led by American Federation of State, County and Municipal Employees), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+      "question": "[US-CO - U.S. Senate]: John W. Hickenlooper (D) has received $55,941,391 in career campaign contributions (with $9,529,277 this cycle, alongside $12,594 in outside Super PAC support led by Democratic Messaging Project)—linked to \"Outside Super PAC & Megadonor Swarm\". Do you vote to formally rebuke John W. Hickenlooper for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+      "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet John W. Hickenlooper has amassed $55,941,391 in career contributions (with $9,529,277 this cycle, alongside $12,594 in outside Super PAC support led by Democratic Messaging Project)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure John W. Hickenlooper on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
       "question_vars": {
         "subject_name": "John W. Hickenlooper",
         "career_total_receipts_usd": 55941391,
@@ -1435,8 +1435,8 @@
       },
       "type": "community_restitution_vote",
       "options": [
-        "Yes — Send Fund to Local Charities",
-        "No — Send Fund to Essential Community Services",
+        "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+        "No — Reject Rebuke & Direct Escrow to Public Commons",
         "Abstain — Record Feedback Only"
       ]
     },
@@ -1845,8 +1845,8 @@
       "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
     },
     "vote": {
-      "question": "Community Accountability Resolution [US-DE U.S. Senate]: Christopher A. Coons (D) has received $14,902,846 in career campaign contributions (with $4,956,015 this cycle, alongside $18,701,877 in outside Super PAC support led by AB Foundation)—out-raising general opponent Michael S Dr. Katz ($190,416) by 26.03x—linked to \"Outside Super PAC & Megadonor Swarm\". Should DE release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-      "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Christopher A. Coons receives $14,902,846 (with $4,956,015 this cycle, alongside $18,701,877 in outside Super PAC support led by AB Foundation), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+      "question": "[US-DE - U.S. Senate]: Christopher A. Coons (D) has received $14,902,846 in career campaign contributions (with $4,956,015 this cycle, alongside $231,764 in outside Super PAC support led by Ab PAC)—linked to \"Outside Super PAC & Megadonor Swarm\". Do you vote to formally rebuke Christopher A. Coons for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+      "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Christopher A. Coons has amassed $14,902,846 in career contributions (with $4,956,015 this cycle, alongside $231,764 in outside Super PAC support led by Ab PAC)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Christopher A. Coons on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
       "question_vars": {
         "subject_name": "Christopher A. Coons",
         "career_total_receipts_usd": 14902846,
@@ -1857,8 +1857,8 @@
       },
       "type": "community_restitution_vote",
       "options": [
-        "Yes — Send Fund to Local Charities",
-        "No — Send Fund to Essential Community Services",
+        "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+        "No — Reject Rebuke & Direct Escrow to Public Commons",
         "Abstain — Record Feedback Only"
       ]
     },
@@ -2272,8 +2272,8 @@
       "primary_harm_thesis": "housing financialization, consumer debt deregulation, and tax-code arbitrage"
     },
     "vote": {
-      "question": "Community Accountability Resolution [US-FL U.S. Senate]: Ashley Moody (R) has received $14,524,032 in career campaign contributions (with $14,524,032 this cycle, alongside $168,000,000 in outside Super PAC support led by Elon Musk)—out-raising general opponent Angela Nixon ($11,319,380) by 1.28x—linked to \"Private Equity, Speculative Finance & Real Estate Syndicate\". Should FL release the community fund to local charities working on affordable housing trusts, predatory-lending legal aid, and household debt relief?",
-      "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Ashley Moody receives $14,524,032 (with $14,524,032 this cycle, alongside $168,000,000 in outside Super PAC support led by Elon Musk), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+      "question": "[US-FL - U.S. Senate]: Ashley Moody (R) has received $14,524,032 in career campaign contributions (with $14,524,032 this cycle, alongside $14,057,959 in outside Super PAC support led by Stronger Safer Nation)—linked to \"Private Equity, Speculative Finance & Real Estate Syndicate\". Do you vote to formally rebuke Ashley Moody for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+      "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Ashley Moody has amassed $14,524,032 in career contributions (with $14,524,032 this cycle, alongside $14,057,959 in outside Super PAC support led by Stronger Safer Nation)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Ashley Moody on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
       "question_vars": {
         "subject_name": "Ashley Moody",
         "career_total_receipts_usd": 14524032,
@@ -2284,8 +2284,8 @@
       },
       "type": "community_restitution_vote",
       "options": [
-        "Yes — Send Fund to Local Charities",
-        "No — Send Fund to Essential Community Services",
+        "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+        "No — Reject Rebuke & Direct Escrow to Public Commons",
         "Abstain — Record Feedback Only"
       ]
     },
@@ -2698,8 +2698,8 @@
       "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
     },
     "vote": {
-      "question": "Community Accountability Resolution [US-GA U.S. Senate]: T. Jonathan Ossoff (D) has received $324,881,337 in career campaign contributions (with $115,904,486 this cycle, alongside $38,500,000 in outside Super PAC support led by SMP)—out-raising general opponent Michael A Collins Jr ($10,687,028) by 10.85x—linked to \"Outside Super PAC & Megadonor Swarm\". Should GA release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-      "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When T. Jonathan Ossoff receives $324,881,337 (with $115,904,486 this cycle, alongside $38,500,000 in outside Super PAC support led by SMP), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+      "question": "[US-GA - U.S. Senate]: T. Jonathan Ossoff (D) has received $324,881,337 in career campaign contributions (with $115,904,486 this cycle, alongside $20,090,576 in outside Super PAC support led by The Georgia Way)—linked to \"Outside Super PAC & Megadonor Swarm\". Do you vote to formally rebuke T. Jonathan Ossoff for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+      "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet T. Jonathan Ossoff has amassed $324,881,337 in career contributions (with $115,904,486 this cycle, alongside $20,090,576 in outside Super PAC support led by The Georgia Way)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure T. Jonathan Ossoff on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
       "question_vars": {
         "subject_name": "T. Jonathan Ossoff",
         "career_total_receipts_usd": 324881337,
@@ -2710,8 +2710,8 @@
       },
       "type": "community_restitution_vote",
       "options": [
-        "Yes — Send Fund to Local Charities",
-        "No — Send Fund to Essential Community Services",
+        "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+        "No — Reject Rebuke & Direct Escrow to Public Commons",
         "Abstain — Record Feedback Only"
       ]
     },
@@ -3126,8 +3126,8 @@
       "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
     },
     "vote": {
-      "question": "Community Accountability Resolution [US-ID U.S. Senate]: James E Mr. Risch (R) has received $8,342,986 in career campaign contributions (with $3,935,512 this cycle, alongside $11,738 in outside Super PAC support led by Fitzgerald & CO., Cpas, P.C.)—out-raising general opponent Todd Baker Achilles ($1,921,132) by 2.05x—linked to \"Outside Super PAC & Megadonor Swarm\". Should ID release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-      "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When James E Mr. Risch receives $8,342,986 (with $3,935,512 this cycle, alongside $11,738 in outside Super PAC support led by Fitzgerald & CO., Cpas, P.C.), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+      "question": "[US-ID - U.S. Senate]: James E Mr. Risch (R) has received $8,342,986 in career campaign contributions (with $3,935,512 this cycle, alongside $9,152 in outside Super PAC support led by Goa Victory Fund)—linked to \"Outside Super PAC & Megadonor Swarm\". Do you vote to formally rebuke James E Mr. Risch for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+      "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet James E Mr. Risch has amassed $8,342,986 in career contributions (with $3,935,512 this cycle, alongside $9,152 in outside Super PAC support led by Goa Victory Fund)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure James E Mr. Risch on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
       "question_vars": {
         "subject_name": "James E Mr. Risch",
         "career_total_receipts_usd": 8342986,
@@ -3138,8 +3138,8 @@
       },
       "type": "community_restitution_vote",
       "options": [
-        "Yes — Send Fund to Local Charities",
-        "No — Send Fund to Essential Community Services",
+        "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+        "No — Reject Rebuke & Direct Escrow to Public Commons",
         "Abstain — Record Feedback Only"
       ]
     },
@@ -3545,8 +3545,8 @@
       "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
     },
     "vote": {
-      "question": "Community Accountability Resolution [US-IL U.S. Senate]: Don Tracy (R) has received $4,914,363 in career campaign contributions (with $4,914,363 this cycle, anchored by TRACY, DON ($2,000,100))—linked to \"Outside Super PAC & Megadonor Swarm\". Should IL release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-      "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Don Tracy receives $4,914,363 (with $4,914,363 this cycle, anchored by TRACY, DON ($2,000,100)), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+      "question": "[US-IL - U.S. Senate]: Don Tracy (R) has received $4,914,363 in career campaign contributions (with $4,914,363 this cycle)—linked to \"Outside Super PAC & Megadonor Swarm\". Do you vote to formally rebuke Don Tracy for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+      "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Don Tracy has amassed $4,914,363 in career contributions (with $4,914,363 this cycle)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Don Tracy on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
       "question_vars": {
         "subject_name": "Don Tracy",
         "career_total_receipts_usd": 4914363,
@@ -3557,8 +3557,8 @@
       },
       "type": "community_restitution_vote",
       "options": [
-        "Yes — Send Fund to Local Charities",
-        "No — Send Fund to Essential Community Services",
+        "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+        "No — Reject Rebuke & Direct Escrow to Public Commons",
         "Abstain — Record Feedback Only"
       ]
     },
@@ -3975,8 +3975,8 @@
       "primary_harm_thesis": "regulatory leniency toward industrial emissions, grid monopolies, and watershed externalities"
     },
     "vote": {
-      "question": "Community Accountability Resolution [US-IA U.S. Senate]: Ashley Hinson Arenholz (R) has received $46,267,212 in career campaign contributions (with $28,295,946 this cycle, alongside $168,000,000 in outside Super PAC support led by Elon Musk)—linked to \"Extractive Energy & Petrochemical Capture\". Should IA release the community fund to local charities working on clean water remediation, community grid resilience, and environmental health clinics?",
-      "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Ashley Hinson Arenholz receives $46,267,212 (with $28,295,946 this cycle, alongside $168,000,000 in outside Super PAC support led by Elon Musk), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+      "question": "[US-IA - U.S. Senate]: Ashley Hinson Arenholz (R) has received $46,267,212 in career campaign contributions (with $28,295,946 this cycle, alongside $95,659,104 in outside Super PAC support led by Senate Leadership Fund (SLF PAC))—linked to \"Extractive Energy & Petrochemical Capture\". Do you vote to formally rebuke Ashley Hinson Arenholz for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+      "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Ashley Hinson Arenholz has amassed $46,267,212 in career contributions (with $28,295,946 this cycle, alongside $95,659,104 in outside Super PAC support led by Senate Leadership Fund (SLF PAC))—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Ashley Hinson Arenholz on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
       "question_vars": {
         "subject_name": "Ashley Hinson Arenholz",
         "career_total_receipts_usd": 46267212,
@@ -3987,8 +3987,8 @@
       },
       "type": "community_restitution_vote",
       "options": [
-        "Yes — Send Fund to Local Charities",
-        "No — Send Fund to Essential Community Services",
+        "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+        "No — Reject Rebuke & Direct Escrow to Public Commons",
         "Abstain — Record Feedback Only"
       ]
     },
@@ -4404,8 +4404,8 @@
       "primary_harm_thesis": "regulatory leniency toward industrial emissions, grid monopolies, and watershed externalities"
     },
     "vote": {
-      "question": "Community Accountability Resolution [US-KS U.S. Senate]: Roger W Marshall (R) has received $31,624,340 in career campaign contributions (with $10,700,128 this cycle, alongside $168,000,000 in outside Super PAC support led by Elon Musk)—linked to \"Extractive Energy & Petrochemical Capture\". Should KS release the community fund to local charities working on clean water remediation, community grid resilience, and environmental health clinics?",
-      "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Roger W Marshall receives $31,624,340 (with $10,700,128 this cycle, alongside $168,000,000 in outside Super PAC support led by Elon Musk), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+      "question": "[US-KS - U.S. Senate]: Roger W Marshall (R) has received $31,624,340 in career campaign contributions (with $10,700,128 this cycle, alongside $36,056,820 in outside Super PAC support led by Senate Leadership Fund (SLF PAC))—linked to \"Extractive Energy & Petrochemical Capture\". Do you vote to formally rebuke Roger W Marshall for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+      "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Roger W Marshall has amassed $31,624,340 in career contributions (with $10,700,128 this cycle, alongside $36,056,820 in outside Super PAC support led by Senate Leadership Fund (SLF PAC))—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Roger W Marshall on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
       "question_vars": {
         "subject_name": "Roger W Marshall",
         "career_total_receipts_usd": 31624340,
@@ -4416,8 +4416,8 @@
       },
       "type": "community_restitution_vote",
       "options": [
-        "Yes — Send Fund to Local Charities",
-        "No — Send Fund to Essential Community Services",
+        "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+        "No — Reject Rebuke & Direct Escrow to Public Commons",
         "Abstain — Record Feedback Only"
       ]
     },
@@ -4830,8 +4830,8 @@
       "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
     },
     "vote": {
-      "question": "Community Accountability Resolution [US-KY U.S. Senate]: Garland Andy Barr (R) has received $46,350,345 in career campaign contributions (with $25,018,098 this cycle, alongside $22,500,000 in outside Super PAC support led by Leading The Future)—out-raising general opponent Charles Booker ($1,936,324) by 12.92x—linked to \"Outside Super PAC & Megadonor Swarm\". Should KY release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-      "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Garland Andy Barr receives $46,350,345 (with $25,018,098 this cycle, alongside $22,500,000 in outside Super PAC support led by Leading The Future), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+      "question": "[US-KY - U.S. Senate]: Garland Andy Barr (R) has received $46,350,345 in career campaign contributions (with $25,018,098 this cycle, alongside $1,986,674 in outside Super PAC support led by Keep America Great PAC, Inc.)—linked to \"Outside Super PAC & Megadonor Swarm\". Do you vote to formally rebuke Garland Andy Barr for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+      "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Garland Andy Barr has amassed $46,350,345 in career contributions (with $25,018,098 this cycle, alongside $1,986,674 in outside Super PAC support led by Keep America Great PAC, Inc.)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Garland Andy Barr on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
       "question_vars": {
         "subject_name": "Garland Andy Barr",
         "career_total_receipts_usd": 46350345,
@@ -4842,8 +4842,8 @@
       },
       "type": "community_restitution_vote",
       "options": [
-        "Yes — Send Fund to Local Charities",
-        "No — Send Fund to Essential Community Services",
+        "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+        "No — Reject Rebuke & Direct Escrow to Public Commons",
         "Abstain — Record Feedback Only"
       ]
     },
@@ -5262,8 +5262,8 @@
       "primary_harm_thesis": "housing financialization, consumer debt deregulation, and tax-code arbitrage"
     },
     "vote": {
-      "question": "Community Accountability Resolution [US-LA U.S. Senate]: Julia Letlow (R) has received $14,603,419 in career campaign contributions (with $9,140,910 this cycle, alongside $168,000,000 in outside Super PAC support led by Elon Musk)—out-raising general opponent Jamie Davis ($5,019,888) by 1.82x—linked to \"Private Equity, Speculative Finance & Real Estate Syndicate\". Should LA release the community fund to local charities working on affordable housing trusts, predatory-lending legal aid, and household debt relief?",
-      "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Julia Letlow receives $14,603,419 (with $9,140,910 this cycle, alongside $168,000,000 in outside Super PAC support led by Elon Musk), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+      "question": "[US-LA - U.S. Senate]: Julia Letlow (R) has received $14,603,419 in career campaign contributions (with $9,140,910 this cycle, alongside $2,948,284 in outside Super PAC support led by Accountability Project Inc)—linked to \"Private Equity, Speculative Finance & Real Estate Syndicate\". Do you vote to formally rebuke Julia Letlow for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+      "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Julia Letlow has amassed $14,603,419 in career contributions (with $9,140,910 this cycle, alongside $2,948,284 in outside Super PAC support led by Accountability Project Inc)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Julia Letlow on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
       "question_vars": {
         "subject_name": "Julia Letlow",
         "career_total_receipts_usd": 14603419,
@@ -5274,8 +5274,8 @@
       },
       "type": "community_restitution_vote",
       "options": [
-        "Yes — Send Fund to Local Charities",
-        "No — Send Fund to Essential Community Services",
+        "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+        "No — Reject Rebuke & Direct Escrow to Public Commons",
         "Abstain — Record Feedback Only"
       ]
     },
@@ -5690,8 +5690,8 @@
       "primary_harm_thesis": "housing financialization, consumer debt deregulation, and tax-code arbitrage"
     },
     "vote": {
-      "question": "Community Accountability Resolution [US-ME U.S. Senate]: Susan M. Collins (R) has received $56,008,902 in career campaign contributions (with $22,465,218 this cycle, alongside $168,000,000 in outside Super PAC support led by Elon Musk)—linked to \"Private Equity, Speculative Finance & Real Estate Syndicate\". Should ME release the community fund to local charities working on affordable housing trusts, predatory-lending legal aid, and household debt relief?",
-      "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Susan M. Collins receives $56,008,902 (with $22,465,218 this cycle, alongside $168,000,000 in outside Super PAC support led by Elon Musk), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+      "question": "[US-ME - U.S. Senate]: Susan M. Collins (R) has received $56,008,902 in career campaign contributions (with $22,465,218 this cycle, alongside $81,452,027 in outside Super PAC support led by Senate Leadership Fund (SLF PAC))—linked to \"Private Equity, Speculative Finance & Real Estate Syndicate\". Do you vote to formally rebuke Susan M. Collins for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+      "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Susan M. Collins has amassed $56,008,902 in career contributions (with $22,465,218 this cycle, alongside $81,452,027 in outside Super PAC support led by Senate Leadership Fund (SLF PAC))—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Susan M. Collins on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
       "question_vars": {
         "subject_name": "Susan M. Collins",
         "career_total_receipts_usd": 56008902,
@@ -5702,8 +5702,8 @@
       },
       "type": "community_restitution_vote",
       "options": [
-        "Yes — Send Fund to Local Charities",
-        "No — Send Fund to Essential Community Services",
+        "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+        "No — Reject Rebuke & Direct Escrow to Public Commons",
         "Abstain — Record Feedback Only"
       ]
     },
@@ -6119,8 +6119,8 @@
       "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
     },
     "vote": {
-      "question": "Community Accountability Resolution [US-MA U.S. Senate]: Edward Sen. Markey (D) has received $23,151,961 in career campaign contributions (with $5,985,385 this cycle, alongside $1,000,000 in outside Super PAC support led by Ripple Labs Inc)—out-raising general opponent John Deaton ($1,674,460) by 3.57x—linked to \"Outside Super PAC & Megadonor Swarm\". Should MA release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-      "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Edward Sen. Markey receives $23,151,961 (with $5,985,385 this cycle, alongside $1,000,000 in outside Super PAC support led by Ripple Labs Inc), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+      "question": "[US-MA - U.S. Senate]: Edward Sen. Markey (D) has received $23,151,961 in career campaign contributions (with $5,985,385 this cycle)—linked to \"Outside Super PAC & Megadonor Swarm\". Do you vote to formally rebuke Edward Sen. Markey for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+      "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Edward Sen. Markey has amassed $23,151,961 in career contributions (with $5,985,385 this cycle)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Edward Sen. Markey on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
       "question_vars": {
         "subject_name": "Edward Sen. Markey",
         "career_total_receipts_usd": 23151961,
@@ -6131,8 +6131,8 @@
       },
       "type": "community_restitution_vote",
       "options": [
-        "Yes — Send Fund to Local Charities",
-        "No — Send Fund to Essential Community Services",
+        "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+        "No — Reject Rebuke & Direct Escrow to Public Commons",
         "Abstain — Record Feedback Only"
       ]
     },
@@ -6538,8 +6538,8 @@
       "primary_harm_thesis": "perpetual procurement escalation and domestic surveillance expansion over local infrastructure"
     },
     "vote": {
-      "question": "Community Accountability Resolution [US-MI U.S. Senate]: Abdul El-sayed (D) has received $53,830,872 in career campaign contributions (with $53,830,872 this cycle, alongside $182,790,000 in outside Super PAC support led by Smp)—out-raising general opponent Michael J Rogers ($23,016,439) by 2.34x—linked to \"Defense, Aerospace & Surveillance Contractor Bloc\". Should MI release the community fund to local charities working on veterans' trauma/housing rehabilitation and digital privacy civil-liberties defense?",
-      "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Abdul El-sayed receives $53,830,872 (with $53,830,872 this cycle, alongside $182,790,000 in outside Super PAC support led by Smp), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+      "question": "[US-MI - U.S. Senate]: Abdul El-sayed (D) has received $53,830,872 in career campaign contributions (with $53,830,872 this cycle, alongside $95,105,219 in outside Super PAC support led by WinSenate)—linked to \"Defense, Aerospace & Surveillance Contractor Bloc\". Do you vote to formally rebuke Abdul El-sayed for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+      "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Abdul El-sayed has amassed $53,830,872 in career contributions (with $53,830,872 this cycle, alongside $95,105,219 in outside Super PAC support led by WinSenate)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Abdul El-sayed on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
       "question_vars": {
         "subject_name": "Abdul El-sayed",
         "career_total_receipts_usd": 53830872,
@@ -6550,8 +6550,8 @@
       },
       "type": "community_restitution_vote",
       "options": [
-        "Yes — Send Fund to Local Charities",
-        "No — Send Fund to Essential Community Services",
+        "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+        "No — Reject Rebuke & Direct Escrow to Public Commons",
         "Abstain — Record Feedback Only"
       ]
     },
@@ -6965,8 +6965,8 @@
       "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
     },
     "vote": {
-      "question": "Community Accountability Resolution [US-MN U.S. Senate]: Margaret Flanagan (D) has received $11,576,112 in career campaign contributions (with $11,563,963 this cycle, alongside $18,701,877 in outside Super PAC support led by AB Foundation)—out-raising general opponent Michele Tafoya ($46,626) by 248.02x—linked to \"Outside Super PAC & Megadonor Swarm\". Should MN release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-      "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Margaret Flanagan receives $11,576,112 (with $11,563,963 this cycle, alongside $18,701,877 in outside Super PAC support led by AB Foundation), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+      "question": "[US-MN - U.S. Senate]: Margaret Flanagan (D) has received $11,576,112 in career campaign contributions (with $11,563,963 this cycle, alongside $2,840,700 in outside Super PAC support led by Ab PAC)—linked to \"Outside Super PAC & Megadonor Swarm\". Do you vote to formally rebuke Margaret Flanagan for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+      "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Margaret Flanagan has amassed $11,576,112 in career contributions (with $11,563,963 this cycle, alongside $2,840,700 in outside Super PAC support led by Ab PAC)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Margaret Flanagan on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
       "question_vars": {
         "subject_name": "Margaret Flanagan",
         "career_total_receipts_usd": 11576112,
@@ -6977,8 +6977,8 @@
       },
       "type": "community_restitution_vote",
       "options": [
-        "Yes — Send Fund to Local Charities",
-        "No — Send Fund to Essential Community Services",
+        "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+        "No — Reject Rebuke & Direct Escrow to Public Commons",
         "Abstain — Record Feedback Only"
       ]
     },
@@ -7391,8 +7391,8 @@
       "primary_harm_thesis": "housing financialization, consumer debt deregulation, and tax-code arbitrage"
     },
     "vote": {
-      "question": "Community Accountability Resolution [US-MS U.S. Senate]: Cindy Hyde-smith (R) has received $15,232,692 in career campaign contributions (with $4,646,803 this cycle, alongside $168,000,000 in outside Super PAC support led by Elon Musk)—linked to \"Private Equity, Speculative Finance & Real Estate Syndicate\". Should MS release the community fund to local charities working on affordable housing trusts, predatory-lending legal aid, and household debt relief?",
-      "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Cindy Hyde-smith receives $15,232,692 (with $4,646,803 this cycle, alongside $168,000,000 in outside Super PAC support led by Elon Musk), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+      "question": "[US-MS - U.S. Senate]: Cindy Hyde-smith (R) has received $15,232,692 in career campaign contributions (with $4,646,803 this cycle, alongside $2,355,560 in outside Super PAC support led by Senate Leadership Fund (SLF PAC))—linked to \"Private Equity, Speculative Finance & Real Estate Syndicate\". Do you vote to formally rebuke Cindy Hyde-smith for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+      "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Cindy Hyde-smith has amassed $15,232,692 in career contributions (with $4,646,803 this cycle, alongside $2,355,560 in outside Super PAC support led by Senate Leadership Fund (SLF PAC))—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Cindy Hyde-smith on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
       "question_vars": {
         "subject_name": "Cindy Hyde-smith",
         "career_total_receipts_usd": 15232692,
@@ -7403,8 +7403,8 @@
       },
       "type": "community_restitution_vote",
       "options": [
-        "Yes — Send Fund to Local Charities",
-        "No — Send Fund to Essential Community Services",
+        "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+        "No — Reject Rebuke & Direct Escrow to Public Commons",
         "Abstain — Record Feedback Only"
       ]
     },
@@ -7813,8 +7813,8 @@
       "primary_harm_thesis": "regulatory leniency toward industrial emissions, grid monopolies, and watershed externalities"
     },
     "vote": {
-      "question": "Community Accountability Resolution [US-MT U.S. Senate]: Kurt Alme (R) has received $3,013,681 in career campaign contributions (with $3,013,681 this cycle, alongside $30,000,000 in outside Super PAC support led by Koch Inc.)—linked to \"Extractive Energy & Petrochemical Capture\". Should MT release the community fund to local charities working on clean water remediation, community grid resilience, and environmental health clinics?",
-      "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Kurt Alme receives $3,013,681 (with $3,013,681 this cycle, alongside $30,000,000 in outside Super PAC support led by Koch Inc.), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+      "question": "[US-MT - U.S. Senate]: Kurt Alme (R) has received $3,013,681 in career campaign contributions (with $3,013,681 this cycle, alongside $4,177,705 in outside Super PAC support led by More Jobs, Less Government)—linked to \"Extractive Energy & Petrochemical Capture\". Do you vote to formally rebuke Kurt Alme for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+      "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Kurt Alme has amassed $3,013,681 in career contributions (with $3,013,681 this cycle, alongside $4,177,705 in outside Super PAC support led by More Jobs, Less Government)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Kurt Alme on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
       "question_vars": {
         "subject_name": "Kurt Alme",
         "career_total_receipts_usd": 3013681,
@@ -7825,8 +7825,8 @@
       },
       "type": "community_restitution_vote",
       "options": [
-        "Yes — Send Fund to Local Charities",
-        "No — Send Fund to Essential Community Services",
+        "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+        "No — Reject Rebuke & Direct Escrow to Public Commons",
         "Abstain — Record Feedback Only"
       ]
     },
@@ -8241,8 +8241,8 @@
       "primary_harm_thesis": "housing financialization, consumer debt deregulation, and tax-code arbitrage"
     },
     "vote": {
-      "question": "Community Accountability Resolution [US-NE U.S. Senate]: Pete Ricketts (R) has received $20,423,187 in career campaign contributions (with $14,546,959 this cycle, alongside $168,000,000 in outside Super PAC support led by Elon Musk)—out-raising general opponent Dan Osborn ($11,029,845) by 1.32x—linked to \"Private Equity, Speculative Finance & Real Estate Syndicate\". Should NE release the community fund to local charities working on affordable housing trusts, predatory-lending legal aid, and household debt relief?",
-      "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Pete Ricketts receives $20,423,187 (with $14,546,959 this cycle, alongside $168,000,000 in outside Super PAC support led by Elon Musk), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+      "question": "[US-NE - U.S. Senate]: Pete Ricketts (R) has received $20,423,187 in career campaign contributions (with $14,546,959 this cycle, alongside $32,742,719 in outside Super PAC support led by Defend American Jobs)—linked to \"Private Equity, Speculative Finance & Real Estate Syndicate\". Do you vote to formally rebuke Pete Ricketts for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+      "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Pete Ricketts has amassed $20,423,187 in career contributions (with $14,546,959 this cycle, alongside $32,742,719 in outside Super PAC support led by Defend American Jobs)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Pete Ricketts on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
       "question_vars": {
         "subject_name": "Pete Ricketts",
         "career_total_receipts_usd": 20423187,
@@ -8253,8 +8253,8 @@
       },
       "type": "community_restitution_vote",
       "options": [
-        "Yes — Send Fund to Local Charities",
-        "No — Send Fund to Essential Community Services",
+        "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+        "No — Reject Rebuke & Direct Escrow to Public Commons",
         "Abstain — Record Feedback Only"
       ]
     },
@@ -8668,8 +8668,8 @@
       "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
     },
     "vote": {
-      "question": "Community Accountability Resolution [US-NH U.S. Senate]: Chris Pappas (D) has received $62,081,553 in career campaign contributions (with $47,407,296 this cycle, alongside $171,120,000 in outside Super PAC support led by SMP)—out-raising general opponent John E Sununu ($5,681,528) by 8.34x—linked to \"Outside Super PAC & Megadonor Swarm\". Should NH release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-      "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Chris Pappas receives $62,081,553 (with $47,407,296 this cycle, alongside $171,120,000 in outside Super PAC support led by SMP), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+      "question": "[US-NH - U.S. Senate]: Chris Pappas (D) has received $62,081,553 in career campaign contributions (with $47,407,296 this cycle, alongside $22,908,631 in outside Super PAC support led by WinSenate)—linked to \"Outside Super PAC & Megadonor Swarm\". Do you vote to formally rebuke Chris Pappas for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+      "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Chris Pappas has amassed $62,081,553 in career contributions (with $47,407,296 this cycle, alongside $22,908,631 in outside Super PAC support led by WinSenate)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Chris Pappas on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
       "question_vars": {
         "subject_name": "Chris Pappas",
         "career_total_receipts_usd": 62081553,
@@ -8680,8 +8680,8 @@
       },
       "type": "community_restitution_vote",
       "options": [
-        "Yes — Send Fund to Local Charities",
-        "No — Send Fund to Essential Community Services",
+        "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+        "No — Reject Rebuke & Direct Escrow to Public Commons",
         "Abstain — Record Feedback Only"
       ]
     },
@@ -9089,8 +9089,8 @@
       "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
     },
     "vote": {
-      "question": "Community Accountability Resolution [US-NJ U.S. Senate]: Cory A. Booker (D) has received $52,529,215 in career campaign contributions (with $21,275,163 this cycle, alongside $457,000 in outside Super PAC support led by Laure Woods)—out-raising general opponent Justin Michael Ll.m. Murphy ($68,189) by 312x—linked to \"Outside Super PAC & Megadonor Swarm\". Should NJ release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-      "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Cory A. Booker receives $52,529,215 (with $21,275,163 this cycle, alongside $457,000 in outside Super PAC support led by Laure Woods), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+      "question": "[US-NJ - U.S. Senate]: Cory A. Booker (D) has received $52,529,215 in career campaign contributions (with $21,275,163 this cycle, alongside $19,180 in outside Super PAC support led by Democratic Messaging Project)—linked to \"Outside Super PAC & Megadonor Swarm\". Do you vote to formally rebuke Cory A. Booker for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+      "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Cory A. Booker has amassed $52,529,215 in career contributions (with $21,275,163 this cycle, alongside $19,180 in outside Super PAC support led by Democratic Messaging Project)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Cory A. Booker on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
       "question_vars": {
         "subject_name": "Cory A. Booker",
         "career_total_receipts_usd": 52529215,
@@ -9101,8 +9101,8 @@
       },
       "type": "community_restitution_vote",
       "options": [
-        "Yes — Send Fund to Local Charities",
-        "No — Send Fund to Essential Community Services",
+        "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+        "No — Reject Rebuke & Direct Escrow to Public Commons",
         "Abstain — Record Feedback Only"
       ]
     },
@@ -9516,8 +9516,8 @@
       "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
     },
     "vote": {
-      "question": "Community Accountability Resolution [US-NM U.S. Senate]: Ben Ray Lujan (D) has received $40,886,655 in career campaign contributions (with $12,921,044 this cycle, alongside $18,701,877 in outside Super PAC support led by AB Foundation)—out-raising general opponent Larry E Marker ($99,230) by 130.21x—linked to \"Outside Super PAC & Megadonor Swarm\". Should NM release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-      "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Ben Ray Lujan receives $40,886,655 (with $12,921,044 this cycle, alongside $18,701,877 in outside Super PAC support led by AB Foundation), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+      "question": "[US-NM - U.S. Senate]: Ben Ray Lujan (D) has received $40,886,655 in career campaign contributions (with $12,921,044 this cycle, alongside $274,429 in outside Super PAC support led by Ab PAC)—linked to \"Outside Super PAC & Megadonor Swarm\". Do you vote to formally rebuke Ben Ray Lujan for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+      "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Ben Ray Lujan has amassed $40,886,655 in career contributions (with $12,921,044 this cycle, alongside $274,429 in outside Super PAC support led by Ab PAC)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Ben Ray Lujan on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
       "question_vars": {
         "subject_name": "Ben Ray Lujan",
         "career_total_receipts_usd": 40886655,
@@ -9528,8 +9528,8 @@
       },
       "type": "community_restitution_vote",
       "options": [
-        "Yes — Send Fund to Local Charities",
-        "No — Send Fund to Essential Community Services",
+        "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+        "No — Reject Rebuke & Direct Escrow to Public Commons",
         "Abstain — Record Feedback Only"
       ]
     },
@@ -9940,8 +9940,8 @@
       "primary_harm_thesis": "regulatory leniency toward industrial emissions, grid monopolies, and watershed externalities"
     },
     "vote": {
-      "question": "Community Accountability Resolution [US-NC U.S. Senate]: Michael Whatley (R) has received $13,668,468 in career campaign contributions (with $13,668,468 this cycle, alongside $200,000,000 in outside Super PAC support led by MAGA Inc.)—linked to \"Extractive Energy & Petrochemical Capture\". Should NC release the community fund to local charities working on clean water remediation, community grid resilience, and environmental health clinics?",
-      "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Michael Whatley receives $13,668,468 (with $13,668,468 this cycle, alongside $200,000,000 in outside Super PAC support led by MAGA Inc.), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+      "question": "[US-NC - U.S. Senate]: Michael Whatley (R) has received $13,668,468 in career campaign contributions (with $13,668,468 this cycle, alongside $45,570,833 in outside Super PAC support led by Senate Leadership Fund (SLF PAC))—linked to \"Extractive Energy & Petrochemical Capture\". Do you vote to formally rebuke Michael Whatley for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+      "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Michael Whatley has amassed $13,668,468 in career contributions (with $13,668,468 this cycle, alongside $45,570,833 in outside Super PAC support led by Senate Leadership Fund (SLF PAC))—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Michael Whatley on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
       "question_vars": {
         "subject_name": "Michael Whatley",
         "career_total_receipts_usd": 13668468,
@@ -9952,8 +9952,8 @@
       },
       "type": "community_restitution_vote",
       "options": [
-        "Yes — Send Fund to Local Charities",
-        "No — Send Fund to Essential Community Services",
+        "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+        "No — Reject Rebuke & Direct Escrow to Public Commons",
         "Abstain — Record Feedback Only"
       ]
     },
@@ -10364,8 +10364,8 @@
       "primary_harm_thesis": "housing financialization, consumer debt deregulation, and tax-code arbitrage"
     },
     "vote": {
-      "question": "Community Accountability Resolution [US-OH U.S. Senate]: Jon Husted (R) has received $19,894,786 in career campaign contributions (with $19,894,786 this cycle, alongside $200,000,000 in outside Super PAC support led by MAGA Inc.)—linked to \"Private Equity, Speculative Finance & Real Estate Syndicate\". Should OH release the community fund to local charities working on affordable housing trusts, predatory-lending legal aid, and household debt relief?",
-      "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Jon Husted receives $19,894,786 (with $19,894,786 this cycle, alongside $200,000,000 in outside Super PAC support led by MAGA Inc.), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+      "question": "[US-OH - U.S. Senate]: Jon Husted (R) has received $19,894,786 in career campaign contributions (with $19,894,786 this cycle, alongside $257,906,617 in outside Super PAC support led by Senate Leadership Fund (SLF PAC))—linked to \"Private Equity, Speculative Finance & Real Estate Syndicate\". Do you vote to formally rebuke Jon Husted for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+      "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Jon Husted has amassed $19,894,786 in career contributions (with $19,894,786 this cycle, alongside $257,906,617 in outside Super PAC support led by Senate Leadership Fund (SLF PAC))—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Jon Husted on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
       "question_vars": {
         "subject_name": "Jon Husted",
         "career_total_receipts_usd": 19894786,
@@ -10376,8 +10376,8 @@
       },
       "type": "community_restitution_vote",
       "options": [
-        "Yes — Send Fund to Local Charities",
-        "No — Send Fund to Essential Community Services",
+        "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+        "No — Reject Rebuke & Direct Escrow to Public Commons",
         "Abstain — Record Feedback Only"
       ]
     },
@@ -10796,8 +10796,8 @@
       "primary_harm_thesis": "regulatory leniency toward industrial emissions, grid monopolies, and watershed externalities"
     },
     "vote": {
-      "question": "Community Accountability Resolution [US-OK U.S. Senate]: Kevin Hern (R) has received $22,128,721 in career campaign contributions (with $13,374,945 this cycle, alongside $2,820,000 in outside Super PAC support led by Senate Opportunity Fund)—out-raising general opponent N'kiyla Jasmine - Ann Thomas ($115,954) by 115.35x—linked to \"Extractive Energy & Petrochemical Capture\". Should OK release the community fund to local charities working on clean water remediation, community grid resilience, and environmental health clinics?",
-      "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Kevin Hern receives $22,128,721 (with $13,374,945 this cycle, alongside $2,820,000 in outside Super PAC support led by Senate Opportunity Fund), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+      "question": "[US-OK - U.S. Senate]: Kevin Hern (R) has received $22,128,721 in career campaign contributions (with $13,374,945 this cycle, alongside $219,789 in outside Super PAC support led by High Plains PAC)—linked to \"Extractive Energy & Petrochemical Capture\". Do you vote to formally rebuke Kevin Hern for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+      "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Kevin Hern has amassed $22,128,721 in career contributions (with $13,374,945 this cycle, alongside $219,789 in outside Super PAC support led by High Plains PAC)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Kevin Hern on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
       "question_vars": {
         "subject_name": "Kevin Hern",
         "career_total_receipts_usd": 22128721,
@@ -10808,8 +10808,8 @@
       },
       "type": "community_restitution_vote",
       "options": [
-        "Yes — Send Fund to Local Charities",
-        "No — Send Fund to Essential Community Services",
+        "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+        "No — Reject Rebuke & Direct Escrow to Public Commons",
         "Abstain — Record Feedback Only"
       ]
     },
@@ -11216,8 +11216,8 @@
       "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
     },
     "vote": {
-      "question": "Community Accountability Resolution [US-OR U.S. Senate]: Jeffrey Alan Merkley (D) has received $20,180,850 in career campaign contributions (with $5,376,935 this cycle, anchored by ACTBLUE ($541,977))—out-raising general opponent David Brock Smith ($311,174) by 17.28x—linked to \"Outside Super PAC & Megadonor Swarm\". Should OR release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-      "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Jeffrey Alan Merkley receives $20,180,850 (with $5,376,935 this cycle, anchored by ACTBLUE ($541,977)), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+      "question": "[US-OR - U.S. Senate]: Jeffrey Alan Merkley (D) has received $20,180,850 in career campaign contributions (with $5,376,935 this cycle)—linked to \"Outside Super PAC & Megadonor Swarm\". Do you vote to formally rebuke Jeffrey Alan Merkley for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+      "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Jeffrey Alan Merkley has amassed $20,180,850 in career contributions (with $5,376,935 this cycle)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Jeffrey Alan Merkley on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
       "question_vars": {
         "subject_name": "Jeffrey Alan Merkley",
         "career_total_receipts_usd": 20180850,
@@ -11228,8 +11228,8 @@
       },
       "type": "community_restitution_vote",
       "options": [
-        "Yes — Send Fund to Local Charities",
-        "No — Send Fund to Essential Community Services",
+        "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+        "No — Reject Rebuke & Direct Escrow to Public Commons",
         "Abstain — Record Feedback Only"
       ]
     },
@@ -11635,8 +11635,8 @@
       "primary_harm_thesis": "housing financialization, consumer debt deregulation, and tax-code arbitrage"
     },
     "vote": {
-      "question": "Community Accountability Resolution [US-RI U.S. Senate]: John F. Reed (D) has received $8,842,783 in career campaign contributions (with $3,727,368 this cycle, anchored by ACTBLUE ($474,250))—out-raising general opponent Raymond Tyler MR Mckay ($207,231) by 17.99x—linked to \"Private Equity, Speculative Finance & Real Estate Syndicate\". Should RI release the community fund to local charities working on affordable housing trusts, predatory-lending legal aid, and household debt relief?",
-      "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When John F. Reed receives $8,842,783 (with $3,727,368 this cycle, anchored by ACTBLUE ($474,250)), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+      "question": "[US-RI - U.S. Senate]: John F. Reed (D) has received $8,842,783 in career campaign contributions (with $3,727,368 this cycle)—linked to \"Private Equity, Speculative Finance & Real Estate Syndicate\". Do you vote to formally rebuke John F. Reed for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+      "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet John F. Reed has amassed $8,842,783 in career contributions (with $3,727,368 this cycle)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure John F. Reed on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
       "question_vars": {
         "subject_name": "John F. Reed",
         "career_total_receipts_usd": 8842783,
@@ -11647,8 +11647,8 @@
       },
       "type": "community_restitution_vote",
       "options": [
-        "Yes — Send Fund to Local Charities",
-        "No — Send Fund to Essential Community Services",
+        "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+        "No — Reject Rebuke & Direct Escrow to Public Commons",
         "Abstain — Record Feedback Only"
       ]
     },
@@ -12061,8 +12061,8 @@
       "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
     },
     "vote": {
-      "question": "Community Accountability Resolution [US-SC U.S. Senate]: Annie Andrews (D) has received $26,254,909 in career campaign contributions (with $24,216,841 this cycle, alongside $171,120,000 in outside Super PAC support led by SMP)—out-raising general opponent Darline Graham ($1,917,646) by 12.63x—linked to \"Outside Super PAC & Megadonor Swarm\". Should SC release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-      "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Annie Andrews receives $26,254,909 (with $24,216,841 this cycle, alongside $171,120,000 in outside Super PAC support led by SMP), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+      "question": "[US-SC - U.S. Senate]: Annie Andrews (D) has received $26,254,909 in career campaign contributions (with $24,216,841 this cycle, alongside $23,559,714 in outside Super PAC support led by Government That Works PAC)—linked to \"Outside Super PAC & Megadonor Swarm\". Do you vote to formally rebuke Annie Andrews for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+      "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Annie Andrews has amassed $26,254,909 in career contributions (with $24,216,841 this cycle, alongside $23,559,714 in outside Super PAC support led by Government That Works PAC)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Annie Andrews on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
       "question_vars": {
         "subject_name": "Annie Andrews",
         "career_total_receipts_usd": 26254909,
@@ -12073,8 +12073,8 @@
       },
       "type": "community_restitution_vote",
       "options": [
-        "Yes — Send Fund to Local Charities",
-        "No — Send Fund to Essential Community Services",
+        "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+        "No — Reject Rebuke & Direct Escrow to Public Commons",
         "Abstain — Record Feedback Only"
       ]
     },
@@ -12482,8 +12482,8 @@
       "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
     },
     "vote": {
-      "question": "Community Accountability Resolution [US-SD U.S. Senate]: Mike Rounds (R) has received $9,957,529 in career campaign contributions (with $3,810,748 this cycle, alongside $22,500,000 in outside Super PAC support led by Leading The Future)—out-raising general opponent Brian Bengs ($1,855,763) by 2.05x—linked to \"Outside Super PAC & Megadonor Swarm\". Should SD release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-      "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Mike Rounds receives $9,957,529 (with $3,810,748 this cycle, alongside $22,500,000 in outside Super PAC support led by Leading The Future), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+      "question": "[US-SD - U.S. Senate]: Mike Rounds (R) has received $9,957,529 in career campaign contributions (with $3,810,748 this cycle, alongside $1,215,086 in outside Super PAC support led by South Dakota Conservative PAC)—linked to \"Outside Super PAC & Megadonor Swarm\". Do you vote to formally rebuke Mike Rounds for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+      "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Mike Rounds has amassed $9,957,529 in career contributions (with $3,810,748 this cycle, alongside $1,215,086 in outside Super PAC support led by South Dakota Conservative PAC)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Mike Rounds on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
       "question_vars": {
         "subject_name": "Mike Rounds",
         "career_total_receipts_usd": 9957529,
@@ -12494,8 +12494,8 @@
       },
       "type": "community_restitution_vote",
       "options": [
-        "Yes — Send Fund to Local Charities",
-        "No — Send Fund to Essential Community Services",
+        "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+        "No — Reject Rebuke & Direct Escrow to Public Commons",
         "Abstain — Record Feedback Only"
       ]
     },
@@ -12906,8 +12906,8 @@
       "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
     },
     "vote": {
-      "question": "Community Accountability Resolution [US-TN U.S. Senate]: Bill Hagerty (R) has received $32,999,539 in career campaign contributions (with $8,422,211 this cycle, alongside $22,500,000 in outside Super PAC support led by Leading The Future)—out-raising general opponent Marquita Bradshaw ($35,195) by 239.3x—linked to \"Outside Super PAC & Megadonor Swarm\". Should TN release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-      "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Bill Hagerty receives $32,999,539 (with $8,422,211 this cycle, alongside $22,500,000 in outside Super PAC support led by Leading The Future), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+      "question": "[US-TN - U.S. Senate]: Bill Hagerty (R) has received $32,999,539 in career campaign contributions (with $8,422,211 this cycle, alongside $278,120 in outside Super PAC support led by American Mission)—linked to \"Outside Super PAC & Megadonor Swarm\". Do you vote to formally rebuke Bill Hagerty for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+      "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Bill Hagerty has amassed $32,999,539 in career contributions (with $8,422,211 this cycle, alongside $278,120 in outside Super PAC support led by American Mission)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Bill Hagerty on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
       "question_vars": {
         "subject_name": "Bill Hagerty",
         "career_total_receipts_usd": 32999539,
@@ -12918,8 +12918,8 @@
       },
       "type": "community_restitution_vote",
       "options": [
-        "Yes — Send Fund to Local Charities",
-        "No — Send Fund to Essential Community Services",
+        "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+        "No — Reject Rebuke & Direct Escrow to Public Commons",
         "Abstain — Record Feedback Only"
       ]
     },
@@ -13328,8 +13328,8 @@
       "primary_harm_thesis": "housing financialization, consumer debt deregulation, and tax-code arbitrage"
     },
     "vote": {
-      "question": "Community Accountability Resolution [US-TX U.S. Senate]: James Talarico (D) has received $146,349,912 in career campaign contributions (with $146,349,912 this cycle, alongside $207,370,000 in outside Super PAC support led by SMP)—out-raising general opponent Warren Kenneth Paxton Jr ($22,327,474) by 6.55x—linked to \"Private Equity, Speculative Finance & Real Estate Syndicate\". Should TX release the community fund to local charities working on affordable housing trusts, predatory-lending legal aid, and household debt relief?",
-      "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When James Talarico receives $146,349,912 (with $146,349,912 this cycle, alongside $207,370,000 in outside Super PAC support led by SMP), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+      "question": "[US-TX - U.S. Senate]: James Talarico (D) has received $146,349,912 in career campaign contributions (with $146,349,912 this cycle, alongside $109,450,197 in outside Super PAC support led by Lone Star Rising PAC)—linked to \"Private Equity, Speculative Finance & Real Estate Syndicate\". Do you vote to formally rebuke James Talarico for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+      "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet James Talarico has amassed $146,349,912 in career contributions (with $146,349,912 this cycle, alongside $109,450,197 in outside Super PAC support led by Lone Star Rising PAC)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure James Talarico on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
       "question_vars": {
         "subject_name": "James Talarico",
         "career_total_receipts_usd": 146349912,
@@ -13340,8 +13340,8 @@
       },
       "type": "community_restitution_vote",
       "options": [
-        "Yes — Send Fund to Local Charities",
-        "No — Send Fund to Essential Community Services",
+        "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+        "No — Reject Rebuke & Direct Escrow to Public Commons",
         "Abstain — Record Feedback Only"
       ]
     },
@@ -13758,8 +13758,8 @@
       "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
     },
     "vote": {
-      "question": "Community Accountability Resolution [US-VA U.S. Senate]: Mark Robert Warner (D) has received $44,900,265 in career campaign contributions (with $20,222,105 this cycle, alongside $457,000 in outside Super PAC support led by Laure Woods)—out-raising general opponent Bert K Mizusawa ($1,141,130) by 17.72x—linked to \"Outside Super PAC & Megadonor Swarm\". Should VA release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-      "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Mark Robert Warner receives $44,900,265 (with $20,222,105 this cycle, alongside $457,000 in outside Super PAC support led by Laure Woods), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+      "question": "[US-VA - U.S. Senate]: Mark Robert Warner (D) has received $44,900,265 in career campaign contributions (with $20,222,105 this cycle, alongside $47,560 in outside Super PAC support led by Thomas Paine Society L.L.C.)—linked to \"Outside Super PAC & Megadonor Swarm\". Do you vote to formally rebuke Mark Robert Warner for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+      "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Mark Robert Warner has amassed $44,900,265 in career contributions (with $20,222,105 this cycle, alongside $47,560 in outside Super PAC support led by Thomas Paine Society L.L.C.)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Mark Robert Warner on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
       "question_vars": {
         "subject_name": "Mark Robert Warner",
         "career_total_receipts_usd": 44900265,
@@ -13770,8 +13770,8 @@
       },
       "type": "community_restitution_vote",
       "options": [
-        "Yes — Send Fund to Local Charities",
-        "No — Send Fund to Essential Community Services",
+        "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+        "No — Reject Rebuke & Direct Escrow to Public Commons",
         "Abstain — Record Feedback Only"
       ]
     },
@@ -14178,8 +14178,8 @@
       "primary_harm_thesis": "housing financialization, consumer debt deregulation, and tax-code arbitrage"
     },
     "vote": {
-      "question": "Community Accountability Resolution [US-WV U.S. Senate]: Shelley Moore Capito (R) has received $13,070,960 in career campaign contributions (with $5,449,866 this cycle, alongside $22,500,000 in outside Super PAC support led by Leading The Future)—out-raising general opponent Rachel Lee Fetty Anderson ($164,558) by 33.12x—linked to \"Private Equity, Speculative Finance & Real Estate Syndicate\". Should WV release the community fund to local charities working on affordable housing trusts, predatory-lending legal aid, and household debt relief?",
-      "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Shelley Moore Capito receives $13,070,960 (with $5,449,866 this cycle, alongside $22,500,000 in outside Super PAC support led by Leading The Future), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+      "question": "[US-WV - U.S. Senate]: Shelley Moore Capito (R) has received $13,070,960 in career campaign contributions (with $5,449,866 this cycle, alongside $309,309 in outside Super PAC support led by American Mission)—linked to \"Private Equity, Speculative Finance & Real Estate Syndicate\". Do you vote to formally rebuke Shelley Moore Capito for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+      "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Shelley Moore Capito has amassed $13,070,960 in career contributions (with $5,449,866 this cycle, alongside $309,309 in outside Super PAC support led by American Mission)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Shelley Moore Capito on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
       "question_vars": {
         "subject_name": "Shelley Moore Capito",
         "career_total_receipts_usd": 13070960,
@@ -14190,8 +14190,8 @@
       },
       "type": "community_restitution_vote",
       "options": [
-        "Yes — Send Fund to Local Charities",
-        "No — Send Fund to Essential Community Services",
+        "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+        "No — Reject Rebuke & Direct Escrow to Public Commons",
         "Abstain — Record Feedback Only"
       ]
     },
@@ -14612,8 +14612,8 @@
       "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
     },
     "vote": {
-      "question": "Community Accountability Resolution [US-WY U.S. Senate]: Harriet Hageman (R) has received $14,428,612 in career campaign contributions (with $5,621,508 this cycle, alongside $543,500 in outside Super PAC support led by Michael Rydin)—out-raising general opponent James Willard Mr. Byrd ($53,560) by 104.96x—linked to \"Outside Super PAC & Megadonor Swarm\". Should WY release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-      "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Harriet Hageman receives $14,428,612 (with $5,621,508 this cycle, alongside $543,500 in outside Super PAC support led by Michael Rydin), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+      "question": "[US-WY - U.S. Senate]: Harriet Hageman (R) has received $14,428,612 in career campaign contributions (with $5,621,508 this cycle, alongside $81,381 in outside Super PAC support led by Senate Conservatives Fund)—linked to \"Outside Super PAC & Megadonor Swarm\". Do you vote to formally rebuke Harriet Hageman for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+      "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Harriet Hageman has amassed $14,428,612 in career contributions (with $5,621,508 this cycle, alongside $81,381 in outside Super PAC support led by Senate Conservatives Fund)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Harriet Hageman on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
       "question_vars": {
         "subject_name": "Harriet Hageman",
         "career_total_receipts_usd": 14428612,
@@ -14624,8 +14624,8 @@
       },
       "type": "community_restitution_vote",
       "options": [
-        "Yes — Send Fund to Local Charities",
-        "No — Send Fund to Essential Community Services",
+        "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+        "No — Reject Rebuke & Direct Escrow to Public Commons",
         "Abstain — Record Feedback Only"
       ]
     },

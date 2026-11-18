@@ -144,8 +144,8 @@
     "primary_harm_thesis": "housing financialization, consumer debt deregulation, and tax-code arbitrage"
   },
   "vote": {
-    "question": "Community Accountability Resolution [US-LA U.S. Senate]: Julia Letlow (R) has received $14,603,419 in career campaign contributions (with $9,140,910 this cycle, alongside $168,000,000 in outside Super PAC support led by Elon Musk)—out-raising general opponent Jamie Davis ($5,019,888) by 1.82x—linked to \"Private Equity, Speculative Finance & Real Estate Syndicate\". Should LA release the community fund to local charities working on affordable housing trusts, predatory-lending legal aid, and household debt relief?",
-    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Julia Letlow receives $14,603,419 (with $9,140,910 this cycle, alongside $168,000,000 in outside Super PAC support led by Elon Musk), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+    "question": "[US-LA - U.S. Senate]: Julia Letlow (R) has received $14,603,419 in career campaign contributions (with $9,140,910 this cycle, alongside $2,948,284 in outside Super PAC support led by Accountability Project Inc)—linked to \"Private Equity, Speculative Finance & Real Estate Syndicate\". Do you vote to formally rebuke Julia Letlow for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+    "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Julia Letlow has amassed $14,603,419 in career contributions (with $9,140,910 this cycle, alongside $2,948,284 in outside Super PAC support led by Accountability Project Inc)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Julia Letlow on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
     "question_vars": {
       "subject_name": "Julia Letlow",
       "career_total_receipts_usd": 14603419,
@@ -156,8 +156,8 @@
     },
     "type": "community_restitution_vote",
     "options": [
-      "Yes — Send Fund to Local Charities",
-      "No — Send Fund to Essential Community Services",
+      "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+      "No — Reject Rebuke & Direct Escrow to Public Commons",
       "Abstain — Record Feedback Only"
     ]
   },

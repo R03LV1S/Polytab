@@ -144,8 +144,8 @@
     "primary_harm_thesis": "regulatory leniency toward industrial emissions, grid monopolies, and watershed externalities"
   },
   "vote": {
-    "question": "Community Accountability Resolution [US-OK U.S. Senate]: Kevin Hern (R) has received $22,128,721 in career campaign contributions (with $13,374,945 this cycle, alongside $2,820,000 in outside Super PAC support led by Senate Opportunity Fund)—out-raising general opponent N'kiyla Jasmine - Ann Thomas ($115,954) by 115.35x—linked to \"Extractive Energy & Petrochemical Capture\". Should OK release the community fund to local charities working on clean water remediation, community grid resilience, and environmental health clinics?",
-    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Kevin Hern receives $22,128,721 (with $13,374,945 this cycle, alongside $2,820,000 in outside Super PAC support led by Senate Opportunity Fund), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+    "question": "[US-OK - U.S. Senate]: Kevin Hern (R) has received $22,128,721 in career campaign contributions (with $13,374,945 this cycle, alongside $219,789 in outside Super PAC support led by High Plains PAC)—linked to \"Extractive Energy & Petrochemical Capture\". Do you vote to formally rebuke Kevin Hern for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+    "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Kevin Hern has amassed $22,128,721 in career contributions (with $13,374,945 this cycle, alongside $219,789 in outside Super PAC support led by High Plains PAC)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Kevin Hern on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
     "question_vars": {
       "subject_name": "Kevin Hern",
       "career_total_receipts_usd": 22128721,
@@ -156,8 +156,8 @@
     },
     "type": "community_restitution_vote",
     "options": [
-      "Yes — Send Fund to Local Charities",
-      "No — Send Fund to Essential Community Services",
+      "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+      "No — Reject Rebuke & Direct Escrow to Public Commons",
       "Abstain — Record Feedback Only"
     ]
   },

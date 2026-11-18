@@ -131,8 +131,8 @@
     "primary_harm_thesis": "perpetual procurement escalation and domestic surveillance expansion over local infrastructure"
   },
   "vote": {
-    "question": "Community Accountability Resolution [US-MI U.S. Senate]: Abdul El-sayed (D) has received $53,830,872 in career campaign contributions (with $53,830,872 this cycle, alongside $182,790,000 in outside Super PAC support led by Smp)—out-raising general opponent Michael J Rogers ($23,016,439) by 2.34x—linked to \"Defense, Aerospace & Surveillance Contractor Bloc\". Should MI release the community fund to local charities working on veterans' trauma/housing rehabilitation and digital privacy civil-liberties defense?",
-    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Abdul El-sayed receives $53,830,872 (with $53,830,872 this cycle, alongside $182,790,000 in outside Super PAC support led by Smp), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+    "question": "[US-MI - U.S. Senate]: Abdul El-sayed (D) has received $53,830,872 in career campaign contributions (with $53,830,872 this cycle, alongside $95,105,219 in outside Super PAC support led by WinSenate)—linked to \"Defense, Aerospace & Surveillance Contractor Bloc\". Do you vote to formally rebuke Abdul El-sayed for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+    "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Abdul El-sayed has amassed $53,830,872 in career contributions (with $53,830,872 this cycle, alongside $95,105,219 in outside Super PAC support led by WinSenate)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Abdul El-sayed on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
     "question_vars": {
       "subject_name": "Abdul El-sayed",
       "career_total_receipts_usd": 53830872,
@@ -143,8 +143,8 @@
     },
     "type": "community_restitution_vote",
     "options": [
-      "Yes — Send Fund to Local Charities",
-      "No — Send Fund to Essential Community Services",
+      "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+      "No — Reject Rebuke & Direct Escrow to Public Commons",
       "Abstain — Record Feedback Only"
     ]
   },

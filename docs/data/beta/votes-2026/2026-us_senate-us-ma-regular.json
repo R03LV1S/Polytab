@@ -140,8 +140,8 @@
     "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
   },
   "vote": {
-    "question": "Community Accountability Resolution [US-MA U.S. Senate]: Edward Sen. Markey (D) has received $23,151,961 in career campaign contributions (with $5,985,385 this cycle, alongside $1,000,000 in outside Super PAC support led by Ripple Labs Inc)—out-raising general opponent John Deaton ($1,674,460) by 3.57x—linked to \"Outside Super PAC & Megadonor Swarm\". Should MA release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Edward Sen. Markey receives $23,151,961 (with $5,985,385 this cycle, alongside $1,000,000 in outside Super PAC support led by Ripple Labs Inc), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+    "question": "[US-MA - U.S. Senate]: Edward Sen. Markey (D) has received $23,151,961 in career campaign contributions (with $5,985,385 this cycle)—linked to \"Outside Super PAC & Megadonor Swarm\". Do you vote to formally rebuke Edward Sen. Markey for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+    "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Edward Sen. Markey has amassed $23,151,961 in career contributions (with $5,985,385 this cycle)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Edward Sen. Markey on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
     "question_vars": {
       "subject_name": "Edward Sen. Markey",
       "career_total_receipts_usd": 23151961,
@@ -152,8 +152,8 @@
     },
     "type": "community_restitution_vote",
     "options": [
-      "Yes — Send Fund to Local Charities",
-      "No — Send Fund to Essential Community Services",
+      "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+      "No — Reject Rebuke & Direct Escrow to Public Commons",
       "Abstain — Record Feedback Only"
     ]
   },

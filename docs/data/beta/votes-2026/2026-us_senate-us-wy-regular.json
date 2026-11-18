@@ -145,8 +145,8 @@
     "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
   },
   "vote": {
-    "question": "Community Accountability Resolution [US-WY U.S. Senate]: Harriet Hageman (R) has received $14,428,612 in career campaign contributions (with $5,621,508 this cycle, alongside $543,500 in outside Super PAC support led by Michael Rydin)—out-raising general opponent James Willard Mr. Byrd ($53,560) by 104.96x—linked to \"Outside Super PAC & Megadonor Swarm\". Should WY release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Harriet Hageman receives $14,428,612 (with $5,621,508 this cycle, alongside $543,500 in outside Super PAC support led by Michael Rydin), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+    "question": "[US-WY - U.S. Senate]: Harriet Hageman (R) has received $14,428,612 in career campaign contributions (with $5,621,508 this cycle, alongside $81,381 in outside Super PAC support led by Senate Conservatives Fund)—linked to \"Outside Super PAC & Megadonor Swarm\". Do you vote to formally rebuke Harriet Hageman for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+    "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Harriet Hageman has amassed $14,428,612 in career contributions (with $5,621,508 this cycle, alongside $81,381 in outside Super PAC support led by Senate Conservatives Fund)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Harriet Hageman on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
     "question_vars": {
       "subject_name": "Harriet Hageman",
       "career_total_receipts_usd": 14428612,
@@ -157,8 +157,8 @@
     },
     "type": "community_restitution_vote",
     "options": [
-      "Yes — Send Fund to Local Charities",
-      "No — Send Fund to Essential Community Services",
+      "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+      "No — Reject Rebuke & Direct Escrow to Public Commons",
       "Abstain — Record Feedback Only"
     ]
   },

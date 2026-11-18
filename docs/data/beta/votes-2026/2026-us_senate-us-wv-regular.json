@@ -132,8 +132,8 @@
     "primary_harm_thesis": "housing financialization, consumer debt deregulation, and tax-code arbitrage"
   },
   "vote": {
-    "question": "Community Accountability Resolution [US-WV U.S. Senate]: Shelley Moore Capito (R) has received $13,070,960 in career campaign contributions (with $5,449,866 this cycle, alongside $22,500,000 in outside Super PAC support led by Leading The Future)—out-raising general opponent Rachel Lee Fetty Anderson ($164,558) by 33.12x—linked to \"Private Equity, Speculative Finance & Real Estate Syndicate\". Should WV release the community fund to local charities working on affordable housing trusts, predatory-lending legal aid, and household debt relief?",
-    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Shelley Moore Capito receives $13,070,960 (with $5,449,866 this cycle, alongside $22,500,000 in outside Super PAC support led by Leading The Future), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+    "question": "[US-WV - U.S. Senate]: Shelley Moore Capito (R) has received $13,070,960 in career campaign contributions (with $5,449,866 this cycle, alongside $309,309 in outside Super PAC support led by American Mission)—linked to \"Private Equity, Speculative Finance & Real Estate Syndicate\". Do you vote to formally rebuke Shelley Moore Capito for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+    "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Shelley Moore Capito has amassed $13,070,960 in career contributions (with $5,449,866 this cycle, alongside $309,309 in outside Super PAC support led by American Mission)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Shelley Moore Capito on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
     "question_vars": {
       "subject_name": "Shelley Moore Capito",
       "career_total_receipts_usd": 13070960,
@@ -144,8 +144,8 @@
     },
     "type": "community_restitution_vote",
     "options": [
-      "Yes — Send Fund to Local Charities",
-      "No — Send Fund to Essential Community Services",
+      "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+      "No — Reject Rebuke & Direct Escrow to Public Commons",
       "Abstain — Record Feedback Only"
     ]
   },

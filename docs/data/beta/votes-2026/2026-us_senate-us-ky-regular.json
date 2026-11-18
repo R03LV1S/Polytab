@@ -137,8 +137,8 @@
     "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
   },
   "vote": {
-    "question": "Community Accountability Resolution [US-KY U.S. Senate]: Garland Andy Barr (R) has received $46,350,345 in career campaign contributions (with $25,018,098 this cycle, alongside $22,500,000 in outside Super PAC support led by Leading The Future)—out-raising general opponent Charles Booker ($1,936,324) by 12.92x—linked to \"Outside Super PAC & Megadonor Swarm\". Should KY release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Garland Andy Barr receives $46,350,345 (with $25,018,098 this cycle, alongside $22,500,000 in outside Super PAC support led by Leading The Future), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+    "question": "[US-KY - U.S. Senate]: Garland Andy Barr (R) has received $46,350,345 in career campaign contributions (with $25,018,098 this cycle, alongside $1,986,674 in outside Super PAC support led by Keep America Great PAC, Inc.)—linked to \"Outside Super PAC & Megadonor Swarm\". Do you vote to formally rebuke Garland Andy Barr for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+    "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Garland Andy Barr has amassed $46,350,345 in career contributions (with $25,018,098 this cycle, alongside $1,986,674 in outside Super PAC support led by Keep America Great PAC, Inc.)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Garland Andy Barr on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
     "question_vars": {
       "subject_name": "Garland Andy Barr",
       "career_total_receipts_usd": 46350345,
@@ -149,8 +149,8 @@
     },
     "type": "community_restitution_vote",
     "options": [
-      "Yes — Send Fund to Local Charities",
-      "No — Send Fund to Essential Community Services",
+      "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+      "No — Reject Rebuke & Direct Escrow to Public Commons",
       "Abstain — Record Feedback Only"
     ]
   },

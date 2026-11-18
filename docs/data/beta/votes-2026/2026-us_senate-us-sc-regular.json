@@ -137,8 +137,8 @@
     "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
   },
   "vote": {
-    "question": "Community Accountability Resolution [US-SC U.S. Senate]: Annie Andrews (D) has received $26,254,909 in career campaign contributions (with $24,216,841 this cycle, alongside $171,120,000 in outside Super PAC support led by SMP)—out-raising general opponent Darline Graham ($1,917,646) by 12.63x—linked to \"Outside Super PAC & Megadonor Swarm\". Should SC release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Annie Andrews receives $26,254,909 (with $24,216,841 this cycle, alongside $171,120,000 in outside Super PAC support led by SMP), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+    "question": "[US-SC - U.S. Senate]: Annie Andrews (D) has received $26,254,909 in career campaign contributions (with $24,216,841 this cycle, alongside $23,559,714 in outside Super PAC support led by Government That Works PAC)—linked to \"Outside Super PAC & Megadonor Swarm\". Do you vote to formally rebuke Annie Andrews for prioritizing private donor interests & failing to represent his constituents by upholding his core civic duties?",
+    "futarchy_thesis": "Elected stewards are entrusted with representing citizens, yet Annie Andrews has amassed $26,254,909 in career contributions (with $24,216,841 this cycle, alongside $23,559,714 in outside Super PAC support led by Government That Works PAC)—prioritizing private corporate donors over constituent interests. This civic vote allows citizens to formally censure Annie Andrews on the public ledger and direct 100% of the civic action escrow pool to local community restitution.",
     "question_vars": {
       "subject_name": "Annie Andrews",
       "career_total_receipts_usd": 26254909,
@@ -149,8 +149,8 @@
     },
     "type": "community_restitution_vote",
     "options": [
-      "Yes — Send Fund to Local Charities",
-      "No — Send Fund to Essential Community Services",
+      "Yes — Formally Rebuke & Direct Escrow to Local Restitution",
+      "No — Reject Rebuke & Direct Escrow to Public Commons",
       "Abstain — Record Feedback Only"
     ]
   },
