@@ -800,17 +800,48 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         { id: "5", title: "Solar Pollinator Waystation & Native Milkweed Bed", parentCategory: "Charities", category: "Environmental", location: "South Courtyard", summary: "Convert 40 sq ft of neglected gravel beds into native milkweed and wildflower pollinator habitats with solar drip irrigation.", plainSummary: "Cause: South courtyard bed is weeds and gravel.\nResolution: Plant native flowers for bees and butterflies.\nProof: Time-lapse video of planting.", campaignType: "open_ended", votePriceUSD: 0.50, targetUSD: null, fundedUSD: 0, votesCount: 0, wallet: "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08", status: "Active", lat: null, lng: null, website: null, socials: {}, datePublishedMs: 0 },
         { id: "6", title: "Open-Source Municipal & School Budget Visualizer", parentCategory: "Charities", category: "Civic Tech", location: "Global / Digital Commons", summary: "Convert annual PDF line-item expenditure tables into an open-source, screen-reader-accessible CSV and interactive chart repository.", plainSummary: "Cause: Budget reports are locked in hard-to-read PDF files.\nResolution: Build a free searchable web chart.\nProof: Public GitHub repository release.", campaignType: "fixed", votePriceUSD: 0.50, targetUSD: 60.00, fundedUSD: 0, votesCount: 0, wallet: "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08", status: "Active", lat: null, lng: null, website: null, socials: {}, datePublishedMs: 0 }
       ];
+      function loadEngagementMap() {
+        try {
+          const v = JSON.parse(localStorage.getItem("polytab_user_engagement") || "{}");
+          return (v && typeof v === "object" && !Array.isArray(v)) ? v : {};
+        } catch (_) { return {}; }
+      }
+      function saveEngagementMap(map) {
+        try { localStorage.setItem("polytab_user_engagement", JSON.stringify(map || {})); } catch (_) {}
+      }
+      function hasUserEngaged(id) {
+        const map = loadEngagementMap();
+        const entry = map[String(id)];
+        return !!(entry && (entry.liked || entry.shared));
+      }
+      function recordEngagement(id, action) {
+        const k = String(id);
+        const map = loadEngagementMap();
+        const prev = map[k] || { liked: false, shared: false };
+        const alreadyEngaged = !!(prev.liked || prev.shared);
+        if (action === "like") {
+          prev.liked = !prev.liked;
+        } else if (action === "share") {
+          prev.shared = true;
+        }
+        if (!prev.liked && !prev.shared) {
+          delete map[k];
+        } else {
+          map[k] = prev;
+        }
+        saveEngagementMap(map);
+        const nowEngaged = !!(prev.liked || prev.shared);
+        return { delta: (nowEngaged ? 1 : 0) - (alreadyEngaged ? 1 : 0), nowEngaged };
+      }
       function loadEndorsements() {
-        try { const v = JSON.parse(localStorage.getItem("polytab_endorsements") || "{}"); return (v && typeof v === "object" && !Array.isArray(v)) ? v : {}; } catch (_) { return {}; }
+        return loadEngagementMap();
       }
       function saveEndorsements(map) {
-        try { localStorage.setItem("polytab_endorsements", JSON.stringify(map || {})); } catch (_) {}
+        saveEngagementMap(map);
       }
-      function isEndorsed(id) { return !!state.endorsements[String(id)]; }
+      function isEndorsed(id) { return hasUserEngaged(id); }
       function toggleEndorsement(id) {
-        const k = String(id);
-        if (state.endorsements[k]) { delete state.endorsements[k]; } else { state.endorsements[k] = true; }
-        saveEndorsements(state.endorsements);
+        return recordEngagement(id, "like");
       }
       function formatLikeCount(n) {
         const v = Number(n);
@@ -832,8 +863,9 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           const n = Number(cs.projects[String(id)].total);
           cloud = Number.isFinite(n) ? n : 0;
         }
-        if (gh == null && !cs) return null;
-        return (gh == null ? 0 : gh) + cloud;
+        const base = ((gh == null ? 0 : gh) + cloud);
+        const localEngaged = hasUserEngaged(id) ? 1 : 0;
+        return base + localEngaged;
       }
       function endorsementIssueUrl(item) {
         const pcat = item.parentCategory || parentForCategory(item.category) || PARENT_CHARITIES;
@@ -1593,22 +1625,35 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           const statusBadge = document.createElement("span");
           statusBadge.className = item.status === "Active" ? "text-[11px] font-mono px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20" : "text-[11px] font-mono px-2 py-0.5 rounded bg-zinc-800 text-zinc-300 border border-zinc-700";
           statusBadge.textContent = item.status;
+          const isLikedNow = () => {
+            const m = loadEngagementMap()[String(item.id)];
+            return !!(m && m.liked);
+          };
           const endorseBtn = document.createElement("button");
           endorseBtn.type = "button";
-          endorseBtn.className = "inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-l-none rounded-r-lg text-[11px] font-semibold bg-pink-500/15 text-pink-300 border border-pink-500/30 hover:bg-pink-500/20 transition";
-          endorseBtn.textContent = "♥ Like";
+          const updateBtnStyle = () => {
+            const liked = isLikedNow();
+            endorseBtn.className = "inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-l-none rounded-r-lg text-[11px] font-semibold transition " +
+              (liked ? "bg-pink-500 text-white border border-pink-400 shadow-sm" : "bg-pink-500/15 text-pink-300 border border-pink-500/30 hover:bg-pink-500/20");
+            endorseBtn.textContent = liked ? "♥ Liked" : "♥ Like";
+          };
+          updateBtnStyle();
           endorseBtn.setAttribute("aria-label", "Like this project");
-          endorseBtn.title = "Like/support this project. Opens endorsement/share options.";
-          endorseBtn.addEventListener("click", (ev) => {
-            ev.stopPropagation();
-            openLikeOverlay(item);
-          });
+          endorseBtn.title = "Like this campaign. 1 count per person across Like and Share.";
           const likeCountBox = document.createElement("span");
           likeCountBox.className = "inline-flex items-center justify-center min-w-[2.25rem] px-2.5 py-1.5 rounded-l-lg rounded-r-none border-r-0 text-[11px] font-semibold bg-pink-500/15 text-pink-300 border border-pink-500/30 font-mono";
-          const vCountForLike = verifiedEndorsementCount(item.id);
-          likeCountBox.textContent = formatLikeCount(vCountForLike == null ? 0 : vCountForLike);
-          likeCountBox.title = (vCountForLike == null ? "0" : String(vCountForLike)) + " verified endorsement" + ((vCountForLike == 1) ? "" : "s");
-          likeCountBox.setAttribute("aria-label", (vCountForLike == null ? "0" : String(vCountForLike)) + " verified endorsements");
+          const refreshCounts = () => {
+            const vCountForLike = verifiedEndorsementCount(item.id);
+            likeCountBox.textContent = formatLikeCount(vCountForLike == null ? 0 : vCountForLike);
+            likeCountBox.title = (vCountForLike == null ? "0" : String(vCountForLike)) + " community likes & shares";
+            updateBtnStyle();
+          };
+          refreshCounts();
+          endorseBtn.addEventListener("click", (ev) => {
+            ev.stopPropagation();
+            recordEngagement(item.id, "like");
+            refreshCounts();
+          });
           const likeRow = document.createElement("div");
           likeRow.className = "flex items-center gap-0";
           likeRow.appendChild(likeCountBox);
@@ -1620,6 +1665,8 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           shareBtn.setAttribute("aria-label", "Share this project");
           shareBtn.addEventListener("click", (ev) => {
             ev.stopPropagation();
+            recordEngagement(item.id, "share");
+            refreshCounts();
             openLikeOverlay(item);
             const sec = document.getElementById("shareSection");
             if (sec && sec.scrollIntoView) sec.scrollIntoView({ block: "nearest" });
@@ -2497,12 +2544,15 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         <button id="closeLikeOverlay" type="button" class="text-zinc-400 hover:text-white text-xl leading-none" aria-label="Close">&times;</button>
       </div>
       <div class="space-y-2">
-        <div class="text-[10px] uppercase tracking-wider text-zinc-500 font-semibold">Like (social support)</div>
-        <p class="text-[11px] text-zinc-400">Likes are like social media or YouTube likes — a simple way to say “I like this campaign.” Likes are not votes, payments, or trust endorsements.</p>
+        <div class="text-[10px] uppercase tracking-wider text-zinc-500 font-semibold">Community Support</div>
+        <p class="text-[11px] text-zinc-400">Likes and shares help more people discover this project. 1 count per person across both actions.</p>
         <div id="providerButtons" class="space-y-2"></div>
-        <a id="likeGithubLink" href="#" target="_blank" rel="noopener noreferrer" class="flex flex-col items-start w-full px-4 py-3 rounded-xl bg-[#FFD8B5]/15 border border-[#FFD8B5]/40 text-[#FFE8D6] hover:bg-[#FFD8B5]/25 transition">
-          <span class="font-semibold">Like on GitHub (verified)</span>
-        </a>
+        <div class="pt-2 border-t border-zinc-900">
+          <div class="text-[10px] uppercase tracking-wider text-zinc-500 font-semibold mb-1">Developer & Audit Backup</div>
+          <a id="likeGithubLink" href="#" target="_blank" rel="noopener noreferrer" class="flex flex-col items-start w-full px-4 py-2.5 rounded-xl bg-zinc-900/60 border border-zinc-800 text-zinc-300 hover:text-white hover:bg-zinc-800 transition text-xs">
+            <span class="font-semibold">Verify on GitHub (optional dev ledger)</span>
+          </a>
+        </div>
       </div>
       <div class="space-y-2 border-t border-zinc-800 pt-3">
         <div class="text-[10px] uppercase tracking-wider text-zinc-500 font-semibold">Trust Endorsements (reputation)</div>

@@ -173,6 +173,39 @@
         });
         return "https://github.com/" + GITHUB_OWNER + "/" + GITHUB_REPO + "/issues/new?" + params.toString();
       }
+      function loadEngagementMap() {
+        try {
+          const v = JSON.parse(localStorage.getItem("polytab_user_engagement") || "{}");
+          return (v && typeof v === "object" && !Array.isArray(v)) ? v : {};
+        } catch (_) { return {}; }
+      }
+      function saveEngagementMap(map) {
+        try { localStorage.setItem("polytab_user_engagement", JSON.stringify(map || {})); } catch (_) {}
+      }
+      function hasUserEngaged(id) {
+        const map = loadEngagementMap();
+        const entry = map[String(id)];
+        return !!(entry && (entry.liked || entry.shared));
+      }
+      function recordEngagement(id, action) {
+        const k = String(id);
+        const map = loadEngagementMap();
+        const prev = map[k] || { liked: false, shared: false };
+        const alreadyEngaged = !!(prev.liked || prev.shared);
+        if (action === "like") {
+          prev.liked = !prev.liked;
+        } else if (action === "share") {
+          prev.shared = true;
+        }
+        if (!prev.liked && !prev.shared) {
+          delete map[k];
+        } else {
+          map[k] = prev;
+        }
+        saveEngagementMap(map);
+        const nowEngaged = !!(prev.liked || prev.shared);
+        return { delta: (nowEngaged ? 1 : 0) - (alreadyEngaged ? 1 : 0), nowEngaged };
+      }
       async function loadEndorsements(){
         try {
           const c = new AbortController(); const t = setTimeout(()=>c.abort(), 3000);
@@ -208,6 +241,13 @@
         if (v < 1000) return String(Math.floor(v));
         if (v < 1000000) return (v / 1000).toFixed(1).replace(/\.0$/, "") + "K";
         return (v / 1000000).toFixed(1).replace(/\.0$/, "") + "M";
+      }
+      function getUnifiedCount(snap, cloud, id) {
+        const gh = vCount(snap, id);
+        const cl = cloudCount(cloud, id);
+        const base = (gh == null ? 0 : gh) + cl;
+        const localEngaged = hasUserEngaged(id) ? 1 : 0;
+        return base + localEngaged;
       }
       function addKV(dl, k, v){
         if (v == null || v === "") return;
@@ -452,15 +492,39 @@
           const dc = document.getElementById("shareDiscord");
           if (dc) dc.onclick = async () => { try { await navigator.clipboard.writeText(shareUrl); dc.textContent = "Link copied"; setTimeout(()=>dc.textContent="Discord",1500);} catch(_){ } window.open("https://discord.com/app","_blank","noopener,noreferrer"); };
 
+          const isLikedNow = () => {
+            const m = loadEngagementMap()[String(item.id)];
+            return !!(m && m.liked);
+          };
+          const updateLikeBtnStyle = () => {
+            if (!likeBtn) return;
+            const liked = isLikedNow();
+            likeBtn.className = "inline-flex items-center gap-1.5 px-3 py-1.5 rounded-l-none rounded-r-lg text-xs font-semibold transition " +
+              (liked ? "bg-pink-500 text-white border border-pink-400 shadow-sm" : "bg-pink-500/15 text-pink-300 border border-pink-500/30 hover:bg-pink-500/20");
+            likeBtn.textContent = liked ? "♥ Liked" : "♥ Like";
+          };
+          const refreshProjectCounts = () => {
+            const likeCount = document.getElementById("likeCount");
+            if (likeCount) {
+              const totalVc = getUnifiedCount(snap, cloud, item.id);
+              likeCount.textContent = formatLikeCount(totalVc);
+              likeCount.title = totalVc + " community likes & shares";
+            }
+            updateLikeBtnStyle();
+          };
+
           if (likeBtn) {
             likeBtn.onclick = (e) => {
               e.stopPropagation();
-              openLikeOverlay();
+              recordEngagement(item.id, "like");
+              refreshProjectCounts();
             };
           }
           if (shareBtn) {
             shareBtn.onclick = (e) => {
               e.stopPropagation();
+              recordEngagement(item.id, "share");
+              refreshProjectCounts();
               openLikeOverlay();
               const sec = document.getElementById("shareSection");
               if (sec && sec.scrollIntoView) sec.scrollIntoView({ block: "nearest" });
@@ -480,15 +544,7 @@
           });
           const snap = await loadEndorsements();
           const cloud = await loadCloudEndorsements();
-          const ghVc = vCount(snap, item.id);
-          const clVc = cloudCount(cloud, item.id);
-          const totalVc = (ghVc == null ? 0 : ghVc) + clVc;
-          const likeCount = document.getElementById("likeCount");
-          if (likeCount) {
-            likeCount.textContent = formatLikeCount(totalVc);
-            likeCount.title = totalVc + " verified endorsement" + (totalVc === 1 ? "" : "s");
-            likeCount.setAttribute("aria-label", totalVc + " verified endorsements");
-          }
+          refreshProjectCounts();
 
           const buy = document.getElementById("buyAction");
           if (isLocked) {
@@ -647,12 +703,15 @@
         <button id="closeLikeOverlay" type="button" class="text-zinc-400 hover:text-white text-xl leading-none" aria-label="Close">&times;</button>
       </div>
       <div class="space-y-2">
-        <div class="text-[10px] uppercase tracking-wider text-zinc-500 font-semibold">Like (social support)</div>
-        <p class="text-[11px] text-zinc-400">Likes are like social media or YouTube likes — a simple way to say “I like this campaign.” Likes are not votes, payments, or trust endorsements.</p>
+        <div class="text-[10px] uppercase tracking-wider text-zinc-500 font-semibold">Community Support</div>
+        <p class="text-[11px] text-zinc-400">Likes and shares help more people discover this project. 1 count per person across both actions.</p>
         <div id="providerButtons" class="space-y-2"></div>
-        <a id="likeGithubLink" href="#" target="_blank" rel="noopener noreferrer" class="flex flex-col items-start w-full px-4 py-3 rounded-xl bg-[#FFD8B5]/15 border border-[#FFD8B5]/40 text-[#FFE8D6] hover:bg-[#FFD8B5]/25 transition">
-          <span class="font-semibold">Like on GitHub (verified)</span>
-        </a>
+        <div class="pt-2 border-t border-zinc-900">
+          <div class="text-[10px] uppercase tracking-wider text-zinc-500 font-semibold mb-1">Developer & Audit Backup</div>
+          <a id="likeGithubLink" href="#" target="_blank" rel="noopener noreferrer" class="flex flex-col items-start w-full px-4 py-2.5 rounded-xl bg-zinc-900/60 border border-zinc-800 text-zinc-300 hover:text-white hover:bg-zinc-800 transition text-xs">
+            <span class="font-semibold">Verify on GitHub (optional dev ledger)</span>
+          </a>
+        </div>
       </div>
       <div class="space-y-2 border-t border-zinc-800 pt-3">
         <div class="text-[10px] uppercase tracking-wider text-zinc-500 font-semibold">Trust Endorsements (reputation)</div>
