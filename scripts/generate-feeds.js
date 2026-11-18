@@ -66,7 +66,8 @@ function itemDescription(item) {
   lines.push("Category: " + (m.category || "Uncategorized"));
   lines.push("Organization: " + (m.organization || "Verification pending"));
   lines.push("Location: " + (m.location || "Community"));
-  lines.push("Vote price: " + money(m.votePriceUSD) + " · Target: " + money(m.targetUSD));
+  const targetStr = (m.campaignType === "open_ended" || m.targetUSD == null) ? "Open-ended ($10,000 activation threshold)" : money(m.targetUSD);
+  lines.push("Vote price: " + money(m.votePriceUSD) + " · Target: " + targetStr);
   lines.push(
     "Funded: " + money(m.fundedUSD) +
     " · Votes: " + (Number(m.votesCount) || 0) +
@@ -126,14 +127,17 @@ function main() {
   const items = Array.isArray(shelf.items) ? shelf.items : [];
   if (items.length === 0) throw new Error("feed.json has no items — refusing to publish an empty shelf feed");
 
-  // Sanity: every item needs an id + title, and metrics must be real numbers.
+  // Sanity: every item needs an id + title, and metrics must be real numbers (or null/undefined for open-ended targetUSD).
   for (const item of items) {
     if (!item.id || !item.title) throw new Error("feed.json item missing id/title: " + JSON.stringify(item).slice(0, 120));
     const m = metaOf(item);
-    for (const key of ["fundedUSD", "votesCount", "targetUSD", "votePriceUSD"]) {
+    for (const key of ["fundedUSD", "votesCount", "votePriceUSD"]) {
       if (m[key] !== undefined && (typeof m[key] !== "number" || Number.isNaN(m[key]) || m[key] < 0)) {
         throw new Error("feed.json item " + item.id + " has invalid " + key);
       }
+    }
+    if (m.targetUSD !== undefined && m.targetUSD !== null && (typeof m.targetUSD !== "number" || Number.isNaN(m.targetUSD) || m.targetUSD < 0)) {
+      throw new Error("feed.json item " + item.id + " has invalid targetUSD");
     }
   }
 
