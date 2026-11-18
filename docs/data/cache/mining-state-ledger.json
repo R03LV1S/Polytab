@@ -6,7 +6,7 @@
     "security_invariant": "All URLs must have api_key query parameters redacted prior to indexing or logging.",
     "ttl_policy": "Historical legislators: 720h | OpenFEC totals/committees/donors: 72h | VoteLog & Current legislators: 24h"
   },
-  "last_updated_utc": "2026-11-17T01:06:16.926Z",
+  "last_updated_utc": "2026-11-18T00:48:02.237Z",
   "lifo_delta_log": [
     {
       "timestamp_utc": "2026-11-17T00:58:43.976Z",
@@ -197,15 +197,15 @@
   ],
   "endpoints": {
     "https://votelog.org/data/members-all.json": {
-      "mined_at_utc": "2026-11-17T00:30:28.071Z",
-      "expires_at_utc": "2026-11-18T00:30:28.071Z",
+      "mined_at_utc": "2026-11-18T00:47:58.452Z",
+      "expires_at_utc": "2026-11-19T00:47:58.452Z",
       "payload_sha256": "39a73d88abc211ec",
       "non_empty": true,
       "blob": "docs/data/cache/blobs/db17734bd7a13940570f9294.json"
     },
     "https://unitedstates.github.io/congress-legislators/legislators-current.json": {
-      "mined_at_utc": "2026-11-17T00:30:28.094Z",
-      "expires_at_utc": "2026-11-18T00:30:28.094Z",
+      "mined_at_utc": "2026-11-18T00:47:58.526Z",
+      "expires_at_utc": "2026-11-19T00:47:58.526Z",
       "payload_sha256": "050122eb6b793a83",
       "non_empty": true,
       "blob": "docs/data/cache/blobs/cf60e9e3d7f8060bfea8e8db.json"
@@ -218,8 +218,8 @@
       "blob": "docs/data/cache/blobs/383b44a38564523cbde75b2e.json"
     },
     "https://api.open.fec.gov/v1/candidate/S6MN00556/committees/?api_key=REDACTED&cycle=2026&designation=P&per_page=20": {
-      "mined_at_utc": "2026-11-17T01:06:16.144Z",
-      "expires_at_utc": "2026-11-17T07:06:16.144Z",
+      "mined_at_utc": "2026-11-18T00:48:00.895Z",
+      "expires_at_utc": "2026-11-18T06:48:00.895Z",
       "payload_sha256": "f7c5762009004c0b",
       "non_empty": false,
       "blob": "docs/data/cache/blobs/8689839030555d081961bbc9.json"

@@ -99,7 +99,7 @@
       {
         "label": "FEC bulk candidate summary (weball/cn, S6FL00640)",
         "url": "https://www.fec.gov/files/bulk-downloads/2026/weball26.zip",
-        "as_of": "2026-11-17"
+        "as_of": "2026-11-18"
       }
     ]
   },
@@ -118,7 +118,7 @@
         {
           "label": "FEC bulk candidate summary (weball/cn, S6FL00830)",
           "url": "https://www.fec.gov/files/bulk-downloads/2026/weball26.zip",
-          "as_of": "2026-11-17"
+          "as_of": "2026-11-18"
         }
       ]
     }
@@ -139,8 +139,8 @@
     "primary_harm_thesis": "housing financialization, consumer debt deregulation, and tax-code arbitrage"
   },
   "vote": {
-    "question": "FUTARCHY CONDITIONAL RESOLUTION [US-FL U.S. Senate]: Ashley Moody (R) has accumulated $14,524,032 in career FEC-reported receipts (anchored this cycle by Elon Musk ($168,000,000) and $365,507,000 from top-5 patrons)—out-raising general opponent Angela Nixon ($11,319,380) by 1.28x—exhibiting the \"Private Equity, Speculative Finance & Real Estate Syndicate\" profile. Will independent constituent & oracle review confirm that this private-interest capital concentration compromises public representation in US-FL, thereby executing the FL Corrective Restitution Pool toward affordable housing trusts, predatory-lending legal aid, and household debt relief?",
-    "futarchy_thesis": "Private campaign financing treats US-FL representation as an investable asset class. When Ashley Moody's campaign apparatus absorbs $14,524,032 (anchored this cycle by Elon Musk ($168,000,000) and $365,507,000 from top-5 patrons), policy incentives skew toward housing financialization, consumer debt deregulation, and tax-code arbitrage. This futarchy market converts spectator outrage into direct fiscal counter-leverage.",
+    "question": "Community Accountability Resolution [US-FL U.S. Senate]: Ashley Moody (R) has received $14,524,032 in career campaign contributions (anchored this cycle by Elon Musk ($168,000,000) and $365,507,000 from top-5 patrons)—out-raising general opponent Angela Nixon ($11,319,380) by 1.28x—linked to \"Private Equity, Speculative Finance & Real Estate Syndicate\". Should FL release the community fund to local charities working on affordable housing trusts, predatory-lending legal aid, and household debt relief?",
+    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Ashley Moody receives $14,524,032 (anchored this cycle by Elon Musk ($168,000,000) and $365,507,000 from top-5 patrons), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
     "question_vars": {
       "subject_name": "Ashley Moody",
       "career_total_receipts_usd": 14524032,
@@ -148,34 +148,38 @@
       "lead_patron_name": "Elon Musk",
       "lead_patron_usd": 168000000
     },
-    "type": "futarchy_conditional_restitution",
+    "type": "community_restitution_vote",
     "options": [
-      "Yes — Confirm Capture & Execute State Restitution Bounty",
-      "No — Veto Capture Claim & Roll Escrow Pool to Bipartisan Commons",
-      "Abstain — Log On-Chain Constituent Dissent Only"
+      "Yes — Send Fund to Local Charities",
+      "No — Send Fund to Essential Community Services",
+      "Abstain — Record Feedback Only"
     ]
   },
   "futarchy_pole_mechanics": {
-    "model": "conditional_restitution_futarchy",
+    "model": "community_restitution_vote",
     "escrow_chain": "base_mainnet_8453",
     "escrow_token": "USDC",
+    "activation_threshold_usd": 10000,
+    "settlement_epoch_days": 60,
     "outcomes": {
-      "YES_EXECUTE_RESTITUTION": "Confirms special-interest capture; releases 100% of escrowed pool to audited state 501(c)(3) restitution beneficiaries — direct corrective remediation of the captured constituent impact.",
-      "NO_VETO_BENEFICIAL_COMMONS": "Finds representation uncompromised by top-donor concentration; redirects 100% of escrowed pool to a bipartisan, district-wide beneficial common good (e.g., voter-protection legal defense, disaster-relief matching fund, or civic-infrastructure project) where both sides of the political divide can agree that the community as a whole is strengthened — countering zero-sum capture politics with positive-sum community investment.",
-      "ABSTAIN_AUDIT_ONLY": "Logs cryptographic constituent dissent on-chain without shifting conditional odds; preserves the pool for future cycle reconsideration."
+      "YES_RELEASE_TO_LOCAL_CHARITIES": "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
+      "NO_RELEASE_TO_COMMUNITY_COMMONS": "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
+      "ABSTAIN_LOG_DISSENT": "Records resident feedback without moving the vote count."
     },
-    "leverage_ratio_statement": "Every $10 USDC staked in the US-FL Restitution Pool directly counter-programs $168,000 of top-patron political capital. If the Yes option wins, funds fund front-line affordable housing trusts, predatory-lending legal aid, and household debt relief restitution beneficiaries. If the No option wins, funds redirect to a bipartisan district-wide common good that strengthens the entire community — denying special interests the ability to commandeer the bounty and promoting positive-sum governance over zero-sum subjugation."
+    "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
   },
   "bounty_if_passed": {
-    "winning_option": "YES_EXECUTE_RESTITUTION",
-    "description": "Direct Corrective Restitution for US-FL: Routes 100% of settled Base USDC bounty funds to independently audited, IRS-verified 501(c)(3) public charities operating inside FL dedicated to affordable housing trusts, predatory-lending legal aid, and household debt relief—directly remediating the constituent impact of Private Equity, Speculative Finance & Real Estate Syndicate ($14,524,032 career receipts). Named restitution beneficiaries: HABITAT FOR HUMANITY OF COLLIER COUNTY INC (US-EIN:591834379); AFFORDABLE HOUSING PRESERVATION CORPORATION (US-EIN:861646797); HABITAT FOR HUMANITY OF LEE & HENDRY COUNTIES INC (US-EIN:592236174); CARRFOUR SUPPORTIVE HOUSING INC (US-EIN:650387766); LEGAL SERVICES OF GREATER MIAMI INC (US-EIN:591227481). If the futarchy market resolves affirmatively, funds execute the restitution pool. If the No option wins, funds veto the capture claim and redirect to the bipartisan state commons listed in bounty_if_no_wins.",
+    "winning_option": "YES_RELEASE_TO_LOCAL_CHARITIES",
+    "description": "Community Fund for US-FL: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving FL dedicated to affordable housing trusts, predatory-lending legal aid, and household debt relief. Verified local recipients: HABITAT FOR HUMANITY OF COLLIER COUNTY INC (US-EIN:591834379); AFFORDABLE HOUSING PRESERVATION CORPORATION (US-EIN:861646797); HABITAT FOR HUMANITY OF LEE & HENDRY COUNTIES INC (US-EIN:592236174); CARRFOUR SUPPORTIVE HOUSING INC (US-EIN:650387766); LEGAL SERVICES OF GREATER MIAMI INC (US-EIN:591227481). Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
     "destination_type": "audited_501c3_restitution_escrow",
-    "destination_criteria": "MUST satisfy all 4 Zero-Trust Restitution Gates: (1) Active 501(c)(3) statutory registration in US-FL verified via IRS EO BMF & clean against IRS Automatic Revocation; (2) NTEE-coded mission fit (Housing Shelter, Legal Aid & Economic Relief (NTEE L/I/P)); (3) Zero corporate PAC or political committee affiliation; (4) Pre-indexed Eligible Beneficiaries in US-FL: HABITAT FOR HUMANITY OF COLLIER COUNTY INC (US-EIN:591834379); AFFORDABLE HOUSING PRESERVATION CORPORATION (US-EIN:861646797); HABITAT FOR HUMANITY OF LEE & HENDRY COUNTIES INC (US-EIN:592236174); CARRFOUR SUPPORTIVE HOUSING INC (US-EIN:650387766); LEGAL SERVICES OF GREATER MIAMI INC (US-EIN:591227481). Note on Resolution Outcome: If the Yes option wins, the restitution beneficiaries receive direct disbursement. If the No option wins, the pool redirects to the disjoint bipartisan commons pool in bounty_if_no_wins.",
+    "destination_criteria": "All recipient organizations must be active, verified 501(c)(3) public charities registered in US-FL with clean IRS status and direct community impact. Approved charities: HABITAT FOR HUMANITY OF COLLIER COUNTY INC (US-EIN:591834379); AFFORDABLE HOUSING PRESERVATION CORPORATION (US-EIN:861646797); HABITAT FOR HUMANITY OF LEE & HENDRY COUNTIES INC (US-EIN:592236174); CARRFOUR SUPPORTIVE HOUSING INC (US-EIN:650387766); LEGAL SERVICES OF GREATER MIAMI INC (US-EIN:591227481).",
     "resolution_oracle": {
+      "activation_threshold_usd": 10000,
+      "settlement_epoch_days": 60,
       "trigger_conditions": [
-        "Condition A (Financial Capture Threshold): FEC coverage_end_date (2026-10-14) confirms career receipts >= $14,524,032 or top-5 patron concentration >= $365,507,000.",
-        "Condition B (Constituent Futarchy Quorum): Community vote reaches >= 60% 'Yes' supermajority across verified cycle participants before the settlement epoch.",
-        "Condition C (Zero-Trust Beneficiary Audit): Recipient 501(c)(3) passes sha256 shard-integrity verification in docs/data/orgs/manifest.json and IRS Automatic Revocation re-check at execution time."
+        "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).",
+        "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.",
+        "Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks)."
       ],
       "eligible_audited_beneficiaries": [
         {
@@ -283,8 +287,8 @@
     "state": "US-FL"
   },
   "bounty_if_no_wins": {
-    "winning_option": "NO_VETO_BENEFICIAL_COMMONS",
-    "description": "Positive-Sum Bipartisan Commons for US-FL: Constituents reject the capture framing for Ashley Moody. 100% of escrowed Base USDC routes to non-political, universally beneficial 501(c)(3) infrastructure in US-FL (Volunteer Fire/EMS, Veterans' Care, Food Banks, and Disaster Relief) where both sides of the political divide demonstrably benefit, with an on-chain Constituent Mandate Vindication credit. Named commons beneficiaries: WOUNDED WARRIOR PROJECT INC (US-EIN:202370934); FEEDING AMERICA TAMPA BAY INC (US-EIN:592116576); ADVENTIST HEALTH SYSTEM SUNBELT INC (US-EIN:591479658); ORLANDO HEALTH INC (US-EIN:591726273); FLORIDA HEALTH SCIENCES CENTER INC (US-EIN:593458145). Any attempt to brigade this outcome converts zero-sum capture money into positive-sum community investment.",
+    "winning_option": "NO_RELEASE_TO_COMMUNITY_COMMONS",
+    "description": "Community Commons for US-FL: If residents decide against the restitution fund, 100% of the funds go directly to essential local community services in US-FL (Volunteer Fire/EMS, Veterans' Care, Food Banks, and Disaster Relief). Recipient non-profits: WOUNDED WARRIOR PROJECT INC (US-EIN:202370934); FEEDING AMERICA TAMPA BAY INC (US-EIN:592116576); ADVENTIST HEALTH SYSTEM SUNBELT INC (US-EIN:591479658); ORLANDO HEALTH INC (US-EIN:591726273); FLORIDA HEALTH SCIENCES CENTER INC (US-EIN:593458145).",
     "destination_type": "audited_501c3_bipartisan_commons_escrow",
     "candidate_benefit_attestation": "Issues immutable on-chain 'CONSTITUENT_MANDATE_VINDICATED' attestation for Ashley Moody (US-FL) and credits the constituency's defense of the candidate for funding front-line state humanitarian & emergency infrastructure.",
     "destination_criteria": "MUST be an IRS-audited 501(c)(3) public charity in US-FL operating in non-ideological universal commons (NTEE M24 Fire & Rescue, M20 Disaster Relief, W30 Veterans, K31 Food Banks, E20/E22 Community Hospitals, O Youth Development) with zero partisan lobbying, chosen only where both sides of the political divide benefit. Eligible commons beneficiaries: WOUNDED WARRIOR PROJECT INC (US-EIN:202370934); FEEDING AMERICA TAMPA BAY INC (US-EIN:592116576); ADVENTIST HEALTH SYSTEM SUNBELT INC (US-EIN:591479658); ORLANDO HEALTH INC (US-EIN:591726273); FLORIDA HEALTH SCIENCES CENTER INC (US-EIN:593458145).",
@@ -416,7 +420,7 @@
   },
   "provenance": {
     "status": "beta_template_verified",
-    "generated_at": "2026-11-17T01:06:16.113Z",
+    "generated_at": "2026-11-18T00:48:00.846Z",
     "generator": "pol-vote-futarchy-v4",
     "review_required": false
   }

@@ -428,29 +428,30 @@ function synthesizeFutarchyMechanism(params) {
     : "—";
 
   const voteQuestion =
-    `FUTARCHY CONDITIONAL RESOLUTION [${stateCode} ${officeLabel}]: ${subjectName} (${subjectParty || "I"}) has accumulated ` +
-    `${fmtUsd(careerUsd)} in career FEC-reported receipts (${leadPatronClause})${disparityClause}exhibiting the ` +
-    `"${matchedArchetype.label}" profile. Will independent constituent & oracle review confirm that this private-interest ` +
-    `capital concentration compromises public representation in ${stateCode}, thereby executing the ${stateShort} ` +
-    `Corrective Restitution Pool toward ${matchedArchetype.restitutionCause}?`;
+    `Community Accountability Resolution [${stateCode} ${officeLabel}]: ${subjectName} (${subjectParty || "I"}) has received ` +
+    `${fmtUsd(careerUsd)} in career campaign contributions (${leadPatronClause})${disparityClause}linked to ` +
+    `"${matchedArchetype.label}". Should ${stateShort} release the community fund to local charities working on ` +
+    `${matchedArchetype.restitutionCause}?`;
 
   const futarchyThesis =
-    `Private campaign financing treats ${stateCode} representation as an investable asset class. When ${subjectName}'s ` +
-    `campaign apparatus absorbs ${fmtUsd(careerUsd)} (${leadPatronClause}), policy incentives skew toward ` +
-    `${matchedArchetype.harmVector}. This futarchy market converts spectator outrage into direct fiscal counter-leverage.`;
+    `Large campaign contributions create public concern over policy priorities. When ${subjectName} ` +
+    `receives ${fmtUsd(careerUsd)} (${leadPatronClause}), community members want accountability. ` +
+    `This fund lets residents decide whether to direct community resources to local public causes.`;
 
   // 3. THE POLE
   const benchmarkPacUnit = Math.max(1000, Math.round((Math.max(leadDonor?.amount_usd || 0, selfFundUsd) || cycleUsd || 100000) / 1000));
   const poleMechanics = {
-    model: "conditional_restitution_futarchy",
+    model: "community_restitution_vote",
     escrow_chain: "base_mainnet_8453",
     escrow_token: "USDC",
+    activation_threshold_usd: 10000,
+    settlement_epoch_days: 60,
     outcomes: {
-      YES_EXECUTE_RESTITUTION: "Confirms special-interest capture; releases 100% of escrowed pool to audited state 501(c)(3) restitution beneficiaries — direct corrective remediation of the captured constituent impact.",
-      NO_VETO_BENEFICIAL_COMMONS: "Finds representation uncompromised by top-donor concentration; redirects 100% of escrowed pool to a bipartisan, district-wide beneficial common good (e.g., voter-protection legal defense, disaster-relief matching fund, or civic-infrastructure project) where both sides of the political divide can agree that the community as a whole is strengthened — countering zero-sum capture politics with positive-sum community investment.",
-      ABSTAIN_AUDIT_ONLY: "Logs cryptographic constituent dissent on-chain without shifting conditional odds; preserves the pool for future cycle reconsideration."
+      YES_RELEASE_TO_LOCAL_CHARITIES: "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
+      NO_RELEASE_TO_COMMUNITY_COMMONS: "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
+      ABSTAIN_LOG_DISSENT: "Records resident feedback without moving the vote count."
     },
-    leverage_ratio_statement: `Every $10 USDC staked in the ${stateCode} Restitution Pool directly counter-programs ${fmtUsd(benchmarkPacUnit)} of top-patron political capital. If the Yes option wins, funds fund front-line ${matchedArchetype.restitutionCause} restitution beneficiaries. If the No option wins, funds redirect to a bipartisan district-wide common good that strengthens the entire community — denying special interests the ability to commandeer the bounty and promoting positive-sum governance over zero-sum subjugation.`
+    leverage_ratio_statement: `Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut.`
   };
 
   // 4. MOTIVATING FACTOR / RESOLUTION
@@ -473,23 +474,23 @@ function synthesizeFutarchyMechanism(params) {
     .join("; ");
 
   const bountyDescription =
-    `Direct Corrective Restitution for ${stateCode}: Routes 100% of settled Base USDC bounty funds to independently audited, ` +
-    `IRS-verified 501(c)(3) public charities operating inside ${stateShort} dedicated to ${matchedArchetype.restitutionCause}—` +
-    `directly remediating the constituent impact of ${matchedArchetype.label} (${fmtUsd(careerUsd)} career receipts). ` +
-    `Named restitution beneficiaries: ${namedCharities}. ` +
-    `If the futarchy market resolves affirmatively, funds execute the restitution pool. If the No option wins, funds veto the capture claim and redirect to the bipartisan state commons listed in bounty_if_no_wins.`;
+    `Community Fund for ${stateCode}: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities ` +
+    `serving ${stateShort} dedicated to ${matchedArchetype.restitutionCause}. ` +
+    `Verified local recipients: ${namedCharities}. ` +
+    `Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).`;
 
   const destinationCriteria =
-    `MUST satisfy all 4 Zero-Trust Restitution Gates: (1) Active 501(c)(3) statutory registration in ${stateCode} verified via ` +
-    `IRS EO BMF & clean against IRS Automatic Revocation; (2) NTEE-coded mission fit (${matchedArchetype.nteeFocus}); ` +
-    `(3) Zero corporate PAC or political committee affiliation; (4) Pre-indexed Eligible Beneficiaries in ${stateCode}: ${namedCharities}. ` +
-    `Note on Resolution Outcome: If the Yes option wins, the restitution beneficiaries receive direct disbursement. If the No option wins, the pool redirects to the disjoint bipartisan commons pool in bounty_if_no_wins.`;
+    `All recipient organizations must be active, verified 501(c)(3) public charities registered in ${stateCode} ` +
+    `with clean IRS status and direct community impact. ` +
+    `Approved charities: ${namedCharities}.`;
 
   const resolutionOracle = {
+    activation_threshold_usd: 10000,
+    settlement_epoch_days: 60,
     trigger_conditions: [
-      `Condition A (Financial Capture Threshold): FEC coverage_end_date (${financeStats.coverageEndDate || "current cycle"}) confirms career receipts >= ${fmtUsd(careerUsd)} or top-5 patron concentration >= ${fmtUsd(top5Sum)}.`,
-      `Condition B (Constituent Futarchy Quorum): Community vote reaches >= 60% 'Yes' supermajority across verified cycle participants before the settlement epoch.`,
-      `Condition C (Zero-Trust Beneficiary Audit): Recipient 501(c)(3) passes sha256 shard-integrity verification in docs/data/orgs/manifest.json and IRS Automatic Revocation re-check at execution time.`
+      `Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).`,
+      `Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.`,
+      `Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks).`
     ],
     eligible_audited_beneficiaries: charityPools.restitutionBeneficiaries
   };
@@ -1208,11 +1209,11 @@ async function main() {
           lead_patron_name: futarchy.hookAndBait.lead_patron.name,
           lead_patron_usd: futarchy.hookAndBait.lead_patron.amount_usd
         },
-        type: "futarchy_conditional_restitution",
+        type: "community_restitution_vote",
         options: [
-          "Yes — Confirm Capture & Execute State Restitution Bounty",
-          "No — Veto Capture Claim & Roll Escrow Pool to Bipartisan Commons",
-          "Abstain — Log On-Chain Constituent Dissent Only"
+          "Yes — Send Fund to Local Charities",
+          "No — Send Fund to Essential Community Services",
+          "Abstain — Record Feedback Only"
         ]
       },
 
@@ -1221,7 +1222,7 @@ async function main() {
 
       // STAGE 4A: IF 'YES' WINS -> TARGETED CORRECTIVE RESTITUTION
       bounty_if_passed: {
-        winning_option: "YES_EXECUTE_RESTITUTION",
+        winning_option: "YES_RELEASE_TO_LOCAL_CHARITIES",
         description: futarchy.bountyDescription,
         destination_type: "audited_501c3_restitution_escrow",
         destination_criteria: futarchy.destinationCriteria,
@@ -1231,13 +1232,12 @@ async function main() {
 
       // STAGE 4B: IF 'NO' WINS -> BIPARTISAN UNIVERSAL COMMONS + CANDIDATE VINDICATION
       bounty_if_no_wins: {
-        winning_option: "NO_VETO_BENEFICIAL_COMMONS",
+        winning_option: "NO_RELEASE_TO_COMMUNITY_COMMONS",
         description:
-          `Positive-Sum Bipartisan Commons for ${race.state}: Constituents reject the capture framing for ${race.subject.name}. ` +
-          `100% of escrowed Base USDC routes to non-political, universally beneficial 501(c)(3) infrastructure in ${race.state} ` +
-          `(Volunteer Fire/EMS, Veterans' Care, Food Banks, and Disaster Relief) where both sides of the political divide demonstrably benefit, ` +
-          `with an on-chain Constituent Mandate Vindication credit. Named commons beneficiaries: ${futarchy.namedCommons}. ` +
-          `Any attempt to brigade this outcome converts zero-sum capture money into positive-sum community investment.`,
+          `Community Commons for ${race.state}: If residents decide against the restitution fund, ` +
+          `100% of the funds go directly to essential local community services in ${race.state} ` +
+          `(Volunteer Fire/EMS, Veterans' Care, Food Banks, and Disaster Relief). ` +
+          `Recipient non-profits: ${futarchy.namedCommons}.`,
         destination_type: "audited_501c3_bipartisan_commons_escrow",
         candidate_benefit_attestation:
           `Issues immutable on-chain 'CONSTITUENT_MANDATE_VINDICATED' attestation for ${race.subject.name} (${race.state}) ` +

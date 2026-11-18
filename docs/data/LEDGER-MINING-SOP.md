@@ -11,6 +11,11 @@ mutation_rule: "PREPEND_ONLY_BELOW_SENTINEL"
 
 <!-- === SOP:PREPEND_BELOW_THIS_LINE === -->
 
+### [2026-11-18T00:48:02.237Z] Run: `us_senate-2026`
+- **Local Cache Hits (Skipped Network):** 29
+- **Newly Mined / Refreshed Endpoints:** 3
+- **Total Cached Endpoints Indexed:** 32
+
 ### [2026-11-17T01:06:16.926Z] Run: `us_senate-2026`
 - **Local Cache Hits (Skipped Network):** 31
 - **Newly Mined / Refreshed Endpoints:** 1
