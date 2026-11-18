@@ -1,0 +1,117 @@
+{
+  "_comment": "Polytab State, County, and City Election/Candidate Seed Manifest. Level: state | county | city. Set won_race=true or active_campaign=true to emit.",
+  "races": [
+    {
+      "jurisdiction_level": "state",
+      "office_type": "state_gov",
+      "office_title": "Governor",
+      "election_year": 2026,
+      "state": "US-TX",
+      "county": null,
+      "city": null,
+      "district": null,
+      "race_type": "regular",
+      "subject": {
+        "name": "Greg Abbott",
+        "party": "R",
+        "incumbent": true,
+        "active_campaign": true,
+        "finance": {
+          "total_contributions_usd": 152450000,
+          "cycle_contributions_usd": 48200000,
+          "outside_pac_usd": 22500000,
+          "top_pac": "Texans for Greg Abbott PAC",
+          "donor_capture_sector": "Energy Conglomerates, Private School Voucher PACs & Corporate Real Estate",
+          "source": "Texas Ethics Commission / Transparency USA (Public Filings)"
+        },
+        "rebuke_premise": "prioritizing private voucher billionaires & fossil lobbyists over Texas public school funding & power grid weatherization"
+      },
+      "community_charities_ntee": ["E", "B", "C"],
+      "bounty_target_usd": 10000
+    },
+    {
+      "jurisdiction_level": "city",
+      "office_type": "city_mayor",
+      "office_title": "City Mayor",
+      "election_year": 2026,
+      "state": "US-TX",
+      "county": "Harris",
+      "city": "Houston",
+      "district": null,
+      "race_type": "regular",
+      "subject": {
+        "name": "John Whitmire",
+        "party": "D",
+        "incumbent": true,
+        "active_campaign": true,
+        "finance": {
+          "total_contributions_usd": 14850000,
+          "cycle_contributions_usd": 9750000,
+          "outside_pac_usd": 3200000,
+          "top_pac": "Protect Houston PAC",
+          "donor_capture_sector": "Commercial Developers, Municipal Contractors & Highway Lobbies",
+          "source": "City of Houston Office of the City Secretary - Campaign Finance Open Records"
+        },
+        "rebuke_premise": "prioritizing highway developer contracts & halting pedestrian/transit safety infrastructure over constituent flood mitigation & affordable housing"
+      },
+      "community_charities_ntee": ["E", "P", "L"],
+      "bounty_target_usd": 10000
+    },
+    {
+      "jurisdiction_level": "county",
+      "office_type": "county_judge",
+      "office_title": "County Judge / Chief Executive",
+      "election_year": 2026,
+      "state": "US-TX",
+      "county": "Harris",
+      "city": "Houston",
+      "district": null,
+      "race_type": "regular",
+      "subject": {
+        "name": "Lina Hidalgo",
+        "party": "D",
+        "incumbent": true,
+        "active_campaign": true,
+        "finance": {
+          "total_contributions_usd": 5420000,
+          "cycle_contributions_usd": 2150000,
+          "outside_pac_usd": 850000,
+          "top_pac": "Harris County Forward PAC",
+          "donor_capture_sector": "Consulting Firms & Political Action Committees",
+          "source": "Harris County Election Administration - Campaign Finance Filings"
+        },
+        "rebuke_premise": "overseeing contested county public health contracting processes & failing to resolve administrative gridlock in local criminal justice facilities"
+      },
+      "community_charities_ntee": ["E", "P", "F"],
+      "bounty_target_usd": 10000
+    },
+    {
+      "jurisdiction_level": "city",
+      "office_type": "city_mayor",
+      "office_title": "City Mayor",
+      "election_year": 2026,
+      "state": "US-IL",
+      "county": "Cook",
+      "city": "Chicago",
+      "district": null,
+      "race_type": "regular",
+      "subject": {
+        "name": "Brandon Johnson",
+        "party": "D",
+        "incumbent": true,
+        "active_campaign": true,
+        "finance": {
+          "total_contributions_usd": 11350000,
+          "cycle_contributions_usd": 4120000,
+          "outside_pac_usd": 1950000,
+          "top_pac": "Chicago Teachers Union PAC",
+          "donor_capture_sector": "Public Sector Labor Lobbies & Special Interest Alliances",
+          "source": "Illinois State Board of Elections (ISBE Campaign Disclosures)"
+        },
+        "rebuke_premise": "prioritizing factional leadership disputes and proposed property-tax hikes over structural budget reform and essential neighborhood safety"
+      },
+      "community_charities_ntee": ["B", "P", "I"],
+      "bounty_target_usd": 10000
+    }
+  ]
+}
