@@ -953,7 +953,44 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         }
         renderProposalsGrid();
       }
-      let state = { orgWallets: new Map(), proposals: [], markets: [], selectedCategory: PARENT_VOTING, selectedStatus: "ALL", searchQuery: "", plainLanguageMode: false, highContrastMode: false, liteMode: false, connectedAddress: null, socialHandle: localStorage.getItem("polytab_handle") || "", activeModalProposal: null, mapInstance: null, expandedParents: { [PARENT_VOTING]: true, [PARENT_SPECULATIVE]: false, [PARENT_CHARITIES]: false }, showAllCategoriesSection: true, endorsements: loadEndorsements(), verifiedEndorsements: null, cloudEndorsements: null, endorsementsSnapshotStatus: "loading", page: 1, sortBy: "default", zipQuery: "", zipLat: null, zipLng: null, zipResolvedCode: null, locMode: "none", locKind: null, locCountry: null, locState: null, locCity: null, locLabel: "" };
+      let state = {
+        orgWallets: new Map(),
+        proposals: [],
+        markets: [],
+        selectedCategory: PARENT_VOTING,
+        selectedStatus: "ALL",
+        searchQuery: "",
+        plainLanguageMode: false,
+        highContrastMode: false,
+        liteMode: false,
+        connectedAddress: null,
+        socialHandle: localStorage.getItem("polytab_handle") || "",
+        activeModalProposal: null,
+        mapInstance: null,
+        expandedParents: { [PARENT_VOTING]: true, [PARENT_SPECULATIVE]: false, [PARENT_CHARITIES]: false },
+        showAllCategoriesSection: true,
+        endorsements: loadEndorsements(),
+        verifiedEndorsements: null,
+        cloudEndorsements: null,
+        endorsementsSnapshotStatus: "loading",
+        page: 1,
+        sortBy: "default",
+        zipQuery: "",
+        zipLat: null,
+        zipLng: null,
+        zipResolvedCode: null,
+        locMode: "none",
+        locKind: null,
+        locCountry: null,
+        locState: null,
+        locCity: null,
+        locLabel: "",
+        // On-demand Progressive Shard Loading
+        loadedShards: new Set(["initial"]),
+        shardsManifest: null,
+        totalCatalogCount: 0,
+        fullFeedLoaded: false
+      };
       function isValidAddress(addr) { return /^0x[a-fA-F0-9]{40}$/.test(String(addr || "").trim()); }
       function isValidTxHash(hash) { return /^0x[a-fA-F0-9]{64}$/.test(String(hash || "").trim()); }
       async function loadOverlayWallets() {
@@ -970,52 +1007,135 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           state.orgWallets = map;
         } catch (_) { state.orgWallets = new Map(); }
       }
+
+      function mapFeedItemToProposal(item, idx) {
+        const meta = item._polytab || {};
+        const dp = (typeof item.date_published === "string" && item.date_published) ? Date.parse(item.date_published) : NaN;
+        const cTypeRaw = String(meta.campaignType || meta.campaign_type || "").toLowerCase();
+        const rawTarget = (meta.targetUSD === null || meta.targetUSD === undefined || meta.targetUSD === "") ? null : Number(meta.targetUSD);
+        const cType = cTypeRaw === "open_ended" ? "open_ended" : (cTypeRaw === "fixed" ? "fixed" : ((rawTarget == null) ? "open_ended" : "fixed"));
+        const fixedTarget = (rawTarget != null && Number.isFinite(rawTarget) && rawTarget > 0) ? rawTarget : 45.00;
+        const prop = {
+          id: String(item.id || idx + 1),
+          title: String(item.title || "Untitled Action"),
+          parentCategory: String(meta.parentCategory || parentForCategory(String(meta.category || "Campus Grounds")) || PARENT_CHARITIES),
+          category: String(meta.category || "Campus Grounds"),
+          location: String(meta.location || "Community"),
+          summary: String(item.summary || item.content_text || ""),
+          plainSummary: String(meta.plainSummary || item.summary || ""),
+          campaignType: cType,
+          votePriceUSD: Number(meta.votePriceUSD) || 0.50,
+          targetUSD: cType === "open_ended" ? null : fixedTarget,
+          fundedUSD: Number(meta.fundedUSD) || 0.00,
+          votesCount: Number(meta.votesCount) || 0,
+          wallet: isValidAddress(meta.contract || meta.wallet) ? meta.contract || meta.wallet : "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+          status: String(meta.status || "Active"),
+          lat: (meta.lat === null || meta.lat === undefined || meta.lat === "") ? null : Number(meta.lat),
+          lng: (meta.lng === null || meta.lng === undefined || meta.lng === "") ? null : Number(meta.lng),
+          website: (typeof meta.website === "string" && /^https?:\/\//i.test(meta.website)) ? meta.website.trim() : null,
+          socials: (meta.socials && typeof meta.socials === "object" && !Array.isArray(meta.socials)) ? meta.socials : {},
+          datePublishedMs: Number.isFinite(dp) ? dp : 0
+        };
+        const w = orgWalletForId(prop.id);
+        if (w) { prop.wallet = w; prop._walletOverride = w; }
+        return prop;
+      }
+
+      function slugifyCategory(cat) {
+        return String(cat || "general")
+          .toLowerCase()
+          .replace(/&/g, "and")
+          .replace(/[^a-z0-9]+/g, "-")
+          .replace(/^-|-$/g, "");
+      }
+
+      async function loadCategoryShard(category) {
+        if (!state.shardsManifest) return;
+        const info = state.shardsManifest[category];
+        if (!info || !info.file) return;
+        if (state.loadedShards.has(info.slug)) return;
+        state.loadedShards.add(info.slug);
+
+        try {
+          const res = await fetch("./" + info.file);
+          if (!res.ok) return;
+          const shard = await res.json();
+          const items = Array.isArray(shard.items) ? shard.items : [];
+          const existingIds = new Set(state.proposals.map(p => p.id));
+          const newProps = [];
+          for (const it of items) {
+            if (!existingIds.has(String(it.id))) {
+              newProps.push(mapFeedItemToProposal(it, state.proposals.length + newProps.length));
+              existingIds.add(String(it.id));
+            }
+          }
+          if (newProps.length > 0) {
+            state.proposals = state.proposals.concat(newProps);
+            renderProposalsGrid();
+            updateTelemetry();
+          }
+        } catch (_) {}
+      }
+
+      async function loadFullFeedIfNeeded() {
+        if (state.fullFeedLoaded) return;
+        state.fullFeedLoaded = true;
+        try {
+          const res = await fetch("./feed.json");
+          if (!res.ok) return;
+          const feed = await res.json();
+          const items = Array.isArray(feed.items) ? feed.items : [];
+          const existingIds = new Set(state.proposals.map(p => p.id));
+          const newProps = [];
+          for (const it of items) {
+            if (!existingIds.has(String(it.id))) {
+              newProps.push(mapFeedItemToProposal(it, state.proposals.length + newProps.length));
+              existingIds.add(String(it.id));
+            }
+          }
+          if (newProps.length > 0) {
+            state.proposals = state.proposals.concat(newProps);
+            renderProposalsGrid();
+            updateTelemetry();
+          }
+        } catch (_) {}
+      }
+
       async function loadFeedState() {
-        const controller = new AbortController();
-        const timeout = setTimeout(() => controller.abort(), 2500);
         try {
           await loadOverlayWallets();
-          const res = await fetch("./feed.json", { signal: controller.signal });
-          clearTimeout(timeout);
-          if (!res.ok) throw new Error("Feed status not 200");
-          const feed = await res.json();
-          if (Array.isArray(feed.items) && feed.items.length > 0) {
-            state.proposals = feed.items.map((item, idx) => {
-              const meta = item._polytab || {};
-              const dp = (typeof item.date_published === "string" && item.date_published) ? Date.parse(item.date_published) : NaN;
-              const cTypeRaw = String(meta.campaignType || meta.campaign_type || "").toLowerCase();
-              const rawTarget = (meta.targetUSD === null || meta.targetUSD === undefined || meta.targetUSD === "") ? null : Number(meta.targetUSD);
-              const cType = cTypeRaw === "open_ended" ? "open_ended" : (cTypeRaw === "fixed" ? "fixed" : ((rawTarget == null) ? "open_ended" : "fixed"));
-              const fixedTarget = (rawTarget != null && Number.isFinite(rawTarget) && rawTarget > 0) ? rawTarget : 45.00;
-              return {
-                id: String(item.id || idx + 1),
-                title: String(item.title || "Untitled Action"),
-                parentCategory: String(meta.parentCategory || parentForCategory(String(meta.category || "Campus Grounds")) || PARENT_CHARITIES),
-                category: String(meta.category || "Campus Grounds"),
-                location: String(meta.location || "Community"),
-                summary: String(item.summary || item.content_text || ""),
-                plainSummary: String(meta.plainSummary || item.summary || ""),
-                campaignType: cType,
-                votePriceUSD: Number(meta.votePriceUSD) || 0.50,
-                targetUSD: cType === "open_ended" ? null : fixedTarget,
-                fundedUSD: Number(meta.fundedUSD) || 0.00,
-                votesCount: Number(meta.votesCount) || 0,
-                wallet: isValidAddress(meta.contract || meta.wallet) ? meta.contract || meta.wallet : "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
-                status: String(meta.status || "Active"),
-                lat: (meta.lat === null || meta.lat === undefined || meta.lat === "") ? null : Number(meta.lat),
-                lng: (meta.lng === null || meta.lng === undefined || meta.lng === "") ? null : Number(meta.lng),
-                website: (typeof meta.website === "string" && /^https?:\/\//i.test(meta.website)) ? meta.website.trim() : null,
-                socials: (meta.socials && typeof meta.socials === "object" && !Array.isArray(meta.socials)) ? meta.socials : {},
-                datePublishedMs: Number.isFinite(dp) ? dp : 0
-              };
-            });
-          } else { state.proposals = FALLBACK_PROPOSALS; }
-        } catch (_) { state.proposals = FALLBACK_PROPOSALS; }
-        // Apply verified org overlays: claimed pages unlock with their wallet.
-        state.proposals = (state.proposals || []).map(p => {
-          const w = orgWalletForId(p.id);
-          return w ? Object.assign({}, p, { wallet: w, _walletOverride: w }) : p;
-        });
+          // 1. Try Progressive Shards first (~180KB initial hit vs 4MB full feed)
+          let loadedInitial = false;
+          try {
+            const res = await fetch("./data/shelves/initial.json");
+            if (res.ok) {
+              const initData = await res.json();
+              state.shardsManifest = initData.shards || null;
+              state.totalCatalogCount = initData.total_items || (initData.items || []).length;
+              if (Array.isArray(initData.items) && initData.items.length > 0) {
+                state.proposals = initData.items.map((item, idx) => mapFeedItemToProposal(item, idx));
+                loadedInitial = true;
+              }
+            }
+          } catch (_) {}
+
+          // 2. Fallback to full feed.json if initial.json is not present
+          if (!loadedInitial) {
+            const res = await fetch("./feed.json");
+            if (!res.ok) throw new Error("Feed status not 200");
+            const feed = await res.json();
+            if (Array.isArray(feed.items) && feed.items.length > 0) {
+              state.proposals = feed.items.map((item, idx) => mapFeedItemToProposal(item, idx));
+              state.totalCatalogCount = feed.items.length;
+              state.fullFeedLoaded = true;
+            } else {
+              state.proposals = FALLBACK_PROPOSALS;
+            }
+          }
+        } catch (_) {
+          state.proposals = FALLBACK_PROPOSALS;
+        }
+
         updateTelemetry();
         renderCategoryPills();
         renderProposalsGrid();
@@ -1236,7 +1356,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         }
       }
       function updateTelemetry() {
-        const totalProjects = state.proposals.length;
+        const totalProjects = state.totalCatalogCount || state.proposals.length;
         const totalEscrow = state.proposals.reduce((acc, p) => acc + p.fundedUSD, 0);
         const totalVotes = state.proposals.reduce((acc, p) => acc + p.votesCount, 0);
         document.getElementById("statTotalProjects").textContent = String(totalProjects);
@@ -1321,9 +1441,22 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           const cats = PARENT_CATEGORIES[parent] || [];
           const subWrap = document.createElement("div");
           subWrap.className = "w-full flex flex-wrap items-center gap-1.5 p-2 rounded-lg bg-black/20 border border-zinc-800/70";
-          subWrap.appendChild(mkBtn(parent, "All " + parent, () => { state.selectedCategory = parent; state.page = 1; renderCategoryPills(); renderProposalsGrid(); }));
+          subWrap.appendChild(mkBtn(parent, "All " + parent, () => {
+            state.selectedCategory = parent;
+            state.page = 1;
+            renderCategoryPills();
+            renderProposalsGrid();
+            // On demand load categories if parent clicked
+            cats.forEach((c) => loadCategoryShard(c));
+          }));
           cats.forEach((c) => {
-            subWrap.appendChild(mkBtn(c, c, () => { state.selectedCategory = c; state.page = 1; renderCategoryPills(); renderProposalsGrid(); }));
+            subWrap.appendChild(mkBtn(c, c, () => {
+              state.selectedCategory = c;
+              state.page = 1;
+              renderCategoryPills();
+              renderProposalsGrid();
+              loadCategoryShard(c);
+            }));
           });
           topSection.appendChild(subWrap);
         });
@@ -2209,7 +2342,14 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         e.currentTarget.setAttribute("aria-pressed", String(state.liteMode));
         document.body.classList.toggle("lite-mode", state.liteMode);
       });
-      document.getElementById("searchInput").addEventListener("input", (e) => { state.searchQuery = e.target.value; state.page = 1; renderProposalsGrid(); });
+      document.getElementById("searchInput").addEventListener("input", (e) => {
+        state.searchQuery = e.target.value;
+        state.page = 1;
+        renderProposalsGrid();
+        if (state.searchQuery.trim().length >= 2) {
+          loadFullFeedIfNeeded();
+        }
+      });
       document.getElementById("statusFilter").addEventListener("change", (e) => { state.selectedStatus = e.target.value; state.page = 1; renderProposalsGrid(); });
       const sortSel = document.getElementById("sortBySelect");
       if (sortSel) {
