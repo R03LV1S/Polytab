@@ -139,14 +139,15 @@
     "primary_harm_thesis": "housing financialization, consumer debt deregulation, and tax-code arbitrage"
   },
   "vote": {
-    "question": "Community Accountability Resolution [US-NE U.S. Senate]: Pete Ricketts (R) has received $20,423,187 in career campaign contributions (anchored this cycle by Elon Musk ($168,000,000) and $456,907,000 from top-5 patrons)—out-raising general opponent Dan Osborn ($11,029,845) by 1.85x—linked to \"Private Equity, Speculative Finance & Real Estate Syndicate\". Should NE release the community fund to local charities working on affordable housing trusts, predatory-lending legal aid, and household debt relief?",
-    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Pete Ricketts receives $20,423,187 (anchored this cycle by Elon Musk ($168,000,000) and $456,907,000 from top-5 patrons), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+    "question": "Community Accountability Resolution [US-NE U.S. Senate]: Pete Ricketts (R) has received $20,423,187 in career campaign contributions (with $14,546,959 this cycle, alongside $168,000,000 in outside Super PAC support led by Elon Musk)—out-raising general opponent Dan Osborn ($11,029,845) by 1.32x—linked to \"Private Equity, Speculative Finance & Real Estate Syndicate\". Should NE release the community fund to local charities working on affordable housing trusts, predatory-lending legal aid, and household debt relief?",
+    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Pete Ricketts receives $20,423,187 (with $14,546,959 this cycle, alongside $168,000,000 in outside Super PAC support led by Elon Musk), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
     "question_vars": {
       "subject_name": "Pete Ricketts",
       "career_total_receipts_usd": 20423187,
       "capture_archetype": "Private Equity, Speculative Finance & Real Estate Syndicate",
       "lead_patron_name": "Elon Musk",
-      "lead_patron_usd": 168000000
+      "lead_patron_usd": 168000000,
+      "lead_patron_clause": "with $14,546,959 this cycle, alongside $168,000,000 in outside Super PAC support led by Elon Musk"
     },
     "type": "community_restitution_vote",
     "options": [

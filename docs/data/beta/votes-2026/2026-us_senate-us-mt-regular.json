@@ -133,14 +133,15 @@
     "primary_harm_thesis": "regulatory leniency toward industrial emissions, grid monopolies, and watershed externalities"
   },
   "vote": {
-    "question": "Community Accountability Resolution [US-MT U.S. Senate]: Kurt Alme (R) has received $3,013,681 in career campaign contributions (anchored this cycle by Koch Inc. ($30,000,000) and $95,500,000 from top-5 patrons)—linked to \"Extractive Energy & Petrochemical Capture\". Should MT release the community fund to local charities working on clean water remediation, community grid resilience, and environmental health clinics?",
-    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Kurt Alme receives $3,013,681 (anchored this cycle by Koch Inc. ($30,000,000) and $95,500,000 from top-5 patrons), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+    "question": "Community Accountability Resolution [US-MT U.S. Senate]: Kurt Alme (R) has received $3,013,681 in career campaign contributions (with $3,013,681 this cycle, alongside $30,000,000 in outside Super PAC support led by Koch Inc.)—linked to \"Extractive Energy & Petrochemical Capture\". Should MT release the community fund to local charities working on clean water remediation, community grid resilience, and environmental health clinics?",
+    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Kurt Alme receives $3,013,681 (with $3,013,681 this cycle, alongside $30,000,000 in outside Super PAC support led by Koch Inc.), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
     "question_vars": {
       "subject_name": "Kurt Alme",
       "career_total_receipts_usd": 3013681,
       "capture_archetype": "Extractive Energy & Petrochemical Capture",
       "lead_patron_name": "Koch Inc.",
-      "lead_patron_usd": 30000000
+      "lead_patron_usd": 30000000,
+      "lead_patron_clause": "with $3,013,681 this cycle, alongside $30,000,000 in outside Super PAC support led by Koch Inc."
     },
     "type": "community_restitution_vote",
     "options": [

@@ -131,14 +131,15 @@
     "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
   },
   "vote": {
-    "question": "Community Accountability Resolution [US-IL U.S. Senate]: Don Tracy (R) has received $4,914,363 in career campaign contributions (anchored this cycle by $2,000,100 of candidate self-funding plus WINRED ($43,124), with $2,098,502 from top-5 patrons)—linked to \"Outside Super PAC & Megadonor Swarm\". Should IL release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Don Tracy receives $4,914,363 (anchored this cycle by $2,000,100 of candidate self-funding plus WINRED ($43,124), with $2,098,502 from top-5 patrons), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+    "question": "Community Accountability Resolution [US-IL U.S. Senate]: Don Tracy (R) has received $4,914,363 in career campaign contributions (with $4,914,363 this cycle, anchored by TRACY, DON ($2,000,100))—linked to \"Outside Super PAC & Megadonor Swarm\". Should IL release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
+    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Don Tracy receives $4,914,363 (with $4,914,363 this cycle, anchored by TRACY, DON ($2,000,100)), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
     "question_vars": {
       "subject_name": "Don Tracy",
       "career_total_receipts_usd": 4914363,
       "capture_archetype": "Outside Super PAC & Megadonor Swarm",
       "lead_patron_name": "WINRED",
-      "lead_patron_usd": 43124
+      "lead_patron_usd": 43124,
+      "lead_patron_clause": "with $4,914,363 this cycle, anchored by TRACY, DON ($2,000,100)"
     },
     "type": "community_restitution_vote",
     "options": [

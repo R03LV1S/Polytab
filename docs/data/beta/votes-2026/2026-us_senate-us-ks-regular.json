@@ -141,14 +141,15 @@
     "primary_harm_thesis": "regulatory leniency toward industrial emissions, grid monopolies, and watershed externalities"
   },
   "vote": {
-    "question": "Community Accountability Resolution [US-KS U.S. Senate]: Roger W Marshall (R) has received $31,624,340 in career campaign contributions (anchored this cycle by Elon Musk ($168,000,000) and $386,907,000 from top-5 patrons)—out-raising general opponent Adam Hamilton ($19,175,044) by 1.65x—linked to \"Extractive Energy & Petrochemical Capture\". Should KS release the community fund to local charities working on clean water remediation, community grid resilience, and environmental health clinics?",
-    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Roger W Marshall receives $31,624,340 (anchored this cycle by Elon Musk ($168,000,000) and $386,907,000 from top-5 patrons), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+    "question": "Community Accountability Resolution [US-KS U.S. Senate]: Roger W Marshall (R) has received $31,624,340 in career campaign contributions (with $10,700,128 this cycle, alongside $168,000,000 in outside Super PAC support led by Elon Musk)—linked to \"Extractive Energy & Petrochemical Capture\". Should KS release the community fund to local charities working on clean water remediation, community grid resilience, and environmental health clinics?",
+    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Roger W Marshall receives $31,624,340 (with $10,700,128 this cycle, alongside $168,000,000 in outside Super PAC support led by Elon Musk), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
     "question_vars": {
       "subject_name": "Roger W Marshall",
       "career_total_receipts_usd": 31624340,
       "capture_archetype": "Extractive Energy & Petrochemical Capture",
       "lead_patron_name": "Elon Musk",
-      "lead_patron_usd": 168000000
+      "lead_patron_usd": 168000000,
+      "lead_patron_clause": "with $10,700,128 this cycle, alongside $168,000,000 in outside Super PAC support led by Elon Musk"
     },
     "type": "community_restitution_vote",
     "options": [

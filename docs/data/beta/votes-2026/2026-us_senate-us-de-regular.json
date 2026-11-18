@@ -133,14 +133,15 @@
     "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
   },
   "vote": {
-    "question": "Community Accountability Resolution [US-DE U.S. Senate]: Christopher A. Coons (D) has received $14,902,846 in career campaign contributions (anchored this cycle by AB Foundation ($18,701,877) and $57,711,877 from top-5 patrons)—out-raising general opponent Michael S Dr. Katz ($190,416) by 78.26x—linked to \"Outside Super PAC & Megadonor Swarm\". Should DE release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Christopher A. Coons receives $14,902,846 (anchored this cycle by AB Foundation ($18,701,877) and $57,711,877 from top-5 patrons), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+    "question": "Community Accountability Resolution [US-DE U.S. Senate]: Christopher A. Coons (D) has received $14,902,846 in career campaign contributions (with $4,956,015 this cycle, alongside $18,701,877 in outside Super PAC support led by AB Foundation)—out-raising general opponent Michael S Dr. Katz ($190,416) by 26.03x—linked to \"Outside Super PAC & Megadonor Swarm\". Should DE release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
+    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Christopher A. Coons receives $14,902,846 (with $4,956,015 this cycle, alongside $18,701,877 in outside Super PAC support led by AB Foundation), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
     "question_vars": {
       "subject_name": "Christopher A. Coons",
       "career_total_receipts_usd": 14902846,
       "capture_archetype": "Outside Super PAC & Megadonor Swarm",
       "lead_patron_name": "AB Foundation",
-      "lead_patron_usd": 18701877
+      "lead_patron_usd": 18701877,
+      "lead_patron_clause": "with $4,956,015 this cycle, alongside $18,701,877 in outside Super PAC support led by AB Foundation"
     },
     "type": "community_restitution_vote",
     "options": [

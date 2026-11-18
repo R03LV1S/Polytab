@@ -409,19 +409,20 @@ function synthesizeFutarchyMechanism(params) {
   };
 
   // 2. THE LINE
-  const selfFundClause = selfFundUsd > 0
-    ? `${fmtUsd(selfFundUsd)} of candidate self-funding`
-    : "";
-  const outsideClause = leadDonor
-    ? `${leadDonor.name} (${fmtUsd(leadDonor.amount_usd)})`
-    : "";
-  const leadPatronClause = (selfFundClause && outsideClause)
-    ? `anchored this cycle by ${selfFundClause} plus ${outsideClause}, with ${fmtUsd(top5Sum)} from top-5 patrons`
-    : (selfFundClause
-      ? `anchored this cycle by ${selfFundClause} and ${fmtUsd(top5Sum)} from top-5 patrons`
-      : (outsideClause
-        ? `anchored this cycle by ${outsideClause} and ${fmtUsd(top5Sum)} from top-5 patrons`
-        : `backed by ${fmtUsd(cycleUsd)} in cycle committee receipts`));
+  const isSuperPac = leadDonor && (leadDonor.type?.includes("superpac") || leadDonor.amount_usd > cycleUsd);
+
+  let leadPatronClause = "";
+  if (selfFundUsd > 0 && leadDonor) {
+    leadPatronClause = `with ${fmtUsd(cycleUsd)} this cycle, anchored by ${fmtUsd(selfFundUsd)} in candidate self-funding plus ${leadDonor.name} (${fmtUsd(leadDonor.amount_usd)})`;
+  } else if (selfFundUsd > 0) {
+    leadPatronClause = `with ${fmtUsd(cycleUsd)} this cycle, anchored by ${fmtUsd(selfFundUsd)} in candidate self-funding`;
+  } else if (isSuperPac) {
+    leadPatronClause = `with ${fmtUsd(cycleUsd)} this cycle, alongside ${fmtUsd(leadDonor.amount_usd)} in outside Super PAC support led by ${leadDonor.name}`;
+  } else if (leadDonor && leadDonor.amount_usd > 0) {
+    leadPatronClause = `with ${fmtUsd(cycleUsd)} this cycle, anchored by ${leadDonor.name} (${fmtUsd(leadDonor.amount_usd)})`;
+  } else {
+    leadPatronClause = `with ${fmtUsd(cycleUsd)} in cycle committee receipts`;
+  }
 
   const disparityClause = (topOpponent && oppUsd > 0 && disparityRatio >= 1.2)
     ? `—out-raising general opponent ${topOpponent.name} (${fmtUsd(oppUsd)}) by ${disparityRatio}x—`

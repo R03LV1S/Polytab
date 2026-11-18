@@ -133,14 +133,15 @@
     "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
   },
   "vote": {
-    "question": "Community Accountability Resolution [US-NJ U.S. Senate]: Cory A. Booker (D) has received $52,529,215 in career campaign contributions (anchored this cycle by Laure Woods ($457,000) and $1,107,000 from top-5 patrons)—out-raising general opponent Justin Michael Ll.m. Murphy ($68,189) by 770.35x—linked to \"Outside Super PAC & Megadonor Swarm\". Should NJ release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Cory A. Booker receives $52,529,215 (anchored this cycle by Laure Woods ($457,000) and $1,107,000 from top-5 patrons), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+    "question": "Community Accountability Resolution [US-NJ U.S. Senate]: Cory A. Booker (D) has received $52,529,215 in career campaign contributions (with $21,275,163 this cycle, alongside $457,000 in outside Super PAC support led by Laure Woods)—out-raising general opponent Justin Michael Ll.m. Murphy ($68,189) by 312x—linked to \"Outside Super PAC & Megadonor Swarm\". Should NJ release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
+    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Cory A. Booker receives $52,529,215 (with $21,275,163 this cycle, alongside $457,000 in outside Super PAC support led by Laure Woods), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
     "question_vars": {
       "subject_name": "Cory A. Booker",
       "career_total_receipts_usd": 52529215,
       "capture_archetype": "Outside Super PAC & Megadonor Swarm",
       "lead_patron_name": "Laure Woods",
-      "lead_patron_usd": 457000
+      "lead_patron_usd": 457000,
+      "lead_patron_clause": "with $21,275,163 this cycle, alongside $457,000 in outside Super PAC support led by Laure Woods"
     },
     "type": "community_restitution_vote",
     "options": [

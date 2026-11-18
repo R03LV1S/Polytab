@@ -139,14 +139,15 @@
     "primary_harm_thesis": "housing financialization, consumer debt deregulation, and tax-code arbitrage"
   },
   "vote": {
-    "question": "Community Accountability Resolution [US-ME U.S. Senate]: Susan M. Collins (R) has received $56,008,902 in career campaign contributions (anchored this cycle by Elon Musk ($168,000,000) and $371,007,000 from top-5 patrons)—out-raising general opponent Troy Dale Jackson ($26,872,874) by 2.08x—linked to \"Private Equity, Speculative Finance & Real Estate Syndicate\". Should ME release the community fund to local charities working on affordable housing trusts, predatory-lending legal aid, and household debt relief?",
-    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Susan M. Collins receives $56,008,902 (anchored this cycle by Elon Musk ($168,000,000) and $371,007,000 from top-5 patrons), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+    "question": "Community Accountability Resolution [US-ME U.S. Senate]: Susan M. Collins (R) has received $56,008,902 in career campaign contributions (with $22,465,218 this cycle, alongside $168,000,000 in outside Super PAC support led by Elon Musk)—linked to \"Private Equity, Speculative Finance & Real Estate Syndicate\". Should ME release the community fund to local charities working on affordable housing trusts, predatory-lending legal aid, and household debt relief?",
+    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Susan M. Collins receives $56,008,902 (with $22,465,218 this cycle, alongside $168,000,000 in outside Super PAC support led by Elon Musk), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
     "question_vars": {
       "subject_name": "Susan M. Collins",
       "career_total_receipts_usd": 56008902,
       "capture_archetype": "Private Equity, Speculative Finance & Real Estate Syndicate",
       "lead_patron_name": "Elon Musk",
-      "lead_patron_usd": 168000000
+      "lead_patron_usd": 168000000,
+      "lead_patron_clause": "with $22,465,218 this cycle, alongside $168,000,000 in outside Super PAC support led by Elon Musk"
     },
     "type": "community_restitution_vote",
     "options": [

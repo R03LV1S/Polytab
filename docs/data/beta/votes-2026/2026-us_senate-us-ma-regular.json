@@ -140,14 +140,15 @@
     "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
   },
   "vote": {
-    "question": "Community Accountability Resolution [US-MA U.S. Senate]: Edward Sen. Markey (D) has received $23,151,961 in career campaign contributions (anchored this cycle by Ripple Labs Inc ($1,000,000) and $1,081,500 from top-5 patrons)—out-raising general opponent John Deaton ($1,674,460) by 13.83x—linked to \"Outside Super PAC & Megadonor Swarm\". Should MA release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Edward Sen. Markey receives $23,151,961 (anchored this cycle by Ripple Labs Inc ($1,000,000) and $1,081,500 from top-5 patrons), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+    "question": "Community Accountability Resolution [US-MA U.S. Senate]: Edward Sen. Markey (D) has received $23,151,961 in career campaign contributions (with $5,985,385 this cycle, alongside $1,000,000 in outside Super PAC support led by Ripple Labs Inc)—out-raising general opponent John Deaton ($1,674,460) by 3.57x—linked to \"Outside Super PAC & Megadonor Swarm\". Should MA release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
+    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Edward Sen. Markey receives $23,151,961 (with $5,985,385 this cycle, alongside $1,000,000 in outside Super PAC support led by Ripple Labs Inc), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
     "question_vars": {
       "subject_name": "Edward Sen. Markey",
       "career_total_receipts_usd": 23151961,
       "capture_archetype": "Outside Super PAC & Megadonor Swarm",
       "lead_patron_name": "Ripple Labs Inc",
-      "lead_patron_usd": 1000000
+      "lead_patron_usd": 1000000,
+      "lead_patron_clause": "with $5,985,385 this cycle, alongside $1,000,000 in outside Super PAC support led by Ripple Labs Inc"
     },
     "type": "community_restitution_vote",
     "options": [

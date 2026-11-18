@@ -139,14 +139,15 @@
     "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
   },
   "vote": {
-    "question": "Community Accountability Resolution [US-NH U.S. Senate]: Chris Pappas (D) has received $62,081,553 in career campaign contributions (anchored this cycle by SMP ($171,120,000) and $212,704,794 from top-5 patrons)—out-raising general opponent John E Sununu ($5,681,528) by 10.93x—linked to \"Outside Super PAC & Megadonor Swarm\". Should NH release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Chris Pappas receives $62,081,553 (anchored this cycle by SMP ($171,120,000) and $212,704,794 from top-5 patrons), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+    "question": "Community Accountability Resolution [US-NH U.S. Senate]: Chris Pappas (D) has received $62,081,553 in career campaign contributions (with $47,407,296 this cycle, alongside $171,120,000 in outside Super PAC support led by SMP)—out-raising general opponent John E Sununu ($5,681,528) by 8.34x—linked to \"Outside Super PAC & Megadonor Swarm\". Should NH release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
+    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Chris Pappas receives $62,081,553 (with $47,407,296 this cycle, alongside $171,120,000 in outside Super PAC support led by SMP), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
     "question_vars": {
       "subject_name": "Chris Pappas",
       "career_total_receipts_usd": 62081553,
       "capture_archetype": "Outside Super PAC & Megadonor Swarm",
       "lead_patron_name": "SMP",
-      "lead_patron_usd": 171120000
+      "lead_patron_usd": 171120000,
+      "lead_patron_clause": "with $47,407,296 this cycle, alongside $171,120,000 in outside Super PAC support led by SMP"
     },
     "type": "community_restitution_vote",
     "options": [

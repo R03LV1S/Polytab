@@ -141,14 +141,15 @@
     "primary_harm_thesis": "regulatory leniency toward industrial emissions, grid monopolies, and watershed externalities"
   },
   "vote": {
-    "question": "Community Accountability Resolution [US-IA U.S. Senate]: Ashley Hinson Arenholz (R) has received $46,267,212 in career campaign contributions (anchored this cycle by Elon Musk ($168,000,000) and $386,907,000 from top-5 patrons)—out-raising general opponent Joshua Turek ($24,290,521) by 1.9x—linked to \"Extractive Energy & Petrochemical Capture\". Should IA release the community fund to local charities working on clean water remediation, community grid resilience, and environmental health clinics?",
-    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Ashley Hinson Arenholz receives $46,267,212 (anchored this cycle by Elon Musk ($168,000,000) and $386,907,000 from top-5 patrons), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+    "question": "Community Accountability Resolution [US-IA U.S. Senate]: Ashley Hinson Arenholz (R) has received $46,267,212 in career campaign contributions (with $28,295,946 this cycle, alongside $168,000,000 in outside Super PAC support led by Elon Musk)—linked to \"Extractive Energy & Petrochemical Capture\". Should IA release the community fund to local charities working on clean water remediation, community grid resilience, and environmental health clinics?",
+    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Ashley Hinson Arenholz receives $46,267,212 (with $28,295,946 this cycle, alongside $168,000,000 in outside Super PAC support led by Elon Musk), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
     "question_vars": {
       "subject_name": "Ashley Hinson Arenholz",
       "career_total_receipts_usd": 46267212,
       "capture_archetype": "Extractive Energy & Petrochemical Capture",
       "lead_patron_name": "Elon Musk",
-      "lead_patron_usd": 168000000
+      "lead_patron_usd": 168000000,
+      "lead_patron_clause": "with $28,295,946 this cycle, alongside $168,000,000 in outside Super PAC support led by Elon Musk"
     },
     "type": "community_restitution_vote",
     "options": [

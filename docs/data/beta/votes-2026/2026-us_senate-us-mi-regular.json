@@ -131,14 +131,15 @@
     "primary_harm_thesis": "perpetual procurement escalation and domestic surveillance expansion over local infrastructure"
   },
   "vote": {
-    "question": "Community Accountability Resolution [US-MI U.S. Senate]: Abdul El-sayed (D) has received $53,830,872 in career campaign contributions (anchored this cycle by Smp ($182,790,000) and $185,904,609 from top-5 patrons)—out-raising general opponent Michael J Rogers ($23,016,439) by 2.34x—linked to \"Defense, Aerospace & Surveillance Contractor Bloc\". Should MI release the community fund to local charities working on veterans' trauma/housing rehabilitation and digital privacy civil-liberties defense?",
-    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Abdul El-sayed receives $53,830,872 (anchored this cycle by Smp ($182,790,000) and $185,904,609 from top-5 patrons), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+    "question": "Community Accountability Resolution [US-MI U.S. Senate]: Abdul El-sayed (D) has received $53,830,872 in career campaign contributions (with $53,830,872 this cycle, alongside $182,790,000 in outside Super PAC support led by Smp)—out-raising general opponent Michael J Rogers ($23,016,439) by 2.34x—linked to \"Defense, Aerospace & Surveillance Contractor Bloc\". Should MI release the community fund to local charities working on veterans' trauma/housing rehabilitation and digital privacy civil-liberties defense?",
+    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Abdul El-sayed receives $53,830,872 (with $53,830,872 this cycle, alongside $182,790,000 in outside Super PAC support led by Smp), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
     "question_vars": {
       "subject_name": "Abdul El-sayed",
       "career_total_receipts_usd": 53830872,
       "capture_archetype": "Defense, Aerospace & Surveillance Contractor Bloc",
       "lead_patron_name": "Smp",
-      "lead_patron_usd": 182790000
+      "lead_patron_usd": 182790000,
+      "lead_patron_clause": "with $53,830,872 this cycle, alongside $182,790,000 in outside Super PAC support led by Smp"
     },
     "type": "community_restitution_vote",
     "options": [

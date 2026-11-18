@@ -132,14 +132,15 @@
     "primary_harm_thesis": "housing financialization, consumer debt deregulation, and tax-code arbitrage"
   },
   "vote": {
-    "question": "Community Accountability Resolution [US-RI U.S. Senate]: John F. Reed (D) has received $8,842,783 in career campaign contributions (anchored this cycle by ACTBLUE ($474,250) and $628,952 from top-5 patrons)—out-raising general opponent Raymond Tyler MR Mckay ($207,231) by 42.67x—linked to \"Private Equity, Speculative Finance & Real Estate Syndicate\". Should RI release the community fund to local charities working on affordable housing trusts, predatory-lending legal aid, and household debt relief?",
-    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When John F. Reed receives $8,842,783 (anchored this cycle by ACTBLUE ($474,250) and $628,952 from top-5 patrons), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+    "question": "Community Accountability Resolution [US-RI U.S. Senate]: John F. Reed (D) has received $8,842,783 in career campaign contributions (with $3,727,368 this cycle, anchored by ACTBLUE ($474,250))—out-raising general opponent Raymond Tyler MR Mckay ($207,231) by 17.99x—linked to \"Private Equity, Speculative Finance & Real Estate Syndicate\". Should RI release the community fund to local charities working on affordable housing trusts, predatory-lending legal aid, and household debt relief?",
+    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When John F. Reed receives $8,842,783 (with $3,727,368 this cycle, anchored by ACTBLUE ($474,250)), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
     "question_vars": {
       "subject_name": "John F. Reed",
       "career_total_receipts_usd": 8842783,
       "capture_archetype": "Private Equity, Speculative Finance & Real Estate Syndicate",
       "lead_patron_name": "ACTBLUE",
-      "lead_patron_usd": 474250
+      "lead_patron_usd": 474250,
+      "lead_patron_clause": "with $3,727,368 this cycle, anchored by ACTBLUE ($474,250)"
     },
     "type": "community_restitution_vote",
     "options": [

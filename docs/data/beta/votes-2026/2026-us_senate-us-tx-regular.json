@@ -133,14 +133,15 @@
     "primary_harm_thesis": "housing financialization, consumer debt deregulation, and tax-code arbitrage"
   },
   "vote": {
-    "question": "Community Accountability Resolution [US-TX U.S. Senate]: James Talarico (D) has received $146,349,912 in career campaign contributions (anchored this cycle by SMP ($207,370,000) and $261,894,794 from top-5 patrons)—out-raising general opponent Warren Kenneth Paxton Jr ($22,327,474) by 6.55x—linked to \"Private Equity, Speculative Finance & Real Estate Syndicate\". Should TX release the community fund to local charities working on affordable housing trusts, predatory-lending legal aid, and household debt relief?",
-    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When James Talarico receives $146,349,912 (anchored this cycle by SMP ($207,370,000) and $261,894,794 from top-5 patrons), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+    "question": "Community Accountability Resolution [US-TX U.S. Senate]: James Talarico (D) has received $146,349,912 in career campaign contributions (with $146,349,912 this cycle, alongside $207,370,000 in outside Super PAC support led by SMP)—out-raising general opponent Warren Kenneth Paxton Jr ($22,327,474) by 6.55x—linked to \"Private Equity, Speculative Finance & Real Estate Syndicate\". Should TX release the community fund to local charities working on affordable housing trusts, predatory-lending legal aid, and household debt relief?",
+    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When James Talarico receives $146,349,912 (with $146,349,912 this cycle, alongside $207,370,000 in outside Super PAC support led by SMP), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
     "question_vars": {
       "subject_name": "James Talarico",
       "career_total_receipts_usd": 146349912,
       "capture_archetype": "Private Equity, Speculative Finance & Real Estate Syndicate",
       "lead_patron_name": "SMP",
-      "lead_patron_usd": 207370000
+      "lead_patron_usd": 207370000,
+      "lead_patron_clause": "with $146,349,912 this cycle, alongside $207,370,000 in outside Super PAC support led by SMP"
     },
     "type": "community_restitution_vote",
     "options": [

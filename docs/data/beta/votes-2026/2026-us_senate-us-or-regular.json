@@ -131,14 +131,15 @@
     "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
   },
   "vote": {
-    "question": "Community Accountability Resolution [US-OR U.S. Senate]: Jeffrey Alan Merkley (D) has received $20,180,850 in career campaign contributions (anchored this cycle by ACTBLUE ($541,977) and $1,034,628 from top-5 patrons)—out-raising general opponent David Brock Smith ($311,174) by 64.85x—linked to \"Outside Super PAC & Megadonor Swarm\". Should OR release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Jeffrey Alan Merkley receives $20,180,850 (anchored this cycle by ACTBLUE ($541,977) and $1,034,628 from top-5 patrons), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+    "question": "Community Accountability Resolution [US-OR U.S. Senate]: Jeffrey Alan Merkley (D) has received $20,180,850 in career campaign contributions (with $5,376,935 this cycle, anchored by ACTBLUE ($541,977))—out-raising general opponent David Brock Smith ($311,174) by 17.28x—linked to \"Outside Super PAC & Megadonor Swarm\". Should OR release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
+    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Jeffrey Alan Merkley receives $20,180,850 (with $5,376,935 this cycle, anchored by ACTBLUE ($541,977)), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
     "question_vars": {
       "subject_name": "Jeffrey Alan Merkley",
       "career_total_receipts_usd": 20180850,
       "capture_archetype": "Outside Super PAC & Megadonor Swarm",
       "lead_patron_name": "ACTBLUE",
-      "lead_patron_usd": 541977
+      "lead_patron_usd": 541977,
+      "lead_patron_clause": "with $5,376,935 this cycle, anchored by ACTBLUE ($541,977)"
     },
     "type": "community_restitution_vote",
     "options": [

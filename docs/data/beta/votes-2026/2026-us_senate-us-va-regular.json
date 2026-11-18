@@ -142,14 +142,15 @@
     "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
   },
   "vote": {
-    "question": "Community Accountability Resolution [US-VA U.S. Senate]: Mark Robert Warner (D) has received $44,900,265 in career campaign contributions (anchored this cycle by Laure Woods ($457,000) and $520,450 from top-5 patrons)—out-raising general opponent Bert K Mizusawa ($1,141,130) by 39.35x—linked to \"Outside Super PAC & Megadonor Swarm\". Should VA release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Mark Robert Warner receives $44,900,265 (anchored this cycle by Laure Woods ($457,000) and $520,450 from top-5 patrons), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+    "question": "Community Accountability Resolution [US-VA U.S. Senate]: Mark Robert Warner (D) has received $44,900,265 in career campaign contributions (with $20,222,105 this cycle, alongside $457,000 in outside Super PAC support led by Laure Woods)—out-raising general opponent Bert K Mizusawa ($1,141,130) by 17.72x—linked to \"Outside Super PAC & Megadonor Swarm\". Should VA release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
+    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Mark Robert Warner receives $44,900,265 (with $20,222,105 this cycle, alongside $457,000 in outside Super PAC support led by Laure Woods), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
     "question_vars": {
       "subject_name": "Mark Robert Warner",
       "career_total_receipts_usd": 44900265,
       "capture_archetype": "Outside Super PAC & Megadonor Swarm",
       "lead_patron_name": "Laure Woods",
-      "lead_patron_usd": 457000
+      "lead_patron_usd": 457000,
+      "lead_patron_clause": "with $20,222,105 this cycle, alongside $457,000 in outside Super PAC support led by Laure Woods"
     },
     "type": "community_restitution_vote",
     "options": [

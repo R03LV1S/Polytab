@@ -141,14 +141,15 @@
     "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
   },
   "vote": {
-    "question": "Community Accountability Resolution [US-AR U.S. Senate]: Thomas Cotton (R) has received $55,014,579 in career campaign contributions (anchored this cycle by America One Policies ($2,050,000) and $4,171,887 from top-5 patrons)—out-raising general opponent Hallie Shoffner ($4,042,811) by 13.61x—linked to \"Outside Super PAC & Megadonor Swarm\". Should AR release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Thomas Cotton receives $55,014,579 (anchored this cycle by America One Policies ($2,050,000) and $4,171,887 from top-5 patrons), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+    "question": "Community Accountability Resolution [US-AR U.S. Senate]: Thomas Cotton (R) has received $55,014,579 in career campaign contributions (with $14,299,286 this cycle, alongside $2,050,000 in outside Super PAC support led by America One Policies)—out-raising general opponent Hallie Shoffner ($4,042,811) by 3.54x—linked to \"Outside Super PAC & Megadonor Swarm\". Should AR release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
+    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Thomas Cotton receives $55,014,579 (with $14,299,286 this cycle, alongside $2,050,000 in outside Super PAC support led by America One Policies), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
     "question_vars": {
       "subject_name": "Thomas Cotton",
       "career_total_receipts_usd": 55014579,
       "capture_archetype": "Outside Super PAC & Megadonor Swarm",
       "lead_patron_name": "America One Policies",
-      "lead_patron_usd": 2050000
+      "lead_patron_usd": 2050000,
+      "lead_patron_clause": "with $14,299,286 this cycle, alongside $2,050,000 in outside Super PAC support led by America One Policies"
     },
     "type": "community_restitution_vote",
     "options": [

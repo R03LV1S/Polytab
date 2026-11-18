@@ -144,14 +144,15 @@
     "primary_harm_thesis": "regulatory leniency toward industrial emissions, grid monopolies, and watershed externalities"
   },
   "vote": {
-    "question": "Community Accountability Resolution [US-AL U.S. Senate]: Felix Barry Moore (R) has received $11,440,101 in career campaign contributions (anchored this cycle by Senate Opportunity Fund ($2,820,000) and $4,363,500 from top-5 patrons)—out-raising general opponent Everett W Wess ($128,570) by 88.98x—linked to \"Extractive Energy & Petrochemical Capture\". Should AL release the community fund to local charities working on clean water remediation, community grid resilience, and environmental health clinics?",
-    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Felix Barry Moore receives $11,440,101 (anchored this cycle by Senate Opportunity Fund ($2,820,000) and $4,363,500 from top-5 patrons), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+    "question": "Community Accountability Resolution [US-AL U.S. Senate]: Felix Barry Moore (R) has received $11,440,101 in career campaign contributions (with $8,425,840 this cycle, alongside $2,820,000 in outside Super PAC support led by Senate Opportunity Fund)—out-raising general opponent Everett W Wess ($128,570) by 65.54x—linked to \"Extractive Energy & Petrochemical Capture\". Should AL release the community fund to local charities working on clean water remediation, community grid resilience, and environmental health clinics?",
+    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Felix Barry Moore receives $11,440,101 (with $8,425,840 this cycle, alongside $2,820,000 in outside Super PAC support led by Senate Opportunity Fund), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
     "question_vars": {
       "subject_name": "Felix Barry Moore",
       "career_total_receipts_usd": 11440101,
       "capture_archetype": "Extractive Energy & Petrochemical Capture",
       "lead_patron_name": "Senate Opportunity Fund",
-      "lead_patron_usd": 2820000
+      "lead_patron_usd": 2820000,
+      "lead_patron_clause": "with $8,425,840 this cycle, alongside $2,820,000 in outside Super PAC support led by Senate Opportunity Fund"
     },
     "type": "community_restitution_vote",
     "options": [

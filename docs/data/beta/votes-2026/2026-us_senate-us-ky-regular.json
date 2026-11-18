@@ -137,14 +137,15 @@
     "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
   },
   "vote": {
-    "question": "Community Accountability Resolution [US-KY U.S. Senate]: Garland Andy Barr (R) has received $46,350,345 in career campaign contributions (anchored this cycle by Leading The Future ($22,500,000) and $38,269,352 from top-5 patrons)—out-raising general opponent Charles Booker ($1,936,324) by 23.94x—linked to \"Outside Super PAC & Megadonor Swarm\". Should KY release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Garland Andy Barr receives $46,350,345 (anchored this cycle by Leading The Future ($22,500,000) and $38,269,352 from top-5 patrons), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+    "question": "Community Accountability Resolution [US-KY U.S. Senate]: Garland Andy Barr (R) has received $46,350,345 in career campaign contributions (with $25,018,098 this cycle, alongside $22,500,000 in outside Super PAC support led by Leading The Future)—out-raising general opponent Charles Booker ($1,936,324) by 12.92x—linked to \"Outside Super PAC & Megadonor Swarm\". Should KY release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
+    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Garland Andy Barr receives $46,350,345 (with $25,018,098 this cycle, alongside $22,500,000 in outside Super PAC support led by Leading The Future), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
     "question_vars": {
       "subject_name": "Garland Andy Barr",
       "career_total_receipts_usd": 46350345,
       "capture_archetype": "Outside Super PAC & Megadonor Swarm",
       "lead_patron_name": "Leading The Future",
-      "lead_patron_usd": 22500000
+      "lead_patron_usd": 22500000,
+      "lead_patron_clause": "with $25,018,098 this cycle, alongside $22,500,000 in outside Super PAC support led by Leading The Future"
     },
     "type": "community_restitution_vote",
     "options": [

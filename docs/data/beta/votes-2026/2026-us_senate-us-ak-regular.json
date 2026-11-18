@@ -135,14 +135,15 @@
     "primary_harm_thesis": "regulatory leniency toward industrial emissions, grid monopolies, and watershed externalities"
   },
   "vote": {
-    "question": "Community Accountability Resolution [US-AK U.S. Senate]: Dan Sullivan (R) has received $24,726,126 in career campaign contributions (anchored this cycle by MAGA Inc. ($200,000,000) and $560,907,000 from top-5 patrons)—linked to \"Extractive Energy & Petrochemical Capture\". Should AK release the community fund to local charities working on clean water remediation, community grid resilience, and environmental health clinics?",
-    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Dan Sullivan receives $24,726,126 (anchored this cycle by MAGA Inc. ($200,000,000) and $560,907,000 from top-5 patrons), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+    "question": "Community Accountability Resolution [US-AK U.S. Senate]: Dan Sullivan (R) has received $24,726,126 in career campaign contributions (with $11,508,274 this cycle, alongside $200,000,000 in outside Super PAC support led by MAGA Inc.)—linked to \"Extractive Energy & Petrochemical Capture\". Should AK release the community fund to local charities working on clean water remediation, community grid resilience, and environmental health clinics?",
+    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Dan Sullivan receives $24,726,126 (with $11,508,274 this cycle, alongside $200,000,000 in outside Super PAC support led by MAGA Inc.), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
     "question_vars": {
       "subject_name": "Dan Sullivan",
       "career_total_receipts_usd": 24726126,
       "capture_archetype": "Extractive Energy & Petrochemical Capture",
       "lead_patron_name": "MAGA Inc.",
-      "lead_patron_usd": 200000000
+      "lead_patron_usd": 200000000,
+      "lead_patron_clause": "with $11,508,274 this cycle, alongside $200,000,000 in outside Super PAC support led by MAGA Inc."
     },
     "type": "community_restitution_vote",
     "options": [

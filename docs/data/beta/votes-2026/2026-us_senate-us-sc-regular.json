@@ -137,14 +137,15 @@
     "primary_harm_thesis": "dilution of local constituent voice via concentrated ideological/outside Super PAC bundlers"
   },
   "vote": {
-    "question": "Community Accountability Resolution [US-SC U.S. Senate]: Annie Andrews (D) has received $26,254,909 in career campaign contributions (anchored this cycle by SMP ($171,120,000) and $221,424,193 from top-5 patrons)—out-raising general opponent Darline Graham ($1,917,646) by 13.69x—linked to \"Outside Super PAC & Megadonor Swarm\". Should SC release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
-    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Annie Andrews receives $26,254,909 (anchored this cycle by SMP ($171,120,000) and $221,424,193 from top-5 patrons), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
+    "question": "Community Accountability Resolution [US-SC U.S. Senate]: Annie Andrews (D) has received $26,254,909 in career campaign contributions (with $24,216,841 this cycle, alongside $171,120,000 in outside Super PAC support led by SMP)—out-raising general opponent Darline Graham ($1,917,646) by 12.63x—linked to \"Outside Super PAC & Megadonor Swarm\". Should SC release the community fund to local charities working on non-partisan civic accountability, investigative public-interest journalism, and voter legal defense?",
+    "futarchy_thesis": "Large campaign contributions create public concern over policy priorities. When Annie Andrews receives $26,254,909 (with $24,216,841 this cycle, alongside $171,120,000 in outside Super PAC support led by SMP), community members want accountability. This fund lets residents decide whether to direct community resources to local public causes.",
     "question_vars": {
       "subject_name": "Annie Andrews",
       "career_total_receipts_usd": 26254909,
       "capture_archetype": "Outside Super PAC & Megadonor Swarm",
       "lead_patron_name": "SMP",
-      "lead_patron_usd": 171120000
+      "lead_patron_usd": 171120000,
+      "lead_patron_clause": "with $24,216,841 this cycle, alongside $171,120,000 in outside Super PAC support led by SMP"
     },
     "type": "community_restitution_vote",
     "options": [
