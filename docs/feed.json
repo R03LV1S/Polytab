@@ -95180,7 +95180,13 @@
         "lat": null,
         "lng": null,
         "website": "https://www.alignracing.no/",
-        "socials": {}
+        "socials": {
+          "x": "https://twitter.com/Alignracing",
+          "facebook": "https://www.facebook.com/Alignracing",
+          "instagram": "https://www.instagram.com/alignracing/",
+          "linkedin": "https://www.linkedin.com/company/alignracing",
+          "youtube": "https://www.youtube.com/c/AlignRacingUiA"
+        }
       }
     },
     {
@@ -103487,7 +103493,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.france-bergen.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/groups/alliance.francaise.bergen"
+        }
       }
     },
     {
@@ -103942,7 +103950,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.alltidhjelp.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://facebook.com/profile.php?id=61552688256670",
+          "instagram": "https://instagram.com/alltidhjelp.no/"
+        }
       }
     },
     {
@@ -104853,7 +104864,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.alnorsenter.no/",
-        "socials": {}
+        "socials": {
+          "facebook": "https://www.facebook.com/Alnor-Senter-325701437444922/?fref=ts",
+          "youtube": "https://www.youtube.com/user/AlnorSenter"
+        }
       }
     },
     {
@@ -234299,5 +234313,5 @@
       }
     }
   ],
-  "updated_at": "2026-11-18T03:26:58.647Z"
+  "updated_at": "2026-11-18T03:44:35.655Z"
 }
