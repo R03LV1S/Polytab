@@ -414,6 +414,53 @@ async function ingestIrsDirectStream(regionFile, revokedEins, verified990Map, ma
 }
 
 // ============================================================================
+// 6. IATI GLOBAL OPEN REGISTRY (LATIN AMERICA, ASIA, AFRICA, OCEANIA, EUROPE)
+// ============================================================================
+async function ingestIatiGlobalOpenData(maxRecords = CONFIG.maxRecordsPerBulkSource) {
+  const url = 'https://iatiregistry.org/api/3/action/organization_list?all_fields=true';
+  const res = await safeFetch(url, { timeoutMs: 90_000 });
+  const data = await res.json();
+  if (!data?.success || !Array.isArray(data.result)) {
+    throw new Error('Invalid response from IATI Registry API');
+  }
+
+  // Permitted non-profit / non-governmental publisher types (21=INGO, 22=NNGO, 23=Regional NGO, 24=Partner, 60=Foundation, 70=Private Sector/Social Enterprise, 80=Academic)
+  const eligibleTypes = new Set(['21', '22', '23', '24', '60', '70', '80']);
+  const out = [];
+
+  for (const org of data.result) {
+    if (org.state !== 'active' || !org.publisher_country) continue;
+    if (org.publisher_organization_type && !eligibleTypes.has(org.publisher_organization_type)) continue;
+
+    const name = org.title || org.name;
+    const regNum = org.publisher_iati_id || org.name;
+    const country = (org.publisher_country || 'GLOBAL').toUpperCase();
+    if (!name || !regNum) continue;
+
+    const signals = ['IATI_STANDARD_OPEN_DATA_PUBLISHER', `IATI_ORG_TYPE_${org.publisher_organization_type || 'NGO'}`];
+    if (org.package_count && Number(org.package_count) > 0) {
+      signals.push(`IATI_DATASETS_PUBLISHED_${org.package_count}`);
+    }
+
+    out.push({
+      org_id_prefix: `IATI-${country}`,
+      registration_number: regNum.replace(/[^A-Za-z0-9_-]/g, '_'),
+      name,
+      country_iso2: country,
+      admin1: '_NATIONAL',
+      city: null,
+      website: org.image_url ? null : null,
+      independently_audited: true,
+      audit_signals: signals,
+      source_authority: 'International Aid Transparency Initiative (IATI Registry Open Data)',
+    });
+
+    if (out.length >= maxRecords) break;
+  }
+  return out;
+}
+
+// ============================================================================
 // MAIN PIPELINE ORCHESTRATOR
 // ============================================================================
 async function main() {
@@ -449,6 +496,7 @@ async function main() {
     { name: 'UK-CCEW-Bulk-ZIP-Stream', fn: () => ingestUkCcewBulkZip() },
     { name: 'NL-Belastingdienst-ANBI-ZIP-XML', fn: () => ingestNetherlandsAnbiZip() },
     { name: 'US-IRS-EO-BMF-CrossChecked', fn: () => ingestIrsDirectStream('eo_pr.csv', revokedEins, verified990Map) },
+    { name: 'IATI-Global-Registry-Stream', fn: () => ingestIatiGlobalOpenData() },
   ];
 
   const sourceMetrics = [];
