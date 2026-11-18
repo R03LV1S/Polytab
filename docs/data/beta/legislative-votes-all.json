@@ -1,0 +1,1903 @@
+{
+  "template_version": "pol-legislative-vote-beta-1",
+  "generated_at": "2026-11-18T23:31:43.361Z",
+  "draft": false,
+  "count": 12,
+  "records": [
+    {
+      "template_version": "pol-legislative-vote-beta-1",
+      "bounty_id": "leg-119-house-resolution-1665",
+      "slug": "119-house-resolution-1665-rule-for-h-r-3495-and-h-r-5267",
+      "domain": "legislative",
+      "ui": {
+        "section": "Policy & Governance Votes",
+        "parent_category": "Voting",
+        "category": "Policy & Governance Votes",
+        "block": 93000
+      },
+      "legislation": {
+        "congress": 119,
+        "session": "119",
+        "chamber": "house",
+        "bill_type": "house_resolution",
+        "number": 1665,
+        "display_id": "H.Res. 1665 (119th)",
+        "govtrack_id": null,
+        "title": "Providing for consideration of H.R. 3495 and H.R. 5267 (rule)",
+        "short_title": "Rule for H.R. 3495 and H.R. 5267",
+        "summary": "Sets the terms of House debate for H.R. 3495 (Direct Seller and Real Estate Agent Harmonization Act) and H.R. 5267 (American Franchise Act), including amendment and procedural rules for floor consideration.",
+        "status": "scheduled_or_considered",
+        "status_label": "Rule reported/updated Nov 18, 2026; scheduled for House floor consideration (week of Nov 16, 2026)",
+        "status_date": null,
+        "introduced_date": null,
+        "latest_action": null,
+        "sponsor": null,
+        "subjects": [],
+        "source_urls": [
+          "https://docs.house.gov/floor/"
+        ]
+      },
+      "vote": {
+        "question": "[LITMUS TEST] H.Res. 1665 (119th): \"Rule for H.R. 3495 and H.R. 5267\" — Should this measure pass as written? Cast your community vote (without middlemen) and compare community will with how representatives vote.",
+        "type": "advisory_yes_no",
+        "options": [
+          "Yes - Support passage",
+          "No - Oppose passage",
+          "Abstain"
+        ],
+        "litmus_test": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (voting platform without middlemen).",
+          "community_vote": {
+            "yes": 0,
+            "no": 0,
+            "abstain": 0,
+            "source": "polytab_community"
+          },
+          "representative_votes": {
+            "house": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "senate": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "by_member": []
+          },
+          "comparison_note": "Populate representative_votes from official roll-call records to contrast with community results."
+        }
+      },
+      "campaign": {
+        "type": "open_ended",
+        "funding_activation_threshold_usd": 10000,
+        "timer_starts": "on_funding_activation_threshold_reached",
+        "timer_duration_days": null,
+        "status_before_activation": "open_for_funding",
+        "status_after_activation": "active_voting_window"
+      },
+      "bounty_if_passed": {
+        "description": "Open-ended Policy & Governance Vote (litmus test) for H. Res. 1665. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact (labor/economic fairness and civic participation), finalized per campaign governance and verification.",
+        "destination_type": "verified_charity_beneficiaries",
+        "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
+        "beneficiary_scope": "national",
+        "beneficiary_states": [],
+        "localities": [],
+        "eligible_beneficiaries": [
+          {
+            "ein": null,
+            "name": "FRIENDS OF WINCHESTER CATHEDRAL",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:220218",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "BRADBURY FIELDS SERVICES FOR BLIND AND PARTIALLY SIGHTED PEOPLE",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:222798",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "COLEGIO DE EDUCACION ESPECIAL Y REHABILITACION INTEGRAL INC",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660505420",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "HOGAR AURORA INC",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660586357",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "FUNDACION HOSPITAL PEDIATRICO",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660817091",
+            "source_url": null
+          }
+        ]
+      },
+      "metrics": {
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "targetUSD": 10000,
+        "honest_zero": true
+      },
+      "location": {
+        "label": "United States Capitol",
+        "address": "First St SE, Washington, DC 20004, USA",
+        "lat": 38.8899,
+        "lng": -77.0091
+      },
+      "payment": {
+        "chain": "base",
+        "chain_id": 8453,
+        "token": "USDC",
+        "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "qr_asset": "docs/escrow-qr.png",
+        "note": "Polytab wallet/QR (Base USDC). Claim-first, non-custodial routing; contributions settle per campaign policy once verified payout is unlocked.",
+        "payment_memo_or_slug": "leg-119-house-resolution-1665"
+      },
+      "provenance": {
+        "status": "beta_template",
+        "generated_at": "2026-11-18T23:31:43.355Z",
+        "generated_on": "2026-11-18",
+        "generator": "scripts/generate-legislative-vote-template.js",
+        "congress": 119,
+        "sources": [
+          "seed_manifest"
+        ],
+        "review_required": true
+      }
+    },
+    {
+      "template_version": "pol-legislative-vote-beta-1",
+      "bounty_id": "leg-119-house-bill-3495",
+      "slug": "119-house-bill-3495-direct-seller-and-real-estate-agent-harmonization-act",
+      "domain": "legislative",
+      "ui": {
+        "section": "Policy & Governance Votes",
+        "parent_category": "Voting",
+        "category": "Policy & Governance Votes",
+        "block": 93000
+      },
+      "legislation": {
+        "congress": 119,
+        "session": "119",
+        "chamber": "house",
+        "bill_type": "house_bill",
+        "number": 3495,
+        "display_id": "H.R. 3495 (119th)",
+        "govtrack_id": null,
+        "title": "Direct Seller and Real Estate Agent Harmonization Act",
+        "short_title": "Direct Seller and Real Estate Agent Harmonization Act",
+        "summary": "Amends the Fair Labor Standards Act to clarify employee/independent-contractor treatment for direct sellers and real estate agents, affecting labor classification and related protections.",
+        "status": "scheduled_or_considered",
+        "status_label": "Scheduled for House floor consideration pursuant to rule (week of Nov 16, 2026)",
+        "status_date": null,
+        "introduced_date": null,
+        "latest_action": null,
+        "sponsor": null,
+        "subjects": [],
+        "source_urls": [
+          "https://docs.house.gov/floor/"
+        ]
+      },
+      "vote": {
+        "question": "[LITMUS TEST] H.R. 3495 (119th): \"Direct Seller and Real Estate Agent Harmonization Act\" — Should this measure pass as written? Cast your community vote (without middlemen) and compare community will with how representatives vote.",
+        "type": "advisory_yes_no",
+        "options": [
+          "Yes - Support passage",
+          "No - Oppose passage",
+          "Abstain"
+        ],
+        "litmus_test": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (voting platform without middlemen).",
+          "community_vote": {
+            "yes": 0,
+            "no": 0,
+            "abstain": 0,
+            "source": "polytab_community"
+          },
+          "representative_votes": {
+            "house": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "senate": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "by_member": []
+          },
+          "comparison_note": "Populate representative_votes from official roll-call records to contrast with community results."
+        }
+      },
+      "campaign": {
+        "type": "open_ended",
+        "funding_activation_threshold_usd": 10000,
+        "timer_starts": "on_funding_activation_threshold_reached",
+        "timer_duration_days": null,
+        "status_before_activation": "open_for_funding",
+        "status_after_activation": "active_voting_window"
+      },
+      "bounty_if_passed": {
+        "description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 3495. Bounty benefits verified 501(c)(3)/public-benefit entities supporting worker protections and economic fairness, finalized per campaign governance and verification.",
+        "destination_type": "verified_charity_beneficiaries",
+        "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to worker/economic-fairness impact; distribution finalized per campaign governance and verification.",
+        "beneficiary_scope": "national",
+        "beneficiary_states": [],
+        "localities": [],
+        "eligible_beneficiaries": [
+          {
+            "ein": null,
+            "name": "FRIENDS OF WINCHESTER CATHEDRAL",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:220218",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "BRADBURY FIELDS SERVICES FOR BLIND AND PARTIALLY SIGHTED PEOPLE",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:222798",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "COLEGIO DE EDUCACION ESPECIAL Y REHABILITACION INTEGRAL INC",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660505420",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "HOGAR AURORA INC",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660586357",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "FUNDACION HOSPITAL PEDIATRICO",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660817091",
+            "source_url": null
+          }
+        ]
+      },
+      "metrics": {
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "targetUSD": 10000,
+        "honest_zero": true
+      },
+      "location": {
+        "label": "United States Capitol",
+        "address": "First St SE, Washington, DC 20004, USA",
+        "lat": 38.8899,
+        "lng": -77.0091
+      },
+      "payment": {
+        "chain": "base",
+        "chain_id": 8453,
+        "token": "USDC",
+        "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "qr_asset": "docs/escrow-qr.png",
+        "note": "Polytab wallet/QR (Base USDC). Claim-first, non-custodial routing; contributions settle per campaign policy once verified payout is unlocked.",
+        "payment_memo_or_slug": "leg-119-house-bill-3495"
+      },
+      "provenance": {
+        "status": "beta_template",
+        "generated_at": "2026-11-18T23:31:43.355Z",
+        "generated_on": "2026-11-18",
+        "generator": "scripts/generate-legislative-vote-template.js",
+        "congress": 119,
+        "sources": [
+          "seed_manifest"
+        ],
+        "review_required": true
+      }
+    },
+    {
+      "template_version": "pol-legislative-vote-beta-1",
+      "bounty_id": "leg-119-house-bill-5267",
+      "slug": "119-house-bill-5267-american-franchise-act",
+      "domain": "legislative",
+      "ui": {
+        "section": "Policy & Governance Votes",
+        "parent_category": "Voting",
+        "category": "Policy & Governance Votes",
+        "block": 93000
+      },
+      "legislation": {
+        "congress": 119,
+        "session": "119",
+        "chamber": "house",
+        "bill_type": "house_bill",
+        "number": 5267,
+        "display_id": "H.R. 5267 (119th)",
+        "govtrack_id": null,
+        "title": "American Franchise Act",
+        "short_title": "American Franchise Act",
+        "summary": "Defines \"joint employer\" in franchise relationships under federal labor and employment laws, aiming to preserve the franchise business model by limiting when franchisors are treated as joint employers.",
+        "status": "scheduled_or_considered",
+        "status_label": "Scheduled for House floor consideration pursuant to rule (week of Nov 16, 2026)",
+        "status_date": null,
+        "introduced_date": null,
+        "latest_action": null,
+        "sponsor": null,
+        "subjects": [],
+        "source_urls": [
+          "https://docs.house.gov/floor/"
+        ]
+      },
+      "vote": {
+        "question": "[LITMUS TEST] H.R. 5267 (119th): \"American Franchise Act\" — Should this measure pass as written? Cast your community vote (without middlemen) and compare community will with how representatives vote.",
+        "type": "advisory_yes_no",
+        "options": [
+          "Yes - Support passage",
+          "No - Oppose passage",
+          "Abstain"
+        ],
+        "litmus_test": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (voting platform without middlemen).",
+          "community_vote": {
+            "yes": 0,
+            "no": 0,
+            "abstain": 0,
+            "source": "polytab_community"
+          },
+          "representative_votes": {
+            "house": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "senate": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "by_member": []
+          },
+          "comparison_note": "Populate representative_votes from official roll-call records to contrast with community results."
+        }
+      },
+      "campaign": {
+        "type": "open_ended",
+        "funding_activation_threshold_usd": 10000,
+        "timer_starts": "on_funding_activation_threshold_reached",
+        "timer_duration_days": null,
+        "status_before_activation": "open_for_funding",
+        "status_after_activation": "active_voting_window"
+      },
+      "bounty_if_passed": {
+        "description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 5267. Bounty benefits verified 501(c)(3)/public-benefit entities supporting worker protections, small-business fairness, and local economic resilience, finalized per campaign governance and verification.",
+        "destination_type": "verified_charity_beneficiaries",
+        "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to labor/small-business impact; distribution finalized per campaign governance and verification.",
+        "beneficiary_scope": "national",
+        "beneficiary_states": [],
+        "localities": [],
+        "eligible_beneficiaries": [
+          {
+            "ein": null,
+            "name": "FRIENDS OF WINCHESTER CATHEDRAL",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:220218",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "BRADBURY FIELDS SERVICES FOR BLIND AND PARTIALLY SIGHTED PEOPLE",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:222798",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "COLEGIO DE EDUCACION ESPECIAL Y REHABILITACION INTEGRAL INC",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660505420",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "HOGAR AURORA INC",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660586357",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "FUNDACION HOSPITAL PEDIATRICO",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660817091",
+            "source_url": null
+          }
+        ]
+      },
+      "metrics": {
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "targetUSD": 10000,
+        "honest_zero": true
+      },
+      "location": {
+        "label": "United States Capitol",
+        "address": "First St SE, Washington, DC 20004, USA",
+        "lat": 38.8899,
+        "lng": -77.0091
+      },
+      "payment": {
+        "chain": "base",
+        "chain_id": 8453,
+        "token": "USDC",
+        "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "qr_asset": "docs/escrow-qr.png",
+        "note": "Polytab wallet/QR (Base USDC). Claim-first, non-custodial routing; contributions settle per campaign policy once verified payout is unlocked.",
+        "payment_memo_or_slug": "leg-119-house-bill-5267"
+      },
+      "provenance": {
+        "status": "beta_template",
+        "generated_at": "2026-11-18T23:31:43.356Z",
+        "generated_on": "2026-11-18",
+        "generator": "scripts/generate-legislative-vote-template.js",
+        "congress": 119,
+        "sources": [
+          "seed_manifest"
+        ],
+        "review_required": true
+      }
+    },
+    {
+      "template_version": "pol-legislative-vote-beta-1",
+      "bounty_id": "leg-119-house-bill-9640",
+      "slug": "119-house-bill-9640-earth-mri-reauthorization-act",
+      "domain": "legislative",
+      "ui": {
+        "section": "Policy & Governance Votes",
+        "parent_category": "Voting",
+        "category": "Policy & Governance Votes",
+        "block": 93000
+      },
+      "legislation": {
+        "congress": 119,
+        "session": "119",
+        "chamber": "house",
+        "bill_type": "house_bill",
+        "number": 9640,
+        "display_id": "H.R. 9640 (119th)",
+        "govtrack_id": null,
+        "title": "Earth MRI Reauthorization Act",
+        "short_title": "Earth MRI Reauthorization Act",
+        "summary": "Reauthorizes the Earth Mapping Resources Initiative (Earth MRI) to support geologic mapping and assessment of critical mineral resources.",
+        "status": "passed_house",
+        "status_label": "Passed House (Roll Call 326, Nov 18, 2026, 396-14) under suspension of the rules, as amended; subsequent Senate action possible",
+        "status_date": null,
+        "introduced_date": null,
+        "latest_action": null,
+        "sponsor": null,
+        "subjects": [],
+        "source_urls": [
+          "https://clerk.house.gov/Votes/2026326"
+        ]
+      },
+      "vote": {
+        "question": "[LITMUS TEST] H.R. 9640 (119th): \"Earth MRI Reauthorization Act\" — Should this measure pass as written? Cast your community vote (without middlemen) and compare community will with how representatives vote.",
+        "type": "advisory_yes_no",
+        "options": [
+          "Yes - Support passage",
+          "No - Oppose passage",
+          "Abstain"
+        ],
+        "litmus_test": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (voting platform without middlemen).",
+          "community_vote": {
+            "yes": 0,
+            "no": 0,
+            "abstain": 0,
+            "source": "polytab_community"
+          },
+          "representative_votes": {
+            "house": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "senate": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "by_member": []
+          },
+          "comparison_note": "Populate representative_votes from official roll-call records to contrast with community results."
+        }
+      },
+      "campaign": {
+        "type": "open_ended",
+        "funding_activation_threshold_usd": 10000,
+        "timer_starts": "on_funding_activation_threshold_reached",
+        "timer_duration_days": null,
+        "status_before_activation": "open_for_funding",
+        "status_after_activation": "active_voting_window"
+      },
+      "bounty_if_passed": {
+        "description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 9640. Bounty benefits verified 501(c)(3)/public-benefit entities supporting environmental stewardship, conservation, and community resource resilience, finalized per campaign governance and verification.",
+        "destination_type": "verified_charity_beneficiaries",
+        "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to conservation/resource-stewardship impact; distribution finalized per campaign governance and verification.",
+        "beneficiary_scope": "national",
+        "beneficiary_states": [],
+        "localities": [],
+        "eligible_beneficiaries": [
+          {
+            "ein": null,
+            "name": "FRIENDS OF WINCHESTER CATHEDRAL",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:220218",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "BRADBURY FIELDS SERVICES FOR BLIND AND PARTIALLY SIGHTED PEOPLE",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:222798",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "COLEGIO DE EDUCACION ESPECIAL Y REHABILITACION INTEGRAL INC",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660505420",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "HOGAR AURORA INC",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660586357",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "FUNDACION HOSPITAL PEDIATRICO",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660817091",
+            "source_url": null
+          }
+        ]
+      },
+      "metrics": {
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "targetUSD": 10000,
+        "honest_zero": true
+      },
+      "location": {
+        "label": "United States Capitol",
+        "address": "First St SE, Washington, DC 20004, USA",
+        "lat": 38.8899,
+        "lng": -77.0091
+      },
+      "payment": {
+        "chain": "base",
+        "chain_id": 8453,
+        "token": "USDC",
+        "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "qr_asset": "docs/escrow-qr.png",
+        "note": "Polytab wallet/QR (Base USDC). Claim-first, non-custodial routing; contributions settle per campaign policy once verified payout is unlocked.",
+        "payment_memo_or_slug": "leg-119-house-bill-9640"
+      },
+      "provenance": {
+        "status": "beta_template",
+        "generated_at": "2026-11-18T23:31:43.356Z",
+        "generated_on": "2026-11-18",
+        "generator": "scripts/generate-legislative-vote-template.js",
+        "congress": 119,
+        "sources": [
+          "seed_manifest"
+        ],
+        "review_required": true
+      }
+    },
+    {
+      "template_version": "pol-legislative-vote-beta-1",
+      "bounty_id": "leg-119-house-bill-9600",
+      "slug": "119-house-bill-9600-common-sense-250-act",
+      "domain": "legislative",
+      "ui": {
+        "section": "Policy & Governance Votes",
+        "parent_category": "Voting",
+        "category": "Policy & Governance Votes",
+        "block": 93000
+      },
+      "legislation": {
+        "congress": 119,
+        "session": "119",
+        "chamber": "house",
+        "bill_type": "house_bill",
+        "number": 9600,
+        "display_id": "H.R. 9600 (119th)",
+        "govtrack_id": null,
+        "title": "Common Sense 250 Act",
+        "short_title": "Common Sense 250 Act",
+        "summary": "Supports planning and activities related to the United States Semiquincentennial (250th anniversary) commemoration.",
+        "status": "passed_house",
+        "status_label": "Passed House (Roll Call 325, Nov 17, 2026, 365-36) under suspension of the rules; subsequent Senate action possible",
+        "status_date": null,
+        "introduced_date": null,
+        "latest_action": null,
+        "sponsor": null,
+        "subjects": [],
+        "source_urls": [
+          "https://clerk.house.gov/Votes/2026325"
+        ]
+      },
+      "vote": {
+        "question": "[LITMUS TEST] H.R. 9600 (119th): \"Common Sense 250 Act\" — Should this measure pass as written? Cast your community vote (without middlemen) and compare community will with how representatives vote.",
+        "type": "advisory_yes_no",
+        "options": [
+          "Yes - Support passage",
+          "No - Oppose passage",
+          "Abstain"
+        ],
+        "litmus_test": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (voting platform without middlemen).",
+          "community_vote": {
+            "yes": 0,
+            "no": 0,
+            "abstain": 0,
+            "source": "polytab_community"
+          },
+          "representative_votes": {
+            "house": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "senate": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "by_member": []
+          },
+          "comparison_note": "Populate representative_votes from official roll-call records to contrast with community results."
+        }
+      },
+      "campaign": {
+        "type": "open_ended",
+        "funding_activation_threshold_usd": 10000,
+        "timer_starts": "on_funding_activation_threshold_reached",
+        "timer_duration_days": null,
+        "status_before_activation": "open_for_funding",
+        "status_after_activation": "active_voting_window"
+      },
+      "bounty_if_passed": {
+        "description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 9600. Bounty benefits verified 501(c)(3)/public-benefit entities supporting civic education, historical preservation, and community engagement, finalized per campaign governance and verification.",
+        "destination_type": "verified_charity_beneficiaries",
+        "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to civic-education/historical-preservation impact; distribution finalized per campaign governance and verification.",
+        "beneficiary_scope": "national",
+        "beneficiary_states": [],
+        "localities": [],
+        "eligible_beneficiaries": [
+          {
+            "ein": null,
+            "name": "FRIENDS OF WINCHESTER CATHEDRAL",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:220218",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "BRADBURY FIELDS SERVICES FOR BLIND AND PARTIALLY SIGHTED PEOPLE",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:222798",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "COLEGIO DE EDUCACION ESPECIAL Y REHABILITACION INTEGRAL INC",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660505420",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "HOGAR AURORA INC",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660586357",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "FUNDACION HOSPITAL PEDIATRICO",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660817091",
+            "source_url": null
+          }
+        ]
+      },
+      "metrics": {
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "targetUSD": 10000,
+        "honest_zero": true
+      },
+      "location": {
+        "label": "United States Capitol",
+        "address": "First St SE, Washington, DC 20004, USA",
+        "lat": 38.8899,
+        "lng": -77.0091
+      },
+      "payment": {
+        "chain": "base",
+        "chain_id": 8453,
+        "token": "USDC",
+        "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "qr_asset": "docs/escrow-qr.png",
+        "note": "Polytab wallet/QR (Base USDC). Claim-first, non-custodial routing; contributions settle per campaign policy once verified payout is unlocked.",
+        "payment_memo_or_slug": "leg-119-house-bill-9600"
+      },
+      "provenance": {
+        "status": "beta_template",
+        "generated_at": "2026-11-18T23:31:43.356Z",
+        "generated_on": "2026-11-18",
+        "generator": "scripts/generate-legislative-vote-template.js",
+        "congress": 119,
+        "sources": [
+          "seed_manifest"
+        ],
+        "review_required": true
+      }
+    },
+    {
+      "template_version": "pol-legislative-vote-beta-1",
+      "bounty_id": "leg-119-house-bill-8483",
+      "slug": "119-house-bill-8483-barona-land-transfer-act",
+      "domain": "legislative",
+      "ui": {
+        "section": "Policy & Governance Votes",
+        "parent_category": "Voting",
+        "category": "Policy & Governance Votes",
+        "block": 93000
+      },
+      "legislation": {
+        "congress": 119,
+        "session": "119",
+        "chamber": "house",
+        "bill_type": "house_bill",
+        "number": 8483,
+        "display_id": "H.R. 8483 (119th)",
+        "govtrack_id": null,
+        "title": "Barona Group of Capitan Grande Band of Mission Indians Land Transfer Act",
+        "short_title": "Barona Land Transfer Act",
+        "summary": "Transfers specified land into trust for the Barona Group of Capitan Grande Band of Mission Indians, addressing tribal land holdings.",
+        "status": "passed_house",
+        "status_label": "Passed House (Roll Call 324, Nov 17, 2026, 398-0) under suspension of the rules, as amended; subsequent Senate action possible",
+        "status_date": null,
+        "introduced_date": null,
+        "latest_action": null,
+        "sponsor": null,
+        "subjects": [],
+        "source_urls": [
+          "https://clerk.house.gov/Votes/2026324"
+        ]
+      },
+      "vote": {
+        "question": "[LITMUS TEST] H.R. 8483 (119th): \"Barona Land Transfer Act\" — Should this measure pass as written? Cast your community vote (without middlemen) and compare community will with how representatives vote.",
+        "type": "advisory_yes_no",
+        "options": [
+          "Yes - Support passage",
+          "No - Oppose passage",
+          "Abstain"
+        ],
+        "litmus_test": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (voting platform without middlemen).",
+          "community_vote": {
+            "yes": 0,
+            "no": 0,
+            "abstain": 0,
+            "source": "polytab_community"
+          },
+          "representative_votes": {
+            "house": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "senate": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "by_member": []
+          },
+          "comparison_note": "Populate representative_votes from official roll-call records to contrast with community results."
+        }
+      },
+      "campaign": {
+        "type": "open_ended",
+        "funding_activation_threshold_usd": 10000,
+        "timer_starts": "on_funding_activation_threshold_reached",
+        "timer_duration_days": null,
+        "status_before_activation": "open_for_funding",
+        "status_after_activation": "active_voting_window"
+      },
+      "bounty_if_passed": {
+        "description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 8483. Bounty benefits verified 501(c)(3)/public-benefit entities supporting tribal communities and local stewardship in California, finalized per campaign governance and verification.",
+        "destination_type": "verified_charity_beneficiaries",
+        "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to tribal/community stewardship impact in CA; distribution finalized per campaign governance and verification.",
+        "beneficiary_scope": "state",
+        "beneficiary_states": [
+          "CA"
+        ],
+        "localities": [],
+        "eligible_beneficiaries": []
+      },
+      "metrics": {
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "targetUSD": 10000,
+        "honest_zero": true
+      },
+      "location": {
+        "label": "United States Capitol",
+        "address": "First St SE, Washington, DC 20004, USA",
+        "lat": 38.8899,
+        "lng": -77.0091
+      },
+      "payment": {
+        "chain": "base",
+        "chain_id": 8453,
+        "token": "USDC",
+        "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "qr_asset": "docs/escrow-qr.png",
+        "note": "Polytab wallet/QR (Base USDC). Claim-first, non-custodial routing; contributions settle per campaign policy once verified payout is unlocked.",
+        "payment_memo_or_slug": "leg-119-house-bill-8483"
+      },
+      "provenance": {
+        "status": "beta_template",
+        "generated_at": "2026-11-18T23:31:43.356Z",
+        "generated_on": "2026-11-18",
+        "generator": "scripts/generate-legislative-vote-template.js",
+        "congress": 119,
+        "sources": [
+          "seed_manifest"
+        ],
+        "review_required": true
+      }
+    },
+    {
+      "template_version": "pol-legislative-vote-beta-1",
+      "bounty_id": "leg-119-house-bill-4464",
+      "slug": "119-house-bill-4464-preventive-health-savings-act",
+      "domain": "legislative",
+      "ui": {
+        "section": "Policy & Governance Votes",
+        "parent_category": "Voting",
+        "category": "Policy & Governance Votes",
+        "block": 93000
+      },
+      "legislation": {
+        "congress": 119,
+        "session": "119",
+        "chamber": "house",
+        "bill_type": "house_bill",
+        "number": 4464,
+        "display_id": "H.R. 4464 (119th)",
+        "govtrack_id": null,
+        "title": "Preventive Health Savings Act",
+        "short_title": "Preventive Health Savings Act",
+        "summary": "Directs analysis of long-term budgetary savings from preventive health services in federal health programs, to inform scoring and policy decisions.",
+        "status": "scheduled_or_considered",
+        "status_label": "Listed for House floor consideration under suspension of the rules (week of Nov 16, 2026)",
+        "status_date": null,
+        "introduced_date": null,
+        "latest_action": null,
+        "sponsor": null,
+        "subjects": [],
+        "source_urls": [
+          "https://docs.house.gov/floor/"
+        ]
+      },
+      "vote": {
+        "question": "[LITMUS TEST] H.R. 4464 (119th): \"Preventive Health Savings Act\" — Should this measure pass as written? Cast your community vote (without middlemen) and compare community will with how representatives vote.",
+        "type": "advisory_yes_no",
+        "options": [
+          "Yes - Support passage",
+          "No - Oppose passage",
+          "Abstain"
+        ],
+        "litmus_test": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (voting platform without middlemen).",
+          "community_vote": {
+            "yes": 0,
+            "no": 0,
+            "abstain": 0,
+            "source": "polytab_community"
+          },
+          "representative_votes": {
+            "house": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "senate": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "by_member": []
+          },
+          "comparison_note": "Populate representative_votes from official roll-call records to contrast with community results."
+        }
+      },
+      "campaign": {
+        "type": "open_ended",
+        "funding_activation_threshold_usd": 10000,
+        "timer_starts": "on_funding_activation_threshold_reached",
+        "timer_duration_days": null,
+        "status_before_activation": "open_for_funding",
+        "status_after_activation": "active_voting_window"
+      },
+      "bounty_if_passed": {
+        "description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 4464. Bounty benefits verified 501(c)(3)/public-benefit entities supporting preventive health and community wellness, finalized per campaign governance and verification.",
+        "destination_type": "verified_charity_beneficiaries",
+        "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to preventive-health/community-wellness impact; distribution finalized per campaign governance and verification.",
+        "beneficiary_scope": "national",
+        "beneficiary_states": [],
+        "localities": [],
+        "eligible_beneficiaries": [
+          {
+            "ein": null,
+            "name": "FRIENDS OF WINCHESTER CATHEDRAL",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:220218",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "BRADBURY FIELDS SERVICES FOR BLIND AND PARTIALLY SIGHTED PEOPLE",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:222798",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "COLEGIO DE EDUCACION ESPECIAL Y REHABILITACION INTEGRAL INC",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660505420",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "HOGAR AURORA INC",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660586357",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "FUNDACION HOSPITAL PEDIATRICO",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660817091",
+            "source_url": null
+          }
+        ]
+      },
+      "metrics": {
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "targetUSD": 10000,
+        "honest_zero": true
+      },
+      "location": {
+        "label": "United States Capitol",
+        "address": "First St SE, Washington, DC 20004, USA",
+        "lat": 38.8899,
+        "lng": -77.0091
+      },
+      "payment": {
+        "chain": "base",
+        "chain_id": 8453,
+        "token": "USDC",
+        "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "qr_asset": "docs/escrow-qr.png",
+        "note": "Polytab wallet/QR (Base USDC). Claim-first, non-custodial routing; contributions settle per campaign policy once verified payout is unlocked.",
+        "payment_memo_or_slug": "leg-119-house-bill-4464"
+      },
+      "provenance": {
+        "status": "beta_template",
+        "generated_at": "2026-11-18T23:31:43.356Z",
+        "generated_on": "2026-11-18",
+        "generator": "scripts/generate-legislative-vote-template.js",
+        "congress": 119,
+        "sources": [
+          "seed_manifest"
+        ],
+        "review_required": true
+      }
+    },
+    {
+      "template_version": "pol-legislative-vote-beta-1",
+      "bounty_id": "leg-119-house-bill-5490",
+      "slug": "119-house-bill-5490-dismantle-foreign-scam-syndicates-act",
+      "domain": "legislative",
+      "ui": {
+        "section": "Policy & Governance Votes",
+        "parent_category": "Voting",
+        "category": "Policy & Governance Votes",
+        "block": 93000
+      },
+      "legislation": {
+        "congress": 119,
+        "session": "119",
+        "chamber": "house",
+        "bill_type": "house_bill",
+        "number": 5490,
+        "display_id": "H.R. 5490 (119th)",
+        "govtrack_id": null,
+        "title": "Dismantle Foreign Scam Syndicates Act",
+        "short_title": "Dismantle Foreign Scam Syndicates Act",
+        "summary": "Targets transnational scam syndicates through sanctions, enforcement coordination, and related measures to disrupt large-scale fraud operations.",
+        "status": "scheduled_or_considered",
+        "status_label": "Listed for House floor consideration under suspension of the rules, as amended (week of Nov 16, 2026)",
+        "status_date": null,
+        "introduced_date": null,
+        "latest_action": null,
+        "sponsor": null,
+        "subjects": [],
+        "source_urls": [
+          "https://docs.house.gov/floor/"
+        ]
+      },
+      "vote": {
+        "question": "[LITMUS TEST] H.R. 5490 (119th): \"Dismantle Foreign Scam Syndicates Act\" — Should this measure pass as written? Cast your community vote (without middlemen) and compare community will with how representatives vote.",
+        "type": "advisory_yes_no",
+        "options": [
+          "Yes - Support passage",
+          "No - Oppose passage",
+          "Abstain"
+        ],
+        "litmus_test": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (voting platform without middlemen).",
+          "community_vote": {
+            "yes": 0,
+            "no": 0,
+            "abstain": 0,
+            "source": "polytab_community"
+          },
+          "representative_votes": {
+            "house": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "senate": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "by_member": []
+          },
+          "comparison_note": "Populate representative_votes from official roll-call records to contrast with community results."
+        }
+      },
+      "campaign": {
+        "type": "open_ended",
+        "funding_activation_threshold_usd": 10000,
+        "timer_starts": "on_funding_activation_threshold_reached",
+        "timer_duration_days": null,
+        "status_before_activation": "open_for_funding",
+        "status_after_activation": "active_voting_window"
+      },
+      "bounty_if_passed": {
+        "description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 5490. Bounty benefits verified 501(c)(3)/public-benefit entities supporting consumer protection, fraud prevention, and victim assistance, finalized per campaign governance and verification.",
+        "destination_type": "verified_charity_beneficiaries",
+        "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to consumer-protection/fraud-prevention impact; distribution finalized per campaign governance and verification.",
+        "beneficiary_scope": "national",
+        "beneficiary_states": [],
+        "localities": [],
+        "eligible_beneficiaries": [
+          {
+            "ein": null,
+            "name": "FRIENDS OF WINCHESTER CATHEDRAL",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:220218",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "BRADBURY FIELDS SERVICES FOR BLIND AND PARTIALLY SIGHTED PEOPLE",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:222798",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "COLEGIO DE EDUCACION ESPECIAL Y REHABILITACION INTEGRAL INC",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660505420",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "HOGAR AURORA INC",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660586357",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "FUNDACION HOSPITAL PEDIATRICO",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660817091",
+            "source_url": null
+          }
+        ]
+      },
+      "metrics": {
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "targetUSD": 10000,
+        "honest_zero": true
+      },
+      "location": {
+        "label": "United States Capitol",
+        "address": "First St SE, Washington, DC 20004, USA",
+        "lat": 38.8899,
+        "lng": -77.0091
+      },
+      "payment": {
+        "chain": "base",
+        "chain_id": 8453,
+        "token": "USDC",
+        "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "qr_asset": "docs/escrow-qr.png",
+        "note": "Polytab wallet/QR (Base USDC). Claim-first, non-custodial routing; contributions settle per campaign policy once verified payout is unlocked.",
+        "payment_memo_or_slug": "leg-119-house-bill-5490"
+      },
+      "provenance": {
+        "status": "beta_template",
+        "generated_at": "2026-11-18T23:31:43.356Z",
+        "generated_on": "2026-11-18",
+        "generator": "scripts/generate-legislative-vote-template.js",
+        "congress": 119,
+        "sources": [
+          "seed_manifest"
+        ],
+        "review_required": true
+      }
+    },
+    {
+      "template_version": "pol-legislative-vote-beta-1",
+      "bounty_id": "leg-119-house-bill-10136",
+      "slug": "119-house-bill-10136-crossett-experimental-forest-act-of-2026",
+      "domain": "legislative",
+      "ui": {
+        "section": "Policy & Governance Votes",
+        "parent_category": "Voting",
+        "category": "Policy & Governance Votes",
+        "block": 93000
+      },
+      "legislation": {
+        "congress": 119,
+        "session": "119",
+        "chamber": "house",
+        "bill_type": "house_bill",
+        "number": 10136,
+        "display_id": "H.R. 10136 (119th)",
+        "govtrack_id": null,
+        "title": "Crossett Experimental Forest Act of 2026",
+        "short_title": "Crossett Experimental Forest Act of 2026",
+        "summary": "Addresses management/designation matters related to the Crossett Experimental Forest to support forestry research and conservation objectives.",
+        "status": "scheduled_or_considered",
+        "status_label": "Listed for House floor consideration under suspension of the rules, as amended (week of Nov 16, 2026)",
+        "status_date": null,
+        "introduced_date": null,
+        "latest_action": null,
+        "sponsor": null,
+        "subjects": [],
+        "source_urls": [
+          "https://docs.house.gov/floor/"
+        ]
+      },
+      "vote": {
+        "question": "[LITMUS TEST] H.R. 10136 (119th): \"Crossett Experimental Forest Act of 2026\" — Should this measure pass as written? Cast your community vote (without middlemen) and compare community will with how representatives vote.",
+        "type": "advisory_yes_no",
+        "options": [
+          "Yes - Support passage",
+          "No - Oppose passage",
+          "Abstain"
+        ],
+        "litmus_test": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (voting platform without middlemen).",
+          "community_vote": {
+            "yes": 0,
+            "no": 0,
+            "abstain": 0,
+            "source": "polytab_community"
+          },
+          "representative_votes": {
+            "house": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "senate": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "by_member": []
+          },
+          "comparison_note": "Populate representative_votes from official roll-call records to contrast with community results."
+        }
+      },
+      "campaign": {
+        "type": "open_ended",
+        "funding_activation_threshold_usd": 10000,
+        "timer_starts": "on_funding_activation_threshold_reached",
+        "timer_duration_days": null,
+        "status_before_activation": "open_for_funding",
+        "status_after_activation": "active_voting_window"
+      },
+      "bounty_if_passed": {
+        "description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 10136. Bounty benefits verified 501(c)(3)/public-benefit entities supporting forestry research, conservation, and local community stewardship in Arkansas, finalized per campaign governance and verification.",
+        "destination_type": "verified_charity_beneficiaries",
+        "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to conservation/forestry-research impact in AR; distribution finalized per campaign governance and verification.",
+        "beneficiary_scope": "state",
+        "beneficiary_states": [
+          "AR"
+        ],
+        "localities": [
+          "Crossett, AR"
+        ],
+        "eligible_beneficiaries": []
+      },
+      "metrics": {
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "targetUSD": 10000,
+        "honest_zero": true
+      },
+      "location": {
+        "label": "United States Capitol",
+        "address": "First St SE, Washington, DC 20004, USA",
+        "lat": 38.8899,
+        "lng": -77.0091
+      },
+      "payment": {
+        "chain": "base",
+        "chain_id": 8453,
+        "token": "USDC",
+        "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "qr_asset": "docs/escrow-qr.png",
+        "note": "Polytab wallet/QR (Base USDC). Claim-first, non-custodial routing; contributions settle per campaign policy once verified payout is unlocked.",
+        "payment_memo_or_slug": "leg-119-house-bill-10136"
+      },
+      "provenance": {
+        "status": "beta_template",
+        "generated_at": "2026-11-18T23:31:43.357Z",
+        "generated_on": "2026-11-18",
+        "generator": "scripts/generate-legislative-vote-template.js",
+        "congress": 119,
+        "sources": [
+          "seed_manifest"
+        ],
+        "review_required": true
+      }
+    },
+    {
+      "template_version": "pol-legislative-vote-beta-1",
+      "bounty_id": "leg-119-house-bill-9269",
+      "slug": "119-house-bill-9269-renewing-the-african-american-civil-rights-network-act",
+      "domain": "legislative",
+      "ui": {
+        "section": "Policy & Governance Votes",
+        "parent_category": "Voting",
+        "category": "Policy & Governance Votes",
+        "block": 93000
+      },
+      "legislation": {
+        "congress": 119,
+        "session": "119",
+        "chamber": "house",
+        "bill_type": "house_bill",
+        "number": 9269,
+        "display_id": "H.R. 9269 (119th)",
+        "govtrack_id": null,
+        "title": "Renewing the African American Civil Rights Network Act",
+        "short_title": "Renewing the African American Civil Rights Network Act",
+        "summary": "Renews/reauthorizes the African American Civil Rights Network to preserve and recognize sites and programs significant to civil rights history.",
+        "status": "scheduled_or_considered",
+        "status_label": "Listed for House floor consideration under suspension of the rules, as amended (week of Nov 16, 2026)",
+        "status_date": null,
+        "introduced_date": null,
+        "latest_action": null,
+        "sponsor": null,
+        "subjects": [],
+        "source_urls": [
+          "https://docs.house.gov/floor/"
+        ]
+      },
+      "vote": {
+        "question": "[LITMUS TEST] H.R. 9269 (119th): \"Renewing the African American Civil Rights Network Act\" — Should this measure pass as written? Cast your community vote (without middlemen) and compare community will with how representatives vote.",
+        "type": "advisory_yes_no",
+        "options": [
+          "Yes - Support passage",
+          "No - Oppose passage",
+          "Abstain"
+        ],
+        "litmus_test": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (voting platform without middlemen).",
+          "community_vote": {
+            "yes": 0,
+            "no": 0,
+            "abstain": 0,
+            "source": "polytab_community"
+          },
+          "representative_votes": {
+            "house": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "senate": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "by_member": []
+          },
+          "comparison_note": "Populate representative_votes from official roll-call records to contrast with community results."
+        }
+      },
+      "campaign": {
+        "type": "open_ended",
+        "funding_activation_threshold_usd": 10000,
+        "timer_starts": "on_funding_activation_threshold_reached",
+        "timer_duration_days": null,
+        "status_before_activation": "open_for_funding",
+        "status_after_activation": "active_voting_window"
+      },
+      "bounty_if_passed": {
+        "description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 9269. Bounty benefits verified 501(c)(3)/public-benefit entities supporting civil-rights history preservation, education, and community programs, finalized per campaign governance and verification.",
+        "destination_type": "verified_charity_beneficiaries",
+        "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to civil-rights preservation/education impact; distribution finalized per campaign governance and verification.",
+        "beneficiary_scope": "national",
+        "beneficiary_states": [],
+        "localities": [],
+        "eligible_beneficiaries": [
+          {
+            "ein": null,
+            "name": "FRIENDS OF WINCHESTER CATHEDRAL",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:220218",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "BRADBURY FIELDS SERVICES FOR BLIND AND PARTIALLY SIGHTED PEOPLE",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:222798",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "COLEGIO DE EDUCACION ESPECIAL Y REHABILITACION INTEGRAL INC",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660505420",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "HOGAR AURORA INC",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660586357",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "FUNDACION HOSPITAL PEDIATRICO",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660817091",
+            "source_url": null
+          }
+        ]
+      },
+      "metrics": {
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "targetUSD": 10000,
+        "honest_zero": true
+      },
+      "location": {
+        "label": "United States Capitol",
+        "address": "First St SE, Washington, DC 20004, USA",
+        "lat": 38.8899,
+        "lng": -77.0091
+      },
+      "payment": {
+        "chain": "base",
+        "chain_id": 8453,
+        "token": "USDC",
+        "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "qr_asset": "docs/escrow-qr.png",
+        "note": "Polytab wallet/QR (Base USDC). Claim-first, non-custodial routing; contributions settle per campaign policy once verified payout is unlocked.",
+        "payment_memo_or_slug": "leg-119-house-bill-9269"
+      },
+      "provenance": {
+        "status": "beta_template",
+        "generated_at": "2026-11-18T23:31:43.357Z",
+        "generated_on": "2026-11-18",
+        "generator": "scripts/generate-legislative-vote-template.js",
+        "congress": 119,
+        "sources": [
+          "seed_manifest"
+        ],
+        "review_required": true
+      }
+    },
+    {
+      "template_version": "pol-legislative-vote-beta-1",
+      "bounty_id": "leg-119-house-bill-2347",
+      "slug": "119-house-bill-2347-energy-infrastructure-permitting-reform-vehicle",
+      "domain": "legislative",
+      "ui": {
+        "section": "Policy & Governance Votes",
+        "parent_category": "Voting",
+        "category": "Policy & Governance Votes",
+        "block": 93000
+      },
+      "legislation": {
+        "congress": 119,
+        "session": "119",
+        "chamber": "house",
+        "bill_type": "house_bill",
+        "number": 2347,
+        "display_id": "H.R. 2347 (119th)",
+        "govtrack_id": null,
+        "title": "Energy Infrastructure Permitting Reform (legislative vehicle)",
+        "short_title": "Energy Infrastructure Permitting Reform (vehicle)",
+        "summary": "Energy infrastructure and permitting reform measure serving as an active legislative vehicle in the Senate for provisions to modify federal permitting for energy projects.",
+        "status": "active",
+        "status_label": "Currently active in the Senate (119th Congress; vehicle for permitting provisions, incl. S.5653 context); floor action/votes possible in Nov 16-Dec 31 window",
+        "status_date": null,
+        "introduced_date": null,
+        "latest_action": null,
+        "sponsor": null,
+        "subjects": [],
+        "source_urls": [
+          "https://www.senate.gov/legislative/active_leg_page.htm"
+        ]
+      },
+      "vote": {
+        "question": "[LITMUS TEST] H.R. 2347 (119th): \"Energy Infrastructure Permitting Reform (vehicle)\" — Should this measure pass as written? Cast your community vote (without middlemen) and compare community will with how representatives vote.",
+        "type": "advisory_yes_no",
+        "options": [
+          "Yes - Support passage",
+          "No - Oppose passage",
+          "Abstain"
+        ],
+        "litmus_test": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (voting platform without middlemen).",
+          "community_vote": {
+            "yes": 0,
+            "no": 0,
+            "abstain": 0,
+            "source": "polytab_community"
+          },
+          "representative_votes": {
+            "house": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "senate": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "by_member": []
+          },
+          "comparison_note": "Populate representative_votes from official roll-call records to contrast with community results."
+        }
+      },
+      "campaign": {
+        "type": "open_ended",
+        "funding_activation_threshold_usd": 10000,
+        "timer_starts": "on_funding_activation_threshold_reached",
+        "timer_duration_days": null,
+        "status_before_activation": "open_for_funding",
+        "status_after_activation": "active_voting_window"
+      },
+      "bounty_if_passed": {
+        "description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 2347 (active Senate vehicle). Bounty benefits verified 501(c)(3)/public-benefit entities supporting energy/community resilience and environmental stewardship, finalized per campaign governance and verification.",
+        "destination_type": "verified_charity_beneficiaries",
+        "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to energy-resilience/environmental-stewardship impact; distribution finalized per campaign governance and verification.",
+        "beneficiary_scope": "national",
+        "beneficiary_states": [],
+        "localities": [],
+        "eligible_beneficiaries": [
+          {
+            "ein": null,
+            "name": "FRIENDS OF WINCHESTER CATHEDRAL",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:220218",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "BRADBURY FIELDS SERVICES FOR BLIND AND PARTIALLY SIGHTED PEOPLE",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:222798",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "COLEGIO DE EDUCACION ESPECIAL Y REHABILITACION INTEGRAL INC",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660505420",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "HOGAR AURORA INC",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660586357",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "FUNDACION HOSPITAL PEDIATRICO",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660817091",
+            "source_url": null
+          }
+        ]
+      },
+      "metrics": {
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "targetUSD": 10000,
+        "honest_zero": true
+      },
+      "location": {
+        "label": "United States Capitol",
+        "address": "First St SE, Washington, DC 20004, USA",
+        "lat": 38.8899,
+        "lng": -77.0091
+      },
+      "payment": {
+        "chain": "base",
+        "chain_id": 8453,
+        "token": "USDC",
+        "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "qr_asset": "docs/escrow-qr.png",
+        "note": "Polytab wallet/QR (Base USDC). Claim-first, non-custodial routing; contributions settle per campaign policy once verified payout is unlocked.",
+        "payment_memo_or_slug": "leg-119-house-bill-2347"
+      },
+      "provenance": {
+        "status": "beta_template",
+        "generated_at": "2026-11-18T23:31:43.357Z",
+        "generated_on": "2026-11-18",
+        "generator": "scripts/generate-legislative-vote-template.js",
+        "congress": 119,
+        "sources": [
+          "seed_manifest"
+        ],
+        "review_required": true
+      }
+    },
+    {
+      "template_version": "pol-legislative-vote-beta-1",
+      "bounty_id": "leg-119-senate-bill-1383",
+      "slug": "119-senate-bill-1383-save-america-act-s-1383-h-r-7296",
+      "domain": "legislative",
+      "ui": {
+        "section": "Policy & Governance Votes",
+        "parent_category": "Voting",
+        "category": "Policy & Governance Votes",
+        "block": 93000
+      },
+      "legislation": {
+        "congress": 119,
+        "session": "119",
+        "chamber": "senate",
+        "bill_type": "senate_bill",
+        "number": 1383,
+        "display_id": "S. 1383 (119th)",
+        "govtrack_id": null,
+        "title": "SAVE America Act (voter/citizenship documentation requirements)",
+        "short_title": "SAVE America Act (S. 1383 / H.R. 7296)",
+        "summary": "Would establish documentary proof-of-citizenship and related requirements for voter registration in federal elections (commonly known as the SAVE/SAVE America Act). Tracked alongside related House measure H.R. 7296.",
+        "status": "active",
+        "status_label": "Active/commonly tracked legislation in 119th Congress (Senate and House measures); potential floor action/votes possible in Nov 16-Dec 31 window (schedule-dependent)",
+        "status_date": null,
+        "introduced_date": null,
+        "latest_action": null,
+        "sponsor": null,
+        "subjects": [],
+        "source_urls": [
+          "https://www.congress.gov/bill/119th-congress/senate-bill/1383",
+          "https://www.senate.gov/legislative/active_leg_page.htm"
+        ]
+      },
+      "vote": {
+        "question": "[LITMUS TEST] S. 1383 (119th): \"SAVE America Act (S. 1383 / H.R. 7296)\" — Should this measure pass as written? Cast your community vote (without middlemen) and compare community will with how representatives vote.",
+        "type": "advisory_yes_no",
+        "options": [
+          "Yes - Support passage",
+          "No - Oppose passage",
+          "Abstain"
+        ],
+        "litmus_test": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (voting platform without middlemen).",
+          "community_vote": {
+            "yes": 0,
+            "no": 0,
+            "abstain": 0,
+            "source": "polytab_community"
+          },
+          "representative_votes": {
+            "house": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "senate": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "by_member": []
+          },
+          "comparison_note": "Populate representative_votes from official roll-call records to contrast with community results."
+        }
+      },
+      "campaign": {
+        "type": "open_ended",
+        "funding_activation_threshold_usd": 10000,
+        "timer_starts": "on_funding_activation_threshold_reached",
+        "timer_duration_days": null,
+        "status_before_activation": "open_for_funding",
+        "status_after_activation": "active_voting_window"
+      },
+      "bounty_if_passed": {
+        "description": "Open-ended Policy & Governance Vote (litmus test) for S. 1383 / H.R. 7296 (SAVE America Act). Bounty benefits verified 501(c)(3)/public-benefit entities supporting voting access, civic participation, and election integrity education, finalized per campaign governance and verification.",
+        "destination_type": "verified_charity_beneficiaries",
+        "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to voting-access/civic-participation impact; distribution finalized per campaign governance and verification.",
+        "beneficiary_scope": "national",
+        "beneficiary_states": [],
+        "localities": [],
+        "eligible_beneficiaries": [
+          {
+            "ein": null,
+            "name": "FRIENDS OF WINCHESTER CATHEDRAL",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:220218",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "BRADBURY FIELDS SERVICES FOR BLIND AND PARTIALLY SIGHTED PEOPLE",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:222798",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "COLEGIO DE EDUCACION ESPECIAL Y REHABILITACION INTEGRAL INC",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660505420",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "HOGAR AURORA INC",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660586357",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "FUNDACION HOSPITAL PEDIATRICO",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660817091",
+            "source_url": null
+          }
+        ]
+      },
+      "metrics": {
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "targetUSD": 10000,
+        "honest_zero": true
+      },
+      "location": {
+        "label": "United States Capitol",
+        "address": "First St SE, Washington, DC 20004, USA",
+        "lat": 38.8899,
+        "lng": -77.0091
+      },
+      "payment": {
+        "chain": "base",
+        "chain_id": 8453,
+        "token": "USDC",
+        "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "qr_asset": "docs/escrow-qr.png",
+        "note": "Polytab wallet/QR (Base USDC). Claim-first, non-custodial routing; contributions settle per campaign policy once verified payout is unlocked.",
+        "payment_memo_or_slug": "leg-119-senate-bill-1383"
+      },
+      "provenance": {
+        "status": "beta_template",
+        "generated_at": "2026-11-18T23:31:43.358Z",
+        "generated_on": "2026-11-18",
+        "generator": "scripts/generate-legislative-vote-template.js",
+        "congress": 119,
+        "sources": [
+          "seed_manifest"
+        ],
+        "review_required": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "_comment": "Seed manifest for national/congressional legislative votes (Policy & Governance Votes). Populated for measures in the Nov 16–Dec 31, 2026 window (119th Congress), aligned to published feed campaigns 93005–93016.",
+  "congress": 119,
+  "campaigns": [
+    {
+      "enabled": true,
+      "feed_item_id": "93005",
+      "congress": 119,
+      "bill_type": "house_resolution",
+      "number": 1665,
+      "title": "Providing for consideration of H.R. 3495 and H.R. 5267 (rule)",
+      "short_title": "Rule for H.R. 3495 and H.R. 5267",
+      "summary": "Sets the terms of House debate for H.R. 3495 (Direct Seller and Real Estate Agent Harmonization Act) and H.R. 5267 (American Franchise Act), including amendment and procedural rules for floor consideration.",
+      "status": "scheduled_or_considered",
+      "status_label": "Rule reported/updated Nov 18, 2026; scheduled for House floor consideration (week of Nov 16, 2026)",
+      "source_url": "https://docs.house.gov/floor/",
+      "beneficiary_scope": "national",
+      "beneficiary_states": [],
+      "localities": [],
+      "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H. Res. 1665. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact (labor/economic fairness and civic participation), finalized per campaign governance and verification.",
+      "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
+      "campaign_overrides": {
+        "funding_activation_threshold_usd": 10000,
+        "timer_duration_days": null
+      },
+      "auto_fetch": false
+    },
+    {
+      "enabled": true,
+      "feed_item_id": "93006",
+      "congress": 119,
+      "bill_type": "house_bill",
+      "number": 3495,
+      "title": "Direct Seller and Real Estate Agent Harmonization Act",
+      "short_title": "Direct Seller and Real Estate Agent Harmonization Act",
+      "summary": "Amends the Fair Labor Standards Act to clarify employee/independent-contractor treatment for direct sellers and real estate agents, affecting labor classification and related protections.",
+      "status": "scheduled_or_considered",
+      "status_label": "Scheduled for House floor consideration pursuant to rule (week of Nov 16, 2026)",
+      "source_url": "https://docs.house.gov/floor/",
+      "beneficiary_scope": "national",
+      "beneficiary_states": [],
+      "localities": [],
+      "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 3495. Bounty benefits verified 501(c)(3)/public-benefit entities supporting worker protections and economic fairness, finalized per campaign governance and verification.",
+      "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to worker/economic-fairness impact; distribution finalized per campaign governance and verification.",
+      "campaign_overrides": {
+        "funding_activation_threshold_usd": 10000,
+        "timer_duration_days": null
+      },
+      "auto_fetch": false
+    },
+    {
+      "enabled": true,
+      "feed_item_id": "93007",
+      "congress": 119,
+      "bill_type": "house_bill",
+      "number": 5267,
+      "title": "American Franchise Act",
+      "short_title": "American Franchise Act",
+      "summary": "Defines \"joint employer\" in franchise relationships under federal labor and employment laws, aiming to preserve the franchise business model by limiting when franchisors are treated as joint employers.",
+      "status": "scheduled_or_considered",
+      "status_label": "Scheduled for House floor consideration pursuant to rule (week of Nov 16, 2026)",
+      "source_url": "https://docs.house.gov/floor/",
+      "beneficiary_scope": "national",
+      "beneficiary_states": [],
+      "localities": [],
+      "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 5267. Bounty benefits verified 501(c)(3)/public-benefit entities supporting worker protections, small-business fairness, and local economic resilience, finalized per campaign governance and verification.",
+      "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to labor/small-business impact; distribution finalized per campaign governance and verification.",
+      "campaign_overrides": {
+        "funding_activation_threshold_usd": 10000,
+        "timer_duration_days": null
+      },
+      "auto_fetch": false
+    },
+    {
+      "enabled": true,
+      "feed_item_id": "93008",
+      "congress": 119,
+      "bill_type": "house_bill",
+      "number": 9640,
+      "title": "Earth MRI Reauthorization Act",
+      "short_title": "Earth MRI Reauthorization Act",
+      "summary": "Reauthorizes the Earth Mapping Resources Initiative (Earth MRI) to support geologic mapping and assessment of critical mineral resources.",
+      "status": "passed_house",
+      "status_label": "Passed House (Roll Call 326, Nov 18, 2026, 396-14) under suspension of the rules, as amended; subsequent Senate action possible",
+      "source_url": "https://clerk.house.gov/Votes/2026326",
+      "beneficiary_scope": "national",
+      "beneficiary_states": [],
+      "localities": [],
+      "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 9640. Bounty benefits verified 501(c)(3)/public-benefit entities supporting environmental stewardship, conservation, and community resource resilience, finalized per campaign governance and verification.",
+      "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to conservation/resource-stewardship impact; distribution finalized per campaign governance and verification.",
+      "campaign_overrides": {
+        "funding_activation_threshold_usd": 10000,
+        "timer_duration_days": null
+      },
+      "auto_fetch": false
+    },
+    {
+      "enabled": true,
+      "feed_item_id": "93009",
+      "congress": 119,
+      "bill_type": "house_bill",
+      "number": 9600,
+      "title": "Common Sense 250 Act",
+      "short_title": "Common Sense 250 Act",
+      "summary": "Supports planning and activities related to the United States Semiquincentennial (250th anniversary) commemoration.",
+      "status": "passed_house",
+      "status_label": "Passed House (Roll Call 325, Nov 17, 2026, 365-36) under suspension of the rules; subsequent Senate action possible",
+      "source_url": "https://clerk.house.gov/Votes/2026325",
+      "beneficiary_scope": "national",
+      "beneficiary_states": [],
+      "localities": [],
+      "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 9600. Bounty benefits verified 501(c)(3)/public-benefit entities supporting civic education, historical preservation, and community engagement, finalized per campaign governance and verification.",
+      "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to civic-education/historical-preservation impact; distribution finalized per campaign governance and verification.",
+      "campaign_overrides": {
+        "funding_activation_threshold_usd": 10000,
+        "timer_duration_days": null
+      },
+      "auto_fetch": false
+    },
+    {
+      "enabled": true,
+      "feed_item_id": "93010",
+      "congress": 119,
+      "bill_type": "house_bill",
+      "number": 8483,
+      "title": "Barona Group of Capitan Grande Band of Mission Indians Land Transfer Act",
+      "short_title": "Barona Land Transfer Act",
+      "summary": "Transfers specified land into trust for the Barona Group of Capitan Grande Band of Mission Indians, addressing tribal land holdings.",
+      "status": "passed_house",
+      "status_label": "Passed House (Roll Call 324, Nov 17, 2026, 398-0) under suspension of the rules, as amended; subsequent Senate action possible",
+      "source_url": "https://clerk.house.gov/Votes/2026324",
+      "beneficiary_scope": "state",
+      "beneficiary_states": [
+        "CA"
+      ],
+      "localities": [],
+      "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 8483. Bounty benefits verified 501(c)(3)/public-benefit entities supporting tribal communities and local stewardship in California, finalized per campaign governance and verification.",
+      "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to tribal/community stewardship impact in CA; distribution finalized per campaign governance and verification.",
+      "campaign_overrides": {
+        "funding_activation_threshold_usd": 10000,
+        "timer_duration_days": null
+      },
+      "auto_fetch": false
+    },
+    {
+      "enabled": true,
+      "feed_item_id": "93011",
+      "congress": 119,
+      "bill_type": "house_bill",
+      "number": 4464,
+      "title": "Preventive Health Savings Act",
+      "short_title": "Preventive Health Savings Act",
+      "summary": "Directs analysis of long-term budgetary savings from preventive health services in federal health programs, to inform scoring and policy decisions.",
+      "status": "scheduled_or_considered",
+      "status_label": "Listed for House floor consideration under suspension of the rules (week of Nov 16, 2026)",
+      "source_url": "https://docs.house.gov/floor/",
+      "beneficiary_scope": "national",
+      "beneficiary_states": [],
+      "localities": [],
+      "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 4464. Bounty benefits verified 501(c)(3)/public-benefit entities supporting preventive health and community wellness, finalized per campaign governance and verification.",
+      "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to preventive-health/community-wellness impact; distribution finalized per campaign governance and verification.",
+      "campaign_overrides": {
+        "funding_activation_threshold_usd": 10000,
+        "timer_duration_days": null
+      },
+      "auto_fetch": false
+    },
+    {
+      "enabled": true,
+      "feed_item_id": "93012",
+      "congress": 119,
+      "bill_type": "house_bill",
+      "number": 5490,
+      "title": "Dismantle Foreign Scam Syndicates Act",
+      "short_title": "Dismantle Foreign Scam Syndicates Act",
+      "summary": "Targets transnational scam syndicates through sanctions, enforcement coordination, and related measures to disrupt large-scale fraud operations.",
+      "status": "scheduled_or_considered",
+      "status_label": "Listed for House floor consideration under suspension of the rules, as amended (week of Nov 16, 2026)",
+      "source_url": "https://docs.house.gov/floor/",
+      "beneficiary_scope": "national",
+      "beneficiary_states": [],
+      "localities": [],
+      "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 5490. Bounty benefits verified 501(c)(3)/public-benefit entities supporting consumer protection, fraud prevention, and victim assistance, finalized per campaign governance and verification.",
+      "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to consumer-protection/fraud-prevention impact; distribution finalized per campaign governance and verification.",
+      "campaign_overrides": {
+        "funding_activation_threshold_usd": 10000,
+        "timer_duration_days": null
+      },
+      "auto_fetch": false
+    },
+    {
+      "enabled": true,
+      "feed_item_id": "93013",
+      "congress": 119,
+      "bill_type": "house_bill",
+      "number": 10136,
+      "title": "Crossett Experimental Forest Act of 2026",
+      "short_title": "Crossett Experimental Forest Act of 2026",
+      "summary": "Addresses management/designation matters related to the Crossett Experimental Forest to support forestry research and conservation objectives.",
+      "status": "scheduled_or_considered",
+      "status_label": "Listed for House floor consideration under suspension of the rules, as amended (week of Nov 16, 2026)",
+      "source_url": "https://docs.house.gov/floor/",
+      "beneficiary_scope": "state",
+      "beneficiary_states": [
+        "AR"
+      ],
+      "localities": [
+        "Crossett, AR"
+      ],
+      "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 10136. Bounty benefits verified 501(c)(3)/public-benefit entities supporting forestry research, conservation, and local community stewardship in Arkansas, finalized per campaign governance and verification.",
+      "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to conservation/forestry-research impact in AR; distribution finalized per campaign governance and verification.",
+      "campaign_overrides": {
+        "funding_activation_threshold_usd": 10000,
+        "timer_duration_days": null
+      },
+      "auto_fetch": false
+    },
+    {
+      "enabled": true,
+      "feed_item_id": "93014",
+      "congress": 119,
+      "bill_type": "house_bill",
+      "number": 9269,
+      "title": "Renewing the African American Civil Rights Network Act",
+      "short_title": "Renewing the African American Civil Rights Network Act",
+      "summary": "Renews/reauthorizes the African American Civil Rights Network to preserve and recognize sites and programs significant to civil rights history.",
+      "status": "scheduled_or_considered",
+      "status_label": "Listed for House floor consideration under suspension of the rules, as amended (week of Nov 16, 2026)",
+      "source_url": "https://docs.house.gov/floor/",
+      "beneficiary_scope": "national",
+      "beneficiary_states": [],
+      "localities": [],
+      "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 9269. Bounty benefits verified 501(c)(3)/public-benefit entities supporting civil-rights history preservation, education, and community programs, finalized per campaign governance and verification.",
+      "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to civil-rights preservation/education impact; distribution finalized per campaign governance and verification.",
+      "campaign_overrides": {
+        "funding_activation_threshold_usd": 10000,
+        "timer_duration_days": null
+      },
+      "auto_fetch": false
+    },
+    {
+      "enabled": true,
+      "feed_item_id": "93015",
+      "congress": 119,
+      "bill_type": "house_bill",
+      "number": 2347,
+      "title": "Energy Infrastructure Permitting Reform (legislative vehicle)",
+      "short_title": "Energy Infrastructure Permitting Reform (vehicle)",
+      "summary": "Energy infrastructure and permitting reform measure serving as an active legislative vehicle in the Senate for provisions to modify federal permitting for energy projects.",
+      "status": "active",
+      "status_label": "Currently active in the Senate (119th Congress; vehicle for permitting provisions, incl. S.5653 context); floor action/votes possible in Nov 16-Dec 31 window",
+      "source_url": "https://www.senate.gov/legislative/active_leg_page.htm",
+      "beneficiary_scope": "national",
+      "beneficiary_states": [],
+      "localities": [],
+      "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 2347 (active Senate vehicle). Bounty benefits verified 501(c)(3)/public-benefit entities supporting energy/community resilience and environmental stewardship, finalized per campaign governance and verification.",
+      "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to energy-resilience/environmental-stewardship impact; distribution finalized per campaign governance and verification.",
+      "campaign_overrides": {
+        "funding_activation_threshold_usd": 10000,
+        "timer_duration_days": null
+      },
+      "auto_fetch": false
+    },
+    {
+      "enabled": true,
+      "feed_item_id": "93016",
+      "congress": 119,
+      "bill_type": "senate_bill",
+      "number": 1383,
+      "title": "SAVE America Act (voter/citizenship documentation requirements)",
+      "short_title": "SAVE America Act (S. 1383 / H.R. 7296)",
+      "summary": "Would establish documentary proof-of-citizenship and related requirements for voter registration in federal elections (commonly known as the SAVE/SAVE America Act). Tracked alongside related House measure H.R. 7296.",
+      "status": "active",
+      "status_label": "Active/commonly tracked legislation in 119th Congress (Senate and House measures); potential floor action/votes possible in Nov 16-Dec 31 window (schedule-dependent)",
+      "source_url": "https://www.senate.gov/legislative/active_leg_page.htm",
+      "congress_gov_url": "https://www.congress.gov/bill/119th-congress/senate-bill/1383",
+      "beneficiary_scope": "national",
+      "beneficiary_states": [],
+      "localities": [],
+      "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for S. 1383 / H.R. 7296 (SAVE America Act). Bounty benefits verified 501(c)(3)/public-benefit entities supporting voting access, civic participation, and election integrity education, finalized per campaign governance and verification.",
+      "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to voting-access/civic-participation impact; distribution finalized per campaign governance and verification.",
+      "campaign_overrides": {
+        "funding_activation_threshold_usd": 10000,
+        "timer_duration_days": null
+      },
+      "auto_fetch": false
+    }
+  ]
+}

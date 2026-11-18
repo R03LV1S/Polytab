@@ -1,0 +1,123 @@
+{
+  "template_version": "pol-legislative-vote-beta-1",
+  "bounty_id": "leg-119-house-bill-10136",
+  "slug": "119-house-bill-10136-crossett-experimental-forest-act-of-2026",
+  "domain": "legislative",
+  "ui": {
+    "section": "Policy & Governance Votes",
+    "parent_category": "Voting",
+    "category": "Policy & Governance Votes",
+    "block": 93000
+  },
+  "legislation": {
+    "congress": 119,
+    "session": "119",
+    "chamber": "house",
+    "bill_type": "house_bill",
+    "number": 10136,
+    "display_id": "H.R. 10136 (119th)",
+    "govtrack_id": null,
+    "title": "Crossett Experimental Forest Act of 2026",
+    "short_title": "Crossett Experimental Forest Act of 2026",
+    "summary": "Addresses management/designation matters related to the Crossett Experimental Forest to support forestry research and conservation objectives.",
+    "status": "scheduled_or_considered",
+    "status_label": "Listed for House floor consideration under suspension of the rules, as amended (week of Nov 16, 2026)",
+    "status_date": null,
+    "introduced_date": null,
+    "latest_action": null,
+    "sponsor": null,
+    "subjects": [],
+    "source_urls": [
+      "https://docs.house.gov/floor/"
+    ]
+  },
+  "vote": {
+    "question": "[LITMUS TEST] H.R. 10136 (119th): \"Crossett Experimental Forest Act of 2026\" — Should this measure pass as written? Cast your community vote (without middlemen) and compare community will with how representatives vote.",
+    "type": "advisory_yes_no",
+    "options": [
+      "Yes - Support passage",
+      "No - Oppose passage",
+      "Abstain"
+    ],
+    "litmus_test": {
+      "purpose": "Contrast community sentiment with representative roll-call votes (voting platform without middlemen).",
+      "community_vote": {
+        "yes": 0,
+        "no": 0,
+        "abstain": 0,
+        "source": "polytab_community"
+      },
+      "representative_votes": {
+        "house": {
+          "yes": null,
+          "no": null,
+          "not_voting": null,
+          "roll_call": null,
+          "source_url": null
+        },
+        "senate": {
+          "yes": null,
+          "no": null,
+          "not_voting": null,
+          "roll_call": null,
+          "source_url": null
+        },
+        "by_member": []
+      },
+      "comparison_note": "Populate representative_votes from official roll-call records to contrast with community results."
+    }
+  },
+  "campaign": {
+    "type": "open_ended",
+    "funding_activation_threshold_usd": 10000,
+    "timer_starts": "on_funding_activation_threshold_reached",
+    "timer_duration_days": null,
+    "status_before_activation": "open_for_funding",
+    "status_after_activation": "active_voting_window"
+  },
+  "bounty_if_passed": {
+    "description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 10136. Bounty benefits verified 501(c)(3)/public-benefit entities supporting forestry research, conservation, and local community stewardship in Arkansas, finalized per campaign governance and verification.",
+    "destination_type": "verified_charity_beneficiaries",
+    "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to conservation/forestry-research impact in AR; distribution finalized per campaign governance and verification.",
+    "beneficiary_scope": "state",
+    "beneficiary_states": [
+      "AR"
+    ],
+    "localities": [
+      "Crossett, AR"
+    ],
+    "eligible_beneficiaries": []
+  },
+  "metrics": {
+    "fundedUSD": 0,
+    "votesCount": 0,
+    "targetUSD": 10000,
+    "honest_zero": true
+  },
+  "location": {
+    "label": "United States Capitol",
+    "address": "First St SE, Washington, DC 20004, USA",
+    "lat": 38.8899,
+    "lng": -77.0091
+  },
+  "payment": {
+    "chain": "base",
+    "chain_id": 8453,
+    "token": "USDC",
+    "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+    "qr_asset": "docs/escrow-qr.png",
+    "note": "Polytab wallet/QR (Base USDC). Claim-first, non-custodial routing; contributions settle per campaign policy once verified payout is unlocked.",
+    "payment_memo_or_slug": "leg-119-house-bill-10136"
+  },
+  "provenance": {
+    "status": "beta_template",
+    "generated_at": "2026-11-18T23:31:43.357Z",
+    "generated_on": "2026-11-18",
+    "generator": "scripts/generate-legislative-vote-template.js",
+    "congress": 119,
+    "sources": [
+      "seed_manifest"
+    ],
+    "review_required": true
+  }
+}
