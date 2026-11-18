@@ -2,7 +2,7 @@
   "schema_version": "3.0.0",
   "country_iso2": "PR",
   "admin1_state_province": "PR",
-  "count": 532,
+  "count": 564,
   "organizations": [
     {
       "registry_id": "US-EIN:060602997",
@@ -35,7 +35,8 @@
       "audit_signals": [
         "IRS_EO_BMF_ACTIVE_501C3",
         "IRS_AUTO_REVOCATION_CLEAN",
-        "FORM_990_REVENUE_OVER_250K"
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202408"
       ],
       "location": {
         "country_iso2": "PR",
@@ -45,7 +46,7 @@
       },
       "website": null,
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
-      "last_verified_utc": "2026-11-16T16:05:11.577Z",
+      "last_verified_utc": "2026-11-18T16:11:25.414Z",
       "integrity_sha256": "dca7cffb72abb0b1a7f782f5dc32f0b09299c1031bbbf8faf797b62022e9447c"
     },
     {
@@ -57,7 +58,8 @@
       "audit_signals": [
         "IRS_EO_BMF_ACTIVE_501C3",
         "IRS_AUTO_REVOCATION_CLEAN",
-        "FORM_990_REVENUE_OVER_250K"
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202312"
       ],
       "location": {
         "country_iso2": "PR",
@@ -67,7 +69,7 @@
       },
       "website": null,
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
-      "last_verified_utc": "2026-11-16T16:05:11.577Z",
+      "last_verified_utc": "2026-11-18T16:11:25.414Z",
       "integrity_sha256": "18afee76d1488ae760f764db61f4f07374f87b3320341db4fd00c65c2a1b1940"
     },
     {
@@ -91,6 +93,28 @@
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
       "last_verified_utc": "2026-11-16T16:05:11.577Z",
       "integrity_sha256": "a806babfb9c00d30530f80d9f4fb5aafe7f3d05e12681b1ee0daf262d8f40c4a"
+    },
+    {
+      "registry_id": "US-EIN:326567162",
+      "name": "MAGNOLIA FOUNDATION",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "IRS_990PF_XML_FILED_202412"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "RIO GRANDE"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.414Z",
+      "integrity_sha256": "d228d1a4593c912e6751475cccd7a04758d231286606be4803763412bbe18c16"
     },
     {
       "registry_id": "US-EIN:384103847",
@@ -277,7 +301,8 @@
       "audit_signals": [
         "IRS_EO_BMF_ACTIVE_501C3",
         "IRS_AUTO_REVOCATION_CLEAN",
-        "FORM_990_REVENUE_OVER_250K"
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202312"
       ],
       "location": {
         "country_iso2": "PR",
@@ -287,7 +312,7 @@
       },
       "website": null,
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
-      "last_verified_utc": "2026-11-16T16:05:11.577Z",
+      "last_verified_utc": "2026-11-18T16:11:25.414Z",
       "integrity_sha256": "145652aba5a934bea893b6852ef982313f6b86474af0dfa50ce0db87e4f36f80"
     },
     {
@@ -775,6 +800,28 @@
       "integrity_sha256": "ded47a523f4595e56ecef7d6a40f1aec41cc0982d9515d189280ff1b5c68b70a"
     },
     {
+      "registry_id": "US-EIN:660215050",
+      "name": "INSTITUTO DEL HOGAR CELIA Y HARRIS BUNKER INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "IRS_990_XML_FILED_202406"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "SAN JUAN"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.414Z",
+      "integrity_sha256": "42b7a9131ee04ded3a9057afd0c160189ff7fb8976ba3fe81df8e37fa0e658e0"
+    },
+    {
       "registry_id": "US-EIN:660217266",
       "name": "COLEGIO BAUTISTA DE CAGUAS PUERTO RICO INC",
       "status": "ACTIVE",
@@ -960,7 +1007,8 @@
       "audit_signals": [
         "IRS_EO_BMF_ACTIVE_501C3",
         "IRS_AUTO_REVOCATION_CLEAN",
-        "FORM_990_REVENUE_OVER_250K"
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202406"
       ],
       "location": {
         "country_iso2": "PR",
@@ -970,7 +1018,7 @@
       },
       "website": null,
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
-      "last_verified_utc": "2026-11-16T16:05:11.577Z",
+      "last_verified_utc": "2026-11-18T16:11:25.414Z",
       "integrity_sha256": "259ff11a2606b93b143c854ac27d219f940d6a9cbfba7a0e9af496ed700405a3"
     },
     {
@@ -1027,7 +1075,8 @@
       "audit_signals": [
         "IRS_EO_BMF_ACTIVE_501C3",
         "IRS_AUTO_REVOCATION_CLEAN",
-        "FORM_990_REVENUE_OVER_250K"
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202406"
       ],
       "location": {
         "country_iso2": "PR",
@@ -1037,7 +1086,7 @@
       },
       "website": null,
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
-      "last_verified_utc": "2026-11-16T16:05:11.577Z",
+      "last_verified_utc": "2026-11-18T16:11:25.414Z",
       "integrity_sha256": "0a93c954141cc342e22e6fbf8035fdb2682054d5fc0d76f77e619ec154a99b96"
     },
     {
@@ -1049,7 +1098,8 @@
       "audit_signals": [
         "IRS_EO_BMF_ACTIVE_501C3",
         "IRS_AUTO_REVOCATION_CLEAN",
-        "FORM_990_REVENUE_OVER_250K"
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202406"
       ],
       "location": {
         "country_iso2": "PR",
@@ -1059,7 +1109,7 @@
       },
       "website": null,
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
-      "last_verified_utc": "2026-11-16T16:05:11.577Z",
+      "last_verified_utc": "2026-11-18T16:11:25.414Z",
       "integrity_sha256": "30ec2182b95597cf02abadd3abd8762ea92bdef1e92db35ac07be9a9b78da5da"
     },
     {
@@ -2130,7 +2180,8 @@
       "audit_signals": [
         "IRS_EO_BMF_ACTIVE_501C3",
         "IRS_AUTO_REVOCATION_CLEAN",
-        "FORM_990_REVENUE_OVER_250K"
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202406"
       ],
       "location": {
         "country_iso2": "PR",
@@ -2140,7 +2191,7 @@
       },
       "website": null,
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
-      "last_verified_utc": "2026-11-16T16:05:11.577Z",
+      "last_verified_utc": "2026-11-18T16:11:25.414Z",
       "integrity_sha256": "a6d4fd41742f76a72c90de542e9cbf6cad62ff59c5ff9833a0b50242e72a37bd"
     },
     {
@@ -2175,7 +2226,8 @@
       "audit_signals": [
         "IRS_EO_BMF_ACTIVE_501C3",
         "IRS_AUTO_REVOCATION_CLEAN",
-        "FORM_990_REVENUE_OVER_250K"
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202312"
       ],
       "location": {
         "country_iso2": "PR",
@@ -2185,7 +2237,7 @@
       },
       "website": null,
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
-      "last_verified_utc": "2026-11-16T16:05:11.577Z",
+      "last_verified_utc": "2026-11-18T16:11:25.414Z",
       "integrity_sha256": "35c00bdbdaa34dd47dfcdb82bc51f94c190e916268db201a9fc78edec8295398"
     },
     {
@@ -2275,6 +2327,28 @@
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
       "last_verified_utc": "2026-11-16T16:05:11.577Z",
       "integrity_sha256": "addea029255982beb953defd836d32c3778ada877850f4303c5f31a66c45aca2"
+    },
+    {
+      "registry_id": "US-EIN:660374268",
+      "name": "ASOCIACION DE PERSONAS CON IMPEDIME NTOS INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "IRS_990_XML_FILED_202312"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "SAN GERMAN"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.414Z",
+      "integrity_sha256": "025d010b53a5313960f1a7a6331e5dff16816308d01b27dc2a6b5e817e1aced2"
     },
     {
       "registry_id": "US-EIN:660374402",
@@ -2439,7 +2513,8 @@
       "audit_signals": [
         "IRS_EO_BMF_ACTIVE_501C3",
         "IRS_AUTO_REVOCATION_CLEAN",
-        "FORM_990_REVENUE_OVER_250K"
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202406"
       ],
       "location": {
         "country_iso2": "PR",
@@ -2449,7 +2524,7 @@
       },
       "website": null,
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
-      "last_verified_utc": "2026-11-16T16:05:11.577Z",
+      "last_verified_utc": "2026-11-18T16:11:25.414Z",
       "integrity_sha256": "76aa542b5c5377ea476d0b56723d12b83cb7c9ba028b5cc7ba9545cd240001f2"
     },
     {
@@ -3016,7 +3091,8 @@
       "audit_signals": [
         "IRS_EO_BMF_ACTIVE_501C3",
         "IRS_AUTO_REVOCATION_CLEAN",
-        "FORM_990_REVENUE_OVER_250K"
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202409"
       ],
       "location": {
         "country_iso2": "PR",
@@ -3026,7 +3102,7 @@
       },
       "website": null,
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
-      "last_verified_utc": "2026-11-16T16:05:11.577Z",
+      "last_verified_utc": "2026-11-18T16:11:25.414Z",
       "integrity_sha256": "8b850e395c220480f6ee4f8ea82271f871d839b05bda430360c02d4b6bd6c4bc"
     },
     {
@@ -3479,7 +3555,8 @@
       "audit_signals": [
         "IRS_EO_BMF_ACTIVE_501C3",
         "IRS_AUTO_REVOCATION_CLEAN",
-        "FORM_990_REVENUE_OVER_250K"
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202409"
       ],
       "location": {
         "country_iso2": "PR",
@@ -3489,7 +3566,7 @@
       },
       "website": null,
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
-      "last_verified_utc": "2026-11-16T16:05:11.577Z",
+      "last_verified_utc": "2026-11-18T16:11:25.414Z",
       "integrity_sha256": "2c1fe43a6e435a11e5e4d1f3d2fc92b3f58f67e2632ba3391d5107476454c5cf"
     },
     {
@@ -3567,7 +3644,8 @@
       "audit_signals": [
         "IRS_EO_BMF_ACTIVE_501C3",
         "IRS_AUTO_REVOCATION_CLEAN",
-        "FORM_990_REVENUE_OVER_250K"
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202503"
       ],
       "location": {
         "country_iso2": "PR",
@@ -3577,7 +3655,7 @@
       },
       "website": null,
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
-      "last_verified_utc": "2026-11-16T16:05:11.577Z",
+      "last_verified_utc": "2026-11-18T16:11:25.414Z",
       "integrity_sha256": "c78bb0da8af3e9bd9af9e30c9882668944ac2d881d6a388d04e48643e7aaa0ae"
     },
     {
@@ -3985,7 +4063,8 @@
       "audit_signals": [
         "IRS_EO_BMF_ACTIVE_501C3",
         "IRS_AUTO_REVOCATION_CLEAN",
-        "FORM_990_REVENUE_OVER_250K"
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202412"
       ],
       "location": {
         "country_iso2": "PR",
@@ -3995,7 +4074,7 @@
       },
       "website": null,
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
-      "last_verified_utc": "2026-11-16T16:05:11.578Z",
+      "last_verified_utc": "2026-11-18T16:11:25.415Z",
       "integrity_sha256": "8afe8749f8236a7090ed38143c65aadd9025febc512c69efcc07227a81599488"
     },
     {
@@ -4461,6 +4540,28 @@
       "integrity_sha256": "8d9e37c8de797470b5599254950bf409d444093e1b88a972d041ef78cae6cc91"
     },
     {
+      "registry_id": "US-EIN:660486064",
+      "name": "EDUCATIONAL CENTER FOR THE BLIND AND THE HANDICAPPED OF PUERTO RICO",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "IRS_990_XML_FILED_202412"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "SAN JUAN"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.415Z",
+      "integrity_sha256": "5f5e4c5b83a621ea33c73b9986d9ee9f3126aa1c2e8a80d916d5e622c2c4fd99"
+    },
+    {
       "registry_id": "US-EIN:660486217",
       "name": "SERVICIOS SOCIALES EPISCOPALES INC",
       "status": "ACTIVE",
@@ -4491,7 +4592,8 @@
       "audit_signals": [
         "IRS_EO_BMF_ACTIVE_501C3",
         "IRS_AUTO_REVOCATION_CLEAN",
-        "FORM_990_REVENUE_OVER_250K"
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202406"
       ],
       "location": {
         "country_iso2": "PR",
@@ -4501,7 +4603,7 @@
       },
       "website": null,
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
-      "last_verified_utc": "2026-11-16T16:05:11.578Z",
+      "last_verified_utc": "2026-11-18T16:11:25.415Z",
       "integrity_sha256": "37b9298f5174b963d2b617b01fd371beaf73fd7551a0634f5147f5a1a12eede1"
     },
     {
@@ -4998,7 +5100,8 @@
         "IRS_EO_BMF_ACTIVE_501C3",
         "IRS_AUTO_REVOCATION_CLEAN",
         "FORM_990_REVENUE_OVER_250K",
-        "IRS_990_XML_FILED_202506"
+        "IRS_990_XML_FILED_202506",
+        "IRS_990_XML_FILED_202406"
       ],
       "location": {
         "country_iso2": "PR",
@@ -5008,7 +5111,7 @@
       },
       "website": null,
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
-      "last_verified_utc": "2026-11-16T16:05:11.578Z",
+      "last_verified_utc": "2026-11-18T16:11:25.415Z",
       "integrity_sha256": "a27b066845b6a1c93e37b732bbe9d143938108e84523affd331ef41138b4c028"
     },
     {
@@ -5042,7 +5145,8 @@
       "audit_signals": [
         "IRS_EO_BMF_ACTIVE_501C3",
         "IRS_AUTO_REVOCATION_CLEAN",
-        "FORM_990_REVENUE_OVER_250K"
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202406"
       ],
       "location": {
         "country_iso2": "PR",
@@ -5052,7 +5156,7 @@
       },
       "website": null,
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
-      "last_verified_utc": "2026-11-16T16:05:11.578Z",
+      "last_verified_utc": "2026-11-18T16:11:25.415Z",
       "integrity_sha256": "890e164bd75b8a71601ef08e95dcdc4d6f6a6542c65b916c1fb8ac7446319095"
     },
     {
@@ -5637,7 +5741,8 @@
       "audit_signals": [
         "IRS_EO_BMF_ACTIVE_501C3",
         "IRS_AUTO_REVOCATION_CLEAN",
-        "FORM_990_REVENUE_OVER_250K"
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202409"
       ],
       "location": {
         "country_iso2": "PR",
@@ -5647,7 +5752,7 @@
       },
       "website": null,
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
-      "last_verified_utc": "2026-11-16T16:05:11.578Z",
+      "last_verified_utc": "2026-11-18T16:11:25.415Z",
       "integrity_sha256": "f9bebd249ecc194487667e395f6cb8c7f928d0179a5d4046c2bee639b1954095"
     },
     {
@@ -5695,6 +5800,28 @@
       "integrity_sha256": "733076ff6b6870c30e47481eb98f6aef5faf8f39d39cf49324ff24368335330d"
     },
     {
+      "registry_id": "US-EIN:660537959",
+      "name": "HOGAR EL CAMINO A LA SALVACION INC II",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "IRS_990_XML_FILED_202412"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "BAYAMON"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.415Z",
+      "integrity_sha256": "64e9baf56ada809143ef3f19eca363d3a51b7d627c35d43277945391c8af3ba5"
+    },
+    {
       "registry_id": "US-EIN:660538915",
       "name": "FUNDACION NACIONAL PARA LA CULTURA POPULAR",
       "status": "ACTIVE",
@@ -5715,6 +5842,28 @@
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
       "last_verified_utc": "2026-11-16T16:05:11.578Z",
       "integrity_sha256": "2c4e24700ae79b9dd9a631785540ec93542f50a95cadd21478ee867cb7ef46e0"
+    },
+    {
+      "registry_id": "US-EIN:660539927",
+      "name": "REMANSO DE ESPERANZA INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "IRS_990_XML_FILED_202412"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "CAGUAS"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.415Z",
+      "integrity_sha256": "5e6a0373a015b7c42977eab5152549064b4e09ef7989f605f41399f3d9c61937"
     },
     {
       "registry_id": "US-EIN:660540331",
@@ -6410,7 +6559,8 @@
         "IRS_EO_BMF_ACTIVE_501C3",
         "IRS_AUTO_REVOCATION_CLEAN",
         "FORM_990_REVENUE_OVER_250K",
-        "IRS_990_XML_FILED_202509"
+        "IRS_990_XML_FILED_202509",
+        "IRS_990_XML_FILED_202409"
       ],
       "location": {
         "country_iso2": "PR",
@@ -6420,7 +6570,7 @@
       },
       "website": null,
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
-      "last_verified_utc": "2026-11-16T16:05:11.578Z",
+      "last_verified_utc": "2026-11-18T16:11:25.415Z",
       "integrity_sha256": "2106dadc6ba6f62751f76c39130e1b6057c824a324f7117fe54e4ccdc95ae1c7"
     },
     {
@@ -7063,6 +7213,28 @@
       "integrity_sha256": "7c6cfdd95bde702183df7bb02b18a5f3e6579cac6426cfedbacc46fd08f42530"
     },
     {
+      "registry_id": "US-EIN:660640760",
+      "name": "ASOCIACION DE PADRES Y AMIGOS ORQUE STAS SECUNDARIAS Y SUPERIORES INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "IRS_990PF_XML_FILED_202412"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "SAN JUAN"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.415Z",
+      "integrity_sha256": "9259bb0d0973411b0898b287604eb37083ae90ae34b67c13bf8d4bdfddc85f17"
+    },
+    {
       "registry_id": "US-EIN:660641575",
       "name": "PROYECTO MATRIA INC",
       "status": "ACTIVE",
@@ -7261,6 +7433,28 @@
       "integrity_sha256": "cbb4f2e9e5311975af901d5560e2a11dba04cbb8a3d71ad68b8d5206795109a7"
     },
     {
+      "registry_id": "US-EIN:660655154",
+      "name": "CASA SIN FRONTERAS INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "IRS_990EZ_XML_FILED_202412"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "SABANA HOYOS"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.415Z",
+      "integrity_sha256": "b511b6e0767571bab54bf5a54d22b8274519164b48b8cbeeb8bc480e501efa7e"
+    },
+    {
       "registry_id": "US-EIN:660655436",
       "name": "FUNDACION SILA M CALDERON INC",
       "status": "ACTIVE",
@@ -7347,6 +7541,28 @@
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
       "last_verified_utc": "2026-11-16T16:05:11.578Z",
       "integrity_sha256": "c1f14a4c53f120a4c86367652d6fdca7f0998dfefee8fc9bfb4e1986e601a22a"
+    },
+    {
+      "registry_id": "US-EIN:660658654",
+      "name": "NATURAL HISTORY SOCIETY OF PUERTO RICO INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "IRS_990EZ_XML_FILED_202412"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "SAN JUAN"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.415Z",
+      "integrity_sha256": "4021b29e5b53a4a7bed28dbc883d7165bae44e85ec972a381b900150ae90a8ea"
     },
     {
       "registry_id": "US-EIN:660663265",
@@ -7511,7 +7727,8 @@
       "audit_signals": [
         "IRS_EO_BMF_ACTIVE_501C3",
         "IRS_AUTO_REVOCATION_CLEAN",
-        "FORM_990_REVENUE_OVER_250K"
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202412"
       ],
       "location": {
         "country_iso2": "PR",
@@ -7521,7 +7738,7 @@
       },
       "website": null,
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
-      "last_verified_utc": "2026-11-16T16:05:11.578Z",
+      "last_verified_utc": "2026-11-18T16:11:25.415Z",
       "integrity_sha256": "075e1cdde5d5193081dff0c95def78abe7689ed0ba815d3fe1418d24e1a6375e"
     },
     {
@@ -7577,7 +7794,8 @@
       "audit_signals": [
         "IRS_EO_BMF_ACTIVE_501C3",
         "IRS_AUTO_REVOCATION_CLEAN",
-        "FORM_990_REVENUE_OVER_250K"
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202406"
       ],
       "location": {
         "country_iso2": "PR",
@@ -7587,7 +7805,7 @@
       },
       "website": null,
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
-      "last_verified_utc": "2026-11-16T16:05:11.578Z",
+      "last_verified_utc": "2026-11-18T16:11:25.415Z",
       "integrity_sha256": "d01c81f5ca775f0296f243aa5e2882cf048ad7cbfe190e08ccff736f831ceaae"
     },
     {
@@ -7699,6 +7917,28 @@
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
       "last_verified_utc": "2026-11-16T16:05:11.578Z",
       "integrity_sha256": "3d6584707da061ee3aeecf854fb0efc9c6a35b2ae5d26ccf051ffc8e11e8f99f"
+    },
+    {
+      "registry_id": "US-EIN:660708492",
+      "name": "SANTUARIO CANITA DE LA DIVINA MISENCORDIA",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "IRS_990EZ_XML_FILED_202412"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "SAN JUAN"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.415Z",
+      "integrity_sha256": "22763ef7326f51504f5e0608380f50fd46f822a629983ebb14744b3bf496f07b"
     },
     {
       "registry_id": "US-EIN:660711334",
@@ -7907,7 +8147,8 @@
       "audit_signals": [
         "IRS_EO_BMF_ACTIVE_501C3",
         "IRS_AUTO_REVOCATION_CLEAN",
-        "FORM_990_REVENUE_OVER_250K"
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202406"
       ],
       "location": {
         "country_iso2": "PR",
@@ -7917,7 +8158,7 @@
       },
       "website": null,
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
-      "last_verified_utc": "2026-11-16T16:05:11.578Z",
+      "last_verified_utc": "2026-11-18T16:11:25.415Z",
       "integrity_sha256": "8633a483a2b1791bec1b730514d8d71019c0aa61318f5b535fcf93da746e179d"
     },
     {
@@ -8319,6 +8560,28 @@
       "integrity_sha256": "7f42515509dabe5c7059a26e0021638d35fe9a06002b3281151b26e1eaf4bc70"
     },
     {
+      "registry_id": "US-EIN:660760257",
+      "name": "FRIENDS OF CULEBRA ANIMALS INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "IRS_990EZ_XML_FILED_202412"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "CULEBRA"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.415Z",
+      "integrity_sha256": "f151c18866f87887b5b0c601d7bdd16b89bea8d63e544ba9e004c82b3c37f18f"
+    },
+    {
       "registry_id": "US-EIN:660762579",
       "name": "ECOEXPLORATORIO INC",
       "status": "ACTIVE",
@@ -8361,6 +8624,28 @@
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
       "last_verified_utc": "2026-11-16T16:05:11.578Z",
       "integrity_sha256": "ec7192e91e740dbed2493f14fa033e0c5970fa3dda1d0bfff00782c60b072e11"
+    },
+    {
+      "registry_id": "US-EIN:660767910",
+      "name": "FUNDACION LAZOS DE AMOR Y ESPERANZA INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "IRS_990EZ_XML_FILED_202412"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "HUMACAO"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.415Z",
+      "integrity_sha256": "7411ce94ac8413bd193e71c9dacd635067c61b6d5d24effda8bd653e4cbf6a85"
     },
     {
       "registry_id": "US-EIN:660768054",
@@ -9078,7 +9363,8 @@
         "IRS_EO_BMF_ACTIVE_501C3",
         "IRS_AUTO_REVOCATION_CLEAN",
         "FORM_990_REVENUE_OVER_250K",
-        "IRS_990_XML_FILED_202503"
+        "IRS_990_XML_FILED_202503",
+        "IRS_990_XML_FILED_202403"
       ],
       "location": {
         "country_iso2": "PR",
@@ -9088,7 +9374,7 @@
       },
       "website": null,
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
-      "last_verified_utc": "2026-11-16T16:05:11.578Z",
+      "last_verified_utc": "2026-11-18T16:11:25.416Z",
       "integrity_sha256": "892347b8192e1078f0a7368ef4e580ccd89cb9c39fd14455a6938be58bb3ce0a"
     },
     {
@@ -9246,6 +9532,28 @@
       "integrity_sha256": "3c2c5a6cf3c61e1f319d87b51f9fa02a05276d898bbc48bdcc9378a4ebda8e99"
     },
     {
+      "registry_id": "US-EIN:660841866",
+      "name": "CAMBIO PR INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "IRS_990_XML_FILED_202412"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "SAN JUAN"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.416Z",
+      "integrity_sha256": "e2a192452351c5ed07084c7fd746d0ab7afc4b6eb2c1fdf63ca5c786689d0500"
+    },
+    {
       "registry_id": "US-EIN:660842495",
       "name": "CARIBBEAN COASTAL OCEAN OBSERVING SYSTEM INC",
       "status": "ACTIVE",
@@ -9378,6 +9686,28 @@
       "integrity_sha256": "92122b8fa1b177f84d7e351c1bf473531981608479d31ffb032b40243a768ac4"
     },
     {
+      "registry_id": "US-EIN:660855087",
+      "name": "FUNDACION HUNTINGTON PR",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "IRS_990EZ_XML_FILED_202412"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "SAN JUAN"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.416Z",
+      "integrity_sha256": "3c385f6f6a3ee5f403c502c233dd09010138b97ba2e73d3feee78449c4b39721"
+    },
+    {
       "registry_id": "US-EIN:660856773",
       "name": "PUERTO RICO CONSORTIUM FOR CLINICAL INVESTIGATION INC",
       "status": "ACTIVE",
@@ -9466,6 +9796,28 @@
       "integrity_sha256": "85db5916f9c09bdbf4238460d1375d199fc823914a2b21a89723ef2f12eb0d34"
     },
     {
+      "registry_id": "US-EIN:660864137",
+      "name": "RINCON CHRISTIAN ACADEMY INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "IRS_990EZ_XML_FILED_202412"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "RINCON"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.416Z",
+      "integrity_sha256": "48f007be13c08baf43c0598e1f16aa3f6d9def89896d57560313dc3df16af62c"
+    },
+    {
       "registry_id": "US-EIN:660864235",
       "name": "ESCUELA MAYAGUEZANA DE BALLET ARTES Y EDUCACION EUGENIO MARIA DE HOSTO",
       "status": "ACTIVE",
@@ -9474,7 +9826,8 @@
       "audit_signals": [
         "IRS_EO_BMF_ACTIVE_501C3",
         "IRS_AUTO_REVOCATION_CLEAN",
-        "FORM_990_REVENUE_OVER_250K"
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202412"
       ],
       "location": {
         "country_iso2": "PR",
@@ -9484,7 +9837,7 @@
       },
       "website": null,
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
-      "last_verified_utc": "2026-11-16T16:05:11.578Z",
+      "last_verified_utc": "2026-11-18T16:11:25.416Z",
       "integrity_sha256": "cc1845d4050c1569cdbf7aaba5d7cbaf4ec90048fa34117f3ec1bb7cf918a305"
     },
     {
@@ -9518,7 +9871,8 @@
       "audit_signals": [
         "IRS_EO_BMF_ACTIVE_501C3",
         "IRS_AUTO_REVOCATION_CLEAN",
-        "FORM_990_REVENUE_OVER_250K"
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202412"
       ],
       "location": {
         "country_iso2": "PR",
@@ -9528,8 +9882,30 @@
       },
       "website": null,
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
-      "last_verified_utc": "2026-11-16T16:05:11.578Z",
+      "last_verified_utc": "2026-11-18T16:11:25.416Z",
       "integrity_sha256": "9cd013e97cc4809c6ae5a6a75c98e04b8eb9a8a6505128e9a38613e867924620"
+    },
+    {
+      "registry_id": "US-EIN:660876726",
+      "name": "EUREKA ENRICHMENT SERVICES",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "IRS_990_XML_FILED_202412"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "SAN JUAN"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.416Z",
+      "integrity_sha256": "61a550995b2796de90b2c72086fb2e2700aecf234648c491c5c2b77fd1248d45"
     },
     {
       "registry_id": "US-EIN:660876852",
@@ -9641,6 +10017,50 @@
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
       "last_verified_utc": "2026-11-16T16:05:11.578Z",
       "integrity_sha256": "e3a81d410168e4de3fe5bce849c6c5e80a1ac24ee8d31cb6fdad640cc17eadb2"
+    },
+    {
+      "registry_id": "US-EIN:660886236",
+      "name": "FUNDACION CABECITAS DE ALGODON",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "IRS_990EZ_XML_FILED_202409"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "CIDRA"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.416Z",
+      "integrity_sha256": "d407651bb7f0f4ce7a0fd85ca52d7e22e7380246d6b0751152b3c719eb7560fa"
+    },
+    {
+      "registry_id": "US-EIN:660886522",
+      "name": "BANDA ESCOLAR SUM GUAYANILLA INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "IRS_990_XML_FILED_202412"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "GUAYANILLA"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.416Z",
+      "integrity_sha256": "d04808b6a5abf86f9ce13c78265883d8d553b3ea37b261eea480697251dfb237"
     },
     {
       "registry_id": "US-EIN:660886544",
@@ -9871,7 +10291,8 @@
       "audit_signals": [
         "IRS_EO_BMF_ACTIVE_501C3",
         "IRS_AUTO_REVOCATION_CLEAN",
-        "FORM_990_REVENUE_OVER_250K"
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202412"
       ],
       "location": {
         "country_iso2": "PR",
@@ -9881,7 +10302,7 @@
       },
       "website": null,
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
-      "last_verified_utc": "2026-11-16T16:05:11.578Z",
+      "last_verified_utc": "2026-11-18T16:11:25.416Z",
       "integrity_sha256": "a428fb0d2fa18c546c2524ae424dc3f6feba12f9df782a6f9be72f517597c661"
     },
     {
@@ -10026,7 +10447,8 @@
       "audit_signals": [
         "IRS_EO_BMF_ACTIVE_501C3",
         "IRS_AUTO_REVOCATION_CLEAN",
-        "FORM_990_REVENUE_OVER_250K"
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202406"
       ],
       "location": {
         "country_iso2": "PR",
@@ -10036,8 +10458,52 @@
       },
       "website": null,
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
-      "last_verified_utc": "2026-11-16T16:05:11.578Z",
+      "last_verified_utc": "2026-11-18T16:11:25.416Z",
       "integrity_sha256": "72e4714e52a4ad318276c954b305baf90e085195b6d04a5c0587366d9eb7a080"
+    },
+    {
+      "registry_id": "US-EIN:660902757",
+      "name": "COALICION LEGAL PARA PUERTO RICO INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "IRS_990EZ_XML_FILED_202412"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "SAN JUAN"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.416Z",
+      "integrity_sha256": "79fa66b9a397c601be1d55c0aec2e24445ca00061f2910965009a6567a414ff7"
+    },
+    {
+      "registry_id": "US-EIN:660903050",
+      "name": "PUERTO RICO HARD ENDURO CORP",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "IRS_990EZ_XML_FILED_202412"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "AGUADA"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.416Z",
+      "integrity_sha256": "517004563ad7ece242c0a9cf2d406634aa6113383f296970f89fb14371c09217"
     },
     {
       "registry_id": "US-EIN:660904023",
@@ -10615,6 +11081,28 @@
       "integrity_sha256": "a7d3733e2c604021c53be885d410230702c45add74c30d9a1c757550218f30e9"
     },
     {
+      "registry_id": "US-EIN:660938848",
+      "name": "FIDEICOMISO DE TIERRAS COMUNITARIAS PARA LA AGRICULTURA SOSTENIBLE",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "IRS_990_XML_FILED_202412"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "SAN JUAN"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.416Z",
+      "integrity_sha256": "73b0d07dc5a65218a738602e84d80a57faf2f58eb10fa602c32c9dacebb3d7c1"
+    },
+    {
       "registry_id": "US-EIN:660939965",
       "name": "FIELDS OF JOY FOUNDATION INC",
       "status": "ACTIVE",
@@ -10799,7 +11287,8 @@
       "audit_signals": [
         "IRS_EO_BMF_ACTIVE_501C3",
         "IRS_AUTO_REVOCATION_CLEAN",
-        "FORM_990_REVENUE_OVER_250K"
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202312"
       ],
       "location": {
         "country_iso2": "PR",
@@ -10809,7 +11298,7 @@
       },
       "website": null,
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
-      "last_verified_utc": "2026-11-16T16:05:11.578Z",
+      "last_verified_utc": "2026-11-18T16:11:25.416Z",
       "integrity_sha256": "0b772f6cf9a7fcdde51c222231f78fccbab463735a883d0da9d9d9c6e185fa16"
     },
     {
@@ -11152,7 +11641,8 @@
       "audit_signals": [
         "IRS_EO_BMF_ACTIVE_501C3",
         "IRS_AUTO_REVOCATION_CLEAN",
-        "FORM_990_REVENUE_OVER_250K"
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202412"
       ],
       "location": {
         "country_iso2": "PR",
@@ -11162,7 +11652,7 @@
       },
       "website": null,
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
-      "last_verified_utc": "2026-11-16T16:05:11.578Z",
+      "last_verified_utc": "2026-11-18T16:11:25.416Z",
       "integrity_sha256": "c0fbadc62c87dad897399504a5e981dc65643e48e7f97e11729fbd408f2f1188"
     },
     {
@@ -11254,6 +11744,28 @@
       "integrity_sha256": "d3dcbe1ffb2481fb0fc3021b3aab8c0076292ba742557e09d014dbb73918fa32"
     },
     {
+      "registry_id": "US-EIN:661015083",
+      "name": "CASA TALLABOENA DE FORMACION COMUNITARIA Y RESILIENCIA INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "IRS_990_XML_FILED_202412"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "PENUELAS"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.416Z",
+      "integrity_sha256": "044c543be11cf4669d5ca96ec649e49319180ebea6b6ab7a6d9a6d996e59a155"
+    },
+    {
       "registry_id": "US-EIN:661017656",
       "name": "MOVIMIENTO ANANSE INC",
       "status": "ACTIVE",
@@ -11276,6 +11788,28 @@
       "integrity_sha256": "0f5da63b08ad6beba48d730d6aeaeda0940f4217faa6a3e0709ce47d2821513d"
     },
     {
+      "registry_id": "US-EIN:661019395",
+      "name": "ASOCIACION PESQUERA DE CULEBRA INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "IRS_990EZ_XML_FILED_202412"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "CULEBRA"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.416Z",
+      "integrity_sha256": "870a1d51b609d61a8f303d58d728be2558c8913b971eec1b51af25d6ec665fdc"
+    },
+    {
       "registry_id": "US-EIN:661021667",
       "name": "MEMORIA DECOLONIAL INC",
       "status": "ACTIVE",
@@ -11296,6 +11830,72 @@
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
       "last_verified_utc": "2026-11-16T16:05:11.578Z",
       "integrity_sha256": "046027ca0567da510f79c9c4a58f5f8cf341546adb912c9e5fee18ba6446fa28"
+    },
+    {
+      "registry_id": "US-EIN:661021821",
+      "name": "COMUNIDAD INTEGRADA EL PUEBLITO INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "IRS_990EZ_XML_FILED_202412"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "OROCOVIS"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.416Z",
+      "integrity_sha256": "dfecf57c35e137bf1c929a596923c0faa46aff6f742cee3a9a9110f605e5c393"
+    },
+    {
+      "registry_id": "US-EIN:661023089",
+      "name": "ORQUESTA SINFONICA ANTONIO PAOLI INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "IRS_990_XML_FILED_202412"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "CAGUAS"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.416Z",
+      "integrity_sha256": "47c7377cb6bfbcad58f82a1295c5cf54e66a2883c8151709c05bf8b4c4cbd916"
+    },
+    {
+      "registry_id": "US-EIN:661029066",
+      "name": "CAYEY CULTURAL INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "IRS_990EZ_XML_FILED_202412"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "CAYEY"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.416Z",
+      "integrity_sha256": "8939665dc1447db6db7c69e40c3f166de46b58a405e4a5a85f53b5b357a12341"
     },
     {
       "registry_id": "US-EIN:661030389",
@@ -11365,6 +11965,28 @@
       "integrity_sha256": "4928ed00718d8bf7c33f484638907663ab1c5a172b4d9fd5a168facae9f80d66"
     },
     {
+      "registry_id": "US-EIN:661042419",
+      "name": "EURO1040 INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "IRS_990PF_XML_FILED_202412"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "VEGA BAJA"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.416Z",
+      "integrity_sha256": "ee5c67c4dfe411e6b0e06dbb7536d35cfc2e4516e01b9c68b6bb2921f8838a86"
+    },
+    {
       "registry_id": "US-EIN:661042529",
       "name": "EL ENJAMBRE COLECTIVO INC",
       "status": "ACTIVE",
@@ -11409,6 +12031,72 @@
       "integrity_sha256": "d4c015e5f841ee658b3357181b63f5a4165623adcba342873ac671879da2dd31"
     },
     {
+      "registry_id": "US-EIN:661044452",
+      "name": "FUNDACION KANARI CORP",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "IRS_990EZ_XML_FILED_202412"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "SAN JUAN"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.416Z",
+      "integrity_sha256": "badfbe7e3a72d62023950ba884480542cf4eb35886845813a092cce9682ee8af"
+    },
+    {
+      "registry_id": "US-EIN:661046011",
+      "name": "INSTITUTE OF BEHAVIORAL HEALTH IMPLEMENTATION INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "IRS_990PF_XML_FILED_202406"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "SAN JUAN"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.416Z",
+      "integrity_sha256": "b55fffa8434e3b448b411b40406886a029766e0536aefe54ff40da57938e9108"
+    },
+    {
+      "registry_id": "US-EIN:661053083",
+      "name": "AGC PUERTO RICO CHAPTER WORKFORCE DEVELOPMENT FOUNDATION INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "IRS_990_XML_FILED_202412"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "SAN JUAN"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.416Z",
+      "integrity_sha256": "7d90baf61ec77f3f49c24e31e727c91dba5f82fd161e89d86489791adb96f161"
+    },
+    {
       "registry_id": "US-EIN:661062102",
       "name": "WILDFLOWER FOUNDATION",
       "status": "ACTIVE",
@@ -11451,6 +12139,50 @@
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
       "last_verified_utc": "2026-11-16T16:05:11.578Z",
       "integrity_sha256": "badddfa9ad0f971ce0d0b468834a603d1af821a70cc2c6745ac550c0819ea1f8"
+    },
+    {
+      "registry_id": "US-EIN:661068647",
+      "name": "EN LA BREGA ART FOUNDATION INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "IRS_990EZ_XML_FILED_202412"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "QUEBRADILLAS"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.416Z",
+      "integrity_sha256": "5dda3ace193b2c6d985f9cbcfd2b235a5cd7c0f21d28a2fb1ca56e90271b6bb2"
+    },
+    {
+      "registry_id": "US-EIN:661074552",
+      "name": "PURMUN INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "IRS_990EZ_XML_FILED_202312"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "TRUJILLO ALTO"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.416Z",
+      "integrity_sha256": "f324bb18068e80cd3f886d7e2c6b57dbd1a93c2da0a66c8e2b9946161a452d02"
     },
     {
       "registry_id": "US-EIN:661076165",
@@ -11725,7 +12457,8 @@
       "audit_signals": [
         "IRS_EO_BMF_ACTIVE_501C3",
         "IRS_AUTO_REVOCATION_CLEAN",
-        "FORM_990_REVENUE_OVER_250K"
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202412"
       ],
       "location": {
         "country_iso2": "PR",
@@ -11735,7 +12468,7 @@
       },
       "website": null,
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
-      "last_verified_utc": "2026-11-16T16:05:11.579Z",
+      "last_verified_utc": "2026-11-18T16:11:25.416Z",
       "integrity_sha256": "f14cf41cb9f3cf65ba1ac58747545c15d16c76c54dd0cc5814dbf5f64e0d89d8"
     }
   ]

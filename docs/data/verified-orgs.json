@@ -2,14 +2,14 @@
   "schema_version": "3.0.0",
   "sharded": true,
   "manifest_path": "docs/data/orgs/manifest.json",
-  "merkle_root_sha256": "aa35213f2144294a39897ea037f4c9ea88f97ae3bb137f952eea40feb46a8034",
-  "generated_at_utc": "2026-11-18T09:45:16.592Z",
+  "merkle_root_sha256": "03c70221ac1ef20fe22d08a538c49ac0a0646cbf970ded0413f6fd15474a655f",
+  "generated_at_utc": "2026-11-18T16:11:30.023Z",
   "cost_policy": "ZERO_COST_KEYLESS_PUBLIC_REGISTRIES_ONLY",
-  "total_verified_orgs": 24058,
+  "total_verified_orgs": 24090,
   "total_shards": 108,
   "summary_metrics": {
-    "added_this_cycle": 0,
-    "updated_this_cycle": 4,
+    "added_this_cycle": 32,
+    "updated_this_cycle": 33,
     "irs_revoked_purged_this_cycle": 0
   },
   "organizations": [
@@ -60,6 +60,78 @@
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
       "last_verified_utc": "2026-11-17T01:06:58.191Z",
       "integrity_sha256": "d73f30a9484b3ab6d7859affbe2d01dad8efc4d3057fc63d3c845d137af9a0d9"
+    },
+    {
+      "registry_id": "US-EIN:660505420",
+      "name": "COLEGIO DE EDUCACION ESPECIAL Y REHABILITACION INTEGRAL INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202506",
+        "IRS_990_XML_FILED_202406"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "SAN JUAN"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.415Z",
+      "integrity_sha256": "a27b066845b6a1c93e37b732bbe9d143938108e84523affd331ef41138b4c028"
+    },
+    {
+      "registry_id": "US-EIN:660586357",
+      "name": "HOGAR AURORA INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202509",
+        "IRS_990_XML_FILED_202409"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "AIBONITO"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.415Z",
+      "integrity_sha256": "2106dadc6ba6f62751f76c39130e1b6057c824a324f7117fe54e4ccdc95ae1c7"
+    },
+    {
+      "registry_id": "US-EIN:660817091",
+      "name": "FUNDACION HOSPITAL PEDIATRICO",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202503",
+        "IRS_990_XML_FILED_202403"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "SAN JUAN"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.416Z",
+      "integrity_sha256": "892347b8192e1078f0a7368ef4e580ccd89cb9c39fd14455a6938be58bb3ce0a"
     },
     {
       "registry_id": "GB-CHC:201377",
@@ -656,8 +728,77 @@
       },
       "website": null,
       "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
-      "last_verified_utc": "2026-11-18T09:45:16.504Z",
+      "last_verified_utc": "2026-11-18T16:11:29.905Z",
       "integrity_sha256": "90faa7a2f9039127879069098a9a1619bd32a19ddbfeaad608aca89e3e6e2321"
+    },
+    {
+      "registry_id": "US-EIN:134038907",
+      "name": "CIEE INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202408"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "CAROLINA"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.414Z",
+      "integrity_sha256": "dca7cffb72abb0b1a7f782f5dc32f0b09299c1031bbbf8faf797b62022e9447c"
+    },
+    {
+      "registry_id": "US-EIN:237034732",
+      "name": "FAMILIES PLANNING ASSOCIATION OF PUERTO RICO",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202312"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "SAN JUAN"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.414Z",
+      "integrity_sha256": "18afee76d1488ae760f764db61f4f07374f87b3320341db4fd00c65c2a1b1940"
+    },
+    {
+      "registry_id": "US-EIN:650216638",
+      "name": "EVERGLADES COLLEGE INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202312"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "SAN JUAN"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.414Z",
+      "integrity_sha256": "145652aba5a934bea893b6852ef982313f6b86474af0dfa50ce0db87e4f36f80"
     },
     {
       "registry_id": "US-EIN:660219758",
@@ -683,6 +824,29 @@
       "integrity_sha256": "c0c86f6b8fb8f9d6e5fa56fb6c151a10aa3128e913eec563a7308fe32376dcae"
     },
     {
+      "registry_id": "US-EIN:660235625",
+      "name": "LUIS A FERRE FOUNDATION INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202406"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "PONCE"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.414Z",
+      "integrity_sha256": "259ff11a2606b93b143c854ac27d219f940d6a9cbfba7a0e9af496ed700405a3"
+    },
+    {
       "registry_id": "US-EIN:660240779",
       "name": "COLEGIO DE CIRUJANOS DENTISTAS DE PUERTO RICO",
       "status": "ACTIVE",
@@ -704,6 +868,52 @@
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
       "last_verified_utc": "2026-11-16T16:05:11.577Z",
       "integrity_sha256": "c3c083e651a042ac70ce8f9b69ec3199640d832b81982d2631667171e1c43206"
+    },
+    {
+      "registry_id": "US-EIN:660244040",
+      "name": "CORPORACION EDUCATIVA RAMON BARQUIN",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202406"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "GUAYNABO"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.414Z",
+      "integrity_sha256": "0a93c954141cc342e22e6fbf8035fdb2682054d5fc0d76f77e619ec154a99b96"
+    },
+    {
+      "registry_id": "US-EIN:660258767",
+      "name": "CARIBBEAN CONSOLIDATED SCHOOLS INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202406"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "SAN JUAN"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.414Z",
+      "integrity_sha256": "30ec2182b95597cf02abadd3abd8762ea92bdef1e92db35ac07be9a9b78da5da"
     },
     {
       "registry_id": "US-EIN:660321594",
@@ -775,6 +985,29 @@
       "integrity_sha256": "23ecccc7e41d96be2ec18fc2b51c235d92bcfd0616e54728193737633c842003"
     },
     {
+      "registry_id": "US-EIN:660366245",
+      "name": "CENTRO MARGARITA INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202406"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "CIDRA"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.414Z",
+      "integrity_sha256": "a6d4fd41742f76a72c90de542e9cbf6cad62ff59c5ff9833a0b50242e72a37bd"
+    },
+    {
       "registry_id": "US-EIN:660367053",
       "name": "ROBINSON SCHOOL INC",
       "status": "ACTIVE",
@@ -796,6 +1029,52 @@
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
       "last_verified_utc": "2026-11-16T16:05:11.577Z",
       "integrity_sha256": "289e03da137a52985a936f7b33f132b692b3e3986f8ca7bb1b77338bf50ece1f"
+    },
+    {
+      "registry_id": "US-EIN:660371418",
+      "name": "HOSPITAL SAN CARLOS INCORPORADO",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202312"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "MOCA"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.414Z",
+      "integrity_sha256": "35c00bdbdaa34dd47dfcdb82bc51f94c190e916268db201a9fc78edec8295398"
+    },
+    {
+      "registry_id": "US-EIN:660387455",
+      "name": "PRO ARTE MUSICAL INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202406"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "SAN JUAN"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.414Z",
+      "integrity_sha256": "76aa542b5c5377ea476d0b56723d12b83cb7c9ba028b5cc7ba9545cd240001f2"
     },
     {
       "registry_id": "US-EIN:660387659",
@@ -913,6 +1192,29 @@
       "integrity_sha256": "9da76835c8955ee49061e81068b7ee6ca48e25e7f4eaaf1bd98a92d637f906ba"
     },
     {
+      "registry_id": "US-EIN:660419912",
+      "name": "ASOCIACION DE SALUD PRIMARIA DE PUERTO RICO INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202409"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "SAN JUAN"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.414Z",
+      "integrity_sha256": "8b850e395c220480f6ee4f8ea82271f871d839b05bda430360c02d4b6bd6c4bc"
+    },
+    {
       "registry_id": "US-EIN:660428488",
       "name": "COSTA SALUD COMMUNITY HEALTH CENTERS INC",
       "status": "ACTIVE",
@@ -936,8 +1238,8 @@
       "integrity_sha256": "50c59d026d8d279c1abbd4f873d3caac3b8d13fdb4f1ec8bbbdf74374b6e3cb0"
     },
     {
-      "registry_id": "US-EIN:660505420",
-      "name": "COLEGIO DE EDUCACION ESPECIAL Y REHABILITACION INTEGRAL INC",
+      "registry_id": "US-EIN:660432461",
+      "name": "SOCIEDAD DE INVESTIGACION CIENTIFICA INC",
       "status": "ACTIVE",
       "verification_tier": "TIER_1_AUDITED",
       "audit_verified": true,
@@ -945,7 +1247,7 @@
         "IRS_EO_BMF_ACTIVE_501C3",
         "IRS_AUTO_REVOCATION_CLEAN",
         "FORM_990_REVENUE_OVER_250K",
-        "IRS_990_XML_FILED_202506"
+        "IRS_990_XML_FILED_202409"
       ],
       "location": {
         "country_iso2": "PR",
@@ -955,8 +1257,100 @@
       },
       "website": null,
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
-      "last_verified_utc": "2026-11-16T16:05:11.578Z",
-      "integrity_sha256": "a27b066845b6a1c93e37b732bbe9d143938108e84523affd331ef41138b4c028"
+      "last_verified_utc": "2026-11-18T16:11:25.414Z",
+      "integrity_sha256": "2c1fe43a6e435a11e5e4d1f3d2fc92b3f58f67e2632ba3391d5107476454c5cf"
+    },
+    {
+      "registry_id": "US-EIN:660437924",
+      "name": "HPM FOUNDATION INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202503"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "SAN JUAN"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.414Z",
+      "integrity_sha256": "c78bb0da8af3e9bd9af9e30c9882668944ac2d881d6a388d04e48643e7aaa0ae"
+    },
+    {
+      "registry_id": "US-EIN:660471190",
+      "name": "CORPORACION PARA EL DESARROLO DEL CENTRO FINANCIERO DE HATO REY",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202412"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "SAN JUAN"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.415Z",
+      "integrity_sha256": "8afe8749f8236a7090ed38143c65aadd9025febc512c69efcc07227a81599488"
+    },
+    {
+      "registry_id": "US-EIN:660486893",
+      "name": "PALMAS ACADEMY INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202406"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "HUMACAO"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.415Z",
+      "integrity_sha256": "37b9298f5174b963d2b617b01fd371beaf73fd7551a0634f5147f5a1a12eede1"
+    },
+    {
+      "registry_id": "US-EIN:660508696",
+      "name": "INSTITUTO ESPECIAL PARA EL DESARROL LO INTEGRAL DEL INDIV FAM Y COM IN",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202406"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "YAUCO"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.415Z",
+      "integrity_sha256": "890e164bd75b8a71601ef08e95dcdc4d6f6a6542c65b916c1fb8ac7446319095"
     },
     {
       "registry_id": "US-EIN:660516904",
@@ -980,6 +1374,29 @@
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
       "last_verified_utc": "2026-11-16T16:05:11.578Z",
       "integrity_sha256": "e1f2fd5c029620b9ae599002441606bcdc84de87ed688cbb370dbae1f9e0fc76"
+    },
+    {
+      "registry_id": "US-EIN:660537553",
+      "name": "RYDER ASSISTED CARE INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202409"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "HUMACAO"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.415Z",
+      "integrity_sha256": "f9bebd249ecc194487667e395f6cb8c7f928d0179a5d4046c2bee639b1954095"
     },
     {
       "registry_id": "US-EIN:660575476",
@@ -1028,29 +1445,6 @@
       "integrity_sha256": "f3000ecc7c471f99764f4735b18875110721d8f56562305f62ee64acb23b6d95"
     },
     {
-      "registry_id": "US-EIN:660586357",
-      "name": "HOGAR AURORA INC",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "IRS_EO_BMF_ACTIVE_501C3",
-        "IRS_AUTO_REVOCATION_CLEAN",
-        "FORM_990_REVENUE_OVER_250K",
-        "IRS_990_XML_FILED_202509"
-      ],
-      "location": {
-        "country_iso2": "PR",
-        "admin1_state_province": "PR",
-        "admin2_county_district": null,
-        "locality_city_town": "AIBONITO"
-      },
-      "website": null,
-      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
-      "last_verified_utc": "2026-11-16T16:05:11.578Z",
-      "integrity_sha256": "2106dadc6ba6f62751f76c39130e1b6057c824a324f7117fe54e4ccdc95ae1c7"
-    },
-    {
       "registry_id": "US-EIN:660618401",
       "name": "HEAVENLY KIDS INC",
       "status": "ACTIVE",
@@ -1072,6 +1466,75 @@
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
       "last_verified_utc": "2026-11-16T16:05:11.578Z",
       "integrity_sha256": "18d343381cbe7459cc29993be0cd5037176ba9604120ca07605bcd2ad9b54722"
+    },
+    {
+      "registry_id": "US-EIN:660692753",
+      "name": "DECIMANIA INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202412"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "HATILLO"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.415Z",
+      "integrity_sha256": "075e1cdde5d5193081dff0c95def78abe7689ed0ba815d3fe1418d24e1a6375e"
+    },
+    {
+      "registry_id": "US-EIN:660701458",
+      "name": "ASESORES FINANCIEROS COMUNITARIOS INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202406"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "SAN JUAN"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.415Z",
+      "integrity_sha256": "d01c81f5ca775f0296f243aa5e2882cf048ad7cbfe190e08ccff736f831ceaae"
+    },
+    {
+      "registry_id": "US-EIN:660731827",
+      "name": "ALIANZA PARA LA EDUCACION ALTERNATIVA INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202406"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "SAN JUAN"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.415Z",
+      "integrity_sha256": "8633a483a2b1791bec1b730514d8d71019c0aa61318f5b535fcf93da746e179d"
     },
     {
       "registry_id": "US-EIN:660737189",
@@ -1166,8 +1629,8 @@
       "integrity_sha256": "2efcb81c6f1da79150e6c0573164c21edb1b3831b336632f9db1a5023cd7df7d"
     },
     {
-      "registry_id": "US-EIN:660817091",
-      "name": "FUNDACION HOSPITAL PEDIATRICO",
+      "registry_id": "US-EIN:660864235",
+      "name": "ESCUELA MAYAGUEZANA DE BALLET ARTES Y EDUCACION EUGENIO MARIA DE HOSTO",
       "status": "ACTIVE",
       "verification_tier": "TIER_1_AUDITED",
       "audit_verified": true,
@@ -1175,7 +1638,30 @@
         "IRS_EO_BMF_ACTIVE_501C3",
         "IRS_AUTO_REVOCATION_CLEAN",
         "FORM_990_REVENUE_OVER_250K",
-        "IRS_990_XML_FILED_202503"
+        "IRS_990_XML_FILED_202412"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "MAYAGUEZ"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.416Z",
+      "integrity_sha256": "cc1845d4050c1569cdbf7aaba5d7cbaf4ec90048fa34117f3ec1bb7cf918a305"
+    },
+    {
+      "registry_id": "US-EIN:660874636",
+      "name": "AUDITORIUM DE AMOR KENNEDY INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202412"
       ],
       "location": {
         "country_iso2": "PR",
@@ -1185,8 +1671,8 @@
       },
       "website": null,
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
-      "last_verified_utc": "2026-11-16T16:05:11.578Z",
-      "integrity_sha256": "892347b8192e1078f0a7368ef4e580ccd89cb9c39fd14455a6938be58bb3ce0a"
+      "last_verified_utc": "2026-11-18T16:11:25.416Z",
+      "integrity_sha256": "9cd013e97cc4809c6ae5a6a75c98e04b8eb9a8a6505128e9a38613e867924620"
     },
     {
       "registry_id": "US-EIN:660876852",
@@ -1212,6 +1698,29 @@
       "integrity_sha256": "c5867e18faaac6c1d9801ba231ba15bec75bbd57ed4a2eb9a71564f1dc833d0b"
     },
     {
+      "registry_id": "US-EIN:660894050",
+      "name": "POR LOS NUETROS INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202412"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "SAN JUAN"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.416Z",
+      "integrity_sha256": "a428fb0d2fa18c546c2524ae424dc3f6feba12f9df782a6f9be72f517597c661"
+    },
+    {
       "registry_id": "US-EIN:660899991",
       "name": "BLUETIDE PUERTO RICO INC",
       "status": "ACTIVE",
@@ -1233,6 +1742,29 @@
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
       "last_verified_utc": "2026-11-16T16:05:11.578Z",
       "integrity_sha256": "45372858df1ce864fb0c95856fac4a2a4a2efac63c2342de28c7ca9dfc85cb26"
+    },
+    {
+      "registry_id": "US-EIN:660901994",
+      "name": "COLABORATIVOPR INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202406"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "SAN JUAN"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.416Z",
+      "integrity_sha256": "72e4714e52a4ad318276c954b305baf90e085195b6d04a5c0587366d9eb7a080"
     },
     {
       "registry_id": "US-EIN:660924847",
@@ -1304,6 +1836,29 @@
       "integrity_sha256": "a7d3733e2c604021c53be885d410230702c45add74c30d9a1c757550218f30e9"
     },
     {
+      "registry_id": "US-EIN:660961410",
+      "name": "HEALTH CARE INTEGRATED PROGRAM SERVICES INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202312"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "HUMACAO"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.416Z",
+      "integrity_sha256": "0b772f6cf9a7fcdde51c222231f78fccbab463735a883d0da9d9d9c6e185fa16"
+    },
+    {
       "registry_id": "US-EIN:660978718",
       "name": "FUNDACION GESTOS POSITIVOS ECONO INC",
       "status": "ACTIVE",
@@ -1327,6 +1882,29 @@
       "integrity_sha256": "97c1894741d876741596584b49738f5e68c8bff68e11556c0e7e416a8309b5ab"
     },
     {
+      "registry_id": "US-EIN:660996264",
+      "name": "TECH MY SCHOOL",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202412"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "LUQUILLO"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.416Z",
+      "integrity_sha256": "c0fbadc62c87dad897399504a5e981dc65643e48e7f97e11729fbd408f2f1188"
+    },
+    {
       "registry_id": "US-EIN:661041999",
       "name": "SER FAMILIA INC",
       "status": "ACTIVE",
@@ -1348,6 +1926,29 @@
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
       "last_verified_utc": "2026-11-16T16:05:11.578Z",
       "integrity_sha256": "4928ed00718d8bf7c33f484638907663ab1c5a172b4d9fd5a168facae9f80d66"
+    },
+    {
+      "registry_id": "US-EIN:995031732",
+      "name": "AGAPE FOUNDATION",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202412"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "HUMACAO"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-18T16:11:25.416Z",
+      "integrity_sha256": "f14cf41cb9f3cf65ba1ac58747545c15d16c76c54dd0cc5814dbf5f64e0d89d8"
     },
     {
       "registry_id": "GB-CHC:200009",
@@ -54500,578 +55101,6 @@
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
       "last_verified_utc": "2026-11-16T16:05:07.995Z",
       "integrity_sha256": "7223ee8ff84239ddf5b23e64119d94963ff9b187a21e7921d4f8db9cfa3cc117"
-    },
-    {
-      "registry_id": "GB-CHC:229556",
-      "name": "SLOSWICKE'S ALMSHOUSE CHARITY",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-12-31 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": "RETFORD"
-      },
-      "website": "https://www.sloswickes.co.uk",
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.995Z",
-      "integrity_sha256": "672c56ef96c6b825cc326cbd8020d95cef350426e9eb8af7e43d2314ca1208b0"
-    },
-    {
-      "registry_id": "GB-CHC:229571",
-      "name": "YATELEY INDUSTRIES FOR THE DISABLED LIMITED",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_STATUTORY_INDEPENDENT_AUDIT_OVER_1M_GBP",
-        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": "YATELEY"
-      },
-      "website": "https://www.yateleyindustries.org",
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.995Z",
-      "integrity_sha256": "2a739488c3f3a77aa35ff99bf2b8dce28f8403638feecf673b85a1329027afda"
-    },
-    {
-      "registry_id": "GB-CHC:229574",
-      "name": "HECKINGTON ALMSHOUSE CHARITY",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2026-01-31 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": "SLEAFORD"
-      },
-      "website": "https://12standrewsstreet.heckingtonsleaford.ng349re",
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.995Z",
-      "integrity_sha256": "46cf90ac53cb5ccdc0522763cb5658e2c77cb7e58f39c820dd2330502eaf9838"
-    },
-    {
-      "registry_id": "GB-CHC:229576",
-      "name": "ALFRED FOSTER SETTLEMENT",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2026-01-01 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": "Booths Park 3"
-      },
-      "website": null,
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.995Z",
-      "integrity_sha256": "ce546c3e990ab1eac9ce8ac5c3afa11ac824747c53b34621e2214dd4e7b9e9e9"
-    },
-    {
-      "registry_id": "GB-CHC:229579",
-      "name": "CHARITIES OF JOHN AND FRANCES WEST FOR PENSIONERS",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-08-31 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": "HORSHAM"
-      },
-      "website": "https://www.christs-hospital.org.uk",
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.995Z",
-      "integrity_sha256": "a2eb0ae62c5c09ba0c171b832a9ed76efa0d7e65d04937e3ad78bc4b3bd954a6"
-    },
-    {
-      "registry_id": "GB-CHC:229587",
-      "name": "WIDEOPEN AND NORTH GOSFORTH ASSOCIATION",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-12-31 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": "North Gosforth"
-      },
-      "website": "https://www.daversonhall.co.uk",
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.995Z",
-      "integrity_sha256": "b8dfd6f08fc29dd4fe7b14a8bf8cf11ef98a23d4153a69f3be64301bc398113f"
-    },
-    {
-      "registry_id": "GB-CHC:229616",
-      "name": "DRAYTON VILLAGE HALL AND RECREATION GROUND CHARITY",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": "Oxfordshire"
-      },
-      "website": "https://www.draytonvh.co.uk",
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.995Z",
-      "integrity_sha256": "07ab3d4b2709942bb5dde3ae10fadaf42d5339c011a2a3cbad972047d437e089"
-    },
-    {
-      "registry_id": "GB-CHC:229621",
-      "name": "TYDD ST GILES COMMUNITY CENTRE AND RECREATION GROUND",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-10-31 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": "WISBECH"
-      },
-      "website": null,
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.995Z",
-      "integrity_sha256": "265f5e3655fbd6713aeaab38ae64b74eae9cb9fba6300c4c223df52457d8cef7"
-    },
-    {
-      "registry_id": "GB-CHC:229640",
-      "name": "SWANSEA LITTLE THEATRE LIMITED",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2026-06-30 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": "MARITIME QUARTER"
-      },
-      "website": "https://www.dylanthomastheatre.org.uk",
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.995Z",
-      "integrity_sha256": "d2b997e7f9436c971bf97d6ff1b7dc55eeab381d3eb1dad3d2b82ae202cc54c4"
-    },
-    {
-      "registry_id": "GB-CHC:229642",
-      "name": "THE BRITISH PSYCHOLOGICAL SOCIETY",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_STATUTORY_INDEPENDENT_AUDIT_OVER_1M_GBP",
-        "ACCOUNTS_FILED_2025-12-31 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": "48 PRINCESS ROAD EAST"
-      },
-      "website": "https://www.bps.org.uk",
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.995Z",
-      "integrity_sha256": "9fefd08457c7182248860760ee5eb573504932e909032196c86583d497057870"
-    },
-    {
-      "registry_id": "GB-CHC:229662",
-      "name": "THE ORDER OF ST. AUGUSTINE OF THE MERCY OF JESUS",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-12-31 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": "Ditchling Road"
-      },
-      "website": "https://www.anh.org.uk",
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.995Z",
-      "integrity_sha256": "7efd8ba5e3ca9fe9416a48d5ea90e74d86819e82c31eaa8975b7b71c0b9d347d"
-    },
-    {
-      "registry_id": "GB-CHC:229669",
-      "name": "ROMAN CATHOLIC PURPOSES IN CONNEXION WITH THE MISSIONARY CONVENT OF THE HOLY ROSARY",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-12-31 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": "Cavan"
-      },
-      "website": "https://mshr.org",
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.995Z",
-      "integrity_sha256": "5be2b2a40b1c47e0a04adcbba166be2345469e531b00a28c3a97535d8ff5aa8c"
-    },
-    {
-      "registry_id": "GB-CHC:229682",
-      "name": "WINWOOD ALMSHOUSES TRUST",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-12-31 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": "AYLESBURY"
-      },
-      "website": null,
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.995Z",
-      "integrity_sha256": "fcdc860182cee07841acca58e6cec3f547ec6170386a74a0aad15f4af974d78a"
-    },
-    {
-      "registry_id": "GB-CHC:229734",
-      "name": "PORTSMOUTH AND DISTRICT FRIENDLY SOCIETIES' HOMES",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-12-31 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": "SOUTHSEA"
-      },
-      "website": "https://prha.co.uk/management-services/portsmouth-district-friendly-society-homes",
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.995Z",
-      "integrity_sha256": "593175e7f3611b9e5b329d01d9835f3f72a4b1911b1ef54636fa1fb8f1dbb833"
-    },
-    {
-      "registry_id": "GB-CHC:229773",
-      "name": "AGE CONCERN ST ALBANS",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": "ST. ALBANS"
-      },
-      "website": "https://www.ageconcernstalbans.org.uk",
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.995Z",
-      "integrity_sha256": "5a4674741ad70fab359b1c5ece54751f289ea736c6e1e6335f927058ab64119a"
-    },
-    {
-      "registry_id": "GB-CHC:229798",
-      "name": "WOMEN'S INSTITUTE - HORDLE",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": "Hordle"
-      },
-      "website": "https://hordlewi.org.uk",
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.995Z",
-      "integrity_sha256": "a1933a176df0eab1edd486b3cdb9a05d3f5c94ba6c7e06eab73348ff26835505"
-    },
-    {
-      "registry_id": "GB-CHC:229830",
-      "name": "THE ABBEYFIELD FULWOOD SOCIETY LIMITED",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-08-31 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": "PRESTON"
-      },
-      "website": null,
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.995Z",
-      "integrity_sha256": "b9ba3e5782299842279451e8fec9c32f5b25d80d698e0366baab85bdf20b6151"
-    },
-    {
-      "registry_id": "GB-CHC:229845",
-      "name": "THE BINGHAM HALL",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-12-31 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": "Cirencester"
-      },
-      "website": "https://www.binghamhall.co.uk",
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.995Z",
-      "integrity_sha256": "6f0f5e11031eaaa54338e3912d5358ca39ead28dc9287f147dbe1d41a17137a0"
-    },
-    {
-      "registry_id": "GB-CHC:229861",
-      "name": "THE WALTER HIGGS CHARITABLE TRUST",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2026-04-05 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": "Enstone"
-      },
-      "website": null,
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.995Z",
-      "integrity_sha256": "1912ec7c8ce0d4eb7fc7e0d2606ae84b048f45e472f7333e9c2ddad3526d18eb"
-    },
-    {
-      "registry_id": "GB-CHC:229886",
-      "name": "ST CHRISTOPHER'S HALL TRUST",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-09-30 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": "NEWPORT"
-      },
-      "website": "https://www.stchristophersadmaston.org/about2",
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.995Z",
-      "integrity_sha256": "bd989634d7d6b5b2a7120ea11ab9acb92e8a60a9c35a26545efc6f1fc49423f6"
-    },
-    {
-      "registry_id": "GB-CHC:229908",
-      "name": "EUSTACE HOOK AND DUMMOND MEMORIAL ALMSHOUSES",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-12-31 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": null
-      },
-      "website": null,
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.995Z",
-      "integrity_sha256": "e56b03e1cb8b59d31678966745e1c546ebfc56134120161a8cf90ae1eec608e4"
-    },
-    {
-      "registry_id": "GB-CHC:229911",
-      "name": "THE POOR FUND OF THE WORSHIPFUL COMPANY OF FAN MAKERS",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-12-21 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": "40 Gutter Lane"
-      },
-      "website": "https://www.fanmakers.com",
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.995Z",
-      "integrity_sha256": "a49af9e267f834f64c9072980357ac414439a793e80755ef01f679db4b294ddf"
-    },
-    {
-      "registry_id": "GB-CHC:229941",
-      "name": "UNITED CHARITIES AND OTHERS",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2026-04-05 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": "Marlow"
-      },
-      "website": "https://www.heart4marlow.org",
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.995Z",
-      "integrity_sha256": "bed7e4f38d6f552c6417e28ff8e425fdf5bf1c443c1a5a4037f50abacc6208a5"
-    },
-    {
-      "registry_id": "GB-CHC:229942",
-      "name": "THE HOSPITAL OF KING JAMES IN GATESHEAD",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-12-31 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": "GATESHEAD"
-      },
-      "website": "https://kingjamesalmshouses.org",
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.995Z",
-      "integrity_sha256": "5e23f3eddc957adab0a00c8fc005334d646e5e2bd129abc37de90cd2fee6d795"
-    },
-    {
-      "registry_id": "GB-CHC:229943",
-      "name": "SISTERS OF MERCY SUNDERLAND",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_STATUTORY_INDEPENDENT_AUDIT_OVER_1M_GBP",
-        "ACCOUNTS_FILED_2025-12-31 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": "TUNSTALL ROAD"
-      },
-      "website": null,
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.995Z",
-      "integrity_sha256": "a0ee0a106f44633be35c23aa3575b95c9e39579fcb9b29625a6e78f37e273a4b"
-    },
-    {
-      "registry_id": "GB-CHC:229947",
-      "name": "WATFORD SHELTERED WORKSHOP LIMITED",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": "DALTON WAY"
-      },
-      "website": "https://www.watfordworkshop.co.uk",
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.995Z",
-      "integrity_sha256": "ba1633a44fac0778acb9d1f45248e3979183a889e3b58911a96a5d220455afa1"
     }
   ]
 }
