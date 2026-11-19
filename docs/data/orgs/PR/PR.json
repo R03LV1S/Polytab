@@ -2,7 +2,7 @@
   "schema_version": "3.0.0",
   "country_iso2": "PR",
   "admin1_state_province": "PR",
-  "count": 564,
+  "count": 565,
   "organizations": [
     {
       "registry_id": "US-EIN:060602997",
@@ -3843,7 +3843,8 @@
       "audit_signals": [
         "IRS_EO_BMF_ACTIVE_501C3",
         "IRS_AUTO_REVOCATION_CLEAN",
-        "FORM_990_REVENUE_OVER_250K"
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202512"
       ],
       "location": {
         "country_iso2": "PR",
@@ -3853,7 +3854,7 @@
       },
       "website": null,
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
-      "last_verified_utc": "2026-11-16T16:05:11.578Z",
+      "last_verified_utc": "2026-11-19T07:30:12.899Z",
       "integrity_sha256": "e0a9bd0afd0563672599b7d027128e2b2400a2d1a7129c25db9cfcb50aa98615"
     },
     {
@@ -5786,7 +5787,8 @@
       "audit_signals": [
         "IRS_EO_BMF_ACTIVE_501C3",
         "IRS_AUTO_REVOCATION_CLEAN",
-        "FORM_990_REVENUE_OVER_250K"
+        "FORM_990_REVENUE_OVER_250K",
+        "IRS_990_XML_FILED_202506"
       ],
       "location": {
         "country_iso2": "PR",
@@ -5796,7 +5798,7 @@
       },
       "website": null,
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
-      "last_verified_utc": "2026-11-16T16:05:11.578Z",
+      "last_verified_utc": "2026-11-19T07:30:12.899Z",
       "integrity_sha256": "733076ff6b6870c30e47481eb98f6aef5faf8f39d39cf49324ff24368335330d"
     },
     {
@@ -11255,6 +11257,28 @@
       "source_authority": "US Internal Revenue Service (eo_pr.csv)",
       "last_verified_utc": "2026-11-16T16:05:11.578Z",
       "integrity_sha256": "8a84b4c91fab33aaa7878ccfd53b410b8aa3325ba9ed3e710d95d807a798da94"
+    },
+    {
+      "registry_id": "US-EIN:660956354",
+      "name": "PERCEPTION RESTORATION FOUNDATION INC",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IRS_EO_BMF_ACTIVE_501C3",
+        "IRS_AUTO_REVOCATION_CLEAN",
+        "IRS_990EZ_XML_FILED_202512"
+      ],
+      "location": {
+        "country_iso2": "PR",
+        "admin1_state_province": "PR",
+        "admin2_county_district": null,
+        "locality_city_town": "SAN JUAN"
+      },
+      "website": null,
+      "source_authority": "US Internal Revenue Service (eo_pr.csv)",
+      "last_verified_utc": "2026-11-19T07:30:12.900Z",
+      "integrity_sha256": "8f3bcc76408b3519f39f21d48e4e9880f8914d9dbf999ec49efeb8dc2d085ba0"
     },
     {
       "registry_id": "US-EIN:660958600",

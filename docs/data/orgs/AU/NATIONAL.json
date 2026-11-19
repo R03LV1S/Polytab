@@ -2,7 +2,7 @@
   "schema_version": "3.0.0",
   "country_iso2": "AU",
   "admin1_state_province": "NATIONAL",
-  "count": 10,
+  "count": 11,
   "organizations": [
     {
       "registry_id": "IATI-AU:AU-ABN-13629885918",
@@ -91,6 +91,28 @@
       "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
       "last_verified_utc": "2026-11-18T00:24:43.360Z",
       "integrity_sha256": "1660091133538379242d82e22b3c7e8443c135abdd3f37f0a447d3dd3d61c495"
+    },
+    {
+      "registry_id": "IATI-AU:AU-ABN-44945150299",
+      "name": "Live & Learn Environmental Education",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "AU",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-19T07:30:16.971Z",
+      "integrity_sha256": "65ac489537d92c804deb9864f42fcb11c77e6a7289835a688139f684d48314e1"
     },
     {
       "registry_id": "IATI-AU:AU-ABN-56721584203",
