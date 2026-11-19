@@ -3,6 +3,35 @@
   "description": "Polytab Event Radar queue. Current events (last 21 days) surfaced from free public feeds (GDELT, CDC Newsroom, GDACS, USGS) as candidate civic-action blocks in the exact Polytab block format. All metrics are honest-zero (fundedUSD=0, votesCount=0). Items are PROPOSED — promotion to the Projects (feed.json) requires a verified organization pairing and governance sign-off, never automatic. Wallet series: 0x71E + ID (601+). No coordinates are stored (lat/lng null); locations are public place-name strings only.",
   "items": [
     {
+      "id": "631",
+      "title": "Orange notification for tropical cyclone AKVAN-26. Population affected by Category 1 (120 km/h) wind speeds or higher i…",
+      "category": "Environmental",
+      "organization": "Education Cannot Wait",
+      "location": "Tropical Storm).",
+      "summary": "Community Radar current event: \"Orange notification for tropical cyclone AKVAN-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (11.754 million in Tropical Storm).\" (GDACS (EU JRC), 2026-11-16). Proposed pairing with verified organization Education Cannot Wait (Projects bounty #40004) — pending governance verification.",
+      "plainSummary": "• Cause: Orange notification for tropical cyclone AKVAN-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0 (11.754 million in Tropical Storm).\n• Resolution: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001351 (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "GDACS (EU JRC)",
+        "sourceUrl": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001351",
+        "publishedAt": "2026-11-16T20:06:39.000Z",
+        "discoveredAt": "2026-11-19T15:16:10.899Z",
+        "proposedPairing": {
+          "bountyId": "40004",
+          "organization": "Education Cannot Wait",
+          "keywordMatches": 2
+        },
+        "dedupeHash": "893aef644445b2b41213c4c234c4b4f8f9c09fe90ec738efd88674d237e43b54"
+      }
+    },
+    {
       "id": "630",
       "title": "Orange notification for tropical cyclone AKVAN-26. Population affected by Category 1 (120 km/h) wind speeds or higher i…",
       "category": "Environmental",
@@ -891,7 +920,8 @@
     "35b8ddf7fda2e9db0643778df2ceecf6cb0c2e105a3079ce503063a6f39e5451",
     "ad9dba8cf126d50f1a34e693c7f538f046ce4158d1ecf0462978d7e03073d3d0",
     "f874bb1f26a30a2ff7f01f491cd5dbcd8b18b61d25e4031c92095e1721edeb00",
-    "72a0f5673aae817df0f3b16a7b633cc08fcdb558e2124f7d3401ba6d776fa25b"
+    "72a0f5673aae817df0f3b16a7b633cc08fcdb558e2124f7d3401ba6d776fa25b",
+    "893aef644445b2b41213c4c234c4b4f8f9c09fe90ec738efd88674d237e43b54"
   ],
-  "nextId": 631
+  "nextId": 632
 }
