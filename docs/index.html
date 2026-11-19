@@ -1750,9 +1750,9 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           const topDiv = document.createElement("div");
           topDiv.className = "space-y-2.5";
           const badgeRow = document.createElement("div");
-          badgeRow.className = "flex items-start justify-between gap-2 flex-wrap";
+          badgeRow.className = "flex items-start justify-between gap-2";
           const leftCol = document.createElement("div");
-          leftCol.className = "flex flex-col items-start gap-1.5 min-w-0";
+          leftCol.className = "flex flex-col items-start gap-1.5 min-w-0 flex-1";
           const catBadge = document.createElement("span");
           const pcat = item.parentCategory || parentForCategory(item.category) || PARENT_CHARITIES;
           const isAccess = item.category.includes("Accessibility");
