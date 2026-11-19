@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-11-19T07:30:17.150Z",
-  "merkle_root_sha256": "1e5f9ea3e58ddf9be19cff9eeb2e2c7c6a27b4e8bd690d73320582641836af7c",
+  "timestamp": "2026-11-19T11:28:43.553Z",
+  "merkle_root_sha256": "d9b0dd0cc0bf3c36e4b67ceab4c3b8254c172887211bef89a1a9728d8b651e18",
   "sources": [
     {
       "source": "UK-CCEW-Bulk-ZIP-Stream",
       "status": "OK",
       "fetched": 5000,
-      "added": 1,
-      "updated": 12,
-      "duration_ms": 1484
+      "added": 0,
+      "updated": 0,
+      "duration_ms": 2109
     },
     {
       "source": "NL-Belastingdienst-ANBI-ZIP-XML",
@@ -16,23 +16,23 @@
       "fetched": 5000,
       "added": 0,
       "updated": 0,
-      "duration_ms": 1875
+      "duration_ms": 2441
     },
     {
       "source": "US-IRS-EO-BMF-CrossChecked",
       "status": "OK",
       "fetched": 533,
-      "added": 1,
-      "updated": 2,
-      "duration_ms": 257
+      "added": 0,
+      "updated": 0,
+      "duration_ms": 462
     },
     {
       "source": "IATI-Global-Registry-Stream",
       "status": "OK",
       "fetched": 1857,
-      "added": 1,
-      "updated": 5,
-      "duration_ms": 4074
+      "added": 0,
+      "updated": 4,
+      "duration_ms": 3897
     }
   ]
 }
