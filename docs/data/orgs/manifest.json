@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0.0",
-  "generated_at_utc": "2026-11-19T11:28:43.541Z",
+  "generated_at_utc": "2026-11-19T12:51:19.274Z",
   "total_verified_orgs": 24093,
   "total_shards": 108,
   "summary_metrics": {
@@ -511,7 +511,7 @@
       "country_iso2": "NL",
       "admin1_state_province": "NATIONAL",
       "count": 5660,
-      "sha256": "5afb6f6f7412244288811b9278456b88105768082e80366426baf477224ecde2"
+      "sha256": "0f90321aaed32652c84ce429ff310fd14c55dbea4514eec0ffde675277a8ab7b"
     },
     {
       "shard": "orgs/NO/NATIONAL.json",
@@ -728,7 +728,7 @@
       "country_iso2": "US",
       "admin1_state_province": "NATIONAL",
       "count": 163,
-      "sha256": "6088ec77256b37630ea578d655256f0a1734032754ccdf0feab1bc8c65545543"
+      "sha256": "d05ed8ef2cc50e68e62aad4c2559e6756dea3e5b358b3e85ccd1518f13b6e7f2"
     },
     {
       "shard": "orgs/VN/NATIONAL.json",
