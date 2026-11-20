@@ -225,6 +225,7 @@ async function main() {
     return as - bs; // least enriched first
   });
 
+  let processed = 0;
   for (const item of items) {
     if (fetchCount >= MAX_FETCHES_PER_RUN) break;
     const p = item && item._polytab;
@@ -233,6 +234,7 @@ async function main() {
     const hasSocials = p.socials && typeof p.socials === 'object' && !Array.isArray(p.socials) && Object.keys(p.socials).length > 0;
     if (hasSite && hasSocials) continue;
 
+    processed++;
     const beforeSite = p.website;
     const beforeSocials = JSON.stringify(p.socials || {});
     const changed = await enrichItem(p, verifiedIndex);
@@ -244,6 +246,9 @@ async function main() {
         if (p.socials && typeof p.socials === 'object') g._polytab.socials = { ...(g._polytab.socials || {}), ...p.socials };
         changedGlobal++;
       }
+    }
+    if (fetchCount > 0 && fetchCount % 25 === 0) {
+      console.log(`[enrich] progress: fetches=${fetchCount}/${MAX_FETCHES_PER_RUN}, processed=${processed}, changedFeed=${changedFeed}, changedGlobal=${changedGlobal}`);
     }
   }
 
