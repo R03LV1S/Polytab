@@ -5,7 +5,7 @@
     <link>https://polytab.store/#map</link>
     <description>geoRSS mirror of the Polytab Projects. 32228 of 32228 actions publish organization coordinates, rounded to two decimal places (~1 km, neighborhood-level) to prevent PII/doxing. Organizations without a public location are listed in feed.xml only.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Nov 2026 15:27:38 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 15:49:44 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://polytab.store/feeds/global.xml" rel="self" type="application/rss+xml" />
   <item>
@@ -616188,7 +616188,8 @@ Website: https://www.senate.gov/legislative/active_leg_page.htm</description>
 Resolution: Community members vote Yes/No/Abstain on S. 5653 (119th): &quot;Permitting Reform for Energy Infrastructure&quot; as a middleman-free litmus test, then compare results with official House/Senate representative votes.
 Funding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).
 Beneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).
-Window/Status: Senate-passed bipartisan energy/permitting package (Nov 20, 2026, 62-33) advancing permitting reform and AI data center power-cost allocation; floor action possible in Nov 16-Dec 31 window Status: Introduced in Senate (IS); read twice and referred to the Committee on Energy and Natural Resources (Sept 30, 2026)
+Window/Status: Senate-passed bipartisan energy/permitting package (Nov 20, 2026, 62-33) advancing permitting reform and AI data center power-cost allocation; floor action possible in Nov 16-Dec 31 window.
+Status: Introduced in Senate (IS); read twice and referred to the Committee on Energy and Natural Resources (Sept 30, 2026)
 Proof/Sources: https://www.congress.gov/bill/119th-congress/senate-bill/5653
 Incentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.
 
@@ -616212,7 +616213,8 @@ Website: https://www.congress.gov/bill/119th-congress/senate-bill/5653</descript
 Resolution: Community members vote Yes/No/Abstain on S. 5054 (119th): &quot;Data Center Tax Accountability and Disclosure Act of 2026&quot; as a middleman-free litmus test, then compare results with official House/Senate representative votes.
 Funding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).
 Beneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).
-Window/Status: Introduced/considered within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling Status: Introduced in Senate (IS) by Sen. Warner; referred to the Committee on Finance (July 21, 2026); exempts AI data centers from bonus depreciation and requires electricity/water use disclosure
+Window/Status: Introduced/considered within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling.
+Status: Introduced in Senate (IS) by Sen. Warner; referred to the Committee on Finance (July 21, 2026); exempts AI data centers from bonus depreciation and requires electricity/water use disclosure
 Proof/Sources: https://www.congress.gov/bill/119th-congress/senate-bill/5054
 Incentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.
 
@@ -616236,7 +616238,8 @@ Website: https://www.congress.gov/bill/119th-congress/senate-bill/5054</descript
 Resolution: Community members vote Yes/No/Abstain on S. 4214 (119th): &quot;AI Data Center Moratorium Act&quot; as a middleman-free litmus test, then compare results with official House/Senate representative votes.
 Funding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).
 Beneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).
-Window/Status: Introduced within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling Status: Introduced in Senate (IS); prohibits construction or upgrade of AI data centers until AI-related laws are enacted and restricts AI computing hardware exports
+Window/Status: Introduced within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling.
+Status: Introduced in Senate (IS); prohibits construction or upgrade of AI data centers until AI-related laws are enacted and restricts AI computing hardware exports
 Proof/Sources: https://www.congress.gov/bill/119th-congress/senate-bill/4214
 Incentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.
 
@@ -616260,7 +616263,8 @@ Website: https://www.congress.gov/bill/119th-congress/senate-bill/4214</descript
 Resolution: Community members vote Yes/No/Abstain on H.R. 8488 (119th): &quot;AI Data Center Site Selection Transparency Act of 2026&quot; as a middleman-free litmus test, then compare results with official House/Senate representative votes.
 Funding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).
 Beneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).
-Window/Status: Introduced within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling Status: Introduced in House by Rep. McIver et al.; referred to the House Committee on Energy and Commerce (April 23, 2026)
+Window/Status: Introduced within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling.
+Status: Introduced in House by Rep. McIver et al.; referred to the House Committee on Energy and Commerce (April 23, 2026)
 Proof/Sources: https://www.congress.gov/bill/119th-congress/house-bill/8488
 Incentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.
 
@@ -616284,7 +616288,8 @@ Website: https://www.congress.gov/bill/119th-congress/house-bill/8488</descripti
 Resolution: Community members vote Yes/No/Abstain on S. 5471 (119th): &quot;AI Systems Transparency Act&quot; as a middleman-free litmus test, then compare results with official House/Senate representative votes.
 Funding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).
 Beneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).
-Window/Status: Introduced/considered within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling Status: Introduced in Senate (IS); AI systems transparency framework under consideration
+Window/Status: Introduced/considered within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling.
+Status: Introduced in Senate (IS); AI systems transparency framework under consideration
 Proof/Sources: https://www.congress.gov/bill/119th-congress/senate-bill/5471
 Incentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.
 
@@ -616308,7 +616313,8 @@ Website: https://www.congress.gov/bill/119th-congress/senate-bill/5471</descript
 Resolution: Community members vote Yes/No/Abstain on S. 4727 (119th): &quot;AI Environmental Impacts Act of 2026&quot; as a middleman-free litmus test, then compare results with official House/Senate representative votes.
 Funding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).
 Beneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).
-Window/Status: Introduced within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling Status: Introduced in Senate (IS); EPA/NIST environmental impact study and reporting system for AI
+Window/Status: Introduced within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling.
+Status: Introduced in Senate (IS); EPA/NIST environmental impact study and reporting system for AI
 Proof/Sources: https://www.congress.gov/bill/119th-congress/senate-bill/4727
 Incentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.
 
@@ -616332,7 +616338,8 @@ Website: https://www.congress.gov/bill/119th-congress/senate-bill/4727</descript
 Resolution: Community members vote Yes/No/Abstain on S. 4743 (119th): &quot;AI Bubble Transparency Act&quot; as a middleman-free litmus test, then compare results with official House/Senate representative votes.
 Funding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).
 Beneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).
-Window/Status: Introduced within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling Status: Introduced in Senate (IS); AI bubble transparency
+Window/Status: Introduced within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling.
+Status: Introduced in Senate (IS); AI bubble transparency
 Proof/Sources: https://www.congress.gov/bill/119th-congress/senate-bill/4743
 Incentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.
 
@@ -616356,7 +616363,8 @@ Website: https://www.congress.gov/bill/119th-congress/senate-bill/4743</descript
 Resolution: Community members vote Yes/No/Abstain on H.R. 9500 (119th): &quot;Tax Relief for Fraud Victims Act&quot; as a middleman-free litmus test, then compare results with official House/Senate representative votes.
 Funding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).
 Beneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).
-Window/Status: House vote held Sept 15, 2026 (within Nov 16-Dec 31 window); subsequent Senate action possible Status: Passed House (Roll Call 305, Sept 15, 2026, as amended) under suspension of the rules, as amended
+Window/Status: House vote held Sept 15, 2026 (within Nov 16-Dec 31 window); subsequent Senate action possible.
+Status: Passed House (Roll Call 305, Sept 15, 2026, as amended) under suspension of the rules, as amended
 Proof/Sources: https://clerk.house.gov/Votes/2026305
 Incentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.
 
@@ -616380,7 +616388,8 @@ Website: https://clerk.house.gov/Votes/2026305</description>
 Resolution: Community members vote Yes/No/Abstain on H.R. 9340 (119th): &quot;Ratepayer Protection Act&quot; as a middleman-free litmus test, then compare results with official House/Senate representative votes.
 Funding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).
 Beneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).
-Window/Status: House vote held Sept 16, 2026 (within Nov 16-Dec 31 window); subsequent Senate action possible Status: Passed House (Roll Call 312, Sept 16, 2026, as amended) under suspension of the rules, as amended
+Window/Status: House vote held Sept 16, 2026 (within Nov 16-Dec 31 window); subsequent Senate action possible.
+Status: Passed House (Roll Call 312, Sept 16, 2026, as amended) under suspension of the rules, as amended
 Proof/Sources: https://clerk.house.gov/Votes/2026312
 Incentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.
 
