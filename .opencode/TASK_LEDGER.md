@@ -36,11 +36,12 @@ Goal: verify the user's approved run end-to-end and eliminate defects before sig
 
 - [x] Diagnosed & fixed "Policy & Governance Votes empty" render path in `docs/index.html` (await `loadCategoryShard` before re-render; committed `5c88a51`, pushed `6f8c2d9`).
 - [x] Confirmed live `https://polytab.store/feed.json` == local (0 diffs, 32219 items, last id 93016); homepage renders campaigns.
-- [ ] WAVE 2 EXPANSION (user-approved: "do it all manually, we can work on the script after"): add next batch of Policy & Governance Votes campaigns via manual authoring + regenerate feeds + commit/push + verify live.
-  - [ ] Author feed items for new campaigns (manual content, grounded in keyless official sources: congress.gov / senate.gov / clerk.house.gov / NPR-AP-USA Today).
-  - [ ] Add honest-zero votes entries (fundedUSD=0, votesCount=0).
-  - [ ] Regenerate beta artifacts (seed + per-bill records + combined), shelf shards, feeds.
-  - [ ] Commit/push + live verification.
+- [x] WAVE 2 EXPANSION (user-approved: "do it all manually, we can work on the script after"): add next batch of Policy & Governance Votes campaigns via manual authoring + regenerate feeds + commit/push + verify live.
+  - [x] Author feed items for new campaigns (manual content, grounded in keyless official sources: congress.gov / senate.gov / clerk.house.gov / NPR-AP-USA Today).
+  - [x] Add honest-zero votes entries (fundedUSD=0, votesCount=0).
+  - [x] Regenerate beta artifacts (seed + per-bill records + combined), shelf shards, feeds.
+  - [x] Commit/push + live verification: commit `604de44` (pushed; main -> `604de44`), deploy "Deploy to GitHub Pages" run in_progress -> completed; live `https://polytab.store/feed.json` now serves 32228 items / 21 Policy & Governance Votes (new ids 93017-93025 present, honest-zero verified).
+  - [ ] Follow-up: scripts for wave-3 expansion (user: "we can work on the script after").
 
 ## Remaining external actions (owner)
 - Rotate the FEC key at api.data.gov (it exists in commit `aa52d65`).
