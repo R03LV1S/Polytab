@@ -247339,7 +247339,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.cambridgeppf.org",
-        "socials": {},
+        "socials": {
+          "facebook": "https://www.facebook.com/CambridgePPF"
+        },
         "parentCategory": "Charities"
       }
     },
@@ -807935,5 +807937,5 @@
       }
     }
   ],
-  "updated_at": "2026-11-20T11:22:17.212Z"
+  "updated_at": "2026-11-20T12:02:17.226Z"
 }
