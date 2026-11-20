@@ -1441,21 +1441,20 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           const cats = PARENT_CATEGORIES[parent] || [];
           const subWrap = document.createElement("div");
           subWrap.className = "w-full flex flex-wrap items-center gap-1.5 p-2 rounded-lg bg-black/20 border border-zinc-800/70";
-          subWrap.appendChild(mkBtn(parent, "All " + parent, () => {
+          subWrap.appendChild(mkBtn(parent, "All " + parent, async () => {
             state.selectedCategory = parent;
             state.page = 1;
+            for (const c of cats) { await loadCategoryShard(c); }
             renderCategoryPills();
             renderProposalsGrid();
-            // On demand load categories if parent clicked
-            cats.forEach((c) => loadCategoryShard(c));
           }));
           cats.forEach((c) => {
-            subWrap.appendChild(mkBtn(c, c, () => {
+            subWrap.appendChild(mkBtn(c, c, async () => {
               state.selectedCategory = c;
               state.page = 1;
+              await loadCategoryShard(c);
               renderCategoryPills();
               renderProposalsGrid();
-              loadCategoryShard(c);
             }));
           });
           topSection.appendChild(subWrap);
