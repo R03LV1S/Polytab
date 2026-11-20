@@ -246111,7 +246111,12 @@
         "lat": null,
         "lng": null,
         "website": "https://www.odcd.org.uk",
-        "socials": {},
+        "socials": {
+          "facebook": "https://www.facebook.com/BSLDeafChurchOxfordDiocese",
+          "instagram": "https://www.instagram.com/oxforddiocese",
+          "linkedin": "https://www.linkedin.com/company/oxforddiocese",
+          "youtube": "https://www.youtube.com/c/oxforddiocese"
+        },
         "parentCategory": "Charities"
       }
     },
@@ -246186,7 +246191,11 @@
         "lat": null,
         "lng": null,
         "website": "https://www.salters.co.uk",
-        "socials": {},
+        "socials": {
+          "facebook": "https://www.facebook.com/salterscompany/?locale=en_GB",
+          "instagram": "https://www.instagram.com/salterscompany/",
+          "linkedin": "https://www.linkedin.com/company/the-salters-company/"
+        },
         "parentCategory": "Charities"
       }
     },
@@ -246236,7 +246245,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.wotton-under-edge.com",
-        "socials": {},
+        "socials": {
+          "x": "https://x.com/WottonTwnCouncl",
+          "facebook": "https://www.facebook.com/WottonUnderEdgeTownCouncil"
+        },
         "parentCategory": "Charities"
       }
     },
@@ -246361,7 +246373,10 @@
         "lat": null,
         "lng": null,
         "website": "https://www.rspca.org.uk/local/guildford-and-epsom-branch",
-        "socials": {},
+        "socials": {
+          "facebook": "https://www.facebook.com/rspcaguildfordepsom",
+          "youtube": "https://www.youtube.com/channel/UCYroXtipWVJPnYVcwvFH2jA"
+        },
         "parentCategory": "Charities"
       }
     },
@@ -246386,7 +246401,12 @@
         "lat": null,
         "lng": null,
         "website": "https://www.cats.org.uk",
-        "socials": {},
+        "socials": {
+          "facebook": "https://www.facebook.com/catsprotection",
+          "instagram": "https://www.instagram.com/catsprotection/",
+          "youtube": "https://www.youtube.com/@catsprotection",
+          "tiktok": "https://www.tiktok.com/@cats_protection"
+        },
         "parentCategory": "Charities"
       }
     },
@@ -246561,7 +246581,11 @@
         "lat": null,
         "lng": null,
         "website": "https://www.thegardenhouse.org.uk",
-        "socials": {},
+        "socials": {
+          "x": "https://twitter.com/TGardenHouse",
+          "facebook": "https://www.facebook.com/The-Garden-House-Devon-476229339106306/",
+          "instagram": "https://www.instagram.com/the.garden.house/"
+        },
         "parentCategory": "Charities"
       }
     },
@@ -247036,7 +247060,11 @@
         "lat": null,
         "lng": null,
         "website": "https://www.eltc.org.uk",
-        "socials": {},
+        "socials": {
+          "facebook": "https://www.facebook.com/ExeterLittleTC/",
+          "instagram": "https://www.instagram.com/exeterlittletheatrecompany/",
+          "tiktok": "https://www.tiktok.com/@eltcexe?_t=ZN-904rsJpp3mo&#038;_r=1question"
+        },
         "parentCategory": "Charities"
       }
     },
@@ -807907,5 +807935,5 @@
       }
     }
   ],
-  "updated_at": "2026-11-19T13:04:43.970Z"
+  "updated_at": "2026-11-20T11:22:17.212Z"
 }
