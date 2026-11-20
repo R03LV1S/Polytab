@@ -284,6 +284,276 @@
         "timer_duration_days": null
       },
       "auto_fetch": false
+    },
+    {
+      "enabled": true,
+      "feed_item_id": "93017",
+      "congress": 119,
+      "bill_type": "senate_bill",
+      "number": 5653,
+      "govtrack_id": null,
+      "title": "Permitting Reform for Energy Infrastructure",
+      "short_title": "S. 5653",
+      "summary": "S. 5653: Prescribes permitting reform for federal energy infrastructure reviews; Senate-passed bipartisan energy package (62-33, Nov 20, 2026) advancing permitting reform and AI data center power-cost allocation.",
+      "status": "introduced",
+      "sponsor": null,
+      "beneficiary_scope": "national",
+      "beneficiary_states": [],
+      "localities": [],
+      "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for S. 5653. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
+      "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
+      "campaign_overrides": {
+        "funding_activation_threshold_usd": 10000,
+        "timer_duration_days": null
+      },
+      "auto_fetch": false,
+      "status_label": "Introduced in Senate (IS); read twice and referred to the Committee on Energy and Natural Resources (Sept 30, 2026)",
+      "source_url": "https://www.congress.gov/bill/119th-congress/senate-bill/5653",
+      "_seed_meta": {
+        "source": "congress_gov_manual",
+        "discovered_at": "2026-11-20T15:05:29.122Z",
+        "source_link": "https://www.congress.gov/bill/119th-congress/senate-bill/5653"
+      }
+    },
+    {
+      "enabled": true,
+      "feed_item_id": "93018",
+      "congress": 119,
+      "bill_type": "senate_bill",
+      "number": 5054,
+      "govtrack_id": null,
+      "title": "Data Center Tax Accountability and Disclosure Act of 2026",
+      "short_title": "S. 5054",
+      "summary": "S. 5054 (2026): Exempts AI data centers from bonus depreciation and requires AI data center operators to submit electricity and water use information.",
+      "status": "introduced",
+      "sponsor": null,
+      "beneficiary_scope": "national",
+      "beneficiary_states": [],
+      "localities": [],
+      "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for S. 5054. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
+      "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
+      "campaign_overrides": {
+        "funding_activation_threshold_usd": 10000,
+        "timer_duration_days": null
+      },
+      "auto_fetch": false,
+      "status_label": "Introduced in Senate (IS) by Sen. Warner; referred to the Committee on Finance (July 21, 2026); exempts AI data centers from bonus depreciation and requires electricity/water use disclosure",
+      "source_url": "https://www.congress.gov/bill/119th-congress/senate-bill/5054",
+      "_seed_meta": {
+        "source": "congress_gov_manual",
+        "discovered_at": "2026-11-20T15:05:29.122Z",
+        "source_link": "https://www.congress.gov/bill/119th-congress/senate-bill/5054"
+      }
+    },
+    {
+      "enabled": true,
+      "feed_item_id": "93019",
+      "congress": 119,
+      "bill_type": "senate_bill",
+      "number": 4214,
+      "govtrack_id": null,
+      "title": "AI Data Center Moratorium Act",
+      "short_title": "S. 4214",
+      "summary": "S. 4214 (2026): Prohibits building or upgrading AI data centers until AI-related laws are enacted and restricts export of AI-related computing hardware to countries without comparable laws.",
+      "status": "introduced",
+      "sponsor": null,
+      "beneficiary_scope": "national",
+      "beneficiary_states": [],
+      "localities": [],
+      "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for S. 4214. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
+      "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
+      "campaign_overrides": {
+        "funding_activation_threshold_usd": 10000,
+        "timer_duration_days": null
+      },
+      "auto_fetch": false,
+      "status_label": "Introduced in Senate (IS); prohibits construction or upgrade of AI data centers until AI-related laws are enacted and restricts AI computing hardware exports",
+      "source_url": "https://www.congress.gov/bill/119th-congress/senate-bill/4214",
+      "_seed_meta": {
+        "source": "congress_gov_manual",
+        "discovered_at": "2026-11-20T15:05:29.122Z",
+        "source_link": "https://www.congress.gov/bill/119th-congress/senate-bill/4214"
+      }
+    },
+    {
+      "enabled": true,
+      "feed_item_id": "93020",
+      "congress": 119,
+      "bill_type": "house_bill",
+      "number": 8488,
+      "govtrack_id": null,
+      "title": "AI Data Center Site Selection Transparency Act of 2026",
+      "short_title": "H.R. 8488",
+      "summary": "H.R. 8488 (2026): Requires developers of AI-focused data centers to disclose certain information before the data centers are developed.",
+      "status": "introduced",
+      "sponsor": null,
+      "beneficiary_scope": "national",
+      "beneficiary_states": [],
+      "localities": [],
+      "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 8488. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
+      "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
+      "campaign_overrides": {
+        "funding_activation_threshold_usd": 10000,
+        "timer_duration_days": null
+      },
+      "auto_fetch": false,
+      "status_label": "Introduced in House by Rep. McIver et al.; referred to the House Committee on Energy and Commerce (April 23, 2026)",
+      "source_url": "https://www.congress.gov/bill/119th-congress/house-bill/8488",
+      "_seed_meta": {
+        "source": "congress_gov_manual",
+        "discovered_at": "2026-11-20T15:05:29.122Z",
+        "source_link": "https://www.congress.gov/bill/119th-congress/house-bill/8488"
+      }
+    },
+    {
+      "enabled": true,
+      "feed_item_id": "93021",
+      "congress": 119,
+      "bill_type": "senate_bill",
+      "number": 5471,
+      "govtrack_id": null,
+      "title": "AI Systems Transparency Act",
+      "short_title": "S. 5471",
+      "summary": "S. 5471 (2025-2026): AI Systems Transparency Act.",
+      "status": "introduced",
+      "sponsor": null,
+      "beneficiary_scope": "national",
+      "beneficiary_states": [],
+      "localities": [],
+      "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for S. 5471. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
+      "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
+      "campaign_overrides": {
+        "funding_activation_threshold_usd": 10000,
+        "timer_duration_days": null
+      },
+      "auto_fetch": false,
+      "status_label": "Introduced in Senate (IS); AI systems transparency framework under consideration",
+      "source_url": "https://www.congress.gov/bill/119th-congress/senate-bill/5471",
+      "_seed_meta": {
+        "source": "congress_gov_manual",
+        "discovered_at": "2026-11-20T15:05:29.122Z",
+        "source_link": "https://www.congress.gov/bill/119th-congress/senate-bill/5471"
+      }
+    },
+    {
+      "enabled": true,
+      "feed_item_id": "93022",
+      "congress": 119,
+      "bill_type": "senate_bill",
+      "number": 4727,
+      "govtrack_id": null,
+      "title": "AI Environmental Impacts Act of 2026",
+      "short_title": "S. 4727",
+      "summary": "S. 4727 (2026): Requires EPA and NIST to study and establish reporting on environmental impacts of AI, including data centers and energy infrastructure.",
+      "status": "introduced",
+      "sponsor": null,
+      "beneficiary_scope": "national",
+      "beneficiary_states": [],
+      "localities": [],
+      "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for S. 4727. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
+      "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
+      "campaign_overrides": {
+        "funding_activation_threshold_usd": 10000,
+        "timer_duration_days": null
+      },
+      "auto_fetch": false,
+      "status_label": "Introduced in Senate (IS); EPA/NIST environmental impact study and reporting system for AI",
+      "source_url": "https://www.congress.gov/bill/119th-congress/senate-bill/4727",
+      "_seed_meta": {
+        "source": "congress_gov_manual",
+        "discovered_at": "2026-11-20T15:05:29.122Z",
+        "source_link": "https://www.congress.gov/bill/119th-congress/senate-bill/4727"
+      }
+    },
+    {
+      "enabled": true,
+      "feed_item_id": "93023",
+      "congress": 119,
+      "bill_type": "senate_bill",
+      "number": 4743,
+      "govtrack_id": null,
+      "title": "AI Bubble Transparency Act",
+      "short_title": "S. 4743",
+      "summary": "S. 4743 (2026): AI Bubble Transparency Act.",
+      "status": "introduced",
+      "sponsor": null,
+      "beneficiary_scope": "national",
+      "beneficiary_states": [],
+      "localities": [],
+      "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for S. 4743. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
+      "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
+      "campaign_overrides": {
+        "funding_activation_threshold_usd": 10000,
+        "timer_duration_days": null
+      },
+      "auto_fetch": false,
+      "status_label": "Introduced in Senate (IS); AI bubble transparency",
+      "source_url": "https://www.congress.gov/bill/119th-congress/senate-bill/4743",
+      "_seed_meta": {
+        "source": "congress_gov_manual",
+        "discovered_at": "2026-11-20T15:05:29.122Z",
+        "source_link": "https://www.congress.gov/bill/119th-congress/senate-bill/4743"
+      }
+    },
+    {
+      "enabled": true,
+      "feed_item_id": "93024",
+      "congress": 119,
+      "bill_type": "house_bill",
+      "number": 9500,
+      "govtrack_id": null,
+      "title": "Tax Relief for Fraud Victims Act",
+      "short_title": "H.R. 9500",
+      "summary": "H.R. 9500: Tax Relief for Fraud Victims Act; passed House under suspension of the rules (Roll Call 305, Sept 15, 2026, as amended).",
+      "status": "Passed House (Roll Call 305, Sept 15, 2026, as amended) under suspension of the rules, as amended",
+      "sponsor": null,
+      "beneficiary_scope": "national",
+      "beneficiary_states": [],
+      "localities": [],
+      "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 9500. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
+      "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
+      "campaign_overrides": {
+        "funding_activation_threshold_usd": 10000,
+        "timer_duration_days": null
+      },
+      "auto_fetch": false,
+      "status_label": "Passed House (Roll Call 305, Sept 15, 2026, as amended) under suspension of the rules, as amended",
+      "source_url": "https://clerk.house.gov/Votes/2026305",
+      "_seed_meta": {
+        "source": "congress_gov_manual",
+        "discovered_at": "2026-11-20T15:05:29.122Z",
+        "source_link": "https://clerk.house.gov/Votes/2026305"
+      }
+    },
+    {
+      "enabled": true,
+      "feed_item_id": "93025",
+      "congress": 119,
+      "bill_type": "house_bill",
+      "number": 9340,
+      "govtrack_id": null,
+      "title": "Ratepayer Protection Act",
+      "short_title": "H.R. 9340",
+      "summary": "H.R. 9340: Ratepayer Protection Act; passed House under suspension of the rules (Roll Call 312, Sept 16, 2026, as amended).",
+      "status": "Passed House (Roll Call 312, Sept 16, 2026, as amended) under suspension of the rules, as amended",
+      "sponsor": null,
+      "beneficiary_scope": "national",
+      "beneficiary_states": [],
+      "localities": [],
+      "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 9340. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
+      "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
+      "campaign_overrides": {
+        "funding_activation_threshold_usd": 10000,
+        "timer_duration_days": null
+      },
+      "auto_fetch": false,
+      "status_label": "Passed House (Roll Call 312, Sept 16, 2026, as amended) under suspension of the rules, as amended",
+      "source_url": "https://clerk.house.gov/Votes/2026312",
+      "_seed_meta": {
+        "source": "congress_gov_manual",
+        "discovered_at": "2026-11-20T15:05:29.122Z",
+        "source_link": "https://clerk.house.gov/Votes/2026312"
+      }
     }
   ]
 }

@@ -807935,7 +807935,466 @@
           "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification."
         }
       }
+    },
+    {
+      "id": "93017",
+      "title": "Permitting Reform for Energy Infrastructure",
+      "content_html": "<p><strong>S. 5653 (119th)</strong> — Permitting Reform for Energy Infrastructure</p><p>S. 5653: Prescribes permitting reform for federal energy infrastructure reviews; Senate-passed bipartisan energy package (62-33, Nov 20, 2026) advancing permitting reform and AI data center power-cost allocation.</p><p><strong>Status:</strong> Introduced in Senate (IS); read twice and referred to the Committee on Energy and Natural Resources (Sept 30, 2026)</p><p><strong>Window:</strong> Senate-passed bipartisan energy/permitting package (Nov 20, 2026, 62-33) advancing permitting reform and AI data center power-cost allocation; floor action possible in Nov 16-Dec 31 window</p><p><strong>Community vote (litmus test):</strong> [LITMUS TEST] S. 5653 (119th): \"Permitting Reform for Energy Infrastructure\" — Should this measure pass? Cast a community vote (without middlemen) to compare community will with how representatives vote.</p><p><strong>Campaign:</strong> Open-ended; timer begins once $10,000 is funded. Honest-zero (funded $0.00, 0 votes) until real on-chain activity is recorded.</p><p><strong>Bounty beneficiaries:</strong> Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).</p><p><strong>Source:</strong> <a href=\"https://www.congress.gov/bill/119th-congress/senate-bill/5653\">https://www.congress.gov/bill/119th-congress/senate-bill/5653</a></p>",
+      "url": "https://polytab.store/#93017",
+      "date_published": "2026-11-20T00:00:00Z",
+      "_polytab": {
+        "category": "Policy & Governance Votes",
+        "parentCategory": "Voting",
+        "organization": "Polytab Community — Policy & Governance Votes",
+        "location": "United States Capitol, Washington, DC (federal measure)",
+        "summary": "S. 5653: Prescribes permitting reform for federal energy infrastructure reviews; Senate-passed bipartisan energy package (62-33, Nov 20, 2026) advancing permitting reform and AI data center power-cost allocation.",
+        "plainSummary": "Cause: S. 5653: Prescribes permitting reform for federal energy infrastructure reviews; Senate-passed bipartisan energy package (62-33, Nov 20, 2026) advancing permitting reform and AI data center power-cost allocation.\nResolution: Community members vote Yes/No/Abstain on S. 5653 (119th): \"Permitting Reform for Energy Infrastructure\" as a middleman-free litmus test, then compare results with official House/Senate representative votes.\nFunding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).\nBeneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).\nWindow/Status: Senate-passed bipartisan energy/permitting package (Nov 20, 2026, 62-33) advancing permitting reform and AI data center power-cost allocation; floor action possible in Nov 16-Dec 31 window Status: Introduced in Senate (IS); read twice and referred to the Committee on Energy and Natural Resources (Sept 30, 2026)\nProof/Sources: https://www.congress.gov/bill/119th-congress/senate-bill/5653\nIncentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 10000,
+        "campaignType": "open_ended",
+        "fundingActivationUSD": 10000,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "status": "Active",
+        "lat": 38.8899,
+        "lng": -77.0091,
+        "website": "https://www.congress.gov/bill/119th-congress/senate-bill/5653",
+        "socials": {},
+        "legislation": {
+          "congress": 119,
+          "bill_type": "senate_bill",
+          "number": 5653,
+          "display_id": "S. 5653",
+          "title": "Permitting Reform for Energy Infrastructure",
+          "status": "introduced",
+          "window": "Senate-passed bipartisan energy/permitting package (Nov 20, 2026, 62-33) advancing permitting reform and AI data center power-cost allocation; floor action possible in Nov 16-Dec 31 window",
+          "source_url": "https://www.congress.gov/bill/119th-congress/senate-bill/5653"
+        },
+        "litmusTest": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (middleman-free).",
+          "representative_votes": {
+            "house": null,
+            "senate": null,
+            "roll_calls": []
+          },
+          "comparison_note": "Populate representative_votes from official roll-call records to contrast with community results."
+        },
+        "bounty": {
+          "beneficiary_scope": "national",
+          "eligible_beneficiaries": [],
+          "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification."
+        }
+      }
+    },
+    {
+      "id": "93018",
+      "title": "Data Center Tax Accountability and Disclosure Act of 2026",
+      "content_html": "<p><strong>S. 5054 (119th)</strong> — Data Center Tax Accountability and Disclosure Act of 2026</p><p>S. 5054 (2026): Exempts AI data centers from bonus depreciation and requires AI data center operators to submit electricity and water use information.</p><p><strong>Status:</strong> Introduced in Senate (IS) by Sen. Warner; referred to the Committee on Finance (July 21, 2026); exempts AI data centers from bonus depreciation and requires electricity/water use disclosure</p><p><strong>Window:</strong> Introduced/considered within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling</p><p><strong>Community vote (litmus test):</strong> [LITMUS TEST] S. 5054 (119th): \"Data Center Tax Accountability and Disclosure Act of 2026\" — Should this measure pass? Cast a community vote (without middlemen) to compare community will with how representatives vote.</p><p><strong>Campaign:</strong> Open-ended; timer begins once $10,000 is funded. Honest-zero (funded $0.00, 0 votes) until real on-chain activity is recorded.</p><p><strong>Bounty beneficiaries:</strong> Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).</p><p><strong>Source:</strong> <a href=\"https://www.congress.gov/bill/119th-congress/senate-bill/5054\">https://www.congress.gov/bill/119th-congress/senate-bill/5054</a></p>",
+      "url": "https://polytab.store/#93018",
+      "date_published": "2026-11-20T00:00:00Z",
+      "_polytab": {
+        "category": "Policy & Governance Votes",
+        "parentCategory": "Voting",
+        "organization": "Polytab Community — Policy & Governance Votes",
+        "location": "United States Capitol, Washington, DC (federal measure)",
+        "summary": "S. 5054 (2026): Exempts AI data centers from bonus depreciation and requires AI data center operators to submit electricity and water use information.",
+        "plainSummary": "Cause: S. 5054 (2026): Exempts AI data centers from bonus depreciation and requires AI data center operators to submit electricity and water use information.\nResolution: Community members vote Yes/No/Abstain on S. 5054 (119th): \"Data Center Tax Accountability and Disclosure Act of 2026\" as a middleman-free litmus test, then compare results with official House/Senate representative votes.\nFunding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).\nBeneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).\nWindow/Status: Introduced/considered within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling Status: Introduced in Senate (IS) by Sen. Warner; referred to the Committee on Finance (July 21, 2026); exempts AI data centers from bonus depreciation and requires electricity/water use disclosure\nProof/Sources: https://www.congress.gov/bill/119th-congress/senate-bill/5054\nIncentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 10000,
+        "campaignType": "open_ended",
+        "fundingActivationUSD": 10000,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "status": "Active",
+        "lat": 38.8899,
+        "lng": -77.0091,
+        "website": "https://www.congress.gov/bill/119th-congress/senate-bill/5054",
+        "socials": {},
+        "legislation": {
+          "congress": 119,
+          "bill_type": "senate_bill",
+          "number": 5054,
+          "display_id": "S. 5054",
+          "title": "Data Center Tax Accountability and Disclosure Act of 2026",
+          "status": "introduced",
+          "window": "Introduced/considered within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling",
+          "source_url": "https://www.congress.gov/bill/119th-congress/senate-bill/5054"
+        },
+        "litmusTest": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (middleman-free).",
+          "representative_votes": {
+            "house": null,
+            "senate": null,
+            "roll_calls": []
+          },
+          "comparison_note": "Populate representative_votes from official roll-call records to contrast with community results."
+        },
+        "bounty": {
+          "beneficiary_scope": "national",
+          "eligible_beneficiaries": [],
+          "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification."
+        }
+      }
+    },
+    {
+      "id": "93019",
+      "title": "AI Data Center Moratorium Act",
+      "content_html": "<p><strong>S. 4214 (119th)</strong> — AI Data Center Moratorium Act</p><p>S. 4214 (2026): Prohibits building or upgrading AI data centers until AI-related laws are enacted and restricts export of AI-related computing hardware to countries without comparable laws.</p><p><strong>Status:</strong> Introduced in Senate (IS); prohibits construction or upgrade of AI data centers until AI-related laws are enacted and restricts AI computing hardware exports</p><p><strong>Window:</strong> Introduced within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling</p><p><strong>Community vote (litmus test):</strong> [LITMUS TEST] S. 4214 (119th): \"AI Data Center Moratorium Act\" — Should this measure pass? Cast a community vote (without middlemen) to compare community will with how representatives vote.</p><p><strong>Campaign:</strong> Open-ended; timer begins once $10,000 is funded. Honest-zero (funded $0.00, 0 votes) until real on-chain activity is recorded.</p><p><strong>Bounty beneficiaries:</strong> Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).</p><p><strong>Source:</strong> <a href=\"https://www.congress.gov/bill/119th-congress/senate-bill/4214\">https://www.congress.gov/bill/119th-congress/senate-bill/4214</a></p>",
+      "url": "https://polytab.store/#93019",
+      "date_published": "2026-11-20T00:00:00Z",
+      "_polytab": {
+        "category": "Policy & Governance Votes",
+        "parentCategory": "Voting",
+        "organization": "Polytab Community — Policy & Governance Votes",
+        "location": "United States Capitol, Washington, DC (federal measure)",
+        "summary": "S. 4214 (2026): Prohibits building or upgrading AI data centers until AI-related laws are enacted and restricts export of AI-related computing hardware to countries without comparable laws.",
+        "plainSummary": "Cause: S. 4214 (2026): Prohibits building or upgrading AI data centers until AI-related laws are enacted and restricts export of AI-related computing hardware to countries without comparable laws.\nResolution: Community members vote Yes/No/Abstain on S. 4214 (119th): \"AI Data Center Moratorium Act\" as a middleman-free litmus test, then compare results with official House/Senate representative votes.\nFunding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).\nBeneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).\nWindow/Status: Introduced within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling Status: Introduced in Senate (IS); prohibits construction or upgrade of AI data centers until AI-related laws are enacted and restricts AI computing hardware exports\nProof/Sources: https://www.congress.gov/bill/119th-congress/senate-bill/4214\nIncentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 10000,
+        "campaignType": "open_ended",
+        "fundingActivationUSD": 10000,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "status": "Active",
+        "lat": 38.8899,
+        "lng": -77.0091,
+        "website": "https://www.congress.gov/bill/119th-congress/senate-bill/4214",
+        "socials": {},
+        "legislation": {
+          "congress": 119,
+          "bill_type": "senate_bill",
+          "number": 4214,
+          "display_id": "S. 4214",
+          "title": "AI Data Center Moratorium Act",
+          "status": "introduced",
+          "window": "Introduced within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling",
+          "source_url": "https://www.congress.gov/bill/119th-congress/senate-bill/4214"
+        },
+        "litmusTest": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (middleman-free).",
+          "representative_votes": {
+            "house": null,
+            "senate": null,
+            "roll_calls": []
+          },
+          "comparison_note": "Populate representative_votes from official roll-call records to contrast with community results."
+        },
+        "bounty": {
+          "beneficiary_scope": "national",
+          "eligible_beneficiaries": [],
+          "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification."
+        }
+      }
+    },
+    {
+      "id": "93020",
+      "title": "AI Data Center Site Selection Transparency Act of 2026",
+      "content_html": "<p><strong>H.R. 8488 (119th)</strong> — AI Data Center Site Selection Transparency Act of 2026</p><p>H.R. 8488 (2026): Requires developers of AI-focused data centers to disclose certain information before the data centers are developed.</p><p><strong>Status:</strong> Introduced in House by Rep. McIver et al.; referred to the House Committee on Energy and Commerce (April 23, 2026)</p><p><strong>Window:</strong> Introduced within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling</p><p><strong>Community vote (litmus test):</strong> [LITMUS TEST] H.R. 8488 (119th): \"AI Data Center Site Selection Transparency Act of 2026\" — Should this measure pass? Cast a community vote (without middlemen) to compare community will with how representatives vote.</p><p><strong>Campaign:</strong> Open-ended; timer begins once $10,000 is funded. Honest-zero (funded $0.00, 0 votes) until real on-chain activity is recorded.</p><p><strong>Bounty beneficiaries:</strong> Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).</p><p><strong>Source:</strong> <a href=\"https://www.congress.gov/bill/119th-congress/house-bill/8488\">https://www.congress.gov/bill/119th-congress/house-bill/8488</a></p>",
+      "url": "https://polytab.store/#93020",
+      "date_published": "2026-11-20T00:00:00Z",
+      "_polytab": {
+        "category": "Policy & Governance Votes",
+        "parentCategory": "Voting",
+        "organization": "Polytab Community — Policy & Governance Votes",
+        "location": "United States Capitol, Washington, DC (federal measure)",
+        "summary": "H.R. 8488 (2026): Requires developers of AI-focused data centers to disclose certain information before the data centers are developed.",
+        "plainSummary": "Cause: H.R. 8488 (2026): Requires developers of AI-focused data centers to disclose certain information before the data centers are developed.\nResolution: Community members vote Yes/No/Abstain on H.R. 8488 (119th): \"AI Data Center Site Selection Transparency Act of 2026\" as a middleman-free litmus test, then compare results with official House/Senate representative votes.\nFunding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).\nBeneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).\nWindow/Status: Introduced within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling Status: Introduced in House by Rep. McIver et al.; referred to the House Committee on Energy and Commerce (April 23, 2026)\nProof/Sources: https://www.congress.gov/bill/119th-congress/house-bill/8488\nIncentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 10000,
+        "campaignType": "open_ended",
+        "fundingActivationUSD": 10000,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "status": "Active",
+        "lat": 38.8899,
+        "lng": -77.0091,
+        "website": "https://www.congress.gov/bill/119th-congress/house-bill/8488",
+        "socials": {},
+        "legislation": {
+          "congress": 119,
+          "bill_type": "house_bill",
+          "number": 8488,
+          "display_id": "H.R. 8488",
+          "title": "AI Data Center Site Selection Transparency Act of 2026",
+          "status": "introduced",
+          "window": "Introduced within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling",
+          "source_url": "https://www.congress.gov/bill/119th-congress/house-bill/8488"
+        },
+        "litmusTest": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (middleman-free).",
+          "representative_votes": {
+            "house": null,
+            "senate": null,
+            "roll_calls": []
+          },
+          "comparison_note": "Populate representative_votes from official roll-call records to contrast with community results."
+        },
+        "bounty": {
+          "beneficiary_scope": "national",
+          "eligible_beneficiaries": [],
+          "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification."
+        }
+      }
+    },
+    {
+      "id": "93021",
+      "title": "AI Systems Transparency Act",
+      "content_html": "<p><strong>S. 5471 (119th)</strong> — AI Systems Transparency Act</p><p>S. 5471 (2025-2026): AI Systems Transparency Act.</p><p><strong>Status:</strong> Introduced in Senate (IS); AI systems transparency framework under consideration</p><p><strong>Window:</strong> Introduced/considered within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling</p><p><strong>Community vote (litmus test):</strong> [LITMUS TEST] S. 5471 (119th): \"AI Systems Transparency Act\" — Should this measure pass? Cast a community vote (without middlemen) to compare community will with how representatives vote.</p><p><strong>Campaign:</strong> Open-ended; timer begins once $10,000 is funded. Honest-zero (funded $0.00, 0 votes) until real on-chain activity is recorded.</p><p><strong>Bounty beneficiaries:</strong> Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).</p><p><strong>Source:</strong> <a href=\"https://www.congress.gov/bill/119th-congress/senate-bill/5471\">https://www.congress.gov/bill/119th-congress/senate-bill/5471</a></p>",
+      "url": "https://polytab.store/#93021",
+      "date_published": "2026-11-20T00:00:00Z",
+      "_polytab": {
+        "category": "Policy & Governance Votes",
+        "parentCategory": "Voting",
+        "organization": "Polytab Community — Policy & Governance Votes",
+        "location": "United States Capitol, Washington, DC (federal measure)",
+        "summary": "S. 5471 (2025-2026): AI Systems Transparency Act.",
+        "plainSummary": "Cause: S. 5471 (2025-2026): AI Systems Transparency Act.\nResolution: Community members vote Yes/No/Abstain on S. 5471 (119th): \"AI Systems Transparency Act\" as a middleman-free litmus test, then compare results with official House/Senate representative votes.\nFunding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).\nBeneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).\nWindow/Status: Introduced/considered within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling Status: Introduced in Senate (IS); AI systems transparency framework under consideration\nProof/Sources: https://www.congress.gov/bill/119th-congress/senate-bill/5471\nIncentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 10000,
+        "campaignType": "open_ended",
+        "fundingActivationUSD": 10000,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "status": "Active",
+        "lat": 38.8899,
+        "lng": -77.0091,
+        "website": "https://www.congress.gov/bill/119th-congress/senate-bill/5471",
+        "socials": {},
+        "legislation": {
+          "congress": 119,
+          "bill_type": "senate_bill",
+          "number": 5471,
+          "display_id": "S. 5471",
+          "title": "AI Systems Transparency Act",
+          "status": "introduced",
+          "window": "Introduced/considered within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling",
+          "source_url": "https://www.congress.gov/bill/119th-congress/senate-bill/5471"
+        },
+        "litmusTest": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (middleman-free).",
+          "representative_votes": {
+            "house": null,
+            "senate": null,
+            "roll_calls": []
+          },
+          "comparison_note": "Populate representative_votes from official roll-call records to contrast with community results."
+        },
+        "bounty": {
+          "beneficiary_scope": "national",
+          "eligible_beneficiaries": [],
+          "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification."
+        }
+      }
+    },
+    {
+      "id": "93022",
+      "title": "AI Environmental Impacts Act of 2026",
+      "content_html": "<p><strong>S. 4727 (119th)</strong> — AI Environmental Impacts Act of 2026</p><p>S. 4727 (2026): Requires EPA and NIST to study and establish reporting on environmental impacts of AI, including data centers and energy infrastructure.</p><p><strong>Status:</strong> Introduced in Senate (IS); EPA/NIST environmental impact study and reporting system for AI</p><p><strong>Window:</strong> Introduced within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling</p><p><strong>Community vote (litmus test):</strong> [LITMUS TEST] S. 4727 (119th): \"AI Environmental Impacts Act of 2026\" — Should this measure pass? Cast a community vote (without middlemen) to compare community will with how representatives vote.</p><p><strong>Campaign:</strong> Open-ended; timer begins once $10,000 is funded. Honest-zero (funded $0.00, 0 votes) until real on-chain activity is recorded.</p><p><strong>Bounty beneficiaries:</strong> Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).</p><p><strong>Source:</strong> <a href=\"https://www.congress.gov/bill/119th-congress/senate-bill/4727\">https://www.congress.gov/bill/119th-congress/senate-bill/4727</a></p>",
+      "url": "https://polytab.store/#93022",
+      "date_published": "2026-11-20T00:00:00Z",
+      "_polytab": {
+        "category": "Policy & Governance Votes",
+        "parentCategory": "Voting",
+        "organization": "Polytab Community — Policy & Governance Votes",
+        "location": "United States Capitol, Washington, DC (federal measure)",
+        "summary": "S. 4727 (2026): Requires EPA and NIST to study and establish reporting on environmental impacts of AI, including data centers and energy infrastructure.",
+        "plainSummary": "Cause: S. 4727 (2026): Requires EPA and NIST to study and establish reporting on environmental impacts of AI, including data centers and energy infrastructure.\nResolution: Community members vote Yes/No/Abstain on S. 4727 (119th): \"AI Environmental Impacts Act of 2026\" as a middleman-free litmus test, then compare results with official House/Senate representative votes.\nFunding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).\nBeneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).\nWindow/Status: Introduced within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling Status: Introduced in Senate (IS); EPA/NIST environmental impact study and reporting system for AI\nProof/Sources: https://www.congress.gov/bill/119th-congress/senate-bill/4727\nIncentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 10000,
+        "campaignType": "open_ended",
+        "fundingActivationUSD": 10000,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "status": "Active",
+        "lat": 38.8899,
+        "lng": -77.0091,
+        "website": "https://www.congress.gov/bill/119th-congress/senate-bill/4727",
+        "socials": {},
+        "legislation": {
+          "congress": 119,
+          "bill_type": "senate_bill",
+          "number": 4727,
+          "display_id": "S. 4727",
+          "title": "AI Environmental Impacts Act of 2026",
+          "status": "introduced",
+          "window": "Introduced within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling",
+          "source_url": "https://www.congress.gov/bill/119th-congress/senate-bill/4727"
+        },
+        "litmusTest": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (middleman-free).",
+          "representative_votes": {
+            "house": null,
+            "senate": null,
+            "roll_calls": []
+          },
+          "comparison_note": "Populate representative_votes from official roll-call records to contrast with community results."
+        },
+        "bounty": {
+          "beneficiary_scope": "national",
+          "eligible_beneficiaries": [],
+          "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification."
+        }
+      }
+    },
+    {
+      "id": "93023",
+      "title": "AI Bubble Transparency Act",
+      "content_html": "<p><strong>S. 4743 (119th)</strong> — AI Bubble Transparency Act</p><p>S. 4743 (2026): AI Bubble Transparency Act.</p><p><strong>Status:</strong> Introduced in Senate (IS); AI bubble transparency</p><p><strong>Window:</strong> Introduced within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling</p><p><strong>Community vote (litmus test):</strong> [LITMUS TEST] S. 4743 (119th): \"AI Bubble Transparency Act\" — Should this measure pass? Cast a community vote (without middlemen) to compare community will with how representatives vote.</p><p><strong>Campaign:</strong> Open-ended; timer begins once $10,000 is funded. Honest-zero (funded $0.00, 0 votes) until real on-chain activity is recorded.</p><p><strong>Bounty beneficiaries:</strong> Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).</p><p><strong>Source:</strong> <a href=\"https://www.congress.gov/bill/119th-congress/senate-bill/4743\">https://www.congress.gov/bill/119th-congress/senate-bill/4743</a></p>",
+      "url": "https://polytab.store/#93023",
+      "date_published": "2026-11-20T00:00:00Z",
+      "_polytab": {
+        "category": "Policy & Governance Votes",
+        "parentCategory": "Voting",
+        "organization": "Polytab Community — Policy & Governance Votes",
+        "location": "United States Capitol, Washington, DC (federal measure)",
+        "summary": "S. 4743 (2026): AI Bubble Transparency Act.",
+        "plainSummary": "Cause: S. 4743 (2026): AI Bubble Transparency Act.\nResolution: Community members vote Yes/No/Abstain on S. 4743 (119th): \"AI Bubble Transparency Act\" as a middleman-free litmus test, then compare results with official House/Senate representative votes.\nFunding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).\nBeneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).\nWindow/Status: Introduced within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling Status: Introduced in Senate (IS); AI bubble transparency\nProof/Sources: https://www.congress.gov/bill/119th-congress/senate-bill/4743\nIncentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 10000,
+        "campaignType": "open_ended",
+        "fundingActivationUSD": 10000,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "status": "Active",
+        "lat": 38.8899,
+        "lng": -77.0091,
+        "website": "https://www.congress.gov/bill/119th-congress/senate-bill/4743",
+        "socials": {},
+        "legislation": {
+          "congress": 119,
+          "bill_type": "senate_bill",
+          "number": 4743,
+          "display_id": "S. 4743",
+          "title": "AI Bubble Transparency Act",
+          "status": "introduced",
+          "window": "Introduced within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling",
+          "source_url": "https://www.congress.gov/bill/119th-congress/senate-bill/4743"
+        },
+        "litmusTest": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (middleman-free).",
+          "representative_votes": {
+            "house": null,
+            "senate": null,
+            "roll_calls": []
+          },
+          "comparison_note": "Populate representative_votes from official roll-call records to contrast with community results."
+        },
+        "bounty": {
+          "beneficiary_scope": "national",
+          "eligible_beneficiaries": [],
+          "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification."
+        }
+      }
+    },
+    {
+      "id": "93024",
+      "title": "Tax Relief for Fraud Victims Act",
+      "content_html": "<p><strong>H.R. 9500 (119th)</strong> — Tax Relief for Fraud Victims Act</p><p>H.R. 9500: Tax Relief for Fraud Victims Act; passed House under suspension of the rules (Roll Call 305, Sept 15, 2026, as amended).</p><p><strong>Status:</strong> Passed House (Roll Call 305, Sept 15, 2026, as amended) under suspension of the rules, as amended</p><p><strong>Window:</strong> House vote held Sept 15, 2026 (within Nov 16-Dec 31 window); subsequent Senate action possible</p><p><strong>Community vote (litmus test):</strong> [LITMUS TEST] H.R. 9500 (119th): \"Tax Relief for Fraud Victims Act\" — Should this measure pass? Cast a community vote (without middlemen) to compare community will with how representatives vote.</p><p><strong>Campaign:</strong> Open-ended; timer begins once $10,000 is funded. Honest-zero (funded $0.00, 0 votes) until real on-chain activity is recorded.</p><p><strong>Bounty beneficiaries:</strong> Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).</p><p><strong>Source:</strong> <a href=\"https://clerk.house.gov/Votes/2026305\">https://clerk.house.gov/Votes/2026305</a></p>",
+      "url": "https://polytab.store/#93024",
+      "date_published": "2026-11-20T00:00:00Z",
+      "_polytab": {
+        "category": "Policy & Governance Votes",
+        "parentCategory": "Voting",
+        "organization": "Polytab Community — Policy & Governance Votes",
+        "location": "United States Capitol, Washington, DC (federal measure)",
+        "summary": "H.R. 9500: Tax Relief for Fraud Victims Act; passed House under suspension of the rules (Roll Call 305, Sept 15, 2026, as amended).",
+        "plainSummary": "Cause: H.R. 9500: Tax Relief for Fraud Victims Act; passed House under suspension of the rules (Roll Call 305, Sept 15, 2026, as amended).\nResolution: Community members vote Yes/No/Abstain on H.R. 9500 (119th): \"Tax Relief for Fraud Victims Act\" as a middleman-free litmus test, then compare results with official House/Senate representative votes.\nFunding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).\nBeneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).\nWindow/Status: House vote held Sept 15, 2026 (within Nov 16-Dec 31 window); subsequent Senate action possible Status: Passed House (Roll Call 305, Sept 15, 2026, as amended) under suspension of the rules, as amended\nProof/Sources: https://clerk.house.gov/Votes/2026305\nIncentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 10000,
+        "campaignType": "open_ended",
+        "fundingActivationUSD": 10000,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "status": "Active",
+        "lat": 38.8899,
+        "lng": -77.0091,
+        "website": "https://clerk.house.gov/Votes/2026305",
+        "socials": {},
+        "legislation": {
+          "congress": 119,
+          "bill_type": "house_bill",
+          "number": 9500,
+          "display_id": "H.R. 9500",
+          "title": "Tax Relief for Fraud Victims Act",
+          "status": "Passed House (Roll Call 305, Sept 15, 2026, as amended) under suspension of the rules, as amended",
+          "window": "House vote held Sept 15, 2026 (within Nov 16-Dec 31 window); subsequent Senate action possible",
+          "source_url": "https://clerk.house.gov/Votes/2026305"
+        },
+        "litmusTest": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (middleman-free).",
+          "representative_votes": {
+            "house": null,
+            "senate": null,
+            "roll_calls": []
+          },
+          "comparison_note": "Populate representative_votes from official roll-call records to contrast with community results."
+        },
+        "bounty": {
+          "beneficiary_scope": "national",
+          "eligible_beneficiaries": [],
+          "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification."
+        }
+      }
+    },
+    {
+      "id": "93025",
+      "title": "Ratepayer Protection Act",
+      "content_html": "<p><strong>H.R. 9340 (119th)</strong> — Ratepayer Protection Act</p><p>H.R. 9340: Ratepayer Protection Act; passed House under suspension of the rules (Roll Call 312, Sept 16, 2026, as amended).</p><p><strong>Status:</strong> Passed House (Roll Call 312, Sept 16, 2026, as amended) under suspension of the rules, as amended</p><p><strong>Window:</strong> House vote held Sept 16, 2026 (within Nov 16-Dec 31 window); subsequent Senate action possible</p><p><strong>Community vote (litmus test):</strong> [LITMUS TEST] H.R. 9340 (119th): \"Ratepayer Protection Act\" — Should this measure pass? Cast a community vote (without middlemen) to compare community will with how representatives vote.</p><p><strong>Campaign:</strong> Open-ended; timer begins once $10,000 is funded. Honest-zero (funded $0.00, 0 votes) until real on-chain activity is recorded.</p><p><strong>Bounty beneficiaries:</strong> Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).</p><p><strong>Source:</strong> <a href=\"https://clerk.house.gov/Votes/2026312\">https://clerk.house.gov/Votes/2026312</a></p>",
+      "url": "https://polytab.store/#93025",
+      "date_published": "2026-11-20T00:00:00Z",
+      "_polytab": {
+        "category": "Policy & Governance Votes",
+        "parentCategory": "Voting",
+        "organization": "Polytab Community — Policy & Governance Votes",
+        "location": "United States Capitol, Washington, DC (federal measure)",
+        "summary": "H.R. 9340: Ratepayer Protection Act; passed House under suspension of the rules (Roll Call 312, Sept 16, 2026, as amended).",
+        "plainSummary": "Cause: H.R. 9340: Ratepayer Protection Act; passed House under suspension of the rules (Roll Call 312, Sept 16, 2026, as amended).\nResolution: Community members vote Yes/No/Abstain on H.R. 9340 (119th): \"Ratepayer Protection Act\" as a middleman-free litmus test, then compare results with official House/Senate representative votes.\nFunding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).\nBeneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).\nWindow/Status: House vote held Sept 16, 2026 (within Nov 16-Dec 31 window); subsequent Senate action possible Status: Passed House (Roll Call 312, Sept 16, 2026, as amended) under suspension of the rules, as amended\nProof/Sources: https://clerk.house.gov/Votes/2026312\nIncentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 10000,
+        "campaignType": "open_ended",
+        "fundingActivationUSD": 10000,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "status": "Active",
+        "lat": 38.8899,
+        "lng": -77.0091,
+        "website": "https://clerk.house.gov/Votes/2026312",
+        "socials": {},
+        "legislation": {
+          "congress": 119,
+          "bill_type": "house_bill",
+          "number": 9340,
+          "display_id": "H.R. 9340",
+          "title": "Ratepayer Protection Act",
+          "status": "Passed House (Roll Call 312, Sept 16, 2026, as amended) under suspension of the rules, as amended",
+          "window": "House vote held Sept 16, 2026 (within Nov 16-Dec 31 window); subsequent Senate action possible",
+          "source_url": "https://clerk.house.gov/Votes/2026312"
+        },
+        "litmusTest": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (middleman-free).",
+          "representative_votes": {
+            "house": null,
+            "senate": null,
+            "roll_calls": []
+          },
+          "comparison_note": "Populate representative_votes from official roll-call records to contrast with community results."
+        },
+        "bounty": {
+          "beneficiary_scope": "national",
+          "eligible_beneficiaries": [],
+          "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification."
+        }
+      }
     }
   ],
-  "updated_at": "2026-11-20T12:02:17.226Z"
+  "updated_at": "2026-11-20T15:01:45.399Z"
 }

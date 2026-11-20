@@ -32,6 +32,16 @@ Goal: verify the user's approved run end-to-end and eliminate defects before sig
 - placeholders/BETA/`$0`/example.com: none
 - manifest: 38 shards, 38 hashes OK, 21,634 orgs
 
+## Current Session (2026-11-20, expansion wave) — append
+
+- [x] Diagnosed & fixed "Policy & Governance Votes empty" render path in `docs/index.html` (await `loadCategoryShard` before re-render; committed `5c88a51`, pushed `6f8c2d9`).
+- [x] Confirmed live `https://polytab.store/feed.json` == local (0 diffs, 32219 items, last id 93016); homepage renders campaigns.
+- [ ] WAVE 2 EXPANSION (user-approved: "do it all manually, we can work on the script after"): add next batch of Policy & Governance Votes campaigns via manual authoring + regenerate feeds + commit/push + verify live.
+  - [ ] Author feed items for new campaigns (manual content, grounded in keyless official sources: congress.gov / senate.gov / clerk.house.gov / NPR-AP-USA Today).
+  - [ ] Add honest-zero votes entries (fundedUSD=0, votesCount=0).
+  - [ ] Regenerate beta artifacts (seed + per-bill records + combined), shelf shards, feeds.
+  - [ ] Commit/push + live verification.
+
 ## Remaining external actions (owner)
 - Rotate the FEC key at api.data.gov (it exists in commit `aa52d65`).
 - Add `CLOUDFLARE_API_TOKEN` / `CLOUDFLARE_ACCOUNT_ID` repo secrets to enable the deploy workflow.

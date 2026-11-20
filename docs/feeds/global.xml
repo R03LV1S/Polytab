@@ -3,9 +3,9 @@
   <channel>
     <title>Polytab — Global Civic Action Map (geoRSS)</title>
     <link>https://polytab.store/#map</link>
-    <description>geoRSS mirror of the Polytab Projects. 32219 of 32219 actions publish organization coordinates, rounded to two decimal places (~1 km, neighborhood-level) to prevent PII/doxing. Organizations without a public location are listed in feed.xml only.</description>
+    <description>geoRSS mirror of the Polytab Projects. 32228 of 32228 actions publish organization coordinates, rounded to two decimal places (~1 km, neighborhood-level) to prevent PII/doxing. Organizations without a public location are listed in feed.xml only.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Nov 2026 12:02:18 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 15:27:38 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://polytab.store/feeds/global.xml" rel="self" type="application/rss+xml" />
   <item>
@@ -616178,6 +616178,222 @@ Contributions: locked — org must verify (registry + DNS TXT) to unlock its pag
 Website: https://www.senate.gov/legislative/active_leg_page.htm</description>
     <category>Policy &amp; Governance Votes</category>
     <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>38.89 -77.01</georss:point>
+  </item>
+  <item>
+    <title>Permitting Reform for Energy Infrastructure</title>
+    <link>https://polytab.store/#93017</link>
+    <guid isPermaLink="false">polytab:shelf:93017</guid>
+    <description>Cause: S. 5653: Prescribes permitting reform for federal energy infrastructure reviews; Senate-passed bipartisan energy package (62-33, Nov 20, 2026) advancing permitting reform and AI data center power-cost allocation.
+Resolution: Community members vote Yes/No/Abstain on S. 5653 (119th): &quot;Permitting Reform for Energy Infrastructure&quot; as a middleman-free litmus test, then compare results with official House/Senate representative votes.
+Funding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).
+Beneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).
+Window/Status: Senate-passed bipartisan energy/permitting package (Nov 20, 2026, 62-33) advancing permitting reform and AI data center power-cost allocation; floor action possible in Nov 16-Dec 31 window Status: Introduced in Senate (IS); read twice and referred to the Committee on Energy and Natural Resources (Sept 30, 2026)
+Proof/Sources: https://www.congress.gov/bill/119th-congress/senate-bill/5653
+Incentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.
+
+Category: Policy &amp; Governance Votes
+Organization: Polytab Community — Policy &amp; Governance Votes
+Location: United States Capitol, Washington, DC (federal measure)
+Vote price: $0.50 · Target: Open-ended ($10,000 activation threshold)
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Contributions: locked — org must verify (registry + DNS TXT) to unlock its page
+Website: https://www.congress.gov/bill/119th-congress/senate-bill/5653</description>
+    <category>Policy &amp; Governance Votes</category>
+    <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>38.89 -77.01</georss:point>
+  </item>
+  <item>
+    <title>Data Center Tax Accountability and Disclosure Act of 2026</title>
+    <link>https://polytab.store/#93018</link>
+    <guid isPermaLink="false">polytab:shelf:93018</guid>
+    <description>Cause: S. 5054 (2026): Exempts AI data centers from bonus depreciation and requires AI data center operators to submit electricity and water use information.
+Resolution: Community members vote Yes/No/Abstain on S. 5054 (119th): &quot;Data Center Tax Accountability and Disclosure Act of 2026&quot; as a middleman-free litmus test, then compare results with official House/Senate representative votes.
+Funding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).
+Beneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).
+Window/Status: Introduced/considered within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling Status: Introduced in Senate (IS) by Sen. Warner; referred to the Committee on Finance (July 21, 2026); exempts AI data centers from bonus depreciation and requires electricity/water use disclosure
+Proof/Sources: https://www.congress.gov/bill/119th-congress/senate-bill/5054
+Incentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.
+
+Category: Policy &amp; Governance Votes
+Organization: Polytab Community — Policy &amp; Governance Votes
+Location: United States Capitol, Washington, DC (federal measure)
+Vote price: $0.50 · Target: Open-ended ($10,000 activation threshold)
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Contributions: locked — org must verify (registry + DNS TXT) to unlock its page
+Website: https://www.congress.gov/bill/119th-congress/senate-bill/5054</description>
+    <category>Policy &amp; Governance Votes</category>
+    <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>38.89 -77.01</georss:point>
+  </item>
+  <item>
+    <title>AI Data Center Moratorium Act</title>
+    <link>https://polytab.store/#93019</link>
+    <guid isPermaLink="false">polytab:shelf:93019</guid>
+    <description>Cause: S. 4214 (2026): Prohibits building or upgrading AI data centers until AI-related laws are enacted and restricts export of AI-related computing hardware to countries without comparable laws.
+Resolution: Community members vote Yes/No/Abstain on S. 4214 (119th): &quot;AI Data Center Moratorium Act&quot; as a middleman-free litmus test, then compare results with official House/Senate representative votes.
+Funding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).
+Beneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).
+Window/Status: Introduced within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling Status: Introduced in Senate (IS); prohibits construction or upgrade of AI data centers until AI-related laws are enacted and restricts AI computing hardware exports
+Proof/Sources: https://www.congress.gov/bill/119th-congress/senate-bill/4214
+Incentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.
+
+Category: Policy &amp; Governance Votes
+Organization: Polytab Community — Policy &amp; Governance Votes
+Location: United States Capitol, Washington, DC (federal measure)
+Vote price: $0.50 · Target: Open-ended ($10,000 activation threshold)
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Contributions: locked — org must verify (registry + DNS TXT) to unlock its page
+Website: https://www.congress.gov/bill/119th-congress/senate-bill/4214</description>
+    <category>Policy &amp; Governance Votes</category>
+    <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>38.89 -77.01</georss:point>
+  </item>
+  <item>
+    <title>AI Data Center Site Selection Transparency Act of 2026</title>
+    <link>https://polytab.store/#93020</link>
+    <guid isPermaLink="false">polytab:shelf:93020</guid>
+    <description>Cause: H.R. 8488 (2026): Requires developers of AI-focused data centers to disclose certain information before the data centers are developed.
+Resolution: Community members vote Yes/No/Abstain on H.R. 8488 (119th): &quot;AI Data Center Site Selection Transparency Act of 2026&quot; as a middleman-free litmus test, then compare results with official House/Senate representative votes.
+Funding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).
+Beneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).
+Window/Status: Introduced within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling Status: Introduced in House by Rep. McIver et al.; referred to the House Committee on Energy and Commerce (April 23, 2026)
+Proof/Sources: https://www.congress.gov/bill/119th-congress/house-bill/8488
+Incentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.
+
+Category: Policy &amp; Governance Votes
+Organization: Polytab Community — Policy &amp; Governance Votes
+Location: United States Capitol, Washington, DC (federal measure)
+Vote price: $0.50 · Target: Open-ended ($10,000 activation threshold)
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Contributions: locked — org must verify (registry + DNS TXT) to unlock its page
+Website: https://www.congress.gov/bill/119th-congress/house-bill/8488</description>
+    <category>Policy &amp; Governance Votes</category>
+    <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>38.89 -77.01</georss:point>
+  </item>
+  <item>
+    <title>AI Systems Transparency Act</title>
+    <link>https://polytab.store/#93021</link>
+    <guid isPermaLink="false">polytab:shelf:93021</guid>
+    <description>Cause: S. 5471 (2025-2026): AI Systems Transparency Act.
+Resolution: Community members vote Yes/No/Abstain on S. 5471 (119th): &quot;AI Systems Transparency Act&quot; as a middleman-free litmus test, then compare results with official House/Senate representative votes.
+Funding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).
+Beneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).
+Window/Status: Introduced/considered within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling Status: Introduced in Senate (IS); AI systems transparency framework under consideration
+Proof/Sources: https://www.congress.gov/bill/119th-congress/senate-bill/5471
+Incentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.
+
+Category: Policy &amp; Governance Votes
+Organization: Polytab Community — Policy &amp; Governance Votes
+Location: United States Capitol, Washington, DC (federal measure)
+Vote price: $0.50 · Target: Open-ended ($10,000 activation threshold)
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Contributions: locked — org must verify (registry + DNS TXT) to unlock its page
+Website: https://www.congress.gov/bill/119th-congress/senate-bill/5471</description>
+    <category>Policy &amp; Governance Votes</category>
+    <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>38.89 -77.01</georss:point>
+  </item>
+  <item>
+    <title>AI Environmental Impacts Act of 2026</title>
+    <link>https://polytab.store/#93022</link>
+    <guid isPermaLink="false">polytab:shelf:93022</guid>
+    <description>Cause: S. 4727 (2026): Requires EPA and NIST to study and establish reporting on environmental impacts of AI, including data centers and energy infrastructure.
+Resolution: Community members vote Yes/No/Abstain on S. 4727 (119th): &quot;AI Environmental Impacts Act of 2026&quot; as a middleman-free litmus test, then compare results with official House/Senate representative votes.
+Funding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).
+Beneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).
+Window/Status: Introduced within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling Status: Introduced in Senate (IS); EPA/NIST environmental impact study and reporting system for AI
+Proof/Sources: https://www.congress.gov/bill/119th-congress/senate-bill/4727
+Incentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.
+
+Category: Policy &amp; Governance Votes
+Organization: Polytab Community — Policy &amp; Governance Votes
+Location: United States Capitol, Washington, DC (federal measure)
+Vote price: $0.50 · Target: Open-ended ($10,000 activation threshold)
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Contributions: locked — org must verify (registry + DNS TXT) to unlock its page
+Website: https://www.congress.gov/bill/119th-congress/senate-bill/4727</description>
+    <category>Policy &amp; Governance Votes</category>
+    <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>38.89 -77.01</georss:point>
+  </item>
+  <item>
+    <title>AI Bubble Transparency Act</title>
+    <link>https://polytab.store/#93023</link>
+    <guid isPermaLink="false">polytab:shelf:93023</guid>
+    <description>Cause: S. 4743 (2026): AI Bubble Transparency Act.
+Resolution: Community members vote Yes/No/Abstain on S. 4743 (119th): &quot;AI Bubble Transparency Act&quot; as a middleman-free litmus test, then compare results with official House/Senate representative votes.
+Funding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).
+Beneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).
+Window/Status: Introduced within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling Status: Introduced in Senate (IS); AI bubble transparency
+Proof/Sources: https://www.congress.gov/bill/119th-congress/senate-bill/4743
+Incentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.
+
+Category: Policy &amp; Governance Votes
+Organization: Polytab Community — Policy &amp; Governance Votes
+Location: United States Capitol, Washington, DC (federal measure)
+Vote price: $0.50 · Target: Open-ended ($10,000 activation threshold)
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Contributions: locked — org must verify (registry + DNS TXT) to unlock its page
+Website: https://www.congress.gov/bill/119th-congress/senate-bill/4743</description>
+    <category>Policy &amp; Governance Votes</category>
+    <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>38.89 -77.01</georss:point>
+  </item>
+  <item>
+    <title>Tax Relief for Fraud Victims Act</title>
+    <link>https://polytab.store/#93024</link>
+    <guid isPermaLink="false">polytab:shelf:93024</guid>
+    <description>Cause: H.R. 9500: Tax Relief for Fraud Victims Act; passed House under suspension of the rules (Roll Call 305, Sept 15, 2026, as amended).
+Resolution: Community members vote Yes/No/Abstain on H.R. 9500 (119th): &quot;Tax Relief for Fraud Victims Act&quot; as a middleman-free litmus test, then compare results with official House/Senate representative votes.
+Funding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).
+Beneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).
+Window/Status: House vote held Sept 15, 2026 (within Nov 16-Dec 31 window); subsequent Senate action possible Status: Passed House (Roll Call 305, Sept 15, 2026, as amended) under suspension of the rules, as amended
+Proof/Sources: https://clerk.house.gov/Votes/2026305
+Incentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.
+
+Category: Policy &amp; Governance Votes
+Organization: Polytab Community — Policy &amp; Governance Votes
+Location: United States Capitol, Washington, DC (federal measure)
+Vote price: $0.50 · Target: Open-ended ($10,000 activation threshold)
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Contributions: locked — org must verify (registry + DNS TXT) to unlock its page
+Website: https://clerk.house.gov/Votes/2026305</description>
+    <category>Policy &amp; Governance Votes</category>
+    <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+    <georss:point>38.89 -77.01</georss:point>
+  </item>
+  <item>
+    <title>Ratepayer Protection Act</title>
+    <link>https://polytab.store/#93025</link>
+    <guid isPermaLink="false">polytab:shelf:93025</guid>
+    <description>Cause: H.R. 9340: Ratepayer Protection Act; passed House under suspension of the rules (Roll Call 312, Sept 16, 2026, as amended).
+Resolution: Community members vote Yes/No/Abstain on H.R. 9340 (119th): &quot;Ratepayer Protection Act&quot; as a middleman-free litmus test, then compare results with official House/Senate representative votes.
+Funding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).
+Beneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).
+Window/Status: House vote held Sept 16, 2026 (within Nov 16-Dec 31 window); subsequent Senate action possible Status: Passed House (Roll Call 312, Sept 16, 2026, as amended) under suspension of the rules, as amended
+Proof/Sources: https://clerk.house.gov/Votes/2026312
+Incentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.
+
+Category: Policy &amp; Governance Votes
+Organization: Polytab Community — Policy &amp; Governance Votes
+Location: United States Capitol, Washington, DC (federal measure)
+Vote price: $0.50 · Target: Open-ended ($10,000 activation threshold)
+Funded: $0.00 · Votes: 0 · Status: Active
+Honest-zero: no on-chain votes have been recorded for this action yet.
+Contributions: locked — org must verify (registry + DNS TXT) to unlock its page
+Website: https://clerk.house.gov/Votes/2026312</description>
+    <category>Policy &amp; Governance Votes</category>
+    <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
     <georss:point>38.89 -77.01</georss:point>
   </item>
   </channel>
