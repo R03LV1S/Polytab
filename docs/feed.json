@@ -23703,7 +23703,11 @@
         "lat": null,
         "lng": null,
         "website": "https://www.speiding.no/",
-        "socials": {},
+        "socials": {
+          "facebook": "https://www.facebook.com/speiding",
+          "instagram": "https://www.instagram.com/speiding",
+          "youtube": "https://www.youtube.com/user/NorgesSpeiderforbund"
+        },
         "parentCategory": "Charities"
       }
     },
@@ -813377,5 +813381,5 @@
       }
     }
   ],
-  "updated_at": "2026-11-20T15:01:45.399Z"
+  "updated_at": "2026-11-20T23:01:50.147Z"
 }
