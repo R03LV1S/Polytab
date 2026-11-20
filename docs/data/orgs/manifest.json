@@ -1,11 +1,11 @@
 {
   "schema_version": "3.0.0",
-  "generated_at_utc": "2026-11-19T20:41:16.974Z",
-  "total_verified_orgs": 24093,
+  "generated_at_utc": "2026-11-20T07:21:33.758Z",
+  "total_verified_orgs": 24097,
   "total_shards": 108,
   "summary_metrics": {
-    "added_this_cycle": 0,
-    "updated_this_cycle": 4,
+    "added_this_cycle": 4,
+    "updated_this_cycle": 30,
     "irs_revoked_purged_this_cycle": 0
   },
   "shards": [
@@ -42,7 +42,7 @@
       "country_iso2": "AR",
       "admin1_state_province": "NATIONAL",
       "count": 2,
-      "sha256": "235485270d35d15e94e5c15e0a37f078d6a16965bbaea4e85a22f0de326047b9"
+      "sha256": "5ebec73ac3f93679ba8823f1c0bcbf2d2fedcef10f10e6180fdf6b28dd2b00aa"
     },
     {
       "shard": "orgs/AT/NATIONAL.json",
@@ -244,15 +244,15 @@
       "shard": "orgs/GB/ENG-WLS.json",
       "country_iso2": "GB",
       "admin1_state_province": "ENG-WLS",
-      "count": 5004,
-      "sha256": "df512e4006d026e7bbe4f0d36f49151b19ebcc9953cf29855663981b7e3f08df"
+      "count": 5007,
+      "sha256": "27d5be894dc108a09e7a49f50cd5d3062a988c48f02be03238670b5d6cd477ac"
     },
     {
       "shard": "orgs/GB/NATIONAL.json",
       "country_iso2": "GB",
       "admin1_state_province": "NATIONAL",
       "count": 447,
-      "sha256": "15ab858be4c4e9d9fba2f9a1f28a3e292c39a310a2a57fde5bb72ced0cedd639"
+      "sha256": "b47af5e98dc32a52d5074857435bc5199c612c5bbbe0f5dd37744f1deb67361f"
     },
     {
       "shard": "orgs/GE/NATIONAL.json",
@@ -511,7 +511,7 @@
       "country_iso2": "NL",
       "admin1_state_province": "NATIONAL",
       "count": 5660,
-      "sha256": "8b89172d5f2d59fc257b50b936beaed1adbd3909ed055e765b9e214bfdbc9a91"
+      "sha256": "709103abe3a01fd01b5901b83f25e25dfe1f60a0e3feda15e833f003bfd94e76"
     },
     {
       "shard": "orgs/NO/NATIONAL.json",
@@ -713,8 +713,8 @@
       "shard": "orgs/UA/NATIONAL.json",
       "country_iso2": "UA",
       "admin1_state_province": "NATIONAL",
-      "count": 13,
-      "sha256": "9ca13836edc3544ab034984fd05b383903ede4bef5a2b22d2bc821d2eedb66f3"
+      "count": 14,
+      "sha256": "df16ba646e7795c0391a2ce79ebd9ed043133cbc023cb1514525e3a0d075ead9"
     },
     {
       "shard": "orgs/UG/NATIONAL.json",
@@ -728,7 +728,7 @@
       "country_iso2": "US",
       "admin1_state_province": "NATIONAL",
       "count": 163,
-      "sha256": "8d5a9b43e6cdd2472a6eced2835701da6537d01d4ee397b997998bf819d826a5"
+      "sha256": "e76e6dd69ea337c31ce0545af361c8c738500371de3a9d0f79d20e16ca0cba67"
     },
     {
       "shard": "orgs/VN/NATIONAL.json",

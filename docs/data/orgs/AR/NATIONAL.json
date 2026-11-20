@@ -28,7 +28,7 @@
     },
     {
       "registry_id": "IATI-AR:AR-CUIT-30-70806240-1",
-      "name": "Institute for Clinical Effectiveness and Health Policy",
+      "name": "Instituto de Efectividad Clínica y Sanitaria (IECS)",
       "status": "ACTIVE",
       "verification_tier": "TIER_1_AUDITED",
       "audit_verified": true,
@@ -45,8 +45,8 @@
       },
       "website": null,
       "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
-      "last_verified_utc": "2026-11-18T00:24:43.359Z",
-      "integrity_sha256": "42d8f7a2cfd819481b1fdcf5517950090121753a80869d18b159ca23bc38440d"
+      "last_verified_utc": "2026-11-20T07:21:33.642Z",
+      "integrity_sha256": "47f1a37dd9f80ac86e4d0e2e9cf89d825a169176bb1f26309b1ba53864409635"
     }
   ]
 }

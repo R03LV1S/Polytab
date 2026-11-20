@@ -2,7 +2,7 @@
   "schema_version": "3.0.0",
   "country_iso2": "UA",
   "admin1_state_province": "NATIONAL",
-  "count": 13,
+  "count": 14,
   "organizations": [
     {
       "registry_id": "IATI-UA:UA-COA-44916875",
@@ -177,6 +177,28 @@
       "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
       "last_verified_utc": "2026-11-18T00:24:43.361Z",
       "integrity_sha256": "04f5c936a9a427e0ee02586941a97d905bae936768aa79ae2cfcf05bfea77a77"
+    },
+    {
+      "registry_id": "IATI-UA:UA-EDR-38907831",
+      "name": "Bureau of Gender Strategies and Budgeting",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "UA",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-20T07:21:33.642Z",
+      "integrity_sha256": "8b90a48610e036c7f536d4e36e0cc51db10faf5538fb623cb5c536e4bbf4b743"
     },
     {
       "registry_id": "IATI-UA:UA-EDR-41210108",
