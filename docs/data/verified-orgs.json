@@ -2,8 +2,8 @@
   "schema_version": "3.0.0",
   "sharded": true,
   "manifest_path": "docs/data/orgs/manifest.json",
-  "merkle_root_sha256": "0e0bb70031f7820be459c5806e16ab975093a963beac98f10adb1a75004dee14",
-  "generated_at_utc": "2026-11-20T11:08:45.800Z",
+  "merkle_root_sha256": "ff0c74726581ea9a5631fbf5b97508010ed6748c52e4268ba8b3fd382790b949",
+  "generated_at_utc": "2026-11-20T20:26:09.863Z",
   "cost_policy": "ZERO_COST_KEYLESS_PUBLIC_REGISTRIES_ONLY",
   "total_verified_orgs": 24097,
   "total_shards": 108,
@@ -1534,7 +1534,7 @@
       },
       "website": null,
       "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
-      "last_verified_utc": "2026-11-20T11:08:45.674Z",
+      "last_verified_utc": "2026-11-20T20:26:09.711Z",
       "integrity_sha256": "90faa7a2f9039127879069098a9a1619bd32a19ddbfeaad608aca89e3e6e2321"
     },
     {
