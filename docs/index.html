@@ -529,6 +529,14 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         </button>
       </div>
       <div id="modalPayBlock" class="space-y-5">
+      <div id="modalPositionBlock" class="hidden space-y-2 rounded-xl border border-zinc-800 bg-zinc-950/60 p-3">
+        <div class="flex items-center justify-between gap-2">
+          <h3 id="modalPositionTitle" class="text-xs font-bold uppercase tracking-wider text-zinc-200">Choose a position</h3>
+          <span id="modalPositionModeBadge" class="text-[10px] font-mono px-2 py-0.5 rounded bg-zinc-800 text-zinc-300 border border-zinc-700">binary</span>
+        </div>
+        <p id="modalPositionHint" class="text-[11px] text-zinc-400 leading-relaxed"></p>
+        <div id="modalPositionOptions" class="space-y-2" role="radiogroup" aria-label="Select a position"></div>
+      </div>
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center bg-black p-4 rounded-xl border border-zinc-800">
         <div class="flex flex-col items-center text-center">
           <div id="modalQrBox" class="p-2.5 bg-white rounded-xl" role="img" aria-label="EIP-681 Payment QR Code"></div>
@@ -966,6 +974,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         connectedAddress: null,
         socialHandle: localStorage.getItem("polytab_handle") || "",
         activeModalProposal: null,
+        activeModalPositionKey: null,
         mapInstance: null,
         expandedParents: { [PARENT_VOTING]: true, [PARENT_SPECULATIVE]: false, [PARENT_CHARITIES]: false },
         showAllCategoriesSection: true,
@@ -1008,8 +1017,47 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         } catch (_) { state.orgWallets = new Map(); }
       }
 
+      function inferVoteModeForMeta(meta, id) {
+        if (meta && meta.voteMode) return String(meta.voteMode);
+        const idNum = Number(id);
+        const cat = String((meta && meta.category) || "");
+        const parent = String((meta && meta.parentCategory) || "");
+        if (parent === "Voting" || cat === "Public Office & Elections" || cat === "Policy & Governance Votes" || (Number.isFinite(idNum) && idNum >= 90000 && idNum < 100000)) return "binary_referendum";
+        return "direct_funding";
+      }
+      function resolvePositionsForMeta(meta, id, title) {
+        const mode = inferVoteModeForMeta(meta, id);
+        if (meta && Array.isArray(meta.positions) && meta.positions.length) return meta.positions.map(p => Object.assign({}, p));
+        if (mode === "direct_funding") {
+          return [{
+            key: "DIRECT",
+            label: "Fund this intervention",
+            shortLabel: "Fund intervention",
+            description: "Directly fund this verified intervention. 100% of your contribution goes to this campaign’s selected/verified beneficiary when unlocked (0% protocol fee, 0% staker payout).",
+            intent: "direct_fund",
+            beneficiary: { type: "single_beneficiary", organization: String((meta && meta.organization) || ""), wallet: null },
+            settlement: { mode: "single_beneficiary", walletSource: "effective_payable_wallet" }
+          }];
+        }
+        const subj = String(title || "this proposal");
+        return [
+          { key: "A", label: "Support stated proposal", shortLabel: "Support", description: "Back the stated proposal: " + subj, intent: "support", beneficiary: { type: "campaign_escrow", organization: String((meta && meta.organization) || ""), wallet: null }, settlement: { mode: "unified_escrow", walletSource: "escrow" } },
+          { key: "B", label: "Oppose stated proposal", shortLabel: "Oppose", description: "Oppose the stated proposal: " + subj, intent: "oppose", beneficiary: { type: "campaign_escrow", organization: String((meta && meta.organization) || ""), wallet: null }, settlement: { mode: "unified_escrow", walletSource: "escrow" } }
+        ];
+      }
+      function resolvePositionAccountingForMeta(meta, positions) {
+        const pa = meta && meta.positionAccounting;
+        if (pa && pa.positions && typeof pa.positions === "object") return pa;
+        const posMap = {};
+        (positions || []).forEach(p => { posMap[p.key] = { fundedUSD: 0, votesCount: 0 }; });
+        return { version: 1, positions: posMap, total: { fundedUSD: Number(meta && meta.fundedUSD) || 0, votesCount: Number(meta && meta.votesCount) || 0 } };
+      }
       function mapFeedItemToProposal(item, idx) {
         const meta = item._polytab || {};
+        const voteMode = inferVoteModeForMeta(meta, item.id);
+        const positions = resolvePositionsForMeta(meta, item.id, item.title);
+        const positionAccounting = resolvePositionAccountingForMeta(meta, positions);
+        const selectionPolicy = (meta && meta.selectionPolicy) ? meta.selectionPolicy : { requiresSelection: voteMode !== "direct_funding", multiSelect: false };
         const dp = (typeof item.date_published === "string" && item.date_published) ? Date.parse(item.date_published) : NaN;
         const cTypeRaw = String(meta.campaignType || meta.campaign_type || "").toLowerCase();
         const rawTarget = (meta.targetUSD === null || meta.targetUSD === undefined || meta.targetUSD === "") ? null : Number(meta.targetUSD);
@@ -1034,7 +1082,11 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           lng: (meta.lng === null || meta.lng === undefined || meta.lng === "") ? null : Number(meta.lng),
           website: (typeof meta.website === "string" && /^https?:\/\//i.test(meta.website)) ? meta.website.trim() : null,
           socials: (meta.socials && typeof meta.socials === "object" && !Array.isArray(meta.socials)) ? meta.socials : {},
-          datePublishedMs: Number.isFinite(dp) ? dp : 0
+          datePublishedMs: Number.isFinite(dp) ? dp : 0,
+          voteMode,
+          positions,
+          positionAccounting,
+          selectionPolicy
         };
         const w = orgWalletForId(prop.id);
         if (w) { prop.wallet = w; prop._walletOverride = w; }
@@ -2022,6 +2074,127 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           pager.appendChild(info);
         }
       }
+      function requiresPositionSelection(p) {
+        if (!p) return false;
+        const mode = String(p.voteMode || inferVoteModeForMeta({ category: p.category, parentCategory: p.parentCategory, voteMode: p.voteMode }, p.id));
+        const policy = p.selectionPolicy || {};
+        if (typeof policy.requiresSelection === "boolean") return policy.requiresSelection;
+        return mode !== "direct_funding";
+      }
+      function getModalPositions(p) {
+        if (!p) return [];
+        if (Array.isArray(p.positions) && p.positions.length) return p.positions;
+        return resolvePositionsForMeta({ category: p.category, parentCategory: p.parentCategory, organization: p.organization, voteMode: p.voteMode, positions: p.positions }, p.id, p.title);
+      }
+      function getSelectedModalPosition(p) {
+        const positions = getModalPositions(p);
+        if (!positions.length) return null;
+        if (!requiresPositionSelection(p)) return positions.find(x => x.key === "DIRECT") || positions[0];
+        return positions.find(x => x.key === state.activeModalPositionKey) || null;
+      }
+      function settlementWalletForSelected(p, pos) {
+        if (!p) return "";
+        const mode = String(p.voteMode || "direct_funding");
+        if (!pos) return payableWalletFor(p);
+        if (mode === "binary_futarchy_paired") {
+          if (pos.beneficiary && isValidAddress(pos.beneficiary.wallet)) return pos.beneficiary.wallet;
+          if (pos.beneficiary && pos.beneficiary.bountyId) {
+            const w = orgWalletForId(pos.beneficiary.bountyId) || walletForId(pos.beneficiary.bountyId);
+            if (isValidAddress(w)) return w;
+          }
+          if (isValidAddress(p.wallet) && orgClaimBadgeFor(p) !== "unclaimed") return p.wallet;
+          return "";
+        }
+        // binary_referendum (unified escrow) and direct_funding use existing payable wallet policy
+        return payableWalletFor(p);
+      }
+      function positionAccountingForKey(p, key) {
+        const pa = p && p.positionAccounting;
+        if (pa && pa.positions && pa.positions[key]) return pa.positions[key];
+        if (key === "DIRECT") return { fundedUSD: Number(p && p.fundedUSD) || 0, votesCount: Number(p && p.votesCount) || 0 };
+        return { fundedUSD: 0, votesCount: 0 };
+      }
+      function renderModalPositions() {
+        const p = state.activeModalProposal;
+        const block = document.getElementById("modalPositionBlock");
+        const options = document.getElementById("modalPositionOptions");
+        const hint = document.getElementById("modalPositionHint");
+        const title = document.getElementById("modalPositionTitle");
+        const badge = document.getElementById("modalPositionModeBadge");
+        if (!block || !options || !hint || !title || !badge) return;
+        if (!p || orgClaimBadgeFor(p) === "unclaimed") { block.classList.add("hidden"); options.replaceChildren(); return; }
+        const mode = String(p.voteMode || "direct_funding");
+        const positions = getModalPositions(p);
+        const required = requiresPositionSelection(p);
+        block.classList.remove("hidden");
+        options.replaceChildren();
+        if (mode === "direct_funding" || !required) {
+          state.activeModalPositionKey = (positions[0] && positions[0].key) || "DIRECT";
+          title.textContent = "Funding intent";
+          badge.textContent = "direct funding";
+          hint.textContent = "Single intervention funding: 100% of your contribution goes to this campaign’s selected/verified beneficiary when unlocked (0% protocol fee, 0% staker payout). No position split.";
+          const pos = getSelectedModalPosition(p) || positions[0];
+          const row = document.createElement("div");
+          row.className = "rounded-lg border border-emerald-500/30 bg-emerald-500/5 p-3";
+          const l = document.createElement("div");
+          l.className = "text-sm font-semibold text-emerald-200";
+          l.textContent = (pos && (pos.label || pos.shortLabel)) || "Fund this intervention";
+          const d = document.createElement("p");
+          d.className = "text-[11px] text-zinc-300 mt-1 leading-relaxed";
+          d.textContent = (pos && pos.description) || "";
+          row.appendChild(l); row.appendChild(d);
+          options.appendChild(row);
+          return;
+        }
+        title.textContent = "Choose a position";
+        badge.textContent = mode === "binary_referendum" ? "binary referendum" : "binary futarchy";
+        hint.textContent = mode === "binary_referendum"
+          ? "Select a position (required). Your stake is attributed to your chosen position and routed via campaign escrow under existing beneficiary policy (100% to chosen position’s recorded support stream, 0% protocol fee, 0% staker payout, no redistribution between positions)."
+          : "Select a position (required). 100% of your stake funds the verified beneficiary for the position you choose (0% protocol fee, 0% staker payout, no redistribution).";
+        positions.slice(0, 2).forEach((pos) => {
+          const key = String(pos.key || "");
+          const acct = positionAccountingForKey(p, key);
+          const selected = state.activeModalPositionKey === key;
+          const btn = document.createElement("button");
+          btn.type = "button";
+          btn.setAttribute("role", "radio");
+          btn.setAttribute("aria-checked", selected ? "true" : "false");
+          btn.className = "w-full text-left rounded-xl border p-3 transition " + (selected ? "border-purple-500 bg-purple-500/10" : "border-zinc-700 bg-black/40 hover:border-zinc-500");
+          btn.addEventListener("click", () => { state.activeModalPositionKey = key; renderModalPositions(); updateSupportModalPayment(); });
+          const top = document.createElement("div");
+          top.className = "flex items-start justify-between gap-2";
+          const left = document.createElement("div");
+          const k = document.createElement("div");
+          k.className = "text-[10px] font-mono text-zinc-400";
+          k.textContent = "Position " + key;
+          const lbl = document.createElement("div");
+          lbl.className = "text-sm font-semibold text-white mt-0.5";
+          lbl.textContent = pos.label || ("Position " + key);
+          left.appendChild(k); left.appendChild(lbl);
+          const stat = document.createElement("div");
+          stat.className = "text-[10px] font-mono text-zinc-400 text-right";
+          stat.textContent = "$" + Number(acct.fundedUSD || 0).toFixed(2) + " · " + Number(acct.votesCount || 0) + "u";
+          top.appendChild(left); top.appendChild(stat);
+          const desc = document.createElement("p");
+          desc.className = "text-[11px] text-zinc-300 mt-2 leading-relaxed";
+          desc.textContent = pos.description || "";
+          btn.appendChild(top); btn.appendChild(desc);
+          if (mode === "binary_futarchy_paired") {
+            const dest = settlementWalletForSelected(p, pos);
+            const destP = document.createElement("p");
+            destP.className = "text-[10px] text-zinc-400 mt-2 font-mono break-all";
+            destP.textContent = "Destination: " + (dest || "Unavailable until verified/assigned");
+            btn.appendChild(destP);
+          }
+          options.appendChild(btn);
+        });
+        if (required && !state.activeModalPositionKey) {
+          const warn = document.createElement("p");
+          warn.className = "text-[11px] text-amber-300";
+          warn.textContent = "Select Position A or B to continue.";
+          options.appendChild(warn);
+        }
+      }
       function currentSupportSelection() {
         const p = state.activeModalProposal;
         const minUnit = Number(p && p.votePriceUSD) > 0 ? Number(p.votePriceUSD) : 0.5;
@@ -2033,12 +2206,15 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       }
       function updateSupportModalPayment() {
         const p = state.activeModalProposal;
-        const payWallet = payableWalletFor(p);
+        const selPos = getSelectedModalPosition(p);
+        const payWallet = settlementWalletForSelected(p, selPos);
         const sendBtn = document.getElementById("sendEvmVoteBtn");
         if (!p || !payWallet) {
           const qrBox = document.getElementById("modalQrBox");
           if (qrBox) qrBox.replaceChildren();
-          if (sendBtn) { sendBtn.disabled = true; sendBtn.textContent = "Payment unavailable (unverified or invalid wallet)"; }
+          if (sendBtn) { sendBtn.disabled = true; sendBtn.textContent = "Payment unavailable (select position or verified wallet required)"; }
+          const w = document.getElementById("modalWallet");
+          if (w) w.textContent = payWallet || "Unavailable (select position or verified payout wallet)";
           return;
         }
         if (sendBtn) sendBtn.disabled = false;
@@ -2047,8 +2223,11 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         const approxEth = (totalUsd / ethRate).toFixed(6);
         const approxWei = String(Math.round((totalUsd / ethRate) * 1e18));
         const totalEl = document.getElementById("supportTotalText");
-        if (totalEl) totalEl.textContent = `Total: $${totalUsd.toFixed(2)} USD (${units} unit${units===1?"":"s"} × $${minUnit.toFixed(2)} min) ≈ ${approxEth} ETH (@ ~$${Math.round(ethRate)}/ETH spot). "Votes" are support units, not democratic votes. Native conversion is estimated — confirm exact amount in your wallet.`;
-        const eip681 = `ethereum:${payWallet}@${BASE_CHAIN_ID}?value=${approxWei}`;
+        const posNote = selPos ? (" Selected position: " + selPos.key + " — " + (selPos.shortLabel || selPos.label || "")) : "";
+        if (totalEl) totalEl.textContent = "Total: $" + totalUsd.toFixed(2) + " USD (" + units + " unit" + (units===1?"":"s") + " × $" + minUnit.toFixed(2) + " min) ≈ " + approxEth + " ETH (@ ~$" + Math.round(ethRate) + "/ETH spot)." + posNote + " Support units are not democratic votes; contributions fund the selected/verified beneficiary per campaign rules (no protocol fee, no staker payout).";
+        const w = document.getElementById("modalWallet");
+        if (w) w.textContent = payWallet;
+        const eip681 = "ethereum:" + payWallet + "@" + BASE_CHAIN_ID + "?value=" + approxWei;
         const qrBox = document.getElementById("modalQrBox");
         if (qrBox) {
           qrBox.replaceChildren();
@@ -2056,10 +2235,15 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
             new QRCode(qrBox, { text: eip681, width: 140, height: 140, colorDark: "#000000", colorLight: "#ffffff", correctLevel: QRCode.CorrectLevel.M });
           }
         }
-        if (sendBtn) sendBtn.textContent = `1. Send $${totalUsd.toFixed(2)} Support via Browser Wallet`;
+        if (sendBtn) {
+          if (requiresPositionSelection(p) && !selPos) sendBtn.textContent = "Select a position to continue";
+          else if (String(p.voteMode || "direct_funding") === "direct_funding") sendBtn.textContent = "1. Fund $" + totalUsd.toFixed(2) + " (this intervention)";
+          else sendBtn.textContent = "1. Back " + (selPos ? ("Position " + selPos.key) : "selected position") + " — $" + totalUsd.toFixed(2);
+        }
       }
       function openActionModal(proposal) {
         state.activeModalProposal = proposal;
+        state.activeModalPositionKey = null;
         const unclaimed = orgClaimBadgeFor(proposal) === "unclaimed";
         const payBlock = document.getElementById("modalPayBlock");
         const lockBlock = document.getElementById("modalLockBlock");
@@ -2073,9 +2257,14 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           const claimLink = document.getElementById("modalClaimLink");
           if (claimLink) claimLink.href = orgClaimIssueUrl(proposal);
         } else {
-          const payWallet = payableWalletFor(proposal);
-          document.getElementById("modalVotePrice").textContent = `$${proposal.votePriceUSD.toFixed(2)} USD minimum per unit (Base L2)`;
-          document.getElementById("modalWallet").textContent = payWallet || "Unavailable (invalid or unverified payout wallet)";
+          if (!requiresPositionSelection(proposal)) {
+            const positions = getModalPositions(proposal);
+            state.activeModalPositionKey = (positions[0] && positions[0].key) || "DIRECT";
+          }
+          renderModalPositions();
+          const payWallet = settlementWalletForSelected(proposal, getSelectedModalPosition(proposal));
+          document.getElementById("modalVotePrice").textContent = "$" + proposal.votePriceUSD.toFixed(2) + " USD minimum per unit (Base L2)";
+          document.getElementById("modalWallet").textContent = payWallet || "Unavailable (select position or verified payout wallet)";
           const unitsInput = document.getElementById("supportUnitsInput");
           if (unitsInput) unitsInput.value = "1";
           updateSupportModalPayment();
@@ -2084,6 +2273,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         modal.classList.remove("hidden");
         modal.classList.add("flex");
       }
+
       function closeActionModal() {
         const modal = document.getElementById("actionModal");
         modal.classList.add("hidden");
@@ -2124,8 +2314,10 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         const p = state.activeModalProposal;
         if (!p) return;
         if (orgClaimBadgeFor(p) === "unclaimed") { alert("Contributions are locked until the organization verifies this bounty page."); return; }
-        const to = payableWalletFor(p);
-        if (!to) { alert("Invalid or unverified payout wallet. Payment was blocked."); return; }
+        const selPos = getSelectedModalPosition(p);
+        if (requiresPositionSelection(p) && !selPos) { alert("Please select Position A or B before sending."); return; }
+        const to = settlementWalletForSelected(p, selPos);
+        if (!to) { alert("Invalid or unavailable payout/escrow wallet for the selected position. Payment was blocked."); return; }
         if (typeof window.ethereum === "undefined") { alert("No browser Web3 wallet detected. You can still contribute via QR codes, ZK-Email, or SMS!"); return; }
         const btn = document.getElementById("sendEvmVoteBtn");
         const origText = btn.textContent;
@@ -2144,37 +2336,41 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           document.getElementById("txHashInput").value = tx.hash;
           btn.textContent = "Awaiting confirmation...";
           const receipt = await tx.wait(1);
+          const posLabel = selPos ? ("\nPosition: " + selPos.key + " — " + (selPos.shortLabel || selPos.label || "")) : "";
           if (receipt && receipt.status === 1) {
-            alert(`Support transaction confirmed on Base (${units} unit${units===1?"":"s"}, ~$${totalUsd.toFixed(2)} est., ${approxEth} ETH)!\n\nTX Hash: ${tx.hash}\n\nYour TX hash has been auto-filled below. Click 'Verify TX via GitHub Issue' to record it.`);
+            alert("Support transaction confirmed on Base (" + units + " unit" + (units===1?"":"s") + ", ~$" + totalUsd.toFixed(2) + " est., " + approxEth + " ETH)!" + posLabel + "\n\nTX Hash: " + tx.hash + "\n\nYour TX hash has been auto-filled below. Click 'Verify TX via GitHub Issue' to record it.");
           } else {
-            alert(`Transaction broadcast (${tx.hash}), but receipt indicated an unexpected status. Please verify on BaseScan.`);
+            alert("Transaction broadcast (" + tx.hash + "), but receipt indicated an unexpected status." + posLabel + " Please verify on BaseScan.");
           }
         } catch (err) {
           alert("Transaction canceled or failed: " + (err && err.message ? err.message : "Unknown error"));
         } finally {
           btn.disabled = false;
           btn.textContent = origText;
+          updateSupportModalPayment();
         }
       });
       document.getElementById("printFlyerBtn").addEventListener("click", () => {
         const p = state.activeModalProposal;
         if (!p) return;
-        const to = payableWalletFor(p);
-        if (!to) { alert("This campaign is locked or has an invalid/unverified payout wallet. Printing a payment QR is disabled."); return; }
+        const selPos = getSelectedModalPosition(p);
+        if (requiresPositionSelection(p) && !selPos) { alert("Please select Position A or B before printing a payment QR."); return; }
+        const to = settlementWalletForSelected(p, selPos);
+        if (!to) { alert("This campaign/position is locked or has an invalid/unverified payout wallet. Printing a payment QR is disabled."); return; }
         const { units, totalUsd } = currentSupportSelection();
         const ethRate = (typeof ethUsdSpot === "number" && ethUsdSpot > 0) ? ethUsdSpot : 2800;
         const approxEth = (totalUsd / ethRate).toFixed(6);
         const isOpenEnded = p.campaignType === "open_ended" || p.targetUSD == null || p.targetUSD <= 0;
-        document.getElementById("printFlyerTitle").textContent = p.title;
-        document.getElementById("printFlyerMeta").textContent = `${p.category} • ${p.location} • ${isOpenEnded ? "Open-ended campaign" : "Target: $" + Number(p.targetUSD).toFixed(2)}`;
+        document.getElementById("printFlyerTitle").textContent = p.title + (selPos ? (" — Position " + selPos.key) : "");
+        document.getElementById("printFlyerMeta").textContent = (p.category || "") + " • " + (p.location || "") + " • " + (isOpenEnded ? "Open-ended campaign" : "Target: $" + Number(p.targetUSD).toFixed(2)) + (selPos ? (" • Position " + selPos.key + ": " + (selPos.shortLabel || selPos.label || "")) : "");
         document.getElementById("printFlyerDesc").textContent = state.plainLanguageMode ? p.plainSummary : p.summary;
-        document.getElementById("printFlyerPrice").textContent = `Scan to contribute ~$${totalUsd.toFixed(2)} est. (~${approxEth} ETH, ${units} support unit${units===1?"":"s"}) on Base L2 (confirm exact amount in wallet)`;
-        document.getElementById("printFlyerWallet").textContent = `Payout Wallet (Base): ${to}`;
+        document.getElementById("printFlyerPrice").textContent = "Scan to contribute ~$" + totalUsd.toFixed(2) + " est. (~" + approxEth + " ETH, " + units + " support unit" + (units===1?"":"s") + ") on Base L2" + (selPos ? (" for Position " + selPos.key) : "") + " (confirm exact amount in wallet)";
+        document.getElementById("printFlyerWallet").textContent = "Destination Wallet (Base): " + to;
         const printQr = document.getElementById("printFlyerQr");
         printQr.replaceChildren();
         const approxWei = String(Math.round((totalUsd / ethRate) * 1e18));
         if (typeof QRCode !== "undefined") {
-          new QRCode(printQr, { text: `ethereum:${to}@${BASE_CHAIN_ID}?value=${approxWei}`, width: 200, height: 200, colorDark: "#000000", colorLight: "#ffffff", correctLevel: QRCode.CorrectLevel.M });
+          new QRCode(printQr, { text: "ethereum:" + to + "@" + BASE_CHAIN_ID + "?value=" + approxWei, width: 200, height: 200, colorDark: "#000000", colorLight: "#ffffff", correctLevel: QRCode.CorrectLevel.M });
         }
         window.print();
       });
@@ -2182,17 +2378,40 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         e.preventDefault();
         const p = state.activeModalProposal;
         if (!p) return;
-        const to = payableWalletFor(p);
-        if (!to) { alert("This campaign is locked or has an invalid/unverified payout wallet. Verification submission is disabled."); return; }
+        const selPos = getSelectedModalPosition(p);
+        if (requiresPositionSelection(p) && !selPos) { alert("Please select Position A or B before submitting verification."); return; }
+        const to = settlementWalletForSelected(p, selPos);
+        if (!to) { alert("This campaign/position is locked or has an invalid/unverified payout wallet. Verification submission is disabled."); return; }
         const txHash = document.getElementById("txHashInput").value.trim();
         const handle = document.getElementById("voterHandleInput").value.trim() || state.socialHandle || "anonymous";
         if (!isValidTxHash(txHash)) { alert("Invalid Transaction Hash. Must be 0x followed by 64 hexadecimal characters."); return; }
         const { units, minUnit, totalUsd } = currentSupportSelection();
         const ethRate = (typeof ethUsdSpot === "number" && ethUsdSpot > 0) ? ethUsdSpot : 2800;
         const approxEth = +(totalUsd / ethRate).toFixed(8);
-        const payload = JSON.stringify({ project_id: p.id, project_wallet: to, tx_hash: txHash, voter_handle: handle, support_units: units, amount_usd: totalUsd, amount_usd_estimate_ui: totalUsd, eth_usd_spot_rate: ethRate, amount_eth_estimate: approxEth, min_unit_price_usd: minUnit, campaign_type: (p.campaignType || "fixed") }, null, 2);
-        const params = new URLSearchParams({ title: `[Vote]: #${p.id} (${units}u, ${txHash.slice(0, 10)}...)`, labels: "cast-vote,pending-rpc-check", body: `### Automated Support/Vote Verification Queue\n\`\`\`json\n${payload}\n\`\`\`\n\n"Votes" are support units (not democratic votes). Contributions may continue beyond fixed targets and for open-ended campaigns. USD/native amounts in UI may be estimates; on-chain tx is authoritative.` });
-        window.open(`https://github.com/${GITHUB_OWNER}/${GITHUB_REPO}/issues/new?${params.toString()}`, "_blank", "noopener");
+        const voteMode = String(p.voteMode || "direct_funding");
+        const payloadObj = {
+          project_id: p.id,
+          project_wallet: to,
+          tx_hash: txHash,
+          voter_handle: handle,
+          support_units: units,
+          amount_usd: totalUsd,
+          amount_usd_estimate_ui: totalUsd,
+          eth_usd_spot_rate: ethRate,
+          amount_eth_estimate: approxEth,
+          min_unit_price_usd: minUnit,
+          campaign_type: (p.campaignType || "fixed"),
+          vote_mode: voteMode,
+          position_key: selPos ? selPos.key : "DIRECT",
+          position_label: selPos ? (selPos.label || selPos.shortLabel || selPos.key) : "Fund this intervention",
+          position_intent: selPos ? (selPos.intent || "") : "direct_fund",
+          settlement_mode: selPos && selPos.settlement && selPos.settlement.mode ? selPos.settlement.mode : (voteMode === "direct_funding" ? "single_beneficiary" : "unified_escrow")
+        };
+        const payload = JSON.stringify(payloadObj, null, 2);
+        const posTag = selPos && selPos.key !== "DIRECT" ? (" pos " + selPos.key) : "";
+        const bodyText = "### Automated Support/Vote Verification Queue\n```json\n" + payload + "\n```\n\n\"Support units\" are not democratic votes. Position selection (when applicable) attributes this contribution to the chosen position; settlement follows campaign rules (no protocol fee, no staker payout, no custody). USD/native amounts in UI may be estimates; on-chain tx is authoritative.";
+        const params = new URLSearchParams({ title: "[Vote]: #" + p.id + posTag + " (" + units + "u, " + txHash.slice(0, 10) + "...)", labels: "cast-vote,pending-rpc-check", body: bodyText });
+        window.open("https://github.com/" + GITHUB_OWNER + "/" + GITHUB_REPO + "/issues/new?" + params.toString(), "_blank", "noopener");
       });
       document.getElementById("supportUnitsInput").addEventListener("input", updateSupportModalPayment);
       document.getElementById("supportUnitsInput").addEventListener("change", updateSupportModalPayment);
@@ -2200,9 +2419,9 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         const p = state.activeModalProposal;
         if (!p) return;
         if (orgClaimBadgeFor(p) === "unclaimed") { alert("This campaign is locked until organization verification is completed."); return; }
-        const to = payableWalletFor(p) || (isValidAddress(effectiveWalletFor(p)) ? String(effectiveWalletFor(p)) : "unavailable");
-        const params = new URLSearchParams({ title: `[Proof of Completion]: #${p.id} - ${p.title}`, labels: "proof-of-work,48h-challenge-window", body: [`### Proof-of-Completion Oracle Submission`, `- **Project ID:** ${p.id}`, `- **Payout Wallet (Beneficiary, Base):** \`${to}\``, `- **Worker Payout Address:** \`0x...\``, `- **IPFS / R2 / TikTok Proof Media URL:** \`https://...\``, `- **48h Public Dispute Window:** Yes`].join("\n") });
-        window.open(`https://github.com/${GITHUB_OWNER}/${GITHUB_REPO}/issues/new?${params.toString()}`, "_blank", "noopener");
+        const to = settlementWalletForSelected(p, getSelectedModalPosition(p)) || (isValidAddress(effectiveWalletFor(p)) ? String(effectiveWalletFor(p)) : "unavailable");
+        const params = new URLSearchParams({ title: "[Proof of Completion]: #" + p.id + " - " + p.title, labels: "proof-of-work,48h-challenge-window", body: ["### Proof-of-Completion Oracle Submission", "- **Project ID:** " + p.id, "- **Payout/Settlement Wallet (Base):** `" + to + "`", "- **Worker Payout Address:** `0x...`", "- **IPFS / R2 / TikTok Proof Media URL:** `https://...`", "- **48h Public Dispute Window:** Yes"].join("\n") });
+        window.open("https://github.com/" + GITHUB_OWNER + "/" + GITHUB_REPO + "/issues/new?" + params.toString(), "_blank", "noopener");
       });
       const tabButtons = document.querySelectorAll(".nav-tab-btn");
       const tabPanels = document.querySelectorAll(".tab-panel");

@@ -2,131 +2,1453 @@
   "1": {
     "total_votes": 0,
     "total_raised_usd": 0,
-    "records": []
+    "records": [],
+    "voteMode": "direct_funding",
+    "positions": {
+      "DIRECT": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
   },
   "2": {
     "total_votes": 0,
     "total_raised_usd": 0,
-    "records": []
+    "records": [],
+    "voteMode": "direct_funding",
+    "positions": {
+      "DIRECT": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
   },
   "3": {
     "total_votes": 0,
     "total_raised_usd": 0,
-    "records": []
+    "records": [],
+    "voteMode": "direct_funding",
+    "positions": {
+      "DIRECT": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
   },
   "4": {
     "total_votes": 0,
     "total_raised_usd": 0,
-    "records": []
+    "records": [],
+    "voteMode": "direct_funding",
+    "positions": {
+      "DIRECT": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
   },
   "5": {
     "total_votes": 0,
     "total_raised_usd": 0,
-    "records": []
+    "records": [],
+    "voteMode": "direct_funding",
+    "positions": {
+      "DIRECT": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92001": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92002": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92003": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92004": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92005": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92006": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92007": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92008": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92009": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92010": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92011": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92012": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92013": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92014": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92015": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92016": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92017": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92018": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92019": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92020": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92021": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92022": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92023": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92024": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92025": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92026": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92027": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92028": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92029": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92030": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92031": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92032": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92033": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92034": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92035": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92036": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92037": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92038": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92039": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92040": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92041": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92042": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92043": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "92044": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "93001": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "93002": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "93003": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "93004": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
   },
   "93005": {
     "total_votes": 0,
     "total_raised_usd": 0,
-    "records": []
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
   },
   "93006": {
     "total_votes": 0,
     "total_raised_usd": 0,
-    "records": []
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
   },
   "93007": {
     "total_votes": 0,
     "total_raised_usd": 0,
-    "records": []
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
   },
   "93008": {
     "total_votes": 0,
     "total_raised_usd": 0,
-    "records": []
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
   },
   "93009": {
     "total_votes": 0,
     "total_raised_usd": 0,
-    "records": []
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
   },
   "93010": {
     "total_votes": 0,
     "total_raised_usd": 0,
-    "records": []
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
   },
   "93011": {
     "total_votes": 0,
     "total_raised_usd": 0,
-    "records": []
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
   },
   "93012": {
     "total_votes": 0,
     "total_raised_usd": 0,
-    "records": []
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
   },
   "93013": {
     "total_votes": 0,
     "total_raised_usd": 0,
-    "records": []
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
   },
   "93014": {
     "total_votes": 0,
     "total_raised_usd": 0,
-    "records": []
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
   },
   "93015": {
     "total_votes": 0,
     "total_raised_usd": 0,
-    "records": []
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
   },
   "93016": {
     "total_votes": 0,
     "total_raised_usd": 0,
-    "records": []
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
   },
   "93017": {
     "total_votes": 0,
     "total_raised_usd": 0,
-    "records": []
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
   },
   "93018": {
     "total_votes": 0,
     "total_raised_usd": 0,
-    "records": []
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
   },
   "93019": {
     "total_votes": 0,
     "total_raised_usd": 0,
-    "records": []
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
   },
   "93020": {
     "total_votes": 0,
     "total_raised_usd": 0,
-    "records": []
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
   },
   "93021": {
     "total_votes": 0,
     "total_raised_usd": 0,
-    "records": []
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
   },
   "93022": {
     "total_votes": 0,
     "total_raised_usd": 0,
-    "records": []
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
   },
   "93023": {
     "total_votes": 0,
     "total_raised_usd": 0,
-    "records": []
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
   },
   "93024": {
     "total_votes": 0,
     "total_raised_usd": 0,
-    "records": []
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
   },
   "93025": {
     "total_votes": 0,
     "total_raised_usd": 0,
-    "records": []
-  }
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "93026": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "93027": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "93028": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "93029": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "93030": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "93031": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "93032": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "93033": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "schemaVersion": 2
 }

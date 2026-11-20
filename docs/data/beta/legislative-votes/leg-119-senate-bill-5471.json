@@ -15,7 +15,7 @@
     "chamber": "senate",
     "bill_type": "senate_bill",
     "number": 5471,
-    "display_id": "S. 5471",
+    "display_id": "S. 5471 (119th)",
     "govtrack_id": null,
     "title": "AI Systems Transparency Act",
     "short_title": "S. 5471",
@@ -76,7 +76,7 @@
     "status_after_activation": "active_voting_window"
   },
   "bounty_if_passed": {
-    "description": "Open-ended Policy & Governance Vote (litmus test) for S. 5471. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact (AI/energy/economic-fairness scope), finalized per campaign governance and verification.",
+    "description": "Open-ended Policy & Governance Vote (litmus test) for S. 5471. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
     "destination_type": "verified_charity_beneficiaries",
     "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
     "beneficiary_scope": "national",
@@ -153,7 +153,7 @@
   },
   "provenance": {
     "status": "beta_template",
-    "generated_at": "2026-11-20T15:05:29.116Z",
+    "generated_at": "2026-11-20T18:09:34.158Z",
     "generated_on": "2026-11-20",
     "generator": "scripts/generate-legislative-vote-template.js",
     "congress": 119,

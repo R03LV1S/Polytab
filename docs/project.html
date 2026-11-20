@@ -95,6 +95,15 @@
         </div>
       </section>
 
+      <section id="positionsSection" class="card p-5 space-y-3 hidden">
+        <div class="flex items-center justify-between gap-2 flex-wrap">
+          <h2 class="text-sm font-bold text-white uppercase tracking-wider">Positions & Funding Intent</h2>
+          <span id="positionsModeBadge" class="text-[11px] font-mono px-2 py-0.5 rounded bg-zinc-800 text-zinc-300 border border-zinc-700">mode</span>
+        </div>
+        <p id="positionsHint" class="text-xs text-zinc-400 leading-relaxed"></p>
+        <div id="positionsList" class="grid grid-cols-1 md:grid-cols-2 gap-3"></div>
+      </section>
+
       <section class="grid grid-cols-1 lg:grid-cols-3 gap-5">
         <div class="card p-5 space-y-2">
           <h2 class="text-sm font-bold text-white uppercase tracking-wider">People Involved</h2>
@@ -298,6 +307,44 @@
           const rawTarget = (m.targetUSD === null || m.targetUSD === undefined || m.targetUSD === "") ? null : Number(m.targetUSD);
           const cTypeRaw = String(m.campaignType || m.campaign_type || "").toLowerCase();
           const cType = cTypeRaw === "open_ended" ? "open_ended" : (cTypeRaw === "fixed" ? "fixed" : ((rawTarget == null) ? "open_ended" : "fixed"));
+          function inferVoteModeForMeta(meta, id) {
+            if (meta && meta.voteMode) return String(meta.voteMode);
+            const idNum = Number(id);
+            const cat = String((meta && meta.category) || "");
+            const parent = String((meta && meta.parentCategory) || "");
+            if (parent === "Voting" || cat === "Public Office & Elections" || cat === "Policy & Governance Votes" || (Number.isFinite(idNum) && idNum >= 90000 && idNum < 100000)) return "binary_referendum";
+            return "direct_funding";
+          }
+          function resolvePositionsForMeta(meta, id, title) {
+            const mode = inferVoteModeForMeta(meta, id);
+            if (meta && Array.isArray(meta.positions) && meta.positions.length) return meta.positions.map(p => Object.assign({}, p));
+            if (mode === "direct_funding") {
+              return [{
+                key: "DIRECT",
+                label: "Fund this intervention",
+                shortLabel: "Fund intervention",
+                description: "Directly fund this verified intervention. 100% of your contribution goes to this campaign’s selected/verified beneficiary when unlocked (0% protocol fee, 0% staker payout).",
+                intent: "direct_fund",
+                beneficiary: { type: "single_beneficiary", organization: String((meta && meta.organization) || ""), wallet: null },
+                settlement: { mode: "single_beneficiary", walletSource: "effective_payable_wallet" }
+              }];
+            }
+            const subj = String(title || "this proposal");
+            return [
+              { key: "A", label: "Support stated proposal", shortLabel: "Support", description: "Back the stated proposal: " + subj, intent: "support", beneficiary: { type: "campaign_escrow", organization: String((meta && meta.organization) || ""), wallet: null }, settlement: { mode: "unified_escrow", walletSource: "escrow" } },
+              { key: "B", label: "Oppose stated proposal", shortLabel: "Oppose", description: "Oppose the stated proposal: " + subj, intent: "oppose", beneficiary: { type: "campaign_escrow", organization: String((meta && meta.organization) || ""), wallet: null }, settlement: { mode: "unified_escrow", walletSource: "escrow" } }
+            ];
+          }
+          function resolvePositionAccountingForMeta(meta, positions) {
+            const pa = meta && meta.positionAccounting;
+            if (pa && pa.positions && typeof pa.positions === "object") return pa;
+            const posMap = {};
+            (positions || []).forEach(p => { posMap[p.key] = { fundedUSD: 0, votesCount: 0 }; });
+            return { version: 1, positions: posMap, total: { fundedUSD: Number(meta && meta.fundedUSD) || 0, votesCount: Number(meta && meta.votesCount) || 0 } };
+          }
+          const voteMode = inferVoteModeForMeta(m, raw.id);
+          const positions = resolvePositionsForMeta(m, raw.id, raw.title);
+          const positionAccounting = resolvePositionAccountingForMeta(m, positions);
           const item = {
             id: String(raw.id),
             title: String(raw.title || "Untitled Project"),
@@ -317,7 +364,11 @@
             website: m.website || null,
             socials: (m.socials && typeof m.socials === "object") ? m.socials : {},
             date_published: raw.date_published || null,
-            details: (m.details && typeof m.details === "object") ? m.details : {}
+            details: (m.details && typeof m.details === "object") ? m.details : {},
+            voteMode,
+            positions,
+            positionAccounting,
+            selectionPolicy: (m && m.selectionPolicy) ? m.selectionPolicy : { requiresSelection: voteMode !== "direct_funding", multiSelect: false }
           };
 
           document.title = item.title + " — Polytab";
@@ -375,7 +426,9 @@
           const escrowNote = document.getElementById("escrowNote");
           if (escrowNote) {
             if (isVoting) {
-              escrowNote.textContent = "Active Futarchy Referendum — votes deposit into the Polytab Escrow Wallet (Base USDC). At $10,000, a 60-day countdown begins to fund the winning outcome.";
+              escrowNote.textContent = (item.voteMode === "binary_referendum")
+                ? "Binary referendum (position-attributed): choose Position A or B in the action dialog. Contributions route via campaign escrow under existing beneficiary policy (100% to chosen position’s recorded support stream, 0% protocol fee, 0% staker payout, no redistribution between positions). Honest-zero until verified on-chain votes."
+                : "Futarchy campaign: choose the position/outcome you back. 100% funds the selected verified destination per campaign rules (0% protocol fee, 0% staker payout, no redistribution).";
               escrowNote.className = "text-[10px] text-cyan-300 mt-1";
             } else if (isLocked) {
               escrowNote.textContent = "Contributions are disabled on this page until the named organization verifies (registry + domain). Nothing is collected; nothing transits Polytab.";
@@ -561,9 +614,9 @@
           const buy = document.getElementById("buyAction");
           if (isVoting) {
             buy.href = "./index.html#" + encodeURIComponent(item.id);
-            buy.textContent = "Cast Vote ($" + item.votePriceUSD.toFixed(2) + " min / vote)";
+            buy.textContent = "Choose Position A/B & Contribute (min $" + item.votePriceUSD.toFixed(2) + " / unit)";
             buy.className = "inline-flex items-center justify-center px-4 py-2.5 rounded-xl bg-purple-700 hover:bg-purple-600 text-white text-xs font-bold transition";
-            buy.title = "Cast an on-chain vote on this resolution via Base USDC.";
+            buy.title = "Select Position A or B in the action dialog before sending (position-attributed support).";
           } else if (isLocked) {
             buy.href = orgClaimIssueUrl(item);
             buy.textContent = "Is This Your Org? Claim This Page";
@@ -571,12 +624,51 @@
             buy.title = "Contributions unlock after org verification. If you represent this organization, claim the page.";
           } else {
             buy.href = "./index.html#" + encodeURIComponent(item.id);
-            buy.textContent = "Support / Contribute (min $" + item.votePriceUSD.toFixed(2) + " per unit)";
+            buy.textContent = "Fund this intervention (min $" + item.votePriceUSD.toFixed(2) + " / unit)";
             buy.className = "inline-flex items-center justify-center px-4 py-2.5 rounded-xl bg-purple-700 hover:bg-purple-600 text-white text-xs font-bold transition";
+            buy.title = "Direct intervention funding (single intent). 100% to selected/verified beneficiary when unlocked.";
           }
 
           escText(document.getElementById("summary"), item.summary || "No summary provided.");
           escText(document.getElementById("plainSummary"), item.plainSummary || "No project goals provided.");
+          const positionsSection = document.getElementById("positionsSection");
+          const positionsList = document.getElementById("positionsList");
+          const positionsHint = document.getElementById("positionsHint");
+          const positionsModeBadge = document.getElementById("positionsModeBadge");
+          if (positionsSection && positionsList && positionsHint && positionsModeBadge) {
+            positionsList.replaceChildren();
+            const mode = String(item.voteMode || "direct_funding");
+            positionsSection.classList.remove("hidden");
+            if (mode === "direct_funding") {
+              positionsModeBadge.textContent = "direct funding";
+              positionsHint.textContent = "Single intervention funding (explicit intent). 100% of contributions go to this campaign’s selected/verified beneficiary when unlocked (0% protocol fee, 0% staker payout, no custody).";
+              const pos = (item.positions && item.positions[0]) || { key: "DIRECT", label: "Fund this intervention", description: "Directly fund this verified intervention." };
+              const card = document.createElement("div");
+              card.className = "md:col-span-2 rounded-xl border border-emerald-500/30 bg-emerald-500/5 p-4";
+              const h = document.createElement("div"); h.className = "text-sm font-semibold text-emerald-200"; h.textContent = pos.label || "Fund this intervention";
+              const d = document.createElement("p"); d.className = "text-xs text-zinc-300 mt-1 leading-relaxed"; d.textContent = pos.description || "";
+              const st = document.createElement("p"); st.className = "text-[11px] text-zinc-400 mt-2 font-mono"; st.textContent = "Raised (honest-zero until verified): $" + Number(item.fundedUSD||0).toFixed(2) + " · " + Number(item.votesCount||0) + " support units";
+              card.appendChild(h); card.appendChild(d); card.appendChild(st);
+              positionsList.appendChild(card);
+            } else {
+              positionsModeBadge.textContent = mode === "binary_referendum" ? "binary referendum" : "binary futarchy";
+              positionsHint.textContent = mode === "binary_referendum"
+                ? "Choose Position A or B in the action dialog (required). Contributions are attributed to your chosen position and routed via campaign escrow under existing beneficiary policy (100% to chosen position’s recorded support stream, 0% protocol fee, 0% staker payout, no redistribution between positions). Honest-zero until verified on-chain votes."
+                : "Choose Position A or B in the action dialog (required). 100% of your stake funds the verified beneficiary for the selected position (0% protocol fee, 0% staker payout, no redistribution).";
+              (item.positions || []).slice(0,2).forEach((pos) => {
+                const key = String(pos.key || "");
+                const acct = (item.positionAccounting && item.positionAccounting.positions && item.positionAccounting.positions[key]) || { fundedUSD: 0, votesCount: 0 };
+                const card = document.createElement("div");
+                card.className = "rounded-xl border border-zinc-700 bg-black/30 p-4 space-y-1.5";
+                const k = document.createElement("div"); k.className = "text-[10px] font-mono text-zinc-400"; k.textContent = "Position " + key;
+                const h = document.createElement("div"); h.className = "text-sm font-semibold text-white"; h.textContent = pos.label || ("Position " + key);
+                const d = document.createElement("p"); d.className = "text-xs text-zinc-300 leading-relaxed"; d.textContent = pos.description || "";
+                const st2 = document.createElement("p"); st2.className = "text-[11px] text-zinc-400 font-mono"; st2.textContent = "Attributed (honest-zero until verified): $" + Number(acct.fundedUSD||0).toFixed(2) + " · " + Number(acct.votesCount||0) + " support units";
+                card.appendChild(k); card.appendChild(h); card.appendChild(d); card.appendChild(st2);
+                positionsList.appendChild(card);
+              });
+            }
+          }
 
           const d = item.details;
           // People involved: merge template data with published involvement submissions (docs/data/involvement.json)

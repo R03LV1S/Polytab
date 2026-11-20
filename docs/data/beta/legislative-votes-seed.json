@@ -554,6 +554,246 @@
         "discovered_at": "2026-11-20T15:05:29.122Z",
         "source_link": "https://clerk.house.gov/Votes/2026312"
       }
+    },
+    {
+      "enabled": true,
+      "feed_item_id": "93026",
+      "congress": 119,
+      "bill_type": "house_bill",
+      "number": 7254,
+      "govtrack_id": null,
+      "title": "Bay Area Ridge National Scenic Trail Feasibility Study Act",
+      "short_title": "Bay Area Ridge National Scenic Trail Feasibility Study Act",
+      "summary": "Directs the Secretary of the Interior to study the feasibility of designating the Bay Area Ridge Trail (about 550 miles around the San Francisco Bay Area) as a national scenic trail, in consultation with relevant agencies and organizations.",
+      "status": "active",
+      "sponsor": null,
+      "beneficiary_scope": "national",
+      "beneficiary_states": [],
+      "localities": [],
+      "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 7254. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
+      "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
+      "campaign_overrides": {
+        "funding_activation_threshold_usd": 10000,
+        "timer_duration_days": null
+      },
+      "auto_fetch": false,
+      "status_label": "Reported (amended) by House Natural Resources (H. Rept. 119-855, Oct 29, 2026); listed for possible House floor consideration under suspension (week of Nov 16, 2026)",
+      "source_url": "https://www.congress.gov/bill/119th-congress/house-bill/7254",
+      "_seed_meta": {
+        "source": "congress_gov_manual",
+        "discovered_at": "2026-11-20T18:01:33.455Z",
+        "source_link": "https://www.congress.gov/bill/119th-congress/house-bill/7254"
+      }
+    },
+    {
+      "enabled": true,
+      "feed_item_id": "93027",
+      "congress": 119,
+      "bill_type": "house_bill",
+      "number": 7934,
+      "govtrack_id": null,
+      "title": "Settlement Agreement Information Database Act of 2026",
+      "short_title": "Settlement Agreement Information Database Act of 2026",
+      "summary": "Amends federal law to require publication of federal settlement agreements and consent decrees in a public database to increase transparency in federal agencies.",
+      "status": "passed_house",
+      "sponsor": null,
+      "beneficiary_scope": "national",
+      "beneficiary_states": [],
+      "localities": [],
+      "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 7934. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
+      "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
+      "campaign_overrides": {
+        "funding_activation_threshold_usd": 10000,
+        "timer_duration_days": null
+      },
+      "auto_fetch": false,
+      "status_label": "Passed House under suspension of the rules by voice vote (Nov 18, 2026; engrossed in House)",
+      "source_url": "https://www.congress.gov/bill/119th-congress/house-bill/7934",
+      "_seed_meta": {
+        "source": "congress_gov_manual",
+        "discovered_at": "2026-11-20T18:01:33.458Z",
+        "source_link": "https://www.congress.gov/bill/119th-congress/house-bill/7934"
+      }
+    },
+    {
+      "enabled": true,
+      "feed_item_id": "93028",
+      "congress": 119,
+      "bill_type": "house_bill",
+      "number": 7954,
+      "govtrack_id": null,
+      "title": "Don Young Doug LaMalfa Indian Buffalo Management Act",
+      "short_title": "Don Young Doug LaMalfa Indian Buffalo Management Act",
+      "summary": "Directs the Department of the Interior to work with Indian Tribes and tribal organizations to support buffalo restoration and management on Indian lands through grants, contracts, technical assistance, and related authorities.",
+      "status": "passed_house",
+      "sponsor": null,
+      "beneficiary_scope": "national",
+      "beneficiary_states": [],
+      "localities": [],
+      "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 7954. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
+      "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
+      "campaign_overrides": {
+        "funding_activation_threshold_usd": 10000,
+        "timer_duration_days": null
+      },
+      "auto_fetch": false,
+      "status_label": "Passed House under suspension of the rules by voice vote (Nov 17, 2026); received in Senate (Nov 18, 2026)",
+      "source_url": "https://www.congress.gov/bill/119th-congress/house-bill/7954",
+      "_seed_meta": {
+        "source": "congress_gov_manual",
+        "discovered_at": "2026-11-20T18:01:33.458Z",
+        "source_link": "https://www.congress.gov/bill/119th-congress/house-bill/7954"
+      }
+    },
+    {
+      "enabled": true,
+      "feed_item_id": "93029",
+      "congress": 119,
+      "bill_type": "house_bill",
+      "number": 8195,
+      "govtrack_id": null,
+      "title": "Responsible Cormorant Management and Control Act of 2026",
+      "short_title": "Responsible Cormorant Management and Control Act of 2026",
+      "summary": "Requires the U.S. Fish and Wildlife Service to develop regional management frameworks for double-crested cormorants, including take parameters and conservation safeguards, in coordination with Regional Flyway Councils.",
+      "status": "passed_house",
+      "sponsor": null,
+      "beneficiary_scope": "national",
+      "beneficiary_states": [],
+      "localities": [],
+      "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 8195. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
+      "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
+      "campaign_overrides": {
+        "funding_activation_threshold_usd": 10000,
+        "timer_duration_days": null
+      },
+      "auto_fetch": false,
+      "status_label": "Passed House under suspension of the rules by voice vote, as amended (Nov 17, 2026); received in Senate and referred to Environment and Public Works (Nov 18, 2026)",
+      "source_url": "https://www.congress.gov/bill/119th-congress/house-bill/8195",
+      "_seed_meta": {
+        "source": "congress_gov_manual",
+        "discovered_at": "2026-11-20T18:01:33.458Z",
+        "source_link": "https://www.congress.gov/bill/119th-congress/house-bill/8195"
+      }
+    },
+    {
+      "enabled": true,
+      "feed_item_id": "93030",
+      "congress": 119,
+      "bill_type": "house_bill",
+      "number": 9785,
+      "govtrack_id": null,
+      "title": "South Dakota Water Feasibility Studies Act",
+      "short_title": "South Dakota Water Feasibility Studies Act",
+      "summary": "Directs the Department of the Interior to study the feasibility of Missouri River water supply projects for municipal, rural, and industrial use serving systems in South Dakota, Iowa, Minnesota, and Nebraska (including Western Dakota, Lewis and Clark, and Dakota Mainstem).",
+      "status": "passed_house",
+      "sponsor": null,
+      "beneficiary_scope": "national",
+      "beneficiary_states": [],
+      "localities": [],
+      "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 9785. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
+      "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
+      "campaign_overrides": {
+        "funding_activation_threshold_usd": 10000,
+        "timer_duration_days": null
+      },
+      "auto_fetch": false,
+      "status_label": "Passed House under suspension of the rules by voice vote, as amended (Nov 17, 2026); received in Senate (Nov 18, 2026)",
+      "source_url": "https://www.congress.gov/bill/119th-congress/house-bill/9785",
+      "_seed_meta": {
+        "source": "congress_gov_manual",
+        "discovered_at": "2026-11-20T18:01:33.458Z",
+        "source_link": "https://www.congress.gov/bill/119th-congress/house-bill/9785"
+      }
+    },
+    {
+      "enabled": true,
+      "feed_item_id": "93031",
+      "congress": 119,
+      "bill_type": "house_bill",
+      "number": 2400,
+      "govtrack_id": null,
+      "title": "Pit River Land Transfer Act of 2026",
+      "short_title": "Pit River Land Transfer Act of 2026",
+      "summary": "Takes approximately 557 acres of specified federal land (Four Corners property) in Shasta County, California, into trust for the benefit of the Pit River Tribe; prohibits gaming on the land.",
+      "status": "active",
+      "sponsor": null,
+      "beneficiary_scope": "national",
+      "beneficiary_states": [],
+      "localities": [],
+      "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 2400. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
+      "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
+      "campaign_overrides": {
+        "funding_activation_threshold_usd": 10000,
+        "timer_duration_days": null
+      },
+      "auto_fetch": false,
+      "status_label": "Passed House and Senate (Senate amendment); House agreed to Senate amendment by voice vote (Nov 17, 2026), clearing Congress for enrollment/presentation",
+      "source_url": "https://www.congress.gov/bill/119th-congress/house-bill/2400",
+      "_seed_meta": {
+        "source": "congress_gov_manual",
+        "discovered_at": "2026-11-20T18:01:33.458Z",
+        "source_link": "https://www.congress.gov/bill/119th-congress/house-bill/2400"
+      }
+    },
+    {
+      "enabled": true,
+      "feed_item_id": "93032",
+      "congress": 119,
+      "bill_type": "house_bill",
+      "number": 9497,
+      "govtrack_id": null,
+      "title": "Water Resources Development Act of 2026",
+      "short_title": "Water Resources Development Act of 2026",
+      "summary": "Authorizes and modifies U.S. Army Corps of Engineers water resources development projects and programs, including navigation, flood and storm risk management, and ecosystem restoration provisions.",
+      "status": "passed_house",
+      "sponsor": null,
+      "beneficiary_scope": "national",
+      "beneficiary_states": [],
+      "localities": [],
+      "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 9497. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
+      "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
+      "campaign_overrides": {
+        "funding_activation_threshold_usd": 10000,
+        "timer_duration_days": null
+      },
+      "auto_fetch": false,
+      "status_label": "Passed House under suspension of the rules, as amended (Roll Call 313, Sep 16, 2026, 415-9); received in Senate (Sep 17, 2026)",
+      "source_url": "https://www.congress.gov/bill/119th-congress/house-bill/9497",
+      "_seed_meta": {
+        "source": "congress_gov_manual",
+        "discovered_at": "2026-11-20T18:01:33.458Z",
+        "source_link": "https://www.congress.gov/bill/119th-congress/house-bill/9497"
+      }
+    },
+    {
+      "enabled": true,
+      "feed_item_id": "93033",
+      "congress": 119,
+      "bill_type": "house_bill",
+      "number": 3633,
+      "govtrack_id": null,
+      "title": "Digital Asset Market Clarity Act of 2025 (CLARITY Act)",
+      "short_title": "Digital Asset Market Clarity Act of 2025 (CLARITY Act)",
+      "summary": "Establishes a federal regulatory framework for digital commodities and digital asset markets, allocating jurisdiction and rulemaking responsibilities between the SEC and CFTC (as amended in congressional consideration).",
+      "status": "passed_house",
+      "sponsor": null,
+      "beneficiary_scope": "national",
+      "beneficiary_states": [],
+      "localities": [],
+      "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 3633. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
+      "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
+      "campaign_overrides": {
+        "funding_activation_threshold_usd": 10000,
+        "timer_duration_days": null
+      },
+      "auto_fetch": false,
+      "status_label": "Passed House (Roll Call 199, Jul 17, 2025, 294-134); in Senate (cloture on motion to proceed not invoked Sep 15, 2026, Record Vote 234; motion to reconsider entered)",
+      "source_url": "https://www.congress.gov/bill/119th-congress/house-bill/3633",
+      "_seed_meta": {
+        "source": "congress_gov_manual",
+        "discovered_at": "2026-11-20T18:01:33.458Z",
+        "source_link": "https://www.congress.gov/bill/119th-congress/house-bill/3633"
+      }
     }
   ]
 }

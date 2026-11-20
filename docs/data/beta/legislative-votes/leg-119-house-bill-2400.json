@@ -1,0 +1,165 @@
+{
+  "template_version": "pol-legislative-vote-beta-1",
+  "bounty_id": "leg-119-house-bill-2400",
+  "slug": "119-house-bill-2400-pit-river-land-transfer-act-of-2026",
+  "domain": "legislative",
+  "ui": {
+    "section": "Policy & Governance Votes",
+    "parent_category": "Voting",
+    "category": "Policy & Governance Votes",
+    "block": 93000
+  },
+  "legislation": {
+    "congress": 119,
+    "session": "119",
+    "chamber": "house",
+    "bill_type": "house_bill",
+    "number": 2400,
+    "display_id": "H.R. 2400 (119th)",
+    "govtrack_id": null,
+    "title": "Pit River Land Transfer Act of 2026",
+    "short_title": "Pit River Land Transfer Act of 2026",
+    "summary": "Takes approximately 557 acres of specified federal land (Four Corners property) in Shasta County, California, into trust for the benefit of the Pit River Tribe; prohibits gaming on the land.",
+    "status": "active",
+    "status_label": "Passed House and Senate (Senate amendment); House agreed to Senate amendment by voice vote (Nov 17, 2026), clearing Congress for enrollment/presentation",
+    "status_date": null,
+    "introduced_date": null,
+    "latest_action": null,
+    "sponsor": null,
+    "subjects": [],
+    "source_urls": [
+      "https://www.congress.gov/bill/119th-congress/house-bill/2400"
+    ]
+  },
+  "vote": {
+    "question": "[LITMUS TEST] H.R. 2400 (119th): \"Pit River Land Transfer Act of 2026\" — Should this measure pass as written? Cast your community vote (without middlemen) and compare community will with how representatives vote.",
+    "type": "advisory_yes_no",
+    "options": [
+      "Yes - Support passage",
+      "No - Oppose passage",
+      "Abstain"
+    ],
+    "litmus_test": {
+      "purpose": "Contrast community sentiment with representative roll-call votes (voting platform without middlemen).",
+      "community_vote": {
+        "yes": 0,
+        "no": 0,
+        "abstain": 0,
+        "source": "polytab_community"
+      },
+      "representative_votes": {
+        "house": {
+          "yes": null,
+          "no": null,
+          "not_voting": null,
+          "roll_call": null,
+          "source_url": null
+        },
+        "senate": {
+          "yes": null,
+          "no": null,
+          "not_voting": null,
+          "roll_call": null,
+          "source_url": null
+        },
+        "by_member": []
+      },
+      "comparison_note": "Populate representative_votes from official roll-call records to contrast with community results."
+    }
+  },
+  "campaign": {
+    "type": "open_ended",
+    "funding_activation_threshold_usd": 10000,
+    "timer_starts": "on_funding_activation_threshold_reached",
+    "timer_duration_days": null,
+    "status_before_activation": "open_for_funding",
+    "status_after_activation": "active_voting_window"
+  },
+  "bounty_if_passed": {
+    "description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 2400. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
+    "destination_type": "verified_charity_beneficiaries",
+    "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
+    "beneficiary_scope": "national",
+    "beneficiary_states": [],
+    "localities": [],
+    "eligible_beneficiaries": [
+      {
+        "ein": null,
+        "name": "FRIENDS OF WINCHESTER CATHEDRAL",
+        "city": null,
+        "state": null,
+        "source": "verified-orgs",
+        "registry_id": "GB-CHC:220218",
+        "source_url": null
+      },
+      {
+        "ein": null,
+        "name": "BRADBURY FIELDS SERVICES FOR BLIND AND PARTIALLY SIGHTED PEOPLE",
+        "city": null,
+        "state": null,
+        "source": "verified-orgs",
+        "registry_id": "GB-CHC:222798",
+        "source_url": null
+      },
+      {
+        "ein": null,
+        "name": "LEAGUE OF FRIENDS MUSGROVE PARK HOSPITAL",
+        "city": null,
+        "state": null,
+        "source": "verified-orgs",
+        "registry_id": "GB-CHC:250797",
+        "source_url": null
+      },
+      {
+        "ein": null,
+        "name": "COLEGIO DE EDUCACION ESPECIAL Y REHABILITACION INTEGRAL INC",
+        "city": null,
+        "state": null,
+        "source": "verified-orgs",
+        "registry_id": "US-EIN:660505420",
+        "source_url": null
+      },
+      {
+        "ein": null,
+        "name": "HOGAR AURORA INC",
+        "city": null,
+        "state": null,
+        "source": "verified-orgs",
+        "registry_id": "US-EIN:660586357",
+        "source_url": null
+      }
+    ]
+  },
+  "metrics": {
+    "fundedUSD": 0,
+    "votesCount": 0,
+    "targetUSD": 10000,
+    "honest_zero": true
+  },
+  "location": {
+    "label": "United States Capitol",
+    "address": "First St SE, Washington, DC 20004, USA",
+    "lat": 38.8899,
+    "lng": -77.0091
+  },
+  "payment": {
+    "chain": "base",
+    "chain_id": 8453,
+    "token": "USDC",
+    "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+    "qr_asset": "docs/escrow-qr.png",
+    "note": "Polytab wallet/QR (Base USDC). Claim-first, non-custodial routing; contributions settle per campaign policy once verified payout is unlocked.",
+    "payment_memo_or_slug": "leg-119-house-bill-2400"
+  },
+  "provenance": {
+    "status": "beta_template",
+    "generated_at": "2026-11-20T18:09:34.159Z",
+    "generated_on": "2026-11-20",
+    "generator": "scripts/generate-legislative-vote-template.js",
+    "congress": 119,
+    "sources": [
+      "seed_manifest"
+    ],
+    "review_required": true
+  }
+}

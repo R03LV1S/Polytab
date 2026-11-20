@@ -15,7 +15,7 @@
     "chamber": "house",
     "bill_type": "house_bill",
     "number": 8488,
-    "display_id": "H.R. 8488",
+    "display_id": "H.R. 8488 (119th)",
     "govtrack_id": null,
     "title": "AI Data Center Site Selection Transparency Act of 2026",
     "short_title": "H.R. 8488",
@@ -76,7 +76,7 @@
     "status_after_activation": "active_voting_window"
   },
   "bounty_if_passed": {
-    "description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 8488. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact (AI/energy/economic-fairness scope), finalized per campaign governance and verification.",
+    "description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 8488. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
     "destination_type": "verified_charity_beneficiaries",
     "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
     "beneficiary_scope": "national",
@@ -153,7 +153,7 @@
   },
   "provenance": {
     "status": "beta_template",
-    "generated_at": "2026-11-20T15:05:29.115Z",
+    "generated_at": "2026-11-20T18:09:34.158Z",
     "generated_on": "2026-11-20",
     "generator": "scripts/generate-legislative-vote-template.js",
     "congress": 119,

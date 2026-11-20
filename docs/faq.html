@@ -143,11 +143,11 @@
         <div class="howto-step"><div class="howto-num">3</div><div><strong>If the site says &ldquo;No browser Web3 wallet detected&rdquo;:</strong> open <code>brave://settings/crypto</code> (or search &ldquo;crypto&rdquo; in Brave&rsquo;s settings search) and set your <strong>default Ethereum wallet</strong> to Brave Wallet, then reload the page. Alternatively, skip connecting altogether and pay with the QR flow below &mdash; no connection needed.</div></div>
       </div>
 
-      <h3>Step-by-step: cast a micro-vote with Brave Wallet</h3>
+      <h3>Step-by-step: contribute with Brave Wallet (position-aware)</h3>
       <div class="space-y-3">
-        <div class="howto-step"><div class="howto-num">1</div><div>Open the project and click <strong>&ldquo;1. Send Micro-Vote via Browser Wallet&rdquo;</strong> in the action dialog.</div></div>
-        <div class="howto-step"><div class="howto-num">2</div><div><strong>Approve the transaction.</strong> Brave Wallet pops up with the amount (~$0.50) plus a fraction of a cent of Base gas. Review the recipient address, then click <strong>Confirm</strong>.</div></div>
-        <div class="howto-step"><div class="howto-num">3</div><div><strong>Log your vote.</strong> Back on the site, paste the <code>0x&hellip;</code> transaction hash into <strong>&ldquo;2. Log &amp; Verify Transaction Hash on GitHub Ledger&rdquo;</strong> and hit verify &mdash; the GitHub Action checks it on-chain and updates the vote counts.</div></div>
+        <div class="howto-step"><div class="howto-num">1</div><div>Open the project action dialog. For <strong>binary referendum/futarchy campaigns</strong>, choose <strong>Position A or B</strong> (required). For direct interventions, confirm the explicit single-intervention funding intent shown.</div></div>
+        <div class="howto-step"><div class="howto-num">2</div><div>Click <strong>&ldquo;Send / Back position via Browser Wallet&rdquo;</strong> (button text reflects the selected position or direct funding). Brave Wallet pops up with the estimated amount and Base gas &mdash; review the destination address for the selected position/intervention, then click <strong>Confirm</strong>.</div></div>
+        <div class="howto-step"><div class="howto-num">3</div><div><strong>Log the contribution.</strong> Paste the <code>0x&hellip;</code> transaction hash into <strong>&ldquo;2. Log &amp; Verify Transaction Hash on GitHub Ledger&rdquo;</strong> and submit &mdash; the issue payload includes your selected position (when applicable) for attribution and audit.</div></div>
       </div>
 
       <div class="callout mt-4">
@@ -170,10 +170,14 @@
       <p>No. Anyone can browse projects without signing in. Endorsements and verification flows use your existing accounts (GitHub, Google, Discord, Facebook, or TikTok, where available) via a secure OAuth handshake &mdash; no Polytab password is required, and we never receive your provider password.</p>
 
       <h3>Do I need crypto to participate?</h3>
-      <p>To cast a micro-vote with a Web3 wallet, yes &mdash; or you can use the QR-code flow with any compatible wallet. If you have no wallet, phone, or computer, see the &ldquo;No crypto wallet?&rdquo; answers above. Sharing and endorsing don&rsquo;t require crypto at all.</p>
+      <p>To send an on-chain contribution/support unit with a Web3 wallet, yes &mdash; or you can use the QR-code flow with any compatible wallet (choose a position first when required). If you have no wallet, phone, or computer, see the &ldquo;No crypto wallet?&rdquo; answers above. Sharing and endorsing don&rsquo;t require crypto at all.</p>
 
-      <h3>How do micro-votes work?</h3>
-      <p>Each vote is a small on-chain transaction ($0.25&ndash;$1.00) on Base L2. It is both a cryptographically signed ballot for the proposal and a direct payment to the organization&rsquo;s wallet, effective only when that page is unlocked (the organization has verified). No protocol slice, no fees, and no redistribution; payments flow only to verified organizations.</p>
+      <h3>How do micro-contributions and positions work?</h3>
+      <p>Each contribution is a small on-chain transaction (at or above the campaign&rsquo;s minimum per-unit amount) on Base L2. <strong>&ldquo;Votes&rdquo;/support units</strong> are not democratic votes. How it works depends on campaign mode:</p>
+      <ul>
+        <li><strong>Direct intervention funding:</strong> one explicit intent &mdash; fund this verified intervention. 100% goes to the selected/verified beneficiary when unlocked (0% protocol fee, 0% staker payout, no custody).</li>
+        <li><strong>Binary referendum/futarchy positions (A/B):</strong> you must choose a position before sending. Your contribution is <em>attributed to the chosen position</em> and settles per campaign rules (100% to the chosen/verified destination or campaign escrow policy, 0% protocol fee, 0% staker payout, no custody, no redistribution between positions). Referendum campaigns may use unified escrow with position-attributed accounting; paired futarchy outcomes route to the selected outcome&rsquo;s verified beneficiary.</li>
+      </ul>
 
       <hr>
 
@@ -202,7 +206,7 @@
       <p>When an organization is verified and unlocks a campaign, the unlocking verified account becomes the campaign&rsquo;s <strong>official steward/arbiter</strong>. Other organizational members can become <strong>endorsed members</strong> by completing the endorsement verification process or by receiving a steward vouch (subject to policy and anti-abuse checks). These roles are about trust and campaign stewardship &mdash; Polytab remains non-custodial and never controls funds.</p>
 
       <h3>Are Likes, endorsements, or &ldquo;votes&rdquo; democratic votes?</h3>
-      <p>No. Likes and trust endorsements are support/reputation signals. <strong>&ldquo;Votes&rdquo; on Polytab are support units</strong> (a terminology for showing support), not actual democratic votes. Contributions/funding are on-chain payments to the campaign&rsquo;s verified payout wallet.</p>
+      <p>No. Likes and trust endorsements are support/reputation signals. <strong>&ldquo;Votes&rdquo;/support units</strong> on Polytab are not democratic votes; they are on-chain support contributions that may be <strong>position-attributed</strong> (A/B) when a campaign presents binary positions. Settlement follows campaign rules to the selected/verified destination (no protocol fee, no staker payout, no custody, no redistribution between positions).</p>
 
       <h3>How do campaign types and support amounts work?</h3>
       <p>Campaigns may be <strong>fixed-target</strong> or <strong>open-ended</strong>. Fixed-target campaigns can continue accepting contributions after the goal is reached; open-ended campaigns can remain active for ongoing needs until closed by the verified org/steward. The listed <strong>$X / unit</strong> is a <em>minimum participation threshold</em>; supporters can contribute multiple support units (&ldquo;votes&rdquo;) or larger amounts in one action, and totals are counted accurately beyond any goal. See <a href="./CAMPAIGN_FRAMEWORK.md" target="_blank" rel="noopener noreferrer">Campaign Framework &amp; Rules</a>.</p>

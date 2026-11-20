@@ -1,8 +1,8 @@
 {
   "template_version": "pol-legislative-vote-beta-1",
-  "generated_at": "2026-11-18T23:31:43.361Z",
+  "generated_at": "2026-11-20T18:09:34.161Z",
   "draft": false,
-  "count": 21,
+  "count": 29,
   "records": [
     {
       "template_version": "pol-legislative-vote-beta-1",
@@ -159,8 +159,8 @@
       },
       "provenance": {
         "status": "beta_template",
-        "generated_at": "2026-11-18T23:31:43.355Z",
-        "generated_on": "2026-11-18",
+        "generated_at": "2026-11-20T18:09:34.156Z",
+        "generated_on": "2026-11-20",
         "generator": "scripts/generate-legislative-vote-template.js",
         "congress": 119,
         "sources": [
@@ -324,8 +324,8 @@
       },
       "provenance": {
         "status": "beta_template",
-        "generated_at": "2026-11-18T23:31:43.355Z",
-        "generated_on": "2026-11-18",
+        "generated_at": "2026-11-20T18:09:34.156Z",
+        "generated_on": "2026-11-20",
         "generator": "scripts/generate-legislative-vote-template.js",
         "congress": 119,
         "sources": [
@@ -489,8 +489,8 @@
       },
       "provenance": {
         "status": "beta_template",
-        "generated_at": "2026-11-18T23:31:43.356Z",
-        "generated_on": "2026-11-18",
+        "generated_at": "2026-11-20T18:09:34.156Z",
+        "generated_on": "2026-11-20",
         "generator": "scripts/generate-legislative-vote-template.js",
         "congress": 119,
         "sources": [
@@ -654,8 +654,8 @@
       },
       "provenance": {
         "status": "beta_template",
-        "generated_at": "2026-11-18T23:31:43.356Z",
-        "generated_on": "2026-11-18",
+        "generated_at": "2026-11-20T18:09:34.157Z",
+        "generated_on": "2026-11-20",
         "generator": "scripts/generate-legislative-vote-template.js",
         "congress": 119,
         "sources": [
@@ -819,8 +819,8 @@
       },
       "provenance": {
         "status": "beta_template",
-        "generated_at": "2026-11-18T23:31:43.356Z",
-        "generated_on": "2026-11-18",
+        "generated_at": "2026-11-20T18:09:34.157Z",
+        "generated_on": "2026-11-20",
         "generator": "scripts/generate-legislative-vote-template.js",
         "congress": 119,
         "sources": [
@@ -940,8 +940,8 @@
       },
       "provenance": {
         "status": "beta_template",
-        "generated_at": "2026-11-18T23:31:43.356Z",
-        "generated_on": "2026-11-18",
+        "generated_at": "2026-11-20T18:09:34.157Z",
+        "generated_on": "2026-11-20",
         "generator": "scripts/generate-legislative-vote-template.js",
         "congress": 119,
         "sources": [
@@ -1105,8 +1105,8 @@
       },
       "provenance": {
         "status": "beta_template",
-        "generated_at": "2026-11-18T23:31:43.356Z",
-        "generated_on": "2026-11-18",
+        "generated_at": "2026-11-20T18:09:34.157Z",
+        "generated_on": "2026-11-20",
         "generator": "scripts/generate-legislative-vote-template.js",
         "congress": 119,
         "sources": [
@@ -1270,8 +1270,8 @@
       },
       "provenance": {
         "status": "beta_template",
-        "generated_at": "2026-11-18T23:31:43.356Z",
-        "generated_on": "2026-11-18",
+        "generated_at": "2026-11-20T18:09:34.157Z",
+        "generated_on": "2026-11-20",
         "generator": "scripts/generate-legislative-vote-template.js",
         "congress": 119,
         "sources": [
@@ -1393,8 +1393,8 @@
       },
       "provenance": {
         "status": "beta_template",
-        "generated_at": "2026-11-18T23:31:43.357Z",
-        "generated_on": "2026-11-18",
+        "generated_at": "2026-11-20T18:09:34.157Z",
+        "generated_on": "2026-11-20",
         "generator": "scripts/generate-legislative-vote-template.js",
         "congress": 119,
         "sources": [
@@ -1558,8 +1558,8 @@
       },
       "provenance": {
         "status": "beta_template",
-        "generated_at": "2026-11-18T23:31:43.357Z",
-        "generated_on": "2026-11-18",
+        "generated_at": "2026-11-20T18:09:34.157Z",
+        "generated_on": "2026-11-20",
         "generator": "scripts/generate-legislative-vote-template.js",
         "congress": 119,
         "sources": [
@@ -1723,8 +1723,8 @@
       },
       "provenance": {
         "status": "beta_template",
-        "generated_at": "2026-11-18T23:31:43.357Z",
-        "generated_on": "2026-11-18",
+        "generated_at": "2026-11-20T18:09:34.157Z",
+        "generated_on": "2026-11-20",
         "generator": "scripts/generate-legislative-vote-template.js",
         "congress": 119,
         "sources": [
@@ -1889,8 +1889,8 @@
       },
       "provenance": {
         "status": "beta_template",
-        "generated_at": "2026-11-18T23:31:43.358Z",
-        "generated_on": "2026-11-18",
+        "generated_at": "2026-11-20T18:09:34.158Z",
+        "generated_on": "2026-11-20",
         "generator": "scripts/generate-legislative-vote-template.js",
         "congress": 119,
         "sources": [
@@ -1916,7 +1916,7 @@
         "chamber": "senate",
         "bill_type": "senate_bill",
         "number": 5653,
-        "display_id": "S. 5653",
+        "display_id": "S. 5653 (119th)",
         "govtrack_id": null,
         "title": "Permitting Reform for Energy Infrastructure",
         "short_title": "S. 5653",
@@ -1977,7 +1977,7 @@
         "status_after_activation": "active_voting_window"
       },
       "bounty_if_passed": {
-        "description": "Open-ended Policy & Governance Vote (litmus test) for S. 5653. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact (AI/energy/economic-fairness scope), finalized per campaign governance and verification.",
+        "description": "Open-ended Policy & Governance Vote (litmus test) for S. 5653. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
         "destination_type": "verified_charity_beneficiaries",
         "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
         "beneficiary_scope": "national",
@@ -2054,7 +2054,7 @@
       },
       "provenance": {
         "status": "beta_template",
-        "generated_at": "2026-11-20T15:05:29.115Z",
+        "generated_at": "2026-11-20T18:09:34.158Z",
         "generated_on": "2026-11-20",
         "generator": "scripts/generate-legislative-vote-template.js",
         "congress": 119,
@@ -2081,7 +2081,7 @@
         "chamber": "senate",
         "bill_type": "senate_bill",
         "number": 5054,
-        "display_id": "S. 5054",
+        "display_id": "S. 5054 (119th)",
         "govtrack_id": null,
         "title": "Data Center Tax Accountability and Disclosure Act of 2026",
         "short_title": "S. 5054",
@@ -2142,7 +2142,7 @@
         "status_after_activation": "active_voting_window"
       },
       "bounty_if_passed": {
-        "description": "Open-ended Policy & Governance Vote (litmus test) for S. 5054. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact (AI/energy/economic-fairness scope), finalized per campaign governance and verification.",
+        "description": "Open-ended Policy & Governance Vote (litmus test) for S. 5054. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
         "destination_type": "verified_charity_beneficiaries",
         "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
         "beneficiary_scope": "national",
@@ -2219,7 +2219,7 @@
       },
       "provenance": {
         "status": "beta_template",
-        "generated_at": "2026-11-20T15:05:29.115Z",
+        "generated_at": "2026-11-20T18:09:34.158Z",
         "generated_on": "2026-11-20",
         "generator": "scripts/generate-legislative-vote-template.js",
         "congress": 119,
@@ -2246,7 +2246,7 @@
         "chamber": "senate",
         "bill_type": "senate_bill",
         "number": 4214,
-        "display_id": "S. 4214",
+        "display_id": "S. 4214 (119th)",
         "govtrack_id": null,
         "title": "AI Data Center Moratorium Act",
         "short_title": "S. 4214",
@@ -2307,7 +2307,7 @@
         "status_after_activation": "active_voting_window"
       },
       "bounty_if_passed": {
-        "description": "Open-ended Policy & Governance Vote (litmus test) for S. 4214. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact (AI/energy/economic-fairness scope), finalized per campaign governance and verification.",
+        "description": "Open-ended Policy & Governance Vote (litmus test) for S. 4214. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
         "destination_type": "verified_charity_beneficiaries",
         "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
         "beneficiary_scope": "national",
@@ -2384,7 +2384,7 @@
       },
       "provenance": {
         "status": "beta_template",
-        "generated_at": "2026-11-20T15:05:29.115Z",
+        "generated_at": "2026-11-20T18:09:34.158Z",
         "generated_on": "2026-11-20",
         "generator": "scripts/generate-legislative-vote-template.js",
         "congress": 119,
@@ -2411,7 +2411,7 @@
         "chamber": "house",
         "bill_type": "house_bill",
         "number": 8488,
-        "display_id": "H.R. 8488",
+        "display_id": "H.R. 8488 (119th)",
         "govtrack_id": null,
         "title": "AI Data Center Site Selection Transparency Act of 2026",
         "short_title": "H.R. 8488",
@@ -2472,7 +2472,7 @@
         "status_after_activation": "active_voting_window"
       },
       "bounty_if_passed": {
-        "description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 8488. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact (AI/energy/economic-fairness scope), finalized per campaign governance and verification.",
+        "description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 8488. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
         "destination_type": "verified_charity_beneficiaries",
         "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
         "beneficiary_scope": "national",
@@ -2549,7 +2549,7 @@
       },
       "provenance": {
         "status": "beta_template",
-        "generated_at": "2026-11-20T15:05:29.115Z",
+        "generated_at": "2026-11-20T18:09:34.158Z",
         "generated_on": "2026-11-20",
         "generator": "scripts/generate-legislative-vote-template.js",
         "congress": 119,
@@ -2576,7 +2576,7 @@
         "chamber": "senate",
         "bill_type": "senate_bill",
         "number": 5471,
-        "display_id": "S. 5471",
+        "display_id": "S. 5471 (119th)",
         "govtrack_id": null,
         "title": "AI Systems Transparency Act",
         "short_title": "S. 5471",
@@ -2637,7 +2637,7 @@
         "status_after_activation": "active_voting_window"
       },
       "bounty_if_passed": {
-        "description": "Open-ended Policy & Governance Vote (litmus test) for S. 5471. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact (AI/energy/economic-fairness scope), finalized per campaign governance and verification.",
+        "description": "Open-ended Policy & Governance Vote (litmus test) for S. 5471. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
         "destination_type": "verified_charity_beneficiaries",
         "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
         "beneficiary_scope": "national",
@@ -2714,7 +2714,7 @@
       },
       "provenance": {
         "status": "beta_template",
-        "generated_at": "2026-11-20T15:05:29.116Z",
+        "generated_at": "2026-11-20T18:09:34.158Z",
         "generated_on": "2026-11-20",
         "generator": "scripts/generate-legislative-vote-template.js",
         "congress": 119,
@@ -2741,7 +2741,7 @@
         "chamber": "senate",
         "bill_type": "senate_bill",
         "number": 4727,
-        "display_id": "S. 4727",
+        "display_id": "S. 4727 (119th)",
         "govtrack_id": null,
         "title": "AI Environmental Impacts Act of 2026",
         "short_title": "S. 4727",
@@ -2802,7 +2802,7 @@
         "status_after_activation": "active_voting_window"
       },
       "bounty_if_passed": {
-        "description": "Open-ended Policy & Governance Vote (litmus test) for S. 4727. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact (AI/energy/economic-fairness scope), finalized per campaign governance and verification.",
+        "description": "Open-ended Policy & Governance Vote (litmus test) for S. 4727. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
         "destination_type": "verified_charity_beneficiaries",
         "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
         "beneficiary_scope": "national",
@@ -2879,7 +2879,7 @@
       },
       "provenance": {
         "status": "beta_template",
-        "generated_at": "2026-11-20T15:05:29.116Z",
+        "generated_at": "2026-11-20T18:09:34.158Z",
         "generated_on": "2026-11-20",
         "generator": "scripts/generate-legislative-vote-template.js",
         "congress": 119,
@@ -2906,7 +2906,7 @@
         "chamber": "senate",
         "bill_type": "senate_bill",
         "number": 4743,
-        "display_id": "S. 4743",
+        "display_id": "S. 4743 (119th)",
         "govtrack_id": null,
         "title": "AI Bubble Transparency Act",
         "short_title": "S. 4743",
@@ -2967,7 +2967,7 @@
         "status_after_activation": "active_voting_window"
       },
       "bounty_if_passed": {
-        "description": "Open-ended Policy & Governance Vote (litmus test) for S. 4743. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact (AI/energy/economic-fairness scope), finalized per campaign governance and verification.",
+        "description": "Open-ended Policy & Governance Vote (litmus test) for S. 4743. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
         "destination_type": "verified_charity_beneficiaries",
         "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
         "beneficiary_scope": "national",
@@ -3044,7 +3044,7 @@
       },
       "provenance": {
         "status": "beta_template",
-        "generated_at": "2026-11-20T15:05:29.116Z",
+        "generated_at": "2026-11-20T18:09:34.158Z",
         "generated_on": "2026-11-20",
         "generator": "scripts/generate-legislative-vote-template.js",
         "congress": 119,
@@ -3071,7 +3071,7 @@
         "chamber": "house",
         "bill_type": "house_bill",
         "number": 9500,
-        "display_id": "H.R. 9500",
+        "display_id": "H.R. 9500 (119th)",
         "govtrack_id": null,
         "title": "Tax Relief for Fraud Victims Act",
         "short_title": "H.R. 9500",
@@ -3132,7 +3132,7 @@
         "status_after_activation": "active_voting_window"
       },
       "bounty_if_passed": {
-        "description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 9500. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact (AI/energy/economic-fairness scope), finalized per campaign governance and verification.",
+        "description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 9500. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
         "destination_type": "verified_charity_beneficiaries",
         "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
         "beneficiary_scope": "national",
@@ -3209,7 +3209,7 @@
       },
       "provenance": {
         "status": "beta_template",
-        "generated_at": "2026-11-20T15:05:29.116Z",
+        "generated_at": "2026-11-20T18:09:34.158Z",
         "generated_on": "2026-11-20",
         "generator": "scripts/generate-legislative-vote-template.js",
         "congress": 119,
@@ -3236,7 +3236,7 @@
         "chamber": "house",
         "bill_type": "house_bill",
         "number": 9340,
-        "display_id": "H.R. 9340",
+        "display_id": "H.R. 9340 (119th)",
         "govtrack_id": null,
         "title": "Ratepayer Protection Act",
         "short_title": "H.R. 9340",
@@ -3297,7 +3297,7 @@
         "status_after_activation": "active_voting_window"
       },
       "bounty_if_passed": {
-        "description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 9340. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact (AI/energy/economic-fairness scope), finalized per campaign governance and verification.",
+        "description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 9340. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
         "destination_type": "verified_charity_beneficiaries",
         "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
         "beneficiary_scope": "national",
@@ -3374,7 +3374,1327 @@
       },
       "provenance": {
         "status": "beta_template",
-        "generated_at": "2026-11-20T15:05:29.118Z",
+        "generated_at": "2026-11-20T18:09:34.158Z",
+        "generated_on": "2026-11-20",
+        "generator": "scripts/generate-legislative-vote-template.js",
+        "congress": 119,
+        "sources": [
+          "seed_manifest"
+        ],
+        "review_required": true
+      }
+    },
+    {
+      "template_version": "pol-legislative-vote-beta-1",
+      "bounty_id": "leg-119-house-bill-7254",
+      "slug": "119-house-bill-7254-bay-area-ridge-national-scenic-trail-feasibility-study-act",
+      "domain": "legislative",
+      "ui": {
+        "section": "Policy & Governance Votes",
+        "parent_category": "Voting",
+        "category": "Policy & Governance Votes",
+        "block": 93000
+      },
+      "legislation": {
+        "congress": 119,
+        "session": "119",
+        "chamber": "house",
+        "bill_type": "house_bill",
+        "number": 7254,
+        "display_id": "H.R. 7254 (119th)",
+        "govtrack_id": null,
+        "title": "Bay Area Ridge National Scenic Trail Feasibility Study Act",
+        "short_title": "Bay Area Ridge National Scenic Trail Feasibility Study Act",
+        "summary": "Directs the Secretary of the Interior to study the feasibility of designating the Bay Area Ridge Trail (about 550 miles around the San Francisco Bay Area) as a national scenic trail, in consultation with relevant agencies and organizations.",
+        "status": "active",
+        "status_label": "Reported (amended) by House Natural Resources (H. Rept. 119-855, Oct 29, 2026); listed for possible House floor consideration under suspension (week of Nov 16, 2026)",
+        "status_date": null,
+        "introduced_date": null,
+        "latest_action": null,
+        "sponsor": null,
+        "subjects": [],
+        "source_urls": [
+          "https://www.congress.gov/bill/119th-congress/house-bill/7254"
+        ]
+      },
+      "vote": {
+        "question": "[LITMUS TEST] H.R. 7254 (119th): \"Bay Area Ridge National Scenic Trail Feasibility Study Act\" — Should this measure pass as written? Cast your community vote (without middlemen) and compare community will with how representatives vote.",
+        "type": "advisory_yes_no",
+        "options": [
+          "Yes - Support passage",
+          "No - Oppose passage",
+          "Abstain"
+        ],
+        "litmus_test": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (voting platform without middlemen).",
+          "community_vote": {
+            "yes": 0,
+            "no": 0,
+            "abstain": 0,
+            "source": "polytab_community"
+          },
+          "representative_votes": {
+            "house": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "senate": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "by_member": []
+          },
+          "comparison_note": "Populate representative_votes from official roll-call records to contrast with community results."
+        }
+      },
+      "campaign": {
+        "type": "open_ended",
+        "funding_activation_threshold_usd": 10000,
+        "timer_starts": "on_funding_activation_threshold_reached",
+        "timer_duration_days": null,
+        "status_before_activation": "open_for_funding",
+        "status_after_activation": "active_voting_window"
+      },
+      "bounty_if_passed": {
+        "description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 7254. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
+        "destination_type": "verified_charity_beneficiaries",
+        "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
+        "beneficiary_scope": "national",
+        "beneficiary_states": [],
+        "localities": [],
+        "eligible_beneficiaries": [
+          {
+            "ein": null,
+            "name": "FRIENDS OF WINCHESTER CATHEDRAL",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:220218",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "BRADBURY FIELDS SERVICES FOR BLIND AND PARTIALLY SIGHTED PEOPLE",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:222798",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "LEAGUE OF FRIENDS MUSGROVE PARK HOSPITAL",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:250797",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "COLEGIO DE EDUCACION ESPECIAL Y REHABILITACION INTEGRAL INC",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660505420",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "HOGAR AURORA INC",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660586357",
+            "source_url": null
+          }
+        ]
+      },
+      "metrics": {
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "targetUSD": 10000,
+        "honest_zero": true
+      },
+      "location": {
+        "label": "United States Capitol",
+        "address": "First St SE, Washington, DC 20004, USA",
+        "lat": 38.8899,
+        "lng": -77.0091
+      },
+      "payment": {
+        "chain": "base",
+        "chain_id": 8453,
+        "token": "USDC",
+        "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "qr_asset": "docs/escrow-qr.png",
+        "note": "Polytab wallet/QR (Base USDC). Claim-first, non-custodial routing; contributions settle per campaign policy once verified payout is unlocked.",
+        "payment_memo_or_slug": "leg-119-house-bill-7254"
+      },
+      "provenance": {
+        "status": "beta_template",
+        "generated_at": "2026-11-20T18:09:34.158Z",
+        "generated_on": "2026-11-20",
+        "generator": "scripts/generate-legislative-vote-template.js",
+        "congress": 119,
+        "sources": [
+          "seed_manifest"
+        ],
+        "review_required": true
+      }
+    },
+    {
+      "template_version": "pol-legislative-vote-beta-1",
+      "bounty_id": "leg-119-house-bill-7934",
+      "slug": "119-house-bill-7934-settlement-agreement-information-database-act-of-2026",
+      "domain": "legislative",
+      "ui": {
+        "section": "Policy & Governance Votes",
+        "parent_category": "Voting",
+        "category": "Policy & Governance Votes",
+        "block": 93000
+      },
+      "legislation": {
+        "congress": 119,
+        "session": "119",
+        "chamber": "house",
+        "bill_type": "house_bill",
+        "number": 7934,
+        "display_id": "H.R. 7934 (119th)",
+        "govtrack_id": null,
+        "title": "Settlement Agreement Information Database Act of 2026",
+        "short_title": "Settlement Agreement Information Database Act of 2026",
+        "summary": "Amends federal law to require publication of federal settlement agreements and consent decrees in a public database to increase transparency in federal agencies.",
+        "status": "passed_house",
+        "status_label": "Passed House under suspension of the rules by voice vote (Nov 18, 2026; engrossed in House)",
+        "status_date": null,
+        "introduced_date": null,
+        "latest_action": null,
+        "sponsor": null,
+        "subjects": [],
+        "source_urls": [
+          "https://www.congress.gov/bill/119th-congress/house-bill/7934"
+        ]
+      },
+      "vote": {
+        "question": "[LITMUS TEST] H.R. 7934 (119th): \"Settlement Agreement Information Database Act of 2026\" — Should this measure pass as written? Cast your community vote (without middlemen) and compare community will with how representatives vote.",
+        "type": "advisory_yes_no",
+        "options": [
+          "Yes - Support passage",
+          "No - Oppose passage",
+          "Abstain"
+        ],
+        "litmus_test": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (voting platform without middlemen).",
+          "community_vote": {
+            "yes": 0,
+            "no": 0,
+            "abstain": 0,
+            "source": "polytab_community"
+          },
+          "representative_votes": {
+            "house": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "senate": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "by_member": []
+          },
+          "comparison_note": "Populate representative_votes from official roll-call records to contrast with community results."
+        }
+      },
+      "campaign": {
+        "type": "open_ended",
+        "funding_activation_threshold_usd": 10000,
+        "timer_starts": "on_funding_activation_threshold_reached",
+        "timer_duration_days": null,
+        "status_before_activation": "open_for_funding",
+        "status_after_activation": "active_voting_window"
+      },
+      "bounty_if_passed": {
+        "description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 7934. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
+        "destination_type": "verified_charity_beneficiaries",
+        "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
+        "beneficiary_scope": "national",
+        "beneficiary_states": [],
+        "localities": [],
+        "eligible_beneficiaries": [
+          {
+            "ein": null,
+            "name": "FRIENDS OF WINCHESTER CATHEDRAL",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:220218",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "BRADBURY FIELDS SERVICES FOR BLIND AND PARTIALLY SIGHTED PEOPLE",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:222798",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "LEAGUE OF FRIENDS MUSGROVE PARK HOSPITAL",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:250797",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "COLEGIO DE EDUCACION ESPECIAL Y REHABILITACION INTEGRAL INC",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660505420",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "HOGAR AURORA INC",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660586357",
+            "source_url": null
+          }
+        ]
+      },
+      "metrics": {
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "targetUSD": 10000,
+        "honest_zero": true
+      },
+      "location": {
+        "label": "United States Capitol",
+        "address": "First St SE, Washington, DC 20004, USA",
+        "lat": 38.8899,
+        "lng": -77.0091
+      },
+      "payment": {
+        "chain": "base",
+        "chain_id": 8453,
+        "token": "USDC",
+        "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "qr_asset": "docs/escrow-qr.png",
+        "note": "Polytab wallet/QR (Base USDC). Claim-first, non-custodial routing; contributions settle per campaign policy once verified payout is unlocked.",
+        "payment_memo_or_slug": "leg-119-house-bill-7934"
+      },
+      "provenance": {
+        "status": "beta_template",
+        "generated_at": "2026-11-20T18:09:34.158Z",
+        "generated_on": "2026-11-20",
+        "generator": "scripts/generate-legislative-vote-template.js",
+        "congress": 119,
+        "sources": [
+          "seed_manifest"
+        ],
+        "review_required": true
+      }
+    },
+    {
+      "template_version": "pol-legislative-vote-beta-1",
+      "bounty_id": "leg-119-house-bill-7954",
+      "slug": "119-house-bill-7954-don-young-doug-lamalfa-indian-buffalo-management-act",
+      "domain": "legislative",
+      "ui": {
+        "section": "Policy & Governance Votes",
+        "parent_category": "Voting",
+        "category": "Policy & Governance Votes",
+        "block": 93000
+      },
+      "legislation": {
+        "congress": 119,
+        "session": "119",
+        "chamber": "house",
+        "bill_type": "house_bill",
+        "number": 7954,
+        "display_id": "H.R. 7954 (119th)",
+        "govtrack_id": null,
+        "title": "Don Young Doug LaMalfa Indian Buffalo Management Act",
+        "short_title": "Don Young Doug LaMalfa Indian Buffalo Management Act",
+        "summary": "Directs the Department of the Interior to work with Indian Tribes and tribal organizations to support buffalo restoration and management on Indian lands through grants, contracts, technical assistance, and related authorities.",
+        "status": "passed_house",
+        "status_label": "Passed House under suspension of the rules by voice vote (Nov 17, 2026); received in Senate (Nov 18, 2026)",
+        "status_date": null,
+        "introduced_date": null,
+        "latest_action": null,
+        "sponsor": null,
+        "subjects": [],
+        "source_urls": [
+          "https://www.congress.gov/bill/119th-congress/house-bill/7954"
+        ]
+      },
+      "vote": {
+        "question": "[LITMUS TEST] H.R. 7954 (119th): \"Don Young Doug LaMalfa Indian Buffalo Management Act\" — Should this measure pass as written? Cast your community vote (without middlemen) and compare community will with how representatives vote.",
+        "type": "advisory_yes_no",
+        "options": [
+          "Yes - Support passage",
+          "No - Oppose passage",
+          "Abstain"
+        ],
+        "litmus_test": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (voting platform without middlemen).",
+          "community_vote": {
+            "yes": 0,
+            "no": 0,
+            "abstain": 0,
+            "source": "polytab_community"
+          },
+          "representative_votes": {
+            "house": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "senate": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "by_member": []
+          },
+          "comparison_note": "Populate representative_votes from official roll-call records to contrast with community results."
+        }
+      },
+      "campaign": {
+        "type": "open_ended",
+        "funding_activation_threshold_usd": 10000,
+        "timer_starts": "on_funding_activation_threshold_reached",
+        "timer_duration_days": null,
+        "status_before_activation": "open_for_funding",
+        "status_after_activation": "active_voting_window"
+      },
+      "bounty_if_passed": {
+        "description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 7954. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
+        "destination_type": "verified_charity_beneficiaries",
+        "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
+        "beneficiary_scope": "national",
+        "beneficiary_states": [],
+        "localities": [],
+        "eligible_beneficiaries": [
+          {
+            "ein": null,
+            "name": "FRIENDS OF WINCHESTER CATHEDRAL",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:220218",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "BRADBURY FIELDS SERVICES FOR BLIND AND PARTIALLY SIGHTED PEOPLE",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:222798",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "LEAGUE OF FRIENDS MUSGROVE PARK HOSPITAL",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:250797",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "COLEGIO DE EDUCACION ESPECIAL Y REHABILITACION INTEGRAL INC",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660505420",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "HOGAR AURORA INC",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660586357",
+            "source_url": null
+          }
+        ]
+      },
+      "metrics": {
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "targetUSD": 10000,
+        "honest_zero": true
+      },
+      "location": {
+        "label": "United States Capitol",
+        "address": "First St SE, Washington, DC 20004, USA",
+        "lat": 38.8899,
+        "lng": -77.0091
+      },
+      "payment": {
+        "chain": "base",
+        "chain_id": 8453,
+        "token": "USDC",
+        "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "qr_asset": "docs/escrow-qr.png",
+        "note": "Polytab wallet/QR (Base USDC). Claim-first, non-custodial routing; contributions settle per campaign policy once verified payout is unlocked.",
+        "payment_memo_or_slug": "leg-119-house-bill-7954"
+      },
+      "provenance": {
+        "status": "beta_template",
+        "generated_at": "2026-11-20T18:09:34.159Z",
+        "generated_on": "2026-11-20",
+        "generator": "scripts/generate-legislative-vote-template.js",
+        "congress": 119,
+        "sources": [
+          "seed_manifest"
+        ],
+        "review_required": true
+      }
+    },
+    {
+      "template_version": "pol-legislative-vote-beta-1",
+      "bounty_id": "leg-119-house-bill-8195",
+      "slug": "119-house-bill-8195-responsible-cormorant-management-and-control-act-of-2026",
+      "domain": "legislative",
+      "ui": {
+        "section": "Policy & Governance Votes",
+        "parent_category": "Voting",
+        "category": "Policy & Governance Votes",
+        "block": 93000
+      },
+      "legislation": {
+        "congress": 119,
+        "session": "119",
+        "chamber": "house",
+        "bill_type": "house_bill",
+        "number": 8195,
+        "display_id": "H.R. 8195 (119th)",
+        "govtrack_id": null,
+        "title": "Responsible Cormorant Management and Control Act of 2026",
+        "short_title": "Responsible Cormorant Management and Control Act of 2026",
+        "summary": "Requires the U.S. Fish and Wildlife Service to develop regional management frameworks for double-crested cormorants, including take parameters and conservation safeguards, in coordination with Regional Flyway Councils.",
+        "status": "passed_house",
+        "status_label": "Passed House under suspension of the rules by voice vote, as amended (Nov 17, 2026); received in Senate and referred to Environment and Public Works (Nov 18, 2026)",
+        "status_date": null,
+        "introduced_date": null,
+        "latest_action": null,
+        "sponsor": null,
+        "subjects": [],
+        "source_urls": [
+          "https://www.congress.gov/bill/119th-congress/house-bill/8195"
+        ]
+      },
+      "vote": {
+        "question": "[LITMUS TEST] H.R. 8195 (119th): \"Responsible Cormorant Management and Control Act of 2026\" — Should this measure pass as written? Cast your community vote (without middlemen) and compare community will with how representatives vote.",
+        "type": "advisory_yes_no",
+        "options": [
+          "Yes - Support passage",
+          "No - Oppose passage",
+          "Abstain"
+        ],
+        "litmus_test": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (voting platform without middlemen).",
+          "community_vote": {
+            "yes": 0,
+            "no": 0,
+            "abstain": 0,
+            "source": "polytab_community"
+          },
+          "representative_votes": {
+            "house": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "senate": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "by_member": []
+          },
+          "comparison_note": "Populate representative_votes from official roll-call records to contrast with community results."
+        }
+      },
+      "campaign": {
+        "type": "open_ended",
+        "funding_activation_threshold_usd": 10000,
+        "timer_starts": "on_funding_activation_threshold_reached",
+        "timer_duration_days": null,
+        "status_before_activation": "open_for_funding",
+        "status_after_activation": "active_voting_window"
+      },
+      "bounty_if_passed": {
+        "description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 8195. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
+        "destination_type": "verified_charity_beneficiaries",
+        "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
+        "beneficiary_scope": "national",
+        "beneficiary_states": [],
+        "localities": [],
+        "eligible_beneficiaries": [
+          {
+            "ein": null,
+            "name": "FRIENDS OF WINCHESTER CATHEDRAL",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:220218",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "BRADBURY FIELDS SERVICES FOR BLIND AND PARTIALLY SIGHTED PEOPLE",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:222798",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "LEAGUE OF FRIENDS MUSGROVE PARK HOSPITAL",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:250797",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "COLEGIO DE EDUCACION ESPECIAL Y REHABILITACION INTEGRAL INC",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660505420",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "HOGAR AURORA INC",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660586357",
+            "source_url": null
+          }
+        ]
+      },
+      "metrics": {
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "targetUSD": 10000,
+        "honest_zero": true
+      },
+      "location": {
+        "label": "United States Capitol",
+        "address": "First St SE, Washington, DC 20004, USA",
+        "lat": 38.8899,
+        "lng": -77.0091
+      },
+      "payment": {
+        "chain": "base",
+        "chain_id": 8453,
+        "token": "USDC",
+        "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "qr_asset": "docs/escrow-qr.png",
+        "note": "Polytab wallet/QR (Base USDC). Claim-first, non-custodial routing; contributions settle per campaign policy once verified payout is unlocked.",
+        "payment_memo_or_slug": "leg-119-house-bill-8195"
+      },
+      "provenance": {
+        "status": "beta_template",
+        "generated_at": "2026-11-20T18:09:34.159Z",
+        "generated_on": "2026-11-20",
+        "generator": "scripts/generate-legislative-vote-template.js",
+        "congress": 119,
+        "sources": [
+          "seed_manifest"
+        ],
+        "review_required": true
+      }
+    },
+    {
+      "template_version": "pol-legislative-vote-beta-1",
+      "bounty_id": "leg-119-house-bill-9785",
+      "slug": "119-house-bill-9785-south-dakota-water-feasibility-studies-act",
+      "domain": "legislative",
+      "ui": {
+        "section": "Policy & Governance Votes",
+        "parent_category": "Voting",
+        "category": "Policy & Governance Votes",
+        "block": 93000
+      },
+      "legislation": {
+        "congress": 119,
+        "session": "119",
+        "chamber": "house",
+        "bill_type": "house_bill",
+        "number": 9785,
+        "display_id": "H.R. 9785 (119th)",
+        "govtrack_id": null,
+        "title": "South Dakota Water Feasibility Studies Act",
+        "short_title": "South Dakota Water Feasibility Studies Act",
+        "summary": "Directs the Department of the Interior to study the feasibility of Missouri River water supply projects for municipal, rural, and industrial use serving systems in South Dakota, Iowa, Minnesota, and Nebraska (including Western Dakota, Lewis and Clark, and Dakota Mainstem).",
+        "status": "passed_house",
+        "status_label": "Passed House under suspension of the rules by voice vote, as amended (Nov 17, 2026); received in Senate (Nov 18, 2026)",
+        "status_date": null,
+        "introduced_date": null,
+        "latest_action": null,
+        "sponsor": null,
+        "subjects": [],
+        "source_urls": [
+          "https://www.congress.gov/bill/119th-congress/house-bill/9785"
+        ]
+      },
+      "vote": {
+        "question": "[LITMUS TEST] H.R. 9785 (119th): \"South Dakota Water Feasibility Studies Act\" — Should this measure pass as written? Cast your community vote (without middlemen) and compare community will with how representatives vote.",
+        "type": "advisory_yes_no",
+        "options": [
+          "Yes - Support passage",
+          "No - Oppose passage",
+          "Abstain"
+        ],
+        "litmus_test": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (voting platform without middlemen).",
+          "community_vote": {
+            "yes": 0,
+            "no": 0,
+            "abstain": 0,
+            "source": "polytab_community"
+          },
+          "representative_votes": {
+            "house": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "senate": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "by_member": []
+          },
+          "comparison_note": "Populate representative_votes from official roll-call records to contrast with community results."
+        }
+      },
+      "campaign": {
+        "type": "open_ended",
+        "funding_activation_threshold_usd": 10000,
+        "timer_starts": "on_funding_activation_threshold_reached",
+        "timer_duration_days": null,
+        "status_before_activation": "open_for_funding",
+        "status_after_activation": "active_voting_window"
+      },
+      "bounty_if_passed": {
+        "description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 9785. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
+        "destination_type": "verified_charity_beneficiaries",
+        "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
+        "beneficiary_scope": "national",
+        "beneficiary_states": [],
+        "localities": [],
+        "eligible_beneficiaries": [
+          {
+            "ein": null,
+            "name": "FRIENDS OF WINCHESTER CATHEDRAL",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:220218",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "BRADBURY FIELDS SERVICES FOR BLIND AND PARTIALLY SIGHTED PEOPLE",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:222798",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "LEAGUE OF FRIENDS MUSGROVE PARK HOSPITAL",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:250797",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "COLEGIO DE EDUCACION ESPECIAL Y REHABILITACION INTEGRAL INC",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660505420",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "HOGAR AURORA INC",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660586357",
+            "source_url": null
+          }
+        ]
+      },
+      "metrics": {
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "targetUSD": 10000,
+        "honest_zero": true
+      },
+      "location": {
+        "label": "United States Capitol",
+        "address": "First St SE, Washington, DC 20004, USA",
+        "lat": 38.8899,
+        "lng": -77.0091
+      },
+      "payment": {
+        "chain": "base",
+        "chain_id": 8453,
+        "token": "USDC",
+        "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "qr_asset": "docs/escrow-qr.png",
+        "note": "Polytab wallet/QR (Base USDC). Claim-first, non-custodial routing; contributions settle per campaign policy once verified payout is unlocked.",
+        "payment_memo_or_slug": "leg-119-house-bill-9785"
+      },
+      "provenance": {
+        "status": "beta_template",
+        "generated_at": "2026-11-20T18:09:34.159Z",
+        "generated_on": "2026-11-20",
+        "generator": "scripts/generate-legislative-vote-template.js",
+        "congress": 119,
+        "sources": [
+          "seed_manifest"
+        ],
+        "review_required": true
+      }
+    },
+    {
+      "template_version": "pol-legislative-vote-beta-1",
+      "bounty_id": "leg-119-house-bill-2400",
+      "slug": "119-house-bill-2400-pit-river-land-transfer-act-of-2026",
+      "domain": "legislative",
+      "ui": {
+        "section": "Policy & Governance Votes",
+        "parent_category": "Voting",
+        "category": "Policy & Governance Votes",
+        "block": 93000
+      },
+      "legislation": {
+        "congress": 119,
+        "session": "119",
+        "chamber": "house",
+        "bill_type": "house_bill",
+        "number": 2400,
+        "display_id": "H.R. 2400 (119th)",
+        "govtrack_id": null,
+        "title": "Pit River Land Transfer Act of 2026",
+        "short_title": "Pit River Land Transfer Act of 2026",
+        "summary": "Takes approximately 557 acres of specified federal land (Four Corners property) in Shasta County, California, into trust for the benefit of the Pit River Tribe; prohibits gaming on the land.",
+        "status": "active",
+        "status_label": "Passed House and Senate (Senate amendment); House agreed to Senate amendment by voice vote (Nov 17, 2026), clearing Congress for enrollment/presentation",
+        "status_date": null,
+        "introduced_date": null,
+        "latest_action": null,
+        "sponsor": null,
+        "subjects": [],
+        "source_urls": [
+          "https://www.congress.gov/bill/119th-congress/house-bill/2400"
+        ]
+      },
+      "vote": {
+        "question": "[LITMUS TEST] H.R. 2400 (119th): \"Pit River Land Transfer Act of 2026\" — Should this measure pass as written? Cast your community vote (without middlemen) and compare community will with how representatives vote.",
+        "type": "advisory_yes_no",
+        "options": [
+          "Yes - Support passage",
+          "No - Oppose passage",
+          "Abstain"
+        ],
+        "litmus_test": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (voting platform without middlemen).",
+          "community_vote": {
+            "yes": 0,
+            "no": 0,
+            "abstain": 0,
+            "source": "polytab_community"
+          },
+          "representative_votes": {
+            "house": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "senate": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "by_member": []
+          },
+          "comparison_note": "Populate representative_votes from official roll-call records to contrast with community results."
+        }
+      },
+      "campaign": {
+        "type": "open_ended",
+        "funding_activation_threshold_usd": 10000,
+        "timer_starts": "on_funding_activation_threshold_reached",
+        "timer_duration_days": null,
+        "status_before_activation": "open_for_funding",
+        "status_after_activation": "active_voting_window"
+      },
+      "bounty_if_passed": {
+        "description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 2400. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
+        "destination_type": "verified_charity_beneficiaries",
+        "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
+        "beneficiary_scope": "national",
+        "beneficiary_states": [],
+        "localities": [],
+        "eligible_beneficiaries": [
+          {
+            "ein": null,
+            "name": "FRIENDS OF WINCHESTER CATHEDRAL",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:220218",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "BRADBURY FIELDS SERVICES FOR BLIND AND PARTIALLY SIGHTED PEOPLE",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:222798",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "LEAGUE OF FRIENDS MUSGROVE PARK HOSPITAL",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:250797",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "COLEGIO DE EDUCACION ESPECIAL Y REHABILITACION INTEGRAL INC",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660505420",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "HOGAR AURORA INC",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660586357",
+            "source_url": null
+          }
+        ]
+      },
+      "metrics": {
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "targetUSD": 10000,
+        "honest_zero": true
+      },
+      "location": {
+        "label": "United States Capitol",
+        "address": "First St SE, Washington, DC 20004, USA",
+        "lat": 38.8899,
+        "lng": -77.0091
+      },
+      "payment": {
+        "chain": "base",
+        "chain_id": 8453,
+        "token": "USDC",
+        "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "qr_asset": "docs/escrow-qr.png",
+        "note": "Polytab wallet/QR (Base USDC). Claim-first, non-custodial routing; contributions settle per campaign policy once verified payout is unlocked.",
+        "payment_memo_or_slug": "leg-119-house-bill-2400"
+      },
+      "provenance": {
+        "status": "beta_template",
+        "generated_at": "2026-11-20T18:09:34.159Z",
+        "generated_on": "2026-11-20",
+        "generator": "scripts/generate-legislative-vote-template.js",
+        "congress": 119,
+        "sources": [
+          "seed_manifest"
+        ],
+        "review_required": true
+      }
+    },
+    {
+      "template_version": "pol-legislative-vote-beta-1",
+      "bounty_id": "leg-119-house-bill-9497",
+      "slug": "119-house-bill-9497-water-resources-development-act-of-2026",
+      "domain": "legislative",
+      "ui": {
+        "section": "Policy & Governance Votes",
+        "parent_category": "Voting",
+        "category": "Policy & Governance Votes",
+        "block": 93000
+      },
+      "legislation": {
+        "congress": 119,
+        "session": "119",
+        "chamber": "house",
+        "bill_type": "house_bill",
+        "number": 9497,
+        "display_id": "H.R. 9497 (119th)",
+        "govtrack_id": null,
+        "title": "Water Resources Development Act of 2026",
+        "short_title": "Water Resources Development Act of 2026",
+        "summary": "Authorizes and modifies U.S. Army Corps of Engineers water resources development projects and programs, including navigation, flood and storm risk management, and ecosystem restoration provisions.",
+        "status": "passed_house",
+        "status_label": "Passed House under suspension of the rules, as amended (Roll Call 313, Sep 16, 2026, 415-9); received in Senate (Sep 17, 2026)",
+        "status_date": null,
+        "introduced_date": null,
+        "latest_action": null,
+        "sponsor": null,
+        "subjects": [],
+        "source_urls": [
+          "https://www.congress.gov/bill/119th-congress/house-bill/9497"
+        ]
+      },
+      "vote": {
+        "question": "[LITMUS TEST] H.R. 9497 (119th): \"Water Resources Development Act of 2026\" — Should this measure pass as written? Cast your community vote (without middlemen) and compare community will with how representatives vote.",
+        "type": "advisory_yes_no",
+        "options": [
+          "Yes - Support passage",
+          "No - Oppose passage",
+          "Abstain"
+        ],
+        "litmus_test": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (voting platform without middlemen).",
+          "community_vote": {
+            "yes": 0,
+            "no": 0,
+            "abstain": 0,
+            "source": "polytab_community"
+          },
+          "representative_votes": {
+            "house": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "senate": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "by_member": []
+          },
+          "comparison_note": "Populate representative_votes from official roll-call records to contrast with community results."
+        }
+      },
+      "campaign": {
+        "type": "open_ended",
+        "funding_activation_threshold_usd": 10000,
+        "timer_starts": "on_funding_activation_threshold_reached",
+        "timer_duration_days": null,
+        "status_before_activation": "open_for_funding",
+        "status_after_activation": "active_voting_window"
+      },
+      "bounty_if_passed": {
+        "description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 9497. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
+        "destination_type": "verified_charity_beneficiaries",
+        "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
+        "beneficiary_scope": "national",
+        "beneficiary_states": [],
+        "localities": [],
+        "eligible_beneficiaries": [
+          {
+            "ein": null,
+            "name": "FRIENDS OF WINCHESTER CATHEDRAL",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:220218",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "BRADBURY FIELDS SERVICES FOR BLIND AND PARTIALLY SIGHTED PEOPLE",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:222798",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "LEAGUE OF FRIENDS MUSGROVE PARK HOSPITAL",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:250797",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "COLEGIO DE EDUCACION ESPECIAL Y REHABILITACION INTEGRAL INC",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660505420",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "HOGAR AURORA INC",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660586357",
+            "source_url": null
+          }
+        ]
+      },
+      "metrics": {
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "targetUSD": 10000,
+        "honest_zero": true
+      },
+      "location": {
+        "label": "United States Capitol",
+        "address": "First St SE, Washington, DC 20004, USA",
+        "lat": 38.8899,
+        "lng": -77.0091
+      },
+      "payment": {
+        "chain": "base",
+        "chain_id": 8453,
+        "token": "USDC",
+        "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "qr_asset": "docs/escrow-qr.png",
+        "note": "Polytab wallet/QR (Base USDC). Claim-first, non-custodial routing; contributions settle per campaign policy once verified payout is unlocked.",
+        "payment_memo_or_slug": "leg-119-house-bill-9497"
+      },
+      "provenance": {
+        "status": "beta_template",
+        "generated_at": "2026-11-20T18:09:34.159Z",
+        "generated_on": "2026-11-20",
+        "generator": "scripts/generate-legislative-vote-template.js",
+        "congress": 119,
+        "sources": [
+          "seed_manifest"
+        ],
+        "review_required": true
+      }
+    },
+    {
+      "template_version": "pol-legislative-vote-beta-1",
+      "bounty_id": "leg-119-house-bill-3633",
+      "slug": "119-house-bill-3633-digital-asset-market-clarity-act-of-2025-clarity-act",
+      "domain": "legislative",
+      "ui": {
+        "section": "Policy & Governance Votes",
+        "parent_category": "Voting",
+        "category": "Policy & Governance Votes",
+        "block": 93000
+      },
+      "legislation": {
+        "congress": 119,
+        "session": "119",
+        "chamber": "house",
+        "bill_type": "house_bill",
+        "number": 3633,
+        "display_id": "H.R. 3633 (119th)",
+        "govtrack_id": null,
+        "title": "Digital Asset Market Clarity Act of 2025 (CLARITY Act)",
+        "short_title": "Digital Asset Market Clarity Act of 2025 (CLARITY Act)",
+        "summary": "Establishes a federal regulatory framework for digital commodities and digital asset markets, allocating jurisdiction and rulemaking responsibilities between the SEC and CFTC (as amended in congressional consideration).",
+        "status": "passed_house",
+        "status_label": "Passed House (Roll Call 199, Jul 17, 2025, 294-134); in Senate (cloture on motion to proceed not invoked Sep 15, 2026, Record Vote 234; motion to reconsider entered)",
+        "status_date": null,
+        "introduced_date": null,
+        "latest_action": null,
+        "sponsor": null,
+        "subjects": [],
+        "source_urls": [
+          "https://www.congress.gov/bill/119th-congress/house-bill/3633"
+        ]
+      },
+      "vote": {
+        "question": "[LITMUS TEST] H.R. 3633 (119th): \"Digital Asset Market Clarity Act of 2025 (CLARITY Act)\" — Should this measure pass as written? Cast your community vote (without middlemen) and compare community will with how representatives vote.",
+        "type": "advisory_yes_no",
+        "options": [
+          "Yes - Support passage",
+          "No - Oppose passage",
+          "Abstain"
+        ],
+        "litmus_test": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (voting platform without middlemen).",
+          "community_vote": {
+            "yes": 0,
+            "no": 0,
+            "abstain": 0,
+            "source": "polytab_community"
+          },
+          "representative_votes": {
+            "house": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "senate": {
+              "yes": null,
+              "no": null,
+              "not_voting": null,
+              "roll_call": null,
+              "source_url": null
+            },
+            "by_member": []
+          },
+          "comparison_note": "Populate representative_votes from official roll-call records to contrast with community results."
+        }
+      },
+      "campaign": {
+        "type": "open_ended",
+        "funding_activation_threshold_usd": 10000,
+        "timer_starts": "on_funding_activation_threshold_reached",
+        "timer_duration_days": null,
+        "status_before_activation": "open_for_funding",
+        "status_after_activation": "active_voting_window"
+      },
+      "bounty_if_passed": {
+        "description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 3633. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
+        "destination_type": "verified_charity_beneficiaries",
+        "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
+        "beneficiary_scope": "national",
+        "beneficiary_states": [],
+        "localities": [],
+        "eligible_beneficiaries": [
+          {
+            "ein": null,
+            "name": "FRIENDS OF WINCHESTER CATHEDRAL",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:220218",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "BRADBURY FIELDS SERVICES FOR BLIND AND PARTIALLY SIGHTED PEOPLE",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:222798",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "LEAGUE OF FRIENDS MUSGROVE PARK HOSPITAL",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "GB-CHC:250797",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "COLEGIO DE EDUCACION ESPECIAL Y REHABILITACION INTEGRAL INC",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660505420",
+            "source_url": null
+          },
+          {
+            "ein": null,
+            "name": "HOGAR AURORA INC",
+            "city": null,
+            "state": null,
+            "source": "verified-orgs",
+            "registry_id": "US-EIN:660586357",
+            "source_url": null
+          }
+        ]
+      },
+      "metrics": {
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "targetUSD": 10000,
+        "honest_zero": true
+      },
+      "location": {
+        "label": "United States Capitol",
+        "address": "First St SE, Washington, DC 20004, USA",
+        "lat": 38.8899,
+        "lng": -77.0091
+      },
+      "payment": {
+        "chain": "base",
+        "chain_id": 8453,
+        "token": "USDC",
+        "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "qr_asset": "docs/escrow-qr.png",
+        "note": "Polytab wallet/QR (Base USDC). Claim-first, non-custodial routing; contributions settle per campaign policy once verified payout is unlocked.",
+        "payment_memo_or_slug": "leg-119-house-bill-3633"
+      },
+      "provenance": {
+        "status": "beta_template",
+        "generated_at": "2026-11-20T18:09:34.159Z",
         "generated_on": "2026-11-20",
         "generator": "scripts/generate-legislative-vote-template.js",
         "congress": 119,
