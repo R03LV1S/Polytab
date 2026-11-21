@@ -3,6 +3,56 @@
   "description": "Polytab Event Radar queue. Current events (last 21 days) surfaced from free public feeds (GDELT, CDC Newsroom, GDACS, USGS) as candidate civic-action blocks in the exact Polytab block format. All metrics are honest-zero (fundedUSD=0, votesCount=0). Items are PROPOSED — promotion to the Projects (feed.json) requires a verified organization pairing and governance sign-off, never automatic. Wallet series: 0x71E + ID (601+). No coordinates are stored (lat/lng null); locations are public place-name strings only.",
   "items": [
     {
+      "id": "634",
+      "title": "Magnitude 5.9 earthquake — 238 km SW of Yanglong, China",
+      "category": "Environmental",
+      "organization": "Verification Pending",
+      "location": "238 km SW of Yanglong, China",
+      "summary": "Community Radar current event: \"Magnitude 5.9 earthquake — 238 km SW of Yanglong, China\" (USGS Significant Earthquakes, 2026-11-21). Awaiting a verified 501(c)(3) partner pairing before Projects listing.",
+      "plainSummary": "• Cause: Magnitude 5.9 earthquake — 238 km SW of Yanglong, China\n• Resolution: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucly (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "USGS Significant Earthquakes",
+        "sourceUrl": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucly",
+        "publishedAt": "2026-11-21T10:45:33.230Z",
+        "discoveredAt": "2026-11-21T14:13:23.577Z",
+        "proposedPairing": null,
+        "dedupeHash": "eb61db8859f6956876d1944f9ffeebaa9a3f17d626459d9c439f0cfcc2557178"
+      }
+    },
+    {
+      "id": "635",
+      "title": "Magnitude 6.8 earthquake — 105 km NE of Lospalos, Timor Leste",
+      "category": "Environmental",
+      "organization": "Verification Pending",
+      "location": "105 km NE of Lospalos, Timor Leste",
+      "summary": "Community Radar current event: \"Magnitude 6.8 earthquake — 105 km NE of Lospalos, Timor Leste\" (USGS Significant Earthquakes, 2026-11-21). Awaiting a verified 501(c)(3) partner pairing before Projects listing.",
+      "plainSummary": "• Cause: Magnitude 6.8 earthquake — 105 km NE of Lospalos, Timor Leste\n• Resolution: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucij (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "USGS Significant Earthquakes",
+        "sourceUrl": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucij",
+        "publishedAt": "2026-11-21T09:42:09.120Z",
+        "discoveredAt": "2026-11-21T14:13:23.803Z",
+        "proposedPairing": null,
+        "dedupeHash": "433fc1ba3698aa7e98ffd599cc368fe9d3619c140798d9bc5e36081e90720bc7"
+      }
+    },
+    {
       "id": "633",
       "title": "Magnitude 6.7 earthquake — 9 km NE of Carhuamayo, Peru",
       "category": "Environmental",
@@ -977,7 +1027,9 @@
     "72a0f5673aae817df0f3b16a7b633cc08fcdb558e2124f7d3401ba6d776fa25b",
     "893aef644445b2b41213c4c234c4b4f8f9c09fe90ec738efd88674d237e43b54",
     "935a8970b0bbce74d8aa1c6bb40b0d9e223c3ce0b72d02a69a10c8213c9b8117",
-    "da256e7d60a697920fe7e1946950de96e2f4eabf007d846ce2b9e91137025394"
+    "da256e7d60a697920fe7e1946950de96e2f4eabf007d846ce2b9e91137025394",
+    "eb61db8859f6956876d1944f9ffeebaa9a3f17d626459d9c439f0cfcc2557178",
+    "433fc1ba3698aa7e98ffd599cc368fe9d3619c140798d9bc5e36081e90720bc7"
   ],
-  "nextId": 634
+  "nextId": 636
 }
