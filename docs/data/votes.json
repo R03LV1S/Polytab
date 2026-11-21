@@ -10486,5 +10486,41 @@
       }
     }
   },
+  "93034": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
+  "93035": {
+    "total_votes": 0,
+    "total_raised_usd": 0,
+    "records": [],
+    "voteMode": "binary_referendum",
+    "positions": {
+      "A": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      },
+      "B": {
+        "total_votes": 0,
+        "total_raised_usd": 0,
+        "records": []
+      }
+    }
+  },
   "schemaVersion": 2
 }

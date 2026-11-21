@@ -856049,6 +856049,245 @@
           "multiSelect": false
         }
       }
+    },
+    {
+      "id": "93034",
+      "title": "H.R. 8552: Veterans’ Compensation Cost-of-Living Adjustment Act of 2026",
+      "url": "https://polytab.store/#93034",
+      "content_html": "<p><strong>H.R. 8552 (119th)</strong> — Veterans’ Compensation Cost-of-Living Adjustment Act of 2026</p><p>Requires the Department of Veterans Affairs to increase wartime disability compensation, additional compensation for dependents, the clothing allowance for certain disabled veterans, and dependency and indemnity compensation for surviving spouses and children by the same percentage as the Social Security cost-of-living increase effective December 1, 2026, and to publish the increased amounts in the Federal Register.</p><p>Status: Presented to President (Nov 17, 2026); passed House by voice vote (Nov 9, 2026) and passed Senate without amendment by voice vote (Nov 11, 2026)</p><p>Source: <a href=\"https://www.congress.gov/bill/119th-congress/house-bill/8552\">https://www.congress.gov/bill/119th-congress/house-bill/8552</a></p>",
+      "_polytab": {
+        "category": "Policy & Governance Votes",
+        "parentCategory": "Voting",
+        "organization": "Polytab Community — Policy & Governance Votes",
+        "location": "United States Capitol, Washington, DC (federal measure)",
+        "summary": "Requires the Department of Veterans Affairs to increase wartime disability compensation, additional compensation for dependents, the clothing allowance for certain disabled veterans, and dependency and indemnity compensation for surviving spouses and children by the same percentage as the Social Security cost-of-living increase effective December 1, 2026, and to publish the increased amounts in the Federal Register.",
+        "plainSummary": "Cause: Requires the Department of Veterans Affairs to increase wartime disability compensation, additional compensation for dependents, the clothing allowance for certain disabled veterans, and dependency and indemnity compensation for surviving spouses and children by the same percentage as the Social Security cost-of-living increase effective December 1, 2026, and to publish the increased amounts in the Federal Register.\nResolution: Community members vote Yes/No/Abstain on H.R. 8552 (119th): \"Veterans’ Compensation Cost-of-Living Adjustment Act of 2026\" as a middleman-free litmus test, then compare results with official House/Senate representative votes.\nFunding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).\nBeneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).\nWindow/Status: Passed House Nov 9, 2026; passed Senate Nov 11, 2026; presented to President Nov 17, 2026 (119th Congress). Status: Presented to President (Nov 17, 2026); passed House by voice vote (Nov 9, 2026) and passed Senate without amendment by voice vote (Nov 11, 2026)\nProof/Sources: https://www.congress.gov/bill/119th-congress/house-bill/8552\nIncentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 10000,
+        "campaignType": "open_ended",
+        "fundingActivationUSD": 10000,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "status": "Active",
+        "lat": 38.8899,
+        "lng": -77.0091,
+        "website": "https://www.congress.gov/bill/119th-congress/house-bill/8552",
+        "socials": {},
+        "legislation": {
+          "congress": 119,
+          "bill_type": "house_bill",
+          "number": 8552,
+          "display_id": "H.R. 8552",
+          "title": "Veterans’ Compensation Cost-of-Living Adjustment Act of 2026",
+          "status": "presented_to_president",
+          "window": "Passed House Nov 9, 2026; passed Senate Nov 11, 2026; presented to President Nov 17, 2026 (119th Congress)",
+          "source_url": "https://www.congress.gov/bill/119th-congress/house-bill/8552"
+        },
+        "litmusTest": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (middleman-free).",
+          "representative_votes": {
+            "house": {
+              "result": "Passed",
+              "date": "2026-11-09",
+              "yeas": null,
+              "nays": null,
+              "method": "voice vote"
+            },
+            "senate": {
+              "result": "Passed",
+              "date": "2026-11-11",
+              "yeas": null,
+              "nays": null,
+              "method": "voice vote"
+            },
+            "roll_calls": []
+          }
+        },
+        "bounty": {
+          "beneficiary_scope": "national",
+          "eligible_beneficiaries": [],
+          "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification."
+        },
+        "voteMode": "binary_referendum",
+        "positions": [
+          {
+            "key": "A",
+            "label": "Ratify / Pass — H.R. 8552: Veterans’ Compensation Cost-of-Living Adjustment Act of 2026",
+            "shortLabel": "Pass H.R. 8552",
+            "description": "Back adoption/passage of H.R. 8552: Veterans’ Compensation Cost-of-Living Adjustment Act of 2026. Stake attributed to this pro-passage position under Polytab’s futarchy escrow policy (honest-zero until verified on-chain votes).",
+            "intent": "ratify_pass",
+            "beneficiary": {
+              "type": "campaign_escrow",
+              "organization": "Polytab Community — Policy & Governance Votes",
+              "wallet": null
+            },
+            "settlement": {
+              "mode": "unified_escrow",
+              "walletSource": "escrow"
+            }
+          },
+          {
+            "key": "B",
+            "label": "Reject / Defeat — H.R. 8552: Veterans’ Compensation Cost-of-Living Adjustment Act of 2026",
+            "shortLabel": "Reject H.R. 8552",
+            "description": "Oppose adoption/passage of H.R. 8552: Veterans’ Compensation Cost-of-Living Adjustment Act of 2026. Stake attributed to this anti-passage position under Polytab’s futarchy escrow policy (honest-zero until verified on-chain votes).",
+            "intent": "reject_defeat",
+            "beneficiary": {
+              "type": "campaign_escrow",
+              "organization": "Polytab Community — Policy & Governance Votes",
+              "wallet": null
+            },
+            "settlement": {
+              "mode": "unified_escrow",
+              "walletSource": "escrow"
+            }
+          }
+        ],
+        "positionAccounting": {
+          "version": 1,
+          "positions": {
+            "A": {
+              "fundedUSD": 0,
+              "votesCount": 0
+            },
+            "B": {
+              "fundedUSD": 0,
+              "votesCount": 0
+            }
+          },
+          "total": {
+            "fundedUSD": 0,
+            "votesCount": 0
+          }
+        },
+        "selectionPolicy": {
+          "requiresSelection": true,
+          "multiSelect": false
+        }
+      },
+      "date_published": "2026-11-21T00:00:00Z"
+    },
+    {
+      "id": "93035",
+      "title": "H.R. 4795: Protect Economic and Academic Freedom Act of 2026",
+      "url": "https://polytab.store/#93035",
+      "content_html": "<p><strong>H.R. 4795 (119th)</strong> — Protect Economic and Academic Freedom Act of 2026</p><p>Prohibits institutions of higher education that participate in federal student aid programs from engaging in commercial boycotts against Israel, or against an entity licensed by, regulated by, or organized under the laws of Israel, that are not based on a valid business reason.</p><p>Status: Passed House 237-169 (Roll no. 295, Sep 3, 2026); received in Senate and referred to the Committee on Health, Education, Labor, and Pensions (Sep 14, 2026)</p><p>Source: <a href=\"https://www.congress.gov/bill/119th-congress/house-bill/4795\">https://www.congress.gov/bill/119th-congress/house-bill/4795</a></p>",
+      "_polytab": {
+        "category": "Policy & Governance Votes",
+        "parentCategory": "Voting",
+        "organization": "Polytab Community — Policy & Governance Votes",
+        "location": "United States Capitol, Washington, DC (federal measure)",
+        "summary": "Prohibits institutions of higher education that participate in federal student aid programs from engaging in commercial boycotts against Israel, or against an entity licensed by, regulated by, or organized under the laws of Israel, that are not based on a valid business reason.",
+        "plainSummary": "Cause: Prohibits institutions of higher education that participate in federal student aid programs from engaging in commercial boycotts against Israel, or against an entity licensed by, regulated by, or organized under the laws of Israel, that are not based on a valid business reason.\nResolution: Community members vote Yes/No/Abstain on H.R. 4795 (119th): \"Protect Economic and Academic Freedom Act of 2026\" as a middleman-free litmus test, then compare results with official House/Senate representative votes.\nFunding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).\nBeneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).\nWindow/Status: Passed House Sep 3, 2026; received in Senate Sep 14, 2026 (119th Congress). Status: Passed House 237-169 (Roll no. 295, Sep 3, 2026); received in Senate and referred to the Committee on Health, Education, Labor, and Pensions (Sep 14, 2026)\nProof/Sources: https://www.congress.gov/bill/119th-congress/house-bill/4795\nIncentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.",
+        "votePriceUSD": 0.5,
+        "targetUSD": 10000,
+        "campaignType": "open_ended",
+        "fundingActivationUSD": 10000,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "status": "Active",
+        "lat": 38.8899,
+        "lng": -77.0091,
+        "website": "https://www.congress.gov/bill/119th-congress/house-bill/4795",
+        "socials": {},
+        "legislation": {
+          "congress": 119,
+          "bill_type": "house_bill",
+          "number": 4795,
+          "display_id": "H.R. 4795",
+          "title": "Protect Economic and Academic Freedom Act of 2026",
+          "status": "passed_house",
+          "window": "Passed House Sep 3, 2026; received in Senate Sep 14, 2026 (119th Congress)",
+          "source_url": "https://www.congress.gov/bill/119th-congress/house-bill/4795"
+        },
+        "litmusTest": {
+          "purpose": "Contrast community sentiment with representative roll-call votes (middleman-free).",
+          "representative_votes": {
+            "house": {
+              "result": "Passed",
+              "date": "2026-09-03",
+              "yeas": 237,
+              "nays": 169,
+              "roll": 295
+            },
+            "senate": null,
+            "roll_calls": [
+              {
+                "chamber": "House",
+                "date": "2026-09-03",
+                "roll": 295,
+                "yeas": 237,
+                "nays": 169,
+                "result": "Passed"
+              }
+            ]
+          }
+        },
+        "bounty": {
+          "beneficiary_scope": "national",
+          "eligible_beneficiaries": [],
+          "destination_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification."
+        },
+        "voteMode": "binary_referendum",
+        "positions": [
+          {
+            "key": "A",
+            "label": "Ratify / Pass — H.R. 4795: Protect Economic and Academic Freedom Act of 2026",
+            "shortLabel": "Pass H.R. 4795",
+            "description": "Back adoption/passage of H.R. 4795: Protect Economic and Academic Freedom Act of 2026. Stake attributed to this pro-passage position under Polytab’s futarchy escrow policy (honest-zero until verified on-chain votes).",
+            "intent": "ratify_pass",
+            "beneficiary": {
+              "type": "campaign_escrow",
+              "organization": "Polytab Community — Policy & Governance Votes",
+              "wallet": null
+            },
+            "settlement": {
+              "mode": "unified_escrow",
+              "walletSource": "escrow"
+            }
+          },
+          {
+            "key": "B",
+            "label": "Reject / Defeat — H.R. 4795: Protect Economic and Academic Freedom Act of 2026",
+            "shortLabel": "Reject H.R. 4795",
+            "description": "Oppose adoption/passage of H.R. 4795: Protect Economic and Academic Freedom Act of 2026. Stake attributed to this anti-passage position under Polytab’s futarchy escrow policy (honest-zero until verified on-chain votes).",
+            "intent": "reject_defeat",
+            "beneficiary": {
+              "type": "campaign_escrow",
+              "organization": "Polytab Community — Policy & Governance Votes",
+              "wallet": null
+            },
+            "settlement": {
+              "mode": "unified_escrow",
+              "walletSource": "escrow"
+            }
+          }
+        ],
+        "positionAccounting": {
+          "version": 1,
+          "positions": {
+            "A": {
+              "fundedUSD": 0,
+              "votesCount": 0
+            },
+            "B": {
+              "fundedUSD": 0,
+              "votesCount": 0
+            }
+          },
+          "total": {
+            "fundedUSD": 0,
+            "votesCount": 0
+          }
+        },
+        "selectionPolicy": {
+          "requiresSelection": true,
+          "multiSelect": false
+        }
+      },
+      "date_published": "2026-11-21T00:00:00Z"
     }
   ],
   "updated_at": "2026-11-20T23:01:50.147Z"
