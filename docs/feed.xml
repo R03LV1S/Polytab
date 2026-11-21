@@ -5,7 +5,7 @@
     <link>https://polytab.store</link>
     <description>The store where you buy civic outcomes, not junk. Every verified civic action, mirrored from feed.json. Funding and vote counts are honest-zero until real on-chain votes are recorded — no fabricated metrics.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Nov 2026 20:51:59 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 21:09:42 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://polytab.store/feed.xml" rel="self" type="application/rss+xml" />
   <item>
@@ -167964,6 +167964,7 @@ Website: https://votelog.org/members/coons</description>
     <description>Resolution: Official censure &amp; conflict-of-interest sanction for Ashley Moody (US-FL U.S. Senate).
 Timer: Starts a 60-day countdown once $10,000 is reached in community votes.
 Outcome: If YES wins, 100% goes to verified local charities; if NO wins, 100% goes to essential community services (fire/EMS/veterans/food banks).
+Source access: VoteLog/FEC public records, accessed 2026-11-20.
 
 Category: Public Office &amp; Elections
 Organization: Ashley Moody (R-FL) Accountability Pool
@@ -168023,6 +168024,7 @@ Website: https://votelog.org/members/risch</description>
     <description>Resolution: Official censure &amp; conflict-of-interest sanction for Don Tracy (US-IL U.S. Senate).
 Timer: Starts a 60-day countdown once $10,000 is reached in community votes.
 Outcome: If YES wins, 100% goes to verified local charities; if NO wins, 100% goes to essential community services (fire/EMS/veterans/food banks).
+Source access: VoteLog/FEC public records, accessed 2026-11-20.
 
 Category: Public Office &amp; Elections
 Organization: Don Tracy (R-IL) Accountability Pool
@@ -168162,6 +168164,7 @@ Website: https://votelog.org/members/markey</description>
     <description>Resolution: Official censure &amp; conflict-of-interest sanction for Abdul El-sayed (US-MI U.S. Senate).
 Timer: Starts a 60-day countdown once $10,000 is reached in community votes.
 Outcome: If YES wins, 100% goes to verified local charities; if NO wins, 100% goes to essential community services (fire/EMS/veterans/food banks).
+Source access: VoteLog/FEC public records, accessed 2026-11-20.
 
 Category: Public Office &amp; Elections
 Organization: Abdul El-sayed (D-MI) Accountability Pool
@@ -168181,6 +168184,7 @@ Website: https://votelog.org/members/elsayed</description>
     <description>Resolution: Official censure &amp; conflict-of-interest sanction for Margaret Flanagan (US-MN U.S. Senate).
 Timer: Starts a 60-day countdown once $10,000 is reached in community votes.
 Outcome: If YES wins, 100% goes to verified local charities; if NO wins, 100% goes to essential community services (fire/EMS/veterans/food banks).
+Source access: VoteLog/FEC public records, accessed 2026-11-20.
 
 Category: Public Office &amp; Elections
 Organization: Margaret Flanagan (D-MN) Accountability Pool
@@ -168220,6 +168224,7 @@ Website: https://votelog.org/members/hydesmith</description>
     <description>Resolution: Official censure &amp; conflict-of-interest sanction for Kurt Alme (US-MT U.S. Senate).
 Timer: Starts a 60-day countdown once $10,000 is reached in community votes.
 Outcome: If YES wins, 100% goes to verified local charities; if NO wins, 100% goes to essential community services (fire/EMS/veterans/food banks).
+Source access: VoteLog/FEC public records, accessed 2026-11-20.
 
 Category: Public Office &amp; Elections
 Organization: Kurt Alme (R-MT) Accountability Pool
@@ -168416,6 +168421,7 @@ Website: https://votelog.org/members/reed</description>
     <description>Resolution: Official censure &amp; conflict-of-interest sanction for Annie Andrews (US-SC U.S. Senate).
 Timer: Starts a 60-day countdown once $10,000 is reached in community votes.
 Outcome: If YES wins, 100% goes to verified local charities; if NO wins, 100% goes to essential community services (fire/EMS/veterans/food banks).
+Source access: VoteLog/FEC public records, accessed 2026-11-20.
 
 Category: Public Office &amp; Elections
 Organization: Annie Andrews (D-SC) Accountability Pool
@@ -168475,6 +168481,7 @@ Website: https://votelog.org/members/hagerty</description>
     <description>Resolution: Official censure &amp; conflict-of-interest sanction for James Talarico (US-TX U.S. Senate).
 Timer: Starts a 60-day countdown once $10,000 is reached in community votes.
 Outcome: If YES wins, 100% goes to verified local charities; if NO wins, 100% goes to essential community services (fire/EMS/veterans/food banks).
+Source access: VoteLog/FEC public records, accessed 2026-11-20.
 
 Category: Public Office &amp; Elections
 Organization: James Talarico (D-TX) Accountability Pool
@@ -583971,7 +583978,7 @@ Website: https://www.senate.gov/legislative/active_leg_page.htm</description>
 Resolution: Community members vote Yes/No/Abstain on S. 1383 / H.R. 7296 as a middleman-free litmus test, then compare results with official House/Senate representative votes.
 Funding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).
 Beneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).
-Window/Status: Active in 119th Congress; potential floor action/votes possible in Nov 16-Dec 31 window (timing subject to chamber scheduling). Status: Active/commonly tracked legislation in 119th Congress (Senate and House measures)
+Window/Status: Active in 119th Congress; potential floor action/votes possible in Nov 16-Dec 31, 2026 window (timing subject to chamber scheduling; as of 2026-11-21). Status: Active/commonly tracked legislation in 119th Congress (Senate and House measures)
 Proof/Sources: https://www.senate.gov/legislative/active_leg_page.htm
 Incentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.
 
@@ -584086,12 +584093,11 @@ Website: https://www.congress.gov/bill/119th-congress/house-bill/8488</descripti
     <title>AI Systems Transparency Act</title>
     <link>https://polytab.store/#93021</link>
     <guid isPermaLink="false">polytab:shelf:93021</guid>
-    <description>Cause: S. 5471 (2025-2026): AI Systems Transparency Act.
-Resolution: Community members vote Yes/No/Abstain on S. 5471 (119th): &quot;AI Systems Transparency Act&quot; as a middleman-free litmus test, then compare results with official House/Senate representative votes.
-Funding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).
+    <description>Cause: S. 5471 (119th Congress), the AI Systems Transparency Act, was introduced in the U.S. Senate on 2026-09-23 and referred to the Committee on Commerce, Science, and Transportation (Congress.gov, accessed 2026-11-21).
+Resolution: Community members vote Yes/No/Abstain on S. 5471 as a middleman-free litmus test, then compare results with any official House/Senate representative votes.
+Funding: Open-ended campaign; voting/timer window begins once ,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).
 Beneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).
-Window/Status: Introduced/considered within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling.
-Status: Introduced in Senate (IS); AI systems transparency framework under consideration
+Window/Status: Introduced in Senate 2026-09-23; referred to Senate Commerce, Science, and Transportation; no floor vote recorded (as of 2026-11-21, Congress.gov).
 Proof/Sources: https://www.congress.gov/bill/119th-congress/senate-bill/5471
 Incentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.
 
@@ -584134,12 +584140,11 @@ Website: https://www.congress.gov/bill/119th-congress/senate-bill/4727</descript
     <title>AI Bubble Transparency Act</title>
     <link>https://polytab.store/#93023</link>
     <guid isPermaLink="false">polytab:shelf:93023</guid>
-    <description>Cause: S. 4743 (2026): AI Bubble Transparency Act.
-Resolution: Community members vote Yes/No/Abstain on S. 4743 (119th): &quot;AI Bubble Transparency Act&quot; as a middleman-free litmus test, then compare results with official House/Senate representative votes.
-Funding: Open-ended campaign; voting/timer window begins once $10,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).
+    <description>Cause: S. 4743 (119th Congress), the AI Bubble Transparency Act, was introduced in the U.S. Senate on 2026-06-10 by Sen. Elizabeth Warren (D-MA) with cosponsors and referred to the Senate Committee on Banking, Housing, and Urban Affairs (Congress.gov, accessed 2026-11-21).
+Resolution: Community members vote Yes/No/Abstain on S. 4743 as a middleman-free litmus test, then compare results with any official House/Senate representative votes.
+Funding: Open-ended campaign; voting/timer window begins once ,000 is funded (Polytab Base USDC wallet). 100% of contributions are directed to verified local/community 501(c)(3) beneficiaries aligned to campaign impact (claim-first, non-custodial routing).
 Beneficiaries: Bounty benefits verified local/community 501(c)(3) entities aligned to campaign impact (selected per governance).
-Window/Status: Introduced within Nov 16-Dec 31, 2026 window; floor action possible per chamber scheduling.
-Status: Introduced in Senate (IS); AI bubble transparency
+Window/Status: Introduced in Senate 2026-06-10; referred to Senate Banking, Housing, and Urban Affairs; no floor vote recorded (as of 2026-11-21, Congress.gov).
 Proof/Sources: https://www.congress.gov/bill/119th-congress/senate-bill/4743
 Incentive: Non-monetary civic signal and public contrast with representative roll-call votes; honest-zero until real on-chain votes/funding are recorded.
 
@@ -586601,7 +586606,7 @@ Website: https://votelog.org/members/va/robert-scott</description>
     <link>https://polytab.store/project.html?id=92146</link>
     <guid isPermaLink="false">polytab:shelf:92146</guid>
     <description>Resolution: Official censure &amp; accountability sanction for Darline Graham (SC U.S. Senate).
-Funding context: has campaign-funding records tracked by VoteLog (FEC-sourced public ledger; see member profile for totals and sources) (source: VoteLog/FEC public ledger, https://votelog.org/members/sc/darline-graham).
+Funding context: has campaign-funding records tracked by VoteLog (FEC-sourced public ledger; see member profile for totals and sources) (source: VoteLog/FEC public ledger, https://votelog.org/members/sc/darline-graham, accessed 2026-11-20).
 Timer: Starts a 60-day countdown once $10,000 is reached in community votes.
 Outcome: If YES wins, 100% goes to verified charities; if NO wins, 100% goes to essential community services (fire/EMS/veterans/food banks).
 
@@ -594561,7 +594566,7 @@ Website: https://votelog.org/members/ca/james-gallagher</description>
     <link>https://polytab.store/project.html?id=92544</link>
     <guid isPermaLink="false">polytab:shelf:92544</guid>
     <description>Resolution: Official censure &amp; accountability sanction for Darline Graham (SC U.S. Senate).
-Funding context: has campaign-funding records tracked by VoteLog (FEC-sourced public ledger; see member profile for totals and sources) (source: VoteLog/FEC public ledger, https://votelog.org/members/sc/darline-graham).
+Funding context: has campaign-funding records tracked by VoteLog (FEC-sourced public ledger; see member profile for totals and sources) (source: VoteLog/FEC public ledger, https://votelog.org/members/sc/darline-graham, accessed 2026-11-20).
 Timer: Starts a 60-day countdown once $10,000 is reached in community votes.
 Outcome: If YES wins, 100% goes to verified charities; if NO wins, 100% goes to essential community services (fire/EMS/veterans/food banks).
 
