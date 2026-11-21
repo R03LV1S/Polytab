@@ -3,6 +3,64 @@
   "description": "Polytab Event Radar queue. Current events (last 21 days) surfaced from free public feeds (GDELT, CDC Newsroom, GDACS, USGS) as candidate civic-action blocks in the exact Polytab block format. All metrics are honest-zero (fundedUSD=0, votesCount=0). Items are PROPOSED — promotion to the Projects (feed.json) requires a verified organization pairing and governance sign-off, never automatic. Wallet series: 0x71E + ID (601+). No coordinates are stored (lat/lng null); locations are public place-name strings only.",
   "items": [
     {
+      "id": "636",
+      "title": "Sudan war leaves disabled children missing out on education - Dominican Republic Post – Caribbean News , Business , Tra…",
+      "category": "Accessibility & Universal Design",
+      "organization": "U.S. Senate 56-44 Majority Mandate Pool",
+      "location": "United States",
+      "summary": "Community Radar current event: \"Sudan war leaves disabled children missing out on education - Dominican Republic Post – Caribbean News , Business , Travel & Culture\" (GDELT (dominicanrepublicpost.com), 2026-11-20). Proposed pairing with verified organization U.S. Senate 56-44 Majority Mandate Pool (Projects bounty #92038) — pending governance verification.",
+      "plainSummary": "• Cause: Sudan war leaves disabled children missing out on education - Dominican Republic Post – Caribbean News , Business , Travel & Culture\n• Resolution: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://dominicanrepublicpost.com/sudans-war-leaves-disabled-children-missing-out-on-education/ (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "GDELT (dominicanrepublicpost.com)",
+        "sourceUrl": "https://dominicanrepublicpost.com/sudans-war-leaves-disabled-children-missing-out-on-education/",
+        "publishedAt": "2026-11-20T21:45:00.000Z",
+        "discoveredAt": "2026-11-21T22:47:00.429Z",
+        "proposedPairing": {
+          "bountyId": "92038",
+          "organization": "U.S. Senate 56-44 Majority Mandate Pool",
+          "keywordMatches": 4
+        },
+        "dedupeHash": "1c97883438f46d835504d0516733e1c820150b3387e7b17dfd83c4356132c67e"
+      }
+    },
+    {
+      "id": "637",
+      "title": "Israeli engineers build assistive tech center for children in Ghana",
+      "category": "Accessibility & Universal Design",
+      "organization": "Room to Read",
+      "location": "Israel",
+      "summary": "Community Radar current event: \"Israeli engineers build assistive tech center for children in Ghana\" (GDELT (jpost.com), 2026-11-20). Proposed pairing with verified organization Room to Read (Projects bounty #105) — pending governance verification.",
+      "plainSummary": "• Cause: Israeli engineers build assistive tech center for children in Ghana\n• Resolution: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: http://www.jpost.com/israel-news/article-915557 (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "GDELT (jpost.com)",
+        "sourceUrl": "http://www.jpost.com/israel-news/article-915557",
+        "publishedAt": "2026-11-20T05:15:00.000Z",
+        "discoveredAt": "2026-11-21T22:47:00.692Z",
+        "proposedPairing": {
+          "bountyId": "105",
+          "organization": "Room to Read",
+          "keywordMatches": 2
+        },
+        "dedupeHash": "e4cea4c1c4407762c5a3aeba51528b19a8662532dba25ec74c3b035dbad2d8f3"
+      }
+    },
+    {
       "id": "634",
       "title": "Magnitude 5.9 earthquake — 238 km SW of Yanglong, China",
       "category": "Environmental",
@@ -1029,7 +1087,9 @@
     "935a8970b0bbce74d8aa1c6bb40b0d9e223c3ce0b72d02a69a10c8213c9b8117",
     "da256e7d60a697920fe7e1946950de96e2f4eabf007d846ce2b9e91137025394",
     "eb61db8859f6956876d1944f9ffeebaa9a3f17d626459d9c439f0cfcc2557178",
-    "433fc1ba3698aa7e98ffd599cc368fe9d3619c140798d9bc5e36081e90720bc7"
+    "433fc1ba3698aa7e98ffd599cc368fe9d3619c140798d9bc5e36081e90720bc7",
+    "1c97883438f46d835504d0516733e1c820150b3387e7b17dfd83c4356132c67e",
+    "e4cea4c1c4407762c5a3aeba51528b19a8662532dba25ec74c3b035dbad2d8f3"
   ],
-  "nextId": 636
+  "nextId": 638
 }
