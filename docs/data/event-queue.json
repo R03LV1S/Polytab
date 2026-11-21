@@ -3,6 +3,31 @@
   "description": "Polytab Event Radar queue. Current events (last 21 days) surfaced from free public feeds (GDELT, CDC Newsroom, GDACS, USGS) as candidate civic-action blocks in the exact Polytab block format. All metrics are honest-zero (fundedUSD=0, votesCount=0). Items are PROPOSED — promotion to the Projects (feed.json) requires a verified organization pairing and governance sign-off, never automatic. Wallet series: 0x71E + ID (601+). No coordinates are stored (lat/lng null); locations are public place-name strings only.",
   "items": [
     {
+      "id": "633",
+      "title": "Magnitude 6.7 earthquake — 9 km NE of Carhuamayo, Peru",
+      "category": "Environmental",
+      "organization": "Verification Pending",
+      "location": "9 km NE of Carhuamayo, Peru",
+      "summary": "Community Radar current event: \"Magnitude 6.7 earthquake — 9 km NE of Carhuamayo, Peru\" (USGS Significant Earthquakes, 2026-11-21). Awaiting a verified 501(c)(3) partner pairing before Projects listing.",
+      "plainSummary": "• Cause: Magnitude 6.7 earthquake — 9 km NE of Carhuamayo, Peru\n• Resolution: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucfm (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "USGS Significant Earthquakes",
+        "sourceUrl": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucfm",
+        "publishedAt": "2026-11-21T00:09:19.667Z",
+        "discoveredAt": "2026-11-21T05:38:38.822Z",
+        "proposedPairing": null,
+        "dedupeHash": "da256e7d60a697920fe7e1946950de96e2f4eabf007d846ce2b9e91137025394"
+      }
+    },
+    {
       "id": "632",
       "title": "Health Secretary pressed over failings in cancer case",
       "category": "Accessibility & Universal Design",
@@ -951,7 +976,8 @@
     "f874bb1f26a30a2ff7f01f491cd5dbcd8b18b61d25e4031c92095e1721edeb00",
     "72a0f5673aae817df0f3b16a7b633cc08fcdb558e2124f7d3401ba6d776fa25b",
     "893aef644445b2b41213c4c234c4b4f8f9c09fe90ec738efd88674d237e43b54",
-    "935a8970b0bbce74d8aa1c6bb40b0d9e223c3ce0b72d02a69a10c8213c9b8117"
+    "935a8970b0bbce74d8aa1c6bb40b0d9e223c3ce0b72d02a69a10c8213c9b8117",
+    "da256e7d60a697920fe7e1946950de96e2f4eabf007d846ce2b9e91137025394"
   ],
-  "nextId": 633
+  "nextId": 634
 }
