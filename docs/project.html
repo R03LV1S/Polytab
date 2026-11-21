@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Project — Polytab</title>
   <meta name="theme-color" content="#000000" />
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.tailwindcss.com https://cdn.jsdelivr.net https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; img-src 'self' data: https:; connect-src 'self' https://api.coinbase.com https://api.github.com https://*.workers.dev https://polytab.store; object-src 'none'; base-uri 'self';" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.tailwindcss.com https://cdn.jsdelivr.net https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; img-src 'self' data: https:; connect-src 'self' https://api.coinbase.com https://api.github.com https://mainnet.base.org https://*.workers.dev https://polytab.store; object-src 'none'; base-uri 'self';" />
   <link rel="manifest" href="./manifest.json" />
   <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
   <link rel="icon" type="image/jpeg" href="./favicon.jpg" />
@@ -136,6 +136,42 @@
       "use strict";
       const GITHUB_OWNER = "r03lv1s";
       const ESCROW_WALLET = "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08";
+      const BASE_USDC = "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913";
+      const USDC_BALANCE_TTL_MS = 24 * 60 * 60 * 1000;
+      function isDistinctCampaignWallet(addr) {
+        return /^0x[a-fA-F0-9]{40}$/.test(String(addr || "")) && String(addr).toLowerCase() !== ESCROW_WALLET.toLowerCase();
+      }
+      async function getCachedUsdcBalanceUSD(addr) {
+        const a = String(addr || "").toLowerCase();
+        if (!isDistinctCampaignWallet(a)) return null;
+        const key = "polytab:usdcBal:" + a;
+        try {
+          const cached = JSON.parse(localStorage.getItem(key) || "null");
+          if (cached && Number.isFinite(cached.usd) && (Date.now() - Number(cached.ts || 0)) < USDC_BALANCE_TTL_MS) return Number(cached.usd);
+        } catch (_) {}
+        try {
+          const dataHex = "0x70a08231000000000000000000000000" + a.replace(/^0x/, "");
+          const c = new AbortController(); const t = setTimeout(() => c.abort(), 4500);
+          const res = await fetch("https://mainnet.base.org", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ jsonrpc: "2.0", id: 1, method: "eth_call", params: [{ to: BASE_USDC, data: dataHex }, "latest"] }),
+            signal: c.signal, cache: "no-store"
+          });
+          clearTimeout(t);
+          if (!res.ok) return null;
+          const j = await res.json();
+          const hex = j && j.result;
+          if (typeof hex !== "string" || !/^0x[0-9a-fA-F]+$/.test(hex)) return null;
+          const raw = BigInt(hex);
+          const base = raw / 1000000n;
+          const frac = raw % 1000000n;
+          const usd = Number(base) + Number(frac) / 1e6;
+          if (!Number.isFinite(usd) || usd < 0) return null;
+          try { localStorage.setItem(key, JSON.stringify({ usd, ts: Date.now() })); } catch (_) {}
+          return usd;
+        } catch (_) { return null; }
+      }
       function orgClaimIssueUrl(item) {
         const params = new URLSearchParams({
           title: "[Org Claim]: #" + String(item.id || "") + " - " + String(item.title || "").slice(0, 80),
@@ -357,6 +393,7 @@
             campaignType: cType,
             votePriceUSD: Number(m.votePriceUSD || 0),
             targetUSD: cType === "open_ended" ? null : (Number.isFinite(rawTarget) && rawTarget > 0 ? rawTarget : 0),
+            displayTargetUSD: (Number(m.displayTargetUSD || m.engagementTargetUSD) > 0) ? Number(m.displayTargetUSD || m.engagementTargetUSD) : null,
             fundedUSD: Number(m.fundedUSD || 0),
             votesCount: Number(m.votesCount || 0),
             wallet: String(orgOverlay.get(String(raw.id)) || m.contract || m.wallet || ""),
@@ -373,7 +410,11 @@
 
           document.title = item.title + " — Polytab";
           const isOpenEnded = item.campaignType === "open_ended" || item.targetUSD == null || item.targetUSD <= 0;
-          const pct = isOpenEnded ? 100 : (item.targetUSD > 0 ? Math.min(100, Math.round((item.fundedUSD / item.targetUSD) * 100)) : 0);
+          const visualBaseline = Math.max(5000, Number(item.displayTargetUSD || 0) || 5000);
+          let visualTarget = isOpenEnded ? Math.max(visualBaseline, Number(item.fundedUSD || 0)) : (Number(item.targetUSD) || 0);
+          const pct = isOpenEnded
+            ? (visualTarget > 0 ? Math.min(100, Math.round((Number(item.fundedUSD || 0) / visualTarget) * 100)) : 0)
+            : (item.targetUSD > 0 ? Math.min(100, Math.round((item.fundedUSD / item.targetUSD) * 100)) : 0);
           const pcat = item.parentCategory || "Charities";
 
           const isVoting = pcat.includes("Voting") || (item.id >= 90000 && item.id < 100000);
@@ -417,9 +458,22 @@
 
           escText(document.getElementById("title"), item.title);
           escText(document.getElementById("orgLine"), item.organization ? ("Organization: " + item.organization) : "Organization: (not specified)");
-          escText(document.getElementById("fundingText"), isOpenEnded ? ("$" + item.fundedUSD.toFixed(2) + " raised (open-ended)") : ("$" + item.fundedUSD.toFixed(2) + " / $" + Number(item.targetUSD).toFixed(2) + " (" + pct + "%)"));
+          const fundingTextEl = document.getElementById("fundingText");
           const pbar = document.getElementById("progressBar");
-          if (pbar) { pbar.style.width = Math.min(pct,100) + "%"; pbar.className = "h-full " + (isOpenEnded || (item.targetUSD && item.fundedUSD >= item.targetUSD) ? "bg-emerald-500" : "bg-indigo-500"); }
+          const renderFunding = (vt) => {
+            const t = isOpenEnded ? Math.max(visualBaseline, Number(item.fundedUSD || 0), Number(vt || 0)) : (Number(item.targetUSD) || 0);
+            const p = isOpenEnded
+              ? (t > 0 ? Math.min(100, Math.round((Number(item.fundedUSD || 0) / t) * 100)) : 0)
+              : (item.targetUSD > 0 ? Math.min(100, Math.round((item.fundedUSD / item.targetUSD) * 100)) : 0);
+            if (fundingTextEl) escText(fundingTextEl, isOpenEnded
+              ? ("$" + Number(item.fundedUSD || 0).toFixed(2) + " raised / $" + t.toFixed(2) + " visual goal (open-ended)")
+              : ("$" + item.fundedUSD.toFixed(2) + " / $" + Number(item.targetUSD).toFixed(2) + " (" + p + "%)"));
+            if (pbar) { pbar.style.width = Math.min(p,100) + "%"; pbar.className = "h-full " + ((isOpenEnded || (item.targetUSD && item.fundedUSD >= item.targetUSD)) ? "bg-emerald-500" : "bg-indigo-500"); }
+          };
+          renderFunding(visualTarget);
+          if (isOpenEnded && isDistinctCampaignWallet(item.wallet)) {
+            getCachedUsdcBalanceUSD(item.wallet).then((bal) => { if (Number.isFinite(bal) && bal >= 0) renderFunding(bal); }).catch(() => {});
+          }
           escText(document.getElementById("votesText"), String(item.votesCount) + " support units");
           escText(document.getElementById("priceText"), "$" + item.votePriceUSD.toFixed(2) + " min / unit");
           escText(document.getElementById("walletText"), item.wallet || "Not available");
