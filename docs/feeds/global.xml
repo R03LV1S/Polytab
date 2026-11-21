@@ -5,7 +5,7 @@
     <link>https://polytab.store/#map</link>
     <description>geoRSS mirror of the Polytab Projects. 32747 of 32747 actions publish organization coordinates, rounded to two decimal places (~1 km, neighborhood-level) to prevent PII/doxing. Organizations without a public location are listed in feed.xml only.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Nov 2026 20:14:53 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 20:36:20 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://polytab.store/feeds/global.xml" rel="self" type="application/rss+xml" />
   <item>
@@ -177139,6 +177139,7 @@ Contributions: locked — org must verify (registry + DNS TXT) to unlock its pag
     <description>Resolution: Official censure &amp; conflict-of-interest sanction for Felix Barry Moore (US-AL U.S. Senate).
 Timer: Starts a 60-day countdown once $10,000 is reached in community votes.
 Outcome: If YES wins, 100% goes to verified local charities; if NO wins, 100% goes to essential community services (fire/EMS/veterans/food banks).
+Race money context: 2026 Senate general-election money context (VoteLog, as of 2026-11-20; currently serving in U.S. House, 2026 Senate general-election candidate): Barry Moore (R) vs. Everett Wess (D) — $4,799,442 total deployed ($387,557 outside, $4,411,885 campaigns). Source: https://votelog.org/investigations/alabama-senate-general-money.
 
 Category: Public Office &amp; Elections
 Organization: Felix Barry Moore (R-AL) Accountability Pool
@@ -177325,6 +177326,7 @@ Website: https://votelog.org/members/tracy</description>
     <description>Resolution: Official censure &amp; conflict-of-interest sanction for Ashley Hinson Arenholz (US-IA U.S. Senate).
 Timer: Starts a 60-day countdown once $10,000 is reached in community votes.
 Outcome: If YES wins, 100% goes to verified local charities; if NO wins, 100% goes to essential community services (fire/EMS/veterans/food banks).
+Race money context: 2026 Senate general-election money context (VoteLog, as of 2026-11-20; currently serving in U.S. House, 2026 Senate general-election candidate): Ashley Hinson (R) vs. Josh Turek (D) — $235,087,405 total deployed ($199,966,676 outside, $35,120,729 campaigns). Source: https://votelog.org/investigations/iowa-senate-general-money.
 
 Category: Public Office &amp; Elections
 Organization: Ashley Hinson Arenholz (R-IA) Accountability Pool
@@ -177366,6 +177368,7 @@ Website: https://votelog.org/members/marshall</description>
     <description>Resolution: Official censure &amp; conflict-of-interest sanction for Garland Andy Barr (US-KY U.S. Senate).
 Timer: Starts a 60-day countdown once $10,000 is reached in community votes.
 Outcome: If YES wins, 100% goes to verified local charities; if NO wins, 100% goes to essential community services (fire/EMS/veterans/food banks).
+Race money context: 2026 Senate general-election money context (VoteLog, as of 2026-11-20; currently serving in U.S. House, 2026 Senate general-election candidate): Andy Barr (R) vs. Charles Booker (D) — $18,303,255 total deployed ($1,989,959 outside, $16,313,296 campaigns). Source: https://votelog.org/investigations/kentucky-senate-general-money.
 
 Category: Public Office &amp; Elections
 Organization: Garland Andy Barr (R-KY) Accountability Pool
@@ -177386,6 +177389,7 @@ Website: https://votelog.org/members/barr</description>
     <description>Resolution: Official censure &amp; conflict-of-interest sanction for Julia Letlow (US-LA U.S. Senate).
 Timer: Starts a 60-day countdown once $10,000 is reached in community votes.
 Outcome: If YES wins, 100% goes to verified local charities; if NO wins, 100% goes to essential community services (fire/EMS/veterans/food banks).
+Race money context: 2026 Senate general-election money context (VoteLog, as of 2026-11-20; currently serving in U.S. House, 2026 Senate general-election candidate): Julia Letlow (R) vs. Jamie Davis (D) — $13,460,761 total deployed ($3,076,903 outside, $10,383,858 campaigns). Source: https://votelog.org/investigations/louisiana-senate-general-money.
 
 Category: Public Office &amp; Elections
 Organization: Julia Letlow (R-LA) Accountability Pool
@@ -177550,6 +177554,7 @@ Website: https://votelog.org/members/ricketts</description>
     <description>Resolution: Official censure &amp; conflict-of-interest sanction for Chris Pappas (US-NH U.S. Senate).
 Timer: Starts a 60-day countdown once $10,000 is reached in community votes.
 Outcome: If YES wins, 100% goes to verified local charities; if NO wins, 100% goes to essential community services (fire/EMS/veterans/food banks).
+Race money context: 2026 Senate general-election money context (VoteLog, as of 2026-11-20; currently serving in U.S. House, 2026 Senate general-election candidate): John E. Sununu (R) vs. Chris Pappas (D) — $87,397,201 total deployed ($61,333,344 outside, $26,063,857 campaigns). Source: https://votelog.org/investigations/new-hampshire-senate-general-money.
 
 Category: Public Office &amp; Elections
 Organization: Chris Pappas (D-NH) Accountability Pool
@@ -177651,6 +177656,7 @@ Website: https://votelog.org/members/husted</description>
     <description>Resolution: Official censure &amp; conflict-of-interest sanction for Kevin Hern (US-OK U.S. Senate).
 Timer: Starts a 60-day countdown once $10,000 is reached in community votes.
 Outcome: If YES wins, 100% goes to verified local charities; if NO wins, 100% goes to essential community services (fire/EMS/veterans/food banks).
+Race money context: 2026 Senate general-election money context (VoteLog, as of 2026-11-20; currently serving in U.S. House, 2026 Senate general-election candidate): Kevin Hern (R) vs. N&apos;Kiyla Thomas (D) — $8,362,824 total deployed ($219,789 outside, $8,143,036 campaigns). Source: https://votelog.org/investigations/oklahoma-senate-general-money.
 
 Category: Public Office &amp; Elections
 Organization: Kevin Hern (R-OK) Accountability Pool
@@ -177837,6 +177843,7 @@ Website: https://votelog.org/members/capito</description>
     <description>Resolution: Official censure &amp; conflict-of-interest sanction for Harriet Hageman (US-WY U.S. Senate).
 Timer: Starts a 60-day countdown once $10,000 is reached in community votes.
 Outcome: If YES wins, 100% goes to verified local charities; if NO wins, 100% goes to essential community services (fire/EMS/veterans/food banks).
+Race money context: 2026 Senate general-election money context (VoteLog, as of 2026-11-20; currently serving in U.S. House, 2026 Senate general-election candidate): Harriet M. Hageman (R) vs. James Byrd (D) — $3,382,237 total deployed ($81,381 outside, $3,300,856 campaigns). Source: https://votelog.org/investigations/wyoming-senate-general-money.
 
 Category: Public Office &amp; Elections
 Organization: Harriet Hageman (R-WY) Accountability Pool
@@ -617255,11 +617262,11 @@ Website: https://votelog.org/members/ca/ken-calvert</description>
     <georss:point>0.00 0.00</georss:point>
   </item>
   <item>
-    <title>[US-IN-07 - U.S. House (IN-07)]: André Carson (D) has campaign-funding records tracked by VoteLog (FEC-sourced public ledger; see member profile for totals and sources). Do you vote to formally rebuke André Carson for prioritizing donor and special-interest influence over constituents and failing to uphold core civic duties?</title>
+    <title>[US-IN-07 - U.S. House (IN-07)]: André Carson (D) raised $3.6M from 357 PACs and committees in tracked campaign funding per VoteLog (FEC-sourced public ledger, synced 2026-11-21), including $1,131,715 reported raised in the 2026 cycle, source: FEC, filings through 2026-10-14. Do you vote to formally rebuke André Carson for prioritizing donor and special-interest influence over constituents and failing to uphold core civic duties?</title>
     <link>https://polytab.store/project.html?id=92066</link>
     <guid isPermaLink="false">polytab:shelf:92066</guid>
     <description>Resolution: Official censure &amp; accountability sanction for André Carson (IN U.S. House IN-07).
-Funding context: has campaign-funding records tracked by VoteLog (FEC-sourced public ledger; see member profile for totals and sources) (source: VoteLog/FEC public ledger, https://votelog.org/members).
+Funding context: raised $3.6M from 357 PACs and committees in tracked campaign funding per VoteLog (FEC-sourced public ledger, synced 2026-11-21), including $1,131,715 reported raised in the 2026 cycle, source: FEC, filings through 2026-10-14 (source: VoteLog/FEC public ledger, https://votelog.org/members).
 Timer: Starts a 60-day countdown once $10,000 is reached in community votes.
 Outcome: If YES wins, 100% goes to verified charities; if NO wins, 100% goes to essential community services (fire/EMS/veterans/food banks).
 
@@ -617270,7 +617277,7 @@ Vote price: $0.50 · Target: Open-ended ($10,000 activation threshold)
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
 Contributions: locked — org must verify (registry + DNS TXT) to unlock its page
-Website: https://votelog.org/members</description>
+Website: https://votelog.org/members/in/andre-carson</description>
     <category>Public Office &amp; Elections</category>
     <pubDate>Fri, 20 Nov 2026 23:33:45 GMT</pubDate>
     <georss:point>0.00 0.00</georss:point>
@@ -618305,11 +618312,11 @@ Website: https://votelog.org/members/ok/frank-lucas</description>
     <georss:point>0.00 0.00</georss:point>
   </item>
   <item>
-    <title>[US-NM - U.S. Senate]: Ben Ray Luján (D) has campaign-funding records tracked by VoteLog (FEC-sourced public ledger; see member profile for totals and sources). Do you vote to formally rebuke Ben Ray Luján for prioritizing donor and special-interest influence over constituents and failing to uphold core civic duties?</title>
+    <title>[US-NM - U.S. Senate]: Ben Ray Luján (D) raised $8.9M from 829 PACs and committees in tracked campaign funding per VoteLog (FEC-sourced public ledger, synced 2026-11-21), including $6,460,522 reported raised in the 2026 cycle, source: FEC, filings through 2026-10-14. Do you vote to formally rebuke Ben Ray Luján for prioritizing donor and special-interest influence over constituents and failing to uphold core civic duties?</title>
     <link>https://polytab.store/project.html?id=92116</link>
     <guid isPermaLink="false">polytab:shelf:92116</guid>
     <description>Resolution: Official censure &amp; accountability sanction for Ben Ray Luján (NM U.S. Senate).
-Funding context: has campaign-funding records tracked by VoteLog (FEC-sourced public ledger; see member profile for totals and sources) (source: VoteLog/FEC public ledger, https://votelog.org/members).
+Funding context: raised $8.9M from 829 PACs and committees in tracked campaign funding per VoteLog (FEC-sourced public ledger, synced 2026-11-21), including $6,460,522 reported raised in the 2026 cycle, source: FEC, filings through 2026-10-14 (source: VoteLog/FEC public ledger, https://votelog.org/members).
 Timer: Starts a 60-day countdown once $10,000 is reached in community votes.
 Outcome: If YES wins, 100% goes to verified charities; if NO wins, 100% goes to essential community services (fire/EMS/veterans/food banks).
 Race money context: 2026 Senate general-election money context (VoteLog, as of 2026-11-20): Larry Marker (R) vs. Ben Ray Luján (D) — $5,195,590 total deployed ($274,429 outside, $4,921,161 campaigns). Source: https://votelog.org/investigations/new-mexico-senate-general-money.
@@ -618321,7 +618328,7 @@ Vote price: $0.50 · Target: Open-ended ($10,000 activation threshold)
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
 Contributions: locked — org must verify (registry + DNS TXT) to unlock its page
-Website: https://votelog.org/members</description>
+Website: https://votelog.org/members/nm/ben-ray-lujan</description>
     <category>Public Office &amp; Elections</category>
     <pubDate>Fri, 20 Nov 2026 23:33:45 GMT</pubDate>
     <georss:point>0.00 0.00</georss:point>
@@ -619020,11 +619027,11 @@ Website: https://votelog.org/members/id/michael-simpson</description>
     <georss:point>0.00 0.00</georss:point>
   </item>
   <item>
-    <title>[US-CA-38 - U.S. House (CA-38)]: Linda T. Sánchez (D) has campaign-funding records tracked by VoteLog (FEC-sourced public ledger; see member profile for totals and sources). Do you vote to formally rebuke Linda T. Sánchez for prioritizing donor and special-interest influence over constituents and failing to uphold core civic duties?</title>
+    <title>[US-CA-38 - U.S. House (CA-38)]: Linda T. Sánchez (D) raised $8.2M from 677 PACs and committees in tracked campaign funding per VoteLog (FEC-sourced public ledger, synced 2026-11-21), including $1,898,188 reported raised in the 2026 cycle, source: FEC, filings through 2026-10-14. Do you vote to formally rebuke Linda T. Sánchez for prioritizing donor and special-interest influence over constituents and failing to uphold core civic duties?</title>
     <link>https://polytab.store/project.html?id=92150</link>
     <guid isPermaLink="false">polytab:shelf:92150</guid>
     <description>Resolution: Official censure &amp; accountability sanction for Linda T. Sánchez (CA U.S. House CA-38).
-Funding context: has campaign-funding records tracked by VoteLog (FEC-sourced public ledger; see member profile for totals and sources) (source: VoteLog/FEC public ledger, https://votelog.org/members).
+Funding context: raised $8.2M from 677 PACs and committees in tracked campaign funding per VoteLog (FEC-sourced public ledger, synced 2026-11-21), including $1,898,188 reported raised in the 2026 cycle, source: FEC, filings through 2026-10-14 (source: VoteLog/FEC public ledger, https://votelog.org/members).
 Timer: Starts a 60-day countdown once $10,000 is reached in community votes.
 Outcome: If YES wins, 100% goes to verified charities; if NO wins, 100% goes to essential community services (fire/EMS/veterans/food banks).
 
@@ -619035,7 +619042,7 @@ Vote price: $0.50 · Target: Open-ended ($10,000 activation threshold)
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
 Contributions: locked — org must verify (registry + DNS TXT) to unlock its page
-Website: https://votelog.org/members</description>
+Website: https://votelog.org/members/ca/linda-sanchez</description>
     <category>Public Office &amp; Elections</category>
     <pubDate>Fri, 20 Nov 2026 23:33:45 GMT</pubDate>
     <georss:point>0.00 0.00</georss:point>
@@ -619188,11 +619195,11 @@ Website: https://votelog.org/members/md/chris-van-hollen</description>
     <georss:point>0.00 0.00</georss:point>
   </item>
   <item>
-    <title>[US-NY-07 - U.S. House (NY-07)]: Nydia M. Velázquez (D) has campaign-funding records tracked by VoteLog (FEC-sourced public ledger; see member profile for totals and sources). Do you vote to formally rebuke Nydia M. Velázquez for prioritizing donor and special-interest influence over constituents and failing to uphold core civic duties?</title>
+    <title>[US-NY-07 - U.S. House (NY-07)]: Nydia M. Velázquez (D) raised $2.3M from 315 PACs and committees in tracked campaign funding per VoteLog (FEC-sourced public ledger, synced 2026-11-21), including $180,257 reported raised in the 2026 cycle, source: FEC, filings through 2026-10-14. Do you vote to formally rebuke Nydia M. Velázquez for prioritizing donor and special-interest influence over constituents and failing to uphold core civic duties?</title>
     <link>https://polytab.store/project.html?id=92158</link>
     <guid isPermaLink="false">polytab:shelf:92158</guid>
     <description>Resolution: Official censure &amp; accountability sanction for Nydia M. Velázquez (NY U.S. House NY-07).
-Funding context: has campaign-funding records tracked by VoteLog (FEC-sourced public ledger; see member profile for totals and sources) (source: VoteLog/FEC public ledger, https://votelog.org/members).
+Funding context: raised $2.3M from 315 PACs and committees in tracked campaign funding per VoteLog (FEC-sourced public ledger, synced 2026-11-21), including $180,257 reported raised in the 2026 cycle, source: FEC, filings through 2026-10-14 (source: VoteLog/FEC public ledger, https://votelog.org/members).
 Timer: Starts a 60-day countdown once $10,000 is reached in community votes.
 Outcome: If YES wins, 100% goes to verified charities; if NO wins, 100% goes to essential community services (fire/EMS/veterans/food banks).
 
@@ -619203,7 +619210,7 @@ Vote price: $0.50 · Target: Open-ended ($10,000 activation threshold)
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
 Contributions: locked — org must verify (registry + DNS TXT) to unlock its page
-Website: https://votelog.org/members</description>
+Website: https://votelog.org/members/ny/nydia-velazquez</description>
     <category>Public Office &amp; Elections</category>
     <pubDate>Fri, 20 Nov 2026 23:33:45 GMT</pubDate>
     <georss:point>0.00 0.00</georss:point>
@@ -621120,11 +621127,11 @@ Website: https://votelog.org/members/ca/salud-carbajal</description>
     <georss:point>0.00 0.00</georss:point>
   </item>
   <item>
-    <title>[US-CA-44 - U.S. House (CA-44)]: Nanette Diaz Barragán (D) has campaign-funding records tracked by VoteLog (FEC-sourced public ledger; see member profile for totals and sources). Do you vote to formally rebuke Nanette Diaz Barragán for prioritizing donor and special-interest influence over constituents and failing to uphold core civic duties?</title>
+    <title>[US-CA-44 - U.S. House (CA-44)]: Nanette Diaz Barragán (D) raised $4.3M from 486 PACs and committees in tracked campaign funding per VoteLog (FEC-sourced public ledger, synced 2026-11-21), including $1,021,921 reported raised in the 2026 cycle, source: FEC, filings through 2026-10-14. Do you vote to formally rebuke Nanette Diaz Barragán for prioritizing donor and special-interest influence over constituents and failing to uphold core civic duties?</title>
     <link>https://polytab.store/project.html?id=92250</link>
     <guid isPermaLink="false">polytab:shelf:92250</guid>
     <description>Resolution: Official censure &amp; accountability sanction for Nanette Diaz Barragán (CA U.S. House CA-44).
-Funding context: has campaign-funding records tracked by VoteLog (FEC-sourced public ledger; see member profile for totals and sources) (source: VoteLog/FEC public ledger, https://votelog.org/members).
+Funding context: raised $4.3M from 486 PACs and committees in tracked campaign funding per VoteLog (FEC-sourced public ledger, synced 2026-11-21), including $1,021,921 reported raised in the 2026 cycle, source: FEC, filings through 2026-10-14 (source: VoteLog/FEC public ledger, https://votelog.org/members).
 Timer: Starts a 60-day countdown once $10,000 is reached in community votes.
 Outcome: If YES wins, 100% goes to verified charities; if NO wins, 100% goes to essential community services (fire/EMS/veterans/food banks).
 
@@ -621135,7 +621142,7 @@ Vote price: $0.50 · Target: Open-ended ($10,000 activation threshold)
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
 Contributions: locked — org must verify (registry + DNS TXT) to unlock its page
-Website: https://votelog.org/members</description>
+Website: https://votelog.org/members/ca/nanette-diaz-barragan</description>
     <category>Public Office &amp; Elections</category>
     <pubDate>Fri, 20 Nov 2026 23:33:45 GMT</pubDate>
     <georss:point>0.00 0.00</georss:point>
@@ -622023,11 +622030,11 @@ Website: https://votelog.org/members/id/russ-fulcher</description>
     <georss:point>0.00 0.00</georss:point>
   </item>
   <item>
-    <title>[US-IL-04 - U.S. House (IL-04)]: Jesús G. &quot;Chuy&quot; García (D) has campaign-funding records tracked by VoteLog (FEC-sourced public ledger; see member profile for totals and sources). Do you vote to formally rebuke Jesús G. &quot;Chuy&quot; García for prioritizing donor and special-interest influence over constituents and failing to uphold core civic duties?</title>
+    <title>[US-IL-04 - U.S. House (IL-04)]: Jesús G. &quot;Chuy&quot; García (D) raised $1.9M from 236 PACs and committees in tracked campaign funding per VoteLog (FEC-sourced public ledger, synced 2026-11-21), including $375,959 reported raised in the 2026 cycle, source: FEC, filings through 2026-10-14. Do you vote to formally rebuke Jesús G. &quot;Chuy&quot; García for prioritizing donor and special-interest influence over constituents and failing to uphold core civic duties?</title>
     <link>https://polytab.store/project.html?id=92293</link>
     <guid isPermaLink="false">polytab:shelf:92293</guid>
     <description>Resolution: Official censure &amp; accountability sanction for Jesús G. &quot;Chuy&quot; García (IL U.S. House IL-04).
-Funding context: has campaign-funding records tracked by VoteLog (FEC-sourced public ledger; see member profile for totals and sources) (source: VoteLog/FEC public ledger, https://votelog.org/members).
+Funding context: raised $1.9M from 236 PACs and committees in tracked campaign funding per VoteLog (FEC-sourced public ledger, synced 2026-11-21), including $375,959 reported raised in the 2026 cycle, source: FEC, filings through 2026-10-14 (source: VoteLog/FEC public ledger, https://votelog.org/members).
 Timer: Starts a 60-day countdown once $10,000 is reached in community votes.
 Outcome: If YES wins, 100% goes to verified charities; if NO wins, 100% goes to essential community services (fire/EMS/veterans/food banks).
 
@@ -622038,7 +622045,7 @@ Vote price: $0.50 · Target: Open-ended ($10,000 activation threshold)
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
 Contributions: locked — org must verify (registry + DNS TXT) to unlock its page
-Website: https://votelog.org/members</description>
+Website: https://votelog.org/members/il/jesus-g-chuy-garcia</description>
     <category>Public Office &amp; Elections</category>
     <pubDate>Fri, 20 Nov 2026 23:33:45 GMT</pubDate>
     <georss:point>0.00 0.00</georss:point>
@@ -627298,7 +627305,7 @@ Website: https://votelog.org/members/ca/james-gallagher</description>
     <link>https://polytab.store/project.html?id=92544</link>
     <guid isPermaLink="false">polytab:shelf:92544</guid>
     <description>Resolution: Official censure &amp; accountability sanction for Darline Graham (SC U.S. Senate).
-Funding context: has campaign-funding records tracked by VoteLog (FEC-sourced public ledger; see member profile for totals and sources) (source: VoteLog/FEC public ledger, https://votelog.org/members).
+Funding context: has campaign-funding records tracked by VoteLog (FEC-sourced public ledger; see member profile for totals and sources) (source: VoteLog/FEC public ledger, https://votelog.org/members/sc/darline-graham).
 Timer: Starts a 60-day countdown once $10,000 is reached in community votes.
 Outcome: If YES wins, 100% goes to verified charities; if NO wins, 100% goes to essential community services (fire/EMS/veterans/food banks).
 
@@ -627309,7 +627316,7 @@ Vote price: $0.50 · Target: Open-ended ($10,000 activation threshold)
 Funded: $0.00 · Votes: 0 · Status: Active
 Honest-zero: no on-chain votes have been recorded for this action yet.
 Contributions: locked — org must verify (registry + DNS TXT) to unlock its page
-Website: https://votelog.org/members</description>
+Website: https://votelog.org/members/sc/darline-graham</description>
     <category>Public Office &amp; Elections</category>
     <pubDate>Fri, 20 Nov 2026 23:33:45 GMT</pubDate>
     <georss:point>0.00 0.00</georss:point>
