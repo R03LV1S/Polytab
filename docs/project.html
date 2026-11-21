@@ -141,6 +141,20 @@
       function isDistinctCampaignWallet(addr) {
         return /^0x[a-fA-F0-9]{40}$/.test(String(addr || "")) && String(addr).toLowerCase() !== ESCROW_WALLET.toLowerCase();
       }
+      const CHARITY_CATEGORY_SET = new Set(["Accessibility & Universal Design","Environmental","Civic Tech","Classrooms","Arts & Clubs","Campus Grounds","Athletics"]);
+      function isCharityItem(p) {
+        const cat = String(p && p.category || "");
+        const par = String(p && p.parentCategory || "").toLowerCase();
+        return par.includes("charit") || cat.toLowerCase().includes("charit") || CHARITY_CATEGORY_SET.has(cat);
+      }
+      function isAdaptiveVisualOpenEnded(p) {
+        return !!p && (p.campaignType === "open_ended" || p.targetUSD == null || p.targetUSD <= 0) && isCharityItem(p);
+      }
+      function thresholdTimerLabel(p) {
+        const t = Number(p && p.activationThresholdUSD || 5000);
+        const d = Number(p && p.settlementEpochDays || 60);
+        return "$" + t.toFixed(0) + " threshold · " + d + "d resolution";
+      }
       async function getCachedUsdcBalanceUSD(addr) {
         const a = String(addr || "").toLowerCase();
         if (!isDistinctCampaignWallet(a)) return null;
@@ -394,6 +408,8 @@
             votePriceUSD: Number(m.votePriceUSD || 0),
             targetUSD: cType === "open_ended" ? null : (Number.isFinite(rawTarget) && rawTarget > 0 ? rawTarget : 0),
             displayTargetUSD: (Number(m.displayTargetUSD || m.engagementTargetUSD) > 0) ? Number(m.displayTargetUSD || m.engagementTargetUSD) : null,
+            activationThresholdUSD: Number(m.activation_threshold_usd || m.fundingActivationUSD || m.funding_activation_threshold_usd) || null,
+            settlementEpochDays: Number(m.settlement_epoch_days || m.settlementEpochDays) || null,
             fundedUSD: Number(m.fundedUSD || 0),
             votesCount: Number(m.votesCount || 0),
             wallet: String(orgOverlay.get(String(raw.id)) || m.contract || m.wallet || ""),
@@ -410,8 +426,10 @@
 
           document.title = item.title + " — Polytab";
           const isOpenEnded = item.campaignType === "open_ended" || item.targetUSD == null || item.targetUSD <= 0;
+          const adaptive = isAdaptiveVisualOpenEnded(item);
           const visualBaseline = Math.max(5000, Number(item.displayTargetUSD || 0) || 5000);
-          let visualTarget = isOpenEnded ? Math.max(visualBaseline, Number(item.fundedUSD || 0)) : (Number(item.targetUSD) || 0);
+          const thresholdTarget = (!adaptive && isOpenEnded) ? Number(item.activationThresholdUSD || 5000) : 0;
+          let visualTarget = adaptive ? Math.max(visualBaseline, Number(item.fundedUSD || 0)) : (isOpenEnded ? thresholdTarget : (Number(item.targetUSD) || 0));
           const pct = isOpenEnded
             ? (visualTarget > 0 ? Math.min(100, Math.round((Number(item.fundedUSD || 0) / visualTarget) * 100)) : 0)
             : (item.targetUSD > 0 ? Math.min(100, Math.round((item.fundedUSD / item.targetUSD) * 100)) : 0);
@@ -461,17 +479,19 @@
           const fundingTextEl = document.getElementById("fundingText");
           const pbar = document.getElementById("progressBar");
           const renderFunding = (vt) => {
-            const t = isOpenEnded ? Math.max(visualBaseline, Number(item.fundedUSD || 0), Number(vt || 0)) : (Number(item.targetUSD) || 0);
-            const p = isOpenEnded
-              ? (t > 0 ? Math.min(100, Math.round((Number(item.fundedUSD || 0) / t) * 100)) : 0)
-              : (item.targetUSD > 0 ? Math.min(100, Math.round((item.fundedUSD / item.targetUSD) * 100)) : 0);
+            const t = adaptive
+              ? Math.max(visualBaseline, Number(item.fundedUSD || 0), Number(vt || 0))
+              : (isOpenEnded ? thresholdTarget : (Number(item.targetUSD) || 0));
+            const p = t > 0 ? Math.min(100, Math.round((Number(item.fundedUSD || 0) / t) * 100)) : 0;
             if (fundingTextEl) escText(fundingTextEl, isOpenEnded
-              ? ("$" + Number(item.fundedUSD || 0).toFixed(2) + " raised / $" + t.toFixed(2) + " visual goal (open-ended)")
+              ? (adaptive
+                ? ("$" + Number(item.fundedUSD || 0).toFixed(2) + " raised / $" + t.toFixed(2) + " visual goal (open-ended)")
+                : ("$" + Number(item.fundedUSD || 0).toFixed(2) + " raised · " + thresholdTimerLabel(item)))
               : ("$" + item.fundedUSD.toFixed(2) + " / $" + Number(item.targetUSD).toFixed(2) + " (" + p + "%)"));
             if (pbar) { pbar.style.width = Math.min(p,100) + "%"; pbar.className = "h-full " + ((isOpenEnded || (item.targetUSD && item.fundedUSD >= item.targetUSD)) ? "bg-emerald-500" : "bg-indigo-500"); }
           };
           renderFunding(visualTarget);
-          if (isOpenEnded && isDistinctCampaignWallet(item.wallet)) {
+          if (adaptive && isDistinctCampaignWallet(item.wallet)) {
             getCachedUsdcBalanceUSD(item.wallet).then((bal) => { if (Number.isFinite(bal) && bal >= 0) renderFunding(bal); }).catch(() => {});
           }
           escText(document.getElementById("votesText"), String(item.votesCount) + " support units");

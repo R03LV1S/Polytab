@@ -770,6 +770,20 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           return usd;
         } catch (_) { return null; }
       }
+      const CHARITY_CATEGORY_SET = new Set(["Accessibility & Universal Design","Environmental","Civic Tech","Classrooms","Arts & Clubs","Campus Grounds","Athletics"]);
+      function isCharityItem(p) {
+        const cat = String(p && p.category || "");
+        const par = String(p && p.parentCategory || "").toLowerCase();
+        return par.includes("charit") || cat.toLowerCase().includes("charit") || CHARITY_CATEGORY_SET.has(cat);
+      }
+      function isAdaptiveVisualOpenEnded(p) {
+        return !!p && (p.campaignType === "open_ended" || p.targetUSD == null || p.targetUSD <= 0) && isCharityItem(p);
+      }
+      function thresholdTimerLabel(p) {
+        const t = Number(p && p.activationThresholdUSD || 5000);
+        const d = Number(p && p.settlementEpochDays || 60);
+        return "$" + t.toFixed(0) + " threshold · " + d + "d resolution";
+      }
       function openEndedVisualGoalUSD(p) {
         const base = Math.max(5000, Number(p && p.displayTargetUSD || 0));
         const funded = Number(p && p.fundedUSD || 0);
@@ -1161,6 +1175,8 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           votePriceUSD: Number(meta.votePriceUSD) || 0.50,
           targetUSD: cType === "open_ended" ? null : fixedTarget,
           displayTargetUSD: (Number(meta.displayTargetUSD || meta.engagementTargetUSD) > 0) ? Number(meta.displayTargetUSD || meta.engagementTargetUSD) : null,
+          activationThresholdUSD: Number(meta.activation_threshold_usd || meta.fundingActivationUSD || meta.funding_activation_threshold_usd) || null,
+          settlementEpochDays: Number(meta.settlement_epoch_days || meta.settlementEpochDays) || null,
           fundedUSD: Number(meta.fundedUSD) || 0.00,
           votesCount: Number(meta.votesCount) || 0,
           wallet: isValidAddress(meta.contract || meta.wallet) ? meta.contract || meta.wallet : "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
@@ -1518,9 +1534,12 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           link.rel = "noopener noreferrer";
           link.className = "text-zinc-300 hover:text-white hover:underline transition";
           const isOpenEnded = p.campaignType === "open_ended" || p.targetUSD == null || p.targetUSD <= 0;
-          const visualGoal = isOpenEnded ? openEndedVisualGoalUSD(p) : Number(p.targetUSD || 0);
+          const adaptive = isAdaptiveVisualOpenEnded(p);
+          const visualGoal = adaptive ? openEndedVisualGoalUSD(p) : Number(p.targetUSD || 0);
           const amountText = isOpenEnded
-            ? `$${Number(p.fundedUSD||0).toFixed(2)} raised / $${visualGoal.toFixed(2)} visual goal (open-ended)`
+            ? (adaptive
+              ? `$${Number(p.fundedUSD||0).toFixed(2)} raised / $${visualGoal.toFixed(2)} visual goal (open-ended)`
+              : `$${Number(p.fundedUSD||0).toFixed(2)} raised · ${thresholdTimerLabel(p)}`)
             : `$${Number(p.fundedUSD||0).toFixed(2)} / $${Number(p.targetUSD).toFixed(2)}`;
           link.textContent = `[#${p.id} ${p.status}] ${p.title} - ${amountText} (${Number(p.votesCount||0)} support units)`;
           tickerEl.appendChild(link);
@@ -1887,12 +1906,18 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         const pageItems = filtered.slice(startIdx, startIdx + PAGE_SIZE);
         pageItems.forEach((item) => {
           const isOpenEnded = item.campaignType === "open_ended" || item.targetUSD == null || item.targetUSD <= 0;
-          const visualGoal = isOpenEnded ? openEndedVisualGoalUSD(item) : Number(item.targetUSD || 0);
+          const adaptive = isAdaptiveVisualOpenEnded(item);
+          const visualGoal = adaptive ? openEndedVisualGoalUSD(item) : Number(item.targetUSD || 0);
+          const thresholdTarget = (!adaptive && isOpenEnded) ? Number(item.activationThresholdUSD || 5000) : 0;
           const pct = isOpenEnded
-            ? (visualGoal > 0 ? Math.min(Math.round((Number(item.fundedUSD || 0) / visualGoal) * 100), 100) : 0)
+            ? (adaptive
+              ? (visualGoal > 0 ? Math.min(Math.round((Number(item.fundedUSD || 0) / visualGoal) * 100), 100) : 0)
+              : (thresholdTarget > 0 ? Math.min(Math.round((Number(item.fundedUSD || 0) / thresholdTarget) * 100), 100) : 0))
             : Math.min(Math.round((item.fundedUSD / item.targetUSD) * 100), 100);
           const raisedLabel = isOpenEnded
-            ? `$${Number(item.fundedUSD||0).toFixed(2)} raised / $${visualGoal.toFixed(2)} visual goal (open-ended)`
+            ? (adaptive
+              ? `$${Number(item.fundedUSD||0).toFixed(2)} raised / $${visualGoal.toFixed(2)} visual goal (open-ended)`
+              : `$${Number(item.fundedUSD||0).toFixed(2)} raised · ${thresholdTimerLabel(item)}`)
             : `$${item.fundedUSD.toFixed(2)} / $${item.targetUSD.toFixed(2)} (${pct}%)`;
           const card = document.createElement("article");
           card.className = "bg-zinc-900/60 border border-zinc-800 hover:border-zinc-700 rounded-2xl p-5 flex flex-col justify-between space-y-4 transition shadow-lg hc-card";
@@ -2047,8 +2072,13 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           progressOuter.setAttribute("role", "progressbar");
           progressOuter.setAttribute("aria-valuenow", String(item.fundedUSD));
           progressOuter.setAttribute("aria-valuemin", "0");
-          progressOuter.setAttribute("aria-valuemax", isOpenEnded ? String(visualGoal || 0) : String(item.targetUSD));
-          progressOuter.setAttribute("aria-label", isOpenEnded ? `${item.title} open-ended campaign: $${Number(item.fundedUSD||0).toFixed(2)} raised of $${visualGoal.toFixed(2)} visual goal` : `${item.title} funding progress: ${pct}%`);
+          const goalMax = isOpenEnded ? (adaptive ? visualGoal : thresholdTarget) : Number(item.targetUSD || 0);
+          progressOuter.setAttribute("aria-valuemax", String(goalMax || 0));
+          progressOuter.setAttribute("aria-label", isOpenEnded
+            ? (adaptive
+              ? `${item.title} open-ended campaign: $${Number(item.fundedUSD||0).toFixed(2)} raised of $${visualGoal.toFixed(2)} visual goal`
+              : `${item.title}: $${Number(item.fundedUSD||0).toFixed(2)} raised, ${thresholdTimerLabel(item)}`)
+            : `${item.title} funding progress: ${pct}%`);
           const progressInner = document.createElement("div");
           progressInner.className = "h-full transition-all " + ((isOpenEnded || item.fundedUSD >= item.targetUSD) ? "bg-emerald-500" : "bg-indigo-500");
           progressInner.style.width = `${Math.min(pct, 100)}%`;
@@ -2459,9 +2489,10 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         const ethRate = (typeof ethUsdSpot === "number" && ethUsdSpot > 0) ? ethUsdSpot : 2800;
         const approxEth = (totalUsd / ethRate).toFixed(6);
         const isOpenEnded = p.campaignType === "open_ended" || p.targetUSD == null || p.targetUSD <= 0;
-        const flyerVisualGoal = isOpenEnded ? openEndedVisualGoalUSD(p) : Number(p.targetUSD || 0);
+        const adaptive = isAdaptiveVisualOpenEnded(p);
+        const flyerVisualGoal = adaptive ? openEndedVisualGoalUSD(p) : Number(p.targetUSD || 0);
         document.getElementById("printFlyerTitle").textContent = p.title + (selPos ? (" — Position " + selPos.key) : "");
-        document.getElementById("printFlyerMeta").textContent = (p.category || "") + " • " + (p.location || "") + " • " + (isOpenEnded ? ("Open-ended · $" + flyerVisualGoal.toFixed(2) + " visual goal") : "Target: $" + Number(p.targetUSD).toFixed(2)) + (selPos ? (" • Position " + selPos.key + ": " + (selPos.shortLabel || selPos.label || "")) : "");
+        document.getElementById("printFlyerMeta").textContent = (p.category || "") + " • " + (p.location || "") + " • " + (isOpenEnded ? (adaptive ? ("Open-ended · $" + flyerVisualGoal.toFixed(2) + " visual goal") : thresholdTimerLabel(p)) : "Target: $" + Number(p.targetUSD).toFixed(2)) + (selPos ? (" • Position " + selPos.key + ": " + (selPos.shortLabel || selPos.label || "")) : "");
         document.getElementById("printFlyerDesc").textContent = state.plainLanguageMode ? p.plainSummary : p.summary;
         document.getElementById("printFlyerPrice").textContent = "Scan to contribute ~$" + totalUsd.toFixed(2) + " est. (~" + approxEth + " ETH, " + units + " support unit" + (units===1?"":"s") + ") on Base L2" + (selPos ? (" for Position " + selPos.key) : "") + " (confirm exact amount in wallet)";
         document.getElementById("printFlyerWallet").textContent = "Destination Wallet (Base): " + to;
@@ -2550,8 +2581,13 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           strong.textContent = p.title;
           const meta = document.createElement("p");
           const isOpenEndedM = p.campaignType === "open_ended" || p.targetUSD == null || p.targetUSD <= 0;
-          const mapGoal = isOpenEndedM ? openEndedVisualGoalUSD(p) : Number(p.targetUSD || 0);
-          meta.textContent = isOpenEndedM ? `${p.category} • $${Number(p.fundedUSD||0).toFixed(2)} raised / $${mapGoal.toFixed(2)} visual goal (open-ended)` : `${p.category} • $${Number(p.fundedUSD||0).toFixed(2)} / $${Number(p.targetUSD).toFixed(2)}`;
+          const adaptiveM = isAdaptiveVisualOpenEnded(p);
+          const mapGoal = adaptiveM ? openEndedVisualGoalUSD(p) : Number(p.targetUSD || 0);
+          meta.textContent = isOpenEndedM
+            ? (adaptiveM
+              ? `${p.category} • $${Number(p.fundedUSD||0).toFixed(2)} raised / $${mapGoal.toFixed(2)} visual goal (open-ended)`
+              : `${p.category} • $${Number(p.fundedUSD||0).toFixed(2)} raised · ${thresholdTimerLabel(p)}`)
+            : `${p.category} • $${Number(p.fundedUSD||0).toFixed(2)} / $${Number(p.targetUSD).toFixed(2)}`;
           popupDiv.appendChild(strong);
           popupDiv.appendChild(meta);
           marker.bindPopup(popupDiv);
@@ -2624,8 +2660,11 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         if (rawCmd === "LIST") {
           screenEl.textContent = state.proposals.slice(0, 3).map((p) => {
             const oe = p.campaignType === "open_ended" || p.targetUSD == null || p.targetUSD <= 0;
-            const g = oe ? openEndedVisualGoalUSD(p) : Number(p.targetUSD || 0);
-            const amt = oe ? `$${Number(p.fundedUSD||0).toFixed(2)}/$${g.toFixed(0)} visual (open-ended)` : `$${Number(p.fundedUSD||0).toFixed(2)}/$${Number(p.targetUSD).toFixed(2)}`;
+            const adaptive = isAdaptiveVisualOpenEnded(p);
+            const g = adaptive ? openEndedVisualGoalUSD(p) : Number(p.targetUSD || 0);
+            const amt = oe
+              ? (adaptive ? `$${Number(p.fundedUSD||0).toFixed(2)}/$${g.toFixed(0)} visual (open-ended)` : `$${Number(p.fundedUSD||0).toFixed(2)} · ${thresholdTimerLabel(p)}`)
+              : `$${Number(p.fundedUSD||0).toFixed(2)}/$${Number(p.targetUSD).toFixed(2)}`;
             return `#${p.id}: ${p.title.slice(0, 26)}.. (${amt})`;
           }).join("\n") + "\nReply VOTE [ID] or STATUS [ID]";
         } else if (rawCmd.startsWith("VOTE")) {
@@ -2635,8 +2674,11 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           const id = rawCmd.split(/\s+/)[1] || "1";
           const found = state.proposals.find((p) => p.id === id) || state.proposals[0];
           const oe = found && (found.campaignType === "open_ended" || found.targetUSD == null || found.targetUSD <= 0);
-          const g = oe ? openEndedVisualGoalUSD(found) : Number(found.targetUSD || 0);
-          const amt = oe ? `Raised $${Number(found.fundedUSD||0).toFixed(2)} / $${g.toFixed(2)} visual goal (open-ended)` : `Raised $${Number(found.fundedUSD||0).toFixed(2)} of $${Number(found.targetUSD).toFixed(2)}`;
+          const adaptive = found && isAdaptiveVisualOpenEnded(found);
+          const g = adaptive ? openEndedVisualGoalUSD(found) : Number(found && found.targetUSD || 0);
+          const amt = oe
+            ? (adaptive ? `Raised $${Number(found.fundedUSD||0).toFixed(2)} / $${g.toFixed(2)} visual goal (open-ended)` : `Raised $${Number(found.fundedUSD||0).toFixed(2)} · ${thresholdTimerLabel(found)}`)
+            : `Raised $${Number(found.fundedUSD||0).toFixed(2)} of $${Number(found.targetUSD).toFixed(2)}`;
           screenEl.textContent = `Action #${found.id} (${found.status}):\n${amt} (${Number(found.votesCount||0)} support units).`;
         } else {
           screenEl.textContent = `Unknown command "${rawCmd}".\nValid SMS commands: LIST, VOTE 1, STATUS 1`;

@@ -35077,7 +35077,9 @@
         "lat": null,
         "lng": null,
         "website": null,
-        "socials": {}
+        "socials": {},
+        "activation_threshold_usd": 5000,
+        "settlement_epoch_days": 60
       }
     },
     {
@@ -35102,7 +35104,9 @@
         "lat": null,
         "lng": null,
         "website": null,
-        "socials": {}
+        "socials": {},
+        "activation_threshold_usd": 5000,
+        "settlement_epoch_days": 60
       }
     },
     {
@@ -165242,7 +165246,7 @@
         "summary": "Discovered via free public source GDELT (theguardian.com): Im still trying to find out who I am : the little - understood plight of Forgotten Australians | Child protection",
         "plainSummary": "• Cause: Community action needed around: Im still trying to find out who I am : the little - understood plight of Forgotten Australians | Child protection\n• Resolution: Verified partner organization Plan International converts the event into a fundable civic outcome.\n• Proof: https://www.theguardian.com/society/ng-interactive/2026/nov/15/forgotten-australians-trauma-childrens-homes-orphanages-ntwnfb",
         "votePriceUSD": 0.5,
-        "targetUSD": 5000,
+        "targetUSD": null,
         "fundedUSD": 0,
         "votesCount": 0,
         "contract": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
@@ -165250,7 +165254,10 @@
         "lat": null,
         "lng": null,
         "website": null,
-        "socials": {}
+        "socials": {},
+        "campaignType": "open_ended",
+        "displayTargetUSD": 5000,
+        "parentCategory": "Charities"
       }
     },
     {
@@ -165266,7 +165273,7 @@
         "summary": "Discovered via free public source GDELT (truthout.org): The US Has Officially Lost Its Measles Elimination Status",
         "plainSummary": "• Cause: Community action needed around: The US Has Officially Lost Its Measles Elimination Status\n• Resolution: Verified partner organization Fisher House Foundation converts the event into a fundable civic outcome.\n• Proof: https://truthout.org/articles/the-us-has-officially-lost-its-measles-elimination-status/",
         "votePriceUSD": 0.5,
-        "targetUSD": 5000,
+        "targetUSD": null,
         "fundedUSD": 0,
         "votesCount": 0,
         "contract": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
@@ -165274,7 +165281,10 @@
         "lat": null,
         "lng": null,
         "website": null,
-        "socials": {}
+        "socials": {},
+        "campaignType": "open_ended",
+        "displayTargetUSD": 5000,
+        "parentCategory": "Charities"
       }
     },
     {
@@ -165290,7 +165300,7 @@
         "summary": "Discovered via free public source GDELT (burytimes.co.uk): Bury Lions collecting donations for Children in Need",
         "plainSummary": "• Cause: Community action needed around: Bury Lions collecting donations for Children in Need\n• Resolution: Verified partner organization Theirworld converts the event into a fundable civic outcome.\n• Proof: https://www.burytimes.co.uk/news/26718153.bury-lions-collecting-donations-children-need/",
         "votePriceUSD": 0.5,
-        "targetUSD": 5000,
+        "targetUSD": null,
         "fundedUSD": 0,
         "votesCount": 0,
         "contract": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
@@ -165298,7 +165308,10 @@
         "lat": null,
         "lng": null,
         "website": null,
-        "socials": {}
+        "socials": {},
+        "campaignType": "open_ended",
+        "displayTargetUSD": 5000,
+        "parentCategory": "Charities"
       }
     },
     {
@@ -165314,7 +165327,7 @@
         "summary": "Discovered via free public source GDELT (news-medical.net): Childhood cancer survival reaches nearly 90 %, yet disparities remain",
         "plainSummary": "• Cause: Community action needed around: Childhood cancer survival reaches nearly 90 %, yet disparities remain\n• Resolution: Verified partner organization Fisher House Foundation converts the event into a fundable civic outcome.\n• Proof: https://www.news-medical.net/news/20261111/Childhood-cancer-survival-reaches-nearly-9025-yet-disparities-remain.aspx",
         "votePriceUSD": 0.5,
-        "targetUSD": 5000,
+        "targetUSD": null,
         "fundedUSD": 0,
         "votesCount": 0,
         "contract": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
@@ -165322,7 +165335,10 @@
         "lat": null,
         "lng": null,
         "website": null,
-        "socials": {}
+        "socials": {},
+        "campaignType": "open_ended",
+        "displayTargetUSD": 5000,
+        "parentCategory": "Charities"
       }
     },
     {
@@ -165338,7 +165354,7 @@
         "summary": "Discovered via free public source GDELT (fool.com): Kura Oncology ( KURA ) Q3 2026 Earnings Call Transcript",
         "plainSummary": "• Cause: Community action needed around: Kura Oncology ( KURA ) Q3 2026 Earnings Call Transcript\n• Resolution: Verified partner organization Fisher House Foundation converts the event into a fundable civic outcome.\n• Proof: https://www.fool.com/earnings/call-transcripts/2026/11/11/kura-oncology-kura-q3-2026-earnings-call-transcript/?source=iedfolrf0000001",
         "votePriceUSD": 0.5,
-        "targetUSD": 5000,
+        "targetUSD": null,
         "fundedUSD": 0,
         "votesCount": 0,
         "contract": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
@@ -165346,7 +165362,10 @@
         "lat": null,
         "lng": null,
         "website": null,
-        "socials": {}
+        "socials": {},
+        "campaignType": "open_ended",
+        "displayTargetUSD": 5000,
+        "parentCategory": "Charities"
       }
     },
     {
@@ -165362,7 +165381,7 @@
         "summary": "Discovered via free public source FEMA OpenFEMA (public domain): Flood — SEVERE STORMS AND FLOODING — (DR)",
         "plainSummary": "• Cause: Community action needed around: Flood — SEVERE STORMS AND FLOODING — (DR)\n• Resolution: Verified partner organization World Central Kitchen converts the event into a fundable civic outcome.\n• Proof: https://www.fema.gov/disaster/3660",
         "votePriceUSD": 0.5,
-        "targetUSD": 5000,
+        "targetUSD": null,
         "fundedUSD": 0,
         "votesCount": 0,
         "contract": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
@@ -165370,7 +165389,10 @@
         "lat": null,
         "lng": null,
         "website": null,
-        "socials": {}
+        "socials": {},
+        "campaignType": "open_ended",
+        "displayTargetUSD": 5000,
+        "parentCategory": "Charities"
       }
     },
     {
@@ -873947,7 +873969,8 @@
         "selectionPolicy": {
           "requiresSelection": true,
           "multiSelect": false
-        }
+        },
+        "settlement_epoch_days": 60
       }
     },
     {
@@ -874053,7 +874076,8 @@
         "selectionPolicy": {
           "requiresSelection": true,
           "multiSelect": false
-        }
+        },
+        "settlement_epoch_days": 60
       }
     },
     {
@@ -874159,7 +874183,8 @@
         "selectionPolicy": {
           "requiresSelection": true,
           "multiSelect": false
-        }
+        },
+        "settlement_epoch_days": 60
       }
     },
     {
@@ -874265,7 +874290,8 @@
         "selectionPolicy": {
           "requiresSelection": true,
           "multiSelect": false
-        }
+        },
+        "settlement_epoch_days": 60
       }
     },
     {
@@ -874371,7 +874397,8 @@
         "selectionPolicy": {
           "requiresSelection": true,
           "multiSelect": false
-        }
+        },
+        "settlement_epoch_days": 60
       }
     },
     {
@@ -874477,7 +874504,8 @@
         "selectionPolicy": {
           "requiresSelection": true,
           "multiSelect": false
-        }
+        },
+        "settlement_epoch_days": 60
       }
     },
     {
@@ -874583,7 +874611,8 @@
         "selectionPolicy": {
           "requiresSelection": true,
           "multiSelect": false
-        }
+        },
+        "settlement_epoch_days": 60
       }
     },
     {
@@ -874689,7 +874718,8 @@
         "selectionPolicy": {
           "requiresSelection": true,
           "multiSelect": false
-        }
+        },
+        "settlement_epoch_days": 60
       }
     },
     {
@@ -874795,7 +874825,8 @@
         "selectionPolicy": {
           "requiresSelection": true,
           "multiSelect": false
-        }
+        },
+        "settlement_epoch_days": 60
       }
     },
     {
@@ -874901,7 +874932,8 @@
         "selectionPolicy": {
           "requiresSelection": true,
           "multiSelect": false
-        }
+        },
+        "settlement_epoch_days": 60
       }
     },
     {
@@ -875007,7 +875039,8 @@
         "selectionPolicy": {
           "requiresSelection": true,
           "multiSelect": false
-        }
+        },
+        "settlement_epoch_days": 60
       }
     },
     {
@@ -875113,7 +875146,8 @@
         "selectionPolicy": {
           "requiresSelection": true,
           "multiSelect": false
-        }
+        },
+        "settlement_epoch_days": 60
       }
     },
     {
@@ -875220,7 +875254,8 @@
         "selectionPolicy": {
           "requiresSelection": true,
           "multiSelect": false
-        }
+        },
+        "settlement_epoch_days": 60
       }
     },
     {
@@ -875327,7 +875362,8 @@
         "selectionPolicy": {
           "requiresSelection": true,
           "multiSelect": false
-        }
+        },
+        "settlement_epoch_days": 60
       }
     },
     {
@@ -875434,7 +875470,8 @@
         "selectionPolicy": {
           "requiresSelection": true,
           "multiSelect": false
-        }
+        },
+        "settlement_epoch_days": 60
       }
     },
     {
@@ -875541,7 +875578,8 @@
         "selectionPolicy": {
           "requiresSelection": true,
           "multiSelect": false
-        }
+        },
+        "settlement_epoch_days": 60
       }
     },
     {
@@ -875648,7 +875686,8 @@
         "selectionPolicy": {
           "requiresSelection": true,
           "multiSelect": false
-        }
+        },
+        "settlement_epoch_days": 60
       }
     },
     {
@@ -875755,7 +875794,8 @@
         "selectionPolicy": {
           "requiresSelection": true,
           "multiSelect": false
-        }
+        },
+        "settlement_epoch_days": 60
       }
     },
     {
@@ -875862,7 +875902,8 @@
         "selectionPolicy": {
           "requiresSelection": true,
           "multiSelect": false
-        }
+        },
+        "settlement_epoch_days": 60
       }
     },
     {
@@ -875969,7 +876010,8 @@
         "selectionPolicy": {
           "requiresSelection": true,
           "multiSelect": false
-        }
+        },
+        "settlement_epoch_days": 60
       }
     },
     {
@@ -876076,7 +876118,8 @@
         "selectionPolicy": {
           "requiresSelection": true,
           "multiSelect": false
-        }
+        },
+        "settlement_epoch_days": 60
       }
     },
     {
@@ -876183,7 +876226,8 @@
         "selectionPolicy": {
           "requiresSelection": true,
           "multiSelect": false
-        }
+        },
+        "settlement_epoch_days": 60
       }
     },
     {
@@ -876290,7 +876334,8 @@
         "selectionPolicy": {
           "requiresSelection": true,
           "multiSelect": false
-        }
+        },
+        "settlement_epoch_days": 60
       }
     },
     {
@@ -876397,7 +876442,8 @@
         "selectionPolicy": {
           "requiresSelection": true,
           "multiSelect": false
-        }
+        },
+        "settlement_epoch_days": 60
       }
     },
     {
@@ -876504,7 +876550,8 @@
         "selectionPolicy": {
           "requiresSelection": true,
           "multiSelect": false
-        }
+        },
+        "settlement_epoch_days": 60
       }
     },
     {
@@ -876611,7 +876658,8 @@
         "selectionPolicy": {
           "requiresSelection": true,
           "multiSelect": false
-        }
+        },
+        "settlement_epoch_days": 60
       }
     },
     {
@@ -876718,7 +876766,8 @@
         "selectionPolicy": {
           "requiresSelection": true,
           "multiSelect": false
-        }
+        },
+        "settlement_epoch_days": 60
       }
     },
     {
@@ -876825,7 +876874,8 @@
         "selectionPolicy": {
           "requiresSelection": true,
           "multiSelect": false
-        }
+        },
+        "settlement_epoch_days": 60
       }
     },
     {
@@ -876932,7 +876982,8 @@
         "selectionPolicy": {
           "requiresSelection": true,
           "multiSelect": false
-        }
+        },
+        "settlement_epoch_days": 60
       }
     },
     {
@@ -920484,7 +920535,8 @@
         "selectionPolicy": {
           "requiresSelection": true,
           "multiSelect": false
-        }
+        },
+        "settlement_epoch_days": 60
       },
       "date_published": "2026-11-21T00:00:00Z"
     },
@@ -920605,7 +920657,8 @@
         "selectionPolicy": {
           "requiresSelection": true,
           "multiSelect": false
-        }
+        },
+        "settlement_epoch_days": 60
       },
       "date_published": "2026-11-21T00:00:00Z"
     }
