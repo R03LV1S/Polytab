@@ -12,7 +12,8 @@
       "audit_verified": true,
       "audit_signals": [
         "IATI_STANDARD_OPEN_DATA_PUBLISHER",
-        "IATI_ORG_TYPE_22"
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
       ],
       "location": {
         "country_iso2": "NL",
@@ -22,7 +23,7 @@
       },
       "website": null,
       "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
-      "last_verified_utc": "2026-11-18T00:24:43.358Z",
+      "last_verified_utc": "2026-11-21T07:14:33.000Z",
       "integrity_sha256": "8c5c30fbe206fea5a5269345c0595c6260662624cee76602f645005d99f47a19"
     },
     {
@@ -297,7 +298,8 @@
       "audit_verified": true,
       "audit_signals": [
         "IATI_STANDARD_OPEN_DATA_PUBLISHER",
-        "IATI_ORG_TYPE_21"
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_3"
       ],
       "location": {
         "country_iso2": "NL",
@@ -307,7 +309,7 @@
       },
       "website": null,
       "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
-      "last_verified_utc": "2026-11-18T00:24:43.360Z",
+      "last_verified_utc": "2026-11-21T07:14:33.002Z",
       "integrity_sha256": "7592ecf3c55c78f0f8ecdeb1fc260b92278b0f92ed9b03fc66b929ecc7ea25a5"
     },
     {
@@ -768,7 +770,7 @@
       },
       "website": null,
       "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
-      "last_verified_utc": "2026-11-20T22:48:49.873Z",
+      "last_verified_utc": "2026-11-21T07:14:33.003Z",
       "integrity_sha256": "5e61391c4e9f0d42de1cb46e86190626d47803780f8c54a8fa3096795d3bd734"
     },
     {
@@ -4139,7 +4141,8 @@
       "audit_verified": true,
       "audit_signals": [
         "IATI_STANDARD_OPEN_DATA_PUBLISHER",
-        "IATI_ORG_TYPE_22"
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
       ],
       "location": {
         "country_iso2": "NL",
@@ -4149,7 +4152,7 @@
       },
       "website": null,
       "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
-      "last_verified_utc": "2026-11-18T00:24:43.359Z",
+      "last_verified_utc": "2026-11-21T07:14:33.000Z",
       "integrity_sha256": "dfb28132aa30351a5888321550928a406262198702106053788f1cb695f67d08"
     },
     {

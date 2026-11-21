@@ -2,14 +2,14 @@
   "schema_version": "3.0.0",
   "sharded": true,
   "manifest_path": "docs/data/orgs/manifest.json",
-  "merkle_root_sha256": "0a72f68888ce52b7704ad62b62dd48d943c639f274008d72b49c61ed2f4d07e1",
-  "generated_at_utc": "2026-11-20T22:48:49.961Z",
+  "merkle_root_sha256": "59f8245402ebf03c0e408c9b2694f6acafb3a822c1135cd0e9758add4b499dc5",
+  "generated_at_utc": "2026-11-21T07:14:33.184Z",
   "cost_policy": "ZERO_COST_KEYLESS_PUBLIC_REGISTRIES_ONLY",
-  "total_verified_orgs": 24097,
+  "total_verified_orgs": 24098,
   "total_shards": 108,
   "summary_metrics": {
-    "added_this_cycle": 0,
-    "updated_this_cycle": 4,
+    "added_this_cycle": 1,
+    "updated_this_cycle": 25,
     "irs_revoked_purged_this_cycle": 0
   },
   "organizations": [
@@ -250,6 +250,29 @@
       "integrity_sha256": "9e8dcee59e80cc93ed9afc938bcaad6b2068a609c4390386b7f8edd93c322aa4"
     },
     {
+      "registry_id": "GB-CHC:203583",
+      "name": "ST SCHOLASTICA'S RETREAT",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
+        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
+        "ACCOUNTS_FILED_2024-12-31 00:00:00.0000000",
+        "ACCOUNTS_FILED_2025-12-31 00:00:00.0000000"
+      ],
+      "location": {
+        "country_iso2": "GB",
+        "admin1_state_province": "ENG-WLS",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": "https://www.stscholasticas.co.uk",
+      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
+      "last_verified_utc": "2026-11-21T07:14:27.794Z",
+      "integrity_sha256": "5ed03c1023ce4fa0c829bb40045c23eef95459e303151a62cbc71b7682c86f0f"
+    },
+    {
       "registry_id": "GB-CHC:204123",
       "name": "EARLE'S RETREAT",
       "status": "ACTIVE",
@@ -271,6 +294,29 @@
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
       "last_verified_utc": "2026-11-20T07:21:28.506Z",
       "integrity_sha256": "723d9037249dca287c632adc54c86534681aa1b23a4466c53b2d9d6265e7bf19"
+    },
+    {
+      "registry_id": "GB-CHC:204844",
+      "name": "THE LEACH FOURTEENTH TRUST",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
+        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
+        "ACCOUNTS_FILED_2025-04-05 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-04-05 00:00:00.0000000"
+      ],
+      "location": {
+        "country_iso2": "GB",
+        "admin1_state_province": "ENG-WLS",
+        "admin2_county_district": null,
+        "locality_city_town": "Blossom Street"
+      },
+      "website": null,
+      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
+      "last_verified_utc": "2026-11-21T07:14:27.795Z",
+      "integrity_sha256": "9180975a5c22dab853080184cf703e1466141466179a0db5aec9569f97ee5502"
     },
     {
       "registry_id": "GB-CHC:205115",
@@ -340,6 +386,29 @@
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
       "last_verified_utc": "2026-11-20T07:21:28.507Z",
       "integrity_sha256": "256aa6425f8ca03841eb9aa8917872531b467c989fedfbca9879e86737b85bc4"
+    },
+    {
+      "registry_id": "GB-CHC:206321",
+      "name": "THE JEREMY AND JOHN SACHER CHARITABLE TRUST",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
+        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
+        "ACCOUNTS_FILED_2025-01-31 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-01-31 00:00:00.0000000"
+      ],
+      "location": {
+        "country_iso2": "GB",
+        "admin1_state_province": "ENG-WLS",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
+      "last_verified_utc": "2026-11-21T07:14:27.796Z",
+      "integrity_sha256": "878aff275f66858792fbee120131b0a6d1b8cc78f5855d41c271d4acfe9045aa"
     },
     {
       "registry_id": "GB-CHC:206624",
@@ -434,6 +503,29 @@
       "integrity_sha256": "6780661249bb10b48279232be40b99ca99495684645a0872fc79cee67855c250"
     },
     {
+      "registry_id": "GB-CHC:209126",
+      "name": "THE NEW CHURCH CHILDREN'S SOCIETY",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
+        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
+        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-03-31 00:00:00.0000000"
+      ],
+      "location": {
+        "country_iso2": "GB",
+        "admin1_state_province": "ENG-WLS",
+        "admin2_county_district": null,
+        "locality_city_town": "IPSWICH"
+      },
+      "website": null,
+      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
+      "last_verified_utc": "2026-11-21T07:14:27.799Z",
+      "integrity_sha256": "0ba5444e18e594bbd76f873baa889d208b1d1d867353d1db02d221071ae28540"
+    },
+    {
       "registry_id": "GB-CHC:209242",
       "name": "THE MEDICAL SOCIETY OF LONDON",
       "status": "ACTIVE",
@@ -478,6 +570,29 @@
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
       "last_verified_utc": "2026-11-20T07:21:28.510Z",
       "integrity_sha256": "cc82bbf529e6da9ac90b600450b429fbbd17cbe152726ebabca0fb6e9baf52d3"
+    },
+    {
+      "registry_id": "GB-CHC:211004",
+      "name": "MOUNT ST BERNARD ABBEY TRUSTEES REGISTERED",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
+        "UK_STATUTORY_INDEPENDENT_AUDIT_OVER_1M_GBP",
+        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-03-31 00:00:00.0000000"
+      ],
+      "location": {
+        "country_iso2": "GB",
+        "admin1_state_province": "ENG-WLS",
+        "admin2_county_district": null,
+        "locality_city_town": "Whitwick"
+      },
+      "website": "https://www.mountsaintbernard.org",
+      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
+      "last_verified_utc": "2026-11-21T07:14:27.801Z",
+      "integrity_sha256": "0621253a6aac8c1de02b3db77b3f495bfe99f956aaca291d905abc1a410ba125"
     },
     {
       "registry_id": "GB-CHC:211015",
@@ -664,6 +779,29 @@
       "integrity_sha256": "6158ffaf0cb07212e52d56094cd8e10d7745476c040c4e10fa9a3e3076b87531"
     },
     {
+      "registry_id": "GB-CHC:220636",
+      "name": "WIGAN, LEIGH AND DISTRICT SOCIETY FOR THE BLIND",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
+        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
+        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-03-31 00:00:00.0000000"
+      ],
+      "location": {
+        "country_iso2": "GB",
+        "admin1_state_province": "ENG-WLS",
+        "admin2_county_district": null,
+        "locality_city_town": "Wigan"
+      },
+      "website": null,
+      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
+      "last_verified_utc": "2026-11-21T07:14:27.810Z",
+      "integrity_sha256": "c8d60a8686478970a52dd05a2549261145306f576c30f6401bf42529698cf95e"
+    },
+    {
       "registry_id": "GB-CHC:222142",
       "name": "MELTON MOWBRAY TOWN ESTATE",
       "status": "ACTIVE",
@@ -731,6 +869,29 @@
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
       "last_verified_utc": "2026-11-19T07:30:10.737Z",
       "integrity_sha256": "84b7d3a2f1c57d85275bd51b9c106c3b3873171ac8ac82662a9ad5921c9a7946"
+    },
+    {
+      "registry_id": "GB-CHC:225674",
+      "name": "THE ROYAL CAMBRIDGE HOME",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
+        "UK_STATUTORY_INDEPENDENT_AUDIT_OVER_1M_GBP",
+        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-03-31 00:00:00.0000000"
+      ],
+      "location": {
+        "country_iso2": "GB",
+        "admin1_state_province": "ENG-WLS",
+        "admin2_county_district": null,
+        "locality_city_town": "EAST MOLESEY"
+      },
+      "website": "https://www.royalcambridgehome.org",
+      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
+      "last_verified_utc": "2026-11-21T07:14:27.814Z",
+      "integrity_sha256": "00fe4fd657307a144e88e7ae4aa6b9dd21f9f261ddcb693068c94fab8fdfa5ca"
     },
     {
       "registry_id": "GB-CHC:225979",
@@ -823,6 +984,29 @@
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
       "last_verified_utc": "2026-11-20T07:21:28.523Z",
       "integrity_sha256": "47e7e9bef521f41c814aae03363303aa891522d2fad6b87508cf4ded3ffba61a"
+    },
+    {
+      "registry_id": "GB-CHC:228577",
+      "name": "MANCHESTER SETTLEMENT",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
+        "UK_STATUTORY_INDEPENDENT_AUDIT_OVER_1M_GBP",
+        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-03-31 00:00:00.0000000"
+      ],
+      "location": {
+        "country_iso2": "GB",
+        "admin1_state_province": "ENG-WLS",
+        "admin2_county_district": null,
+        "locality_city_town": "MANCHESTER"
+      },
+      "website": "https://www.manchestersettlement.org.uk",
+      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
+      "last_verified_utc": "2026-11-21T07:14:27.815Z",
+      "integrity_sha256": "40860d86f8f5cb39b122262327383a03e3072538e74450a1aaffa7561f898e59"
     },
     {
       "registry_id": "GB-CHC:229073",
@@ -1446,6 +1630,29 @@
       "integrity_sha256": "082a624f30a11c9a4a6c5b190ccefd33a5aaafde6b6e2b0bd6f1f896e4019221"
     },
     {
+      "registry_id": "GB-CHC:264045",
+      "name": "THE GATEHILL TRUST",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
+        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
+        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-03-31 00:00:00.0000000"
+      ],
+      "location": {
+        "country_iso2": "GB",
+        "admin1_state_province": "ENG-WLS",
+        "admin2_county_district": null,
+        "locality_city_town": "Middlesex"
+      },
+      "website": null,
+      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
+      "last_verified_utc": "2026-11-21T07:14:27.837Z",
+      "integrity_sha256": "e614386bbd7691af2be03ead410c44073f0369bb4131edb17dd15529698cdd87"
+    },
+    {
       "registry_id": "GB-CHC:264173",
       "name": "THE BRITISH SOCIETY FOR ORAL AND DENTAL RESEARCH",
       "status": "ACTIVE",
@@ -1467,6 +1674,52 @@
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
       "last_verified_utc": "2026-11-18T03:39:38.467Z",
       "integrity_sha256": "aaebc880ca38d9303a9960a015b13f343e4babf36817a1d1805053fb3581b5a6"
+    },
+    {
+      "registry_id": "IATI-AU:AU-ABN-44945150299",
+      "name": "Live & Learn Environmental Education",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_1",
+        "IATI_DATASETS_PUBLISHED_2"
+      ],
+      "location": {
+        "country_iso2": "AU",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-21T07:14:33.002Z",
+      "integrity_sha256": "65ac489537d92c804deb9864f42fcb11c77e6a7289835a688139f684d48314e1"
+    },
+    {
+      "registry_id": "IATI-GB:GB-CHC-1043843",
+      "name": "Saferworld",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2",
+        "IATI_DATASETS_PUBLISHED_3"
+      ],
+      "location": {
+        "country_iso2": "GB",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-21T07:14:33.003Z",
+      "integrity_sha256": "c6595335da009743ca791c2aea669c2760884f4645fdffbca3f095ad10451978"
     },
     {
       "registry_id": "IATI-GB:GB-CHC-222655",
@@ -1492,6 +1745,29 @@
       "integrity_sha256": "c883efa3a30c5c86cbbe2ffe5a49eca91cd789f72cf627800203683b4695cc0c"
     },
     {
+      "registry_id": "IATI-GB:GB-SC-SC032327",
+      "name": "EMMS International",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_7",
+        "IATI_DATASETS_PUBLISHED_8"
+      ],
+      "location": {
+        "country_iso2": "GB",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-21T07:14:33.000Z",
+      "integrity_sha256": "3875d20ef4322666ce070a5e5cf85b7ef4a10f3e3b5353ce9e8163977e5e5e0b"
+    },
+    {
       "registry_id": "IATI-SE:SE-ON-802404-9150",
       "name": "Plan International Sweden",
       "status": "ACTIVE",
@@ -1515,6 +1791,52 @@
       "integrity_sha256": "3b894e13879b92a54d395a222f2d489940e655d4fc63d317cc00f6fe6c9b62d2"
     },
     {
+      "registry_id": "IATI-SE:SE-ON-802431-3044",
+      "name": "ActionAid International Sweden",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_2",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-21T07:14:32.998Z",
+      "integrity_sha256": "13af9558f221a572ebdc206e589a3e674803f07a8091b4084e8ca87d73bcf9a8"
+    },
+    {
+      "registry_id": "IATI-UG:UG-NGO-3580",
+      "name": "Akina Mama wa Afrika",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_3",
+        "IATI_DATASETS_PUBLISHED_4"
+      ],
+      "location": {
+        "country_iso2": "UG",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-21T07:14:32.998Z",
+      "integrity_sha256": "a9dd334aba90d6a8b9501cec741ff0a81776a19da751ebcdb9b6a891e879365e"
+    },
+    {
       "registry_id": "IATI-US:US-EIN-13-3615533",
       "name": "Rockefeller Philanthropy Advisors, Inc.",
       "status": "ACTIVE",
@@ -1534,7 +1856,7 @@
       },
       "website": null,
       "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
-      "last_verified_utc": "2026-11-20T22:48:49.872Z",
+      "last_verified_utc": "2026-11-21T07:14:33.003Z",
       "integrity_sha256": "90faa7a2f9039127879069098a9a1619bd32a19ddbfeaad608aca89e3e6e2321"
     },
     {
@@ -8963,28 +9285,6 @@
       "integrity_sha256": "ca6904fbff05ef07890b669e3844db45d0a354a0eff7a993766e1e8b6463b163"
     },
     {
-      "registry_id": "GB-CHC:203583",
-      "name": "ST SCHOLASTICA'S RETREAT",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2024-12-31 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": null
-      },
-      "website": "https://www.stscholasticas.co.uk",
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.987Z",
-      "integrity_sha256": "5ed03c1023ce4fa0c829bb40045c23eef95459e303151a62cbc71b7682c86f0f"
-    },
-    {
       "registry_id": "GB-CHC:203604",
       "name": "BRIXTON FEOFFEE TRUST",
       "status": "ACTIVE",
@@ -10765,28 +11065,6 @@
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
       "last_verified_utc": "2026-11-16T16:05:07.987Z",
       "integrity_sha256": "c535f83113dfeaaf74f62a17e7aa89dfee4d31be8a707476b37a531582e3c931"
-    },
-    {
-      "registry_id": "GB-CHC:204844",
-      "name": "THE LEACH FOURTEENTH TRUST",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-04-05 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": "Blossom Street"
-      },
-      "website": null,
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.988Z",
-      "integrity_sha256": "9180975a5c22dab853080184cf703e1466141466179a0db5aec9569f97ee5502"
     },
     {
       "registry_id": "GB-CHC:204859",
@@ -13427,28 +13705,6 @@
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
       "last_verified_utc": "2026-11-16T16:05:07.988Z",
       "integrity_sha256": "7173c766970a7184fab7bf1dd008c1e313a500b0e99e9203c6e8ba88fe63462c"
-    },
-    {
-      "registry_id": "GB-CHC:206321",
-      "name": "THE JEREMY AND JOHN SACHER CHARITABLE TRUST",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-01-31 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": null
-      },
-      "website": null,
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.988Z",
-      "integrity_sha256": "878aff275f66858792fbee120131b0a6d1b8cc78f5855d41c271d4acfe9045aa"
     },
     {
       "registry_id": "GB-CHC:206331",
@@ -17711,11 +17967,11 @@
         "country_iso2": "GB",
         "admin1_state_province": "ENG-WLS",
         "admin2_county_district": null,
-        "locality_city_town": "The Old School"
+        "locality_city_town": "Wheathampsrtead"
       },
-      "website": "https://www.ufaw.org.uk",
+      "website": "https://www.scienceforanimalwelfare.org",
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.989Z",
+      "last_verified_utc": "2026-11-21T07:14:27.798Z",
       "integrity_sha256": "aa6d9ac962082cee2199b29c049f7d5ebed57a0280cbf75eb6e8c7d9f71b4575"
     },
     {
@@ -20467,28 +20723,6 @@
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
       "last_verified_utc": "2026-11-16T16:05:07.990Z",
       "integrity_sha256": "e2fe8307862369a7ca2b8c5c3ff8e9242b7a7da07fd28f71bad37e02717300cb"
-    },
-    {
-      "registry_id": "GB-CHC:209126",
-      "name": "THE NEW CHURCH CHILDREN'S SOCIETY",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": "IPSWICH"
-      },
-      "website": null,
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.990Z",
-      "integrity_sha256": "0ba5444e18e594bbd76f873baa889d208b1d1d867353d1db02d221071ae28540"
     },
     {
       "registry_id": "GB-CHC:209131",
@@ -24691,28 +24925,6 @@
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
       "last_verified_utc": "2026-11-16T16:05:07.991Z",
       "integrity_sha256": "a3a90747dc8ad8d1a90e03b56049a89799b7ac68699ee8fc223c633c648a5df9"
-    },
-    {
-      "registry_id": "GB-CHC:211004",
-      "name": "MOUNT ST BERNARD ABBEY TRUSTEES REGISTERED",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_STATUTORY_INDEPENDENT_AUDIT_OVER_1M_GBP",
-        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": "Whitwick"
-      },
-      "website": "https://www.mountsaintbernard.org",
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.991Z",
-      "integrity_sha256": "0621253a6aac8c1de02b3db77b3f495bfe99f956aaca291d905abc1a410ba125"
     },
     {
       "registry_id": "GB-CHC:211012",
@@ -41677,28 +41889,6 @@
       "integrity_sha256": "0e78596bf3b3b14df3f83ba042fd51e71e3afd0d3edde35049554576f4f9a854"
     },
     {
-      "registry_id": "GB-CHC:220636",
-      "name": "WIGAN, LEIGH AND DISTRICT SOCIETY FOR THE BLIND",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": "Wigan"
-      },
-      "website": null,
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.993Z",
-      "integrity_sha256": "c8d60a8686478970a52dd05a2549261145306f576c30f6401bf42529698cf95e"
-    },
-    {
       "registry_id": "GB-CHC:220674",
       "name": "SURBITON ROTARY CLUB BENEVOLENT FUND",
       "status": "ACTIVE",
@@ -49839,28 +50029,6 @@
       "integrity_sha256": "cb075b67ee8d472b905ca9b216b1635c6fbe3691c2e49f30f28a2876b4533922"
     },
     {
-      "registry_id": "GB-CHC:225674",
-      "name": "THE ROYAL CAMBRIDGE HOME",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_STATUTORY_INDEPENDENT_AUDIT_OVER_1M_GBP",
-        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": "EAST MOLESEY"
-      },
-      "website": "https://www.royalcambridgehome.org",
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.994Z",
-      "integrity_sha256": "00fe4fd657307a144e88e7ae4aa6b9dd21f9f261ddcb693068c94fab8fdfa5ca"
-    },
-    {
       "registry_id": "GB-CHC:225690",
       "name": "Boulton Cottage Homes Trust",
       "status": "ACTIVE",
@@ -54085,28 +54253,6 @@
       "integrity_sha256": "6f3772384a72c36e1a35677410a139ae684be07d2e1c7da9bebecd0a6c8c6ee7"
     },
     {
-      "registry_id": "GB-CHC:228577",
-      "name": "MANCHESTER SETTLEMENT",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_STATUTORY_INDEPENDENT_AUDIT_OVER_1M_GBP",
-        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": "MANCHESTER"
-      },
-      "website": "https://www.manchestersettlement.org.uk",
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.995Z",
-      "integrity_sha256": "40860d86f8f5cb39b122262327383a03e3072538e74450a1aaffa7561f898e59"
-    },
-    {
       "registry_id": "GB-CHC:228590",
       "name": "THE KERRISON TRUST",
       "status": "ACTIVE",
@@ -55007,138 +55153,6 @@
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
       "last_verified_utc": "2026-11-16T16:05:07.995Z",
       "integrity_sha256": "154438035a6b8b87f4dc5df322c48c65c3c0a0667fdca5ef169e2cb1e089eb9c"
-    },
-    {
-      "registry_id": "GB-CHC:229237",
-      "name": "THE COVENTRY FREEMEN'S CHARITY",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_STATUTORY_INDEPENDENT_AUDIT_OVER_1M_GBP",
-        "ACCOUNTS_FILED_2025-12-31 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": "Coventry"
-      },
-      "website": null,
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.995Z",
-      "integrity_sha256": "0888967840227e6977f379d7f61ce2314314030ae845d9a0dec8c0cf044323a3"
-    },
-    {
-      "registry_id": "GB-CHC:229259",
-      "name": "PEOPLE'S MISSION FORT STREET SOUTH SHIELDS",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2026-01-31 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": "SOUTH SHIELDS"
-      },
-      "website": "https://www.peoplesmission.co.uk",
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.995Z",
-      "integrity_sha256": "4161ca615a105ed92616d14192001f02e11483859e3a3d147313b2d3ca714c07"
-    },
-    {
-      "registry_id": "GB-CHC:229268",
-      "name": "SPALDING RELIEF IN NEED CHARITY",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-12-31 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": "Pinchbeck"
-      },
-      "website": "https://spaldingtownhusbands.co.uk",
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.995Z",
-      "integrity_sha256": "92c8cb08d4708db96dec76157f1c41139fbb06919195afb8a4dab469a4f27f6c"
-    },
-    {
-      "registry_id": "GB-CHC:229325",
-      "name": "THE LANCASHIRE WILDLIFE TRUST",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_STATUTORY_INDEPENDENT_AUDIT_OVER_1M_GBP",
-        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": "BAMBER BRIDGE"
-      },
-      "website": "https://www.lancswt.org.uk",
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.995Z",
-      "integrity_sha256": "c19cfdbf9b7c30b7528ab9d7f79d3a2da3c7d78573482646826b6cd76b6430c5"
-    },
-    {
-      "registry_id": "GB-CHC:229334",
-      "name": "GARTHGWYNION CHARITIES",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-04-05 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": "Surrey"
-      },
-      "website": "https://garthgwynion.charities",
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.995Z",
-      "integrity_sha256": "a96fa2ddec1af04586dde31173ac5392e679de6ebc8ebc44d6bf78bebe1f1f17"
-    },
-    {
-      "registry_id": "GB-CHC:229336",
-      "name": "YORK CIVIC TRUST",
-      "status": "ACTIVE",
-      "verification_tier": "TIER_1_AUDITED",
-      "audit_verified": true,
-      "audit_signals": [
-        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
-        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-01-31 00:00:00.0000000"
-      ],
-      "location": {
-        "country_iso2": "GB",
-        "admin1_state_province": "ENG-WLS",
-        "admin2_county_district": null,
-        "locality_city_town": "Castlegate"
-      },
-      "website": "https://www.yorkcivictrust.co.uk",
-      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.995Z",
-      "integrity_sha256": "36e1a140f5de77e734b068a8b78921d91bf73556a6ba92bd20fa5590022fde87"
     }
   ]
 }

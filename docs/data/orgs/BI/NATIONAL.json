@@ -34,7 +34,8 @@
       "audit_verified": true,
       "audit_signals": [
         "IATI_STANDARD_OPEN_DATA_PUBLISHER",
-        "IATI_ORG_TYPE_22"
+        "IATI_ORG_TYPE_22",
+        "IATI_DATASETS_PUBLISHED_2"
       ],
       "location": {
         "country_iso2": "BI",
@@ -44,7 +45,7 @@
       },
       "website": null,
       "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
-      "last_verified_utc": "2026-11-18T00:24:43.357Z",
+      "last_verified_utc": "2026-11-21T07:14:32.999Z",
       "integrity_sha256": "d5f10deba2831471cddaf6367662f365a8654caae54861d40d0f70572340b55d"
     },
     {

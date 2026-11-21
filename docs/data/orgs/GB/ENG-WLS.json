@@ -6265,7 +6265,8 @@
       "audit_signals": [
         "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
         "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2024-12-31 00:00:00.0000000"
+        "ACCOUNTS_FILED_2024-12-31 00:00:00.0000000",
+        "ACCOUNTS_FILED_2025-12-31 00:00:00.0000000"
       ],
       "location": {
         "country_iso2": "GB",
@@ -6275,7 +6276,7 @@
       },
       "website": "https://www.stscholasticas.co.uk",
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.987Z",
+      "last_verified_utc": "2026-11-21T07:14:27.794Z",
       "integrity_sha256": "5ed03c1023ce4fa0c829bb40045c23eef95459e303151a62cbc71b7682c86f0f"
     },
     {
@@ -8092,7 +8093,8 @@
       "audit_signals": [
         "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
         "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-04-05 00:00:00.0000000"
+        "ACCOUNTS_FILED_2025-04-05 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-04-05 00:00:00.0000000"
       ],
       "location": {
         "country_iso2": "GB",
@@ -8102,7 +8104,7 @@
       },
       "website": null,
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.988Z",
+      "last_verified_utc": "2026-11-21T07:14:27.795Z",
       "integrity_sha256": "9180975a5c22dab853080184cf703e1466141466179a0db5aec9569f97ee5502"
     },
     {
@@ -10823,7 +10825,8 @@
       "audit_signals": [
         "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
         "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-01-31 00:00:00.0000000"
+        "ACCOUNTS_FILED_2025-01-31 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-01-31 00:00:00.0000000"
       ],
       "location": {
         "country_iso2": "GB",
@@ -10833,7 +10836,7 @@
       },
       "website": null,
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.988Z",
+      "last_verified_utc": "2026-11-21T07:14:27.796Z",
       "integrity_sha256": "878aff275f66858792fbee120131b0a6d1b8cc78f5855d41c271d4acfe9045aa"
     },
     {
@@ -15189,11 +15192,11 @@
         "country_iso2": "GB",
         "admin1_state_province": "ENG-WLS",
         "admin2_county_district": null,
-        "locality_city_town": "The Old School"
+        "locality_city_town": "Wheathampsrtead"
       },
-      "website": "https://www.ufaw.org.uk",
+      "website": "https://www.scienceforanimalwelfare.org",
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.989Z",
+      "last_verified_utc": "2026-11-21T07:14:27.798Z",
       "integrity_sha256": "aa6d9ac962082cee2199b29c049f7d5ebed57a0280cbf75eb6e8c7d9f71b4575"
     },
     {
@@ -17955,7 +17958,8 @@
       "audit_signals": [
         "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
         "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000"
+        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-03-31 00:00:00.0000000"
       ],
       "location": {
         "country_iso2": "GB",
@@ -17965,7 +17969,7 @@
       },
       "website": null,
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.990Z",
+      "last_verified_utc": "2026-11-21T07:14:27.799Z",
       "integrity_sha256": "0ba5444e18e594bbd76f873baa889d208b1d1d867353d1db02d221071ae28540"
     },
     {
@@ -22225,7 +22229,8 @@
       "audit_signals": [
         "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
         "UK_STATUTORY_INDEPENDENT_AUDIT_OVER_1M_GBP",
-        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000"
+        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-03-31 00:00:00.0000000"
       ],
       "location": {
         "country_iso2": "GB",
@@ -22235,7 +22240,7 @@
       },
       "website": "https://www.mountsaintbernard.org",
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.991Z",
+      "last_verified_utc": "2026-11-21T07:14:27.801Z",
       "integrity_sha256": "0621253a6aac8c1de02b3db77b3f495bfe99f956aaca291d905abc1a410ba125"
     },
     {
@@ -39417,7 +39422,8 @@
       "audit_signals": [
         "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
         "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000"
+        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-03-31 00:00:00.0000000"
       ],
       "location": {
         "country_iso2": "GB",
@@ -39427,7 +39433,7 @@
       },
       "website": null,
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.993Z",
+      "last_verified_utc": "2026-11-21T07:14:27.810Z",
       "integrity_sha256": "c8d60a8686478970a52dd05a2549261145306f576c30f6401bf42529698cf95e"
     },
     {
@@ -47672,7 +47678,8 @@
       "audit_signals": [
         "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
         "UK_STATUTORY_INDEPENDENT_AUDIT_OVER_1M_GBP",
-        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000"
+        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-03-31 00:00:00.0000000"
       ],
       "location": {
         "country_iso2": "GB",
@@ -47682,7 +47689,7 @@
       },
       "website": "https://www.royalcambridgehome.org",
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.994Z",
+      "last_verified_utc": "2026-11-21T07:14:27.814Z",
       "integrity_sha256": "00fe4fd657307a144e88e7ae4aa6b9dd21f9f261ddcb693068c94fab8fdfa5ca"
     },
     {
@@ -52010,7 +52017,8 @@
       "audit_signals": [
         "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
         "UK_STATUTORY_INDEPENDENT_AUDIT_OVER_1M_GBP",
-        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000"
+        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-03-31 00:00:00.0000000"
       ],
       "location": {
         "country_iso2": "GB",
@@ -52020,7 +52028,7 @@
       },
       "website": "https://www.manchestersettlement.org.uk",
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.995Z",
+      "last_verified_utc": "2026-11-21T07:14:27.815Z",
       "integrity_sha256": "40860d86f8f5cb39b122262327383a03e3072538e74450a1aaffa7561f898e59"
     },
     {
@@ -105873,7 +105881,8 @@
       "audit_signals": [
         "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
         "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000"
+        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-03-31 00:00:00.0000000"
       ],
       "location": {
         "country_iso2": "GB",
@@ -105883,7 +105892,7 @@
       },
       "website": null,
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:08.005Z",
+      "last_verified_utc": "2026-11-21T07:14:27.837Z",
       "integrity_sha256": "e614386bbd7691af2be03ead410c44073f0369bb4131edb17dd15529698cdd87"
     },
     {

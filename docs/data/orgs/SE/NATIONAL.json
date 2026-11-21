@@ -2,7 +2,7 @@
   "schema_version": "3.0.0",
   "country_iso2": "SE",
   "admin1_state_province": "NATIONAL",
-  "count": 85,
+  "count": 86,
   "organizations": [
     {
       "registry_id": "IATI-SE:SE-ON-202100-2817",
@@ -1158,7 +1158,8 @@
       "audit_signals": [
         "IATI_STANDARD_OPEN_DATA_PUBLISHER",
         "IATI_ORG_TYPE_21",
-        "IATI_DATASETS_PUBLISHED_2"
+        "IATI_DATASETS_PUBLISHED_2",
+        "IATI_DATASETS_PUBLISHED_1"
       ],
       "location": {
         "country_iso2": "SE",
@@ -1168,7 +1169,7 @@
       },
       "website": null,
       "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
-      "last_verified_utc": "2026-11-18T00:24:43.356Z",
+      "last_verified_utc": "2026-11-21T07:14:32.998Z",
       "integrity_sha256": "13af9558f221a572ebdc206e589a3e674803f07a8091b4084e8ca87d73bcf9a8"
     },
     {
@@ -1830,6 +1831,28 @@
       "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
       "last_verified_utc": "2026-11-18T00:24:43.359Z",
       "integrity_sha256": "017ef46d2925807fa9c16e8193b403eb0d08b6c8d9d7fd07980ac35d7ee64669"
+    },
+    {
+      "registry_id": "IATI-SE:SE-ON-885501-0453",
+      "name": "Färnebo folkhögskola",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_80",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "SE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-21T07:14:33.000Z",
+      "integrity_sha256": "7ce04a4a0e52557f43d3dcf309243e778713a2a7f18757a7d34602fc0702ad06"
     },
     {
       "registry_id": "IATI-SE:SE-ON-886500-3910",
