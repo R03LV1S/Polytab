@@ -66,7 +66,7 @@ function itemDescription(item) {
   lines.push("Category: " + (m.category || "Uncategorized"));
   lines.push("Organization: " + (m.organization || "Verification pending"));
   lines.push("Location: " + (m.location || "Community"));
-  const targetStr = (m.campaignType === "open_ended" || m.targetUSD == null) ? "Open-ended ($10,000 activation threshold)" : money(m.targetUSD);
+  const targetStr = (m.campaignType === "open_ended" || m.targetUSD == null) ? "Open-ended ($5,000 activation threshold)" : money(m.targetUSD);
   lines.push("Vote price: " + money(m.votePriceUSD) + " · Target: " + targetStr);
   lines.push(
     "Funded: " + money(m.fundedUSD) +

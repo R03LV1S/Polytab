@@ -12,7 +12,7 @@ Every contribution is a transparent vote on Base that goes directly to verified 
 
 1. **Verified Causes** — Every featured organization is verified through official public registries (IRS 501(c)(3), UK Charity Commission, Belastingdienst ANBI, and IATI global registries).
 2. **Community Voting** — Residents cast micro-contributions starting at $0.50 (in USDC or native crypto). Your contribution is both your vote and direct funding.
-3. **Threshold-Activated Accountability Funds** — Special accountability campaigns run on an open-ended pool. As soon as a fund reaches **$10,000**, a **60-day countdown clock** activates:
+3. **Threshold-Activated Accountability Funds** — Special accountability campaigns run on an open-ended pool. As soon as a fund reaches **$5,000**, a **60-day countdown clock** activates:
    - If **YES** receives 60% or more of votes: 100% of the funds go directly to verified local non-profits working on community remedies.
    - If **NO** wins: 100% of the funds go directly to essential local community services (volunteer fire/EMS, veterans' care, food banks, and disaster relief).
 4. **Direct Delivery** — Funds settle directly to recipient organizations. Polytab never takes a fee.

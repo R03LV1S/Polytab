@@ -166,26 +166,26 @@
       "model": "community_restitution_vote",
       "escrow_chain": "base_mainnet_8453",
       "escrow_token": "USDC",
-      "activation_threshold_usd": 10000,
+      "activation_threshold_usd": 5000,
       "settlement_epoch_days": 60,
       "outcomes": {
         "YES_RELEASE_TO_LOCAL_CHARITIES": "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
         "NO_RELEASE_TO_COMMUNITY_COMMONS": "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
         "ABSTAIN_LOG_DISSENT": "Records resident feedback without moving the vote count."
       },
-      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
+      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $5,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
     },
     "bounty_if_passed": {
       "winning_option": "YES_RELEASE_TO_LOCAL_CHARITIES",
-      "description": "Community Fund for US-AL: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving AL dedicated to clean water remediation, community grid resilience, and environmental health clinics. Verified local recipients: ALABAMA RESOURCE CONSERVATION AND DEVELOPMENT COUNCIL INC (US-EIN:631134289); GEORGIA-ALABAMA LAND TRUST INC (US-EIN:582069352); THE LAND TRUST OF NORTH ALABAMA INC (US-EIN:630974278); FRESHWATER LAND TRUST (US-EIN:721387424); CAWACO RESOURCE CONSERVATION AND DEVELOPMENT AREA (US-EIN:631027283). Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
+      "description": "Community Fund for US-AL: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving AL dedicated to clean water remediation, community grid resilience, and environmental health clinics. Verified local recipients: ALABAMA RESOURCE CONSERVATION AND DEVELOPMENT COUNCIL INC (US-EIN:631134289); GEORGIA-ALABAMA LAND TRUST INC (US-EIN:582069352); THE LAND TRUST OF NORTH ALABAMA INC (US-EIN:630974278); FRESHWATER LAND TRUST (US-EIN:721387424); CAWACO RESOURCE CONSERVATION AND DEVELOPMENT AREA (US-EIN:631027283). Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
       "destination_type": "audited_501c3_restitution_escrow",
       "destination_criteria": "All recipient organizations must be active, verified 501(c)(3) public charities registered in US-AL with clean IRS status and direct community impact. Approved charities: ALABAMA RESOURCE CONSERVATION AND DEVELOPMENT COUNCIL INC (US-EIN:631134289); GEORGIA-ALABAMA LAND TRUST INC (US-EIN:582069352); THE LAND TRUST OF NORTH ALABAMA INC (US-EIN:630974278); FRESHWATER LAND TRUST (US-EIN:721387424); CAWACO RESOURCE CONSERVATION AND DEVELOPMENT AREA (US-EIN:631027283).",
       "resolution_oracle": {
-        "activation_threshold_usd": 10000,
+        "activation_threshold_usd": 5000,
         "settlement_epoch_days": 60,
         "trigger_conditions": [
-          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).",
-          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.",
+          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $5,000 USD (Base USDC).",
+          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $5,000 threshold is reached.",
           "Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks)."
         ],
         "eligible_audited_beneficiaries": [
@@ -590,26 +590,26 @@
       "model": "community_restitution_vote",
       "escrow_chain": "base_mainnet_8453",
       "escrow_token": "USDC",
-      "activation_threshold_usd": 10000,
+      "activation_threshold_usd": 5000,
       "settlement_epoch_days": 60,
       "outcomes": {
         "YES_RELEASE_TO_LOCAL_CHARITIES": "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
         "NO_RELEASE_TO_COMMUNITY_COMMONS": "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
         "ABSTAIN_LOG_DISSENT": "Records resident feedback without moving the vote count."
       },
-      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
+      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $5,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
     },
     "bounty_if_passed": {
       "winning_option": "YES_RELEASE_TO_LOCAL_CHARITIES",
-      "description": "Community Fund for US-AK: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving AK dedicated to clean water remediation, community grid resilience, and environmental health clinics. Verified local recipients: ALASKA WILDLIFE CONSERVATION CENTER INC (US-EIN:920170600); ALASKA CONSERVATION FOUNDATION (US-EIN:920061466); GREAT LAND TRUST INC (US-EIN:920155014); TYONEK TRIBAL CONSERVATION DISTRICT (US-EIN:270671847); COPPER RIVER WATERSHED PROJECT (US-EIN:920162546). Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
+      "description": "Community Fund for US-AK: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving AK dedicated to clean water remediation, community grid resilience, and environmental health clinics. Verified local recipients: ALASKA WILDLIFE CONSERVATION CENTER INC (US-EIN:920170600); ALASKA CONSERVATION FOUNDATION (US-EIN:920061466); GREAT LAND TRUST INC (US-EIN:920155014); TYONEK TRIBAL CONSERVATION DISTRICT (US-EIN:270671847); COPPER RIVER WATERSHED PROJECT (US-EIN:920162546). Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
       "destination_type": "audited_501c3_restitution_escrow",
       "destination_criteria": "All recipient organizations must be active, verified 501(c)(3) public charities registered in US-AK with clean IRS status and direct community impact. Approved charities: ALASKA WILDLIFE CONSERVATION CENTER INC (US-EIN:920170600); ALASKA CONSERVATION FOUNDATION (US-EIN:920061466); GREAT LAND TRUST INC (US-EIN:920155014); TYONEK TRIBAL CONSERVATION DISTRICT (US-EIN:270671847); COPPER RIVER WATERSHED PROJECT (US-EIN:920162546).",
       "resolution_oracle": {
-        "activation_threshold_usd": 10000,
+        "activation_threshold_usd": 5000,
         "settlement_epoch_days": 60,
         "trigger_conditions": [
-          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).",
-          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.",
+          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $5,000 USD (Base USDC).",
+          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $5,000 threshold is reached.",
           "Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks)."
         ],
         "eligible_audited_beneficiaries": [
@@ -1020,26 +1020,26 @@
       "model": "community_restitution_vote",
       "escrow_chain": "base_mainnet_8453",
       "escrow_token": "USDC",
-      "activation_threshold_usd": 10000,
+      "activation_threshold_usd": 5000,
       "settlement_epoch_days": 60,
       "outcomes": {
         "YES_RELEASE_TO_LOCAL_CHARITIES": "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
         "NO_RELEASE_TO_COMMUNITY_COMMONS": "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
         "ABSTAIN_LOG_DISSENT": "Records resident feedback without moving the vote count."
       },
-      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
+      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $5,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
     },
     "bounty_if_passed": {
       "winning_option": "YES_RELEASE_TO_LOCAL_CHARITIES",
-      "description": "Community Fund for US-AR: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving AR dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: LEGAL AID OF ARKANSAS (US-EIN:710439977); CENTER FOR ARKANSAS LEGAL SERVICES INC (US-EIN:710387858); CENTER FOR INTEGRITY IN NEWS REPORTING (US-EIN:992453350); DISABILITY RIGHTS ARKANSAS INC (US-EIN:710536689); ARKANSAS CIVIL LIBERTIES UNION FOUNDATION INCORPORATED (US-EIN:710473676). Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
+      "description": "Community Fund for US-AR: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving AR dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: LEGAL AID OF ARKANSAS (US-EIN:710439977); CENTER FOR ARKANSAS LEGAL SERVICES INC (US-EIN:710387858); CENTER FOR INTEGRITY IN NEWS REPORTING (US-EIN:992453350); DISABILITY RIGHTS ARKANSAS INC (US-EIN:710536689); ARKANSAS CIVIL LIBERTIES UNION FOUNDATION INCORPORATED (US-EIN:710473676). Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
       "destination_type": "audited_501c3_restitution_escrow",
       "destination_criteria": "All recipient organizations must be active, verified 501(c)(3) public charities registered in US-AR with clean IRS status and direct community impact. Approved charities: LEGAL AID OF ARKANSAS (US-EIN:710439977); CENTER FOR ARKANSAS LEGAL SERVICES INC (US-EIN:710387858); CENTER FOR INTEGRITY IN NEWS REPORTING (US-EIN:992453350); DISABILITY RIGHTS ARKANSAS INC (US-EIN:710536689); ARKANSAS CIVIL LIBERTIES UNION FOUNDATION INCORPORATED (US-EIN:710473676).",
       "resolution_oracle": {
-        "activation_threshold_usd": 10000,
+        "activation_threshold_usd": 5000,
         "settlement_epoch_days": 60,
         "trigger_conditions": [
-          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).",
-          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.",
+          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $5,000 USD (Base USDC).",
+          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $5,000 threshold is reached.",
           "Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks)."
         ],
         "eligible_audited_beneficiaries": [
@@ -1444,26 +1444,26 @@
       "model": "community_restitution_vote",
       "escrow_chain": "base_mainnet_8453",
       "escrow_token": "USDC",
-      "activation_threshold_usd": 10000,
+      "activation_threshold_usd": 5000,
       "settlement_epoch_days": 60,
       "outcomes": {
         "YES_RELEASE_TO_LOCAL_CHARITIES": "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
         "NO_RELEASE_TO_COMMUNITY_COMMONS": "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
         "ABSTAIN_LOG_DISSENT": "Records resident feedback without moving the vote count."
       },
-      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
+      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $5,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
     },
     "bounty_if_passed": {
       "winning_option": "YES_RELEASE_TO_LOCAL_CHARITIES",
-      "description": "Community Fund for US-CO: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving CO dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: NATIONAL TRUST FOR LOCAL NEWS (US-EIN:862022385); COLORADO LEGAL SERVICES (US-EIN:840402702); NATIVE AMERICAN RIGHTS FUND (US-EIN:840611876); COLORADO IMMIGRANT RIGHTS COALITION (US-EIN:731675486); COMMUNITY FIRM (US-EIN:844867019). Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
+      "description": "Community Fund for US-CO: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving CO dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: NATIONAL TRUST FOR LOCAL NEWS (US-EIN:862022385); COLORADO LEGAL SERVICES (US-EIN:840402702); NATIVE AMERICAN RIGHTS FUND (US-EIN:840611876); COLORADO IMMIGRANT RIGHTS COALITION (US-EIN:731675486); COMMUNITY FIRM (US-EIN:844867019). Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
       "destination_type": "audited_501c3_restitution_escrow",
       "destination_criteria": "All recipient organizations must be active, verified 501(c)(3) public charities registered in US-CO with clean IRS status and direct community impact. Approved charities: NATIONAL TRUST FOR LOCAL NEWS (US-EIN:862022385); COLORADO LEGAL SERVICES (US-EIN:840402702); NATIVE AMERICAN RIGHTS FUND (US-EIN:840611876); COLORADO IMMIGRANT RIGHTS COALITION (US-EIN:731675486); COMMUNITY FIRM (US-EIN:844867019).",
       "resolution_oracle": {
-        "activation_threshold_usd": 10000,
+        "activation_threshold_usd": 5000,
         "settlement_epoch_days": 60,
         "trigger_conditions": [
-          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).",
-          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.",
+          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $5,000 USD (Base USDC).",
+          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $5,000 threshold is reached.",
           "Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks)."
         ],
         "eligible_audited_beneficiaries": [
@@ -1866,26 +1866,26 @@
       "model": "community_restitution_vote",
       "escrow_chain": "base_mainnet_8453",
       "escrow_token": "USDC",
-      "activation_threshold_usd": 10000,
+      "activation_threshold_usd": 5000,
       "settlement_epoch_days": 60,
       "outcomes": {
         "YES_RELEASE_TO_LOCAL_CHARITIES": "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
         "NO_RELEASE_TO_COMMUNITY_COMMONS": "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
         "ABSTAIN_LOG_DISSENT": "Records resident feedback without moving the vote count."
       },
-      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
+      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $5,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
     },
     "bounty_if_passed": {
       "winning_option": "YES_RELEASE_TO_LOCAL_CHARITIES",
-      "description": "Community Fund for US-DE: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving DE dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: COMMUNITY LEGAL AID SOCIETY INC (US-EIN:516000158); LEGAL SERVICES CORPORATION OF DELAWARE (US-EIN:510372955); DELAWARE VOLUNTEER LEGAL SERVICES INC (US-EIN:510265470); IMPROVE THE NEWS FOUNDATION (US-EIN:853391849); AMERICAN CIVIL LIBERTIES FOUNDATION OF DELAWARE INC (US-EIN:510220856). Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
+      "description": "Community Fund for US-DE: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving DE dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: COMMUNITY LEGAL AID SOCIETY INC (US-EIN:516000158); LEGAL SERVICES CORPORATION OF DELAWARE (US-EIN:510372955); DELAWARE VOLUNTEER LEGAL SERVICES INC (US-EIN:510265470); IMPROVE THE NEWS FOUNDATION (US-EIN:853391849); AMERICAN CIVIL LIBERTIES FOUNDATION OF DELAWARE INC (US-EIN:510220856). Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
       "destination_type": "audited_501c3_restitution_escrow",
       "destination_criteria": "All recipient organizations must be active, verified 501(c)(3) public charities registered in US-DE with clean IRS status and direct community impact. Approved charities: COMMUNITY LEGAL AID SOCIETY INC (US-EIN:516000158); LEGAL SERVICES CORPORATION OF DELAWARE (US-EIN:510372955); DELAWARE VOLUNTEER LEGAL SERVICES INC (US-EIN:510265470); IMPROVE THE NEWS FOUNDATION (US-EIN:853391849); AMERICAN CIVIL LIBERTIES FOUNDATION OF DELAWARE INC (US-EIN:510220856).",
       "resolution_oracle": {
-        "activation_threshold_usd": 10000,
+        "activation_threshold_usd": 5000,
         "settlement_epoch_days": 60,
         "trigger_conditions": [
-          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).",
-          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.",
+          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $5,000 USD (Base USDC).",
+          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $5,000 threshold is reached.",
           "Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks)."
         ],
         "eligible_audited_beneficiaries": [
@@ -2293,26 +2293,26 @@
       "model": "community_restitution_vote",
       "escrow_chain": "base_mainnet_8453",
       "escrow_token": "USDC",
-      "activation_threshold_usd": 10000,
+      "activation_threshold_usd": 5000,
       "settlement_epoch_days": 60,
       "outcomes": {
         "YES_RELEASE_TO_LOCAL_CHARITIES": "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
         "NO_RELEASE_TO_COMMUNITY_COMMONS": "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
         "ABSTAIN_LOG_DISSENT": "Records resident feedback without moving the vote count."
       },
-      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
+      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $5,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
     },
     "bounty_if_passed": {
       "winning_option": "YES_RELEASE_TO_LOCAL_CHARITIES",
-      "description": "Community Fund for US-FL: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving FL dedicated to affordable housing trusts, predatory-lending legal aid, and household debt relief. Verified local recipients: HABITAT FOR HUMANITY OF COLLIER COUNTY INC (US-EIN:591834379); AFFORDABLE HOUSING PRESERVATION CORPORATION (US-EIN:861646797); HABITAT FOR HUMANITY OF LEE & HENDRY COUNTIES INC (US-EIN:592236174); CARRFOUR SUPPORTIVE HOUSING INC (US-EIN:650387766); LEGAL SERVICES OF GREATER MIAMI INC (US-EIN:591227481). Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
+      "description": "Community Fund for US-FL: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving FL dedicated to affordable housing trusts, predatory-lending legal aid, and household debt relief. Verified local recipients: HABITAT FOR HUMANITY OF COLLIER COUNTY INC (US-EIN:591834379); AFFORDABLE HOUSING PRESERVATION CORPORATION (US-EIN:861646797); HABITAT FOR HUMANITY OF LEE & HENDRY COUNTIES INC (US-EIN:592236174); CARRFOUR SUPPORTIVE HOUSING INC (US-EIN:650387766); LEGAL SERVICES OF GREATER MIAMI INC (US-EIN:591227481). Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
       "destination_type": "audited_501c3_restitution_escrow",
       "destination_criteria": "All recipient organizations must be active, verified 501(c)(3) public charities registered in US-FL with clean IRS status and direct community impact. Approved charities: HABITAT FOR HUMANITY OF COLLIER COUNTY INC (US-EIN:591834379); AFFORDABLE HOUSING PRESERVATION CORPORATION (US-EIN:861646797); HABITAT FOR HUMANITY OF LEE & HENDRY COUNTIES INC (US-EIN:592236174); CARRFOUR SUPPORTIVE HOUSING INC (US-EIN:650387766); LEGAL SERVICES OF GREATER MIAMI INC (US-EIN:591227481).",
       "resolution_oracle": {
-        "activation_threshold_usd": 10000,
+        "activation_threshold_usd": 5000,
         "settlement_epoch_days": 60,
         "trigger_conditions": [
-          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).",
-          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.",
+          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $5,000 USD (Base USDC).",
+          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $5,000 threshold is reached.",
           "Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks)."
         ],
         "eligible_audited_beneficiaries": [
@@ -2719,26 +2719,26 @@
       "model": "community_restitution_vote",
       "escrow_chain": "base_mainnet_8453",
       "escrow_token": "USDC",
-      "activation_threshold_usd": 10000,
+      "activation_threshold_usd": 5000,
       "settlement_epoch_days": 60,
       "outcomes": {
         "YES_RELEASE_TO_LOCAL_CHARITIES": "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
         "NO_RELEASE_TO_COMMUNITY_COMMONS": "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
         "ABSTAIN_LOG_DISSENT": "Records resident feedback without moving the vote count."
       },
-      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
+      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $5,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
     },
     "bounty_if_passed": {
       "winning_option": "YES_RELEASE_TO_LOCAL_CHARITIES",
-      "description": "Community Fund for US-GA: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving GA dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: GEORGIA LEGAL SERVICES PROGRAM INC (US-EIN:581111590); ATLANTA LEGAL AID SOCIETY INC (US-EIN:580568691); GEORGIA COURT APPOINTED SPECIAL ADVOCATES INC (US-EIN:581793382); SOUTHERN CENTER FOR HUMAN RIGHTS (US-EIN:621025326); CHRISTIAN ADVOCATES SERVING EVANGELISM INC (US-EIN:943037261). Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
+      "description": "Community Fund for US-GA: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving GA dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: GEORGIA LEGAL SERVICES PROGRAM INC (US-EIN:581111590); ATLANTA LEGAL AID SOCIETY INC (US-EIN:580568691); GEORGIA COURT APPOINTED SPECIAL ADVOCATES INC (US-EIN:581793382); SOUTHERN CENTER FOR HUMAN RIGHTS (US-EIN:621025326); CHRISTIAN ADVOCATES SERVING EVANGELISM INC (US-EIN:943037261). Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
       "destination_type": "audited_501c3_restitution_escrow",
       "destination_criteria": "All recipient organizations must be active, verified 501(c)(3) public charities registered in US-GA with clean IRS status and direct community impact. Approved charities: GEORGIA LEGAL SERVICES PROGRAM INC (US-EIN:581111590); ATLANTA LEGAL AID SOCIETY INC (US-EIN:580568691); GEORGIA COURT APPOINTED SPECIAL ADVOCATES INC (US-EIN:581793382); SOUTHERN CENTER FOR HUMAN RIGHTS (US-EIN:621025326); CHRISTIAN ADVOCATES SERVING EVANGELISM INC (US-EIN:943037261).",
       "resolution_oracle": {
-        "activation_threshold_usd": 10000,
+        "activation_threshold_usd": 5000,
         "settlement_epoch_days": 60,
         "trigger_conditions": [
-          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).",
-          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.",
+          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $5,000 USD (Base USDC).",
+          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $5,000 threshold is reached.",
           "Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks)."
         ],
         "eligible_audited_beneficiaries": [
@@ -3147,26 +3147,26 @@
       "model": "community_restitution_vote",
       "escrow_chain": "base_mainnet_8453",
       "escrow_token": "USDC",
-      "activation_threshold_usd": 10000,
+      "activation_threshold_usd": 5000,
       "settlement_epoch_days": 60,
       "outcomes": {
         "YES_RELEASE_TO_LOCAL_CHARITIES": "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
         "NO_RELEASE_TO_COMMUNITY_COMMONS": "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
         "ABSTAIN_LOG_DISSENT": "Records resident feedback without moving the vote count."
       },
-      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
+      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $5,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
     },
     "bounty_if_passed": {
       "winning_option": "YES_RELEASE_TO_LOCAL_CHARITIES",
-      "description": "Community Fund for US-ID: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving ID dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: FEDERAL DEFENDER SERVICES OF IDAHO INC (US-EIN:205275686); IDAHO LEGAL AID SERVICES INC IDAHO LEGAL AID SERVICES INC (US-EIN:820293641); AMERICAN CIVIL LIBERTIES UNION OF IDAHO FOUNDATION INC (US-EIN:820467428); WASSMUTH CENTER FOR HUMAN RIGHTS HOME OF THE ANNE FRANK MEMORIAL IN (US-EIN:820490848); FRIENDS OF IDAHO PUBLIC TELEVISION INC (US-EIN:820400218). Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
+      "description": "Community Fund for US-ID: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving ID dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: FEDERAL DEFENDER SERVICES OF IDAHO INC (US-EIN:205275686); IDAHO LEGAL AID SERVICES INC IDAHO LEGAL AID SERVICES INC (US-EIN:820293641); AMERICAN CIVIL LIBERTIES UNION OF IDAHO FOUNDATION INC (US-EIN:820467428); WASSMUTH CENTER FOR HUMAN RIGHTS HOME OF THE ANNE FRANK MEMORIAL IN (US-EIN:820490848); FRIENDS OF IDAHO PUBLIC TELEVISION INC (US-EIN:820400218). Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
       "destination_type": "audited_501c3_restitution_escrow",
       "destination_criteria": "All recipient organizations must be active, verified 501(c)(3) public charities registered in US-ID with clean IRS status and direct community impact. Approved charities: FEDERAL DEFENDER SERVICES OF IDAHO INC (US-EIN:205275686); IDAHO LEGAL AID SERVICES INC IDAHO LEGAL AID SERVICES INC (US-EIN:820293641); AMERICAN CIVIL LIBERTIES UNION OF IDAHO FOUNDATION INC (US-EIN:820467428); WASSMUTH CENTER FOR HUMAN RIGHTS HOME OF THE ANNE FRANK MEMORIAL IN (US-EIN:820490848); FRIENDS OF IDAHO PUBLIC TELEVISION INC (US-EIN:820400218).",
       "resolution_oracle": {
-        "activation_threshold_usd": 10000,
+        "activation_threshold_usd": 5000,
         "settlement_epoch_days": 60,
         "trigger_conditions": [
-          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).",
-          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.",
+          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $5,000 USD (Base USDC).",
+          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $5,000 threshold is reached.",
           "Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks)."
         ],
         "eligible_audited_beneficiaries": [
@@ -3566,26 +3566,26 @@
       "model": "community_restitution_vote",
       "escrow_chain": "base_mainnet_8453",
       "escrow_token": "USDC",
-      "activation_threshold_usd": 10000,
+      "activation_threshold_usd": 5000,
       "settlement_epoch_days": 60,
       "outcomes": {
         "YES_RELEASE_TO_LOCAL_CHARITIES": "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
         "NO_RELEASE_TO_COMMUNITY_COMMONS": "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
         "ABSTAIN_LOG_DISSENT": "Records resident feedback without moving the vote count."
       },
-      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
+      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $5,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
     },
     "bounty_if_passed": {
       "winning_option": "YES_RELEASE_TO_LOCAL_CHARITIES",
-      "description": "Community Fund for US-IL: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving IL dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: ILLINOIS COALITION FOR IMMIGRANT AND REFUGEE RIGHTS (US-EIN:363783551); LEGAL AID CHICAGO (US-EIN:362754650); PRAIRIE STATE LEGAL SERVICES INC (US-EIN:371030764); LAND OF LINCOLN LEGAL ASSISTANCE FOUNDATION (US-EIN:370958448); AMERICAN BAR ASSOCIATION FUND FOR JUSTICE AND EDUCATION (US-EIN:366110299). Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
+      "description": "Community Fund for US-IL: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving IL dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: ILLINOIS COALITION FOR IMMIGRANT AND REFUGEE RIGHTS (US-EIN:363783551); LEGAL AID CHICAGO (US-EIN:362754650); PRAIRIE STATE LEGAL SERVICES INC (US-EIN:371030764); LAND OF LINCOLN LEGAL ASSISTANCE FOUNDATION (US-EIN:370958448); AMERICAN BAR ASSOCIATION FUND FOR JUSTICE AND EDUCATION (US-EIN:366110299). Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
       "destination_type": "audited_501c3_restitution_escrow",
       "destination_criteria": "All recipient organizations must be active, verified 501(c)(3) public charities registered in US-IL with clean IRS status and direct community impact. Approved charities: ILLINOIS COALITION FOR IMMIGRANT AND REFUGEE RIGHTS (US-EIN:363783551); LEGAL AID CHICAGO (US-EIN:362754650); PRAIRIE STATE LEGAL SERVICES INC (US-EIN:371030764); LAND OF LINCOLN LEGAL ASSISTANCE FOUNDATION (US-EIN:370958448); AMERICAN BAR ASSOCIATION FUND FOR JUSTICE AND EDUCATION (US-EIN:366110299).",
       "resolution_oracle": {
-        "activation_threshold_usd": 10000,
+        "activation_threshold_usd": 5000,
         "settlement_epoch_days": 60,
         "trigger_conditions": [
-          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).",
-          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.",
+          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $5,000 USD (Base USDC).",
+          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $5,000 threshold is reached.",
           "Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks)."
         ],
         "eligible_audited_beneficiaries": [
@@ -3996,26 +3996,26 @@
       "model": "community_restitution_vote",
       "escrow_chain": "base_mainnet_8453",
       "escrow_token": "USDC",
-      "activation_threshold_usd": 10000,
+      "activation_threshold_usd": 5000,
       "settlement_epoch_days": 60,
       "outcomes": {
         "YES_RELEASE_TO_LOCAL_CHARITIES": "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
         "NO_RELEASE_TO_COMMUNITY_COMMONS": "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
         "ABSTAIN_LOG_DISSENT": "Records resident feedback without moving the vote count."
       },
-      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
+      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $5,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
     },
     "bounty_if_passed": {
       "winning_option": "YES_RELEASE_TO_LOCAL_CHARITIES",
-      "description": "Community Fund for US-IA: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving IA dedicated to clean water remediation, community grid resilience, and environmental health clinics. Verified local recipients: IOWA CONFLUENCE WATER TRAILS (US-EIN:871605740); CONSERVATION FOUNDATION OF DICKINSON COUNTY (US-EIN:364166056); WATER PROFESSIONALS INTERNATIONAL (US-EIN:540944673); IOWA AGRICULTURE WATER ALLIANCE (US-EIN:320440113); BRUNSWICK-TOPSHAM LAND TRUST INC (US-EIN:222714194). Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
+      "description": "Community Fund for US-IA: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving IA dedicated to clean water remediation, community grid resilience, and environmental health clinics. Verified local recipients: IOWA CONFLUENCE WATER TRAILS (US-EIN:871605740); CONSERVATION FOUNDATION OF DICKINSON COUNTY (US-EIN:364166056); WATER PROFESSIONALS INTERNATIONAL (US-EIN:540944673); IOWA AGRICULTURE WATER ALLIANCE (US-EIN:320440113); BRUNSWICK-TOPSHAM LAND TRUST INC (US-EIN:222714194). Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
       "destination_type": "audited_501c3_restitution_escrow",
       "destination_criteria": "All recipient organizations must be active, verified 501(c)(3) public charities registered in US-IA with clean IRS status and direct community impact. Approved charities: IOWA CONFLUENCE WATER TRAILS (US-EIN:871605740); CONSERVATION FOUNDATION OF DICKINSON COUNTY (US-EIN:364166056); WATER PROFESSIONALS INTERNATIONAL (US-EIN:540944673); IOWA AGRICULTURE WATER ALLIANCE (US-EIN:320440113); BRUNSWICK-TOPSHAM LAND TRUST INC (US-EIN:222714194).",
       "resolution_oracle": {
-        "activation_threshold_usd": 10000,
+        "activation_threshold_usd": 5000,
         "settlement_epoch_days": 60,
         "trigger_conditions": [
-          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).",
-          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.",
+          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $5,000 USD (Base USDC).",
+          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $5,000 threshold is reached.",
           "Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks)."
         ],
         "eligible_audited_beneficiaries": [
@@ -4425,26 +4425,26 @@
       "model": "community_restitution_vote",
       "escrow_chain": "base_mainnet_8453",
       "escrow_token": "USDC",
-      "activation_threshold_usd": 10000,
+      "activation_threshold_usd": 5000,
       "settlement_epoch_days": 60,
       "outcomes": {
         "YES_RELEASE_TO_LOCAL_CHARITIES": "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
         "NO_RELEASE_TO_COMMUNITY_COMMONS": "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
         "ABSTAIN_LOG_DISSENT": "Records resident feedback without moving the vote count."
       },
-      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
+      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $5,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
     },
     "bounty_if_passed": {
       "winning_option": "YES_RELEASE_TO_LOCAL_CHARITIES",
-      "description": "Community Fund for US-KS: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving KS dedicated to clean water remediation, community grid resilience, and environmental health clinics. Verified local recipients: GLACIAL HILLS RESOURCE CONSERVATION & DEVELOPMENT REGION INC (US-EIN:481103964); SUNSET ZOOLOGICAL PARK AND WILDLIFE CONSERVATION TRUST FOUNDATION (US-EIN:481096978); SEDGWICK COUNTY ZOOLOGICAL SOCIETY INC (US-EIN:486120530); FRIENDS OF THE TOPEKA ZOO INC (US-EIN:486117369); BOTANICA INC (US-EIN:481007736). Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
+      "description": "Community Fund for US-KS: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving KS dedicated to clean water remediation, community grid resilience, and environmental health clinics. Verified local recipients: GLACIAL HILLS RESOURCE CONSERVATION & DEVELOPMENT REGION INC (US-EIN:481103964); SUNSET ZOOLOGICAL PARK AND WILDLIFE CONSERVATION TRUST FOUNDATION (US-EIN:481096978); SEDGWICK COUNTY ZOOLOGICAL SOCIETY INC (US-EIN:486120530); FRIENDS OF THE TOPEKA ZOO INC (US-EIN:486117369); BOTANICA INC (US-EIN:481007736). Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
       "destination_type": "audited_501c3_restitution_escrow",
       "destination_criteria": "All recipient organizations must be active, verified 501(c)(3) public charities registered in US-KS with clean IRS status and direct community impact. Approved charities: GLACIAL HILLS RESOURCE CONSERVATION & DEVELOPMENT REGION INC (US-EIN:481103964); SUNSET ZOOLOGICAL PARK AND WILDLIFE CONSERVATION TRUST FOUNDATION (US-EIN:481096978); SEDGWICK COUNTY ZOOLOGICAL SOCIETY INC (US-EIN:486120530); FRIENDS OF THE TOPEKA ZOO INC (US-EIN:486117369); BOTANICA INC (US-EIN:481007736).",
       "resolution_oracle": {
-        "activation_threshold_usd": 10000,
+        "activation_threshold_usd": 5000,
         "settlement_epoch_days": 60,
         "trigger_conditions": [
-          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).",
-          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.",
+          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $5,000 USD (Base USDC).",
+          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $5,000 threshold is reached.",
           "Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks)."
         ],
         "eligible_audited_beneficiaries": [
@@ -4851,26 +4851,26 @@
       "model": "community_restitution_vote",
       "escrow_chain": "base_mainnet_8453",
       "escrow_token": "USDC",
-      "activation_threshold_usd": 10000,
+      "activation_threshold_usd": 5000,
       "settlement_epoch_days": 60,
       "outcomes": {
         "YES_RELEASE_TO_LOCAL_CHARITIES": "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
         "NO_RELEASE_TO_COMMUNITY_COMMONS": "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
         "ABSTAIN_LOG_DISSENT": "Records resident feedback without moving the vote count."
       },
-      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
+      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $5,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
     },
     "bounty_if_passed": {
       "winning_option": "YES_RELEASE_TO_LOCAL_CHARITIES",
-      "description": "Community Fund for US-KY: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving KY dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: NORTHERN KENTUCKY LEGAL AID SOCIETY INC (US-EIN:610668572); CUMBERLAND TRACE LEGAL SERVICES INC (US-EIN:610916523); WESTERN KENTUCKY FEDERAL COMMUNITY DEFENDER INC (US-EIN:611272294); AMERICAN PRINTING HOUSE FOR THE BLIND INC (US-EIN:610444640); ZEROV INC (US-EIN:611110432). Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
+      "description": "Community Fund for US-KY: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving KY dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: NORTHERN KENTUCKY LEGAL AID SOCIETY INC (US-EIN:610668572); CUMBERLAND TRACE LEGAL SERVICES INC (US-EIN:610916523); WESTERN KENTUCKY FEDERAL COMMUNITY DEFENDER INC (US-EIN:611272294); AMERICAN PRINTING HOUSE FOR THE BLIND INC (US-EIN:610444640); ZEROV INC (US-EIN:611110432). Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
       "destination_type": "audited_501c3_restitution_escrow",
       "destination_criteria": "All recipient organizations must be active, verified 501(c)(3) public charities registered in US-KY with clean IRS status and direct community impact. Approved charities: NORTHERN KENTUCKY LEGAL AID SOCIETY INC (US-EIN:610668572); CUMBERLAND TRACE LEGAL SERVICES INC (US-EIN:610916523); WESTERN KENTUCKY FEDERAL COMMUNITY DEFENDER INC (US-EIN:611272294); AMERICAN PRINTING HOUSE FOR THE BLIND INC (US-EIN:610444640); ZEROV INC (US-EIN:611110432).",
       "resolution_oracle": {
-        "activation_threshold_usd": 10000,
+        "activation_threshold_usd": 5000,
         "settlement_epoch_days": 60,
         "trigger_conditions": [
-          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).",
-          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.",
+          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $5,000 USD (Base USDC).",
+          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $5,000 threshold is reached.",
           "Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks)."
         ],
         "eligible_audited_beneficiaries": [
@@ -5283,26 +5283,26 @@
       "model": "community_restitution_vote",
       "escrow_chain": "base_mainnet_8453",
       "escrow_token": "USDC",
-      "activation_threshold_usd": 10000,
+      "activation_threshold_usd": 5000,
       "settlement_epoch_days": 60,
       "outcomes": {
         "YES_RELEASE_TO_LOCAL_CHARITIES": "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
         "NO_RELEASE_TO_COMMUNITY_COMMONS": "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
         "ABSTAIN_LOG_DISSENT": "Records resident feedback without moving the vote count."
       },
-      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
+      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $5,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
     },
     "bounty_if_passed": {
       "winning_option": "YES_RELEASE_TO_LOCAL_CHARITIES",
-      "description": "Community Fund for US-LA: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving LA dedicated to affordable housing trusts, predatory-lending legal aid, and household debt relief. Verified local recipients: SOUTHEAST LOUISIANA LEGAL SERVICES CORPORATION (US-EIN:720877422); ACADIANA LEGAL SERVICE CORPORATION (US-EIN:720832432); SHREVEPORT LEASED HOUSING CORPORATION (US-EIN:364591709); PROVIDENCE COMMUNITY HOUSING (US-EIN:204627275); HABITAT FOR HUMANITY INTERNATIONAL INC (US-EIN:721208936). Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
+      "description": "Community Fund for US-LA: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving LA dedicated to affordable housing trusts, predatory-lending legal aid, and household debt relief. Verified local recipients: SOUTHEAST LOUISIANA LEGAL SERVICES CORPORATION (US-EIN:720877422); ACADIANA LEGAL SERVICE CORPORATION (US-EIN:720832432); SHREVEPORT LEASED HOUSING CORPORATION (US-EIN:364591709); PROVIDENCE COMMUNITY HOUSING (US-EIN:204627275); HABITAT FOR HUMANITY INTERNATIONAL INC (US-EIN:721208936). Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
       "destination_type": "audited_501c3_restitution_escrow",
       "destination_criteria": "All recipient organizations must be active, verified 501(c)(3) public charities registered in US-LA with clean IRS status and direct community impact. Approved charities: SOUTHEAST LOUISIANA LEGAL SERVICES CORPORATION (US-EIN:720877422); ACADIANA LEGAL SERVICE CORPORATION (US-EIN:720832432); SHREVEPORT LEASED HOUSING CORPORATION (US-EIN:364591709); PROVIDENCE COMMUNITY HOUSING (US-EIN:204627275); HABITAT FOR HUMANITY INTERNATIONAL INC (US-EIN:721208936).",
       "resolution_oracle": {
-        "activation_threshold_usd": 10000,
+        "activation_threshold_usd": 5000,
         "settlement_epoch_days": 60,
         "trigger_conditions": [
-          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).",
-          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.",
+          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $5,000 USD (Base USDC).",
+          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $5,000 threshold is reached.",
           "Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks)."
         ],
         "eligible_audited_beneficiaries": [
@@ -5711,26 +5711,26 @@
       "model": "community_restitution_vote",
       "escrow_chain": "base_mainnet_8453",
       "escrow_token": "USDC",
-      "activation_threshold_usd": 10000,
+      "activation_threshold_usd": 5000,
       "settlement_epoch_days": 60,
       "outcomes": {
         "YES_RELEASE_TO_LOCAL_CHARITIES": "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
         "NO_RELEASE_TO_COMMUNITY_COMMONS": "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
         "ABSTAIN_LOG_DISSENT": "Records resident feedback without moving the vote count."
       },
-      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
+      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $5,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
     },
     "bounty_if_passed": {
       "winning_option": "YES_RELEASE_TO_LOCAL_CHARITIES",
-      "description": "Community Fund for US-ME: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving ME dedicated to affordable housing trusts, predatory-lending legal aid, and household debt relief. Verified local recipients: AVESTA HOUSING DEVELOPMENT CORPORATION (US-EIN:010315296); PINE TREE LEGAL ASSISTANCE INC (US-EIN:010279387); COMMUNITY HOUSING OF MAINE INC (US-EIN:010490195); AVESTA HOUSING MANAGEMENT CORPORATION (US-EIN:237356030); SOUTH PORTLAND HOUSING DEVELOPMENT CORPORATION (US-EIN:222648277). Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
+      "description": "Community Fund for US-ME: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving ME dedicated to affordable housing trusts, predatory-lending legal aid, and household debt relief. Verified local recipients: AVESTA HOUSING DEVELOPMENT CORPORATION (US-EIN:010315296); PINE TREE LEGAL ASSISTANCE INC (US-EIN:010279387); COMMUNITY HOUSING OF MAINE INC (US-EIN:010490195); AVESTA HOUSING MANAGEMENT CORPORATION (US-EIN:237356030); SOUTH PORTLAND HOUSING DEVELOPMENT CORPORATION (US-EIN:222648277). Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
       "destination_type": "audited_501c3_restitution_escrow",
       "destination_criteria": "All recipient organizations must be active, verified 501(c)(3) public charities registered in US-ME with clean IRS status and direct community impact. Approved charities: AVESTA HOUSING DEVELOPMENT CORPORATION (US-EIN:010315296); PINE TREE LEGAL ASSISTANCE INC (US-EIN:010279387); COMMUNITY HOUSING OF MAINE INC (US-EIN:010490195); AVESTA HOUSING MANAGEMENT CORPORATION (US-EIN:237356030); SOUTH PORTLAND HOUSING DEVELOPMENT CORPORATION (US-EIN:222648277).",
       "resolution_oracle": {
-        "activation_threshold_usd": 10000,
+        "activation_threshold_usd": 5000,
         "settlement_epoch_days": 60,
         "trigger_conditions": [
-          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).",
-          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.",
+          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $5,000 USD (Base USDC).",
+          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $5,000 threshold is reached.",
           "Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks)."
         ],
         "eligible_audited_beneficiaries": [
@@ -6140,26 +6140,26 @@
       "model": "community_restitution_vote",
       "escrow_chain": "base_mainnet_8453",
       "escrow_token": "USDC",
-      "activation_threshold_usd": 10000,
+      "activation_threshold_usd": 5000,
       "settlement_epoch_days": 60,
       "outcomes": {
         "YES_RELEASE_TO_LOCAL_CHARITIES": "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
         "NO_RELEASE_TO_COMMUNITY_COMMONS": "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
         "ABSTAIN_LOG_DISSENT": "Records resident feedback without moving the vote count."
       },
-      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
+      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $5,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
     },
     "bounty_if_passed": {
       "winning_option": "YES_RELEASE_TO_LOCAL_CHARITIES",
-      "description": "Community Fund for US-MA: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving MA dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: MASSACHUSETTS LEGAL ASSISTANCE (US-EIN:042790762); COMMUNITY LEGAL AID INC (US-EIN:042446242); SOUTH COASTAL COUNTIES LEGAL SERVICES INC (US-EIN:043330208); NORTHEAST LEGAL AID INC (US-EIN:237381007); GLBTQ LEGAL ADVOCATES & DEFENDERS INC (US-EIN:042660498). Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
+      "description": "Community Fund for US-MA: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving MA dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: MASSACHUSETTS LEGAL ASSISTANCE (US-EIN:042790762); COMMUNITY LEGAL AID INC (US-EIN:042446242); SOUTH COASTAL COUNTIES LEGAL SERVICES INC (US-EIN:043330208); NORTHEAST LEGAL AID INC (US-EIN:237381007); GLBTQ LEGAL ADVOCATES & DEFENDERS INC (US-EIN:042660498). Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
       "destination_type": "audited_501c3_restitution_escrow",
       "destination_criteria": "All recipient organizations must be active, verified 501(c)(3) public charities registered in US-MA with clean IRS status and direct community impact. Approved charities: MASSACHUSETTS LEGAL ASSISTANCE (US-EIN:042790762); COMMUNITY LEGAL AID INC (US-EIN:042446242); SOUTH COASTAL COUNTIES LEGAL SERVICES INC (US-EIN:043330208); NORTHEAST LEGAL AID INC (US-EIN:237381007); GLBTQ LEGAL ADVOCATES & DEFENDERS INC (US-EIN:042660498).",
       "resolution_oracle": {
-        "activation_threshold_usd": 10000,
+        "activation_threshold_usd": 5000,
         "settlement_epoch_days": 60,
         "trigger_conditions": [
-          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).",
-          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.",
+          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $5,000 USD (Base USDC).",
+          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $5,000 threshold is reached.",
           "Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks)."
         ],
         "eligible_audited_beneficiaries": [
@@ -6559,26 +6559,26 @@
       "model": "community_restitution_vote",
       "escrow_chain": "base_mainnet_8453",
       "escrow_token": "USDC",
-      "activation_threshold_usd": 10000,
+      "activation_threshold_usd": 5000,
       "settlement_epoch_days": 60,
       "outcomes": {
         "YES_RELEASE_TO_LOCAL_CHARITIES": "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
         "NO_RELEASE_TO_COMMUNITY_COMMONS": "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
         "ABSTAIN_LOG_DISSENT": "Records resident feedback without moving the vote count."
       },
-      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
+      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $5,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
     },
     "bounty_if_passed": {
       "winning_option": "YES_RELEASE_TO_LOCAL_CHARITIES",
-      "description": "Community Fund for US-MI: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving MI dedicated to veterans' trauma/housing rehabilitation and digital privacy civil-liberties defense. Verified local recipients: LAKESHORE LEGAL AID (US-EIN:381850908); WAYNE COUNTY NEIGHBORHOOD LEGAL SERVICES (US-EIN:381818068); ASSURED FAMILY SERVICES (US-EIN:760709231); LEGAL AID OF WESTERN MICHIGAN (US-EIN:382156874); SPECTRUM JUVENILE JUSTICE SERVICES (US-EIN:383215802). Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
+      "description": "Community Fund for US-MI: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving MI dedicated to veterans' trauma/housing rehabilitation and digital privacy civil-liberties defense. Verified local recipients: LAKESHORE LEGAL AID (US-EIN:381850908); WAYNE COUNTY NEIGHBORHOOD LEGAL SERVICES (US-EIN:381818068); ASSURED FAMILY SERVICES (US-EIN:760709231); LEGAL AID OF WESTERN MICHIGAN (US-EIN:382156874); SPECTRUM JUVENILE JUSTICE SERVICES (US-EIN:383215802). Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
       "destination_type": "audited_501c3_restitution_escrow",
       "destination_criteria": "All recipient organizations must be active, verified 501(c)(3) public charities registered in US-MI with clean IRS status and direct community impact. Approved charities: LAKESHORE LEGAL AID (US-EIN:381850908); WAYNE COUNTY NEIGHBORHOOD LEGAL SERVICES (US-EIN:381818068); ASSURED FAMILY SERVICES (US-EIN:760709231); LEGAL AID OF WESTERN MICHIGAN (US-EIN:382156874); SPECTRUM JUVENILE JUSTICE SERVICES (US-EIN:383215802).",
       "resolution_oracle": {
-        "activation_threshold_usd": 10000,
+        "activation_threshold_usd": 5000,
         "settlement_epoch_days": 60,
         "trigger_conditions": [
-          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).",
-          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.",
+          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $5,000 USD (Base USDC).",
+          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $5,000 threshold is reached.",
           "Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks)."
         ],
         "eligible_audited_beneficiaries": [
@@ -6986,26 +6986,26 @@
       "model": "community_restitution_vote",
       "escrow_chain": "base_mainnet_8453",
       "escrow_token": "USDC",
-      "activation_threshold_usd": 10000,
+      "activation_threshold_usd": 5000,
       "settlement_epoch_days": 60,
       "outcomes": {
         "YES_RELEASE_TO_LOCAL_CHARITIES": "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
         "NO_RELEASE_TO_COMMUNITY_COMMONS": "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
         "ABSTAIN_LOG_DISSENT": "Records resident feedback without moving the vote count."
       },
-      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
+      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $5,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
     },
     "bounty_if_passed": {
       "winning_option": "YES_RELEASE_TO_LOCAL_CHARITIES",
-      "description": "Community Fund for US-MN: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving MN dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: SOUTHERN MINNESOTA REGIONAL LEGAL SERVICES INC (US-EIN:411316151); LEGAL AID SERVICE OF NORTHEASTERN MINNESOTA (US-EIN:410958386); MINNESOTA PUBLIC RADIO (US-EIN:410953924); NEXUS FAMILY HEALING (US-EIN:411419064); TWIN CITIES PUBLIC TELEVISION INC (US-EIN:410769851). Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
+      "description": "Community Fund for US-MN: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving MN dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: SOUTHERN MINNESOTA REGIONAL LEGAL SERVICES INC (US-EIN:411316151); LEGAL AID SERVICE OF NORTHEASTERN MINNESOTA (US-EIN:410958386); MINNESOTA PUBLIC RADIO (US-EIN:410953924); NEXUS FAMILY HEALING (US-EIN:411419064); TWIN CITIES PUBLIC TELEVISION INC (US-EIN:410769851). Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
       "destination_type": "audited_501c3_restitution_escrow",
       "destination_criteria": "All recipient organizations must be active, verified 501(c)(3) public charities registered in US-MN with clean IRS status and direct community impact. Approved charities: SOUTHERN MINNESOTA REGIONAL LEGAL SERVICES INC (US-EIN:411316151); LEGAL AID SERVICE OF NORTHEASTERN MINNESOTA (US-EIN:410958386); MINNESOTA PUBLIC RADIO (US-EIN:410953924); NEXUS FAMILY HEALING (US-EIN:411419064); TWIN CITIES PUBLIC TELEVISION INC (US-EIN:410769851).",
       "resolution_oracle": {
-        "activation_threshold_usd": 10000,
+        "activation_threshold_usd": 5000,
         "settlement_epoch_days": 60,
         "trigger_conditions": [
-          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).",
-          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.",
+          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $5,000 USD (Base USDC).",
+          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $5,000 threshold is reached.",
           "Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks)."
         ],
         "eligible_audited_beneficiaries": [
@@ -7412,26 +7412,26 @@
       "model": "community_restitution_vote",
       "escrow_chain": "base_mainnet_8453",
       "escrow_token": "USDC",
-      "activation_threshold_usd": 10000,
+      "activation_threshold_usd": 5000,
       "settlement_epoch_days": 60,
       "outcomes": {
         "YES_RELEASE_TO_LOCAL_CHARITIES": "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
         "NO_RELEASE_TO_COMMUNITY_COMMONS": "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
         "ABSTAIN_LOG_DISSENT": "Records resident feedback without moving the vote count."
       },
-      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
+      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $5,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
     },
     "bounty_if_passed": {
       "winning_option": "YES_RELEASE_TO_LOCAL_CHARITIES",
-      "description": "Community Fund for US-MS: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving MS dedicated to affordable housing trusts, predatory-lending legal aid, and household debt relief. Verified local recipients: HABITAT FOR HUMANITY OF THE MISSISSIPPI GULF COAST INC (US-EIN:208133916); CATHOLIC CHARITIES HOUSING ASSOCIATION OF BILOXI INC (US-EIN:640506632); NORTH MISSISSIPPI RURAL LEGAL SERVICES INC (US-EIN:640581747); SOUTH MISSISSIPPI HOUSING ANDDEVELOPMENT CORPORATION (US-EIN:205640452); GOODWILL INDUSTRIES OF SOUTH MISSISSIPPI INC (US-EIN:640547585). Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
+      "description": "Community Fund for US-MS: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving MS dedicated to affordable housing trusts, predatory-lending legal aid, and household debt relief. Verified local recipients: HABITAT FOR HUMANITY OF THE MISSISSIPPI GULF COAST INC (US-EIN:208133916); CATHOLIC CHARITIES HOUSING ASSOCIATION OF BILOXI INC (US-EIN:640506632); NORTH MISSISSIPPI RURAL LEGAL SERVICES INC (US-EIN:640581747); SOUTH MISSISSIPPI HOUSING ANDDEVELOPMENT CORPORATION (US-EIN:205640452); GOODWILL INDUSTRIES OF SOUTH MISSISSIPPI INC (US-EIN:640547585). Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
       "destination_type": "audited_501c3_restitution_escrow",
       "destination_criteria": "All recipient organizations must be active, verified 501(c)(3) public charities registered in US-MS with clean IRS status and direct community impact. Approved charities: HABITAT FOR HUMANITY OF THE MISSISSIPPI GULF COAST INC (US-EIN:208133916); CATHOLIC CHARITIES HOUSING ASSOCIATION OF BILOXI INC (US-EIN:640506632); NORTH MISSISSIPPI RURAL LEGAL SERVICES INC (US-EIN:640581747); SOUTH MISSISSIPPI HOUSING ANDDEVELOPMENT CORPORATION (US-EIN:205640452); GOODWILL INDUSTRIES OF SOUTH MISSISSIPPI INC (US-EIN:640547585).",
       "resolution_oracle": {
-        "activation_threshold_usd": 10000,
+        "activation_threshold_usd": 5000,
         "settlement_epoch_days": 60,
         "trigger_conditions": [
-          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).",
-          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.",
+          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $5,000 USD (Base USDC).",
+          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $5,000 threshold is reached.",
           "Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks)."
         ],
         "eligible_audited_beneficiaries": [
@@ -7834,26 +7834,26 @@
       "model": "community_restitution_vote",
       "escrow_chain": "base_mainnet_8453",
       "escrow_token": "USDC",
-      "activation_threshold_usd": 10000,
+      "activation_threshold_usd": 5000,
       "settlement_epoch_days": 60,
       "outcomes": {
         "YES_RELEASE_TO_LOCAL_CHARITIES": "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
         "NO_RELEASE_TO_COMMUNITY_COMMONS": "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
         "ABSTAIN_LOG_DISSENT": "Records resident feedback without moving the vote count."
       },
-      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
+      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $5,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
     },
     "bounty_if_passed": {
       "winning_option": "YES_RELEASE_TO_LOCAL_CHARITIES",
-      "description": "Community Fund for US-MT: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving MT dedicated to clean water remediation, community grid resilience, and environmental health clinics. Verified local recipients: MONTANA LAND RELIANCE (US-EIN:810369262); FLATHEAD LAND TRUST INC (US-EIN:363479966); PRICKLY PEAR LAND TRUST (US-EIN:810506868); MONTANA LAND RELIANCE FOUNDATION (US-EIN:271125289); YELLOWSTONE TO YUKON CONSERVATION INITIATIVE (US-EIN:810535303). Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
+      "description": "Community Fund for US-MT: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving MT dedicated to clean water remediation, community grid resilience, and environmental health clinics. Verified local recipients: MONTANA LAND RELIANCE (US-EIN:810369262); FLATHEAD LAND TRUST INC (US-EIN:363479966); PRICKLY PEAR LAND TRUST (US-EIN:810506868); MONTANA LAND RELIANCE FOUNDATION (US-EIN:271125289); YELLOWSTONE TO YUKON CONSERVATION INITIATIVE (US-EIN:810535303). Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
       "destination_type": "audited_501c3_restitution_escrow",
       "destination_criteria": "All recipient organizations must be active, verified 501(c)(3) public charities registered in US-MT with clean IRS status and direct community impact. Approved charities: MONTANA LAND RELIANCE (US-EIN:810369262); FLATHEAD LAND TRUST INC (US-EIN:363479966); PRICKLY PEAR LAND TRUST (US-EIN:810506868); MONTANA LAND RELIANCE FOUNDATION (US-EIN:271125289); YELLOWSTONE TO YUKON CONSERVATION INITIATIVE (US-EIN:810535303).",
       "resolution_oracle": {
-        "activation_threshold_usd": 10000,
+        "activation_threshold_usd": 5000,
         "settlement_epoch_days": 60,
         "trigger_conditions": [
-          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).",
-          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.",
+          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $5,000 USD (Base USDC).",
+          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $5,000 threshold is reached.",
           "Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks)."
         ],
         "eligible_audited_beneficiaries": [
@@ -8262,26 +8262,26 @@
       "model": "community_restitution_vote",
       "escrow_chain": "base_mainnet_8453",
       "escrow_token": "USDC",
-      "activation_threshold_usd": 10000,
+      "activation_threshold_usd": 5000,
       "settlement_epoch_days": 60,
       "outcomes": {
         "YES_RELEASE_TO_LOCAL_CHARITIES": "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
         "NO_RELEASE_TO_COMMUNITY_COMMONS": "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
         "ABSTAIN_LOG_DISSENT": "Records resident feedback without moving the vote count."
       },
-      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
+      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $5,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
     },
     "bounty_if_passed": {
       "winning_option": "YES_RELEASE_TO_LOCAL_CHARITIES",
-      "description": "Community Fund for US-NE: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving NE dedicated to affordable housing trusts, predatory-lending legal aid, and household debt relief. Verified local recipients: MOMENTUM HOUSING (US-EIN:470785685); HABITAT FOR HUMANITY INTERNATIONAL INC (US-EIN:363283625); MIDWEST HOUSING EQUITY GROUP INC (US-EIN:470767984); LEGAL AID OF NEBRASKA (US-EIN:470483506); MOSAIC (US-EIN:113669999). Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
+      "description": "Community Fund for US-NE: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving NE dedicated to affordable housing trusts, predatory-lending legal aid, and household debt relief. Verified local recipients: MOMENTUM HOUSING (US-EIN:470785685); HABITAT FOR HUMANITY INTERNATIONAL INC (US-EIN:363283625); MIDWEST HOUSING EQUITY GROUP INC (US-EIN:470767984); LEGAL AID OF NEBRASKA (US-EIN:470483506); MOSAIC (US-EIN:113669999). Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
       "destination_type": "audited_501c3_restitution_escrow",
       "destination_criteria": "All recipient organizations must be active, verified 501(c)(3) public charities registered in US-NE with clean IRS status and direct community impact. Approved charities: MOMENTUM HOUSING (US-EIN:470785685); HABITAT FOR HUMANITY INTERNATIONAL INC (US-EIN:363283625); MIDWEST HOUSING EQUITY GROUP INC (US-EIN:470767984); LEGAL AID OF NEBRASKA (US-EIN:470483506); MOSAIC (US-EIN:113669999).",
       "resolution_oracle": {
-        "activation_threshold_usd": 10000,
+        "activation_threshold_usd": 5000,
         "settlement_epoch_days": 60,
         "trigger_conditions": [
-          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).",
-          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.",
+          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $5,000 USD (Base USDC).",
+          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $5,000 threshold is reached.",
           "Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks)."
         ],
         "eligible_audited_beneficiaries": [
@@ -8689,26 +8689,26 @@
       "model": "community_restitution_vote",
       "escrow_chain": "base_mainnet_8453",
       "escrow_token": "USDC",
-      "activation_threshold_usd": 10000,
+      "activation_threshold_usd": 5000,
       "settlement_epoch_days": 60,
       "outcomes": {
         "YES_RELEASE_TO_LOCAL_CHARITIES": "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
         "NO_RELEASE_TO_COMMUNITY_COMMONS": "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
         "ABSTAIN_LOG_DISSENT": "Records resident feedback without moving the vote count."
       },
-      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
+      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $5,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
     },
     "bounty_if_passed": {
       "winning_option": "YES_RELEASE_TO_LOCAL_CHARITIES",
-      "description": "Community Fund for US-NH: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving NH dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: COURT APPOINTED SPECIAL ADVOCATES OF NEW HAMPSHIRE INC (US-EIN:020432242); AMERICAN CIVIL LIBERTIES UNION FOUNDATION OF NEW HAMPSHIRE (US-EIN:020347237); 603 LEGAL AID (US-EIN:020484379); NEW HAMPSHIRE DEMOCRACY FUND (US-EIN:844003182); NEW HAMPSHIRE JUVENILE COURT DIVERSION NETWORK (US-EIN:020458455). Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
+      "description": "Community Fund for US-NH: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving NH dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: COURT APPOINTED SPECIAL ADVOCATES OF NEW HAMPSHIRE INC (US-EIN:020432242); AMERICAN CIVIL LIBERTIES UNION FOUNDATION OF NEW HAMPSHIRE (US-EIN:020347237); 603 LEGAL AID (US-EIN:020484379); NEW HAMPSHIRE DEMOCRACY FUND (US-EIN:844003182); NEW HAMPSHIRE JUVENILE COURT DIVERSION NETWORK (US-EIN:020458455). Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
       "destination_type": "audited_501c3_restitution_escrow",
       "destination_criteria": "All recipient organizations must be active, verified 501(c)(3) public charities registered in US-NH with clean IRS status and direct community impact. Approved charities: COURT APPOINTED SPECIAL ADVOCATES OF NEW HAMPSHIRE INC (US-EIN:020432242); AMERICAN CIVIL LIBERTIES UNION FOUNDATION OF NEW HAMPSHIRE (US-EIN:020347237); 603 LEGAL AID (US-EIN:020484379); NEW HAMPSHIRE DEMOCRACY FUND (US-EIN:844003182); NEW HAMPSHIRE JUVENILE COURT DIVERSION NETWORK (US-EIN:020458455).",
       "resolution_oracle": {
-        "activation_threshold_usd": 10000,
+        "activation_threshold_usd": 5000,
         "settlement_epoch_days": 60,
         "trigger_conditions": [
-          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).",
-          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.",
+          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $5,000 USD (Base USDC).",
+          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $5,000 threshold is reached.",
           "Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks)."
         ],
         "eligible_audited_beneficiaries": [
@@ -9110,26 +9110,26 @@
       "model": "community_restitution_vote",
       "escrow_chain": "base_mainnet_8453",
       "escrow_token": "USDC",
-      "activation_threshold_usd": 10000,
+      "activation_threshold_usd": 5000,
       "settlement_epoch_days": 60,
       "outcomes": {
         "YES_RELEASE_TO_LOCAL_CHARITIES": "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
         "NO_RELEASE_TO_COMMUNITY_COMMONS": "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
         "ABSTAIN_LOG_DISSENT": "Records resident feedback without moving the vote count."
       },
-      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
+      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $5,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
     },
     "bounty_if_passed": {
       "winning_option": "YES_RELEASE_TO_LOCAL_CHARITIES",
-      "description": "Community Fund for US-NJ: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving NJ dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: LEGAL SERVICES OF NEW JERSEY INC (US-EIN:222059939); SOUTH JERSEY LEGAL SERVICES INC (US-EIN:221843254); NORTHEAST NEW JERSEY LEGAL SERVICES CORPORATION (US-EIN:221898061); CENTRAL JERSEY LEGAL SERVICES INC (US-EIN:210684259); DISABILITY RIGHTS NEW JERSEY A NEW JERSEY NONPROFIT CORPORATION (US-EIN:223317146). Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
+      "description": "Community Fund for US-NJ: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving NJ dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: LEGAL SERVICES OF NEW JERSEY INC (US-EIN:222059939); SOUTH JERSEY LEGAL SERVICES INC (US-EIN:221843254); NORTHEAST NEW JERSEY LEGAL SERVICES CORPORATION (US-EIN:221898061); CENTRAL JERSEY LEGAL SERVICES INC (US-EIN:210684259); DISABILITY RIGHTS NEW JERSEY A NEW JERSEY NONPROFIT CORPORATION (US-EIN:223317146). Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
       "destination_type": "audited_501c3_restitution_escrow",
       "destination_criteria": "All recipient organizations must be active, verified 501(c)(3) public charities registered in US-NJ with clean IRS status and direct community impact. Approved charities: LEGAL SERVICES OF NEW JERSEY INC (US-EIN:222059939); SOUTH JERSEY LEGAL SERVICES INC (US-EIN:221843254); NORTHEAST NEW JERSEY LEGAL SERVICES CORPORATION (US-EIN:221898061); CENTRAL JERSEY LEGAL SERVICES INC (US-EIN:210684259); DISABILITY RIGHTS NEW JERSEY A NEW JERSEY NONPROFIT CORPORATION (US-EIN:223317146).",
       "resolution_oracle": {
-        "activation_threshold_usd": 10000,
+        "activation_threshold_usd": 5000,
         "settlement_epoch_days": 60,
         "trigger_conditions": [
-          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).",
-          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.",
+          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $5,000 USD (Base USDC).",
+          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $5,000 threshold is reached.",
           "Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks)."
         ],
         "eligible_audited_beneficiaries": [
@@ -9537,26 +9537,26 @@
       "model": "community_restitution_vote",
       "escrow_chain": "base_mainnet_8453",
       "escrow_token": "USDC",
-      "activation_threshold_usd": 10000,
+      "activation_threshold_usd": 5000,
       "settlement_epoch_days": 60,
       "outcomes": {
         "YES_RELEASE_TO_LOCAL_CHARITIES": "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
         "NO_RELEASE_TO_COMMUNITY_COMMONS": "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
         "ABSTAIN_LOG_DISSENT": "Records resident feedback without moving the vote count."
       },
-      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
+      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $5,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
     },
     "bounty_if_passed": {
       "winning_option": "YES_RELEASE_TO_LOCAL_CHARITIES",
-      "description": "Community Fund for US-NM: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving NM dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: NEW MEXICO LEGAL AID INC (US-EIN:850116950); PEGASUS LEGAL SERVICES FOR CHILDREN (US-EIN:460509986); CROSSROADS FOR WOMEN (US-EIN:850448641); SOMOS UN PUEBLO UNIDO (US-EIN:204216836); ALTERNATIVE HOUSE INCORPORATED (US-EIN:850247883). Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
+      "description": "Community Fund for US-NM: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving NM dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: NEW MEXICO LEGAL AID INC (US-EIN:850116950); PEGASUS LEGAL SERVICES FOR CHILDREN (US-EIN:460509986); CROSSROADS FOR WOMEN (US-EIN:850448641); SOMOS UN PUEBLO UNIDO (US-EIN:204216836); ALTERNATIVE HOUSE INCORPORATED (US-EIN:850247883). Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
       "destination_type": "audited_501c3_restitution_escrow",
       "destination_criteria": "All recipient organizations must be active, verified 501(c)(3) public charities registered in US-NM with clean IRS status and direct community impact. Approved charities: NEW MEXICO LEGAL AID INC (US-EIN:850116950); PEGASUS LEGAL SERVICES FOR CHILDREN (US-EIN:460509986); CROSSROADS FOR WOMEN (US-EIN:850448641); SOMOS UN PUEBLO UNIDO (US-EIN:204216836); ALTERNATIVE HOUSE INCORPORATED (US-EIN:850247883).",
       "resolution_oracle": {
-        "activation_threshold_usd": 10000,
+        "activation_threshold_usd": 5000,
         "settlement_epoch_days": 60,
         "trigger_conditions": [
-          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).",
-          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.",
+          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $5,000 USD (Base USDC).",
+          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $5,000 threshold is reached.",
           "Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks)."
         ],
         "eligible_audited_beneficiaries": [
@@ -9961,26 +9961,26 @@
       "model": "community_restitution_vote",
       "escrow_chain": "base_mainnet_8453",
       "escrow_token": "USDC",
-      "activation_threshold_usd": 10000,
+      "activation_threshold_usd": 5000,
       "settlement_epoch_days": 60,
       "outcomes": {
         "YES_RELEASE_TO_LOCAL_CHARITIES": "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
         "NO_RELEASE_TO_COMMUNITY_COMMONS": "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
         "ABSTAIN_LOG_DISSENT": "Records resident feedback without moving the vote count."
       },
-      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
+      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $5,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
     },
     "bounty_if_passed": {
       "winning_option": "YES_RELEASE_TO_LOCAL_CHARITIES",
-      "description": "Community Fund for US-NC: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving NC dedicated to clean water remediation, community grid resilience, and environmental health clinics. Verified local recipients: TRIANGLE LAND CONSERVANCY INC (US-EIN:581514406); NORTH CAROLINA LEAGUE OF CONSERVATION VOTERS FOUNDATION INC (US-EIN:237206810); WINE TO WATER (US-EIN:208877288); MAINSPRING CONSERVATION TRUST INC (US-EIN:562142199); PIEDMONT LAND CONSERVANCY (US-EIN:561704433). Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
+      "description": "Community Fund for US-NC: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving NC dedicated to clean water remediation, community grid resilience, and environmental health clinics. Verified local recipients: TRIANGLE LAND CONSERVANCY INC (US-EIN:581514406); NORTH CAROLINA LEAGUE OF CONSERVATION VOTERS FOUNDATION INC (US-EIN:237206810); WINE TO WATER (US-EIN:208877288); MAINSPRING CONSERVATION TRUST INC (US-EIN:562142199); PIEDMONT LAND CONSERVANCY (US-EIN:561704433). Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
       "destination_type": "audited_501c3_restitution_escrow",
       "destination_criteria": "All recipient organizations must be active, verified 501(c)(3) public charities registered in US-NC with clean IRS status and direct community impact. Approved charities: TRIANGLE LAND CONSERVANCY INC (US-EIN:581514406); NORTH CAROLINA LEAGUE OF CONSERVATION VOTERS FOUNDATION INC (US-EIN:237206810); WINE TO WATER (US-EIN:208877288); MAINSPRING CONSERVATION TRUST INC (US-EIN:562142199); PIEDMONT LAND CONSERVANCY (US-EIN:561704433).",
       "resolution_oracle": {
-        "activation_threshold_usd": 10000,
+        "activation_threshold_usd": 5000,
         "settlement_epoch_days": 60,
         "trigger_conditions": [
-          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).",
-          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.",
+          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $5,000 USD (Base USDC).",
+          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $5,000 threshold is reached.",
           "Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks)."
         ],
         "eligible_audited_beneficiaries": [
@@ -10385,26 +10385,26 @@
       "model": "community_restitution_vote",
       "escrow_chain": "base_mainnet_8453",
       "escrow_token": "USDC",
-      "activation_threshold_usd": 10000,
+      "activation_threshold_usd": 5000,
       "settlement_epoch_days": 60,
       "outcomes": {
         "YES_RELEASE_TO_LOCAL_CHARITIES": "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
         "NO_RELEASE_TO_COMMUNITY_COMMONS": "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
         "ABSTAIN_LOG_DISSENT": "Records resident feedback without moving the vote count."
       },
-      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
+      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $5,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
     },
     "bounty_if_passed": {
       "winning_option": "YES_RELEASE_TO_LOCAL_CHARITIES",
-      "description": "Community Fund for US-OH: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving OH dedicated to affordable housing trusts, predatory-lending legal aid, and household debt relief. Verified local recipients: CHN HOUSING PARTNERS (US-EIN:341346763); OHIO CAPITAL CORPORATION FOR HOUSING (US-EIN:311265570); COLUMBUS HOUSING PARTNERSHIP INC (US-EIN:311208260); LEGAL AID OF SOUTHEAST AND CENTRAL OHIO (US-EIN:310718185); THE AFFORDABLE HOUSING TRUST FOR COLUMBUS & FRANKLIN COUNTY (US-EIN:311727952). Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
+      "description": "Community Fund for US-OH: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving OH dedicated to affordable housing trusts, predatory-lending legal aid, and household debt relief. Verified local recipients: CHN HOUSING PARTNERS (US-EIN:341346763); OHIO CAPITAL CORPORATION FOR HOUSING (US-EIN:311265570); COLUMBUS HOUSING PARTNERSHIP INC (US-EIN:311208260); LEGAL AID OF SOUTHEAST AND CENTRAL OHIO (US-EIN:310718185); THE AFFORDABLE HOUSING TRUST FOR COLUMBUS & FRANKLIN COUNTY (US-EIN:311727952). Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
       "destination_type": "audited_501c3_restitution_escrow",
       "destination_criteria": "All recipient organizations must be active, verified 501(c)(3) public charities registered in US-OH with clean IRS status and direct community impact. Approved charities: CHN HOUSING PARTNERS (US-EIN:341346763); OHIO CAPITAL CORPORATION FOR HOUSING (US-EIN:311265570); COLUMBUS HOUSING PARTNERSHIP INC (US-EIN:311208260); LEGAL AID OF SOUTHEAST AND CENTRAL OHIO (US-EIN:310718185); THE AFFORDABLE HOUSING TRUST FOR COLUMBUS & FRANKLIN COUNTY (US-EIN:311727952).",
       "resolution_oracle": {
-        "activation_threshold_usd": 10000,
+        "activation_threshold_usd": 5000,
         "settlement_epoch_days": 60,
         "trigger_conditions": [
-          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).",
-          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.",
+          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $5,000 USD (Base USDC).",
+          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $5,000 threshold is reached.",
           "Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks)."
         ],
         "eligible_audited_beneficiaries": [
@@ -10817,26 +10817,26 @@
       "model": "community_restitution_vote",
       "escrow_chain": "base_mainnet_8453",
       "escrow_token": "USDC",
-      "activation_threshold_usd": 10000,
+      "activation_threshold_usd": 5000,
       "settlement_epoch_days": 60,
       "outcomes": {
         "YES_RELEASE_TO_LOCAL_CHARITIES": "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
         "NO_RELEASE_TO_COMMUNITY_COMMONS": "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
         "ABSTAIN_LOG_DISSENT": "Records resident feedback without moving the vote count."
       },
-      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
+      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $5,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
     },
     "bounty_if_passed": {
       "winning_option": "YES_RELEASE_TO_LOCAL_CHARITIES",
-      "description": "Community Fund for US-OK: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving OK dedicated to clean water remediation, community grid resilience, and environmental health clinics. Verified local recipients: LAND LEGACY (US-EIN:300137741); OKLAHOMA ASSOCIATION OF CONSERVATION DISTRICTS INCORPORATE (US-EIN:730801393); COMPATIBLE LANDS FOUNDATION INC (US-EIN:271693939); TULSA ZOO MANAGEMENT INC (US-EIN:730930870); OKLAHOMA HUMANE SOCIETY (US-EIN:208446621). Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
+      "description": "Community Fund for US-OK: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving OK dedicated to clean water remediation, community grid resilience, and environmental health clinics. Verified local recipients: LAND LEGACY (US-EIN:300137741); OKLAHOMA ASSOCIATION OF CONSERVATION DISTRICTS INCORPORATE (US-EIN:730801393); COMPATIBLE LANDS FOUNDATION INC (US-EIN:271693939); TULSA ZOO MANAGEMENT INC (US-EIN:730930870); OKLAHOMA HUMANE SOCIETY (US-EIN:208446621). Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
       "destination_type": "audited_501c3_restitution_escrow",
       "destination_criteria": "All recipient organizations must be active, verified 501(c)(3) public charities registered in US-OK with clean IRS status and direct community impact. Approved charities: LAND LEGACY (US-EIN:300137741); OKLAHOMA ASSOCIATION OF CONSERVATION DISTRICTS INCORPORATE (US-EIN:730801393); COMPATIBLE LANDS FOUNDATION INC (US-EIN:271693939); TULSA ZOO MANAGEMENT INC (US-EIN:730930870); OKLAHOMA HUMANE SOCIETY (US-EIN:208446621).",
       "resolution_oracle": {
-        "activation_threshold_usd": 10000,
+        "activation_threshold_usd": 5000,
         "settlement_epoch_days": 60,
         "trigger_conditions": [
-          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).",
-          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.",
+          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $5,000 USD (Base USDC).",
+          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $5,000 threshold is reached.",
           "Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks)."
         ],
         "eligible_audited_beneficiaries": [
@@ -11237,26 +11237,26 @@
       "model": "community_restitution_vote",
       "escrow_chain": "base_mainnet_8453",
       "escrow_token": "USDC",
-      "activation_threshold_usd": 10000,
+      "activation_threshold_usd": 5000,
       "settlement_epoch_days": 60,
       "outcomes": {
         "YES_RELEASE_TO_LOCAL_CHARITIES": "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
         "NO_RELEASE_TO_COMMUNITY_COMMONS": "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
         "ABSTAIN_LOG_DISSENT": "Records resident feedback without moving the vote count."
       },
-      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
+      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $5,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
     },
     "bounty_if_passed": {
       "winning_option": "YES_RELEASE_TO_LOCAL_CHARITIES",
-      "description": "Community Fund for US-OR: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving OR dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: LEGAL AID SERVICES OF OREGON (US-EIN:930635480); PUBLIC DEFENDER SERVICES OF LANE COUNTY INC (US-EIN:930684495); DISABILITY RIGHTS OREGON (US-EIN:930686170); PUBLIC DEFENDER OF MARION COUNTYINC (US-EIN:205797920); OREGON PUBLIC BROADCASTING (US-EIN:930814638). Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
+      "description": "Community Fund for US-OR: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving OR dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: LEGAL AID SERVICES OF OREGON (US-EIN:930635480); PUBLIC DEFENDER SERVICES OF LANE COUNTY INC (US-EIN:930684495); DISABILITY RIGHTS OREGON (US-EIN:930686170); PUBLIC DEFENDER OF MARION COUNTYINC (US-EIN:205797920); OREGON PUBLIC BROADCASTING (US-EIN:930814638). Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
       "destination_type": "audited_501c3_restitution_escrow",
       "destination_criteria": "All recipient organizations must be active, verified 501(c)(3) public charities registered in US-OR with clean IRS status and direct community impact. Approved charities: LEGAL AID SERVICES OF OREGON (US-EIN:930635480); PUBLIC DEFENDER SERVICES OF LANE COUNTY INC (US-EIN:930684495); DISABILITY RIGHTS OREGON (US-EIN:930686170); PUBLIC DEFENDER OF MARION COUNTYINC (US-EIN:205797920); OREGON PUBLIC BROADCASTING (US-EIN:930814638).",
       "resolution_oracle": {
-        "activation_threshold_usd": 10000,
+        "activation_threshold_usd": 5000,
         "settlement_epoch_days": 60,
         "trigger_conditions": [
-          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).",
-          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.",
+          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $5,000 USD (Base USDC).",
+          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $5,000 threshold is reached.",
           "Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks)."
         ],
         "eligible_audited_beneficiaries": [
@@ -11656,26 +11656,26 @@
       "model": "community_restitution_vote",
       "escrow_chain": "base_mainnet_8453",
       "escrow_token": "USDC",
-      "activation_threshold_usd": 10000,
+      "activation_threshold_usd": 5000,
       "settlement_epoch_days": 60,
       "outcomes": {
         "YES_RELEASE_TO_LOCAL_CHARITIES": "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
         "NO_RELEASE_TO_COMMUNITY_COMMONS": "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
         "ABSTAIN_LOG_DISSENT": "Records resident feedback without moving the vote count."
       },
-      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
+      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $5,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
     },
     "bounty_if_passed": {
       "winning_option": "YES_RELEASE_TO_LOCAL_CHARITIES",
-      "description": "Community Fund for US-RI: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving RI dedicated to affordable housing trusts, predatory-lending legal aid, and household debt relief. Verified local recipients: JAMMAT HOUSING AND COMMUNITY DEVELOPMENT CORPORATION (US-EIN:050463993); RHODE ISLAND LEGAL SERVICES INC (US-EIN:050318596); OLNEYVILLE HOUSING CORP (US-EIN:223010422); TOWN OF LINCOLN HOUSING AUTHORITY (US-EIN:050309409); VALLEY AFFORDABLE HOUSING CORP (US-EIN:050489479). Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
+      "description": "Community Fund for US-RI: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving RI dedicated to affordable housing trusts, predatory-lending legal aid, and household debt relief. Verified local recipients: JAMMAT HOUSING AND COMMUNITY DEVELOPMENT CORPORATION (US-EIN:050463993); RHODE ISLAND LEGAL SERVICES INC (US-EIN:050318596); OLNEYVILLE HOUSING CORP (US-EIN:223010422); TOWN OF LINCOLN HOUSING AUTHORITY (US-EIN:050309409); VALLEY AFFORDABLE HOUSING CORP (US-EIN:050489479). Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
       "destination_type": "audited_501c3_restitution_escrow",
       "destination_criteria": "All recipient organizations must be active, verified 501(c)(3) public charities registered in US-RI with clean IRS status and direct community impact. Approved charities: JAMMAT HOUSING AND COMMUNITY DEVELOPMENT CORPORATION (US-EIN:050463993); RHODE ISLAND LEGAL SERVICES INC (US-EIN:050318596); OLNEYVILLE HOUSING CORP (US-EIN:223010422); TOWN OF LINCOLN HOUSING AUTHORITY (US-EIN:050309409); VALLEY AFFORDABLE HOUSING CORP (US-EIN:050489479).",
       "resolution_oracle": {
-        "activation_threshold_usd": 10000,
+        "activation_threshold_usd": 5000,
         "settlement_epoch_days": 60,
         "trigger_conditions": [
-          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).",
-          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.",
+          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $5,000 USD (Base USDC).",
+          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $5,000 threshold is reached.",
           "Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks)."
         ],
         "eligible_audited_beneficiaries": [
@@ -12082,26 +12082,26 @@
       "model": "community_restitution_vote",
       "escrow_chain": "base_mainnet_8453",
       "escrow_token": "USDC",
-      "activation_threshold_usd": 10000,
+      "activation_threshold_usd": 5000,
       "settlement_epoch_days": 60,
       "outcomes": {
         "YES_RELEASE_TO_LOCAL_CHARITIES": "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
         "NO_RELEASE_TO_COMMUNITY_COMMONS": "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
         "ABSTAIN_LOG_DISSENT": "Records resident feedback without moving the vote count."
       },
-      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
+      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $5,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
     },
     "bounty_if_passed": {
       "winning_option": "YES_RELEASE_TO_LOCAL_CHARITIES",
-      "description": "Community Fund for US-SC: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving SC dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: SOUTH CAROLINA LEGAL SERVICES (US-EIN:570485205); DISABILITY RIGHTS SOUTH CAROLINA INC (US-EIN:581355302); AMERICAN CIVIL LIBERTIES UNION OF SOUTH CAROLINA FOUNDATION INC (US-EIN:271942832); SOUTH CAROLINA BAR FOUNDATION INC (US-EIN:237181552); CENTER FOR HEIRS PROPERTY PRESERVATION (US-EIN:522452879). Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
+      "description": "Community Fund for US-SC: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving SC dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: SOUTH CAROLINA LEGAL SERVICES (US-EIN:570485205); DISABILITY RIGHTS SOUTH CAROLINA INC (US-EIN:581355302); AMERICAN CIVIL LIBERTIES UNION OF SOUTH CAROLINA FOUNDATION INC (US-EIN:271942832); SOUTH CAROLINA BAR FOUNDATION INC (US-EIN:237181552); CENTER FOR HEIRS PROPERTY PRESERVATION (US-EIN:522452879). Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
       "destination_type": "audited_501c3_restitution_escrow",
       "destination_criteria": "All recipient organizations must be active, verified 501(c)(3) public charities registered in US-SC with clean IRS status and direct community impact. Approved charities: SOUTH CAROLINA LEGAL SERVICES (US-EIN:570485205); DISABILITY RIGHTS SOUTH CAROLINA INC (US-EIN:581355302); AMERICAN CIVIL LIBERTIES UNION OF SOUTH CAROLINA FOUNDATION INC (US-EIN:271942832); SOUTH CAROLINA BAR FOUNDATION INC (US-EIN:237181552); CENTER FOR HEIRS PROPERTY PRESERVATION (US-EIN:522452879).",
       "resolution_oracle": {
-        "activation_threshold_usd": 10000,
+        "activation_threshold_usd": 5000,
         "settlement_epoch_days": 60,
         "trigger_conditions": [
-          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).",
-          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.",
+          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $5,000 USD (Base USDC).",
+          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $5,000 threshold is reached.",
           "Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks)."
         ],
         "eligible_audited_beneficiaries": [
@@ -12503,26 +12503,26 @@
       "model": "community_restitution_vote",
       "escrow_chain": "base_mainnet_8453",
       "escrow_token": "USDC",
-      "activation_threshold_usd": 10000,
+      "activation_threshold_usd": 5000,
       "settlement_epoch_days": 60,
       "outcomes": {
         "YES_RELEASE_TO_LOCAL_CHARITIES": "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
         "NO_RELEASE_TO_COMMUNITY_COMMONS": "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
         "ABSTAIN_LOG_DISSENT": "Records resident feedback without moving the vote count."
       },
-      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
+      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $5,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
     },
     "bounty_if_passed": {
       "winning_option": "YES_RELEASE_TO_LOCAL_CHARITIES",
-      "description": "Community Fund for US-SD: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving SD dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: EAST RIVER LEGAL SERVICES CORPORATION (US-EIN:237101054); PUBLIC RADIO NEWS DIRECTORS INC (US-EIN:223202714); SIOUX FALLS AREA COURT APPOINTED SPECIAL ADVOCATE PROGRAM (US-EIN:460430647); FIRST CIRCUIT COURT APPOINTED SPECIAL ADVOCATE PROGRAM (US-EIN:460462671); SOUTH DAKOTA NEWS WATCH (US-EIN:814674814). Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
+      "description": "Community Fund for US-SD: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving SD dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: EAST RIVER LEGAL SERVICES CORPORATION (US-EIN:237101054); PUBLIC RADIO NEWS DIRECTORS INC (US-EIN:223202714); SIOUX FALLS AREA COURT APPOINTED SPECIAL ADVOCATE PROGRAM (US-EIN:460430647); FIRST CIRCUIT COURT APPOINTED SPECIAL ADVOCATE PROGRAM (US-EIN:460462671); SOUTH DAKOTA NEWS WATCH (US-EIN:814674814). Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
       "destination_type": "audited_501c3_restitution_escrow",
       "destination_criteria": "All recipient organizations must be active, verified 501(c)(3) public charities registered in US-SD with clean IRS status and direct community impact. Approved charities: EAST RIVER LEGAL SERVICES CORPORATION (US-EIN:237101054); PUBLIC RADIO NEWS DIRECTORS INC (US-EIN:223202714); SIOUX FALLS AREA COURT APPOINTED SPECIAL ADVOCATE PROGRAM (US-EIN:460430647); FIRST CIRCUIT COURT APPOINTED SPECIAL ADVOCATE PROGRAM (US-EIN:460462671); SOUTH DAKOTA NEWS WATCH (US-EIN:814674814).",
       "resolution_oracle": {
-        "activation_threshold_usd": 10000,
+        "activation_threshold_usd": 5000,
         "settlement_epoch_days": 60,
         "trigger_conditions": [
-          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).",
-          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.",
+          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $5,000 USD (Base USDC).",
+          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $5,000 threshold is reached.",
           "Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks)."
         ],
         "eligible_audited_beneficiaries": [
@@ -12927,26 +12927,26 @@
       "model": "community_restitution_vote",
       "escrow_chain": "base_mainnet_8453",
       "escrow_token": "USDC",
-      "activation_threshold_usd": 10000,
+      "activation_threshold_usd": 5000,
       "settlement_epoch_days": 60,
       "outcomes": {
         "YES_RELEASE_TO_LOCAL_CHARITIES": "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
         "NO_RELEASE_TO_COMMUNITY_COMMONS": "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
         "ABSTAIN_LOG_DISSENT": "Records resident feedback without moving the vote count."
       },
-      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
+      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $5,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
     },
     "bounty_if_passed": {
       "winning_option": "YES_RELEASE_TO_LOCAL_CHARITIES",
-      "description": "Community Fund for US-TN: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving TN dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: TENNESSEE IMMIGRANT AND REFUGEE RIGHTS COALITION (US-EIN:200121100); TENNESSEE ALLIANCE FOR LEGAL SERVICES (US-EIN:620979831); ONE GENERATION AWAY (US-EIN:462741214); MEN OF VALOR (US-EIN:621836815); REGIONAL ORGANIZED CRIME INFORMATION CENTER (US-EIN:621046640). Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
+      "description": "Community Fund for US-TN: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving TN dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: TENNESSEE IMMIGRANT AND REFUGEE RIGHTS COALITION (US-EIN:200121100); TENNESSEE ALLIANCE FOR LEGAL SERVICES (US-EIN:620979831); ONE GENERATION AWAY (US-EIN:462741214); MEN OF VALOR (US-EIN:621836815); REGIONAL ORGANIZED CRIME INFORMATION CENTER (US-EIN:621046640). Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
       "destination_type": "audited_501c3_restitution_escrow",
       "destination_criteria": "All recipient organizations must be active, verified 501(c)(3) public charities registered in US-TN with clean IRS status and direct community impact. Approved charities: TENNESSEE IMMIGRANT AND REFUGEE RIGHTS COALITION (US-EIN:200121100); TENNESSEE ALLIANCE FOR LEGAL SERVICES (US-EIN:620979831); ONE GENERATION AWAY (US-EIN:462741214); MEN OF VALOR (US-EIN:621836815); REGIONAL ORGANIZED CRIME INFORMATION CENTER (US-EIN:621046640).",
       "resolution_oracle": {
-        "activation_threshold_usd": 10000,
+        "activation_threshold_usd": 5000,
         "settlement_epoch_days": 60,
         "trigger_conditions": [
-          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).",
-          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.",
+          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $5,000 USD (Base USDC).",
+          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $5,000 threshold is reached.",
           "Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks)."
         ],
         "eligible_audited_beneficiaries": [
@@ -13349,26 +13349,26 @@
       "model": "community_restitution_vote",
       "escrow_chain": "base_mainnet_8453",
       "escrow_token": "USDC",
-      "activation_threshold_usd": 10000,
+      "activation_threshold_usd": 5000,
       "settlement_epoch_days": 60,
       "outcomes": {
         "YES_RELEASE_TO_LOCAL_CHARITIES": "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
         "NO_RELEASE_TO_COMMUNITY_COMMONS": "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
         "ABSTAIN_LOG_DISSENT": "Records resident feedback without moving the vote count."
       },
-      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
+      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $5,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
     },
     "bounty_if_passed": {
       "winning_option": "YES_RELEASE_TO_LOCAL_CHARITIES",
-      "description": "Community Fund for US-TX: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving TX dedicated to affordable housing trusts, predatory-lending legal aid, and household debt relief. Verified local recipients: ATLANTIC HOUSING FOUNDATION INC (US-EIN:571090154); TEXAS STATE AFFORDABLE HOUSING CORPORATION (US-EIN:742746185); CROSSROADS HOUSING DEVELOPMENT CORPORATION (US-EIN:752839932); TEXAS RIO GRANDE LEGAL AID INC (US-EIN:741675230); AUSTIN AFFORDABLE HOUSING CORPORATION (US-EIN:412121187). Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
+      "description": "Community Fund for US-TX: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving TX dedicated to affordable housing trusts, predatory-lending legal aid, and household debt relief. Verified local recipients: ATLANTIC HOUSING FOUNDATION INC (US-EIN:571090154); TEXAS STATE AFFORDABLE HOUSING CORPORATION (US-EIN:742746185); CROSSROADS HOUSING DEVELOPMENT CORPORATION (US-EIN:752839932); TEXAS RIO GRANDE LEGAL AID INC (US-EIN:741675230); AUSTIN AFFORDABLE HOUSING CORPORATION (US-EIN:412121187). Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
       "destination_type": "audited_501c3_restitution_escrow",
       "destination_criteria": "All recipient organizations must be active, verified 501(c)(3) public charities registered in US-TX with clean IRS status and direct community impact. Approved charities: ATLANTIC HOUSING FOUNDATION INC (US-EIN:571090154); TEXAS STATE AFFORDABLE HOUSING CORPORATION (US-EIN:742746185); CROSSROADS HOUSING DEVELOPMENT CORPORATION (US-EIN:752839932); TEXAS RIO GRANDE LEGAL AID INC (US-EIN:741675230); AUSTIN AFFORDABLE HOUSING CORPORATION (US-EIN:412121187).",
       "resolution_oracle": {
-        "activation_threshold_usd": 10000,
+        "activation_threshold_usd": 5000,
         "settlement_epoch_days": 60,
         "trigger_conditions": [
-          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).",
-          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.",
+          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $5,000 USD (Base USDC).",
+          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $5,000 threshold is reached.",
           "Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks)."
         ],
         "eligible_audited_beneficiaries": [
@@ -13779,26 +13779,26 @@
       "model": "community_restitution_vote",
       "escrow_chain": "base_mainnet_8453",
       "escrow_token": "USDC",
-      "activation_threshold_usd": 10000,
+      "activation_threshold_usd": 5000,
       "settlement_epoch_days": 60,
       "outcomes": {
         "YES_RELEASE_TO_LOCAL_CHARITIES": "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
         "NO_RELEASE_TO_COMMUNITY_COMMONS": "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
         "ABSTAIN_LOG_DISSENT": "Records resident feedback without moving the vote count."
       },
-      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
+      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $5,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
     },
     "bounty_if_passed": {
       "winning_option": "YES_RELEASE_TO_LOCAL_CHARITIES",
-      "description": "Community Fund for US-VA: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving VA dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: LEGAL SERVICES CORPORATION OF VIRGINIA (US-EIN:510175735); LEGAL AID JUSTICE CENTER (US-EIN:540884513); PUBLIC BROADCASTING SERVICE (US-EIN:520899215); GREATER WASHINGTON EDUCATIONAL TELECOMMUNICATIONS ASSOCIATION INC (US-EIN:530242992); PRISON FELLOWSHIP MINISTRIES (US-EIN:620988294). Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
+      "description": "Community Fund for US-VA: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving VA dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: LEGAL SERVICES CORPORATION OF VIRGINIA (US-EIN:510175735); LEGAL AID JUSTICE CENTER (US-EIN:540884513); PUBLIC BROADCASTING SERVICE (US-EIN:520899215); GREATER WASHINGTON EDUCATIONAL TELECOMMUNICATIONS ASSOCIATION INC (US-EIN:530242992); PRISON FELLOWSHIP MINISTRIES (US-EIN:620988294). Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
       "destination_type": "audited_501c3_restitution_escrow",
       "destination_criteria": "All recipient organizations must be active, verified 501(c)(3) public charities registered in US-VA with clean IRS status and direct community impact. Approved charities: LEGAL SERVICES CORPORATION OF VIRGINIA (US-EIN:510175735); LEGAL AID JUSTICE CENTER (US-EIN:540884513); PUBLIC BROADCASTING SERVICE (US-EIN:520899215); GREATER WASHINGTON EDUCATIONAL TELECOMMUNICATIONS ASSOCIATION INC (US-EIN:530242992); PRISON FELLOWSHIP MINISTRIES (US-EIN:620988294).",
       "resolution_oracle": {
-        "activation_threshold_usd": 10000,
+        "activation_threshold_usd": 5000,
         "settlement_epoch_days": 60,
         "trigger_conditions": [
-          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).",
-          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.",
+          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $5,000 USD (Base USDC).",
+          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $5,000 threshold is reached.",
           "Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks)."
         ],
         "eligible_audited_beneficiaries": [
@@ -14199,26 +14199,26 @@
       "model": "community_restitution_vote",
       "escrow_chain": "base_mainnet_8453",
       "escrow_token": "USDC",
-      "activation_threshold_usd": 10000,
+      "activation_threshold_usd": 5000,
       "settlement_epoch_days": 60,
       "outcomes": {
         "YES_RELEASE_TO_LOCAL_CHARITIES": "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
         "NO_RELEASE_TO_COMMUNITY_COMMONS": "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
         "ABSTAIN_LOG_DISSENT": "Records resident feedback without moving the vote count."
       },
-      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
+      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $5,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
     },
     "bounty_if_passed": {
       "winning_option": "YES_RELEASE_TO_LOCAL_CHARITIES",
-      "description": "Community Fund for US-WV: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving WV dedicated to affordable housing trusts, predatory-lending legal aid, and household debt relief. Verified local recipients: LEGAL AID OF WEST VIRGINIA INC (US-EIN:311789739); HABITAT FOR HUMANITY INTERNATIONAL INC (US-EIN:550697541); HOUSING DEVELOPMENT CORPORATION (US-EIN:311526415); FIRST BAPTIST CHURCH HOUSING ASSOCIATION (US-EIN:550518114); COALFIELD DEVELOPMENT CORPORATION (US-EIN:263836207). Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
+      "description": "Community Fund for US-WV: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving WV dedicated to affordable housing trusts, predatory-lending legal aid, and household debt relief. Verified local recipients: LEGAL AID OF WEST VIRGINIA INC (US-EIN:311789739); HABITAT FOR HUMANITY INTERNATIONAL INC (US-EIN:550697541); HOUSING DEVELOPMENT CORPORATION (US-EIN:311526415); FIRST BAPTIST CHURCH HOUSING ASSOCIATION (US-EIN:550518114); COALFIELD DEVELOPMENT CORPORATION (US-EIN:263836207). Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
       "destination_type": "audited_501c3_restitution_escrow",
       "destination_criteria": "All recipient organizations must be active, verified 501(c)(3) public charities registered in US-WV with clean IRS status and direct community impact. Approved charities: LEGAL AID OF WEST VIRGINIA INC (US-EIN:311789739); HABITAT FOR HUMANITY INTERNATIONAL INC (US-EIN:550697541); HOUSING DEVELOPMENT CORPORATION (US-EIN:311526415); FIRST BAPTIST CHURCH HOUSING ASSOCIATION (US-EIN:550518114); COALFIELD DEVELOPMENT CORPORATION (US-EIN:263836207).",
       "resolution_oracle": {
-        "activation_threshold_usd": 10000,
+        "activation_threshold_usd": 5000,
         "settlement_epoch_days": 60,
         "trigger_conditions": [
-          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).",
-          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.",
+          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $5,000 USD (Base USDC).",
+          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $5,000 threshold is reached.",
           "Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks)."
         ],
         "eligible_audited_beneficiaries": [
@@ -14633,26 +14633,26 @@
       "model": "community_restitution_vote",
       "escrow_chain": "base_mainnet_8453",
       "escrow_token": "USDC",
-      "activation_threshold_usd": 10000,
+      "activation_threshold_usd": 5000,
       "settlement_epoch_days": 60,
       "outcomes": {
         "YES_RELEASE_TO_LOCAL_CHARITIES": "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
         "NO_RELEASE_TO_COMMUNITY_COMMONS": "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
         "ABSTAIN_LOG_DISSENT": "Records resident feedback without moving the vote count."
       },
-      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
+      "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $5,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
     },
     "bounty_if_passed": {
       "winning_option": "YES_RELEASE_TO_LOCAL_CHARITIES",
-      "description": "Community Fund for US-WY: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving WY dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: LEGAL AID OF WYOMING INC (US-EIN:205552001); FOSTERS OUTRIDERS FOUNDATION (US-EIN:862364547); WYOMING ASSOCIATION OF SHERIFFS AND CHIEFS OF POLICE (US-EIN:830296421); WYOMING GUARDIANSHIP CORPORATION (US-EIN:830317016); TETON COUNTY SHERIFFS AUXILLARY (US-EIN:261254216). Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
+      "description": "Community Fund for US-WY: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving WY dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: LEGAL AID OF WYOMING INC (US-EIN:205552001); FOSTERS OUTRIDERS FOUNDATION (US-EIN:862364547); WYOMING ASSOCIATION OF SHERIFFS AND CHIEFS OF POLICE (US-EIN:830296421); WYOMING GUARDIANSHIP CORPORATION (US-EIN:830317016); TETON COUNTY SHERIFFS AUXILLARY (US-EIN:261254216). Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
       "destination_type": "audited_501c3_restitution_escrow",
       "destination_criteria": "All recipient organizations must be active, verified 501(c)(3) public charities registered in US-WY with clean IRS status and direct community impact. Approved charities: LEGAL AID OF WYOMING INC (US-EIN:205552001); FOSTERS OUTRIDERS FOUNDATION (US-EIN:862364547); WYOMING ASSOCIATION OF SHERIFFS AND CHIEFS OF POLICE (US-EIN:830296421); WYOMING GUARDIANSHIP CORPORATION (US-EIN:830317016); TETON COUNTY SHERIFFS AUXILLARY (US-EIN:261254216).",
       "resolution_oracle": {
-        "activation_threshold_usd": 10000,
+        "activation_threshold_usd": 5000,
         "settlement_epoch_days": 60,
         "trigger_conditions": [
-          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).",
-          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.",
+          "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $5,000 USD (Base USDC).",
+          "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $5,000 threshold is reached.",
           "Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks)."
         ],
         "eligible_audited_beneficiaries": [

@@ -75,7 +75,7 @@
       },
       "campaign": {
         "type": "open_ended",
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_starts": "on_funding_activation_threshold_reached",
         "timer_duration_days": null,
         "status_before_activation": "open_for_funding",
@@ -139,7 +139,7 @@
       "metrics": {
         "fundedUSD": 0,
         "votesCount": 0,
-        "targetUSD": 10000,
+        "targetUSD": 5000,
         "honest_zero": true
       },
       "location": {
@@ -240,7 +240,7 @@
       },
       "campaign": {
         "type": "open_ended",
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_starts": "on_funding_activation_threshold_reached",
         "timer_duration_days": null,
         "status_before_activation": "open_for_funding",
@@ -304,7 +304,7 @@
       "metrics": {
         "fundedUSD": 0,
         "votesCount": 0,
-        "targetUSD": 10000,
+        "targetUSD": 5000,
         "honest_zero": true
       },
       "location": {
@@ -405,7 +405,7 @@
       },
       "campaign": {
         "type": "open_ended",
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_starts": "on_funding_activation_threshold_reached",
         "timer_duration_days": null,
         "status_before_activation": "open_for_funding",
@@ -469,7 +469,7 @@
       "metrics": {
         "fundedUSD": 0,
         "votesCount": 0,
-        "targetUSD": 10000,
+        "targetUSD": 5000,
         "honest_zero": true
       },
       "location": {
@@ -570,7 +570,7 @@
       },
       "campaign": {
         "type": "open_ended",
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_starts": "on_funding_activation_threshold_reached",
         "timer_duration_days": null,
         "status_before_activation": "open_for_funding",
@@ -634,7 +634,7 @@
       "metrics": {
         "fundedUSD": 0,
         "votesCount": 0,
-        "targetUSD": 10000,
+        "targetUSD": 5000,
         "honest_zero": true
       },
       "location": {
@@ -735,7 +735,7 @@
       },
       "campaign": {
         "type": "open_ended",
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_starts": "on_funding_activation_threshold_reached",
         "timer_duration_days": null,
         "status_before_activation": "open_for_funding",
@@ -799,7 +799,7 @@
       "metrics": {
         "fundedUSD": 0,
         "votesCount": 0,
-        "targetUSD": 10000,
+        "targetUSD": 5000,
         "honest_zero": true
       },
       "location": {
@@ -900,7 +900,7 @@
       },
       "campaign": {
         "type": "open_ended",
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_starts": "on_funding_activation_threshold_reached",
         "timer_duration_days": null,
         "status_before_activation": "open_for_funding",
@@ -920,7 +920,7 @@
       "metrics": {
         "fundedUSD": 0,
         "votesCount": 0,
-        "targetUSD": 10000,
+        "targetUSD": 5000,
         "honest_zero": true
       },
       "location": {
@@ -1021,7 +1021,7 @@
       },
       "campaign": {
         "type": "open_ended",
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_starts": "on_funding_activation_threshold_reached",
         "timer_duration_days": null,
         "status_before_activation": "open_for_funding",
@@ -1085,7 +1085,7 @@
       "metrics": {
         "fundedUSD": 0,
         "votesCount": 0,
-        "targetUSD": 10000,
+        "targetUSD": 5000,
         "honest_zero": true
       },
       "location": {
@@ -1186,7 +1186,7 @@
       },
       "campaign": {
         "type": "open_ended",
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_starts": "on_funding_activation_threshold_reached",
         "timer_duration_days": null,
         "status_before_activation": "open_for_funding",
@@ -1250,7 +1250,7 @@
       "metrics": {
         "fundedUSD": 0,
         "votesCount": 0,
-        "targetUSD": 10000,
+        "targetUSD": 5000,
         "honest_zero": true
       },
       "location": {
@@ -1351,7 +1351,7 @@
       },
       "campaign": {
         "type": "open_ended",
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_starts": "on_funding_activation_threshold_reached",
         "timer_duration_days": null,
         "status_before_activation": "open_for_funding",
@@ -1373,7 +1373,7 @@
       "metrics": {
         "fundedUSD": 0,
         "votesCount": 0,
-        "targetUSD": 10000,
+        "targetUSD": 5000,
         "honest_zero": true
       },
       "location": {
@@ -1474,7 +1474,7 @@
       },
       "campaign": {
         "type": "open_ended",
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_starts": "on_funding_activation_threshold_reached",
         "timer_duration_days": null,
         "status_before_activation": "open_for_funding",
@@ -1538,7 +1538,7 @@
       "metrics": {
         "fundedUSD": 0,
         "votesCount": 0,
-        "targetUSD": 10000,
+        "targetUSD": 5000,
         "honest_zero": true
       },
       "location": {
@@ -1639,7 +1639,7 @@
       },
       "campaign": {
         "type": "open_ended",
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_starts": "on_funding_activation_threshold_reached",
         "timer_duration_days": null,
         "status_before_activation": "open_for_funding",
@@ -1703,7 +1703,7 @@
       "metrics": {
         "fundedUSD": 0,
         "votesCount": 0,
-        "targetUSD": 10000,
+        "targetUSD": 5000,
         "honest_zero": true
       },
       "location": {
@@ -1805,7 +1805,7 @@
       },
       "campaign": {
         "type": "open_ended",
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_starts": "on_funding_activation_threshold_reached",
         "timer_duration_days": null,
         "status_before_activation": "open_for_funding",
@@ -1869,7 +1869,7 @@
       "metrics": {
         "fundedUSD": 0,
         "votesCount": 0,
-        "targetUSD": 10000,
+        "targetUSD": 5000,
         "honest_zero": true
       },
       "location": {
@@ -1970,7 +1970,7 @@
       },
       "campaign": {
         "type": "open_ended",
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_starts": "on_funding_activation_threshold_reached",
         "timer_duration_days": null,
         "status_before_activation": "open_for_funding",
@@ -2034,7 +2034,7 @@
       "metrics": {
         "fundedUSD": 0,
         "votesCount": 0,
-        "targetUSD": 10000,
+        "targetUSD": 5000,
         "honest_zero": true
       },
       "location": {
@@ -2135,7 +2135,7 @@
       },
       "campaign": {
         "type": "open_ended",
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_starts": "on_funding_activation_threshold_reached",
         "timer_duration_days": null,
         "status_before_activation": "open_for_funding",
@@ -2199,7 +2199,7 @@
       "metrics": {
         "fundedUSD": 0,
         "votesCount": 0,
-        "targetUSD": 10000,
+        "targetUSD": 5000,
         "honest_zero": true
       },
       "location": {
@@ -2300,7 +2300,7 @@
       },
       "campaign": {
         "type": "open_ended",
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_starts": "on_funding_activation_threshold_reached",
         "timer_duration_days": null,
         "status_before_activation": "open_for_funding",
@@ -2364,7 +2364,7 @@
       "metrics": {
         "fundedUSD": 0,
         "votesCount": 0,
-        "targetUSD": 10000,
+        "targetUSD": 5000,
         "honest_zero": true
       },
       "location": {
@@ -2465,7 +2465,7 @@
       },
       "campaign": {
         "type": "open_ended",
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_starts": "on_funding_activation_threshold_reached",
         "timer_duration_days": null,
         "status_before_activation": "open_for_funding",
@@ -2529,7 +2529,7 @@
       "metrics": {
         "fundedUSD": 0,
         "votesCount": 0,
-        "targetUSD": 10000,
+        "targetUSD": 5000,
         "honest_zero": true
       },
       "location": {
@@ -2630,7 +2630,7 @@
       },
       "campaign": {
         "type": "open_ended",
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_starts": "on_funding_activation_threshold_reached",
         "timer_duration_days": null,
         "status_before_activation": "open_for_funding",
@@ -2694,7 +2694,7 @@
       "metrics": {
         "fundedUSD": 0,
         "votesCount": 0,
-        "targetUSD": 10000,
+        "targetUSD": 5000,
         "honest_zero": true
       },
       "location": {
@@ -2795,7 +2795,7 @@
       },
       "campaign": {
         "type": "open_ended",
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_starts": "on_funding_activation_threshold_reached",
         "timer_duration_days": null,
         "status_before_activation": "open_for_funding",
@@ -2859,7 +2859,7 @@
       "metrics": {
         "fundedUSD": 0,
         "votesCount": 0,
-        "targetUSD": 10000,
+        "targetUSD": 5000,
         "honest_zero": true
       },
       "location": {
@@ -2960,7 +2960,7 @@
       },
       "campaign": {
         "type": "open_ended",
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_starts": "on_funding_activation_threshold_reached",
         "timer_duration_days": null,
         "status_before_activation": "open_for_funding",
@@ -3024,7 +3024,7 @@
       "metrics": {
         "fundedUSD": 0,
         "votesCount": 0,
-        "targetUSD": 10000,
+        "targetUSD": 5000,
         "honest_zero": true
       },
       "location": {
@@ -3125,7 +3125,7 @@
       },
       "campaign": {
         "type": "open_ended",
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_starts": "on_funding_activation_threshold_reached",
         "timer_duration_days": null,
         "status_before_activation": "open_for_funding",
@@ -3189,7 +3189,7 @@
       "metrics": {
         "fundedUSD": 0,
         "votesCount": 0,
-        "targetUSD": 10000,
+        "targetUSD": 5000,
         "honest_zero": true
       },
       "location": {
@@ -3290,7 +3290,7 @@
       },
       "campaign": {
         "type": "open_ended",
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_starts": "on_funding_activation_threshold_reached",
         "timer_duration_days": null,
         "status_before_activation": "open_for_funding",
@@ -3354,7 +3354,7 @@
       "metrics": {
         "fundedUSD": 0,
         "votesCount": 0,
-        "targetUSD": 10000,
+        "targetUSD": 5000,
         "honest_zero": true
       },
       "location": {
@@ -3455,7 +3455,7 @@
       },
       "campaign": {
         "type": "open_ended",
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_starts": "on_funding_activation_threshold_reached",
         "timer_duration_days": null,
         "status_before_activation": "open_for_funding",
@@ -3519,7 +3519,7 @@
       "metrics": {
         "fundedUSD": 0,
         "votesCount": 0,
-        "targetUSD": 10000,
+        "targetUSD": 5000,
         "honest_zero": true
       },
       "location": {
@@ -3620,7 +3620,7 @@
       },
       "campaign": {
         "type": "open_ended",
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_starts": "on_funding_activation_threshold_reached",
         "timer_duration_days": null,
         "status_before_activation": "open_for_funding",
@@ -3684,7 +3684,7 @@
       "metrics": {
         "fundedUSD": 0,
         "votesCount": 0,
-        "targetUSD": 10000,
+        "targetUSD": 5000,
         "honest_zero": true
       },
       "location": {
@@ -3785,7 +3785,7 @@
       },
       "campaign": {
         "type": "open_ended",
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_starts": "on_funding_activation_threshold_reached",
         "timer_duration_days": null,
         "status_before_activation": "open_for_funding",
@@ -3849,7 +3849,7 @@
       "metrics": {
         "fundedUSD": 0,
         "votesCount": 0,
-        "targetUSD": 10000,
+        "targetUSD": 5000,
         "honest_zero": true
       },
       "location": {
@@ -3950,7 +3950,7 @@
       },
       "campaign": {
         "type": "open_ended",
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_starts": "on_funding_activation_threshold_reached",
         "timer_duration_days": null,
         "status_before_activation": "open_for_funding",
@@ -4014,7 +4014,7 @@
       "metrics": {
         "fundedUSD": 0,
         "votesCount": 0,
-        "targetUSD": 10000,
+        "targetUSD": 5000,
         "honest_zero": true
       },
       "location": {
@@ -4115,7 +4115,7 @@
       },
       "campaign": {
         "type": "open_ended",
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_starts": "on_funding_activation_threshold_reached",
         "timer_duration_days": null,
         "status_before_activation": "open_for_funding",
@@ -4179,7 +4179,7 @@
       "metrics": {
         "fundedUSD": 0,
         "votesCount": 0,
-        "targetUSD": 10000,
+        "targetUSD": 5000,
         "honest_zero": true
       },
       "location": {
@@ -4280,7 +4280,7 @@
       },
       "campaign": {
         "type": "open_ended",
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_starts": "on_funding_activation_threshold_reached",
         "timer_duration_days": null,
         "status_before_activation": "open_for_funding",
@@ -4344,7 +4344,7 @@
       "metrics": {
         "fundedUSD": 0,
         "votesCount": 0,
-        "targetUSD": 10000,
+        "targetUSD": 5000,
         "honest_zero": true
       },
       "location": {
@@ -4445,7 +4445,7 @@
       },
       "campaign": {
         "type": "open_ended",
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_starts": "on_funding_activation_threshold_reached",
         "timer_duration_days": null,
         "status_before_activation": "open_for_funding",
@@ -4509,7 +4509,7 @@
       "metrics": {
         "fundedUSD": 0,
         "votesCount": 0,
-        "targetUSD": 10000,
+        "targetUSD": 5000,
         "honest_zero": true
       },
       "location": {
@@ -4610,7 +4610,7 @@
       },
       "campaign": {
         "type": "open_ended",
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_starts": "on_funding_activation_threshold_reached",
         "timer_duration_days": null,
         "status_before_activation": "open_for_funding",
@@ -4674,7 +4674,7 @@
       "metrics": {
         "fundedUSD": 0,
         "votesCount": 0,
-        "targetUSD": 10000,
+        "targetUSD": 5000,
         "honest_zero": true
       },
       "location": {

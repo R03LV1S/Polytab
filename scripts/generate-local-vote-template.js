@@ -109,9 +109,9 @@ function buildLocalVoteCampaign(race, assignedId) {
     ? localOrgs.map(o => `${o.name} (${o.registry_id || "US-EIN:" + o.ein})`).join("; ")
     : `Verified local 501(c)(3) charities in ${race.city || race.county || stateAbbrev}`;
 
-  const summary = `Community Fund for ${jurisdictionTag}: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving ${locString} dedicated to local clean water remediation, community clinics, youth literacy, and neighborhood resilience. Verified local recipients: ${orgRecipientsStr}. Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these verified local charities; if NO wins, funds go to local community commons (volunteer fire/EMS, veterans, community food banks).`;
+  const summary = `Community Fund for ${jurisdictionTag}: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving ${locString} dedicated to local clean water remediation, community clinics, youth literacy, and neighborhood resilience. Verified local recipients: ${orgRecipientsStr}. Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these verified local charities; if NO wins, funds go to local community commons (volunteer fire/EMS, veterans, community food banks).`;
 
-  const plainSummary = `Resolution: Official censure & conflict-of-interest sanction for ${subj.name} (${jurisdictionTag}).\nTimer: Starts a 60-day countdown once $10,000 is reached in community votes.\nOutcome: If YES wins, 100% goes to verified local charities; if NO wins, 100% goes to essential community services (fire/EMS/veterans/food banks).`;
+  const plainSummary = `Resolution: Official censure & conflict-of-interest sanction for ${subj.name} (${jurisdictionTag}).\nTimer: Starts a 60-day countdown once $5,000 is reached in community votes.\nOutcome: If YES wins, 100% goes to verified local charities; if NO wins, 100% goes to essential community services (fire/EMS/veterans/food banks).`;
 
   const bountySlugParts = [race.election_year, race.office_type, stateAbbrev.toLowerCase()];
   if (race.county) bountySlugParts.push(race.county.toLowerCase().replace(/[^a-z0-9]+/g, "-"));
@@ -134,7 +134,7 @@ function buildLocalVoteCampaign(race, assignedId) {
       plainSummary,
       votePriceUSD: 0.5,
       targetUSD: null,
-      activation_threshold_usd: 10000,
+      activation_threshold_usd: 5000,
       settlement_epoch_days: 60,
       fundedUSD: 0,
       votesCount: 0,

@@ -42,7 +42,7 @@ const CONFIG = {
 
   campaign: {
     type: "open_ended",
-    funding_activation_threshold_usd: 10000,
+    funding_activation_threshold_usd: 5000,
     timer_starts: "on_funding_activation_threshold_reached",
     timer_duration_days: null,
     status_before_activation: "open_for_funding",
@@ -343,7 +343,7 @@ function ensureSeedManifest(seedPath) {
         bounty_description: null,
         bounty_criteria: null,
         campaign_overrides: {
-          funding_activation_threshold_usd: 10000,
+          funding_activation_threshold_usd: 5000,
           timer_duration_days: null
         },
         auto_fetch: true
@@ -388,7 +388,7 @@ async function main() {
     });
 
     const overrides = isPlainObject(entry.campaign_overrides) ? entry.campaign_overrides : {};
-    const threshold = Number(overrides.funding_activation_threshold_usd || CONFIG.campaign.funding_activation_threshold_usd) || 10000;
+    const threshold = Number(overrides.funding_activation_threshold_usd || CONFIG.campaign.funding_activation_threshold_usd) || 5000;
     const campaign = {
       ...CONFIG.campaign,
       ...overrides,

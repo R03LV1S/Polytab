@@ -166,26 +166,26 @@
     "model": "community_restitution_vote",
     "escrow_chain": "base_mainnet_8453",
     "escrow_token": "USDC",
-    "activation_threshold_usd": 10000,
+    "activation_threshold_usd": 5000,
     "settlement_epoch_days": 60,
     "outcomes": {
       "YES_RELEASE_TO_LOCAL_CHARITIES": "Directs 100% of the funds to verified local non-profits working directly on state community needs.",
       "NO_RELEASE_TO_COMMUNITY_COMMONS": "Directs 100% of the funds to bipartisan, universal local public services (volunteer fire/EMS, veterans' care, food banks, disaster relief).",
       "ABSTAIN_LOG_DISSENT": "Records resident feedback without moving the vote count."
     },
-    "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $10,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
+    "leverage_ratio_statement": "Every contribution directly empowers community-led funding. Once the campaign pool reaches $5,000, an automatic 60-day countdown begins. When the 60 days expire, all funds go directly to verified local charities or essential community services—zero platform cut."
   },
   "bounty_if_passed": {
     "winning_option": "YES_RELEASE_TO_LOCAL_CHARITIES",
-    "description": "Community Fund for US-WY: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving WY dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: LEGAL AID OF WYOMING INC (US-EIN:205552001); FOSTERS OUTRIDERS FOUNDATION (US-EIN:862364547); WYOMING ASSOCIATION OF SHERIFFS AND CHIEFS OF POLICE (US-EIN:830296421); WYOMING GUARDIANSHIP CORPORATION (US-EIN:830317016); TETON COUNTY SHERIFFS AUXILLARY (US-EIN:261254216). Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
+    "description": "Community Fund for US-WY: Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities serving WY dedicated to non-partisan civic accountability, investigative public-interest journalism, and voter legal defense. Verified local recipients: LEGAL AID OF WYOMING INC (US-EIN:205552001); FOSTERS OUTRIDERS FOUNDATION (US-EIN:862364547); WYOMING ASSOCIATION OF SHERIFFS AND CHIEFS OF POLICE (US-EIN:830296421); WYOMING GUARDIANSHIP CORPORATION (US-EIN:830317016); TETON COUNTY SHERIFFS AUXILLARY (US-EIN:261254216). Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these charities; if NO wins, funds go to local community commons (fire/EMS, veterans, food banks).",
     "destination_type": "audited_501c3_restitution_escrow",
     "destination_criteria": "All recipient organizations must be active, verified 501(c)(3) public charities registered in US-WY with clean IRS status and direct community impact. Approved charities: LEGAL AID OF WYOMING INC (US-EIN:205552001); FOSTERS OUTRIDERS FOUNDATION (US-EIN:862364547); WYOMING ASSOCIATION OF SHERIFFS AND CHIEFS OF POLICE (US-EIN:830296421); WYOMING GUARDIANSHIP CORPORATION (US-EIN:830317016); TETON COUNTY SHERIFFS AUXILLARY (US-EIN:261254216).",
     "resolution_oracle": {
-      "activation_threshold_usd": 10000,
+      "activation_threshold_usd": 5000,
       "settlement_epoch_days": 60,
       "trigger_conditions": [
-        "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $10,000 USD (Base USDC).",
-        "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $10,000 threshold is reached.",
+        "Condition 1 (Activation): The campaign activates its 60-day countdown timer as soon as total contributions reach $5,000 USD (Base USDC).",
+        "Condition 2 (Resolution Period): The community vote runs for exactly 60 days from the moment the $5,000 threshold is reached.",
         "Condition 3 (Payout): If YES receives 60% or more of votes, 100% of the funds are sent to the verified state non-profits; otherwise, 100% is sent to universal community services (fire/EMS, veterans, food banks)."
       ],
       "eligible_audited_beneficiaries": [

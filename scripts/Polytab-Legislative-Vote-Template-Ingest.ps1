@@ -5,7 +5,7 @@
 # sentiment votes contrasting community will with representative votes.
 #
 # Sources (public/free, no key): GovTrack API v2 (best-effort enrichment) + local seed manifest.
-# Campaigns: open-ended; timer begins once funding reaches $10,000 (configurable in seed).
+# Campaigns: open-ended; timer begins once funding reaches $5,000 (configurable in seed).
 # Bounties benefit verified local entities/charities per campaign scope.
 
 param(
@@ -338,7 +338,7 @@ function Quick-Add-Campaigns {
       localities = @()
       bounty_description = $null
       bounty_criteria = $null
-      campaign_overrides = @{ funding_activation_threshold_usd = 10000; timer_duration_days = $null }
+      campaign_overrides = @{ funding_activation_threshold_usd = 5000; timer_duration_days = $null }
       auto_fetch = $true
     }
     [void]$campaigns.Add([pscustomobject]$g)
@@ -417,7 +417,7 @@ function Import-Campaigns-FromFile {
           title = "Example Bill"; short_title = "Example Bill"; summary = "Plain-language summary";
           beneficiary_scope = "national"; beneficiary_states = @(); localities = @();
           bounty_description = $null; bounty_criteria = $null;
-          campaign_overrides = @{ funding_activation_threshold_usd = 10000; timer_duration_days = $null }; auto_fetch = $true
+          campaign_overrides = @{ funding_activation_threshold_usd = 5000; timer_duration_days = $null }; auto_fetch = $true
         }
       ) | ConvertTo-Json -Depth 20 | Set-Content -Path $path -Encoding UTF8
     }
@@ -476,7 +476,7 @@ function Import-Campaigns-FromFile {
       localities = @()
       bounty_description = $it.bounty_description
       bounty_criteria = $it.bounty_criteria
-      campaign_overrides = @{ funding_activation_threshold_usd = 10000; timer_duration_days = $null }
+      campaign_overrides = @{ funding_activation_threshold_usd = 5000; timer_duration_days = $null }
       auto_fetch = $autoFetch
     }
     [void]$campaigns.Add([pscustomobject]$g)
@@ -497,7 +497,7 @@ function Show-Menu {
   Write-Host "Repo:        $RepoPath"
   Write-Host "Congress:    $Congress"
   Write-Host "Push:        $(-not $NoPush)   Feeds: $(-not $NoFeeds)   NonInteractive: $NonInteractive"
-  Write-Host "Campaign:    open-ended; timer begins once funded >= `$10,000"
+  Write-Host "Campaign:    open-ended; timer begins once funded >= `$5,000"
   Write-Host "Wallet:      0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08 (Base USDC)"
   Write-Host ""
   Write-Host "  1) Run ONCE (build drafts for all enabled campaigns + review, no push)  [recommended]"

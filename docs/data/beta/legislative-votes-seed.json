@@ -20,7 +20,7 @@
       "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H. Res. 1665. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact (labor/economic fairness and civic participation), finalized per campaign governance and verification.",
       "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
       "campaign_overrides": {
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_duration_days": null
       },
       "auto_fetch": false
@@ -43,7 +43,7 @@
       "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 3495. Bounty benefits verified 501(c)(3)/public-benefit entities supporting worker protections and economic fairness, finalized per campaign governance and verification.",
       "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to worker/economic-fairness impact; distribution finalized per campaign governance and verification.",
       "campaign_overrides": {
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_duration_days": null
       },
       "auto_fetch": false
@@ -66,7 +66,7 @@
       "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 5267. Bounty benefits verified 501(c)(3)/public-benefit entities supporting worker protections, small-business fairness, and local economic resilience, finalized per campaign governance and verification.",
       "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to labor/small-business impact; distribution finalized per campaign governance and verification.",
       "campaign_overrides": {
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_duration_days": null
       },
       "auto_fetch": false
@@ -89,7 +89,7 @@
       "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 9640. Bounty benefits verified 501(c)(3)/public-benefit entities supporting environmental stewardship, conservation, and community resource resilience, finalized per campaign governance and verification.",
       "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to conservation/resource-stewardship impact; distribution finalized per campaign governance and verification.",
       "campaign_overrides": {
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_duration_days": null
       },
       "auto_fetch": false
@@ -112,7 +112,7 @@
       "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 9600. Bounty benefits verified 501(c)(3)/public-benefit entities supporting civic education, historical preservation, and community engagement, finalized per campaign governance and verification.",
       "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to civic-education/historical-preservation impact; distribution finalized per campaign governance and verification.",
       "campaign_overrides": {
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_duration_days": null
       },
       "auto_fetch": false
@@ -137,7 +137,7 @@
       "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 8483. Bounty benefits verified 501(c)(3)/public-benefit entities supporting tribal communities and local stewardship in California, finalized per campaign governance and verification.",
       "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to tribal/community stewardship impact in CA; distribution finalized per campaign governance and verification.",
       "campaign_overrides": {
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_duration_days": null
       },
       "auto_fetch": false
@@ -160,7 +160,7 @@
       "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 4464. Bounty benefits verified 501(c)(3)/public-benefit entities supporting preventive health and community wellness, finalized per campaign governance and verification.",
       "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to preventive-health/community-wellness impact; distribution finalized per campaign governance and verification.",
       "campaign_overrides": {
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_duration_days": null
       },
       "auto_fetch": false
@@ -183,7 +183,7 @@
       "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 5490. Bounty benefits verified 501(c)(3)/public-benefit entities supporting consumer protection, fraud prevention, and victim assistance, finalized per campaign governance and verification.",
       "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to consumer-protection/fraud-prevention impact; distribution finalized per campaign governance and verification.",
       "campaign_overrides": {
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_duration_days": null
       },
       "auto_fetch": false
@@ -210,7 +210,7 @@
       "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 10136. Bounty benefits verified 501(c)(3)/public-benefit entities supporting forestry research, conservation, and local community stewardship in Arkansas, finalized per campaign governance and verification.",
       "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to conservation/forestry-research impact in AR; distribution finalized per campaign governance and verification.",
       "campaign_overrides": {
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_duration_days": null
       },
       "auto_fetch": false
@@ -233,7 +233,7 @@
       "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 9269. Bounty benefits verified 501(c)(3)/public-benefit entities supporting civil-rights history preservation, education, and community programs, finalized per campaign governance and verification.",
       "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to civil-rights preservation/education impact; distribution finalized per campaign governance and verification.",
       "campaign_overrides": {
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_duration_days": null
       },
       "auto_fetch": false
@@ -256,7 +256,7 @@
       "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 2347 (active Senate vehicle). Bounty benefits verified 501(c)(3)/public-benefit entities supporting energy/community resilience and environmental stewardship, finalized per campaign governance and verification.",
       "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to energy-resilience/environmental-stewardship impact; distribution finalized per campaign governance and verification.",
       "campaign_overrides": {
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_duration_days": null
       },
       "auto_fetch": false
@@ -280,7 +280,7 @@
       "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for S. 1383 / H.R. 7296 (SAVE America Act). Bounty benefits verified 501(c)(3)/public-benefit entities supporting voting access, civic participation, and election integrity education, finalized per campaign governance and verification.",
       "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to voting-access/civic-participation impact; distribution finalized per campaign governance and verification.",
       "campaign_overrides": {
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_duration_days": null
       },
       "auto_fetch": false
@@ -303,7 +303,7 @@
       "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for S. 5653. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
       "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
       "campaign_overrides": {
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_duration_days": null
       },
       "auto_fetch": false,
@@ -333,7 +333,7 @@
       "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for S. 5054. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
       "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
       "campaign_overrides": {
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_duration_days": null
       },
       "auto_fetch": false,
@@ -363,7 +363,7 @@
       "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for S. 4214. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
       "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
       "campaign_overrides": {
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_duration_days": null
       },
       "auto_fetch": false,
@@ -393,7 +393,7 @@
       "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 8488. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
       "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
       "campaign_overrides": {
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_duration_days": null
       },
       "auto_fetch": false,
@@ -423,7 +423,7 @@
       "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for S. 5471. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
       "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
       "campaign_overrides": {
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_duration_days": null
       },
       "auto_fetch": false,
@@ -453,7 +453,7 @@
       "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for S. 4727. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
       "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
       "campaign_overrides": {
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_duration_days": null
       },
       "auto_fetch": false,
@@ -483,7 +483,7 @@
       "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for S. 4743. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
       "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
       "campaign_overrides": {
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_duration_days": null
       },
       "auto_fetch": false,
@@ -513,7 +513,7 @@
       "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 9500. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
       "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
       "campaign_overrides": {
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_duration_days": null
       },
       "auto_fetch": false,
@@ -543,7 +543,7 @@
       "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 9340. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
       "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
       "campaign_overrides": {
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_duration_days": null
       },
       "auto_fetch": false,
@@ -573,7 +573,7 @@
       "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 7254. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
       "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
       "campaign_overrides": {
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_duration_days": null
       },
       "auto_fetch": false,
@@ -603,7 +603,7 @@
       "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 7934. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
       "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
       "campaign_overrides": {
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_duration_days": null
       },
       "auto_fetch": false,
@@ -633,7 +633,7 @@
       "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 7954. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
       "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
       "campaign_overrides": {
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_duration_days": null
       },
       "auto_fetch": false,
@@ -663,7 +663,7 @@
       "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 8195. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
       "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
       "campaign_overrides": {
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_duration_days": null
       },
       "auto_fetch": false,
@@ -693,7 +693,7 @@
       "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 9785. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
       "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
       "campaign_overrides": {
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_duration_days": null
       },
       "auto_fetch": false,
@@ -723,7 +723,7 @@
       "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 2400. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
       "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
       "campaign_overrides": {
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_duration_days": null
       },
       "auto_fetch": false,
@@ -753,7 +753,7 @@
       "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 9497. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
       "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
       "campaign_overrides": {
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_duration_days": null
       },
       "auto_fetch": false,
@@ -783,7 +783,7 @@
       "bounty_description": "Open-ended Policy & Governance Vote (litmus test) for H.R. 3633. Bounty benefits verified 501(c)(3)/public-benefit entities aligned to campaign impact, finalized per campaign governance and verification.",
       "bounty_criteria": "Funds directed to verified 501(c)(3)/public-benefit entities aligned to campaign impact; distribution finalized per campaign governance and verification.",
       "campaign_overrides": {
-        "funding_activation_threshold_usd": 10000,
+        "funding_activation_threshold_usd": 5000,
         "timer_duration_days": null
       },
       "auto_fetch": false,

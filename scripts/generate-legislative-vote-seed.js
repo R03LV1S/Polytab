@@ -163,7 +163,7 @@ function toCampaign({ congress, typeCode, number, title, summary, source, source
     localities: [],
     bounty_description: null,
     bounty_criteria: null,
-    campaign_overrides: { funding_activation_threshold_usd: 10000, timer_duration_days: null },
+    campaign_overrides: { funding_activation_threshold_usd: 5000, timer_duration_days: null },
     auto_fetch: true,
     _seed_meta: {
       source,

@@ -179,8 +179,8 @@ function buildCampaignItem(m, newId, recipientsByState, nowIso){
   const title = buildTitle(m, fundingInfo);
   const servingText = rec.scope === 'state' ? `serving ${m.state}` : 'serving the United States (national verified fallback list)';
   const fundLead = rec.scope === 'state' ? `Community Fund for ${m.state}:` : `Community Fund for ${m.state} constituents:`;
-  const summary = `${fundLead} Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities ${servingText} dedicated to community health, resilience, and public-benefit services. Verified recipients: ${rec.text}. Once the pool hits $10,000, a 60-day timer starts. If YES wins, funds go to these verified charities; if NO wins, funds go to local community commons (volunteer fire/EMS, veterans, community food banks). Funding context sourced from VoteLog/FEC public records${profileUrl ? `: ${profileUrl}` : ''}.`;
-  const plain = `Resolution: Official censure & accountability sanction for ${name} (${m.state} ${shortOfficeLabel(m)}).\nFunding context: ${buildFundingNarrative(funding)} (source: VoteLog/FEC public ledger${profileUrl ? `, ${profileUrl}` : ''}).\nTimer: Starts a 60-day countdown once $10,000 is reached in community votes.\nOutcome: If YES wins, 100% goes to verified charities; if NO wins, 100% goes to essential community services (fire/EMS/veterans/food banks).`;
+  const summary = `${fundLead} Delivers 100% of funds to verified, IRS-registered 501(c)(3) public charities ${servingText} dedicated to community health, resilience, and public-benefit services. Verified recipients: ${rec.text}. Once the pool hits $5,000, a 60-day timer starts. If YES wins, funds go to these verified charities; if NO wins, funds go to local community commons (volunteer fire/EMS, veterans, community food banks). Funding context sourced from VoteLog/FEC public records${profileUrl ? `: ${profileUrl}` : ''}.`;
+  const plain = `Resolution: Official censure & accountability sanction for ${name} (${m.state} ${shortOfficeLabel(m)}).\nFunding context: ${buildFundingNarrative(funding)} (source: VoteLog/FEC public ledger${profileUrl ? `, ${profileUrl}` : ''}).\nTimer: Starts a 60-day countdown once $5,000 is reached in community votes.\nOutcome: If YES wins, 100% goes to verified charities; if NO wins, 100% goes to essential community services (fire/EMS/veterans/food banks).`;
   const loc = districtLocation(m);
   const idStr = String(newId);
   const positionA = {
@@ -216,7 +216,7 @@ function buildCampaignItem(m, newId, recipientsByState, nowIso){
       plainSummary: plain,
       votePriceUSD: 0.5,
       targetUSD: null,
-      activation_threshold_usd: 10000,
+      activation_threshold_usd: 5000,
       settlement_epoch_days: 60,
       fundedUSD: 0,
       votesCount: 0,
