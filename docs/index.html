@@ -911,21 +911,31 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       function nextIdForCategory(cat, proposals) {
         const base = CATEGORY_BLOCKS[cat];
         if (base == null) return null;
+        const occupied = new Set();
+        (proposals || []).forEach((p) => { const n = parseInt(p.id, 10); if (Number.isFinite(n)) occupied.add(n); });
+        const inOtherNominalWindow = (n) => {
+          for (const [otherCat, otherBase] of Object.entries(CATEGORY_BLOCKS)) {
+            if (otherCat === cat || !Number.isFinite(otherBase)) continue;
+            if (n > otherBase && n < otherBase + 10000) return otherCat;
+          }
+          return null;
+        };
         let maxOff = 0;
         (proposals || []).forEach((p) => {
           const n = parseInt(p.id, 10);
-          if (Number.isFinite(n) && n > base && n < base + 10000) { const off = n - base; if (off > maxOff) maxOff = off; }
+          if (!Number.isFinite(n) || n <= base || n >= base + 10000) return;
+          if (inOtherNominalWindow(n)) return; // ignore foreign IDs in overlapping legacy windows
+          const off = n - base;
+          if (off > maxOff) maxOff = off;
         });
-        const next = base + maxOff + 1;
-        if (next >= base + 10000) return null;
-        for (const [otherCat, otherBase] of Object.entries(CATEGORY_BLOCKS)) {
-          if (otherCat === cat || !Number.isFinite(otherBase)) continue;
-          if (next > otherBase && next < otherBase + 10000) {
-            console.warn("nextIdForCategory: collision", { cat, next, otherCat, otherBase });
-            return null;
-          }
+        let next = base + maxOff + 1;
+        while (next < base + 10000) {
+          if (occupied.has(next)) { next++; continue; }
+          const other = inOtherNominalWindow(next);
+          if (other) { console.warn("nextIdForCategory: nominal overlap, allowing free id", { cat, next, other }); }
+          return String(next);
         }
-        return String(next);
+        return null;
       }
       const PARENTS = [PARENT_VOTING, PARENT_SPECULATIVE, PARENT_CHARITIES, PARENT_CREATOR];
       const PARENT_CATEGORIES = { [PARENT_CHARITIES]: CHARITY_CATEGORIES, [PARENT_CREATOR]: CREATOR_CATEGORIES, [PARENT_SPECULATIVE]: SPECULATIVE_CATEGORIES, [PARENT_VOTING]: VOTING_CATEGORIES };
