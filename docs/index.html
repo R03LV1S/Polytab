@@ -3045,7 +3045,25 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         }
       });
 
-      loadFeedState();
+      async function openHashTarget(retries) {
+        const raw = String(location.hash || "").replace(/^#/, "").trim();
+        if (!raw) return;
+        const id = decodeURIComponent(raw);
+        const tries = Number.isFinite(retries) ? retries : 20;
+        const find = () => (state.proposals || []).find(p => String(p.id) === String(id));
+        let p = find();
+        if (!p && tries > 0) {
+          // proposal may be in an unloaded shard; wait and retry
+          await new Promise(r => setTimeout(r, 250));
+          return openHashTarget(tries - 1);
+        }
+        if (p && (!state.activeModalProposal || String(state.activeModalProposal.id) !== String(p.id))) {
+          openActionModal(p);
+        }
+      }
+      window.addEventListener("hashchange", () => { openHashTarget(20); });
+
+      loadFeedState().then(() => openHashTarget(20)).catch(() => openHashTarget(20));
       loadVerifiedEndorsements();
       loadMarkets();
       loadForecastBoard();
