@@ -114,7 +114,7 @@ function itemBlock(item, opts) {
   lines.push("    <description>" + esc(itemDescription(item)) + "</description>");
   if (m.category) lines.push("    <category>" + esc(m.category) + "</category>");
   if (pub) lines.push("    <pubDate>" + pub + "</pubDate>");
-  if (opts && opts.geo && Number.isFinite(Number(m.lat)) && Number.isFinite(Number(m.lng))) {
+  if (opts && opts.geo && m.lat != null && m.lng != null && Number.isFinite(Number(m.lat)) && Number.isFinite(Number(m.lng))) {
     // Round to 2 decimals (~1 km) — never publish precise home-level coordinates.
     lines.push("    <georss:point>" + Number(m.lat).toFixed(2) + " " + Number(m.lng).toFixed(2) + "</georss:point>");
   }
@@ -159,7 +159,7 @@ function main() {
   // 2) geoRSS mirror — only items with coordinates, rounded to ~1 km
   const geoItems = items.filter((item) => {
     const m = metaOf(item);
-    return Number.isFinite(Number(m.lat)) && Number.isFinite(Number(m.lng));
+    return m.lat != null && m.lng != null && Number.isFinite(Number(m.lat)) && Number.isFinite(Number(m.lng));
   });
   const geo = channelHeader({
     title: "Polytab — Global Civic Action Map (geoRSS)",

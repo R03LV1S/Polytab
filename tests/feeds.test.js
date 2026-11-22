@@ -47,14 +47,16 @@ test("itemDescription: mirrors feed.json metrics exactly (no fabricated numbers)
   }
 });
 
-test("generate: writes all three feeds with one item per shelf entry", () => {
+test("generate: writes all three feeds with expected item counts", () => {
   gen.main();
+  const geoCount = shelf.items.filter((i) => { const m = i._polytab || {}; return m.lat != null && m.lng != null && Number.isFinite(Number(m.lat)) && Number.isFinite(Number(m.lng)); }).length;
   for (const name of ["feed.xml", "feeds/global.xml", "feeds/audio.xml"]) {
     const xml = readUtf8NoBom(name);
     assert.ok(xml.startsWith('<?xml version="1.0" encoding="UTF-8"?>'), name + " declaration");
     assert.ok(xml.trim().endsWith("</rss>"), name + " closing tag");
     const items = (xml.match(/<item>/g) || []).length;
-    assert.strictEqual(items, shelf.items.length, name + " item count");
+    const expected = name === "feeds/global.xml" ? geoCount : shelf.items.length;
+    assert.strictEqual(items, expected, name + " item count");
   }
 });
 
@@ -70,9 +72,11 @@ test("feeds/global.xml: geoRSS points only for items with coordinates", () => {
   const xml = readUtf8NoBom("feeds/global.xml");
   const withCoords = shelf.items.filter((i) => {
     const m = i._polytab || {};
-    return Number.isFinite(Number(m.lat)) && Number.isFinite(Number(m.lng));
+    return m.lat != null && m.lng != null && Number.isFinite(Number(m.lat)) && Number.isFinite(Number(m.lng));
   });
   assert.strictEqual((xml.match(/<georss:point>/g) || []).length, withCoords.length);
+  const nullCoordIds = shelf.items.filter((i) => { const m = i._polytab || {}; return m.lat == null || m.lng == null; }).map((i) => String(i.id));
+  for (const id of nullCoordIds) { assert.ok(!new RegExp(`<guid isPermaLink="false">polytab:shelf:${id}</guid>[\\s\\S]*?<georss:point>`).test(xml), "null-coord item emitted georss:point: " + id); }
   // Coordinates must be rounded to 2 decimals (neighborhood-level, anti-doxing)
   const points = [...xml.matchAll(/<georss:point>(-?\d+\.\d+) (-?\d+\.\d+)<\/georss:point>/g)];
   for (const p of points) {

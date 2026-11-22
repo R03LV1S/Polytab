@@ -920665,7 +920665,47 @@
         "settlement_epoch_days": 60
       },
       "date_published": "2026-11-21T00:00:00Z"
+    },
+    {
+      "id": "75001",
+      "title": "Community & Creator Cause: @tiffanyleeproject (TikTok)",
+      "content_html": "<p>Creator community cause page for @tiffanyleeproject on TikTok. Open-ended direct support (no A/B voting). Manual Polytab claim/verification required: creator must confirm TikTok account ownership and add a verified Base payout wallet before contributions unlock. Proof/source: https://www.tiktok.com/@tiffanyleeproject/video/7710755794362305805</p>",
+      "url": "https://polytab.store/#75001",
+      "date_published": "2026-11-22T00:00:00Z",
+      "_polytab": {
+        "category": "Community & Creator Causes",
+        "parentCategory": "Creator Causes",
+        "organization": "@tiffanyleeproject (TikTok Creator)",
+        "location": "Global / Online (TikTok)",
+        "summary": "Creator community cause page for @tiffanyleeproject on TikTok. Open-ended direct support (no A/B voting). Manual Polytab claim/verification required: creator must confirm TikTok account ownership and add a verified Base payout wallet before contributions unlock. Proof/source: https://www.tiktok.com/@tiffanyleeproject/video/7710755794362305805",
+        "plainSummary": "Cause: Community/creator support page for TikTok creator @tiffanyleeproject.\n\nResolution: Manual claim/verification - creator confirms TikTok account ownership with Polytab and adds a verified Base payout wallet; page unlocks for direct support/tips (open-ended, no A/B voting).\n\nProof: https://www.tiktok.com/@tiffanyleeproject/video/7710755794362305805\n\nStatus: Locked/pending manual creator verification (TikTok + wallet). Honest-zero until verified on-chain receipts.",
+        "votePriceUSD": 0.5,
+        "targetUSD": null,
+        "displayTargetUSD": 5000,
+        "fundedUSD": 0,
+        "votesCount": 0,
+        "contract": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+        "status": "Active",
+        "lat": null,
+        "lng": null,
+        "website": "https://www.tiktok.com/@tiffanyleeproject",
+        "socials": {
+          "tiktok": "https://www.tiktok.com/@tiffanyleeproject"
+        },
+        "campaignType": "open_ended",
+        "voteMode": "direct_funding",
+        "creatorHandle": "@tiffanyleeproject",
+        "proofLinks": "https://www.tiktok.com/@tiffanyleeproject/video/7710755794362305805",
+        "verification": {
+          "requires501c": false,
+          "requiresSocialVerification": true,
+          "requiresProof": true,
+          "tiktokVerified": false,
+          "walletVerified": false
+        }
+      }
     }
   ],
-  "updated_at": "2026-11-22T07:46:45.432Z"
+  "updated_at": "2026-11-22T07:46:45.432Z",
+  "total_items": 32750
 }
