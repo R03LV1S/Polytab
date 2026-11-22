@@ -1,0 +1,13 @@
+# Polytab Like Guard Worker (stateless, $0-safe basic deterrence)
+# No D1/KV/R2 bindings. Uses Cache API best-effort cooldown + optional Turnstile.
+#
+# Deploy: wrangler deploy --config wrangler.like-guard.toml
+# Secrets (optional): wrangler secret put TURNSTILE_SECRET_KEY --config wrangler.like-guard.toml
+
+name = "polytab-like-guard"
+main = "like-guard.js"
+compatibility_date = "2026-11-01"
+
+[vars]
+ALLOWED_ORIGINS = "https://polytab.store,https://r03lv1s.github.io,http://localhost:3000"
+COOLDOWN_SECONDS = "86400"

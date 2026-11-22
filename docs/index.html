@@ -655,6 +655,9 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
     // Cloud endorsement backend (optional): set to your Cloudflare Worker URL, e.g. "https://polytab-endorsement-ledger.<subdomain>.workers.dev"
     // Leave empty "" to keep using GitHub-issue endorsements only.
     window.POLYTAB_ENDORSEMENT_API = window.POLYTAB_ENDORSEMENT_API || "";
+    // Basic like deterrence gate (optional, $0-safe Cloudflare Worker). Leave empty to disable.
+    // This is best-effort deterrence only; global endorsement counts remain authoritative from aggregated snapshots.
+    window.POLYTAB_LIKE_GUARD = window.POLYTAB_LIKE_GUARD || "";
   </script>
   <script>
     (function () {
@@ -662,6 +665,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       const GITHUB_OWNER = "R03LV1S";
       const GITHUB_REPO = "Polytab";
       const ENDORSEMENT_API = (window.POLYTAB_ENDORSEMENT_API || "").replace(/\/$/, "");
+      const LIKE_GUARD = (window.POLYTAB_LIKE_GUARD || "").replace(/\/$/, "");
       const BASE_CHAIN_ID = 8453;
       let ethUsdSpot = 2800;
       let baseGasWei = null;
@@ -939,6 +943,30 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         saveEngagementMap(map);
         const nowEngaged = !!(prev.liked || prev.shared);
         return { delta: (nowEngaged ? 1 : 0) - (alreadyEngaged ? 1 : 0), nowEngaged };
+      }
+      async function checkLikeGuard(projectId) {
+        if (!LIKE_GUARD) return { ok: true, skipped: true };
+        const pid = String(projectId || "").trim();
+        if (!/^[A-Za-z0-9_-]{1,64}$/.test(pid)) return { ok: false, error: "invalid_project_id" };
+        try {
+          const ctrl = new AbortController();
+          const t = setTimeout(() => ctrl.abort(), 5000);
+          const res = await fetch(LIKE_GUARD + "/api/like", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ project_id: pid }),
+            signal: ctrl.signal,
+          });
+          clearTimeout(t);
+          const data = await res.json().catch(() => null);
+          if (res.ok && data && data.ok) return { ok: true, skipped: false };
+          const err = (data && data.error) ? String(data.error) : "";
+          if (res.status === 429 || err === "rate_limited") return { ok: false, error: "rate_limited", status: res.status };
+          if (res.status >= 500) return { ok: false, error: err || "guard_unavailable", status: res.status };
+          return { ok: false, error: err || "guard_unavailable", status: res.status };
+        } catch (_) {
+          return { ok: false, error: "guard_unavailable" }; // fail closed when guard configured
+        }
       }
       function loadEndorsements() {
         return loadEngagementMap();
@@ -1963,8 +1991,21 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
             updateBtnStyle();
           };
           refreshCounts();
-          endorseBtn.addEventListener("click", (ev) => {
+          endorseBtn.addEventListener("click", async (ev) => {
             ev.stopPropagation();
+            if (endorseBtn.disabled) return;
+            const liking = !isLikedNow();
+            if (liking) {
+              endorseBtn.disabled = true;
+              const guard = await checkLikeGuard(item.id);
+              endorseBtn.disabled = false;
+              if (!guard.ok) {
+                if (guard.error === "rate_limited") alert("Like rate limit reached for this project. Please try again later.");
+                else if (guard.error === "guard_unavailable" || guard.error === "server_misconfigured_turnstile" || guard.error === "client_ip_unavailable") alert("Like verification is temporarily unavailable. Please try again.");
+                else alert("Like could not be verified (" + String(guard.error || "unknown") + "). Please try again.");
+                return;
+              }
+            }
             recordEngagement(item.id, "like");
             refreshCounts();
           });
