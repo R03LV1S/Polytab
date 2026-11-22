@@ -149,14 +149,14 @@
       function isDistinctCampaignWallet(addr) {
         return /^0x[a-fA-F0-9]{40}$/.test(String(addr || "")) && String(addr).toLowerCase() !== ESCROW_WALLET.toLowerCase();
       }
-      const CHARITY_CATEGORY_SET = new Set(["Accessibility & Universal Design","Environmental","Civic Tech","Classrooms","Arts & Clubs","Campus Grounds","Athletics"]);
-      function isCharityItem(p) {
+      const CHARITY_OR_CREATOR_CATEGORY_SET = new Set(["Accessibility & Universal Design","Environmental","Civic Tech","Classrooms","Arts & Clubs","Campus Grounds","Athletics","Community & Creator Causes"]);
+      function isCharityOrCreatorItem(p) {
         const cat = String(p && p.category || "");
         const par = String(p && p.parentCategory || "").toLowerCase();
-        return par.includes("charit") || cat.toLowerCase().includes("charit") || CHARITY_CATEGORY_SET.has(cat);
+        return par.includes("charit") || cat.toLowerCase().includes("charit") || par.includes("creator") || cat.toLowerCase().includes("creator") || CHARITY_OR_CREATOR_CATEGORY_SET.has(cat);
       }
       function isAdaptiveVisualOpenEnded(p) {
-        return !!p && (p.campaignType === "open_ended" || p.targetUSD == null || p.targetUSD <= 0) && isCharityItem(p);
+        return !!p && (p.campaignType === "open_ended" || p.targetUSD == null || p.targetUSD <= 0) && isCharityOrCreatorItem(p);
       }
       function thresholdTimerLabel(p) {
         const t = Number(p && p.activationThresholdUSD || 5000);

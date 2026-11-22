@@ -296,6 +296,7 @@
               <label for="newParentCategory" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Campaign Type *</label>
               <select id="newParentCategory" class="hc-select w-full bg-black border border-zinc-700 rounded-xl px-3.5 py-2.5 text-sm text-white outline-none focus:border-yellow-500">
                 <option value="Charities">Community Causes (Charities)</option>
+                <option value="Creator Causes">Community &amp; Creator Causes (Personal/Social)</option>
                 <option value="Speculative">Experiments &amp; Public-Interest Ideas (Speculative)</option>
                 <option value="Voting">Civic Decisions &amp; Votes (Voting)</option>
               </select>
@@ -314,7 +315,7 @@
             </div>
             <p class="text-[11px] text-zinc-500 mt-2">Use an address, ZIP, city, state, or country — we’ll turn it into a project location automatically.</p>
           </div>
-          <p class="text-[11px] text-zinc-500 -mt-2">ID pipeline (bloc format): Charities 10000&ndash;79999, Speculative 80000&ndash;89999, Voting 90000&ndash;99999 (sub-blocks reserved for future blocs). IDs never renumber. Contributions are locked until the named organization verifies; funds then settle directly into the organization&rsquo;s payout wallet &mdash; Polytab never holds funds.</p>
+          <p class="text-[11px] text-zinc-500 -mt-2">ID pipeline (bloc format): Charities 10000&ndash;79999, Creator Causes 10000&ndash;79999 (shared bloc, separate category), Speculative 80000&ndash;89999, Voting 90000&ndash;99999. IDs never renumber. Creator/personal causes are open-ended (no A/B vote), use Support/Tip wording, and require social-handle verification + proof of work; funds settle directly to the verified payout wallet &mdash; Polytab never holds funds.</p>
           <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div>
               <label for="newTargetUSD" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Funding Goal (USD) *</label>
@@ -344,6 +345,20 @@
               class="w-full bg-black border border-zinc-700 rounded-xl px-3.5 py-2.5 text-sm text-white font-mono outline-none focus:border-yellow-500" />
             <p class="text-[11px] text-zinc-500 mt-2">No crypto wallet? You can connect or create a smart wallet later; you never share private keys here.</p>
             <p class="text-[11px] text-zinc-500 mt-2">No crypto wallet, phone, or computer? You can still join via QR code, ZK-Email, SMS/USSD, or Telegram voice &mdash; or let Polytab steward your deposits on your behalf (verified financial service platform + verifiable government ID required &mdash; see the <a href="./faq.html#stewardship" class="text-yellow-400 hover:text-yellow-300 underline">stewardship program</a>).</p>
+          </div>
+          <div id="creatorFields" class="hidden space-y-4">
+            <div>
+              <label for="newCreatorHandle" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">TikTok / Social Handle (Verification) *</label>
+              <input type="text" id="newCreatorHandle" maxlength="120" placeholder="@yourhandle and profile URL (TikTok preferred)"
+                class="w-full bg-black border border-zinc-700 rounded-xl px-3.5 py-2.5 text-sm text-white outline-none focus:border-yellow-500" />
+              <p class="text-[11px] text-zinc-500 mt-2">We verify account ownership (TikTok Login Kit / profile proof) before enabling a verified badge. No 501(c)(3) required for Creator Causes.</p>
+            </div>
+            <div>
+              <label for="newCreatorProof" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Proof / Evidence Links *</label>
+              <textarea id="newCreatorProof" rows="2" maxlength="600" placeholder="Links to public videos/posts showing the work, plus any receipts or updates"
+                class="w-full bg-black border border-zinc-700 rounded-xl px-3.5 py-2.5 text-sm text-white outline-none focus:border-yellow-500"></textarea>
+            </div>
+            <p class="text-[11px] text-amber-300/90">Creator Causes are open-ended, no A/B voting. Use Support/Tip wording. Not tax-deductible unless routed through a verified nonprofit/fiscal sponsor. Polytab never holds funds.</p>
           </div>
           <div>
             <label for="newSummary" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Action Scope &amp; Proof Plan *</label>
@@ -774,14 +789,14 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           return usd;
         } catch (_) { return null; }
       }
-      const CHARITY_CATEGORY_SET = new Set(["Accessibility & Universal Design","Environmental","Civic Tech","Classrooms","Arts & Clubs","Campus Grounds","Athletics"]);
-      function isCharityItem(p) {
+      const CHARITY_OR_CREATOR_CATEGORY_SET = new Set(["Accessibility & Universal Design","Environmental","Civic Tech","Classrooms","Arts & Clubs","Campus Grounds","Athletics","Community & Creator Causes"]);
+      function isCharityOrCreatorItem(p) {
         const cat = String(p && p.category || "");
         const par = String(p && p.parentCategory || "").toLowerCase();
-        return par.includes("charit") || cat.toLowerCase().includes("charit") || CHARITY_CATEGORY_SET.has(cat);
+        return par.includes("charit") || cat.toLowerCase().includes("charit") || par.includes("creator") || cat.toLowerCase().includes("creator") || CHARITY_OR_CREATOR_CATEGORY_SET.has(cat);
       }
       function isAdaptiveVisualOpenEnded(p) {
-        return !!p && (p.campaignType === "open_ended" || p.targetUSD == null || p.targetUSD <= 0) && isCharityItem(p);
+        return !!p && (p.campaignType === "open_ended" || p.targetUSD == null || p.targetUSD <= 0) && isCharityOrCreatorItem(p);
       }
       function thresholdTimerLabel(p) {
         const t = Number(p && p.activationThresholdUSD || 5000);
@@ -833,12 +848,14 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         } catch (_) {}
       }
       // --- ID identification pipeline (scaffolded, bloc format) ---
-      // Parents/ranges: Charities 10000-79999. Speculative 80000-89999. Voting 90000-99999 (leaf blocs; gaps reserved).
+      // Parents/ranges: Charities 10000-79999. Speculative 80000-89999. Voting 90000-99999. Creator Causes share 10000-79999 (leaf blocs; gaps reserved).
       // Bloc IDs: numeric id string, url /#<id>. Attribution only. Unclaimed pages stay locked; payments settle direct to the verified org's payout wallet. Never renumber existing IDs.
       const PARENT_CHARITIES = "Charities";
       const PARENT_SPECULATIVE = "Speculative";
       const PARENT_VOTING = "Voting";
+      const PARENT_CREATOR = "Creator Causes";
       const CHARITY_CATEGORIES = ["Accessibility & Universal Design", "Environmental", "Civic Tech", "Classrooms", "Arts & Clubs", "Campus Grounds", "Athletics"];
+      const CREATOR_CATEGORIES = ["Community & Creator Causes"];
       const SPECULATIVE_CATEGORIES = ["Policy & Local Outcomes", "Elections & Civic Accountability", "Public Safety & Infrastructure", "Global & Humanitarian Outcomes"];
       const VOTING_CATEGORIES = ["Community Referendums", "Public Office & Elections", "Policy & Governance Votes", "Global Outcome Votes"];
       const CATEGORY_LABELS = {
@@ -849,6 +866,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         "Arts & Clubs": "Arts, Culture & Clubs",
         "Campus Grounds": "Campus Grounds & Yards",
         "Athletics": "Sports & Fields",
+        "Community & Creator Causes": "Community & Creator Causes",
         "Policy & Local Outcomes": "Local Policy Wins",
         "Elections & Civic Accountability": "Election Integrity",
         "Public Safety & Infrastructure": "Safety & Public Infrastructure",
@@ -864,6 +882,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         "Civic Tech": 30000,
         "Classrooms": 40000,
         "Arts & Clubs": 45000,
+        "Community & Creator Causes": 75000,
         "Campus Grounds": 60000,
         "Athletics": 70000,
         "Policy & Local Outcomes": 81000,
@@ -877,6 +896,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       };
       const CATEGORY_PARENT = {};
       CHARITY_CATEGORIES.forEach((c) => { CATEGORY_PARENT[c] = PARENT_CHARITIES; });
+      CREATOR_CATEGORIES.forEach((c) => { CATEGORY_PARENT[c] = PARENT_CREATOR; });
       SPECULATIVE_CATEGORIES.forEach((c) => { CATEGORY_PARENT[c] = PARENT_SPECULATIVE; });
       VOTING_CATEGORIES.forEach((c) => { CATEGORY_PARENT[c] = PARENT_VOTING; });
       function walletForId(_id) { return ESCROW_WALLET; }
@@ -897,11 +917,19 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           if (Number.isFinite(n) && n > base && n < base + 10000) { const off = n - base; if (off > maxOff) maxOff = off; }
         });
         const next = base + maxOff + 1;
-        return (next < base + 10000) ? String(next) : null;
+        if (next >= base + 10000) return null;
+        for (const [otherCat, otherBase] of Object.entries(CATEGORY_BLOCKS)) {
+          if (otherCat === cat || !Number.isFinite(otherBase)) continue;
+          if (next > otherBase && next < otherBase + 10000) {
+            console.warn("nextIdForCategory: collision", { cat, next, otherCat, otherBase });
+            return null;
+          }
+        }
+        return String(next);
       }
-      const PARENTS = [PARENT_VOTING, PARENT_SPECULATIVE, PARENT_CHARITIES];
-      const PARENT_CATEGORIES = { [PARENT_CHARITIES]: CHARITY_CATEGORIES, [PARENT_SPECULATIVE]: SPECULATIVE_CATEGORIES, [PARENT_VOTING]: VOTING_CATEGORIES };
-      const CATEGORIES = ["ALL"].concat(CHARITY_CATEGORIES).concat(SPECULATIVE_CATEGORIES).concat(VOTING_CATEGORIES);
+      const PARENTS = [PARENT_VOTING, PARENT_SPECULATIVE, PARENT_CHARITIES, PARENT_CREATOR];
+      const PARENT_CATEGORIES = { [PARENT_CHARITIES]: CHARITY_CATEGORIES, [PARENT_CREATOR]: CREATOR_CATEGORIES, [PARENT_SPECULATIVE]: SPECULATIVE_CATEGORIES, [PARENT_VOTING]: VOTING_CATEGORIES };
+      const CATEGORIES = ["ALL"].concat(CHARITY_CATEGORIES).concat(CREATOR_CATEGORIES).concat(SPECULATIVE_CATEGORIES).concat(VOTING_CATEGORIES);
       const PAGE_SIZE = 6;
       const FALLBACK_PROPOSALS = [
         { id: "1", title: "Science Lab Wheelchair-Accessible Station & Lowered Bench", parentCategory: "Charities", category: "Accessibility & Universal Design", location: "Science Wing / Room 204", summary: "Retrofit Station #1 in Chemistry Lab B with an adjustable-height ADA workbench, accessible sink controls, and clear knee clearance.", plainSummary: "Cause: Chemistry lab tables are too high for wheelchair users.\nResolution: Install a height-adjustable lab desk.\nProof: Photo of installed desk co-signed by student accessibility council.", campaignType: "fixed", votePriceUSD: 0.50, targetUSD: 65.00, fundedUSD: 0, votesCount: 0, wallet: "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08", status: "Active", lat: null, lng: null, website: null, socials: {}, datePublishedMs: 0 },
@@ -1104,7 +1132,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         activeModalProposal: null,
         activeModalPositionKey: null,
         mapInstance: null,
-        expandedParents: { [PARENT_VOTING]: true, [PARENT_SPECULATIVE]: false, [PARENT_CHARITIES]: false },
+        expandedParents: { [PARENT_VOTING]: true, [PARENT_SPECULATIVE]: false, [PARENT_CHARITIES]: false, [PARENT_CREATOR]: false },
         showAllCategoriesSection: true,
         endorsements: loadEndorsements(),
         verifiedEndorsements: null,
@@ -2660,6 +2688,29 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       }
       newWalletInput.addEventListener("input", updateCreateQr);
       newVoteInput.addEventListener("input", updateCreateQr);
+      function syncCreateFormForParent() {
+        const parent = (document.getElementById("newParentCategory") || {}).value || PARENT_CHARITIES;
+        const isCreator = parent === PARENT_CREATOR;
+        const creatorFields = document.getElementById("creatorFields");
+        const handle = document.getElementById("newCreatorHandle");
+        const proof = document.getElementById("newCreatorProof");
+        const target = document.getElementById("newTargetUSD");
+        const targetLabel = document.querySelector('label[for="newTargetUSD"]');
+        const voteLabel = document.querySelector('label[for="newVoteUSD"]');
+        if (creatorFields) creatorFields.classList.toggle("hidden", !isCreator);
+        if (handle) handle.required = isCreator;
+        if (proof) proof.required = isCreator;
+        if (target) {
+          target.required = !isCreator;
+          target.disabled = isCreator;
+          const wrap = target.closest("div");
+          if (wrap) wrap.style.opacity = isCreator ? "0.55" : "1";
+          if (isCreator) target.value = "";
+          else if (!target.value) target.value = "45.00";
+        }
+        if (targetLabel) targetLabel.textContent = isCreator ? "Funding Goal (Open-Ended)" : "Funding Goal (USD) *";
+        if (voteLabel) voteLabel.textContent = isCreator ? "Suggested Support / Tip ($) *" : "Support Level / Micro-Vote Price ($) *";
+      }
       function syncCreateSubcategories() {
         const parent = (document.getElementById("newParentCategory") || {}).value || PARENT_CHARITIES;
         const sub = document.getElementById("newCategory");
@@ -2667,6 +2718,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         const cats = PARENT_CATEGORIES[parent] || CHARITY_CATEGORIES;
         sub.replaceChildren();
         cats.forEach((c) => { const o = document.createElement("option"); o.value = c; o.textContent = CATEGORY_LABELS[c] || c; sub.appendChild(o); });
+        syncCreateFormForParent();
       }
       const parentSel = document.getElementById("newParentCategory");
       if (parentSel) parentSel.addEventListener("change", syncCreateSubcategories);
@@ -2678,19 +2730,48 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         const title = document.getElementById("newTitle").value.trim();
         const parentCategory = (document.getElementById("newParentCategory") || {}).value || PARENT_CHARITIES;
         const category = document.getElementById("newCategory").value;
+        const resolvedParent = CATEGORY_PARENT[category] || parentCategory;
+        const isCreator = resolvedParent === PARENT_CREATOR;
+        if (CATEGORY_PARENT[category] && resolvedParent !== parentCategory) { alert("Category/type mismatch. Please reselect campaign type and category."); return; }
+        const allowedCats = PARENT_CATEGORIES[resolvedParent] || [];
+        if (allowedCats.length && !allowedCats.includes(category)) { alert("Invalid category for selected campaign type."); return; }
         let location = document.getElementById("newLocation").value.trim();
-        const targetUSD = parseFloat(document.getElementById("newTargetUSD").value) || 45.00;
+        const targetRaw = parseFloat(document.getElementById("newTargetUSD").value);
+        const targetUSD = isCreator ? null : (Number.isFinite(targetRaw) && targetRaw > 0 ? targetRaw : 45.00);
         const votePriceUSD = parseFloat(document.getElementById("newVoteUSD").value) || 0.50;
         const coordsEl = document.getElementById("newCoords");
         let coords = coordsEl ? coordsEl.value.trim() : "";
         const summary = document.getElementById("newSummary").value.trim();
         const plainSummary = summary;
+        const creatorHandle = (document.getElementById("newCreatorHandle") || {}).value ? document.getElementById("newCreatorHandle").value.trim() : "";
+        const creatorProof = (document.getElementById("newCreatorProof") || {}).value ? document.getElementById("newCreatorProof").value.trim() : "";
+        if (isCreator && !creatorHandle) { alert("Please provide a TikTok/social handle or profile URL for creator verification."); return; }
+        if (isCreator && !creatorProof) { alert("Please provide proof/evidence links (public videos/posts/receipts) for the creator cause."); return; }
         if (!coords) { await resolveCreateLocation(location); coords = coordsEl ? coordsEl.value.trim() : ""; location = document.getElementById("newLocation") ? document.getElementById("newLocation").value.trim() : location; }
         if (!coords) { alert("We couldn't geocode that location yet. Try a city, ZIP, or street address and submit again."); return; }
         const assignedId = nextIdForCategory(category, state.proposals);
         const assignedWallet = assignedId ? walletForId(assignedId) : null;
-        const payload = JSON.stringify({ title, parentCategory: (CATEGORY_PARENT[category] || parentCategory), category, location, targetUSD, votePriceUSD, payoutWallet: wallet, georssPoint: coords, plainSummary, status: "Active", suggestedBlocId: assignedId, suggestedBlocWallet: assignedWallet }, null, 2);
-        const params = new URLSearchParams({ title: `[Proposal]: ${title}`, labels: "proposal,pending-verification", body: `### Project Proposal Metadata\n\`\`\`json\n${payload}\n\`\`\`\n\n### Action Scope & Proof Deliverable\n${summary}\n\n### ID Pipeline (bloc format)\n- Parent: ${CATEGORY_PARENT[category] || parentCategory}\n- Subcategory bloc: ${category}\n- Suggested bloc ID: ${assignedId || "n/a"}\n- Payout Wallet (user-supplied): funds for this project settle directly into the creator's wallet after verified proof-of-work. Attribution via bloc ID (never renumbered).` });
+        const payloadObj = {
+          title, parentCategory: resolvedParent, category, location,
+          campaignType: isCreator ? "open_ended" : undefined,
+          targetUSD, votePriceUSD, payoutWallet: wallet, georssPoint: coords, plainSummary, status: "Active",
+          suggestedBlocId: assignedId, suggestedBlocWallet: assignedWallet
+        };
+        if (isCreator) {
+          payloadObj.displayTargetUSD = 5000;
+          payloadObj.voteMode = "direct_funding";
+          payloadObj.creatorHandle = creatorHandle;
+          payloadObj.proofLinks = creatorProof;
+          payloadObj.verification = { requires501c: false, requiresSocialVerification: true, requiresProof: true };
+        }
+        Object.keys(payloadObj).forEach((k) => payloadObj[k] === undefined && delete payloadObj[k]);
+        const mdSafe = (s) => String(s || "").replace(/```/g, "`\u200b``").replace(/\r\n/g, "\n");
+        const payload = JSON.stringify(payloadObj, null, 2).replace(/```/g, "`\u200b``");
+        const labels = isCreator ? "proposal,pending-verification,creator-cause" : "proposal,pending-verification";
+        const body = isCreator
+          ? `### Creator / Community Cause Proposal\n\n\`\`\`json\n${payload}\n\`\`\`\n\n### Action Scope & Proof Plan\n${mdSafe(summary)}\n\n### Creator Verification\n- TikTok/Social: ${mdSafe(creatorHandle)}\n- Proof links: ${mdSafe(creatorProof)}\n- 501(c)(3) required: No (social verification + proof required)\n- Campaign type: open-ended, direct support/tip, no A/B voting\n\n### ID Pipeline (bloc format)\n- Parent: ${resolvedParent}\n- Subcategory bloc: ${category}\n- Suggested bloc ID: ${assignedId || "n/a"}\n- Payout Wallet (user-supplied): funds settle directly to the verified wallet. Polytab never holds funds. Attribution via bloc ID (never renumbered).`
+          : `### Project Proposal Metadata\n\`\`\`json\n${payload}\n\`\`\`\n\n### Action Scope & Proof Deliverable\n${mdSafe(summary)}\n\n### ID Pipeline (bloc format)\n- Parent: ${resolvedParent}\n- Subcategory bloc: ${category}\n- Suggested bloc ID: ${assignedId || "n/a"}\n- Payout Wallet (user-supplied): funds for this project settle directly into the creator's wallet after verified proof-of-work. Attribution via bloc ID (never renumbered).`;
+        const params = new URLSearchParams({ title: `[Proposal]: ${title}`, labels, body });
         window.open(`https://github.com/${GITHUB_OWNER}/${GITHUB_REPO}/issues/new?${params.toString()}`, "_blank", "noopener");
       });
       document.getElementById("ussdSendBtn").addEventListener("click", () => {
