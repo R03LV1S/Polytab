@@ -315,7 +315,7 @@
             </div>
             <p class="text-[11px] text-zinc-500 mt-2">Use an address, ZIP, city, state, or country — we’ll turn it into a project location automatically.</p>
           </div>
-          <p class="text-[11px] text-zinc-500 -mt-2">ID pipeline (bloc format): Charities 10000&ndash;79999, Creator Causes 10000&ndash;79999 (shared bloc, separate category), Speculative 80000&ndash;89999, Voting 90000&ndash;99999. IDs never renumber. Creator/personal causes are open-ended (no A/B vote), use Support/Tip wording, and require social-handle verification + proof of work; funds settle directly to the verified payout wallet &mdash; Polytab never holds funds.</p>
+          <p class="text-[11px] text-zinc-500 -mt-2">ID pipeline (bloc format): Charities 10000&ndash;79999, Creator Causes 10000&ndash;79999 (shared bloc, separate category), Speculative 80000&ndash;89999, Voting 90000&ndash;99999. IDs never renumber. Creator/personal causes are open-ended (no A/B vote), use Support/Tip wording, and require social-handle verification + proof of work; funds settle directly to the verified payout wallet &mdash; Polytab does not hold funds in normal direct-to-wallet flows (see Terms for limited stewardship disclosure).</p>
           <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div>
               <label for="newTargetUSD" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Funding Goal (USD) *</label>
@@ -358,7 +358,7 @@
               <textarea id="newCreatorProof" rows="2" maxlength="600" placeholder="Links to public videos/posts showing the work, plus any receipts or updates"
                 class="w-full bg-black border border-zinc-700 rounded-xl px-3.5 py-2.5 text-sm text-white outline-none focus:border-yellow-500"></textarea>
             </div>
-            <p class="text-[11px] text-amber-300/90">Creator Causes are open-ended, no A/B voting. Use Support/Tip wording. Not tax-deductible unless routed through a verified nonprofit/fiscal sponsor. Polytab never holds funds.</p>
+            <p class="text-[11px] text-amber-300/90">Creator Causes are open-ended, no A/B voting. Use Support/Tip wording. Not tax-deductible unless a verified nonprofit or fiscal sponsor explicitly states so. Polytab does not hold funds in normal direct-to-wallet flows (see Terms for limited stewardship disclosure).</p>
           </div>
           <div>
             <label for="newSummary" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Action Scope &amp; Proof Plan *</label>
@@ -609,7 +609,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         <div class="text-3xl leading-none" aria-hidden="true">&#128274;</div>
         <h3 class="text-base font-bold text-amber-200">Contributions locked for #<span id="lockProjectId"></span></h3>
         <p class="text-xs text-zinc-300 leading-relaxed">
-          This organization hasn&rsquo;t verified its bounty page yet, so funds are not accepted. Verification confirms the organization&rsquo;s legal identity and official domain (registry + DNS TXT or org-domain email). Contributions settle directly into the verified organization&rsquo;s Base wallet; Polytab never holds funds.
+          This organization hasn&rsquo;t verified its bounty page yet, so funds are not accepted. Verification confirms the organization&rsquo;s legal identity and official domain (registry + DNS TXT or org-domain email). Contributions settle directly into the verified organization&rsquo;s Base wallet; Polytab does not hold funds in normal direct-to-wallet flows (see Terms for limited stewardship disclosure).
         </p>
         <div class="flex flex-col items-center gap-2 pt-1">
           <a id="modalClaimLink" href="#" target="_blank" rel="noopener noreferrer" class="inline-block px-4 py-2 rounded-xl bg-amber-500/15 border border-amber-500/40 text-amber-200 text-sm font-semibold hover:text-amber-100">Is This Your Org? Claim This Page</a>
@@ -644,7 +644,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
   <footer class="border-t border-zinc-800/80 bg-black py-6 mt-12 text-xs text-zinc-400">
     <div class="w-full px-4 sm:px-6 lg:px-8 flex flex-col gap-4 items-center text-center">
       <p class="text-[11px] leading-relaxed text-zinc-500 w-full text-center">
-        Disclaimer: Polytab is static open-source interface software hosted on GitHub Pages and Cloudflare Edge. Contributions to bounty pages whose organizations have not verified are disabled entirely &mdash; Polytab never takes custody of funds. Contributions remain locked until each named organization verifies its bounty page (registry + domain control); verification unlocks the page and sends contributions directly to the organization&rsquo;s own payout wallet on Base. Verified charities receive contributions directly on-chain into their own Base wallet; user-created bounty pages settle directly into the creator&rsquo;s wallet. Polytab is not a bank, a charity, or an insurer; micro-transactions settle on Base/Polygon and are non-refundable; see Terms.
+        Disclaimer: Polytab is static open-source interface software hosted on GitHub Pages and Cloudflare Edge. Polytab is a non-custodial directory/routing tool &mdash; not a charity, fundraiser, broker, payment processor, bank, or insurer. In normal flows contributions/support/tips route directly to the listed wallet; Polytab does not take custody, control, or disbursement authority over funds except limited, explicitly disclosed stewardship custody-for-delivery described in Terms. Unverified pages are locked and unpromoted; verification (registry + domain for orgs; social verification + proof for creator causes) unlocks direct-to-wallet settlement. Contributions are not tax-deductible unless a verified nonprofit explicitly states so. Micro-transactions settle on Base/Polygon and are generally non-refundable; see Terms.
       </p>
       <div class="flex flex-wrap justify-center gap-3 font-mono text-[11px] w-full">
         <a href="https://www.youtube.com/@clairewineland" target="_blank" rel="noopener" class="text-zinc-300 hover:text-yellow-400">For Claire ♥</a>
@@ -2769,7 +2769,7 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         const payload = JSON.stringify(payloadObj, null, 2).replace(/```/g, "`\u200b``");
         const labels = isCreator ? "proposal,pending-verification,creator-cause" : "proposal,pending-verification";
         const body = isCreator
-          ? `### Creator / Community Cause Proposal\n\n\`\`\`json\n${payload}\n\`\`\`\n\n### Action Scope & Proof Plan\n${mdSafe(summary)}\n\n### Creator Verification\n- TikTok/Social: ${mdSafe(creatorHandle)}\n- Proof links: ${mdSafe(creatorProof)}\n- 501(c)(3) required: No (social verification + proof required)\n- Campaign type: open-ended, direct support/tip, no A/B voting\n\n### ID Pipeline (bloc format)\n- Parent: ${resolvedParent}\n- Subcategory bloc: ${category}\n- Suggested bloc ID: ${assignedId || "n/a"}\n- Payout Wallet (user-supplied): funds settle directly to the verified wallet. Polytab never holds funds. Attribution via bloc ID (never renumbered).`
+          ? `### Creator / Community Cause Proposal\n\n\`\`\`json\n${payload}\n\`\`\`\n\n### Action Scope & Proof Plan\n${mdSafe(summary)}\n\n### Creator Verification\n- TikTok/Social: ${mdSafe(creatorHandle)}\n- Proof links: ${mdSafe(creatorProof)}\n- 501(c)(3) required: No (social verification + proof required)\n- Campaign type: open-ended, direct support/tip, no A/B voting\n\n### ID Pipeline (bloc format)\n- Parent: ${resolvedParent}\n- Subcategory bloc: ${category}\n- Suggested bloc ID: ${assignedId || "n/a"}\n- Payout Wallet (user-supplied): funds settle directly to the verified wallet. Polytab does not hold funds in normal direct-to-wallet flows (see Terms for limited stewardship disclosure). Attribution via bloc ID (never renumbered).`
           : `### Project Proposal Metadata\n\`\`\`json\n${payload}\n\`\`\`\n\n### Action Scope & Proof Deliverable\n${mdSafe(summary)}\n\n### ID Pipeline (bloc format)\n- Parent: ${resolvedParent}\n- Subcategory bloc: ${category}\n- Suggested bloc ID: ${assignedId || "n/a"}\n- Payout Wallet (user-supplied): funds for this project settle directly into the creator's wallet after verified proof-of-work. Attribution via bloc ID (never renumbered).`;
         const params = new URLSearchParams({ title: `[Proposal]: ${title}`, labels, body });
         window.open(`https://github.com/${GITHUB_OWNER}/${GITHUB_REPO}/issues/new?${params.toString()}`, "_blank", "noopener");

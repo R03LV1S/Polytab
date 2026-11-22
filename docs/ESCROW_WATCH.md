@@ -1,13 +1,13 @@
 # Polytab Escrow & Watchdog — LEGACY / UNALLOCATED
 
-> **Status note (Nov 13, 2026):** Polytab moved to **claim-first, non-custodial** donations. Unverified bounty pages cannot accept funds at all; donors pay directly into the verified organization's wallet. Nothing is supposed to land in the omnibus escrow below. This watchdog remains in place only as an **alarm** for stray or malicious deposits to the legacy address — any movement triggers a hard issue. It is **not** a design for new payments.
+> **Status note (Nov 13, 2026):** Polytab moved to **claim-first, non-custodial** direct contributions. Unverified bounty pages cannot accept funds at all; supporters pay directly into the verified organization's wallet. Nothing is supposed to land in the omnibus escrow below. This watchdog remains in place only as an **alarm** for stray or malicious deposits to the legacy address — any movement triggers a hard issue. It is **not** a design for new payments.
 
 The Polytab Base escrow is a single shared omnibus address on **Base (chain ID 8453)**:
 
 **`0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08`**
 (QR: [`docs/escrow-qr.png`](docs/escrow-qr.png))
 
-It holds the donated micro-votes ($0.25–$1.00 each) for all currently **unclaimed** charity bounties until the organization verifies and claims its bounty page — see [Claim Your Bounty Page](https://polytab.store/claim.html). Funded pages are swept on-chain to the verified organization's payout wallet. Never-claimed bounties are converted to USD and deposited to the organization's official donation channel with public receipts (see `.github/ISSUE_TEMPLATE/sweep-receipt.md`).
+It holds contributed micro-votes ($0.25–$1.00 each) for any legacy **unclaimed** charity bounties until the organization verifies and claims its bounty page — see [Claim Your Bounty Page](https://polytab.store/claim.html). Funded pages are swept on-chain to the verified organization's payout wallet. Never-claimed bounties are converted to USD and deposited to the organization's official support channel with public receipts (see `.github/ISSUE_TEMPLATE/sweep-receipt.md`).
 
 ## How safety works
 

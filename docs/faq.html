@@ -55,7 +55,7 @@
       <hr>
 
       <h2 id="project-wallet">How to: Project Wallet (EVM 0x Address)</h2>
-      <p><strong>Short answer:</strong> The Project Wallet is an EVM-compatible <code>0x</code> address that your project controls. It&rsquo;s where contributions go once your organization verifies and contributions unlock. Unverified pages cannot accept contributions at all; there is no shared escrow, and Polytab never holds funds. You never share a private key or seed phrase with Polytab.</p>
+      <p><strong>Short answer:</strong> The Project Wallet is an EVM-compatible <code>0x</code> address that your project controls. It&rsquo;s where contributions go once your organization verifies and contributions unlock. Unverified pages cannot accept contributions at all; there is no shared escrow, and Polytab does not hold funds in normal direct-to-wallet flows (see Terms for limited stewardship disclosure). You never share a private key or seed phrase with Polytab.</p>
 
       <h3>What is an EVM 0x address?</h3>
       <p>An EVM (Ethereum Virtual Machine) address is a 42-character hexadecimal address starting with <code>0x</code>, for example <code>0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045</code>. It works on Base (chain ID <code>8453</code>) and Polygon, which are the networks Polytab uses. Think of it as the project&rsquo;s public account number &mdash; anyone can send funds to it or see what&rsquo;s in it, but only whoever holds the private key can move funds out.</p>
@@ -216,7 +216,7 @@
       <h2>Projects, Proof &amp; IDs</h2>
 
       <h3>Is my organization listed on a bounty page?</h3>
-      <p>Yes, thousands are &mdash; bounty pages named after registered charities and nonprofits are outreach proxies for those organizations. Until verification, your page shows <strong>&ldquo;Locked &mdash; organization must verify&rdquo;</strong> and contributions are disabled entirely. Once verified (registry + domain), the support button unlocks and funds settle directly on-chain into your organization&rsquo;s Base wallet &mdash; Polytab never holds funds. Note contributions do not appear until verification; locked pages accept none. See <a href="./claim.html">Claim Your Bounty Page</a>.</p>
+      <p>Yes, thousands are &mdash; bounty pages named after registered charities and nonprofits are outreach proxies for those organizations. Until verification, your page shows <strong>&ldquo;Locked &mdash; organization must verify&rdquo;</strong> and contributions are disabled entirely. Once verified (registry + domain), the support button unlocks and funds settle directly on-chain into your organization&rsquo;s Base wallet &mdash; Polytab does not hold funds in normal direct-to-wallet flows (see Terms for limited stewardship disclosure). Note contributions do not appear until verification; locked pages accept none. See <a href="./claim.html">Claim Your Bounty Page</a>.</p>
 
       <h3>How do I start a project?</h3>
       <p>Go to the <strong>Start a Project</strong> tab, choose a campaign type (Community Causes/Charities, Community &amp; Creator Causes, Experiments &amp; Public-Interest Ideas, or Civic Decisions &amp; Votes), fill in the title, category, location (address, ZIP, city, state, or country &mdash; we auto-geocode it), support/tip or funding goal as applicable, and Project Wallet, then submit. Your proposal is opened as a GitHub Issue for public review and verification. Creator/personal causes are open-ended, no A/B voting, and require social-handle verification plus public proof of work (no 501(c)(3) required).</p>
@@ -274,6 +274,9 @@
       <p><strong>Email:</strong> <a href="mailto:support@polytab.store">support@polytab.store</a><br>
       <strong>Website:</strong> <a href="https://polytab.store">https://polytab.store</a></p>
 
+      <h3>How do I report fraud, impersonation, or request takedown?</h3>
+      <p>Email <a href="mailto:support@polytab.store">support@polytab.store</a> with the project ID/URL, what happened, and evidence (screenshots, links, tx hash if relevant). We may lock or unpromote a listing while reviewing. On-chain transactions are irreversible; Polytab cannot claw back funds but can disable/unpromote fraudulent listings and escalate verification issues.</p>
+
       <hr>
 
       <h2>Still have a question?</h2>
@@ -284,7 +287,7 @@
   <footer class="border-t border-zinc-800/80 mt-8 text-xs text-zinc-400">
     <div class="max-w-4xl mx-auto px-4 py-6 flex flex-col gap-4 items-center text-center">
       <p class="text-[11px] leading-relaxed text-zinc-500 w-full text-center">
-        Disclaimer: Polytab is static open-source interface software hosted on GitHub Pages and Cloudflare Edge. Contributions to bounty pages whose organizations have not verified are disabled entirely &mdash; Polytab never takes custody of funds. Contributions remain locked until each named organization verifies its bounty page (registry + domain control); verification unlocks the page and sends contributions directly to the organization&rsquo;s own payout wallet on Base. Verified charities receive contributions directly on-chain into their own Base wallet; user-created bounty pages settle directly into the creator&rsquo;s wallet. Polytab is not a bank, a charity, or an insurer; micro-transactions settle on Base/Polygon and are non-refundable; see Terms.
+        Disclaimer: Polytab is static open-source interface software hosted on GitHub Pages and Cloudflare Edge. Polytab is a non-custodial directory/routing tool &mdash; not a charity, fundraiser, broker, payment processor, bank, or insurer. In normal flows contributions/support/tips route directly to the listed wallet; Polytab does not take custody, control, or disbursement authority over funds except limited, explicitly disclosed stewardship custody-for-delivery described in Terms. Unverified pages are locked and unpromoted; verification (registry + domain for orgs; social verification + proof for creator causes) unlocks direct-to-wallet settlement. Contributions are not tax-deductible unless a verified nonprofit explicitly states so. Micro-transactions settle on Base/Polygon and are generally non-refundable; see Terms.
       </p>
       <div class="flex flex-wrap justify-center gap-x-4 gap-y-2 text-[11px] font-mono text-zinc-400 w-full">
         <a href="https://www.youtube.com/@clairewineland" target="_blank" rel="noopener" class="hover:text-yellow-400">For Claire ♥</a>

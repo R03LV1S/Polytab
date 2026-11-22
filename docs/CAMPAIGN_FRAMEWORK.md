@@ -1,6 +1,6 @@
 # Polytab Campaign Framework (Likes, Endorsements, Stewards, Campaign Types)
 
-This document defines the evolved campaign framework for Polytab (`polytab.store`). It complements the claim-first, non-custodial model: Polytab never takes custody of funds; contributions settle directly to the verified payout wallet for a campaign/org when unlocked.
+This document defines the evolved campaign framework for Polytab (`polytab.store`). It complements the claim-first, non-custodial model: In normal direct-to-wallet flows, Polytab does not take custody, control, or disbursement authority over funds; contributions settle directly to the verified payout wallet for a campaign/org when unlocked. Any limited stewardship custody-for-delivery is explicitly disclosed in Terms.
 
 ## 1. Terminology: Likes vs Endorsements (separate concepts)
 

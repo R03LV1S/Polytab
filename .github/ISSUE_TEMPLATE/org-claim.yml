@@ -1,12 +1,12 @@
 name: Organization Claim — Polytab Bounty Page
-description: Claim your organization's Polytab bounty page and unlock donations. Free, public, auditable ($0).
+description: Claim your organization's Polytab bounty page and unlock direct support. Free, public, auditable ($0).
 title: "[Org Claim]: "
 labels: ["org-claim"]
 body:
   - type: markdown
     attributes:
       value: |
-        Claim a Polytab bounty page and unlock donations for it. Donations, when enabled, settle directly on-chain into the payout wallet you provide below — Polytab never holds funds.
+        Claim a Polytab bounty page and unlock direct support for it. Contributions, when enabled, settle directly on-chain into the payout wallet you provide below — Polytab never holds funds.
         Before submitting, read the full policy at https://polytab.store/claim.html.
         Verification is NOT optional and never uses self-asserted contact info: we require BOTH a registry match and domain control (DNS TXT or an email from the org's official domain).
   - type: input
@@ -57,14 +57,14 @@ body:
     id: contact_email
     attributes:
       label: Official email (same domain as the org website)
-      placeholder: "donations@who.int"
+      placeholder: "support@who.int"
     validations:
       required: true
   - type: input
     id: payout_wallet
     attributes:
       label: Payout wallet — 0x address on Base (chain ID 8453)
-      description: Donations for this page settle directly into this wallet. Ethereum-format 0x address, 42 characters.
+      description: Contributions for this page settle directly into this wallet. Ethereum-format 0x address, 42 characters.
       placeholder: "0x0000000000000000000000000000000000000000"
     validations:
       required: true
@@ -82,7 +82,7 @@ body:
     id: evidence
     attributes:
       label: Anything else that helps verification
-      description: Links to annual reports, official donation pages, press releases confirming the payout wallet, or screenshots of the registry entry.
+      description: Links to annual reports, official giving/support pages, press releases confirming the payout wallet, or screenshots of the registry entry.
       placeholder: "https://..."
   - type: checkboxes
     id: confirmations
@@ -91,7 +91,7 @@ body:
       options:
         - label: I am authorized to claim Polytab bounty pages on behalf of this organization, and this wallet belongs to the organization.
           required: true
-        - label: I understand donations are final and non-refundable, and that the donation button for this page becomes usable from the moment verification completes.
+        - label: I understand contributions/support are final and generally non-refundable, and that the support button for this page becomes usable from the moment verification completes.
           required: true
-        - label: I understand sweeps/donations are public (transaction hashes and receipts are published in this repository and feeds).
+        - label: I understand contributions/support records are public (transaction hashes and receipts are published in this repository and feeds).
           required: true
