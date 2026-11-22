@@ -2,7 +2,7 @@
   "schema_version": "3.0.0",
   "country_iso2": "GB",
   "admin1_state_province": "ENG-WLS",
-  "count": 5007,
+  "count": 5008,
   "organizations": [
     {
       "registry_id": "GB-CHC:200009",
@@ -110229,6 +110229,28 @@
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
       "last_verified_utc": "2026-11-16T16:05:08.006Z",
       "integrity_sha256": "f3619089442779fb7451a2082c6cea2ee03f8e27b8df4cb56458204f4026e333"
+    },
+    {
+      "registry_id": "GB-CHC:266086",
+      "name": "YARCOMBE AND DISTRICT YOUNG FARMERS CLUB",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
+        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
+        "ACCOUNTS_FILED_2025-07-31 00:00:00.0000000"
+      ],
+      "location": {
+        "country_iso2": "GB",
+        "admin1_state_province": "ENG-WLS",
+        "admin2_county_district": null,
+        "locality_city_town": "EXETER"
+      },
+      "website": null,
+      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
+      "last_verified_utc": "2026-11-22T06:55:20.238Z",
+      "integrity_sha256": "27882290e8f0d321c770a1e2bf9542d052914a988f79e748d186e2bc2e9b5fd6"
     }
   ]
 }
