@@ -269125,7 +269125,11 @@
         "lat": null,
         "lng": null,
         "website": "https://www.cambridgeaid.org",
-        "socials": {},
+        "socials": {
+          "facebook": "https://www.facebook.com/CambridgeAid/",
+          "instagram": "https://www.instagram.com/cambridgeaid",
+          "linkedin": "https://www.linkedin.com/company/cambridge-aid"
+        },
         "parentCategory": "Charities",
         "campaignType": "open_ended",
         "displayTargetUSD": 5000
@@ -920663,5 +920667,5 @@
       "date_published": "2026-11-21T00:00:00Z"
     }
   ],
-  "updated_at": "2026-11-20T23:01:50.147Z"
+  "updated_at": "2026-11-22T07:46:45.432Z"
 }
