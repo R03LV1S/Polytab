@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Claim Your Bounty Page — Polytab</title>
-  <meta name="description" content="How a verified organization can claim its bounty page and unlock Polytab contributions. Funds flow on-chain to your organization's wallet; Polytab does not hold funds in normal direct-to-wallet flows (see Terms for limited stewardship disclosure)." />
+  <title>Claim Your Page — Polytab</title>
+  <meta name="description" content="How organizations and creators claim a Polytab page and unlock direct support. Org claims require registry + domain verification; Creator Causes require TikTok ownership verification + Base payout wallet. Polytab does not hold funds in normal direct-to-wallet flows (see Terms for limited stewardship disclosure)." />
   <meta name="theme-color" content="#000000" />
   <link rel="manifest" href="./manifest.json" />
   <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
@@ -43,14 +43,26 @@
 
   <main class="max-w-4xl mx-auto px-4 py-8">
     <article class="card p-6 sm:p-8 prose">
-      <h1 class="text-2xl sm:text-3xl font-extrabold text-white !mt-0">Claim Your Bounty Page</h1>
-      <p class="text-sm text-zinc-400"><strong>For organizations named on Polytab&rsquo;s project shelf.</strong></p>
+      <h1 class="text-2xl sm:text-3xl font-extrabold text-white !mt-0">Claim Your Page</h1>
+      <p class="text-sm text-zinc-400"><strong>For organizations and creators named on Polytab&rsquo;s project shelf.</strong></p>
 
-      <p>Many organizations are listed on Polytab as possible recipients of small-dollar community grants (&ldquo;micro-votes&rdquo;). Until your page is <strong>verified</strong>, contributions on it are disabled &mdash; nothing is collected, nothing is held, and nothing transits Polytab. Verification unlocks the page: contributions then flow directly on-chain into <strong>your organization&rsquo;s own wallet</strong>.</p>
+      <p>Until a page is <strong>verified</strong>, contributions on it are disabled &mdash; nothing is collected, nothing is held, and nothing transits Polytab. Verification unlocks the page: contributions then flow directly on-chain into the verified <strong>organization or creator&rsquo;s own Base wallet</strong>. Polytab does not hold funds in normal direct-to-wallet flows (see Terms for limited stewardship disclosure).</p>
 
       <hr>
 
-      <h2>What verification means</h2>
+      <h2>Creator Causes (TikTok / social creators)</h2>
+      <p>Community &amp; Creator Causes are open-ended direct support/tip pages (no A/B voting, no 501(c)(3) required). To unlock a creator cause, complete both confirmations:</p>
+      <ol>
+        <li><strong>Confirm TikTok account ownership.</strong> Use the <strong>&ldquo;1. Confirm TikTok with Polytab&rdquo;</strong> button on the locked project page. This uses Polytab&rsquo;s TikTok Login Kit flow to verify your TikTok account. Polytab does not collect your TikTok password.</li>
+        <li><strong>Add and verify your Base payout wallet.</strong> Submit the <strong>Creator Claim</strong> issue with your project ID, TikTok verification evidence, Base payout wallet (<code>0x...</code>, chain ID 8453), wallet-control proof/signature, and public proof links.</li>
+      </ol>
+      <div class="callout text-sm text-zinc-200">
+        <strong>Streamlined flow:</strong> Confirm TikTok &rarr; submit wallet + proof claim &rarr; Polytab review &rarr; page unlocks for direct support/tips. Contributions/support are not tax-deductible unless a verified nonprofit/fiscal sponsor explicitly states so.
+      </div>
+
+      <hr>
+
+      <h2>Organizations / Charities</h2>
       <p>We confirm two things &mdash; <strong>both are required</strong>:</p>
       <ul>
         <li><strong>Registry match (required):</strong> a government or recognized registry listing (IRS EIN, Canada Revenue Agency BN, UK Charity Commission number, state nonprofit registry, or equivalent) tying your legal name to your country and mission.</li>
@@ -69,15 +81,23 @@
       <hr>
 
       <h2>How to claim (step-by-step)</h2>
+      <h3>Creator Cause (TikTok / social)</h3>
       <div class="space-y-3">
-        <div class="howto-step"><div class="howto-num">1</div><div>Find the project ID on your organization&rsquo;s bounty page (e.g., <code>#10001</code>).</div></div>
-        <div class="howto-step"><div class="howto-num">2</div><div><strong>Open the claim form.</strong> On your bounty card or page, click <em>&ldquo;Is This Your Org? Claim This Page&rdquo;</em> &mdash; it opens a pre-filled GitHub issue using <code>org-claim.yml</code>. No GitHub? Email <a href="mailto:support@polytab.store">support@polytab.store</a> with the same information instead.</div></div>
-        <div class="howto-step"><div class="howto-num">3</div><div><strong>Fill it in:</strong> organization legal name, project ID(s), official website, registry name + number, registry lookup URL, first and last name of a registry-listed officer, official email at your domain, and your <strong>payout wallet</strong> &mdash; a <code>0x</code> address on <strong>Base, chain ID 8453</strong>.</div></div>
-        <div class="howto-step"><div class="howto-num">4</div><div><strong>Verify.</strong> Add a DNS TXT record <code>polytab-verify=&lt;project id&gt;</code> to your domain (e.g. <code>polytab-verify=10001</code>) and mention it in the issue, or reply from an email at your org&rsquo;s domain to the officer-listed person. Without one of these we verify against the registry listing, which takes longer.</div></div>
-        <div class="howto-step"><div class="howto-num">5</div><div><strong>We record the wallet and unlock your page.</strong> On verification, your organization&rsquo;s support button turns on and every support settles directly on-chain into your Base wallet &mdash; no funds are ever held, pooled, or forwarded by Polytab. A public receipt (transaction hash / support proof) is posted to the repo so donors can audit any sweep.</div></div>
+        <div class="howto-step"><div class="howto-num">1</div><div>Open the locked Creator Cause page and click <strong>&ldquo;1. Confirm TikTok with Polytab&rdquo;</strong>. Complete TikTok Login Kit authorization to verify account ownership.</div></div>
+        <div class="howto-step"><div class="howto-num">2</div><div>Click <strong>&ldquo;2. Submit Wallet + Proof Claim&rdquo;</strong> (pre-filled GitHub issue <code>creator-claim.yml</code>). Include project ID, TikTok handle/verification, Base payout wallet (<code>0x</code>, chain ID 8453), wallet-control signature/proof, and public proof links.</div></div>
+        <div class="howto-step"><div class="howto-num">3</div><div><strong>Polytab review &amp; unlock.</strong> After verification, the page unlocks for direct support/tips to the verified wallet. No A/B voting; open-ended direct funding. Polytab does not hold funds in normal direct-to-wallet flows.</div></div>
       </div>
 
-      <p class="mt-3"><strong>Lower-tech route:</strong> email <a href="mailto:support@polytab.store">support@polytab.store</a> with: org name, project ID(s), website, registry name + ID + lookup URL, requester&rsquo;s name, official email, and your payout wallet (0x, Base 8453). Same verification, same unlock.</p>
+      <h3 class="!mt-6">Organization / Charity</h3>
+      <div class="space-y-3">
+        <div class="howto-step"><div class="howto-num">1</div><div>Find the project ID on your organization&rsquo;s bounty page (e.g., <code>#10001</code>).</div></div>
+        <div class="howto-step"><div class="howto-num">2</div><div><strong>Open the claim form.</strong> Click <em>&ldquo;Is This Your Org? Claim This Page&rdquo;</em> &mdash; it opens a pre-filled GitHub issue using <code>org-claim.yml</code>. No GitHub? Email <a href="mailto:support@polytab.store">support@polytab.store</a> with the same information instead.</div></div>
+        <div class="howto-step"><div class="howto-num">3</div><div><strong>Fill it in:</strong> organization legal name, project ID(s), official website, registry name + number, registry lookup URL, first and last name of a registry-listed officer, official email at your domain, and your <strong>payout wallet</strong> &mdash; a <code>0x</code> address on <strong>Base, chain ID 8453</strong>.</div></div>
+        <div class="howto-step"><div class="howto-num">4</div><div><strong>Verify.</strong> Add a DNS TXT record <code>polytab-verify=&lt;project id&gt;</code> to your domain (e.g. <code>polytab-verify=10001</code>) and mention it in the issue, or reply from an email at your org&rsquo;s domain to the officer-listed person. Without one of these we verify against the registry listing, which takes longer.</div></div>
+        <div class="howto-step"><div class="howto-num">5</div><div><strong>We record the wallet and unlock your page.</strong> On verification, the page unlocks and support settles directly on-chain into your Base wallet. A public receipt (transaction hash / support proof) is posted to the repo so donors can audit.</div></div>
+      </div>
+
+      <p class="mt-3"><strong>Lower-tech route:</strong> email <a href="mailto:support@polytab.store">support@polytab.store</a> with the same information. Creator claims: project ID, TikTok handle/profile, TikTok verification evidence, Base 8453 payout wallet, wallet-control proof, and public proof links. Org claims: org name, project ID(s), website, registry ID/URL, officer name, official email, and payout wallet. Same verification, same unlock.</p>
 
       <hr>
 
@@ -100,9 +120,9 @@
 
       <h2>Safety &amp; anti-fraud</h2>
       <ul>
-        <li>We verify the organization, not donors. Donor wallets are never harvested, shared, or monetized.</li>
-        <li>We never accept claims via DMs, social posts, phone calls, or personal email. Only official-domain channels and the public registry.</li>
-        <li>Impersonating an organization to capture contributions is fraud; we report it and we hold the page locked.</li>
+        <li>We verify the organization or creator, not donors/contributors. Wallets are never harvested, shared, or monetized.</li>
+        <li>We never accept claims via DMs, unsolicited social posts, phone calls, or personal email as sole verification. Use the documented claim/verification flow.</li>
+        <li>Impersonating an organization or creator to capture contributions is fraud; we report it and we hold the page locked.</li>
         <li>Sweeps and contributions are public: transaction hashes on Base and receipts in the <a href="https://github.com/R03LV1S/Polytab" target="_blank" rel="noopener">Polytab GitHub repo</a>. Nobody &mdash; including Polytab &mdash; can silently take or re-route contributed funds.</li>
       </ul>
 

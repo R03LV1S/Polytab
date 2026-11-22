@@ -607,12 +607,14 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       </div>
       <div id="modalLockBlock" class="hidden space-y-4 border border-amber-500/30 bg-amber-500/5 rounded-xl p-5 text-center">
         <div class="text-3xl leading-none" aria-hidden="true">&#128274;</div>
-        <h3 class="text-base font-bold text-amber-200">Contributions locked for #<span id="lockProjectId"></span></h3>
-        <p class="text-xs text-zinc-300 leading-relaxed">
+        <h3 id="modalLockTitle" class="text-base font-bold text-amber-200">Contributions locked for #<span id="lockProjectId"></span></h3>
+        <p id="modalLockCopy" class="text-xs text-zinc-300 leading-relaxed">
           This organization hasn&rsquo;t verified its bounty page yet, so funds are not accepted. Verification confirms the organization&rsquo;s legal identity and official domain (registry + DNS TXT or org-domain email). Contributions settle directly into the verified organization&rsquo;s Base wallet; Polytab does not hold funds in normal direct-to-wallet flows (see Terms for limited stewardship disclosure).
         </p>
         <div class="flex flex-col items-center gap-2 pt-1">
+          <a id="modalTikTokVerifyLink" href="#" class="hidden inline-block px-4 py-2 rounded-xl bg-zinc-100 text-black text-sm font-semibold hover:bg-white">1. Confirm TikTok with Polytab</a>
           <a id="modalClaimLink" href="#" target="_blank" rel="noopener noreferrer" class="inline-block px-4 py-2 rounded-xl bg-amber-500/15 border border-amber-500/40 text-amber-200 text-sm font-semibold hover:text-amber-100">Is This Your Org? Claim This Page</a>
+          <p id="modalCreatorClaimHint" class="hidden text-[11px] text-zinc-400 leading-relaxed">After TikTok confirmation, submit your verified Base payout wallet (chain 8453) and proof. Polytab reviews and unlocks direct support/tips after verification.</p>
           <a href="./claim.html" target="_blank" rel="noopener noreferrer" class="text-[11px] text-zinc-400 hover:text-zinc-200 underline underline-offset-2">How verification works &rarr;</a>
         </div>
       </div>
@@ -681,6 +683,17 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       const GITHUB_REPO = "Polytab";
       const ENDORSEMENT_API = (window.POLYTAB_ENDORSEMENT_API || "").replace(/\/$/, "");
       const LIKE_GUARD = (window.POLYTAB_LIKE_GUARD || "").replace(/\/$/, "");
+      try {
+        const _u = new URL(window.location.href);
+        if (_u.searchParams.get("endorsed") === "1" && String(_u.searchParams.get("endorsed_provider") || "").toLowerCase() === "tiktok") {
+          const _pid = String(_u.searchParams.get("endorsed_project") || "").trim();
+          const _label = String(_u.searchParams.get("verified_label") || "").trim();
+          const _profile = String(_u.searchParams.get("verified_profile") || "").trim();
+          if (_pid) sessionStorage.setItem("polytab_tiktok_verified_" + _pid, JSON.stringify({ provider: "tiktok", projectId: _pid, label: _label, profile: _profile, ts: Date.now() }));
+          ["endorsed","endorsed_provider","endorsed_project","verified_label","verified_profile","creator_claim"].forEach((k) => _u.searchParams.delete(k));
+          history.replaceState({}, "", _u.toString());
+        }
+      } catch (_) {}
       const BASE_CHAIN_ID = 8453;
       let ethUsdSpot = 2800;
       let baseGasWei = null;
@@ -1080,7 +1093,40 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         if (m && typeof m.get === "function") { const e = m.get(String(id)); if (e && isValidAddress(e.wallet)) return e.wallet; }
         return null;
       }
+      function isCreatorCauseItem(item) {
+        const m = (item && item._polytab) || item || {};
+        const p = String(item && item.parentCategory || m.parentCategory || "").toLowerCase();
+        const c = String(item && item.category || m.category || "").toLowerCase();
+        return p === "creator causes" || p.includes("creator cause") || c === "community & creator causes" || c.includes("creator cause");
+      }
+      function getCreatorTikTokVerification(pid) {
+        try { const raw = sessionStorage.getItem("polytab_tiktok_verified_" + String(pid || "")); return raw ? JSON.parse(raw) : null; } catch (_) { return null; }
+      }
+      function creatorClaimIssueUrl(item) {
+        const m = (item && item._polytab) || item || {};
+        const handle = String(item.creatorHandle || m.creatorHandle || (item.socials && item.socials.tiktok) || (m.socials && m.socials.tiktok) || item.website || m.website || "").slice(0, 200);
+        const proof = String(item.proofLinks || m.proofLinks || item.website || m.website || "").slice(0, 500);
+        const ver = getCreatorTikTokVerification(item.id);
+        const verification = ver ? ("User reports completing Polytab TikTok Login Kit on this browser for project " + String(item.id || "") + "; reviewer must confirm against endorsement-ledger/server records before unlocking. Reported handle/profile: " + (ver.label || handle) + (ver.profile ? " (" + ver.profile + ")" : "")) : "";
+        const params = new URLSearchParams({
+          template: "creator-claim.yml",
+          title: "[Creator Claim]: #" + String(item.id || "") + " - " + String(item.title || "").slice(0, 80),
+          labels: "creator-claim,pending-verification",
+          project_id: String(item.id || ""),
+          tiktok_handle: handle,
+          tiktok_verification: verification,
+          proof_links: proof
+        });
+        return "https://github.com/" + GITHUB_OWNER + "/" + GITHUB_REPO + "/issues/new?" + params.toString();
+      }
+      function creatorTikTokVerifyUrl(item) {
+        if (!ENDORSEMENT_API) return "";
+        const returnTo = new URL(window.location.href);
+        returnTo.searchParams.set("creator_claim", String(item.id || ""));
+        return ENDORSEMENT_API + "/auth/start?provider=tiktok&project_id=" + encodeURIComponent(String(item.id || "")) + "&return_to=" + encodeURIComponent(returnTo.toString());
+      }
       function orgClaimIssueUrl(item) {
+        if (isCreatorCauseItem(item)) return creatorClaimIssueUrl(item);
         const params = new URLSearchParams({
           title: "[Org Claim]: #" + String(item.id || "") + " - " + String(item.title || "").slice(0, 80),
           labels: "org-claim",
@@ -2222,13 +2268,16 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
           ghLink.addEventListener("click", (ev) => ev.stopPropagation());
           endorseBottom.appendChild(ghLink);
           if (orgClaimBadgeFor(item) === "unclaimed") {
+            const creator = isCreatorCauseItem(item);
             const claimLink = document.createElement("a");
             claimLink.href = orgClaimIssueUrl(item);
             claimLink.target = "_blank";
             claimLink.rel = "noopener noreferrer";
             claimLink.className = "text-[10px] text-amber-300 hover:text-amber-200 underline underline-offset-2";
-            claimLink.textContent = "Is This Your Org? Claim This Page";
-            claimLink.title = "Claiming unlocks contributions for this page. Verify via GitHub issue: org name, website, registry ID, and the payout wallet to send contributions to.";
+            claimLink.textContent = creator ? "Claim This Creator Cause" : "Is This Your Org? Claim This Page";
+            claimLink.title = creator
+              ? "Creator claim: verify your TikTok account with Polytab Login Kit, then submit your Base payout wallet and proof. Contributions unlock after verification."
+              : "Claiming unlocks contributions for this page. Verify via GitHub issue: org name, website, registry ID, and the payout wallet to send contributions to.";
             claimLink.addEventListener("click", (ev) => ev.stopPropagation());
             endorseBottom.appendChild(claimLink);
           } else if (isVotingItem(item)) {
@@ -2460,9 +2509,25 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         document.getElementById("modalCategoryBadge").textContent = pcat + " · " + proposal.category;
         document.getElementById("modalTitle").textContent = proposal.title;
         if (unclaimed) {
+          const creator = isCreatorCauseItem(proposal);
           const idEl = document.getElementById("lockProjectId"); if (idEl) idEl.textContent = "#" + String(proposal.id);
+          const lockCopy = document.getElementById("modalLockCopy");
+          if (lockCopy) lockCopy.textContent = creator
+            ? "This Creator Cause is locked until the creator verifies TikTok account ownership and adds a verified Base payout wallet. Use the TikTok confirmation button, then submit your wallet/proof claim. Contributions stay locked until verification is complete; Polytab does not hold funds in normal direct-to-wallet flows."
+            : "This organization hasn\u2019t verified its bounty page yet, so funds are not accepted. Verification confirms the organization\u2019s legal identity and official domain (registry + DNS TXT or org-domain email). Contributions settle directly into the verified organization\u2019s Base wallet; Polytab does not hold funds in normal direct-to-wallet flows (see Terms for limited stewardship disclosure).";
           const claimLink = document.getElementById("modalClaimLink");
-          if (claimLink) claimLink.href = orgClaimIssueUrl(proposal);
+          if (claimLink) {
+            claimLink.href = orgClaimIssueUrl(proposal);
+            claimLink.textContent = creator ? "2. Submit Wallet + Proof Claim" : "Is This Your Org? Claim This Page";
+          }
+          const tt = document.getElementById("modalTikTokVerifyLink");
+          const ttUrl = creator ? creatorTikTokVerifyUrl(proposal) : "";
+          if (tt) {
+            tt.classList.toggle("hidden", !creator || !ttUrl);
+            if (ttUrl) tt.href = ttUrl;
+          }
+          const hint = document.getElementById("modalCreatorClaimHint");
+          if (hint) hint.classList.toggle("hidden", !creator);
         } else {
           if (!requiresPositionSelection(proposal)) {
             const positions = getModalPositions(proposal);

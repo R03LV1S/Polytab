@@ -194,7 +194,14 @@
           return usd;
         } catch (_) { return null; }
       }
+      function isCreatorCauseItem(item) {
+        const m = (item && item._polytab) || item || {};
+        const p = String(item && item.parentCategory || m.parentCategory || "").toLowerCase();
+        const c = String(item && item.category || m.category || "").toLowerCase();
+        return p === "creator causes" || p.includes("creator cause") || c === "community & creator causes" || c.includes("creator cause");
+      }
       function orgClaimIssueUrl(item) {
+        if (isCreatorCauseItem(item)) return creatorClaimIssueUrl(item);
         const params = new URLSearchParams({
           title: "[Org Claim]: #" + String(item.id || "") + " - " + String(item.title || "").slice(0, 80),
           labels: "org-claim",
@@ -208,10 +215,50 @@
         });
         return "https://github.com/" + GITHUB_OWNER + "/" + GITHUB_REPO + "/issues/new?" + params.toString();
       }
+      function captureCreatorTikTokVerification() {
+        try {
+          const u = new URL(window.location.href);
+          if (u.searchParams.get("endorsed") !== "1" || String(u.searchParams.get("endorsed_provider") || "").toLowerCase() !== "tiktok") return;
+          const pid = String(u.searchParams.get("endorsed_project") || "").trim();
+          const label = String(u.searchParams.get("verified_label") || "").trim();
+          const profile = String(u.searchParams.get("verified_profile") || "").trim();
+          if (!pid) return;
+          sessionStorage.setItem("polytab_tiktok_verified_" + pid, JSON.stringify({ provider: "tiktok", projectId: pid, label, profile, ts: Date.now() }));
+          ["endorsed","endorsed_provider","endorsed_project","verified_label","verified_profile","creator_claim"].forEach((k) => u.searchParams.delete(k));
+          history.replaceState({}, "", u.toString());
+        } catch (_) {}
+      }
+      function getCreatorTikTokVerification(pid) {
+        try { const raw = sessionStorage.getItem("polytab_tiktok_verified_" + String(pid || "")); return raw ? JSON.parse(raw) : null; } catch (_) { return null; }
+      }
+      function creatorTikTokVerifyUrl(item) {
+        if (!ENDORSEMENT_API) return "";
+        const returnTo = new URL(window.location.href);
+        returnTo.searchParams.set("creator_claim", String(item.id || ""));
+        return ENDORSEMENT_API + "/auth/start?provider=tiktok&project_id=" + encodeURIComponent(String(item.id || "")) + "&return_to=" + encodeURIComponent(returnTo.toString());
+      }
+      function creatorClaimIssueUrl(item) {
+        const meta = (item && item._polytab) || {};
+        const handle = String(item.creatorHandle || meta.creatorHandle || (item.socials && item.socials.tiktok) || meta.website || "").slice(0, 200);
+        const proof = String(item.proofLinks || meta.proofLinks || item.website || meta.website || "").slice(0, 500);
+        const ver = getCreatorTikTokVerification(item.id);
+        const verification = ver ? ("User reports completing Polytab TikTok Login Kit on this browser for project " + String(item.id || "") + "; reviewer must confirm against endorsement-ledger/server records before unlocking. Reported handle/profile: " + (ver.label || handle) + (ver.profile ? " (" + ver.profile + ")" : "")) : "";
+        const params = new URLSearchParams({
+          template: "creator-claim.yml",
+          title: "[Creator Claim]: #" + String(item.id || "") + " - " + String(item.title || "").slice(0, 80),
+          labels: "creator-claim,pending-verification",
+          project_id: String(item.id || ""),
+          tiktok_handle: handle,
+          tiktok_verification: verification,
+          proof_links: proof
+        });
+        return "https://github.com/" + GITHUB_OWNER + "/" + GITHUB_REPO + "/issues/new?" + params.toString();
+      }
       const GITHUB_REPO = "Polytab";
       // Cloud endorsement backend (Cloudflare Worker). Set to your worker base URL when deployed, e.g. "https://polytab-endorsement-ledger.<subdomain>.workers.dev"
       const ENDORSEMENT_API = (window.POLYTAB_ENDORSEMENT_API || "").replace(/\/$/, "");
       const LIKE_GUARD = (window.POLYTAB_LIKE_GUARD || "").replace(/\/$/, "");
+      captureCreatorTikTokVerification();
       const qs = new URLSearchParams(location.search);
       const wantId = String(qs.get("id") || "").trim();
       const statusMsg = document.getElementById("statusMsg");
@@ -539,7 +586,9 @@
                 : "Futarchy campaign: choose the position/outcome you back. 100% funds the selected verified destination per campaign rules (0% protocol fee, 0% staker payout, no redistribution).";
               escrowNote.className = baseTip + " text-cyan-200";
             } else if (isLocked) {
-              escrowNote.textContent = "Contributions are disabled on this page until the named organization verifies (registry + domain). Nothing is collected; nothing transits Polytab.";
+              escrowNote.textContent = isCreatorCauseItem(item)
+                ? "This Creator Cause is locked until TikTok account ownership is verified and a verified Base payout wallet is added. Confirm TikTok with Polytab, then submit wallet + proof claim. Nothing is collected until unlocked; Polytab does not hold funds in normal direct-to-wallet flows."
+                : "Contributions are disabled on this page until the named organization verifies (registry + domain). Nothing is collected; nothing transits Polytab.";
               escrowNote.className = baseTip + " text-amber-300";
             } else {
               escrowNote.textContent = "Verified page — pay directly on-chain; every sweep is public.";
@@ -562,12 +611,23 @@
             links.appendChild(a);
           }
           if (isLocked) {
+            const creator = isCreatorCauseItem(item);
+            if (creator) {
+              const ttUrl = creatorTikTokVerifyUrl(item);
+              if (ttUrl) {
+                const tt = document.createElement("a");
+                tt.href = ttUrl;
+                tt.className = "inline-flex items-center px-2.5 py-1 rounded-md bg-zinc-100 text-black font-semibold text-[11px] hover:bg-white";
+                tt.textContent = "1. Confirm TikTok with Polytab";
+                links.appendChild(tt);
+              }
+            }
             const claim = document.createElement("a");
             claim.href = orgClaimIssueUrl(item);
             claim.target = "_blank";
             claim.rel = "noopener noreferrer";
             claim.className = "inline-flex items-center px-2.5 py-1 rounded-md bg-amber-500/10 border border-amber-500/30 text-amber-300 hover:text-amber-200 font-semibold text-[11px]";
-            claim.textContent = "Is This Your Org? Claim This Page";
+            claim.textContent = creator ? "2. Submit Wallet + Proof Claim" : "Is This Your Org? Claim This Page";
             links.appendChild(claim);
           }
           const socialDefs = [
@@ -739,10 +799,17 @@
             buy.className = "inline-flex items-center justify-center px-4 py-2.5 rounded-xl bg-purple-700 hover:bg-purple-600 text-white text-xs font-bold transition";
             buy.title = "Select Position A or B in the action dialog before contributing.";
           } else if (isLocked) {
-            buy.href = orgClaimIssueUrl(item);
-            buy.textContent = "Is This Your Org? Claim This Page";
-            buy.className = "inline-flex items-center justify-center px-4 py-2.5 rounded-xl bg-amber-500/15 border border-amber-500/40 text-amber-200 text-xs font-bold transition hover:text-amber-100";
-            buy.title = "Contributions unlock after org verification. If you represent this organization, claim the page.";
+            const creator = isCreatorCauseItem(item);
+            const ttUrl = creator ? creatorTikTokVerifyUrl(item) : "";
+            buy.href = ttUrl || orgClaimIssueUrl(item);
+            buy.textContent = creator ? (ttUrl ? "1. Confirm TikTok with Polytab" : "Claim This Creator Cause") : "Is This Your Org? Claim This Page";
+            buy.className = creator && ttUrl
+              ? "inline-flex items-center justify-center px-4 py-2.5 rounded-xl bg-zinc-100 text-black text-xs font-bold transition hover:bg-white"
+              : "inline-flex items-center justify-center px-4 py-2.5 rounded-xl bg-amber-500/15 border border-amber-500/40 text-amber-200 text-xs font-bold transition hover:text-amber-100";
+            buy.title = creator
+              ? "Verify TikTok ownership with Polytab Login Kit, then submit your verified Base payout wallet and proof to unlock direct support/tips."
+              : "Contributions unlock after org verification. If you represent this organization, claim the page.";
+            if (!ttUrl) { buy.target = "_blank"; buy.rel = "noopener noreferrer"; }
           } else {
             buy.href = "./index.html#" + encodeURIComponent(item.id);
             buy.textContent = "Fund this intervention (min $" + item.votePriceUSD.toFixed(2) + " / unit)";

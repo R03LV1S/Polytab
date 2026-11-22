@@ -246,11 +246,25 @@ async function handleStart(request, env, url) {
   const headers = corsHeaders(request, env);
   const provider = String(url.searchParams.get("provider") || "").toLowerCase();
   const projectId = String(url.searchParams.get("project_id") || "").trim();
-  const returnTo = String(url.searchParams.get("return_to") || "");
+  const returnToRaw = String(url.searchParams.get("return_to") || "");
   const pconf = getProviderConfig(env, provider);
   if (!pconf) return json({ error: "unsupported_or_unconfigured_provider" }, 400, headers);
   if (!isValidProjectId(projectId)) return json({ error: "invalid_project_id" }, 400, headers);
   if (!env.PEPPER_SECRET || String(env.PEPPER_SECRET).length < 32) return json({ error: "server_not_configured" }, 500, headers);
+
+  const allowed = getAllowedOrigins(env);
+  let returnTo = "";
+  if (returnToRaw) {
+    try {
+      const ru = new URL(returnToRaw);
+      const allowPath = ["/", "/index.html", "/project.html"].includes(ru.pathname);
+      if ((ru.protocol === "https:" || ru.protocol === "http:") && allowed.includes(ru.origin) && allowPath) {
+        const safe = new URL(ru.origin + ru.pathname);
+        ["id", "creator_claim"].forEach((k) => { const v = ru.searchParams.get(k); if (v) safe.searchParams.set(k, String(v).slice(0, 80)); });
+        returnTo = safe.toString();
+      }
+    } catch (_) {}
+  }
 
   const now = Date.now();
   // prune expired states (best effort)
@@ -261,9 +275,15 @@ async function handleStart(request, env, url) {
   const challenge = await sha256B64Url(verifier);
   const expiresAt = now + 5 * 60 * 1000;
 
-  await env.DB.prepare(
-    "INSERT INTO oauth_states (state_nonce, project_id, provider, code_verifier, created_at, expires_at) VALUES (?, ?, ?, ?, ?, ?)"
-  ).bind(state, projectId, provider, verifier, now, expiresAt).run();
+  try {
+    await env.DB.prepare(
+      "INSERT INTO oauth_states (state_nonce, project_id, provider, code_verifier, created_at, expires_at, return_to) VALUES (?, ?, ?, ?, ?, ?, ?)"
+    ).bind(state, projectId, provider, verifier, now, expiresAt, returnTo || null).run();
+  } catch (_) {
+    await env.DB.prepare(
+      "INSERT INTO oauth_states (state_nonce, project_id, provider, code_verifier, created_at, expires_at) VALUES (?, ?, ?, ?, ?, ?)"
+    ).bind(state, projectId, provider, verifier, now, expiresAt).run();
+  }
 
   const publicBase = String(env.PUBLIC_BASE_URL || new URL(request.url).origin).replace(/\/$/, "");
   const redirectUri = `${publicBase}/auth/callback`;
@@ -277,10 +297,6 @@ async function handleStart(request, env, url) {
   auth.searchParams.set("code_challenge_method", "S256");
   const extras = pconf.authParamsExtra || {};
   for (const [k, v] of Object.entries(extras)) auth.searchParams.set(k, String(v));
-
-  // store return_to hint in state table? simple: encode allowed return origin in cookie-less way not needed;
-  // we redirect to first allowed origin with params. return_to is validated client-side by allowlist on callback redirect below if provided.
-  // To carry return_to safely, append a short hash mapping is overkill; instead include in state-derived KV? not available. We'll ignore custom return_to and use ALLOWED_ORIGINS[0] or referrer origin if allowed.
   return Response.redirect(auth.toString(), 302);
 }
 
@@ -295,13 +311,19 @@ async function handleCallback(request, env, url) {
   let row = null;
   try {
     row = await env.DB.prepare(
-      "DELETE FROM oauth_states WHERE state_nonce = ? RETURNING project_id, provider, code_verifier, expires_at"
+      "DELETE FROM oauth_states WHERE state_nonce = ? RETURNING project_id, provider, code_verifier, expires_at, return_to"
     ).bind(state).first();
   } catch (_) {
     // Safe fallback for engines without RETURNING
-    row = await env.DB.prepare(
-      "SELECT project_id, provider, code_verifier, expires_at FROM oauth_states WHERE state_nonce = ?"
-    ).bind(state).first();
+    try {
+      row = await env.DB.prepare(
+        "SELECT project_id, provider, code_verifier, expires_at, return_to FROM oauth_states WHERE state_nonce = ?"
+      ).bind(state).first();
+    } catch (_) {
+      row = await env.DB.prepare(
+        "SELECT project_id, provider, code_verifier, expires_at FROM oauth_states WHERE state_nonce = ?"
+      ).bind(state).first();
+    }
     if (row) {
       await env.DB.prepare("DELETE FROM oauth_states WHERE state_nonce = ?").bind(state).run();
     }
@@ -391,11 +413,25 @@ async function handleCallback(request, env, url) {
   }
 
   const allowed = getAllowedOrigins(env);
-  const destBase = allowed[0] || "https://polytab.store";
+  let destBase = allowed[0] || "https://polytab.store";
+  const returnTo = row && row.return_to ? String(row.return_to) : "";
+  if (returnTo) {
+    try {
+      const ru = new URL(returnTo);
+      const allowPath = ["/", "/index.html", "/project.html"].includes(ru.pathname);
+      if ((ru.protocol === "https:" || ru.protocol === "http:") && allowed.includes(ru.origin) && allowPath) {
+        const safe = new URL(ru.origin + ru.pathname);
+        ["id", "creator_claim"].forEach((k) => { const v = ru.searchParams.get(k); if (v) safe.searchParams.set(k, String(v).slice(0, 80)); });
+        destBase = safe.toString();
+      }
+    } catch (_) {}
+  }
   const dest = new URL(destBase);
   dest.searchParams.set("endorsed_project", projectId);
   dest.searchParams.set("endorsed_provider", provider);
   dest.searchParams.set("endorsed", "1");
+  if (accountLabel) dest.searchParams.set("verified_label", String(accountLabel).slice(0, 200));
+  if (accountUrl) dest.searchParams.set("verified_profile", String(accountUrl).slice(0, 500));
   return Response.redirect(dest.toString(), 302);
 }
 
