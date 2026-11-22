@@ -613,8 +613,13 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         </p>
         <div class="flex flex-col items-center gap-2 pt-1">
           <a id="modalTikTokVerifyLink" href="#" class="hidden inline-block px-4 py-2 rounded-xl bg-zinc-100 text-black text-sm font-semibold hover:bg-white">1. Confirm TikTok with Polytab</a>
+          <div id="modalCreatorWalletPanel" class="hidden w-full max-w-md space-y-2 text-left">
+            <input id="modalCreatorWalletInput" type="text" placeholder="0x... Base wallet address" class="w-full bg-black border border-zinc-700 rounded-xl px-3 py-2 text-xs text-white font-mono outline-none focus:border-emerald-500" />
+            <button id="modalCreatorWalletAttachBtn" type="button" class="w-full px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold transition">2. Sign &amp; Attach Base Wallet</button>
+            <p id="modalCreatorWalletStatus" class="text-[11px] text-zinc-400 text-center"></p>
+          </div>
           <a id="modalClaimLink" href="#" target="_blank" rel="noopener noreferrer" class="inline-block px-4 py-2 rounded-xl bg-amber-500/15 border border-amber-500/40 text-amber-200 text-sm font-semibold hover:text-amber-100">Is This Your Org? Claim This Page</a>
-          <p id="modalCreatorClaimHint" class="hidden text-[11px] text-zinc-400 leading-relaxed">After TikTok confirmation, submit your verified Base payout wallet (chain 8453) and proof. Polytab reviews and unlocks direct support/tips after verification.</p>
+          <p id="modalCreatorClaimHint" class="hidden text-[11px] text-zinc-400 leading-relaxed">After TikTok confirmation, attach your verified Base payout wallet (chain 8453) to unlock direct support/tips. Manual claim fallback is available if needed.</p>
           <a href="./claim.html" target="_blank" rel="noopener noreferrer" class="text-[11px] text-zinc-400 hover:text-zinc-200 underline underline-offset-2">How verification works &rarr;</a>
         </div>
       </div>
@@ -685,12 +690,17 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       const LIKE_GUARD = (window.POLYTAB_LIKE_GUARD || "").replace(/\/$/, "");
       try {
         const _u = new URL(window.location.href);
-        if (_u.searchParams.get("endorsed") === "1" && String(_u.searchParams.get("endorsed_provider") || "").toLowerCase() === "tiktok") {
+        if (_u.searchParams.get("endorsed") === "1") {
           const _pid = String(_u.searchParams.get("endorsed_project") || "").trim();
+          const _prov = String(_u.searchParams.get("endorsed_provider") || "").toLowerCase();
           const _label = String(_u.searchParams.get("verified_label") || "").trim();
           const _profile = String(_u.searchParams.get("verified_profile") || "").trim();
-          if (_pid) sessionStorage.setItem("polytab_tiktok_verified_" + _pid, JSON.stringify({ provider: "tiktok", projectId: _pid, label: _label, profile: _profile, ts: Date.now() }));
-          ["endorsed","endorsed_provider","endorsed_project","verified_label","verified_profile","creator_claim"].forEach((k) => _u.searchParams.delete(k));
+          const _hash = new URLSearchParams((_u.hash || "").replace(/^#/, ""));
+          const _ct = String(_u.searchParams.get("claim_token") || _hash.get("claim_token") || "").trim();
+          if (_pid) sessionStorage.setItem("polytab_tiktok_verified_" + _pid, JSON.stringify({ provider: _prov || "tiktok", projectId: _pid, label: _label, profile: _profile, ts: Date.now() }));
+          if (_pid && _ct) sessionStorage.setItem("polytab_creator_claim_token_" + _pid, _ct);
+          ["endorsed","endorsed_provider","endorsed_project","verified_label","verified_profile","creator_claim","claim_token"].forEach((k) => _u.searchParams.delete(k));
+          _u.hash = "";
           history.replaceState({}, "", _u.toString());
         }
       } catch (_) {}
@@ -1069,9 +1079,24 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         });
         return "https://github.com/" + GITHUB_OWNER + "/" + GITHUB_REPO + "/issues/new?" + params.toString();
       }
+      function orgWalletEntryForId(id) {
+        const m = state.orgWallets;
+        if (m && typeof m.get === "function") return m.get(String(id)) || null;
+        return null;
+      }
       function effectiveWalletFor(item) {
-        const direct = item && typeof item === "object" && (item._walletOverride || (item.id != null && orgWalletForId(item.id)));
-        if (direct) return String(direct);
+        const directOverride = item && typeof item === "object" && item._walletOverride;
+        if (directOverride) return String(directOverride);
+        if (item && item.id != null) {
+          const e = orgWalletEntryForId(item.id);
+          if (e && isValidAddress(e.wallet)) {
+            if (e.source === "creator_claim") {
+              if (isCreatorCauseItem(item) && !isVotingItem(item)) return String(e.wallet);
+            } else {
+              return String(e.wallet);
+            }
+          }
+        }
         return (item && item.wallet) || "";
       }
       function isVotingItem(item) {
@@ -1101,6 +1126,9 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       }
       function getCreatorTikTokVerification(pid) {
         try { const raw = sessionStorage.getItem("polytab_tiktok_verified_" + String(pid || "")); return raw ? JSON.parse(raw) : null; } catch (_) { return null; }
+      }
+      function getCreatorClaimToken(pid) {
+        try { return String(sessionStorage.getItem("polytab_creator_claim_token_" + String(pid || "")) || ""); } catch (_) { return ""; }
       }
       function creatorClaimIssueUrl(item) {
         const m = (item && item._polytab) || item || {};
@@ -1217,14 +1245,28 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
       async function loadOverlayWallets() {
         try {
           const res = await fetch("./data/org-wallets.json", { cache: "no-store" });
-          if (!res.ok) return;
-          const data = await res.json();
           const map = new Map();
-          const entries = (data && data.entries) || {};
-          for (const id of Object.keys(entries)) {
-            const e = entries[id] || {};
-            if (isValidAddress(e.wallet)) map.set(String(id), { wallet: e.wallet, org: String(e.org || ""), issue: Number(e.issue) || 0 });
+          if (res.ok) {
+            const data = await res.json();
+            const entries = (data && data.entries) || {};
+            for (const id of Object.keys(entries)) {
+              const e = entries[id] || {};
+              if (isValidAddress(e.wallet)) map.set(String(id), { wallet: e.wallet, org: String(e.org || ""), issue: Number(e.issue) || 0, source: "org" });
+            }
           }
+          try {
+            if (ENDORSEMENT_API) {
+              const cc = await fetch(ENDORSEMENT_API + "/api/creator-claims.json", { cache: "no-store" });
+              if (cc.ok) {
+                const ccj = await cc.json();
+                const claims = (ccj && ccj.claims) || {};
+                for (const id of Object.keys(claims)) {
+                  const c = claims[id] || {};
+                  if (c.status === "verified" && isValidAddress(c.wallet)) map.set(String(id), { wallet: c.wallet, org: String(c.label || ""), issue: 0, source: "creator_claim" });
+                }
+              }
+            }
+          } catch (_) {}
           state.orgWallets = map;
         } catch (_) { state.orgWallets = new Map(); }
       }
@@ -2510,21 +2552,57 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         document.getElementById("modalTitle").textContent = proposal.title;
         if (unclaimed) {
           const creator = isCreatorCauseItem(proposal);
+          const ct = creator ? getCreatorClaimToken(proposal.id) : "";
           const idEl = document.getElementById("lockProjectId"); if (idEl) idEl.textContent = "#" + String(proposal.id);
           const lockCopy = document.getElementById("modalLockCopy");
           if (lockCopy) lockCopy.textContent = creator
-            ? "This Creator Cause is locked until the creator verifies TikTok account ownership and adds a verified Base payout wallet. Use the TikTok confirmation button, then submit your wallet/proof claim. Contributions stay locked until verification is complete; Polytab does not hold funds in normal direct-to-wallet flows."
+            ? (ct ? "TikTok verified. Attach your Base payout wallet to unlock direct support/tips for this Creator Cause." : "This Creator Cause is locked until TikTok account ownership is verified and a verified Base payout wallet is attached. Confirm TikTok with Polytab, then attach your Base wallet to unlock direct support/tips.")
             : "This organization hasn\u2019t verified its bounty page yet, so funds are not accepted. Verification confirms the organization\u2019s legal identity and official domain (registry + DNS TXT or org-domain email). Contributions settle directly into the verified organization\u2019s Base wallet; Polytab does not hold funds in normal direct-to-wallet flows (see Terms for limited stewardship disclosure).";
           const claimLink = document.getElementById("modalClaimLink");
           if (claimLink) {
             claimLink.href = orgClaimIssueUrl(proposal);
-            claimLink.textContent = creator ? "2. Submit Wallet + Proof Claim" : "Is This Your Org? Claim This Page";
+            claimLink.textContent = creator ? (ct ? "Manual claim fallback" : "2. Submit Wallet + Proof Claim") : "Is This Your Org? Claim This Page";
           }
           const tt = document.getElementById("modalTikTokVerifyLink");
           const ttUrl = creator ? creatorTikTokVerifyUrl(proposal) : "";
           if (tt) {
-            tt.classList.toggle("hidden", !creator || !ttUrl);
+            tt.classList.toggle("hidden", !creator || !ttUrl || !!ct);
             if (ttUrl) tt.href = ttUrl;
+          }
+          const walletPanel = document.getElementById("modalCreatorWalletPanel");
+          if (walletPanel) {
+            walletPanel.classList.toggle("hidden", !(creator && ct));
+            const attachBtn = document.getElementById("modalCreatorWalletAttachBtn");
+            const walletInput = document.getElementById("modalCreatorWalletInput");
+            const statusEl = document.getElementById("modalCreatorWalletStatus");
+            if (attachBtn) attachBtn.onclick = async () => {
+              const wallet = String(walletInput && walletInput.value || "").trim();
+              if (!/^0x[a-fA-F0-9]{40}$/.test(wallet)) { if (statusEl) { statusEl.textContent = "Enter a valid Base wallet address (0x...)."; statusEl.className = "text-[11px] text-red-300 text-center"; } return; }
+              if (!ENDORSEMENT_API) { if (statusEl) { statusEl.textContent = "Endorsement service not configured."; statusEl.className = "text-[11px] text-red-300 text-center"; } return; }
+              attachBtn.disabled = true;
+              if (statusEl) { statusEl.textContent = "Requesting wallet signature..."; statusEl.className = "text-[11px] text-zinc-300 text-center"; }
+              try {
+                if (!window.ethereum) throw new Error("No wallet detected. Install/open a Web3 wallet.");
+                const accounts = await window.ethereum.request({ method: "eth_requestAccounts" });
+                const acct = Array.isArray(accounts) ? String(accounts[0] || "") : "";
+                if (acct.toLowerCase() !== wallet.toLowerCase()) throw new Error("Connected wallet does not match the entered address.");
+                const msg = "Polytab Creator Claim\nproject_id:" + String(proposal.id) + "\nwallet:" + wallet.toLowerCase() + "\nchain_id:8453\nclaim_token:" + ct;
+                const sig = await window.ethereum.request({ method: "personal_sign", params: [msg, acct] });
+                if (statusEl) { statusEl.textContent = "Submitting verified claim..."; statusEl.className = "text-[11px] text-zinc-300 text-center"; }
+                const resp = await fetch(ENDORSEMENT_API + "/api/creator-claim", {
+                  method: "POST", headers: { "Content-Type": "application/json" },
+                  body: JSON.stringify({ project_id: String(proposal.id), wallet, claim_token: ct, signature: String(sig || ""), signed_message: msg })
+                });
+                const data = await resp.json().catch(() => ({}));
+                if (!resp.ok || !data.ok) throw new Error(data.error || "Claim failed");
+                try { sessionStorage.removeItem("polytab_creator_claim_token_" + String(proposal.id)); } catch (_) {}
+                if (statusEl) { statusEl.textContent = "Wallet attached. Reloading..."; statusEl.className = "text-[11px] text-emerald-300 text-center"; }
+                setTimeout(() => window.location.reload(), 700);
+              } catch (e) {
+                if (statusEl) { statusEl.textContent = String(e && e.message || e || "Attach failed"); statusEl.className = "text-[11px] text-red-300 text-center"; }
+                attachBtn.disabled = false;
+              }
+            };
           }
           const hint = document.getElementById("modalCreatorClaimHint");
           if (hint) hint.classList.toggle("hidden", !creator);

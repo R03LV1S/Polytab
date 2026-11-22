@@ -1,12 +1,12 @@
-name: Creator Claim — Community & Creator Cause
-description: Claim a locked Creator Cause by verifying TikTok account ownership and adding a verified Base payout wallet. Free, public, auditable ($0).
+name: Creator Claim — Community & Creator Cause (Manual Fallback)
+description: Manual fallback claim for a locked Creator Cause if self-serve TikTok+wallet attach is unavailable. Free, public, auditable ($0).
 title: "[Creator Claim]: "
-labels: ["creator-claim", "pending-verification"]
+labels: ["creator-claim", "pending-verification", "manual-fallback"]
 body:
   - type: markdown
     attributes:
       value: |
-        Claim a Polytab Community & Creator Cause page. Creator causes are open-ended, direct support/tip (no A/B voting), and **not 501(c)(3) required**.
+        Manual fallback for claiming a Polytab Community & Creator Cause page. Preferred path: use the project page's **Confirm TikTok with Polytab** then **Sign & Attach Base Wallet** self-serve flow.
         Verification requires: (1) TikTok account ownership verification, (2) Base payout wallet control, and (3) public proof of work.
         Contributions remain locked until verification is complete. Polytab does not hold funds in normal direct-to-wallet flows (see Terms).
   - type: input

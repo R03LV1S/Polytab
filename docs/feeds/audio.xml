@@ -5,7 +5,7 @@
     <link>https://polytab.store/#shelf</link>
     <description>Plain-language descriptions of every civic action, written for screen readers and low-bandwidth readers. No audio enclosures are attached: recordings are published only when a real recording exists. Funding and vote counts are honest-zero until real on-chain votes are recorded.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Nov 2026 20:42:02 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 21:01:31 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://polytab.store/feeds/audio.xml" rel="self" type="application/rss+xml" />
   <item>
@@ -594673,7 +594673,7 @@ Website: https://www.congress.gov/bill/119th-congress/house-bill/4795</descripti
     <guid isPermaLink="false">polytab:shelf:75001</guid>
     <description>Cause: Community/creator support page for TikTok creator @tiffanyleeproject.
 
-Resolution: Streamlined creator claim - confirm TikTok ownership via Polytab Login Kit, then submit verified Base payout wallet (chain 8453) + proof; page unlocks for direct support/tips (open-ended, no A/B voting).
+Resolution: Self-serve creator claim - confirm TikTok ownership via Polytab Login Kit, then sign and attach a verified Base payout wallet (chain 8453) to unlock direct support/tips (open-ended, no A/B voting).
 
 Proof: https://www.tiktok.com/@tiffanyleeproject/video/7710755794362305805
 

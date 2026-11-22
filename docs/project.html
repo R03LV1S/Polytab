@@ -87,6 +87,15 @@
         <div class="flex flex-wrap gap-2">
           <a id="buyAction" href="#" class="inline-flex items-center justify-center px-4 py-2.5 rounded-xl bg-purple-700 hover:bg-purple-600 text-white text-xs font-bold transition">Buy Action / View & Verify</a>
         </div>
+        <div id="creatorWalletPanel" class="hidden mt-3 p-4 rounded-xl border border-emerald-500/30 bg-emerald-500/5 space-y-3">
+          <div class="text-sm font-bold text-emerald-200">Attach Base payout wallet</div>
+          <p class="text-xs text-zinc-300 leading-relaxed">TikTok verification detected for this creator cause. Add your Base (chain 8453) wallet address, sign the ownership message in your wallet, and unlock direct support/tips to your wallet. Polytab does not hold funds in normal direct-to-wallet flows.</p>
+          <div class="flex flex-col sm:flex-row gap-2">
+            <input id="creatorWalletInput" type="text" placeholder="0x... Base wallet address" class="flex-1 bg-black border border-zinc-700 rounded-xl px-3 py-2 text-xs text-white font-mono outline-none focus:border-emerald-500" />
+            <button id="creatorWalletAttachBtn" type="button" class="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold transition">Sign &amp; Attach Wallet</button>
+          </div>
+          <p id="creatorWalletStatus" class="text-[11px] text-zinc-400"></p>
+        </div>
       </section>
 
       <section class="grid grid-cols-1 lg:grid-cols-2 gap-5">
@@ -218,15 +227,23 @@
       function captureCreatorTikTokVerification() {
         try {
           const u = new URL(window.location.href);
-          if (u.searchParams.get("endorsed") !== "1" || String(u.searchParams.get("endorsed_provider") || "").toLowerCase() !== "tiktok") return;
+          if (u.searchParams.get("endorsed") !== "1") return;
           const pid = String(u.searchParams.get("endorsed_project") || "").trim();
+          const prov = String(u.searchParams.get("endorsed_provider") || "").toLowerCase();
           const label = String(u.searchParams.get("verified_label") || "").trim();
           const profile = String(u.searchParams.get("verified_profile") || "").trim();
+          const h = new URLSearchParams((u.hash || "").replace(/^#/, ""));
+          const ct = String(u.searchParams.get("claim_token") || h.get("claim_token") || "").trim();
           if (!pid) return;
-          sessionStorage.setItem("polytab_tiktok_verified_" + pid, JSON.stringify({ provider: "tiktok", projectId: pid, label, profile, ts: Date.now() }));
-          ["endorsed","endorsed_provider","endorsed_project","verified_label","verified_profile","creator_claim"].forEach((k) => u.searchParams.delete(k));
+          sessionStorage.setItem("polytab_tiktok_verified_" + pid, JSON.stringify({ provider: prov || "tiktok", projectId: pid, label, profile, ts: Date.now() }));
+          if (ct) sessionStorage.setItem("polytab_creator_claim_token_" + pid, ct);
+          ["endorsed","endorsed_provider","endorsed_project","verified_label","verified_profile","creator_claim","claim_token"].forEach((k) => u.searchParams.delete(k));
+          u.hash = "";
           history.replaceState({}, "", u.toString());
         } catch (_) {}
+      }
+      function getCreatorClaimToken(pid) {
+        try { return String(sessionStorage.getItem("polytab_creator_claim_token_" + String(pid || "")) || ""); } catch (_) { return ""; }
       }
       function getCreatorTikTokVerification(pid) {
         try { const raw = sessionStorage.getItem("polytab_tiktok_verified_" + String(pid || "")); return raw ? JSON.parse(raw) : null; } catch (_) { return null; }
@@ -413,6 +430,7 @@
       async function main(){
         if (!wantId){ statusMsg.textContent = "No project ID provided. Go back to Browse Projects and select a project."; return; }
         let orgOverlay = new Map();
+        let creatorClaimOverlay = new Map();
         try {
           const ov = await fetch("./data/org-wallets.json", { cache: "no-store" });
           if (ov.ok) {
@@ -421,6 +439,19 @@
             for (const id of Object.keys(entries)) {
               const e = entries[id] || {};
               if (typeof e.wallet === "string" && /^0x[a-fA-F0-9]{40}$/.test(e.wallet)) orgOverlay.set(String(id), e.wallet);
+            }
+          }
+        } catch (_) {}
+        try {
+          if (ENDORSEMENT_API) {
+            const cc = await fetch(ENDORSEMENT_API + "/api/creator-claims.json", { cache: "no-store" });
+            if (cc.ok) {
+              const ccj = await cc.json();
+              const claims = (ccj && ccj.claims) || {};
+              for (const id of Object.keys(claims)) {
+                const c = claims[id] || {};
+                if (c.status === "verified" && typeof c.wallet === "string" && /^0x[a-fA-F0-9]{40}$/.test(c.wallet)) creatorClaimOverlay.set(String(id), c.wallet);
+              }
             }
           }
         } catch (_) {}
@@ -492,7 +523,16 @@
             settlementEpochDays: Number(m.settlement_epoch_days || m.settlementEpochDays) || null,
             fundedUSD: Number(m.fundedUSD || 0),
             votesCount: Number(m.votesCount || 0),
-            wallet: String(orgOverlay.get(String(raw.id)) || m.contract || m.wallet || ""),
+            wallet: String(
+              ((() => {
+                const base = orgOverlay.get(String(raw.id)) || m.contract || m.wallet || "";
+                const cc = creatorClaimOverlay.get(String(raw.id));
+                const isCreator = String(m.parentCategory || "").toLowerCase().includes("creator") || String(m.category || "").toLowerCase().includes("creator cause");
+                const isVote = String(m.parentCategory || "").includes("Voting") || (Number(raw.id) >= 90000 && Number(raw.id) < 100000);
+                if (cc && /^0x[a-fA-F0-9]{40}$/.test(cc) && isCreator && !isVote) return cc;
+                return base;
+              })())
+            ),
             status: String(m.status || "Active"),
             website: m.website || null,
             socials: (m.socials && typeof m.socials === "object") ? m.socials : {},
@@ -587,7 +627,7 @@
               escrowNote.className = baseTip + " text-cyan-200";
             } else if (isLocked) {
               escrowNote.textContent = isCreatorCauseItem(item)
-                ? "This Creator Cause is locked until TikTok account ownership is verified and a verified Base payout wallet is added. Confirm TikTok with Polytab, then submit wallet + proof claim. Nothing is collected until unlocked; Polytab does not hold funds in normal direct-to-wallet flows."
+                ? "This Creator Cause is locked until TikTok account ownership is verified and a verified Base payout wallet is attached. Confirm TikTok with Polytab, then attach your Base wallet (signature proof) to unlock direct support/tips. Nothing is collected until unlocked; Polytab does not hold funds in normal direct-to-wallet flows."
                 : "Contributions are disabled on this page until the named organization verifies (registry + domain). Nothing is collected; nothing transits Polytab.";
               escrowNote.className = baseTip + " text-amber-300";
             } else {
@@ -612,9 +652,15 @@
           }
           if (isLocked) {
             const creator = isCreatorCauseItem(item);
+            const ct = creator ? getCreatorClaimToken(item.id) : "";
             if (creator) {
               const ttUrl = creatorTikTokVerifyUrl(item);
-              if (ttUrl) {
+              if (ct) {
+                const tt = document.createElement("span");
+                tt.className = "inline-flex items-center px-2.5 py-1 rounded-md bg-emerald-500/10 border border-emerald-500/30 text-emerald-300 font-semibold text-[11px]";
+                tt.textContent = "1. TikTok verified ✓";
+                links.appendChild(tt);
+              } else if (ttUrl) {
                 const tt = document.createElement("a");
                 tt.href = ttUrl;
                 tt.className = "inline-flex items-center px-2.5 py-1 rounded-md bg-zinc-100 text-black font-semibold text-[11px] hover:bg-white";
@@ -622,12 +668,20 @@
                 links.appendChild(tt);
               }
             }
+            if (creator && ct) {
+              const attach = document.createElement("a");
+              attach.href = "#creatorWalletPanel";
+              attach.className = "inline-flex items-center px-2.5 py-1 rounded-md bg-emerald-600 text-white font-semibold text-[11px] hover:bg-emerald-500";
+              attach.textContent = "2. Attach Base Wallet";
+              attach.onclick = (e) => { e.preventDefault(); const p = document.getElementById("creatorWalletPanel"); if (p) { p.classList.remove("hidden"); p.scrollIntoView({block:"center"}); const i=document.getElementById("creatorWalletInput"); if(i) i.focus(); } };
+              links.appendChild(attach);
+            }
             const claim = document.createElement("a");
             claim.href = orgClaimIssueUrl(item);
             claim.target = "_blank";
             claim.rel = "noopener noreferrer";
             claim.className = "inline-flex items-center px-2.5 py-1 rounded-md bg-amber-500/10 border border-amber-500/30 text-amber-300 hover:text-amber-200 font-semibold text-[11px]";
-            claim.textContent = creator ? "2. Submit Wallet + Proof Claim" : "Is This Your Org? Claim This Page";
+            claim.textContent = creator ? (ct ? "Manual claim fallback" : "2. Submit Wallet + Proof Claim") : "Is This Your Org? Claim This Page";
             links.appendChild(claim);
           }
           const socialDefs = [
@@ -801,20 +855,72 @@
           } else if (isLocked) {
             const creator = isCreatorCauseItem(item);
             const ttUrl = creator ? creatorTikTokVerifyUrl(item) : "";
-            buy.href = ttUrl || orgClaimIssueUrl(item);
-            buy.textContent = creator ? (ttUrl ? "1. Confirm TikTok with Polytab" : "Claim This Creator Cause") : "Is This Your Org? Claim This Page";
-            buy.className = creator && ttUrl
-              ? "inline-flex items-center justify-center px-4 py-2.5 rounded-xl bg-zinc-100 text-black text-xs font-bold transition hover:bg-white"
-              : "inline-flex items-center justify-center px-4 py-2.5 rounded-xl bg-amber-500/15 border border-amber-500/40 text-amber-200 text-xs font-bold transition hover:text-amber-100";
-            buy.title = creator
-              ? "Verify TikTok ownership with Polytab Login Kit, then submit your verified Base payout wallet and proof to unlock direct support/tips."
-              : "Contributions unlock after org verification. If you represent this organization, claim the page.";
-            if (!ttUrl) { buy.target = "_blank"; buy.rel = "noopener noreferrer"; }
+            const ct = creator ? getCreatorClaimToken(item.id) : "";
+            if (creator && ct) {
+              buy.href = "#creatorWalletPanel";
+              buy.textContent = "2. Attach Base Wallet";
+              buy.className = "inline-flex items-center justify-center px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold transition";
+              buy.title = "TikTok verified. Attach your Base payout wallet to unlock direct support/tips.";
+              buy.onclick = (e) => { e.preventDefault(); const p = document.getElementById("creatorWalletPanel"); if (p) { p.classList.remove("hidden"); p.scrollIntoView({block:"center"}); const i=document.getElementById("creatorWalletInput"); if(i) i.focus(); } };
+            } else {
+              buy.href = ttUrl || orgClaimIssueUrl(item);
+              buy.textContent = creator ? (ttUrl ? "1. Confirm TikTok with Polytab" : "Claim This Creator Cause") : "Is This Your Org? Claim This Page";
+              buy.className = creator && ttUrl
+                ? "inline-flex items-center justify-center px-4 py-2.5 rounded-xl bg-zinc-100 text-black text-xs font-bold transition hover:bg-white"
+                : "inline-flex items-center justify-center px-4 py-2.5 rounded-xl bg-amber-500/15 border border-amber-500/40 text-amber-200 text-xs font-bold transition hover:text-amber-100";
+              buy.title = creator
+                ? "Verify TikTok ownership with Polytab Login Kit, then attach your verified Base payout wallet to unlock direct support/tips."
+                : "Contributions unlock after org verification. If you represent this organization, claim the page.";
+              if (!ttUrl) { buy.target = "_blank"; buy.rel = "noopener noreferrer"; }
+            }
           } else {
             buy.href = "./index.html#" + encodeURIComponent(item.id);
             buy.textContent = "Fund this intervention (min $" + item.votePriceUSD.toFixed(2) + " / unit)";
             buy.className = "inline-flex items-center justify-center px-4 py-2.5 rounded-xl bg-purple-700 hover:bg-purple-600 text-white text-xs font-bold transition";
             buy.title = "Direct intervention funding (single intent). 100% to selected/verified beneficiary when unlocked.";
+          }
+
+          const creatorPanel = document.getElementById("creatorWalletPanel");
+          const creatorToken = getCreatorClaimToken(item.id);
+          if (creatorPanel) {
+            const showPanel = isLocked && isCreatorCauseItem(item) && !!creatorToken;
+            creatorPanel.classList.toggle("hidden", !showPanel);
+            if (showPanel) {
+              const attachBtn = document.getElementById("creatorWalletAttachBtn");
+              const walletInput = document.getElementById("creatorWalletInput");
+              const statusEl = document.getElementById("creatorWalletStatus");
+              if (attachBtn && !attachBtn.dataset.bound) {
+                attachBtn.dataset.bound = "1";
+                attachBtn.onclick = async () => {
+                  const wallet = String(walletInput && walletInput.value || "").trim();
+                  if (!/^0x[a-fA-F0-9]{40}$/.test(wallet)) { if (statusEl) { statusEl.textContent = "Enter a valid Base wallet address (0x...)."; statusEl.className = "text-[11px] text-red-300"; } return; }
+                  if (!ENDORSEMENT_API) { if (statusEl) { statusEl.textContent = "Endorsement service not configured."; statusEl.className = "text-[11px] text-red-300"; } return; }
+                  attachBtn.disabled = true;
+                  if (statusEl) { statusEl.textContent = "Requesting wallet signature..."; statusEl.className = "text-[11px] text-zinc-300"; }
+                  try {
+                    if (!window.ethereum) throw new Error("No wallet detected. Install/open a Web3 wallet.");
+                    const accounts = await window.ethereum.request({ method: "eth_requestAccounts" });
+                    const acct = Array.isArray(accounts) ? String(accounts[0] || "") : "";
+                    if (acct.toLowerCase() !== wallet.toLowerCase()) throw new Error("Connected wallet does not match the entered address.");
+                    const msg = "Polytab Creator Claim\nproject_id:" + String(item.id) + "\nwallet:" + wallet.toLowerCase() + "\nchain_id:8453\nclaim_token:" + creatorToken;
+                    const sig = await window.ethereum.request({ method: "personal_sign", params: [msg, acct] });
+                    if (statusEl) { statusEl.textContent = "Submitting verified claim..."; statusEl.className = "text-[11px] text-zinc-300"; }
+                    const resp = await fetch(ENDORSEMENT_API + "/api/creator-claim", {
+                      method: "POST", headers: { "Content-Type": "application/json" },
+                      body: JSON.stringify({ project_id: String(item.id), wallet, claim_token: creatorToken, signature: String(sig || ""), signed_message: msg })
+                    });
+                    const data = await resp.json().catch(() => ({}));
+                    if (!resp.ok || !data.ok) throw new Error(data.error || "Claim failed");
+                    try { sessionStorage.removeItem("polytab_creator_claim_token_" + String(item.id)); } catch (_) {}
+                    if (statusEl) { statusEl.textContent = "Wallet attached. Reloading..."; statusEl.className = "text-[11px] text-emerald-300"; }
+                    setTimeout(() => window.location.reload(), 700);
+                  } catch (e) {
+                    if (statusEl) { statusEl.textContent = String(e && e.message || e || "Attach failed"); statusEl.className = "text-[11px] text-red-300"; }
+                    attachBtn.disabled = false;
+                  }
+                };
+              }
+            }
           }
 
           const spaced = (s) => String(s || "").replace(/\n+/g, "\n\n").trim();

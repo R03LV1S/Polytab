@@ -920669,7 +920669,7 @@
     {
       "id": "75001",
       "title": "Community & Creator Cause: @tiffanyleeproject (TikTok)",
-      "content_html": "<p>Creator community cause page for @tiffanyleeproject on TikTok. Open-ended direct support (no A/B voting). Streamlined claim: confirm TikTok ownership with Polytab Login Kit, then submit verified Base payout wallet + proof claim. Contributions unlock after verification. Proof/source: https://www.tiktok.com/@tiffanyleeproject/video/7710755794362305805</p>",
+      "content_html": "<p>Creator community cause page for @tiffanyleeproject on TikTok. Open-ended direct support (no A/B voting). Self-serve claim: confirm TikTok ownership with Polytab Login Kit, then sign and attach a verified Base payout wallet to unlock direct support/tips. Proof/source: https://www.tiktok.com/@tiffanyleeproject/video/7710755794362305805</p>",
       "url": "https://polytab.store/#75001",
       "date_published": "2026-11-22T00:00:00Z",
       "_polytab": {
@@ -920677,8 +920677,8 @@
         "parentCategory": "Creator Causes",
         "organization": "@tiffanyleeproject (TikTok Creator)",
         "location": "Global / Online (TikTok)",
-        "summary": "Creator community cause page for @tiffanyleeproject on TikTok. Open-ended direct support (no A/B voting). Streamlined claim: confirm TikTok ownership with Polytab Login Kit, then submit verified Base payout wallet + proof claim. Contributions unlock after verification. Proof/source: https://www.tiktok.com/@tiffanyleeproject/video/7710755794362305805",
-        "plainSummary": "Cause: Community/creator support page for TikTok creator @tiffanyleeproject.\n\nResolution: Streamlined creator claim - confirm TikTok ownership via Polytab Login Kit, then submit verified Base payout wallet (chain 8453) + proof; page unlocks for direct support/tips (open-ended, no A/B voting).\n\nProof: https://www.tiktok.com/@tiffanyleeproject/video/7710755794362305805\n\nStatus: Locked/pending creator verification (TikTok + wallet). Honest-zero until verified on-chain receipts.",
+        "summary": "Creator community cause page for @tiffanyleeproject on TikTok. Open-ended direct support (no A/B voting). Self-serve claim: confirm TikTok ownership with Polytab Login Kit, then sign and attach a verified Base payout wallet to unlock direct support/tips. Proof/source: https://www.tiktok.com/@tiffanyleeproject/video/7710755794362305805",
+        "plainSummary": "Cause: Community/creator support page for TikTok creator @tiffanyleeproject.\n\nResolution: Self-serve creator claim - confirm TikTok ownership via Polytab Login Kit, then sign and attach a verified Base payout wallet (chain 8453) to unlock direct support/tips (open-ended, no A/B voting).\n\nProof: https://www.tiktok.com/@tiffanyleeproject/video/7710755794362305805\n\nStatus: Locked/pending creator verification (TikTok + wallet). Honest-zero until verified on-chain receipts.",
         "votePriceUSD": 0.5,
         "targetUSD": null,
         "displayTargetUSD": 5000,
