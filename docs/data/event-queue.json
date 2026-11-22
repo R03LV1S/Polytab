@@ -3,6 +3,35 @@
   "description": "Polytab Event Radar queue. Current events (last 21 days) surfaced from free public feeds (GDELT, CDC Newsroom, GDACS, USGS) as candidate civic-action blocks in the exact Polytab block format. All metrics are honest-zero (fundedUSD=0, votesCount=0). Items are PROPOSED — promotion to the Projects (feed.json) requires a verified organization pairing and governance sign-off, never automatic. Wallet series: 0x71E + ID (601+). No coordinates are stored (lat/lng null); locations are public place-name strings only.",
   "items": [
     {
+      "id": "638",
+      "title": "Prepare Before the Storm : Lessons in Faith , Food , and Neighborly Love",
+      "category": "Environmental",
+      "organization": "Polytab Community — Policy & Governance Votes",
+      "location": "United States",
+      "summary": "Community Radar current event: \"Prepare Before the Storm : Lessons in Faith , Food , and Neighborly Love\" (GDELT (afr.net), 2026-11-22). Proposed pairing with verified organization Polytab Community — Policy & Governance Votes (Projects bounty #93020) — pending governance verification.",
+      "plainSummary": "• Cause: Prepare Before the Storm : Lessons in Faith , Food , and Neighborly Love\n• Resolution: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://afr.net/podcasts/a-disciples-view-with-todd-herman/2026/november/prepare-before-the-storm-lessons-in-faith-food-and-neighborly-love/ (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "GDELT (afr.net)",
+        "sourceUrl": "https://afr.net/podcasts/a-disciples-view-with-todd-herman/2026/november/prepare-before-the-storm-lessons-in-faith-food-and-neighborly-love/",
+        "publishedAt": "2026-11-22T20:30:00.000Z",
+        "discoveredAt": "2026-11-22T23:14:58.624Z",
+        "proposedPairing": {
+          "bountyId": "93020",
+          "organization": "Polytab Community — Policy & Governance Votes",
+          "keywordMatches": 3
+        },
+        "dedupeHash": "f9abee6fb3999269c48ecc36a8ae478c7e26048b03832aafc12d9fe9113277c2"
+      }
+    },
+    {
       "id": "636",
       "title": "Sudan war leaves disabled children missing out on education - Dominican Republic Post – Caribbean News , Business , Tra…",
       "category": "Accessibility & Universal Design",
@@ -1089,7 +1118,8 @@
     "eb61db8859f6956876d1944f9ffeebaa9a3f17d626459d9c439f0cfcc2557178",
     "433fc1ba3698aa7e98ffd599cc368fe9d3619c140798d9bc5e36081e90720bc7",
     "1c97883438f46d835504d0516733e1c820150b3387e7b17dfd83c4356132c67e",
-    "e4cea4c1c4407762c5a3aeba51528b19a8662532dba25ec74c3b035dbad2d8f3"
+    "e4cea4c1c4407762c5a3aeba51528b19a8662532dba25ec74c3b035dbad2d8f3",
+    "f9abee6fb3999269c48ecc36a8ae478c7e26048b03832aafc12d9fe9113277c2"
   ],
-  "nextId": 638
+  "nextId": 639
 }
