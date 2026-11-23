@@ -3,6 +3,31 @@
   "description": "Polytab Event Radar queue. Current events (last 21 days) surfaced from free public feeds (GDELT, CDC Newsroom, GDACS, USGS) as candidate civic-action blocks in the exact Polytab block format. All metrics are honest-zero (fundedUSD=0, votesCount=0). Items are PROPOSED — promotion to the Projects (feed.json) requires a verified organization pairing and governance sign-off, never automatic. Wallet series: 0x71E + ID (601+). No coordinates are stored (lat/lng null); locations are public place-name strings only.",
   "items": [
     {
+      "id": "639",
+      "title": "Magnitude 6.5 earthquake — Vanuatu region",
+      "category": "Environmental",
+      "organization": "Verification Pending",
+      "location": "Vanuatu region",
+      "summary": "Community Radar current event: \"Magnitude 6.5 earthquake — Vanuatu region\" (USGS Significant Earthquakes, 2026-11-23). Awaiting a verified 501(c)(3) partner pairing before Projects listing.",
+      "plainSummary": "• Cause: Magnitude 6.5 earthquake — Vanuatu region\n• Resolution: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucvm (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "USGS Significant Earthquakes",
+        "sourceUrl": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucvm",
+        "publishedAt": "2026-11-23T02:40:58.052Z",
+        "discoveredAt": "2026-11-23T05:46:09.705Z",
+        "proposedPairing": null,
+        "dedupeHash": "6cc47ff7f7761615ef89cf8e500cc01c14a9eb48f6b1413328b0aceafc27071a"
+      }
+    },
+    {
       "id": "638",
       "title": "Prepare Before the Storm : Lessons in Faith , Food , and Neighborly Love",
       "category": "Environmental",
@@ -1119,7 +1144,8 @@
     "433fc1ba3698aa7e98ffd599cc368fe9d3619c140798d9bc5e36081e90720bc7",
     "1c97883438f46d835504d0516733e1c820150b3387e7b17dfd83c4356132c67e",
     "e4cea4c1c4407762c5a3aeba51528b19a8662532dba25ec74c3b035dbad2d8f3",
-    "f9abee6fb3999269c48ecc36a8ae478c7e26048b03832aafc12d9fe9113277c2"
+    "f9abee6fb3999269c48ecc36a8ae478c7e26048b03832aafc12d9fe9113277c2",
+    "6cc47ff7f7761615ef89cf8e500cc01c14a9eb48f6b1413328b0aceafc27071a"
   ],
-  "nextId": 639
+  "nextId": 640
 }
