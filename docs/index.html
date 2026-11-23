@@ -355,7 +355,7 @@
             </div>
             <div>
               <label for="newCreatorProof" class="block text-xs font-semibold text-zinc-300 uppercase tracking-wider mb-1">Proof / Evidence Links *</label>
-              <textarea id="newCreatorProof" rows="2" maxlength="600" placeholder="Links to public videos/posts showing the work, plus any receipts or updates"
+              <textarea id="newCreatorProof" rows="2" maxlength="600" placeholder="TikTok profile URL + public proof links (posts/videos/updates). Lead with your handle/profile, not just one video."
                 class="w-full bg-black border border-zinc-700 rounded-xl px-3.5 py-2.5 text-sm text-white outline-none focus:border-yellow-500"></textarea>
             </div>
             <p class="text-[11px] text-amber-300/90">Creator Causes are open-ended, no A/B voting. Use Support/Tip wording. Not tax-deductible unless a verified nonprofit or fiscal sponsor explicitly states so. Polytab does not hold funds in normal direct-to-wallet flows (see Terms for limited stewardship disclosure).</p>
@@ -2850,6 +2850,10 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         const target = document.getElementById("newTargetUSD");
         const targetLabel = document.querySelector('label[for="newTargetUSD"]');
         const voteLabel = document.querySelector('label[for="newVoteUSD"]');
+        const summaryLabel = document.querySelector('label[for="newSummary"]');
+        const summaryInput = document.getElementById("newSummary");
+        const handleLabel = document.querySelector('label[for="newCreatorHandle"]');
+        const proofLabel = document.querySelector('label[for="newCreatorProof"]');
         if (creatorFields) creatorFields.classList.toggle("hidden", !isCreator);
         if (handle) handle.required = isCreator;
         if (proof) proof.required = isCreator;
@@ -2863,6 +2867,12 @@ Type LIST, VOTE 1, or STATUS 1 below to test the Cloudflare Edge SMS parser:</di
         }
         if (targetLabel) targetLabel.textContent = isCreator ? "Funding Goal (Open-Ended)" : "Funding Goal (USD) *";
         if (voteLabel) voteLabel.textContent = isCreator ? "Suggested Support / Tip ($) *" : "Support Level / Micro-Vote Price ($) *";
+        if (summaryLabel) summaryLabel.textContent = isCreator ? "Creator Story & Support Goal *" : "Action Scope & Proof Plan *";
+        if (summaryInput) summaryInput.placeholder = isCreator
+          ? "Tell supporters who you are, what you create, and how their direct support helps. Keep it clear and authentic."
+          : "What needs doing, and what proof shows it worked?";
+        if (handleLabel) handleLabel.textContent = isCreator ? "TikTok / Social Handle & Profile URL *" : "TikTok / Social Handle (Verification) *";
+        if (proofLabel) proofLabel.textContent = isCreator ? "Profile & Proof Links *" : "Proof / Evidence Links *";
       }
       function syncCreateSubcategories() {
         const parent = (document.getElementById("newParentCategory") || {}).value || PARENT_CHARITIES;
