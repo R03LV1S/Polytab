@@ -2,7 +2,7 @@
   "schema_version": "3.0.0",
   "country_iso2": "GB",
   "admin1_state_province": "ENG-WLS",
-  "count": 5008,
+  "count": 5009,
   "organizations": [
     {
       "registry_id": "GB-CHC:200009",
@@ -14020,7 +14020,8 @@
       "audit_signals": [
         "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
         "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000"
+        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-03-31 00:00:00.0000000"
       ],
       "location": {
         "country_iso2": "GB",
@@ -14030,7 +14031,7 @@
       },
       "website": "https://www.fitzgeraldcharity.co.uk",
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.989Z",
+      "last_verified_utc": "2026-11-24T05:32:19.360Z",
       "integrity_sha256": "66e5a735e2b8473cbda373fd1a7f7694086d9e6bef4544716b4b5ea1ed929344"
     },
     {
@@ -14922,7 +14923,8 @@
       "audit_signals": [
         "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
         "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000"
+        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-03-31 00:00:00.0000000"
       ],
       "location": {
         "country_iso2": "GB",
@@ -14932,7 +14934,7 @@
       },
       "website": "https://www.thetrustenfield.org.uk",
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.989Z",
+      "last_verified_utc": "2026-11-24T05:32:19.360Z",
       "integrity_sha256": "4f6cfd7b18885413fdf77247969a4e555da0659a9d6cd097a783250c78cbfc29"
     },
     {
@@ -25355,7 +25357,8 @@
       "audit_signals": [
         "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
         "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-01-31 00:00:00.0000000"
+        "ACCOUNTS_FILED_2025-01-31 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-01-31 00:00:00.0000000"
       ],
       "location": {
         "country_iso2": "GB",
@@ -25365,7 +25368,7 @@
       },
       "website": null,
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.991Z",
+      "last_verified_utc": "2026-11-24T05:32:19.363Z",
       "integrity_sha256": "07c658c9ff2356d1ced5113371037721833e2ea239747de485079d96f73c5131"
     },
     {
@@ -29757,7 +29760,8 @@
       "audit_signals": [
         "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
         "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000"
+        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-03-31 00:00:00.0000000"
       ],
       "location": {
         "country_iso2": "GB",
@@ -29767,7 +29771,7 @@
       },
       "website": null,
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.992Z",
+      "last_verified_utc": "2026-11-24T05:32:19.364Z",
       "integrity_sha256": "f7958241eac8eaad2ae0e9b389d4e53ac3abeb3b26fe2e9915b3a3650931162d"
     },
     {
@@ -30154,7 +30158,8 @@
       "audit_signals": [
         "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
         "UK_STATUTORY_INDEPENDENT_AUDIT_OVER_1M_GBP",
-        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000"
+        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-03-31 00:00:00.0000000"
       ],
       "location": {
         "country_iso2": "GB",
@@ -30164,7 +30169,7 @@
       },
       "website": "https://www.glasspool.org.uk",
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.992Z",
+      "last_verified_utc": "2026-11-24T05:32:19.364Z",
       "integrity_sha256": "91b2ea1ec1cc3ee14a9c741bf90ee30de67146bc71bb01a9deec4976683a1e76"
     },
     {
@@ -38664,6 +38669,28 @@
       "integrity_sha256": "1415e6cd34f946073aeab2c50221ad7fbc7fd76ad6c267ae968a654d7d6ebc16"
     },
     {
+      "registry_id": "GB-CHC:220169",
+      "name": "WILLIAM WALTON COTTAGE HOMES",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
+        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
+        "ACCOUNTS_FILED_2026-03-31 00:00:00.0000000"
+      ],
+      "location": {
+        "country_iso2": "GB",
+        "admin1_state_province": "ENG-WLS",
+        "admin2_county_district": null,
+        "locality_city_town": "LANCASTER"
+      },
+      "website": null,
+      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
+      "last_verified_utc": "2026-11-24T05:32:19.366Z",
+      "integrity_sha256": "17dbcab1a5e0ab9b9771f430913cf25b7edb4c823e30d4756346eb639d0d7fc1"
+    },
+    {
       "registry_id": "GB-CHC:220171",
       "name": "HEREFORDSHIRE ASSOCIATION FOR THE BLIND",
       "status": "ACTIVE",
@@ -39356,7 +39383,8 @@
       "audit_signals": [
         "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
         "UK_STATUTORY_INDEPENDENT_AUDIT_OVER_1M_GBP",
-        "ACCOUNTS_FILED_2025-08-31 00:00:00.0000000"
+        "ACCOUNTS_FILED_2025-08-31 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-08-31 00:00:00.0000000"
       ],
       "location": {
         "country_iso2": "GB",
@@ -39366,7 +39394,7 @@
       },
       "website": "https://www.friendsdgh.org.uk",
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.993Z",
+      "last_verified_utc": "2026-11-24T05:32:19.366Z",
       "integrity_sha256": "b803904cf45c7a3a8164a3d7fb8f51ad7c97b038b3c20d6ad9d62f645cc487f0"
     },
     {
@@ -40963,7 +40991,8 @@
       "audit_signals": [
         "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
         "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-06-30 00:00:00.0000000"
+        "ACCOUNTS_FILED_2025-06-30 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-06-30 00:00:00.0000000"
       ],
       "location": {
         "country_iso2": "GB",
@@ -40973,7 +41002,7 @@
       },
       "website": null,
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.993Z",
+      "last_verified_utc": "2026-11-24T05:32:19.366Z",
       "integrity_sha256": "cccc51a7ee986bf99765ec917ee769bdab69faeda0f47d28033556056bdaeb60"
     },
     {
@@ -43694,7 +43723,8 @@
       "audit_signals": [
         "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
         "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-06-30 00:00:00.0000000"
+        "ACCOUNTS_FILED_2025-06-30 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-06-30 00:00:00.0000000"
       ],
       "location": {
         "country_iso2": "GB",
@@ -43704,7 +43734,7 @@
       },
       "website": "https://www.shepherdstreettrust.co.uk",
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.994Z",
+      "last_verified_utc": "2026-11-24T05:32:19.367Z",
       "integrity_sha256": "a2beedd6bbf68d28e64e739112eda9cac5505213eacee5f95f418742ca31be82"
     },
     {
@@ -64124,7 +64154,8 @@
       "audit_signals": [
         "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
         "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-04-05 00:00:00.0000000"
+        "ACCOUNTS_FILED_2025-04-05 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-04-05 00:00:00.0000000"
       ],
       "location": {
         "country_iso2": "GB",
@@ -64134,7 +64165,7 @@
       },
       "website": "https://www.battersbycourt.co.uk",
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.997Z",
+      "last_verified_utc": "2026-11-24T05:32:19.372Z",
       "integrity_sha256": "7695e87adc21e2e78f3eff92f54c75baaa3bebcda36fa468125fe3800bd65c08"
     },
     {
@@ -74049,7 +74080,8 @@
       "audit_signals": [
         "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
         "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-01-31 00:00:00.0000000"
+        "ACCOUNTS_FILED_2025-01-31 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-01-31 00:00:00.0000000"
       ],
       "location": {
         "country_iso2": "GB",
@@ -74059,7 +74091,7 @@
       },
       "website": null,
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.999Z",
+      "last_verified_utc": "2026-11-24T05:32:19.374Z",
       "integrity_sha256": "1794068c8909782040cb901d07d3a6b2bbd1b912cd2a5587d8de2158ae73df69"
     },
     {
@@ -74886,7 +74918,8 @@
       "audit_signals": [
         "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
         "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-09-30 00:00:00.0000000"
+        "ACCOUNTS_FILED_2025-09-30 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-09-30 00:00:00.0000000"
       ],
       "location": {
         "country_iso2": "GB",
@@ -74896,7 +74929,7 @@
       },
       "website": null,
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.999Z",
+      "last_verified_utc": "2026-11-24T05:32:19.374Z",
       "integrity_sha256": "46a8272816973de6628021c25098b8739a55fccc5b053597f394f64597ffa521"
     },
     {
@@ -76470,7 +76503,8 @@
       "audit_signals": [
         "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
         "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-09-30 00:00:00.0000000"
+        "ACCOUNTS_FILED_2025-09-30 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-09-30 00:00:00.0000000"
       ],
       "location": {
         "country_iso2": "GB",
@@ -76480,7 +76514,7 @@
       },
       "website": "https://brotherhoodcommunityhall.org",
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.999Z",
+      "last_verified_utc": "2026-11-24T05:32:19.374Z",
       "integrity_sha256": "7f42737a8c1f21dbf85ccb682299ece58259bcd9f89d501e6db56a52658fc54a"
     },
     {
@@ -79222,7 +79256,8 @@
       "audit_signals": [
         "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
         "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-01-31 00:00:00.0000000"
+        "ACCOUNTS_FILED_2025-01-31 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-01-31 00:00:00.0000000"
       ],
       "location": {
         "country_iso2": "GB",
@@ -79232,7 +79267,7 @@
       },
       "website": "https://www.michaelmarkscharitabletrust.org",
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:08.000Z",
+      "last_verified_utc": "2026-11-24T05:32:19.375Z",
       "integrity_sha256": "8d1496d549de80a970927dc008bf5634be8f16ef624d2f4b00964446c8a3339a"
     },
     {
@@ -81356,7 +81391,8 @@
       "audit_signals": [
         "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
         "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000"
+        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-03-31 00:00:00.0000000"
       ],
       "location": {
         "country_iso2": "GB",
@@ -81366,7 +81402,7 @@
       },
       "website": null,
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:08.000Z",
+      "last_verified_utc": "2026-11-24T05:32:19.375Z",
       "integrity_sha256": "6e1c599669dcf26981948d1d4412ae905fae7c3ccd20cd043f83e55cd31064f6"
     },
     {
@@ -82610,7 +82646,8 @@
       "audit_signals": [
         "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
         "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-01-31 00:00:00.0000000"
+        "ACCOUNTS_FILED_2025-01-31 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-01-31 00:00:00.0000000"
       ],
       "location": {
         "country_iso2": "GB",
@@ -82620,7 +82657,7 @@
       },
       "website": "https://www.gocl.org.uk",
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-20T07:21:28.533Z",
+      "last_verified_utc": "2026-11-24T05:32:19.376Z",
       "integrity_sha256": "776951125b5022bf40485c8570bc221ecb32eb889e22b44b5722041ab044629c"
     },
     {
@@ -88180,7 +88217,8 @@
       "audit_signals": [
         "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
         "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000"
+        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-03-31 00:00:00.0000000"
       ],
       "location": {
         "country_iso2": "GB",
@@ -88190,7 +88228,7 @@
       },
       "website": "https://www.british-italian.org",
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:08.002Z",
+      "last_verified_utc": "2026-11-24T05:32:19.377Z",
       "integrity_sha256": "11f34fe8df687370100c66d4745196c8e47bbed35cb42c6e99f0a951a1c4e9fa"
     },
     {
@@ -94298,7 +94336,8 @@
       "audit_signals": [
         "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
         "UK_STATUTORY_INDEPENDENT_AUDIT_OVER_1M_GBP",
-        "ACCOUNTS_FILED_2025-01-31 00:00:00.0000000"
+        "ACCOUNTS_FILED_2025-01-31 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-01-31 00:00:00.0000000"
       ],
       "location": {
         "country_iso2": "GB",
@@ -94308,7 +94347,7 @@
       },
       "website": "https://www.pembrokecastle.co.uk",
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:08.003Z",
+      "last_verified_utc": "2026-11-24T05:32:19.378Z",
       "integrity_sha256": "9169925e3492206c867010e6563d6e765dda2ba728d4641452226ce018ad0e3b"
     },
     {

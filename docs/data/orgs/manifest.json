@@ -1,11 +1,11 @@
 {
   "schema_version": "3.0.0",
-  "generated_at_utc": "2026-11-23T23:57:18.555Z",
-  "total_verified_orgs": 24099,
+  "generated_at_utc": "2026-11-24T05:32:26.406Z",
+  "total_verified_orgs": 24101,
   "total_shards": 108,
   "summary_metrics": {
-    "added_this_cycle": 0,
-    "updated_this_cycle": 4,
+    "added_this_cycle": 2,
+    "updated_this_cycle": 21,
     "irs_revoked_purged_this_cycle": 0
   },
   "shards": [
@@ -76,8 +76,8 @@
       "shard": "orgs/BE/NATIONAL.json",
       "country_iso2": "BE",
       "admin1_state_province": "NATIONAL",
-      "count": 89,
-      "sha256": "6f19e839a78e3b7fbabacbbf4add9e4ae0e74e49d346ca884ec779f98430998b"
+      "count": 90,
+      "sha256": "3e1a25ed58815259a265653b778929db70b268dbf545f1244e1f814b6a7675e6"
     },
     {
       "shard": "orgs/BF/NATIONAL.json",
@@ -244,8 +244,8 @@
       "shard": "orgs/GB/ENG-WLS.json",
       "country_iso2": "GB",
       "admin1_state_province": "ENG-WLS",
-      "count": 5008,
-      "sha256": "9b5a8bcf18a6124a3b82dd50139c4c0dfe19ffcc42ef09669d31da19500fabf5"
+      "count": 5009,
+      "sha256": "00e31aef5a957424043c19ac1806a0edd5849556f351a9430aa6c00a5cde9626"
     },
     {
       "shard": "orgs/GB/NATIONAL.json",
@@ -511,7 +511,7 @@
       "country_iso2": "NL",
       "admin1_state_province": "NATIONAL",
       "count": 5660,
-      "sha256": "dac88a200189fa58cf414c1cb67cfa50a430cc7d9bbf8b8622febab6e62ab9eb"
+      "sha256": "c8784e08b6c894c24ec45621914131f6a41cad9beb909db55ae469b46e4353ca"
     },
     {
       "shard": "orgs/NO/NATIONAL.json",
@@ -728,7 +728,7 @@
       "country_iso2": "US",
       "admin1_state_province": "NATIONAL",
       "count": 163,
-      "sha256": "066895019f220e6075731e8f682946f21a1fd9e59fc82aea4218c2696d5d3cdd"
+      "sha256": "5499c3cb99a3e59f4819b3e8bffe255b1359e770790a8d1f7d6d9bfc7d5458d6"
     },
     {
       "shard": "orgs/VN/NATIONAL.json",

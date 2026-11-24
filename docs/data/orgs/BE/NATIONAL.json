@@ -2,7 +2,7 @@
   "schema_version": "3.0.0",
   "country_iso2": "BE",
   "admin1_state_province": "NATIONAL",
-  "count": 89,
+  "count": 90,
   "organizations": [
     {
       "registry_id": "IATI-BE:BE-BCE_KB0-0421408778",
@@ -1807,6 +1807,28 @@
       "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
       "last_verified_utc": "2026-11-18T00:24:43.357Z",
       "integrity_sha256": "64043053d133f32be8d4dce3a1d2d30dc7a3bccf294321f45e3f598b9ce334ad"
+    },
+    {
+      "registry_id": "IATI-BE:BE-BCE_KBO-0648_708_779",
+      "name": "European Partnership for Democracy (EPD)",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "IATI_STANDARD_OPEN_DATA_PUBLISHER",
+        "IATI_ORG_TYPE_21",
+        "IATI_DATASETS_PUBLISHED_1"
+      ],
+      "location": {
+        "country_iso2": "BE",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
+      "last_verified_utc": "2026-11-24T05:32:26.281Z",
+      "integrity_sha256": "da40659b3049fcd1d7cc19295ca9613da5a8c6ede190783aa3ef406d51f2d8db"
     },
     {
       "registry_id": "IATI-BE:BE-BCE_KBO-0662878501",
