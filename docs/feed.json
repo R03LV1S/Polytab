@@ -269185,7 +269185,12 @@
         "lat": null,
         "lng": null,
         "website": "https://www.bbowt.org.uk",
-        "socials": {},
+        "socials": {
+          "facebook": "https://www.facebook.com//bbowildlifetrust/",
+          "instagram": "https://www.instagram.com/bbowt",
+          "linkedin": "https://www.linkedin.com/company/berkshire-buckinghamshire-&amp;-oxfordshire-wildlife-trust-bbowt-/",
+          "tiktok": "https://www.tiktok.com/@bbowt"
+        },
         "parentCategory": "Charities",
         "campaignType": "open_ended",
         "displayTargetUSD": 5000
@@ -920708,6 +920713,6 @@
       }
     }
   ],
-  "updated_at": "2026-11-24T18:23:04.458Z",
+  "updated_at": "2026-11-24T19:04:45.912Z",
   "total_items": 32750
 }
