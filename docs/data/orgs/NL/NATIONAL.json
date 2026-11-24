@@ -2,7 +2,7 @@
   "schema_version": "3.0.0",
   "country_iso2": "NL",
   "admin1_state_province": "NATIONAL",
-  "count": 5660,
+  "count": 5661,
   "organizations": [
     {
       "registry_id": "IATI-NL:MM-MHA-0295",
@@ -770,7 +770,7 @@
       },
       "website": null,
       "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
-      "last_verified_utc": "2026-11-24T05:32:26.284Z",
+      "last_verified_utc": "2026-11-24T09:58:16.970Z",
       "integrity_sha256": "5e61391c4e9f0d42de1cb46e86190626d47803780f8c54a8fa3096795d3bd734"
     },
     {
@@ -10641,7 +10641,7 @@
     },
     {
       "registry_id": "NL-RSIN:002527029",
-      "name": "Stichting Wywonen",
+      "name": "Stichting Door&amp;door",
       "status": "ACTIVE",
       "verification_tier": "TIER_1_AUDITED",
       "audit_verified": true,
@@ -10656,8 +10656,8 @@
       },
       "website": null,
       "source_authority": "Belastingdienst Netherlands ANBI Register (CC0 1.0)",
-      "last_verified_utc": "2026-11-17T07:58:59.574Z",
-      "integrity_sha256": "60e595b526dabc3dbdf4620456320fe603e826b7165d00118bcd4f70df2c1ceb"
+      "last_verified_utc": "2026-11-24T09:58:12.773Z",
+      "integrity_sha256": "1c4b834c8146810b0d50aa30737d62108fb087b352aa5048fce2b649592cdefa"
     },
     {
       "registry_id": "NL-RSIN:002527315",
@@ -113578,6 +113578,26 @@
       "source_authority": "Belastingdienst Netherlands ANBI Register (CC0 1.0)",
       "last_verified_utc": "2026-11-17T07:58:59.594Z",
       "integrity_sha256": "455afb6617423d9ceff6e56649b7adc971565a6e6842c11785dff4cdd17c5e64"
+    },
+    {
+      "registry_id": "NL-RSIN:801461546",
+      "name": "Stichting \"ender\"",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "NL_BELASTINGDIENST_ANBI_TAX_EXEMPT_DECISION"
+      ],
+      "location": {
+        "country_iso2": "NL",
+        "admin1_state_province": "_NATIONAL",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "Belastingdienst Netherlands ANBI Register (CC0 1.0)",
+      "last_verified_utc": "2026-11-24T09:58:12.793Z",
+      "integrity_sha256": "a4d95efff992ed4fe43191778541675d2ef1ad060b494e59b3202a3e06d262a7"
     }
   ]
 }
