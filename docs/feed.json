@@ -266009,7 +266009,9 @@
         "lat": null,
         "lng": null,
         "website": "https://www.cvhall.co.uk",
-        "socials": {},
+        "socials": {
+          "facebook": "https://www.facebook.com/Combeinteignheadvillagehall"
+        },
         "parentCategory": "Charities",
         "campaignType": "open_ended",
         "displayTargetUSD": 5000
@@ -920706,6 +920708,6 @@
       }
     }
   ],
-  "updated_at": "2026-11-22T07:46:45.432Z",
+  "updated_at": "2026-11-24T18:23:04.458Z",
   "total_items": 32750
 }
