@@ -3,6 +3,35 @@
   "description": "Polytab Event Radar queue. Current events (last 21 days) surfaced from free public feeds (GDELT, CDC Newsroom, GDACS, USGS) as candidate civic-action blocks in the exact Polytab block format. All metrics are honest-zero (fundedUSD=0, votesCount=0). Items are PROPOSED — promotion to the Projects (feed.json) requires a verified organization pairing and governance sign-off, never automatic. Wallet series: 0x71E + ID (601+). No coordinates are stored (lat/lng null); locations are public place-name strings only.",
   "items": [
     {
+      "id": "646",
+      "title": "Flood — SEVERE STORMS AND FLOODING — (DR)",
+      "category": "Environmental",
+      "organization": "World Central Kitchen",
+      "location": "FL — Indian River (County)",
+      "summary": "Community Radar current event: \"Flood — SEVERE STORMS AND FLOODING — (DR)\" (FEMA OpenFEMA (public domain), 2026-11-24). Proposed pairing with verified organization World Central Kitchen (Projects bounty #505) — pending governance verification.",
+      "plainSummary": "• Cause: Flood — SEVERE STORMS AND FLOODING — (DR)\n• Resolution: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://www.fema.gov/disaster/4956 (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "FEMA OpenFEMA (public domain)",
+        "sourceUrl": "https://www.fema.gov/disaster/4956",
+        "publishedAt": "2026-11-24T00:00:00.000Z",
+        "discoveredAt": "2026-11-25T16:48:47.261Z",
+        "proposedPairing": {
+          "bountyId": "505",
+          "organization": "World Central Kitchen",
+          "keywordMatches": 5
+        },
+        "dedupeHash": "63dcdcec5a98d21beda2337e404c140a23ddcd0390c0e695701052de3ac06cf2"
+      }
+    },
+    {
       "id": "642",
       "title": "Childhood Cancer Survivor Harper on Hope , Healing and Giving Back",
       "category": "Accessibility & Universal Design",
@@ -1317,7 +1346,8 @@
     "27b73942870cd0572f2642adeebaaf6159ad7d1429ba37c64ac2656968d211ad",
     "70d50cf100bd02e51dd0c199c4978824332393cd1935a3b251642bdc45c0f6a7",
     "6c5787c06d97e13ad247b42fca26a10ad490b16bba488c07a5992930101a7048",
-    "50cde064d1991199ecdc22bcd1b8e998222f5efaf3a162c32d9b33bd65303efa"
+    "50cde064d1991199ecdc22bcd1b8e998222f5efaf3a162c32d9b33bd65303efa",
+    "63dcdcec5a98d21beda2337e404c140a23ddcd0390c0e695701052de3ac06cf2"
   ],
-  "nextId": 646
+  "nextId": 647
 }
