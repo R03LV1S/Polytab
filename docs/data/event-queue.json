@@ -3,6 +3,118 @@
   "description": "Polytab Event Radar queue. Current events (last 21 days) surfaced from free public feeds (GDELT, CDC Newsroom, GDACS, USGS) as candidate civic-action blocks in the exact Polytab block format. All metrics are honest-zero (fundedUSD=0, votesCount=0). Items are PROPOSED — promotion to the Projects (feed.json) requires a verified organization pairing and governance sign-off, never automatic. Wallet series: 0x71E + ID (601+). No coordinates are stored (lat/lng null); locations are public place-name strings only.",
   "items": [
     {
+      "id": "642",
+      "title": "Childhood Cancer Survivor Harper on Hope , Healing and Giving Back",
+      "category": "Accessibility & Universal Design",
+      "organization": "Fisher House Foundation",
+      "location": "United States",
+      "summary": "Community Radar current event: \"Childhood Cancer Survivor Harper on Hope , Healing and Giving Back\" (GDELT (curetoday.com), 2026-11-25). Proposed pairing with verified organization Fisher House Foundation (Projects bounty #509) — pending governance verification.",
+      "plainSummary": "• Cause: Childhood Cancer Survivor Harper on Hope , Healing and Giving Back\n• Resolution: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://www.curetoday.com/view/childhood-cancer-survivor-harper-on-hope-healing-and-giving-back (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "GDELT (curetoday.com)",
+        "sourceUrl": "https://www.curetoday.com/view/childhood-cancer-survivor-harper-on-hope-healing-and-giving-back",
+        "publishedAt": "2026-11-25T00:45:00.000Z",
+        "discoveredAt": "2026-11-25T01:55:44.927Z",
+        "proposedPairing": {
+          "bountyId": "509",
+          "organization": "Fisher House Foundation",
+          "keywordMatches": 4
+        },
+        "dedupeHash": "27b73942870cd0572f2642adeebaaf6159ad7d1429ba37c64ac2656968d211ad"
+      }
+    },
+    {
+      "id": "643",
+      "title": "Having beaten cancer , rocker Awie stands with young fighters",
+      "category": "Accessibility & Universal Design",
+      "organization": "Verification Pending",
+      "location": "Malaysia",
+      "summary": "Community Radar current event: \"Having beaten cancer , rocker Awie stands with young fighters\" (GDELT (thestar.com.my), 2026-11-25). Awaiting a verified 501(c)(3) partner pairing before Projects listing.",
+      "plainSummary": "• Cause: Having beaten cancer , rocker Awie stands with young fighters\n• Resolution: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://www.thestar.com.my/news/nation/2026/11/25/having-beaten-cancer-rocker-awie-stands-with-young-fighters (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "GDELT (thestar.com.my)",
+        "sourceUrl": "https://www.thestar.com.my/news/nation/2026/11/25/having-beaten-cancer-rocker-awie-stands-with-young-fighters",
+        "publishedAt": "2026-11-25T00:45:00.000Z",
+        "discoveredAt": "2026-11-25T01:55:45.182Z",
+        "proposedPairing": null,
+        "dedupeHash": "70d50cf100bd02e51dd0c199c4978824332393cd1935a3b251642bdc45c0f6a7"
+      }
+    },
+    {
+      "id": "644",
+      "title": "FDA Approves Upadacitinib as First Systemic Therapy for Nonsegmental Vitiligo",
+      "category": "Accessibility & Universal Design",
+      "organization": "Polytab Community — Policy & Governance Votes",
+      "location": "United States",
+      "summary": "Community Radar current event: \"FDA Approves Upadacitinib as First Systemic Therapy for Nonsegmental Vitiligo\" (GDELT (pharmacytimes.com), 2026-11-24). Proposed pairing with verified organization Polytab Community — Policy & Governance Votes (Projects bounty #93005) — pending governance verification.",
+      "plainSummary": "• Cause: FDA Approves Upadacitinib as First Systemic Therapy for Nonsegmental Vitiligo\n• Resolution: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://www.pharmacytimes.com/view/fda-approves-upadacitinib-as-first-systemic-therapy-for-nonsegmental-vitiligo (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "GDELT (pharmacytimes.com)",
+        "sourceUrl": "https://www.pharmacytimes.com/view/fda-approves-upadacitinib-as-first-systemic-therapy-for-nonsegmental-vitiligo",
+        "publishedAt": "2026-11-24T22:15:00.000Z",
+        "discoveredAt": "2026-11-25T01:55:45.448Z",
+        "proposedPairing": {
+          "bountyId": "93005",
+          "organization": "Polytab Community — Policy & Governance Votes",
+          "keywordMatches": 3
+        },
+        "dedupeHash": "6c5787c06d97e13ad247b42fca26a10ad490b16bba488c07a5992930101a7048"
+      }
+    },
+    {
+      "id": "645",
+      "title": "Methotrexate testing : How labs monitor high - dose therapy safely",
+      "category": "Accessibility & Universal Design",
+      "organization": "United Cerebral Palsy (UCP)",
+      "location": "United States",
+      "summary": "Community Radar current event: \"Methotrexate testing : How labs monitor high - dose therapy safely\" (GDELT (selectscience.net), 2026-11-24). Proposed pairing with verified organization United Cerebral Palsy (UCP) (Projects bounty #208) — pending governance verification.",
+      "plainSummary": "• Cause: Methotrexate testing : How labs monitor high - dose therapy safely\n• Resolution: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://www.selectscience.net/article/how-labs-and-clinicians-keep-methotrexate-from-turning-toxic (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "GDELT (selectscience.net)",
+        "sourceUrl": "https://www.selectscience.net/article/how-labs-and-clinicians-keep-methotrexate-from-turning-toxic",
+        "publishedAt": "2026-11-24T07:45:00.000Z",
+        "discoveredAt": "2026-11-25T01:55:45.699Z",
+        "proposedPairing": {
+          "bountyId": "208",
+          "organization": "United Cerebral Palsy (UCP)",
+          "keywordMatches": 2
+        },
+        "dedupeHash": "50cde064d1991199ecdc22bcd1b8e998222f5efaf3a162c32d9b33bd65303efa"
+      }
+    },
+    {
       "id": "640",
       "title": "Magnitude 6.4 earthquake — Mauritius - Reunion region",
       "category": "Environmental",
@@ -1201,7 +1313,11 @@
     "f9abee6fb3999269c48ecc36a8ae478c7e26048b03832aafc12d9fe9113277c2",
     "6cc47ff7f7761615ef89cf8e500cc01c14a9eb48f6b1413328b0aceafc27071a",
     "436f7f4dbbb611b0bb52c1f22aec1b1e02ef06ed9f8e27e9e243086c922f7f2d",
-    "88d95e2cdad39527112a8c0ba8e149d52af51db3f94213df880a8a1690d6ede3"
+    "88d95e2cdad39527112a8c0ba8e149d52af51db3f94213df880a8a1690d6ede3",
+    "27b73942870cd0572f2642adeebaaf6159ad7d1429ba37c64ac2656968d211ad",
+    "70d50cf100bd02e51dd0c199c4978824332393cd1935a3b251642bdc45c0f6a7",
+    "6c5787c06d97e13ad247b42fca26a10ad490b16bba488c07a5992930101a7048",
+    "50cde064d1991199ecdc22bcd1b8e998222f5efaf3a162c32d9b33bd65303efa"
   ],
-  "nextId": 642
+  "nextId": 646
 }
