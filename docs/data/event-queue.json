@@ -3,6 +3,31 @@
   "description": "Polytab Event Radar queue. Current events (last 21 days) surfaced from free public feeds (GDELT, CDC Newsroom, GDACS, USGS) as candidate civic-action blocks in the exact Polytab block format. All metrics are honest-zero (fundedUSD=0, votesCount=0). Items are PROPOSED — promotion to the Projects (feed.json) requires a verified organization pairing and governance sign-off, never automatic. Wallet series: 0x71E + ID (601+). No coordinates are stored (lat/lng null); locations are public place-name strings only.",
   "items": [
     {
+      "id": "647",
+      "title": "A Bangladeshi orphanage built on compassion struggles to keep its doors open",
+      "category": "Classrooms",
+      "organization": "Verification Pending",
+      "location": "China",
+      "summary": "Community Radar current event: \"A Bangladeshi orphanage built on compassion struggles to keep its doors open\" (GDELT (asianews.network), 2026-11-25). Awaiting a verified 501(c)(3) partner pairing before Projects listing.",
+      "plainSummary": "• Cause: A Bangladeshi orphanage built on compassion struggles to keep its doors open\n• Resolution: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://asianews.network/a-bangladeshi-orphanage-built-on-compassion-struggles-to-keep-its-doors-open/ (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "GDELT (asianews.network)",
+        "sourceUrl": "https://asianews.network/a-bangladeshi-orphanage-built-on-compassion-struggles-to-keep-its-doors-open/",
+        "publishedAt": "2026-11-25T05:45:00.000Z",
+        "discoveredAt": "2026-11-26T01:34:48.292Z",
+        "proposedPairing": null,
+        "dedupeHash": "f4740d119d2d1b990f1e5f029a9784022bb2c59043f8cf1a4f28b6502f5bd31f"
+      }
+    },
+    {
       "id": "646",
       "title": "Flood — SEVERE STORMS AND FLOODING — (DR)",
       "category": "Environmental",
@@ -1347,7 +1372,8 @@
     "70d50cf100bd02e51dd0c199c4978824332393cd1935a3b251642bdc45c0f6a7",
     "6c5787c06d97e13ad247b42fca26a10ad490b16bba488c07a5992930101a7048",
     "50cde064d1991199ecdc22bcd1b8e998222f5efaf3a162c32d9b33bd65303efa",
-    "63dcdcec5a98d21beda2337e404c140a23ddcd0390c0e695701052de3ac06cf2"
+    "63dcdcec5a98d21beda2337e404c140a23ddcd0390c0e695701052de3ac06cf2",
+    "f4740d119d2d1b990f1e5f029a9784022bb2c59043f8cf1a4f28b6502f5bd31f"
   ],
-  "nextId": 647
+  "nextId": 648
 }
