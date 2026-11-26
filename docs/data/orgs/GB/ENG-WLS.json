@@ -2,7 +2,7 @@
   "schema_version": "3.0.0",
   "country_iso2": "GB",
   "admin1_state_province": "ENG-WLS",
-  "count": 5012,
+  "count": 5013,
   "organizations": [
     {
       "registry_id": "GB-CHC:200009",
@@ -365,7 +365,8 @@
       "audit_signals": [
         "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
         "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000"
+        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-03-31 00:00:00.0000000"
       ],
       "location": {
         "country_iso2": "GB",
@@ -375,7 +376,7 @@
       },
       "website": "https://www.bramleyparish.co.uk",
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.986Z",
+      "last_verified_utc": "2026-11-26T08:25:36.827Z",
       "integrity_sha256": "366291f0f92d71f8ab7a406ae3a0421d25613b896e0c30986c6625ec8d68d194"
     },
     {
@@ -2523,7 +2524,8 @@
       "audit_signals": [
         "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
         "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000"
+        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-03-31 00:00:00.0000000"
       ],
       "location": {
         "country_iso2": "GB",
@@ -2533,7 +2535,7 @@
       },
       "website": null,
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.986Z",
+      "last_verified_utc": "2026-11-26T08:25:36.828Z",
       "integrity_sha256": "fb7da89e50623627a5e6cdd98f0acd3efa9e6cee10db5709f46bce27443909ae"
     },
     {
@@ -18034,7 +18036,8 @@
       "audit_signals": [
         "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
         "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000"
+        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-03-31 00:00:00.0000000"
       ],
       "location": {
         "country_iso2": "GB",
@@ -18044,7 +18047,7 @@
       },
       "website": "https://www.northlightgallery.org.uk",
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.990Z",
+      "last_verified_utc": "2026-11-26T08:25:36.833Z",
       "integrity_sha256": "6af2fd59bc3672de35ae4248b017a8d57dac681b90153c1d6237b4583bf08b95"
     },
     {
@@ -43422,7 +43425,8 @@
       "audit_signals": [
         "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
         "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000"
+        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-03-31 00:00:00.0000000"
       ],
       "location": {
         "country_iso2": "GB",
@@ -43432,7 +43436,7 @@
       },
       "website": "https://alstontownhall.co.uk",
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.994Z",
+      "last_verified_utc": "2026-11-26T08:25:36.845Z",
       "integrity_sha256": "67e75b9e663de22fb2ade4f0cc21b2d4730d62b6b21a0fea95c17634e9a3e504"
     },
     {
@@ -43666,7 +43670,8 @@
       "audit_signals": [
         "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
         "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-04-05 00:00:00.0000000"
+        "ACCOUNTS_FILED_2025-04-05 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-04-05 00:00:00.0000000"
       ],
       "location": {
         "country_iso2": "GB",
@@ -43676,7 +43681,7 @@
       },
       "website": null,
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.994Z",
+      "last_verified_utc": "2026-11-26T08:25:36.845Z",
       "integrity_sha256": "a373433a2b2f42ad689a39c0d5a51489a3edb9692f35bd51ac631a1263b4d358"
     },
     {
@@ -55131,6 +55136,28 @@
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
       "last_verified_utc": "2026-11-16T16:05:07.996Z",
       "integrity_sha256": "2c8e315f786784ac1d84fd9b5459c67e7f2f5268aa10a5d49034152cab520594"
+    },
+    {
+      "registry_id": "GB-CHC:230672",
+      "name": "WILLIAM CARR'S ALMSHOUSES",
+      "status": "ACTIVE",
+      "verification_tier": "TIER_1_AUDITED",
+      "audit_verified": true,
+      "audit_signals": [
+        "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
+        "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
+        "ACCOUNTS_FILED_2026-03-31 00:00:00.0000000"
+      ],
+      "location": {
+        "country_iso2": "GB",
+        "admin1_state_province": "ENG-WLS",
+        "admin2_county_district": null,
+        "locality_city_town": null
+      },
+      "website": null,
+      "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
+      "last_verified_utc": "2026-11-26T08:25:36.848Z",
+      "integrity_sha256": "19f1fb13408b4c2d3501fbb8171ffb3567b0f1f84ed8b9bd1dfbf2cef750a2d3"
     },
     {
       "registry_id": "GB-CHC:230708",
@@ -67295,7 +67322,8 @@
       "audit_signals": [
         "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
         "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-09-30 00:00:00.0000000"
+        "ACCOUNTS_FILED_2025-09-30 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-09-30 00:00:00.0000000"
       ],
       "location": {
         "country_iso2": "GB",
@@ -67305,7 +67333,7 @@
       },
       "website": "https://www.rwrhs.com",
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.998Z",
+      "last_verified_utc": "2026-11-26T08:25:36.854Z",
       "integrity_sha256": "c524131d3c9699ef96415d828dd7216ff62a91ffe7e2edc090f34f3970b8c510"
     },
     {
@@ -73566,7 +73594,8 @@
       "audit_signals": [
         "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
         "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-01-31 00:00:00.0000000"
+        "ACCOUNTS_FILED_2025-01-31 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-01-31 00:00:00.0000000"
       ],
       "location": {
         "country_iso2": "GB",
@@ -73576,7 +73605,7 @@
       },
       "website": null,
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.999Z",
+      "last_verified_utc": "2026-11-26T08:25:36.855Z",
       "integrity_sha256": "ddd7afce651d7b50368b8d4346104ad82b9914c2a7e783ffeb11f50dacbb1ec7"
     },
     {
@@ -77090,7 +77119,8 @@
       "audit_signals": [
         "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
         "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000"
+        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-03-31 00:00:00.0000000"
       ],
       "location": {
         "country_iso2": "GB",
@@ -77100,7 +77130,7 @@
       },
       "website": "https://www.abbeyfield.com",
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:07.999Z",
+      "last_verified_utc": "2026-11-26T08:25:36.856Z",
       "integrity_sha256": "704199f21e02857408a666d0c7e2bc196c49c91f9f34663517f41461301528a0"
     },
     {
@@ -100237,7 +100267,8 @@
       "audit_signals": [
         "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
         "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2024-03-31 00:00:00.0000000"
+        "ACCOUNTS_FILED_2024-03-31 00:00:00.0000000",
+        "ACCOUNTS_FILED_2025-03-31 00:00:00.0000000"
       ],
       "location": {
         "country_iso2": "GB",
@@ -100247,7 +100278,7 @@
       },
       "website": "https://www.balintsociety.org.uk",
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:08.004Z",
+      "last_verified_utc": "2026-11-26T08:25:36.866Z",
       "integrity_sha256": "30f304d4c83fa0399a40f5c7a0da0376417d05fee2636247caac352216abbd7f"
     },
     {
@@ -104510,7 +104541,8 @@
       "audit_signals": [
         "UK_CCEW_OGL_DAILY_EXTRACT_REGISTERED",
         "UK_INDEPENDENT_EXAMINATION_OVER_25K_GBP",
-        "ACCOUNTS_FILED_2025-04-05 00:00:00.0000000"
+        "ACCOUNTS_FILED_2025-04-05 00:00:00.0000000",
+        "ACCOUNTS_FILED_2026-04-05 00:00:00.0000000"
       ],
       "location": {
         "country_iso2": "GB",
@@ -104520,7 +104552,7 @@
       },
       "website": null,
       "source_authority": "Charity Commission for England and Wales (OGL v3.0 Daily Extract)",
-      "last_verified_utc": "2026-11-16T16:05:08.005Z",
+      "last_verified_utc": "2026-11-26T08:25:36.868Z",
       "integrity_sha256": "a1b46f6a560569227e9a59c055db38f55a01bf8e9d3f5328cc434eb8c56ee432"
     },
     {
