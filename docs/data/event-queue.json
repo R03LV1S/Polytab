@@ -3,6 +3,89 @@
   "description": "Polytab Event Radar queue. Current events (last 21 days) surfaced from free public feeds (GDELT, CDC Newsroom, GDACS, USGS) as candidate civic-action blocks in the exact Polytab block format. All metrics are honest-zero (fundedUSD=0, votesCount=0). Items are PROPOSED — promotion to the Projects (feed.json) requires a verified organization pairing and governance sign-off, never automatic. Wallet series: 0x71E + ID (601+). No coordinates are stored (lat/lng null); locations are public place-name strings only.",
   "items": [
     {
+      "id": "655",
+      "title": "Gbadunola Orphanage Home gives learning materials to Lagos p",
+      "category": "Classrooms",
+      "organization": "Verification Pending",
+      "location": "Nigeria",
+      "summary": "Community Radar current event: \"Gbadunola Orphanage Home gives learning materials to Lagos p\" (GDELT (punchng.com), 2026-11-27). Awaiting a verified 501(c)(3) partner pairing before Projects listing.",
+      "plainSummary": "• Cause: Gbadunola Orphanage Home gives learning materials to Lagos p\n• Resolution: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://punchng.com/foundation-distributes-learning-materials-to-400-lagos-pupils/ (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "GDELT (punchng.com)",
+        "sourceUrl": "https://punchng.com/foundation-distributes-learning-materials-to-400-lagos-pupils/",
+        "publishedAt": "2026-11-27T01:15:00.000Z",
+        "discoveredAt": "2026-11-27T16:08:43.711Z",
+        "proposedPairing": null,
+        "dedupeHash": "59c7c38b7a82c41cb23dd54072ac5b3451abf26bf605ff1a7da5097af4e832ac"
+      }
+    },
+    {
+      "id": "656",
+      "title": "Bethany Children Health Center brings healing and hope to Oklahoma Route 66",
+      "category": "Accessibility & Universal Design",
+      "organization": "Fisher House Foundation",
+      "location": "United States",
+      "summary": "Community Radar current event: \"Bethany Children Health Center brings healing and hope to Oklahoma Route 66\" (GDELT (newson6.com), 2026-11-26). Proposed pairing with verified organization Fisher House Foundation (Projects bounty #501) — pending governance verification.",
+      "plainSummary": "• Cause: Bethany Children Health Center brings healing and hope to Oklahoma Route 66\n• Resolution: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://www.newson6.com/tulsa-oklahoma-news/route-66/bethany-childrens-health-center-brings-healing-hope-oklahoma-route-66 (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "GDELT (newson6.com)",
+        "sourceUrl": "https://www.newson6.com/tulsa-oklahoma-news/route-66/bethany-childrens-health-center-brings-healing-hope-oklahoma-route-66",
+        "publishedAt": "2026-11-26T03:30:00.000Z",
+        "discoveredAt": "2026-11-27T16:08:43.971Z",
+        "proposedPairing": {
+          "bountyId": "501",
+          "organization": "Fisher House Foundation",
+          "keywordMatches": 3
+        },
+        "dedupeHash": "db65b810141156d0f5532bf804c336e112a7abfa3ddc3dd38c5354fdff6dde5a"
+      }
+    },
+    {
+      "id": "657",
+      "title": "How did Steve Carter find out he was a missing child ?",
+      "category": "Accessibility & Universal Design",
+      "organization": "NATIONAL CENTER FOR MISSING AND EXPLOITED CHILDREN",
+      "location": "Japan",
+      "summary": "Community Radar current event: \"How did Steve Carter find out he was a missing child ?\" (GDELT (attackofthefanboy.com), 2026-11-26). Proposed pairing with verified organization NATIONAL CENTER FOR MISSING AND EXPLOITED CHILDREN (Projects bounty #48409) — pending governance verification.",
+      "plainSummary": "• Cause: How did Steve Carter find out he was a missing child ?\n• Resolution: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://attackofthefanboy.com/news/an-adopted-man-looked-into-his-medical-history-before-starting-a-family-and-found-himself-listed-as-a-baby-who-had-been-missing-for-33-years/ (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "GDELT (attackofthefanboy.com)",
+        "sourceUrl": "https://attackofthefanboy.com/news/an-adopted-man-looked-into-his-medical-history-before-starting-a-family-and-found-himself-listed-as-a-baby-who-had-been-missing-for-33-years/",
+        "publishedAt": "2026-11-26T03:15:00.000Z",
+        "discoveredAt": "2026-11-27T16:08:44.171Z",
+        "proposedPairing": {
+          "bountyId": "48409",
+          "organization": "NATIONAL CENTER FOR MISSING AND EXPLOITED CHILDREN",
+          "keywordMatches": 2
+        },
+        "dedupeHash": "d4ec90cb8f10dca88ffa1ccbba8b20450c10972612428920de033b5a5dae110c"
+      }
+    },
+    {
       "id": "648",
       "title": "[ Blog ] An Appointment for Life By M . Ali Jookhun , O . S . K . Executive Council Member , African Disability Forum R…",
       "category": "Accessibility & Universal Design",
@@ -1583,7 +1666,10 @@
     "dbca8b691c9ba5466690a8a53e9981c84a4f9c369bab98b38a3c42c34ab423dc",
     "9daaba742a91e924a0b2733fbf35c2bceaef43e4845c7e7a3126565696680bc1",
     "a1047dbf7fbe6e6d1bc3469dfdf8abcf7816f3ce4f4443ea1f7592ce80005db2",
-    "d2654326f4ec3dc64bba7b93b7630de08f5f1d32190ecd5d0888a3ab2b710628"
+    "d2654326f4ec3dc64bba7b93b7630de08f5f1d32190ecd5d0888a3ab2b710628",
+    "59c7c38b7a82c41cb23dd54072ac5b3451abf26bf605ff1a7da5097af4e832ac",
+    "db65b810141156d0f5532bf804c336e112a7abfa3ddc3dd38c5354fdff6dde5a",
+    "d4ec90cb8f10dca88ffa1ccbba8b20450c10972612428920de033b5a5dae110c"
   ],
-  "nextId": 655
+  "nextId": 658
 }
