@@ -3,6 +3,209 @@
   "description": "Polytab Event Radar queue. Current events (last 21 days) surfaced from free public feeds (GDELT, CDC Newsroom, GDACS, USGS) as candidate civic-action blocks in the exact Polytab block format. All metrics are honest-zero (fundedUSD=0, votesCount=0). Items are PROPOSED — promotion to the Projects (feed.json) requires a verified organization pairing and governance sign-off, never automatic. Wallet series: 0x71E + ID (601+). No coordinates are stored (lat/lng null); locations are public place-name strings only.",
   "items": [
     {
+      "id": "648",
+      "title": "[ Blog ] An Appointment for Life By M . Ali Jookhun , O . S . K . Executive Council Member , African Disability Forum R…",
+      "category": "Accessibility & Universal Design",
+      "organization": "Fisher House Foundation",
+      "location": "Mauritius",
+      "summary": "Community Radar current event: \"[ Blog ] An Appointment for Life By M . Ali Jookhun , O . S . K . Executive Council Member , African Disability Forum Representing organisations of families with members with disabilities\" (GDELT (defimedia.info), 2026-11-26). Proposed pairing with verified organization Fisher House Foundation (Projects bounty #108) — pending governance verification.",
+      "plainSummary": "• Cause: [ Blog ] An Appointment for Life By M . Ali Jookhun , O . S . K . Executive Council Member , African Disability Forum Representing organisations of families with members with disabilities\n• Resolution: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://defimedia.info/blog-appointment-life-m-ali-jookhun-osk-executive-council-member-african-disability-forum (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "GDELT (defimedia.info)",
+        "sourceUrl": "https://defimedia.info/blog-appointment-life-m-ali-jookhun-osk-executive-council-member-african-disability-forum",
+        "publishedAt": "2026-11-26T05:15:00.000Z",
+        "discoveredAt": "2026-11-27T01:29:45.336Z",
+        "proposedPairing": {
+          "bountyId": "108",
+          "organization": "Fisher House Foundation",
+          "keywordMatches": 3
+        },
+        "dedupeHash": "8b43313cad102dd51480cbabe5e1e8f557850c4a8e0cf8b5db635ae2985b0c1c"
+      }
+    },
+    {
+      "id": "649",
+      "title": "More young Malaysian children registered with learning disabilities amid greater awareness",
+      "category": "Accessibility & Universal Design",
+      "organization": "CHILDREN'S INTERNATIONAL LEARNING CENTRE (HAMILTON)",
+      "location": "China",
+      "summary": "Community Radar current event: \"More young Malaysian children registered with learning disabilities amid greater awareness\" (GDELT (asianews.network), 2026-11-25). Proposed pairing with verified organization CHILDREN'S INTERNATIONAL LEARNING CENTRE (HAMILTON) (Projects bounty #40297) — pending governance verification.",
+      "plainSummary": "• Cause: More young Malaysian children registered with learning disabilities amid greater awareness\n• Resolution: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://asianews.network/more-young-malaysian-children-registered-with-learning-disabilities-amid-greater-awareness/ (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "GDELT (asianews.network)",
+        "sourceUrl": "https://asianews.network/more-young-malaysian-children-registered-with-learning-disabilities-amid-greater-awareness/",
+        "publishedAt": "2026-11-25T05:45:00.000Z",
+        "discoveredAt": "2026-11-27T01:29:45.584Z",
+        "proposedPairing": {
+          "bountyId": "40297",
+          "organization": "CHILDREN'S INTERNATIONAL LEARNING CENTRE (HAMILTON)",
+          "keywordMatches": 3
+        },
+        "dedupeHash": "9e709a9d5bf1425bdc234ef7fbc1d05f073932976106d8f83d1cd15b6831f7dc"
+      }
+    },
+    {
+      "id": "650",
+      "title": "Enid children hope for inclusive playground equipment",
+      "category": "Accessibility & Universal Design",
+      "organization": "Fisher House Foundation",
+      "location": "United States",
+      "summary": "Community Radar current event: \"Enid children hope for inclusive playground equipment\" (GDELT (koco.com), 2026-11-25). Proposed pairing with verified organization Fisher House Foundation (Projects bounty #501) — pending governance verification.",
+      "plainSummary": "• Cause: Enid children hope for inclusive playground equipment\n• Resolution: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://www.koco.com/article/enid-inclusive-playground-painted-sky-park/74524589 (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "GDELT (koco.com)",
+        "sourceUrl": "https://www.koco.com/article/enid-inclusive-playground-painted-sky-park/74524589",
+        "publishedAt": "2026-11-25T02:45:00.000Z",
+        "discoveredAt": "2026-11-27T01:29:45.815Z",
+        "proposedPairing": {
+          "bountyId": "501",
+          "organization": "Fisher House Foundation",
+          "keywordMatches": 3
+        },
+        "dedupeHash": "91849077732d7eb61ea59032287d2fb7f953b82daea58edd41688b5bbe9802e4"
+      }
+    },
+    {
+      "id": "651",
+      "title": "Audit finds $2 . 2M in errors while reviewing North Dakota Child Care Assistance Program",
+      "category": "Accessibility & Universal Design",
+      "organization": "Freedom Service Dogs of America",
+      "location": "United States",
+      "summary": "Community Radar current event: \"Audit finds $2 . 2M in errors while reviewing North Dakota Child Care Assistance Program\" (GDELT (inforum.com), 2026-11-25). Proposed pairing with verified organization Freedom Service Dogs of America (Projects bounty #306) — pending governance verification.",
+      "plainSummary": "• Cause: Audit finds $2 . 2M in errors while reviewing North Dakota Child Care Assistance Program\n• Resolution: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://www.inforum.com/news/north-dakota/audit-finds-2-2m-in-errors-while-reviewing-north-dakota-child-care-assistance-program (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "GDELT (inforum.com)",
+        "sourceUrl": "https://www.inforum.com/news/north-dakota/audit-finds-2-2m-in-errors-while-reviewing-north-dakota-child-care-assistance-program",
+        "publishedAt": "2026-11-25T02:15:00.000Z",
+        "discoveredAt": "2026-11-27T01:29:46.091Z",
+        "proposedPairing": {
+          "bountyId": "306",
+          "organization": "Freedom Service Dogs of America",
+          "keywordMatches": 3
+        },
+        "dedupeHash": "dbca8b691c9ba5466690a8a53e9981c84a4f9c369bab98b38a3c42c34ab423dc"
+      }
+    },
+    {
+      "id": "652",
+      "title": "Emmett native honors late son through new children book",
+      "category": "Accessibility & Universal Design",
+      "organization": "Room to Read",
+      "location": "United States",
+      "summary": "Community Radar current event: \"Emmett native honors late son through new children book\" (GDELT (idahopress.com), 2026-11-25). Proposed pairing with verified organization Room to Read (Projects bounty #105) — pending governance verification.",
+      "plainSummary": "• Cause: Emmett native honors late son through new children book\n• Resolution: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: http://www.idahopress.com/emmett/news/emmett-native-honors-late-son-through-new-childrens-book/article_a906e97b-e9c2-439a-9ec6-0a9057f825fd.html (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "GDELT (idahopress.com)",
+        "sourceUrl": "http://www.idahopress.com/emmett/news/emmett-native-honors-late-son-through-new-childrens-book/article_a906e97b-e9c2-439a-9ec6-0a9057f825fd.html",
+        "publishedAt": "2026-11-25T01:15:00.000Z",
+        "discoveredAt": "2026-11-27T01:29:46.328Z",
+        "proposedPairing": {
+          "bountyId": "105",
+          "organization": "Room to Read",
+          "keywordMatches": 3
+        },
+        "dedupeHash": "9daaba742a91e924a0b2733fbf35c2bceaef43e4845c7e7a3126565696680bc1"
+      }
+    },
+    {
+      "id": "653",
+      "title": "Special needs families face long waits , high costs",
+      "category": "Accessibility & Universal Design",
+      "organization": "The Hole in the Wall Gang Camp",
+      "location": "Malaysia",
+      "summary": "Community Radar current event: \"Special needs families face long waits , high costs\" (GDELT (thestar.com.my), 2026-11-25). Proposed pairing with verified organization The Hole in the Wall Gang Camp (Projects bounty #111) — pending governance verification.",
+      "plainSummary": "• Cause: Special needs families face long waits , high costs\n• Resolution: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://www.thestar.com.my/news/nation/2026/11/25/special-needs-families-face-long-waits-high-costs (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "GDELT (thestar.com.my)",
+        "sourceUrl": "https://www.thestar.com.my/news/nation/2026/11/25/special-needs-families-face-long-waits-high-costs",
+        "publishedAt": "2026-11-25T00:45:00.000Z",
+        "discoveredAt": "2026-11-27T01:29:46.537Z",
+        "proposedPairing": {
+          "bountyId": "111",
+          "organization": "The Hole in the Wall Gang Camp",
+          "keywordMatches": 2
+        },
+        "dedupeHash": "a1047dbf7fbe6e6d1bc3469dfdf8abcf7816f3ce4f4443ea1f7592ce80005db2"
+      }
+    },
+    {
+      "id": "654",
+      "title": "INTERACTIVE : More young children registered with learning disabilities amid greater awareness",
+      "category": "Accessibility & Universal Design",
+      "organization": "CHILDREN'S INTERNATIONAL LEARNING CENTRE (HAMILTON)",
+      "location": "Malaysia",
+      "summary": "Community Radar current event: \"INTERACTIVE : More young children registered with learning disabilities amid greater awareness\" (GDELT (thestar.com.my), 2026-11-25). Proposed pairing with verified organization CHILDREN'S INTERNATIONAL LEARNING CENTRE (HAMILTON) (Projects bounty #40297) — pending governance verification.",
+      "plainSummary": "• Cause: INTERACTIVE : More young children registered with learning disabilities amid greater awareness\n• Resolution: A verified organization pairing converts this event into a fundable, escrowed civic outcome.\n• Proof: https://www.thestar.com.my/news/nation/2026/11/25/interactive-more-young-children-registered-with-learning-disabilities-amid-greater-awareness (public reporting; verification trail in docs/data/event-queue.json)",
+      "votePriceUSD": 0.5,
+      "targetUSD": 500,
+      "fundedUSD": 0,
+      "votesCount": 0,
+      "wallet": "0x1e89ff2c2922528c8AcE8dB07F73ef979Ea76C08",
+      "status": "Proposed",
+      "lat": null,
+      "lng": null,
+      "radar": {
+        "sourceFeed": "GDELT (thestar.com.my)",
+        "sourceUrl": "https://www.thestar.com.my/news/nation/2026/11/25/interactive-more-young-children-registered-with-learning-disabilities-amid-greater-awareness",
+        "publishedAt": "2026-11-25T00:45:00.000Z",
+        "discoveredAt": "2026-11-27T01:29:46.779Z",
+        "proposedPairing": {
+          "bountyId": "40297",
+          "organization": "CHILDREN'S INTERNATIONAL LEARNING CENTRE (HAMILTON)",
+          "keywordMatches": 3
+        },
+        "dedupeHash": "d2654326f4ec3dc64bba7b93b7630de08f5f1d32190ecd5d0888a3ab2b710628"
+      }
+    },
+    {
       "id": "647",
       "title": "A Bangladeshi orphanage built on compassion struggles to keep its doors open",
       "category": "Classrooms",
@@ -1373,7 +1576,14 @@
     "6c5787c06d97e13ad247b42fca26a10ad490b16bba488c07a5992930101a7048",
     "50cde064d1991199ecdc22bcd1b8e998222f5efaf3a162c32d9b33bd65303efa",
     "63dcdcec5a98d21beda2337e404c140a23ddcd0390c0e695701052de3ac06cf2",
-    "f4740d119d2d1b990f1e5f029a9784022bb2c59043f8cf1a4f28b6502f5bd31f"
+    "f4740d119d2d1b990f1e5f029a9784022bb2c59043f8cf1a4f28b6502f5bd31f",
+    "8b43313cad102dd51480cbabe5e1e8f557850c4a8e0cf8b5db635ae2985b0c1c",
+    "9e709a9d5bf1425bdc234ef7fbc1d05f073932976106d8f83d1cd15b6831f7dc",
+    "91849077732d7eb61ea59032287d2fb7f953b82daea58edd41688b5bbe9802e4",
+    "dbca8b691c9ba5466690a8a53e9981c84a4f9c369bab98b38a3c42c34ab423dc",
+    "9daaba742a91e924a0b2733fbf35c2bceaef43e4845c7e7a3126565696680bc1",
+    "a1047dbf7fbe6e6d1bc3469dfdf8abcf7816f3ce4f4443ea1f7592ce80005db2",
+    "d2654326f4ec3dc64bba7b93b7630de08f5f1d32190ecd5d0888a3ab2b710628"
   ],
-  "nextId": 648
+  "nextId": 655
 }
