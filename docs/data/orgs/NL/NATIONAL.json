@@ -770,7 +770,7 @@
       },
       "website": null,
       "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
-      "last_verified_utc": "2026-11-26T21:38:14.551Z",
+      "last_verified_utc": "2026-11-27T08:40:36.994Z",
       "integrity_sha256": "5e61391c4e9f0d42de1cb46e86190626d47803780f8c54a8fa3096795d3bd734"
     },
     {
@@ -3198,7 +3198,8 @@
       "audit_signals": [
         "IATI_STANDARD_OPEN_DATA_PUBLISHER",
         "IATI_ORG_TYPE_22",
-        "IATI_DATASETS_PUBLISHED_11"
+        "IATI_DATASETS_PUBLISHED_11",
+        "IATI_DATASETS_PUBLISHED_12"
       ],
       "location": {
         "country_iso2": "NL",
@@ -3208,7 +3209,7 @@
       },
       "website": null,
       "source_authority": "International Aid Transparency Initiative (IATI Registry Open Data)",
-      "last_verified_utc": "2026-11-18T00:24:43.360Z",
+      "last_verified_utc": "2026-11-27T08:40:36.993Z",
       "integrity_sha256": "bd071ed59e12c1b75829c647b54e0b8721ca8e8ed3389db98d893e3da330a92c"
     },
     {
