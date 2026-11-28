@@ -1,11 +1,11 @@
 {
   "schema_version": "3.0.0",
-  "generated_at_utc": "2026-11-27T21:21:49.070Z",
-  "total_verified_orgs": 24108,
+  "generated_at_utc": "2026-11-28T07:54:07.554Z",
+  "total_verified_orgs": 24111,
   "total_shards": 108,
   "summary_metrics": {
-    "added_this_cycle": 0,
-    "updated_this_cycle": 4,
+    "added_this_cycle": 3,
+    "updated_this_cycle": 25,
     "irs_revoked_purged_this_cycle": 0
   },
   "shards": [
@@ -105,7 +105,7 @@
       "country_iso2": "BO",
       "admin1_state_province": "NATIONAL",
       "count": 3,
-      "sha256": "14e1d52a0a4144214464bf3c96eeeb989bab76e0a693fd0cb1b34eb63f637e3d"
+      "sha256": "4693111fd4602e76b37ca7c6cf1c885a95e3b120f6cded1ca74efb42448a16df"
     },
     {
       "shard": "orgs/BR/NATIONAL.json",
@@ -244,8 +244,8 @@
       "shard": "orgs/GB/ENG-WLS.json",
       "country_iso2": "GB",
       "admin1_state_province": "ENG-WLS",
-      "count": 5014,
-      "sha256": "34ceb9a3a8cef7360e5a3ddd5e836fa74c86bc7fd928e97e467d6e734e0a91a5"
+      "count": 5017,
+      "sha256": "751108f23b19e47c966224429f7d587a20384a3128f3cc2c00bd6a833c1946e3"
     },
     {
       "shard": "orgs/GB/NATIONAL.json",
@@ -511,7 +511,7 @@
       "country_iso2": "NL",
       "admin1_state_province": "NATIONAL",
       "count": 5661,
-      "sha256": "a65f8255deb8cd02be27c2b6cf7a5be405e90da5c4206ee77b76b0da2a753fc8"
+      "sha256": "60a0904e416a599479a51a335a777644f73478fac20d6192bed81a78da6c2679"
     },
     {
       "shard": "orgs/NO/NATIONAL.json",
@@ -609,7 +609,7 @@
       "country_iso2": "SE",
       "admin1_state_province": "NATIONAL",
       "count": 86,
-      "sha256": "ee8651a6fdb500c7e446d46fdafeb220a7564a41e884d5f0ad5a088c63f4c5ac"
+      "sha256": "9993d43ec8d2df1406c24d4256ff6dbd46446478f644dc6fd28cb709ad73e822"
     },
     {
       "shard": "orgs/SG/NATIONAL.json",
@@ -728,7 +728,7 @@
       "country_iso2": "US",
       "admin1_state_province": "NATIONAL",
       "count": 163,
-      "sha256": "811ad9b0ab0817aa8692cfff69003262818be00fb78fd1f92f40903abcb41af2"
+      "sha256": "3aa7563ca239781d172f6f945c72c9f07fac7b87ab599f772ee6b91d2936e4d3"
     },
     {
       "shard": "orgs/VN/NATIONAL.json",
